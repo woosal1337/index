@@ -1,0 +1,46 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    {
+      "source": "/og/:path*",
+      "destination": "https://index-media.chele.bi/og/:path*"
+    },
+    {
+      "source": "/shots/:path*",
+      "destination": "https://index-media.chele.bi/shots/:path*"
+    },
+    {
+      "source": "/tpl/:path*",
+      "destination": "https://index-media.chele.bi/tpl/:path*"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/og/:path*",
+      "headers": [
+        {
+          "key": "x-vercel-enable-rewrite-caching",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "source": "/shots/:path*",
+      "headers": [
+        {
+          "key": "x-vercel-enable-rewrite-caching",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "source": "/tpl/:path*",
+      "headers": [
+        {
+          "key": "x-vercel-enable-rewrite-caching",
+          "value": "1"
+        }
+      ]
+    }
+  ]
+}

@@ -36,7 +36,11 @@ console.log("Loading sources…");
 
 const imageDims = existsSync(p("data/dist/image-dims.json"))
   ? readJSON(p("data/dist/image-dims.json"))
-  : {};
+  : existsSync(p("data/media-manifest.json"))
+    ? readJSON(p("data/media-manifest.json"))
+    : {};
+const hasMedia = (mediaPath) =>
+  Boolean(imageDims[mediaPath]) || existsSync(p("public", mediaPath.slice(1)));
 const withDims = (path) => {
   const d = imageDims[path];
   return d ? { w: d[0], h: d[1] } : { w: null, h: null };
@@ -145,7 +149,7 @@ const resources = deduped.map((e) => {
       if (!u.startsWith("http")) return t;
       const key = sha1_16(u);
       const shot = `/tpl/${key}.webp`;
-      return existsSync(p("public/tpl", `${key}.webp`))
+      return hasMedia(shot)
         ? { ...t, shot, ...withDims(shot) }
         : t;
     }),
@@ -213,10 +217,10 @@ function safeHost(u) {
 
 let withImage = 0;
 for (const r of resources) {
-  r.hasImage = existsSync(p("public/og", `${r.imageKey}.webp`));
+  r.hasImage = hasMedia(`/og/${r.imageKey}.webp`);
   if (r.hasImage) withImage++;
 }
-console.log(`  thumbnails on disk: ${withImage}/${resources.length}`);
+console.log(`  thumbnails available: ${withImage}/${resources.length}`);
 
 const showcaseRaw = existsSync(p("data/showcase/refero.json"))
   ? readJSON(p("data/showcase/refero.json"))
@@ -226,7 +230,7 @@ const showcase = showcaseRaw.map((s) => ({
   ...s,
   shots: s.shots.map((sh) => ({
     ...sh,
-    local: existsSync(p("public/shots", `${sh.id}.webp`)) ? `/shots/${sh.id}.webp` : null,
+    local: hasMedia(`/shots/${sh.id}.webp`) ? `/shots/${sh.id}.webp` : null,
   })),
 }));
 

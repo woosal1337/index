@@ -38,6 +38,8 @@ test("the data build keeps references but excludes full source text", (t) => {
   const valid = JSON.parse(readFileSync("data/entries/links-00.json", "utf8"))[0];
   writeFileSync(join(root, "data/entries/links-00.json"), JSON.stringify([valid]));
   writeFileSync(join(root, "data/links.json"), "[]");
+  const imageKey = valid.id.replace(/[^A-Za-z0-9_-]/g, "_");
+  writeFileSync(join(root, "data/media-manifest.json"), JSON.stringify({ [`/og/${imageKey}.webp`]: [1200, 630] }));
   const reference = {
     id: valid.id, fetch_ok: true, author_handle: "example", author_name: "Example",
     title: "Source title", full_text: "ARTICLE_BODY_SENTINEL",
@@ -59,5 +61,6 @@ test("the data build keeps references but excludes full source text", (t) => {
     assert.equal(resource.article.author, "example");
     assert.deepEqual(resource.article.takeaways, ["A short summary."]);
     assert.equal(resource.instagram.author, "example");
+    assert.equal(resource.hasImage, true);
   }
 });

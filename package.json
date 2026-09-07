@@ -17,7 +17,8 @@
     "validate": "node scripts/validate.mjs",
     "check:release": "node scripts/check-release.mjs",
     "check": "npm run lint && npm test && npm run check:release && npm run build",
-    "data": "node scripts/webp-dims.mjs && node scripts/build-data.mjs"
+    "data": "node scripts/webp-dims.mjs && node scripts/build-data.mjs",
+    "media:manifest": "node scripts/webp-dims.mjs --write-manifest"
   },
   "dependencies": {
     "next": "15.5.25",
