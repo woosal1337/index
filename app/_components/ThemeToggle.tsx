@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { OA_EVENTS, track } from "../lib/analytics";
 
 export default function ThemeToggle() {
   const [light, setLight] = useState(false);
@@ -11,6 +12,7 @@ export default function ThemeToggle() {
 
   const toggle = () => {
     const next = !light;
+    track(OA_EVENTS.themeToggle, { theme: next ? "light" : "dark" });
     setLight(next);
     if (next) {
       localStorage.setItem("di-theme", "light");

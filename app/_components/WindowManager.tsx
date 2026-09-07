@@ -8,6 +8,7 @@ import {
   useRef,
   useState,
 } from "react";
+import { OA_EVENTS, track } from "../lib/analytics";
 
 export type OpenWindow = {
   id: string;
@@ -172,6 +173,7 @@ export default function WindowManager({ children }: { children: React.ReactNode 
 
       zRef.current += 1;
       openCount.current += 1;
+      if (snap) track(OA_EVENTS.windowOpen, { path: new URL(key, window.location.origin).pathname });
       setWindows((w) => [
         ...w,
         {

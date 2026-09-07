@@ -4,6 +4,7 @@ import { useDeferredValue, useEffect, useMemo, useState } from "react";
 import type { Row } from "../lib/rows";
 import { byTierThenName, ROW_FACETS } from "../lib/rows";
 import { labelize } from "../lib/text";
+import { OA_EVENTS, track } from "../lib/analytics";
 import ResourceGrid from "./ResourceGrid";
 import ResourceList from "./ResourceList";
 import { Btn } from "./primitives";
@@ -69,6 +70,7 @@ export default function Browser({
   }, []);
 
   const pickView = (next: View) => {
+    if (next !== view) track(OA_EVENTS.viewSwitch, { view: next });
     setView(next);
     if (next === "list") localStorage.setItem(VIEW_KEY, "list");
     else localStorage.removeItem(VIEW_KEY);
@@ -141,11 +143,13 @@ export default function Browser({
     return sorted;
   }, [rows, cat, tier, source, facets, dq, sort]);
 
-  const toggleFacet = (f: string, v: string) =>
+  const toggleFacet = (f: string, v: string) => {
+    track(OA_EVENTS.filterChange, { filter: f, value: v, enabled: !(facets[f] || []).includes(v) });
     setFacets((prev) => {
       const cur = prev[f] || [];
       return { ...prev, [f]: cur.includes(v) ? cur.filter((x) => x !== v) : [...cur, v] };
     });
+  };
 
   const moreCount = (tier ? 1 : 0) + (source ? 1 : 0) + Object.values(facets).reduce((s, v) => s + v.length, 0);
   const activeCount = moreCount + (cat && showCategories ? 1 : 0) + (dq ? 1 : 0);
@@ -218,7 +222,10 @@ export default function Browser({
                 dot={c.slug}
                 n={catCounts[c.slug]}
                 active={cat === c.slug}
-                onClick={() => setCat(cat === c.slug ? null : c.slug)}
+                onClick={() => {
+                  track(OA_EVENTS.filterChange, { filter: "category", value: c.slug, enabled: cat !== c.slug });
+                  setCat(cat === c.slug ? null : c.slug);
+                }}
               >
                 {c.name}
               </Btn>

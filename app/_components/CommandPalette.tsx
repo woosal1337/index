@@ -4,6 +4,7 @@ import { useEffect, useMemo, useRef, useState, type CSSProperties } from "react"
 import { createPortal } from "react-dom";
 import { useRouter } from "next/navigation";
 import { labelize } from "../lib/text";
+import { OA_EVENTS, track } from "../lib/analytics";
 
 type Item = {
   s: string;
@@ -78,6 +79,7 @@ export default function CommandPalette() {
     const trigger = document.activeElement;
     const dialog = dialogRef.current;
     dialog?.showModal();
+    track(OA_EVENTS.searchOpen);
     setQ("");
     setActive(0);
     loadIndex().then(setItems);
@@ -119,6 +121,7 @@ export default function CommandPalette() {
   }, [active]);
 
   const go = (slug: string) => {
+    track(OA_EVENTS.searchSelect, { resource: slug });
     setOpen(false);
     router.push(`/r/${slug}`);
   };

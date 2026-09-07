@@ -3,6 +3,7 @@
 import { useState } from "react";
 import type { Resource } from "../lib/types";
 import { buildPrompt } from "../lib/prompt";
+import { OA_EVENTS, track } from "../lib/analytics";
 import { Btn } from "./primitives";
 
 export default function CopyPrompt({ resource }: { resource: Resource }) {
@@ -13,6 +14,7 @@ export default function CopyPrompt({ resource }: { resource: Resource }) {
   const copy = async () => {
     try {
       await navigator.clipboard.writeText(prompt);
+      track(OA_EVENTS.promptCopy, { resource: resource.slug });
       setCopied(true);
       setTimeout(() => setCopied(false), 1800);
     } catch {

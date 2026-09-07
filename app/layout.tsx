@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import LayoutDebug from "./_components/LayoutDebug";
+import Analytics from "./_components/Analytics";
 import { getStats } from "./lib/data";
 import { catalogDescription, SITE_TITLE, siteOrigin } from "./lib/site";
 
@@ -31,6 +32,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </a>
         {children}
         <LayoutDebug />
+        <Analytics />
       </body>
     </html>
   );
