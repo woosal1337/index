@@ -22,11 +22,13 @@ test("the Docker build checks the media bucket with the other S3 settings", () =
 
 test("the Vercel deployment proxies only the three media paths", () => {
   const config = JSON.parse(readFileSync("vercel.json", "utf8"));
+  const exportCheck = readFileSync("scripts/check-export.mjs", "utf8");
   assert.deepEqual(config.rewrites, [
     { source: "/og/:path*", destination: "https://index-media.chele.bi/og/:path*" },
     { source: "/shots/:path*", destination: "https://index-media.chele.bi/shots/:path*" },
     { source: "/tpl/:path*", destination: "https://index-media.chele.bi/tpl/:path*" },
   ]);
+  assert.match(exportCheck, /mediaPaths\.has\(path\)/);
 });
 
 test("the data build keeps the tracked media inventory without local media", (t) => {

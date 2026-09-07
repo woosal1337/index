@@ -4,6 +4,10 @@ import { catalogDescription, siteOrigin, siteUrl } from "../app/lib/site.ts";
 
 const root = resolve("out");
 const failures = new Set();
+const manifestFile = resolve("data/media-manifest.json");
+const mediaPaths = existsSync(manifestFile)
+  ? new Set(Object.keys(JSON.parse(readFileSync(manifestFile, "utf8"))))
+  : new Set();
 let pages = 0;
 
 function walk(dir) {
@@ -31,7 +35,8 @@ function walk(dir) {
         const target = resolve(root, `.${path}`);
         const safe = target === root || target.startsWith(root + sep);
         const valid = safe && ((existsSync(target) && statSync(target).isFile())
-          || existsSync(join(target, "index.html")));
+          || existsSync(join(target, "index.html"))
+          || mediaPaths.has(path));
         if (!valid) failures.add(path);
       }
     }
