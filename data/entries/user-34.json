@@ -1,0 +1,227 @@
+[
+ {
+  "id": "user:0ce3d1e7e0198d60",
+  "slug": "torph",
+  "url": "https://torph.lochie.me",
+  "name": "Torph",
+  "tagline": "One animated text-morphing component for React, Vue and Svelte, MIT and with no runtime dependency",
+  "description": "Torph is a single component that morphs one string into another. Its own line: \"Text continuity for interfaces on the web.\" The demo morphs \"Processing Transaction\" into \"Running late, be there soon.\"\n\nIt ships for three frameworks from one package. The usage tabs show React, TypeScript, Vue and Svelte, and the peer dependencies name React 18, Vue 3 and Svelte 5.\n\nThe package carries no runtime dependency at all. It installs with `npm i torph` and the site gives the same line for pnpm, yarn and bun.\n\nLochie makes it. The repository lochie/torph sits at 1,157 stars under the MIT licence, and the last push was 7 September 2026. npm reports 252,168 downloads in the last month across 14 released versions.\n\nThe version is 0.1.3, so the API may still move.\n\nThe site carries a playground, examples and a showcase.",
+  "category": "motion-interaction",
+  "subcategory": "animated-components",
+  "kinds": [
+   "animation-library",
+   "component-library"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "vue",
+    "svelte"
+   ],
+   "styling": [
+    "unknown"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "cli-installable"
+   ],
+   "maturity": "beta"
+  },
+  "components": [
+   "text-effect",
+   "animation",
+   "transition"
+  ],
+  "component_count": 1,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npm i torph",
+  "package": "torph",
+  "docs_url": null,
+  "repo_url": "https://github.com/lochie/torph",
+  "registry_url": null,
+  "github": {
+   "stars": 1157,
+   "license": "MIT",
+   "last_activity": "2026-09-07"
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "pricing_detail": "Free and MIT. There is no paid tier.",
+  "agent_guidance": "Reach for this when a label changes in place and a hard swap reads as a glitch. A status line, a countdown, a streaming answer that settles.\n\nImport from the framework entry, not the root. The site shows `import { TextMorph } from 'torph/react'`, and Vue and Svelte have their own entries.\n\nIt costs nothing in dependencies. The package declares no runtime dependency, and React, Vue and Svelte are peers.\n\nPin the version. It sits at 0.1.3, so treat the props as unstable and read the repository before an upgrade.\n\nThe site publishes no llms.txt and no sitemap. Read the README in lochie/torph for the props.",
+  "why_it_matters": "A text morph is usually a bespoke animation or a whole motion runtime. This is one MIT component with no runtime dependency that works the same in React, Vue and Svelte.",
+  "quality_tier": "A",
+  "tier_reason": "1,157 stars, MIT, no runtime dependency, three frameworks from one package, and 252,168 downloads in the last month with a push on the day of checking. Held below S because it is one component at version 0.1.3, and the site publishes no llms.txt, no sitemap and no written prop reference.",
+  "notable_for": [
+   "one component, React, Vue and Svelte",
+   "no runtime dependency",
+   "1,157 stars, MIT",
+   "252,168 npm downloads last month",
+   "version 0.1.3, the API may still move"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-09-07",
+  "source": "user",
+  "evidence": "https://torph.lochie.me/ 200, 24,663 bytes. Title \"Torph • Dependency-Free Text Morphing\". The meta description reads \"Dependency-free animated text component.\" The page shows \"<TextMorph />\", the line \"Text continuity for interfaces on the web.\", a demo morphing \"Processing Transaction\" into \"Running late, be there soon.\", install tabs for npm, pnpm, yarn and bun with the command \"npm i torph\", usage tabs for React, TypeScript, Vue and Svelte showing \"import { TextMorph } from 'torph/react'\" and \"<TextMorph>Hello world</TextMorph>\", the credit \"Crafted for the web by Lochie\", the version \"v0.1.3\", and links named GitHub, Examples, Showcase and Playground. The npm registry for torph: latest 0.1.3, licence MIT, no dependencies, peer dependencies react >=18, react-dom >=18, svelte >=5 and vue >=3, 14 versions, created 2025-10-12, modified 2026-09-07, keywords react, vue, svelte, text, animation, morph, repository git+https://github.com/lochie/torph.git. npm downloads for the last month: 252,168. GitHub API for lochie/torph: 1,157 stars, 25 forks, licence MIT, last push 2026-09-07. /llms.txt returns 404, /sitemap.xml returns 404 and /zzz-not-a-page returns 404, so the site has no catch-all route."
+ },
+ {
+  "id": "user:4bbc076756a474f4",
+  "slug": "libraries-dev",
+  "url": "https://libraries.dev",
+  "name": "Libraries.dev",
+  "tagline": "Five MIT React effect libraries built for coding agents, each shipping a copy-paste prompt, at about 2M npm downloads a month",
+  "description": "Libraries.dev publishes five React effect libraries and points them at coding agents. Its own heading: \"High-crafted UI libraries for AI agents.\"\n\nThe five, with their npm names: Beam is border-beam, a rainbow glow riding the border of any element. Orb is thinking-orbs, thought-orb loading states for AI interfaces. Gooey is liquid-gooey, pieces that merge and morph like goo. Metal is metal-fx, a liquid-metal WebGL ring around buttons and icons. Image is img-fx, a WebGL image-generation loader for cards.\n\nAll five are MIT and free on npm. Each declares no runtime dependency, except img-fx which needs three as a peer. The site puts all five together at about 83 KB gzipped, and they need React 18 or newer.\n\nThe agent path is the point. Every library page carries a Copy prompt button that packs the install line, the usage and every prop into one paste for Claude Code, Cursor or Codex.\n\nnpm reports 1,999,426 downloads across the five in the last month. The site states \"2,300,000+ installs\".\n\nJakub Antalik makes it, with Alexandr Brinza on Orbs and Martin Petercak on Metal.\n\nA Pro plan unlocks a Studio for deeper tuning, presets, and a skill for a coding agent.",
+  "category": "motion-interaction",
+  "subcategory": "animated-components",
+  "kinds": [
+   "animation-library",
+   "component-library",
+   "prompt-pack"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "unknown"
+   ],
+   "license": [
+    "mit",
+    "commercial"
+   ],
+   "pricing": [
+    "free",
+    "open-source",
+    "freemium",
+    "subscription",
+    "one-time",
+    "account-required"
+   ],
+   "distribution": [
+    "npm-package",
+    "web-app",
+    "agent-skill"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code",
+    "prompts"
+   ],
+   "agent_readiness": [
+    "copy-prompt",
+    "agent-skill",
+    "cli-installable",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "animation",
+   "spinner",
+   "typing-indicator",
+   "hover-effect",
+   "generated-image",
+   "card"
+  ],
+  "component_count": 5,
+  "surfaces": [
+   "ai-chat-panel",
+   "homepage"
+  ],
+  "templates": [
+   {
+    "name": "Beam",
+    "url": "https://libraries.dev/beam",
+    "purpose": "border-beam: a rainbow glow riding the border of any element"
+   },
+   {
+    "name": "Gooey",
+    "url": "https://libraries.dev/gooey",
+    "purpose": "liquid-gooey: pieces that merge and morph like goo"
+   },
+   {
+    "name": "Metal",
+    "url": "https://libraries.dev/metal",
+    "purpose": "metal-fx: a liquid-metal WebGL ring around buttons and icons"
+   },
+   {
+    "name": "Image",
+    "url": "https://libraries.dev/image",
+    "purpose": "img-fx: a WebGL image-generation loader for cards"
+   },
+   {
+    "name": "How to use",
+    "url": "https://libraries.dev/how-to-use",
+    "purpose": "The three-step agent flow and the table of all five libraries"
+   }
+  ],
+  "template_count": 5,
+  "install": "npm install border-beam",
+  "package": "border-beam",
+  "docs_url": "https://libraries.dev/how-to-use",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 5,
+   "blocks": null
+  },
+  "pricing_detail": "The five libraries are MIT and free on npm, and the site says they stay free. Pro is a separate plan for the Studio, the presets and the agent skill. Solo costs $9 a month, $90 a year, or $149 once. Team costs $39 a month, $390 a year, or $499 once. Pro adds a commercial licence for unlimited projects, client work included.",
+  "agent_guidance": "Install from npm by the package name, not the display name. The five are border-beam, thinking-orbs, liquid-gooey, metal-fx and img-fx. The site calls them Beam, Orb, Gooey, Metal and Image.\n\nUse the Copy prompt button on a library page. It hands you the install line, the usage and the full prop vocabulary in one paste, which is faster and more exact than reading the playground.\n\nAdd three as a peer only for img-fx. The other four declare no runtime dependency at all.\n\nBudget about 83 KB gzipped for all five, and React 18 or newer. The default theme is \"auto\", so light and dark resolve without a prop.\n\nDo not trust a status code from this host. It has a catch-all route: /zzz-not-a-page returns 200, and /llms.txt and /sitemap.xml both return the HTML shell rather than a file. Real pages include /beam, /gooey, /metal, /image, /how-to-use, /studio and /pro.",
+  "why_it_matters": "It is the clearest example of a component library designed around the agent rather than the reader: every effect ships as a prompt, and the paid tier sells a skill that teaches an agent the parameter vocabulary. Two million npm downloads a month say the approach works.",
+  "quality_tier": "A",
+  "tier_reason": "Five MIT libraries at 1,999,426 npm downloads in the last month, every one with no runtime dependency, a per-library copy-prompt for coding agents, live playgrounds and a stated bundle cost. Held below S because the site publishes no llms.txt and no sitemap, and a catch-all route returns 200 for any path, so an agent cannot tell a real page from a missing one.",
+  "notable_for": [
+   "five MIT React effect libraries",
+   "about 2M npm downloads a month",
+   "every library ships as a copy-paste agent prompt",
+   "no runtime dependency, about 83 KB for all five",
+   "a catch-all route returns 200 for any path"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-09-07",
+  "source": "user",
+  "evidence": "https://libraries.dev/ 200, 86,250 bytes. Title \"Libraries.dev: High-crafted UI libraries for AI agents\". The meta description reads \"Home of the UI effect libraries Beam, Orb, Gooey, Metal and Image. Production-ready React effects you can install from npm.\" The page shows \"2,300,000+ installs\", the heading \"High-crafted UI libraries for AI agents\", and the five libraries with their descriptions: Border beam \"Animated rainbow glow riding any border\", Thinking orbs \"Thought-orb loading states for AI interfaces\", Gooey \"Liquid UI: pieces merge and morph like goo\", Liquid Metal \"Real-time chrome ring for buttons and icons\", Image generation \"WebGL image-generation loader for cards\". The FAQ states \"All five libraries (Beam, Orb, Gooey, Metal and Image) are MIT-licensed and free on npm\" and names the packages border-beam, thinking-orbs, liquid-gooey, metal-fx and img-fx. It also states \"React 18 or newer. Each library is a standalone package with zero runtime dependencies, except Image generation which also needs three as a peer dependency. All five together weigh about 83 KB gzipped.\" The three-step section reads \"Every library ships as a prompt. One copy, and your coding agent builds it in: Claude Code, Cursor or Codex.\" https://libraries.dev/how-to-use 200 at 40,153 bytes and carries the five-library table plus the line \"each playground has a copy-prompt button that hands your agent the library's full parameter vocabulary along with your current settings\" and \"The default theme=\\\"auto\\\" resolves\". Its footer credits \"Created by Jakub Antalik\" and \"Made with help from Alexandr Brinza (Orbs) and Martin Petercak (Metal)\". https://libraries.dev/pro 200 at 238,942 bytes and lists Monthly, Annual and Lifetime with Solo at $9/mo and Team, plus the strings $9, $90, $149, $39, $390 and $499, and the lines \"Studio access: deep customization of all five libraries, with an AI coding agent\", \"Commercial license, unlimited projects\" and \"plus presets, recipes and the Pro skill for your coding agent\". npm registry: border-beam 1.3.0 MIT no dependencies created 2026-04-12, thinking-orbs 0.3.1 MIT created 2026-07-21, liquid-gooey 0.2.1 MIT created 2026-08-11, metal-fx 2.0.10 MIT created 2026-05-04, img-fx 0.5.1 MIT created 2026-05-16. npm downloads for the last month: border-beam 499,760, thinking-orbs 1,331,345, liquid-gooey 22,583, metal-fx 63,577, img-fx 82,161, which sums to 1,999,426. Catch-all check: /zzz-not-a-page returns 200 with the site HTML, and /llms.txt and /sitemap.xml both return the same HTML shell rather than a file, so neither exists. /pricing, /libraries, /border-beam, /thinking-orbs and /orb all return the 86,250-byte home page, while /beam 30,124, /gooey 26,799, /metal 26,892, /image 25,252, /studio 34,178 and /how-to-use 40,153 are distinct pages. The home page quotes Guillermo Rauch, Des Traynor, Kris Puckett, Adam Whitcroft, Yasir and Tran Mau Tri Tam."
+ }
+]
