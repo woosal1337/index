@@ -1,0 +1,885 @@
+[
+  {
+    "id": "canon:de4af5e1387113d53834",
+    "slug": "tailwind-plus",
+    "url": "https://tailwindui.com",
+    "name": "Tailwind Plus",
+    "tagline": "500+ paid Tailwind UI blocks, 13 Next.js templates and the Catalyst React kit",
+    "description": "Tailwind Plus is the commercial product from the Tailwind CSS team, formerly sold as Tailwind UI; tailwindui.com now 301-redirects to tailwindcss.com/plus. It sells 500+ copy-paste UI blocks in React, Vue and plain HTML across Marketing, Application UI and Ecommerce, 13 complete Next.js site templates, and Catalyst, a polished React UI kit. It is a one-time purchase with lifetime updates, aimed at teams who want production-grade Tailwind markup without designing it themselves.",
+    "category": "blocks-templates-themes",
+    "subcategory": "page-blocks",
+    "kinds": [
+      "block-collection",
+      "template",
+      "component-library"
+    ],
+    "facets": {
+      "framework": [
+        "react",
+        "vue",
+        "vanilla",
+        "next"
+      ],
+      "styling": [
+        "tailwind-v4",
+        "tailwind-any"
+      ],
+      "license": [
+        "commercial",
+        "proprietary"
+      ],
+      "pricing": [
+        "one-time",
+        "paid",
+        "account-required"
+      ],
+      "distribution": [
+        "download",
+        "web-app",
+        "copy-paste"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "built-on-accessible-primitives",
+        "keyboard-navigable"
+      ],
+      "content_type": [
+        "code"
+      ],
+      "agent_readiness": [
+        "auth-required",
+        "agent-paywalled"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "hero",
+      "pricing-table",
+      "footer",
+      "header",
+      "navigation-menu",
+      "mega-menu",
+      "banner",
+      "error-page",
+      "accordion",
+      "quote",
+      "logo",
+      "table",
+      "feed",
+      "form",
+      "select",
+      "radio-group",
+      "checkbox",
+      "combobox",
+      "navbar",
+      "pagination",
+      "sidebar",
+      "command-palette",
+      "modal",
+      "dropdown-menu",
+      "button",
+      "product-card",
+      "product-listing",
+      "product-gallery",
+      "cart",
+      "checkout",
+      "order-summary",
+      "review",
+      "filter-panel"
+    ],
+    "component_count": null,
+    "surfaces": [
+      "homepage",
+      "features",
+      "pricing-website",
+      "pricing-web-app",
+      "404",
+      "blog",
+      "about",
+      "team",
+      "contact-us",
+      "adding-to-cart",
+      "cart-website",
+      "checkout",
+      "order-status",
+      "search-results",
+      "filtering-items",
+      "settings-web-app",
+      "command-palette",
+      "feed",
+      "admin-panel"
+    ],
+    "templates": [
+      {
+        "name": "Spotlight",
+        "url": "https://tailwindcss.com/plus/templates",
+        "purpose": "Personal portfolio / blog site in Next.js"
+      },
+      {
+        "name": "Salient",
+        "url": "https://tailwindcss.com/plus/templates",
+        "purpose": "SaaS marketing landing page"
+      },
+      {
+        "name": "Studio",
+        "url": "https://tailwindcss.com/plus/templates",
+        "purpose": "Agency / studio marketing site"
+      },
+      {
+        "name": "Protocol",
+        "url": "https://tailwindcss.com/plus/templates",
+        "purpose": "API reference documentation site"
+      },
+      {
+        "name": "Syntax",
+        "url": "https://tailwindcss.com/plus/templates",
+        "purpose": "Product documentation site"
+      },
+      {
+        "name": "Commit",
+        "url": "https://tailwindcss.com/plus/templates",
+        "purpose": "Changelog / release-notes site"
+      },
+      {
+        "name": "Pocket",
+        "url": "https://tailwindcss.com/plus/templates",
+        "purpose": "Mobile app marketing site"
+      },
+      {
+        "name": "Transmit",
+        "url": "https://tailwindcss.com/plus/templates",
+        "purpose": "Podcast site"
+      },
+      {
+        "name": "Keynote",
+        "url": "https://tailwindcss.com/plus/templates",
+        "purpose": "Conference / event site"
+      },
+      {
+        "name": "Radiant",
+        "url": "https://tailwindcss.com/plus/templates",
+        "purpose": "Startup marketing site"
+      },
+      {
+        "name": "Compass",
+        "url": "https://tailwindcss.com/plus/templates",
+        "purpose": "Online course landing page"
+      },
+      {
+        "name": "Primer",
+        "url": "https://tailwindcss.com/plus/templates",
+        "purpose": "Ebook / lead-magnet landing page"
+      },
+      {
+        "name": "Oatmeal",
+        "url": "https://tailwindcss.com/plus/templates",
+        "purpose": "Ecommerce storefront"
+      }
+    ],
+    "template_count": 13,
+    "install": null,
+    "package": null,
+    "docs_url": "https://tailwindcss.com/plus/ui-blocks",
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": "Personal $299 one-time (single developer); Teams $979 one-time (up to 25 people). Lifetime access, free updates, 30-day refund. Student / low-income discount by request. Reselling, derivative component libraries and page builders are prohibited.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": 500
+    },
+    "agent_guidance": "You cannot read the block source without a paid login, so never claim to have copied a Tailwind Plus block — only the marketing shell and the category names are public. Treat it as a design reference for what a section should contain (a hero has eyebrow, headline, sub, dual CTA, screenshot) and then build the markup yourself, or reach for HyperUI or shadcn/ui blocks when the user needs code you can actually fetch. If the user already owns it, ask them to paste the block; do not guess at Catalyst's API.",
+    "why_it_matters": "It is the reference standard for Tailwind markup quality and the source most other block libraries are imitating, which makes its category taxonomy worth knowing even when the code is out of reach.",
+    "quality_tier": "A",
+    "notable_for": [
+      "500+ blocks in React, Vue and HTML",
+      "13 Next.js site templates",
+      "Catalyst React UI kit",
+      "one-time $299 / $979 licence",
+      "by the Tailwind CSS team"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-16",
+    "evidence": "https://tailwindui.com (301 -> tailwindcss.com/plus), https://tailwindcss.com/plus. Block and template counts, category names and prices read from the public marketing page; block source itself is behind purchase and was not read.",
+    "source": "canon"
+  },
+  {
+    "id": "canon:8d67a8c61e4331da71a1",
+    "slug": "hyperui",
+    "url": "https://hyperui.dev",
+    "name": "HyperUI",
+    "tagline": "537 free MIT Tailwind blocks across application, marketing and neobrutalism sets",
+    "description": "HyperUI is Mark Mead's free, MIT-licensed collection of copy-paste Tailwind CSS components. It ships 537 blocks across 66 categories in three sets: Application (34 categories, 295 blocks), Marketing (21 categories, 168 blocks) and Neobrutalism (11 categories, 74 blocks), plus small in-browser tools for dark-mode variants and typography scales. It is the pragmatic free counterpart to Tailwind Plus for anyone building a dashboard, landing page or storefront in plain Tailwind markup.",
+    "category": "blocks-templates-themes",
+    "subcategory": "page-blocks",
+    "kinds": [
+      "block-collection",
+      "component-library"
+    ],
+    "facets": {
+      "framework": [
+        "vanilla"
+      ],
+      "styling": [
+        "tailwind-any"
+      ],
+      "license": [
+        "mit"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "copy-paste",
+        "github-repo"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "semantic-html",
+        "unknown"
+      ],
+      "content_type": [
+        "code"
+      ],
+      "agent_readiness": [
+        "copy-paste-ready",
+        "open-source-code",
+        "bot-blocked"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "accordion",
+      "badge",
+      "breadcrumbs",
+      "button-group",
+      "button",
+      "chart",
+      "checkbox",
+      "description-list",
+      "separator",
+      "dropdown-menu",
+      "empty-state",
+      "file-upload",
+      "filter-panel",
+      "grid",
+      "text-input",
+      "textarea",
+      "spinner",
+      "image",
+      "modal",
+      "pagination",
+      "progress-bar",
+      "quantity-stepper",
+      "radio-group",
+      "slider",
+      "select",
+      "sidebar",
+      "skip-link",
+      "stat",
+      "progress-stepper",
+      "table",
+      "tabs",
+      "timeline",
+      "toast",
+      "switch",
+      "navigation-menu",
+      "announcement-bar",
+      "banner",
+      "card",
+      "card-grid",
+      "cart",
+      "form",
+      "footer",
+      "header",
+      "logo",
+      "pricing-table",
+      "product-card",
+      "product-listing",
+      "survey",
+      "section",
+      "alert"
+    ],
+    "component_count": 537,
+    "surfaces": [
+      "homepage",
+      "features",
+      "pricing-website",
+      "blog",
+      "contact-us",
+      "team",
+      "faq",
+      "empty-state",
+      "404",
+      "filtering-items",
+      "search-results",
+      "analytics",
+      "settings-web-app",
+      "admin-panel",
+      "adding-to-cart",
+      "cart-website",
+      "uploading-media",
+      "multi-step-form",
+      "submitting-a-form",
+      "notifications"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": "https://www.hyperui.dev/components/application",
+    "repo_url": "https://github.com/markmead/hyperui",
+    "registry_url": null,
+    "github": {
+      "stars": 12195,
+      "license": "MIT",
+      "last_activity": "2026-07-22"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": 537
+    },
+    "agent_guidance": "Reach for HyperUI when you need a whole marketing section or dashboard panel in plain Tailwind HTML with no runtime dependency — it is the free stand-in for Tailwind Plus and the markup is MIT, so you can ship it. hyperui.dev returns 403 to plain fetchers, so pull the source from the markmead/hyperui repo rather than the site, and add your own JS: these are static markup, so accordions, modals, dropdowns and toasts have no behaviour until you wire Alpine, Headless UI or your own state.",
+    "why_it_matters": "The largest genuinely free Tailwind block library still under active maintenance, and the only one at this scale you can relicense into client work without a purchase.",
+    "quality_tier": "A",
+    "notable_for": [
+      "537 blocks in 66 categories",
+      "MIT licensed, no attribution",
+      "distinct neobrutalism set",
+      "12k GitHub stars",
+      "no JS framework required"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-16",
+    "evidence": "https://hyperui.dev (403 to WebFetch; fetched via curl with a browser UA at https://www.hyperui.dev/), https://www.hyperui.dev/components/application, /components/marketing, /components/neobrutalism, GitHub API for markmead/hyperui. Counts summed from the per-category counts printed on each index page.",
+    "source": "canon"
+  },
+  {
+    "id": "canon:30cb6e32f70c465c38c1",
+    "slug": "park-ui",
+    "url": "https://park-ui.com",
+    "name": "Park UI",
+    "tagline": "59 styled Ark UI components delivered by CLI, themed with Panda CSS",
+    "description": "Park UI is a design-system starter that puts a styled Panda CSS layer on top of Ark UI's headless primitives, from the Chakra UI org. Its CLI copies 59 components into your project shadcn-style rather than installing them as a dependency, so you own and can edit the source; it works in React, Solid and Vue and ships a matching Figma kit. It suits teams who want to build their own design system on accessible primitives instead of adopting someone else's opinionated theme.",
+    "category": "component-libraries",
+    "subcategory": "cross-framework-and-native",
+    "kinds": [
+      "component-library",
+      "registry"
+    ],
+    "facets": {
+      "framework": [
+        "react",
+        "solid",
+        "vue"
+      ],
+      "styling": [
+        "panda",
+        "css-variables"
+      ],
+      "license": [
+        "mit"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "cli",
+        "copy-paste",
+        "npm-package",
+        "github-repo",
+        "figma-file"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "built-on-accessible-primitives",
+        "keyboard-navigable",
+        "focus-managed"
+      ],
+      "content_type": [
+        "code",
+        "design-tokens",
+        "figma"
+      ],
+      "agent_readiness": [
+        "cli-installable",
+        "copy-paste-ready",
+        "open-source-code",
+        "structured-docs"
+      ],
+      "maturity": "stable"
+    },
+    "components": [
+      "accordion",
+      "alert",
+      "avatar",
+      "badge",
+      "breadcrumbs",
+      "button",
+      "card",
+      "carousel",
+      "checkbox",
+      "copy-button",
+      "close-button",
+      "code-block",
+      "collapsible",
+      "color-picker",
+      "combobox",
+      "date-picker",
+      "dialog",
+      "drawer",
+      "inline-edit",
+      "fieldset",
+      "label",
+      "file-upload",
+      "heading",
+      "hover-card",
+      "icon",
+      "icon-button",
+      "text-input",
+      "input-group",
+      "kbd",
+      "link",
+      "dropdown-menu",
+      "number-input",
+      "pagination",
+      "otp-input",
+      "popover",
+      "progress-bar",
+      "radio-group",
+      "rating-input",
+      "scroll-area",
+      "segmented-control",
+      "select",
+      "skeleton",
+      "slider",
+      "spinner",
+      "split-view",
+      "switch",
+      "table",
+      "tabs",
+      "tag-input",
+      "typography",
+      "textarea",
+      "toast",
+      "toggle-group",
+      "tooltip",
+      "center"
+    ],
+    "component_count": 59,
+    "surfaces": [
+      "settings-web-app",
+      "account-web-app",
+      "login-web-app",
+      "sign-up",
+      "multi-step-form",
+      "submitting-a-form",
+      "showing-input-error",
+      "filtering-items",
+      "search-results",
+      "single-item-detail",
+      "notifications",
+      "in-app-notifications",
+      "admin-panel",
+      "user-management",
+      "invite",
+      "uploading-media",
+      "command-palette"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": "npx @park-ui/cli init",
+    "package": "@park-ui/cli",
+    "docs_url": "https://park-ui.com/docs/installation",
+    "repo_url": "https://github.com/chakra-ui/park-ui",
+    "registry_url": null,
+    "github": {
+      "stars": 2353,
+      "license": "MIT",
+      "last_activity": "2026-04-10"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Only choose Park UI when the project is already on Panda CSS — it is a hard prerequisite, you must run `panda codegen` after config changes, and retrofitting Panda onto a Tailwind codebase is a bigger job than the component gain is worth. If the user wants shadcn ergonomics on Tailwind, use shadcn/ui; if they want the same primitives with their own styling in Vue, Solid or Svelte, drop a level to Ark UI directly. Note the repo's last push is a few months old, so verify the CLI still matches the current Ark UI major before you scaffold.",
+    "why_it_matters": "The clearest worked example of the Ark UI plus Panda stack, and one of the few shadcn-style CLIs that is genuinely multi-framework rather than React-only.",
+    "quality_tier": "B",
+    "notable_for": [
+      "59 components via copy-in CLI",
+      "built on Ark UI plus Panda CSS",
+      "React, Solid and Vue",
+      "Figma kit included",
+      "maintained under the Chakra UI org"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-16",
+    "evidence": "https://park-ui.com, https://park-ui.com/docs/installation, https://park-ui.com/sitemap.xml (59 unique /docs/components/* pages, enumerated), npm registry for @park-ui/cli, GitHub API for chakra-ui/park-ui. /docs/components and /docs/panda/overview/introduction both 404.",
+    "source": "canon"
+  },
+  {
+    "id": "canon:de8c8672dcdc01946667",
+    "slug": "ark-ui",
+    "url": "https://ark-ui.com",
+    "name": "Ark UI",
+    "tagline": "49 headless components with one API across React, Vue, Solid and Svelte",
+    "description": "Ark UI is a headless component library from the Chakra UI team that ships zero styles: it gives you the accessibility, keyboard behaviour and state logic, and you bring the CSS. The same 49 components expose an identical compound-component API in React, Vue, Solid and Svelte, so a design system built on it can cross frameworks without a rewrite. It is the foundation under Chakra UI v3 and Park UI, and the right base when you intend to own your visual layer completely.",
+    "category": "component-libraries",
+    "subcategory": "headless-primitives",
+    "kinds": [
+      "primitive",
+      "component-library"
+    ],
+    "facets": {
+      "framework": [
+        "react",
+        "vue",
+        "solid",
+        "svelte"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "mit"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "npm-package",
+        "github-repo"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "aria-complete",
+        "keyboard-navigable",
+        "focus-managed",
+        "rtl-support",
+        "built-on-accessible-primitives"
+      ],
+      "content_type": [
+        "code"
+      ],
+      "agent_readiness": [
+        "llms-txt",
+        "structured-docs",
+        "open-source-code",
+        "cli-installable"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "accordion",
+      "avatar",
+      "carousel",
+      "checkbox",
+      "copy-button",
+      "collapsible",
+      "color-picker",
+      "combobox",
+      "date-input",
+      "date-picker",
+      "dialog",
+      "drawer",
+      "inline-edit",
+      "label",
+      "fieldset",
+      "file-upload",
+      "floating-window",
+      "hover-card",
+      "image-cropper",
+      "listbox",
+      "marquee",
+      "dropdown-menu",
+      "number-input",
+      "pagination",
+      "password-input",
+      "otp-input",
+      "popover",
+      "progress-bar",
+      "qr-code",
+      "radio-group",
+      "rating-input",
+      "scroll-area",
+      "segmented-control",
+      "select",
+      "signature-pad",
+      "slider",
+      "split-view",
+      "progress-stepper",
+      "switch",
+      "tabs",
+      "tag-input",
+      "countdown",
+      "toast",
+      "toggle-button",
+      "toggle-group",
+      "tooltip",
+      "coachmark",
+      "tree-view"
+    ],
+    "component_count": 49,
+    "surfaces": [
+      "settings-web-app",
+      "account-web-app",
+      "login-web-app",
+      "sign-up",
+      "two-factor-authentication",
+      "multi-step-form",
+      "submitting-a-form",
+      "showing-input-error",
+      "uploading-media",
+      "filtering-items",
+      "search-results",
+      "single-item-detail",
+      "onboarding-web-app",
+      "onboarding-checklist",
+      "notifications",
+      "in-app-notifications",
+      "admin-panel",
+      "user-management",
+      "data-export"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": "npm install @ark-ui/react",
+    "package": "@ark-ui/react",
+    "docs_url": "https://ark-ui.com/llms.txt",
+    "repo_url": "https://github.com/chakra-ui/ark",
+    "registry_url": null,
+    "github": {
+      "stars": 5344,
+      "license": "MIT",
+      "last_activity": "2026-08-13"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Prefer Ark UI over Radix when the target is Vue, Solid or Svelte, or when one design system must span several of them — Radix is React-only and Ark's API is identical across all four packages (@ark-ui/react, /vue, /solid, /svelte, all on 5.x except svelte at 5.23). Expect to write every line of CSS yourself: nothing renders styled, so pair it with Panda, Tailwind or your token layer, or use Park UI if you want that layer pre-built. Fetch https://ark-ui.com/llms.txt for the machine-readable doc index instead of scraping the site.",
+    "why_it_matters": "The strongest cross-framework answer to Radix, and the accessibility engine that Chakra v3, Park UI and a growing number of in-house systems are built on.",
+    "quality_tier": "S",
+    "notable_for": [
+      "49 components, identical API in 4 frameworks",
+      "state machines via Zag under the hood",
+      "completely unstyled by design",
+      "llms.txt for agents",
+      "MIT, weekly releases"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-16",
+    "evidence": "https://ark-ui.com (homepage claims '45+ accessible components'), https://ark-ui.com/sitemap.xml (49 unique component doc slugs, enumerated), https://ark-ui.com/llms.txt, npm registry for @ark-ui/react, /vue, /solid, /svelte, GitHub API for chakra-ui/ark. /docs/react/overview/installation 404s; install command taken from the npm package name.",
+    "source": "canon"
+  },
+  {
+    "id": "canon:8f5c4e1cb7a815cb3ee7",
+    "slug": "tamagui",
+    "url": "https://tamagui.dev",
+    "name": "Tamagui",
+    "tagline": "Universal React styling engine, optimizing compiler and ~48 components for web and native",
+    "description": "Tamagui is three things in one: Core, a roughly 24KB typed style library for React and React Native; Static, a compiler that does partial evaluation, CSS extraction and tree flattening so styles cost nothing at runtime on web; and a UI kit of about 48 documented components. It targets teams shipping one codebase to iOS, Android and web who refuse to accept the usual performance penalty of React Native Web. The core is MIT and open source; Takeout, a paid Pro starter kit built on Tamagui, One and Zero, funds the project.",
+    "category": "component-libraries",
+    "subcategory": "cross-framework-and-native",
+    "kinds": [
+      "component-library",
+      "primitive",
+      "tool"
+    ],
+    "facets": {
+      "framework": [
+        "react",
+        "react-native",
+        "next"
+      ],
+      "styling": [
+        "css-in-js",
+        "native-styles",
+        "css-variables"
+      ],
+      "license": [
+        "mit",
+        "commercial"
+      ],
+      "pricing": [
+        "free",
+        "open-source",
+        "paid",
+        "sponsor-supported"
+      ],
+      "distribution": [
+        "npm-package",
+        "cli",
+        "github-repo"
+      ],
+      "platform": [
+        "web",
+        "ios",
+        "android",
+        "cross-platform"
+      ],
+      "accessibility": [
+        "claimed-accessible",
+        "keyboard-navigable",
+        "focus-managed"
+      ],
+      "content_type": [
+        "code",
+        "design-tokens"
+      ],
+      "agent_readiness": [
+        "llms-txt",
+        "structured-docs",
+        "open-source-code",
+        "cli-installable"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "accordion",
+      "alert-dialog",
+      "link",
+      "avatar",
+      "button",
+      "card",
+      "checkbox",
+      "context-menu",
+      "dialog",
+      "focus-trap",
+      "form",
+      "stack",
+      "heading",
+      "image",
+      "text-input",
+      "label",
+      "gradient-background",
+      "list",
+      "icon",
+      "dropdown-menu",
+      "popover",
+      "portal",
+      "progress-bar",
+      "radio-group",
+      "scroll-area",
+      "select",
+      "separator",
+      "sheet",
+      "slider",
+      "spinner",
+      "switch",
+      "tabs",
+      "typography",
+      "toast",
+      "toggle-group",
+      "tooltip",
+      "visually-hidden",
+      "theme-provider",
+      "animation",
+      "transition",
+      "safe-area"
+    ],
+    "component_count": 48,
+    "surfaces": [
+      "onboarding-mobile",
+      "login-mobile",
+      "settings-mobile",
+      "account-mobile",
+      "chat-mobile",
+      "tab-bar-navigation",
+      "gesture-navigation",
+      "action-sheet",
+      "search-mobile",
+      "feed",
+      "single-item-detail",
+      "notifications",
+      "uploading-media",
+      "camera-capture",
+      "multi-step-form",
+      "submitting-a-form",
+      "billing-mobile",
+      "paywall",
+      "force-update",
+      "offline-state"
+    ],
+    "templates": [
+      {
+        "name": "Takeout (Pro starter)",
+        "url": "https://tamagui.dev/takeout",
+        "purpose": "Paid universal starter: One framework, Zero sync, Better Auth, Postgres + Drizzle, 46+ CLI scripts, 50+ UI primitives"
+      },
+      {
+        "name": "Takeout Free",
+        "url": "https://tamagui.dev/takeout",
+        "purpose": "Free OSS tier of the starter with a reduced feature set"
+      }
+    ],
+    "template_count": 2,
+    "install": "npm create tamagui@latest",
+    "package": "tamagui",
+    "docs_url": "https://tamagui.dev/llms.txt",
+    "repo_url": "https://github.com/tamagui/tamagui",
+    "registry_url": null,
+    "github": {
+      "stars": 14133,
+      "license": "MIT",
+      "last_activity": "2026-08-15"
+    },
+    "pricing_detail": "Core, compiler and UI kit are free and MIT. Takeout is a paid Pro starter kit sold through GitHub sponsorship with a free OSS tier; the exact price is rendered client-side and was not readable from the fetched page.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Reach for Tamagui only when the target is genuinely universal — one React codebase for iOS, Android and web — because the compiler setup (Metro, Next, Vite or Expo plugins plus a tamagui.config) is real work you should not impose on a web-only project where Tailwind plus shadcn/ui or HeroUI wins outright. Its llms.txt is a full ~1MB dump of every doc page including prop tables, so grep it for the component you need rather than fetching pages one at a time. Check the config version in the user's repo before writing code: v4 and v5 configs differ, and Tamagui 2.x changed enough that older snippets will not compile.",
+    "why_it_matters": "The most serious attempt at write-once-run-everywhere React styling with no runtime cost on web, and the reason universal apps no longer have to choose between native parity and web performance.",
+    "quality_tier": "A",
+    "notable_for": [
+      "optimizing compiler with CSS extraction",
+      "~24KB core style library",
+      "true React Native and web parity",
+      "paid Takeout starter funds the OSS",
+      "exhaustive llms.txt with prop tables"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-16",
+    "evidence": "https://tamagui.dev, https://tamagui.dev/llms.txt (1.08MB; 48 unique '## components/*' doc sections enumerated, a few of which are guides such as intro and z-index rather than components), https://tamagui.dev/takeout, npm registry for tamagui (2.7.7), GitHub API for tamagui/tamagui. tamagui.dev/sitemap.xml returns the SPA shell, not XML.",
+    "source": "canon"
+  }
+]

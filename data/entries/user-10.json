@@ -1,0 +1,87 @@
+[
+  {
+    "id": "user:8b58b6e804011987",
+    "slug": "departure-mono",
+    "url": "https://departuremono.com/",
+    "name": "Departure Mono",
+    "tagline": "OFL monospaced pixel typeface with a lo-fi technical vibe, built for tabular data",
+    "description": "A monospaced pixel font by Helena Zhang and Tobias Fried, drawn with a lo-fi technical character modelled on airport departure boards and old terminal hardware. Its specimen makes the argument directly: a flight board rendered in box-drawing characters, which is where a pixel monospace is genuinely useful rather than only stylish - tabular data, terminal output, timetables, anything aligned in columns. Box-drawing and block glyphs are covered, which most display monospaces omit. The typeface is released under the SIL Open Font License; the separate website repository is MIT. Currently v1.500.",
+    "category": "typography",
+    "subcategory": "typefaces",
+    "kinds": [
+      "typeface"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "ofl"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "download",
+        "github-repo"
+      ],
+      "platform": [
+        "platform-agnostic"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "fonts"
+      ],
+      "agent_readiness": [
+        "open-source-code"
+      ],
+      "maturity": "stable"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": "https://github.com/rektdeckard/departure-mono",
+    "registry_url": null,
+    "github": {
+      "stars": 2926,
+      "license": "MIT",
+      "last_activity": "2025-05-25"
+    },
+    "pricing_detail": "Free under the SIL OFL, including commercial use and embedding. The author takes donations via Buy Me a Coffee.",
+    "counts": {
+      "icons": null,
+      "fonts": 1,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Reach for this when a brief wants a terminal, retro-computing or departure-board character and a normal monospace reads too clean. It is a pixel font, so it is built for a specific size grid - set it large or at its intended pixel sizes, and do not expect it to hint gracefully at small body sizes. Box-drawing and block glyphs are present, which is what makes it work for tables and terminal output rather than only headlines. It is not on Google Fonts and not on npm: download the release zip from https://github.com/rektdeckard/departure-mono/releases/latest and self-host. Note the two licences - the font is SIL OFL, the website repository is MIT, so do not cite the repo's MIT badge as the font's licence.",
+    "why_it_matters": "Most pixel and retro typefaces are display-only; this one carries the box-drawing and block glyphs that make a monospace usable for real tabular and terminal work.",
+    "quality_tier": "A",
+    "tier_reason": "A well-drawn, genuinely useful OFL typeface with a clear purpose and a specimen that proves it, at 2,926 stars. Held below S because it is a single family with no weight range, it is not distributed through Google Fonts or npm so every use is a manual self-host, and the last release was May 2025.",
+    "notable_for": [
+      "SIL OFL, free for commercial use",
+      "monospaced pixel with box-drawing and block glyphs",
+      "specimen is a working departure board",
+      "v1.500, 2,926 stars",
+      "by Helena Zhang and Tobias Fried",
+      "self-host only - not on Google Fonts or npm"
+    ],
+    "http_status": 200,
+    "verified_at": "2026-08-18",
+    "evidence": "https://departuremono.com/ 200, meta description states SIL OFL and the page links openfontlicense.org; GitHub API for rektdeckard/departure-mono reports 2,926 stars and an MIT LICENSE covering the Vite website source; latest release v1.500 dated 2025-05-25 with asset DepartureMono-1.500.zip; fonts.google.com specimen returns 404 and no npm package exists",
+    "source": "user",
+    "already_enriched": true
+  }
+]

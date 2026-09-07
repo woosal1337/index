@@ -1,0 +1,92 @@
+[
+ {
+  "id": "user:18c026d910804e50",
+  "slug": "marijana-pavlinic",
+  "url": "https://marijanapav.com",
+  "name": "Marijana Pavlinić",
+  "tagline": "A brand designer's portfolio with the whole source public at 175 stars, plus a digital archive of her grandfather's stamps",
+  "description": "Marijana Pavlinić is a Brand Designer at Vercel. She worked at LiveKit and Supabase before that, shaping their brands and websites while they grew, which is what pulled her from design into building what she designs. She is based in Croatia and co-runs Buka Studio with her partner.\n\nThe site calls itself part portfolio and part playground, and the home page proves it: a working system monitor, a Pantone colour picker, a Konami code, and a link to cfntd.site, a coffee archive she keeps for roasters, beans and brews.\n\nThe section worth the visit is /stamps. She recreates her grandfather's stamp collection in digital form, and calls it part archive and part design study. Her words: \"Each stamp tells a story of a piece of history, a moment in time.\" Some recreations come from stamps still in her family. It went up in October 2025, and she adds a set when she finds the time.\n\nThe repository buka-studio/www-marijanapav carries the whole site at 175 stars and 24 forks. Next.js, React Three Fiber with drei and three for the 3D, Framer Motion, Drizzle and Zod. It deploys to Cloudflare Workers through Alchemy and OpenNext, with a D1 database, an R2 bucket and the Cloudflare Images binding for next/image.\n\nThere is no LICENSE file. The code is readable, and it is not licensed for reuse.",
+  "category": "studios-portfolios",
+  "subcategory": "designer-portfolios",
+  "kinds": [
+   "portfolio",
+   "gallery",
+   "profile"
+  ],
+  "facets": {
+   "framework": [
+    "next",
+    "react"
+   ],
+   "styling": [
+    "tailwind-any"
+   ],
+   "license": [
+    "no-license"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "gallery",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "images",
+    "code",
+    "prose",
+    "3d"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/buka-studio/www-marijanapav",
+  "registry_url": null,
+  "github": {
+   "stars": 175,
+   "license": null,
+   "last_activity": "2026-08-29"
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "pricing_detail": "Free to read. The source is public on GitHub, with no licence attached to it.",
+  "agent_guidance": "Read the repository when a brief needs a portfolio that is more than a grid. The whole site is public at 175 stars, and the interactive pieces on the home page are the part worth studying.\n\nDo not copy the code. There is no LICENSE file, so the default applies and reuse is not granted. Read it, then write your own.\n\nTake /stamps as the reference for an archive with a point of view. It treats a personal collection as a design study rather than as a gallery, and it names why each piece is there.\n\nNote the deployment if the brief involves Cloudflare. The README documents Workers through Alchemy and OpenNext with D1, R2 and the Images binding, which is a working example of that stack rather than a tutorial.\n\nThere is no llms.txt and no sitemap, but the pages are server-rendered, so a plain fetch returns real content.",
+  "why_it_matters": "A designer at Vercel publishing her whole portfolio source is rare, and it lets you read the decisions rather than guess at them. The stamp archive is the part that shows taste, because it had no brief.",
+  "quality_tier": "A",
+  "tier_reason": "The site is server-rendered and substantial, the maker's credentials are concrete, and the entire source is public at 175 stars with a README that documents a real Cloudflare Workers deployment. /stamps is a piece of personal design work with a stated argument behind it. Held below S because there is no LICENSE, so none of the code may be reused, and the site publishes no llms.txt and no sitemap.",
+  "notable_for": [
+   "whole portfolio source public at 175 stars",
+   "digital archive of her grandfather's stamps",
+   "Brand Designer at Vercel, formerly Supabase and LiveKit",
+   "system monitor, Pantone picker and a Konami code on the home page",
+   "Cloudflare Workers through Alchemy and OpenNext"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-31",
+  "source": "user",
+  "evidence": "https://marijanapav.com/ 200, 871 KB server-rendered; title \"About | Marijana Pavlinić\"; the page reads \"Designer crafting brands and websites\", \"I'm a Brand Designer at Vercel, working across brand, web, and code in the devtools space. Before that, I was at LiveKit and Supabase, where I helped shape their brand and websites as they grew, which pulled me deeper into frontend and actually building what I design. I'm based in Croatia, where I also co-run Buka Studio with my partner\", and it names \"What I do: Branding, Digital, Illustration\", a \"System Monitor\", a \"PANTONE / R G B / Pick a color\" widget, a Konami code prompt, a workspace at workspaces.xyz, and \"Latest side-project cfntd.site — A small coffee archive for specialty coffee enthusiasts\". Routes found in the markup: /, /work, /stamps, /shop, /contact. https://marijanapav.com/stamps 200, 131 KB: \"marijanapav / digital stamp collection — Paying homage to my grandpa's lifelong passion for philately, by recreating his stamps in a digital form, exploring the blend of art, history, and typography and bringing it online for a new audience to enjoy. Each stamp tells a story of a piece of history, a moment in time. Some recreations are inspired by the stamps I have in my fa[mily]\". /robots.txt 200, but /llms.txt and /sitemap.xml both 404. GitHub API for buka-studio/www-marijanapav: 175 stars, 24 forks, licence null, TypeScript, created 2023-05-27, pushed 2026-08-29, homepage https://marijanapav.com, described as \"Marijana Pav's personal website\"; a request for LICENSE on main returns 404. The README states \"Part portfolio, part playground\", credits @rpavlini, dates /stamps to October 2025, marks /sketchbook as work in progress, gives the contact marijana@buka.studio, and documents deployment to \"Cloudflare Workers through Alchemy and OpenNext\" provisioning \"the Worker, D1 database, R2 sketch bucket, and Cloudflare Images binding\". package.json lists 36 dependencies including next, three, @react-three/fiber, @react-three/drei, framer-motion, drizzle-orm, zod, next-themes and tailwind-merge."
+ }
+]

@@ -1,0 +1,487 @@
+[
+  {
+    "id": "user:2d8605c201ecf6adf8c1",
+    "slug": "shark-ui",
+    "url": "https://shark.vini.one/",
+    "name": "Shark UI",
+    "tagline": "86 shadcn-style components built on Ark UI, installed through the shadcn CLI",
+    "description": "Shark UI is an MIT-licensed component library that keeps the shadcn/ui workflow — CLI add, source lands in your repo, you own it — but swaps Radix for Ark UI primitives and styles everything with Tailwind CSS v4 plus tailwind-variants. It ships 86 documented components, 9 utility helpers, a hooks page, form recipes for React Hook Form / TanStack Form / Formisch, RTL support, and 13 neutral scales crossed with 16 accent colours as copy-paste themes. Built by Vinicius Vicentini; first beta January 2026, release candidate March 2026, still shipping as of August 2026.",
+    "category": "component-libraries",
+    "subcategory": "shadcn-registries",
+    "kinds": [
+      "component-library",
+      "registry",
+      "theme-pack"
+    ],
+    "facets": {
+      "framework": [
+        "react",
+        "next",
+        "astro",
+        "remix"
+      ],
+      "styling": [
+        "tailwind-v4",
+        "css-variables"
+      ],
+      "license": [
+        "mit"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "shadcn-registry",
+        "cli",
+        "copy-paste",
+        "github-repo",
+        "agent-skill"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "built-on-accessible-primitives",
+        "aria-complete",
+        "keyboard-navigable",
+        "focus-managed",
+        "rtl-support"
+      ],
+      "content_type": [
+        "code",
+        "design-tokens"
+      ],
+      "agent_readiness": [
+        "llms-txt",
+        "registry-json",
+        "agent-skill",
+        "cli-installable",
+        "structured-docs",
+        "copy-paste-ready",
+        "open-source-code"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "accordion",
+      "floating-action-bar",
+      "alert-dialog",
+      "alert",
+      "announcement-bar",
+      "aspect-ratio",
+      "autocomplete",
+      "avatar",
+      "badge",
+      "tab-bar",
+      "breadcrumbs",
+      "button-group",
+      "button",
+      "calendar",
+      "card",
+      "carousel",
+      "chart",
+      "checkbox",
+      "progress-bar",
+      "slider",
+      "copy-button",
+      "collapsible",
+      "color-picker",
+      "combobox",
+      "command-palette",
+      "context-menu",
+      "description-list",
+      "date-input",
+      "date-picker",
+      "dialog",
+      "drawer",
+      "inline-edit",
+      "fieldset",
+      "file-upload",
+      "floating-window",
+      "panel",
+      "hover-card",
+      "image-cropper",
+      "input-group",
+      "otp-input",
+      "text-input",
+      "kbd",
+      "link",
+      "listbox",
+      "marquee",
+      "dropdown-menu",
+      "select",
+      "number-input",
+      "pagination",
+      "password-input",
+      "popover",
+      "typography",
+      "qr-code",
+      "radio-group",
+      "rating",
+      "resizable",
+      "scroll-area",
+      "segmented-control",
+      "separator",
+      "sheet",
+      "sidebar",
+      "signature-pad",
+      "skeleton",
+      "skip-link",
+      "spinner",
+      "status-indicator",
+      "progress-stepper",
+      "switch",
+      "table",
+      "tabs",
+      "tag-input",
+      "textarea",
+      "countdown",
+      "toast",
+      "toggle-group",
+      "toggle-button",
+      "tooltip",
+      "coachmark",
+      "tree-view",
+      "json-viewer"
+    ],
+    "component_count": 86,
+    "surfaces": [
+      "settings-web-app",
+      "account-web-app",
+      "login-web-app",
+      "sign-up",
+      "onboarding-web-app",
+      "multi-step-form",
+      "submitting-a-form",
+      "showing-input-error",
+      "uploading-media",
+      "search-results",
+      "filtering-items",
+      "single-item-detail",
+      "analytics",
+      "empty-state",
+      "command-palette",
+      "notifications",
+      "admin-panel"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": "pnpm dlx shadcn@latest add @shark/ui",
+    "package": null,
+    "docs_url": "https://shark.vini.one/docs",
+    "repo_url": "https://github.com/sharkui-inc/shark-ui",
+    "registry_url": "https://shark.vini.one/r",
+    "github": {
+      "stars": 177,
+      "license": "MIT",
+      "last_activity": "2026-08-06"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Reach for this instead of stock shadcn/ui when the project needs components Radix simply does not have — signature pad, image cropper, QR code, colour picker, circular slider, tour, floating panel — because Ark UI covers them and the install path is still `shadcn add`. It is genuinely the most agent-friendly entry in this batch: a valid llms.txt at /llms.txt, registry items served at /r/<name>.json against the shadcn registry-item schema, and a first-party Agent Skill via `pnpm dlx skills add sharkui-inc/shark-ui`. Watch two things: it requires Tailwind CSS v4 (v3 projects will not work), and although the marketing copy names Solid, Vue and Svelte, every installation guide on the site is React-only, so treat non-React support as unverified.",
+    "why_it_matters": "It is the cleanest proof that the shadcn distribution model is now a neutral transport layer rather than a Radix-only club, and it closes real component gaps that shadcn/ui leaves open. For an index dominated by registries, this is a high-quality, well-documented one that an agent can consume end to end without a browser.",
+    "quality_tier": "A",
+    "notable_for": [
+      "86 components on Ark UI instead of Radix",
+      "ships a first-party Agent Skill",
+      "llms.txt plus schema-valid registry JSON",
+      "13 neutral scales x 16 accent themes",
+      "Tailwind v4 and tailwind-variants only"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-16",
+    "evidence": "https://shark.vini.one/, https://shark.vini.one/docs/components, https://shark.vini.one/docs/installation, https://shark.vini.one/docs/skills, https://shark.vini.one/themes, https://shark.vini.one/llms.txt, https://shark.vini.one/r/button.json, https://api.github.com/repos/sharkui-inc/shark-ui, https://github.com/sharkui-inc/shark-ui",
+    "source": "canon"
+  },
+  {
+    "id": "user:90cf529408949b63cfe0",
+    "slug": "tark-ui",
+    "url": "https://www.tarkui.com/",
+    "name": "Tark UI",
+    "tagline": "One-page showcase of 41 Ark UI components with 333 Tailwind-styled examples",
+    "description": "Tark UI is a single-page gallery of Ark UI components dressed in Tailwind CSS, by Abraham Aremu (anubra266), a contributor in the Chakra and Ark ecosystem. The site ships 41 components with 333 worked examples between them — 20 for accordion, 20 for field, 16 for tabs, 15 each for avatar and steps, 14 for dialog and switch, 12 for date picker — which makes it more a variant cookbook than a documentation site. The README claims React, Vue, Solid and Svelte output and peer dependencies limited to Ark UI, Tailwind CSS and Lucide icons.",
+    "category": "component-libraries",
+    "subcategory": "cross-framework-and-native",
+    "kinds": [
+      "component-library",
+      "block-collection"
+    ],
+    "facets": {
+      "framework": [
+        "react",
+        "vue",
+        "svelte",
+        "solid"
+      ],
+      "styling": [
+        "tailwind-v4"
+      ],
+      "license": [
+        "no-license"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "copy-paste",
+        "github-repo"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "built-on-accessible-primitives",
+        "keyboard-navigable",
+        "aria-complete"
+      ],
+      "content_type": [
+        "code"
+      ],
+      "agent_readiness": [
+        "js-only-shell",
+        "open-source-code",
+        "copy-paste-ready"
+      ],
+      "maturity": "beta"
+    },
+    "components": [
+      "accordion",
+      "slider",
+      "avatar",
+      "carousel",
+      "checkbox",
+      "collapsible",
+      "color-picker",
+      "combobox",
+      "date-picker",
+      "dialog",
+      "inline-edit",
+      "fieldset",
+      "file-upload",
+      "floating-window",
+      "hover-card",
+      "listbox",
+      "dropdown-menu",
+      "number-input",
+      "pagination",
+      "password-input",
+      "otp-input",
+      "popover",
+      "progress-bar",
+      "qr-code",
+      "radio-group",
+      "rating-input",
+      "segmented-control",
+      "select",
+      "signature-pad",
+      "resizable",
+      "progress-stepper",
+      "switch",
+      "tabs",
+      "tag-input",
+      "countdown",
+      "toast",
+      "toggle-group",
+      "toggle-button",
+      "tooltip",
+      "coachmark",
+      "tree-view"
+    ],
+    "component_count": 41,
+    "surfaces": [
+      "settings-web-app",
+      "account-web-app",
+      "onboarding-web-app",
+      "multi-step-form",
+      "submitting-a-form",
+      "showing-input-error",
+      "filtering-items",
+      "uploading-media"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": "https://github.com/anubra266/tarkui",
+    "registry_url": null,
+    "github": {
+      "stars": 131,
+      "license": null,
+      "last_activity": "2026-02-16"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Use this as a variant reference, not a dependency: there is no CLI, no npm package, no shadcn registry and no docs site — every route except `/` 404s, and components are selected via the `?component=<slug>` query param on the one page. That page is a client-rendered Next.js shell, so a plain fetch returns no code; drive a browser, or clone github.com/anubra266/tarkui and read `components/` directly, which is faster and more reliable. Critical caveat: the repository has no LICENSE file despite calling itself open source, so treat reuse as legally unsettled and prefer Shark UI when you need the same Ark UI components with an actual MIT grant.",
+    "why_it_matters": "The 333 worked examples are its real value — this is one of the densest collections of Ark UI variant patterns anywhere, useful for learning the primitives even if you never ship its code.",
+    "quality_tier": "B",
+    "notable_for": [
+      "333 examples across 41 components",
+      "Ark UI variant cookbook",
+      "no LICENSE file despite open-source claim",
+      "single page, query-param routing",
+      "by anubra266 of the Ark UI ecosystem"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-16",
+    "evidence": "https://www.tarkui.com/ (raw HTML plus embedded RSC payload, which carries the per-component example counts), https://www.tarkui.com/_next/static/chunks/*.js, https://www.tarkui.com/?component=accordion, https://raw.githubusercontent.com/anubra266/tarkui/main/README.md, https://api.github.com/repos/anubra266/tarkui, https://github.com/anubra266/tarkui",
+    "source": "canon"
+  },
+  {
+    "id": "user:2e056b9b50f540fac06e",
+    "slug": "pando-design-system",
+    "url": "https://pando.zeroheight.com/92687036d/p/498dc1-pando-design-system",
+    "name": "Pando (Pluralsight Design System)",
+    "tagline": "Pluralsight's design system documented in zeroheight; public code frozen at v0.7.1",
+    "description": "Pando is Pluralsight's design system, named after the Utah aspen colony, and this zeroheight site is its public documentation home. The navigation covers 42 documented components across four groups — general, Forms, Loading Spinner and dev-specific layout primitives such as Flex Container, Grid Cell and Data Grid — plus Foundations (accessibility, colour, typography, elevation, shape, icons, logos, grids and spacing), design tokens, content strategy, a v1 install tutorial, versioning policy and migration guides from PSDS Classic and Pando v0. The public artefacts have stalled: github.com/pluralsight/pando now returns 404, the RFC repo was archived in 2023, and the Apache-2.0 npm packages (@pluralsight/react, headless-styles, design-tokens, icons) stop at 0.7.1 in 2024.",
+    "category": "design-systems-brand",
+    "subcategory": "public-design-systems",
+    "kinds": [
+      "design-system-docs",
+      "reference"
+    ],
+    "facets": {
+      "framework": [
+        "react"
+      ],
+      "styling": [
+        "css-variables"
+      ],
+      "license": [
+        "apache-2.0"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "npm-package",
+        "figma-file",
+        "web-app"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "claimed-accessible",
+        "wcag-aa"
+      ],
+      "content_type": [
+        "prose",
+        "design-tokens",
+        "figma",
+        "code"
+      ],
+      "agent_readiness": [
+        "js-only-shell"
+      ],
+      "maturity": "stable"
+    },
+    "components": [
+      "empty-state",
+      "table",
+      "pagination",
+      "badge",
+      "tabs",
+      "navigation-menu",
+      "dropdown-menu",
+      "icon-button",
+      "rating",
+      "progress-bar",
+      "segmented-control",
+      "chip",
+      "dialog",
+      "banner",
+      "tooltip",
+      "code-block",
+      "skeleton",
+      "avatar",
+      "accordion",
+      "modal",
+      "toast",
+      "popover",
+      "link",
+      "alert-dialog",
+      "button",
+      "file-upload",
+      "list",
+      "switch",
+      "select",
+      "textarea",
+      "label",
+      "radio-button",
+      "validation-message",
+      "checkbox",
+      "text-input",
+      "data-grid",
+      "stack",
+      "grid",
+      "box",
+      "spinner"
+    ],
+    "component_count": 42,
+    "surfaces": [
+      "settings-web-app",
+      "account-web-app",
+      "admin-panel",
+      "user-management",
+      "search-results",
+      "filtering-items",
+      "submitting-a-form",
+      "showing-input-error",
+      "multi-step-form",
+      "empty-state",
+      "notifications"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": "@pluralsight/react",
+    "docs_url": "https://pando.zeroheight.com/92687036d/p/498dc1-pando-design-system",
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": "Apache-2.0",
+      "last_activity": "2024-08-09"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Do not try to read this page with a fetch tool — zeroheight serves a JavaScript-only shell that renders to the string 'Pando Design System' and nothing else, and it is marked noindex; the component names in this record were recovered from the embedded navigation JSON, not from readable prose. Treat it as a structural reference for how a mature enterprise design system organises itself (foundations, component status table, versioning policy, migration guides per major version), not as a library you can install: the GitHub repo is gone and the last public release is @pluralsight/react 0.7.1 from August 2024, while the v1 tutorial on the site points at packages you cannot fetch. The Pando MCP server that keeps usage guidance for 21 components in sync with these docs is internal to Pluralsight, so do not plan an integration around it.",
+    "why_it_matters": "It is a rare public window into an enterprise design system that reports real adoption numbers and shipped an MCP server for its own agents, but the gap between the live documentation and the dead public code is itself the lesson about design system longevity.",
+    "quality_tier": "C",
+    "notable_for": [
+      "Pluralsight's in-house system",
+      "42 components across four doc groups",
+      "internal MCP server for 21 components",
+      "public repo now 404, npm frozen at 0.7.1",
+      "documents PSDS Classic and v0 migrations"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-16",
+    "evidence": "https://pando.zeroheight.com/92687036d/p/498dc1-pando-design-system (raw HTML; visible text is title-only, navigation tree extracted from embedded JSON), https://api.github.com/repos/pluralsight/pando (404), https://api.github.com/search/repositories?q=org:pluralsight+pando, https://registry.npmjs.org/@pluralsight/react, https://registry.npmjs.org/@pluralsight/headless-styles, https://registry.npmjs.org/@pluralsight/design-tokens, https://registry.npmjs.org/@pluralsight/icons, https://troberts.me/selected-work/pando-design-system/",
+    "source": "canon"
+  }
+]

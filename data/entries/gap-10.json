@@ -1,0 +1,522 @@
+[
+  {
+    "id": "depo:j574xp1tmj0rmkne75j106x33x83w0ny",
+    "slug": "theatre-js",
+    "url": "https://www.theatrejs.com/",
+    "name": "Theatre.js",
+    "tagline": "Keyframe animation editor that scrubs any JS object property on a timeline",
+    "description": "Theatre.js pairs a runtime animation core (@theatre/core) with a browser-based visual editor (@theatre/studio) that overlays your running app. You get a sequence editor, dope sheet, graph editor with bezier easing, and a property inspector, and any JS object property you register becomes keyframable. It is stack-agnostic: THREE.js, React Three Fiber, WebGPU, and plain HTML/CSS/SVG are all documented entry points. Built for developers who want After-Effects-style motion control without hand-tuning numbers in code.",
+    "category": "motion-interaction",
+    "subcategory": "animation-engines",
+    "kinds": [
+      "animation-library",
+      "tool"
+    ],
+    "facets": {
+      "framework": [
+        "react",
+        "vanilla"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "apache-2.0",
+        "agpl"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "npm-package",
+        "github-repo"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "code"
+      ],
+      "agent_readiness": [
+        "open-source-code",
+        "structured-docs"
+      ],
+      "maturity": "stable"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": "npm install @theatre/core @theatre/studio",
+    "package": "@theatre/core",
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": 12600,
+      "license": "Apache-2.0 (core), AGPL-3.0 (studio)",
+      "last_activity": "2024-04-11"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Reach for Theatre.js when a timeline of choreographed keyframes across many properties is the actual requirement — GSAP or Framer Motion are better when motion is a reaction to state or scroll. The workflow is two-phase: ship @theatre/studio in dev only, author the sequence by hand in the browser, export the JSON state and load it in production so the editor bundle never reaches users. Watch the staleness: the last public commit and npm publish are both from 2024 at v0.7.2, the promised 1.0 moved to a private repo, and the studio half is AGPL — check that against your licensing before you commit.",
+    "why_it_matters": "The only mature open-source attempt at a real motion-design timeline for the web, and nothing has replaced it. Its two-year public stall is the one thing to weigh before adopting it.",
+    "quality_tier": "A",
+    "notable_for": [
+      "visual timeline over live JS objects",
+      "dope sheet and bezier graph editor",
+      "THREE.js and R3F integration",
+      "export animation state as JSON",
+      "studio is AGPL, core is Apache-2.0"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://www.theatrejs.com/, https://github.com/theatre-js/theatre, https://github.com/theatre-js/theatre/commits/main, npm registry metadata for @theatre/core",
+    "source": "depo"
+  },
+  {
+    "id": "depo:j5742bq2ph7v8gzqzpfxxt8q8d83ttv3",
+    "slug": "playbit",
+    "url": "https://playbit.app/",
+    "name": "Playbit",
+    "tagline": "Sandboxed C runtime with a native UI and WebGPU layer for personal-scale apps",
+    "description": "Playbit is an application runtime and platform, not a design library: you write apps against a C API with an ABI-stable syscall interface, capability-based handles, nestable sandboxes, and poll-based async. It ships graphics, networking, filesystem, collections, and two UI layers (the original UI plus a newer UI3), with WebGPU underneath. The first public iteration runs only on Apple Silicon macOS, with Windows, Linux, mobile, and web named as future targets. Aimed at people building responsive expressive tools that do not fit the browser model.",
+    "category": "utilities-naming",
+    "subcategory": "apps-and-references",
+    "kinds": [
+      "tool",
+      "app"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "download",
+        "desktop-app"
+      ],
+      "platform": [
+        "macos"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "code"
+      ],
+      "agent_readiness": [
+        "structured-docs"
+      ],
+      "maturity": "experimental"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Do not reach for this to build a web UI — there is no React, no CSS, and no npm surface; it is a C-level runtime whose UI3 library is its own widget model. It only earns a look when the user explicitly wants a native, sandboxed, single-binary desktop tool on Apple Silicon and has said Electron or Tauri is wrong. Treat everything as moving: the runtime is a first iteration, the docs carry a UI vs UI3 split that signals API churn, and no licence is published, so confirm terms before writing code against it.",
+    "why_it_matters": "A serious, unusually principled attempt at a post-browser app platform, and worth watching — but today it is a research-grade runtime with an audience of roughly one platform.",
+    "quality_tier": "B",
+    "notable_for": [
+      "ABI-stable syscall interface",
+      "capability-based handles and nested sandboxes",
+      "WebGPU-backed graphics",
+      "UI3 native widget library",
+      "Apple Silicon macOS only so far"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://playbit.app/, https://playbit.app/docs/, https://playbit.app/docs (licence, download terms and status not stated on any page reached)",
+    "source": "depo"
+  },
+  {
+    "id": "depo:j572jqk69tz1cyjgpknkkws1t583t0k0",
+    "slug": "retune",
+    "url": "https://www.retune.dev/",
+    "name": "Retune",
+    "tagline": "Alt+D overlay that edits your running app and pipes the change to your agent via MCP",
+    "description": "Retune is a dev-time npm package that adds an inspector overlay to your running app: press Alt+D to select elements, drag to reorder or reparent, resize, adjust spacing with snap guides, edit React props and state, and leave comments. Changes preview instantly in the browser, then travel to Claude Code, Cursor or a similar tool over MCP so the agent writes them back to source. It supports Next.js, Vite, Remix, Astro and SvelteKit, reads design tokens, and has a manifest for describing your design system. For developers who would rather point at a misaligned element than describe it in a prompt.",
+    "category": "agent-design-tooling",
+    "subcategory": "ai-design-apps",
+    "kinds": [
+      "ai-tool",
+      "tool",
+      "mcp-server"
+    ],
+    "facets": {
+      "framework": [
+        "react",
+        "next",
+        "remix",
+        "astro",
+        "sveltekit"
+      ],
+      "styling": [
+        "tailwind-any",
+        "css-variables"
+      ],
+      "license": [
+        "source-available"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "npm-package",
+        "mcp-server",
+        "github-repo"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "code",
+        "design-tokens"
+      ],
+      "agent_readiness": [
+        "mcp-server",
+        "cli-installable",
+        "open-source-code"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": "npm install retune",
+    "package": "retune",
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": 110,
+      "license": "PolyForm-Shield-1.0.0",
+      "last_activity": "2026-04-18"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Suggest this when the user is burning prompt cycles on positional nitpicks — 'move it 4px left', 'this gap is wrong' — because it converts a direct manipulation into a precise edit instruction instead of a guess. It is a dev dependency plus an MCP server, so you must be running the app locally and have the MCP connected before it does anything; installing the package alone gets you nothing. Note the PolyForm Shield licence: source-available, not OSS, and it forbids building a competing product, so do not treat it as MIT.",
+    "why_it_matters": "The cleanest answer yet to the weakest link in agent-assisted UI work — the human describing pixels in prose. Young and small, but pointed at the right problem.",
+    "quality_tier": "B",
+    "notable_for": [
+      "Alt+D live inspector overlay",
+      "drag to reorder and reparent DOM",
+      "edits reach the agent over MCP",
+      "React prop and state editing",
+      "PolyForm Shield, not open source"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://www.retune.dev/, https://github.com/khadgi-sujan/retune, https://github.com/khadgi-sujan/retune/commits/main, npm registry metadata for retune (v0.7.6, published 2026-04-18)",
+    "source": "depo"
+  },
+  {
+    "id": "depo:j572my5gk06ahx2h4535g6r4mn83vmqe",
+    "slug": "interface-craft",
+    "url": "https://www.interfacecraft.dev/",
+    "name": "Interface Craft",
+    "tagline": "Josh Puckett's paid library of 40+ interface-craft essays, walkthroughs and videos",
+    "description": "Interface Craft is a lifetime-access membership library by Josh Puckett, previously a designer at Dropbox and Wealthfront. It holds more than 40 long-form articles, interactive walkthroughs, videos, skill files, references and custom tools on micro-interactions, motion, and systematic critique, grouped into thematic collections such as Means & Methods. Two open resources, DialKit and Pica, sit alongside the paid material. It assumes you already know interface fundamentals and want depth rather than an intro course.",
+    "category": "essays-guides-courses",
+    "subcategory": "courses-and-books",
+    "kinds": [
+      "course",
+      "reference",
+      "article"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "proprietary"
+      ],
+      "pricing": [
+        "one-time",
+        "paid",
+        "account-required"
+      ],
+      "distribution": [
+        "web-app"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "prose",
+        "video",
+        "code"
+      ],
+      "agent_readiness": [
+        "agent-paywalled",
+        "js-only-shell"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": "$109 one-time for lifetime access, including all future updates; regional pricing, education discounts, gifts and team rates on request",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 40,
+      "blocks": null
+    },
+    "agent_guidance": "Cite this when a user wants taste and judgement about interaction detail — easing choices, state transitions, what makes an interface feel considered — where Refactoring UI stops at layout and colour rules. You cannot read the material: the library sits behind a $109 paywall and the site renders client-side, so quote only the public homepage and never paraphrase specific chapters as if you had read them. Its two free artefacts, DialKit and Pica, are the only parts you can point a user straight to.",
+    "why_it_matters": "One of the few paid design libraries written by a practitioner with real shipped-product credibility, aimed at craft depth rather than beginner fundamentals.",
+    "quality_tier": "A",
+    "notable_for": [
+      "$109 lifetime, no subscription",
+      "40+ articles plus interactive walkthroughs",
+      "Means & Methods collection",
+      "author Josh Puckett, ex-Dropbox and Wealthfront",
+      "free DialKit and Pica resources"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://www.interfacecraft.dev/ (homepage read); /library returned only the tagline, /articles and /membership returned 404, /sitemap.xml returned 404 — individual entry titles could not be enumerated first-hand, so the 40+ figure is the site's own public claim, cross-checked against a web search",
+    "source": "depo"
+  },
+  {
+    "id": "depo:j578dyebyrhw5y0b2tk3p7y39n83veg3",
+    "slug": "tenor",
+    "url": "https://tenor.design/",
+    "name": "Tenor",
+    "tagline": "Waitlisted canvas for refining one agent-built React component at a time",
+    "description": "Tenor is an early-access web tool that takes a rough component, screenshot or prompt and renders it as a live, interactive React component on a canvas, where you refine layout, styling and behaviour conversationally and compare earlier versions. When it looks right you hand the component back to Codex or Claude Code to implement in your own project. Its docs frame a five-step loop: start from something working, name what feels off, make one judgeable change, make every part belong, continue in code. Access is by Request Access only, with no published pricing.",
+    "category": "agent-design-tooling",
+    "subcategory": "ai-design-apps",
+    "kinds": [
+      "ai-tool",
+      "tool"
+    ],
+    "facets": {
+      "framework": [
+        "react"
+      ],
+      "styling": [
+        "unknown"
+      ],
+      "license": [
+        "proprietary"
+      ],
+      "pricing": [
+        "account-required",
+        "unknown"
+      ],
+      "distribution": [
+        "web-app",
+        "saas"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "code"
+      ],
+      "agent_readiness": [
+        "auth-required"
+      ],
+      "maturity": "beta"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Mention this only as a thing to watch, never as a step in a plan you are executing — it is waitlist-gated, so the user probably cannot open it today and there is no API, CLI or MCP hook to drive it. Its scope is deliberately one component at a time, so it does not compete with v0 or Lovable on whole-app generation; the comparable move is refining a single component you already generated. If a user wants this behaviour now, Retune gives a similar select-and-refine loop against their own running app with no waitlist.",
+    "why_it_matters": "A sharp thesis — agents produce working but tasteless UI, so give the human one component and a fast refine loop — but currently a positioning page more than a usable product.",
+    "quality_tier": "C",
+    "notable_for": [
+      "one component at a time, not whole apps",
+      "prompt or image to live React",
+      "version comparison on canvas",
+      "hands off to Codex and Claude Code",
+      "Request Access waitlist, no pricing"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://tenor.design/, https://tenor.design/product, https://tenor.design/docs (no pricing, licence, export format or integration detail published on any of the three)",
+    "source": "depo"
+  },
+  {
+    "id": "depo:j573rgsvmvv10pcqgfb1fsk39h83nh7t",
+    "slug": "awesomic",
+    "url": "https://www.awesomic.com/",
+    "name": "Awesomic",
+    "tagline": "Subscription talent marketplace matching startups to vetted designers in ~24h",
+    "description": "Awesomic is a monthly-subscription service, not a tool or library: you file tasks in their app and an algorithm matches you to vetted freelancers, usually within 24 hours. Coverage spans UI/UX, branding, motion, illustration, packaging, frontend and full-stack development, Webflow and Framer, copywriting, SEO, PPC, video and QA. Plans include unlimited revisions, daily progress updates, Slack integration and free rematches. The site claims 4,000+ customers, 200+ approved talents and 20,000+ completed projects.",
+    "category": "utilities-naming",
+    "subcategory": "apis-and-services",
+    "kinds": [
+      "service",
+      "marketplace"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "not-applicable"
+      ],
+      "pricing": [
+        "subscription",
+        "paid",
+        "account-required"
+      ],
+      "distribution": [
+        "saas",
+        "web-app"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "prose"
+      ],
+      "agent_readiness": [
+        "none"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": "AI Designer $200/mo; Graphic Pack $1,490/mo ($1,190/mo billed quarterly, 3-month minimum); All-in-One $2,995/mo ($2,396/mo billed quarterly, 3-month minimum); Dedicated Talent custom pricing",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "This is a hiring channel, so it belongs in an answer about staffing and budget, never in a build plan — there is nothing here to install, import or read. Surface it only when a user says outright that they have no designer and want a recurring retainer rather than a per-project agency or an Upwork search; the differentiator is the flat monthly fee with unlimited revisions and a free rematch. Quote the $1,490 and $2,995 tiers so the cost is clear up front, since these numbers dwarf any tool in this index.",
+    "why_it_matters": "Included for completeness of the design-services axis, not for craft value — a marketing site for a retainer marketplace, with nothing an implementer can use directly.",
+    "quality_tier": "C",
+    "notable_for": [
+      "design-as-a-subscription retainer",
+      "matched in about 24 hours",
+      "unlimited revisions and free rematch",
+      "spans design, dev, marketing and video",
+      "$1,490-$2,995 per month"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://www.awesomic.com/, https://www.awesomic.com/pricing",
+    "source": "depo"
+  }
+]

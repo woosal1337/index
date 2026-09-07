@@ -1,0 +1,256 @@
+[
+  {
+    "id": "user:0d7138e21a2750cc",
+    "slug": "60fps-design",
+    "url": "https://60fps.design",
+    "name": "60fps",
+    "tagline": "2,038 iOS interaction shots broken into storyboards, with an MCP that hands an agent the real timing",
+    "description": "A reference library for interaction motion rather than static UI. It holds 2,038 shots across 475 apps, 77 app sites, 25 motion pieces and 5 snippets, and its distinctive layer is 64 storyboards: a single interaction decomposed beat by beat \u2014 the trigger that starts it, the opening state, how it moves, and where it settles. A beta MCP server at https://mcp.60fps.design/mcp exposes that to agents directly, on the explicit argument that 'your AI can build UI, it can't do motion'. It is listed in the ChatGPT plugin directory and installs into Claude as a custom connector; the MCP requires a PRO licence key. There is also a glossary and a mockup tool.",
+    "category": "inspiration-galleries",
+    "subcategory": "app-screens",
+    "kinds": [
+      "gallery",
+      "reference",
+      "mcp-server"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "license": [
+        "proprietary"
+      ],
+      "pricing": [
+        "freemium",
+        "subscription"
+      ],
+      "distribution": [
+        "gallery",
+        "mcp-server"
+      ],
+      "content_type": [
+        "video",
+        "screenshots"
+      ],
+      "agent_readiness": [
+        "mcp-server"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 2038,
+      "blocks": null
+    },
+    "agent_guidance": "Reach for this when a brief calls for motion and you need real timing rather than a guessed easing curve. The storyboards are the point: each one names the trigger, the opening state, the movement and the settle, which is the decomposition most animation code skips. The MCP at https://mcp.60fps.design/mcp is the fastest path for an agent, but it is PRO-gated, so a free agent gets the browsable site only. Shots are video, so a text fetch returns counts and titles, not the motion.",
+    "why_it_matters": "It is the only source in this corpus that treats interaction timing as documentable data, and the only one that ships its own MCP for agents to read it.",
+    "quality_tier": "A",
+    "tier_reason": "Deep and genuinely agent-native for a niche nothing else covers - 2,038 shots, 64 beat-by-beat storyboards, and a real MCP endpoint. Held below S because the MCP and the depth sit behind a PRO subscription, and the corpus is iOS-weighted.",
+    "notable_for": [
+      "2,038 shots across 475 apps",
+      "64 beat-by-beat storyboards",
+      "MCP at mcp.60fps.design/mcp",
+      "in the ChatGPT plugin directory",
+      "Claude custom connector",
+      "glossary and mockup tool"
+    ],
+    "http_status": 200,
+    "verified_at": "2026-08-18",
+    "evidence": "https://60fps.design/ , /mcp , /storyboards , /motion , /snippets , /glossary all 200; counts read from the site chrome; MCP endpoint and install steps read from /mcp",
+    "source": "user",
+    "already_enriched": true
+  },
+  {
+    "id": "user:14ecf6b27cbb648a",
+    "slug": "seesaw",
+    "url": "https://seesaw.website",
+    "name": "SEESAW",
+    "tagline": "Daily-updated gallery of web design, filed by industry and carrying the typefaces each site uses",
+    "description": "A curated gallery of web design updated daily, filed across thirteen industries \u2014 Agency, AI, Crypto, Design, Design Tools, Developer Tools, E-Commerce, Fintech, Hardware, Marketing, Portfolios, Productivity and Social. Its useful distinction is that entries carry the typefaces the site actually uses, so it doubles as a record of what type is shipping in production rather than only what looks good. Search is a command palette over sites, fonts and categories. The catalogue is Airtable-backed and rendered by Next.js.",
+    "category": "inspiration-galleries",
+    "subcategory": "site-galleries",
+    "kinds": [
+      "gallery",
+      "directory"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "license": [
+        "no-license"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "gallery"
+      ],
+      "content_type": [
+        "screenshots",
+        "fonts"
+      ],
+      "agent_readiness": [
+        "js-only-shell"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": 352,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Use it for two questions rather than one: what a sector's sites currently look like, and what typefaces they ship. The industry filter is unusually literal - Fintech and Crypto are separate, Design Tools and Developer Tools are separate - so it is good for narrowing to a peer set. The page is a Next.js shell with the catalogue in the RSC flight payload; a plain fetch returns the chrome and the category list but not the entries, and font references are Airtable record ids rather than family names, so they need resolving through the site.",
+    "why_it_matters": "Typeface attribution per site is rare, and it makes a gallery usable as evidence for a type decision rather than only as a mood reference.",
+    "quality_tier": "B",
+    "tier_reason": "Well-curated and updated daily, with typeface attribution that most galleries omit. Held at B because the catalogue is client-rendered with no API, the font references do not resolve to family names without the site, and the total entry count is not stated anywhere.",
+    "notable_for": [
+      "updated daily",
+      "13 industry filters",
+      "typefaces recorded per site",
+      "command-palette search over sites, fonts and categories",
+      "Airtable-backed"
+    ],
+    "http_status": 200,
+    "verified_at": "2026-08-18",
+    "evidence": "https://seesaw.website 200; categories and search read from rendered text; 352 distinct font references and ~900 name fields counted in the RSC flight payload",
+    "source": "user",
+    "already_enriched": true
+  },
+  {
+    "id": "user:f434e81c5fd7b64b",
+    "slug": "inspora",
+    "url": "https://inspora.design",
+    "name": "Inspora",
+    "tagline": "Hourly-updated inspiration gallery spanning web, branding, product, motion, illustration, 3D and print",
+    "description": "A curated design inspiration gallery that states it updates hourly, filed across seven disciplines \u2014 Web, Branding, Product, Motion, Illustration, 3D and Print. Entries are grouped as Latest and Featured, and multi-image entries are presented as slide sets rather than single shots. Its breadth is the distinguishing feature: most galleries in this corpus stay inside web and product, while this one carries print and illustration alongside them.",
+    "category": "inspiration-galleries",
+    "subcategory": "site-galleries",
+    "kinds": [
+      "gallery",
+      "directory"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "license": [
+        "no-license"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "gallery"
+      ],
+      "content_type": [
+        "images"
+      ],
+      "agent_readiness": [
+        "bot-blocked"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Useful when a brief crosses out of screen design - print, illustration and 3D are first-class here, which is unusual. Do not try to fetch it with a plain HTTP client: the site sits behind a Vercel security checkpoint that answers 429 to curl and to anything without a full browser fingerprint. A headless browser renders it normally. There is no API and no visible entry count, so scale has to be judged by browsing.",
+    "why_it_matters": "It is the only gallery in this corpus that carries print and illustration next to web and product, which matters when the brief is not a screen.",
+    "quality_tier": "C",
+    "tier_reason": "Genuinely broad and frequently updated, but thin on verifiable detail: no entry count, no API, and a bot checkpoint that blocks ordinary fetching. Listed for the disciplines it covers that nothing else here does, not for depth that could be confirmed.",
+    "notable_for": [
+      "updated hourly",
+      "7 disciplines including print, illustration and 3D",
+      "Latest and Featured shelves",
+      "slide sets for multi-image entries"
+    ],
+    "http_status": 429,
+    "verified_at": "2026-08-18",
+    "evidence": "https://inspora.design returns 429 Vercel Security Checkpoint to curl; renders 200 in headless Chrome, where the nav, the seven discipline filters and the Latest/Featured shelves were read",
+    "source": "user",
+    "already_enriched": true
+  }
+]

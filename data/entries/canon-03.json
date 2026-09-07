@@ -1,0 +1,669 @@
+[
+  {
+    "id": "canon:f61d123c8acaf1c70168",
+    "slug": "gluestack-ui",
+    "url": "https://gluestack.io",
+    "name": "gluestack-ui",
+    "tagline": "CLI-installed React Native component library built on NativeWind and Tailwind v4",
+    "description": "gluestack-ui v5 is a component library for React Native and Expo that you install with a CLI rather than import from a package, so the component source lands in your repo and stays editable. It ships about 50 components styled with NativeWind v5 or UniWind on top of Tailwind CSS v4, and the CLI wires up the provider, metro.config.js, babel.config.js and global.css for you. It targets Expo 50+ and React Native CLI 0.72.5+; v5 does NOT support Next.js yet, which is a change from v1. The team also publishes an official agent skill for the library.",
+    "category": "component-libraries",
+    "subcategory": "cross-framework-and-native",
+    "kinds": [
+      "component-library",
+      "registry",
+      "design-system-docs"
+    ],
+    "facets": {
+      "framework": [
+        "react-native",
+        "react"
+      ],
+      "styling": [
+        "tailwind-v4",
+        "native-styles"
+      ],
+      "license": [
+        "mit"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "cli",
+        "npm-package",
+        "github-repo",
+        "copy-paste",
+        "agent-skill"
+      ],
+      "platform": [
+        "ios",
+        "android",
+        "cross-platform"
+      ],
+      "accessibility": [
+        "claimed-accessible"
+      ],
+      "content_type": [
+        "code",
+        "design-tokens"
+      ],
+      "agent_readiness": [
+        "cli-installable",
+        "agent-skill",
+        "structured-docs",
+        "copy-paste-ready",
+        "open-source-code"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "heading",
+      "typography",
+      "box",
+      "center",
+      "separator",
+      "stack",
+      "grid",
+      "alert",
+      "progress-bar",
+      "spinner",
+      "toast",
+      "banner",
+      "badge",
+      "card",
+      "table",
+      "tabs",
+      "pagination",
+      "tab-bar",
+      "header",
+      "button",
+      "checkbox",
+      "radio-group",
+      "select",
+      "slider",
+      "switch",
+      "text-input",
+      "textarea",
+      "form",
+      "link",
+      "calendar",
+      "date-picker",
+      "time-picker",
+      "alert-dialog",
+      "drawer",
+      "sheet",
+      "modal",
+      "popover",
+      "portal",
+      "tooltip",
+      "dropdown-menu",
+      "action-sheet",
+      "accordion",
+      "lightbox",
+      "avatar",
+      "image",
+      "icon",
+      "floating-action-button",
+      "skeleton",
+      "glassmorphism",
+      "conversation"
+    ],
+    "component_count": 50,
+    "surfaces": [
+      "onboarding-mobile",
+      "login-mobile",
+      "sign-up",
+      "settings-mobile",
+      "account-mobile",
+      "chat-mobile",
+      "feed",
+      "search-mobile",
+      "filtering-items",
+      "single-item-detail",
+      "action-sheet",
+      "tab-bar-navigation",
+      "submitting-a-form",
+      "showing-input-error",
+      "uploading-media",
+      "empty-state",
+      "notification-settings"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": "npx gluestack-ui@latest init",
+    "package": "@gluestack-ui/core",
+    "docs_url": "https://gluestack.io/ui/docs/home/overview/introduction",
+    "repo_url": "https://github.com/gluestack/gluestack-ui",
+    "registry_url": null,
+    "github": {
+      "stars": 5249,
+      "license": "MIT (per @gluestack-ui/core npm; repo has no top-level LICENSE detected by GitHub)",
+      "last_activity": "2026-08-10"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Reach for this when the target is Expo or bare React Native and you want shadcn-style ownership of component source instead of a black-box package — run `npx gluestack-ui@latest init`, then `npx gluestack-ui@latest add <component>` per component. Do NOT pick it for a Next.js or web-only app: v5 dropped Next.js support pending NativeWind v5 web, so use shadcn/ui there instead. Check which styling engine the project chose during init (NativeWind v5 with PostCSS, or UniWind for Expo without a build step) before you touch metro.config.js or global.css, and prefer the official skill (`npx skills add gluestack/agent-skills --skill gluestack-ui-v5`) over guessing v1 APIs — the v1 `@gluestack-ui/themed` API is a different library.",
+    "why_it_matters": "It is the clearest example of the shadcn copy-into-your-repo model crossing over to React Native, which is exactly the gap most registry-era tooling leaves open. The v5 rewrite onto Tailwind v4 also makes cross-platform styling share vocabulary with web work.",
+    "quality_tier": "A",
+    "notable_for": [
+      "CLI installs component source into your repo",
+      "NativeWind v5 / Tailwind v4 styling",
+      "Expo and React Native CLI only in v5",
+      "official agent skill published by the team",
+      "~50 components including BottomSheet and Liquid Glass"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-16",
+    "evidence": "https://gluestack.io (WebFetch), https://gluestack.io/ui/docs/home/overview/introduction (component sidebar enumerated, 50 names), https://gluestack.io/ui/docs/home/getting-started/installation (install + framework support), gh api repos/gluestack/gluestack-ui, registry.npmjs.org/@gluestack-ui/core and /@gluestack-ui/themed",
+    "source": "canon"
+  },
+  {
+    "id": "canon:05e7f63d850f9852ef33",
+    "slug": "feather-icons",
+    "url": "https://feathericons.com",
+    "name": "Feather Icons",
+    "tagline": "287 MIT-licensed 24x24 stroke icons, the original minimal-outline set",
+    "description": "Feather is a set of 287 open-source icons drawn on a 24x24 grid with a uniform 2px stroke, distributed as individual SVGs, a JS module, and a webfont-free npm package. The site lets you set size, stroke width and colour before copying or downloading, and the whole set is MIT so you can ship, modify and resell it. It is the aesthetic ancestor of most modern outline icon sets. It is also effectively frozen: the last npm release was 4.29.2 in May 2024 and the repo has seen no push since March 2025.",
+    "category": "icons-logos",
+    "subcategory": "icon-sets",
+    "kinds": [
+      "icon-set"
+    ],
+    "facets": {
+      "framework": [
+        "vanilla",
+        "react",
+        "vue",
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "mit"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "npm-package",
+        "github-repo",
+        "download",
+        "cli"
+      ],
+      "platform": [
+        "web",
+        "platform-agnostic"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "icons"
+      ],
+      "agent_readiness": [
+        "cli-installable",
+        "open-source-code",
+        "structured-docs",
+        "copy-paste-ready",
+        "js-only-shell"
+      ],
+      "maturity": "stable"
+    },
+    "components": [
+      "icon"
+    ],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": "npm install feather-icons",
+    "package": "feather-icons",
+    "docs_url": "https://github.com/feathericons/feather#readme",
+    "repo_url": "https://github.com/feathericons/feather",
+    "registry_url": null,
+    "github": {
+      "stars": 25975,
+      "license": "MIT",
+      "last_activity": "2025-03-11"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": 287,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Do not start a new project on Feather — it has shipped nothing since May 2024, and Lucide is the maintained fork with the same visual language and roughly five times the icon count, so pick Lucide unless you are maintaining code that already imports `feather-icons`. When you do need the names, fetch `https://cdn.jsdelivr.net/npm/feather-icons@latest/dist/icons.json` rather than scraping feathericons.com, which renders its grid client-side and gives you nothing useful as text. Its 287 names are a strict subset of Lucide's, so a Feather-to-Lucide migration is usually a mechanical import rewrite.",
+    "why_it_matters": "Feather defined the 24x24 / 2px-stroke convention that Lucide, Heroicons and Tabler all inherited, so it is the reference point for what 'a clean outline icon' means. Its main value now is historical and as the compatibility baseline for Lucide.",
+    "quality_tier": "B",
+    "notable_for": [
+      "287 icons on a 24x24 grid, 2px stroke",
+      "MIT, no attribution required",
+      "the set Lucide forked from",
+      "no release since May 2024",
+      "icons.json ships in the npm package"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-16",
+    "evidence": "https://feathericons.com (curl, HTTP 200 but a JS shell — only the header text is in the HTML), https://cdn.jsdelivr.net/npm/feather-icons@latest/dist/icons.json (287 keys counted), registry.npmjs.org/feather-icons (4.29.2, 2024-05-01, MIT), gh api repos/feathericons/feather",
+    "source": "canon"
+  },
+  {
+    "id": "canon:fe5d45923b46508ac543",
+    "slug": "iconify",
+    "url": "https://iconify.design",
+    "name": "Iconify",
+    "tagline": "236 icon sets and 333,975 icons behind one syntax and one free public API",
+    "description": "Iconify is an aggregator and rendering framework that puts 236 open-source icon sets — 333,975 icons in total — behind a single `set:name` syntax. You can use it as a web component (`iconify-icon`), as React/Vue/Svelte/Solid components, or straight from its public REST API at api.iconify.design, which serves icon data, SVGs, search and the full collections index as JSON. Components fetch only the icons a page actually uses, so you never bundle a whole set. The framework is MIT (some older packages Apache-2.0 or GPL-2.0); the icons themselves carry each set's own licence, which the API reports per collection.",
+    "category": "icons-logos",
+    "subcategory": "icon-sets",
+    "kinds": [
+      "icon-set",
+      "directory",
+      "service"
+    ],
+    "facets": {
+      "framework": [
+        "react",
+        "vue",
+        "svelte",
+        "solid",
+        "astro",
+        "vanilla",
+        "web-components",
+        "qwik"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "mit",
+        "apache-2.0"
+      ],
+      "pricing": [
+        "free",
+        "open-source",
+        "sponsor-supported"
+      ],
+      "distribution": [
+        "npm-package",
+        "public-api",
+        "github-repo",
+        "web-app",
+        "cli"
+      ],
+      "platform": [
+        "web",
+        "platform-agnostic"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "icons",
+        "dataset"
+      ],
+      "agent_readiness": [
+        "public-api",
+        "machine-index",
+        "open-source-code",
+        "cli-installable",
+        "structured-docs"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "icon"
+    ],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": "npm install iconify-icon",
+    "package": "iconify-icon",
+    "docs_url": "https://iconify.design/docs/",
+    "repo_url": "https://github.com/iconify/iconify",
+    "registry_url": "https://api.iconify.design/collections",
+    "github": {
+      "stars": 6270,
+      "license": "MIT",
+      "last_activity": "2026-08-14"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": 333975,
+      "fonts": null,
+      "palettes": null,
+      "entries": 236,
+      "blocks": null
+    },
+    "agent_guidance": "This is the icon source to reach for when you do not know in advance which set you need, because `GET https://api.iconify.design/search?query=<term>` returns matching `prefix:name` ids across all 236 sets and `GET /collections` returns every set with its total and SPDX licence — no key, no auth, straight JSON you can query mid-task. Prefer it over installing three separate icon packages, and prefer `iconify-icon` (the web component) over the framework wrappers when you want zero bundle cost. The one thing to check before shipping: the MIT licence covers the framework, NOT the icons, so read the per-set licence from the collections response — some sets are CC-BY and a few require attribution.",
+    "why_it_matters": "It is the only icon resource that is genuinely machine-queryable at catalogue scale, which makes it uniquely valuable to an agent that has to pick an icon it has never seen. Everything else in this category makes you know the set's name first.",
+    "quality_tier": "S",
+    "notable_for": [
+      "236 icon sets, 333,975 icons",
+      "free unauthenticated REST API with search",
+      "per-set SPDX licence exposed in the API",
+      "web component loads only used icons",
+      "MIT framework, mixed icon licences"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-16",
+    "evidence": "https://api.iconify.design/collections (counted 236 sets, summed 333975 icons), https://api.iconify.design/search?query=home (search verified), https://iconify.design (curl with a browser UA — WebFetch got HTTP 403), gh api repos/iconify/iconify, registry.npmjs.org/iconify-icon and /@iconify/react",
+    "source": "canon"
+  },
+  {
+    "id": "canon:2152d58fa3614c224604",
+    "slug": "font-awesome",
+    "url": "https://fontawesome.com",
+    "name": "Font Awesome",
+    "tagline": "2,883 free icons plus 609 brand marks; the full library is a paid subscription",
+    "description": "Font Awesome is the oldest widely-deployed icon toolkit, shipped as an icon font, plain SVGs and a JS/SVG renderer. The free package (@fortawesome/fontawesome-free 7.3.1) contains 2,883 icons: 2,001 Solid, 273 Regular and 609 Brands. Paid tiers unlock the rest of the ~16,000-icon library plus the Light, Thin, Duotone and Sharp families, hosted Kits, and icon subsetting. Free icons are CC BY 4.0, the fonts are OFL-1.1 and the code is MIT.",
+    "category": "icons-logos",
+    "subcategory": "icon-sets",
+    "kinds": [
+      "icon-set",
+      "service"
+    ],
+    "facets": {
+      "framework": [
+        "vanilla",
+        "react",
+        "vue",
+        "angular",
+        "not-applicable"
+      ],
+      "styling": [
+        "vanilla-css",
+        "not-applicable"
+      ],
+      "license": [
+        "cc-by",
+        "ofl",
+        "mit",
+        "commercial"
+      ],
+      "pricing": [
+        "freemium",
+        "free",
+        "subscription"
+      ],
+      "distribution": [
+        "npm-package",
+        "download",
+        "github-repo",
+        "web-app",
+        "saas"
+      ],
+      "platform": [
+        "web",
+        "platform-agnostic"
+      ],
+      "accessibility": [
+        "claimed-accessible"
+      ],
+      "content_type": [
+        "icons",
+        "fonts"
+      ],
+      "agent_readiness": [
+        "cli-installable",
+        "open-source-code",
+        "structured-docs",
+        "js-only-shell",
+        "agent-paywalled"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "icon"
+    ],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": "npm install @fortawesome/fontawesome-free",
+    "package": "@fortawesome/fontawesome-free",
+    "docs_url": "https://docs.fontawesome.com/",
+    "repo_url": "https://github.com/FortAwesome/Font-Awesome",
+    "registry_url": null,
+    "github": {
+      "stars": 76841,
+      "license": "NOASSERTION on GitHub; npm declares (CC-BY-4.0 AND OFL-1.1 AND MIT)",
+      "last_activity": "2026-07-15"
+    },
+    "pricing_detail": "Free tier is CC BY 4.0 with attribution. Pro is a per-seat annual subscription (widely reported at ~$120/user/year, with a Pro+ tier around $150) — fontawesome.com/plans renders client-side and returned only its <title> to every fetch, so these figures come from secondary sources and are NOT verified on the vendor page.",
+    "counts": {
+      "icons": 2883,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Only reach for Font Awesome when the codebase already uses it or the task specifically needs its 609 brand marks — for generic UI glyphs Lucide or Iconify give you more, newer icons under a friendlier licence and with no attribution clause. If you must confirm an icon exists in the free tier, read `metadata/icons.yml` or the `svgs/{solid,regular,brands}` directories from the npm package instead of the website, which is an empty JS shell to any non-browser fetch. Watch the licence split: CC BY 4.0 means the free icons need attribution somewhere in your product, and any class name you find in a tutorial may silently be a Pro-only style (fa-light, fa-thin, fa-duotone, fa-sharp) that renders as a blank box.",
+    "why_it_matters": "It is the icon set that taught the web to use icon fonts, and it still has the deepest brand-logo coverage of any general toolkit. But it is now the only major set in this category where the good half is behind a paywall.",
+    "quality_tier": "A",
+    "notable_for": [
+      "2,883 free icons (2,001 solid, 273 regular, 609 brands)",
+      "~16,000 icons in the paid library",
+      "CC BY 4.0 free icons require attribution",
+      "Pro-only families: Light, Thin, Duotone, Sharp",
+      "marketing site is unreadable without JS"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-16",
+    "evidence": "https://fontawesome.com/ and https://fontawesome.com/plans (curl + WebFetch — both returned only the <title>, JS-only shell), https://fontawesome.com/search (WebFetch, same), https://blog.fontawesome.com/font-awesome-7-is-on-the-menu/ (WebFetch, v7 announcement), data.jsdelivr.com file listing for @fortawesome/fontawesome-free@7.3.1 (SVG counts per style), registry.npmjs.org/@fortawesome/fontawesome-free/latest (version + licence string), gh api repos/FortAwesome/Font-Awesome, WebSearch for pricing",
+    "source": "canon"
+  },
+  {
+    "id": "canon:fa3da8703d1338dbb05d",
+    "slug": "remix-icon",
+    "url": "https://remixicon.com",
+    "name": "Remix Icon",
+    "tagline": "3,231 neutral 24x24 system icons in Line and Fill, under a custom non-OSI licence",
+    "description": "Remix Icon is a system icon set of 3,231 SVGs drawn on a 24x24 grid, every glyph available in both Outlined and Filled styles, organised into 20 categories (System 348, Logos 300, Media 296, Document 244, Design 236, Business 220, Device 192, Arrows 178, Map 172, Finance 172, Editor 151, User & Faces 134, Others 116, Communication 92, Health & Medical 84, Weather 82, Development 66, Buildings 62, Game & Sports 50, Food 34). It ships as an npm package with individual SVGs and an icon webfont, plus a jsDelivr CDN stylesheet. As of January 2026 it is no longer Apache-2.0: it moved to a custom Remix Icon License v1.0 that permits commercial use and modification but forbids reselling the icons as a standalone pack, building a competing icon library from them, or using any icon as a logo or brand mark.",
+    "category": "icons-logos",
+    "subcategory": "icon-sets",
+    "kinds": [
+      "icon-set"
+    ],
+    "facets": {
+      "framework": [
+        "vanilla",
+        "not-applicable"
+      ],
+      "styling": [
+        "vanilla-css",
+        "not-applicable"
+      ],
+      "license": [
+        "source-available"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "npm-package",
+        "download",
+        "github-repo"
+      ],
+      "platform": [
+        "web",
+        "platform-agnostic"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "icons",
+        "fonts"
+      ],
+      "agent_readiness": [
+        "cli-installable",
+        "open-source-code",
+        "js-only-shell"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "icon"
+    ],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": "npm install remixicon",
+    "package": "remixicon",
+    "docs_url": "https://github.com/Remix-Design/RemixIcon#readme",
+    "repo_url": "https://github.com/Remix-Design/RemixIcon",
+    "registry_url": null,
+    "github": {
+      "stars": 8279,
+      "license": "NOASSERTION on GitHub; the repo LICENSE file is 'Remix Icon License v1.0' (January 2026, custom, not OSI-approved)",
+      "last_activity": "2026-04-28"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": 3231,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Choose Remix Icon when a product needs both a Line and a Fill version of the same glyph for selected/unselected states — that pairing is complete across all 3,231 icons, which Lucide and Feather cannot give you. Read the licence before you commit: the Apache-2.0 that most tutorials and older index entries still cite was replaced in January 2026 by a custom licence, so anything you build that is itself an icon pack, a design-asset marketplace listing, or a brand mark is now prohibited even though ordinary app and website use is fine. Pull names from the npm package's `icons/<Category>/` folders; remixicon.com renders client-side and returns nothing but a title to a plain fetch.",
+    "why_it_matters": "It is the most complete free Line/Fill pair set at this scale, which makes it the practical default for tab bars and any UI with selected-state icons. The 2026 relicensing is a genuine trap for anyone copying old advice.",
+    "quality_tier": "A",
+    "notable_for": [
+      "3,231 icons, every glyph in Line and Fill",
+      "20 categories including 300 brand logos",
+      "relicensed away from Apache-2.0 in January 2026",
+      "no standalone resale or competing icon library",
+      "webfont plus individual SVGs on jsDelivr"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-16",
+    "evidence": "https://remixicon.com (WebFetch and curl — JS-only shell, only the title is in the HTML), gh api repos/Remix-Design/RemixIcon (stars, last push), repo LICENSE file read in full via gh api (Remix Icon License v1.0, restrictions sections 3.1-3.3), repo README (3200+ claim, install and CDN commands), data.jsdelivr.com file listing for remixicon@4.9.1 (3,231 SVGs counted, per-category breakdown)",
+    "source": "canon"
+  },
+  {
+    "id": "canon:456101565876a5fc2dea",
+    "slug": "simple-icons",
+    "url": "https://simpleicons.org",
+    "name": "Simple Icons",
+    "tagline": "3,453 CC0 brand logos with official hex colours and a free colour-aware CDN",
+    "description": "Simple Icons is a CC0 collection of 3,453 single-colour brand SVGs, each paired with the brand's official hex colour and a stable slug. The npm package ships every icon as an SVG plus `data/simple-icons.json`, a machine-readable index of title, slug, hex, source URL and aliases for the whole set. A free CDN at cdn.simpleicons.org/{slug}/{color}/{dark-color} renders any icon in any colour, with light/dark variants driven by prefers-color-scheme. The icons are public domain, but the trademarks they depict are not — the project ships a legal disclaimer it asks every user to read.",
+    "category": "icons-logos",
+    "subcategory": "logo-svgs",
+    "kinds": [
+      "icon-set",
+      "brand-asset"
+    ],
+    "facets": {
+      "framework": [
+        "vanilla",
+        "react",
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "cc0",
+        "trademark-restricted"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "npm-package",
+        "public-api",
+        "github-repo",
+        "download"
+      ],
+      "platform": [
+        "web",
+        "platform-agnostic"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "icons",
+        "dataset"
+      ],
+      "agent_readiness": [
+        "public-api",
+        "machine-index",
+        "open-source-code",
+        "cli-installable",
+        "js-only-shell"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "icon",
+      "logo"
+    ],
+    "component_count": null,
+    "surfaces": [
+      "login-web-app",
+      "sign-up",
+      "integrations",
+      "pricing-website",
+      "about",
+      "team",
+      "homepage"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": "npm install simple-icons",
+    "package": "simple-icons",
+    "docs_url": "https://github.com/simple-icons/simple-icons#readme",
+    "repo_url": "https://github.com/simple-icons/simple-icons",
+    "registry_url": "https://cdn.jsdelivr.net/npm/simple-icons@latest/data/simple-icons.json",
+    "github": {
+      "stars": 25621,
+      "license": "CC0-1.0",
+      "last_activity": "2026-08-02"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": 3453,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "This is the correct source for any social-login button row, integrations grid, tech-stack strip or 'works with' section — it is the one brand-logo set that is CC0, so nothing about attribution blocks you. Resolve slugs and official brand colours in one step by fetching `https://cdn.jsdelivr.net/npm/simple-icons@latest/data/simple-icons.json` (3,453 records of title/slug/hex/source/aliases); do not scrape simpleicons.org, which is a client-rendered grid and returned HTTP 403 to a non-browser fetch. For quick prototypes skip npm entirely and point an `<img>` at `https://cdn.simpleicons.org/{slug}/{hex}/{dark-hex}`. Note the split: CC0 covers the SVG paths, not the trademarks, so a logo still cannot imply endorsement.",
+    "why_it_matters": "It solves the single most annoying asset problem in product UI — getting a legally clean, correctly coloured brand mark — and it solves it with a JSON index an agent can query directly. Font Awesome's 609 brand icons are the only comparable set and they carry an attribution clause.",
+    "quality_tier": "S",
+    "notable_for": [
+      "3,453 brand icons, CC0 public domain",
+      "official hex colour shipped with every icon",
+      "data/simple-icons.json machine index",
+      "colour-aware CDN at cdn.simpleicons.org",
+      "trademark disclaimer separate from the licence"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-16",
+    "evidence": "https://simpleicons.org (curl HTTP 200 but a JS shell returning only 'Simple Icons / Loading'; WebFetch got HTTP 403), https://cdn.jsdelivr.net/npm/simple-icons@latest/data/simple-icons.json (3,453 records counted), data.jsdelivr.com file listing for simple-icons@16.28.0 (3,453 SVGs confirmed), https://cdn.simpleicons.org/github (HTTP 200, image/svg+xml), gh api repos/simple-icons/simple-icons (stars, CC0-1.0, last push) and its README/package.json",
+    "source": "canon"
+  }
+]

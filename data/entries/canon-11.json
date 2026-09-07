@@ -1,0 +1,596 @@
+[
+  {
+    "id": "canon:d4af8cecba29ca9a3a9e",
+    "slug": "blush",
+    "url": "https://blush.design",
+    "name": "Blush",
+    "tagline": "Customizable illustration app: 65+ artist collections, mix-and-match, PNG free, SVG paid",
+    "description": "Blush is a web app that hosts illustration systems from independent artists and lets you recolour and recombine their parts before you export. It carries 65 collections across 13 categories from 35 artists, including the canonical Pablo Stanley sets (Humaaans, Open Doodles, Open Peeps) plus Cool Kids, Fresh Folk, Transhumans and Croods. The free tier exports PNG; a Pro subscription unlocks every collection, SVG export and print-resolution PNG. Figma and Sketch plugins put the same customizer inside the design file.",
+    "category": "textures-assets",
+    "subcategory": "mockups-and-asset-packs",
+    "kinds": [
+      "asset-pack",
+      "generator",
+      "app"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "proprietary"
+      ],
+      "pricing": [
+        "freemium",
+        "subscription",
+        "account-required"
+      ],
+      "distribution": [
+        "web-app",
+        "figma-plugin",
+        "download"
+      ],
+      "platform": [
+        "web",
+        "platform-agnostic"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "images"
+      ],
+      "agent_readiness": [
+        "bot-blocked",
+        "auth-required",
+        "image-only"
+      ],
+      "maturity": "stable"
+    },
+    "components": [
+      "illustration",
+      "avatar",
+      "empty-state",
+      "placeholder-image"
+    ],
+    "component_count": null,
+    "surfaces": [
+      "empty-state",
+      "onboarding-web-app",
+      "onboarding-mobile",
+      "404",
+      "homepage"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": "https://blush.design/license",
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": "Free tier: unlimited PNG downloads, limited collections, up to 5 saved designs. Pro unlocks every collection, SVG and print-resolution PNG. Billing cycles offered are Monthly, Quarterly (-25%) and Yearly (-40%); the actual figures render client-side and did not appear in the fetched HTML, so exact prices are unverified.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 65,
+      "blocks": null
+    },
+    "agent_guidance": "Reach for Blush when a human will spend a minute in the customizer to get a styled, on-brand illustration set for empty states and onboarding; an agent cannot drive it, and the free tier gives PNG only. If you need vector in a build pipeline, use Open Doodles (direct CC0 SVG URLs) or Lukasz Adam instead, and come back to Blush only for breadth of style. Note that blush.design returns 403 to plain fetchers — a browser User-Agent gets through, so budget for that if you script anything against it.",
+    "why_it_matters": "Blush is the distribution layer for most of the well-known free illustration systems of the last decade, which makes it the fastest way to see them side by side. Its licence is unusually generous for a commercial product: free commercial use, no attribution, unlimited copies.",
+    "quality_tier": "A",
+    "notable_for": [
+      "65 artist collections",
+      "mix-and-match customizer",
+      "Figma and Sketch plugins",
+      "hosts Humaaans and Open Doodles",
+      "no-attribution commercial licence"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-16",
+    "evidence": "https://blush.design/ (403 to WebFetch, 200 via curl with browser UA), https://blush.design/license, https://blush.design/plans, https://blush.design/collections (66 links, 65 real collections), https://blush.design/artists (35), https://blush.design/categories (13), https://blush.design/illustrations",
+    "source": "canon"
+  },
+  {
+    "id": "canon:2f3db4cb10bc7bc75a58",
+    "slug": "humaaans",
+    "url": "https://humaaans.com",
+    "name": "Humaaans",
+    "tagline": "Mix-and-match CC0 people illustrations for Sketch and Figma, by Pablo Stanley",
+    "description": "Humaaans is Pablo Stanley's mix-and-match illustration library of people: bodies, heads, hairdos, tops and pants are separate rotatable parts you recombine, plus background scenes (\"Sceeenes\") and ready-made compositions for onboarding, empty, error and success states. It is CC0 public domain — free for commercial or personal use with no credit required. The homepage is a Webflow marketing page; the actual source file is distributed through a Gumroad listing and was authored for Sketch and InVision Studio, with a Figma community file and plugin covering the same art. The same collection is also editable inside Blush.",
+    "category": "textures-assets",
+    "subcategory": "mockups-and-asset-packs",
+    "kinds": [
+      "asset-pack"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "cc0"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "download",
+        "figma-file"
+      ],
+      "platform": [
+        "platform-agnostic",
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "images",
+        "figma"
+      ],
+      "agent_readiness": [
+        "image-only",
+        "auth-required"
+      ],
+      "maturity": "stable"
+    },
+    "components": [
+      "illustration",
+      "avatar",
+      "empty-state",
+      "placeholder-image"
+    ],
+    "component_count": null,
+    "surfaces": [
+      "empty-state",
+      "onboarding-web-app",
+      "onboarding-mobile",
+      "404",
+      "homepage"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": "Free. The download is a pay-what-you-want Gumroad listing (gum.co/humaaans) that accepts $0.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Do not point an agent at humaaans.com for files: the site is a Webflow marketing page and the download is an email-gated Gumroad listing whose source is a Sketch file. Pull the same art from blush.design/collections/humaaans or the Figma community file instead, and reach for it specifically when you need people with swappable clothing, skin tone and pose rather than fixed scenes. Its real value is the CC0 licence — you can vendor the SVGs into a repo with no attribution obligation, which DrawKit and Blush's paid art do not allow.",
+    "why_it_matters": "Humaaans set the template for the entire 2018-2020 wave of flat, componentised people illustrations that still shows up in half of SaaS onboarding flows. It is CC0, so it remains one of the few illustration systems you can legally ship inside a redistributable starter kit.",
+    "quality_tier": "B",
+    "notable_for": [
+      "CC0 public domain",
+      "componentised bodies and clothing",
+      "empty and error state templates",
+      "Sketch and Figma source files",
+      "defined the flat-people illustration style"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-16",
+    "evidence": "https://www.humaaans.com/ (WebFetch + curl, full text extracted), https://gum.co/humaaans (200, JS shell with no readable product detail), https://blush.design/collections/humaaans (linked from the site), web search for the Figma community file and plugin",
+    "source": "canon"
+  },
+  {
+    "id": "canon:5ecee2cd8b5ee72a6310",
+    "slug": "open-doodles",
+    "url": "https://opendoodles.com",
+    "name": "Open Doodles",
+    "tagline": "33 CC0 hand-drawn figure illustrations as direct SVG, PNG and GIF downloads",
+    "description": "Open Doodles is Pablo Stanley's CC0 set of loose, hand-drawn figures — reading, running, meditating, levitating, roller skating, unboxing and so on. The homepage lists 33 illustrations, each offered as SVG and PNG from public S3 URLs, with four of them (coffee, doggie, levitate, sprinting) also available as animated GIFs. There is a separate Compositions page and a web-based generator, and the whole set is editable inside Blush. The About page frames it as an Open Design project: copy, edit, remix or redraw with no restriction under copyright or database law.",
+    "category": "textures-assets",
+    "subcategory": "mockups-and-asset-packs",
+    "kinds": [
+      "asset-pack"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "cc0"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "download",
+        "web-app"
+      ],
+      "platform": [
+        "platform-agnostic",
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "images"
+      ],
+      "agent_readiness": [
+        "copy-paste-ready",
+        "image-only"
+      ],
+      "maturity": "stable"
+    },
+    "components": [
+      "illustration",
+      "placeholder-image",
+      "empty-state"
+    ],
+    "component_count": null,
+    "surfaces": [
+      "empty-state",
+      "404",
+      "error-500",
+      "onboarding-web-app",
+      "homepage"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": "https://opendoodles.com/about",
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 33,
+      "blocks": null
+    },
+    "agent_guidance": "This is the most automatable illustration set in the asset category: every file sits at a predictable https://opendoodles.s3-us-west-1.amazonaws.com/<name>.svg URL with a .png sibling and no auth, no referrer check and no attribution requirement, so an agent can fetch and vendor them directly. It is only 33 figures, so use it for placeholders, empty states and 404s rather than as a whole brand system. Pair it with Humaaans when you need people whose clothing and skin tone you can vary, and prefer it over DrawKit whenever the output must be redistributable.",
+    "why_it_matters": "Open Doodles is the cleanest example of the CC0 design-asset movement: source files public, no gate, no credit, no dark patterns. For an agent that must ship art it can legally redistribute, it is worth more than illustration libraries ten times its size.",
+    "quality_tier": "A",
+    "notable_for": [
+      "CC0, no attribution",
+      "direct S3 SVG and PNG URLs",
+      "four animated GIF loops",
+      "compositions page and generator",
+      "no login or email gate"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-16",
+    "evidence": "https://opendoodles.com/ (WebFetch + curl; counted 33 unique .svg basenames and 4 .gif in the markup), https://opendoodles.com/about, https://opendoodles.com/compositions, https://generator.opendoodles.com/ (linked, not fetched)",
+    "source": "canon"
+  },
+  {
+    "id": "canon:33dfb1c7007110f07d5d",
+    "slug": "lukasz-adam-illustrations",
+    "url": "https://lukaszadam.com",
+    "name": "Lukasz Adam Illustrations",
+    "tagline": "~120 free CC0 SVG illustration and icon sets, one Gumroad bundle, no attribution",
+    "description": "Lukasz Adam is an illustrator whose site gives away a large library of hand-made SVG illustrations and icon sets for commercial and personal use. The illustrations page lists roughly 120 named items — character scenes, coder and workspace illustrations, city landscapes, and dedicated icon sets for WordPress, SEO, e-commerce, browsers, phones and Bitcoin — with newer AI-themed additions. The stated licence is CC0 with no attribution required, and everything downloads as a single pay-what-you-want Gumroad bundle. The rest of the site is a personal portfolio, blog and an AstroJS course.",
+    "category": "textures-assets",
+    "subcategory": "mockups-and-asset-packs",
+    "kinds": [
+      "asset-pack",
+      "portfolio"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "cc0"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "download"
+      ],
+      "platform": [
+        "platform-agnostic",
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "images",
+        "icons"
+      ],
+      "agent_readiness": [
+        "image-only",
+        "auth-required"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "illustration",
+      "icon",
+      "placeholder-image",
+      "empty-state"
+    ],
+    "component_count": null,
+    "surfaces": [
+      "homepage",
+      "features",
+      "empty-state",
+      "404",
+      "blog"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": "Free. The download page offers an optional pay-what-you-want amount (\"a small coffee\") through Gumroad; $0 is accepted.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 120,
+      "blocks": null
+    },
+    "agent_guidance": "Use this when you need volume and want icons in the same visual language as the figures — about 120 sets, no attribution, and it is one of the few free libraries still adding AI-era subjects. The catch is packaging: everything comes as one Gumroad bundle, so an agent cannot fetch a single named SVG; have a human download it once and vendor the folder into the repo. The site says \"CC0 license (MIT license)\", which is self-contradictory — treat it as CC0, and if licence provenance matters for your project, archive the page rather than relying on the phrasing.",
+    "why_it_matters": "One illustrator giving away roughly 120 SVG sets under CC0 is unusual, and the coverage of dull-but-needed subjects (dashboards, hosting, SEO, e-commerce) is better than the prettier character-only packs. It is the practical free alternative when Open Doodles is too small.",
+    "quality_tier": "B",
+    "notable_for": [
+      "~120 free SVG sets",
+      "CC0, no attribution",
+      "icon sets alongside illustrations",
+      "recent AI-themed additions",
+      "single Gumroad bundle download"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-16",
+    "evidence": "https://lukaszadam.com (WebFetch), https://lukaszadam.com/illustrations (WebFetch + curl; item names extracted from markup, 123 image tags), https://gumroad.com/l/pBPJg (link target, not fetched)",
+    "source": "canon"
+  },
+  {
+    "id": "canon:661c7f09a004b13e6d9e",
+    "slug": "drawkit",
+    "url": "https://drawkit.com",
+    "name": "DrawKit",
+    "tagline": "100+ hand-drawn 2D/3D illustration, icon and Lottie packs; ~40 free, rest behind Pro",
+    "description": "DrawKit is a commercial library of hand-drawn illustration packs covering 2D scenes, 3D renders, icons, Lottie animations and device mockups. The homepage index lists 102 packs — 40 marked Free and 59 marked Pro — whose stated quantities add up to roughly 3,900 individual assets, from small 10-piece free sets up to a 200-asset Isotopia system. Files ship as Figma, SVG, PNG, Lottie JSON and GIF, browsable by six categories and six types, plus a 3D Builder Figma plugin and an avatar creator. The licence is royalty-free with no attribution, but forbids redistribution, merchandising and AI/ML training.",
+    "category": "textures-assets",
+    "subcategory": "mockups-and-asset-packs",
+    "kinds": [
+      "asset-pack",
+      "service"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "proprietary"
+      ],
+      "pricing": [
+        "freemium",
+        "subscription",
+        "one-time"
+      ],
+      "distribution": [
+        "web-app",
+        "download",
+        "figma-plugin",
+        "saas"
+      ],
+      "platform": [
+        "web",
+        "platform-agnostic"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "images",
+        "3d",
+        "icons",
+        "figma"
+      ],
+      "agent_readiness": [
+        "auth-required",
+        "agent-paywalled",
+        "image-only"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "illustration",
+      "icon",
+      "animation",
+      "device-frame",
+      "avatar",
+      "empty-state"
+    ],
+    "component_count": null,
+    "surfaces": [
+      "homepage",
+      "features",
+      "empty-state",
+      "onboarding-web-app",
+      "pricing-website",
+      "404"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": "https://www.drawkit.com/license",
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": "Basic: free (free packs + favourites). DrawKit Pro: $79/year. DrawKit Lifetime: $295 one-time. A Social Good pack is free for nonprofits.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 3891,
+      "blocks": null
+    },
+    "agent_guidance": "Only reach for DrawKit when the project has a budget and the output is a finished product, not a template: the licence explicitly bans redistribution, standalone compilation, merchandising and AI/ML training, which disqualifies it for starter kits, design systems you publish, or any dataset. The ~40 free packs are genuinely usable and need no attribution, so treat those as the accessible surface and ignore the Pro catalogue unless the user has a subscription. For free-and-open work prefer Open Doodles or Lukasz Adam; come to DrawKit when you specifically need 3D renders, Lottie animations or device mockups, which the CC0 sets do not cover.",
+    "why_it_matters": "DrawKit is the largest single-house illustration library that still draws everything by hand, and it is one of the few covering 3D and Lottie in the same visual language as its 2D work. The AI-training ban makes it a clear negative example for agent-built pipelines.",
+    "quality_tier": "B",
+    "notable_for": [
+      "102 packs, ~3,900 assets",
+      "2D, 3D, icons, Lottie and mockups",
+      "40 free packs",
+      "$79/yr or $295 lifetime",
+      "licence forbids AI training"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-16",
+    "evidence": "https://drawkit.com (WebFetch + curl; counted 102 /illustrations/ pack links, 97 'Quantity N' values summing to 3,891, 40 'Free Pack' and 59 'Drawkit Pro Pack' labels), https://www.drawkit.com/plans, https://www.drawkit.com/license, https://www.drawkit.com/free-illustrations, https://www.drawkit.com/illustration-types/all",
+    "source": "canon"
+  },
+  {
+    "id": "canon:7b77c0ab3d1523b7b43a",
+    "slug": "irasutoya",
+    "url": "https://irasutoya.com",
+    "name": "Irasutoya",
+    "tagline": "25,415 free Japanese kawaii illustrations, 239 categories, public Blogger JSON feed",
+    "description": "Irasutoya (いらすとや) is Takashi Mifune's Japanese free-illustration archive and the single most recognisable illustration style in Japanese public life — it appears on government notices, school handouts, TV captions and memes. It is published on Blogger and its feed reports 25,415 posts across 239 categories, spanning occupations, medicine, seasons, food, disasters, business, animals, holidays and long-tail subjects like fossils, LGBT, VR and AI. Illustrations are PNG only and free, but copyright is retained: commercial projects may use up to 20 illustrations for free, and 21 or more require a paid licence. The site remained under active update as of August 2026.",
+    "category": "textures-assets",
+    "subcategory": "mockups-and-asset-packs",
+    "kinds": [
+      "asset-pack",
+      "gallery"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "proprietary"
+      ],
+      "pricing": [
+        "free",
+        "paid"
+      ],
+      "distribution": [
+        "gallery",
+        "download",
+        "public-api"
+      ],
+      "platform": [
+        "web",
+        "print",
+        "platform-agnostic"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "images"
+      ],
+      "agent_readiness": [
+        "public-api",
+        "machine-index",
+        "image-only"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "illustration",
+      "icon",
+      "placeholder-image",
+      "empty-state"
+    ],
+    "component_count": null,
+    "surfaces": [
+      "homepage",
+      "help-center",
+      "blog",
+      "empty-state",
+      "404"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": "https://www.irasutoya.com/p/terms.html",
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": "Free for personal and commercial use up to 20 illustrations per commercial project (duplicates of one image count once). 21 or more in a commercial design requires a paid licence. High-resolution versions are sold separately. A Canva partnership allows unlimited commercial use inside Canva.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 25415,
+      "blocks": null
+    },
+    "agent_guidance": "This is the only entry in the asset category with a real machine index: https://www.irasutoya.com/feeds/posts/summary?alt=json is a standard Blogger Atom/JSON feed that paginates all 25,415 posts with categories and timestamps, so an agent can enumerate and search it without scraping HTML. Watch the licence hard — PNG only, copyright retained, free commercial use caps at 20 illustrations per project, and redistribution or resale is forbidden, so never bundle it into a template or dataset you publish. All titles, categories and search terms are Japanese; translate the query before searching, and expect a cute, culturally Japanese register that will clash with most Western product branding.",
+    "why_it_matters": "Twenty-five thousand illustrations drawn by one person over fourteen years, with near-total subject coverage, is a resource nothing in the Western free-illustration world matches. Its Blogger backend accidentally makes it the most queryable illustration archive on the open web.",
+    "quality_tier": "A",
+    "notable_for": [
+      "25,415 illustrations",
+      "239 categories",
+      "public Blogger JSON feed",
+      "20-illustration free commercial cap",
+      "Japanese-language only, PNG only"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-16",
+    "evidence": "https://www.irasutoya.com/ (WebFetch + curl; category list extracted verbatim), https://www.irasutoya.com/p/terms.html (WebFetch), https://www.irasutoya.com/feeds/posts/summary?alt=json&max-results=0 (totalResults 25415, 239 categories, feed updated 2026-08-09)",
+    "source": "canon"
+  }
+]

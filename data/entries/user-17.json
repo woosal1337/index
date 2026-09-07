@@ -1,0 +1,759 @@
+[
+ {
+  "id": "user:9ec5541b0c8e0cc8",
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": 50000,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-29",
+  "source": "user",
+  "slug": "iconsax",
+  "url": "https://iconsax.io",
+  "name": "Iconsax",
+  "tagline": "The Vuesax icon library, 7,000 icons free and about 44,000 behind a licence, with an MCP server and an icon generator",
+  "description": "Iconsax is the official icon library of the Vuesax project, and it is one of the largest in this corpus. The site states more than 44,000 premium icons and more than 7,000 free ones, and heads the catalogue with a round figure of 50,000. Icons ship for Vue, React, Svelte and Flutter, and also as TypeScript, an icon font, plain JavaScript and Figma assets. Plugins exist for Figma and for Framer.\n\nTwo parts matter to an agent. The navigation carries an entry for an Iconsax MCP server and one for an npm package, so the library reaches a coding agent without a download step. The second is Iconsax AI, a credit-metered generator that draws an icon when the catalogue does not hold it. The site marks itself BETA in the header.",
+  "category": "icons-logos",
+  "subcategory": "icon-sets",
+  "kinds": [
+   "icon-set",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "vue",
+    "react",
+    "svelte",
+    "flutter"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "commercial",
+    "free-for-personal"
+   ],
+   "pricing": [
+    "freemium",
+    "paid",
+    "account-required"
+   ],
+   "distribution": [
+    "npm-package",
+    "mcp-server",
+    "figma-plugin",
+    "download",
+    "web-app"
+   ],
+   "platform": [
+    "web",
+    "cross-platform"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "icons",
+    "code"
+   ],
+   "agent_readiness": [
+    "mcp-server",
+    "cli-installable",
+    "structured-docs"
+   ],
+   "maturity": "beta"
+  },
+  "pricing_detail": "Freemium. More than 7,000 icons are free. The rest sit behind a paid plan the site calls Pro, and it advertises no figure on the home page. Iconsax AI runs on credits bought separately. An account is needed to download.",
+  "agent_guidance": "Use the MCP server or the npm package, not the site. The navigation names both, and either one gives a coding agent the icons without a browser or a download.\n\nCheck the licence before you ship. Only about 7,000 of the roughly 50,000 icons are free, and the site never states which set a given icon falls in until you are signed in. Assume an icon is paid unless the page says otherwise.\n\nTreat the count with care. The home page states 44,000 premium and 7,000 free, then heads the catalogue with 50,000. The three numbers do not reconcile. Quote the range, not the round figure.",
+  "why_it_matters": "Very few icon libraries at this size ship an MCP server. That single fact moves Iconsax from a download site to something an agent can query while it writes a component.",
+  "quality_tier": "B",
+  "tier_reason": "Real breadth across four frameworks plus a font, a TypeScript build and Figma assets, and an MCP server that almost no rival offers. Held at B because the site marks itself BETA, the published counts do not reconcile, most of the catalogue is paid with no price on the page, and an account gates every download.",
+  "notable_for": [
+   "about 50,000 icons, 7,000 of them free",
+   "official Vuesax icon library",
+   "an MCP server and an npm package",
+   "Vue, React, Svelte and Flutter builds",
+   "credit-metered icon generator"
+  ],
+  "evidence": "https://iconsax.io/ 200, 301 KB server-rendered; title \"Iconsax\"; the header carries a BETA badge; body copy reads \"The official Vuesax icon library. More than 44,000+ premium icons at an unmissable price, also 7,000+ free icons\" and the catalogue heading states \"50.000 icons\"; the framework row names Vuejs, React, Svelte and Flutter, and the tooling row names TypeScript, Font, JavaScript and Figma; the navigation holds Home, Icons, Pricing, License, Plugins, AI App, Docs, Guide, Showcase, \"Iconsax MCP\", \"npm Package\", Help, Figma and Framer; a section reads \"Iconsax AI: Can't find it? Create it! Generate and download icons with Iconsax AI. Get credits\"; another reads \"Iconsax Plugin for Figma: Ready!\". The strings MCP and npm each appear twice in the served HTML."
+ },
+ {
+  "id": "user:d9d7da06b0f90227",
+  "templates": [],
+  "template_count": null,
+  "install": "npm install morphicons",
+  "package": "morphicons",
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "components": [
+   "icon",
+   "animation",
+   "transition",
+   "button",
+   "icon-button"
+  ],
+  "component_count": null,
+  "surfaces": [
+   "tab-bar-navigation",
+   "action-sheet"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-29",
+  "source": "user",
+  "slug": "morphicons",
+  "url": "https://morphicons.com",
+  "name": "morphicons",
+  "tagline": "Six kilobytes of maths that morph any stroke icon into any other, across Lucide, Heroicons and Tabler",
+  "description": "morphicons animates the change from one SVG icon to another. It does not ship icons. It takes the ones you already use and solves the path between them, so a menu icon turns into a close icon rather than swapping for it.\n\nThe library works because Lucide, Heroicons and Tabler all draw on the same 24×24 grid, so an icon from one set morphs into an icon from another. The site states a closed-form solution for optimal rotation, spring physics, zero dependencies and about six kilobytes. Four spring presets are offered — spring, smooth, snappy and bouncy — and four stroke widths from 1 to 2.5.\n\nThe call site is one component. It takes icons as data, not as components, so there are no from-and-to pairs, no keys and no configuration. Builds exist for React, Vue, Svelte, React Native and Astro, and the Astro build upgrades itself to a web component so no island is needed.",
+  "category": "icons-logos",
+  "subcategory": "animated-icons",
+  "kinds": [
+   "animation-library",
+   "primitive",
+   "icon-set"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "vue",
+    "svelte",
+    "astro",
+    "react-native",
+    "web-components"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo"
+   ],
+   "platform": [
+    "web",
+    "cross-platform"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code",
+    "icons"
+   ],
+   "agent_readiness": [
+    "cli-installable",
+    "structured-docs",
+    "copy-paste-ready",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "pricing_detail": "Free, and the site links a public GitHub repository. No licence is named on the home page.",
+  "agent_guidance": "Reach for this when a brief asks for an icon that changes state, not for an icon set. It ships no icons of its own and expects Lucide, Heroicons or Tabler to be there already.\n\nPass the icon as data. The API takes the icon itself, not a wrapped component, so a ternary in the prop is the whole pattern: `<MorphIcon icon={open ? X : Menu} />`. There is no from-and-to pair to manage.\n\nThe 24×24 grid is the constraint that makes it work. An icon set drawn on another grid will not morph cleanly, and the site names only those three sets as compatible.",
+  "why_it_matters": "A menu button that swaps its icon reads as a jump. One that morphs reads as a motion. This is the rare library that solves the geometry rather than asking a designer to hand-draw each pair.",
+  "quality_tier": "B",
+  "tier_reason": "A narrow problem solved properly, with a one-prop API, five framework builds and a stated six-kilobyte cost. Held at B because the site names no licence, publishes no component count, and the whole value depends on three icon sets that share one grid, which is a constraint the page states but does not bound.",
+  "notable_for": [
+   "morphs between Lucide, Heroicons and Tabler",
+   "about six kilobytes, zero dependencies",
+   "closed-form optimal rotation",
+   "React, Vue, Svelte, React Native and Astro",
+   "icons passed as data, not as components"
+  ],
+  "evidence": "https://www.morphicons.com/ 200, 304 KB; title \"morphicons — SVG icon morphing library for React, Vue & Svelte\"; body copy reads \"Morph any SVG icon into any other. Animate Lucide, Tabler, Heroicons or any stroke icon set. Optimal rotation solved in closed form, spring physics, zero dependencies\" and \"Six kilobytes of math\"; the install line is `npm install morphicons`; the playground offers the sets All, Lucide, Heroicons and Tabler, and states \"Icons from different libraries morph into each other: they all share the 24×24 grid\"; the presets are spring, smooth, snappy and bouncy, and the stroke widths 1, 1.5, 2 and 2.5; the framework tabs read React, Vue, Svelte, React Native and Astro, with the note \"no island needed: the icon upgrades to a web component\"; the sample imports `MorphIcon` from \"morphicons/react\" and comments \"// data, not components\"; the navigation links Playground, Showcase, How it works, Roadmap, GitHub and X. No licence is stated on the home page."
+ },
+ {
+  "id": "user:833b02c695ad8c80",
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": 40000,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-29",
+  "source": "user",
+  "slug": "iconly-pro",
+  "url": "https://iconly.pro",
+  "name": "Iconly Pro",
+  "tagline": "40,000 icons in flat, 3D and animated form, 2,500 of them free, sold on a subscription",
+  "description": "Iconly Pro sells three kinds of icon from one catalogue. Flat icons run to more than 40,000 across six styles, three types and more than seventy categories. Animation icons are a separate set the site describes as category-rich. 3D icons come in fantasy and realistic styles. About 2,500 icons are free with no payment.\n\nTwo tools sit on top: a web app for search and download, and a Figma plugin. The commercial side is a subscription with several plans, and the site also takes commissions for custom icon work and runs an affiliate scheme.\n\nThe 3D and animated sets are what separate it from a stroke-icon library. Very little else in this corpus offers a rendered 3D icon set at this scale.",
+  "category": "icons-logos",
+  "subcategory": "icon-sets",
+  "kinds": [
+   "icon-set",
+   "marketplace"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "commercial",
+    "free-for-personal"
+   ],
+   "pricing": [
+    "freemium",
+    "subscription",
+    "account-required"
+   ],
+   "distribution": [
+    "download",
+    "figma-plugin",
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "icons",
+    "3d",
+    "images"
+   ],
+   "agent_readiness": [
+    "auth-required",
+    "js-only-shell"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "pricing_detail": "Freemium on a subscription. About 2,500 icons are free. The rest need a plan, and the site advertises \"flexible plans for every creative need\" without a figure on the home page. Custom icon commissions are quoted separately.",
+  "agent_guidance": "Use this when a brief asks for a 3D or an animated icon. For flat stroke icons the free alternatives in this corpus, Lucide and Phosphor above all, cost nothing and need no account.\n\nDo not plan to fetch from here. Download needs an account, the catalogue renders in the browser, and there is no package, no API and no MCP server.\n\nRead the licensing guide before a client project. The site sells a subscription, and it keeps the usage terms on a separate page rather than beside the download.",
+  "why_it_matters": "Flat icon sets are close to a commodity now. A maintained 3D and animated set at forty thousand pieces is not, and that is the only reason to pay here.",
+  "quality_tier": "B",
+  "tier_reason": "Genuine breadth, and the 3D and animated sets fill a gap the free libraries leave open. Held at B because an account gates every download, no price appears on the home page, the catalogue is a client-rendered shell with no package and no API, and the flat set competes with free libraries that are easier to ship.",
+  "notable_for": [
+   "more than 40,000 flat icons",
+   "separate 3D and animated sets",
+   "about 2,500 icons free",
+   "six styles and more than seventy categories",
+   "web app and Figma plugin"
+  ],
+  "evidence": "https://iconly.pro/ 200, 157 KB; title \"Iconly Pro | 40,000+ Flat,Animation,3D Icons\"; the assets menu reads \"Free icons — Get instant access to 2,500+ high-quality icons\", \"Flat icons — 40,000+ icons in 6 styles, 3 types, and 70+ categories\", \"Animation icons — Smooth, eye-catching, and category-rich\" and \"3D icons — Highly detailed in fantasy and realistic styles\"; the tools menu names a Web App and a Figma plugin; the customers menu names Subscriptions with \"Flexible plans for every creative need\", Community, Roadmap and a Licensing Guide; the company menu names About us, \"Order custom icon\" and an Affiliate scheme; a repeated banner reads \"Access 40K+ detailed flat, 3D, and animated icons, always updated. Upgrade now\". No price appears on the home page."
+ },
+ {
+  "id": "user:b6a6a177aa1ebff1",
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 11,
+   "blocks": null
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-29",
+  "source": "user",
+  "slug": "emil-kowalski",
+  "url": "https://emilkowal.ski",
+  "name": "Emil Kowalski",
+  "tagline": "Eleven essays on interface craft by the author of Sonner and Vaul, including the argument for animating less",
+  "description": "Emil Kowalski works on the Web team at Linear and worked on the design team at Vercel before that. The site is one page: a short note, four projects, then eleven essays.\n\nThe essays are the reason to read it. \"You Don't Need Animations\" argues that most interfaces animate more often than they should, and it is the piece other designers cite. \"Developing Taste\" and \"Train Your Judgement\" treat taste as a skill rather than a gift. \"Agents with Taste\" asks how to hand that judgement to a model, which is a question few craft writers have taken on. \"Friction as a Feature\" defends deliberate slowness. \"The Magic of Clip Path\" and \"7 Practical Animation Tips\" are technical. \"Building a Toast Component\" and \"Building a Drawer Component\" are post-mortems of his own libraries.\n\nThe four projects are Sonner, an opinionated React toast, Vaul, a React drawer, animations.dev, a paid course on web animation, and aiforui.dev. None of the four is in this corpus yet.",
+  "category": "essays-guides-courses",
+  "subcategory": "craft-essays",
+  "kinds": [
+   "article",
+   "profile",
+   "course"
+  ],
+  "facets": {
+   "framework": [
+    "react"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free",
+    "paid"
+   ],
+   "distribution": [
+    "article"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "prose",
+    "code"
+   ],
+   "agent_readiness": [
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "pricing_detail": "The essays are free. The animation course at animations.dev is paid, and a banner on the site announced open enrolment with ten days left on 2026-08-29.",
+  "agent_guidance": "Read \"You Don't Need Animations\" before you add motion to anything. It is the strongest published argument for restraint, and it comes from the person who wrote two widely used animated components, so it is not a purist complaint.\n\nRead \"Agents with Taste\" when a brief asks you to make a model produce good design. Almost no other craft essay addresses that problem directly.\n\nCite the essay, not the site. Every piece sits at its own URL under /ui, and the home page is only an index. Note that /ui itself answers 404, so build a link from the essay slug rather than from the section.",
+  "why_it_matters": "Most writing about interface motion sells more of it. This author built Sonner and Vaul and then argued for using less, which is the rarer and more useful position.",
+  "quality_tier": "A",
+  "tier_reason": "Eleven essays of real craft from a design engineer at Linear whose components ship in thousands of products, and the restraint argument carries weight precisely because of who makes it. Held below S because the site is one person's index with no llms.txt and no feed, /ui answers 404, and the deepest material sits in a paid course elsewhere.",
+  "notable_for": [
+   "You Don't Need Animations",
+   "Agents with Taste",
+   "author of Sonner and Vaul",
+   "design engineer at Linear, formerly Vercel",
+   "eleven essays on taste and motion"
+  ],
+  "evidence": "https://emilkowal.ski/ 200, 28 KB; the page reads \"Emil Kowalski — Design Engineer. Today I work on the Web team at Linear ... Previously, I worked on the design team at Vercel.\"; a banner reads \"Enrollment for my animation course is open! 10 days left to sign up.\"; the Projects list names aiforui.dev \"AI for Designers and Engineers\", Sonner \"An opinionated toast component for React\", animations.dev \"A course on web animations\" and Vaul \"A drawer component for React\"; the Writing list names Friction as a Feature, You Don't Need Animations, Agents with Taste, Building a Toast Component, Developing Taste, The Magic of Clip Path, 7 Practical Animation Tips, Train Your Judgement, Building an animation course and Building a Drawer Component. https://emilkowal.ski/ui/you-dont-need-animations 200, 105 KB. https://emilkowal.ski/ui 404, and /writing and /blog also 404. https://emilkowal.ski/llms.txt 404."
+ },
+ {
+  "id": "user:0bda31e0c344131c",
+  "templates": [],
+  "template_count": null,
+  "install": "npx shadcn@latest add swamimalode07/rare-ui/fluid-orb",
+  "package": null,
+  "docs_url": "https://www.rareui.com/llms.txt",
+  "repo_url": "https://github.com/swamimalode07/rare-ui",
+  "registry_url": null,
+  "github": {
+   "stars": 519,
+   "license": "MIT",
+   "last_activity": "2026-08-26"
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "components": [
+   "file-card",
+   "time-picker",
+   "animation",
+   "text-effect",
+   "otp-input"
+  ],
+  "component_count": 14,
+  "surfaces": [
+   "two-factor-authentication",
+   "verifying-account",
+   "uploading-media"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-29",
+  "source": "user",
+  "slug": "rare-ui",
+  "url": "https://www.rareui.com",
+  "name": "Rare UI",
+  "tagline": "Fourteen free MIT animated React components, one file each, installed with the shadcn CLI",
+  "description": "Rare UI is a small, free, MIT-licensed collection of animated React components by Swami Malode. The site states fourteen of them, and the point is that each one is rare rather than another copy of the primitive layer: a Folder component, a Duration Picker, a Fluid Orb, Gravity Letters and an OTP Input are the five it leads with.\n\nEach component is one file. Installation runs through the shadcn CLI against the author's namespace, so a coding agent adds a component with a single command and any package manager. The repository swamimalode07/rare-ui carries 519 stars and 26 forks, and it was pushed on 2026-08-26.\n\nThe site publishes an llms.txt and a robots.txt, and it runs on sponsorship: the footer sells slots and one of them is still marked \"Your logo here\".",
+  "category": "component-libraries",
+  "subcategory": "shadcn-registries",
+  "kinds": [
+   "registry",
+   "component-library",
+   "animation-library"
+  ],
+  "facets": {
+   "framework": [
+    "react"
+   ],
+   "styling": [
+    "tailwind-any"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source",
+    "sponsor-supported"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "cli",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "registry-json",
+    "cli-installable",
+    "llms-txt",
+    "copy-paste-ready",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "pricing_detail": "Free and MIT. The project takes sponsors and sells footer slots, one of which is unsold.",
+  "agent_guidance": "Install with the shadcn CLI and the author's namespace, not by copying from the page: `npx shadcn@latest add swamimalode07/rare-ui/<name>`. One file arrives for each component.\n\nRead /llms.txt first for the component list. The site publishes one, which is rare at this size, so an agent does not have to render the gallery.\n\nUse it as a complement, not a base. Fourteen components cannot carry an application, and none of them is a button or a form. Take the Fluid Orb, the Gravity Letters or the Folder when a page needs one memorable moment.",
+  "why_it_matters": "Most shadcn registries restyle the same twenty primitives. This one ships fourteen things the primitive layer does not contain at all, under MIT, with a working CLI install.",
+  "quality_tier": "B",
+  "tier_reason": "Free, MIT, CLI-installable, with a public repository at 519 stars and an llms.txt that most registries skip. Held at B because fourteen components cannot carry a project, the set is decorative rather than structural, the whole thing is one person's work, and the site states no accessibility position.",
+  "notable_for": [
+   "fourteen animated React components",
+   "MIT and free, one file each",
+   "installed with the shadcn CLI",
+   "519 GitHub stars",
+   "publishes an llms.txt"
+  ],
+  "evidence": "https://www.rareui.com/ 200, 76 KB; title \"Rare UI — Rare Animated React Components\"; body copy reads \"Rare UI is a free, open-source collection of rare animated React components. Browse them in action below and install any component with the shadcn CLI\" and \"14 + rare and unique components — Just one file for each component. Add it with the shadcn CLI, using any package manager you like\"; the install line shown is `npx shadcn@latest add swamimalode07/rare-ui/fluid-orb`; the named components are Folder component, Duration Picker, Fluid Orb, Gravity Letters and OTP Input, with a \"View all 14 components\" link; the header shows 519, which the page payload confirms as `{\"stars\":519}`; the footer names Sponsors, Pricing, GitHub, X, a Sitemap and a robots.txt, and carries an unsold \"Your logo here\" slot and the address swamimalodeofficial@gmail.com. https://www.rareui.com/llms.txt 200. GitHub API for swamimalode07/rare-ui: 519 stars, 26 forks, MIT, pushed 2026-08-26, not archived."
+ },
+ {
+  "id": "user:8f47a819a85163a7",
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://mnmm.xyz/llms.txt",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 168,
+   "blocks": null
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-29",
+  "source": "user",
+  "slug": "minimum-mnmm",
+  "url": "https://mnmm.xyz",
+  "name": "Minimum",
+  "tagline": "A directory of 168 minimal websites, most of them personal sites by working designers and engineers",
+  "description": "Minimum is a single-purpose directory: minimal websites, and nothing else. The counter on the page reads 00168 websites collected, and the tagline states the editorial line plainly — \"Because less, is more.\"\n\nThe listing is almost entirely personal sites. designcult.us, Paul Faivret, Instinct, Rohan Kadakia, Sanyam Punia, Xchyler Drenth, Florian Höller, Eduard Wieandt, Aniket Kumar, Benjamin Akar, Lorenzo de Lijser, Nils Eller, George Vanjek, Logan Liffick, Muharrem Şenyıl, Saad Basheer, Adithya Krishna, Dave Klein, Gavin Nelson and Wassim Gharbi all appear on the first screen. Each entry pairs the person's name with the bare domain. A Random control jumps to one entry.\n\nThe site publishes an llms.txt. It runs on a single sponsor slot.",
+  "category": "inspiration-galleries",
+  "subcategory": "site-galleries",
+  "kinds": [
+   "gallery",
+   "directory"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free",
+    "sponsor-supported"
+   ],
+   "distribution": [
+    "gallery"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "screenshots",
+    "profile"
+   ],
+   "agent_readiness": [
+    "llms-txt",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "pricing_detail": "Free to browse. One sponsor slot funds it. No account and no paid tier.",
+  "agent_guidance": "Use this for one narrow brief: a personal site, a portfolio, or anything where restraint is the requirement. The collection has a single editorial rule and it holds to it, so every one of the 168 entries is on that theme.\n\nDo not use it for product or marketing work. Almost every entry is a personal site by a designer or an engineer, so the patterns are one-page and low-chrome and they do not transfer to an application.\n\nRead /llms.txt for the list rather than the gallery. The page names each site by person and by bare domain, which makes the entries easy to follow to the source.",
+  "why_it_matters": "Most galleries collect everything that looks good and end up with no position. This one collects on a single constraint, which makes 168 entries more useful than a thousand unsorted ones.",
+  "quality_tier": "B",
+  "tier_reason": "A clear editorial rule, held to across every entry, with an llms.txt and a Random control that suits browsing. Held at B because 168 entries is small, the scope is one aesthetic and one site type, there is no filtering beyond Random, and the site states no submission or review standard.",
+  "notable_for": [
+   "168 minimal websites",
+   "one editorial rule and no drift",
+   "almost all personal sites by designers and engineers",
+   "publishes an llms.txt",
+   "a Random control"
+  ],
+  "evidence": "https://mnmm.xyz/ 200, 99 KB server-rendered; title \"Minimum: Minimal Websites Directory\"; the page reads \"Minimal websites directory. Because less, is more.\", carries a \"Sponsored By\" slot, and shows the counter \"00168 websites collected\" beside a \"( Random Random )\" control; entries read as a person's name paired with a bare domain, and the first screen lists designcult.us, internetlabs.co, paulfaivret.com, instinct.co, rokadakia.com, sanyam.sh, xchyler.works, flohoeller.com, eduardwieandt.com, aniket.fyi, benja.dev, lorenzodelijser.com, nilseller.com, vanjek.co, saivamshi.aethoscompany.in, nachi.design, loganliffick.com, senyil.com, saadb.me, adikris.in, shedsgns.me, diklein.com, nelson.co, newsystems.ca, aniketpawar.com, tldr.aryank.space, dqnamo.com and gharbi.me. https://mnmm.xyz/llms.txt 200."
+ },
+ {
+  "id": "user:59452dedcdc57c7a",
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://www.a1.gallery/mcp.md",
+  "repo_url": null,
+  "registry_url": "https://www.a1.gallery/api/mcp",
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-29",
+  "source": "user",
+  "slug": "a1-gallery",
+  "url": "https://www.a1.gallery",
+  "name": "A1",
+  "tagline": "A web design gallery with an MCP server that returns clean JSON, including design tokens measured from the rendered page",
+  "description": "A1 is a curated gallery of well-designed websites by Bryn Taylor, a web designer with more than twelve years of practice. Every site is reviewed on design quality, build quality, creativity and usability. The site states more than a thousand entries.\n\nWhat separates it from the rest of the galleries in this corpus is the way it breaks a site down. Each entry is captured at full length, then split into its interior pages and its individual sections, so the gallery is browsable at three depths. Seven sections sit in the navigation: Websites, Templates, Pages, Sections, OG images, Profiles and Fonts. Filters run across type, category and style, with types like agency, blog, landing, one page, portfolio and shop, and about thirty categories.\n\nA1 runs an MCP server at /api/mcp, and its llms.txt names it as the preferred route for machines. The server answers search, filtering, per-site detail, page sections and design tokens measured from the rendered page. Setup guides exist for Claude Code, Claude, Cursor, Codex and Zed. An RSS feed carries new sites. A1 Pro is the paid tier and it adds unlimited saves and priority submissions.",
+  "category": "inspiration-galleries",
+  "subcategory": "site-galleries",
+  "kinds": [
+   "gallery",
+   "directory",
+   "mcp-server"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium",
+    "subscription",
+    "account-required"
+   ],
+   "distribution": [
+    "gallery",
+    "mcp-server",
+    "public-api",
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "screenshots",
+    "design-tokens",
+    "fonts",
+    "profile"
+   ],
+   "agent_readiness": [
+    "mcp-server",
+    "llms-txt",
+    "structured-docs",
+    "machine-index",
+    "public-api"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "pricing_detail": "Free to browse. A1 Pro is a paid tier that adds unlimited saves and priority submissions, with no figure on the home page. Submission is free. The newsletter states more than 2,650 subscribers.",
+  "agent_guidance": "Connect the MCP server and stop scraping. The endpoint is https://www.a1.gallery/api/mcp, the setup guide for this client is at /mcp/claude-code, and the full markdown guide is at /mcp.md. The llms.txt states the server as the preferred route for machines, which almost no gallery does.\n\nAsk it for design tokens, not just screenshots. The server returns tokens measured from the rendered page, so a brief like \"match the type scale of this site\" gets a number instead of a guess. That is the one capability no other gallery in this corpus offers.\n\nUse the three depths. A whole site, an interior page and a single section are separate objects here, so ask at the depth the brief needs rather than pulling a full-page capture and cropping it.",
+  "why_it_matters": "Every gallery in this corpus makes an agent read pictures. This one hands over measured design tokens and structured JSON over MCP, which turns inspiration into something a model can act on.",
+  "quality_tier": "S",
+  "tier_reason": "The best agent surface of any gallery in this corpus, and it is not close: an MCP server with per-client setup guides, a 6 KB llms.txt that points at it first, an RSS feed, and design tokens measured from the rendered page rather than guessed. The editorial standard is stated, the reviewer is named, and the catalogue is split to three depths.",
+  "notable_for": [
+   "MCP server that returns design tokens",
+   "setup guides for Claude Code, Cursor, Codex and Zed",
+   "sites split into pages and sections",
+   "more than a thousand reviewed sites",
+   "OG images, profiles and fonts as separate sections"
+  ],
+  "evidence": "https://www.a1.gallery/ 200, 239 KB; title \"Website design inspiration gallery · A1\"; the navigation holds Websites, Templates, Pages, Sections, OG images, Profiles, Fonts and Pricing, plus Submit, Sponsor, Blog, Subscribe, \"MCP server\", About and Feedback; a banner reads \"New A1 Pro: unlimited saves, priority submissions and more\"; the newsletter block reads \"Join 2,650+ designers\"; the type filters read Agency, Blog, Directory, Landing, One page, Portfolio, Shop, Template and Waitlist, with about thirty categories beside them. https://www.a1.gallery/llms.txt 200, 6,044 bytes, and it states: \"A1 runs an MCP server that returns clean JSON for search, filtering, per-site detail, page sections, and design tokens measured from the rendered page. Prefer it over scraping HTML\", names the endpoint https://www.a1.gallery/api/mcp, the guide at /mcp and /mcp.md, an RSS feed at /website/rss.xml, and per-client pages for Claude Code, Claude, Cursor, Codex and Zed; it also states \"A1 is created by Bryn Taylor, a web designer and developer with 12+ years of experience\" and \"over a thousand carefully selected websites and templates, each captured at full length and broken down into its interior pages and individual sections\"."
+ },
+ {
+  "id": "user:faa5c7dfa48e33b5",
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 565,
+   "blocks": null
+  },
+  "components": [
+   "hero",
+   "navbar",
+   "button",
+   "heading",
+   "image",
+   "video-player"
+  ],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "features",
+   "waitlist"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-29",
+  "source": "user",
+  "slug": "supahero",
+  "url": "https://supahero.io",
+  "name": "Supahero",
+  "tagline": "565 website hero sections in one gallery, now folded into the screensdesign app library",
+  "description": "Supahero collects one thing: the hero section, the first screen a visitor sees. The gallery holds 565 of them at /hero/<name>, drawn from named sites rather than mockups — Better Stack, Zed, Dribbble, Habito, Red Antler, Superpower, Lando Norris, Spectrum.Life, Arc, Nova Wallet and Craft AI all appear on the first screen.\n\nA banner at the top of the page states that Supahero is now part of screensdesign, which it describes as the biggest UX app library in the world. The header carries both names, so the gallery still stands but the project sits inside another one.\n\nThe site publishes no llms.txt and no sitemap. A request for /sitemap.xml answers 404.",
+  "category": "inspiration-galleries",
+  "subcategory": "single-element-galleries",
+  "kinds": [
+   "gallery",
+   "directory"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "gallery"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "screenshots"
+   ],
+   "agent_readiness": [
+    "image-only"
+   ],
+   "maturity": "stable"
+  },
+  "pricing_detail": "Free to browse. No account and no paid tier on the gallery. The parent product, screensdesign, sells separately.",
+  "agent_guidance": "Use it for one job: the first screen. The whole catalogue is hero sections, so a brief about a landing page opening is the only brief it answers well.\n\nEnumerate with /hero/<name>. The gallery serves 565 such links in the HTML, and there is no sitemap and no llms.txt to read instead. A request for /sitemap.xml answers 404.\n\nCheck whether the site still stands before you cite it. The banner says Supahero is now part of screensdesign, and a merged gallery can be folded into the parent product without notice. Treat the URL as stable but not guaranteed.",
+  "why_it_matters": "The hero is the screen a client argues about most and the one a general gallery buries under a full-page capture. A collection that shows 565 of them, cropped to the part that matters, saves a long scroll.",
+  "quality_tier": "B",
+  "tier_reason": "Deep and single-minded on a screen that deserves its own collection, with named real sites rather than mockups. Held at B because the substance is images with nothing machine-readable beside them, there is no sitemap and no llms.txt, no filtering is offered, and the banner says the project has been folded into another product.",
+  "notable_for": [
+   "565 hero sections",
+   "real named sites, not mockups",
+   "one screen and nothing else",
+   "now part of screensdesign",
+   "no sitemap and no llms.txt"
+  ],
+  "evidence": "https://supahero.io/ 200, 1.04 MB; title \"Supahero - Website hero section library\"; the top banner reads \"supahero is now part of screensdesign — the biggest UX app library in the world. Create high converting apps in seconds.\"; the page describes itself as \"Website hero section library — Curated collection of beautiful website hero sections\"; counted 565 distinct /hero/<slug> links in the served HTML; entries named on the first screen include Anubi, Better Stack, eddie, Lando Norris, Zed, 35mm, Wope, Treize grammes, Did, Global Cinema, Spectrum.Life, Eric Jordan, Tigran Azatyan, Shaga, Odyssey, IntegratedBio, Dream Design Laboratory, Dialweb, Dribbble, Casa Lunara, Modify, Red Antler, KARO, Uigraphic, Gallereee, Haptikos, Fourseven, EventBeds, bychudy, Colabs, GRINK, Habito, Royal Beverage, Superpower, Lax Chee, Yucca Packing, Payy, Madar, Exat, Easyfast, Maggie App, End Speciesism, Easlo, Your Creative, Produktly, Otherlife, Arc, Nova Wallet, Sales&More, Avision, Lugano Living Lab and Craft AI. https://supahero.io/llms.txt 404 and https://supahero.io/sitemap.xml 404."
+ }
+]

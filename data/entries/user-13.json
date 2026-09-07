@@ -1,0 +1,363 @@
+[
+  {
+    "id": "user:753900e74e506e94",
+    "slug": "abtest-design",
+    "url": "https://abtest.design",
+    "name": "abtest.design",
+    "tagline": "47 documented A/B tests from Blinkist, Duolingo, Headspace, Uber and others, each with the winning variant and the measured lift",
+    "description": "abtest.design is a curated record of A/B test results from consumer apps, powered by Mobbin. Each entry pairs the A and B screens side by side, names the company, and states the measured outcome: Blinkist +23% trial signups on a reworked \"How your free trial works\" screen, Duolingo +40% learners on a streak after decoupling streaks from daily goals, Headspace +10% free trial conversion from multi-intent onboarding queries, HotelTonight +15% conversions from a streamlined checkout, Moonly +39% conversion from restricting the free trial to the annual plan, Mobbin +35% free-to-paid from a Pro badge, and a double-digit rise in rides per user at Uber from a clearer pricing estimate. The homepage carries 47 tests across seven categories: Paywall and free trial, Onboarding, Checkout and sales, User engagement and retention, Monetization awareness, Referral, and Misc. Anyone can submit a test. What separates it from a normal screenshot gallery is the outcome data — the collection is organised around what moved a number, not around what looked good.",
+    "category": "inspiration-galleries",
+    "subcategory": "app-screens",
+    "kinds": [
+      "gallery",
+      "reference",
+      "directory"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "gallery",
+        "web-app"
+      ],
+      "platform": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "screenshots",
+        "prose"
+      ],
+      "agent_readiness": [
+        "js-only-shell",
+        "image-only"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "pricing-table",
+      "modal",
+      "button",
+      "form"
+    ],
+    "component_count": null,
+    "surfaces": [
+      "paywall",
+      "onboarding-web-app",
+      "checkout",
+      "pricing-web-app",
+      "sign-up",
+      "referral-flow"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": "Free to browse. No account seen, no paid tier advertised.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 47,
+      "blocks": null
+    },
+    "agent_guidance": "Use this when a brief asks you to justify a paywall, onboarding or checkout decision, not when it asks for visual style. It is the only collection in this corpus that attaches a measured result to a screen, so it settles arguments the other galleries cannot. Read it before designing a free-trial flow: several entries contradict the obvious choice, notably Moonly gaining 39% by removing the monthly trial rather than adding one. Do not scrape it — the page is client-rendered and the substance sits in screenshots, so the outcome text is the only machine-readable part.",
+    "why_it_matters": "Nearly every design gallery collects appearance. This one collects consequence. For paywall, onboarding and checkout work it is worth more than a hundred pretty screens, because each entry names the company, the change and the lift.",
+    "quality_tier": "A",
+    "tier_reason": "Rare and genuinely useful subject matter, with named companies and specific numbers rather than vague claims. Held below S because the corpus is small at 47 entries, the outcomes are self-reported and undated, and the site is a client-rendered shell that gives an agent nothing structured to read.",
+    "notable_for": [
+      "47 A/B tests with measured lifts",
+      "powered by Mobbin",
+      "seven flow-based categories",
+      "outcome data, not just screenshots",
+      "open submissions"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-23",
+    "evidence": "https://abtest.design/ 200, read from a headless render because the page is client-rendered; title \"abtest.design\", meta description \"Curated collection of A/B test results from best-in-class apps\"; header reads \"Powered by Mobbin\" with a \"Submit test\" action; the category rail lists Paywall & free trial, Onboarding, Checkout & sales, User engagement & retention, Monetization awareness, Referral and Misc; counted 47 entry separators in the rendered DOM; entries read include Blinkist +23% trial signups, Headspace +7% new signups on a 30-Day Guest Pass, Uber double-digit increase in rides per user, Duolingo +40% learners on a streak, Headspace +10% free trial conversion, HotelTonight +15% conversions, Moonly +39% conversion rate, Headspace +3% free-trial survival, Slopes +25% trial start, Mobbin +35% free-to-paid.",
+    "source": "user"
+  },
+  {
+    "id": "user:0a886e9dd6344611",
+    "slug": "gallereee",
+    "url": "https://gallereee.com",
+    "name": "Gallereee",
+    "tagline": "Weekly-updated gallery of designer and studio portfolio sites, filterable by discipline and by visual style",
+    "description": "Gallereee is a curated gallery of portfolio websites, aimed at people building their own. Its useful feature is the double filter: one axis for the maker's discipline — 3D Artist, Agency, Animator, Architect, Designer, Developer, Director, Illustrator, Photographer, Videographer — and a second for visual style, covering 3D, Bold, Colorful, Dark mode, Elegant, Experimental, Interactive, Light mode, Minimal, Playful, Retro and Typographic. That combination answers the question a portfolio brief actually asks, which is not \"show me good sites\" but \"show me what a minimal photographer's site looks like\". Entries carry NEW and Featured badges and link straight to the live site rather than to a screenshot. The homepage loads 25 portfolios at a time, among them Oimachi, Plastic, Locomotive, Belgrade Arbor, Refined, Goodside, Cosmos Studio, Scheme Engine, Studio K95, Holygrid and Weichie. There is a submission route and a newsletter, and the site also sells premium website templates.",
+    "category": "inspiration-galleries",
+    "subcategory": "site-galleries",
+    "kinds": [
+      "gallery",
+      "directory",
+      "marketplace"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "freemium",
+        "paid"
+      ],
+      "distribution": [
+        "gallery",
+        "web-app"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "screenshots"
+      ],
+      "agent_readiness": [
+        "js-only-shell",
+        "image-only"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "image-gallery",
+      "card",
+      "tag",
+      "signup-form"
+    ],
+    "component_count": null,
+    "surfaces": [
+      "homepage",
+      "about",
+      "contact-us"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": "Browsing and the newsletter are free. The site also sells premium website templates, priced on their own pages.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 25,
+      "blocks": null
+    },
+    "agent_guidance": "Reach for this when the brief is a portfolio site and you need references matched to a discipline rather than a mood. The style-plus-discipline filter pair is the reason to prefer it over a general site gallery. Note the count: 25 portfolios load on the homepage, and the total catalogue size is not published, so do not quote a corpus size. Entries link to live sites, so follow the link rather than reading the thumbnail. The page is client-rendered and offers nothing structured to an agent.",
+    "why_it_matters": "Most site galleries index everything and filter by style alone. Filtering by the maker's discipline as well is what turns browsing into research, because a photographer's portfolio and an agency's solve different problems.",
+    "quality_tier": "B",
+    "tier_reason": "Well-filtered and updated weekly, with links to live sites rather than dead screenshots. Held at B because the total catalogue size is undisclosed, ownership is not stated anywhere on the site, and it is one of many site galleries already in this corpus.",
+    "notable_for": [
+      "filter by discipline and by visual style",
+      "links to live sites, not screenshots",
+      "weekly updates and a newsletter",
+      "sells premium templates alongside"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-23",
+    "evidence": "https://gallereee.com/ 200, read from a headless render; title \"Best Inspirational Portfolio Websites. Handpicked for Creatives.\", meta description \"A curated gallery of the best portfolio websites on the web. Real references from indie designers and top studios, updated every week.\"; discipline filters read from the rendered nav: All, 3D Artist, Agency, Animator, Architect, Designer, Developer, Director, Illustrator, Photographer, Videographer; style filters: 3D, Bold, Colorful, Dark mode, Elegant, Experimental, Interactive, Light mode, Minimal, Playful, Retro, Typographic; counted 25 \"Live site\" links, 4 NEW badges and 3 Featured badges on the homepage; named entries include Oimachi, Plastic, Locomotive, Belgrade Arbor, Refined, Goodside, Cosmos Studio, Scheme Engine, Studio K95, Holygrid, Artem Shcherbakov, Hest.design and Weichie; a Submit action and a newsletter signup are present.",
+    "source": "user"
+  },
+  {
+    "id": "user:a950c5e2093866b2",
+    "slug": "headers-club",
+    "url": "https://headers.club",
+    "name": "Headers Club",
+    "tagline": "A single-element gallery for header and banner images, currently between versions",
+    "description": "Headers Club collects one artifact and one only: the header image at the top of a company site or profile. The published concept runs a featured header each week — a captured example showed Figure's robot header held for three days with a countdown to the next reveal — above a grid of submitted headers credited to the people who made them, with a \"Join the Club\" submission route. As of 23 August 2026 the live homepage does not serve that grid. It renders a holding page reading \"New version incoming\" above the tagline, with nothing else on it, so the catalogue is not currently browsable and no count can be verified. The metadata still describes the full product.",
+    "category": "inspiration-galleries",
+    "subcategory": "single-element-galleries",
+    "kinds": [
+      "gallery",
+      "directory"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "gallery"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "screenshots"
+      ],
+      "agent_readiness": [
+        "image-only"
+      ],
+      "maturity": "beta"
+    },
+    "components": [
+      "hero",
+      "image-gallery",
+      "card"
+    ],
+    "component_count": null,
+    "surfaces": [
+      "homepage",
+      "about"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": "Free. No paid tier advertised.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Do not send anyone here for header references today. The homepage is a holding page and the grid is not served, so a visit returns one line of text. Keep the record because the concept is a genuine gap — headers and banners are a real single-element category and few sites index them — and re-check after the announced new version ships. If you need header references now, use the section galleries already in this corpus instead.",
+    "why_it_matters": "Header and banner images are a distinct design problem with almost no dedicated index. The category is worth holding even while the site is between versions.",
+    "quality_tier": "C",
+    "tier_reason": "Recorded at C because the site currently serves a holding page with no browsable catalogue. The concept and metadata are sound, and the tier should be revisited once the announced new version is live.",
+    "notable_for": [
+      "one of the few header and banner indexes",
+      "weekly featured header with a countdown",
+      "currently between versions"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-23",
+    "evidence": "https://headers.club/ 200, redirects to https://www.headers.club/, 9236 bytes; title \"Headers Club — The hottest headers on the internet\"; meta description \"Browse the hottest header images on the internet. Got a header that's too hot to handle? Share it.\"; og:description \"Browse the hottest header images on the internet.\"; the entire rendered body text is \"🔥 | New version incoming. | The hottest headers on the internet. | Headers Club | © 2026 Headers Club\", so no catalogue is served and no entry count can be verified; the featured-header grid described above was read from a third-party capture, not from the live site.",
+    "source": "user"
+  },
+  {
+    "id": "user:3d8eec59f0069548",
+    "slug": "recent-work",
+    "url": "https://recentwork.com",
+    "name": "Recent Work",
+    "tagline": "Invite-only portfolio platform for creative professionals, on a waitlist as of August 2026",
+    "description": "Recent Work is an invite-only portfolio platform, described on its own page as \"a boundless, invite-only portfolio platform for creative professionals\". It is not open: the only action on the homepage is Join the Waitlist. What it does show is the roster it has already gathered, which reads as a preview of the membership rather than a browsable gallery — Rahul Luthra, Stephanie Bruce, Tomasz Zelmanski, Jordan Gilroy, Alex Tatu, Noah Wainwright, Anton Skvortsov, Daryl Patigas, Gil Huybrecht, Dmitry Lepisov, Brad Burke, Cedrik Stephen, Brett of Designjoy, Craftwork and others, each tagged by discipline such as Senior designer, Web designer, Product Designer, Brand and logo, Creative Director, Framer Expert and Traditional futurist. Do not confuse it with recent.design, a separate site already in this corpus under the slug recent-design.",
+    "category": "inspiration-galleries",
+    "subcategory": "site-galleries",
+    "kinds": [
+      "gallery",
+      "directory",
+      "profile"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "account-required"
+      ],
+      "distribution": [
+        "web-app",
+        "gallery"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "screenshots",
+        "profile"
+      ],
+      "agent_readiness": [
+        "js-only-shell",
+        "auth-required"
+      ],
+      "maturity": "announced"
+    },
+    "components": [
+      "image-gallery",
+      "card",
+      "avatar",
+      "signup-form"
+    ],
+    "component_count": null,
+    "surfaces": [
+      "waitlist",
+      "homepage"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": "No price published. Access is invite-only and gated behind a waitlist, so the commercial model is not yet stated.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Treat this as pre-launch. There is nothing to browse without an invite, so do not cite it as a reference source yet. The value today is the roster preview, which is a usable list of working designers by discipline. Re-check once the waitlist opens. Keep it distinct from recent.design in this corpus — different site, similar name, and the two are easy to conflate.",
+    "why_it_matters": "Worth tracking rather than using. An invite-only portfolio platform selects differently from an open gallery, and if it opens, the selection is the product.",
+    "quality_tier": "C",
+    "tier_reason": "Recorded at C because it is pre-launch and gated. No catalogue, no count, no published pricing. The tier should be revisited when access opens.",
+    "notable_for": [
+      "invite-only, waitlist as of August 2026",
+      "roster preview tagged by discipline",
+      "not the same site as recent.design"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-23",
+    "evidence": "https://recentwork.com/ 200, read from a headless render; the page reads \"Recent Work | A boundless, invite-only portfolio platform for creative professionals. | Join the waitlist for updates. | Join the Waitlist\"; the roster preview names Rahul Luthra (Senior designer), Stephanie Bruce (Web designer), Jonas / techbimbo, Tomasz Zelmanski (Product Designer), Jordan Gilroy (Digital designer), Drice (Brand & logo), elod.creative, Alex Tatu, Noah Wainwright, Anton Skvortsov (Senior UX/UI), JoséPablo*, Moksi, Daryl Patigas, Juliette, Emmah'xo (Framer Expert), thisisgrey (Traditional futurist), Gil Huybrecht, Dmitry Lepisov, Mansoor, Brad Burke, Derek, charlota, Brett @ Designjoy, Cedrik Stephen, Yax_buzz, Craftwork, Negru Andrei and Oliver Gareis; no entry count, pricing or ownership is published; distinct from https://recent.design/ which is already recorded in this corpus.",
+    "source": "user"
+  }
+]

@@ -1,0 +1,287 @@
+[
+ {
+  "id": "user:cf5060e2005209a2",
+  "slug": "playgrnd",
+  "url": "https://www.playgrnd.tools",
+  "name": "playgrnd",
+  "tagline": "39 free generative design tools that run in the browser and export PNG, SVG, animated SVG and video",
+  "description": "playgrnd is a set of 39 single-purpose generative design tools from Brett Williams, the designer behind DesignJoy. Each tool sits on its own page and makes one kind of thing: a pattern, a poster, a background, a texture or a badge set. You move sliders, press Space for a new variation, and export.\n\nEverything runs in the browser. The landing page states it plainly: \"Every tool runs in the browser. Nothing is uploaded and nothing is stored. Exports are yours.\" There is no account, no upload and no paywall.\n\nThe export row is the part that separates it from a screenshot toy. Every tool offers PNG, SVG, animated SVG and video, with an output size up to 2400 px. A dither pass and an animation pass sit in front of the export, so one composition gives a still, a looping SVG and a clip.\n\nThe tools group into five kinds. Backgrounds holds 17, Patterns 9, Posters 9, Textures 3, and Badges 1. Oddgrid also takes your own SVG and recolours it to the ink of the composition.\n\nBrett published the beta on 2 September 2026 with 32 tools and adds more most days. Five went up on 4 September and one on 5 September. A NEW badge appears on a tool for 14 days from the day it ships, worked out against the reader's own clock.",
+  "category": "textures-assets",
+  "subcategory": "patterns-and-generators",
+  "kinds": [
+   "generator",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "vanilla"
+   ],
+   "styling": [
+    "vanilla-css",
+    "css-variables"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "web-app",
+    "download"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "reduced-motion",
+    "keyboard-navigable"
+   ],
+   "content_type": [
+    "images",
+    "video"
+   ],
+   "agent_readiness": [
+    "js-only-shell"
+   ],
+   "maturity": "beta"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "homepage"
+  ],
+  "templates": [
+   {
+    "name": "Oddgrid",
+    "url": "https://www.playgrnd.tools/oddgrid/",
+    "purpose": "Patterns: generative pixel compositions"
+   },
+   {
+    "name": "Terrain",
+    "url": "https://www.playgrnd.tools/terrain/",
+    "purpose": "Backgrounds: layered contour landscapes"
+   },
+   {
+    "name": "Filament",
+    "url": "https://www.playgrnd.tools/filament/",
+    "purpose": "Backgrounds: flowing thread fields"
+   },
+   {
+    "name": "Zig",
+    "url": "https://www.playgrnd.tools/zig/",
+    "purpose": "Patterns: rounded zigzag patterns"
+   },
+   {
+    "name": "Quilt",
+    "url": "https://www.playgrnd.tools/quilt/",
+    "purpose": "Patterns: pixel blanket patterns"
+   },
+   {
+    "name": "Aura",
+    "url": "https://www.playgrnd.tools/aura/",
+    "purpose": "Backgrounds: soft vibrant gradients"
+   },
+   {
+    "name": "Warp",
+    "url": "https://www.playgrnd.tools/warp/",
+    "purpose": "Patterns: warped op-art patterns"
+   },
+   {
+    "name": "Specimen",
+    "url": "https://www.playgrnd.tools/specimen/",
+    "purpose": "Posters: type specimen posters"
+   },
+   {
+    "name": "Tokens",
+    "url": "https://www.playgrnd.tools/tokens/",
+    "purpose": "Badges: geometric badge sets"
+   },
+   {
+    "name": "Vee",
+    "url": "https://www.playgrnd.tools/vee/",
+    "purpose": "Patterns: mirrored chevron stripes"
+   },
+   {
+    "name": "Fete",
+    "url": "https://www.playgrnd.tools/fete/",
+    "purpose": "Posters: festival patch posters"
+   },
+   {
+    "name": "Parcel",
+    "url": "https://www.playgrnd.tools/parcel/",
+    "purpose": "Posters: pixel parcel posters"
+   },
+   {
+    "name": "Weave",
+    "url": "https://www.playgrnd.tools/weave/",
+    "purpose": "Patterns: striped ribbon bands"
+   },
+   {
+    "name": "Stipple",
+    "url": "https://www.playgrnd.tools/stipple/",
+    "purpose": "Textures: halftone dot portraits of light"
+   },
+   {
+    "name": "Modular",
+    "url": "https://www.playgrnd.tools/modular/",
+    "purpose": "Posters: rounded modular grid posters"
+   },
+   {
+    "name": "Static",
+    "url": "https://www.playgrnd.tools/static/",
+    "purpose": "Posters: glitch pixel posters"
+   },
+   {
+    "name": "Optic",
+    "url": "https://www.playgrnd.tools/optic/",
+    "purpose": "Posters: striped counterchange posters"
+   },
+   {
+    "name": "Rise",
+    "url": "https://www.playgrnd.tools/rise/",
+    "purpose": "Backgrounds: radial stripe arcs"
+   },
+   {
+    "name": "Prism",
+    "url": "https://www.playgrnd.tools/prism/",
+    "purpose": "Backgrounds: pixel aurora backdrops"
+   },
+   {
+    "name": "Riso",
+    "url": "https://www.playgrnd.tools/riso/",
+    "purpose": "Posters: torn paper collage"
+   },
+   {
+    "name": "Delta",
+    "url": "https://www.playgrnd.tools/delta/",
+    "purpose": "Backgrounds: corrupted satellite mosaics"
+   },
+   {
+    "name": "Mist",
+    "url": "https://www.playgrnd.tools/mist/",
+    "purpose": "Backgrounds: sprayed neon washes"
+   },
+   {
+    "name": "Totem",
+    "url": "https://www.playgrnd.tools/totem/",
+    "purpose": "Posters: mirrored pixel banners"
+   },
+   {
+    "name": "Atlas",
+    "url": "https://www.playgrnd.tools/atlas/",
+    "purpose": "Textures: text-mode terrain maps"
+   },
+   {
+    "name": "Sampler",
+    "url": "https://www.playgrnd.tools/sampler/",
+    "purpose": "Patterns: modular tile samplers"
+   },
+   {
+    "name": "Relief",
+    "url": "https://www.playgrnd.tools/relief/",
+    "purpose": "Patterns: isometric block lattices"
+   },
+   {
+    "name": "Emblem",
+    "url": "https://www.playgrnd.tools/emblem/",
+    "purpose": "Patterns: mirrored emblem panels"
+   },
+   {
+    "name": "Kiosk",
+    "url": "https://www.playgrnd.tools/kiosk/",
+    "purpose": "Posters: typographic fly-posters"
+   },
+   {
+    "name": "Mosh",
+    "url": "https://www.playgrnd.tools/mosh/",
+    "purpose": "Textures: corrupted signal"
+   },
+   {
+    "name": "Pane",
+    "url": "https://www.playgrnd.tools/pane/",
+    "purpose": "Backgrounds: gradient panels"
+   },
+   {
+    "name": "Sonar",
+    "url": "https://www.playgrnd.tools/sonar/",
+    "purpose": "Backgrounds: dithered landmasses"
+   },
+   {
+    "name": "Bloom",
+    "url": "https://www.playgrnd.tools/bloom/",
+    "purpose": "Backgrounds: symmetrical pixel fields"
+   },
+   {
+    "name": "Sear",
+    "url": "https://www.playgrnd.tools/sear/",
+    "purpose": "Backgrounds: smeared thermal fields"
+   },
+   {
+    "name": "Carve",
+    "url": "https://www.playgrnd.tools/carve/",
+    "purpose": "Backgrounds: carved panel collages"
+   },
+   {
+    "name": "Culture",
+    "url": "https://www.playgrnd.tools/culture/",
+    "purpose": "Backgrounds: grainy colony fields"
+   },
+   {
+    "name": "Husk",
+    "url": "https://www.playgrnd.tools/husk/",
+    "purpose": "Backgrounds: eaten husk scatters"
+   },
+   {
+    "name": "Strand",
+    "url": "https://www.playgrnd.tools/strand/",
+    "purpose": "Backgrounds: branching rod chains"
+   },
+   {
+    "name": "Chaff",
+    "url": "https://www.playgrnd.tools/chaff/",
+    "purpose": "Backgrounds: thrown blade scatters"
+   },
+   {
+    "name": "Haze",
+    "url": "https://www.playgrnd.tools/haze/",
+    "purpose": "Backgrounds: sprayed colour fields"
+   }
+  ],
+  "template_count": 39,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 39,
+   "blocks": null
+  },
+  "pricing_detail": "Free. No account and no paid tier. The launch post reads \"No account. No paywall. 100% free.\" The landing page states that exports belong to the reader. The site carries no licence page and no terms page, so the code itself is not licensed for reuse.",
+  "agent_guidance": "Reach for this when a brief needs one distinctive still image and a shader or a gradient will not carry it. Pick the tool by what it makes: Aura or Pane for a hero gradient, Stipple or Atlas for a texture overlay, Specimen or Kiosk for a typographic poster, Tokens for a badge set.\n\nExport SVG when the asset must scale or must be recoloured later. Export PNG at 2400 px for a hero. Export animated SVG rather than video when the asset goes into a web page, because it stays vector and needs no player.\n\nDrive a tool by hand. There is no API, no CLI and no download bundle, so an agent cannot batch these. Send the reader to the tool page with the parameters named in prose.\n\nDo not fetch the index for a list of tools. The list is built by JavaScript, so a plain fetch of the home page returns no visible rows. The tool array is inline in the markup under the name TOOLS if you must read it. Each tool page does return real HTML with every control labelled.\n\nThe site publishes no robots.txt, no sitemap.xml and no llms.txt. All three return 404.",
+  "why_it_matters": "It is the largest free set of generative design tools published in one week, and every tool exports vector as well as raster. The maker runs a design studio at $100K MRR and gave the whole thing away with no account gate, which is why the launch post reached 195,000 views in three days.",
+  "quality_tier": "A",
+  "tier_reason": "39 working tools, every one free and browser-only, with PNG, SVG, animated SVG and video export from the same composition. Every tool page returns real HTML at 90 to 110 KB with each control labelled. Held below S because the site is four days old and the maker calls it beta, it publishes no licence, no robots.txt, no sitemap and no llms.txt, and the index needs JavaScript to list a single tool.",
+  "notable_for": [
+   "39 free generative tools in one place",
+   "PNG, SVG, animated SVG and video from one composition",
+   "no account, no upload, nothing stored",
+   "built by Brett Williams of DesignJoy",
+   "a dither pass in front of every export"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-09-05",
+  "source": "user",
+  "evidence": "https://www.playgrnd.tools/ 200, 36,900 bytes, served by Vercel from fra1. Title \"playgrnd - tiny tools for making weird, beautiful things\". The meta description reads \"A collection of free, single-purpose generative design tools. No accounts, no uploads, everything runs in your browser.\" The og:description reads \"39 free, single-purpose generative design tools.\" Visible text on the index: \"Every tool runs in the browser. Nothing is uploaded and nothing is stored. Exports are yours.\", plus the controls Filter, Clear, Random, the columns No. / Tool / Makes / Kind, the orders Newest / Oldest / A-Z, and the shortcut line \"Type - filter, Enter - open first, Esc - clear\". The inline script holds a TOOLS array of exactly 39 entries, each with slug, name, year 2026, cat and desc. Counting cat: Backgrounds 17, Patterns 9, Posters 9, Textures 3, Badges 1. The last six carry an added date: carve, culture, husk, strand and chaff on 2026-09-04, haze on 2026-09-05. The script sets NEW_DAYS to 14 and computes the badge against the reader's own date. The CSS carries a @media (prefers-reduced-motion:reduce) rule. Tool pages checked: /oddgrid/ 200 at 110,516 bytes, /stipple/ 200 at 95,134 bytes, /haze/ 200 at 93,952, /carve/ 200 at 96,559, /tokens/ 200 at 99,167, /specimen/ 200 at 106,039. /oddgrid/ title \"Oddgrid - playgrnd\", meta description \"Generate pixelated grid artwork. Adjust pattern, colour and motion, then export as PNG, vector SVG, animated SVG or video.\" Its labelled controls include Grid detail, Zoom, Fill, Grain, Patchiness, Blockiness, Block size, Speckle, Cell marks, \"Your own shape / Drop an SVG here\", Recolor to ink, Colors, Spread, Background, Ink, Ratio, Animate, Dither, Pixel size, Tones, and Export at 2000 px with PNG, SVG, Animated SVG and Video. /stipple/ reads \"14 / 39\" and exports at 2400 px. /robots.txt, /sitemap.xml, /llms.txt and /about all return 404, so the site has no catch-all route. Maker: the X account @BrettFromDJ, verified, 170,212 followers, bio \"Running a $1M one-man design studio\" naming designjoy.co at $100K MRR, productizeyourself.co at $12K MRR, and building gatheros.co and playgrnd.tools. His launch post on 2026-09-02 reads \"Playgrnd(R) beta is live. No account. No paywall. 100% free. 32 tiny tools for making weird, beautiful things, with new ones dropping every day. Animate in one click. Dither everything. Export SVGs.\" and stands at 1,928 likes and 195,662 views. A follow-up on 2026-09-04 reads \"5 brand new mini tools added\" at 440 likes and 32,946 views."
+ }
+]

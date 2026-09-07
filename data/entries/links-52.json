@@ -1,0 +1,978 @@
+[
+  {
+    "id": "d25bb7e9-f4f1-4014-b766-5924f92b3281",
+    "slug": "shadcn-glass-ui",
+    "url": "https://github.com/Yhooi2/shadcn-glass-ui-library",
+    "name": "shadcn-glass-ui",
+    "tagline": "Glassmorphism component set for React that installs through the shadcn CLI",
+    "description": "A shadcn-compatible registry of glass-styled React components: blurred, translucent surfaces with glow and border treatments, shipped as copy-in source rather than a runtime dependency. The published registry.json exposes 76 items across primitives (button, input, select, tabs, sheet), composed cards, and a handful of profile/repository dashboard sections. It ships three themes (Glass, Light, Aurora) and a CLAUDE.md context file plus Context7 indexing aimed at AI coding assistants. Requires React 18+ and Tailwind CSS 4.1+.",
+    "category": "component-libraries",
+    "subcategory": "shadcn-registries",
+    "kinds": [
+      "registry",
+      "component-library",
+      "theme-pack"
+    ],
+    "facets": {
+      "framework": [
+        "react",
+        "next"
+      ],
+      "styling": [
+        "tailwind-v4",
+        "css-variables"
+      ],
+      "license": [
+        "apache-2.0",
+        "mit"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "shadcn-registry",
+        "npm-package",
+        "github-repo",
+        "copy-paste"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "built-on-accessible-primitives",
+        "claimed-accessible"
+      ],
+      "content_type": [
+        "code",
+        "design-tokens"
+      ],
+      "agent_readiness": [
+        "registry-json",
+        "cli-installable",
+        "open-source-code",
+        "structured-docs"
+      ],
+      "maturity": "beta"
+    },
+    "components": [
+      "button",
+      "icon-button",
+      "text-input",
+      "search-input",
+      "select",
+      "combobox",
+      "checkbox",
+      "switch",
+      "toggle-button",
+      "slider",
+      "segmented-control",
+      "dropdown-menu",
+      "tabs",
+      "sidebar",
+      "navbar",
+      "header",
+      "card",
+      "card-grid",
+      "list",
+      "badge",
+      "avatar",
+      "stat",
+      "meter",
+      "sparkline",
+      "progress-bar",
+      "skeleton",
+      "separator",
+      "scroll-area",
+      "split-view",
+      "accordion",
+      "tooltip",
+      "popover",
+      "hover-card",
+      "modal",
+      "sheet",
+      "alert",
+      "toast",
+      "status-indicator",
+      "progress-stepper",
+      "theme-provider",
+      "glassmorphism",
+      "gradient-background"
+    ],
+    "component_count": 76,
+    "surfaces": [
+      "public-profile",
+      "account-web-app",
+      "settings-web-app",
+      "analytics"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": "npx shadcn@latest add @shadcn-glass-ui/button-glass",
+    "package": "shadcn-glass-ui",
+    "docs_url": "https://yhooi2.github.io/shadcn-glass-ui-library/?path=/docs/introduction",
+    "repo_url": "https://github.com/artyhoo/shadcn-glass-ui-library",
+    "registry_url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/registry.json",
+    "github": {
+      "stars": 32,
+      "license": "Apache-2.0",
+      "last_activity": "2026-01-03"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Reach for this only when the brief explicitly asks for glassmorphism, and treat it as a style layer over an existing shadcn/ui install rather than a replacement -- both write into the same components directory and the same CSS variables, so name collisions are real (button-glass vs button is deliberate). Pull individual items by registry name instead of installing all 76: roughly twenty of them (repository-card-glass, career-stats-glass, trust-score-card-glass, profile-header-glass) are extracted from one specific GitHub-profile app and carry that app's data shape. Note the license conflict -- the README and npm metadata say MIT while the GitHub repo declares Apache-2.0 -- confirm before shipping commercially.",
+    "why_it_matters": "Glassmorphism is a recurring style request and almost nobody ships it as a proper shadcn registry, so this fills a narrow but real gap without forcing a hand-rolled backdrop-filter pass.",
+    "quality_tier": "B",
+    "notable_for": [
+      "shadcn registry with 76 glass items",
+      "three bundled themes (Glass, Light, Aurora)",
+      "ships CLAUDE.md and Context7 indexing",
+      "README claims 59 components, registry.json has 76",
+      "repo moved from Yhooi2 to artyhoo"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://github.com/Yhooi2/shadcn-glass-ui-library, https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/registry.json, GitHub API repos/Yhooi2/shadcn-glass-ui-library (301 -> artyhoo/shadcn-glass-ui-library), https://registry.npmjs.org/shadcn-glass-ui"
+  },
+  {
+    "id": "32874767-07e2-4535-b3a6-355160106b55",
+    "slug": "unsection",
+    "url": "https://www.unsection.com/",
+    "name": "Unsection",
+    "tagline": "Gallery of 4,000+ website sections indexed by section type, not by whole page",
+    "description": "A curated screenshot gallery that slices real marketing sites into individual sections -- hero, pricing, FAQ, footer, logo cloud -- so you can browse one section type at a time instead of whole-page shots. Fourteen section categories, plus style tags (Bento, Gradient, Dark, Large Type, Minimal, 3D and more), a hover-effects collection, and an SVG shape library of 60+ customizable shapes. Content is screenshots and links to the source site; no code or Figma files are provided. Built by designer Gita; free, but browsing past the first screen requires a free account.",
+    "category": "inspiration-galleries",
+    "subcategory": "section-galleries",
+    "kinds": [
+      "gallery",
+      "directory"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "free",
+        "account-required"
+      ],
+      "distribution": [
+        "gallery",
+        "web-app"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "screenshots",
+        "images"
+      ],
+      "agent_readiness": [
+        "auth-required",
+        "image-only"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "hero",
+      "navbar",
+      "footer",
+      "pricing-table",
+      "accordion",
+      "quote",
+      "logo",
+      "card-grid",
+      "form"
+    ],
+    "component_count": null,
+    "surfaces": [
+      "homepage",
+      "features",
+      "pricing-website",
+      "faq",
+      "testimonials",
+      "contact-us",
+      "blog",
+      "team",
+      "about"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": "Free. A free account is required to browse past the first page; weekly newsletter is free.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 4000,
+      "blocks": null
+    },
+    "agent_guidance": "Use this when you need to design or describe one specific section and the user has not given a reference -- 'show me twenty pricing sections' is exactly its shape, and no code registry indexes that way. It returns screenshots only, so it pairs with a code source (21st.dev, shadcn blocks) rather than replacing one: read the layout here, implement it there. Fetching it programmatically is largely wasted effort -- the listing is signup-walled after the first screen and every entry is an image, so route this to a human or a vision step, not a scraper.",
+    "why_it_matters": "Section-level indexing is rare; most galleries file by whole site or by industry, which makes them useless when the only open question is what a footer should do.",
+    "quality_tier": "B",
+    "notable_for": [
+      "14 section categories, ~82 pages of listings",
+      "style tags like Bento, Gradient, Large Type",
+      "SVG library of 60+ shapes",
+      "hover-effects collection",
+      "screenshots only, no code"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://www.unsection.com/ (raw HTML, 184KB), https://www.unsection.com/about; https://www.unsection.com/sections returned 404"
+  },
+  {
+    "id": "45c59a71-674b-42cc-b62d-433b79a4c116",
+    "slug": "webinspoo",
+    "url": "https://webinspoo.com/",
+    "name": "WebInspoo",
+    "tagline": "1,200+ SaaS site screenshots filterable by page type, font, color and stack",
+    "description": "A daily-updated gallery of SaaS product websites, each entry carrying structured attributes: category, page type, typeface, color palette, and detected technology stack (Framer, Webflow, Next.js, Tailwind, GSAP, Vue, WordPress). You can browse by font page or technology page, which makes it useful for questions like 'what do sites built in Framer with Suisse Int'l look like'. It also ships a Site Inspector tool, an HTML-to-Figma browser extension, and a templates section. Unusually for a gallery it publishes llms.txt, llms-full.txt, a skill.md, and an MCP manifest.",
+    "category": "inspiration-galleries",
+    "subcategory": "site-galleries",
+    "kinds": [
+      "gallery",
+      "directory",
+      "tool"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "freemium",
+        "free"
+      ],
+      "distribution": [
+        "gallery",
+        "web-app",
+        "mcp-server",
+        "browser-extension"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "screenshots",
+        "images",
+        "prose"
+      ],
+      "agent_readiness": [
+        "llms-txt",
+        "agent-skill",
+        "mcp-server",
+        "machine-index",
+        "structured-docs"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [
+      "homepage",
+      "pricing-website",
+      "about",
+      "blog",
+      "testimonials",
+      "faq",
+      "contact-us",
+      "features"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": "https://webinspoo.com/llms.txt",
+    "repo_url": null,
+    "registry_url": "https://webinspoo.com/.well-known/mcp.json",
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": "Free to browse and free to submit. A /pricing route exists but returned HTTP 500 on 2026-08-15, so paid tiers could not be confirmed.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 1200,
+      "blocks": null
+    },
+    "agent_guidance": "Reach for this when the ask is 'find me real SaaS sites that use X' -- the font, color, and stack facets are the differentiator, and no other gallery in this index lets you pivot on typeface. Prefer the declared machine surface (llms.txt, skill.md, the route patterns /technology/{slug}, /font/{slug}, /color/{slug}) over scraping the 2MB homepage. Be warned that the surface is only half-built: llms-full.txt resolves but category.md, pricing.md, and templates.md all returned 500, and Accept: text/markdown on HTML routes returns a stub, so verify each endpoint before you build a pipeline on it.",
+    "why_it_matters": "It is one of very few inspiration galleries that treats an AI agent as a first-class reader, and the typography and stack facets answer a question designers actually ask.",
+    "quality_tier": "B",
+    "notable_for": [
+      "filter by font, color, and tech stack",
+      "llms.txt + skill.md + MCP manifest",
+      "HTML-to-Figma extension and Site Inspector",
+      "1,200+ SaaS entries, updated daily",
+      "several .md endpoints return 500"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://webinspoo.com/ (raw HTML), https://webinspoo.com/llms.txt, https://webinspoo.com/llms-full.txt, https://webinspoo.com/skill.md, https://webinspoo.com/.well-known/mcp.json, https://webinspoo.com/templates; category.md and pricing.md returned HTTP 500"
+  },
+  {
+    "id": "9533942a-680b-4453-8ba4-6ac5fb11ba56",
+    "slug": "refero",
+    "url": "https://refero.design",
+    "name": "Refero",
+    "tagline": "Searchable library of real product screens, user flows and design systems, with an MCP server",
+    "description": "A design research library indexing screens and multi-step user flows from hundreds of shipped web and iOS products, searchable by page type (Dashboard, Settings, Paywall & Subscription), UX pattern (Billing & Plans, Empty State, Dark Mode), UI element (Button, Table, Modal, Switch & Toggle), company, or plain language. Three entity types: Styles (design specs with colors, typography, spacing and a generated DESIGN.md), Screens, and Flows. It exposes an HTTP MCP server at api.refero.design/mcp plus an agent skill and a Figma plugin, so a coding agent can research a pattern before writing UI. Pro is required for MCP, downloads, and the Figma plugin.",
+    "category": "inspiration-galleries",
+    "subcategory": "app-screens",
+    "kinds": [
+      "gallery",
+      "reference",
+      "mcp-server"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "proprietary"
+      ],
+      "pricing": [
+        "freemium",
+        "subscription",
+        "one-time",
+        "free-trial",
+        "account-required"
+      ],
+      "distribution": [
+        "web-app",
+        "mcp-server",
+        "agent-skill",
+        "figma-plugin",
+        "saas",
+        "public-api"
+      ],
+      "platform": [
+        "web",
+        "ios"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "screenshots",
+        "images",
+        "design-tokens",
+        "prose"
+      ],
+      "agent_readiness": [
+        "mcp-server",
+        "agent-skill",
+        "structured-docs",
+        "llms-txt",
+        "public-api",
+        "auth-required",
+        "agent-paywalled",
+        "js-only-shell"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "button",
+      "table",
+      "modal",
+      "switch"
+    ],
+    "component_count": null,
+    "surfaces": [
+      "settings-web-app",
+      "settings-mobile",
+      "paywall",
+      "billing-web-app",
+      "empty-state",
+      "onboarding-web-app",
+      "onboarding-mobile",
+      "checkout",
+      "deleting-account",
+      "analytics"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": "claude mcp add --transport http refero https://api.refero.design/mcp --header \"Authorization: Bearer <token>\"",
+    "package": null,
+    "docs_url": "https://doc.refero.design/",
+    "repo_url": null,
+    "registry_url": "https://api.refero.design/mcp",
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": "Tiers are Free (limited search, no MCP/skill/Figma plugin), Pro (unlimited, includes 8,000 MCP tool calls per month, 7-day trial with card), Team (min 3 seats, admin panel, shared bookmarks, SSO as a paid add-on), and Lifetime (one-time). Students get 40% off all plans except Lifetime. Exact dollar amounts could not be read -- refero.design/pricing is a client-rendered shell.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 125000,
+      "blocks": null
+    },
+    "agent_guidance": "This is the one entry in the batch an agent should call before it writes UI, not after: wire up the MCP server and query Flows when the task is a multi-step journey (onboarding, checkout, account deletion) where the hard part is step order, not styling. Its Styles layer emits a DESIGN.md you can drop straight into a repo as the visual contract, which pairs well with a shadcn registry doing the implementation. Two constraints -- MCP is Pro-only and capped at 8,000 calls per month, and the marketing site is a JS shell, so never try to scrape refero.design directly; use api.refero.design/mcp or doc.refero.design.",
+    "why_it_matters": "Most galleries stop at a screenshot; Refero indexes whole flows and emits machine-readable design specs, which is the difference between inspiration and something an agent can act on.",
+    "quality_tier": "S",
+    "notable_for": [
+      "MCP server at api.refero.design/mcp",
+      "Styles, Screens and Flows as separate entities",
+      "DESIGN.md export via styles.refero.design (2,000+ systems)",
+      "web and iOS coverage",
+      "Figma plugin and Refero Skill"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://refero.design (raw HTML -- 4.5KB JS-only shell, no server-rendered content), https://doc.refero.design/, https://doc.refero.design/llms.txt, https://doc.refero.design/mcp/getting-started, https://doc.refero.design/mcp/data-model, https://doc.refero.design/help/plans, https://styles.refero.design/, plus web search for the 125,000 screens / 400+ products figure"
+  },
+  {
+    "id": "bf7e1abe-a3de-435e-adb8-7afcfe3a2753",
+    "slug": "21st-dev",
+    "url": "https://21st.dev",
+    "name": "21st.dev",
+    "tagline": "Community shadcn registry: 12,000+ React components, 48 templates, 48 themes",
+    "description": "An open publishing registry where design engineers upload React and Tailwind components, full page templates, and shadcn theme presets; anyone can publish and authorship stays on a public profile. The catalog claims 12,000+ components, templates, and themes across marketing blocks (animated heroes, shaders, liquid and metal, backgrounds, gradients, footers) and UI (buttons, AI chats, cards and grids, galleries and 3D, navigation, sign-ins and widgets, sections). Every item offers two paths: a copyable AI prompt for Cursor / Claude Code / v0 / Lovable, or the shadcn CLI. The 21st MCP (formerly Magic MCP) lets an editor search the registry and generate UI in place.",
+    "category": "component-libraries",
+    "subcategory": "shadcn-registries",
+    "kinds": [
+      "registry",
+      "marketplace",
+      "component-library"
+    ],
+    "facets": {
+      "framework": [
+        "react",
+        "next"
+      ],
+      "styling": [
+        "tailwind-v4",
+        "tailwind-any",
+        "css-variables"
+      ],
+      "license": [
+        "mit",
+        "unknown"
+      ],
+      "pricing": [
+        "freemium",
+        "subscription",
+        "account-required"
+      ],
+      "distribution": [
+        "shadcn-registry",
+        "cli",
+        "mcp-server",
+        "marketplace",
+        "copy-paste",
+        "web-app"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "code",
+        "screenshots",
+        "prompts",
+        "icons",
+        "design-tokens"
+      ],
+      "agent_readiness": [
+        "mcp-server",
+        "cli-installable",
+        "registry-json",
+        "copy-prompt",
+        "auth-required",
+        "agent-paywalled"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "hero",
+      "footer",
+      "navbar",
+      "navigation-menu",
+      "button",
+      "card",
+      "card-grid",
+      "section",
+      "image-gallery",
+      "gradient-background",
+      "particle-background",
+      "login-form",
+      "signup-form",
+      "social-login-buttons",
+      "conversation",
+      "message",
+      "prompt-input",
+      "streaming-text",
+      "pricing-table",
+      "marquee",
+      "text-effect",
+      "hover-effect",
+      "animation",
+      "theme-provider"
+    ],
+    "component_count": 12000,
+    "surfaces": [
+      "homepage",
+      "features",
+      "pricing-website",
+      "login-web-app",
+      "sign-up",
+      "ai-chat-panel",
+      "testimonials",
+      "blog",
+      "waitlist"
+    ],
+    "templates": [
+      {
+        "name": "Dali - AI Agency & Agent Studio Site",
+        "url": "https://21st.dev/@lyanchouss/templates/dali-ai-agency-agent-studio-site",
+        "purpose": "Marketing site for an AI agency / agent studio"
+      },
+      {
+        "name": "Folio - Data Intelligence Landing",
+        "url": "https://21st.dev/@ruixen.ui/templates/folio-open-source-data-intelligence-landing-template",
+        "purpose": "Landing page for an open-source data intelligence product"
+      },
+      {
+        "name": "Vertex - AI Workflow Automation",
+        "url": "https://21st.dev/@ruixen.ui/templates/vertex-ai-workflow-automation-landing-template",
+        "purpose": "Landing page for an AI workflow automation product"
+      },
+      {
+        "name": "Evolv-Ai",
+        "url": "https://21st.dev/@nextjsshop/templates/evolv-ai",
+        "purpose": "AI product marketing site"
+      },
+      {
+        "name": "Agent-AI",
+        "url": "https://21st.dev/@nextjsshop/templates/agent-ai",
+        "purpose": "AI agent product showcase site"
+      },
+      {
+        "name": "Orbit Mail",
+        "url": "https://21st.dev/@nextjsshop/templates/orbit-mail",
+        "purpose": "Email / communication product site"
+      },
+      {
+        "name": "Mosa AI",
+        "url": "https://21st.dev/@nextjsshop/templates/mosa-ai",
+        "purpose": "AI application marketing site"
+      },
+      {
+        "name": "Deo-Ecommerce",
+        "url": "https://21st.dev/@nextjsshop/templates/deo-ecommerce",
+        "purpose": "Ecommerce storefront"
+      },
+      {
+        "name": "Cypon-Analytics",
+        "url": "https://21st.dev/@nextjsshop/templates/cypon-analytics",
+        "purpose": "Analytics dashboard product site"
+      },
+      {
+        "name": "Bookmark Design",
+        "url": "https://21st.dev/@nextjsshop/templates/bookmark-design",
+        "purpose": "Bookmark / link collection app site"
+      },
+      {
+        "name": "Ecommerce Template",
+        "url": "https://21st.dev/@nextjsshop/templates/ecommerce-template",
+        "purpose": "General online retail storefront"
+      },
+      {
+        "name": "Omega",
+        "url": "https://21st.dev/@nextjsshop/templates/omega",
+        "purpose": "General-purpose marketing site"
+      },
+      {
+        "name": "Nexflow",
+        "url": "https://21st.dev/@nextjsshop/templates/nexflow",
+        "purpose": "Workflow and process management product site"
+      },
+      {
+        "name": "Anox",
+        "url": "https://21st.dev/@nextjsshop/templates/anox",
+        "purpose": "General-purpose marketing site"
+      },
+      {
+        "name": "Nexuscloud",
+        "url": "https://21st.dev/@nextjsshop/templates/nexuscloud",
+        "purpose": "Cloud services platform site"
+      },
+      {
+        "name": "Aceai",
+        "url": "https://21st.dev/@nextjsshop/templates/aceai",
+        "purpose": "AI application marketing site"
+      },
+      {
+        "name": "FleetOps",
+        "url": "https://21st.dev/@nextjsshop/templates/fleetops",
+        "purpose": "Fleet management SaaS site"
+      },
+      {
+        "name": "Bookify",
+        "url": "https://21st.dev/@nextjsshop/templates/bookify",
+        "purpose": "Booking / reservation product site"
+      },
+      {
+        "name": "ThinkScope",
+        "url": "https://21st.dev/@nextjsshop/templates/thinkscope",
+        "purpose": "Insights and analytics product site"
+      },
+      {
+        "name": "Deepflow",
+        "url": "https://21st.dev/@nextjsshop/templates/deepflow",
+        "purpose": "Workflow automation product site"
+      },
+      {
+        "name": "ConnectSphere",
+        "url": "https://21st.dev/@nextjsshop/templates/connectsphere",
+        "purpose": "Networking / community platform site"
+      },
+      {
+        "name": "Personal-Portfolio",
+        "url": "https://21st.dev/@nextjsshop/templates/personal-portfolio",
+        "purpose": "Individual portfolio site"
+      },
+      {
+        "name": "Schedule Marketing Template",
+        "url": "https://21st.dev/@serafimcloud/templates/schedule-marketing-template",
+        "purpose": "Marketing site for a scheduling product"
+      },
+      {
+        "name": "Minimal Portfolio Template",
+        "url": "https://21st.dev/@serafimcloud/templates/minimal-portfolio-template",
+        "purpose": "Minimal personal portfolio"
+      },
+      {
+        "name": "AI Agent Template",
+        "url": "https://21st.dev/@serafimcloud/templates/ai-agent-template",
+        "purpose": "AI agent product site"
+      },
+      {
+        "name": "Open PRO",
+        "url": "https://21st.dev/@serafimcloud/templates/open-pro",
+        "purpose": "Professional services / SaaS marketing site"
+      },
+      {
+        "name": "DevFolio",
+        "url": "https://21st.dev/@serafimcloud/templates/devfolio",
+        "purpose": "Developer portfolio"
+      },
+      {
+        "name": "Magic Portfolio for Next.js",
+        "url": "https://21st.dev/@serafimcloud/templates/magic-portfolio-for-next-js",
+        "purpose": "Interactive portfolio built on Next.js"
+      },
+      {
+        "name": "Nodus Agent Template",
+        "url": "https://21st.dev/@serafimcloud/templates/nodus-agent-template",
+        "purpose": "AI agent system marketing site"
+      },
+      {
+        "name": "Codeforge Template",
+        "url": "https://21st.dev/@serafimcloud/templates/codeforge-template",
+        "purpose": "Developer tooling / coding platform site"
+      },
+      {
+        "name": "Synth AI",
+        "url": "https://21st.dev/@serafimcloud/templates/synth-ai",
+        "purpose": "AI synthesis tool marketing site"
+      },
+      {
+        "name": "Simplistic SaaS Template",
+        "url": "https://21st.dev/@serafimcloud/templates/simplistic-saas-template",
+        "purpose": "Plain SaaS marketing site"
+      },
+      {
+        "name": "Cryptgen Marketing Template",
+        "url": "https://21st.dev/@serafimcloud/templates/cryptgen-marketing-template",
+        "purpose": "Crypto product marketing site"
+      },
+      {
+        "name": "Agenforce Marketing Template",
+        "url": "https://21st.dev/@serafimcloud/templates/agenforce-marketing-template",
+        "purpose": "Agent-platform marketing site"
+      },
+      {
+        "name": "Summit - Next.js App Template",
+        "url": "https://21st.dev/@serafimcloud/templates/summit-next-js-app-template",
+        "purpose": "Full Next.js application starter"
+      },
+      {
+        "name": "Blog Template",
+        "url": "https://21st.dev/@serafimcloud/templates/blog-template",
+        "purpose": "Blog / content site"
+      },
+      {
+        "name": "Docs",
+        "url": "https://21st.dev/@serafimcloud/templates/docs",
+        "purpose": "Documentation site"
+      },
+      {
+        "name": "Simple",
+        "url": "https://21st.dev/@serafimcloud/templates/simple",
+        "purpose": "Minimal one-page site"
+      },
+      {
+        "name": "Fincash",
+        "url": "https://21st.dev/@serafimcloud/templates/fincash",
+        "purpose": "Personal finance product site"
+      },
+      {
+        "name": "Dali Agents - AI Agency Website",
+        "url": "https://21st.dev/@lyanchouss/templates/dali-agents-ai-agency-website-template",
+        "purpose": "AI agency marketing site"
+      },
+      {
+        "name": "Qronos AI Agent Scheduler",
+        "url": "https://21st.dev/@monolythdev/templates/qronos-ai-agent-scheduler-template",
+        "purpose": "AI-powered scheduling product site"
+      },
+      {
+        "name": "Meridian",
+        "url": "https://21st.dev/@shadcnblockscom/templates/meridian",
+        "purpose": "shadcn-blocks marketing site template"
+      },
+      {
+        "name": "Aspect",
+        "url": "https://21st.dev/@shadcnblockscom/templates/aspect",
+        "purpose": "shadcn-blocks marketing site template"
+      },
+      {
+        "name": "Sonic",
+        "url": "https://21st.dev/@shadcnblockscom/templates/sonic",
+        "purpose": "shadcn-blocks marketing site template"
+      },
+      {
+        "name": "Kinto",
+        "url": "https://21st.dev/@shadcnblockscom/templates/kinto",
+        "purpose": "shadcn-blocks marketing site template"
+      },
+      {
+        "name": "Metafi",
+        "url": "https://21st.dev/@shadcnblockscom/templates/metafi",
+        "purpose": "Finance / DeFi marketing site template"
+      },
+      {
+        "name": "Lumen",
+        "url": "https://21st.dev/@shadcnblockscom/templates/lumen",
+        "purpose": "shadcn-blocks marketing site template"
+      },
+      {
+        "name": "Hive",
+        "url": "https://21st.dev/@shadcnblockscom/templates/hive",
+        "purpose": "shadcn-blocks marketing site template"
+      }
+    ],
+    "template_count": 51,
+    "install": "npx shadcn@latest add \"https://21st.dev/r/<author>/<component>\"",
+    "package": "@21st-dev/cli",
+    "docs_url": "https://21st.dev/mcp",
+    "repo_url": "https://github.com/21st-dev/magic-mcp",
+    "registry_url": "https://21st.dev/api/mcp",
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": "Browsing the registry is free. Builder $6/mo billed yearly (unlimited code and prompt copies, 29,000 searchable icons, MCP/CLI install, no AI credits). Builder + AI $15/mo billed yearly (500-2,000 AI credits/mo, premium models; +100 credits for $5, credits roll over). Team $7.50/seat/mo billed yearly, 2-50 seats (centralized billing, shared collections, admin controls, private team components).",
+    "counts": {
+      "icons": 29000,
+      "fonts": null,
+      "palettes": null,
+      "entries": 12000,
+      "blocks": null
+    },
+    "agent_guidance": "This is the widest React/Tailwind surface in the index -- reach for it when shadcn/ui core has no answer, especially for animated heroes, shader and gradient backgrounds, and AI chat blocks. Install with the 21st MCP (npx @21st-dev/cli@latest install <client> --api-key <key>; the old @21st-dev/magic package still proxies, but old Magic keys were reset) so the editor can search and insert in one step. Two cautions: it is community-submitted, so quality, accessibility, and license vary per author and you must read the source before shipping; and copying code or prompts needs a paid Builder seat, so an unauthenticated agent can browse but not extract.",
+    "why_it_matters": "It is the de facto public square for shadcn-compatible components, and the only one at this scale with a first-party MCP that plugs the whole catalog into an editor.",
+    "quality_tier": "A",
+    "notable_for": [
+      "12,000+ community components, templates and themes",
+      "first-party 21st MCP for Cursor / Claude Code / Windsurf",
+      "48 full templates and 48 shadcn theme presets",
+      "copy-an-AI-prompt install path",
+      "29,000 searchable icons on paid tiers"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://21st.dev, https://21st.dev/pricing, https://21st.dev/templates (raw HTML, 48 template links enumerated), https://21st.dev/themes (raw HTML, 48 theme links), https://21st.dev/magic, web search for github.com/21st-dev/magic-mcp install details"
+  },
+  {
+    "id": "a7e58c94-90b6-42e6-8a25-5f779d749701",
+    "slug": "componentry",
+    "url": "https://componentry.dev",
+    "name": "Componentry",
+    "tagline": "62 animated React components plus 3 blocks, installed via the shadcn CLI",
+    "description": "An open-source registry of motion-first React components: text animations, scroll choreography, WebGL and shader hero backgrounds, dither and pixel effects, and interaction toys like a magnetic dock and split-flap display. Built on Next.js 16, React 19, Tailwind CSS 4 and Framer Motion, with GSAP for a few components (image-trail, layered-stack). Everything is copy-in source through the shadcn CLI rather than an npm dependency, so you own and can edit the code. MIT, by Harsh Jadhav, in Vercel's Open Source Program.",
+    "category": "motion-interaction",
+    "subcategory": "animated-components",
+    "kinds": [
+      "component-library",
+      "registry",
+      "animation-library"
+    ],
+    "facets": {
+      "framework": [
+        "react",
+        "next"
+      ],
+      "styling": [
+        "tailwind-v4",
+        "css-variables",
+        "shader-glsl"
+      ],
+      "license": [
+        "mit"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "shadcn-registry",
+        "cli",
+        "copy-paste",
+        "github-repo"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "claimed-accessible"
+      ],
+      "content_type": [
+        "code"
+      ],
+      "agent_readiness": [
+        "registry-json",
+        "cli-installable",
+        "open-source-code",
+        "structured-docs",
+        "copy-paste-ready"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "gradient-background",
+      "particle-background",
+      "text-effect",
+      "typewriter-text",
+      "scroll-reveal",
+      "scroll-driven-animation",
+      "parallax",
+      "page-transition",
+      "hover-effect",
+      "custom-cursor",
+      "marquee",
+      "carousel",
+      "sticky",
+      "animation",
+      "transition",
+      "shimmer",
+      "button",
+      "card",
+      "hero",
+      "pricing-table",
+      "modal",
+      "login-form",
+      "command-palette",
+      "dock",
+      "kbd",
+      "audio-player",
+      "heatmap",
+      "image-gallery",
+      "signature-pad",
+      "slider",
+      "ticker"
+    ],
+    "component_count": 65,
+    "surfaces": [
+      "homepage",
+      "features",
+      "pricing-website",
+      "testimonials",
+      "login-web-app",
+      "command-palette"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": "npx shadcn@latest add @componentry/magnetic-dock",
+    "package": null,
+    "docs_url": "https://componentry.dev/docs",
+    "repo_url": "https://github.com/harshjdhv/componentry",
+    "registry_url": "https://componentry.dev/r/registry.json",
+    "github": {
+      "stars": 452,
+      "license": "MIT",
+      "last_activity": "2026-08-14"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": 3
+    },
+    "agent_guidance": "Reach for this over Magic UI or Aceternity when the ask is a shader or WebGL hero (webgl-liquid, silk-aurora, liquid-chrome, dither-prism-hero) or scroll choreography -- that is where its catalog is deepest, and it drops in beside shadcn/ui because it writes to the same components directory and CSS variables. Read the exact item names from https://componentry.dev/r/registry.json before installing; the docs sidebar groups them differently and the names are not guessable. Watch the weight: the shader and canvas items pull WebGL or GSAP and run continuously, so gate them behind prefers-reduced-motion and keep them off dashboards and mobile.",
+    "why_it_matters": "A well-maintained MIT motion registry that covers shader backgrounds and scroll effects most shadcn-adjacent libraries skip, with a clean registry.json an agent can read directly.",
+    "quality_tier": "A",
+    "notable_for": [
+      "62 UI items + 3 blocks in registry.json",
+      "WebGL and dither/shader hero backgrounds",
+      "MIT, 452 stars, pushed 2026-08-14",
+      "React 19 / Tailwind 4 / Framer Motion with GSAP for some items",
+      "Vercel Open Source Program"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://componentry.dev, https://componentry.dev/docs, https://componentry.dev/r/registry.json (65 items parsed), https://github.com/harshjdhv/componentry, GitHub API repos/harshjdhv/componentry"
+  }
+]

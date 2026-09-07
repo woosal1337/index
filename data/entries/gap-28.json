@@ -1,0 +1,698 @@
+[
+  {
+    "id": "depo:j57bnx5e11bk27hvt2vv7cbzsn7t4k3h",
+    "slug": "mantine",
+    "url": "https://mantine.dev/",
+    "name": "Mantine",
+    "tagline": "150+ styled React components, 70+ hooks, CSS modules, no runtime CSS-in-JS",
+    "description": "Mantine is a batteries-included React component library that ships around 117 core components plus separate packages for dates, charts, rich text editing, notifications, carousels and a Spotlight command palette. Styling is plain CSS modules driven by CSS variables through a PostCSS preset, so there is no runtime styling cost and dark mode is built in rather than bolted on. It also bundles @mantine/form and 70+ hooks, which means you rarely need a second dependency for state, forms or overlays. Best for teams who want a complete, opinionated UI system out of the box instead of assembling headless primitives themselves.",
+    "category": "component-libraries",
+    "subcategory": "react-component-libraries",
+    "kinds": [
+      "component-library"
+    ],
+    "facets": {
+      "framework": [
+        "react",
+        "next",
+        "remix"
+      ],
+      "styling": [
+        "css-modules",
+        "css-variables",
+        "vanilla-css"
+      ],
+      "license": [
+        "mit"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "npm-package",
+        "github-repo"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "keyboard-navigable",
+        "focus-managed",
+        "claimed-accessible",
+        "semantic-html"
+      ],
+      "content_type": [
+        "code"
+      ],
+      "agent_readiness": [
+        "structured-docs",
+        "open-source-code",
+        "cli-installable"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "app-shell",
+      "aspect-ratio",
+      "center",
+      "container",
+      "grid",
+      "stack",
+      "spacer",
+      "split-view",
+      "resizable",
+      "box",
+      "panel",
+      "portal",
+      "scroll-area",
+      "separator",
+      "focus-trap",
+      "visually-hidden",
+      "theme-provider",
+      "direction-provider",
+      "sticky",
+      "collapsible",
+      "transition",
+      "text-input",
+      "textarea",
+      "number-input",
+      "password-input",
+      "otp-input",
+      "masked-input",
+      "color-picker",
+      "fieldset",
+      "file-upload",
+      "slider",
+      "range-slider",
+      "rating-input",
+      "switch",
+      "segmented-control",
+      "form",
+      "label",
+      "help-text",
+      "validation-message",
+      "rich-text-editor",
+      "date-input",
+      "date-picker",
+      "date-range-picker",
+      "time-picker",
+      "calendar",
+      "checkbox",
+      "radio-button",
+      "radio-group",
+      "select",
+      "multi-select",
+      "combobox",
+      "autocomplete",
+      "tag-input",
+      "tree-select",
+      "cascader",
+      "chip",
+      "dropdown-menu",
+      "menubar",
+      "navigation-menu",
+      "breadcrumbs",
+      "pagination",
+      "progress-stepper",
+      "tabs",
+      "tree-view",
+      "in-page-navigation",
+      "link",
+      "menu-button",
+      "table",
+      "list",
+      "description-list",
+      "card",
+      "badge",
+      "tag",
+      "avatar",
+      "avatar-group",
+      "icon",
+      "kbd",
+      "code-block",
+      "quote",
+      "heading",
+      "typography",
+      "timeline",
+      "accordion",
+      "empty-state",
+      "skeleton",
+      "meter",
+      "progress-bar",
+      "spinner",
+      "status-indicator",
+      "image",
+      "carousel",
+      "marquee",
+      "alert",
+      "toast",
+      "notification-center",
+      "tooltip",
+      "loading-overlay",
+      "modal",
+      "dialog",
+      "drawer",
+      "popover",
+      "hover-card",
+      "backdrop",
+      "floating-window",
+      "button",
+      "icon-button",
+      "close-button",
+      "copy-button",
+      "button-group",
+      "command-palette",
+      "chart",
+      "area-chart",
+      "bar-chart",
+      "line-chart",
+      "pie-chart",
+      "scatter-plot",
+      "radar-chart",
+      "funnel-chart",
+      "sparkline",
+      "heatmap",
+      "treemap",
+      "sunburst",
+      "sankey-diagram",
+      "bullet-chart"
+    ],
+    "component_count": 150,
+    "surfaces": [
+      "admin-panel",
+      "analytics",
+      "settings-web-app",
+      "account-web-app",
+      "login-web-app",
+      "sign-up",
+      "multi-step-form",
+      "showing-input-error",
+      "filtering-items",
+      "search-results",
+      "user-management",
+      "command-palette",
+      "notifications",
+      "billing-web-app",
+      "empty-state",
+      "uploading-media"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": "npm install @mantine/core @mantine/hooks",
+    "package": "@mantine/core",
+    "docs_url": "https://mantine.dev/getting-started/",
+    "repo_url": "https://github.com/mantinedev/mantine",
+    "registry_url": null,
+    "github": {
+      "stars": 31600,
+      "license": "MIT",
+      "last_activity": "2026-08-11"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Reach for Mantine over shadcn/ui when the user wants a finished UI immediately and does not want to own or patch component source — Mantine is an npm dependency, not copied code, so upgrades are free but deep visual restyling is harder. It is the strongest choice when the app needs dates, charts, rich text and a command palette from one vendor: @mantine/dates, @mantine/charts (recharts under the hood), @mantine/tiptap and @mantine/spotlight all share the same theme. Watch the setup order — you must import '@mantine/core/styles.css' plus each extension package's own stylesheet, wrap the app in MantineProvider, and add postcss-preset-mantine, or components render unstyled.",
+    "why_it_matters": "One of the few React libraries that is genuinely complete — forms, dates, charts, editor and hooks included — while still using plain CSS modules instead of a runtime styling engine. For an internal tool or dashboard it removes almost all UI assembly work.",
+    "quality_tier": "S",
+    "notable_for": [
+      "117 core components in one package",
+      "70+ hooks and a built-in form library",
+      "18 chart components on recharts",
+      "zero-runtime CSS modules styling",
+      "Spotlight command palette out of the box"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://mantine.dev/, https://mantine.dev/getting-started/, https://mantine.dev/core/package/ (full component enumeration), https://mantine.dev/dates/getting-started/, https://mantine.dev/charts/getting-started/, https://github.com/mantinedev/mantine, https://github.com/mantinedev/mantine/commits/master.atom",
+    "source": "depo"
+  },
+  {
+    "id": "depo:j57d5dp1792qa0hj4x1xjqxs8h7t5r5h",
+    "slug": "rive",
+    "url": "https://rive.app/",
+    "name": "Rive",
+    "tagline": "Vector animation editor whose State Machine files run natively in app runtimes",
+    "description": "Rive is a collaborative editor for vector graphics and animation, paired with open-source MIT runtimes that play the resulting .riv file directly in a product. Its State Machine lets you wire animation states and inputs in the editor, so the same file responds to app events, hover, drag and scroll without an engineer re-implementing the motion. Runtimes cover web, React, React Native, Flutter, iOS, Android, C++, Unity, Unreal and Defold, plus Framer, Webflow and Wix Studio. It is aimed at teams shipping interactive motion — onboarding, mascots, loaders, game UI — where Lottie's one-way playback is not enough.",
+    "category": "motion-interaction",
+    "subcategory": "animation-engines",
+    "kinds": [
+      "animation-library",
+      "tool",
+      "app"
+    ],
+    "facets": {
+      "framework": [
+        "react",
+        "react-native",
+        "flutter",
+        "vanilla",
+        "swiftui",
+        "kotlin-compose",
+        "framer",
+        "webflow"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "mit",
+        "commercial"
+      ],
+      "pricing": [
+        "freemium",
+        "subscription"
+      ],
+      "distribution": [
+        "web-app",
+        "saas",
+        "npm-package",
+        "github-repo"
+      ],
+      "platform": [
+        "web",
+        "ios",
+        "android",
+        "macos",
+        "windows",
+        "cross-platform"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "code",
+        "images"
+      ],
+      "agent_readiness": [
+        "open-source-code",
+        "structured-docs",
+        "auth-required"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "animation",
+      "transition",
+      "illustration"
+    ],
+    "component_count": null,
+    "surfaces": [
+      "splash-screen",
+      "onboarding-mobile",
+      "onboarding-web-app",
+      "empty-state",
+      "404",
+      "homepage",
+      "feature-announcement"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": "npm install @rive-app/react-canvas",
+    "package": "@rive-app/react-canvas",
+    "docs_url": "https://rive.app/docs/runtimes/getting-started",
+    "repo_url": "https://github.com/rive-app/rive-react",
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": "MIT",
+      "last_activity": "2026-08-07"
+    },
+    "pricing_detail": "Free $0 (3 files, 1 project, 10 MB assets); Cadet $9/seat/mo (max 3 seats, unlimited files, .riv export, 100 MB assets); Voyager $32/seat/mo (max 25 seats, libraries, hosted embeds, $20/seat agent credits); Enterprise $120/seat/mo (SSO, SOC2 Type II, custom runtime, $40/seat agent credits)",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Pick Rive over Lottie when the animation must react to state — a toggle that morphs, a mascot that follows a cursor, a loader that branches on success or failure — because the State Machine exposes named boolean/number/trigger inputs you set from code, whereas Lottie only seeks a timeline. On the web use @rive-app/react-canvas for standard cases and the webgl2 build only when you need the Rive Renderer's advanced features; the runtimes are MIT but authoring the .riv still requires the paid editor above the free tier's 3-file cap. Budget for the wasm payload and always gate playback behind prefers-reduced-motion, which Rive does not handle for you.",
+    "why_it_matters": "The only mainstream tool where the designer's animation file is itself the interaction logic, which removes the usual animator-to-engineer handoff that kills motion quality in production.",
+    "quality_tier": "S",
+    "notable_for": [
+      "State Machine with code-settable inputs",
+      "MIT open-source runtimes on 10+ platforms",
+      "files reported up to 90% smaller than Lottie",
+      "GPU Rive Renderer at 120fps",
+      "used by Duolingo, Spotify, Google"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://rive.app/, https://rive.app/pricing, https://rive.app/docs/runtimes/getting-started, https://github.com/rive-app/rive-react/commits/main.atom",
+    "source": "depo"
+  },
+  {
+    "id": "depo:j57bpcd8a7a599b99rad46mpc97t4c8k",
+    "slug": "bannerbear",
+    "url": "https://www.bannerbear.com/",
+    "name": "Bannerbear",
+    "tagline": "REST API that renders images, video and PDF from reusable design templates",
+    "description": "Bannerbear turns a visual template into an API endpoint: you define named layers in its editor, then POST modifications to fill text, colours and images and get back a rendered file. It covers static images, multi-image collections, video (trim, concat, overlay, subtitle, voiceover) and PDFs, with webhooks, batches of up to 100, signed Instant URLs and CDN-hosted assets. Official SDKs exist for Node, Ruby, PHP and Python, plus Zapier, Make and Airtable integrations for no-code users. It is for teams automating social cards, OG images, certificates and ecommerce banners at volume.",
+    "category": "utilities-naming",
+    "subcategory": "apis-and-services",
+    "kinds": [
+      "service",
+      "tool",
+      "mcp-server"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "proprietary"
+      ],
+      "pricing": [
+        "subscription",
+        "free-trial",
+        "paid"
+      ],
+      "distribution": [
+        "public-api",
+        "saas",
+        "npm-package",
+        "mcp-server"
+      ],
+      "platform": [
+        "web",
+        "platform-agnostic"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "images",
+        "video",
+        "pdf"
+      ],
+      "agent_readiness": [
+        "mcp-server",
+        "public-api",
+        "structured-docs",
+        "auth-required"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": "npm install bannerbear",
+    "package": "bannerbear",
+    "docs_url": "https://developers.bannerbear.com/",
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": "Automate $49/mo (1,000 image & video credits, 10 GB bandwidth); Scale $149/mo (10,000 credits, 50 GB); Enterprise $299/mo (20,000 credits, 100 GB). Free trial gives 30 API credits with no card.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Use Bannerbear when a product needs branded images generated from structured data at scale and the team does not want to run headless Chrome or Satori themselves — the design lives in Bannerbear's editor, so marketers change it without a deploy. It ships a hosted MCP server at https://mcp.bannerbear.com (OAuth) and an npm @bannerbear/mcp for local use, so an agent can drive rendering directly; auth is a bearer API key from app.bannerbear.com and keys can be scoped per template. Watch the credit model: at $49/mo for 1,000 renders it is far more expensive per image than self-hosted @vercel/og, so only recommend it for video, PDF, or non-engineer-editable templates.",
+    "why_it_matters": "A rare media-generation API that is genuinely agent-ready, shipping both a hosted OAuth MCP server and a local npm one alongside four language SDKs.",
+    "quality_tier": "A",
+    "notable_for": [
+      "image, video and PDF generation from one API",
+      "hosted MCP server plus @bannerbear/mcp",
+      "batches of up to 100 renders",
+      "signed Instant URLs for on-the-fly rendering",
+      "Zapier, Make and Airtable integrations"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://www.bannerbear.com/, https://www.bannerbear.com/pricing/, https://developers.bannerbear.com/ (incl. the #mcp section confirming the hosted MCP server and @bannerbear/mcp package)",
+    "source": "depo"
+  },
+  {
+    "id": "depo:j57cpw57aejm6ppfafqj2d6s697t5e46",
+    "slug": "randoma11y",
+    "url": "https://randoma11y.com/",
+    "name": "RandomA11y",
+    "tagline": "Endless accessible colour pairs, backed by a public API of 292,107 colours",
+    "description": "RandomA11y generates random two-colour combinations that clear a contrast threshold, then shows the pair applied to live type so you can judge it rather than trust a number. The rebuilt version lets you pin one colour, choose the contrast algorithm (WCAG 2.1, APCA, Michelson, Weber, L*, deltaPhi), work in hex, rgb, hsl, lab, lch, oklch, oklab, p3 or rec2020, favourite pairs with the F key and share any pair as a URL. Behind it sits an open Cloudflare Worker API over 292,107 colours with precomputed WCAG-white/black ratios and APCA values, filterable by hue, saturation and lightness or by nearest hex. It suits designers hunting for a non-obvious accessible pair, and agents that need a queryable contrast dataset.",
+    "category": "color",
+    "subcategory": "palette-generators",
+    "kinds": [
+      "color-tool",
+      "generator",
+      "tool"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "web-app",
+        "public-api"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "contrast-checked",
+        "wcag-aa",
+        "wcag-aaa",
+        "keyboard-navigable"
+      ],
+      "content_type": [
+        "dataset"
+      ],
+      "agent_readiness": [
+        "public-api",
+        "js-only-shell"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 292107,
+      "blocks": null
+    },
+    "agent_guidance": "Do not scrape the page — it is an empty Vite shell with a #root div — call the undocumented but open worker API instead: GET https://accessible-colors-api.adam-f8f.workers.dev/api/colors?page=1&pageSize=128 returns records with hex, hue, saturation, lightness, wcag_white, wcag_black, passes_wcag_3/4_5/7 and apca_white/apca_black, /api/colors/filter takes minHue/maxHue/minSaturation/minLightness bounds, and /api/colors/closest?hex=%23336699 returns nearest matches with a distance field. Prefer this over a generic palette generator when the requirement is a verified AA or AAA pair rather than an aesthetic scheme, and use the APCA columns when the target is WCAG 3 rather than 2.1. It is one person's unofficial endpoint with no documented terms, so cache results and never put it on a hot request path.",
+    "why_it_matters": "It inverts the usual workflow — instead of checking a chosen pair for contrast, you browse only pairs that already pass — and the underlying dataset is machine-queryable, which almost no colour tool offers.",
+    "quality_tier": "A",
+    "notable_for": [
+      "292,107 colours with precomputed WCAG and APCA values",
+      "six selectable contrast algorithms",
+      "oklch, lab and p3 output formats",
+      "open JSON API with hue/saturation/lightness filters",
+      "nearest-colour search by hex"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://randoma11y.com/ (raw HTML — confirmed empty SPA shell), https://randoma11y.com/assets/index-BjxfMyFz.js (read the bundle to verify features and API endpoints), https://accessible-colors-api.adam-f8f.workers.dev/api/colors?page=1&pageSize=3 (200, live), .../api/colors/closest?hex=%23336699 (200, live); the rendered UI itself was not readable via WebFetch",
+    "source": "depo"
+  },
+  {
+    "id": "depo:j57czz6gy57hwgv9m000rjzqa17t5cy9",
+    "slug": "goodbrief",
+    "url": "https://goodbrief.io/",
+    "name": "Goodbrief",
+    "tagline": "Random fictional design briefs for portfolio practice, exportable as PDF",
+    "description": "Goodbrief generates a fake client brief so you have something concrete to design when no real work is coming in. You pick a discipline (logo, brand identity, illustration, packaging, billboard, website, or random) and an industry (technology, food, retail, entertainment, fashion, sports, education, transportation, real estate, travel, or random), and it returns an invented company name, a company description, a job description and a deadline. Output can be exported as PDF or image, and no account is needed. It is for students and junior designers building portfolio pieces, and for educators who need briefs on demand.",
+    "category": "utilities-naming",
+    "subcategory": "small-web-utilities",
+    "kinds": [
+      "generator",
+      "tool"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "web-app"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "prose"
+      ],
+      "agent_readiness": [
+        "none"
+      ],
+      "maturity": "stable"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "This is a human-facing practice prompt generator with no API, no export endpoint and no structured data — an LLM can write a richer, more targeted brief itself, so only surface Goodbrief when the user explicitly wants an external, unbiased constraint they did not author. Its real value is the PDF/image export, which gives a portfolio piece a plausible-looking client document. Treat the 6 disciplines and 11 industries as the whole surface area; there is nothing deeper to crawl.",
+    "why_it_matters": "A well-made single-purpose tool for the portfolio-gap problem, but in an era of LLM prompting its randomiser is the least interesting part of it.",
+    "quality_tier": "B",
+    "notable_for": [
+      "6 disciplines x 11 industries",
+      "brief includes company, description, job and deadline",
+      "PDF and image export",
+      "no account required"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://goodbrief.io/ (homepage, 200; discipline/industry options and export controls read from the rendered page)",
+    "source": "depo"
+  },
+  {
+    "id": "depo:j57cncp5a6qakah9rb9s7ahc8x7t5m9f",
+    "slug": "khroma",
+    "url": "https://www.khroma.co/",
+    "name": "Khroma",
+    "tagline": "Train a colour model on 50 picks, then browse endless personalised pairs",
+    "description": "Khroma asks you to like 50 colours, trains a small neural network in your browser on that taste, and then generates an endless stream of two-colour combinations biased toward it. Each pair can be previewed as typography, a gradient, a flat palette or over your own uploaded image, and shows colour names, hex, rgb, CSS and a WCAG rating. A search syntax filters the generator by type (dark, pastel, muted, neon...), hue (warm, cool, violet...), colour name or exact hex/rgb, and combinations can be saved to an unlimited collection. It is for designers who want a personalised starting palette rather than a generic random one.",
+    "category": "color",
+    "subcategory": "palette-generators",
+    "kinds": [
+      "color-tool",
+      "ai-tool",
+      "generator"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "web-app"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "contrast-checked"
+      ],
+      "content_type": [
+        "images"
+      ],
+      "agent_readiness": [
+        "js-only-shell",
+        "none"
+      ],
+      "maturity": "beta"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Recommend Khroma only to a human at the exploration stage — there is no API and the whole app is client-side JavaScript, so an agent cannot query it for a palette. The 50-colour training step is mandatory and the model is stored in localStorage, not an account, so the user loses their profile if they switch browser or clear storage; tell them to use the built-in export/import. For a pair that must provably pass contrast, use RandomA11y's dataset instead — Khroma shows a WCAG rating but optimises for taste, not compliance.",
+    "why_it_matters": "Still the best-executed take on personalised colour discovery, though it has sat in beta for years while its creator moved on to Unicorn.studio.",
+    "quality_tier": "B",
+    "notable_for": [
+      "50-colour training builds a personal model",
+      "search DSL over type, hue, name and hex",
+      "typography, gradient, palette and custom-image previews",
+      "WCAG rating shown per pair",
+      "runs entirely in the browser, no account"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://www.khroma.co/ (raw HTML + extracted body copy), https://www.khroma.co/train/ (200 — confirmed the 50-colour localStorage training flow), https://www.khroma.co/generator/ (200 — confirmed search tips, settings, custom image upload, beta label); https://www.khroma.co/pricing/ returns 404, so no paid tier exists",
+    "source": "depo"
+  }
+]

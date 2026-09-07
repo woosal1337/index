@@ -1,0 +1,249 @@
+[
+ {
+  "id": "user:3167816aea616aa2",
+  "slug": "react-bits-pro",
+  "url": "https://pro.reactbits.dev",
+  "name": "React Bits Pro",
+  "tagline": "703 paid React items in one license-gated shadcn registry: 134 animated components, 538 blocks, 11 templates and an Agent Kit",
+  "description": "React Bits Pro is the paid counterpart to the open-source React Bits. David Haz makes both. It holds 703 items in one license-gated shadcn registry, and the home page names the count and every category.\n\nFive pillars. 134 animated components in five groups: Text 10, Backgrounds 64, 3D and Shaders 21, Cursor Effects 14, UI and Cards 25. 238 page blocks across 21 categories, from Hero at 24 down to Waitlist at 6. 300 application blocks across 38 categories, which include a full set of agent surfaces: AI Chat, Prompt Input, Agent Activity, Tool Calls, Agent Approval, Agent Plan and AI Usage. 11 Next.js landing templates. An Agent Kit of 20 items, made of 8 design skills, 8 page prompts and 3 whole-page recipes.\n\nOne theme layer restyles all 300 application blocks at once. It carries 6 accents, 6 base greys, 6 fonts and 6 corner radius steps, plus 6 presets. You install the theme as a registry item, or you copy the CSS it generates.\n\nEvery animated component ships in a Tailwind variant and a vanilla CSS variant. Blocks and application blocks are Tailwind only and carry no shadcn primitive dependency.\n\nInstallation runs through the shadcn CLI against two registries, @reactbits-starter and @reactbits-pro. Both need a license key in an Authorization header. A request without one returns 401 with the components.json snippet you need.\n\nThe August 2026 update doubled the product. It added the 300 application blocks, the theme layer, the Agent Kit, a Landing Builder in beta that exports a whole Next.js project, and 34 new components.",
+  "category": "component-libraries",
+  "subcategory": "shadcn-registries",
+  "kinds": [
+   "component-library",
+   "registry",
+   "block-collection",
+   "template",
+   "agent-skill"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "tailwind-v4",
+    "tailwind-any",
+    "vanilla-css",
+    "shader-glsl"
+   ],
+   "license": [
+    "commercial",
+    "proprietary"
+   ],
+   "pricing": [
+    "paid",
+    "one-time",
+    "account-required"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "cli",
+    "mcp-server",
+    "download",
+    "agent-skill"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code",
+    "prompts",
+    "design-tokens"
+   ],
+   "agent_readiness": [
+    "registry-json",
+    "cli-installable",
+    "mcp-server",
+    "agent-skill",
+    "llms-txt",
+    "structured-docs",
+    "machine-index",
+    "auth-required",
+    "agent-paywalled"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "text-effect",
+   "typewriter-text",
+   "gradient-background",
+   "particle-background",
+   "custom-cursor",
+   "hover-effect",
+   "animation",
+   "card",
+   "carousel",
+   "marquee",
+   "hero",
+   "pricing-table",
+   "footer",
+   "navbar",
+   "accordion",
+   "stat",
+   "comparison-table",
+   "error-page",
+   "form",
+   "login-form",
+   "signup-form",
+   "product-card",
+   "avatar",
+   "conversation",
+   "prompt-input",
+   "tool-call",
+   "approval-request",
+   "plan",
+   "usage-meter",
+   "app-shell",
+   "onboarding-flow",
+   "kanban-board",
+   "progress-stepper",
+   "comment",
+   "calendar",
+   "sidebar",
+   "command-palette",
+   "table",
+   "dashboard",
+   "dialog",
+   "notification-center",
+   "rich-text-editor",
+   "chart",
+   "list",
+   "filter-panel",
+   "invoice",
+   "file-tree",
+   "empty-state",
+   "survey",
+   "theme-provider"
+  ],
+  "component_count": 134,
+  "surfaces": [
+   "homepage",
+   "features",
+   "compare",
+   "testimonials",
+   "pricing-website",
+   "waitlist",
+   "contact-us",
+   "about",
+   "blog",
+   "404",
+   "public-profile",
+   "sign-up",
+   "login-web-app",
+   "settings-web-app",
+   "billing-web-app",
+   "analytics",
+   "kanban-board",
+   "multi-step-form",
+   "comments",
+   "command-palette",
+   "filtering-items",
+   "integrations",
+   "in-app-notifications",
+   "empty-state",
+   "paywall",
+   "onboarding-web-app",
+   "chat-web-app",
+   "ai-chat-panel",
+   "ai-action-approval",
+   "agent-run-history",
+   "usage-and-limits",
+   "cart-website"
+  ],
+  "templates": [
+   {
+    "name": "SaaS Landing",
+    "url": "https://pro.reactbits.dev/docs/templates/saas-landing",
+    "purpose": "A full Next.js SaaS marketing landing page"
+   },
+   {
+    "name": "Minimal Landing",
+    "url": "https://pro.reactbits.dev/docs/templates/minimal-landing",
+    "purpose": "A stripped-back landing page with little decoration"
+   },
+   {
+    "name": "Agency Site",
+    "url": "https://pro.reactbits.dev/docs/templates/agency-site",
+    "purpose": "A studio or agency site with case-study sections"
+   },
+   {
+    "name": "Finance Landing",
+    "url": "https://pro.reactbits.dev/docs/templates/finance-landing",
+    "purpose": "A finance and fintech landing page"
+   },
+   {
+    "name": "AI SaaS Landing",
+    "url": "https://pro.reactbits.dev/docs/templates/ai-saas-landing",
+    "purpose": "A landing page for an AI product"
+   },
+   {
+    "name": "Shader Template",
+    "url": "https://pro.reactbits.dev/docs/templates/shader-template",
+    "purpose": "A landing page built around WebGL shader scenes"
+   },
+   {
+    "name": "Wireframe Template",
+    "url": "https://pro.reactbits.dev/docs/templates/wireframe-template",
+    "purpose": "A low-fidelity wireframe landing page"
+   },
+   {
+    "name": "Portfolio Template",
+    "url": "https://pro.reactbits.dev/docs/templates/portfolio-template",
+    "purpose": "A personal portfolio, free on every tier"
+   },
+   {
+    "name": "8-Bit Template",
+    "url": "https://pro.reactbits.dev/docs/templates/8-bit-template",
+    "purpose": "A pixel-art landing page"
+   },
+   {
+    "name": "AI App Template",
+    "url": "https://pro.reactbits.dev/docs/templates/ai-app-template",
+    "purpose": "An AI application interface, not a landing page"
+   },
+   {
+    "name": "Security Template",
+    "url": "https://pro.reactbits.dev/docs/templates/security-template",
+    "purpose": "A security product landing page"
+   }
+  ],
+  "template_count": 11,
+  "install": "npx shadcn@latest add @reactbits-pro/hero-7",
+  "package": null,
+  "docs_url": "https://pro.reactbits.dev/docs/introduction",
+  "repo_url": null,
+  "registry_url": "https://pro.reactbits.dev/api/r/starter/{name}.json",
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 703,
+   "blocks": 538
+  },
+  "pricing_detail": "One-time payment, lifetime updates, three tiers. Starter $129 gives the 134 animated components and the agent skill file. Pro $249 adds the 238 page blocks, the 300 application blocks and the Agent Kit. Ultimate $349 adds the 11 downloadable templates and priority email support. One license covers one developer for unlimited commercial projects. The license forbids repackaging the code as a competing library, theme or template. The Portfolio template is free on every tier. Team and volume licensing goes through pro@reactbits.dev.",
+  "agent_guidance": "Read https://pro.reactbits.dev/llms.txt first for the shape of the product, then the docs pages for the item names. Both are public and need no key.\n\nCheck the numbers against the site before you quote them. The llms.txt is stale: it says 130 creative components and 81 application blocks in the body, while the home page, the meta description and the JSON-LD all say 134 and 300. Trust the home page.\n\nName the registry in every install command, or the shadcn CLI falls back to the default shadcn/ui one. Components come from @reactbits-starter and work on every tier. Blocks, application blocks and the Agent Kit come from @reactbits-pro and return 403 on a Starter key.\n\nSet REACTBITS_LICENSE_KEY in .env.local next to components.json. The MCP server runs the shadcn CLI from the project root, so a key it cannot resolve there gives 401 on every install.\n\nUse the Agent Kit rather than free prompting when the brief is a whole page. Install one design skill and one page prompt or recipe, then follow the recipe. It names the exact blocks in order.\n\nReach for the application blocks when the brief is a logged-in product. The AI and agent group covers chat, prompt input, tool calls, approvals, plans and usage meters, which no free registry in this corpus matches.",
+  "why_it_matters": "It is the most agent-ready paid registry in this corpus. A public llms.txt, a 794-URL sitemap, a documented MCP path, a published SKILL.md and a 20-item Agent Kit mean an agent can plan a whole page before it spends a key. The 300 application blocks also make it the only registry here that covers the logged-in product as thoroughly as the marketing page.",
+  "quality_tier": "S",
+  "tier_reason": "703 items in one registry, every count public and checkable, with a license page, a changelog, a roadmap and a 794-URL sitemap. It ships the agent path most paid libraries skip: llms.txt, an MCP setup doc against two named registries, a SKILL.md endpoint and 20 Agent Kit items. The 38 application categories include six agent surfaces that no free registry here provides. Marked down inside S only for the stale llms.txt counts and for a registry that returns nothing without a paid key.",
+  "notable_for": [
+   "703 items in one license-gated shadcn registry",
+   "300 application blocks across 38 categories",
+   "six agent surfaces: chat, tool calls, approvals, plans, usage",
+   "20-item Agent Kit of skills, prompts and recipes",
+   "one theme layer restyles all 300 application blocks"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-09-05",
+  "source": "user",
+  "evidence": "https://pro.reactbits.dev/ 200, 419,934 bytes. Title \"React Bits Pro | Animated React Components, Blocks & Templates\". The meta description reads \"134 animated React components, 238 page blocks, 300 app UI blocks, 11 templates and an AI Agent Kit. One-time payment, lifetime updates.\" The home page states \"703 assets inside\" and lists every category with a count. Components: Text 10, Backgrounds 64, 3D & Shaders 21, Cursor Effects 14, UI & Cards 25, which sums to 134. Page blocks across 21 categories: Hero 24, Features 13, Social Proof 16, Contact 12, Footer 12, Comparison 8, Navigation 15, Auth 6, Call To Action 14, FAQ 9, Pricing 15, Stats 15, 404 8, Profile 6, About 12, Waitlist 6, Showcase 8, How It Works 9, Download 8, Blog 11, Ecommerce 11, which sums to 238. Application blocks across 38 categories sum to 300, and include AI Chat 9, Prompt Input 7, Agent Activity 7, Tool Calls 6, Agent Approval 6, Agent Plan 6, AI Usage 8, Analytics 16, Dashboard 14, Navbar 14, Authentication 14. Templates 11 and Agent Kit 20 bring the total to 703. The JSON-LD carries founder \"David Haz\" with https://davidhaz.com, https://x.com/davidhdev and https://github.com/DavidHDev, isAccessibleForFree false, and three OneTimePayment offers: Starter 129 USD, Pro 249 USD, Ultimate 349 USD. Its featureList names \"Live app UI theming: accent, base, font and radius across every block\" and \"AI agent SKILL.md for Cursor, Claude Code, and similar tools\". /llms.txt 200 at 11,707 bytes and gives the pricing table, the license terms and the install flow, but its body says 130 creative components and 81 application blocks across 12 categories, which contradicts the home page. /sitemap.xml 200 with 794 URLs, of which 770 are under /docs. /robots.txt 200 and allows everything except /api/, /auth/, /profile, /login, /app-ui-lab and /particle-lab. /zzz-not-a-page returns 404, so the site has no catch-all route. /license 200, last updated 25 August 2026, and defines Components, Blocks, App UI blocks, Templates, Agent Kit, Landing Builder and \"Registries and tooling\" as parts of the Product. /docs/mcp 200 and documents two registries, @reactbits-starter and @reactbits-pro, with the note that Blocks, Application UI and the Agent Kit return 403 on a Starter plan. /api/r/starter/skill returns 401 with the message \"License key required. The starter plan is a paid tier.\" and the components.json snippet \"https://pro.reactbits.dev/api/r/starter/{name}.json\" with an Authorization Bearer header, plus the example \"npx shadcn@latest add @reactbits-starter/mono-waves-tw\". /changelog 200 and dates \"The Biggest Update of the Year\" to 10 August 2026: \"300 App UI blocks across 38 categories\", \"One theme layer restyles all 300 at once: accent, base, font, and corner radius\", \"Landing Builder (Beta): compose a page from blocks and export it as a complete Next.js project\", \"Agent Kit: 8 design skills, 8 page prompts, and 3 full-page recipes\", and \"34 new animated components, bringing the total to 134\". The sitemap names all 11 templates: saas-landing, minimal-landing, agency-site, finance-landing, ai-saas-landing, shader-template, wireframe-template, portfolio-template, 8-bit-template, ai-app-template, security-template. The free sister product already sits in this corpus as react-bits in links-41.json."
+ }
+]

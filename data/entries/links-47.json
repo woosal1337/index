@@ -1,0 +1,513 @@
+[
+ {
+  "id": "e5559f23-8789-4b11-b922-f18ac0041a95",
+  "slug": "seedance-2-higgsfield-guide",
+  "url": "http://x.com/i/article/2042635368890023937",
+  "name": "Seedance 2.0 Step-By-Step Guide",
+  "tagline": "Walkthrough of Seedance 2.0 multi-input video generation on Higgsfield, start to finish",
+  "description": "A long-form X article on ByteDance's Seedance 2.0 video model and how to drive it through Higgsfield, which the author picks over other hosts for having the full omni-reference system with no waitlist or queue. Its premise is that Seedance 2.0 is not a text-to-video box: you feed it images, video, audio and text at once, and each input is tagged as a reference for a specific job — style, motion, camera work, rhythm, or character appearance. A large front section covers the prerequisite work, mainly generating non-generic starting images with JSON color-grading prompts in Nano Banana Pro and mining TikTok for real in-niche reference frames to feed back through Claude or Gemini. It is aimed at content creators producing short-form brand video, not at engineers calling an API.",
+  "category": "essays-guides-courses",
+  "subcategory": "ai-workflow-guides",
+  "kinds": [
+   "article"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "free",
+    "account-required"
+   ],
+   "distribution": [
+    "article"
+   ],
+   "platform": [
+    "social",
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "prose",
+    "prompts",
+    "video"
+   ],
+   "agent_readiness": [
+    "copy-prompt",
+    "auth-required",
+    "bot-blocked"
+   ],
+   "maturity": "stable"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Free to read with an X account. The workflow it teaches requires a paid Higgsfield plan and paid Nano Banana Pro image generations.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Reach for this only when a user is producing short-form marketing video and asks how Seedance 2.0 differs from a normal text-to-video call — the transferable idea is that every input is a typed reference (style, motion, camera, rhythm, identity) and must be labelled as such in the prompt, not just attached. The single reusable technique for you is the JSON color-grading prompt passed to the image model, because a graded starting frame is what stops the output reading as generic AI. Treat the Higgsfield-is-the-only-good-host claim as promotional and time-limited; verify current model access before you route a user there, and prefer the Prompting Bible in this index for the actual keyword vocabulary.",
+  "why_it_matters": "It is the clearest plain-language statement of the shift from single-prompt video generation to typed multi-reference direction, which is the mental model everything downstream depends on.",
+  "quality_tier": "B",
+  "notable_for": [
+   "typed multi-reference input model",
+   "JSON color-grading prompts for starting frames",
+   "TikTok reference-mining workflow",
+   "strong Higgsfield promotional tilt"
+  ],
+  "already_enriched": true,
+  "http_status": null,
+  "verified_at": "2026-08-15",
+  "evidence": "Not fetched per instruction (x.com); record built from the pre-retrieved article text supplied in the batch."
+ },
+ {
+  "id": "643c409f-5f59-4ea2-affc-9bf8e4e588a6",
+  "slug": "ai-ugc-character-business-guide",
+  "url": "http://x.com/i/article/2043125501238091776",
+  "name": "AI UGC Character Money Guide",
+  "tagline": "Playbook for building an AI influencer character and monetizing it with brand deals",
+  "description": "An X long-form business playbook on building an owned virtual influencer and selling against it, framed by the author's claim of reaching 1K followers in five days and first revenue in week two. The argument is economic: a human partnership costs $2K-$10K and weeks of negotiation, while a character you own runs about $37/month on Higgsfield and posts on your schedule indefinitely. The technical process starts with the face, generated in Grok Imagine on Higgsfield with specific prompts for age, body type, setting, mood and lighting direction, then moves to a consistency system the author names as the step that separates accounts that grow from accounts that stall. Aimed at solo operators and small brands, not at design teams.",
+  "category": "essays-guides-courses",
+  "subcategory": "brand-and-business-playbooks",
+  "kinds": [
+   "article"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "free",
+    "account-required"
+   ],
+   "distribution": [
+    "article"
+   ],
+   "platform": [
+    "social",
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "prose",
+    "prompts",
+    "video"
+   ],
+   "agent_readiness": [
+    "auth-required",
+    "bot-blocked"
+   ],
+   "maturity": "stable"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Free to read with an X account. The stack it prescribes is quoted at roughly $37/month on Higgsfield.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use this narrowly: the only durable part is the character-consistency discipline — lock a reference face and a reusable prompt spec before you generate any second asset, because drift is what kills a synthetic persona account. Do not repeat its market figures ($6B market, $10K per post, 47% of 19-21 year olds) as fact; they are uncited and the piece reads as affiliate content for one platform. If a user actually wants this, pair the character-sheet step here with the keyword vocabulary in the Seedance 2.0 Prompting Bible and flag the disclosure and platform-policy risk of undisclosed synthetic personas.",
+  "why_it_matters": "It is included as a marker of the AI-persona content wave and for its one real craft point — consistency systems — but its economics are advertising, not evidence.",
+  "quality_tier": "C",
+  "notable_for": [
+   "character consistency system as the growth lever",
+   "Grok Imagine face generation prompts",
+   "uncited market and revenue claims",
+   "affiliate-shaped single-platform stack"
+  ],
+  "already_enriched": true,
+  "http_status": null,
+  "verified_at": "2026-08-15",
+  "evidence": "Not fetched per instruction (x.com); record built from the pre-retrieved article text supplied in the batch."
+ },
+ {
+  "id": "dcf9c229-2f81-44ab-a76f-cbf60db8251e",
+  "slug": "seedance-2-prompting-bible",
+  "url": "http://x.com/i/article/2042597953056182272",
+  "name": "Seedance 2.0 Prompting Bible",
+  "tagline": "Seedance 2.0 camera, lighting and motion keywords with a five-layer prompt structure",
+  "description": "A reference article that treats Seedance 2.0 as having its own prompt language and documents it: every camera keyword, every lighting modifier, every constraint the author found to actually work, plus the five-layer prompt structure he uses to build a shot. It states the model's real input ceiling — up to nine reference images (character sheets, mood boards, product photos, storyboard panels), up to three video clips for camera motion, choreography or pacing, and up to three audio tracks — and frames the model as a multimodal film set rather than a text-to-video box. The author says the framework was compiled from hundreds of generations, the official Volcengine documentation, Higgsfield and Yaroflasher tutorials, and confirmed community techniques. Written to be the single tab kept open while generating.",
+  "category": "agent-design-tooling",
+  "subcategory": "prompts-and-feedback",
+  "kinds": [
+   "prompt-pack",
+   "reference",
+   "article"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "free",
+    "account-required"
+   ],
+   "distribution": [
+    "article"
+   ],
+   "platform": [
+    "social",
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "prompts",
+    "prose",
+    "video"
+   ],
+   "agent_readiness": [
+    "copy-prompt",
+    "auth-required",
+    "bot-blocked"
+   ],
+   "maturity": "stable"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Free to read with an X account. The full setup walkthrough is gated behind the author's paid community at weeklyaiops.com; the prompting reference itself is not.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "This is the one to pull from when a user asks you to write a Seedance 2.0 prompt — it gives you the controlled vocabulary (camera moves, lighting modifiers, negative constraints) and the five-layer ordering, which matters because the model weights layers positionally rather than reading free prose. Copy the input ceilings into any pipeline you build: nine images, three video clips, three audio tracks, each tagged to a role, and fail loudly rather than silently dropping the tenth reference. Two cautions — the keyword list is empirically derived and drifts with model updates, and the article funnels to a paid community for the setup half, so do not promise a user the end-to-end walkthrough is free.",
+  "why_it_matters": "Model-specific prompt vocabularies are usually folklore scattered across threads; this compiles one into a single structured reference with the official docs as a source.",
+  "quality_tier": "A",
+  "notable_for": [
+   "five-layer prompt structure",
+   "camera and lighting keyword vocabulary",
+   "documents the 9 image / 3 video / 3 audio input ceiling",
+   "cites Volcengine official documentation",
+   "setup half gated behind a paid community"
+  ],
+  "already_enriched": true,
+  "http_status": null,
+  "verified_at": "2026-08-15",
+  "evidence": "Not fetched per instruction (x.com); record built from the pre-retrieved article text supplied in the batch."
+ },
+ {
+  "id": "93cd2e72-f67a-49d0-9bf8-3376a4bdcbf2",
+  "slug": "seedance-v2-new-default-video-model",
+  "url": "http://x.com/i/article/2045216654855118848",
+  "name": "Seedance V2: New Default Model",
+  "tagline": "Podcast-derived walkthrough of Seedance V2 multi-input generation used as a video editor",
+  "description": "A step-numbered X article written up from a podcast conversation with builder Sirio, arguing that Seedance V2's distinguishing feature is multi-input generation: up to two images, up to two videos and one audio file in a single generation, each tagged inside one prompt. Its central demo is a live job where a green-screen clip of two people, two character reference images and a new background image were combined with the instruction to replace both characters and the background while preserving the motion exactly — returned in about sixty seconds with motion, characters and background all holding. The takeaway it pushes is that the model is a video editor as much as a generator. Its second rule, repeated, is that everything starts from a strong source reference image: describe your vision in words and the model guesses, show it a picture and it stops guessing.",
+  "category": "essays-guides-courses",
+  "subcategory": "ai-workflow-guides",
+  "kinds": [
+   "article"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "free",
+    "account-required"
+   ],
+   "distribution": [
+    "article"
+   ],
+   "platform": [
+    "social",
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "prose",
+    "prompts",
+    "video"
+   ],
+   "agent_readiness": [
+    "copy-prompt",
+    "auth-required",
+    "bot-blocked"
+   ],
+   "maturity": "stable"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Free to read with an X account. No price is quoted for the model itself.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Cite the green-screen replacement recipe when a user wants to change characters or backgrounds while keeping existing motion — pass the source clip plus per-role reference images and state the preservation constraint explicitly in the prompt, because omitting it is what makes the motion drift. Note that its stated input ceiling (two images, two videos, one audio) is lower than the nine/three/three figure in the Prompting Bible entry, so treat both as snapshots and check the current model card before you hard-code limits into a pipeline. Its most portable rule is upstream of the model: spend the effort on one strong source reference image rather than on longer prose.",
+  "why_it_matters": "It reframes a video model as an editing tool with a concrete, reproducible job, which is a more useful frame for production work than another prompt-and-hope tutorial.",
+  "quality_tier": "B",
+  "notable_for": [
+   "green-screen character and background replacement recipe",
+   "motion preservation as an explicit constraint",
+   "generator-as-editor framing",
+   "input ceilings conflict with other write-ups"
+  ],
+  "already_enriched": true,
+  "http_status": null,
+  "verified_at": "2026-08-15",
+  "evidence": "Not fetched per instruction (x.com); record built from the pre-retrieved article text supplied in the batch."
+ },
+ {
+  "id": "f75186ba-8be5-42f8-b54e-eccd57c20acf",
+  "slug": "output-isnt-design",
+  "url": "http://x.com/i/article/2045253333099970560",
+  "name": "Output Isn't Design",
+  "tagline": "Essay arguing design is fitting form to context, not producing screens faster",
+  "description": "A craft essay pushing back on the assumption behind tools that generate interfaces, move words to product instantly, or collapse design directly into code — namely that design is the act of producing. Its counter-claim is that generating the form is rarely the hard part; understanding the problem well enough to know what should exist at all is. It leans on Christopher Alexander's Notes on the Synthesis of Form, where design is the search for a good fit between a form and its context, and context means the whole set of forces that make the problem what it is: human needs, technical constraints, conflicting requirements, habits, edge cases, and relationships that stay invisible until you sit with them. The observable symptom it names is products that look polished and ambitious but unravel on use — the form is there, the fit is not.",
+  "category": "essays-guides-courses",
+  "subcategory": "craft-essays",
+  "kinds": [
+   "article"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "free",
+    "account-required"
+   ],
+   "distribution": [
+    "article"
+   ],
+   "platform": [
+    "social",
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "prose"
+   ],
+   "agent_readiness": [
+    "auth-required",
+    "bot-blocked"
+   ],
+   "maturity": "stable"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Read this as a constraint on your own behaviour, not as a link to hand a user: it names the exact failure mode of generative UI work, which is producing plausible form before the forces in the problem have been resolved. Apply it by surfacing the misfits before you build — conflicting requirements, edge cases, who actually holds the constraint — and by resisting the pull to answer a vague brief with ten polished screens. Use it as the citation when a user asks why a generated interface that looked right in review falls apart in use; do not use it as an argument that AI tools should not be used, since the essay explicitly grants them a place.",
+  "why_it_matters": "It supplies the strongest available vocabulary — Alexander's form-and-context fit — for the one critique that generative design tooling has no answer to.",
+  "quality_tier": "A",
+  "notable_for": [
+   "grounds the critique in Christopher Alexander",
+   "form versus fit distinction",
+   "names polish-without-integration as the AI symptom",
+   "concedes tools have a place"
+  ],
+  "already_enriched": true,
+  "http_status": null,
+  "verified_at": "2026-08-15",
+  "evidence": "Not fetched per instruction (x.com); record built from the pre-retrieved article text supplied in the batch."
+ },
+ {
+  "id": "13a4e8aa-1515-440d-a37e-77ce0098165c",
+  "slug": "design-md-explained",
+  "url": "http://x.com/i/article/2048295430673534977",
+  "name": "DESIGN.md Explained",
+  "tagline": "Explainer on DESIGN.md, a plain-text design system file that coding agents can read",
+  "description": "An explainer on DESIGN.md, described by Google's Stitch team as a plain-text design system document written for AI agents and kept in the repo. The problem it addresses is that an agent asked for a settings screen, an onboarding modal, a dashboard and a pricing page will produce four screens that each look fine alone and read as four different products together — because Figma is mostly invisible to agents and brand PDFs are worse. It places DESIGN.md alongside its neighbours: README.md tells humans what the project is, AGENTS.md tells coding agents how to work in the repo, DESIGN.md tells design and coding agents what the product should look like. The file has two layers — machine-readable YAML for colors, type, radius, spacing, component references and exact component properties, and human-readable markdown for how the interface should feel, which colors do which jobs, how layout behaves, and which component patterns are allowed or banned.",
+  "category": "agent-design-tooling",
+  "subcategory": "design-md-and-specs",
+  "kinds": [
+   "design-md",
+   "reference",
+   "article"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "free",
+    "account-required"
+   ],
+   "distribution": [
+    "article"
+   ],
+   "platform": [
+    "social",
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "prose",
+    "design-tokens"
+   ],
+   "agent_readiness": [
+    "structured-docs",
+    "auth-required",
+    "bot-blocked"
+   ],
+   "maturity": "stable"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Act on this directly: when a repo has a DESIGN.md, read it before you generate any screen, and when a user complains that your screens drift between sessions, propose writing one rather than repeating the brief in every prompt. Follow its two-layer shape — YAML for the values you must not invent (color, type scale, radius, spacing, component props) plus markdown for the judgment those values cannot carry, including the banned patterns, since a hex code alone never tells you which color owns the primary action. Watch two limits: DESIGN.md is a convention rather than a standard, so do not assume a schema, and it is complementary to AGENTS.md, not a replacement for it.",
+  "why_it_matters": "It is the clearest statement of the format this entire index assumes — a design system expressed as repo text an agent can read — and it names the cross-screen consistency failure that makes the format necessary.",
+  "quality_tier": "A",
+  "notable_for": [
+   "Google Stitch team's DESIGN.md convention",
+   "two-layer YAML plus markdown structure",
+   "positions DESIGN.md against README.md and AGENTS.md",
+   "values plus reasons, not tokens alone",
+   "cross-screen consistency as the core failure"
+  ],
+  "already_enriched": true,
+  "http_status": null,
+  "verified_at": "2026-08-15",
+  "evidence": "Not fetched per instruction (x.com); record built from the pre-retrieved article text supplied in the batch."
+ }
+]

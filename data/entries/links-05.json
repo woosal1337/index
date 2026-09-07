@@ -1,0 +1,559 @@
+[
+ {
+  "id": "ad560d27-c583-445f-b8d9-68dcee767d31",
+  "slug": "whattheprice",
+  "url": "https://whattheprice.tech",
+  "name": "WhatThePrice",
+  "tagline": "Experimental pricing tool, taken offline by its owner pending a security review",
+  "description": "WhatThePrice is an experimental web tool that its owner has disabled. The domain still resolves and returns HTTP 200, but every path serves a single static notice reading 'WhatThePrice is temporarily unavailable — this experimental tool has been disabled while we review its infrastructure and security.' The page carries a noindex robots meta, there is no robots.txt or sitemap, and no public documentation or write-up of the tool exists, so its actual function (presumably pricing or price-positioning related) cannot be verified. Treat it as content-free until it returns.",
+  "category": "utilities-naming",
+  "subcategory": "small-web-utilities",
+  "kinds": [
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "unknown"
+   ],
+   "styling": [
+    "unknown"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "none"
+   ],
+   "maturity": "dead-link"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Do not route a user here — the tool is switched off and the domain serves only a maintenance notice, so any answer sourced from it would be fabricated. If a task needs pricing-page or price-positioning reference material, use a live pricing gallery or a real SaaS pricing page instead. Re-check the domain before you ever cite it; a returning version would need a fresh record because nothing about its former behaviour is documented.",
+  "why_it_matters": "It is kept in the index only as a negative marker: a saved link that has since gone dark, so future crawls do not waste effort re-investigating it.",
+  "notable_for": [
+   "disabled pending an infrastructure and security review",
+   "serves a 200 maintenance page, not a 404",
+   "noindex meta, no robots.txt or sitemap",
+   "no public record of what the tool did"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://whattheprice.tech (HTTP 200, full HTML read — static maintenance notice only), https://whattheprice.tech/robots.txt (404), web search for 'whattheprice.tech' returned no matching product",
+  "quality_tier": "C",
+  "tier_reason": "facets.maturity is \"dead-link\" — the domain serves only a static maintenance notice with no recoverable content, and agent_guidance says never route a user here."
+ },
+ {
+  "id": "783577de-8c5c-4a6e-af4f-590631142b48",
+  "slug": "before-click",
+  "url": "https://before.click",
+  "name": "before.click",
+  "tagline": "Curated gallery of App Store screenshot sets from 243 real iOS apps",
+  "description": "before.click is a single-purpose inspiration gallery for App Store product pages: it collects the full screenshot carousels that shipping iOS apps actually use, and lets you browse them side by side. The /explore grid currently holds 243 apps, from indie work like (Not Boring) Camera, Amie, Family, Lapse, and Callsheet to large products like Monzo, Twitch, Wise, Headspace, ClickUp, Evernote, Claude, and Tripadvisor, each stored as a numbered set of ASO frames. A search box filters by app, style, or category, an /insights section publishes App Store Optimization write-ups, and a 'request app' link lets visitors nominate additions. It is aimed at founders and product designers writing the first screen of an App Store listing, where the screenshot set does most of the conversion work.",
+  "category": "inspiration-galleries",
+  "subcategory": "app-screens",
+  "kinds": [
+   "gallery",
+   "reference"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "gallery",
+    "web-app"
+   ],
+   "platform": [
+    "ios",
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "screenshots",
+    "images"
+   ],
+   "agent_readiness": [
+    "js-only-shell",
+    "image-only"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Free to browse. No account, paywall, or paid tier observed.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 243,
+   "blocks": null
+  },
+  "agent_guidance": "Reach for this when the task is an App Store or Play listing — screenshot copy, frame order, caption hierarchy, device mockup treatment — not when it is in-app UI; the frames are marketing artefacts, not screens you can rebuild. The content is image-only and the homepage is a client-rendered shell, so a plain fetch returns nothing usable: go straight to /explore, where the server HTML carries the app names and /apps/<slug>/aso/<n>.webp image paths. Pair it with a device-frame mockup tool and an ASO copy pass; it gives you visual precedent, never assets you may reuse, since every screenshot belongs to the app that shipped it.",
+  "why_it_matters": "App Store screenshots are the highest-leverage design surface most product teams never study, and this is the only well-curated gallery that shows complete sets rather than single hero frames.",
+  "notable_for": [
+   "243 iOS apps indexed with full ASO frame sets",
+   "/explore grid searchable by app, style, or category",
+   "/insights ASO write-ups",
+   "'request app' submission route",
+   "strong indie-app coverage alongside household names"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://before.click (200, client-rendered shell — title and meta only), https://before.click/explore (200, 1.27 MB server HTML parsed: 243 unique /apps/<slug>/aso/ image slugs and their display names extracted), https://before.click/insights (200), https://before.click/robots.txt (200, exposes /explore and /insights), https://before.click/sitemap.xml (404)",
+  "quality_tier": "A",
+  "tier_reason": "243 verified app screenshot sets with a searchable /explore grid and an /insights section make it the leading gallery in its niche, held back from S only by image-only, JS-shell delivery and no license or reusable assets."
+ },
+ {
+  "id": "1b4a520f-abbd-4761-b8e7-083d48bee80e",
+  "slug": "fabric-so",
+  "url": "https://fabric.so",
+  "name": "Fabric",
+  "tagline": "AI workspace that indexes files, notes, and meetings and searches them visually",
+  "description": "Fabric is a personal and team AI workspace that ingests PDFs, images, videos, emails, presentations, spreadsheets, and meeting recordings, then makes the whole pile searchable by meaning, colour, or visual similarity. It layers an infinite canvas, a document editor, automatic meeting transcription, and a set of named agents (Sol, Juno, Pip, Mochi, Ada) that run scheduled work and each get their own email inbox. More than 50 integrations connect it to Google Drive, Notion, Figma, Dropbox, and Zapier, and it ships on web, iOS, Android, desktop, and a Chrome extension. For designers it functions as a searchable reference library and moodboard tool rather than as a design system or component source.",
+  "category": "agent-design-tooling",
+  "subcategory": "ai-design-apps",
+  "kinds": [
+   "ai-tool",
+   "app"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "freemium",
+    "subscription",
+    "account-required"
+   ],
+   "distribution": [
+    "web-app",
+    "saas",
+    "browser-extension",
+    "mobile-app",
+    "desktop-app"
+   ],
+   "platform": [
+    "web",
+    "ios",
+    "android",
+    "cross-platform"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "images",
+    "prose",
+    "pdf",
+    "video"
+   ],
+   "agent_readiness": [
+    "auth-required",
+    "llms-txt",
+    "js-only-shell"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Homepage CTA reads 'Try for $0', so a free tier exists. The /pricing route is a client-rendered Framer shell that returned no readable tier table on two fetches, so exact per-seat prices are unverified — do not quote a number.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Suggest this when a user needs to collect and re-find visual reference across formats — search by colour or visual similarity is the feature nothing else in this index offers — not when they need components, tokens, or anything you can install. It is a hosted account-gated product: you cannot query a user's Fabric library from a coding session, so treat it as a human-side research step upstream of the build, and pull the actual assets into the repo yourself. Its marketing site is also a solid reference for AI-product landing pages, but the pages are client-rendered, so read fabric.so/llms.txt rather than scraping the HTML.",
+  "why_it_matters": "Visual and colour-similarity search over a mixed personal archive is genuinely rare, which makes Fabric the practical home for a design reference library that a keyword-only bookmark tool cannot serve.",
+  "notable_for": [
+   "search by meaning, colour, or visual similarity",
+   "named agents with their own email inboxes",
+   "infinite canvas plus document editor",
+   "50+ integrations including Figma and Notion",
+   "automatic meeting transcription",
+   "AES-256 encryption, CASA Tier 2"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://fabric.so (200, headline and feature set read), https://fabric.so/pricing and https://fabric.so/pricing/ (200 but empty client-rendered shell, no tiers readable), https://fabric.so/llms.txt (200), web search for pricing returned conflicting third-party figures and was not used",
+  "quality_tier": "A",
+  "tier_reason": "Actively maintained cross-platform product with 50+ integrations, llms.txt, and a genuinely rare colour/visual-similarity search, but it is account-gated and queryable by no agent, so not S."
+ },
+ {
+  "id": "c4b8407c-fd38-43db-8b1a-09754ee2cf71",
+  "slug": "modal",
+  "url": "https://modal.com",
+  "name": "Modal",
+  "tagline": "Python serverless GPU platform whose site is a dev-tool marketing design reference",
+  "description": "Modal is a serverless cloud for AI workloads — inference, fine-tuning and multi-node training, batch jobs, and sandboxes for untrusted code — where you declare the container image, hardware, and scaling rules in Python and deploy with the modal CLI. It sits in this index mainly as a UI and brand reference: the site pairs a dark, high-contrast palette with custom technical diagrams, live code samples, and a pricing page that publishes per-second GPU rates in full rather than hiding them behind a sales form. That combination of runnable code on the marketing page and radical pricing transparency is the pattern worth copying. The SDK is open source under Apache-2.0; the platform itself is a paid hosted service.",
+  "category": "design-systems-brand",
+  "subcategory": "ui-reference",
+  "kinds": [
+   "reference",
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "python"
+   ],
+   "styling": [
+    "unknown"
+   ],
+   "license": [
+    "apache-2.0",
+    "proprietary"
+   ],
+   "pricing": [
+    "freemium",
+    "usage-based",
+    "subscription"
+   ],
+   "distribution": [
+    "saas",
+    "cli",
+    "public-api",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code",
+    "prose",
+    "images"
+   ],
+   "agent_readiness": [
+    "llms-txt",
+    "structured-docs",
+    "public-api",
+    "cli-installable",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "pricing-website",
+   "api-documentation",
+   "features",
+   "blog",
+   "careers"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "pip install modal",
+  "package": "modal",
+  "docs_url": "https://modal.com/docs",
+  "repo_url": "https://github.com/modal-labs/modal-client",
+  "registry_url": null,
+  "github": {
+   "stars": 502,
+   "license": "Apache-2.0",
+   "last_activity": "2026-08-14"
+  },
+  "pricing_detail": "Starter $0 + compute/month with $30/month free credits; Team $250 + compute/month with $100/month free credits; Enterprise custom. GPU per-second: B300 $0.001972, B200 $0.001736, H200 SXM $0.001261, H100 SXM5 $0.001097, RTX PRO 6000 $0.000842, A100 80GB $0.000694, A100 40GB $0.000583, L40S $0.000542, A10 $0.000306, L4 $0.000222, T4 $0.000164. CPU $0.0000131/core/sec (0.125 core minimum), memory $0.00000222/GiB/sec, volumes $0.09/GiB/mo with 1 TiB free.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Cite this as the reference when you are building a developer-tool homepage, a usage-based pricing page, or API docs — copy the structure (runnable code block above the fold, per-unit rates in a plain table, no 'contact sales' wall on the standard tiers), not the green-on-dark palette, which is Modal's trademarked brand. It ships no components and no design tokens, so never list it as a UI source; pair it with a real component library for the build. If a task is about actually running GPU work rather than designing, read modal.com/llms.txt and the /docs tree — both are machine-friendly, unlike most vendor sites in this index.",
+  "why_it_matters": "Modal's site is the most-imitated developer-infrastructure landing page of its generation, and its fully public per-second rate card is a rare, concrete example of pricing-page honesty worth holding up as a standard.",
+  "notable_for": [
+   "per-second GPU rates published in full",
+   "runnable Python samples on the marketing page",
+   "custom technical diagram illustration system",
+   "llms.txt plus a structured /docs tree",
+   "Apache-2.0 SDK backing a proprietary platform"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://modal.com (200), https://modal.com/pricing (200, full rate card read), https://modal.com/llms.txt (200), https://modal.com/docs (200), GitHub API for modal-labs/modal-client (502 stars, Apache-2.0, pushed 2026-08-14)",
+  "quality_tier": "S",
+  "tier_reason": "Fully verified per-second rate card, Apache-2.0 client, pip install, llms.txt plus a structured /docs tree, and public-api agent_readiness — the deepest and most machine-readable record in the batch."
+ },
+ {
+  "id": "565a54f6-c4e7-4c8e-bec9-05caac75e23e",
+  "slug": "prime-intellect",
+  "url": "https://www.primeintellect.ai",
+  "name": "Prime Intellect",
+  "tagline": "GPU marketplace and RL training stack behind a monospace, terminal-styled site",
+  "description": "Prime Intellect sells an integrated stack for training and serving custom models: a Lab for post-training agents with RL environments and evaluations, serverless inference with LoRA support, and on-demand or reserved GPU capacity brokered across 50+ providers from 1 to 256 GPUs. Its research arm publishes open-source work including Prime Agent, INTELLECT-3, and SYNTHETIC-2, and the CLI installs with `pip install prime`. It earns a place in this catalog for its site language rather than its infrastructure: monospace type, numbered navigation labels (TRAINING01, INFERENCE02, COMPUTE03, RESEARCH04), a live careers count baked into the nav, and posted hourly GPU rates. It is the cleanest current example of the terminal-brutalist aesthetic that AI-infrastructure brands have converged on.",
+  "category": "design-systems-brand",
+  "subcategory": "ui-reference",
+  "kinds": [
+   "reference",
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "python"
+   ],
+   "styling": [
+    "unknown"
+   ],
+   "license": [
+    "mit",
+    "apache-2.0",
+    "proprietary"
+   ],
+   "pricing": [
+    "usage-based",
+    "paid",
+    "account-required"
+   ],
+   "distribution": [
+    "saas",
+    "marketplace",
+    "cli",
+    "public-api",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code",
+    "prose",
+    "dataset"
+   ],
+   "agent_readiness": [
+    "structured-docs",
+    "public-api",
+    "cli-installable",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "pricing-website",
+   "api-documentation",
+   "features",
+   "blog",
+   "careers"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "pip install prime",
+  "package": "prime",
+  "docs_url": "https://docs.primeintellect.ai",
+  "repo_url": "https://github.com/PrimeIntellect-ai/prime",
+  "registry_url": null,
+  "github": {
+   "stars": 287,
+   "license": "MIT",
+   "last_activity": "2026-08-15"
+  },
+  "pricing_detail": "Posted on-demand hourly GPU rates: H200 $1.99–$3.14/hr, B300 $4.99/hr, B200 $3.49/hr. Reserved three-year cluster pricing is quoted separately via 'Book a call'.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use this as a visual reference when a brief calls for a technical, research-lab register — monospace body copy, numbered section labels, dense specification tables, near-zero decoration — and specifically when you need to see that style applied to a real pricing and product page rather than a portfolio piece. It is narrower than Modal as a reference: one marketing site, no docs-site design system and no published tokens, so do not lean on it for component patterns. If the task is compute rather than design, docs.primeintellect.ai serves llms.txt and the org's open repos (prime-agent, verifiers) are the substantive artefacts, not the landing page.",
+  "why_it_matters": "It is the canonical instance of the terminal-brutalist AI-lab visual language, useful precisely because that style is now widely copied and rarely executed with this much restraint.",
+  "notable_for": [
+   "numbered navigation labels (TRAINING01, INFERENCE02, COMPUTE03)",
+   "monospace-first typography across a commercial site",
+   "hourly GPU rates published on the homepage",
+   "live open-role count in the nav",
+   "open-source research repos: Prime Agent, INTELLECT-3, SYNTHETIC-2"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://www.primeintellect.ai (200, nav labels, product sections, and GPU rates read), https://www.primeintellect.ai/llms.txt (404), https://docs.primeintellect.ai (200, redirects to /introduction), https://docs.primeintellect.ai/llms.txt (200), GitHub API for PrimeIntellect-ai/prime (287 stars, MIT, pushed 2026-08-15) and the org repo list",
+  "quality_tier": "A",
+  "tier_reason": "Real CLI, open repos, and posted GPU rates back a strong terminal-brutalist reference, but its own agent_guidance calls it narrower than Modal — one marketing site, no tokens, and the root llms.txt 404s."
+ },
+ {
+  "id": "f532211e-227a-4612-9dec-0060b29e6df7",
+  "slug": "interfacer",
+  "url": "https://interfacer.co",
+  "name": "Interfacer",
+  "tagline": "Subscription product-design studio for startups, positioned as designer-plus-vibecoder",
+  "description": "Interfacer is a small remote studio that sells on-demand UI/UX, product, and brand design as a flat monthly subscription with unlimited requests, run async through a Notion dashboard, a shared Slack channel, and Loom walkthroughs. Its pitch is embedding as a startup's full-time designer or design cofounder rather than shipping fixed-scope projects; the headline reads 'Startups' premium designer & vibecoder.' The homepage is a dense wall of individual shots — hero sections, dashboards, data visualisation, crypto and trading screens, widgets, onboarding, and mobile flows — with client logos for SkillShare, Qoves, RailEurope, Voiceflow, Command AI, Odeko, ClickUp, and Nansen. Founded by @aydaoz and @moguzbulbul; contact is by email, a booking link, or a Typeform.",
+  "category": "studios-portfolios",
+  "subcategory": "product-and-web-studios",
+  "kinds": [
+   "studio",
+   "portfolio"
+  ],
+  "facets": {
+   "framework": [
+    "framer"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "subscription",
+    "paid"
+   ],
+   "distribution": [
+    "gallery"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "images",
+    "screenshots",
+    "profile"
+   ],
+   "agent_readiness": [
+    "llms-txt",
+    "image-only"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "testimonials",
+   "contact-us",
+   "about"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Flat monthly subscription with unlimited design requests. No rate is published on the site; pricing comes through the booking call or Typeform.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Treat this as visual reference and as a vendor lead, not as a source of anything you can install — every artefact on the site is a flat image with no code, tokens, or Figma file behind it. Its densest material is fintech, crypto, trading, and AI-agent product surfaces (dashboards, swap flows, data visualisation, widget settings), so pull it up when a brief lands in that territory and you want current styling precedent. Interfacer also publishes /llms which reads as an agent-facing service summary — read that page, not the shot wall, when the question is what the studio actually sells.",
+  "why_it_matters": "A working example of the subscription design-studio model, and one of the few studio sites that ships an /llms page written for agents rather than search engines.",
+  "notable_for": [
+   "clients include SkillShare, Voiceflow, ClickUp, Nansen, RailEurope",
+   "flat monthly subscription, unlimited requests, async delivery",
+   "publishes an /llms agent-facing summary page",
+   "heavy fintech, crypto, and AI-agent surface coverage",
+   "'designer & vibecoder' positioning"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://interfacer.co (200, full body text parsed — headline, clients, testimonial, shot titles), https://interfacer.co/llms (200, service and engagement model read), https://interfacer.co/sitemap.xml (200, lists only /testimonials and /llms), https://interfacer.co/work (404)",
+  "quality_tier": "B",
+  "tier_reason": "A single studio portfolio of flat images with no code, tokens, or published pricing; the /llms page is a nice touch but the sitemap lists only two routes."
+ }
+]

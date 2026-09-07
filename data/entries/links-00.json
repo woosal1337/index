@@ -1,0 +1,732 @@
+[
+  {
+    "id": "5e6aa47c-d46e-43e3-b61f-c05bbac03cf2",
+    "slug": "404s-design",
+    "url": "https://www.404s.design/",
+    "name": "404s",
+    "tagline": "Curated gallery of 237 real 404 pages, filterable by style, interaction and industry",
+    "description": "A single-purpose screenshot gallery of error pages pulled from live sites, built by Finnian Sturdy on Webflow. Every entry is tagged across three axes — Style (3D, Brutalist, Glitchy, Large Type, Retro, Typographic and 11 more), Interaction (Animated, Custom Cursor, Game, Hover Effects, Interactive, Scroll-driven) and Industry (Agency / Studio, Tech / SaaS, E-commerce / Retail and 5 more) — and links out to the live page. It ships no code: you get a reference image and a URL to go look at the real thing. Useful when you are designing the one page nobody budgets time for.",
+    "category": "inspiration-galleries",
+    "subcategory": "single-element-galleries",
+    "kinds": [
+      "gallery",
+      "directory"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "not-applicable"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "gallery"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "screenshots",
+        "images"
+      ],
+      "agent_readiness": [
+        "image-only"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "error-page",
+      "custom-cursor"
+    ],
+    "component_count": null,
+    "surfaces": [
+      "404"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 237,
+      "blocks": null
+    },
+    "agent_guidance": "Reach for this only when the task is literally the 404 (or another error surface) and the user wants it to have personality — it is the deepest single collection of that one page anywhere. It gives you nothing executable: no code, no components, just tagged screenshots and outbound links, so pair it with an actual component source and use the Interaction tags (Game, Scroll-driven, Custom Cursor) to decide how much JS the concept will cost you. Do not fetch it expecting structured data; the grid paginates behind a Show more button, so hit /sitemap.xml to enumerate all 237 /sites/ entries instead of scraping the homepage.",
+    "why_it_matters": "Error pages are the surface most teams ship as an afterthought, and this is the only curated, well-tagged corpus of them — narrow, but definitive within its lane.",
+    "quality_tier": "B",
+    "notable_for": [
+      "237 tagged error pages",
+      "style + interaction + industry filter axes",
+      "links to live pages, not mockups",
+      "sitemap.xml enumerates every entry"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://www.404s.design/, https://www.404s.design/about, https://www.404s.design/sitemap.xml (237 /sites/ URLs, 5 /styles/ URLs)"
+  },
+  {
+    "id": "688004f0-92de-4e63-be2b-0b9a1bf1581e",
+    "slug": "deck-gallery",
+    "url": "https://www.deck.gallery/slides/",
+    "name": "Deck.gallery",
+    "tagline": "9,313 slides cut from 180 curated decks, filterable by slide type, category and industry",
+    "description": "A pannable canvas of individual presentation slides extracted from 180 full decks — brand guidelines, pitch decks, annual reports, capability decks and portfolios from companies like Monzo, Docusign, Oculus, Pleo, Linear and Perplexity. The slide-level Type filter is the real asset: Finding (1,567), Section (1,019), Logo (616), Mockup (534), Imagery (402), Typography (385), Brand (381), Color (290), Cover (199), Iconography (102) and ~50 more, each with a live count. A small marketplace sells 11 paid presentation templates on top. Free to browse, no account required.",
+    "category": "inspiration-galleries",
+    "subcategory": "single-element-galleries",
+    "kinds": [
+      "gallery",
+      "marketplace"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "not-applicable"
+      ],
+      "pricing": [
+        "free",
+        "one-time"
+      ],
+      "distribution": [
+        "gallery",
+        "marketplace",
+        "download"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "screenshots",
+        "images"
+      ],
+      "agent_readiness": [
+        "image-only"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [
+      {
+        "name": "Portfolio - Presentation Template 001",
+        "url": "https://www.deck.gallery/marketplace/portfolio-presentation-template-01/",
+        "purpose": "Portfolio deck layout system by template.systems — $45"
+      },
+      {
+        "name": "Brand Guidelines - Presentation Template 001",
+        "url": "https://www.deck.gallery/marketplace/brand-guidelines-presentation-template-01/",
+        "purpose": "Brand guideline deck structure by template.systems — $45"
+      },
+      {
+        "name": "Pitch Deck Template #1",
+        "url": "https://www.deck.gallery/marketplace/pitch-deck-template-1/",
+        "purpose": "Deck.gallery's own investor pitch deck template — $30"
+      },
+      {
+        "name": "Proposal - Presentation Template 001",
+        "url": "https://www.deck.gallery/marketplace/proposal-presentation-template-001/",
+        "purpose": "Client proposal deck by template.systems — $30"
+      },
+      {
+        "name": "The Big Deck Pitch Deck Template",
+        "url": "https://www.deck.gallery/marketplace/the-big-deck-pitch-deck-template/",
+        "purpose": "Long-form pitch deck by Copelli Studios — $25"
+      },
+      {
+        "name": "Deckade - Pitch Deck Marketing Kit",
+        "url": "https://www.deck.gallery/marketplace/deckade-pitch-deck-marketing-kit/",
+        "purpose": "Pitch plus marketing collateral kit by Emura — $22"
+      },
+      {
+        "name": "ArcAI Dark SaaS Investor Pitch Deck",
+        "url": "https://www.deck.gallery/marketplace/arcai-dark-saas-investor-pitch-deck/",
+        "purpose": "Dark-theme SaaS investor deck by Yoganditama — $30"
+      },
+      {
+        "name": "Logo Design Pitch Deck",
+        "url": "https://www.deck.gallery/marketplace/logo-design-pitch-deck/",
+        "purpose": "Identity presentation deck for logo work by Pixel Truck — $39"
+      },
+      {
+        "name": "Minimalist Canva Resume Template",
+        "url": "https://www.deck.gallery/marketplace/minimalist-canva-resume-template/",
+        "purpose": "Canva resume layout by Copelli Studios — $20"
+      },
+      {
+        "name": "Invoice - Template 001",
+        "url": "https://www.deck.gallery/marketplace/invoice-template-01/",
+        "purpose": "Invoice document template by template.systems — $10"
+      },
+      {
+        "name": "Brand Strategy Workbook eBook Template",
+        "url": "https://www.deck.gallery/marketplace/brand-strategy-workbook-ebook-template/",
+        "purpose": "Brand strategy workbook / eBook layout by Copelli Studios — $25"
+      }
+    ],
+    "template_count": 11,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": "Gallery and slide browsing free, no account. Marketplace templates $10–$45 one-time (11 items).",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 9313,
+      "blocks": null
+    },
+    "agent_guidance": "Use this when the deliverable is a document rather than an app — brand guidelines, an investor deck, a capabilities deck, an annual report — where component libraries give you nothing. The slide-type filter is what makes it agent-usable: filter Type=Logo or Type=Color or Type=Typography to see how ~50 real brand systems lay out that exact spread, then translate the structure. Everything is a raster screenshot behind a canvas, so you cannot extract layout data; treat it as a source of section ordering and slide-type vocabulary, and go to the linked source deck for anything you need in detail.",
+    "why_it_matters": "Slide-level indexing of real brand books and pitch decks is rare — most deck galleries index whole PDFs, so you cannot find just the color page across 180 systems.",
+    "quality_tier": "A",
+    "notable_for": [
+      "9,313 slides indexed individually",
+      "180 full decks including Monzo, Docusign, Oculus, Linear",
+      "4,014 brand-guideline slides",
+      "~50 slide-type filters with live counts",
+      "11 paid deck templates, $10–$45"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://www.deck.gallery/slides/ (9,313 total, full Type/Category/Industry counts), https://www.deck.gallery/ (180 decks by category count), https://www.deck.gallery/marketplace/ (11 templates with prices and URLs); https://www.deck.gallery/decks/ returned 404"
+  },
+  {
+    "id": "2d55db0b-cf86-4c9e-9732-72bea78daa00",
+    "slug": "depo",
+    "url": "https://www.depo.zip/",
+    "name": "Depo",
+    "tagline": "Client-rendered directory of tools and agent skills — catalog not machine-readable",
+    "description": "A Next.js + Convex web app by Jack Smethurst that indexes developer and design tools, AI agent skills and resources, with a Dashboard, a Categories browser, a Leaderboard, favourites and an account menu. The server returns only a shell — every category name, entry and count is fetched client-side from Convex — so nothing about its actual catalog could be verified: not the category list, not the entry count, not the curation quality. The page itself responds 200 and the deployment is current, so it is live, just opaque to anything that does not run JavaScript.",
+    "category": "inspiration-galleries",
+    "subcategory": "directories-and-meta-indexes",
+    "kinds": [
+      "directory",
+      "app"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "free",
+        "account-required"
+      ],
+      "distribution": [
+        "web-app",
+        "gallery"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "unknown"
+      ],
+      "agent_readiness": [
+        "js-only-shell"
+      ],
+      "maturity": "unknown"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": "No pricing surfaced. Account menu and favourites imply an optional free account.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Do not try to read this one — plain HTTP, the RSC endpoint and /sitemap.xml all return the same empty Next.js shell, because the catalog lives entirely behind Convex client queries. If a user asks you to pull from it, drive a real browser or ask them to paste the entry; otherwise skip it and use an index whose content is actually fetchable. It is a generic meta-directory with no verified differentiator, so it should never be your first stop for finding a tool.",
+    "why_it_matters": "Kept in the index mainly as a negative signal: a live but unreadable directory that no agent can query, and whose catalog nobody has verified.",
+    "quality_tier": "C",
+    "notable_for": [
+      "Convex-backed, fully client-rendered",
+      "sitemap.xml and robots.txt both return the app shell",
+      "Dashboard / Categories / Leaderboard structure",
+      "built by Jack Smethurst"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://www.depo.zip/ (raw HTML, 69 KB shell), https://www.depo.zip/categories (WebFetch + raw + RSC-header fetch, no data), https://www.depo.zip/leaderboard (RSC), https://www.depo.zip/sitemap.xml and /robots.txt (both return the HTML shell), plus a web search to confirm what it catalogs"
+  },
+  {
+    "id": "6094da9f-4bf1-46ee-813e-d63a1b45d1d5",
+    "slug": "sections-wtf",
+    "url": "https://sections.wtf/",
+    "name": "Sections.wtf",
+    "tagline": "~275 landing-page sections from real sites, sorted into 22 section types",
+    "description": "A screenshot gallery of individual page sections lifted from shipped marketing sites and studio portfolios — Linear, Figma, Flighty, Dia, Peerlist, Buttondown, Supernotes, REKKI, Neon, Relume and roughly a hundred more. Entries are filed under 22 verbatim types: Menu, Hero, Features, List, Bento, Pricing, CTA, Testimonial, FAQ, Subscribe, Contact, Roadmap, Team, Footer, 404, Words, Comparison, Statistics, Form, Unsorted, Open Graph and Tabs. Each card is named 'Brand - Section', so you can look up how one specific product solved one specific section. Free, no account, weekly newsletter.",
+    "category": "inspiration-galleries",
+    "subcategory": "section-galleries",
+    "kinds": [
+      "gallery"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "not-applicable"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "gallery"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "screenshots",
+        "images"
+      ],
+      "agent_readiness": [
+        "image-only"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "hero",
+      "footer",
+      "navigation-menu",
+      "pricing-table",
+      "bento-grid",
+      "comparison-table",
+      "stat",
+      "error-page",
+      "accordion",
+      "form",
+      "timeline",
+      "tabs",
+      "typography",
+      "list",
+      "review"
+    ],
+    "component_count": null,
+    "surfaces": [
+      "homepage",
+      "pricing-website",
+      "features",
+      "faq",
+      "testimonials",
+      "contact-us",
+      "team",
+      "404",
+      "about",
+      "waitlist",
+      "compare"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 275,
+      "blocks": null
+    },
+    "agent_guidance": "Reach for this at the composition stage, before you touch a component library: its 22 section types map one-to-one onto the sections a marketing page actually needs, so you can settle 'what goes in the pricing section' by looking at ten shipped answers instead of inventing one. It is screenshots only — no markup, no Tailwind classes — so the workflow is pick a reference here, then build it with shadcn/ui or a block collection. The whole grid is in the homepage HTML (no pagination, ~275 entries under card names of the form 'Brand - Section'), which makes it cheap to enumerate in one fetch, unlike most Framer galleries.",
+    "why_it_matters": "Most inspiration galleries index whole sites, which is useless when your task is one section; this one is organized around the unit of work an agent is actually given.",
+    "quality_tier": "A",
+    "notable_for": [
+      "22 verbatim section types including Open Graph and Words",
+      "~275 entries, whole grid in one HTML response",
+      "named 'Brand - Section' so entries are directly addressable",
+      "covers 404 and Open Graph, which most galleries omit"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://sections.wtf/ (WebFetch plus raw 4 MB HTML parsed: 22 filter names verbatim, 275 unique entry titles)"
+  },
+  {
+    "id": "9fb4e86c-9d11-47ea-a3e0-9fb7c2ee560e",
+    "slug": "fluid-functionalism",
+    "url": "https://www.fluidfunctionalism.com/",
+    "name": "Fluid Functionalism",
+    "tagline": "shadcn registry of 23 components where motion carries state, not decoration",
+    "description": "An MIT-licensed shadcn registry by Micka (@micka_design) built on the premise that every animation should communicate something — spring physics on state changes, proximity hover, font-weight interpolation, merge/split transitions. It ships 23 documented components (Accordion, AskUserQuestions, Badge, Button, Card, ChatMessage, CheckboxGroup, ColorPicker, Dialog, Dropdown, InputCopy, InputGroup, InputMessage, RadioGroup, Select, Slider, Switch, Table, Tabs, TabsSubtle, ThinkingIndicator, ThinkingSteps, Tooltip), four system docs (Motion, Scrollbars, Sizes, Surfaces), plus hooks (use-proximity-hover, use-touch-primary, use-merge-split) and a surfaces theme. Most components ship as a paired unstyled `-base` and a styled variant, so you can take the behavior without the look.",
+    "category": "component-libraries",
+    "subcategory": "shadcn-registries",
+    "kinds": [
+      "registry",
+      "component-library",
+      "animation-library"
+    ],
+    "facets": {
+      "framework": [
+        "react",
+        "next"
+      ],
+      "styling": [
+        "tailwind-any",
+        "css-variables"
+      ],
+      "license": [
+        "mit"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "shadcn-registry",
+        "cli",
+        "copy-paste",
+        "github-repo"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "built-on-accessible-primitives"
+      ],
+      "content_type": [
+        "code"
+      ],
+      "agent_readiness": [
+        "registry-json",
+        "cli-installable",
+        "copy-paste-ready",
+        "open-source-code"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "accordion",
+      "badge",
+      "button",
+      "card",
+      "checkbox-group",
+      "radio-group",
+      "dialog",
+      "drawer",
+      "dropdown-menu",
+      "color-picker",
+      "copy-button",
+      "input-group",
+      "validation-message",
+      "select",
+      "slider",
+      "switch",
+      "table",
+      "tabs",
+      "tooltip",
+      "scroll-area",
+      "file-card",
+      "message",
+      "reasoning",
+      "plan",
+      "approval-request",
+      "hover-effect"
+    ],
+    "component_count": 23,
+    "surfaces": [
+      "ai-chat-panel",
+      "ai-action-approval",
+      "settings-web-app",
+      "submitting-a-form",
+      "showing-input-error",
+      "uploading-media"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": "npx shadcn@latest registry add @fluid",
+    "package": null,
+    "docs_url": "https://www.fluidfunctionalism.com/docs",
+    "repo_url": "https://github.com/mickadesign/fluid-functionalism",
+    "registry_url": "https://www.fluidfunctionalism.com/r/registry.json",
+    "github": {
+      "stars": 754,
+      "license": "MIT",
+      "last_activity": "2026-08-12"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Install it alongside shadcn/ui rather than instead of it — it is a shadcn registry (`npx shadcn@latest registry add @fluid`, then `npx shadcn@latest add @fluid/button`), so it drops into the same components directory and shares the same CSS-variable theme. Pull individual pieces when the interaction is the point: ThinkingIndicator, ThinkingSteps, ChatMessage and AskUserQuestions are a ready-made AI-chat surface, and the `-base` variants let you take spring behavior onto your own markup. Two things to watch: font-weight animation needs the Inter variable font loaded or it silently does nothing, and every component carries client-side motion, so keep it out of server components and off pages where you care about reduced-motion defaults you have not audited.",
+    "why_it_matters": "A rare registry with an actual thesis — motion as information — and it is one of the few third-party shadcn registries that ships credible AI-agent chat components.",
+    "quality_tier": "A",
+    "notable_for": [
+      "23 components, MIT, 754 stars",
+      "paired `-base` unstyled variants for every interactive component",
+      "ThinkingIndicator / ThinkingSteps / AskUserQuestions for agent UIs",
+      "proximity-hover and merge/split hooks",
+      "public /r/registry.json"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://www.fluidfunctionalism.com/, https://www.fluidfunctionalism.com/docs, https://www.fluidfunctionalism.com/r/registry.json (53 registry items enumerated), GitHub API repos/mickadesign/fluid-functionalism (754 stars, MIT, pushed 2026-08-12)"
+  },
+  {
+    "id": "7bb929ff-395a-41e6-a50f-edb3c4def490",
+    "slug": "cloudflare-kumo",
+    "url": "https://github.com/cloudflare/kumo",
+    "name": "Kumo",
+    "tagline": "Cloudflare's production React library: 44 components on Base UI + Tailwind v4, MIT",
+    "description": "The component library behind Cloudflare's own dashboard, published as `@cloudflare/kumo` (v2.10.0, MIT). It wraps Base UI primitives with a Tailwind v4 semantic-token system — `bg-kumo-base`, `text-kumo-default`, automatic dark mode via `light-dark()`, no `dark:` variants — and ships 44 components plus 39 re-exported primitives, three installable blocks, an ECharts-backed chart set (timeseries, sankey, geo maps), a `kumo` CLI, a Figma plugin with 37 component generators, and a FedRAMP theme. It is unusually well set up for agents: a root AGENTS.md knowledge base, a per-package agent guide, an ai/USAGE.md, a `kumo-design` skill, and `npx @cloudflare/kumo ls` to enumerate components.",
+    "category": "component-libraries",
+    "subcategory": "react-component-libraries",
+    "kinds": [
+      "component-library",
+      "design-system-docs",
+      "primitive"
+    ],
+    "facets": {
+      "framework": [
+        "react"
+      ],
+      "styling": [
+        "tailwind-v4",
+        "css-variables"
+      ],
+      "license": [
+        "mit"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "npm-package",
+        "cli",
+        "github-repo",
+        "figma-plugin"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "built-on-accessible-primitives",
+        "aria-complete",
+        "keyboard-navigable",
+        "focus-managed"
+      ],
+      "content_type": [
+        "code",
+        "design-tokens",
+        "figma"
+      ],
+      "agent_readiness": [
+        "structured-docs",
+        "machine-index",
+        "cli-installable",
+        "agent-skill",
+        "open-source-code",
+        "bot-blocked"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "autocomplete",
+      "badge",
+      "banner",
+      "breadcrumbs",
+      "button",
+      "chart",
+      "line-chart",
+      "area-chart",
+      "sankey-diagram",
+      "choropleth",
+      "map",
+      "chart-legend",
+      "chart-tooltip",
+      "checkbox",
+      "checkbox-group",
+      "copy-button",
+      "logo",
+      "code-block",
+      "collapsible",
+      "combobox",
+      "command-palette",
+      "date-picker",
+      "date-range-picker",
+      "dialog",
+      "alert-dialog",
+      "dropdown-menu",
+      "context-menu",
+      "empty-state",
+      "form",
+      "fieldset",
+      "label",
+      "help-text",
+      "validation-message",
+      "node-editor",
+      "grid",
+      "input-group",
+      "text-input",
+      "password-input",
+      "number-input",
+      "otp-input",
+      "card",
+      "link",
+      "spinner",
+      "progress-bar",
+      "menubar",
+      "navigation-menu",
+      "meter",
+      "pagination",
+      "popover",
+      "hover-card",
+      "radio-button",
+      "radio-group",
+      "select",
+      "sidebar",
+      "panel",
+      "switch",
+      "toggle-button",
+      "toggle-group",
+      "in-page-navigation",
+      "table",
+      "tabs",
+      "typography",
+      "toast",
+      "toolbar",
+      "tooltip",
+      "accordion",
+      "avatar",
+      "drawer",
+      "slider",
+      "separator",
+      "scroll-area",
+      "direction-provider",
+      "page-header",
+      "list"
+    ],
+    "component_count": 44,
+    "surfaces": [
+      "admin-panel",
+      "settings-web-app",
+      "user-management",
+      "api-keys",
+      "integrations",
+      "analytics",
+      "search-results",
+      "filtering-items",
+      "single-item-detail",
+      "bulk-actions",
+      "command-palette",
+      "keyboard-shortcuts-overlay",
+      "empty-state",
+      "data-export"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": "pnpm add @cloudflare/kumo",
+    "package": "@cloudflare/kumo",
+    "docs_url": "https://kumo-ui.com",
+    "repo_url": "https://github.com/cloudflare/kumo",
+    "registry_url": null,
+    "github": {
+      "stars": 3403,
+      "license": "MIT",
+      "last_activity": "2026-08-14"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": 3
+    },
+    "agent_guidance": "Reach for Kumo over shadcn/ui when you are building an infrastructure or admin console rather than a marketing site — it already ships the pieces shadcn makes you assemble: charts (ECharts timeseries, sankey, geo maps), a Flow node/connector diagram, sidebar, command palette, sensitive-input, meter and resource-list blocks, all on the same Base UI primitives so the two genuinely compose. Read the repo's AGENTS.md before writing a line: styling is lint-enforced to semantic tokens only, raw Tailwind colors like `bg-blue-500` and any `dark:` variant will fail CI, and dark mode comes from `light-dark()` on CSS custom properties. Watch the peer deps — echarts 6, @phosphor-icons/react, zod 4 and React 18/19 are all peers you must install yourself, it is ESM-only on Node 24+, and kumo-ui.com returns 403 to fetchers, so enumerate components from the repo tree or `npx @cloudflare/kumo ls` instead of scraping the docs.",
+    "why_it_matters": "A real production design system from a major infrastructure company, MIT-licensed and shipped with a machine-readable knowledge base and an agent skill — that combination is close to unique.",
+    "quality_tier": "S",
+    "notable_for": [
+      "44 components + 39 Base UI primitives, MIT, 3.4k stars",
+      "ECharts timeseries, sankey and geo maps built in",
+      "AGENTS.md knowledge base and a kumo-design agent skill",
+      "lint-enforced semantic tokens, no dark: variants",
+      "Figma plugin with 37 component generators",
+      "FedRAMP theme variant"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "GitHub API repos/cloudflare/kumo (3403 stars, MIT, pushed 2026-08-14), repo trees for packages/kumo/src/{components,blocks,primitives,styles,registry} and packages/kumo/ai, packages/kumo/package.json (v2.10.0, peers, bin), root AGENTS.md, https://raw.githubusercontent.com/cloudflare/kumo/main/README.md; https://kumo-ui.com/docs returned 403"
+  }
+]

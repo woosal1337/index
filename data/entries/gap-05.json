@@ -1,0 +1,649 @@
+[
+  {
+    "id": "depo:j570zmn11mrjamzfv11wzqv2dx86ppt7",
+    "slug": "its-hover",
+    "url": "https://www.itshover.com/",
+    "name": "Its Hover",
+    "tagline": "263 animated React icons installed one at a time via the shadcn CLI",
+    "description": "Its Hover is an open-source animated icon library for React, built on Motion (framer-motion) and shipped as a shadcn registry. Each icon is a self-contained component with a hover/tap animation, installed individually with the shadcn CLI so you only pull in what you use. The catalogue covers UI essentials, arrows, letters A-Z, brand and AI-vendor logos, crypto and currency marks, and status indicators. It is aimed at Next.js and shadcn/ui projects that want motion on icons without hand-writing keyframes.",
+    "category": "icons-logos",
+    "subcategory": "animated-icons",
+    "kinds": [
+      "icon-set",
+      "registry",
+      "animation-library"
+    ],
+    "facets": {
+      "framework": [
+        "react",
+        "next"
+      ],
+      "styling": [
+        "tailwind-any"
+      ],
+      "license": [
+        "apache-2.0"
+      ],
+      "pricing": [
+        "free",
+        "open-source",
+        "sponsor-supported"
+      ],
+      "distribution": [
+        "shadcn-registry",
+        "cli",
+        "copy-paste",
+        "github-repo"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "code",
+        "icons"
+      ],
+      "agent_readiness": [
+        "registry-json",
+        "cli-installable",
+        "copy-paste-ready",
+        "open-source-code"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "icon",
+      "animation",
+      "hover-effect"
+    ],
+    "component_count": 263,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": "npx shadcn@latest add https://itshover.com/r/<icon-name>-icon.json",
+    "package": null,
+    "docs_url": "https://www.itshover.com/icons",
+    "repo_url": "https://github.com/itshover/itshover",
+    "registry_url": "https://www.itshover.com/r/registry.json",
+    "github": {
+      "stars": 2600,
+      "license": "Apache-2.0",
+      "last_activity": null
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": 263,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Reach for this instead of Lucide when an icon needs to animate on hover or state change and you do not want to own the Motion code — every item is one shadcn add away and depends only on `motion`, so it drops into an existing shadcn/ui project with no config. Install icons individually; there is no barrel package, so do not try `npm i itshover`. It ships no reduced-motion or ARIA story, so wrap the animation in a `prefers-reduced-motion` guard and add your own `aria-hidden`/label yourself.",
+    "why_it_matters": "It is the rare animated-icon set that is both large (263 registry items) and distributed the way agents actually install things — a public registry.json plus per-icon shadcn URLs.",
+    "quality_tier": "A",
+    "notable_for": [
+      "263-item shadcn registry",
+      "Motion-based hover animations",
+      "A-Z letter icons",
+      "AI vendor and crypto logos",
+      "Apache-2.0"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://www.itshover.com/ , https://www.itshover.com/icons , https://www.itshover.com/r/registry.json (parsed, 263 items of type registry:ui), https://github.com/itshover/itshover",
+    "source": "depo"
+  },
+  {
+    "id": "depo:j577a0q9f57yvzjww57we8rhp9867qn3",
+    "slug": "openreel-video",
+    "url": "https://openreel.video/",
+    "name": "OpenReel Video",
+    "tagline": "MIT browser video editor on WebCodecs and WebGPU, nothing uploaded",
+    "description": "OpenReel Video is an open-source, fully client-side video editor that runs in the browser using WebCodecs for hardware decode/encode and WebGPU for compositing. It offers a multi-track timeline, keyframe animation, colour grading with LUTs, audio mixing and effects, transitions, screen recording, text animations, and export to MP4, WebM, and ProRes up to 4K. Media never leaves the machine, so it also works offline. It is positioned as an open CapCut alternative for people who need edits done without an account or an upload.",
+    "category": "generative-media-tools",
+    "subcategory": "video-and-render",
+    "kinds": [
+      "app",
+      "tool"
+    ],
+    "facets": {
+      "framework": [
+        "react"
+      ],
+      "styling": [
+        "tailwind-any"
+      ],
+      "license": [
+        "mit"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "web-app",
+        "github-repo"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "video",
+        "code"
+      ],
+      "agent_readiness": [
+        "open-source-code",
+        "js-only-shell"
+      ],
+      "maturity": "beta"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": "git clone https://github.com/Augani/openreel-video.git && cd openreel-video && pnpm install && pnpm dev",
+    "package": null,
+    "docs_url": null,
+    "repo_url": "https://github.com/Augani/openreel-video",
+    "registry_url": null,
+    "github": {
+      "stars": 4800,
+      "license": "MIT",
+      "last_activity": null
+    },
+    "pricing_detail": "Free, no account, no watermark",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Point a user here when they need a quick trim, caption pass, or screen-recording edit and cannot install desktop software or hand footage to a cloud service — the privacy story is the differentiator over CapCut or Clipchamp, not the feature depth. As a codebase it is a working reference for WebCodecs plus WebGPU compositing in React, which is worth reading before you build any in-browser media pipeline. Do not treat it as a stable dependency: it is beta, single-maintainer, and much of it is AI-assisted, so pin a commit if you vendor anything.",
+    "why_it_matters": "A credible demonstration that a 4K multi-track NLE now fits entirely in the browser tab with no server, which resets what a web app is allowed to attempt.",
+    "quality_tier": "B",
+    "notable_for": [
+      "100% client-side, no upload",
+      "WebCodecs + WebGPU pipeline",
+      "MP4/WebM/ProRes up to 4K",
+      "MIT licensed",
+      "~4.8k GitHub stars"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://openreel.video/ (returns 200 but is a client-rendered shell — WebFetch could read only the title), https://openreel.video/editor (same), https://github.com/Augani/openreel-video (stars, MIT licence, stack and feature list read here), web search corroboration",
+    "source": "depo"
+  },
+  {
+    "id": "depo:j578s9jhbdpzv66jjw1e7rjbhs85yxwb",
+    "slug": "web-kits-audio",
+    "url": "https://audio.raphaelsalaja.com/",
+    "name": "@web-kits/audio",
+    "tagline": "Declarative Web Audio synthesis: define a sound as an object, play it",
+    "description": "@web-kits/audio is a ~11 kB tree-shakeable TypeScript library that turns Web Audio synthesis into plain object literals — you call defineSound() with sources, filters, envelopes, modulation, layers, effects, and spatial settings, then trigger it with one function. It ships first-class React integration (a provider plus useSound, usePatch, useSequence, useAnalyser, useListener), an offline render path to AudioBuffer or WAV, and a CLI for browsing and installing community sound patches. A curated preset library covers ten aesthetics: core, minimal, soft, crisp, playful, organic, retro, mechanical, drums, and synths. It is for developers adding UI sound design or generative audio without learning the raw Web Audio graph.",
+    "category": "motion-interaction",
+    "subcategory": "micro-interactions-and-loaders",
+    "kinds": [
+      "animation-library",
+      "tool"
+    ],
+    "facets": {
+      "framework": [
+        "react",
+        "vanilla"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "mit"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "npm-package",
+        "cli",
+        "github-repo"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "code",
+        "audio"
+      ],
+      "agent_readiness": [
+        "open-source-code",
+        "cli-installable",
+        "llms-txt",
+        "agent-skill",
+        "structured-docs"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": "npm install @web-kits/audio",
+    "package": "@web-kits/audio",
+    "docs_url": "https://audio.raphaelsalaja.com/",
+    "repo_url": "https://github.com/raphaelsalaja/audio",
+    "registry_url": null,
+    "github": {
+      "stars": 514,
+      "license": "MIT",
+      "last_activity": null
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Use this over Howler or a bag of MP3s when the sounds are UI feedback — clicks, toggles, sends, errors — because synthesised patches cost no network bytes, scale in pitch and length by parameter, and never desync from state. Start from the preset library (core/minimal/crisp for product UI) rather than hand-tuning oscillators, and read /resources/llms and /resources/skill first: the author publishes an llms.txt and an agent skill, so you can load the whole API contract instead of guessing. Remember browser autoplay policy — audio needs a user gesture, so call ensureReady() on first interaction or your first sound silently fails.",
+    "why_it_matters": "It makes sound a design token rather than an asset pipeline, and it is one of the few small libraries that ships an agent skill and llms.txt as first-class docs.",
+    "quality_tier": "A",
+    "notable_for": [
+      "defineSound() object API",
+      "React hooks incl. useAnalyser",
+      "10-category preset library",
+      "offline render to WAV",
+      "publishes llms.txt and an agent skill"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://audio.raphaelsalaja.com/ , https://audio.raphaelsalaja.com/sitemap.xml (full route list — API, concepts, integrations, library, resources/llms, resources/skill), https://audio.raphaelsalaja.com/library , https://github.com/raphaelsalaja/audio (stars, MIT, npm name, CLI)",
+    "source": "depo"
+  },
+  {
+    "id": "depo:j574zctwk3850p8nwyzp6y01sd85wqkj",
+    "slug": "ultramock",
+    "url": "https://www.ultramock.io/",
+    "name": "Ultramock",
+    "tagline": "Browser mockup generator for device frames, 3D scenes, and video",
+    "description": "Ultramock is a browser-based mockup generator that wraps product screenshots in device and browser frames and renders them as static visuals, 3D scenes, or short videos. Its own page metadata advertises iPhone, iPad, MacBook, and browser frames, and describes the output as premium, highly customisable visuals for UI designs, websites, and apps, offered free. Verification stopped there: the site is a client-rendered Next.js app with no server-rendered copy, no sitemap, and no pricing route, so the feature set, export formats, and any account requirement could not be confirmed first-hand.",
+    "category": "textures-assets",
+    "subcategory": "mockups-and-asset-packs",
+    "kinds": [
+      "mockup-tool",
+      "app"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "web-app"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "images",
+        "video",
+        "3d"
+      ],
+      "agent_readiness": [
+        "js-only-shell"
+      ],
+      "maturity": "unknown"
+    },
+    "components": [
+      "device-frame"
+    ],
+    "component_count": null,
+    "surfaces": [
+      "homepage"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": "Site metadata says free; no pricing page exists to confirm limits",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Hand this to a human for a one-off App Store shot or launch-post hero; do not put it in an automated pipeline, because it is a canvas app with no API, no CLI, and no readable markup for a headless agent. If the task is programmatic device framing, prefer an SVG/PNG frame asset pack or a Puppeteer screenshot plus a CSS frame — you keep it in version control and Ultramock gives you nothing to script against. Treat every claim about its export formats as unverified until someone opens the app.",
+    "why_it_matters": "A free browser mockup tool that also does 3D and video is genuinely useful to a designer, but it is opaque to tooling and is the thinnest verifiable entry in this batch.",
+    "quality_tier": "C",
+    "notable_for": [
+      "iPhone, iPad, MacBook, browser frames",
+      "3D scenes and video output",
+      "no install, runs in browser",
+      "free per site metadata"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://www.ultramock.io/ fetched twice — WebFetch returned only the title; raw curl of the HTML (49 KB) yielded only the <title>, meta description and keywords. /pricing and /app return 404 and there is no sitemap.xml. Nothing beyond the page's own metadata could be verified.",
+    "source": "depo"
+  },
+  {
+    "id": "depo:j57ceb7xxjtfh9js372h86x74d85xtrr",
+    "slug": "refero-styles",
+    "url": "https://styles.refero.design/",
+    "name": "Refero Styles",
+    "tagline": "DESIGN.md files reverse-engineered from real product sites, for agents",
+    "description": "Refero Styles is a browsable library of design systems extracted from real product websites and published in formats a coding agent can consume. Each style page documents the palette, type scale, spacing and radii, elevation, component specs, layout rules, and do/don't guidance, then exports the same system as DESIGN.md, Tailwind v4 config, CSS variables, or design tokens. Around 1,000 style pages are in the sitemap (the site claims 2,000+), grouped by curated collections such as clean SaaS, fintech, devtools, editorial, and dark-mode websites, plus a set of DESIGN.md explainers and prompt guides for Cursor, Claude Code, and v0. It exists so an agent has real design taste on hand before it writes UI.",
+    "category": "agent-design-tooling",
+    "subcategory": "design-md-and-specs",
+    "kinds": [
+      "design-md",
+      "directory",
+      "reference"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "tailwind-v4",
+        "css-variables"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "web-app",
+        "mcp-server",
+        "gallery"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "design-tokens",
+        "prose",
+        "screenshots"
+      ],
+      "agent_readiness": [
+        "mcp-server",
+        "structured-docs",
+        "token-export",
+        "copy-prompt",
+        "machine-index"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [
+      "homepage",
+      "pricing-website",
+      "onboarding-web-app",
+      "settings-web-app"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": "https://styles.refero.design/design-md/what-is-design-md",
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": "Style pages read freely with no paywall or login; the Refero MCP upsell has no price shown on this subdomain",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 1000,
+      "blocks": null
+    },
+    "agent_guidance": "Pull one style page's DESIGN.md into the repo at the start of a UI task instead of prompting 'make it look like Linear' — you get a fixed palette, type scale, and spacing rules the agent can re-read on every later edit, which is what stops drift across sessions. The Tailwind v4 and CSS-variables tabs are the fastest path: paste them straight into the theme layer rather than re-deriving tokens from the prose. These systems are reverse-engineered from named companies, so use them as a reference for structure and proportion, never ship a client's brand as a clone of Duolingo or Mercury.",
+    "why_it_matters": "It turns 'design taste' into a version-controllable file, which is the missing input in almost every agent-built UI.",
+    "quality_tier": "S",
+    "notable_for": [
+      "~1,000 style pages in the sitemap",
+      "DESIGN.md, Tailwind v4, CSS vars, token exports",
+      "curated collections by industry and style",
+      "Refero MCP for Cursor/Claude/Windsurf",
+      "no login to read a style"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://styles.refero.design/ , https://styles.refero.design/sitemap.xml , https://styles.refero.design/sitemaps/styles.xml (1,000 /style/<uuid> URLs), https://styles.refero.design/sitemaps/collections.xml (50 collection pages, listed by name), https://styles.refero.design/style/e549766e-b8b1-48a2-bd72-8cc04e9e4e9d (individual page structure and export tabs), https://styles.refero.design/design-md/what-is-design-md. /styles 404s. Pricing for Refero MCP could not be verified.",
+    "source": "depo"
+  },
+  {
+    "id": "depo:j57b3zft2m88ew3a6cncw4ht2985mg5b",
+    "slug": "shoogle",
+    "url": "https://shoogle.dev/",
+    "name": "Shoogle",
+    "tagline": "Search engine across 277 shadcn registries, with an MCP and CLI namespace",
+    "description": "Shoogle indexes community shadcn registries and makes their blocks, components, and templates searchable in one place. Its directory lists 277 registries (paginated, newest first), and a category index organises what they contain into roughly 130 pages across AI-agent UI, marketing blocks, ecommerce blocks, application UI, code blocks, project management, templates, and effects. The same index is exposed to coding agents through an MCP server and through the shadcn CLI's own search under the @shoogle namespace, so an agent can find a block and install it in one flow. It is aimed at anyone building on shadcn/ui who is tired of not knowing which registry already has the component.",
+    "category": "agent-design-tooling",
+    "subcategory": "mcp-and-registries",
+    "kinds": [
+      "directory",
+      "mcp-server",
+      "registry"
+    ],
+    "facets": {
+      "framework": [
+        "react",
+        "next"
+      ],
+      "styling": [
+        "tailwind-any"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "web-app",
+        "mcp-server",
+        "cli",
+        "shadcn-registry"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "code",
+        "screenshots"
+      ],
+      "agent_readiness": [
+        "mcp-server",
+        "cli-installable",
+        "machine-index",
+        "structured-docs"
+      ],
+      "maturity": "beta"
+    },
+    "components": [
+      "table",
+      "data-grid",
+      "accordion",
+      "alert",
+      "avatar",
+      "avatar-group",
+      "badge",
+      "breadcrumbs",
+      "button",
+      "button-group",
+      "calendar",
+      "card",
+      "checkbox",
+      "combobox",
+      "date-picker",
+      "dialog",
+      "dropdown-menu",
+      "file-upload",
+      "form",
+      "text-input",
+      "otp-input",
+      "pagination",
+      "popover",
+      "progress-bar",
+      "scroll-area",
+      "select",
+      "separator",
+      "sidebar",
+      "slider",
+      "switch",
+      "tabs",
+      "textarea",
+      "tooltip",
+      "empty-state",
+      "chart",
+      "color-picker",
+      "image",
+      "audio-player",
+      "video-player",
+      "carousel",
+      "theme-provider",
+      "gradient-background",
+      "custom-cursor",
+      "text-effect",
+      "scroll-reveal",
+      "hero",
+      "header",
+      "footer",
+      "pricing-table",
+      "stat",
+      "review",
+      "banner",
+      "product-card",
+      "product-listing",
+      "cart",
+      "checkout",
+      "order-summary",
+      "code-block",
+      "diff-view",
+      "file-tree",
+      "json-viewer",
+      "terminal",
+      "heatmap",
+      "gantt-chart",
+      "kanban-board",
+      "list",
+      "timeline",
+      "model-selector",
+      "waveform",
+      "reasoning",
+      "spinner",
+      "conversation",
+      "message",
+      "prompt-input",
+      "suggestion",
+      "tool-call",
+      "sources",
+      "speech-input"
+    ],
+    "component_count": null,
+    "surfaces": [
+      "homepage",
+      "pricing-website",
+      "testimonials",
+      "faq",
+      "about",
+      "contact-us",
+      "blog",
+      "changelog",
+      "login-web-app",
+      "sign-up",
+      "checkout",
+      "cart-website",
+      "order-status",
+      "ai-chat-panel",
+      "kanban-board",
+      "timeline-gantt-view",
+      "analytics",
+      "empty-state"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": "npx shadcn@latest search @shoogle",
+    "package": null,
+    "docs_url": "https://shoogle.dev/mcp",
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": "No price shown; the MCP is described as an alpha offering",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 277,
+      "blocks": null
+    },
+    "agent_guidance": "Query this before you write a shadcn block from scratch — 277 registries is far more than the handful an agent tends to remember, and the search returns the exact `npx shadcn add` URL, so discovery and install are one step. Wire up the MCP (streamable HTTP, `claude mcp add`) or use `npx shadcn@latest search @shoogle` in a shell; the browsable site is client-rendered and poor to scrape, while /directory and /shadcn-components are the only server-rendered pages. Vet what you install: these are third-party community registries with no licence or accessibility guarantee, so read the component source before it lands in a production tree.",
+    "why_it_matters": "It is the closest thing the shadcn ecosystem has to a package search, and it is already wired for agents rather than only for humans.",
+    "quality_tier": "B",
+    "notable_for": [
+      "277 indexed registries",
+      "MCP server plus @shoogle shadcn CLI namespace",
+      "~130 category pages incl. AI-agent UI",
+      "bookmarks and a fresh feed",
+      "alpha stage"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://shoogle.dev/ (client-rendered shell; raw curl gave only nav labels), https://shoogle.dev/directory (277 registries, first 10 named), https://shoogle.dev/shadcn-components (category index, ~130 category pages enumerated by group), https://shoogle.dev/mcp (install methods and CLI command), https://shoogle.dev/sitemap.xml, https://shoogle.dev/robots.txt. /explore, /blocks and /fresh 404. Total block count and registry licences are not published.",
+    "source": "depo"
+  }
+]

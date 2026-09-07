@@ -1,0 +1,203 @@
+[
+  {
+    "id": "855f107d-0b1f-475d-af5e-4d39864d866b",
+    "url": "https://x.com/AmirMushich",
+    "author_handle": "AmirMushich",
+    "author_name": "AmirMušić",
+    "title": "@AmirMushich — profile",
+    "likes": 0,
+    "retweets": 0,
+    "views": 0,
+    "bookmarks": 0,
+    "posted_at": "2011-02-09T20:05:49Z",
+    "kind": "profile",
+    "design_topics": [
+      "brand-design",
+      "ai-design",
+      "advertising",
+      "creative-direction",
+      "prompt-libraries"
+    ],
+    "key_takeaways": [
+      "Profile URL, not a status — no essay body exists at this address.",
+      "Author positions as ex-Warner Music / PepsiCo / Spotify brand and ad designer with 10+ years.",
+      "Account's stated niche is fusing traditional brand & ad craft with AI image generation.",
+      "74.8k followers; the account is the hub that the other Amir article rows in this batch link back to.",
+      "Contact for collaborations is published directly in the bio."
+    ],
+    "fetch_ok": true
+  },
+  {
+    "id": "23afd6b2-370f-4807-b215-1fb758421737",
+    "url": "https://t.co/nlzJuKwBSM",
+    "author_handle": "AmirMushich",
+    "author_name": "AmirMušić",
+    "title": "12 prompts for boiling animation (frame by frame)",
+    "likes": 0,
+    "retweets": 0,
+    "views": 0,
+    "bookmarks": 0,
+    "posted_at": "2025-12-17T00:00:00Z",
+    "kind": "tool-announcement",
+    "design_topics": [
+      "boiling-animation",
+      "frame-by-frame-animation",
+      "typography",
+      "prompt-engineering",
+      "flux-2-max",
+      "nano-banana-pro",
+      "ltx-studio",
+      "film-grain-texture"
+    ],
+    "key_takeaways": [
+      "'Boiling' animation is faked by generating 12 near-identical stills of the same word and cutting between them on a timeline — the tiny inconsistencies between generations become the wobble.",
+      "Every prompt holds the base constant (word 'Flux', Manrope Regular, tight kerning, pure white RGB 255,255,255 background, monochrome dust and fine film grain) and varies only the hand-drawn overlay.",
+      "The 12 variations are a deliberate mark-making ladder: clean, graphite underline, ballpoint oval, ink asterisks, red felt-tip strikethrough, broad marker double-underline, pencil scribble-out, red arrow squiggle, square brackets, wavy centerline, signature squiggle, stray ink dots.",
+      "Specifying the exact instrument (thin graphite pencil, fine black ballpoint, translucent red felt-tip, broad permanent marker) is what produces believable analog texture instead of a generic 'hand-drawn' filter.",
+      "The word 'imperfect' is stated explicitly in the prompts — perfection is what breaks the effect.",
+      "Workflow: copy prompt, generate in Flux.2 Max or Nano Banana Pro, drop frames sequentially on an LTX or NLE timeline, cut short, add SFX.",
+      "This is a lead-magnet freebie doc gating on a follow, with an LTX Studio referral link on every prompt."
+    ],
+    "fetch_ok": true
+  },
+  {
+    "id": "6115617d-83ee-4eee-bfec-ba575327a751",
+    "url": "http://x.com/i/article/2071885335663988736",
+    "author_handle": "aydaoz",
+    "author_name": "Ayda Oz",
+    "title": "How to Build an MCP-Ready Design System",
+    "likes": 198,
+    "retweets": 10,
+    "views": 42000,
+    "bookmarks": 0,
+    "posted_at": "2026-06-30T00:00:00Z",
+    "kind": "essay",
+    "design_topics": [
+      "design-systems",
+      "design-tokens",
+      "mcp",
+      "figma",
+      "ai-coding-agents",
+      "semantic-token-naming",
+      "claude-code",
+      "design-engineering"
+    ],
+    "key_takeaways": [
+      "The reason AI coding agents butcher a UI over MCP is not the MCP server — it is that the design system was authored for human readers, so access is granted without understanding.",
+      "Failure mode is specific and recognizable: the agent hallucinates custom CSS, introduces conflicting button variants, and ignores layout tokens.",
+      "Invert the traditional order: do NOT build tokens and variables before designing screens. Build raw Figma components with clean props and no variables first.",
+      "Design 2-3 high-fidelity, complex screens of the real product first, so the organic design patterns actually exist before you try to name them.",
+      "Connect the Figma file over MCP and have the model analyze the finished layouts to extract the token naming convention and scale — the prompt given is to analyze colors, spacing, shadows, borders, and typography across the screens.",
+      "The claimed advantage is that the model reads the mathematical relationships already present in real layouts faster than a human can, so the token architecture is derived from product reality rather than guessed in a vacuum.",
+      "Author concedes up front that nobody — designers or engineers — yet knows definitively which design-system format LLMs parse best."
+    ],
+    "fetch_ok": true
+  },
+  {
+    "id": "602cb40b-541d-41cf-a093-01d525420fe9",
+    "url": "http://x.com/i/article/2018619454465142784",
+    "author_handle": "AmirMushich",
+    "author_name": "AmirMušić",
+    "title": "50 design prompts from ex-Warner designer (Nano Banana Pro)",
+    "likes": 6500,
+    "retweets": 835,
+    "views": 1900000,
+    "bookmarks": 0,
+    "posted_at": "2026-02-04T00:00:00Z",
+    "kind": "essay",
+    "design_topics": [
+      "prompt-libraries",
+      "nano-banana-pro",
+      "brand-identity",
+      "packaging-mockups",
+      "poster-design",
+      "custom-typography",
+      "icon-design",
+      "apparel-design",
+      "3d-logo-rendering",
+      "swiss-design"
+    ],
+    "key_takeaways": [
+      "The article is an index, not a tutorial: 50 previously-posted prompts sorted into 8 categories (branded products, brand identity systems, 3D objects, posters & illustrations, icons, mockups, apparel & fashion, typography), each linking back to the original post that holds the full prompt.",
+      "The core reusable pattern across every prompt is a single bracketed variable — swap [BRAND NAME] or [CHARACTER NAME] and regenerate; the prompt itself carries the art direction.",
+      "The most advanced prompts are agentic rather than descriptive: they instruct the model to infer the brand's real colors, typography, and cultural positioning from training data, and even to pick a plausible collaboration partner on its own (#35 cross-brand sneaker collab, #40 outerwear).",
+      "Prompts are written in the voice of a role plus a deliverable ('Act as a graphic design creative director constructing a Campaign Visual Identity Grid'), not as a list of adjectives.",
+      "Post-generation polish is treated as mandatory, with a named toolchain: upscale via Magnific.ai / LetsEnhance.io / Topaz Gigapixel AI, cut background via remove.bg, then final layout, text and spacing in Figma or Photoshop before export.",
+      "Structural prompt sections are capitalized and delimited (COMPOSITION, CONTENT SCOPE, PHASE) so the model treats them as separate constraints rather than prose.",
+      "Distribution strategy is visible in the numbers: the catalog article aggregates link equity from ~50 individual posts and drives to a single gated product page."
+    ],
+    "fetch_ok": true
+  },
+  {
+    "id": "b354c415-08fb-4f9a-bdc3-9f6f0f7a19e4",
+    "url": "http://x.com/i/article/2051639156384608259",
+    "author_handle": "AmirMushich",
+    "author_name": "AmirMušić",
+    "title": "How I built Gucci x Crocs campaign from 1 image + GPT-v2",
+    "likes": 411,
+    "retweets": 60,
+    "views": 325000,
+    "bookmarks": 0,
+    "posted_at": "2026-05-06T00:00:00Z",
+    "kind": "essay",
+    "design_topics": [
+      "campaign-design",
+      "brand-board",
+      "creative-direction",
+      "key-visuals",
+      "gpt-image-2",
+      "ltx-flows",
+      "moodboarding",
+      "bento-grid-layout",
+      "reference-deconstruction"
+    ],
+    "key_takeaways": [
+      "The central move is 'image-to-engine': never copy a reference image, extract its underlying creative system (core tension, color/material language, typography direction, composition logic, signature visual device, grid) into a brand board, then rebuild a different brand on top of that system.",
+      "Prompt 1 explicitly instructs 'Do NOT copy the reference directly' — the deconstruction step is what makes the output original rather than derivative.",
+      "The 5-prompt sequence is fixed and each stage locks a decision: 1) deconstruct reference into a 4:3 brand board, 2) re-skin the system onto your brand, 3) generate an asset moodboard, 4) write the brief/idea/goals slide, 5) produce the hero key visual.",
+      "Layout guardrails are written into the prompt rather than fixed later: no overlapping text on active backgrounds, clean margins, consistent spacing, clear modular grid, minimal micro-copy, no overcrowding.",
+      "A concrete refinement lever: 'make 30% less images, but make them tighter and looking more like a bento grid' — asking for fewer, denser tiles beats asking for better ones.",
+      "Known failure mode of GPT image 2 called out directly: it overlays text on models' faces, which requires a separate patch prompt.",
+      "Locking the vision in a brief slide (brief + idea + goals) is treated as an input to the AI as much as a client deliverable — it re-grounds later generations.",
+      "Key visual prompts should name the publication-level bar ('deserves to be on the first page of Forbes or Esquire') instead of listing style adjectives.",
+      "Author's stated prerequisite: learn traditional creative-direction and marketing frameworks first, because AI amplifies that judgment rather than replacing it."
+    ],
+    "fetch_ok": true
+  },
+  {
+    "id": "6aa4ee8c-890b-4b62-9dcd-f8aa5dee5055",
+    "url": "http://x.com/i/article/2042521352742277121",
+    "author_handle": "scott_bair",
+    "author_name": "Scott Bair",
+    "title": "How to Name Your Company: The Complete Playbook",
+    "likes": 1100,
+    "retweets": 99,
+    "views": 237000,
+    "bookmarks": 0,
+    "posted_at": "2026-04-10T00:00:00Z",
+    "kind": "essay",
+    "design_topics": [
+      "brand-naming",
+      "brand-strategy",
+      "verbal-identity",
+      "sound-symbolism",
+      "rebranding",
+      "naming-process",
+      "trademark-and-domains",
+      "ai-assisted-naming"
+    ],
+    "key_takeaways": [
+      "Aim for the 'tension zone' (half the team loves it, half hates it) over the 'invisible zone' (everyone says 'that's fine') — Andy Grove approved Pentium precisely because it was polarizing, which means it has energy.",
+      "Never name after what the product does; climb the benefit ladder feature → functional → emotional → ultimate, and name from the top rung (a PM tool's ultimate benefit is 'clarity', not 'project management').",
+      "The first and most important decision is what you are NOT: map 20 competitors, identify the dominant naming patterns in the category, and rule them off-limits.",
+      "Generate far more candidates than feels reasonable — target 300+ minimum (agencies run 2,000+); most founders fail by picking the least offensive of 50.",
+      "Sound carries meaning: hard consonants (K, T, P) read strong and precise, soft sounds (L, M, S) read smooth; V is the most daring letter — Vercel was built from versatile + accelerate + excel to replace the unspellable Zeit.",
+      "Test by asking 10-15 people one-on-one 'what does this make you feel?' — never 'do you like it?' — and avoid focus groups, which optimize for consensus and push you into invisibility.",
+      "Score finalists on distinctiveness, processing fluency, emotional resonance, energy and longevity, but pick the 9-10 on distinctiveness and energy over the balanced all-7s: remarkable beats balanced.",
+      "Renaming pre-Series B is cheap and generates PR energy; the claim is no marketplace evidence exists for losing 'name equity', and the real risk is a decade of daily friction.",
+      "AI has shifted the advantage from generation to judgment — it produces 200-300 candidates in minutes but cannot sense energy or tension, and first-pass output is bland without the earlier strategy phases.",
+      "Practical constraints: 1-3 syllables (2 ideal), invented words must obey the target language's phonetic rules, and .com matters less than a decade ago but still matters in B2B."
+    ],
+    "fetch_ok": true
+  }
+]

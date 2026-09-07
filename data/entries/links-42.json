@@ -1,0 +1,562 @@
+[
+  {
+    "id": "2c55fd2b-4faa-470a-a6ce-93f68d48b90e",
+    "slug": "paper-design",
+    "url": "https://paper.design",
+    "name": "Paper",
+    "tagline": "Design canvas that exports HTML/CSS and connects to coding agents over MCP",
+    "description": "Paper is a browser and desktop design canvas built on web standards, so what you draw is real HTML and CSS rather than a vector approximation. It ships a Model Context Protocol server, which lets Cursor, VS Code, Zed and Claude read the canvas, sync design tokens, styles and components against a codebase, and take over repetitive work such as responsive variants. It also pulls live content from databases, APIs and tools like Notion or GitHub instead of lorem ipsum. Aimed at product teams who want one surface shared by designers, engineers and agents.",
+    "category": "agent-design-tooling",
+    "subcategory": "ai-design-apps",
+    "kinds": [
+      "ai-tool",
+      "mcp-server",
+      "app"
+    ],
+    "facets": {
+      "framework": [
+        "vanilla"
+      ],
+      "styling": [
+        "vanilla-css",
+        "css-variables"
+      ],
+      "license": [
+        "proprietary"
+      ],
+      "pricing": [
+        "freemium",
+        "subscription",
+        "account-required"
+      ],
+      "distribution": [
+        "web-app",
+        "desktop-app",
+        "mcp-server",
+        "saas"
+      ],
+      "platform": [
+        "web",
+        "desktop",
+        "macos"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "code",
+        "design-tokens",
+        "images"
+      ],
+      "agent_readiness": [
+        "mcp-server",
+        "structured-docs"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": "Free: $0, unlimited viewers and editors, 100 MCP tool calls/week, 25 MB max image. Pro: $20 per editor/month, or $16 with yearly billing; 1M MCP tool calls/week, video export, 100 MB max image. Organizations: custom, adds SAML/SSO and admin controls. Viewer seats are always free.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Reach for Paper when the human wants to keep designing while you keep coding — its MCP server is the handoff, so ask for the canvas tokens and component structure instead of eyeballing a screenshot or a Figma export. It is the right pick when the target is plain HTML/CSS or a token file you can feed into Tailwind or CSS variables; it is the wrong pick when the team's source of truth is already a React component library, because Paper describes layout, not your JSX. Watch the free tier's 100 MCP calls per week — a chatty enumeration loop burns it in one session.",
+    "why_it_matters": "It is the clearest example so far of a design tool built for an agent to read and write, not just for a human to click, which makes it the natural bridge between a design file and a codebase.",
+    "quality_tier": "S",
+    "notable_for": [
+      "MCP server for IDEs and agents",
+      "HTML/CSS canvas, not vectors",
+      "design token sync with a codebase",
+      "live data instead of placeholder content",
+      "$34M Series A, Accel and ICONIQ"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://paper.design, https://paper.design/pricing"
+  },
+  {
+    "id": "dd9256db-9e56-43e5-9241-81ef4a191d98",
+    "slug": "remove-bg",
+    "url": "https://remove.bg",
+    "name": "remove.bg",
+    "tagline": "Automatic background removal with a REST API, desktop app and Photoshop extension",
+    "description": "remove.bg cuts the subject out of a photo and returns a transparent PNG or a flat white backdrop, with no manual masking. Beyond the web uploader it ships a documented REST API (POST /v1.0/removebg), a Windows/macOS/Linux desktop app for batch runs, an Android app, and a Photoshop extension, plus a Magic Brush for fixing edges and a video background removal mode. It is aimed at e-commerce catalogs, headshots and any pipeline that needs cutouts at volume.",
+    "category": "generative-media-tools",
+    "subcategory": "cleanup-and-upscale",
+    "kinds": [
+      "ai-tool",
+      "service",
+      "app"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "proprietary",
+        "commercial"
+      ],
+      "pricing": [
+        "freemium",
+        "subscription",
+        "usage-based",
+        "account-required"
+      ],
+      "distribution": [
+        "web-app",
+        "public-api",
+        "saas",
+        "desktop-app",
+        "mobile-app"
+      ],
+      "platform": [
+        "web",
+        "macos",
+        "windows",
+        "linux",
+        "android",
+        "cross-platform"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "images",
+        "video"
+      ],
+      "agent_readiness": [
+        "public-api",
+        "structured-docs",
+        "auth-required"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": "API: first 50 calls per month free, then credits charged by output resolution; the 50MP size costs 1 credit per image. Throughput is 500 megapixels per minute, so 4MP images run about 125/minute before HTTP 429. Exact web subscription tiers were not readable on the pricing page (JS-gated); a 50% off yearly promo was advertised.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Use this when a build step needs cutouts programmatically — product shots for a store, avatars, or hero images — and call the API rather than scripting the web UI. Output caps differ by format: PNG tops out at 10 megapixels while JPG, WebP and ZIP go to 50, so request ZIP (color + alpha) when you need full-resolution transparency, not PNG. Only Ruby and CLI clients are official; Node, Python and PHP wrappers are community code, so pin versions and handle Retry-After yourself.",
+    "why_it_matters": "It is the default, boringly reliable cutout API — good enough that it is worth naming instead of letting an agent hand-roll a segmentation model.",
+    "quality_tier": "A",
+    "notable_for": [
+      "single-endpoint REST API",
+      "50 free API calls per month",
+      "ZIP output preserves 50MP alpha",
+      "Photoshop extension and desktop batch app",
+      "video background removal"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://www.remove.bg, https://www.remove.bg/api, https://www.remove.bg/pricing (loaded but prices are JS-gated)"
+  },
+  {
+    "id": "d0c93db6-0b41-47c2-aa4d-9c30182e1255",
+    "slug": "kling-ai",
+    "url": "https://klingai.com",
+    "name": "Kling AI",
+    "tagline": "Text- and image-to-video generation with native audio, multi-shot clips and 4K output",
+    "description": "Kling AI is Kuaishou's generative video and image platform. The 3.0 generation runs on a unified \"Omni One\" architecture that handles text-to-video, image-to-video and video editing in one model, with native audio inside the clip, character and prop consistency, and storyboards of up to six connected shots at 3-15 seconds each. It is sold as a credit-based subscription on the web app and is also resold through third-party APIs such as fal.ai. Aimed at motion, ad and storyboard work rather than UI design.",
+    "category": "generative-media-tools",
+    "subcategory": "video-and-render",
+    "kinds": [
+      "ai-tool",
+      "service",
+      "app"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "proprietary",
+        "commercial"
+      ],
+      "pricing": [
+        "freemium",
+        "subscription",
+        "usage-based",
+        "account-required"
+      ],
+      "distribution": [
+        "web-app",
+        "saas",
+        "public-api",
+        "mobile-app"
+      ],
+      "platform": [
+        "web",
+        "ios",
+        "android",
+        "cross-platform"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "video",
+        "images",
+        "audio"
+      ],
+      "agent_readiness": [
+        "bot-blocked",
+        "public-api",
+        "auth-required"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": "Reported (not verified on-site, the domain blocks fetches): free tier about 66 credits/day with 720p watermarked output; Standard about $6.99/month for 660 credits; Pro about $29.99/month for 3,000 credits. Generation costs roughly 6 credits/second at 720p without audio up to 12 credits/second at 1080p with native audio. Third-party API resale via fal.ai around $0.084/sec standard and $0.112/sec pro, audio excluded.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Reach for Kling when a project needs a short cinematic or product clip with sound baked in and the alternative is stitching a silent generation to a separate TTS pass. Do not try to drive klingai.com directly — it answers automated fetches with HTTP 446, so go through a hosted API such as fal.ai where failed jobs cost nothing, and budget per second of output, not per request. Treat it as an asset generator that feeds a page, never as something that produces code or layout.",
+    "why_it_matters": "It is one of the few video models with usable native audio and multi-shot continuity, which is what separates a usable hero clip from a three-second loop.",
+    "quality_tier": "A",
+    "notable_for": [
+      "Omni One unified video architecture",
+      "native audio inside the clip",
+      "up to six connected shots",
+      "4K 60fps output on 3.0",
+      "resold through fal.ai and other APIs"
+    ],
+    "already_enriched": false,
+    "http_status": 446,
+    "verified_at": "2026-08-15",
+    "evidence": "https://klingai.com (HTTP 446, blocked, retried), https://app.klingai.com/global/ (HTTP 446, blocked), web search of kling.ai, invideo.io and eesel.ai coverage for 3.0 features and credit costs"
+  },
+  {
+    "id": "068c22a4-9e4b-4669-8844-23ccf66e2b62",
+    "slug": "magnific",
+    "url": "https://magnific.ai",
+    "name": "Magnific",
+    "tagline": "Creative upscaler, relight and style transfer, now the whole Freepik AI suite",
+    "description": "Magnific started as a creative upscaler that invents plausible detail while enlarging an image, and grew into Relight, Structure, Style Transfer, Mystic (text-to-image) and Fluffy (consistent characters). In April 2026 Freepik folded its entire AI platform under the Magnific name, so magnific.ai now redirects to magnific.com and the same account covers image, video, audio, 3D and design tools plus Spaces, Agents, an MCP endpoint and editor plugins. Credits are shared across every tool. Aimed at designers producing finished art rather than at code output.",
+    "category": "generative-media-tools",
+    "subcategory": "cleanup-and-upscale",
+    "kinds": [
+      "ai-tool",
+      "service",
+      "app"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "proprietary",
+        "commercial"
+      ],
+      "pricing": [
+        "freemium",
+        "subscription",
+        "usage-based",
+        "account-required"
+      ],
+      "distribution": [
+        "web-app",
+        "saas",
+        "public-api",
+        "mcp-server",
+        "marketplace"
+      ],
+      "platform": [
+        "web",
+        "cross-platform"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "images",
+        "video",
+        "audio",
+        "3d"
+      ],
+      "agent_readiness": [
+        "mcp-server",
+        "public-api",
+        "auth-required",
+        "agent-paywalled"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": "Credit subscriptions, billed annually, credits valid one year with no monthly reset. Prices seen on a TRY storefront: Premium 450 TRY/month for 240K credits/year, Premium+ 1,125 TRY/month for 600K credits/year, Pro 7,275 TRY/month for 4M credits/year. USD equivalents reported elsewhere: Premium about $14.50/month annual, Premium+ about $33.75, Pro about $210, Business about $55/seat with a two-seat minimum, plus a custom Enterprise tier. A free tier of roughly 20 images/day is reported.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Reach for the Upscaler when a client-supplied image is too small for a hero and a plain bicubic or Real-ESRGAN pass looks mushy — Magnific hallucinates detail, which is a feature for texture and a liability for faces, logos and legible text, so never send it brand marks or screenshots you need to stay accurate. Relight is the one to use when a product shot has to match a page's lighting instead of being re-shot. The rebrand matters operationally: magnific.ai 301s to magnific.com, both the site and its pricing block plain fetches, and credits are drawn from one shared Freepik pool across every tool.",
+    "why_it_matters": "The creative upscaler is still the reference implementation of detail-inventing enlargement, and the Freepik merge turned it into the single account most design teams already have.",
+    "quality_tier": "A",
+    "notable_for": [
+      "detail-inventing creative upscaler",
+      "Relight with lightmaps or prompts",
+      "Style Transfer with engine modes and flavors",
+      "Mystic text-to-image and Fluffy characters",
+      "Freepik rebrand, shared credit pool, MCP endpoint"
+    ],
+    "already_enriched": false,
+    "http_status": 301,
+    "verified_at": "2026-08-15",
+    "evidence": "https://magnific.ai (301 to www.magnific.com), https://www.magnific.com/ (HTTP 403, blocked), https://magnific.com/pricing (tool list and TRY prices), web search for the Freepik rebrand and USD pricing"
+  },
+  {
+    "id": "5ae6901f-3f90-4678-aac2-b5373c7df18c",
+    "slug": "topaz-photo-ai",
+    "url": "https://www.topazlabs.com/topaz-photo-ai",
+    "name": "Topaz Photo AI",
+    "tagline": "Desktop denoise, sharpen, upscale and face recovery, with a Lightroom and Photoshop plugin",
+    "description": "Topaz Photo AI is a paid desktop application that runs a set of named restoration models over a photograph: Denoise, Sharpen, Upscale, Remove, Adjust Lighting, Balance Color and Recover Faces, plus RAW Denoise, Super Focus, dust and scratch removal, Preserve Text and a Healing Brush. Upscaling picks between the Wonder 2, Wonder 3, Standard MAX and High Fidelity v2/v3 models, with Wonder 1 available through cloud rendering. It runs standalone on Windows and macOS or as a plugin inside Lightroom Classic, Photoshop, Affinity Photo, Capture One and Apple Photos. It is a photographer's tool, not an image generator.",
+    "category": "generative-media-tools",
+    "subcategory": "cleanup-and-upscale",
+    "kinds": [
+      "ai-tool",
+      "app",
+      "tool"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "proprietary",
+        "commercial"
+      ],
+      "pricing": [
+        "subscription",
+        "paid",
+        "free-trial",
+        "account-required"
+      ],
+      "distribution": [
+        "desktop-app",
+        "download",
+        "saas"
+      ],
+      "platform": [
+        "macos",
+        "windows",
+        "desktop"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "images"
+      ],
+      "agent_readiness": [
+        "none"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": "Personal: $39/month on monthly billing, or $199/year which the site frames as $25/month. Pro: $63/month on an annual commitment billed monthly, or $599/year. Also bundled in Topaz Studio at $69/month, $45/month annual, or $399/year.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "This is a human-in-the-loop desktop app with no API or CLI, so do not plan an automated pipeline around it — recommend it to the user for one-off restoration of a hero photo or a scanned asset, then take the exported file. It beats a generic upscaler when the source is a real photograph with sensor noise or soft focus, and it is the wrong tool for illustrations, screenshots or UI mockups, where Preserve Text and Recover Faces have nothing to work with. If a build step needs unattended upscaling, route to a hosted API instead.",
+    "why_it_matters": "It is the long-standing benchmark for photographic restoration quality, and the named per-task models make it predictable in a way generic upscalers are not.",
+    "quality_tier": "A",
+    "notable_for": [
+      "11 named restoration tools",
+      "Wonder 2/3 and High Fidelity upscale models",
+      "plugin for Lightroom, Photoshop, Capture One",
+      "RAW Denoise and Super Focus",
+      "local processing plus cloud render"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://www.topazlabs.com/topaz-photo-ai"
+  },
+  {
+    "id": "55464507-6de1-4c97-9108-16e322351436",
+    "slug": "polar-brand-system",
+    "url": "http://polar.sh/brand",
+    "name": "Polar Brand System",
+    "tagline": "Public brand guidelines: monochrome OKLCH tokens, logo rules, type and voice",
+    "description": "Polar's public brand page documents the identity of its billing platform across seven numbered sections: Brand System, Logo, Color, Typography, Illustration, Voice and Marketing. It publishes the full palette as paired hex and OKLCH values (Night #090909, Ash #141414, Mist #7b7b7b, Snow #d8d8d8, and the single Ether accent #3619CC), names PP Neue Montreal for text and Geist Mono for code and data, and states the logo rules: full white on dark or full black on light, no recoloring or rotation, clear space equal to the icon height, 16px minimum. A ZIP with the logo, wordmark and symbol is downloadable.",
+    "category": "design-systems-brand",
+    "subcategory": "brand-guideline-archives",
+    "kinds": [
+      "brand-guidelines",
+      "design-system-docs",
+      "reference"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "css-variables"
+      ],
+      "license": [
+        "trademark-restricted",
+        "proprietary"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "download"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "design-tokens",
+        "prose",
+        "images"
+      ],
+      "agent_readiness": [
+        "structured-docs",
+        "copy-paste-ready"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": 1,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Use this as a worked example when a user asks for a restrained developer-tool brand: it shows the whole pattern of four greys plus exactly one saturated accent, with roles (Surface, Raised, Secondary, Foreground, Accent) named on the token rather than left to guess. Copy the structure, not the values — the marks and the name are trademarked, so never emit Polar's logo, wordmark or Ether blue into someone else's project. The OKLCH pairs are ready to paste straight into CSS custom properties for a Tailwind v4 theme.",
+    "why_it_matters": "A short, complete, publicly readable brand system with real token values is rarer than it should be, and this one shows how far a monochrome palette plus one accent can carry an identity.",
+    "quality_tier": "A",
+    "notable_for": [
+      "hex and OKLCH values published side by side",
+      "role-named greys: Night, Ash, Mist, Snow",
+      "single Ether accent, #3619CC",
+      "PP Neue Montreal with Geist Mono",
+      "explicit clear-space and 16px minimum rules"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://polar.sh/brand"
+  }
+]

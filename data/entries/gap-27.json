@@ -1,0 +1,456 @@
+[
+ {
+  "id": "depo:j57esstv0ykanxnk8qyrzbqd857t5aw5",
+  "slug": "oklch-color-picker",
+  "url": "https://oklch.com/#81.58050256196584,0.187,190.74037768509325,100",
+  "name": "OKLCH Color Picker",
+  "tagline": "Pick and convert colors in OKLCH with P3 and Rec2020 gamut warnings",
+  "description": "A free web tool by Andrey Sitnik and Roman Shamin at Evil Martians for picking colors in the OKLCH color space and converting between OKLCH, HEX, RGB and HSL. It renders the gamut in 3D, shows whether a color falls inside sRGB, Display P3 or Rec2020, and prints the closest sRGB fallback by chroma when it does not. The whole color state lives in the URL fragment, so an exact color is shareable as a link. It is for anyone writing modern CSS color tokens who needs perceptual lightness that stays honest across hues.",
+  "category": "color",
+  "subcategory": "palette-generators",
+  "kinds": [
+   "color-tool",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "vanilla"
+   ],
+   "styling": [
+    "css-variables"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "web-app",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "contrast-checked"
+   ],
+   "content_type": [
+    "code",
+    "design-tokens"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "copy-paste-ready"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/evilmartians/oklch-picker",
+  "registry_url": null,
+  "github": {
+   "stars": 2000,
+   "license": "MIT",
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Reach for this when you are authoring CSS color tokens and need to prove a chroma value is reachable before shipping it — it names the closest in-gamut sRGB fallback, which hsl() tooling cannot do. It pairs naturally with Tailwind v4, whose default palette is already stored in OKLCH, and with the culori library when you need the same conversion in code. Do not scrape the page: it is a client-side app whose state lives in the URL hash, so compute conversions with culori and use oklch.com only to hand a human a shareable link.",
+  "why_it_matters": "It is the reference implementation people link to when arguing for OKLCH, and the gamut view makes the abstract argument about P3 and perceptual lightness immediately concrete.",
+  "quality_tier": "S",
+  "notable_for": [
+   "closest sRGB fallback by chroma",
+   "3D gamut visualisation",
+   "P3 and Rec2020 support",
+   "color encoded in the URL hash",
+   "MIT, by Evil Martians"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://oklch.com/, https://github.com/evilmartians/oklch-picker, https://raw.githubusercontent.com/evilmartians/oklch-picker/main/README.md, https://raw.githubusercontent.com/evilmartians/oklch-picker/main/LICENSE",
+  "source": "depo"
+ },
+ {
+  "id": "depo:j573aczva32zcjpzje9k9gg4bh7t5rr3",
+  "slug": "blocs",
+  "url": "https://blocsapp.com/",
+  "name": "Blocs",
+  "tagline": "macOS visual web design app that exports code and WordPress themes",
+  "description": "Blocs is a native Mac application for building responsive websites visually, without writing code. The current release is Blocs 6, sold as a one-time purchase in two paid tiers plus a limited free version; the Plus tier adds custom interactions, WordPress theme building, image editing and advanced SEO. It has a developer API for third-party add-ons and a separate marketplace at blocs.store. It suits Mac-based freelancers and small studios who want to own the tool outright instead of renting a hosted site builder.",
+  "category": "utilities-naming",
+  "subcategory": "apps-and-references",
+  "kinds": [
+   "app",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "vanilla"
+   ],
+   "styling": [
+    "vanilla-css"
+   ],
+   "license": [
+    "commercial",
+    "proprietary"
+   ],
+   "pricing": [
+    "one-time",
+    "freemium"
+   ],
+   "distribution": [
+    "desktop-app",
+    "download",
+    "marketplace"
+   ],
+   "platform": [
+    "macos"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "none"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "about",
+   "contact-us",
+   "blog"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Free version (limited). Blocs 6 Standard $112.99 inc tax, one-time, 1 Mac. Blocs 6 Plus $179.99 inc tax, one-time, 2 Macs. No subscription; all v6 updates included. 25% student discount on a first purchase.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "This is a GUI-only desktop app with no CLI, no package and no machine-readable project format, so you cannot drive it — treat it strictly as a human handoff and never propose it as a build step in an automated pipeline. If a user arrives with a site already made in Blocs, work on its exported HTML/CSS directly and accept that your edits will not round-trip back into the app. Recommend it only when someone explicitly wants a one-time-purchase Mac tool and rejects a subscription; for anything you have to maintain in code, a Next or Astro starter beats it outright.",
+  "why_it_matters": "One of the few remaining visual web builders you buy once and run locally, which is why it keeps a loyal Mac following even as hosted builders took the market.",
+  "quality_tier": "B",
+  "notable_for": [
+   "one-time purchase, no subscription",
+   "Mac-native",
+   "WordPress theme export in the Plus tier",
+   "third-party add-on API",
+   "separate blocs.store marketplace"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://blocsapp.com/, https://blocsapp.com/pricing/ (blocs.store failed TLS verification; blocsapp.com/features/ returned 404)",
+  "source": "depo"
+ },
+ {
+  "id": "depo:j5783rfb5aw1m2kydns3jevtmh7t44j2",
+  "slug": "prismic-slice-machine",
+  "url": "https://prismic.io/slice-machine",
+  "name": "Prismic Slice Machine",
+  "tagline": "Local CLI that turns coded slices into a Prismic page builder",
+  "description": "Slice Machine is Prismic's local development tool for content modelling. You build reusable page sections (slices) as real components in your codebase, and Slice Machine publishes their content models to Prismic so marketers can assemble pages in a visual page builder. It has first-party adapters for Next.js, Nuxt and SvelteKit, runs a local slice simulator, and generates typed definitions for @prismicio/client. Prismic's own docs now steer new projects toward the cloud Type Builder instead, so check which one a project already uses.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "tool",
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "next",
+    "nuxt",
+    "sveltekit"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium",
+    "account-required"
+   ],
+   "distribution": [
+    "cli",
+    "npm-package",
+    "saas"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "cli-installable",
+    "structured-docs"
+   ],
+   "maturity": "stable"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "features",
+   "pricing-website",
+   "blog",
+   "blog-post"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "npx @slicemachine/init",
+  "package": "@slicemachine/init",
+  "docs_url": "https://prismic.io/docs/slice-machine",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use this when a Next, Nuxt or SvelteKit marketing site needs pages that non-developers can rearrange, and the team has already chosen Prismic — it is not a general CMS choice, it is the modelling layer for one. Run `npx @slicemachine/init` inside the existing app rather than scaffolding from it, then re-run type generation after every model change or `@prismicio/client` will hand you stale types. Before you add models, confirm whether the project is on Slice Machine or on Prismic's newer cloud Type Builder; mixing the two is the usual source of drift.",
+  "why_it_matters": "It is the clearest example of the code-first page-builder pattern: developers own the component, marketers own the composition, and neither edits the other's layer.",
+  "quality_tier": "B",
+  "notable_for": [
+   "slices are real code components",
+   "local slice simulator",
+   "Next, Nuxt and SvelteKit adapters",
+   "generates TypeScript types",
+   "being superseded by the cloud Type Builder"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://prismic.io/slice-machine, https://prismic.io/docs/slice-machine",
+  "source": "depo"
+ },
+ {
+  "id": "depo:j570r0000rjbfp8ncgnj75v9ks7t5yr2",
+  "slug": "lottiefiles-for-figma",
+  "url": "https://lottiefiles.com/plugins/figma",
+  "name": "LottieFiles for Figma",
+  "tagline": "Figma plugin to import Lottie animations and export frames as dotLottie",
+  "description": "The official LottieFiles plugin for Figma. It imports .lottie and Lottie JSON animations straight onto the canvas from the LottieFiles library, and exports Figma frames, prototype flows and Figma Motion work back out as Lottie and dotLottie files that developers drop into web, iOS and Android builds. It also covers team asset management and interactive dotLottie state machines built from prototype flows. Note: the product page itself is behind a Cloudflare bot challenge, so the feature list here comes from the Figma Community listing and LottieFiles' own documentation rather than a direct read of the page.",
+  "category": "motion-interaction",
+  "subcategory": "animation-engines",
+  "kinds": [
+   "tool",
+   "asset-pack"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "freemium",
+    "account-required"
+   ],
+   "distribution": [
+    "figma-plugin",
+    "web-app",
+    "saas"
+   ],
+   "platform": [
+    "web",
+    "ios",
+    "android",
+    "cross-platform"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "figma",
+    "code"
+   ],
+   "agent_readiness": [
+    "bot-blocked"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "animation"
+  ],
+  "component_count": null,
+  "surfaces": [
+   "onboarding-mobile",
+   "empty-state",
+   "splash-screen"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "This is a designer-side tool, not something you can call — when a task needs a Lottie asset you do not have, ask the human to export one here rather than hand-rolling an animation. On the code side you consume its output with lottie-web, @lottiefiles/dotlottie-web or lottie-react; prefer .lottie over raw JSON because it is compressed and carries multiple animations in one file. Two traps: LottieFiles is Cloudflare-protected so any fetch of the library will fail from an agent, and library animations carry per-asset licences, so never assume a downloaded animation is free for commercial use.",
+  "why_it_matters": "It is the default bridge between Figma and Lottie, which makes it the practical reason motion designers can hand engineers a production animation without After Effects.",
+  "quality_tier": "A",
+  "notable_for": [
+   "Figma frames to Lottie/dotLottie export",
+   "imports .lottie and Lottie JSON",
+   "interactive dotLottie state machines from prototype flows",
+   "official LottieFiles plugin",
+   "page is Cloudflare bot-blocked"
+  ],
+  "already_enriched": false,
+  "http_status": 403,
+  "verified_at": "2026-08-15",
+  "evidence": "https://lottiefiles.com/plugins/figma (403 Cloudflare challenge on two attempts, WebFetch and curl), https://www.figma.com/community/plugin/809860933081065308/lottiefiles-discover-create-export-lottie-animations (403), plus web search of the Figma Community listing and LottieFiles blog coverage",
+  "source": "depo"
+ },
+ {
+  "id": "depo:j57c1h0t8qth3qzzvh4aqvpr8n7t4wcw",
+  "slug": "a11yphant",
+  "url": "https://a11yphant.com/",
+  "name": "a11yphant",
+  "tagline": "Free interactive coding challenges that teach web accessibility basics",
+  "description": "a11yphant teaches the foundations of web accessibility through short in-browser coding challenges and quizzes instead of long documentation. It currently ships 8 challenges — Web Accessibility Intro, A valid HTML document, Headings, Content Elements, Page Regions, Links, Buttons and Buttons vs. Links — totalling roughly 66 levels, all rated Easy except Buttons vs. Links at Medium. It is free and needs no account to start, though signing up saves progress. It began as a master's project at Salzburg University of Applied Sciences and is open source under AGPL-3.0.",
+  "category": "essays-guides-courses",
+  "subcategory": "courses-and-books",
+  "kinds": [
+   "course",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "vanilla"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "agpl"
+   ],
+   "pricing": [
+    "free",
+    "open-source",
+    "sponsor-supported"
+   ],
+   "distribution": [
+    "web-app",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "semantic-html",
+    "claimed-accessible"
+   ],
+   "content_type": [
+    "prose",
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/a11yphant/a11yphant",
+  "registry_url": null,
+  "github": {
+   "stars": 49,
+   "license": "AGPL-3.0",
+   "last_activity": null
+  },
+  "pricing_detail": "Free, no account required to start; optional free account saves progress. Funded through GitHub Sponsors.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 8,
+   "blocks": null
+  },
+  "agent_guidance": "Point a human here when the gap is conceptual — they keep shipping div-buttons or heading levels out of order — because it drills semantics interactively in a way an axe or Lighthouse report never will. It is not a reference: for looking up a specific requirement mid-task, send them to WAI-ARIA Authoring Practices or the WCAG quick reference instead. Scope is deliberately beginner-level HTML semantics, so it will not cover focus management, live regions or complex widget patterns.",
+  "why_it_matters": "Accessibility teaching is mostly walls of specification text; this is one of the few places where the lesson is a failing page you have to fix yourself.",
+  "quality_tier": "A",
+  "notable_for": [
+   "8 challenges, roughly 66 levels",
+   "no account needed to start",
+   "AGPL-3.0 and open source",
+   "born as a university master's project",
+   "in-browser code editor with quizzes"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://a11yphant.com/, https://a11yphant.com/challenges, https://github.com/a11yphant/a11yphant, https://raw.githubusercontent.com/a11yphant/a11yphant/main/LICENSE",
+  "source": "depo"
+ }
+]

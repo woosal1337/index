@@ -1,0 +1,597 @@
+[
+ {
+  "id": "e43d63e9-2784-4ed8-858d-0fdf153c4db8",
+  "slug": "watermelon-ui-x-profile",
+  "url": "https://x.com/watermelonui",
+  "name": "WatermelonUI (X profile)",
+  "tagline": "X account of a UI-system and component project aimed at startup teams",
+  "description": "The X (Twitter) account for WatermelonUI, a project that publishes UI systems and ready-to-ship interface components for startups and product developers. The feed is the announcement channel: new components, previews, and release notes. It is a promotion surface, not the product itself, so there is no code, docs, or install path here. Treat it as a pointer to the real library rather than as a source you can build from.",
+  "category": "artists-creators",
+  "subcategory": "social-profiles",
+  "kinds": [
+   "profile",
+   "component-library"
+  ],
+  "facets": {
+   "framework": [
+    "unknown"
+   ],
+   "styling": [
+    "unknown"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "unknown"
+   ],
+   "platform": [
+    "social",
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "profile",
+    "screenshots"
+   ],
+   "agent_readiness": [
+    "bot-blocked"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Do not fetch x.com — it is bot-blocked and returns a JS shell. This record is a lead, not a resource: if a task needs WatermelonUI components, resolve the project's own domain, docs, or GitHub repo first and index that instead. Nothing here is verified — framework, styling, license, and install path are all unknown, so never assume shadcn/Tailwind compatibility from the name alone.",
+  "why_it_matters": "It is the only public announcement channel for the project, so it is where new component drops surface first — but it is a signpost, not a buildable resource.",
+  "notable_for": [
+   "startup-oriented UI systems",
+   "release announcements",
+   "no code or docs on this URL"
+  ],
+  "already_enriched": true,
+  "http_status": null,
+  "verified_at": "2026-08-15",
+  "evidence": "Not fetched by policy (x.com). Record derived from the supplied title, description, and tags only.",
+  "quality_tier": "C",
+  "tier_reason": "agent_readiness is \"bot-blocked\" with nothing recovered — no code, docs, license, or install path, and the record itself says to resolve the project's real domain instead."
+ },
+ {
+  "id": "d2d1bb19-93cf-4d07-8fa9-0b0b9efbcfc5",
+  "slug": "every",
+  "url": "https://every.to",
+  "name": "Every",
+  "tagline": "Subscription publication and software studio covering AI-native work and building",
+  "description": "Every is a media company and software studio founded in 2020 by Dan Shipper that publishes daily essays, columns, and podcasts about building with AI. Its editorial columns include Every Studio, Dispatches From the Frontiers of AI, Putting AI to Work, The Future of Programming, The New Rules of Writing, and Dan Shipper's Chain of Thought and AI & I. It also ships its own AI products — Spiral, Cora, Sparkle, Monologue, Proof, and Plus One — and writes about the process of building them. The audience is builders, founders, and knowledge workers who want practitioner accounts rather than analyst commentary.",
+  "category": "essays-guides-courses",
+  "subcategory": "ai-workflow-guides",
+  "kinds": [
+   "article",
+   "course",
+   "app"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "subscription",
+    "freemium"
+   ],
+   "distribution": [
+    "article",
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "prose",
+    "audio",
+    "video"
+   ],
+   "agent_readiness": [
+    "agent-paywalled"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Paid subscription (Every All Access, advertised as bundling roughly $9,000 of AI tool credits). No numeric subscription price was shown on the homepage or the about page.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Reach for Every when you need prose about how AI-assisted building actually goes — agent workflows, editorial-grade writing on LLM products, first-person engineering post-mortems — not when you need code, tokens, or components. Many pieces sit behind the paywall, so a fetch may return a truncated teaser; prefer quoting the free portion and cite rather than paraphrasing at length. It pairs with Figma's blog and Anthropic's newsroom as narrative context around a design decision, never as the design source itself.",
+  "why_it_matters": "It is one of the few outlets writing about AI-native product work from inside a team that actually ships the products, which makes it a credible source of workflow judgment rather than tool hype.",
+  "notable_for": [
+   "Chain of Thought and AI & I",
+   "Spiral, Cora, Sparkle, Monologue, Proof, Plus One",
+   "practitioner essays on agent workflows",
+   "Signifier typeface identity by Order"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://every.to, https://every.to/about",
+  "quality_tier": "A",
+  "tier_reason": "Actively maintained original long-form publication with named columns and first-party AI products, but it is agent-paywalled prose rather than a design source you can build from."
+ },
+ {
+  "id": "91095e3e-53d8-45a7-b623-59c2bc67ee84",
+  "slug": "figma-shortcut-blog",
+  "url": "https://www.figma.com/blog",
+  "name": "Figma Shortcut",
+  "tagline": "Figma's editorial blog on design craft, design systems, and product releases",
+  "description": "Shortcut is Figma's blog, mixing craft essays with first-party product announcements. Its sections are Maker Stories, Working Well, Inside Figma, Insights, and Latest, with running topic hubs for News and Design systems. Recent coverage includes Figma Motion, code layers in Figma Design, Figma Weave, the Figma agent with custom tools and skill authoring, Code Connect in MCP, and Config 2026's visual identity. It is the authoritative place to learn what Figma shipped and how its own team thinks about design-to-code.",
+  "category": "essays-guides-courses",
+  "subcategory": "craft-essays",
+  "kinds": [
+   "article"
+  ],
+  "facets": {
+   "framework": [
+    "framer",
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "article"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "prose",
+    "screenshots",
+    "video"
+   ],
+   "agent_readiness": [
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use this as the primary source when a task depends on current Figma capability — Code Connect in MCP, Figma Make, Figma Motion, code layers — because vendor blogs beat third-party summaries that go stale within a release cycle. It is prose, not an API: for anything you must call, jump to Figma's MCP and REST docs instead and use Shortcut only to confirm a feature exists and what it is named. Watch for marketing framing in launch posts; the Maker Stories and Working Well sections carry the more durable craft advice.",
+  "why_it_matters": "Figma sets much of the vocabulary the rest of the industry uses for design-to-code, so its own blog is the earliest reliable signal of where that boundary is moving.",
+  "notable_for": [
+   "Maker Stories, Working Well, Inside Figma, Insights",
+   "Design systems topic hub",
+   "Code Connect in MCP coverage",
+   "Config 2026 identity write-up"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://www.figma.com/blog",
+  "quality_tier": "A",
+  "tier_reason": "Free, actively maintained first-party blog from the vendor that defines design-to-code vocabulary, but it is structured prose with no API or registry behind it."
+ },
+ {
+  "id": "f68710fa-0892-4fe7-9ce2-536162b6bb8e",
+  "slug": "anthropic",
+  "url": "https://www.anthropic.com",
+  "name": "Anthropic",
+  "tagline": "Maker of Claude; indexed here for the Claude Design launch from Anthropic Labs",
+  "description": "Anthropic's corporate site is the index for the Claude product family — Claude, Claude Code, Claude Cowork, Claude Design, Claude Science, Claude Security, Claude in Chrome, Claude for Slack, Claude for Microsoft 365, and Skills — plus its research, policy, and newsroom sections. The reason this URL is in this catalog is Claude Design, an Anthropic Labs product that turns a described intent into designs, interactive prototypes, slides, and one-pagers, then refines them through conversation, inline comments, direct edits, or custom sliders. Given access, it applies a team's existing design system to every project, and can export decks to PPTX or Canva. It is in research preview for Claude Pro, Max, Team, and Enterprise subscribers.",
+  "category": "agent-design-tooling",
+  "subcategory": "ai-design-apps",
+  "kinds": [
+   "ai-tool",
+   "app"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "subscription",
+    "freemium",
+    "usage-based"
+   ],
+   "distribution": [
+    "web-app",
+    "saas",
+    "public-api",
+    "desktop-app"
+   ],
+   "platform": [
+    "web",
+    "macos",
+    "windows",
+    "ios",
+    "android"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "prose",
+    "code",
+    "images"
+   ],
+   "agent_readiness": [
+    "public-api",
+    "structured-docs",
+    "mcp-server"
+   ],
+   "maturity": "beta"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Claude Design is in research preview and included with Claude Pro, Max, Team, and Enterprise plans. No separate price.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Point a human here when the task is visual exploration or a deck — Claude Design is a chat-driven surface a person drives, not something you can call from code, so do not plan a build step around it. If the user already has a design system, tell them to connect it before generating, because the system-aware mode is what makes output usable rather than generic. For anything programmatic, skip this page and go to the Claude API and Agent SDK docs; the marketing homepage carries product names and dates, not parameters.",
+  "why_it_matters": "Claude Design is the clearest signal yet that model vendors are shipping design surfaces directly, which changes what this catalog is competing with and composing against.",
+  "notable_for": [
+   "Claude Design research preview",
+   "design-system-aware generation",
+   "PPTX and Canva export",
+   "Anthropic Labs product line"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://www.anthropic.com; https://www.anthropic.com/news/claude-design returned 404, so Claude Design detail comes from search results pointing at https://www.anthropic.com/news/claude-design-anthropic-labs (page itself not fetched).",
+  "quality_tier": "B",
+  "tier_reason": "The indexed URL is a corporate marketing homepage — agent_guidance says it carries product names and dates, not parameters — and its one design-relevant item, Claude Design, is a human-driven research preview."
+ },
+ {
+  "id": "97793c47-04e0-4f02-ba0a-318630ac1f11",
+  "slug": "mobbin",
+  "url": "https://mobbin.com",
+  "name": "Mobbin",
+  "tagline": "Searchable library of real mobile and web app screens, organized into user flows",
+  "description": "Mobbin is a curated reference library of screenshots captured from shipped mobile and web apps, indexed by app, by screen, by UI element, and by complete user flow. Reported scale is roughly 621,500 screens and 142,200 flows across 1,600+ apps spanning fintech, e-commerce, health, productivity, social, and SaaS. It ships a Figma plugin so screens drop straight into a file, and an official MCP endpoint that exposes the same library to AI agents. The audience is product designers doing pattern research and teams that want to ground a new screen in what has actually shipped.",
+  "category": "inspiration-galleries",
+  "subcategory": "app-screens",
+  "kinds": [
+   "gallery",
+   "directory",
+   "mcp-server"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "subscription",
+    "freemium",
+    "account-required"
+   ],
+   "distribution": [
+    "web-app",
+    "figma-plugin",
+    "mcp-server",
+    "public-api"
+   ],
+   "platform": [
+    "web",
+    "ios",
+    "android"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "screenshots",
+    "images"
+   ],
+   "agent_readiness": [
+    "mcp-server",
+    "auth-required",
+    "agent-paywalled",
+    "bot-blocked"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "onboarding-mobile",
+   "onboarding-web-app",
+   "sign-up",
+   "login-mobile",
+   "login-web-app",
+   "paywall",
+   "pricing-website",
+   "settings-mobile",
+   "settings-web-app",
+   "account-mobile",
+   "search-mobile",
+   "search-results",
+   "filtering-items",
+   "single-item-detail",
+   "feed",
+   "checkout",
+   "adding-to-cart",
+   "cart-mobile",
+   "notifications",
+   "chat-mobile",
+   "empty-state",
+   "homepage",
+   "public-profile"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Free tier with limited browsing; Pro reported at about €10/month billed yearly. Team and Enterprise tiers exist. Exact current prices not verified — the pricing page is bot-blocked.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 621500,
+   "blocks": null
+  },
+  "agent_guidance": "Reach for Mobbin over a general image search when you need to see how a specific flow is really built — password reset, paywall, onboarding — because it is indexed by flow, not by aesthetic. Do not try to WebFetch mobbin.com: it returns 403 to agents, so use the official MCP endpoint (reported as https://api.mobbin.com/mcp) with the user's paid credentials, or ask the user to paste screens. Output is images only, so it informs layout and IA decisions but gives you nothing to copy into code — pair it with a shadcn registry or component library for the actual implementation.",
+  "why_it_matters": "It is the deepest and best-organized corpus of shipped app UI anywhere, and it is one of the very few design references with a first-party MCP server, which makes it directly usable by agents rather than only by humans.",
+  "notable_for": [
+   "~621,500 screens and ~142,200 flows",
+   "official MCP server for agents",
+   "Figma plugin for dropping screens into a file",
+   "flow-level rather than screen-level indexing"
+  ],
+  "already_enriched": false,
+  "http_status": 403,
+  "verified_at": "2026-08-15",
+  "evidence": "https://mobbin.com returned 403; https://mobbin.com/browse/ios/apps returned 403. Counts, MCP endpoint, and pricing come from web search results (chatforest.com, a2a-mcp.org, joinsecret.com, vendr.com) plus the supplied description. Surface list is inferred from Mobbin's known flow taxonomy, not read from the site.",
+  "quality_tier": "S",
+  "tier_reason": "~621,500 screens and ~142,200 flows with a first-party MCP server and a Figma plugin — the deepest flow-indexed UI corpus and one of the few directly callable by agents."
+ },
+ {
+  "id": "f3690a25-4574-44b3-97e0-f59ef3660165",
+  "slug": "page-flows",
+  "url": "https://pageflows.com",
+  "name": "Page Flows",
+  "tagline": "Screen recordings of real user flows from shipped iOS, Android, web, and email apps",
+  "description": "Page Flows is a UX research library built around recorded video walkthroughs of real user flows, backed by a catalog of over 79,000 app screenshots drawn from 20,000+ mobile and web products. Flows are filed under Account Management, Content, Onboarding & Tutorials, Social, Transactions and Purchases, and Miscellaneous, with further browse axes for platform (iOS, Android, Web, Email), UI element, and product category. Unlike a static screenshot gallery, it shows motion, transitions, and the order of steps, which is what makes it useful for reasoning about a multi-step flow. It is aimed at designers, product managers, and developers doing pattern research before they draw anything.",
+  "category": "inspiration-galleries",
+  "subcategory": "app-screens",
+  "kinds": [
+   "gallery",
+   "directory"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "subscription",
+    "free-trial",
+    "account-required"
+   ],
+   "distribution": [
+    "web-app"
+   ],
+   "platform": [
+    "web",
+    "ios",
+    "android"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "screenshots",
+    "video",
+    "images"
+   ],
+   "agent_readiness": [
+    "auth-required",
+    "agent-paywalled",
+    "image-only"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "text-input",
+   "button",
+   "card",
+   "sheet",
+   "tabs",
+   "chart",
+   "date-picker",
+   "select",
+   "navigation-menu"
+  ],
+  "component_count": null,
+  "surfaces": [
+   "onboarding-mobile",
+   "sign-up",
+   "login-mobile",
+   "resetting-password",
+   "verifying-account",
+   "deleting-account",
+   "settings-mobile",
+   "account-mobile",
+   "public-profile",
+   "paywall",
+   "billing-mobile",
+   "canceling-subscription",
+   "entering-promo-code",
+   "adding-to-cart",
+   "checkout",
+   "order-status",
+   "search-mobile",
+   "search-results",
+   "filtering-items",
+   "single-item-detail",
+   "feed",
+   "uploading-media",
+   "data-export",
+   "analytics",
+   "comments",
+   "chat-mobile",
+   "invite",
+   "share-and-permissions",
+   "integrations",
+   "contacting-support",
+   "feedback-survey",
+   "legal-privacy"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Quarterly $39 ($13/month); Yearly $99 ($8.25/month, marked Popular, save 15%); Team $199/year for 3 users, scaling to 10 seats. All plans start with a 3-day trial for $2.95.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 79000,
+   "blocks": null
+  },
+  "agent_guidance": "Reach for Page Flows over Mobbin specifically when the question is about sequence and motion — how many steps a signup takes, what happens between tapping Pay and seeing a receipt — because its unit is a video recording, not a still. Its flow taxonomy is unusually precise (Downgrading & Canceling Subscription, Redeeming, Agreeing To Terms), so name the flow exactly when you tell a user what to search. It has no API and no MCP server, and content sits behind a paid login, so you cannot pull from it yourself; ask the user for a recording or a screenshot and reason from that.",
+  "why_it_matters": "Almost every design gallery captures stills; Page Flows captures the transitions between them, which is the part of a flow that is hardest to reconstruct from a screenshot and easiest to get wrong.",
+  "notable_for": [
+   "video recordings of full flows, not stills",
+   "flow taxonomy across 6 groups and 60+ named flows",
+   "iOS, Android, Web, and Email coverage",
+   "79,000+ screenshots from 20,000+ apps",
+   "$2.95 three-day trial"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://pageflows.com, https://pageflows.com/user-flows/, https://pageflows.com/pricing/",
+  "quality_tier": "B",
+  "tier_reason": "A real but narrow paid video-flow library: no API, no MCP, image/video only behind a login, so an agent can never pull from it and it does one thing Mobbin already covers more broadly."
+ }
+]

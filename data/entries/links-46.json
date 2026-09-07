@@ -1,0 +1,534 @@
+[
+ {
+  "id": "3bc1375b-d8ee-4d18-b8ba-2a328693672a",
+  "slug": "three-second-design-clarity-test",
+  "url": "http://x.com/i/article/2044059856307441664",
+  "name": "The 3-Second Clarity Test",
+  "tagline": "Essay on testing whether a product's UI explains itself in three seconds",
+  "description": "An X long-form article arguing that most early-stage product design fails on clarity, not polish. It gives a concrete protocol: show a stranger your homepage or dashboard for three seconds, close the screen, then ask what the product does and who it is for. It follows that with a self-audit question and five named symptoms of design that is already costing conversions. Aimed at founders and solo builders shipping SaaS landing pages and dashboards.",
+  "category": "essays-guides-courses",
+  "subcategory": "craft-essays",
+  "kinds": [
+   "article",
+   "checklist"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "free",
+    "account-required"
+   ],
+   "distribution": [
+    "article"
+   ],
+   "platform": [
+    "web",
+    "social"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "prose"
+   ],
+   "agent_readiness": [
+    "auth-required"
+   ],
+   "maturity": "stable"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "onboarding-web-app",
+   "features"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use this as an evaluation rubric, not a build resource — it ships no code. When a user asks you to critique or rewrite a landing page or dashboard, apply its test: can a cold reader name the product and the audience from the first viewport alone? Pair it with the YC landing page structure breakdown in this index, which supplies the concrete section order this essay only argues for.",
+  "why_it_matters": "It reduces a fuzzy complaint ('the design feels off') into a single falsifiable test that a human or an agent can actually run before a redesign.",
+  "quality_tier": "B",
+  "notable_for": [
+   "3-second comprehension test",
+   "clarity over polish framing",
+   "5 named design failure signs",
+   "founder self-audit prompt"
+  ],
+  "already_enriched": true,
+  "http_status": null,
+  "verified_at": "2026-08-15",
+  "evidence": "Not fetched per instructions (x.com); record built from the pre-retrieved article title and full body text supplied in the batch."
+ },
+ {
+  "id": "24053895-38e2-440e-a182-be38dc6142e5",
+  "slug": "yc-landing-page-structure-breakdown",
+  "url": "http://x.com/i/article/2044257981089624069",
+  "name": "YC Landing Page Structure",
+  "tagline": "Teardown of the shared section order across five YC-backed company landing pages",
+  "description": "An X long-form article that compares the marketing sites of Resend, Chatbase, Artisan, Deel and Vanta and finds a near-identical page skeleton despite very different products. It names each pattern explicitly: a sub-10-word hero headline over a real product screenshot, customer logos or a usage metric inside the first 500 pixels, and one primary CTA repeated in the hero, mid-page and footer with no competing action. Useful as a section-order spec when you are laying out a SaaS homepage from nothing.",
+  "category": "essays-guides-courses",
+  "subcategory": "craft-essays",
+  "kinds": [
+   "article",
+   "reference"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "free",
+    "account-required"
+   ],
+   "distribution": [
+    "article"
+   ],
+   "platform": [
+    "web",
+    "social"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "prose"
+   ],
+   "agent_readiness": [
+    "auth-required"
+   ],
+   "maturity": "stable"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "features",
+   "testimonials",
+   "pricing-website",
+   "sign-up"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Reach for this when a user says 'build me a landing page' and gives no structure — it supplies a defensible default section order you can generate against immediately. Translate its patterns into blocks from a real block collection rather than hand-rolling: hero with screenshot, logo strip, feature sections, repeated single CTA. Watch the failure mode it warns about — do not emit a hero with two equally weighted buttons, and do not substitute an abstract illustration for the actual product UI.",
+  "why_it_matters": "It converts five real, currently shipping YC landing pages into a reusable section order, which is exactly the missing spec when an agent is asked to generate a marketing site.",
+  "quality_tier": "A",
+  "notable_for": [
+   "five real YC pages compared",
+   "hero screenshot rule",
+   "social proof above 500px",
+   "one repeated CTA"
+  ],
+  "already_enriched": true,
+  "http_status": null,
+  "verified_at": "2026-08-15",
+  "evidence": "Not fetched per instructions (x.com); record built from the pre-retrieved article title and full body text supplied in the batch."
+ },
+ {
+  "id": "eddae07b-e2f3-4327-acc4-e5b2ca95237b",
+  "slug": "amir-mushich-prompt-packs",
+  "url": "https://amirmushich.link/products",
+  "name": "Amir Mushich Prompt Packs",
+  "tagline": "Gumroad store with four PDF prompt packs for Midjourney, Veo 3 and Nano Banana Pro",
+  "description": "The Gumroad storefront of Amir Mushich, a creative director who previously designed for Warner Music, PepsiCo and Spotify. It sells four downloadable PDF prompt packs covering cinematic lighting, viral short-form video, aesthetic prompt builders and seamless video loops. Two are pay-what-you-want (free floor) and two are fixed price at $19 and $14. The store averages 4.8 stars across 22 ratings.",
+  "category": "agent-design-tooling",
+  "subcategory": "prompts-and-feedback",
+  "kinds": [
+   "prompt-pack",
+   "marketplace",
+   "profile"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "commercial"
+   ],
+   "pricing": [
+    "paid",
+    "one-time",
+    "free",
+    "account-required"
+   ],
+   "distribution": [
+    "marketplace",
+    "download"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "prompts",
+    "pdf",
+    "images",
+    "video"
+   ],
+   "agent_readiness": [
+    "auth-required",
+    "js-only-shell"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [
+   {
+    "name": "Pro Lighting prompt package (Nano Banana Pro, Midjourney, Seedream, Flux)",
+    "url": "https://amirmushich.gumroad.com/l/light-vol1",
+    "purpose": "$19 PDF of lighting-direction prompts portable across Nano Banana Pro, Midjourney, Seedream and Flux; for controlling cinematic light in still image generation."
+   },
+   {
+    "name": "Veo3 Viral Video Pack: 5 Prompts that got 1.5M+ views",
+    "url": "https://amirmushich.gumroad.com/l/veo3-viral-video-prompt-bundle",
+    "purpose": "Pay-what-you-want (free floor) PDF of five Veo 3 video prompts the author says produced over 1.5M views; for short-form social video. 4.8 stars from 12 ratings."
+   },
+   {
+    "name": "The AI Mega builder: 5 Prompt Builders for Iconic Aesthetics in Midjourney",
+    "url": "https://amirmushich.gumroad.com/l/The-AI-Mega-builder",
+    "purpose": "$14 PDF of five modular prompt builders for reproducing recognisable art-direction aesthetics in Midjourney."
+   },
+   {
+    "name": "\"5 Perfect Loop\" prompts for Midjourney video",
+    "url": "https://amirmushich.gumroad.com/l/5-perfect-loops-for-midjourney-video-by-amir",
+    "purpose": "Pay-what-you-want (free floor) PDF of five prompts that produce seamlessly looping Midjourney video clips. 4.8 stars from 10 ratings."
+   }
+  ],
+  "template_count": 4,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Pro Lighting prompt package $19; The AI Mega builder $14; Veo3 Viral Video Pack and \"5 Perfect Loop\" prompts are pay-what-you-want with a $0 floor.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 4,
+   "blocks": null
+  },
+  "agent_guidance": "This is generative-media prompt craft, not UI code — never cite it when a user needs components or layout. Reach for it when a user wants brand-grade imagery or short-form video and their raw prompts are producing flat, plastic output; the lighting pack is the one that matters, because lighting language is the variable most models respond to and most users omit. Note the packs are PDFs behind a Gumroad checkout, so you cannot read the prompts programmatically — point the user at the two free pay-what-you-want packs first to test fit.",
+  "why_it_matters": "A working creative director's prompt vocabulary, priced at or near zero, is a cheap shortcut past the generic look that untrained image and video prompts produce.",
+  "quality_tier": "B",
+  "notable_for": [
+   "ex-Warner Music / PepsiCo / Spotify creative director",
+   "lighting-specific prompt vocabulary",
+   "two free pay-what-you-want packs",
+   "4.8 average across 22 ratings",
+   "covers Midjourney, Veo 3, Nano Banana Pro, Seedream, Flux"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://amirmushich.link/products (302 to https://amirmushich.gumroad.com/), then https://amirmushich.gumroad.com/ fetched directly and its Inertia data-page JSON parsed for the full product list, prices and ratings."
+ },
+ {
+  "id": "081d8f98-669d-4ebd-9c07-27adb330c418",
+  "slug": "amir-mushich-prompt-short-link",
+  "url": "https://dub.sh/Amir-p1",
+  "name": "Amir Mushich Prompt Link",
+  "tagline": "Dub.sh short link to an Amir Mushich AI prompt resource — destination unverified",
+  "description": "A dub.sh short link saved under the label 'Amir Mushich — AI Prompt Resource'. The link is live but sits behind a Vercel Security Checkpoint that returns HTTP 403 to every non-browser request, so the redirect target could not be resolved and no destination content was read. Given the same author, it most likely points into the Amir Mushich prompt-pack catalogue also in this index, but that is inference, not verified fact.",
+  "category": "agent-design-tooling",
+  "subcategory": "prompts-and-feedback",
+  "kinds": [
+   "prompt-pack"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "unknown"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "prompts"
+   ],
+   "agent_readiness": [
+    "bot-blocked"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Do not cite this to a user — the destination is unverified and the short link cannot be resolved by any automated fetch. If a user needs the underlying material, send them to the Amir Mushich Gumroad store entry in this index instead, where every product is enumerated with a stable URL. Only trust this record again after a human opens the link in a real browser and reports where it lands.",
+  "why_it_matters": "Kept only as a pointer with an honest unresolved flag; a shortener that blocks automated resolution is a liability in an index that agents read.",
+  "quality_tier": "C",
+  "notable_for": [
+   "unresolved redirect",
+   "Vercel Security Checkpoint 403",
+   "same author as the Gumroad prompt packs"
+  ],
+  "already_enriched": false,
+  "http_status": 403,
+  "verified_at": "2026-08-15",
+  "evidence": "https://dub.sh/Amir-p1 attempted three times (WebFetch twice — 429 then 403 — and curl with a browser user agent — HTTP/2 403 returning the Vercel Security Checkpoint interstitial with no Location header). No destination content retrieved."
+ },
+ {
+  "id": "771901dd-5009-4526-9224-4aa2f89a6aaa",
+  "slug": "ai-video-production-system-guide",
+  "url": "http://x.com/i/article/2043077102224740352",
+  "name": "AI Video Production System",
+  "tagline": "Implementation guide for a UGC-style AI video stack, with JSON prompt schemas",
+  "description": "An X long-form article documenting an eight-month build-out of an AI video pipeline for hyper-realistic UGC content. It maps which model to use per shot type, starting with Higgsfield and Nano Banana 2 for character generation, and argues that JSON-structured prompts beat prose prompts because they pin down colour grading, lighting and styling instead of leaving them to the model. It includes a full copy-ready JSON prompt schema with fields for composition, framing, camera height and angle, depth of field, negative space and subject description.",
+  "category": "essays-guides-courses",
+  "subcategory": "ai-workflow-guides",
+  "kinds": [
+   "article",
+   "prompt-pack"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "free",
+    "account-required"
+   ],
+   "distribution": [
+    "article"
+   ],
+   "platform": [
+    "web",
+    "social"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "prose",
+    "prompts",
+    "video"
+   ],
+   "agent_readiness": [
+    "auth-required",
+    "copy-prompt"
+   ],
+   "maturity": "stable"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "The transferable idea here is the JSON prompt schema, not the specific tool list — lift the field structure (composition, framing, camera_height, camera_angle, depth_of_field, negative_space, subject) and reuse it against whatever image or video model the user actually has access to. Reach for it when generated portraits look plastic or the colour grading collapses to four or five muddy tones, which is the exact failure it diagnoses. Treat the named models as dated on arrival: this space turns over every few months, so verify Higgsfield and Nano Banana 2 are still the right picks before recommending them.",
+  "why_it_matters": "Most AI-video content is vibes; this one publishes an actual prompt schema you can paste and adapt, which is the rare part that survives the next model release.",
+  "quality_tier": "B",
+  "notable_for": [
+   "JSON prompt schema over prose prompts",
+   "model-per-shot-type mapping",
+   "diagnoses the plastic-skin failure",
+   "copy-ready portrait prompt structure"
+  ],
+  "already_enriched": true,
+  "http_status": null,
+  "verified_at": "2026-08-15",
+  "evidence": "Not fetched per instructions (x.com); record built from the pre-retrieved article title and full body text supplied in the batch."
+ },
+ {
+  "id": "2170f716-77fb-434e-849e-ab648869f86d",
+  "slug": "claude-seedance-creators-guide",
+  "url": "http://x.com/i/article/2041246194618277888",
+  "name": "Claude + Seedance Creators Guide",
+  "tagline": "Sponsored guide on packaging AI content skills into paid client work",
+  "description": "An X long-form article by Amir Mushich, a creative director with a decade of branding work for Warner Music, PepsiCo and Spotify. It covers producing agency-grade branding assets with Claude and Seedance, finding niches that will pay for that output, and pitching yourself using a 'Claude Creator Consultant' persona. The framing is positioning and pipeline rather than craft, and much of the piece is personal narrative about the author's ten-month path from zero to inbound leads. It is disclosed as sponsored by OpenArt.",
+  "category": "essays-guides-courses",
+  "subcategory": "brand-and-business-playbooks",
+  "kinds": [
+   "article",
+   "prompt-pack"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "free",
+    "account-required"
+   ],
+   "distribution": [
+    "article"
+   ],
+   "platform": [
+    "web",
+    "social"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "prose",
+    "prompts",
+    "images"
+   ],
+   "agent_readiness": [
+    "auth-required"
+   ],
+   "maturity": "stable"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "This is a positioning and client-acquisition playbook, so only surface it when a user asks how to sell AI creative work — never when they need production technique or code. It is a disclosed sponsored post for OpenArt, so treat the tool endorsements as advertising and do not repeat them as neutral recommendations. The one reusable piece is the consultant-persona pattern: a standing system prompt that interrogates the user's niche and rewrites their pitch, which you can rebuild yourself in a few lines rather than following the article's setup.",
+  "why_it_matters": "Included as the business-side counterpart to the craft guides, with the caveat that it is sponsored and heavily anecdotal.",
+  "quality_tier": "C",
+  "notable_for": [
+   "sponsored by OpenArt",
+   "Claude consultant persona pattern",
+   "niche-finding for AI creative services",
+   "author's 10-month timeline"
+  ],
+  "already_enriched": true,
+  "http_status": null,
+  "verified_at": "2026-08-15",
+  "evidence": "Not fetched per instructions (x.com); record built from the pre-retrieved article title and full body text supplied in the batch."
+ }
+]

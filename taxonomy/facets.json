@@ -1,0 +1,2049 @@
+{
+  "version": 1,
+  "notes": {
+    "purpose": "Facets are the filter axes of the index. Categories say what a record is about. Facets say whether you can use it: which stack, which license, which price, which platform, and how much an agent can read without a human.",
+    "combination": "Every facet is filterable together with every other facet (AND across facets, OR inside one multi facet). Depo exposes one tag at a time and cannot answer 'Design + Free + MIT'. This index must answer that.",
+    "closed_vocabulary": "These value lists are closed. A scraper must map an observed string onto a slug through the alias list, or write the record as `unknown` and add the raw string to a review queue. Never create a value at write time. That rule is what stops the Depo drift (`No-code` vs `No Code`, `Guide` vs `Guides`, `E-commerce` vs `Commerce`).",
+    "unknown_is_a_value": "`unknown` means we did not verify it yet. `not-applicable` means the axis does not apply to this kind of record (a font has no framework; an X article has no license). Keep the two apart, because `unknown` is a work queue and `not-applicable` is not.",
+    "alias_matching": "Match aliases case-insensitively after you trim, lowercase, and replace spaces, dots, and underscores with hyphens.",
+    "versioning": "This file is semver-adjacent: add values in a minor bump, rename or remove values only in a major bump, and never re-use a retired slug."
+  },
+  "facets": [
+    {
+      "slug": "framework",
+      "name": "Framework",
+      "multi": true,
+      "description": "The UI framework or runtime the resource produces code for, or runs inside. One record can carry several values when the library really ships adapters for each (Canvas UI ships React, Solid, Preact, Vue, Svelte, and vanilla builds). Do not add a value from a marketing claim alone; add it when there is an install path or a code sample for that framework.",
+      "agent_hint": "This is the hardest constraint an agent has. An agent writing a Next.js App Router page cannot use a Vue library, and a wrong match wastes a whole generation. Filter on framework first, then on style. For a record with `not-applicable` (a gallery, a font, an article), framework must never exclude it from a non-code query.",
+      "values": [
+        {
+          "slug": "react",
+          "name": "React",
+          "aliases": [
+            "reactjs",
+            "react.js",
+            "react-js",
+            "react-19",
+            "react19",
+            "react-18",
+            "react 19",
+            "jsx",
+            "tsx-react"
+          ]
+        },
+        {
+          "slug": "next",
+          "name": "Next.js",
+          "aliases": [
+            "nextjs",
+            "next.js",
+            "next-js",
+            "next-15",
+            "nextjs-15",
+            "app-router",
+            "next-app-router"
+          ]
+        },
+        {
+          "slug": "remix",
+          "name": "Remix",
+          "aliases": [
+            "remix-run",
+            "react-router-7",
+            "react-router-v7"
+          ]
+        },
+        {
+          "slug": "vue",
+          "name": "Vue",
+          "aliases": [
+            "vuejs",
+            "vue.js",
+            "vue-3",
+            "vue3",
+            "composition-api"
+          ]
+        },
+        {
+          "slug": "nuxt",
+          "name": "Nuxt",
+          "aliases": [
+            "nuxtjs",
+            "nuxt.js",
+            "nuxt-3",
+            "nuxt-4"
+          ]
+        },
+        {
+          "slug": "svelte",
+          "name": "Svelte",
+          "aliases": [
+            "sveltejs",
+            "svelte-5",
+            "svelte5",
+            "runes"
+          ]
+        },
+        {
+          "slug": "sveltekit",
+          "name": "SvelteKit",
+          "aliases": [
+            "svelte-kit",
+            "svelte kit"
+          ]
+        },
+        {
+          "slug": "solid",
+          "name": "Solid",
+          "aliases": [
+            "solidjs",
+            "solid.js",
+            "solid-js",
+            "solid-start",
+            "solidstart"
+          ]
+        },
+        {
+          "slug": "preact",
+          "name": "Preact",
+          "aliases": [
+            "preactjs"
+          ]
+        },
+        {
+          "slug": "angular",
+          "name": "Angular",
+          "aliases": [
+            "angularjs",
+            "angular-2",
+            "ng",
+            "angular-17",
+            "angular-19"
+          ]
+        },
+        {
+          "slug": "astro",
+          "name": "Astro",
+          "aliases": [
+            "astrojs",
+            "astro.build",
+            "astro-4",
+            "astro-5"
+          ]
+        },
+        {
+          "slug": "qwik",
+          "name": "Qwik",
+          "aliases": [
+            "qwikjs",
+            "qwik-city",
+            "qwikcity"
+          ]
+        },
+        {
+          "slug": "vanilla",
+          "name": "Vanilla JS",
+          "aliases": [
+            "vanilla-js",
+            "vanillajs",
+            "plain-js",
+            "javascript",
+            "js",
+            "html-css-js",
+            "no-framework",
+            "framework-free",
+            "zero-dependency"
+          ]
+        },
+        {
+          "slug": "web-components",
+          "name": "Web Components",
+          "aliases": [
+            "webcomponents",
+            "custom-elements",
+            "lit",
+            "litelement",
+            "stencil",
+            "shadow-dom"
+          ]
+        },
+        {
+          "slug": "react-native",
+          "name": "React Native",
+          "aliases": [
+            "reactnative",
+            "rn",
+            "expo",
+            "react-native-expo"
+          ]
+        },
+        {
+          "slug": "swiftui",
+          "name": "SwiftUI",
+          "aliases": [
+            "swift-ui",
+            "swift",
+            "uikit",
+            "apple-native"
+          ]
+        },
+        {
+          "slug": "flutter",
+          "name": "Flutter",
+          "aliases": [
+            "dart",
+            "flutter-widgets"
+          ]
+        },
+        {
+          "slug": "kotlin-compose",
+          "name": "Jetpack Compose",
+          "aliases": [
+            "jetpack-compose",
+            "compose",
+            "compose-multiplatform",
+            "kotlin"
+          ]
+        },
+        {
+          "slug": "framer",
+          "name": "Framer",
+          "aliases": [
+            "framer.com",
+            "framer-motion-site",
+            "framer-components",
+            "framer-template",
+            "framer-shaders"
+          ]
+        },
+        {
+          "slug": "webflow",
+          "name": "Webflow",
+          "aliases": [
+            "webflow-cloneable",
+            "webflow-template"
+          ]
+        },
+        {
+          "slug": "go-templ",
+          "name": "Go / templ",
+          "aliases": [
+            "templ",
+            "golang",
+            "go",
+            "shadcn-templ",
+            "html-templ"
+          ]
+        },
+        {
+          "slug": "rust-gpui",
+          "name": "Rust / GPUI",
+          "aliases": [
+            "gpui",
+            "gpui-component",
+            "rust",
+            "zed-gpui"
+          ]
+        },
+        {
+          "slug": "terminal-tui",
+          "name": "Terminal UI",
+          "aliases": [
+            "ink",
+            "opentui",
+            "tui",
+            "cli-ui",
+            "termcn",
+            "ratatui",
+            "blessed"
+          ]
+        },
+        {
+          "slug": "python",
+          "name": "Python",
+          "aliases": [
+            "py",
+            "streamlit",
+            "gradio",
+            "fastapi-ui"
+          ]
+        },
+        {
+          "slug": "not-applicable",
+          "name": "Not applicable",
+          "aliases": [
+            "n/a",
+            "na",
+            "none",
+            "no-code-output",
+            "non-code"
+          ]
+        },
+        {
+          "slug": "unknown",
+          "name": "Unknown",
+          "aliases": [
+            "unspecified",
+            "tbd",
+            "unverified"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "styling",
+      "name": "Styling",
+      "multi": true,
+      "description": "How the resource applies style. Tailwind is split by major version on purpose: v3 uses `tailwind.config.js` and the `theme.extend` object, v4 uses CSS-first `@theme` and `@import \"tailwindcss\"`. A v4 component pasted into a v3 project fails on the token layer, so one 'tailwind' value would be a lie. Use `tailwind-any` only when the version is truly not stated.",
+      "agent_hint": "Tells the agent whether the snippet will compile in the caller's repo and whether it must translate tokens. An agent that already read the project's `globals.css` can pin `tailwind-v4` and reject every v3-only registry item before it wastes a generation. `css-in-js` also flags a runtime dependency that a React Server Component cannot use.",
+      "values": [
+        {
+          "slug": "tailwind-v4",
+          "name": "Tailwind CSS v4",
+          "aliases": [
+            "tailwind-4",
+            "tailwindcss-v4",
+            "tailwind css 4",
+            "tw4",
+            "css-first-theme",
+            "@theme"
+          ]
+        },
+        {
+          "slug": "tailwind-v3",
+          "name": "Tailwind CSS v3",
+          "aliases": [
+            "tailwind-3",
+            "tailwindcss-v3",
+            "tailwind css 3",
+            "tw3",
+            "tailwind-config-js"
+          ]
+        },
+        {
+          "slug": "tailwind-any",
+          "name": "Tailwind CSS (version unstated)",
+          "aliases": [
+            "tailwind",
+            "tailwindcss",
+            "tailwind-css",
+            "utility-first"
+          ]
+        },
+        {
+          "slug": "vanilla-css",
+          "name": "Vanilla CSS",
+          "aliases": [
+            "plain-css",
+            "css",
+            "css3",
+            "pure-css",
+            "css-only",
+            "handwritten-css"
+          ]
+        },
+        {
+          "slug": "css-modules",
+          "name": "CSS Modules",
+          "aliases": [
+            "cssmodules",
+            "module.css",
+            "scoped-css"
+          ]
+        },
+        {
+          "slug": "css-in-js",
+          "name": "CSS-in-JS",
+          "aliases": [
+            "styled-components",
+            "emotion",
+            "stitches",
+            "goober",
+            "linaria",
+            "styled-jsx",
+            "runtime-css"
+          ]
+        },
+        {
+          "slug": "sass",
+          "name": "Sass / SCSS",
+          "aliases": [
+            "scss",
+            "sass-scss",
+            "less",
+            "stylus",
+            "preprocessor"
+          ]
+        },
+        {
+          "slug": "stylex",
+          "name": "StyleX",
+          "aliases": [
+            "style-x",
+            "meta-stylex",
+            "@stylexjs/stylex"
+          ]
+        },
+        {
+          "slug": "panda",
+          "name": "Panda CSS",
+          "aliases": [
+            "pandacss",
+            "panda-css",
+            "@pandacss/dev"
+          ]
+        },
+        {
+          "slug": "unocss",
+          "name": "UnoCSS",
+          "aliases": [
+            "uno-css",
+            "uno",
+            "windicss",
+            "windi"
+          ]
+        },
+        {
+          "slug": "css-variables",
+          "name": "CSS custom properties",
+          "aliases": [
+            "css-vars",
+            "custom-properties",
+            "design-tokens-css",
+            "theme-variables"
+          ]
+        },
+        {
+          "slug": "inline-styles",
+          "name": "Inline styles",
+          "aliases": [
+            "style-attribute",
+            "style-prop",
+            "inline-css"
+          ]
+        },
+        {
+          "slug": "native-styles",
+          "name": "Platform-native styling",
+          "aliases": [
+            "stylesheet-create",
+            "nativewind",
+            "swiftui-modifiers",
+            "compose-modifiers",
+            "xml-styles"
+          ]
+        },
+        {
+          "slug": "shader-glsl",
+          "name": "Shader / GLSL",
+          "aliases": [
+            "glsl",
+            "webgl",
+            "wgsl",
+            "shader",
+            "three-js-material",
+            "canvas-shader"
+          ]
+        },
+        {
+          "slug": "not-applicable",
+          "name": "Not applicable",
+          "aliases": [
+            "n/a",
+            "na",
+            "none",
+            "no-styling"
+          ]
+        },
+        {
+          "slug": "unknown",
+          "name": "Unknown",
+          "aliases": [
+            "unspecified",
+            "tbd",
+            "unverified"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "license",
+      "name": "License",
+      "multi": true,
+      "description": "The legal terms for re-use of the artifact itself: code, font, image, or template. Multi-valued, because dual licensing is normal in this corpus — a free open-source core with a paid commercial tier (ReUI, shadcncraft, HeroUI Pro) carries both `mit` and `commercial`. `no-license` is a real and different answer from `unknown`: a public GitHub repo with no LICENSE file is all-rights-reserved by default, and an agent must not copy it into a product.",
+      "agent_hint": "The first question before code enters a product repo. An agent asked to keep a project MIT-compatible must exclude `gpl`, `agpl`, `no-license`, and `free-for-personal`. Font records need this most: a display face that is free for personal use only will fail a commercial launch, and no other design directory records it at all.",
+      "values": [
+        {
+          "slug": "mit",
+          "name": "MIT",
+          "aliases": [
+            "mit-license",
+            "the-mit-license",
+            "expat"
+          ]
+        },
+        {
+          "slug": "apache-2.0",
+          "name": "Apache 2.0",
+          "aliases": [
+            "apache",
+            "apache2",
+            "apache-2",
+            "apache-license-2.0",
+            "asl-2.0"
+          ]
+        },
+        {
+          "slug": "bsd",
+          "name": "BSD",
+          "aliases": [
+            "bsd-2-clause",
+            "bsd-3-clause",
+            "new-bsd",
+            "simplified-bsd",
+            "freebsd-license"
+          ]
+        },
+        {
+          "slug": "isc",
+          "name": "ISC",
+          "aliases": [
+            "isc-license"
+          ]
+        },
+        {
+          "slug": "mpl-2.0",
+          "name": "Mozilla Public License 2.0",
+          "aliases": [
+            "mpl",
+            "mpl2",
+            "mozilla-public-license"
+          ]
+        },
+        {
+          "slug": "gpl",
+          "name": "GPL family",
+          "aliases": [
+            "gplv2",
+            "gplv3",
+            "gpl-2.0",
+            "gpl-3.0",
+            "lgpl",
+            "lgpl-3.0",
+            "general-public-license",
+            "copyleft"
+          ]
+        },
+        {
+          "slug": "agpl",
+          "name": "AGPL",
+          "aliases": [
+            "agpl-3.0",
+            "agplv3",
+            "affero",
+            "affero-gpl"
+          ]
+        },
+        {
+          "slug": "cc0",
+          "name": "CC0 / public domain",
+          "aliases": [
+            "cc-0",
+            "public-domain",
+            "unlicense",
+            "wtfpl",
+            "no-rights-reserved"
+          ]
+        },
+        {
+          "slug": "cc-by",
+          "name": "CC BY (attribution)",
+          "aliases": [
+            "cc-by-4.0",
+            "creative-commons-attribution",
+            "attribution-required",
+            "credit-required"
+          ]
+        },
+        {
+          "slug": "cc-by-sa",
+          "name": "CC BY-SA",
+          "aliases": [
+            "cc-by-sa-4.0",
+            "share-alike"
+          ]
+        },
+        {
+          "slug": "cc-by-nc",
+          "name": "CC BY-NC (non-commercial)",
+          "aliases": [
+            "cc-by-nc-4.0",
+            "non-commercial",
+            "noncommercial"
+          ]
+        },
+        {
+          "slug": "ofl",
+          "name": "SIL Open Font License",
+          "aliases": [
+            "sil-ofl",
+            "ofl-1.1",
+            "open-font-license",
+            "sil"
+          ]
+        },
+        {
+          "slug": "font-eula",
+          "name": "Font EULA (foundry terms)",
+          "aliases": [
+            "eula",
+            "desktop-license",
+            "webfont-license",
+            "foundry-license",
+            "itf-license",
+            "fontshare-license"
+          ]
+        },
+        {
+          "slug": "source-available",
+          "name": "Source available (not OSI)",
+          "aliases": [
+            "bsl",
+            "busl-1.1",
+            "elastic-license",
+            "fair-source",
+            "sspl",
+            "polyform"
+          ]
+        },
+        {
+          "slug": "commercial",
+          "name": "Commercial license",
+          "aliases": [
+            "paid-license",
+            "commercial-use-license",
+            "single-seat",
+            "team-license",
+            "extended-license",
+            "royalty-free-paid"
+          ]
+        },
+        {
+          "slug": "proprietary",
+          "name": "Proprietary / all rights reserved",
+          "aliases": [
+            "all-rights-reserved",
+            "closed-source",
+            "copyright",
+            "tos-only",
+            "terms-of-service"
+          ]
+        },
+        {
+          "slug": "free-for-personal",
+          "name": "Free for personal use only",
+          "aliases": [
+            "personal-use-only",
+            "non-commercial-only",
+            "personal-license",
+            "free-personal"
+          ]
+        },
+        {
+          "slug": "no-license",
+          "name": "No license file (default all rights reserved)",
+          "aliases": [
+            "unlicensed-repo",
+            "missing-license",
+            "no-license-file"
+          ]
+        },
+        {
+          "slug": "trademark-restricted",
+          "name": "Trademark / trade dress restricted",
+          "aliases": [
+            "brand-guidelines",
+            "trade-dress",
+            "logo-usage-rules",
+            "ip-guidelines",
+            "do-not-copy-mark"
+          ]
+        },
+        {
+          "slug": "not-applicable",
+          "name": "Not applicable",
+          "aliases": [
+            "n/a",
+            "na",
+            "reference-only",
+            "read-only-inspiration"
+          ]
+        },
+        {
+          "slug": "unknown",
+          "name": "Unknown",
+          "aliases": [
+            "unspecified",
+            "tbd",
+            "unverified"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "pricing",
+      "name": "Pricing",
+      "multi": true,
+      "description": "What access costs, from the point of view of a person who wants to use it today. Multi-valued, because real products stack models: a free tier plus a monthly plan is `freemium` + `subscription`; an open-source library with a paid pro pack is `open-source` + `one-time`. Keep this separate from `license`: open-source can still be sold, and free can still be proprietary.",
+      "agent_hint": "Lets an agent respect a budget constraint in the prompt ('only free and open-source'), and lets it warn before it recommends something behind a paywall or a login. Depo carries no pricing field at all, so its 'Copy prompt' can send an agent to a $30/month product with no signal.",
+      "values": [
+        {
+          "slug": "free",
+          "name": "Free",
+          "aliases": [
+            "100-free",
+            "no-cost",
+            "gratis",
+            "free-forever",
+            "free-to-use",
+            "$0"
+          ]
+        },
+        {
+          "slug": "freemium",
+          "name": "Freemium (free tier + paid tier)",
+          "aliases": [
+            "free-tier",
+            "free-plan",
+            "free-and-pro",
+            "limited-free",
+            "free-with-limits"
+          ]
+        },
+        {
+          "slug": "open-source",
+          "name": "Open source (self-hostable, no fee)",
+          "aliases": [
+            "oss",
+            "foss",
+            "self-hosted-free",
+            "community-edition"
+          ]
+        },
+        {
+          "slug": "one-time",
+          "name": "One-time purchase",
+          "aliases": [
+            "lifetime",
+            "buy-once",
+            "perpetual",
+            "pay-once",
+            "single-payment",
+            "gumroad",
+            "lemonsqueezy"
+          ]
+        },
+        {
+          "slug": "subscription",
+          "name": "Subscription",
+          "aliases": [
+            "monthly",
+            "yearly",
+            "annual",
+            "per-seat",
+            "recurring",
+            "saas-plan",
+            "pro-plan",
+            "membership"
+          ]
+        },
+        {
+          "slug": "usage-based",
+          "name": "Usage-based / credits",
+          "aliases": [
+            "credits",
+            "pay-as-you-go",
+            "per-generation",
+            "metered",
+            "token-based",
+            "api-pricing",
+            "per-minute"
+          ]
+        },
+        {
+          "slug": "paid",
+          "name": "Paid (model unstated)",
+          "aliases": [
+            "premium",
+            "commercial-product",
+            "costs-money",
+            "not-free"
+          ]
+        },
+        {
+          "slug": "free-trial",
+          "name": "Free trial",
+          "aliases": [
+            "trial",
+            "7-day-trial",
+            "3-day-trial",
+            "demo-period"
+          ]
+        },
+        {
+          "slug": "account-required",
+          "name": "Free but account required",
+          "aliases": [
+            "signup-required",
+            "login-required",
+            "registration-required",
+            "waitlist-access"
+          ]
+        },
+        {
+          "slug": "sponsor-supported",
+          "name": "Sponsor or ad supported",
+          "aliases": [
+            "ads",
+            "sponsored",
+            "affiliate",
+            "donationware",
+            "sponsorware",
+            "github-sponsors"
+          ]
+        },
+        {
+          "slug": "not-applicable",
+          "name": "Not applicable",
+          "aliases": [
+            "n/a",
+            "na",
+            "article",
+            "no-product"
+          ]
+        },
+        {
+          "slug": "unknown",
+          "name": "Unknown",
+          "aliases": [
+            "unspecified",
+            "tbd",
+            "unverified",
+            "contact-for-pricing",
+            "custom-quote"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "distribution",
+      "name": "Distribution",
+      "multi": true,
+      "description": "How you get the thing into your work. This is the 'capability' axis that awesome-design-systems proves is more useful than topic tags: does it ship code, a CLI, a registry item, a Figma file, or only a web page you look at? Multi-valued, because one record often ships several paths — shadcn-family libraries are usually `shadcn-registry` + `cli` + `copy-paste` + `github-repo`.",
+      "agent_hint": "Decides the install action the agent takes. `shadcn-registry` means `npx shadcn@latest add <url>`; `npm-package` means a dependency line; `copy-paste` means write the file directly; `figma-file` or `saas` means the agent must hand the task back to a human. An agent should prefer records that carry `cli` or `shadcn-registry` when asked to 'add' something, because those are executable without judgment.",
+      "values": [
+        {
+          "slug": "shadcn-registry",
+          "name": "shadcn registry",
+          "aliases": [
+            "shadcn",
+            "shadcn-ui",
+            "registry",
+            "registry-json",
+            "shadcn-compatible",
+            "custom-registry",
+            "npx-shadcn-add"
+          ]
+        },
+        {
+          "slug": "npm-package",
+          "name": "npm package",
+          "aliases": [
+            "npm",
+            "yarn",
+            "pnpm",
+            "bun-add",
+            "node-module",
+            "jsr",
+            "package"
+          ]
+        },
+        {
+          "slug": "cli",
+          "name": "CLI installer",
+          "aliases": [
+            "npx",
+            "command-line",
+            "terminal-install",
+            "scaffold",
+            "generator-cli",
+            "brew"
+          ]
+        },
+        {
+          "slug": "copy-paste",
+          "name": "Copy-paste snippet",
+          "aliases": [
+            "copy-code",
+            "copy-paste-ready",
+            "paste-in",
+            "source-shown",
+            "code-block"
+          ]
+        },
+        {
+          "slug": "github-repo",
+          "name": "GitHub repository",
+          "aliases": [
+            "github",
+            "gitlab",
+            "git-clone",
+            "open-repo",
+            "source-repo"
+          ]
+        },
+        {
+          "slug": "mcp-server",
+          "name": "MCP server",
+          "aliases": [
+            "mcp",
+            "model-context-protocol",
+            "mcp-endpoint",
+            "remote-mcp"
+          ]
+        },
+        {
+          "slug": "agent-skill",
+          "name": "Agent skill / rules pack",
+          "aliases": [
+            "claude-skill",
+            "codex-skill",
+            "skill",
+            "cursor-rules",
+            "agents-md",
+            "claude-md",
+            "design-md",
+            "rules-file",
+            "prompt-pack"
+          ]
+        },
+        {
+          "slug": "figma-file",
+          "name": "Figma file or kit",
+          "aliases": [
+            "figma",
+            "figma-kit",
+            "ui-kit",
+            "figma-community",
+            "figma-library",
+            "sketch-file",
+            "xd-file"
+          ]
+        },
+        {
+          "slug": "figma-plugin",
+          "name": "Figma plugin",
+          "aliases": [
+            "plugin",
+            "figma-plugin-page",
+            "design-tool-plugin"
+          ]
+        },
+        {
+          "slug": "browser-extension",
+          "name": "Browser extension",
+          "aliases": [
+            "chrome-extension",
+            "firefox-addon",
+            "new-tab-extension",
+            "safari-extension"
+          ]
+        },
+        {
+          "slug": "web-app",
+          "name": "Web app / online tool",
+          "aliases": [
+            "online-tool",
+            "browser-tool",
+            "generator",
+            "editor-in-browser",
+            "webapp"
+          ]
+        },
+        {
+          "slug": "saas",
+          "name": "Hosted SaaS product",
+          "aliases": [
+            "hosted",
+            "cloud-service",
+            "platform",
+            "subscription-service"
+          ]
+        },
+        {
+          "slug": "public-api",
+          "name": "Public HTTP API",
+          "aliases": [
+            "api",
+            "rest-api",
+            "json-api",
+            "graphql",
+            "sdk",
+            "developer-api"
+          ]
+        },
+        {
+          "slug": "download",
+          "name": "Direct download / asset pack",
+          "aliases": [
+            "zip",
+            "asset-pack",
+            "download-file",
+            "font-download",
+            "svg-download",
+            "pdf-download",
+            "template-download"
+          ]
+        },
+        {
+          "slug": "marketplace",
+          "name": "Marketplace listing",
+          "aliases": [
+            "gumroad",
+            "creative-market",
+            "lemon-squeezy",
+            "envato",
+            "app-store",
+            "product-page"
+          ]
+        },
+        {
+          "slug": "desktop-app",
+          "name": "Desktop application",
+          "aliases": [
+            "mac-app",
+            "windows-app",
+            "electron",
+            "native-app",
+            "dmg",
+            "local-first-app"
+          ]
+        },
+        {
+          "slug": "mobile-app",
+          "name": "Mobile application",
+          "aliases": [
+            "ios-app",
+            "android-app",
+            "testflight",
+            "play-store"
+          ]
+        },
+        {
+          "slug": "gallery",
+          "name": "Browse-only gallery or archive",
+          "aliases": [
+            "inspiration-site",
+            "showcase",
+            "curated-gallery",
+            "directory",
+            "reference-wall",
+            "look-only"
+          ]
+        },
+        {
+          "slug": "article",
+          "name": "Article, thread, or post",
+          "aliases": [
+            "blog-post",
+            "x-thread",
+            "tweet",
+            "newsletter",
+            "instagram-post",
+            "video-post"
+          ]
+        },
+        {
+          "slug": "unknown",
+          "name": "Unknown",
+          "aliases": [
+            "unspecified",
+            "tbd",
+            "unverified"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "platform",
+      "name": "Platform",
+      "multi": true,
+      "description": "The target surface the resource is for. Use `cross-platform` only when the resource itself claims one artifact for several targets (Flutter, Compose Multiplatform, GPUI); otherwise list the real targets. `print` covers brand manuals, PDF guidelines, and type specimens made for paper and packaging, which a screen-only taxonomy loses.",
+      "agent_hint": "Stops the classic wrong-surface error: an agent building an iOS paywall must not be given web landing-page sections, and an agent writing a macOS menu bar app must not be given mobile patterns. Combined with `framework`, this is the pair that makes retrieval constraint-first instead of category-first.",
+      "values": [
+        {
+          "slug": "web",
+          "name": "Web",
+          "aliases": [
+            "browser",
+            "website",
+            "webapp",
+            "responsive-web",
+            "desktop-web",
+            "www"
+          ]
+        },
+        {
+          "slug": "ios",
+          "name": "iOS",
+          "aliases": [
+            "iphone",
+            "ipad",
+            "ipados",
+            "apple-mobile",
+            "app-store-ios",
+            "hig-ios"
+          ]
+        },
+        {
+          "slug": "android",
+          "name": "Android",
+          "aliases": [
+            "google-play",
+            "material-you",
+            "android-mobile"
+          ]
+        },
+        {
+          "slug": "macos",
+          "name": "macOS",
+          "aliases": [
+            "mac",
+            "osx",
+            "mac-app",
+            "apple-desktop"
+          ]
+        },
+        {
+          "slug": "windows",
+          "name": "Windows",
+          "aliases": [
+            "win32",
+            "microsoft-windows",
+            "fluent"
+          ]
+        },
+        {
+          "slug": "linux",
+          "name": "Linux",
+          "aliases": [
+            "gnome",
+            "kde",
+            "ubuntu"
+          ]
+        },
+        {
+          "slug": "desktop",
+          "name": "Desktop (OS unspecified)",
+          "aliases": [
+            "native-desktop",
+            "desktop-app-platform"
+          ]
+        },
+        {
+          "slug": "cross-platform",
+          "name": "Cross-platform",
+          "aliases": [
+            "multiplatform",
+            "universal",
+            "write-once",
+            "all-platforms"
+          ]
+        },
+        {
+          "slug": "terminal",
+          "name": "Terminal / CLI",
+          "aliases": [
+            "cli",
+            "tui",
+            "console",
+            "shell",
+            "command-line-ui"
+          ]
+        },
+        {
+          "slug": "print",
+          "name": "Print / static document",
+          "aliases": [
+            "pdf",
+            "brand-manual",
+            "packaging",
+            "editorial",
+            "poster",
+            "slide-deck",
+            "presentation"
+          ]
+        },
+        {
+          "slug": "social",
+          "name": "Social / marketing creative",
+          "aliases": [
+            "instagram",
+            "og-image",
+            "app-store-screenshots",
+            "ad-creative",
+            "post-design",
+            "story-format"
+          ]
+        },
+        {
+          "slug": "xr",
+          "name": "XR / spatial",
+          "aliases": [
+            "visionos",
+            "vr",
+            "ar",
+            "spatial",
+            "3d-scene"
+          ]
+        },
+        {
+          "slug": "platform-agnostic",
+          "name": "Platform agnostic",
+          "aliases": [
+            "any-platform",
+            "n/a",
+            "not-applicable",
+            "general"
+          ]
+        },
+        {
+          "slug": "unknown",
+          "name": "Unknown",
+          "aliases": [
+            "unspecified",
+            "tbd",
+            "unverified"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "accessibility",
+      "name": "Accessibility",
+      "multi": true,
+      "description": "Verified accessibility properties of the resource, not its marketing words. Record a value only from evidence: a stated conformance level, a documented ARIA pattern, an underlying accessible primitive (React Aria, Radix, Base UI), a published audit, or our own check. `claimed-accessible` exists for the very common case of a page that says 'accessible' with nothing behind it — that claim is data, but it is weaker data, and it must not be stored as `wcag-aa`.",
+      "agent_hint": "Accessibility is what agents drop first and what a review catches last. When the caller asks for accessible output, the index must return components that already carry keyboard, focus, and ARIA behavior rather than a pretty div. It also supports the states-and-seams query: which records document focus, reduced motion, and RTL, and not only the default state.",
+      "values": [
+        {
+          "slug": "wcag-aa",
+          "name": "WCAG 2.x AA",
+          "aliases": [
+            "wcag-2.1-aa",
+            "wcag-2.2-aa",
+            "aa-compliant",
+            "wcag-aa-conformant",
+            "section-508"
+          ]
+        },
+        {
+          "slug": "wcag-aaa",
+          "name": "WCAG 2.x AAA",
+          "aliases": [
+            "wcag-2.1-aaa",
+            "aaa-compliant"
+          ]
+        },
+        {
+          "slug": "aria-complete",
+          "name": "Full ARIA pattern implemented",
+          "aliases": [
+            "aria",
+            "wai-aria",
+            "aria-attributes",
+            "apg-pattern",
+            "wai-aria-apg",
+            "roles-and-states"
+          ]
+        },
+        {
+          "slug": "keyboard-navigable",
+          "name": "Keyboard navigable",
+          "aliases": [
+            "keyboard",
+            "keyboard-accessible",
+            "tab-navigation",
+            "arrow-key-navigation",
+            "no-mouse-required"
+          ]
+        },
+        {
+          "slug": "focus-managed",
+          "name": "Focus management and visible focus",
+          "aliases": [
+            "focus-visible",
+            "focus-ring",
+            "focus-trap",
+            "focus-restore",
+            "roving-tabindex"
+          ]
+        },
+        {
+          "slug": "screen-reader-tested",
+          "name": "Screen reader tested",
+          "aliases": [
+            "voiceover-tested",
+            "nvda-tested",
+            "jaws-tested",
+            "screen-reader",
+            "sr-tested",
+            "talkback-tested"
+          ]
+        },
+        {
+          "slug": "contrast-checked",
+          "name": "Contrast checked",
+          "aliases": [
+            "color-contrast",
+            "contrast-ratio",
+            "apca",
+            "contrast-safe",
+            "colorblind-safe"
+          ]
+        },
+        {
+          "slug": "reduced-motion",
+          "name": "Honors reduced motion",
+          "aliases": [
+            "prefers-reduced-motion",
+            "motion-safe",
+            "respects-reduced-motion",
+            "animation-opt-out"
+          ]
+        },
+        {
+          "slug": "rtl-support",
+          "name": "RTL and i18n aware",
+          "aliases": [
+            "rtl",
+            "right-to-left",
+            "bidi",
+            "i18n",
+            "localization-ready"
+          ]
+        },
+        {
+          "slug": "semantic-html",
+          "name": "Semantic HTML",
+          "aliases": [
+            "native-elements",
+            "html-semantics",
+            "landmarks",
+            "heading-order"
+          ]
+        },
+        {
+          "slug": "built-on-accessible-primitives",
+          "name": "Built on accessible primitives",
+          "aliases": [
+            "radix",
+            "radix-ui",
+            "react-aria",
+            "base-ui",
+            "headless-ui",
+            "ark-ui",
+            "aria-kit"
+          ]
+        },
+        {
+          "slug": "claimed-accessible",
+          "name": "Accessible (claimed, unverified)",
+          "aliases": [
+            "accessible",
+            "a11y",
+            "a11y-friendly",
+            "accessibility-first",
+            "inclusive"
+          ]
+        },
+        {
+          "slug": "known-gaps",
+          "name": "Known accessibility gaps",
+          "aliases": [
+            "not-accessible",
+            "inaccessible",
+            "a11y-issues",
+            "canvas-only",
+            "image-only-content",
+            "decorative-only"
+          ]
+        },
+        {
+          "slug": "not-applicable",
+          "name": "Not applicable",
+          "aliases": [
+            "n/a",
+            "na",
+            "no-interface"
+          ]
+        },
+        {
+          "slug": "unknown",
+          "name": "Unknown",
+          "aliases": [
+            "unspecified",
+            "tbd",
+            "unverified",
+            "not-checked"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "content_type",
+      "name": "Content type",
+      "multi": true,
+      "description": "What the record actually contains — the payload, not the subject. A gallery of app screens is `screenshots`; a component library is `code`; a brand manual PDF is `pdf` + `prose`; a font site is `fonts`. Multi-valued, because a good library ships `code` + `figma`, and an article often ships `prose` + `screenshots`.",
+      "agent_hint": "Decides whether the agent can consume the record at all. `code`, `prose`, `prompts`, and `dataset` are text an agent reads directly. `screenshots`, `video`, and `figma` need a vision pass or a human, and each round trip through a vision model loses detail. Rank text payloads above pixel payloads when the task is to write code.",
+      "values": [
+        {
+          "slug": "code",
+          "name": "Code",
+          "aliases": [
+            "components",
+            "source-code",
+            "snippets",
+            "library",
+            "blocks",
+            "templates-code",
+            "shaders",
+            "css",
+            "html"
+          ]
+        },
+        {
+          "slug": "screenshots",
+          "name": "Screenshots / screens",
+          "aliases": [
+            "screens",
+            "ui-screenshots",
+            "app-screens",
+            "gallery-images",
+            "captures",
+            "flows-stills"
+          ]
+        },
+        {
+          "slug": "figma",
+          "name": "Figma / design source files",
+          "aliases": [
+            "figma-file",
+            "ui-kit",
+            "sketch",
+            "xd",
+            "design-file",
+            "penpot"
+          ]
+        },
+        {
+          "slug": "prose",
+          "name": "Prose / writing",
+          "aliases": [
+            "article",
+            "essay",
+            "thread",
+            "guide",
+            "documentation",
+            "book",
+            "checklist",
+            "playbook",
+            "post"
+          ]
+        },
+        {
+          "slug": "video",
+          "name": "Video",
+          "aliases": [
+            "youtube",
+            "reel",
+            "screen-recording",
+            "course-video",
+            "motion-capture",
+            "demo-video"
+          ]
+        },
+        {
+          "slug": "dataset",
+          "name": "Dataset / structured records",
+          "aliases": [
+            "json",
+            "csv",
+            "index",
+            "catalog",
+            "database",
+            "taxonomy",
+            "api-payload"
+          ]
+        },
+        {
+          "slug": "prompts",
+          "name": "Prompts",
+          "aliases": [
+            "prompt-pack",
+            "prompt-library",
+            "llm-prompts",
+            "prompt-templates",
+            "system-prompts"
+          ]
+        },
+        {
+          "slug": "fonts",
+          "name": "Fonts / typefaces",
+          "aliases": [
+            "typeface",
+            "webfont",
+            "woff2",
+            "otf",
+            "ttf",
+            "variable-font",
+            "type-specimen"
+          ]
+        },
+        {
+          "slug": "icons",
+          "name": "Icons",
+          "aliases": [
+            "icon-set",
+            "svg-icons",
+            "iconography",
+            "animated-icons",
+            "logos-svg"
+          ]
+        },
+        {
+          "slug": "images",
+          "name": "Images / textures / backgrounds",
+          "aliases": [
+            "backgrounds",
+            "gradients",
+            "textures",
+            "patterns",
+            "wallpapers",
+            "illustrations",
+            "mockups",
+            "photos"
+          ]
+        },
+        {
+          "slug": "3d",
+          "name": "3D assets and scenes",
+          "aliases": [
+            "3d-models",
+            "3d-mockups",
+            "three-js-scene",
+            "glb",
+            "webgl-scene"
+          ]
+        },
+        {
+          "slug": "audio",
+          "name": "Audio",
+          "aliases": [
+            "sound",
+            "sfx",
+            "voice",
+            "audio-ui"
+          ]
+        },
+        {
+          "slug": "pdf",
+          "name": "PDF document",
+          "aliases": [
+            "brand-manual",
+            "guidelines-pdf",
+            "deck",
+            "slides",
+            "whitepaper"
+          ]
+        },
+        {
+          "slug": "design-tokens",
+          "name": "Design tokens / theme files",
+          "aliases": [
+            "tokens",
+            "theme",
+            "palette",
+            "color-scale",
+            "css-variables-export",
+            "tailwind-config",
+            "design-md"
+          ]
+        },
+        {
+          "slug": "profile",
+          "name": "Person, studio, or product profile",
+          "aliases": [
+            "portfolio",
+            "agency-site",
+            "studio",
+            "about-page",
+            "social-profile",
+            "landing-page"
+          ]
+        },
+        {
+          "slug": "unknown",
+          "name": "Unknown",
+          "aliases": [
+            "unspecified",
+            "tbd",
+            "unverified",
+            "empty"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "agent_readiness",
+      "name": "Agent readiness",
+      "multi": true,
+      "description": "What an autonomous agent can get from this record without a human and without a vision model. This is the facet no other index publishes, and the reason this index exists. Record only surfaces that were verified live: a fetched `/llms.txt`, a reachable MCP endpoint, a registry item that resolved, an API that answered without auth. Never infer readiness from a marketing line. Negative values (`bot-blocked`, `auth-required`, `agent-paywalled`, `none`) are as important as positive ones — they tell the agent to stop instead of to retry, and they are the honest record of the paywall pattern across this market.",
+      "agent_hint": "The routing facet. An agent should read it top-down: if `mcp-server`, call the tool; if `public-api` or `registry-json`, fetch structured data; if `cli-installable`, run the install command; if `llms-txt` or `structured-docs`, fetch text docs; if `copy-paste-ready`, lift the snippet; if only `image-only` or `none`, ask a human or skip. Sorting a result set by this facet turns a directory into a plan.",
+      "values": [
+        {
+          "slug": "mcp-server",
+          "name": "MCP server",
+          "description": "A Model Context Protocol endpoint an agent can call as a tool.",
+          "signals": [
+            "/mcp endpoint responds",
+            "documented server URL or stdio command",
+            "listed on an MCP registry"
+          ],
+          "aliases": [
+            "mcp",
+            "model-context-protocol",
+            "mcp-endpoint",
+            "mcp-tools",
+            "remote-mcp",
+            "sse-mcp"
+          ]
+        },
+        {
+          "slug": "agent-skill",
+          "name": "Agent skill or rules pack",
+          "description": "Ships a SKILL.md, DESIGN.md, AGENTS.md, CLAUDE.md, or rules file written for a coding agent.",
+          "signals": [
+            "SKILL.md or DESIGN.md in repo",
+            "install instructions for Claude Code, Codex, or Cursor",
+            "commands and rules documented as agent input"
+          ],
+          "aliases": [
+            "claude-skill",
+            "codex-skill",
+            "cursor-rules",
+            "agents-md",
+            "claude-md",
+            "design-md",
+            "skill-file",
+            "hooks"
+          ]
+        },
+        {
+          "slug": "registry-json",
+          "name": "Machine-readable registry item",
+          "description": "A JSON item (shadcn registry or equivalent) that names the files, dependencies, and tokens of a component.",
+          "signals": [
+            "registry.json or /r/<name>.json resolves",
+            "registry-item schema fields present",
+            "dependencies array in the payload"
+          ],
+          "aliases": [
+            "shadcn-registry-json",
+            "registry-item",
+            "component-json",
+            "r-json"
+          ]
+        },
+        {
+          "slug": "cli-installable",
+          "name": "CLI installable",
+          "description": "One documented command puts the artifact into a project.",
+          "signals": [
+            "npx shadcn add <url>",
+            "npm i <pkg>",
+            "npx <tool> add <name>",
+            "documented one-line install"
+          ],
+          "aliases": [
+            "npx-install",
+            "one-line-install",
+            "cli-add",
+            "package-install",
+            "shadcn-add"
+          ]
+        },
+        {
+          "slug": "public-api",
+          "name": "Public API without auth",
+          "description": "An HTTP endpoint returns structured data with no key and no login.",
+          "signals": [
+            "JSON response to an unauthenticated GET",
+            "documented open endpoint",
+            "CORS-open read API"
+          ],
+          "aliases": [
+            "open-api",
+            "json-api",
+            "unauthenticated-api",
+            "rest-api-public",
+            "graphql-public"
+          ]
+        },
+        {
+          "slug": "llms-txt",
+          "name": "llms.txt",
+          "description": "Publishes /llms.txt or /llms-full.txt for agent consumption.",
+          "signals": [
+            "/llms.txt returns 200 text",
+            "/llms-full.txt returns 200 text"
+          ],
+          "aliases": [
+            "llms.txt",
+            "llms-full-txt",
+            "llmstxt",
+            "ai-txt"
+          ]
+        },
+        {
+          "slug": "structured-docs",
+          "name": "Structured documentation",
+          "description": "Per-item documentation pages with stable URLs, real HTML text, and props or API tables an agent can parse.",
+          "signals": [
+            "one URL per component",
+            "props or API table in HTML",
+            "server-rendered text, not a JS-only shell",
+            "MDX or docs source in a public repo"
+          ],
+          "aliases": [
+            "docs-site",
+            "api-reference",
+            "component-docs",
+            "mdx-docs",
+            "props-table"
+          ]
+        },
+        {
+          "slug": "machine-index",
+          "name": "Machine-readable index",
+          "description": "The catalog can be enumerated: sitemap, RSS or JSON feed, or a schema.org graph.",
+          "signals": [
+            "sitemap.xml resolves",
+            "RSS or JSON feed",
+            "JSON-LD on detail pages",
+            "robots.txt allows crawling"
+          ],
+          "aliases": [
+            "sitemap",
+            "rss",
+            "json-feed",
+            "json-ld",
+            "schema-org",
+            "atom"
+          ]
+        },
+        {
+          "slug": "copy-paste-ready",
+          "name": "Copy-paste ready code",
+          "description": "The complete source is visible on the page and works when pasted, with dependencies stated.",
+          "signals": [
+            "visible code block with a copy button",
+            "no build step required",
+            "imports listed with the snippet"
+          ],
+          "aliases": [
+            "copy-code",
+            "copy-button",
+            "paste-ready",
+            "source-visible",
+            "inline-code"
+          ]
+        },
+        {
+          "slug": "copy-prompt",
+          "name": "Ships a ready LLM prompt",
+          "description": "Provides a written prompt for an agent, not only a description of the resource.",
+          "signals": [
+            "'Copy prompt' action",
+            "prompt template shown on the page",
+            "prompt library as the product"
+          ],
+          "aliases": [
+            "prompt-copy",
+            "copy-implementation-prompt",
+            "prompt-ready",
+            "ai-prompt-included"
+          ]
+        },
+        {
+          "slug": "token-export",
+          "name": "Exports design tokens",
+          "description": "Produces CSS variables, a Tailwind theme, or a JSON token file an agent can write into a repo.",
+          "signals": [
+            "export to CSS or Tailwind config",
+            "downloadable tokens JSON",
+            "theme code shown for copying"
+          ],
+          "aliases": [
+            "css-export",
+            "tailwind-config-export",
+            "tokens-json",
+            "theme-export",
+            "variables-export"
+          ]
+        },
+        {
+          "slug": "open-source-code",
+          "name": "Readable open source",
+          "description": "The full implementation is in a public repo, so an agent can read the real code instead of a description.",
+          "signals": [
+            "public GitHub or GitLab repo",
+            "source files browsable",
+            "license file present"
+          ],
+          "aliases": [
+            "public-repo",
+            "source-available-read",
+            "github-source",
+            "oss-code"
+          ]
+        },
+        {
+          "slug": "auth-required",
+          "name": "Login required",
+          "description": "Content exists but needs an account, so an unattended agent stops here.",
+          "signals": [
+            "login wall",
+            "API key required",
+            "session cookie needed"
+          ],
+          "aliases": [
+            "login-wall",
+            "signin-required",
+            "api-key-required",
+            "account-gated"
+          ]
+        },
+        {
+          "slug": "agent-paywalled",
+          "name": "Agent access behind payment",
+          "description": "The MCP server or API exists but only on a paid plan.",
+          "signals": [
+            "MCP listed as a Pro feature",
+            "API on paid tier only",
+            "rate cap without payment"
+          ],
+          "aliases": [
+            "paid-mcp",
+            "pro-only-api",
+            "paywalled-api",
+            "mcp-pro-only"
+          ]
+        },
+        {
+          "slug": "bot-blocked",
+          "name": "Blocks bots",
+          "description": "robots.txt or a WAF blocks agent user agents, so retrieval must not be attempted.",
+          "signals": [
+            "GPTBot or ClaudeBot disallowed in robots.txt",
+            "403 to non-browser user agents",
+            "Cloudflare challenge"
+          ],
+          "aliases": [
+            "robots-disallow",
+            "gptbot-blocked",
+            "claudebot-blocked",
+            "cloudflare-challenge",
+            "anti-bot"
+          ]
+        },
+        {
+          "slug": "image-only",
+          "name": "Pixels only",
+          "description": "The value is in images or video; an agent needs a vision pass and still cannot recover the code.",
+          "signals": [
+            "gallery of screenshots",
+            "canvas-rendered content",
+            "no text payload"
+          ],
+          "aliases": [
+            "screenshot-only",
+            "vision-required",
+            "no-text",
+            "pixels-only"
+          ]
+        },
+        {
+          "slug": "js-only-shell",
+          "name": "Client-rendered shell",
+          "description": "HTML is an empty shell; content arrives from client JavaScript, so a plain fetch returns nothing useful.",
+          "signals": [
+            "empty body in raw HTML",
+            "content from XHR after hydration",
+            "no server-side render"
+          ],
+          "aliases": [
+            "spa-shell",
+            "client-rendered",
+            "requires-js",
+            "hydration-only"
+          ]
+        },
+        {
+          "slug": "none",
+          "name": "No agent surface",
+          "description": "Nothing machine-usable: a human reads it, an agent cannot act on it.",
+          "signals": [
+            "no docs, no code, no API, no feed"
+          ],
+          "aliases": [
+            "human-only",
+            "no-api",
+            "not-agent-ready",
+            "manual-only"
+          ]
+        },
+        {
+          "slug": "unknown",
+          "name": "Unknown",
+          "aliases": [
+            "unspecified",
+            "tbd",
+            "unverified",
+            "not-checked"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "maturity",
+      "name": "Maturity",
+      "multi": false,
+      "description": "The current health of the record, from the last verification pass. Single-valued, because a record is in exactly one state. Every record must carry `last_verified` with this value; a maturity with no date is a guess. `dead-link` records stay in the index with an archive URL when one exists — a known-dead entry is more useful than a silent 404, and no competitor keeps this at all.",
+      "agent_hint": "Freshness control. An agent must not recommend an `archived`, `deprecated`, or `dead-link` resource, and must warn when it uses an `experimental` one. When two records answer the same need, `actively-maintained` wins. This is also the field a re-crawl job writes, so it is the drift signal for the whole index.",
+      "values": [
+        {
+          "slug": "actively-maintained",
+          "name": "Actively maintained",
+          "description": "Shipped a release, commit, or content update inside the last 90 days.",
+          "aliases": [
+            "active",
+            "maintained",
+            "updated-recently",
+            "in-development",
+            "healthy"
+          ]
+        },
+        {
+          "slug": "stable",
+          "name": "Stable",
+          "description": "Complete and working, with no recent changes needed. Quiet, not abandoned.",
+          "aliases": [
+            "mature",
+            "1.0",
+            "production-ready",
+            "steady",
+            "complete"
+          ]
+        },
+        {
+          "slug": "beta",
+          "name": "Beta",
+          "description": "Public and usable, but the API or content can still change.",
+          "aliases": [
+            "public-beta",
+            "preview",
+            "early-access",
+            "rc",
+            "0.x"
+          ]
+        },
+        {
+          "slug": "experimental",
+          "name": "Experimental",
+          "description": "A demo, a lab, or an alpha. Fine to learn from, risky to depend on.",
+          "aliases": [
+            "alpha",
+            "prototype",
+            "wip",
+            "work-in-progress",
+            "lab",
+            "playground",
+            "unstable"
+          ]
+        },
+        {
+          "slug": "announced",
+          "name": "Announced or waitlist only",
+          "description": "Named publicly but not yet usable.",
+          "aliases": [
+            "waitlist",
+            "coming-soon",
+            "teaser",
+            "pre-launch",
+            "signup-only"
+          ]
+        },
+        {
+          "slug": "archived",
+          "name": "Archived",
+          "description": "Read-only or frozen by the owner; still reachable.",
+          "aliases": [
+            "read-only",
+            "frozen",
+            "no-longer-updated",
+            "github-archived",
+            "sunset"
+          ]
+        },
+        {
+          "slug": "deprecated",
+          "name": "Deprecated",
+          "description": "The owner says to use something else.",
+          "aliases": [
+            "superseded",
+            "replaced-by",
+            "end-of-life",
+            "eol",
+            "discontinued",
+            "renamed"
+          ]
+        },
+        {
+          "slug": "dead-link",
+          "name": "Dead link",
+          "description": "The URL fails: 404, DNS failure, or a parked domain. Keep the record, attach an archive URL.",
+          "aliases": [
+            "404",
+            "broken",
+            "nxdomain",
+            "offline",
+            "domain-expired",
+            "parked",
+            "unreachable"
+          ]
+        },
+        {
+          "slug": "unknown",
+          "name": "Unknown",
+          "description": "Not verified yet in any pass.",
+          "aliases": [
+            "unspecified",
+            "tbd",
+            "unverified",
+            "not-checked"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,598 @@
+[
+  {
+    "id": "c2327d79-01b4-4efc-b41e-8eb11e0310c6",
+    "slug": "awwwards-three-js-collection",
+    "url": "https://www.awwwards.com/websites/three-js",
+    "name": "Awwwards Three.js Collection",
+    "tagline": "Awwwards' technology feed of ~2,000 award-judged Three.js sites",
+    "description": "The Three.js slice of Awwwards' \"By Technology\" browse system: every site the jury has scored that ships a WebGL/Three.js scene, newest first, 31 cards per page. Each card links to a full award page with the live URL, the jury scores for design/usability/creativity/content, and the studio credit. It is the standard reference for what production-grade 3D web work looks like right now — most entries are agency, portfolio, and product-launch sites rather than demos.",
+    "category": "inspiration-galleries",
+    "subcategory": "site-galleries",
+    "kinds": [
+      "gallery",
+      "directory",
+      "reference"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "proprietary"
+      ],
+      "pricing": [
+        "free",
+        "freemium"
+      ],
+      "distribution": [
+        "gallery",
+        "web-app"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "screenshots",
+        "video",
+        "3d"
+      ],
+      "agent_readiness": [
+        "image-only"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [
+      "homepage",
+      "features",
+      "about"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": "Browsing is free and needs no account. Awwwards Pro and the Creative Pass ($12/month, quoted in the site header) unlock courses and submission perks, not this feed.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 1996,
+      "blocks": null
+    },
+    "agent_guidance": "Use this to answer \"what does good 3D web actually look like\" before you write a line of Three.js or R3F — it is a taste reference, not a code source, so pair it with a real library (Three.js, React Three Fiber, Spline) for implementation. The list HTML is server-rendered and curl-readable with a browser User-Agent, so you can scrape site names and detail-page links programmatically, but the actual design value is in screenshots and video you cannot parse. Paginate with ?page=N (31 cards per page, empty past page 65); sibling technology feeds like /websites/webgl, /websites/3d and /websites/gsap follow the same URL shape.",
+    "why_it_matters": "Awwwards is the closest thing the industry has to a jury-scored canon of WebGL work, which makes this feed a defensible answer to a design-direction question rather than one person's taste.",
+    "quality_tier": "A",
+    "notable_for": [
+      "~1,996 jury-scored Three.js sites across 65 pages",
+      "Filterable by 26 categories and ~50 tags",
+      "Parallel technology feeds for WebGL, GSAP, React, Framer, Webflow",
+      "Per-site jury scores and studio credits"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://www.awwwards.com/websites/three-js (WebFetch + curl), plus curl pagination probes at ?page=5,20,37,40,60,65,66,70,80,100 to bound the collection size"
+  },
+  {
+    "id": "4a2c08d9-a5a0-4dc0-85cd-4a908e106cf2",
+    "slug": "coolors",
+    "url": "https://coolors.co",
+    "name": "Coolors",
+    "tagline": "Palette generator with 10M+ schemes, contrast checker and Tailwind export",
+    "description": "Coolors is the de-facto default colour tool on the web: a spacebar-driven palette generator wrapped in about eighteen sibling tools — Explore Palettes, Image Picker, Contrast Checker, Palette Visualizer, Color Picker, Tailwind Colors, Color Bot, Browse/Make Gradients, Image Converter, Photo Editor, Image Recolor, Collage Maker, Free Fonts and Font Generator. Palettes live in the URL as hyphen-joined hex codes, so any palette is a shareable, constructible address. Free with ads up to 5 colours and 10 saves; Pro (~$3/month) lifts it to 10 colours, 10M+ schemes, AI credits and advanced export.",
+    "category": "color",
+    "subcategory": "palette-generators",
+    "kinds": [
+      "color-tool",
+      "generator",
+      "app"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "tailwind-any",
+        "css-variables"
+      ],
+      "license": [
+        "proprietary"
+      ],
+      "pricing": [
+        "freemium",
+        "subscription",
+        "account-required"
+      ],
+      "distribution": [
+        "web-app",
+        "saas",
+        "figma-plugin",
+        "browser-extension",
+        "mobile-app"
+      ],
+      "platform": [
+        "web",
+        "ios",
+        "cross-platform"
+      ],
+      "accessibility": [
+        "contrast-checked",
+        "wcag-aa",
+        "wcag-aaa"
+      ],
+      "content_type": [
+        "design-tokens",
+        "images"
+      ],
+      "agent_readiness": [
+        "copy-paste-ready",
+        "auth-required"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": "Free: ads shown, palettes up to 5 colours, 10K+ schemes, 10 saved palettes, 1 project + 1 collection, 5 saved colours, image picking, limited collage. Pro: ~$3/month (yearly billing also offered) — Coolors AI at 3,000 credits/month, no ads, 10-colour palettes, 10M+ schemes, unlimited saves/projects/collections, palette contrast checking, variations viewer, advanced export, private profiles, custom PDF logos, dark mode.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": 10000000,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Reach for Coolors when the user needs a palette *explored* or when you want a canonical shareable URL for one — coolors.co/<hex>-<hex>-<hex> is constructible from hex codes you already have, so you can hand a user a live palette link without an API call or a login. Prefer Color Hunt when the ask is \"give me a good palette right now\" (curated, no interaction needed) and Coolors when the ask is \"iterate around this brand colour\". Watch out: the generator, saves and the good export formats sit behind auth and the Pro tier, so do not promise an agent-driven export pipeline — treat it as a human-in-the-loop tool and lift the hex values yourself.",
+    "why_it_matters": "It is the tool most designers and most training data already assume, so recommending it costs a user zero learning curve — and its contrast checker means colour advice can be made WCAG-defensible in the same session.",
+    "quality_tier": "S",
+    "notable_for": [
+      "~18 colour and image tools under one account",
+      "Palettes encoded directly in the URL as hex codes",
+      "WCAG AA/AAA contrast checker built in",
+      "iOS app, Figma plugin, Chrome extension and Adobe extension",
+      "Dedicated Tailwind colour export"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://coolors.co, https://coolors.co/pricing (both WebFetch); price point cross-checked by web search because the pricing page renders amounts client-side"
+  },
+  {
+    "id": "9b85e3c2-30a7-471a-9d99-64e495732e20",
+    "slug": "grabient",
+    "url": "https://grabient.com",
+    "name": "Grabient",
+    "tagline": "Cosine-gradient generator; CSS/SVG/PNG export and a real llms.txt",
+    "description": "Grabient generates gradients from cosine coefficients — four 3-channel vectors, twelve numbers — which means an entire gradient is encoded in its URL with no database lookup. Browse ~37 pages of community palettes sorted by popular/newest/oldest, search them semantically at /palettes/<query>, then switch each one between six render styles (linear/angular/radial × gradient/swatches), set the angle and the step count, and export as CSS, SVG, PNG or URL. It is open source (Solid + Hono on Cloudflare Workers, 2k stars) under the Functional Source License, which converts to Apache-2.0 after two years.",
+    "category": "color",
+    "subcategory": "gradients",
+    "kinds": [
+      "generator",
+      "color-tool",
+      "tool"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "vanilla-css"
+      ],
+      "license": [
+        "source-available"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "web-app",
+        "github-repo",
+        "public-api"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "code",
+        "images",
+        "design-tokens"
+      ],
+      "agent_readiness": [
+        "llms-txt",
+        "public-api",
+        "open-source-code",
+        "copy-paste-ready",
+        "machine-index"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "gradient-background"
+    ],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": "https://grabient.com/llms.txt",
+    "repo_url": "https://github.com/johnkorzhuk/grabient",
+    "registry_url": null,
+    "github": {
+      "stars": 2012,
+      "license": "FSL-1.1-ALv2 (Functional Source License, Apache-2.0 future licence)",
+      "last_activity": "2026-08-02"
+    },
+    "pricing_detail": "Free. An optional login exists only to save palettes.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "This is the one colour resource in this batch built for you rather than for a human: read https://grabient.com/llms.txt first, then hit https://grabient.com/palettes/<query> for semantic search (\"warm sunset\", \"film grain\", \"underwater\") and append .png to any page — or call /api/png?seed= — for an unbranded render you can feed straight into a vision pass. Because a palette is just twelve comma-separated coefficients you can synthesise a URL from scratch with no round-trip. Prefer it over Coolors or Color Hunt whenever the deliverable is a CSS gradient or a background, and note the licence: source-available for two years, so do not fork it into a competing palette product.",
+    "why_it_matters": "A colour tool that publishes llms.txt, an unauthenticated PNG endpoint and a URL-encodable colour model is the rare design resource an agent can actually drive end to end.",
+    "quality_tier": "S",
+    "notable_for": [
+      "Cosine-gradient model: whole palette encoded in the URL",
+      "Ships llms.txt with a documented URL and PNG API",
+      "Six render styles including angular and radial swatches",
+      "CSS, SVG, PNG and URL export per palette",
+      "Open source, 2k stars, FSL-1.1 converting to Apache-2.0"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://grabient.com (WebFetch + curl DOM parse), https://grabient.com/llms.txt (curl), https://github.com/johnkorzhuk/grabient (WebFetch) and the GitHub API via gh for stars/licence/push date"
+  },
+  {
+    "id": "b24d698e-751c-4ed7-ada4-0502cb5875c9",
+    "slug": "colorhub",
+    "url": "https://colorhub.app",
+    "name": "ColorHub",
+    "tagline": "150 six-colour palettes previewed on real layouts, plus 7 paid Next.js kits",
+    "description": "ColorHub, by Daniel Cranney, solves the \"the swatches look fine, the page looks wrong\" problem: pick one of ~150 hand-curated six-colour palettes (brand / darkest / dark / mid / light / lightest), then see it applied live to real landing-page layouts instead of to bare rectangles. It exports the palette as CSS custom properties, SCSS variables or a Tailwind colours object, and includes an AA contrast checker. Seven Starter Kits — one-page Next.js + Tailwind projects with your colours already wired in — are sold as one-time downloads between $3.95 and $6.95.",
+    "category": "color",
+    "subcategory": "curated-palettes",
+    "kinds": [
+      "color-tool",
+      "template",
+      "generator"
+    ],
+    "facets": {
+      "framework": [
+        "next",
+        "react"
+      ],
+      "styling": [
+        "tailwind-any",
+        "css-variables",
+        "sass"
+      ],
+      "license": [
+        "proprietary"
+      ],
+      "pricing": [
+        "freemium",
+        "one-time",
+        "paid"
+      ],
+      "distribution": [
+        "web-app",
+        "download"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "contrast-checked",
+        "wcag-aa"
+      ],
+      "content_type": [
+        "design-tokens",
+        "code"
+      ],
+      "agent_readiness": [
+        "js-only-shell",
+        "copy-paste-ready"
+      ],
+      "maturity": "stable"
+    },
+    "components": [
+      "hero",
+      "pricing-table",
+      "billing-period-toggle",
+      "product-card",
+      "sidebar",
+      "chart",
+      "form",
+      "card-grid",
+      "navigation-drawer",
+      "footer"
+    ],
+    "component_count": null,
+    "surfaces": [
+      "homepage",
+      "pricing-website",
+      "blog",
+      "features",
+      "testimonials",
+      "contact-us",
+      "single-item-detail",
+      "analytics"
+    ],
+    "templates": [
+      {
+        "name": "Developer Portfolio Starter Kit",
+        "url": "https://www.colorhub.app/preview/starter-kit/lucid-theme/developer-portfolio",
+        "purpose": "Personal developer portfolio — 6 sections (hero, about, skills, work, testimonials, contact), 10 DevIcon skill icons, light/dark switch, mobile slide-out menu, Web3Forms contact form. $4.95"
+      },
+      {
+        "name": "Start Up Starter Kit",
+        "url": "https://www.colorhub.app/preview/starter-kit/lucid-theme/start-up",
+        "purpose": "SaaS/startup landing page — 8 sections (hero, about, clients, features, pricing, testimonials, services, contact), light/dark switch. $6.95"
+      },
+      {
+        "name": "Landing Page (Basic) Starter Kit",
+        "url": "https://www.colorhub.app/preview/starter-kit/lucid-theme/landing-page-basic",
+        "purpose": "Multi-purpose landing page with a full-screen hero and a pricing table with annual/monthly toggle. $6.95"
+      },
+      {
+        "name": "Blog (Grid) Starter Kit",
+        "url": "https://www.colorhub.app/preview/starter-kit/lucid-theme/blog-grid",
+        "purpose": "Grid-based blog index — 4 components (page header, featured post, latest posts, newsletter). $3.95"
+      },
+      {
+        "name": "E-Commerce Landing Starter Kit",
+        "url": "https://www.colorhub.app/preview/starter-kit/lucid-theme/e-commerce-landing",
+        "purpose": "Storefront landing page with product cards for simple catalogue display. $4.95"
+      },
+      {
+        "name": "E-Commerce Product Page Starter Kit",
+        "url": "https://www.colorhub.app/preview/starter-kit/lucid-theme/e-commerce-product-page",
+        "purpose": "Single product detail page — 3 sections (hero, product, newsletter) plus a product card. $3.95"
+      },
+      {
+        "name": "Dashboard Starter Kit",
+        "url": "https://www.colorhub.app/preview/starter-kit/lucid-theme/dashboard",
+        "purpose": "App dashboard shell with a minimisable sticky sidebar and Chart.js graphs."
+      }
+    ],
+    "template_count": 7,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": "Palettes, layout previews, contrast checker and CSS/SCSS/Tailwind export are free. Starter kits are one-time purchases: Blog (Grid) $3.95, E-Commerce Product Page $3.95, Developer Portfolio $4.95, E-Commerce Landing $4.95, Start Up $6.95, Landing Page (Basic) $6.95; Dashboard price not exposed in the client bundle.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": 150,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Its real value is the fixed six-role palette shape — brand / darkest / dark / mid / light / lightest — which maps cleanly onto a Tailwind colour object or a set of CSS custom properties, so use it when a user wants a *semantic* token set rather than four pretty swatches. It is a statically exported Next.js app that renders nothing to a plain fetch, so WebFetch and curl both return an empty shell: you cannot enumerate the palettes without a real browser, and you should show the user the site rather than claim to have read it. Treat the paid starter kits as a last resort — they are Tailwind landing pages at 2023 vintage, and a shadcn/ui or Tailwind UI block set will be fresher.",
+    "why_it_matters": "Previewing a palette on a live layout catches the mistakes swatch grids hide, and the six-role naming makes ColorHub's output usable as design tokens rather than as decoration.",
+    "quality_tier": "B",
+    "notable_for": [
+      "~150 curated palettes with six semantic colour roles",
+      "Live landing-page previews instead of swatch grids",
+      "Export to CSS variables, SCSS or a Tailwind colours object",
+      "7 downloadable Next.js + Tailwind starter kits, $3.95–$6.95",
+      "Built-in AA contrast check between brand and lightest"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://colorhub.app and https://www.colorhub.app (WebFetch returned an empty JS shell both times; curl confirmed HTTP 200 with a 3.2 KB Next.js shell), https://www.colorhub.app/blog/colorhub-v2-release (WebFetch), and the _buildManifest plus the pricing/starter-kits/export/component-library page chunks parsed directly from /_next/static to enumerate the kits, prices and export formats"
+  },
+  {
+    "id": "bcbcc288-487f-4f32-8555-6b2515c5aa3a",
+    "slug": "color-hunt",
+    "url": "https://colorhunt.co",
+    "name": "Color Hunt",
+    "tagline": "~4,200 curated 4-colour palettes, filterable by 18 colours and 31 moods",
+    "description": "Color Hunt is Gal Shir's open-but-curated palette collection, running since 2015: users submit four-colour combinations, curators hand-pick them, and one submission is featured on the homepage each day. Filter by 18 colour names (Blue, Teal, Mint, Green, Sage, Yellow, Beige, Brown, Orange, Peach, Red, Maroon, Pink, Purple, Navy, Black, Grey, White) or by 31 collections (Pastel, Vintage, Retro, Neon, Gold, Light, Dark, Warm, Cold, Summer, Fall, Winter, Spring, Happy, Nature, Earth, Night, Space, Rainbow, Gradient, Sunset, Sky, Sea, Kids, Skin, Food, Cream, Coffee, Wedding, Christmas, Halloween), and sort by New, Popular, Month, Year, All time or Random. Free, ad-supported, with a Chrome extension; the About page states each palette is public property owned by no one.",
+    "category": "color",
+    "subcategory": "curated-palettes",
+    "kinds": [
+      "gallery",
+      "color-tool",
+      "directory"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "proprietary"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "web-app",
+        "browser-extension",
+        "public-api"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "design-tokens",
+        "images"
+      ],
+      "agent_readiness": [
+        "bot-blocked",
+        "public-api",
+        "copy-paste-ready"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": "Free, ad-supported. No paid tier; partnerships go through hello@colorhunt.co.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": 4210,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Best default when a user wants a good palette immediately with no interaction — every entry is human-curated, so quality is high without you having to judge colour. Two operational facts: the site returns HTTP 403 to WebFetch and other default agent user-agents, so use a browser User-Agent, and there is an undocumented JSON endpoint — POST https://colorhunt.co/php/feed.php with step=<page>&sort=new|popular&tags=<collection>&timeframe=<days>, 40 palettes per page as 12-hex-digit codes, empty past step 105. It is undocumented and unsupported, so cache what you pull and never make it a hard dependency. Hard constraint: every palette is exactly four colours with no semantic roles, so you still have to decide which is background, text and accent — use ColorHub or Coolors when the user needs a six-role token set or a contrast guarantee.",
+    "why_it_matters": "Eleven years of daily human curation makes Color Hunt the highest signal-to-noise palette source on the web, and its palette codes are a compact, stable identifier you can store and re-render anywhere.",
+    "quality_tier": "A",
+    "notable_for": [
+      "~4,210 palettes reachable through the public feed",
+      "Curated daily since 2015 by Gal Shir",
+      "18 colour filters and 31 named collections, combinable",
+      "Undocumented JSON feed at /php/feed.php, 40 per page",
+      "Palettes encoded as a single 12-hex-digit URL code"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://colorhunt.co and https://colorhunt.co/palettes/popular both returned 403 to WebFetch; retrieved instead by curl with a browser User-Agent (HTTP 200) — homepage DOM parsed for the filter and collection names, https://colorhunt.co/about parsed for provenance, and https://colorhunt.co/php/feed.php probed at step=0..500 to bound the palette count"
+  },
+  {
+    "id": "0545adcb-8a93-4728-b241-0a7a3227c4a0",
+    "slug": "colorion-gradients",
+    "url": "https://gradients.colorion.co",
+    "name": "Colorion Gradients",
+    "tagline": "37 hand-picked two-stop CSS gradients, one click to copy the CSS",
+    "description": "A single static page by Csaba Kissi holding 37 hand-curated two-stop CSS3 background gradients. Each swatch shows its two hex values, lets you change the gradient direction, and copies the generated linear-gradient() CSS to the clipboard on click. There is nothing else — no accounts, no search, no tags, no API, no multi-stop or radial support — which makes it fast to skim and quick to exhaust.",
+    "category": "color",
+    "subcategory": "gradients",
+    "kinds": [
+      "color-tool",
+      "gallery",
+      "generator"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "vanilla-css"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "web-app",
+        "copy-paste"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "code",
+        "design-tokens"
+      ],
+      "agent_readiness": [
+        "copy-paste-ready"
+      ],
+      "maturity": "stable"
+    },
+    "components": [
+      "gradient-background"
+    ],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": "Free, no account, no ads.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": 37,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Low priority — reach for Grabient instead for anything gradient-related, since it has semantic search, six render styles, multi-stop control and a documented API, while this is 37 fixed two-stop pairs. The one thing it does well is that the whole set is plain server-rendered Astro HTML, so a single curl gives you all 37 hex pairs at once with no JS and no rate limit; that makes it a cheap offline seed list when you just need a handful of tasteful two-colour gradients. No licence is stated anywhere on the page, so do not tell a user the CSS is safe for commercial redistribution as a bundled asset pack.",
+    "why_it_matters": "A tiny, honest single-page tool from the pre-AI era of dev utilities — still useful precisely because it is fully readable in one request, but far outclassed by anything with search or multi-stop support.",
+    "quality_tier": "C",
+    "notable_for": [
+      "37 curated two-stop gradients on one static page",
+      "Direction control with one-click CSS copy",
+      "Entire dataset readable in a single curl (static Astro build)",
+      "No account, no ads, no tracking"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://gradients.colorion.co (WebFetch, plus a curl DOM parse that counted 37 unique inline linear-gradient declarations and confirmed the Astro static build and the Csaba Kissi credit)"
+  }
+]

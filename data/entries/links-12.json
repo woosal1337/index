@@ -1,0 +1,913 @@
+[
+ {
+  "id": "3a688166-e415-4a83-8ea4-40dce0f0ffd8",
+  "slug": "coss-ui",
+  "url": "https://coss.com/ui/docs",
+  "name": "Coss UI",
+  "tagline": "Cal.com's design system: 60 Base UI primitives shipped as a shadcn registry",
+  "description": "Coss UI is the official design system of Cal.com, rebuilt from the ground up on Base UI (not Radix) and styled with Tailwind CSS v4. It ships 60 documented primitives plus two hooks, installed through the shadcn CLI under the @coss namespace, so the source lands in your repo and you own it. It is unusually agent-friendly: it publishes an llms.txt, an installable Agent Skill covering component APIs and migration rules, and a documented Radix-to-Base-UI migration path. Aimed at teams building production SaaS who want a real, opinionated system rather than a grab bag of copies.",
+  "category": "component-libraries",
+  "subcategory": "shadcn-registries",
+  "kinds": [
+   "component-library",
+   "registry",
+   "design-system-docs"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "tailwind-v4",
+    "css-variables"
+   ],
+   "license": [
+    "agpl"
+   ],
+   "pricing": [
+    "open-source",
+    "free"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "cli",
+    "copy-paste",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "built-on-accessible-primitives",
+    "keyboard-navigable",
+    "focus-managed"
+   ],
+   "content_type": [
+    "code",
+    "design-tokens"
+   ],
+   "agent_readiness": [
+    "llms-txt",
+    "agent-skill",
+    "cli-installable",
+    "registry-json",
+    "structured-docs",
+    "copy-paste-ready",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "accordion",
+   "alert",
+   "alert-dialog",
+   "autocomplete",
+   "avatar",
+   "badge",
+   "breadcrumbs",
+   "button",
+   "calendar",
+   "card",
+   "checkbox",
+   "checkbox-group",
+   "collapsible",
+   "combobox",
+   "command-palette",
+   "context-menu",
+   "date-picker",
+   "dialog",
+   "drawer",
+   "empty-state",
+   "fieldset",
+   "form",
+   "text-input",
+   "input-group",
+   "kbd",
+   "label",
+   "dropdown-menu",
+   "meter",
+   "number-input",
+   "otp-input",
+   "pagination",
+   "popover",
+   "hover-card",
+   "progress-bar",
+   "radio-group",
+   "scroll-area",
+   "select",
+   "separator",
+   "sheet",
+   "skeleton",
+   "slider",
+   "spinner",
+   "switch",
+   "table",
+   "tabs",
+   "textarea",
+   "toast",
+   "toggle-button",
+   "toggle-group",
+   "toolbar",
+   "tooltip"
+  ],
+  "component_count": 60,
+  "surfaces": [
+   "login-web-app",
+   "sign-up",
+   "settings-web-app",
+   "account-web-app",
+   "admin-panel",
+   "multi-step-form",
+   "submitting-a-form",
+   "showing-input-error",
+   "saving-changes",
+   "filtering-items",
+   "search-results",
+   "empty-state",
+   "user-management",
+   "invite"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "pnpm dlx shadcn@latest add @coss/ui",
+  "package": null,
+  "docs_url": "https://coss.com/ui/docs",
+  "repo_url": "https://github.com/cosscom/coss",
+  "registry_url": null,
+  "github": {
+   "stars": 10420,
+   "license": "AGPL-3.0",
+   "last_activity": "2026-08-04"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Reach for Coss UI over stock shadcn/ui when the project wants one coherent, opinionated system with real design tokens rather than assembled copies — install the whole theme with `pnpm dlx shadcn@latest init @coss/style`, or just the primitives with `@coss/ui`. Before writing any Coss component, install its Agent Skill (`pnpm dlx skills add cosscom/coss`) or read https://coss.com/ui/llms.txt: the Base UI API differs from Radix in ways that silently break ported code (`asChild` becomes `render`, `onSelect` becomes `onClick`), so shadcn/Radix snippets will not drop in unchanged. The hard constraint is licensing — the upstream repo is AGPL-3.0, so flag it before using this in a closed-source product.",
+  "why_it_matters": "It is the rare public design system that a large commercial open-source product actually runs on, and one of the first to ship a first-class Agent Skill and llms.txt alongside its docs. That makes it both a component source and a reference for how a system should be documented for agents.",
+  "quality_tier": "S",
+  "notable_for": [
+   "Built on Base UI, not Radix",
+   "Ships an installable Agent Skill",
+   "llms.txt for agent consumption",
+   "Powers Cal.com in production",
+   "AGPL-3.0 licensing caveat"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://coss.com/ui/docs, https://coss.com/ui/docs/get-started, https://coss.com/ui/docs/skills, https://coss.com/ui/docs/components/button, https://api.github.com/repos/cosscom/coss"
+ },
+ {
+  "id": "4da50322-1c65-490c-839d-1e6f69cfb8fa",
+  "slug": "ai-elements",
+  "url": "https://ai-sdk.dev/elements/overview",
+  "name": "AI Elements",
+  "tagline": "Vercel's 47-component shadcn registry for chat, agent, voice and workflow UIs",
+  "description": "AI Elements is Vercel's component library and custom shadcn registry for AI-native app UIs, split into Chatbot, Code, Voice, Workflow and Utilities groups. It covers the parts that are tedious to hand-roll: streaming messages, reasoning and chain-of-thought panels, tool calls, approval confirmations, citations and sources, sandboxes, file trees, stack traces, voice transcription, and a node/edge agent canvas. Components install into your own tree via `ai-elements` or the shadcn CLI and are wired to the Vercel AI SDK for streaming and type safety. It is the default starting point if you are already on the AI SDK.",
+  "category": "ai-interface-kits",
+  "subcategory": "chat-and-agent-components",
+  "kinds": [
+   "component-library",
+   "registry"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "tailwind-v4"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "cli",
+    "npm-package",
+    "copy-paste",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "built-on-accessible-primitives"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "registry-json",
+    "cli-installable",
+    "structured-docs",
+    "copy-paste-ready",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "conversation",
+   "message",
+   "prompt-input",
+   "prompt-queue",
+   "suggestion",
+   "reasoning",
+   "plan",
+   "task",
+   "tool-call",
+   "approval-request",
+   "checkpoint",
+   "sources",
+   "inline-citation",
+   "attachments",
+   "context-meter",
+   "model-selector",
+   "shimmer",
+   "artifact",
+   "agent-card",
+   "agent-canvas",
+   "node-editor",
+   "web-preview",
+   "code-block",
+   "diff-view",
+   "file-tree",
+   "json-viewer",
+   "stack-trace-panel",
+   "terminal",
+   "generated-image",
+   "audio-player",
+   "speech-input",
+   "voice-output",
+   "transcript",
+   "persona",
+   "panel",
+   "toolbar"
+  ],
+  "component_count": 47,
+  "surfaces": [
+   "ai-chat-panel",
+   "ai-action-approval",
+   "agent-run-history",
+   "agent-settings",
+   "chat-web-app"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "npx ai-elements@latest add message   # or: npx shadcn@latest add @ai-elements/message",
+  "package": "ai-elements",
+  "docs_url": "https://elements.ai-sdk.dev/overview",
+  "repo_url": "https://github.com/vercel/ai-elements",
+  "registry_url": null,
+  "github": {
+   "stars": 2329,
+   "license": "NOASSERTION",
+   "last_activity": "2026-08-01"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "This is the first thing to reach for on any Next.js + Vercel AI SDK chat or agent surface — the components expect AI SDK message parts and stream handling, so they slot in with almost no glue, but that same coupling makes them awkward if the backend is LangGraph, a raw OpenAI call, or anything non-AI-SDK. Note the URL redirects: `ai-sdk.dev/elements/*` 308s to `elements.ai-sdk.dev/*`, and the prerequisites are strict (React 19, Next 14+, Tailwind v4, shadcn/ui already configured). Install per component rather than the whole set; the Workflow canvas and Sandbox groups pull heavy client deps you do not want in a plain chatbot.",
+  "why_it_matters": "It is the reference vocabulary for AI app UI — reasoning, tool call, approval, checkpoint, sources — maintained by the same team as the AI SDK, so the component names and the SDK's data model stay in sync.",
+  "quality_tier": "S",
+  "notable_for": [
+   "Maintained by Vercel alongside the AI SDK",
+   "47 components across chat, code, voice, workflow",
+   "Agent canvas with nodes and edges",
+   "Approval and checkpoint primitives",
+   "Installs into your repo via shadcn CLI"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://ai-sdk.dev/elements/overview (308 -> elements.ai-sdk.dev), https://elements.ai-sdk.dev/overview, https://elements.ai-sdk.dev/setup, https://github.com/vercel/ai-elements, https://api.github.com/repos/vercel/ai-elements"
+ },
+ {
+  "id": "1a055177-945c-406d-82eb-308573d545e9",
+  "slug": "shadcnship",
+  "url": "https://shadcnship.com",
+  "name": "ShadcnShip",
+  "tagline": "shadcn blocks pre-wired to Supabase auth, Stripe billing and Resend email",
+  "description": "ShadcnShip is a block collection for Next.js whose selling point is that the blocks arrive already connected to a backend: Supabase for OAuth and magic-link auth, database and storage; Stripe for billing; Resend and Lemon Squeezy listed as coming soon. The free tier is 50+ static marketing and app blocks (hero, feature, pricing, testimonial, FAQ, contact, stats, integration, login) you copy and paste with no account. A Pro tier, free during beta, adds 50+ connected blocks plus admin and user dashboards. It is aimed at solo founders assembling a SaaS shell rather than teams wanting a design system.",
+  "category": "component-libraries",
+  "subcategory": "integration-components",
+  "kinds": [
+   "block-collection",
+   "component-library"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "tailwind-any"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free",
+    "freemium"
+   ],
+   "distribution": [
+    "copy-paste",
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "copy-paste-ready"
+   ],
+   "maturity": "beta"
+  },
+  "components": [
+   "hero",
+   "card",
+   "pricing-table",
+   "review",
+   "accordion",
+   "form",
+   "stat",
+   "login-form",
+   "magic-link",
+   "social-login-buttons",
+   "dashboard"
+  ],
+  "component_count": 50,
+  "surfaces": [
+   "homepage",
+   "features",
+   "pricing-website",
+   "testimonials",
+   "faq",
+   "contact-us",
+   "login-web-app",
+   "sign-up",
+   "billing-web-app",
+   "admin-panel",
+   "account-web-app"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Free tier $0 forever, 50+ static blocks, no account required. Pro tier free during beta (50+ connected blocks, admin and user dashboards, unlimited projects); Pro price to be announced before stable release.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": 50
+  },
+  "agent_guidance": "Use this only when the stack is already Next.js + Supabase + Stripe and the goal is a working auth-and-billing shell in an afternoon — the value is the wiring, not the visual design, which is generic shadcn. There is no CLI or registry: you copy files by hand, so treat every block as a starting draft and re-audit the Supabase RLS policies and Stripe webhook handling yourself rather than trusting the snippet. It is still in beta with no stated license and no public repo, so do not build a client deliverable on it without checking terms first.",
+  "why_it_matters": "Most shadcn block libraries stop at markup; this one is one of the few that ships the backend wiring for auth and billing, which is where solo SaaS builds actually stall.",
+  "quality_tier": "B",
+  "notable_for": [
+   "Blocks pre-connected to Supabase and Stripe",
+   "Free tier needs no account",
+   "Admin and user dashboards in Pro",
+   "Beta, pricing not yet announced",
+   "No public repo or stated license"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://shadcnship.com, https://shadcnship.com/blocks (partial listing; /components and /docs and /pricing all 404)"
+ },
+ {
+  "id": "22af7519-732a-4cf4-b5b2-2c2e0da5a7ef",
+  "slug": "lucide-animated",
+  "url": "https://lucide-animated.com",
+  "name": "Lucide Animated",
+  "tagline": "467 MIT Lucide icons that animate on hover, with a markdown page for every icon and a skill file written for an agent",
+  "description": "Lucide Animated (formerly pqoqubbw/icons) is a set of 466 Lucide icons rebuilt as TypeScript React components that animate on hover using Motion. Each icon is installed individually through the shadcn CLI from a per-icon registry JSON, lands in your own component folder, and accepts normal SVG props like className and onClick. It is MIT licensed and free for commercial use, with an MCP server at /mcp for agent clients and community ports to Svelte, Vue, Angular and Flutter. Use it for interface accents — nav items, buttons, toggles — not as a general-purpose icon set.\n\nSince the last check the project moved to its own domain: icons.pqoqubbw.dev now redirects to lucide-animated.com. The count rose from 466 icons to 467, and the repository went from 7,957 stars to 7,997.\n\nThe larger change is the documentation. The site now publishes an llms.txt index, an llms-full.txt corpus of 39 KB, a nested icon index at /icons/llms.txt, a markdown page for every single icon at /icons/<name>.md, markdown versions of the site pages at /index.md and /sponsorship.md, and a skill.md written as a real agent skill with name and description frontmatter. No other icon set in this corpus documents itself that way.",
+  "category": "icons-logos",
+  "subcategory": "animated-icons",
+  "kinds": [
+   "icon-set",
+   "animation-library",
+   "registry",
+   "agent-skill"
+  ],
+  "facets": {
+   "framework": [
+    "react"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "cli",
+    "copy-paste",
+    "github-repo",
+    "mcp-server"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "icons",
+    "code"
+   ],
+   "agent_readiness": [
+    "structured-docs",
+    "llms-txt",
+    "agent-skill",
+    "mcp-server",
+    "registry-json",
+    "cli-installable",
+    "copy-paste-ready",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "icon",
+   "animation",
+   "hover-effect"
+  ],
+  "component_count": null,
+  "surfaces": [
+   "tab-bar-navigation",
+   "command-palette",
+   "settings-web-app",
+   "homepage"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "npx shadcn@latest add \"https://lucide-animated.com/r/activity.json\"",
+  "package": null,
+  "docs_url": "https://lucide-animated.com/llms.txt",
+  "repo_url": "https://github.com/pqoqubbw/icons",
+  "registry_url": "https://lucide-animated.com/mcp",
+  "github": {
+   "stars": 7997,
+   "license": "MIT",
+   "last_activity": "2026-08-22"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": 467,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Read https://lucide-animated.com/skill.md first. It is a real agent skill with frontmatter, and it states the whole operating procedure in one page.\n\nAddress one icon directly at /icons/<name>.md in kebab case, for example /icons/activity.md. That returns about 1.4 KB, so an agent reads one icon instead of the catalogue.\n\nPick the index that fits the context window. /llms.txt is a 2.7 KB map, /icons/llms.txt is a 32 KB icon list, and /llms-full.txt is a 39 KB corpus. Do not fetch the corpus when the map answers the question.\n\nPair this with plain Lucide rather than replacing it: install animated versions only for the handful of icons a user actually hovers or toggles, because each one is a separate copy-pasted component file plus a Motion dependency, and 466 of them would bloat the bundle badly. Install per icon with the registry URL pattern `https://lucide-animated.com/r/<icon-name>.json`, or point an MCP-capable client at `https://lucide-animated.com/mcp` to look names up. The animations are hover-triggered and the site makes no reduced-motion guarantee, so wrap them yourself if the project claims WCAG compliance.",
+  "why_it_matters": "It solved animated icons the way shadcn solved components — as owned source files installed per item rather than a package — and became the default answer for the problem, with 8k stars and an MCP server.",
+  "quality_tier": "S",
+  "notable_for": [
+   "467 animated icons, MIT licensed",
+   "skill.md written as a real agent skill",
+   "markdown page for every icon",
+   "MCP server and per-icon registry install",
+   "7,997 GitHub stars"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-29",
+  "evidence": "Re-checked 2026-08-29. https://icons.pqoqubbw.dev now 200-redirects to https://lucide-animated.com/, so this record names the new canonical domain. https://lucide-animated.com/ 200, 154 KB; title \"lucide-animated | Free Animated React Icons Library\"; the page reads \"an open-source (MIT License) collection of smooth animated icons\" and \"Crafted with Motion & Lucide\", shows `pnpm dlx shadcn add @lucide-animated/a-arrow-down` with npm, pnpm, yarn and bun tabs, and credits \"dmytro, creator of lucide-animated\". /llms.txt 200 at 2,680 bytes: \"Open-source collection of 467+ beautifully crafted animated React icons based on Lucide, powered by Motion. MIT licensed and copy-paste ready\", linking /index.md, /sponsorship.md, /skill.md as \"Agent Skill — Operating guide\", /llms-full.txt and /icons/llms.txt as \"Full list of 467 animated icons with per-icon markdown links\". /skill.md 200 at 2,689 bytes, opening with the frontmatter `name: lucide-animated` and stating \"An MCP server is available at /mcp\". /llms-full.txt 200 at 38,978 bytes, /icons/llms.txt 200 at 32,359 bytes, /icons/activity.md 200 at 1,447 bytes, /index.md 200 at 4,645 bytes, /sitemap.xml 200 with 469 URLs, /robots.txt 200. /mcp answers 406 to a GET, consistent with a content-negotiated MCP endpoint. index.md states the CLI \"drops a single React component file into components/icons/<icon-name>.tsx and adds motion to dependencies if missing\". GitHub API for pqoqubbw/icons: 7,997 stars, 279 forks, MIT, pushed 2026-08-22, homepage https://lucide-animated.com. \n\nEarlier check (2026-08-15): https://icons.pqoqubbw.dev (307 -> lucide-animated.com), https://lucide-animated.com/, https://github.com/pqoqubbw/icons, https://api.github.com/repos/pqoqubbw/icons",
+  "domain": "lucide-animated.com",
+  "tier_reason": "Real scale at 467 icons, MIT, 7,997 stars, and a per-icon install that writes one file and adds one dependency. The agent surface is the widest in this corpus: llms.txt, llms-full.txt, a nested icon index, markdown for every icon, markdown for the pages, an MCP server and a skill.md with frontmatter. It extends Lucide, already an S record here, so a project keeps one icon vocabulary and gains motion."
+ },
+ {
+  "id": "10714910-bd5f-4e9b-8c7d-9eb0417cd585",
+  "slug": "shadcnblocks",
+  "url": "https://shadcnblocks.com",
+  "name": "Shadcnblocks",
+  "tagline": "1,837 paid shadcn blocks and 19 Next.js and Astro templates, lifetime license",
+  "description": "Shadcnblocks is the largest commercial block library for shadcn/ui: 1,837 blocks and 2,093 components spread across 100 named categories, from Hero (247) and Feature (313) down to Field Mapping and Live Purchase. It also sells 19 full templates, a Figma kit, an admin kit with 139 prebuilt pages, and a visual page builder. Distribution is unusually broad for a paid product — shadcn CLI, an MCP server for AI assistants, a VS Code/Cursor/Windsurf extension, and a browser Explorer. Licensing is one-time lifetime per seat with unlimited client projects, but no resale or competing products.",
+  "category": "blocks-templates-themes",
+  "subcategory": "page-blocks",
+  "kinds": [
+   "block-collection",
+   "template",
+   "marketplace"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next",
+    "astro"
+   ],
+   "styling": [
+    "tailwind-any"
+   ],
+   "license": [
+    "commercial",
+    "proprietary"
+   ],
+   "pricing": [
+    "paid",
+    "one-time",
+    "freemium",
+    "account-required"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "cli",
+    "marketplace",
+    "figma-file",
+    "browser-extension",
+    "mcp-server",
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "built-on-accessible-primitives"
+   ],
+   "content_type": [
+    "code",
+    "figma",
+    "screenshots"
+   ],
+   "agent_readiness": [
+    "mcp-server",
+    "cli-installable",
+    "registry-json",
+    "auth-required",
+    "agent-paywalled"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "hero",
+   "card",
+   "card-grid",
+   "bento-grid",
+   "pricing-table",
+   "comparison-table",
+   "table",
+   "data-grid",
+   "chart",
+   "kpi-row",
+   "stat",
+   "accordion",
+   "review",
+   "image-gallery",
+   "footer",
+   "navbar",
+   "sidebar",
+   "app-shell",
+   "dashboard",
+   "banner",
+   "announcement-bar",
+   "timeline",
+   "login-form",
+   "signup-form",
+   "onboarding-flow",
+   "team-invite",
+   "profile-form",
+   "checkout",
+   "order-summary",
+   "payment-method-selector",
+   "product-card",
+   "product-listing",
+   "product-gallery",
+   "cart",
+   "wishlist",
+   "logo",
+   "list",
+   "form",
+   "survey",
+   "gradient-background"
+  ],
+  "component_count": 2093,
+  "surfaces": [
+   "homepage",
+   "features",
+   "pricing-website",
+   "compare",
+   "testimonials",
+   "about",
+   "team",
+   "careers",
+   "contact-us",
+   "blog",
+   "blog-post",
+   "changelog",
+   "faq",
+   "help-center",
+   "waitlist",
+   "login-web-app",
+   "sign-up",
+   "onboarding-web-app",
+   "invite",
+   "user-management",
+   "settings-web-app",
+   "notification-settings",
+   "integrations",
+   "analytics",
+   "admin-panel",
+   "adding-to-cart",
+   "cart-website",
+   "checkout",
+   "order-status",
+   "single-item-detail",
+   "search-results",
+   "filtering-items"
+  ],
+  "templates": [
+   {
+    "name": "Shadcn Admin Kit",
+    "url": "https://www.shadcnblocks.com/template/admin",
+    "purpose": "Admin dashboard kit with 139 prebuilt pages for ecommerce, project management, payments and data visualization"
+   },
+   {
+    "name": "Apex",
+    "url": "https://www.shadcnblocks.com/template/apex",
+    "purpose": "Roofing and home-services site with before/after sliders and a booking calendar"
+   },
+   {
+    "name": "Verdict",
+    "url": "https://www.shadcnblocks.com/template/verdict",
+    "purpose": "Law firm and legal services site for attorneys and professional service businesses"
+   },
+   {
+    "name": "Meridian",
+    "url": "https://www.shadcnblocks.com/template/meridian",
+    "purpose": "Developer-tools SaaS site with an intro animation and MDX documentation"
+   },
+   {
+    "name": "Kinto",
+    "url": "https://www.shadcnblocks.com/template/kinto",
+    "purpose": "Single product or app marketing template"
+   },
+   {
+    "name": "Hatch",
+    "url": "https://www.shadcnblocks.com/template/hatch",
+    "purpose": "Minimal freelancer portfolio and services site"
+   },
+   {
+    "name": "Echo",
+    "url": "https://www.shadcnblocks.com/template/echo",
+    "purpose": "Personal portfolio for showcasing professional work"
+   },
+   {
+    "name": "Hive",
+    "url": "https://www.shadcnblocks.com/template/hive",
+    "purpose": "Creative agency portfolio site"
+   },
+   {
+    "name": "Metafi",
+    "url": "https://www.shadcnblocks.com/template/metafi",
+    "purpose": "Modern brand marketing site"
+   },
+   {
+    "name": "Lumen",
+    "url": "https://www.shadcnblocks.com/template/lumen",
+    "purpose": "Luminescent landing page with the core marketing sections"
+   },
+   {
+    "name": "Zippay",
+    "url": "https://www.shadcnblocks.com/template/zippay",
+    "purpose": "Fintech SaaS marketing site"
+   },
+   {
+    "name": "Plasma",
+    "url": "https://www.shadcnblocks.com/template/plasma",
+    "purpose": "Developer SaaS app site with landing, pricing, docs and changelog pages"
+   },
+   {
+    "name": "Aspect",
+    "url": "https://www.shadcnblocks.com/template/aspect",
+    "purpose": "Corporate marketing site"
+   },
+   {
+    "name": "Scalar",
+    "url": "https://www.shadcnblocks.com/template/scalar",
+    "purpose": "Product/SaaS site for GitHub projects and developer-focused platforms"
+   },
+   {
+    "name": "Sonic",
+    "url": "https://www.shadcnblocks.com/template/sonic",
+    "purpose": "Single product landing page for selling a physical or digital product"
+   },
+   {
+    "name": "Relative",
+    "url": "https://www.shadcnblocks.com/template/relative",
+    "purpose": "Streamlined landing page with the essential marketing sections"
+   },
+   {
+    "name": "Charter",
+    "url": "https://www.shadcnblocks.com/template/charter",
+    "purpose": "Fintech-style marketing site"
+   },
+   {
+    "name": "Streamline",
+    "url": "https://www.shadcnblocks.com/template/streamline",
+    "purpose": "Modern landing page with professional sections"
+   },
+   {
+    "name": "Mainline",
+    "url": "https://www.shadcnblocks.com/template/mainline",
+    "purpose": "Minimal landing page; the most popular template on the site"
+   }
+  ],
+  "template_count": 19,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "One-time lifetime, single user: Pro $149 (2,093+ components, 1,678+ pro blocks); Premium $299 (adds 19 templates, Figma kit, Admin kit); Elite $399 (adds 49+ prebuilt pages and the Page Builder). Unlimited end products for your company and clients; no reselling or competing products.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": 1837
+  },
+  "agent_guidance": "This is the widest shadcn block catalog in existence, so it is the right lookup when a brief needs an unusual section — Field Mapping, Live Purchase, Shop The Look, Compliance — that no free library ships. The catch for agents is the paywall: browsing categories is public but the block source sits behind a paid account, so the CLI, MCP server and IDE extension all need credentials before they return code. Ask the user whether they hold a Pro/Premium/Elite seat before you plan around it; if not, fall back to a free registry and use the category list here purely as a section-inventory reference.",
+  "why_it_matters": "It is the de facto reference index for what a shadcn page section can be — 100 categories with real counts — and the only paid block library that ships an MCP server and IDE extension alongside the CLI.",
+  "quality_tier": "A",
+  "notable_for": [
+   "1,837 blocks across 100 named categories",
+   "19 Next.js and Astro templates plus a Figma kit",
+   "MCP server and IDE extension distribution",
+   "One-time lifetime pricing, no subscription",
+   "Source is paywalled behind an account"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://shadcnblocks.com, https://www.shadcnblocks.com/, https://www.shadcnblocks.com/blocks, https://www.shadcnblocks.com/templates, https://www.shadcnblocks.com/pricing"
+ },
+ {
+  "id": "e3ba9b73-c431-4ab9-82a7-94ea8ae39bf1",
+  "slug": "manifest-ui",
+  "url": "https://ui.manifest.build",
+  "name": "Manifest UI",
+  "tagline": "39 MIT shadcn blocks sized for ChatGPT Apps and MCP app surfaces",
+  "description": "Manifest UI is an open-source shadcn/ui registry of 39 blocks aimed specifically at ChatGPT Apps and MCP apps — the constrained panels an assistant renders inside a conversation. The catalog is organised by use case rather than by primitive: Blogging, Events, Forms, Lists & Tables, Map, Messaging, Payment, Selection, Social and Status & Progress. Blocks install one at a time with the shadcn CLI under the @manifest namespace and lean on Tailwind v4 theming so they inherit the host surface's tokens. It is early — 34 stars, nine commits — but it targets a real gap that general block libraries ignore.",
+  "category": "ai-interface-kits",
+  "subcategory": "chat-and-agent-components",
+  "kinds": [
+   "block-collection",
+   "registry",
+   "component-library"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "tailwind-v4",
+    "css-variables"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "cli",
+    "copy-paste",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "built-on-accessible-primitives"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "registry-json",
+    "cli-installable",
+    "copy-paste-ready",
+    "open-source-code"
+   ],
+   "maturity": "beta"
+  },
+  "components": [
+   "card",
+   "list",
+   "typography",
+   "table",
+   "product-listing",
+   "hero",
+   "stat",
+   "badge",
+   "progress-stepper",
+   "confirmation-state",
+   "form",
+   "date-picker",
+   "time-picker",
+   "currency-input",
+   "order-summary",
+   "plan-selector",
+   "listbox",
+   "chip",
+   "suggestion",
+   "conversation",
+   "message",
+   "embed",
+   "map",
+   "carousel"
+  ],
+  "component_count": 39,
+  "surfaces": [
+   "ai-chat-panel",
+   "chat-web-app",
+   "single-item-detail",
+   "search-results",
+   "filtering-items",
+   "submitting-a-form",
+   "making-a-card-payment",
+   "checkout",
+   "order-status",
+   "blog-post",
+   "map-view"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "npx shadcn@latest add @manifest/table",
+  "package": null,
+  "docs_url": "https://ui.manifest.build/blocks",
+  "repo_url": "https://github.com/mnfst/manifest-ui",
+  "registry_url": "https://ui.manifest.build",
+  "github": {
+   "stars": 34,
+   "license": "MIT",
+   "last_activity": "2026-02-19"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": 39
+  },
+  "agent_guidance": "Reach for this when the deliverable is a widget rendered inside ChatGPT or an MCP client rather than a full page — the blocks are already sized and themed for that cramped, token-inheriting context, which is exactly what AI Elements and shadcnblocks do not cover. It composes with AI Elements: use AI Elements for the conversation shell and Manifest UI for the domain payloads an app returns (ticket tiers, order confirm, event detail, map carousel). Treat it as early software: 34 stars, nine commits, no push since February 2026, so read each block's source before shipping and expect to maintain it yourself.",
+  "why_it_matters": "ChatGPT Apps and MCP apps are a new render target with real layout constraints, and this is one of the first open registries built for it instead of retrofitted from web page blocks.",
+  "quality_tier": "B",
+  "notable_for": [
+   "Built for ChatGPT Apps and MCP app surfaces",
+   "39 blocks grouped by use case, not primitive",
+   "MIT and installable via shadcn CLI",
+   "Tailwind v4 token inheritance",
+   "Low activity: 9 commits, stale since Feb 2026"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://ui.manifest.build, https://ui.manifest.build/blocks, https://github.com/mnfst/manifest-ui, https://api.github.com/repos/mnfst/manifest-ui"
+ }
+]

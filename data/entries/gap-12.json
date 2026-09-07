@@ -1,0 +1,606 @@
+[
+ {
+  "id": "depo:j57chbbe5bj02js350y1f1asn9835h28",
+  "slug": "institute-of-health",
+  "url": "https://www.instituteofhealth.com/",
+  "name": "Institute of Health",
+  "tagline": "Webflow marketing site for a functional-nutrition certification course",
+  "description": "This is not a design resource. It is the marketing and enrolment site for an accredited Integrative Nutritional Therapist certification, built on Webflow, with nav for Courses, Events, Testimonials, Articles, FAQ, About, Contact and a Student Login. Its only value to a designer is as a reference for a long-form course landing page: 24 curriculum unit cards, a video testimonial carousel, a heavy FAQ block and a consultation CTA. No components, assets, downloads or code are offered.",
+  "category": "inspiration-galleries",
+  "subcategory": "site-galleries",
+  "kinds": [
+   "reference"
+  ],
+  "facets": {
+   "framework": [
+    "webflow"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "not-applicable"
+   ],
+   "distribution": [
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "prose",
+    "video"
+   ],
+   "agent_readiness": [
+    "none"
+   ],
+   "maturity": "stable"
+  },
+  "components": [
+   "card-grid",
+   "carousel",
+   "accordion",
+   "video-player",
+   "hero"
+  ],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "testimonials",
+   "faq",
+   "about",
+   "contact-us",
+   "blog"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "No course prices shown on the site; the funnel routes to a career-pathway call.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Do not reach for this as a design resource; it ships nothing you can install, copy or download. The only defensible use is as a structural reference when you are laying out a long education or course landing page and want to see the ordering of hero, curriculum grid, video testimonials, FAQ and consultation CTA. For anything else, prefer a real template gallery.",
+  "why_it_matters": "It is a competitor-list false positive: a health-education business site tagged Design/Inspiration with no design payload. Catalogued so it is not re-promoted.",
+  "quality_tier": "C",
+  "notable_for": [
+   "Webflow-built course funnel",
+   "24 curriculum unit cards",
+   "video testimonial carousel",
+   "not a design resource"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://www.instituteofhealth.com/ (fetched, 200; HTML confirms Webflow build)",
+  "source": "depo"
+ },
+ {
+  "id": "depo:j57cepqerxb8cqb4yeewhga309834ck1",
+  "slug": "rams",
+  "url": "https://www.rams.ai/",
+  "name": "Rams",
+  "tagline": "Automated design review that scores agent-written UI against 308 rules",
+  "description": "Rams is a hosted design-review engine for UI code: it grades a diff 0-100 across nine categories (accessibility, color, typography, spacing, components, UX, motion, craft, native) using 308 versioned rules, and returns patch-shaped fixes rather than prose. It ships four entry points that share one quota: a free offline agent skill (curl -fsSL rams.ai/install | bash), a hosted MCP server exposing a review_files tool, a GitHub App for automatic PR review, and a CI action (rams-action@v1) that can block a merge. It targets React, Next.js, Vue, Svelte, Angular, SwiftUI and Tailwind. Built for teams whose UI is now written by coding agents and who need a taste and a11y gate in the pipeline.",
+  "category": "agent-design-tooling",
+  "subcategory": "prompts-and-feedback",
+  "kinds": [
+   "ai-tool",
+   "mcp-server",
+   "agent-skill"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next",
+    "vue",
+    "svelte",
+    "angular",
+    "swiftui"
+   ],
+   "styling": [
+    "tailwind-any",
+    "css-variables"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "freemium",
+    "subscription",
+    "one-time",
+    "usage-based",
+    "account-required"
+   ],
+   "distribution": [
+    "mcp-server",
+    "agent-skill",
+    "cli",
+    "saas",
+    "web-app"
+   ],
+   "platform": [
+    "web",
+    "ios",
+    "cross-platform"
+   ],
+   "accessibility": [
+    "wcag-aa",
+    "contrast-checked",
+    "reduced-motion",
+    "claimed-accessible"
+   ],
+   "content_type": [
+    "code",
+    "prose"
+   ],
+   "agent_readiness": [
+    "mcp-server",
+    "agent-skill",
+    "cli-installable",
+    "auth-required",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "claude mcp add --transport http rams https://worker.rams.ai/mcp --header \"Authorization: Bearer rams_YOUR_KEY\"   # free skill: curl -fsSL rams.ai/install | bash",
+  "package": null,
+  "docs_url": "https://www.rams.ai/rules",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Free $0 (1 public repo, 30 reviews/mo); Solo $39/mo (1 private repo, 50 reviews); Team $499/mo (unlimited repos, 500 reviews, then $0.90 each); Review Pack $24 one-time for 25 credits. MCP reviews draw on the same quota. The /rams skill is free.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Reach for the free /rams skill as a self-check right after you generate or refactor UI, before you open a PR; it is stateless and runs inside your agent, so it costs nothing and catches the usual agent tells (missing alt text, hardcoded hex instead of tokens, duplicate CTAs, unguarded animation). Escalate to the MCP or GitHub App only when a team wants a persistent 0-100 score history or a merge gate. It overlaps eslint-plugin-jsx-a11y and axe on the a11y axis but goes further into taste and token discipline, so run it alongside them, not instead; note the engine is closed-source, cloud-side and key-gated, so it will not work offline or on air-gapped repos.",
+  "why_it_matters": "It is the clearest example so far of design review packaged natively for coding agents rather than for humans, with a versioned public rulebook you can argue with.",
+  "quality_tier": "A",
+  "notable_for": [
+   "308 versioned rules across 9 categories",
+   "free offline /rams agent skill",
+   "hosted MCP with a review_files tool",
+   "CI action that can block a merge",
+   "0-100 score with patch fixes"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://www.rams.ai/ , https://www.rams.ai/rules , https://www.rams.ai/mcp , https://www.rams.ai/skill , https://www.rams.ai/github , https://www.rams.ai/sitemap.xml (/engine 404s)",
+  "source": "depo"
+ },
+ {
+  "id": "depo:j5790typ5jbb7g2ptd9qntf7cn8354nq",
+  "slug": "design-is-more-than-code",
+  "url": "https://linear.app/now/design-is-more-than-code",
+  "name": "Design Is More Than Code",
+  "tagline": "Karri Saarinen on why designing with code is only the last stage",
+  "description": "An essay by Linear co-founder and designer Karri Saarinen, published 19 December 2025 in Linear's Now series. It splits design into designing the problem (working out why a need exists before accepting the brief, using Linear's Projects feature as the worked example) and designing the solution, which itself separates a conceptual stage of exploring form in any medium from an execution stage in real material such as code. The argument is that a culture that jumps straight to production speed skips the conceptual stage and ends up with competent but undifferentiated products. Useful for design leads and for anyone deciding how much of a workflow to hand to a code-first agent.",
+  "category": "essays-guides-courses",
+  "subcategory": "craft-essays",
+  "kinds": [
+   "article"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "article"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "prose"
+   ],
+   "agent_readiness": [
+    "none"
+   ],
+   "maturity": "stable"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Cite this when a user asks you to jump straight to building a UI and the underlying problem is still unstated; it gives you a defensible vocabulary for asking one round of why-questions before you write JSX. Pair it with a concrete spec or design.md so the conceptual stage produces an artifact rather than a delay. Do not quote it as evidence that designers should not code, which is the opposite of its point.",
+  "why_it_matters": "One of the more disciplined pieces of writing on where AI code generation actually sits in a design process, from someone shipping a product known for craft.",
+  "quality_tier": "A",
+  "notable_for": [
+   "Karri Saarinen, Linear",
+   "problem design vs solution design",
+   "conceptual stage vs execution stage",
+   "argument against production-speed defaults"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://linear.app/now/design-is-more-than-code (fetched in full)",
+  "source": "depo"
+ },
+ {
+  "id": "depo:j579zqs5wtvsknf217ck0k6jqn835qn4",
+  "slug": "annnimate",
+  "url": "https://www.annnimate.com/",
+  "name": "Annnimate",
+  "tagline": "80 copy-paste GSAP animation components for React, Vue and vanilla",
+  "description": "A paid, copy-paste library of 80 production-grade GSAP components (verified count, target is 100), each shipped in React with useGSAP, Vue with composables, and plain HTML/CSS/JS. Coverage runs from small primitives (magnetic button, custom cursor, marquee, counter, typewriter) through scroll work (mask reveal, index wipe, image dissolve on scroll, velocity clip) to whole sections (capsule hero, radial gallery, dock footer, mega menu, gooey menu, multi-level drawer). Code is browsable free and there is a rotating free Starter Pack, but full access is a seat subscription; separate one-time Landmark Kits are sold on top. An MCP server lets Cursor and Claude Code pull components directly.",
+  "category": "motion-interaction",
+  "subcategory": "animated-components",
+  "kinds": [
+   "animation-library",
+   "block-collection",
+   "component-library"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "vue",
+    "vanilla",
+    "next"
+   ],
+   "styling": [
+    "vanilla-css",
+    "css-variables"
+   ],
+   "license": [
+    "commercial",
+    "proprietary"
+   ],
+   "pricing": [
+    "freemium",
+    "subscription",
+    "one-time",
+    "account-required"
+   ],
+   "distribution": [
+    "copy-paste",
+    "mcp-server",
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "mcp-server",
+    "copy-paste-ready",
+    "auth-required"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "scroll-reveal",
+   "scroll-driven-animation",
+   "text-effect",
+   "typewriter-text",
+   "marquee",
+   "custom-cursor",
+   "parallax",
+   "count-up",
+   "shimmer",
+   "gradient-background",
+   "hover-effect",
+   "drag-and-drop",
+   "page-transition",
+   "transition",
+   "animation",
+   "button",
+   "icon-button",
+   "accordion",
+   "tabs",
+   "dialog",
+   "drawer",
+   "navigation-drawer",
+   "navigation-menu",
+   "mega-menu",
+   "tooltip",
+   "carousel",
+   "image-gallery",
+   "card",
+   "grid",
+   "hero",
+   "header",
+   "footer",
+   "dock",
+   "progress-bar",
+   "select",
+   "form",
+   "full-screen-takeover"
+  ],
+  "component_count": 80,
+  "surfaces": [
+   "homepage",
+   "features",
+   "testimonials",
+   "multi-step-form"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://annnimate.com/animations",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Quarterly billing: Solo EUR 20/mo (1 seat), Studio EUR 79/mo (5 seats), Studio+ EUR 169/mo (15 seats); yearly saves up to 17%. Landmark Kits EUR 149 one-time. Free rotating Starter Pack, 14-day money-back guarantee.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": 80
+  },
+  "agent_guidance": "Prefer this over Motion/Framer Motion component sets when the brief is agency-grade marketing motion (curtain sliders, image trails, gooey menus, velocity-driven type) and the stack is already GSAP or plain HTML; prefer Motion Primitives or Aceternity when the project is a React app that must stay npm-installable, because Annnimate has no package and everything is pasted in. Wire up its MCP server so you pull the current source instead of guessing the GSAP timeline, and budget for the seat subscription before you promise a component. Check reduced-motion handling yourself: none of the 80 entries document it.",
+  "why_it_matters": "One of the few motion libraries that ships the same effect three ways (React, Vue, vanilla) and exposes it to agents over MCP, which makes heavy GSAP work reachable without hand-writing timelines.",
+  "quality_tier": "A",
+  "notable_for": [
+   "80 verified GSAP components",
+   "React, Vue and vanilla output for each",
+   "MCP server for Cursor and Claude Code",
+   "one-time Landmark Kits",
+   "no npm package, copy-paste only"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://www.annnimate.com/ , https://www.annnimate.com/sitemap.xml , https://annnimate.com/animations/sitemap.xml (all 80 component URLs enumerated); /components and /mcp return 404",
+  "source": "depo"
+ },
+ {
+  "id": "depo:j578ewjnyw7kena9cyderp2m2s834edn",
+  "slug": "quiver-ai",
+  "url": "https://quiver.ai/",
+  "name": "Quiver",
+  "tagline": "Foundation models that generate and vectorise editable SVG",
+  "description": "Quiver builds vector-native generative models (the Arrow family: 1.0, 1.1 and 1.1 Max) that turn a text prompt or a raster image into a production-ready, editable SVG rather than a traced approximation. Shipping today are logo generation and editable vector illustration, plus an API for listing models, text-to-SVG and image-to-SVG; typography and SVG animation are advertised as coming soon. It runs on a weekly credit pool with a free tier, has partnerships with Paper, Rive and Linearity, and is a16z-backed on an $8.3M seed. For brand and product designers who want a first vector pass they can open in a real editor.",
+  "category": "generative-media-tools",
+  "subcategory": "image-generation",
+  "kinds": [
+   "ai-tool",
+   "generator",
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "freemium",
+    "subscription",
+    "usage-based",
+    "account-required"
+   ],
+   "distribution": [
+    "web-app",
+    "saas",
+    "public-api"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "images",
+    "icons"
+   ],
+   "agent_readiness": [
+    "public-api",
+    "auth-required",
+    "structured-docs"
+   ],
+   "maturity": "beta"
+  },
+  "components": [
+   "logo",
+   "illustration",
+   "icon"
+  ],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://docs.quiver.ai/",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Free $0 (200 app credits/week, Arrow 1.0 and 1.1, basic SVG export); Basic $20/mo (1000 credits/week, Arrow 1.1 Max, SVG/PNG/JPEG/WebP export); Pro $40/mo (3000 credits/week); Enterprise custom (SSO/SAML, custom model training, on-prem). Per-run cost: Arrow 1.0 generate 30 / vectorise 30, Arrow 1.1 generate 20 / vectorise 15, Arrow 1.1 Max generate 25 / vectorise 20. API credits are bought separately from app credits.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use the image-to-SVG endpoint when a user hands you a PNG logo or spot illustration and the deliverable must be a clean, editable path set; that is where it beats a general image model, which returns raster you then have to trace. Do not promise animated SVG or custom letterforms from it yet, both are still marked coming soon, and remember API credits are billed separately from the app's weekly pool, so a scripted batch will not draw on the free tier. Expect beta-grade output and keep a human in the loop before anything ships as a brand mark.",
+  "why_it_matters": "Vector-native generation is a real gap in the AI image stack, and Quiver is the best-funded attempt to solve it at the model layer instead of by tracing bitmaps.",
+  "quality_tier": "B",
+  "notable_for": [
+   "Arrow vector foundation models",
+   "text-to-SVG and image-to-SVG API",
+   "editable paths, not traced bitmaps",
+   "$8.3M a16z seed",
+   "typography and animation still unreleased"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://quiver.ai/ , https://quiver.ai/pricing , https://docs.quiver.ai/ (/developers 404s)",
+  "source": "depo"
+ },
+ {
+  "id": "depo:j57dfxjwbnfr6n8e35796y0g7s835v30",
+  "slug": "typograph-studio",
+  "url": "https://typograph.studio/",
+  "name": "Typograph",
+  "tagline": "Generate a custom typeface from a prompt or parametric sliders",
+  "description": "A browser type-design tool that gives you a base typeface either from one of roughly 23 style templates (neo-grotesk, robotic, midcentury, elegant, narrow bold grotesk, rave wide and similar) or from a plain-language prompt, then lets you push it with parametric controls: Weight, Width, Shape, Joint thickness, Joint angle, Aperture, Shoulder, Bowl, Apex, Contrast and Smile. It is built on a hand-drawn glyph base rather than pure generation, and the terms assign full transferable IP in the resulting typeface to the customer, though the operator keeps a licence to train on your results. Run by G-W Technologies AB in Stockholm. Editing and export sit behind a sign-in, and the public pages do not state export formats or prices.",
+  "category": "typography",
+  "subcategory": "typefaces",
+  "kinds": [
+   "generator",
+   "ai-tool",
+   "typeface"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "commercial",
+    "proprietary"
+   ],
+   "pricing": [
+    "freemium",
+    "account-required",
+    "unknown"
+   ],
+   "distribution": [
+    "web-app",
+    "saas"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "fonts"
+   ],
+   "agent_readiness": [
+    "auth-required",
+    "js-only-shell"
+   ],
+   "maturity": "beta"
+  },
+  "components": [
+   "typography"
+  ],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Not disclosed publicly. The terms confirm paid features exist (section 4.1) and that plans cap prompts per day or billing period, storage, export formats and download counts (section 3.3); /pricing returns 404 and the price page is behind sign-in.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Suggest this only when a brand genuinely needs a bespoke display or wordmark face and the alternative is licensing a retail family; for body text on a real product, ship a proven family from Fontsource or Google Fonts instead, because you cannot verify Typograph's hinting, language coverage or export format from outside the login. It is a human-in-the-loop canvas, not something you can drive from an agent: no API, no CLI, sign-in required, and the app is a client-rendered shell. Flag the training clause to the user, since the operator keeps a worldwide licence to train on whatever they make.",
+  "why_it_matters": "Parametric sliders over a hand-drawn glyph base is a far more credible route to a usable custom face than prompt-to-font generators, and the terms hand full IP in the result to the customer.",
+  "quality_tier": "B",
+  "notable_for": [
+   "11 parametric axes including Smile and Apex",
+   "prompt or style-template start",
+   "~23 style templates",
+   "customer owns the resulting typeface IP",
+   "pricing and export formats not public"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://typograph.studio/ , https://typograph.studio/en/terms , web search for export/pricing; /about and /pricing 404, raw HTML is a Next.js client shell",
+  "source": "depo"
+ }
+]

@@ -1,0 +1,123 @@
+[
+  {
+    "id": "user:25fe4893775a903c",
+    "slug": "threeui",
+    "url": "https://threeui.com/browse",
+    "name": "ThreeUI",
+    "tagline": "Three.js hero components, shaders and landing-page templates with a Pro-gated remote MCP server — Community free, Pro $99/yr or $199 lifetime",
+    "description": "ThreeUI is a catalog of Three.js components and interactive WebGL shaders published by Design+Code under the npm scope @designcodeio/threeui. The browse tree splits into nine sections — Three.js, Backgrounds, UI Elements, Buttons, Hero, Text Animation, Landing Pages, CSS and Motion Design — and the sitemap resolves to 80 component pages carrying 202 named variants beneath them, against a site-stated catalog of 243 items. Each item page carries a live preview, the exact import name, a runtime contract and a first-party source record. Community components install straight from npm; Pro implementation source is never published to the registry and arrives only through `npx @designcodeio/threeui-cli add <item>`, which signs in over OAuth and downloads files after the server verifies entitlement, refusing to overwrite changed project files without --force. The distinguishing feature is the remote MCP server at https://threeui.com/api/mcp: Streamable HTTP against the 2026-07-28 specification, OAuth 2.1 with Supabase-backed tokens, exposing search_catalog, get_catalog_item, get_item_source and get_item_prompt so an AI coding client can pull templates, components, implementation prompts and complete source. Anonymous, expired and non-Pro requests fail closed before catalog data loads. The marketing calls the library framework-agnostic, but the published requirements list react and react-dom >= 18.2.0 as peer dependencies, Node >= 20 for the CLI, and a WebGL or WebGL2 browser.",
+    "category": "textures-assets",
+    "subcategory": "shaders-and-effects",
+    "kinds": [
+      "shader-pack",
+      "component-library",
+      "mcp-server"
+    ],
+    "facets": {
+      "framework": [
+        "react"
+      ],
+      "styling": [
+        "shader-glsl"
+      ],
+      "license": [
+        "source-available",
+        "commercial"
+      ],
+      "pricing": [
+        "freemium",
+        "subscription",
+        "one-time",
+        "paid"
+      ],
+      "distribution": [
+        "npm-package",
+        "cli",
+        "mcp-server",
+        "copy-paste"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "code",
+        "3d",
+        "prompts"
+      ],
+      "agent_readiness": [
+        "mcp-server",
+        "cli-installable",
+        "structured-docs",
+        "copy-paste-ready",
+        "auth-required",
+        "agent-paywalled",
+        "js-only-shell"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "gradient-background",
+      "particle-background",
+      "hero",
+      "button",
+      "text-effect",
+      "carousel",
+      "switch",
+      "dock",
+      "animation"
+    ],
+    "component_count": 80,
+    "surfaces": [
+      "homepage",
+      "features",
+      "pricing-website",
+      "splash-screen"
+    ],
+    "templates": [
+      "Anthra A-40",
+      "MK·78 Keyboard",
+      "Mara Voss",
+      "Aurello",
+      "Echo Vale",
+      "RenderLab",
+      "Volta Atelier",
+      "Kairo",
+      "Inkbound River Story"
+    ],
+    "template_count": 11,
+    "install": "npm install @designcodeio/threeui",
+    "package": "@designcodeio/threeui",
+    "docs_url": "https://threeui.com/installation",
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": "Community tier free. Pro $99 per year at launch, regular $199. Lifetime $199 one time at launch, regular $399. Both paid tiers unlock the Pro component library and authenticated MCP access. Commercial use is allowed in personal work, client projects and end products; reselling or redistributing Pro source as a standalone library or competing product is not. Checkout runs through Stripe with no account needed beforehand; a Google sign-in afterwards recovers access on another device.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 243,
+      "blocks": null
+    },
+    "agent_guidance": "Reach for this when a brief asks for a WebGL or Three.js hero rather than a flat CSS gradient — Paper Shaders covers the dependency-free 2D canvas case more cheaply, and ThreeUI starts to earn its price at real 3D scenes, orbs and shader buttons. Connect the MCP server at https://threeui.com/api/mcp rather than scraping the site: the pages are a client-rendered shell that returns the same 3.3 KB document for every route, so a plain fetch reads nothing, while the MCP tools return metadata, implementation prompts and complete source directly. The server needs an OAuth sign-in and an active Pro entitlement, and it fails closed for anonymous or lapsed clients, so treat catalog access as unavailable in an unattended run unless a token is already in place. Community items install from npm with no auth. Do not try to pull Pro source from the npm package; it is excluded from public build artifacts by design and only the CLI delivers it. Budget for React 18.2 or later and a WebGL-capable browser, and give every scene a static fallback for first paint and for reduced-motion users.",
+    "why_it_matters": "It is the clearest example so far of a paid component library treating an MCP server as the primary distribution surface rather than a marketing add-on — the same entitlement check gates the CLI and the agent, and the agent gets implementation prompts alongside the source. That pattern is where paid design resources are heading, and this is a working reference for it.",
+    "quality_tier": "A",
+    "tier_reason": "Deep, actively maintained catalog with a genuinely well-built agent surface and honest documentation of its own limits. Held below S because the site is a client-rendered shell with no server-side content, the catalog count on the page does not reconcile with the sitemap, most of the value sits behind a paywall, and there is no public repository to inspect.",
+    "notable_for": [
+      "243-item catalog across nine sections",
+      "80 component pages with 202 named variants",
+      "remote MCP server on the 2026-07-28 spec",
+      "OAuth 2.1 with server-side entitlement checks",
+      "Pro source withheld from npm, delivered by CLI",
+      "launch pricing at $99 per year or $199 lifetime"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-23",
+    "evidence": "https://threeui.com/ 200 but a 3323-byte client-rendered shell, identical bytes for / and /browse, so all page content below was read from a headless render; og:title \"Three.js Components & Interactive Shaders | ThreeUI\" and og:description \"Browse high-quality Three.js hero components, 3D shaders, prompts, and templates with customizable variants. Framework-agnostic. Copy, paste, and ship.\"; https://threeui.com/sitemap.xml 200 lists 290 URLs — 80 two-segment component pages and 202 three-segment variant pages across three-js (23/70), backgrounds (12/49), ui-elements (7/31), buttons (4/25), hero (10/8), text-animation (5/13), landing-pages (11/0), css (5/4) and motion-design (3/2); https://threeui.com/pricing states Pro $99 per year discounted from $199, Lifetime $199 one time discounted from $399, Community components free, Stripe checkout without a prior account, and commercial use with no resale; https://threeui.com/installation documents npm install @designcodeio/threeui, the style.css import, peer dependencies react and react-dom >= 18.2.0, Node >= 20 for the Pro CLI, WebGL or WebGL2, and npx @designcodeio/threeui-cli add cross-beam with OAuth plus server-side entitlement; https://threeui.com/mcp documents the endpoint https://threeui.com/api/mcp, Streamable HTTP, OAuth 2.1, protocol version 2026-07-28, Supabase-verified tokens, and the tools search_catalog, get_catalog_item, get_item_source and get_item_prompt; the footer on every page reads \"Full 243 collection\", which does not reconcile with the 282 catalog URLs in the sitemap and is recorded here unresolved.",
+    "source": "user"
+  }
+]

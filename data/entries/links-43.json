@@ -1,0 +1,534 @@
+[
+ {
+  "id": "323e4cb5-a52e-4b61-846e-5a60f453661d",
+  "slug": "son-daven",
+  "url": "http://sondaven.com/en#hero",
+  "name": "Son Daven",
+  "tagline": "Webflow site for a Carpathian resort hotel: scroll reveals, drag sliders, unit tabs",
+  "description": "Son Daven is the bilingual (EN/UA) marketing site for an apartment-hotel investment project in Yaremche, Ukrainian Carpathians. It is saved here as a live UI reference, not a product you install: a long-scroll editorial layout with a loading progress bar, SVG section dividers, drag-to-slide photo carousels, a tabbed apartment-type selector (Studio, Deluxe, Superior, Suite, Family, Penthouse), an interactive construction timeline, and modal consultation forms. Useful for anyone building a hospitality, real-estate, or premium-investment landing page.",
+  "category": "inspiration-galleries",
+  "subcategory": "site-galleries",
+  "kinds": [
+   "reference"
+  ],
+  "facets": {
+   "framework": [
+    "webflow"
+   ],
+   "styling": [
+    "unknown"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "not-applicable"
+   ],
+   "distribution": [
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "images"
+   ],
+   "agent_readiness": [
+    "none"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "hero",
+   "navbar",
+   "footer",
+   "tabs",
+   "carousel",
+   "image-gallery",
+   "video-player",
+   "modal",
+   "form",
+   "timeline",
+   "progress-bar",
+   "locale-selector",
+   "scroll-reveal"
+  ],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "features",
+   "about",
+   "blog",
+   "contact-us"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Reach for this only as a visual and structural reference when you are asked to build a luxury hospitality or real-estate landing page — copy the section order (hero, concept, location, infrastructure, unit tabs, financials, timeline, gallery, contact), not any code. Nothing here is installable: it is Webflow output, so rebuild the patterns with your own stack (Tailwind plus a scroll library such as GSAP or Motion). Watch out for the drag-slider and progress-bar effects, which are the expensive parts to reimplement and are the least important to the page working.",
+  "why_it_matters": "A complete, coherent example of the long-scroll investment-property page — a brief that recurs often and is usually done badly. It shows the whole section sequence, not one hero screenshot.",
+  "notable_for": [
+   "drag-to-slide photo carousels",
+   "tabbed apartment-type selector",
+   "interactive construction timeline",
+   "SVG section dividers",
+   "bilingual EN/UA build"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://sondaven.com/en",
+  "quality_tier": "B",
+  "tier_reason": "A single proprietary Webflow marketing site with no installable output and agent_readiness \"none\" — real but narrow, usable only as a one-off visual reference."
+ },
+ {
+  "id": "958840f1-a124-40af-bfe4-5e3848cbb0ae",
+  "slug": "dotted-ink-typeface",
+  "url": "https://designfamilymarket.gumroad.com/l/Dotted-Ink-Typeface",
+  "name": "Dotted Ink",
+  "tagline": "Decorative handwritten display face built from dotted, circular calligraphic forms",
+  "description": "DottedInk is a single-style decorative display typeface by Iuliia Mazur (Softulka), sold on Gumroad by DesignFamilyMarket. It takes medieval correspondence and illuminated manuscripts as its source and rebuilds them from circular structures and dotted geometry, so the letterforms read as calligraphy rendered by a plotter. The download is 1 OTF, 1 TTF, 1 WOFF webfont, and a PDF specimen. It is a headline face for branding, book covers, editorial, invitations, and fantasy work — not a text face.",
+  "category": "typography",
+  "subcategory": "display-and-decorative",
+  "kinds": [
+   "typeface"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "font-eula",
+    "commercial"
+   ],
+   "pricing": [
+    "one-time",
+    "paid"
+   ],
+   "distribution": [
+    "download",
+    "marketplace"
+   ],
+   "platform": [
+    "web",
+    "print"
+   ],
+   "accessibility": [
+    "known-gaps"
+   ],
+   "content_type": [
+    "fonts"
+   ],
+   "agent_readiness": [
+    "none"
+   ],
+   "maturity": "stable"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "$17 USD base (Desktop License). Webfont License also offered; E-pub License +$12; App License +$82. No refunds allowed.",
+  "counts": {
+   "icons": null,
+   "fonts": 1,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use this only for display type — one or two words in a hero, a logotype, a book cover — and pair it with a neutral grotesque or a workhorse serif for everything else. The WOFF ships with the purchase, but the base $17 tier is a Desktop License, so confirm which license the buyer holds before you @font-face it on a production site, and budget the +$82 App License for anything embedded in a shipped app. Its dotted strokes destroy legibility below roughly 32px and contrast poorly, so never put it in body copy, buttons, or form labels.",
+  "why_it_matters": "A well-executed instance of a narrow genre — plotter-and-manuscript hybrid lettering — that is hard to fake with effects on an existing face.",
+  "notable_for": [
+   "dotted and circular letterform construction",
+   "medieval manuscript source material",
+   "OTF + TTF + WOFF + PDF specimen",
+   "tiered desktop/webfont/e-pub/app licensing",
+   "designed by Iuliia Mazur (Softulka)"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://designfamilymarket.gumroad.com/l/Dotted-Ink-Typeface (WebFetch returned a JS shell; details recovered from the page's embedded Inertia props via curl)",
+  "quality_tier": "B",
+  "tier_reason": "counts.fonts is 1: a single-style paid display face under a tiered EULA, useful for headlines only and unusable below ~32px."
+ },
+ {
+  "id": "6115617d-83ee-4eee-bfec-ba575327a751",
+  "slug": "mcp-ready-design-system-guide",
+  "url": "http://x.com/i/article/2071885335663988736",
+  "name": "MCP-Ready Design System",
+  "tagline": "Argues you should reverse-engineer design tokens from real screens, not guess them upfront",
+  "description": "An X long-form article on why connecting an AI coding assistant to a design system over MCP still produces hallucinated CSS and conflicting components: access is not comprehension, because the system was documented for humans. Its proposal is a reverse-engineered or agentic design system — build raw Figma symbols with clean props, design two or three real high-fidelity screens first, then point Claude at the file over the Figma MCP and have it derive the semantic token naming and scale from how color, spacing, shadow, border, and type were actually used. Aimed at design-system owners who are about to wire an MCP server to an agent.",
+  "category": "essays-guides-courses",
+  "subcategory": "ai-workflow-guides",
+  "kinds": [
+   "article"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "unknown"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "free",
+    "account-required"
+   ],
+   "distribution": [
+    "article"
+   ],
+   "platform": [
+    "social",
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "prose",
+    "design-tokens"
+   ],
+   "agent_readiness": [
+    "auth-required",
+    "bot-blocked"
+   ],
+   "maturity": "stable"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Cite this when a user asks you to wire a Figma MCP server to their design system and expects the agent to then produce on-system UI — it names the real failure mode, which is that human-facing docs give you no way to choose between two similar components. Its actionable core for you: ask for two or three finished screens before you generate any token scale, then derive naming from observed usage rather than proposing a theoretical ramp. Treat the four-step method as opinion, not evidence — the piece itself concedes nobody has measured which system format LLMs read best.",
+  "why_it_matters": "One of the few pieces that treats the design system as an artifact an agent must read, and it correctly separates MCP access from MCP understanding.",
+  "notable_for": [
+   "names the MCP access-vs-understanding gap",
+   "reverse-engineer tokens from finished screens",
+   "raw Figma symbols before variables",
+   "concrete four-step Claude workflow"
+  ],
+  "already_enriched": true,
+  "http_status": null,
+  "verified_at": "2026-08-15",
+  "evidence": "Not fetched per instruction (x.com); record built from the pre-retrieved full article text supplied in the batch.",
+  "quality_tier": "A",
+  "tier_reason": "Original long-form argument with a concrete four-step method on the MCP access-vs-comprehension gap, held below S because it sits behind X auth (agent_readiness auth-required, bot-blocked) and its own guidance flags it as untested opinion."
+ },
+ {
+  "id": "ce1e1320-9115-4da1-a2bd-7b5b425a36e4",
+  "slug": "ditther",
+  "url": "http://ditther.com",
+  "name": "Ditther",
+  "tagline": "Browser tool for dither, halftone, ASCII, Lego and voxel effects on images and video",
+  "description": "Ditther is a client-side web editor that converts images and video into pixel-based styles. It ships eight core effects — dither (Bayer 8x8 and Floyd-Steinberg), ASCII with symbol, Japanese, and numeric character sets, halftone, pixel art, Lego bricks, and voxel — plus duotone grading, cinematic filters, gradients, masks, shapes, and text layers. Everything runs locally in the browser with no upload and no account, and it exports JPG, PNG, WebP, and MP4.",
+  "category": "textures-assets",
+  "subcategory": "image-effect-tools",
+  "kinds": [
+   "tool",
+   "generator"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "freemium",
+    "subscription",
+    "one-time",
+    "free"
+   ],
+   "distribution": [
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "images",
+    "video"
+   ],
+   "agent_readiness": [
+    "none"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Free: all 8 effects, duotone, animation, 9 look presets, 1080p export, 100+ backgrounds. Pro $8/month: 4K export, 60fps video, 21 premium looks, 10 animation presets, 700+ backgrounds. Pro+ Lifetime $79 one-time: adds weekly background drops.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Hand this to a human when they need one-off dithered or halftoned hero art, texture plates, or an ASCII treatment — it is an interactive canvas with no API or CLI, so you cannot script it into a build. If you need the same look programmatically, implement Floyd-Steinberg or Bayer ordered dithering yourself (sharp or a canvas shader) and use Ditther only to prototype the parameters. Note the free tier caps export at 1080p and watermarks video, so check the target resolution before recommending it for production assets.",
+  "why_it_matters": "The dither/halftone aesthetic keeps resurfacing and most tools do one algorithm badly; this does eight, on video too, without uploading the source file.",
+  "notable_for": [
+   "8 effects including voxel and Lego",
+   "Bayer 8x8 and Floyd-Steinberg dithering",
+   "video in and MP4 out",
+   "fully client-side, no upload",
+   "no account required"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://ditther.com",
+  "quality_tier": "S",
+  "tier_reason": "The deepest resource in the batch: eight verified effects including Bayer and Floyd-Steinberg plus video-in/MP4-out, fully client-side with a genuinely usable free tier and actively-maintained status."
+ },
+ {
+  "id": "1abb49c3-c604-40f4-b881-17ef1c45814e",
+  "slug": "moda-cybertrade-slide",
+  "url": "http://amirmushich.link/deck-slide",
+  "name": "Cybertrade Slide",
+  "tagline": "Copyable Moda slide by Amir Mushich, shared as a single deck layout you can duplicate",
+  "description": "A shared Moda file titled \"Cybertrade / Slide\", published by designer Amir Mushich on 13 June 2026 and reachable through his amirmushich.link short link. Moda is an AI-assisted canvas tool for slides, one-pagers, pitch decks, social posts, and documents, and any shared file exposes a \"Copy this file\" action that duplicates it into your own workspace as fully editable objects. This is one slide from a larger deck, offered as a starting layout rather than a component or code asset.",
+  "category": "blocks-templates-themes",
+  "subcategory": "templates-and-starters",
+  "kinds": [
+   "template"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free",
+    "account-required"
+   ],
+   "distribution": [
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "images"
+   ],
+   "agent_readiness": [
+    "none",
+    "auth-required"
+   ],
+   "maturity": "stable"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [
+   {
+    "name": "Cybertrade / Slide",
+    "url": "https://moda.app/s/Opm4dJfiGiW-JRJ6AeQk3A",
+    "purpose": "A single shaded-style presentation slide from Amir Mushich's Cybertrade deck, duplicable into a Moda workspace via 'Copy this file' as a starting layout for a pitch or product slide."
+   }
+  ],
+  "template_count": 1,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Moda offers a free tier; copying a shared file requires a Moda account. No price is attached to this specific file.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "This is a presentation asset, not a code asset — do not point a build pipeline at it. Surface it when a user needs a deck or pitch slide fast and is willing to work inside Moda, where 'Copy this file' gives them an editable canvas; if they need HTML slides instead, take the composition as reference and rebuild in Reveal.js or Slidev. Note it is a single slide behind a redirect (amirmushich.link to moda.app) and requires a Moda login to duplicate, so the link can rot if the author unshares it.",
+  "why_it_matters": "A concrete look at how a working creative director composes one slide, kept because a single strong layout often seeds an entire deck.",
+  "notable_for": [
+   "one-click 'Copy this file' duplication",
+   "shaded presentation style",
+   "from Amir Mushich's Cybertrade deck",
+   "lives in Moda's AI canvas tool"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "http://amirmushich.link/deck-slide (302 to moda.app), https://moda.app/s/Opm4dJfiGiW-JRJ6AeQk3A, https://moda.app",
+  "quality_tier": "C",
+  "tier_reason": "template_count of 1 behind a amirmushich.link redirect and a Moda login, with unknown license and the guidance itself warning the link rots if the author unshares it."
+ },
+ {
+  "id": "602cb40b-541d-41cf-a093-01d525420fe9",
+  "slug": "amir-mushich-50-design-prompts",
+  "url": "http://x.com/i/article/2018619454465142784",
+  "name": "50 Design Prompts by Amir Mushich",
+  "tagline": "Free catalog of 50 image-generation prompts and workflows, grouped into nine design categories",
+  "description": "A free, index-style X article by Amir Mushich, a creative director with over ten years of branding and advertising work for Warner Music, PepsiCo, and Spotify. It collects fifty of his shared prompts and multi-step workflows for Nano Banana Pro and similar image models, each linking back to the original post with the full prompt. Nine categories are covered: branded products, brand identity systems, 3D objects, posters and illustrations, icons, mockups, apparel and fashion, custom typography, and bonus freebies. Most prompts are parameterized on a [BRAND NAME] placeholder so they can be reused directly.",
+  "category": "agent-design-tooling",
+  "subcategory": "prompts-and-feedback",
+  "kinds": [
+   "prompt-pack",
+   "article"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "free",
+    "account-required"
+   ],
+   "distribution": [
+    "article"
+   ],
+   "platform": [
+    "social",
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "prompts",
+    "prose",
+    "images"
+   ],
+   "agent_readiness": [
+    "copy-prompt",
+    "auth-required",
+    "bot-blocked"
+   ],
+   "maturity": "stable"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Free. Reading the full article and following the per-prompt links requires an X account.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 50,
+   "blocks": null
+  },
+  "agent_guidance": "Pull from this when a user asks for brand-adjacent imagery — logo retexturing, wax-seal or metallic logo renders, mockups, sport posters, capsule-collection merch — instead of writing an image prompt from scratch; the [BRAND NAME] slot makes them template-ready. Prompts are tuned for Nano Banana Pro, so expect to loosen the phrasing for other models, and remember several entries are multi-step workflows rather than single prompts. The catalog is an index of links into individual X posts, so the full text is behind X auth and individual links can break — capture any prompt you need into the project rather than relying on the link.",
+  "why_it_matters": "Fifty field-tested prompts from a working brand director, free and categorized — far denser than the usual scraped prompt list.",
+  "notable_for": [
+   "50 prompts across 9 categories",
+   "[BRAND NAME] parameterized templates",
+   "multi-step branding workflows",
+   "targeted at Nano Banana Pro",
+   "author worked for Warner Music, PepsiCo, Spotify"
+  ],
+  "already_enriched": true,
+  "http_status": null,
+  "verified_at": "2026-08-15",
+  "evidence": "Not fetched per instruction (x.com); record built from the pre-retrieved full article text supplied in the batch.",
+  "quality_tier": "A",
+  "tier_reason": "counts.entries of 50 categorized, [BRAND NAME]-parameterized prompts with agent_readiness \"copy-prompt\" from a credentialed brand director, capped below S because it is an index of auth-walled X links that can break."
+ }
+]

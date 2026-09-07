@@ -1,0 +1,91 @@
+[
+ {
+  "id": "user:33ac57d34ceb44e3",
+  "slug": "stamp-studio",
+  "url": "https://www.stampstud.io",
+  "name": "Stamp Studio",
+  "tagline": "Turns your artwork into a postage stamp, with the four real printing processes, a perforation gauge and philatelic paper ageing",
+  "description": "Stamp Studio takes an image and renders it as a postage stamp. Its own line is \"print, perforate, cancel\", and the controls follow that order.\n\nThe depth is the point, and it is domain-accurate rather than decorative. Printing offers Engraved, Offset, Gravure and Typeset, which are the four processes stamps are actually made by, each with an ink colour, an ink weight and a plate relief. Perforation sets the edge, the gauge (perf 11.5 by default), the hole size and the torn fibre left behind. Paper carries toning, fibre, foxing, handling wear and a watermark. Foxing is the philatelic word for the brown spots age leaves on paper, and very little else in this corpus reaches for a term like that.\n\nFrame, lettering and denomination are separate sections: a country line curved over the vignette, corner value tablets placed by corner and offset, a caption, inscriptions, and a typeface chosen from fourteen faces including Cinzel, Libre Baskerville, Pinyon Script, Copperplate and Special Elite. Cancellation lifts a corner with a curl radius and a shadow, in any of nine directions.\n\nIt renders in WebGL through Three.js with real material shading, and exports at 2048 by 2048 on a transparent background. Artwork goes in as SVG, PNG, JPG or WebP.\n\nSix templates open it: Beacon, National park, Wildlife, Maritime, Botanical and Engineering. Their photographs are Creative Commons, found through Openverse, and the site states that each one keeps its credit on the canvas.\n\nJalco built it. The repository jal-co/stampstudio is MIT, and it was created on 2026-08-30, one day before this record.",
+  "category": "textures-assets",
+  "subcategory": "mockups-and-asset-packs",
+  "kinds": [
+   "mockup-tool",
+   "generator",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "react"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "web-app",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "images",
+    "code",
+    "3d"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "js-only-shell"
+   ],
+   "maturity": "beta"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": 6,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/jal-co/stampstudio",
+  "registry_url": null,
+  "github": {
+   "stars": 8,
+   "license": "MIT",
+   "last_activity": "2026-08-31"
+  },
+  "counts": {
+   "icons": null,
+   "fonts": 14,
+   "palettes": null,
+   "entries": 6,
+   "blocks": null
+  },
+  "pricing_detail": "Free and MIT, with no account. The source is public, so it can be run locally or forked.",
+  "agent_guidance": "Reach for it when a brief needs a stamp, a ticket, a postmark or any artefact that should read as printed and aged. The output is a transparent PNG at 2048 by 2048, so it drops onto a page without a background to remove.\n\nName the printing process when you specify one. Engraved, Offset, Gravure and Typeset give visibly different ink and relief, and picking the wrong one is what makes a fake stamp look fake.\n\nUse the paper controls sparingly. Toning, foxing, handling wear and the watermark stack, and the defaults sit near 12 to 24 per cent for a reason. A stamp aged to 80 per cent reads as a filter rather than as an object.\n\nSend a person to make it. The site is a 1.5 KB client-rendered shell with no API and no llms.txt, so an agent can specify the stamp but cannot produce it. The repository is MIT if the work has to be automated.\n\nCheck the photograph credit before you publish a template. The six built-in templates use Creative Commons images from Openverse, and the site keeps each credit on the canvas.",
+  "why_it_matters": "Most mockup tools wrap artwork in a generic frame. This one models how a stamp is actually printed, perforated and aged, down to the gauge and the foxing, and that is what separates an object from a sticker.",
+  "quality_tier": "B",
+  "tier_reason": "Unusual depth for a single-purpose tool: four real printing processes, a perforation gauge, five separate paper ageing controls, fourteen lettering faces, and WebGL material shading behind all of it. Free, MIT and public. Held at B because it is one day old at eight stars, the site is a 1.5 KB client-rendered shell with no llms.txt, no sitemap and no API, and it does one narrow job.",
+  "notable_for": [
+   "four real stamp printing processes",
+   "perforation gauge, hole size and torn fibre",
+   "paper toning, fibre, foxing and watermark",
+   "fourteen lettering faces and curved country lines",
+   "MIT, WebGL through Three.js, transparent PNG at 2048"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-31",
+  "source": "user",
+  "evidence": "https://www.stampstud.io/ 200 but only 1,492 bytes, a client-rendered shell; title \"Stamp Studio\"; the meta description reads \"Postage stamp studio. Upload artwork, set the perforation gauge, age the paper, strike a postmark, and export a realistic stamp as a transparent PNG.\" and twitter:site is @jalcowastaken. Rendered in a browser on 2026-08-31 and read from the live DOM: the header reads \"Stamp Studio / Print, perforate, cancel\" at v1.1; Templates lists Beacon, National park, Wildlife, Maritime, Botanical and Engineering with the note \"Photographs are Creative Commons, found through Openverse. Each one keeps its credit on the canvas.\"; Artwork accepts \"SVG, PNG, JPG, WebP\"; Printing offers Engraved, Offset, Gravure and Typeset with Ink colour (#1D3F6E), Ink weight and Plate relief; Frame offers Style, Frame & lettering colour, Corner ornament, Margin and Vignette; Lettering offers Typeface, Country line, \"Curve over the vignette\", Denomination, Corner value tablets, Value corner, Value X, Value Y, Caption and Inscriptions; Paper offers Format, Stamp size, Toning, Fibre, Foxing, Handling wear and Watermark; Perforation offers Edge, Gauge (\"perf 11.5\"), Hole size and Torn fibre; Cancellation offers Lift, a nine-way Corner, Lift amount, Curl radius and Shadow; and Light & background offers Light X, Light Y and a Transparent background. Export is set to 2048 x 2048. The bundle at /assets/index-CWW5_Ost.js is 1,188,435 bytes and contains THREE.Node references and the PBR paper \"Sampling the GGX Distribution of Visible Normals\", plus the lettering faces Cinzel Variable, Libre Baskerville, Oswald Variable, Pinyon Script, Playfair Display Variable, Special Elite, Copperplate, Snell Roundhand, Bradley Hand, Segoe Script, Comic Sans MS, Courier New, Times New Roman and Arial Narrow. /llms.txt, /sitemap.xml and /robots.txt all 404. GitHub API for jal-co/stampstudio: 8 stars, 0 forks, MIT, created 2026-08-30, pushed 2026-08-31, described as \"An online, open source stamp creator\", topics generative-design, philately, postage-stamp, react, three-js, vite and webgl."
+ }
+]

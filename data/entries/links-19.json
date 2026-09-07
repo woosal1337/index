@@ -1,0 +1,731 @@
+[
+  {
+    "id": "689fde4c-e94e-4bd8-993b-5658bdfd0e67",
+    "slug": "spell-ui-repo",
+    "url": "https://github.com/xxtomm/spell-ui",
+    "name": "Spell UI (source repo)",
+    "tagline": "MIT source for Spell UI: 33 React/Tailwind components served as a shadcn registry",
+    "description": "The GitHub monorepo behind spell.sh. It holds the component source under registry/spell-ui plus the registry.json that the shadcn CLI resolves, so you can read the real implementation before you install it or vendor the files directly. The catalog is small and skewed toward motion: text reveals, animated buttons, WebGL backgrounds, and a handful of embeds (Tweet, Spotify card, QR code). MIT, 1,051 stars, and actively pushed as of August 2026.",
+    "category": "component-libraries",
+    "subcategory": "shadcn-registries",
+    "kinds": [
+      "registry",
+      "component-library",
+      "animation-library"
+    ],
+    "facets": {
+      "framework": [
+        "react",
+        "next"
+      ],
+      "styling": [
+        "tailwind-any",
+        "css-variables"
+      ],
+      "license": [
+        "mit"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "github-repo",
+        "shadcn-registry",
+        "cli",
+        "copy-paste"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "code"
+      ],
+      "agent_readiness": [
+        "open-source-code",
+        "registry-json",
+        "cli-installable",
+        "copy-paste-ready"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "chart",
+      "badge",
+      "kbd",
+      "marquee",
+      "embed",
+      "card",
+      "carousel",
+      "qr-code",
+      "avatar",
+      "text-effect",
+      "shimmer",
+      "button",
+      "copy-button",
+      "color-picker",
+      "text-input",
+      "checkbox",
+      "spinner",
+      "gradient-background",
+      "hover-effect"
+    ],
+    "component_count": 33,
+    "surfaces": [
+      "homepage",
+      "features"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": "npx shadcn@latest add https://spell.sh/r/badge.json",
+    "package": null,
+    "docs_url": "https://spell.sh/docs",
+    "repo_url": "https://github.com/xxtomm/spell-ui",
+    "registry_url": "https://spell.sh/r/registry.json",
+    "github": {
+      "stars": 1051,
+      "license": "MIT",
+      "last_activity": "2026-08-14"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Go to the repo, not the docs site, when you need to read a component's real source before committing to it — registry/spell-ui plus registry.json give you the full dependency graph, and several items pull heavy peers (three for light-rays, opentype.js for signature, spotify-url-info for spotify-card) that you do not want to discover after install. Every item is a leaf with no registryDependencies, so you can cherry-pick one file without dragging the rest in. Treat it as a garnish layer on top of shadcn/ui, not a replacement: there are no forms, tables, dialogs, or navigation primitives here.",
+    "why_it_matters": "It is the auditable source of a registry that is already namespaced in shadcn's official directory as @spell, which means an agent can verify the code and the install path in one place.",
+    "quality_tier": "B",
+    "notable_for": [
+      "MIT with a public registry.json",
+      "1,051 stars in nine months",
+      "leaf components with no registry dependencies",
+      "declares heavy peers like three and opentype.js"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://github.com/xxtomm/spell-ui, https://api.github.com/repos/xxtomm/spell-ui, https://spell.sh/r/registry.json, https://spell.sh/r/badge.json"
+  },
+  {
+    "id": "fd00f98c-7787-45bb-a92a-239b1ecb491c",
+    "slug": "spell-ui",
+    "url": "https://spell.sh/docs/components",
+    "name": "Spell UI",
+    "tagline": "33 animated React components — text reveals, WebGL backgrounds, embeds — via shadcn CLI",
+    "description": "Spell UI is a copy-paste React and Tailwind collection built around motion rather than structure. The component index groups its 33 items into seven sections: Components, Text Animations, Buttons, Inputs, Feedback, Backgrounds, and Interactive. Most items are one self-contained file that depends on motion; a few reach further (three for Light Rays, opentype.js for Signature, react-tweet for Tweet). It installs through the shadcn CLI or through the shadcn MCP server using the @spell namespace.",
+    "category": "motion-interaction",
+    "subcategory": "animated-components",
+    "kinds": [
+      "animation-library",
+      "component-library",
+      "registry"
+    ],
+    "facets": {
+      "framework": [
+        "react",
+        "next"
+      ],
+      "styling": [
+        "tailwind-any",
+        "css-variables"
+      ],
+      "license": [
+        "mit"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "shadcn-registry",
+        "cli",
+        "copy-paste",
+        "mcp-server"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "code"
+      ],
+      "agent_readiness": [
+        "registry-json",
+        "cli-installable",
+        "mcp-server",
+        "structured-docs",
+        "copy-paste-ready"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "text-effect",
+      "shimmer",
+      "typewriter-text",
+      "marquee",
+      "gradient-background",
+      "button",
+      "copy-button",
+      "badge",
+      "kbd",
+      "chart",
+      "qr-code",
+      "embed",
+      "card",
+      "carousel",
+      "avatar",
+      "color-picker",
+      "text-input",
+      "checkbox",
+      "spinner",
+      "hover-effect",
+      "scroll-reveal"
+    ],
+    "component_count": 33,
+    "surfaces": [
+      "homepage",
+      "features"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": "npx shadcn@latest add https://spell.sh/r/blur-reveal.json",
+    "package": null,
+    "docs_url": "https://spell.sh/docs",
+    "repo_url": "https://github.com/xxtomm/spell-ui",
+    "registry_url": "https://spell.sh/r/{name}.json",
+    "github": {
+      "stars": 1051,
+      "license": "MIT",
+      "last_activity": "2026-08-14"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Reach for Spell UI when a landing page needs a specific motion flourish — a blur-reveal headline, a shimmer word, a light-rays hero backdrop — and you already have shadcn/ui handling the real UI. Register it once as \"@spell\": \"https://spell.sh/r/{name}.json\" in components.json, then install by namespace (npx shadcn add @spell/blur-reveal) so the CLI and the shadcn MCP server both resolve it. Doc URLs are flat — https://spell.sh/docs/<slug>, not /docs/components/<slug> — and Light Rays silently adds three (~600 KB) to your bundle, so gate it behind a dynamic import.",
+    "why_it_matters": "A small, honest, MIT registry that does one thing — decorative motion — and is already wired into the official shadcn namespace list, so agents can install it without extra configuration.",
+    "quality_tier": "B",
+    "notable_for": [
+      "seven categories, 33 documented components",
+      "namespaced as @spell in shadcn's official directory",
+      "documented shadcn MCP setup",
+      "flat /docs/<slug> URL scheme"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://spell.sh/docs/components, https://spell.sh/docs, https://spell.sh/docs/mcp, https://spell.sh/sitemap.xml, https://spell.sh/r/registry.json, https://ui.shadcn.com/r/registries.json"
+  },
+  {
+    "id": "3fb4976d-da7b-4d0a-b7a9-95bdcad8c9ee",
+    "slug": "aceternity-ui-on-21st",
+    "url": "https://21st.dev/community/aceternity",
+    "name": "Aceternity UI on 21st.dev",
+    "tagline": "All 84 Aceternity components browsable side by side with copy-prompt and CLI install",
+    "description": "The 21st.dev mirror of Manu Arora's Aceternity UI — 84 animated React and Tailwind components built on Motion, with 15.7M views and 66.4K bookmarks on this profile. 21st.dev wraps them in a comparison grid, a copy-the-TSX button, an AI-ready prompt for Cursor/Claude Code, and shadcn CLI install, so you can evaluate several visual treatments before committing to one. The catalog is landing-page heavy: hero effects, backgrounds, card treatments, text animations, and scroll choreography.",
+    "category": "motion-interaction",
+    "subcategory": "animated-components",
+    "kinds": [
+      "animation-library",
+      "component-library",
+      "marketplace"
+    ],
+    "facets": {
+      "framework": [
+        "react",
+        "next"
+      ],
+      "styling": [
+        "tailwind-any",
+        "css-variables"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "freemium",
+        "subscription",
+        "account-required"
+      ],
+      "distribution": [
+        "shadcn-registry",
+        "cli",
+        "copy-paste",
+        "marketplace",
+        "mcp-server"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "code",
+        "screenshots"
+      ],
+      "agent_readiness": [
+        "mcp-server",
+        "copy-prompt",
+        "cli-installable",
+        "registry-json",
+        "auth-required"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "hero",
+      "bento-grid",
+      "card",
+      "card-grid",
+      "carousel",
+      "modal",
+      "tabs",
+      "tooltip",
+      "hover-card",
+      "timeline",
+      "sidebar",
+      "navbar",
+      "navigation-menu",
+      "signup-form",
+      "file-upload",
+      "switch",
+      "code-block",
+      "badge",
+      "button",
+      "quote",
+      "banner",
+      "image-gallery",
+      "map",
+      "marquee",
+      "parallax",
+      "scroll-reveal",
+      "scroll-driven-animation",
+      "typewriter-text",
+      "text-effect",
+      "custom-cursor",
+      "hover-effect",
+      "gradient-background",
+      "particle-background",
+      "glassmorphism",
+      "drag-and-drop",
+      "transition"
+    ],
+    "component_count": 84,
+    "surfaces": [
+      "homepage",
+      "features",
+      "testimonials",
+      "pricing-website",
+      "sign-up",
+      "blog"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": "npx shadcn@latest add @aceternity/glowing-effect",
+    "package": null,
+    "docs_url": "https://ui.aceternity.com",
+    "repo_url": null,
+    "registry_url": "https://ui.aceternity.com/registry/{name}.json",
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": "21st.dev Builder $6/mo billed yearly; Builder + AI $15/mo; Team $7.50/seat/mo (2-50 seats); extra AI credits +100 for $5. Free tier allows 2 component copies per day. Aceternity's own components are free to use.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 84,
+      "blocks": null
+    },
+    "agent_guidance": "Use this page as the visual index when you know you want an Aceternity effect but not which one — the side-by-side grid with bookmark counts (Glowing Effect 4.2k, Pulse Beams 1.1k, Radar Effect 989) is a better popularity signal than the Aceternity site itself. Install from the canonical registry instead of scraping this page: @aceternity resolves to https://ui.aceternity.com/registry/{name}.json and is already in shadcn's built-in namespace list. Every component pulls motion and most animate on scroll or pointer move, so budget for client JS and add prefers-reduced-motion guards yourself — Aceternity does not ship them.",
+    "why_it_matters": "Aceternity is the reference point for landing-page motion in the shadcn ecosystem, and this profile is the only place all 84 of its components can be compared in one scroll.",
+    "quality_tier": "A",
+    "notable_for": [
+      "84 components enumerated in one view",
+      "bookmark counts as a real popularity signal",
+      "AI-ready copy-prompt for Cursor and Claude Code",
+      "installs via the built-in @aceternity namespace"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://21st.dev/community/aceternity, https://21st.dev/aceternity, https://21st.dev/, https://21st.dev/pricing, https://ui.shadcn.com/r/registries.json"
+  },
+  {
+    "id": "fcb624e2-80fb-48c1-98ff-cc58c3c38864",
+    "slug": "shadcn-registry-directory",
+    "url": "https://ui.shadcn.com/docs/directory",
+    "name": "shadcn Registry Directory",
+    "tagline": "277 community shadcn registries, machine-readable at /r/registries.json",
+    "description": "The official index of third-party shadcn registries. Every listed registry is built into the CLI with no configuration, so `npx shadcn add @<registry>/<component>` resolves straight away — @aceternity, @magicui, @cult-ui, @kokonutui, @neobrutalism, @kibo-ui, @shadcnblocks, @ai-elements, @spell, @8bitcn and 267 more. The rendered page is a client-side grid, but the same data is served as a flat JSON array at https://ui.shadcn.com/r/registries.json with name, homepage, URL template, and description per entry. The page also links the docs for running your own registry, namespaces, authentication, and the shadcn MCP server.",
+    "category": "agent-design-tooling",
+    "subcategory": "mcp-and-registries",
+    "kinds": [
+      "directory",
+      "registry",
+      "reference"
+    ],
+    "facets": {
+      "framework": [
+        "react",
+        "next",
+        "vue",
+        "svelte",
+        "astro",
+        "remix"
+      ],
+      "styling": [
+        "tailwind-v4",
+        "tailwind-v3",
+        "css-variables"
+      ],
+      "license": [
+        "mit"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "shadcn-registry",
+        "cli",
+        "public-api",
+        "mcp-server"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "code",
+        "prose"
+      ],
+      "agent_readiness": [
+        "machine-index",
+        "registry-json",
+        "cli-installable",
+        "mcp-server",
+        "llms-txt",
+        "structured-docs",
+        "public-api"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": "npx shadcn add @<registry>/<component>",
+    "package": "shadcn",
+    "docs_url": "https://ui.shadcn.com/docs/directory",
+    "repo_url": "https://github.com/shadcn-ui/ui",
+    "registry_url": "https://ui.shadcn.com/r/registries.json",
+    "github": {
+      "stars": 121000,
+      "license": "MIT",
+      "last_activity": "2026-08"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 277,
+      "blocks": null
+    },
+    "agent_guidance": "This is the first place to look before you hand-roll a component or pick a library from memory — fetch https://ui.shadcn.com/r/registries.json, not the HTML page, because the visible grid is rendered client-side and a plain fetch of /docs/directory returns prose with zero listings. Each record gives you a namespace, a homepage, and a URL template like https://shadcnblocks.com/r/{name}.json, so you can resolve any component to a real JSON payload before installing. Two cautions: inclusion is self-submitted and unvetted, so read the code the CLI writes; and a namespace being absent here (Origin UI, tweakcn, Watermelon UI) does not mean the registry is bad, only that it needs an explicit URL install.",
+    "why_it_matters": "It is the canonical machine-readable map of the shadcn ecosystem — 277 registries an agent can enumerate, filter, and install from without a single web search.",
+    "quality_tier": "S",
+    "notable_for": [
+      "277 registries in one JSON array",
+      "namespaces built into the CLI with zero config",
+      "URL templates resolve any component to JSON",
+      "self-submitted and explicitly unvetted"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://ui.shadcn.com/docs/directory (HTML, stripped of tags), https://ui.shadcn.com/r/registries.json (277 entries parsed)"
+  },
+  {
+    "id": "6ced2161-1f59-4893-b094-db528fa6ee27",
+    "slug": "laststance-shadcn-registry-libraries",
+    "url": "https://laststance.io/articles/major-shadcn-ui-registry-libraries",
+    "name": "Major shadcn Registry Libraries",
+    "tagline": "June 2025 blog roundup naming eight shadcn registry libraries in ~900 words",
+    "description": "A short article by Ryota Murakami of Laststance.io that walks through the shadcn/ui registry ecosystem as it stood in mid-2025. It names Magic UI (150+ components), Aceternity UI, Shadcn Blocks (631 blocks at the time), Origin UI, Cult UI, Kokonut UI (100+ components), and Neobrutalism Components, plus passing mentions of Shadcn Form Builder, StyleGlide, and Kibo UI. Each gets one or two sentences on design style and use case; there is no comparison table, no benchmarks, and no per-component detail.",
+    "category": "essays-guides-courses",
+    "subcategory": "tool-reviews",
+    "kinds": [
+      "article",
+      "reference"
+    ],
+    "facets": {
+      "framework": [
+        "react",
+        "next"
+      ],
+      "styling": [
+        "tailwind-any"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "article"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "prose"
+      ],
+      "agent_readiness": [
+        "none"
+      ],
+      "maturity": "stable"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 8,
+      "blocks": null
+    },
+    "agent_guidance": "Do not use this as an install reference. The command it prints — npx shadcn-ui@latest add alert --registry https://registry.example.com/components.json — is the deprecated package name and a flag the current CLI does not use; the correct form is npx shadcn add @<registry>/<component>. Its counts are frozen at June 2025 (Shadcn Blocks is quoted at 631 blocks and now advertises 1,429). Read it only as a narrative orientation to the ecosystem, then get the real list from https://ui.shadcn.com/r/registries.json.",
+    "why_it_matters": "A readable snapshot of which registries mattered before the official directory existed — useful for context, superseded for anything operational.",
+    "quality_tier": "C",
+    "notable_for": [
+      "eight libraries named with one-line descriptions",
+      "published 6 June 2025, not updated since",
+      "prints the deprecated shadcn-ui@latest --registry syntax",
+      "superseded by the 277-entry official directory"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://laststance.io/articles/major-shadcn-ui-registry-libraries; counts cross-checked against https://ui.shadcn.com/r/registries.json"
+  },
+  {
+    "id": "d80b02f5-d834-4c20-af3b-0dd0591d2ab7",
+    "slug": "watermelon-ui",
+    "url": "https://ui.watermelon.sh",
+    "name": "Watermelon UI",
+    "tagline": "MIT shadcn registry: 131 animated components, 187 page blocks, 30 base primitives",
+    "description": "Watermelon UI is a free React and Tailwind registry with an unusually deep inventory: 131 animated micro-interaction components across 26 categories (dock, scroll-island, gooey-menu, morphing-button, voice-note, waveform-scrub, draw-signature), 187 numbered page blocks across 21 sections (43 hero variants, 31 footers, 13 auth screens), and 30 shadcn-style base primitives built on Radix. Everything installs from a public registry at registry.watermelon.sh with no account and no paywall — the underlying registry.json declares 1,067 items once variants and internal dependencies are counted. The source lives at WatermelonCorp/watermellon-registry under MIT.",
+    "category": "component-libraries",
+    "subcategory": "shadcn-registries",
+    "kinds": [
+      "registry",
+      "block-collection",
+      "component-library"
+    ],
+    "facets": {
+      "framework": [
+        "react",
+        "next"
+      ],
+      "styling": [
+        "tailwind-any",
+        "css-variables"
+      ],
+      "license": [
+        "mit"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "shadcn-registry",
+        "cli",
+        "copy-paste",
+        "github-repo"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "built-on-accessible-primitives"
+      ],
+      "content_type": [
+        "code"
+      ],
+      "agent_readiness": [
+        "registry-json",
+        "cli-installable",
+        "open-source-code",
+        "copy-paste-ready",
+        "js-only-shell"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "accordion",
+      "alert",
+      "avatar",
+      "avatar-group",
+      "badge",
+      "breadcrumbs",
+      "button",
+      "button-group",
+      "calendar",
+      "card",
+      "card-grid",
+      "checkbox",
+      "collapsible",
+      "combobox",
+      "table",
+      "data-grid",
+      "date-picker",
+      "dialog",
+      "dropdown-menu",
+      "form",
+      "masked-input",
+      "otp-input",
+      "pagination",
+      "popover",
+      "radio-group",
+      "select",
+      "sheet",
+      "toast",
+      "switch",
+      "tabs",
+      "textarea",
+      "tooltip",
+      "slider",
+      "carousel",
+      "chip",
+      "tag",
+      "dock",
+      "command-palette",
+      "progress-stepper",
+      "signature-pad",
+      "inline-edit",
+      "share-sheet",
+      "tree-view",
+      "onboarding-flow",
+      "profile-form",
+      "file-upload",
+      "pricing-table",
+      "waveform",
+      "qr-code",
+      "map",
+      "hero",
+      "footer",
+      "navbar",
+      "navigation-menu",
+      "stat",
+      "announcement-bar",
+      "error-page",
+      "login-form",
+      "signup-form",
+      "quote",
+      "notification-center",
+      "empty-state",
+      "drag-and-drop",
+      "hover-effect"
+    ],
+    "component_count": 161,
+    "surfaces": [
+      "homepage",
+      "features",
+      "pricing-website",
+      "testimonials",
+      "team",
+      "careers",
+      "contact-us",
+      "faq",
+      "blog",
+      "blog-post",
+      "404",
+      "error-500",
+      "login-web-app",
+      "sign-up",
+      "resetting-password",
+      "two-factor-authentication",
+      "onboarding-checklist",
+      "uploading-media",
+      "notifications",
+      "integrations",
+      "analytics",
+      "command-palette",
+      "map-view",
+      "feature-announcement"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": "npx shadcn@latest add https://registry.watermelon.sh/r/hero-1.json",
+    "package": null,
+    "docs_url": "https://ui.watermelon.sh/installation",
+    "repo_url": "https://github.com/WatermelonCorp/watermellon-registry",
+    "registry_url": "https://registry.watermelon.sh/r/registry.json",
+    "github": {
+      "stars": 83,
+      "license": "MIT",
+      "last_activity": "2026-08-02"
+    },
+    "pricing_detail": "No pricing page and no paywall found; every registry item resolves anonymously over HTTP.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 1067,
+      "blocks": 187
+    },
+    "agent_guidance": "Reach for Watermelon UI over shadcnblocks or 21st.dev when you need free marketing sections at volume — 43 hero variants and 31 footers, all MIT, all resolvable without an account — and over Aceternity when you need functional micro-interactions (dock, command-search, stepper, draw-signature) rather than decoration. Do not try to browse ui.watermelon.sh: it is a Vite SPA that returns an empty shell and 403s non-browser user agents, so enumerate from https://ui.watermelon.sh/sitemap.xml and resolve names against https://registry.watermelon.sh/r/registry.json instead. Two caveats: it is not in shadcn's official namespace list, so you must install by full URL; and many animated components carry an inspiredBy link to another designer's work, so check attribution before shipping one as your own.",
+    "why_it_matters": "One of the largest genuinely free MIT block inventories in the shadcn ecosystem, and the animated-component half covers app-shell interactions that the landing-page libraries ignore.",
+    "quality_tier": "A",
+    "notable_for": [
+      "187 page blocks including 43 heroes and 31 footers",
+      "131 animated components across 26 categories",
+      "1,067 items in a public unauthenticated registry.json",
+      "site is a JS-only shell — enumerate via sitemap.xml",
+      "components credit an inspiredBy source"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://ui.watermelon.sh (403 to WebFetch, 200 to a browser UA — JS-only shell), https://ui.watermelon.sh/sitemap.xml (405 URLs parsed), https://registry.watermelon.sh/r/registry.json (1067 items), https://registry.watermelon.sh/r/hero-1.json, https://api.github.com/repos/WatermelonCorp/watermellon-registry"
+  }
+]

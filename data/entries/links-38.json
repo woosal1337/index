@@ -1,0 +1,1531 @@
+[
+ {
+  "id": "91181fb3-f208-4b9e-a1bb-f724e9e584fb",
+  "slug": "impeccable-github",
+  "url": "https://github.com/pbakaus/impeccable",
+  "name": "Impeccable",
+  "tagline": "Design skill for AI coding agents: 23 slash commands and 59 detector rules",
+  "description": "Impeccable is a design-guidance skill that installs into an AI coding harness and gives it a shared design vocabulary. It ships one skill with 23 slash commands (init, craft, shape, critique, audit, polish, bolder, quieter, distill, harden, onboard, animate, colorize, typeset, layout, delight, overdrive, clarify, adapt, optimize, live, document, extract) plus 59 deterministic detector rules that flag AI design tells such as Inter-for-everything, purple-to-blue gradients, cards nested in cards, gray text on colored backgrounds and bounce easing. `/impeccable init` writes PRODUCT.md and DESIGN.md so every later command reads the same project context. It targets developers who let an agent build the frontend and want the output to stop looking machine-made.",
+  "category": "agent-design-tooling",
+  "subcategory": "agent-skills",
+  "kinds": [
+   "agent-skill",
+   "tool",
+   "checklist"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "apache-2.0"
+   ],
+   "pricing": [
+    "free",
+    "open-source",
+    "freemium"
+   ],
+   "distribution": [
+    "agent-skill",
+    "cli",
+    "npm-package",
+    "github-repo",
+    "browser-extension"
+   ],
+   "platform": [
+    "web",
+    "platform-agnostic"
+   ],
+   "accessibility": [
+    "contrast-checked",
+    "claimed-accessible"
+   ],
+   "content_type": [
+    "prompts",
+    "prose",
+    "code"
+   ],
+   "agent_readiness": [
+    "agent-skill",
+    "cli-installable",
+    "structured-docs",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "onboarding-web-app",
+   "empty-state",
+   "features"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "npx impeccable install",
+  "package": "impeccable",
+  "docs_url": "https://impeccable.style",
+  "repo_url": "https://github.com/pbakaus/impeccable",
+  "registry_url": null,
+  "github": {
+   "stars": 59372,
+   "license": "Apache-2.0",
+   "last_activity": "2026-08-15"
+  },
+  "pricing_detail": "Skill, CLI and Chrome extension are free and Apache-2.0. The impeccable.style site markets a Pro tier for the 'design worlds' deck (177 worlds, growing weekly); no public price listed.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Install this at project start, before any UI exists: run `npx impeccable install` then `/impeccable init` so PRODUCT.md and DESIGN.md exist for every later command to read. It is the strongest general-purpose replacement for Anthropic's frontend-design skill and it composes with a brand-specific DESIGN.md from awesome-design-md or hue - Impeccable supplies craft rules, the DESIGN.md supplies the visual identity. Watch out that it ships no components and no code: it will not build a design system for you, it critiques and reshapes what you already generated, and the 59 detector rules run deterministically via `npx impeccable detect src/` with no LLM, so use that in CI rather than burning tokens on a critique pass.",
+  "why_it_matters": "It is the most-adopted design skill for AI coding harnesses and the clearest codification of what AI-generated UI gets wrong, expressed as rules an agent can actually execute.",
+  "quality_tier": "S",
+  "notable_for": [
+   "23 slash commands",
+   "59 deterministic detector rules",
+   "works across 14+ agent harnesses",
+   "no-LLM CI detector",
+   "Chrome detector overlay"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://github.com/pbakaus/impeccable, https://raw.githubusercontent.com/pbakaus/impeccable/main/README.md, https://api.github.com/repos/pbakaus/impeccable, https://impeccable.style"
+ },
+ {
+  "id": "2c3c4c46-bce8-42c5-9dc5-945e8ff4eb8e",
+  "slug": "getdesign-md",
+  "url": "https://getdesign.md",
+  "name": "getdesign.md",
+  "tagline": "Browsable catalog of DESIGN.md brand analyses for AI coding agents",
+  "description": "getdesign.md is the web front end for the DESIGN.md collection maintained by the VoltAgent team. Each entry is a plain-markdown analysis of a real brand's visual language - colors and their roles, typography rules, component styling, layout, elevation, responsive behaviour, do's and don'ts, and an agent prompt guide - that you paste into a project so a coding agent builds pages in that style. 75 brands are listed on the homepage, from Linear, Stripe, Vercel and Claude to Ferrari, Nike and a 1996 Dell revival; the site markets a larger 300+ catalog. Free browsing sits alongside a paid Catalog Pass and a Website Starter Kit.",
+  "category": "agent-design-tooling",
+  "subcategory": "design-md-and-specs",
+  "kinds": [
+   "design-md",
+   "directory",
+   "marketplace"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "css-variables"
+   ],
+   "license": [
+    "mit",
+    "commercial"
+   ],
+   "pricing": [
+    "freemium",
+    "subscription",
+    "paid"
+   ],
+   "distribution": [
+    "web-app",
+    "copy-paste",
+    "download"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "prose",
+    "design-tokens",
+    "screenshots"
+   ],
+   "agent_readiness": [
+    "copy-paste-ready",
+    "structured-docs",
+    "machine-index"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "features",
+   "pricing-website",
+   "blog"
+  ],
+  "templates": [
+   {
+    "name": "Airbnb",
+    "url": "https://getdesign.md/airbnb/design-md",
+    "purpose": "Travel marketplace. Warm coral accent, photography-driven, rounded UI"
+   },
+   {
+    "name": "Airtable",
+    "url": "https://getdesign.md/airtable/design-md",
+    "purpose": "Spreadsheet-database hybrid. Colorful, friendly, structured data aesthetic"
+   },
+   {
+    "name": "Apple",
+    "url": "https://getdesign.md/apple/design-md",
+    "purpose": "Consumer electronics. Premium white space, SF Pro, cinematic imagery"
+   },
+   {
+    "name": "Binance",
+    "url": "https://getdesign.md/binance/design-md",
+    "purpose": "Crypto exchange. Bold Binance Yellow on monochrome, trading-floor urgency"
+   },
+   {
+    "name": "BMW",
+    "url": "https://getdesign.md/bmw/design-md",
+    "purpose": "Luxury automotive. Dark premium surfaces, precise German engineering aesthetic"
+   },
+   {
+    "name": "BMW M",
+    "url": "https://getdesign.md/bmw-m/design-md",
+    "purpose": "Performance automotive. Motorsport-inspired contrast, M color accents, precision-driven layout"
+   },
+   {
+    "name": "Bugatti",
+    "url": "https://getdesign.md/bugatti/design-md",
+    "purpose": "Luxury hypercar. Cinema-black canvas, monochrome austerity, monumental display type"
+   },
+   {
+    "name": "Cal.com",
+    "url": "https://getdesign.md/cal/design-md",
+    "purpose": "Open-source scheduling. Clean neutral UI, developer-oriented simplicity"
+   },
+   {
+    "name": "Claude",
+    "url": "https://getdesign.md/claude/design-md",
+    "purpose": "Anthropic's AI assistant. Warm terracotta accent, clean editorial layout"
+   },
+   {
+    "name": "Clay",
+    "url": "https://getdesign.md/clay/design-md",
+    "purpose": "Creative agency. Organic shapes, soft gradients, art-directed layout"
+   },
+   {
+    "name": "ClickHouse",
+    "url": "https://getdesign.md/clickhouse/design-md",
+    "purpose": "Fast analytics database. Yellow-accented, technical documentation style"
+   },
+   {
+    "name": "Cohere",
+    "url": "https://getdesign.md/cohere/design-md",
+    "purpose": "Enterprise AI platform. Vibrant gradients, data-rich dashboard aesthetic"
+   },
+   {
+    "name": "Coinbase",
+    "url": "https://getdesign.md/coinbase/design-md",
+    "purpose": "Crypto exchange. Clean blue identity, trust-focused, institutional feel"
+   },
+   {
+    "name": "Composio",
+    "url": "https://getdesign.md/composio/design-md",
+    "purpose": "Tool integration platform. Modern dark with colorful integration icons"
+   },
+   {
+    "name": "Cursor",
+    "url": "https://getdesign.md/cursor/design-md",
+    "purpose": "AI-first code editor. Sleek dark interface, gradient accents"
+   },
+   {
+    "name": "Dell (1996)",
+    "url": "https://getdesign.md/dell-1996/design-md",
+    "purpose": "Catalog-era enterprise web. Literal black page frame, flat color-block \"ribbon cards\", chunky Helvetica-Black titles over Times Roman body, and..."
+   },
+   {
+    "name": "Discord",
+    "url": "https://getdesign.md/discord/design-md",
+    "purpose": "DESIGN.md design-language analysis of Discord"
+   },
+   {
+    "name": "ElevenLabs",
+    "url": "https://getdesign.md/elevenlabs/design-md",
+    "purpose": "AI voice platform. Dark cinematic UI, audio-waveform aesthetics"
+   },
+   {
+    "name": "Expo",
+    "url": "https://getdesign.md/expo/design-md",
+    "purpose": "React Native platform. Dark theme, tight letter-spacing, code-centric"
+   },
+   {
+    "name": "Ferrari",
+    "url": "https://getdesign.md/ferrari/design-md",
+    "purpose": "Luxury automotive. Chiaroscuro black-white editorial, Ferrari Red with extreme sparseness"
+   },
+   {
+    "name": "Figma",
+    "url": "https://getdesign.md/figma/design-md",
+    "purpose": "Collaborative design tool. Vibrant multi-color, playful yet professional"
+   },
+   {
+    "name": "Framer",
+    "url": "https://getdesign.md/framer/design-md",
+    "purpose": "Website builder. Bold black and blue, motion-first, design-forward"
+   },
+   {
+    "name": "HashiCorp",
+    "url": "https://getdesign.md/hashicorp/design-md",
+    "purpose": "Infrastructure automation. Enterprise-clean, black and white"
+   },
+   {
+    "name": "HP",
+    "url": "https://getdesign.md/hp/design-md",
+    "purpose": "PC and printer maker. Pure white canvas, HP Electric Blue signal CTA, geometric Forma DJR Micro, blue chevron decorations"
+   },
+   {
+    "name": "IBM",
+    "url": "https://getdesign.md/ibm/design-md",
+    "purpose": "Enterprise technology. Carbon design system, structured blue palette"
+   },
+   {
+    "name": "Intercom",
+    "url": "https://getdesign.md/intercom/design-md",
+    "purpose": "Customer messaging. Friendly blue palette, conversational UI patterns"
+   },
+   {
+    "name": "Kraken",
+    "url": "https://getdesign.md/kraken/design-md",
+    "purpose": "Crypto trading platform. Purple-accented dark UI, data-dense dashboards"
+   },
+   {
+    "name": "Lamborghini",
+    "url": "https://getdesign.md/lamborghini/design-md",
+    "purpose": "Luxury automotive. True black cathedral, gold accent, LamboType custom Neo-Grotesk"
+   },
+   {
+    "name": "Linear",
+    "url": "https://getdesign.md/linear.app/design-md",
+    "purpose": "Project management for engineers. Ultra-minimal, precise, purple accent"
+   },
+   {
+    "name": "Lovable",
+    "url": "https://getdesign.md/lovable/design-md",
+    "purpose": "AI full-stack builder. Playful gradients, friendly dev aesthetic"
+   },
+   {
+    "name": "Mastercard",
+    "url": "https://getdesign.md/mastercard/design-md",
+    "purpose": "Global payments network. Warm cream canvas, orbital pill shapes, editorial warmth"
+   },
+   {
+    "name": "Meta",
+    "url": "https://getdesign.md/meta/design-md",
+    "purpose": "Tech retail store. Photography-first, binary light/dark surfaces, Meta Blue CTAs"
+   },
+   {
+    "name": "Minimax",
+    "url": "https://getdesign.md/minimax/design-md",
+    "purpose": "AI model provider. Bold dark interface with neon accents"
+   },
+   {
+    "name": "Mintlify",
+    "url": "https://getdesign.md/mintlify/design-md",
+    "purpose": "Documentation platform. Clean, green-accented, reading-optimized"
+   },
+   {
+    "name": "Miro",
+    "url": "https://getdesign.md/miro/design-md",
+    "purpose": "Visual collaboration. Bright yellow accent, infinite canvas aesthetic"
+   },
+   {
+    "name": "Mistral AI",
+    "url": "https://getdesign.md/mistral.ai/design-md",
+    "purpose": "Open-weight LLM provider. French-engineered minimalism, purple-toned"
+   },
+   {
+    "name": "MongoDB",
+    "url": "https://getdesign.md/mongodb/design-md",
+    "purpose": "Document database. Green leaf branding, developer documentation focus"
+   },
+   {
+    "name": "Nike",
+    "url": "https://getdesign.md/nike/design-md",
+    "purpose": "Athletic retail. Monochrome UI, massive uppercase Futura, full-bleed photography"
+   },
+   {
+    "name": "Nintendo.com (2001)",
+    "url": "https://getdesign.md/nintendo-2001/design-md",
+    "purpose": "Y2K \"console chrome\" web. Brushed-periwinkle beveled metal panels, a halftone-dotted carbon nav glowing amber, outlined Arial-Black box-art..."
+   },
+   {
+    "name": "Notion",
+    "url": "https://getdesign.md/notion/design-md",
+    "purpose": "All-in-one workspace. Warm minimalism, serif headings, soft surfaces"
+   },
+   {
+    "name": "NVIDIA",
+    "url": "https://getdesign.md/nvidia/design-md",
+    "purpose": "GPU computing. Green-black energy, technical power aesthetic"
+   },
+   {
+    "name": "Ollama",
+    "url": "https://getdesign.md/ollama/design-md",
+    "purpose": "Run LLMs locally. Terminal-first, monochrome simplicity"
+   },
+   {
+    "name": "OpenCode AI",
+    "url": "https://getdesign.md/opencode.ai/design-md",
+    "purpose": "AI coding platform. Developer-centric dark theme"
+   },
+   {
+    "name": "Pinterest",
+    "url": "https://getdesign.md/pinterest/design-md",
+    "purpose": "Visual discovery platform. Red accent, masonry grid, image-first"
+   },
+   {
+    "name": "PlayStation",
+    "url": "https://getdesign.md/playstation/design-md",
+    "purpose": "Gaming console retail. Three-surface channel layout, cyan hover-scale interaction"
+   },
+   {
+    "name": "PostHog",
+    "url": "https://getdesign.md/posthog/design-md",
+    "purpose": "Product analytics. Playful hedgehog branding, developer-friendly dark UI"
+   },
+   {
+    "name": "Raycast",
+    "url": "https://getdesign.md/raycast/design-md",
+    "purpose": "Productivity launcher. Sleek dark chrome, vibrant gradient accents"
+   },
+   {
+    "name": "Renault",
+    "url": "https://getdesign.md/renault/design-md",
+    "purpose": "French automotive. Vivid aurora gradients, NouvelR proprietary typeface, zero-radius buttons"
+   },
+   {
+    "name": "Replicate",
+    "url": "https://getdesign.md/replicate/design-md",
+    "purpose": "Run ML models via API. Clean white canvas, code-forward"
+   },
+   {
+    "name": "Resend",
+    "url": "https://getdesign.md/resend/design-md",
+    "purpose": "Email API for developers. Minimal dark theme, monospace accents"
+   },
+   {
+    "name": "Revolut",
+    "url": "https://getdesign.md/revolut/design-md",
+    "purpose": "Digital banking. Sleek dark interface, gradient cards, fintech precision"
+   },
+   {
+    "name": "Runway",
+    "url": "https://getdesign.md/runwayml/design-md",
+    "purpose": "AI creative-tools platform with an editorial film-festival aesthetic — cinematic dark heroes, paper-white reading bands, single proprietary sans,..."
+   },
+   {
+    "name": "Sanity",
+    "url": "https://getdesign.md/sanity/design-md",
+    "purpose": "Headless content platform with a dark-first editorial marketing surface — 112px display type, IBM Plex Mono technical eyebrows, and a single..."
+   },
+   {
+    "name": "Sentry",
+    "url": "https://getdesign.md/sentry/design-md",
+    "purpose": "Error monitoring. Dark dashboard, data-dense, pink-purple accent"
+   },
+   {
+    "name": "Shopify",
+    "url": "https://getdesign.md/shopify/design-md",
+    "purpose": "E-commerce platform. Dark-first cinematic, neon green accent, ultra-light display type"
+   },
+   {
+    "name": "Slack",
+    "url": "https://getdesign.md/slack/design-md",
+    "purpose": "DESIGN.md design-language analysis of Slack"
+   },
+   {
+    "name": "SpaceX",
+    "url": "https://getdesign.md/spacex/design-md",
+    "purpose": "Space technology. Stark black and white, full-bleed imagery, futuristic"
+   },
+   {
+    "name": "Spotify",
+    "url": "https://getdesign.md/spotify/design-md",
+    "purpose": "Music streaming. Vibrant green on dark, bold type, album-art-driven"
+   },
+   {
+    "name": "Starbucks",
+    "url": "https://getdesign.md/starbucks/design-md",
+    "purpose": "Coffee retail flagship. Four-tier earth-green system, warm cream canvas, proprietary SoDoSans typography"
+   },
+   {
+    "name": "Stripe",
+    "url": "https://getdesign.md/stripe/design-md",
+    "purpose": "Payment infrastructure. Signature purple gradients, weight-300 elegance"
+   },
+   {
+    "name": "Supabase",
+    "url": "https://getdesign.md/supabase/design-md",
+    "purpose": "Open-source Firebase alternative. Dark emerald theme, code-first"
+   },
+   {
+    "name": "Superhuman",
+    "url": "https://getdesign.md/superhuman/design-md",
+    "purpose": "Fast email client. Premium dark UI, keyboard-first, purple glow"
+   },
+   {
+    "name": "Tesla",
+    "url": "https://getdesign.md/tesla/design-md",
+    "purpose": "Electric vehicles. Radical subtraction, cinematic full-viewport photography, Universal Sans"
+   },
+   {
+    "name": "The Verge",
+    "url": "https://getdesign.md/theverge/design-md",
+    "purpose": "Tech editorial media. Acid-mint and ultraviolet accents, Manuka display type"
+   },
+   {
+    "name": "Together AI",
+    "url": "https://getdesign.md/together.ai/design-md",
+    "purpose": "Open-source AI infrastructure. Technical, blueprint-style design"
+   },
+   {
+    "name": "Uber",
+    "url": "https://getdesign.md/uber/design-md",
+    "purpose": "Mobility platform. Bold black and white, tight type, urban energy"
+   },
+   {
+    "name": "Vercel",
+    "url": "https://getdesign.md/vercel/design-md",
+    "purpose": "Frontend deployment platform. Black and white precision, Geist font"
+   },
+   {
+    "name": "Vodafone",
+    "url": "https://getdesign.md/vodafone/design-md",
+    "purpose": "Global telecom brand. Monumental uppercase display, Vodafone Red chapter bands"
+   },
+   {
+    "name": "VoltAgent",
+    "url": "https://getdesign.md/voltagent/design-md",
+    "purpose": "AI agent framework. Void-black canvas, emerald accent, terminal-native"
+   },
+   {
+    "name": "Warp",
+    "url": "https://getdesign.md/warp/design-md",
+    "purpose": "Modern terminal. Dark IDE-like interface, block-based command UI"
+   },
+   {
+    "name": "Webflow",
+    "url": "https://getdesign.md/webflow/design-md",
+    "purpose": "Visual web builder. Blue-accented, polished marketing site aesthetic"
+   },
+   {
+    "name": "WIRED",
+    "url": "https://getdesign.md/wired/design-md",
+    "purpose": "Tech magazine. Paper-white broadsheet density, custom serif, ink-blue links"
+   },
+   {
+    "name": "Wise",
+    "url": "https://getdesign.md/wise/design-md",
+    "purpose": "International money transfer. Bright green accent, friendly and clear"
+   },
+   {
+    "name": "xAI",
+    "url": "https://getdesign.md/x.ai/design-md",
+    "purpose": "Elon Musk's AI lab. Stark monochrome, futuristic minimalism"
+   },
+   {
+    "name": "Zapier",
+    "url": "https://getdesign.md/zapier/design-md",
+    "purpose": "Automation platform. Warm orange, friendly illustration-driven"
+   }
+  ],
+  "template_count": 75,
+  "install": null,
+  "package": null,
+  "docs_url": "https://getdesign.md/what-is-design-md",
+  "repo_url": "https://github.com/VoltAgent/awesome-design-md",
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Individual DESIGN.md pages are browsable free. Catalog Pass listed at $99/mo covering 30 designs. Separate paid 'Website Starter Kit' (one-time, own the codebase) and a paid private DESIGN.md request service.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 75,
+   "blocks": null
+  },
+  "agent_guidance": "Use this when the user says 'make it look like Linear' or 'like Stripe' and you need a concrete visual contract instead of guessing - pick the brand page, copy its DESIGN.md into the project root, and cite it in every subsequent UI prompt. Prefer the free MIT GitHub mirror (VoltAgent/awesome-design-md) for anything you need to fetch programmatically; this site is the nicer browser but its catalog index and prices render client-side, so a plain fetch of /design-md returns an empty shell. Two cautions: the marketed '300+' is not verifiable from the public pages (75 brand pages are actually linked), and copying a living brand's exact palette and type stack into a shipped product is a trademark problem, so treat these as style references, not assets to reproduce.",
+  "why_it_matters": "DESIGN.md is becoming the lingua franca between designers and coding agents, and this is the largest curated catalog of real brand systems expressed in that format.",
+  "notable_for": [
+   "75 brand design languages",
+   "Catalog Pass at $99/mo",
+   "9-section DESIGN.md format",
+   "maintained by the VoltAgent team",
+   "includes retro entries like Dell 1996"
+  ],
+  "quality_tier": "A",
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://getdesign.md (homepage HTML, 75 /design-md links extracted), https://getdesign.md/design-md-pass, https://getdesign.md/catalog (empty result), https://getdesign.md/design-md (JS shell, no entries in HTML)"
+ },
+ {
+  "id": "9ee7bd9a-d374-475f-9987-863b56b147fd",
+  "slug": "awesome-design-md",
+  "url": "https://github.com/VoltAgent/awesome-design-md",
+  "name": "Awesome DESIGN.md",
+  "tagline": "73 MIT-licensed DESIGN.md brand analyses you drop into a project root",
+  "description": "A curated GitHub collection of DESIGN.md files - the plain-text design-system document introduced by Google Stitch - covering 73 listed brands across ten categories: AI and LLM platforms, developer tools, backend and DevOps, productivity SaaS, design and creative tools, fintech and crypto, e-commerce, media and consumer tech, automotive, and a retro-web nostalgia set. Each folder holds a DESIGN.md with nine sections (visual theme, color palette and roles, typography rules, component stylings, layout principles, depth and elevation, do's and don'ts, responsive behaviour, agent prompt guide) plus preview.html and preview-dark.html renderings. You copy one file into your project root and tell the agent to follow it. This is the free MIT mirror of the getdesign.md catalog.",
+  "category": "agent-design-tooling",
+  "subcategory": "design-md-and-specs",
+  "kinds": [
+   "design-md",
+   "directory",
+   "reference"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "css-variables"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "github-repo",
+    "copy-paste",
+    "download"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "prose",
+    "design-tokens",
+    "code"
+   ],
+   "agent_readiness": [
+    "copy-paste-ready",
+    "structured-docs",
+    "open-source-code",
+    "machine-index"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "features",
+   "pricing-website",
+   "blog"
+  ],
+  "templates": [
+   {
+    "name": "Airbnb",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/airbnb",
+    "purpose": "Travel marketplace. Warm coral accent, photography-driven, rounded UI"
+   },
+   {
+    "name": "Airtable",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/airtable",
+    "purpose": "Spreadsheet-database hybrid. Colorful, friendly, structured data aesthetic"
+   },
+   {
+    "name": "Apple",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/apple",
+    "purpose": "Consumer electronics. Premium white space, SF Pro, cinematic imagery"
+   },
+   {
+    "name": "Binance",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/binance",
+    "purpose": "Crypto exchange. Bold Binance Yellow on monochrome, trading-floor urgency"
+   },
+   {
+    "name": "BMW M",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/bmw-m",
+    "purpose": "Performance automotive. Motorsport-inspired contrast, M color accents, precision-driven layout"
+   },
+   {
+    "name": "BMW",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/bmw",
+    "purpose": "Luxury automotive. Dark premium surfaces, precise German engineering aesthetic"
+   },
+   {
+    "name": "Bugatti",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/bugatti",
+    "purpose": "Luxury hypercar. Cinema-black canvas, monochrome austerity, monumental display type"
+   },
+   {
+    "name": "Cal.com",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/cal",
+    "purpose": "Open-source scheduling. Clean neutral UI, developer-oriented simplicity"
+   },
+   {
+    "name": "Claude",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/claude",
+    "purpose": "Anthropic's AI assistant. Warm terracotta accent, clean editorial layout"
+   },
+   {
+    "name": "Clay",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/clay",
+    "purpose": "Creative agency. Organic shapes, soft gradients, art-directed layout"
+   },
+   {
+    "name": "ClickHouse",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/clickhouse",
+    "purpose": "Fast analytics database. Yellow-accented, technical documentation style"
+   },
+   {
+    "name": "Cohere",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/cohere",
+    "purpose": "Enterprise AI platform. Vibrant gradients, data-rich dashboard aesthetic"
+   },
+   {
+    "name": "Coinbase",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/coinbase",
+    "purpose": "Crypto exchange. Clean blue identity, trust-focused, institutional feel"
+   },
+   {
+    "name": "Composio",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/composio",
+    "purpose": "Tool integration platform. Modern dark with colorful integration icons"
+   },
+   {
+    "name": "Cursor",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/cursor",
+    "purpose": "AI-first code editor. Sleek dark interface, gradient accents"
+   },
+   {
+    "name": "Dell (1996)",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/dell-1996",
+    "purpose": "Catalog-era enterprise web. Literal black page frame, flat color-block \"ribbon cards\", chunky Helvetica-Black titles over Times Roman body, and..."
+   },
+   {
+    "name": "ElevenLabs",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/elevenlabs",
+    "purpose": "AI voice platform. Dark cinematic UI, audio-waveform aesthetics"
+   },
+   {
+    "name": "Expo",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/expo",
+    "purpose": "React Native platform. Dark theme, tight letter-spacing, code-centric"
+   },
+   {
+    "name": "Ferrari",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/ferrari",
+    "purpose": "Luxury automotive. Chiaroscuro black-white editorial, Ferrari Red with extreme sparseness"
+   },
+   {
+    "name": "Figma",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/figma",
+    "purpose": "Collaborative design tool. Vibrant multi-color, playful yet professional"
+   },
+   {
+    "name": "Framer",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/framer",
+    "purpose": "Website builder. Bold black and blue, motion-first, design-forward"
+   },
+   {
+    "name": "HashiCorp",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/hashicorp",
+    "purpose": "Infrastructure automation. Enterprise-clean, black and white"
+   },
+   {
+    "name": "HP",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/hp",
+    "purpose": "PC and printer maker. Pure white canvas, HP Electric Blue signal CTA, geometric Forma DJR Micro, blue chevron decorations"
+   },
+   {
+    "name": "IBM",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/ibm",
+    "purpose": "Enterprise technology. Carbon design system, structured blue palette"
+   },
+   {
+    "name": "Intercom",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/intercom",
+    "purpose": "Customer messaging. Friendly blue palette, conversational UI patterns"
+   },
+   {
+    "name": "Kraken",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/kraken",
+    "purpose": "Crypto trading platform. Purple-accented dark UI, data-dense dashboards"
+   },
+   {
+    "name": "Lamborghini",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/lamborghini",
+    "purpose": "Luxury automotive. True black cathedral, gold accent, LamboType custom Neo-Grotesk"
+   },
+   {
+    "name": "Linear",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/linear.app",
+    "purpose": "Project management for engineers. Ultra-minimal, precise, purple accent"
+   },
+   {
+    "name": "Lovable",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/lovable",
+    "purpose": "AI full-stack builder. Playful gradients, friendly dev aesthetic"
+   },
+   {
+    "name": "Mastercard",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/mastercard",
+    "purpose": "Global payments network. Warm cream canvas, orbital pill shapes, editorial warmth"
+   },
+   {
+    "name": "Meta",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/meta",
+    "purpose": "Tech retail store. Photography-first, binary light/dark surfaces, Meta Blue CTAs"
+   },
+   {
+    "name": "Minimax",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/minimax",
+    "purpose": "AI model provider. Bold dark interface with neon accents"
+   },
+   {
+    "name": "Mintlify",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/mintlify",
+    "purpose": "Documentation platform. Clean, green-accented, reading-optimized"
+   },
+   {
+    "name": "Miro",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/miro",
+    "purpose": "Visual collaboration. Bright yellow accent, infinite canvas aesthetic"
+   },
+   {
+    "name": "Mistral AI",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/mistral.ai",
+    "purpose": "Open-weight LLM provider. French-engineered minimalism, purple-toned"
+   },
+   {
+    "name": "MongoDB",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/mongodb",
+    "purpose": "Document database. Green leaf branding, developer documentation focus"
+   },
+   {
+    "name": "Nike",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/nike",
+    "purpose": "Athletic retail. Monochrome UI, massive uppercase Futura, full-bleed photography"
+   },
+   {
+    "name": "Nintendo.com (2001)",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/nintendo-2001",
+    "purpose": "Y2K \"console chrome\" web. Brushed-periwinkle beveled metal panels, a halftone-dotted carbon nav glowing amber, outlined Arial-Black box-art..."
+   },
+   {
+    "name": "Notion",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/notion",
+    "purpose": "All-in-one workspace. Warm minimalism, serif headings, soft surfaces"
+   },
+   {
+    "name": "NVIDIA",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/nvidia",
+    "purpose": "GPU computing. Green-black energy, technical power aesthetic"
+   },
+   {
+    "name": "Ollama",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/ollama",
+    "purpose": "Run LLMs locally. Terminal-first, monochrome simplicity"
+   },
+   {
+    "name": "OpenCode AI",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/opencode.ai",
+    "purpose": "AI coding platform. Developer-centric dark theme"
+   },
+   {
+    "name": "Pinterest",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/pinterest",
+    "purpose": "Visual discovery platform. Red accent, masonry grid, image-first"
+   },
+   {
+    "name": "PlayStation",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/playstation",
+    "purpose": "Gaming console retail. Three-surface channel layout, cyan hover-scale interaction"
+   },
+   {
+    "name": "PostHog",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/posthog",
+    "purpose": "Product analytics. Playful hedgehog branding, developer-friendly dark UI"
+   },
+   {
+    "name": "Raycast",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/raycast",
+    "purpose": "Productivity launcher. Sleek dark chrome, vibrant gradient accents"
+   },
+   {
+    "name": "Renault",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/renault",
+    "purpose": "French automotive. Vivid aurora gradients, NouvelR proprietary typeface, zero-radius buttons"
+   },
+   {
+    "name": "Replicate",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/replicate",
+    "purpose": "Run ML models via API. Clean white canvas, code-forward"
+   },
+   {
+    "name": "Resend",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/resend",
+    "purpose": "Email API for developers. Minimal dark theme, monospace accents"
+   },
+   {
+    "name": "Revolut",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/revolut",
+    "purpose": "Digital banking. Sleek dark interface, gradient cards, fintech precision"
+   },
+   {
+    "name": "Runway",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/runwayml",
+    "purpose": "AI creative-tools platform with an editorial film-festival aesthetic — cinematic dark heroes, paper-white reading bands, single proprietary sans,..."
+   },
+   {
+    "name": "Sanity",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/sanity",
+    "purpose": "Headless content platform with a dark-first editorial marketing surface — 112px display type, IBM Plex Mono technical eyebrows, and a single..."
+   },
+   {
+    "name": "Sentry",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/sentry",
+    "purpose": "Error monitoring. Dark dashboard, data-dense, pink-purple accent"
+   },
+   {
+    "name": "Shopify",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/shopify",
+    "purpose": "E-commerce platform. Dark-first cinematic, neon green accent, ultra-light display type"
+   },
+   {
+    "name": "Slack",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/slack",
+    "purpose": "DESIGN.md design-language analysis"
+   },
+   {
+    "name": "SpaceX",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/spacex",
+    "purpose": "Space technology. Stark black and white, full-bleed imagery, futuristic"
+   },
+   {
+    "name": "Spotify",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/spotify",
+    "purpose": "Music streaming. Vibrant green on dark, bold type, album-art-driven"
+   },
+   {
+    "name": "Starbucks",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/starbucks",
+    "purpose": "Coffee retail flagship. Four-tier earth-green system, warm cream canvas, proprietary SoDoSans typography"
+   },
+   {
+    "name": "Stripe",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/stripe",
+    "purpose": "Payment infrastructure. Signature purple gradients, weight-300 elegance"
+   },
+   {
+    "name": "Supabase",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/supabase",
+    "purpose": "Open-source Firebase alternative. Dark emerald theme, code-first"
+   },
+   {
+    "name": "Superhuman",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/superhuman",
+    "purpose": "Fast email client. Premium dark UI, keyboard-first, purple glow"
+   },
+   {
+    "name": "Tesla",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/tesla",
+    "purpose": "Electric vehicles. Radical subtraction, cinematic full-viewport photography, Universal Sans"
+   },
+   {
+    "name": "The Verge",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/theverge",
+    "purpose": "Tech editorial media. Acid-mint and ultraviolet accents, Manuka display type"
+   },
+   {
+    "name": "Together AI",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/together.ai",
+    "purpose": "Open-source AI infrastructure. Technical, blueprint-style design"
+   },
+   {
+    "name": "Uber",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/uber",
+    "purpose": "Mobility platform. Bold black and white, tight type, urban energy"
+   },
+   {
+    "name": "Vercel",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/vercel",
+    "purpose": "Frontend deployment platform. Black and white precision, Geist font"
+   },
+   {
+    "name": "Vodafone",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/vodafone",
+    "purpose": "Global telecom brand. Monumental uppercase display, Vodafone Red chapter bands"
+   },
+   {
+    "name": "VoltAgent",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/voltagent",
+    "purpose": "AI agent framework. Void-black canvas, emerald accent, terminal-native"
+   },
+   {
+    "name": "Warp",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/warp",
+    "purpose": "Modern terminal. Dark IDE-like interface, block-based command UI"
+   },
+   {
+    "name": "Webflow",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/webflow",
+    "purpose": "Visual web builder. Blue-accented, polished marketing site aesthetic"
+   },
+   {
+    "name": "WIRED",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/wired",
+    "purpose": "Tech magazine. Paper-white broadsheet density, custom serif, ink-blue links"
+   },
+   {
+    "name": "Wise",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/wise",
+    "purpose": "International money transfer. Bright green accent, friendly and clear"
+   },
+   {
+    "name": "xAI",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/x.ai",
+    "purpose": "Elon Musk's AI lab. Stark monochrome, futuristic minimalism"
+   },
+   {
+    "name": "Zapier",
+    "url": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/zapier",
+    "purpose": "Automation platform. Warm orange, friendly illustration-driven"
+   }
+  ],
+  "template_count": 74,
+  "install": "git clone https://github.com/VoltAgent/awesome-design-md",
+  "package": null,
+  "docs_url": "https://stitch.withgoogle.com/docs/design-md/overview/",
+  "repo_url": "https://github.com/VoltAgent/awesome-design-md",
+  "registry_url": null,
+  "github": {
+   "stars": 108554,
+   "license": "MIT",
+   "last_activity": "2026-07-31"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 74,
+   "blocks": null
+  },
+  "agent_guidance": "This is the cheapest way to give a build a real visual identity: raw-fetch a single file, e.g. https://raw.githubusercontent.com/VoltAgent/awesome-design-md/main/design-md/linear.app/DESIGN.md, write it to the project root, and reference it in every UI instruction. Reach for it before getdesign.md - same content, MIT, no paywall, and directly fetchable, while the website hides its index behind client-side rendering. Pair it with Impeccable (craft rules) or hue (generate a system for a brand that is not in the 73); do not expect tokens, CSS or components - a DESIGN.md is prose plus values, so you still write every line of the implementation.",
+  "why_it_matters": "It made DESIGN.md a practical format rather than a spec, and it is the reference implementation most agents will encounter first.",
+  "quality_tier": "S",
+  "notable_for": [
+   "73 brands listed, 74 folders in repo",
+   "MIT licensed and raw-fetchable",
+   "9-section DESIGN.md schema",
+   "light and dark preview.html per brand",
+   "retro Dell 1996 and Nintendo 2001 entries"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://github.com/VoltAgent/awesome-design-md, https://raw.githubusercontent.com/VoltAgent/awesome-design-md/main/README.md, https://api.github.com/repos/VoltAgent/awesome-design-md, GitHub git/trees API for the design-md/ folder listing"
+ },
+ {
+  "id": "36448014-7cab-4a66-9e04-411c9903e5af",
+  "slug": "hue-design-skill",
+  "url": "https://github.com/dominikmartn/hue",
+  "name": "hue",
+  "tagline": "Agent skill that turns any brand URL or screenshot into a design system",
+  "description": "hue is an MIT-licensed skill for Claude Code and Codex that reads a brand from a URL, a name, or a screenshot and writes out a complete design language as a second, generated skill: color tokens, typography, spacing, light and dark mode, hero-stage recipes, icon-kit selection, and a component library. You clone it into ~/.claude/skills or ~/.agents/skills once, then say 'make a design skill from cursor.com' in any session. Every generated skill is gated through scripts/validate.mjs, which checks YAML syntax, orphan CSS selectors, undefined var(--token) usages, leftover placeholders, em-dashes, the SKILL.md frontmatter contract, WCAG contrast on core text/background pairs, and AI-default display fonts. Seventeen worked examples ship in examples/, each with design-model.yaml and landing-page.html.",
+  "category": "agent-design-tooling",
+  "subcategory": "agent-skills",
+  "kinds": [
+   "agent-skill",
+   "generator",
+   "design-md"
+  ],
+  "facets": {
+   "framework": [
+    "vanilla"
+   ],
+   "styling": [
+    "css-variables",
+    "vanilla-css"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source",
+    "sponsor-supported"
+   ],
+   "distribution": [
+    "agent-skill",
+    "github-repo",
+    "download"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "contrast-checked",
+    "wcag-aa"
+   ],
+   "content_type": [
+    "prompts",
+    "design-tokens",
+    "code",
+    "prose"
+   ],
+   "agent_readiness": [
+    "agent-skill",
+    "open-source-code",
+    "structured-docs",
+    "copy-paste-ready"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "button",
+   "card",
+   "text-input",
+   "textarea",
+   "label",
+   "list",
+   "tab-bar",
+   "navbar",
+   "chip",
+   "tag",
+   "modal",
+   "dialog",
+   "sheet",
+   "popover",
+   "dropdown-menu",
+   "select",
+   "empty-state",
+   "spinner",
+   "skeleton",
+   "switch",
+   "checkbox",
+   "radio-group",
+   "slider",
+   "table",
+   "tabs",
+   "breadcrumbs",
+   "avatar",
+   "badge",
+   "status-indicator",
+   "tooltip",
+   "alert",
+   "banner",
+   "toast",
+   "progress-bar",
+   "accordion",
+   "hero"
+  ],
+  "component_count": 40,
+  "surfaces": [
+   "homepage",
+   "features",
+   "pricing-website",
+   "settings-web-app",
+   "onboarding-web-app"
+  ],
+  "templates": [
+   {
+    "name": "landing-page template",
+    "url": "https://github.com/dominikmartn/hue/blob/main/references/landing-page-template.md",
+    "purpose": "Recipe the skill follows to render a full branded landing page from the generated design model"
+   },
+   {
+    "name": "app-screen template",
+    "url": "https://github.com/dominikmartn/hue/blob/main/references/app-screen-template.md",
+    "purpose": "Recipe for a product/app screen in the generated design language"
+   },
+   {
+    "name": "component-library template",
+    "url": "https://github.com/dominikmartn/hue/blob/main/references/component-library-template.md",
+    "purpose": "Sticky-TOC HTML component library with light/dark toggle and spec tables"
+   },
+   {
+    "name": "components template",
+    "url": "https://github.com/dominikmartn/hue/blob/main/references/components-template.md",
+    "purpose": "26 numbered component specs (buttons through accordion) the generated system must define"
+   },
+   {
+    "name": "tokens template",
+    "url": "https://github.com/dominikmartn/hue/blob/main/references/tokens-template.md",
+    "purpose": "Color, type, spacing and elevation token contract"
+   },
+   {
+    "name": "hero-stage recipes",
+    "url": "https://github.com/dominikmartn/hue/blob/main/references/hero-stage.md",
+    "purpose": "Hero composition patterns per brand character"
+   },
+   {
+    "name": "background shaders / graphics",
+    "url": "https://github.com/dominikmartn/hue/blob/main/references/background-shaders.md",
+    "purpose": "Background treatment recipes for the generated system"
+   },
+   {
+    "name": "icon kits",
+    "url": "https://github.com/dominikmartn/hue/blob/main/references/icon-kits.md",
+    "purpose": "Rules for picking an icon set that matches the brand character"
+   },
+   {
+    "name": "platform mapping template",
+    "url": "https://github.com/dominikmartn/hue/blob/main/references/platform-mapping-template.md",
+    "purpose": "Maps the design model onto target platforms"
+   },
+   {
+    "name": "preview template",
+    "url": "https://github.com/dominikmartn/hue/blob/main/references/preview-template.md",
+    "purpose": "Renders a visual preview of the generated system"
+   },
+   {
+    "name": "skill template",
+    "url": "https://github.com/dominikmartn/hue/blob/main/references/skill-template.md",
+    "purpose": "SKILL.md frontmatter and structure contract for the generated skill"
+   },
+   {
+    "name": "atlas (example)",
+    "url": "https://github.com/dominikmartn/hue/tree/main/examples",
+    "purpose": "Ivory engineering, classical maritime charts"
+   },
+   {
+    "name": "auris (example)",
+    "url": "https://github.com/dominikmartn/hue/tree/main/examples",
+    "purpose": "Premium audio, monochrome dark"
+   },
+   {
+    "name": "drift (example)",
+    "url": "https://github.com/dominikmartn/hue/tree/main/examples",
+    "purpose": "Hot pink fashion commerce"
+   },
+   {
+    "name": "fizz (example)",
+    "url": "https://github.com/dominikmartn/hue/tree/main/examples",
+    "purpose": "Y2K pop photo-sharing, candy chrome"
+   },
+   {
+    "name": "halcyon (example)",
+    "url": "https://github.com/dominikmartn/hue/tree/main/examples",
+    "purpose": "Cool teal sculptural glass; ships the full component-library.html"
+   },
+   {
+    "name": "kiln (example)",
+    "url": "https://github.com/dominikmartn/hue/tree/main/examples",
+    "purpose": "Dark fired earth, molten terracotta"
+   },
+   {
+    "name": "ledger (example)",
+    "url": "https://github.com/dominikmartn/hue/tree/main/examples",
+    "purpose": "Newsprint editorial, financial broadsheet"
+   },
+   {
+    "name": "meadow (example)",
+    "url": "https://github.com/dominikmartn/hue/tree/main/examples",
+    "purpose": "Warm cream editorial; the one real brand, from mymind-design"
+   },
+   {
+    "name": "orivion (example)",
+    "url": "https://github.com/dominikmartn/hue/tree/main/examples",
+    "purpose": "Luminous red-violet glow"
+   },
+   {
+    "name": "oxide (example)",
+    "url": "https://github.com/dominikmartn/hue/tree/main/examples",
+    "purpose": "Brutalist mono compute protocol"
+   },
+   {
+    "name": "prism (example)",
+    "url": "https://github.com/dominikmartn/hue/tree/main/examples",
+    "purpose": "Cyberpunk holographic shader engine"
+   },
+   {
+    "name": "relay (example)",
+    "url": "https://github.com/dominikmartn/hue/tree/main/examples",
+    "purpose": "Swiss transit, departure-board precision"
+   },
+   {
+    "name": "ridge (example)",
+    "url": "https://github.com/dominikmartn/hue/tree/main/examples",
+    "purpose": "Slate emerald dev platform; also ships app-screen.html"
+   },
+   {
+    "name": "solvent (example)",
+    "url": "https://github.com/dominikmartn/hue/tree/main/examples",
+    "purpose": "Warm amber generative shader"
+   },
+   {
+    "name": "stint (example)",
+    "url": "https://github.com/dominikmartn/hue/tree/main/examples",
+    "purpose": "Muted violet productivity; also ships app-screen.html"
+   },
+   {
+    "name": "thrive (example)",
+    "url": "https://github.com/dominikmartn/hue/tree/main/examples",
+    "purpose": "Sage green wellness, light mode"
+   },
+   {
+    "name": "velvet (example)",
+    "url": "https://github.com/dominikmartn/hue/tree/main/examples",
+    "purpose": "Noir editorial fragrance house"
+   }
+  ],
+  "template_count": 28,
+  "install": "git clone https://github.com/dominikmartn/hue ~/.claude/skills/hue",
+  "package": null,
+  "docs_url": "https://hueapp.io",
+  "repo_url": "https://github.com/dominikmartn/hue",
+  "registry_url": null,
+  "github": {
+   "stars": 798,
+   "license": "MIT",
+   "last_activity": "2026-06-11"
+  },
+  "pricing_detail": "Free, MIT, no account or API key. GitHub Sponsors link only.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 17,
+   "blocks": null
+  },
+  "agent_guidance": "Reach for hue when the target brand is NOT in awesome-design-md's 73 and you need a system invented from a URL or screenshot - it is a generator, where DESIGN.md collections are a lookup. Install path matters: ~/.claude/skills/hue for Claude Code, ~/.agents/skills/hue (or $CODEX_HOME/skills/hue) for Codex, and after generating always run `node scripts/validate.mjs <generated-skill-folder>` because it exits 1 on undefined var(--token) usages and failed WCAG contrast, which is the single most common way a generated system silently breaks. It composes cleanly with Impeccable - hue defines the identity, Impeccable enforces craft - but note the output is vanilla CSS custom properties and HTML, not React or Tailwind, so you translate before dropping it into a component framework.",
+  "why_it_matters": "Most design-for-agents tooling hands you a fixed style; hue is one of the few that derives a validated, self-consistent system from an arbitrary brand and then hard-fails on its own mistakes.",
+  "quality_tier": "A",
+  "notable_for": [
+   "generates a skill from a URL or screenshot",
+   "validate.mjs gates WCAG contrast and orphan tokens",
+   "17 worked example brands",
+   "26-component spec template",
+   "works on Claude Code and Codex"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://github.com/dominikmartn/hue, https://raw.githubusercontent.com/dominikmartn/hue/main/README.md, https://raw.githubusercontent.com/dominikmartn/hue/main/references/components-template.md, https://raw.githubusercontent.com/dominikmartn/hue/main/references/component-library-template.md, https://api.github.com/repos/dominikmartn/hue (+ git/trees)"
+ },
+ {
+  "id": "2ce1cab9-56aa-45a1-941f-1b0f52642567",
+  "slug": "hueapp-io",
+  "url": "https://hueapp.io",
+  "name": "hue (hueapp.io)",
+  "tagline": "Landing site and live demo for the hue design-system skill",
+  "description": "hueapp.io is the public site for hue, the open-source Claude Code and Codex skill that turns a brand URL or screenshot into a design system. It explains the flow, shows the eight files a generated skill produces, and hosts a browsable rendering of the output - 95 tokens, 40 components with 156 variants, light and dark mode. It is a showcase and entry point, not a separate product: the installable artifact is the GitHub repo it links to. Free, no account and no API key.",
+  "category": "agent-design-tooling",
+  "subcategory": "agent-skills",
+  "kinds": [
+   "agent-skill",
+   "generator",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "vanilla"
+   ],
+   "styling": [
+    "css-variables"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "web-app",
+    "agent-skill",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "contrast-checked"
+   ],
+   "content_type": [
+    "design-tokens",
+    "screenshots",
+    "prose"
+   ],
+   "agent_readiness": [
+    "agent-skill",
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "button",
+   "card",
+   "text-input",
+   "textarea",
+   "label",
+   "list",
+   "tab-bar",
+   "navbar",
+   "chip",
+   "tag",
+   "modal",
+   "dialog",
+   "sheet",
+   "popover",
+   "dropdown-menu",
+   "select",
+   "empty-state",
+   "spinner",
+   "skeleton",
+   "switch",
+   "checkbox",
+   "radio-group",
+   "slider",
+   "table",
+   "tabs",
+   "breadcrumbs",
+   "avatar",
+   "badge",
+   "status-indicator",
+   "tooltip",
+   "alert",
+   "banner",
+   "toast",
+   "progress-bar",
+   "accordion",
+   "hero"
+  ],
+  "component_count": 40,
+  "surfaces": [
+   "homepage",
+   "features"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "git clone https://github.com/dominikmartn/hue ~/.claude/skills/hue",
+  "package": null,
+  "docs_url": "https://hueapp.io",
+  "repo_url": "https://github.com/dominikmartn/hue",
+  "registry_url": null,
+  "github": {
+   "stars": 798,
+   "license": "MIT",
+   "last_activity": "2026-06-11"
+  },
+  "pricing_detail": "Free. No account, no API key. Optional sponsorship of the author.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Send a human here to see what hue's output looks like before committing; do not send an agent here to install anything - clone github.com/dominikmartn/hue into the skills directory instead. The one thing this URL gives you that the repo does not is the rendered component library, useful for confirming the 40-component / 156-variant surface area and the dark-light pairing before you generate a system. Treat this and the hue repo entry as one product with two front doors.",
+  "why_it_matters": "It is the proof-of-output for hue - the rendered library is what convinces a team that an agent-generated design system is actually coherent.",
+  "quality_tier": "B",
+  "notable_for": [
+   "rendered demo of a hue-generated system",
+   "95 tokens, 40 components, 156 variants",
+   "free with no account",
+   "marketing front door for the GitHub skill"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://hueapp.io, cross-checked against https://github.com/dominikmartn/hue and https://api.github.com/repos/dominikmartn/hue"
+ },
+ {
+  "id": "c1ac49a2-0c33-4b50-b7b4-8234189c2861",
+  "slug": "claude-design-2-hour-course",
+  "url": "https://www.youtube.com/watch?v=ovabeVoWrA0",
+  "name": "Claude Design 2-Hour Course",
+  "tagline": "118-minute walkthrough: brand to design system to shipped site with Claude Design",
+  "description": "A free two-hour YouTube masterclass by Nate Herk on Anthropic's Claude Design tool. It builds a fictional brand called Tally end to end - design system, pitch deck, landing-page wireframes, high-fidelity website, mobile app prototype, and a launch video - then deploys the site to GitHub and Vercel through Claude Code, and closes with tactics for stretching session limits. Chaptered across 13 timestamps, roughly 201k views as of August 2026. It is a screen-recorded workflow tutorial, and it funnels toward the author's free Skool community and paid course.",
+  "category": "essays-guides-courses",
+  "subcategory": "courses-and-books",
+  "kinds": [
+   "course",
+   "video"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "unknown"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "video"
+   ],
+   "agent_readiness": [
+    "none"
+   ],
+   "maturity": "stable"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "onboarding-mobile",
+   "features"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Video is free. Upsells: free Skool 'AI Automation Society' group and a paid 'AI Automation Society Plus' membership; affiliate links for Glaido and Hostinger VPS.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "This is human-only material - there is no transcript endpoint, no code repo, and nothing here an agent can consume, so never cite it as a technical source. Point a user at it when they have never opened Claude Design and want to watch the whole arc once (chapters at 11:33 design system, 40:45 hi-fi website, 57:51 mobile prototype, 1:42:01 GitHub and Vercel deploy). Be aware it is a creator-funnel video: the workflow is real, the recommendations around it are sponsored, and its 'stretching your session limit' segment describes 2026 plan behaviour that will drift.",
+  "why_it_matters": "It is the most-watched end-to-end demonstration of Claude Design as an actual production workflow rather than a feature tour.",
+  "quality_tier": "B",
+  "notable_for": [
+   "1h58m, 13 chapters",
+   "builds one brand end to end",
+   "covers GitHub + Vercel deploy via Claude Code",
+   "~201k views",
+   "creator-funnel content"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://www.youtube.com/oembed?url=...v=ovabeVoWrA0 (title/channel), raw watch-page HTML scrape for shortDescription, lengthSeconds=7076, viewCount=201173, uploadDate=2026-04-29; WebFetch of the watch page returned a JS shell with no video metadata"
+ }
+]

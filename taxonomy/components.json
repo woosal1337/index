@@ -1,0 +1,6468 @@
+{
+  "version": 1,
+  "groups": [
+    {
+      "slug": "actions",
+      "name": "Actions",
+      "components": [
+        {
+          "slug": "button",
+          "name": "Button",
+          "aliases": [
+            "btn",
+            "cta",
+            "push button",
+            "press button",
+            "primary button",
+            "secondary button",
+            "tertiary button",
+            "ghost button",
+            "outline button",
+            "text button",
+            "link button",
+            "destructive button",
+            "submit button",
+            "reset button"
+          ],
+          "aria_pattern": "Button",
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "active",
+            "disabled",
+            "loading"
+          ],
+          "checklist": [
+            "Base style — Your default style, one of the following: fill, outline, underline",
+            "Shape — Visual properties of a button: padding, border, border radius, shadow",
+            "Variants — Each visual type to represent button structure e.g. primary and secondary buttons",
+            "Copy — Instructional text that details what will happen if you click the button",
+            "States — How the button changes based on the interaction: hover, focused, disabled"
+          ],
+          "checklist_source": "checklist.design"
+        },
+        {
+          "slug": "icon-button",
+          "name": "Icon Button",
+          "aliases": [
+            "icon-only button",
+            "round button",
+            "square button",
+            "glyph button",
+            "icon buttons"
+          ],
+          "aria_pattern": "Button",
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "active",
+            "disabled",
+            "loading"
+          ]
+        },
+        {
+          "slug": "button-group",
+          "name": "Button Group",
+          "aliases": [
+            "button bar",
+            "grouped buttons",
+            "button toolbar",
+            "btn-group",
+            "button groups"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "active",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "split-button",
+          "name": "Split Button",
+          "aliases": [
+            "dropdown button",
+            "combo button",
+            "menu split button",
+            "split action button"
+          ],
+          "aria_pattern": "Menu Button",
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "active",
+            "disabled",
+            "loading"
+          ]
+        },
+        {
+          "slug": "floating-action-button",
+          "name": "Floating Action Button",
+          "aliases": [
+            "fab",
+            "extended fab",
+            "fab menu",
+            "speed dial",
+            "action button",
+            "floating button"
+          ],
+          "aria_pattern": "Button",
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "active",
+            "disabled",
+            "loading"
+          ]
+        },
+        {
+          "slug": "toolbar",
+          "name": "Toolbar",
+          "aliases": [
+            "action bar",
+            "command bar",
+            "utility bar",
+            "ribbon",
+            "toolbars",
+            "action toolbar"
+          ],
+          "aria_pattern": "Toolbar"
+        },
+        {
+          "slug": "menu-button",
+          "name": "Menu Button",
+          "aliases": [
+            "pop-up button",
+            "pull-down button",
+            "overflow menu",
+            "kebab menu",
+            "meatball menu",
+            "hamburger menu",
+            "dropdown trigger",
+            "more menu",
+            "ellipsis menu",
+            "actions menu"
+          ],
+          "aria_pattern": "Menu Button",
+          "states": [
+            "closed",
+            "open",
+            "hover",
+            "focus",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "link",
+          "name": "Link",
+          "aliases": [
+            "anchor",
+            "hyperlink",
+            "a tag",
+            "text link",
+            "linkbutton",
+            "buttonlink",
+            "nav link"
+          ],
+          "aria_pattern": "Link",
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "active",
+            "visited",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "skip-link",
+          "name": "Skip Link",
+          "aliases": [
+            "skip nav",
+            "skipnav",
+            "skip to content",
+            "skip navigation",
+            "bypass block"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "hidden",
+            "focus-visible"
+          ]
+        },
+        {
+          "slug": "close-button",
+          "name": "Close Button",
+          "aliases": [
+            "dismiss button",
+            "x button",
+            "close icon",
+            "dismiss"
+          ],
+          "aria_pattern": "Button",
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "active",
+            "disabled",
+            "loading"
+          ]
+        },
+        {
+          "slug": "copy-button",
+          "name": "Copy Button",
+          "aliases": [
+            "copy to clipboard",
+            "clipboard button",
+            "snippet copy",
+            "copy code"
+          ],
+          "aria_pattern": "Button",
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "copied",
+            "error"
+          ]
+        },
+        {
+          "slug": "back-to-top",
+          "name": "Back to Top",
+          "aliases": [
+            "backtop",
+            "scroll to top",
+            "jump to top",
+            "return to top"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "hidden",
+            "visible",
+            "hover",
+            "focus"
+          ]
+        },
+        {
+          "slug": "toggle-button",
+          "name": "Toggle Button",
+          "aliases": [
+            "pressed button",
+            "toggle",
+            "press-and-hold button",
+            "sticky button",
+            "toggle (action)"
+          ],
+          "aria_pattern": "Button",
+          "states": [
+            "off",
+            "on",
+            "hover",
+            "focus",
+            "disabled"
+          ],
+          "checklist": [
+            "Context — Explaining what the toggle will do",
+            "Transition — A clear visual change of the toggle switching between different states",
+            "State — How the button changes based on the interaction, examples below"
+          ],
+          "checklist_source": "checklist.design"
+        },
+        {
+          "slug": "command-palette",
+          "name": "Command Palette",
+          "aliases": [
+            "command menu",
+            "command",
+            "cmdk",
+            "⌘k",
+            "quick actions",
+            "launcher",
+            "app launcher",
+            "spotlight",
+            "omnibox",
+            "quick open",
+            "action search"
+          ],
+          "aria_pattern": "Combobox",
+          "states": [
+            "closed",
+            "opening",
+            "open",
+            "closing"
+          ]
+        },
+        {
+          "slug": "context-menu",
+          "name": "Context Menu",
+          "aliases": [
+            "right-click menu",
+            "contextualmenu",
+            "secondary menu",
+            "long-press menu"
+          ],
+          "aria_pattern": "Menu and Menubar",
+          "states": [
+            "closed",
+            "open",
+            "hover",
+            "focus",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "action-sheet",
+          "name": "Action Sheet",
+          "aliases": [
+            "ios action sheet",
+            "bottom action list",
+            "action list sheet",
+            "activity sheet"
+          ],
+          "aria_pattern": "Dialog (Modal)",
+          "states": [
+            "closed",
+            "opening",
+            "open",
+            "closing"
+          ]
+        },
+        {
+          "slug": "popconfirm",
+          "name": "Popconfirm",
+          "aliases": [
+            "inline confirm",
+            "confirmation popover",
+            "confirm bubble",
+            "are-you-sure popover"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "closed",
+            "opening",
+            "open",
+            "closing"
+          ]
+        },
+        {
+          "slug": "share-sheet",
+          "name": "Share Sheet",
+          "aliases": [
+            "activity view",
+            "share menu",
+            "share button",
+            "social share"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "closed",
+            "opening",
+            "open",
+            "closing"
+          ]
+        },
+        {
+          "slug": "quick-action",
+          "name": "Quick Action",
+          "aliases": [
+            "home screen quick actions",
+            "app shortcuts",
+            "shortcut tile",
+            "control"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "active",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "floating-action-bar",
+          "name": "Floating Action Bar",
+          "aliases": [
+            "docked action bar",
+            "bulk action bar",
+            "selection toolbar",
+            "contextual action bar",
+            "batch actions"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "hidden",
+            "visible"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "inputs",
+      "name": "Inputs",
+      "components": [
+        {
+          "slug": "text-input",
+          "name": "Text Input",
+          "aliases": [
+            "text field",
+            "textfield",
+            "input",
+            "textbox",
+            "field text",
+            "inputtext",
+            "single-line input",
+            "string input",
+            "form input"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "filled",
+            "placeholder",
+            "disabled",
+            "readonly",
+            "error",
+            "success"
+          ],
+          "checklist": [
+            "Input field — Interactive text field for user to enter their data into",
+            "Label — Stating what information the user is meant to provide",
+            "Placeholder text — Text inside the input field acting as an example of what you want the user to enter",
+            "Data format — Set text fields to allow the relevant text values e.g. numeric only for phone number",
+            "Illustration or icon — A visual cue can help break up a long list of text fields",
+            "Hint — Elaborate on the title of the text field incase a user struggles to know what to enter"
+          ],
+          "checklist_source": "checklist.design"
+        },
+        {
+          "slug": "textarea",
+          "name": "Textarea",
+          "aliases": [
+            "text area",
+            "text box",
+            "multi-line input",
+            "multiline field",
+            "text view",
+            "field text area",
+            "comment box"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "filled",
+            "placeholder",
+            "disabled",
+            "readonly",
+            "error",
+            "success"
+          ]
+        },
+        {
+          "slug": "search-input",
+          "name": "Search Input",
+          "aliases": [
+            "search field",
+            "search box",
+            "searchbox",
+            "search bar",
+            "search",
+            "site search",
+            "query input"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "filled",
+            "placeholder",
+            "disabled",
+            "readonly",
+            "error",
+            "success"
+          ],
+          "checklist": [
+            "Input field — A clear container for a user to start typing in",
+            "Label or placeholder text — Identify the purpose of the field is for them to search",
+            "Quick links, autocomplete and suggestions — As the user is typing, offer available links and phrases based on what they have entered so far",
+            "Submit search button — A visible link to submit search and view results",
+            "Previous searches — Showing what a user has searched before can speed up their experience if they frequently search the same queries",
+            "Appropriate visibility — Search should be directly linked to what you are looking for, whether it's searching across the entire platform or in a specific area"
+          ],
+          "checklist_source": "checklist.design"
+        },
+        {
+          "slug": "password-input",
+          "name": "Password Input",
+          "aliases": [
+            "password field",
+            "password toggle field",
+            "show password",
+            "hide password",
+            "reveal password",
+            "secure field"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "filled",
+            "placeholder",
+            "disabled",
+            "readonly",
+            "error",
+            "success"
+          ]
+        },
+        {
+          "slug": "number-input",
+          "name": "Number Input",
+          "aliases": [
+            "inputnumber",
+            "number field",
+            "numeric input",
+            "spinbutton",
+            "spin button",
+            "numberfield"
+          ],
+          "aria_pattern": "Spinbutton",
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "filled",
+            "placeholder",
+            "disabled",
+            "readonly",
+            "error",
+            "success"
+          ]
+        },
+        {
+          "slug": "quantity-stepper",
+          "name": "Quantity Stepper",
+          "aliases": [
+            "stepper",
+            "nudger",
+            "quantity",
+            "counter",
+            "quantity selector",
+            "qty picker",
+            "input stepper",
+            "plus minus control",
+            "increment decrement"
+          ],
+          "aria_pattern": "Spinbutton",
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "active",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "otp-input",
+          "name": "OTP Input",
+          "aliases": [
+            "input otp",
+            "one-time password field",
+            "pin input",
+            "verification code",
+            "2fa code",
+            "mfa code",
+            "digit entry view",
+            "segmented code field"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "filled",
+            "placeholder",
+            "disabled",
+            "readonly",
+            "error",
+            "success"
+          ]
+        },
+        {
+          "slug": "masked-input",
+          "name": "Masked Input",
+          "aliases": [
+            "input mask",
+            "formatted input",
+            "pattern input",
+            "format field"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "filled",
+            "placeholder",
+            "disabled",
+            "readonly",
+            "error",
+            "success"
+          ]
+        },
+        {
+          "slug": "input-group",
+          "name": "Input Group",
+          "aliases": [
+            "inputgroup",
+            "input with addon",
+            "input prefix",
+            "input suffix",
+            "field with adornment",
+            "addon input",
+            "attached input"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "filled",
+            "placeholder",
+            "disabled",
+            "readonly",
+            "error",
+            "success"
+          ]
+        },
+        {
+          "slug": "label",
+          "name": "Label",
+          "aliases": [
+            "form label",
+            "field label",
+            "floating label",
+            "input label",
+            "caption label"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "help-text",
+          "name": "Help Text",
+          "aliases": [
+            "hint text",
+            "helper text",
+            "description text",
+            "assistive text",
+            "field description",
+            "sub-label",
+            "microcopy",
+            "form hint"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "validation-message",
+          "name": "Validation Message",
+          "aliases": [
+            "error message",
+            "inline error",
+            "field error",
+            "invalid message",
+            "success message",
+            "field feedback"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "error",
+            "warning",
+            "success",
+            "info"
+          ]
+        },
+        {
+          "slug": "character-count",
+          "name": "Character Count",
+          "aliases": [
+            "character counter",
+            "char count",
+            "text field counter",
+            "remaining characters",
+            "word count"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "near-limit",
+            "over-limit"
+          ]
+        },
+        {
+          "slug": "fieldset",
+          "name": "Fieldset",
+          "aliases": [
+            "field group",
+            "form group",
+            "form field",
+            "form element",
+            "field",
+            "control group"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "form",
+          "name": "Form",
+          "aliases": [
+            "form layout",
+            "form validation",
+            "web form",
+            "data entry form"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "submitting",
+            "submitted",
+            "error"
+          ]
+        },
+        {
+          "slug": "form-actions",
+          "name": "Form Actions",
+          "aliases": [
+            "form footer",
+            "docked form footer",
+            "submit bar",
+            "action footer",
+            "save bar",
+            "sticky form footer"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "inline-edit",
+          "name": "Inline Edit",
+          "aliases": [
+            "editable text",
+            "edit in place",
+            "click to edit",
+            "editable field",
+            "inline editing"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "read",
+            "editing",
+            "saving",
+            "error"
+          ]
+        },
+        {
+          "slug": "rich-text-editor",
+          "name": "Rich Text Editor",
+          "aliases": [
+            "rte",
+            "wysiwyg editor",
+            "richer text fields",
+            "content editor",
+            "document editor",
+            "markdown editor",
+            "prose editor"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "filled",
+            "placeholder",
+            "disabled",
+            "readonly",
+            "error",
+            "success"
+          ]
+        },
+        {
+          "slug": "code-editor",
+          "name": "Code Editor",
+          "aliases": [
+            "code input",
+            "syntax-highlighted input",
+            "editor",
+            "monaco",
+            "codemirror",
+            "script field"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "filled",
+            "placeholder",
+            "disabled",
+            "readonly",
+            "error",
+            "success"
+          ]
+        },
+        {
+          "slug": "color-picker",
+          "name": "Color Picker",
+          "aliases": [
+            "colorpicker",
+            "color well",
+            "color area",
+            "color slider",
+            "color wheel",
+            "color loupe",
+            "swatch picker",
+            "swatchcolorpicker",
+            "eyedropper",
+            "hex input"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "closed",
+            "open",
+            "hover",
+            "focus",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "date-input",
+          "name": "Date Input",
+          "aliases": [
+            "memorable date",
+            "date field",
+            "dd mm yyyy input",
+            "segmented date field"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "filled",
+            "placeholder",
+            "disabled",
+            "readonly",
+            "error",
+            "success"
+          ]
+        },
+        {
+          "slug": "date-picker",
+          "name": "Date Picker",
+          "aliases": [
+            "datepicker",
+            "calendar picker",
+            "datetime picker",
+            "date select",
+            "date dialog"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "closed",
+            "open",
+            "hover",
+            "focus",
+            "disabled"
+          ],
+          "checklist": [
+            "Calendar grid — A month view with days arranged in a weekly grid, navigable forward and backward by month, as the primary date selection surface",
+            "Text input alongside — A free-text date field paired with the calendar, so users who know the date can type it rather than relying on clicking only",
+            "Date range selection (if applicable) — The ability to select a start and end date, with the range highlighted across the calendar grid and both values independently editable",
+            "Disabled dates — Past dates, unavailable dates, or out-of-range dates visually distinct from selectable ones",
+            "Today shortcut — A clearly labelled button or link to jump to today's date",
+            "Locale and format — The calendar respecting regional conventions e.g. week starting on Monday or Sunday, date format in the text input matching the user's locale (DD/MM or MM/DD)",
+            "Time selection (if applicable) — When a time is also required, a time picker integrated with or accessible directly from the date picker (not a separate, disconnected control)"
+          ],
+          "checklist_source": "checklist.design"
+        },
+        {
+          "slug": "time-picker",
+          "name": "Time Picker",
+          "aliases": [
+            "timepicker",
+            "clock picker",
+            "time field",
+            "time select",
+            "duration picker"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "closed",
+            "open",
+            "hover",
+            "focus",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "date-range-picker",
+          "name": "Date Range Picker",
+          "aliases": [
+            "range calendar",
+            "from to picker",
+            "date range",
+            "daterangepicker",
+            "period picker"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "closed",
+            "open",
+            "hover",
+            "focus",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "calendar",
+          "name": "Calendar",
+          "aliases": [
+            "month view",
+            "date grid",
+            "calendar grid",
+            "mini calendar",
+            "month picker",
+            "year picker"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "selected",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "file-upload",
+          "name": "File Upload",
+          "aliases": [
+            "file input",
+            "file uploader",
+            "filepicker",
+            "file selector",
+            "dropzone",
+            "drop zone",
+            "upload",
+            "attachment upload",
+            "drag and drop upload",
+            "uploader"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "idle",
+            "drag-over",
+            "uploading",
+            "success",
+            "error"
+          ]
+        },
+        {
+          "slug": "slider",
+          "name": "Slider",
+          "aliases": [
+            "range input",
+            "track slider",
+            "field range",
+            "volume slider",
+            "value slider"
+          ],
+          "aria_pattern": "Slider",
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "active",
+            "disabled"
+          ],
+          "checklist": [
+            "Style — How the range and the handlers look visually (see documentation for inspiration)",
+            "Intervals — Whether the slider intervals has continuous (any value between 0-10000), or stepped (fixed values like a 0-5 rating)",
+            "Handles — The elements that users select to drag and change the slider value",
+            "Labelling — Text that conveys the spectrum of the slider, or if there are intervals between those ends too",
+            "Interaction states — What the handles and slider look like when the user is changing the value"
+          ],
+          "checklist_source": "checklist.design"
+        },
+        {
+          "slug": "range-slider",
+          "name": "Range Slider",
+          "aliases": [
+            "multi-thumb slider",
+            "dual slider",
+            "two-handle slider",
+            "min max slider",
+            "scroll zoom bar",
+            "price range slider"
+          ],
+          "aria_pattern": "Slider (Multi-Thumb)",
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "active",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "tag-input",
+          "name": "Tag Input",
+          "aliases": [
+            "token field",
+            "chips input",
+            "pills input",
+            "tokenizer",
+            "keyword input",
+            "email token input"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "filled",
+            "placeholder",
+            "disabled",
+            "readonly",
+            "error",
+            "success"
+          ]
+        },
+        {
+          "slug": "mentions",
+          "name": "Mentions",
+          "aliases": [
+            "mention input",
+            "at mention",
+            "@mention",
+            "inline people picker",
+            "autocomplete mentions"
+          ],
+          "aria_pattern": "Combobox",
+          "states": [
+            "closed",
+            "open",
+            "hover",
+            "focus",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "autocomplete",
+          "name": "Autocomplete",
+          "aliases": [
+            "autosuggest",
+            "typeahead",
+            "suggest input",
+            "predictive input",
+            "search suggestions"
+          ],
+          "aria_pattern": "Combobox",
+          "states": [
+            "closed",
+            "open",
+            "hover",
+            "focus",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "rating-input",
+          "name": "Rating Input",
+          "aliases": [
+            "star rating input",
+            "rate",
+            "star input",
+            "score input",
+            "thumbs rating"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "active",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "switch",
+          "name": "Switch",
+          "aliases": [
+            "toggle",
+            "lightswitch",
+            "ui switch",
+            "toggle switch",
+            "on off switch",
+            "switches",
+            "checkbox toggle"
+          ],
+          "aria_pattern": "Switch",
+          "states": [
+            "off",
+            "on",
+            "hover",
+            "focus",
+            "disabled",
+            "loading"
+          ]
+        },
+        {
+          "slug": "phone-input",
+          "name": "Phone Input",
+          "aliases": [
+            "telephone input",
+            "input tel",
+            "international phone",
+            "country code input",
+            "phone number field"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "filled",
+            "placeholder",
+            "disabled",
+            "readonly",
+            "error",
+            "success"
+          ]
+        },
+        {
+          "slug": "currency-input",
+          "name": "Currency Input",
+          "aliases": [
+            "input amount",
+            "money input",
+            "amount field",
+            "price input",
+            "numeric currency field"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "filled",
+            "placeholder",
+            "disabled",
+            "readonly",
+            "error",
+            "success"
+          ]
+        },
+        {
+          "slug": "signature-pad",
+          "name": "Signature Pad",
+          "aliases": [
+            "signature field",
+            "draw signature",
+            "sign here",
+            "e-signature"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "empty",
+            "drawing",
+            "signed"
+          ]
+        },
+        {
+          "slug": "virtual-keyboard",
+          "name": "Virtual Keyboard",
+          "aliases": [
+            "on-screen keyboard",
+            "keypad",
+            "soft keyboard",
+            "numeric keypad",
+            "pin pad"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "active",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "filter-input",
+          "name": "Filter Input",
+          "aliases": [
+            "quick filter",
+            "table filter",
+            "inline search filter",
+            "refine input"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "filled",
+            "placeholder",
+            "disabled",
+            "readonly",
+            "error",
+            "success"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "selection",
+      "name": "Selection",
+      "components": [
+        {
+          "slug": "checkbox",
+          "name": "Checkbox",
+          "aliases": [
+            "check box",
+            "inputcheckbox",
+            "tick box",
+            "checkmark input"
+          ],
+          "aria_pattern": "Checkbox",
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "checked",
+            "unchecked",
+            "indeterminate",
+            "disabled",
+            "error"
+          ],
+          "checklist": [
+            "Label — Text paired with the checkbox to indicate what is enabled if selected",
+            "Default selection — Whether the checkbox is selected or not",
+            "Style — Make sure checkbox is unique and stands out from other input options, and consider whether it's in a container, how it's grouped, and what colour it uses",
+            "States — Default, hover, focused, active and disabled (see documentation tab for examples)"
+          ],
+          "checklist_source": "checklist.design"
+        },
+        {
+          "slug": "checkbox-group",
+          "name": "Checkbox Group",
+          "aliases": [
+            "checkboxgroup",
+            "checkbox button group",
+            "multi-check group",
+            "checklist"
+          ],
+          "aria_pattern": "Checkbox",
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "checked",
+            "unchecked",
+            "indeterminate",
+            "disabled",
+            "error"
+          ]
+        },
+        {
+          "slug": "radio-button",
+          "name": "Radio Button",
+          "aliases": [
+            "radio",
+            "inputradio",
+            "option button"
+          ],
+          "aria_pattern": "Radio Group",
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "selected",
+            "disabled",
+            "error"
+          ],
+          "checklist": [
+            "Label — Text associated with the radio input",
+            "Grouping — There must be more than one radio option for the experience to work",
+            "Default selection — Start with a radio option selected",
+            "Style — Make sure radio is unique and stands out from other input options",
+            "Clickability — Consider what is clickable to make the radio option active (text label, container)",
+            "States — Radio can be default, active and disabled (see examples below)"
+          ],
+          "checklist_source": "checklist.design"
+        },
+        {
+          "slug": "radio-group",
+          "name": "Radio Group",
+          "aliases": [
+            "choicegroup",
+            "radio button group",
+            "field radio group",
+            "radio list",
+            "option group"
+          ],
+          "aria_pattern": "Radio Group",
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "selected",
+            "disabled",
+            "error"
+          ]
+        },
+        {
+          "slug": "select",
+          "name": "Select",
+          "aliases": [
+            "dropdown",
+            "select input",
+            "select menu",
+            "native select",
+            "picker",
+            "picklist",
+            "customizable select",
+            "filterable select",
+            "selectlist",
+            "selectmenu",
+            "singleselect",
+            "pull down",
+            "option select"
+          ],
+          "aria_pattern": "Listbox",
+          "states": [
+            "closed",
+            "open",
+            "hover",
+            "focus",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "multi-select",
+          "name": "Multi Select",
+          "aliases": [
+            "multiselect",
+            "multi-choice select",
+            "multiple select",
+            "tag select",
+            "token select"
+          ],
+          "aria_pattern": "Listbox",
+          "states": [
+            "closed",
+            "open",
+            "hover",
+            "focus",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "listbox",
+          "name": "Listbox",
+          "aliases": [
+            "selection list",
+            "option list",
+            "choice list",
+            "list picker"
+          ],
+          "aria_pattern": "Listbox",
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "selected",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "combobox",
+          "name": "Combobox",
+          "aliases": [
+            "combo box",
+            "autocomplete select",
+            "search select",
+            "lookup",
+            "editable dropdown",
+            "typeahead select"
+          ],
+          "aria_pattern": "Combobox",
+          "states": [
+            "closed",
+            "open",
+            "hover",
+            "focus",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "dropdown-menu",
+          "name": "Dropdown Menu",
+          "aliases": [
+            "dropdown",
+            "menu",
+            "droplist",
+            "dynamic menu",
+            "action menu",
+            "popup menu"
+          ],
+          "aria_pattern": "Menu and Menubar",
+          "states": [
+            "closed",
+            "open",
+            "hover",
+            "focus",
+            "disabled"
+          ],
+          "checklist": [
+            "Trigger affordance — The element that opens the menu: an overflow icon, chevron button, or right-click target",
+            "Menu item anatomy — The structure of each action: label, optional leading icon, optional trailing shortcut, optional destructive styling",
+            "Section dividers and groups — Dividers and/or labels that break related actions into sections once the menu gets large",
+            "Destructive item styling — Visual differentiation — typically the danger colour — for actions that cannot be undone",
+            "Nested submenu — A secondary menu triggered by a parent item, used for grouping related but distinct actions",
+            "Disabled items — Menu items that are visible but cannot be triggered, indicating an unavailable action",
+            "Positioning and overflow — The menu's placement relative to its trigger, repositioning automatically to stay within the viewport",
+            "Keyboard shortcut display — Shortcut hints aligned to the trailing edge of the item label"
+          ],
+          "checklist_source": "checklist.design"
+        },
+        {
+          "slug": "menubar",
+          "name": "Menubar",
+          "aliases": [
+            "menu bar",
+            "the menu bar",
+            "application menu",
+            "dock menu",
+            "edit menu",
+            "top menu"
+          ],
+          "aria_pattern": "Menu and Menubar",
+          "states": [
+            "closed",
+            "open",
+            "hover",
+            "focus",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "segmented-control",
+          "name": "Segmented Control",
+          "aliases": [
+            "toggle button group",
+            "segmented buttons",
+            "content switcher",
+            "pivot",
+            "tab-style switcher",
+            "segmented picker",
+            "view switcher"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "selected",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "toggle-group",
+          "name": "Toggle Group",
+          "aliases": [
+            "multi-toggle",
+            "button toggle group",
+            "toggle bar",
+            "icon toggle group"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "selected",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "chip",
+          "name": "Chip",
+          "aliases": [
+            "chips",
+            "filter chip",
+            "input chip",
+            "assist chip",
+            "suggestion chip",
+            "pill",
+            "token",
+            "lozenge",
+            "selectable tag"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "selected",
+            "disabled",
+            "removable"
+          ]
+        },
+        {
+          "slug": "tree-select",
+          "name": "Tree Select",
+          "aliases": [
+            "treeselect",
+            "hierarchical select",
+            "nested dropdown",
+            "category picker"
+          ],
+          "aria_pattern": "Tree View",
+          "states": [
+            "closed",
+            "open",
+            "hover",
+            "focus",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "cascader",
+          "name": "Cascader",
+          "aliases": [
+            "cascading select",
+            "dependent dropdowns",
+            "chained select",
+            "drill-down select"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "closed",
+            "open",
+            "hover",
+            "focus",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "transfer",
+          "name": "Transfer",
+          "aliases": [
+            "dueling picklist",
+            "list builder",
+            "shuttle",
+            "dual list box",
+            "pick list transfer"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "selected",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "visual-picker",
+          "name": "Visual Picker",
+          "aliases": [
+            "selection card",
+            "card select",
+            "tile select",
+            "choice card",
+            "swatch group",
+            "image select",
+            "option card"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "selected",
+            "disabled",
+            "error"
+          ]
+        },
+        {
+          "slug": "filter-panel",
+          "name": "Filter Panel",
+          "aliases": [
+            "facets",
+            "faceted search",
+            "refinements",
+            "filter bar",
+            "filter chips",
+            "filter sidebar",
+            "applied filters"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "sort-control",
+          "name": "Sort Control",
+          "aliases": [
+            "sort by",
+            "order control",
+            "sort menu",
+            "column sort",
+            "sort toggle"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "none",
+            "ascending",
+            "descending"
+          ]
+        },
+        {
+          "slug": "people-picker",
+          "name": "People Picker",
+          "aliases": [
+            "peoplepicker",
+            "user picker",
+            "assignee picker",
+            "member select",
+            "contact picker"
+          ],
+          "aria_pattern": "Combobox",
+          "states": [
+            "closed",
+            "open",
+            "hover",
+            "focus",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "emoji-picker",
+          "name": "Emoji Picker",
+          "aliases": [
+            "reaction picker",
+            "emoji selector",
+            "emoji keyboard",
+            "sticker picker"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "closed",
+            "open",
+            "hover",
+            "focus",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "icon-picker",
+          "name": "Icon Picker",
+          "aliases": [
+            "icon selector",
+            "glyph picker",
+            "symbol picker"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "closed",
+            "open",
+            "hover",
+            "focus",
+            "disabled"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "navigation",
+      "name": "Navigation",
+      "components": [
+        {
+          "slug": "navigation-menu",
+          "name": "Navigation Menu",
+          "aliases": [
+            "navigation",
+            "nav",
+            "global navigation",
+            "primary nav",
+            "main menu",
+            "site nav"
+          ],
+          "aria_pattern": "Landmarks",
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "active",
+            "current",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "navbar",
+          "name": "Navbar",
+          "aliases": [
+            "navigation bar",
+            "app bar",
+            "top app bar",
+            "masthead",
+            "global header",
+            "top nav",
+            "header bar"
+          ],
+          "aria_pattern": "Landmarks"
+        },
+        {
+          "slug": "header",
+          "name": "Header",
+          "aliases": [
+            "site header",
+            "page header",
+            "section header",
+            "pageheader",
+            "banner region"
+          ],
+          "aria_pattern": "Landmarks"
+        },
+        {
+          "slug": "footer",
+          "name": "Footer",
+          "aliases": [
+            "site footer",
+            "global footer",
+            "contentinfo",
+            "page footer",
+            "bottom bar"
+          ],
+          "aria_pattern": "Landmarks"
+        },
+        {
+          "slug": "sidebar",
+          "name": "Sidebar",
+          "aliases": [
+            "side navigation",
+            "side nav",
+            "sidenav",
+            "vertical navigation",
+            "rail",
+            "navigation rail",
+            "left nav",
+            "inspector rail"
+          ],
+          "aria_pattern": "Landmarks",
+          "states": [
+            "expanded",
+            "collapsed",
+            "hover",
+            "focus"
+          ]
+        },
+        {
+          "slug": "navigation-drawer",
+          "name": "Navigation Drawer",
+          "aliases": [
+            "drawer nav",
+            "off-canvas nav",
+            "hamburger drawer",
+            "mobile menu",
+            "slide-out nav"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "closed",
+            "opening",
+            "open",
+            "closing"
+          ]
+        },
+        {
+          "slug": "tab-bar",
+          "name": "Tab Bar",
+          "aliases": [
+            "bottom navigation",
+            "bottom nav",
+            "navigation bar (android)",
+            "tab bar (ios)",
+            "mobile tab bar"
+          ],
+          "aria_pattern": "Tabs",
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "selected",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "tabs",
+          "name": "Tabs",
+          "aliases": [
+            "tabbed interface",
+            "tab",
+            "tab views",
+            "vertical tabs",
+            "navs and tabs",
+            "tab group",
+            "tab strip"
+          ],
+          "aria_pattern": "Tabs",
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "selected",
+            "disabled"
+          ],
+          "checklist": [
+            "Labels — Name of each tab",
+            "Content area — Where the content for the active tab is displayed",
+            "Style — How the active tab and inactive tabs differentiate visually, as well as the tab container overall",
+            "Item order — Consider the arrangement of tabs to be ordered by popularity or familiarity",
+            "States — Default, active, hover are the key states"
+          ],
+          "checklist_source": "checklist.design"
+        },
+        {
+          "slug": "breadcrumbs",
+          "name": "Breadcrumbs",
+          "aliases": [
+            "breadcrumb",
+            "breadcrumb trail",
+            "path control",
+            "path",
+            "crumbs",
+            "location trail"
+          ],
+          "aria_pattern": "Breadcrumb",
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "active",
+            "current",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "pagination",
+          "name": "Pagination",
+          "aliases": [
+            "pager",
+            "paging",
+            "page controls",
+            "page navigation",
+            "load more pager",
+            "page dots"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "active",
+            "current",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "progress-stepper",
+          "name": "Progress Stepper",
+          "aliases": [
+            "progress indicator",
+            "progress tracker",
+            "steps",
+            "step indicator",
+            "stepped process",
+            "process list",
+            "wizard",
+            "multi-step form",
+            "setup assistant",
+            "onboarding steps"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "incomplete",
+            "current",
+            "complete",
+            "error",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "mega-menu",
+          "name": "Mega Menu",
+          "aliases": [
+            "large dropdown nav",
+            "full-width dropdown",
+            "mega dropdown",
+            "category flyout"
+          ],
+          "aria_pattern": "Menu and Menubar",
+          "states": [
+            "closed",
+            "open",
+            "hover",
+            "focus",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "in-page-navigation",
+          "name": "In-Page Navigation",
+          "aliases": [
+            "anchor nav",
+            "table of contents",
+            "toc",
+            "on this page",
+            "jump links",
+            "scrollspy",
+            "affix nav",
+            "section nav"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "active",
+            "current",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "tree-view",
+          "name": "Tree View",
+          "aliases": [
+            "tree",
+            "outline view",
+            "nav tree",
+            "directory tree",
+            "folder tree",
+            "hierarchy view"
+          ],
+          "aria_pattern": "Tree View",
+          "states": [
+            "collapsed",
+            "expanded",
+            "selected",
+            "focus",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "treegrid",
+          "name": "Treegrid",
+          "aliases": [
+            "tree grid",
+            "table tree",
+            "hierarchical table",
+            "expandable rows table"
+          ],
+          "aria_pattern": "Treegrid",
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "selected",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "column-view",
+          "name": "Column View",
+          "aliases": [
+            "miller columns",
+            "column browser",
+            "finder columns",
+            "multi-column browser"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "selected",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "infinite-scroll",
+          "name": "Infinite Scroll",
+          "aliases": [
+            "load more",
+            "endless scroll",
+            "virtual scroll",
+            "virtualized list",
+            "lazy list",
+            "auto pagination"
+          ],
+          "aria_pattern": "Feed",
+          "states": [
+            "idle",
+            "loading",
+            "complete",
+            "error"
+          ]
+        },
+        {
+          "slug": "announcement-bar",
+          "name": "Announcement Bar",
+          "aliases": [
+            "top bar",
+            "utility bar",
+            "trial bar",
+            "try banner",
+            "promo bar",
+            "site-wide banner",
+            "notification bar",
+            "marketing bar"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "visible",
+            "dismissed"
+          ]
+        },
+        {
+          "slug": "locale-selector",
+          "name": "Locale Selector",
+          "aliases": [
+            "language selector",
+            "language switcher",
+            "region picker",
+            "country selector"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "closed",
+            "open",
+            "hover",
+            "focus",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "workspace-switcher",
+          "name": "Workspace Switcher",
+          "aliases": [
+            "org switcher",
+            "account switcher",
+            "tenant picker",
+            "team switcher",
+            "project switcher",
+            "environment switcher"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "closed",
+            "open",
+            "hover",
+            "focus",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "back-button",
+          "name": "Back Button",
+          "aliases": [
+            "up navigation",
+            "return button",
+            "navigate back",
+            "back link"
+          ],
+          "aria_pattern": "Button",
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "active",
+            "disabled",
+            "loading"
+          ]
+        },
+        {
+          "slug": "app-shell",
+          "name": "App Shell",
+          "aliases": [
+            "ui shell",
+            "page shell",
+            "application frame",
+            "layout shell",
+            "admin shell",
+            "dashboard shell"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "dock",
+          "name": "Dock",
+          "aliases": [
+            "app dock",
+            "launcher bar",
+            "taskbar",
+            "macos dock"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "active",
+            "disabled"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "data-display",
+      "name": "Data Display",
+      "components": [
+        {
+          "slug": "table",
+          "name": "Table",
+          "aliases": [
+            "tables",
+            "data table",
+            "static table",
+            "structured list",
+            "tabular data",
+            "tablestateless"
+          ],
+          "aria_pattern": "Table",
+          "checklist": [
+            "Table header — The value of each column to provide structure for the row content",
+            "Row style — Borders and contrasting background colours can be explored to differentiate",
+            "Spacing — Define the consistent padding of each row and the header",
+            "Search — The ability to find a specific keyword or row",
+            "Actions — Performing a task based on the row and information seen e.g. view, edit, delete",
+            "Filter and sort — Allow users to customise what they want to see in the table and in which order",
+            "Responsiveness — Determine the structure on significantly smaller devices - whether the information collapses into an accordion for example",
+            "Pagination — Breakpoints in the table for digesting information in parts"
+          ],
+          "checklist_source": "checklist.design"
+        },
+        {
+          "slug": "data-grid",
+          "name": "Data Grid",
+          "aliases": [
+            "grid",
+            "datagrid",
+            "detailslist",
+            "interactive grid",
+            "spreadsheet grid",
+            "editable table",
+            "virtual table"
+          ],
+          "aria_pattern": "Grid",
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "selected",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "list",
+          "name": "List",
+          "aliases": [
+            "list group",
+            "basic list",
+            "lists",
+            "groupedlist",
+            "collection",
+            "list item",
+            "item",
+            "stacked list"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "selected",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "description-list",
+          "name": "Description List",
+          "aliases": [
+            "definition list",
+            "key-value list",
+            "detail list",
+            "summary detail",
+            "property list",
+            "metadata list",
+            "dl"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "card",
+          "name": "Card",
+          "aliases": [
+            "tile",
+            "surface card",
+            "documentcard",
+            "cards",
+            "content card",
+            "panel card"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "active",
+            "disabled"
+          ],
+          "checklist": [
+            "Style — Consider default background, border, shadow",
+            "Consistency — Ensure you have one base style for all cards",
+            "Spacing — A framework to sort your padding levels by",
+            "Responsiveness — Consider the structure of the content in all various screen sizes",
+            "Content hierarchy — The primary action/s you want users to perform"
+          ],
+          "checklist_source": "checklist.design"
+        },
+        {
+          "slug": "card-grid",
+          "name": "Card Grid",
+          "aliases": [
+            "tile grid",
+            "gallery grid",
+            "card collection",
+            "card list"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "stat",
+          "name": "Stat",
+          "aliases": [
+            "statistic",
+            "metric",
+            "kpi",
+            "stat tile",
+            "metric card",
+            "summary box",
+            "number callout",
+            "scorecard",
+            "big number"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "badge",
+          "name": "Badge",
+          "aliases": [
+            "notification badge",
+            "counter badge",
+            "status badge",
+            "pill",
+            "lozenge",
+            "sticker",
+            "count indicator",
+            "dot badge"
+          ],
+          "aria_pattern": null,
+          "checklist": [
+            "Detail — A badge can have a numeric value, or a basic shape",
+            "Color — Badges can represent your standard states - error, success, warning",
+            "Offset position — A badge should sit outside it's relevant element to gain attention easier"
+          ],
+          "checklist_source": "checklist.design"
+        },
+        {
+          "slug": "tag",
+          "name": "Tag",
+          "aliases": [
+            "tag group",
+            "keyword",
+            "label tag",
+            "topic tag",
+            "category tag"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "removable",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "avatar",
+          "name": "Avatar",
+          "aliases": [
+            "profile picture",
+            "user picture",
+            "persona",
+            "profile photo",
+            "user image",
+            "gravatar",
+            "initials avatar"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "image",
+            "initials",
+            "fallback",
+            "online",
+            "offline"
+          ],
+          "checklist": [
+            "Visualiser — Show what the avatar looks like before posting or updating",
+            "Link to upload or select avatar — Accessible link for a user to select",
+            "Placeholder image — If a user hasn't uploaded or added an avatar yet there should be a placeholder e.g. a default icon, or the user's initials",
+            "Acceptable file types — Tell the user what file types are allowed (JPEG, PNG, SVG)",
+            "Status change updating avatar — This doesn't have to be apart of the avatar component (it can be a banner or toast for example), but it is possible to incorporate it",
+            "Alternatives — If a user doesn't want to upload an image, offer an illustrative alternative, as it's better than nothing and can still convey their personality",
+            "Editing uploaded avatar — Allow a user to crop and resize their avatar before saving it"
+          ],
+          "checklist_source": "checklist.design"
+        },
+        {
+          "slug": "avatar-group",
+          "name": "Avatar Group",
+          "aliases": [
+            "facepile",
+            "avatar stack",
+            "user stack",
+            "participant list",
+            "overlapping avatars"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "icon",
+          "name": "Icon",
+          "aliases": [
+            "iconography",
+            "glyph",
+            "symbol",
+            "accessible icon",
+            "icon set",
+            "dynamic icon"
+          ],
+          "aria_pattern": null,
+          "checklist": [
+            "Responsiveness — The flexibility in detail of the icons at varying sizes",
+            "Visual style consistency — All icons share the same stroke weight, corner radius, and optical sizing approach",
+            "Color — Black and white, flat colors or gradients",
+            "Naming — Name an icon by what it literally is so it can be used flexibly"
+          ],
+          "checklist_source": "checklist.design"
+        },
+        {
+          "slug": "kbd",
+          "name": "Kbd",
+          "aliases": [
+            "keyboard key",
+            "keycap",
+            "keytip",
+            "shortcut key",
+            "hotkey",
+            "key hint"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "code-block",
+          "name": "Code Block",
+          "aliases": [
+            "code",
+            "code snippet",
+            "inline code",
+            "snippet",
+            "pre",
+            "syntax highlighter",
+            "fenced code"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "diff-view",
+          "name": "Diff View",
+          "aliases": [
+            "change view",
+            "commit view",
+            "side-by-side diff",
+            "unified diff",
+            "git diff",
+            "patch view"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "terminal",
+          "name": "Terminal",
+          "aliases": [
+            "console",
+            "command output",
+            "shell view",
+            "cli output",
+            "log view",
+            "tty"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "quote",
+          "name": "Quote",
+          "aliases": [
+            "blockquote",
+            "block quote",
+            "pull quote",
+            "testimonial",
+            "citation block"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "heading",
+          "name": "Heading",
+          "aliases": [
+            "title",
+            "display text",
+            "section title",
+            "h1",
+            "page title",
+            "headline"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "typography",
+          "name": "Typography",
+          "aliases": [
+            "text",
+            "body text",
+            "paragraph",
+            "prose",
+            "detail text",
+            "caption",
+            "type scale",
+            "text styles"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "timeline",
+          "name": "Timeline",
+          "aliases": [
+            "activity timeline",
+            "activity feed",
+            "history",
+            "changelog",
+            "event log",
+            "vertical timeline",
+            "audit trail"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "feed",
+          "name": "Feed",
+          "aliases": [
+            "activity stream",
+            "news feed",
+            "post feed",
+            "stream",
+            "infinite feed"
+          ],
+          "aria_pattern": "Feed",
+          "states": [
+            "idle",
+            "loading",
+            "complete",
+            "error"
+          ]
+        },
+        {
+          "slug": "comment",
+          "name": "Comment",
+          "aliases": [
+            "comment thread",
+            "discussion",
+            "reply",
+            "annotation thread",
+            "conversation thread"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "accordion",
+          "name": "Accordion",
+          "aliases": [
+            "collapse",
+            "collapsible sections",
+            "expandable",
+            "expander",
+            "expandable section",
+            "show hide",
+            "arrow toggle",
+            "toggle sections"
+          ],
+          "aria_pattern": "Accordion",
+          "states": [
+            "collapsed",
+            "expanded",
+            "hover",
+            "focus",
+            "disabled"
+          ],
+          "checklist": [
+            "Header — The clickable area that triggers expanding and collapsing and has a title",
+            "Expand/collapse icon — Visual indicator of the current state — typically a plus/minus, or a caret/chevron that rotates between states",
+            "Content area — The content that shows or hides when toggled, containing detailed information associated with the header",
+            "States — Default (collapsed), expanded, hover, focused, and disabled",
+            "Expanding logic — Decide if users can open multiple sections at once, or one at a time"
+          ],
+          "checklist_source": "checklist.design"
+        },
+        {
+          "slug": "collapsible",
+          "name": "Collapsible",
+          "aliases": [
+            "disclosure",
+            "details",
+            "summary",
+            "show hide",
+            "disclosure control",
+            "disclosure triangle",
+            "expand collapse",
+            "toggle panel"
+          ],
+          "aria_pattern": "Disclosure",
+          "states": [
+            "collapsed",
+            "expanded",
+            "hover",
+            "focus",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "separator",
+          "name": "Separator",
+          "aliases": [
+            "divider",
+            "horizontal rule",
+            "vertical rule",
+            "hr",
+            "rule",
+            "split line"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "empty-state",
+          "name": "Empty State",
+          "aliases": [
+            "empty",
+            "blank state",
+            "zero state",
+            "placeholder state",
+            "no results",
+            "nothing here",
+            "first-run state"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "skeleton",
+          "name": "Skeleton",
+          "aliases": [
+            "skeleton loader",
+            "shimmer",
+            "placeholder loader",
+            "ghost loader",
+            "content placeholder",
+            "loading skeleton"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "loading",
+            "loaded"
+          ],
+          "checklist": [
+            "Match content structure — Skeletons should mirror the size and layout of the content that will replace it, to reduce jumpiness on load",
+            "Animation — Subtle motion to indicate loading without being too distracting. Can be a shimmer, pulse, or wave motion in the objects",
+            "Style — Flat shapes with no depth, can be rounded or sharp",
+            "Color scheme — Typically a neutral gray or very soft colour that does not call too much attention and contrasts just enough with its background",
+            "Transition to real content — Should be a smooth, subtle movement like a fade out before the content loads"
+          ],
+          "checklist_source": "checklist.design"
+        },
+        {
+          "slug": "rating",
+          "name": "Rating",
+          "aliases": [
+            "rating indicator",
+            "star rating",
+            "review score",
+            "score display",
+            "rating display"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "meter",
+          "name": "Meter",
+          "aliases": [
+            "gauge",
+            "activity ring",
+            "progress ring",
+            "radial indicator",
+            "dial",
+            "capacity meter",
+            "score meter"
+          ],
+          "aria_pattern": "Meter"
+        },
+        {
+          "slug": "progress-bar",
+          "name": "Progress Bar",
+          "aliases": [
+            "progress",
+            "linear progress",
+            "loading bar",
+            "determinate progress",
+            "indeterminate progress",
+            "completion bar"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "indeterminate",
+            "determinate",
+            "complete",
+            "error"
+          ]
+        },
+        {
+          "slug": "countdown",
+          "name": "Countdown",
+          "aliases": [
+            "timer",
+            "clock",
+            "countdown timer",
+            "sale countdown",
+            "time remaining"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "running",
+            "paused",
+            "expired"
+          ]
+        },
+        {
+          "slug": "qr-code",
+          "name": "QR Code",
+          "aliases": [
+            "barcode",
+            "scan code",
+            "qr",
+            "matrix code"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "calendar-view",
+          "name": "Calendar View",
+          "aliases": [
+            "agenda",
+            "scheduler",
+            "event calendar",
+            "month calendar",
+            "week view",
+            "booking calendar",
+            "gantt calendar"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "selected",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "map",
+          "name": "Map",
+          "aliases": [
+            "geo map",
+            "interactive map",
+            "store map",
+            "location map",
+            "mapbox",
+            "leaflet map"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "active",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "ticker",
+          "name": "Ticker",
+          "aliases": [
+            "marquee text",
+            "scrolling text",
+            "news ticker",
+            "stock ticker",
+            "running headline"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "lockup",
+          "name": "Lockup",
+          "aliases": [
+            "title subtitle unit",
+            "composed title",
+            "brand lockup",
+            "icon title pair"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "tree",
+          "name": "Tree",
+          "aliases": [
+            "nested list",
+            "hierarchy display",
+            "org chart",
+            "node tree"
+          ],
+          "aria_pattern": "Tree View",
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "selected",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "json-viewer",
+          "name": "JSON Viewer",
+          "aliases": [
+            "object inspector",
+            "data inspector",
+            "schema display",
+            "tree data view",
+            "payload viewer"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "selected",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "kanban-board",
+          "name": "Kanban Board",
+          "aliases": [
+            "board",
+            "swimlanes",
+            "task board",
+            "column board",
+            "trello board"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "idle",
+            "dragging",
+            "drag-over",
+            "dropped",
+            "disabled"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "feedback",
+      "name": "Feedback",
+      "components": [
+        {
+          "slug": "alert",
+          "name": "Alert",
+          "aliases": [
+            "inline alert",
+            "callout",
+            "message",
+            "section message",
+            "site alert",
+            "messagebar",
+            "flag",
+            "admonition",
+            "note",
+            "warning",
+            "info box",
+            "status message"
+          ],
+          "aria_pattern": "Alert",
+          "states": [
+            "info",
+            "success",
+            "warning",
+            "error",
+            "dismissed"
+          ]
+        },
+        {
+          "slug": "banner",
+          "name": "Banner",
+          "aliases": [
+            "alert banner",
+            "global banner",
+            "page-level alert",
+            "system banner",
+            "full-width alert",
+            "notice bar"
+          ],
+          "aria_pattern": "Alert",
+          "states": [
+            "visible",
+            "dismissed"
+          ],
+          "checklist": [
+            "Style — How the banner types look (fill, text colour, border radius etc)",
+            "Content — A title is a must but you can consider a description if you feel a title does not convey enough information",
+            "Types — Banners typically appear as 5 options: information, success, warning, error, neutral. This helps visually establish context and level of importance",
+            "Call to action button — A banner may call for the user to do something, like fix the error it is calling out, or viewing the successful outcome of an event",
+            "Placement — Where the banner sits on the page, dependent on context and importance",
+            "Dismissable — Whether the banner can be dismissed. Positive/neutral banners (info and success) would suit this, but not warning/error banners as they are too critical"
+          ],
+          "checklist_source": "checklist.design"
+        },
+        {
+          "slug": "toast",
+          "name": "Toast",
+          "aliases": [
+            "snackbar",
+            "flash message",
+            "toaster",
+            "transient notification",
+            "temporary message",
+            "popup notification",
+            "growl"
+          ],
+          "aria_pattern": "Alert",
+          "states": [
+            "entering",
+            "visible",
+            "exiting"
+          ],
+          "checklist": [
+            "Copy — The text in the toast",
+            "Placement — Toast should appear on the corners of the viewport, not as the focus",
+            "Usage — Toasts are triggered to appear after an action or event",
+            "Variants — Dictated by colour usually, variants affects the emotion of a message",
+            "Length of appearance — Toasts should be visible long enough to read but short enough to not obstruct other information for too long",
+            "Dismissable — Depending on the amount of content, a toast can be closed by a user (it should fade away shortly after appearing if it cannot be manually dismissed)"
+          ],
+          "checklist_source": "checklist.design"
+        },
+        {
+          "slug": "notification-center",
+          "name": "Notification Center",
+          "aliases": [
+            "notifications",
+            "notification list",
+            "notification inbox",
+            "push notification",
+            "activity inbox",
+            "bell menu"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "empty",
+            "unread",
+            "read"
+          ]
+        },
+        {
+          "slug": "status-indicator",
+          "name": "Status Indicator",
+          "aliases": [
+            "status light",
+            "status dot",
+            "presence indicator",
+            "online status",
+            "health indicator",
+            "state pill",
+            "uptime dot"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "online",
+            "offline",
+            "busy",
+            "away",
+            "error",
+            "unknown"
+          ]
+        },
+        {
+          "slug": "spinner",
+          "name": "Spinner",
+          "aliases": [
+            "loader",
+            "loading",
+            "loading indicator",
+            "activity indicator",
+            "progress circle",
+            "progress ring",
+            "inline loading",
+            "busy indicator",
+            "circular progress",
+            "spin"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "spinning",
+            "complete"
+          ],
+          "checklist": [
+            "Visual indicator — A clear representation that content is loading or in progress of change",
+            "Text — Explaining the loading state",
+            "Time — Determine how long the time between two actions must be to require a loading component",
+            "Accessibility — Ensure your loading state can be clearly seen",
+            "Visuals — Entertain the user with an illustration during the loading state"
+          ],
+          "checklist_source": "checklist.design"
+        },
+        {
+          "slug": "loading-overlay",
+          "name": "Loading Overlay",
+          "aliases": [
+            "scrim overlay",
+            "busy overlay",
+            "blocking loader",
+            "page loader",
+            "full-page spinner"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "hidden",
+            "visible"
+          ]
+        },
+        {
+          "slug": "tooltip",
+          "name": "Tooltip",
+          "aliases": [
+            "toggletip",
+            "hint",
+            "info tip",
+            "hover hint",
+            "title tip",
+            "help tooltip"
+          ],
+          "aria_pattern": "Tooltip",
+          "states": [
+            "hidden",
+            "visible",
+            "delayed"
+          ],
+          "checklist": [
+            "Information — Keep content clear and concise",
+            "Contrast — The background should be different from the underlying content",
+            "Visibility — How a tooltip looks and shows",
+            "Dismiss action — Depending on how intrusive or extensive the tooltip is, a dismiss allows the user to feel more in control and allow the tooltip to feel more flexible and non-compulsory"
+          ],
+          "checklist_source": "checklist.design"
+        },
+        {
+          "slug": "alert-dialog",
+          "name": "Alert Dialog",
+          "aliases": [
+            "confirm dialog",
+            "confirmation modal",
+            "destructive confirm",
+            "alert and message dialogs",
+            "prompt dialog",
+            "are-you-sure modal"
+          ],
+          "aria_pattern": "Alert and Message Dialogs",
+          "states": [
+            "closed",
+            "opening",
+            "open",
+            "closing"
+          ]
+        },
+        {
+          "slug": "error-page",
+          "name": "Error Page",
+          "aliases": [
+            "404 page",
+            "500 page",
+            "error boundary",
+            "fallback ui",
+            "result page",
+            "not found",
+            "crash screen"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "coachmark",
+          "name": "Coachmark",
+          "aliases": [
+            "product tour",
+            "walkthrough",
+            "tour",
+            "spotlight tip",
+            "hotspot",
+            "beacon",
+            "onboarding tour",
+            "welcome mat",
+            "teaching bubble",
+            "tip popover"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "closed",
+            "opening",
+            "open",
+            "closing"
+          ]
+        },
+        {
+          "slug": "survey",
+          "name": "Survey",
+          "aliases": [
+            "nps",
+            "feedback widget",
+            "rating prompt",
+            "questionnaire",
+            "poll",
+            "csat",
+            "feedback form"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "live-region",
+          "name": "Live Region",
+          "aliases": [
+            "aria-live",
+            "announcement",
+            "screen reader announcement",
+            "polite region",
+            "assertive region",
+            "status region"
+          ],
+          "aria_pattern": "Alert"
+        },
+        {
+          "slug": "validation-summary",
+          "name": "Validation Summary",
+          "aliases": [
+            "error list",
+            "error summary",
+            "form-level errors",
+            "validation panel"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "inline-message",
+          "name": "Inline Message",
+          "aliases": [
+            "field-level message",
+            "contextual message",
+            "helper alert",
+            "row message"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "info",
+            "success",
+            "warning",
+            "error"
+          ]
+        },
+        {
+          "slug": "progress-feedback",
+          "name": "Progress Feedback",
+          "aliases": [
+            "upload progress",
+            "task progress",
+            "step progress toast",
+            "background job status",
+            "sync status"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "idle",
+            "loading",
+            "complete",
+            "error"
+          ]
+        },
+        {
+          "slug": "confirmation-state",
+          "name": "Confirmation State",
+          "aliases": [
+            "success state",
+            "completion screen",
+            "thank you page",
+            "order confirmed",
+            "done state"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "rate-limit-notice",
+          "name": "Rate Limit Notice",
+          "aliases": [
+            "quota warning",
+            "usage warning",
+            "throttle message",
+            "limit reached"
+          ],
+          "aria_pattern": null
+        }
+      ]
+    },
+    {
+      "slug": "overlays",
+      "name": "Overlays",
+      "components": [
+        {
+          "slug": "modal",
+          "name": "Modal",
+          "aliases": [
+            "dialog",
+            "modal dialog",
+            "modal window",
+            "popup",
+            "overlay dialog",
+            "modals",
+            "lightbox dialog"
+          ],
+          "aria_pattern": "Dialog (Modal)",
+          "states": [
+            "closed",
+            "opening",
+            "open",
+            "closing"
+          ],
+          "checklist": [
+            "Title — Clear, simple text explaining the action of the modal",
+            "Actionable item — A button or link to continue or close the event",
+            "Close action — A way to exit the modal",
+            "Responsiveness — Consider the size of the modal on different device sizes, and whether a modal is suitable on all",
+            "Background change behind modal — Darken, blur or lighten - change the background behind the modal to bring focus to it",
+            "Description — Incase they require more information to understand how to make their decision"
+          ],
+          "checklist_source": "checklist.design"
+        },
+        {
+          "slug": "dialog",
+          "name": "Dialog",
+          "aliases": [
+            "non-modal dialog",
+            "corner dialog",
+            "inline dialog",
+            "floating dialog",
+            "panel dialog"
+          ],
+          "aria_pattern": "Dialog (Modal)",
+          "states": [
+            "closed",
+            "opening",
+            "open",
+            "closing"
+          ]
+        },
+        {
+          "slug": "drawer",
+          "name": "Drawer",
+          "aliases": [
+            "tray",
+            "flyout",
+            "side sheet",
+            "off-canvas",
+            "offcanvas",
+            "side panel",
+            "right side panel",
+            "slide-over",
+            "drawers"
+          ],
+          "aria_pattern": "Dialog (Modal)",
+          "states": [
+            "closed",
+            "opening",
+            "open",
+            "closing"
+          ],
+          "checklist": [
+            "Placement — Which edge the drawer slides from - most commonly from left (navigation) or right (details/settings)",
+            "Dimensions — Typically full height, but width can vary. Should be wide enough for complex content to be shown, without taking over the entire page",
+            "Overlay — A semi-transparent background for the remaining screen area to bring focus to the drawer",
+            "Header — Top section with a title describing drawer contents or purpose, along with a close action (optional)",
+            "Content area — Main section, which should be scrollable if content exceeds window height",
+            "Open and close trigger — How user activate the drawer — typically a button to open, while closing can have multiple ways: clicking overlay, a close button, or pressing Esc on keyboard should all be active options",
+            "Footer — Fixed area at the bottom for actions, usually a primary and secondary e.g. Save & Cancel"
+          ],
+          "checklist_source": "checklist.design"
+        },
+        {
+          "slug": "sheet",
+          "name": "Sheet",
+          "aliases": [
+            "bottom sheet",
+            "half sheet",
+            "modal sheet",
+            "sheets",
+            "action drawer",
+            "mobile sheet"
+          ],
+          "aria_pattern": "Dialog (Modal)",
+          "states": [
+            "closed",
+            "opening",
+            "open",
+            "closing"
+          ]
+        },
+        {
+          "slug": "popover",
+          "name": "Popover",
+          "aliases": [
+            "popup",
+            "overlay panel",
+            "floating panel",
+            "anchored overlay",
+            "popovers"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "closed",
+            "opening",
+            "open",
+            "closing"
+          ]
+        },
+        {
+          "slug": "hover-card",
+          "name": "Hover Card",
+          "aliases": [
+            "hovercard",
+            "preview card",
+            "link preview",
+            "profile hovercard",
+            "rich tooltip"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "closed",
+            "opening",
+            "open",
+            "closing"
+          ]
+        },
+        {
+          "slug": "lightbox",
+          "name": "Lightbox",
+          "aliases": [
+            "image viewer",
+            "zoom overlay",
+            "gallery overlay",
+            "photo viewer",
+            "media lightbox"
+          ],
+          "aria_pattern": "Dialog (Modal)",
+          "states": [
+            "closed",
+            "opening",
+            "open",
+            "closing"
+          ]
+        },
+        {
+          "slug": "backdrop",
+          "name": "Backdrop",
+          "aliases": [
+            "scrim",
+            "blanket",
+            "dimmer",
+            "overlay",
+            "mask",
+            "modal background"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "hidden",
+            "visible"
+          ]
+        },
+        {
+          "slug": "portal",
+          "name": "Portal",
+          "aliases": [
+            "layer",
+            "layer manager",
+            "positioner",
+            "overlay root",
+            "teleport"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "focus-trap",
+          "name": "Focus Trap",
+          "aliases": [
+            "focustrapzone",
+            "focuszone",
+            "focusgroup",
+            "scoped focusgroup",
+            "keyboard trap",
+            "focus scope"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "full-screen-takeover",
+          "name": "Full-Screen Takeover",
+          "aliases": [
+            "cover sheet",
+            "interstitial",
+            "full page modal",
+            "immersive overlay",
+            "splash overlay"
+          ],
+          "aria_pattern": "Dialog (Modal)",
+          "states": [
+            "closed",
+            "opening",
+            "open",
+            "closing"
+          ]
+        },
+        {
+          "slug": "floating-window",
+          "name": "Floating Window",
+          "aliases": [
+            "window",
+            "windows",
+            "panels",
+            "picture-in-picture",
+            "draggable window",
+            "mini player window"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "open",
+            "minimized",
+            "maximized",
+            "closed"
+          ]
+        },
+        {
+          "slug": "ornament",
+          "name": "Ornament",
+          "aliases": [
+            "floating accessory",
+            "visionos ornament",
+            "attached control panel"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "dropdown-panel",
+          "name": "Dropdown Panel",
+          "aliases": [
+            "flyout panel",
+            "anchored dropdown",
+            "mega dropdown panel",
+            "popup panel"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "closed",
+            "open",
+            "hover",
+            "focus",
+            "disabled"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "layout",
+      "name": "Layout",
+      "components": [
+        {
+          "slug": "stack",
+          "name": "Stack",
+          "aliases": [
+            "vstack",
+            "hstack",
+            "flex",
+            "inline stack",
+            "cluster",
+            "stack layout",
+            "row",
+            "column"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "grid",
+          "name": "Grid",
+          "aliases": [
+            "layout grid",
+            "gridcolumn",
+            "columns",
+            "row col",
+            "grid lists",
+            "css grid",
+            "twelve column grid"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "container",
+          "name": "Container",
+          "aliases": [
+            "wrapper",
+            "page container",
+            "max-width container",
+            "content well",
+            "constrained width",
+            "shell container"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "box",
+          "name": "Box",
+          "aliases": [
+            "surface",
+            "frame",
+            "view",
+            "segment",
+            "primitive box",
+            "div wrapper"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "section",
+          "name": "Section",
+          "aliases": [
+            "content section",
+            "region",
+            "page section",
+            "block section",
+            "landmark region"
+          ],
+          "aria_pattern": "Landmarks"
+        },
+        {
+          "slug": "panel",
+          "name": "Panel",
+          "aliases": [
+            "pane",
+            "inspector",
+            "properties panel",
+            "docked panel",
+            "side pane",
+            "detail panel"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "split-view",
+          "name": "Split View",
+          "aliases": [
+            "window splitter",
+            "splitter",
+            "resizable panels",
+            "two-pane",
+            "master-detail",
+            "split panel",
+            "gutter"
+          ],
+          "aria_pattern": "Window Splitter",
+          "states": [
+            "idle",
+            "dragging",
+            "collapsed"
+          ]
+        },
+        {
+          "slug": "aspect-ratio",
+          "name": "Aspect Ratio",
+          "aliases": [
+            "ratio box",
+            "intrinsic ratio",
+            "aspect box",
+            "16:9 container"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "scroll-area",
+          "name": "Scroll Area",
+          "aliases": [
+            "scroll view",
+            "scrollablepane",
+            "overflow container",
+            "scroll container",
+            "custom scrollbar",
+            "scrollbar"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "idle",
+            "scrolling",
+            "scrolled-top",
+            "scrolled-end"
+          ]
+        },
+        {
+          "slug": "spacer",
+          "name": "Spacer",
+          "aliases": [
+            "space",
+            "gap",
+            "flex spacer",
+            "filler"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "masonry",
+          "name": "Masonry",
+          "aliases": [
+            "pinterest layout",
+            "waterfall grid",
+            "brick layout",
+            "staggered grid"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "sticky",
+          "name": "Sticky",
+          "aliases": [
+            "sticky header",
+            "sticky footer",
+            "affix",
+            "pinned element",
+            "sticky sidebar",
+            "stuck state"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "unstuck",
+            "stuck"
+          ]
+        },
+        {
+          "slug": "resizable",
+          "name": "Resizable",
+          "aliases": [
+            "resize handle",
+            "width detector",
+            "size detector",
+            "resizegroup",
+            "drag to resize"
+          ],
+          "aria_pattern": "Window Splitter",
+          "states": [
+            "idle",
+            "resizing"
+          ]
+        },
+        {
+          "slug": "elevation",
+          "name": "Elevation",
+          "aliases": [
+            "shadow",
+            "surface level",
+            "depth",
+            "z-layer",
+            "box shadow scale"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "visually-hidden",
+          "name": "Visually Hidden",
+          "aliases": [
+            "sr-only",
+            "screenreader only",
+            "screen reader text",
+            "a11y hidden",
+            "offscreen text"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "direction-provider",
+          "name": "Direction Provider",
+          "aliases": [
+            "rtl",
+            "ltr",
+            "direction",
+            "bidi support",
+            "text direction"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "theme-provider",
+          "name": "Theme Provider",
+          "aliases": [
+            "theme",
+            "themes",
+            "configprovider",
+            "localeprovider",
+            "provider",
+            "design tokens",
+            "dark mode provider",
+            "color scheme"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "light",
+            "dark",
+            "system"
+          ]
+        },
+        {
+          "slug": "safe-area",
+          "name": "Safe Area",
+          "aliases": [
+            "inset",
+            "notch padding",
+            "edge insets",
+            "safe area inset",
+            "home indicator padding"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "media-object",
+          "name": "Media Object",
+          "aliases": [
+            "item layout",
+            "itemlayout",
+            "avatar text row",
+            "media row",
+            "thumbnail row"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "hero",
+          "name": "Hero",
+          "aliases": [
+            "jumbotron",
+            "hero banner",
+            "above the fold",
+            "splash section",
+            "header hero"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "bento-grid",
+          "name": "Bento Grid",
+          "aliases": [
+            "feature grid",
+            "tile mosaic",
+            "bento box layout",
+            "mosaic grid"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "page-header",
+          "name": "Page Header",
+          "aliases": [
+            "title bar",
+            "page title block",
+            "breadcrumb header",
+            "section heading block"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "center",
+          "name": "Center",
+          "aliases": [
+            "centered layout",
+            "center box",
+            "vertical center",
+            "place items center"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "responsive-wrapper",
+          "name": "Responsive Wrapper",
+          "aliases": [
+            "breakpoint container",
+            "container query",
+            "media query helper",
+            "show hide at breakpoint",
+            "responsive utility"
+          ],
+          "aria_pattern": null
+        }
+      ]
+    },
+    {
+      "slug": "media",
+      "name": "Media",
+      "components": [
+        {
+          "slug": "image",
+          "name": "Image",
+          "aliases": [
+            "picture",
+            "img",
+            "image view",
+            "responsive image",
+            "thumbnail",
+            "next image",
+            "optimized image"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "loading",
+            "loaded",
+            "error"
+          ]
+        },
+        {
+          "slug": "image-gallery",
+          "name": "Image Gallery",
+          "aliases": [
+            "image list",
+            "grid list",
+            "photo grid",
+            "media gallery",
+            "showcase",
+            "masonry gallery",
+            "album"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "selected",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "video-player",
+          "name": "Video Player",
+          "aliases": [
+            "video",
+            "media player",
+            "player",
+            "hls player",
+            "youtube embed",
+            "video controls"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "idle",
+            "loading",
+            "playing",
+            "paused",
+            "buffering",
+            "error"
+          ]
+        },
+        {
+          "slug": "audio-player",
+          "name": "Audio Player",
+          "aliases": [
+            "audio",
+            "sound player",
+            "podcast player",
+            "music player",
+            "audio controls"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "idle",
+            "loading",
+            "playing",
+            "paused",
+            "buffering",
+            "error"
+          ]
+        },
+        {
+          "slug": "embed",
+          "name": "Embed",
+          "aliases": [
+            "iframe",
+            "web view",
+            "web preview",
+            "oembed",
+            "sandbox preview",
+            "external embed"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "idle",
+            "loading",
+            "complete",
+            "error"
+          ]
+        },
+        {
+          "slug": "carousel",
+          "name": "Carousel",
+          "aliases": [
+            "content slider",
+            "slideshow",
+            "image rotator",
+            "coverflow",
+            "swiper",
+            "slider gallery",
+            "banner rotator"
+          ],
+          "aria_pattern": "Carousel",
+          "states": [
+            "idle",
+            "autoplay",
+            "paused",
+            "transitioning"
+          ],
+          "checklist": [
+            "Ways of interaction — Defining whether the carousel transitions are auto-play, navigated by controls, or both",
+            "Visual progress indicator — Show dots, numbers, or a progress bar so users know how many slides there are and which one they're currently viewing",
+            "Dimensions and alignment — The size of the items in the carousel, and their responsiveness across devices",
+            "Animation behaviour — The direction, speed and feeling of how the items transition between each other",
+            "Focused item state — if your carousel shows one item a time, the one on focus should appear different to the items that are entering and exiting"
+          ],
+          "checklist_source": "checklist.design"
+        },
+        {
+          "slug": "figure",
+          "name": "Figure",
+          "aliases": [
+            "caption",
+            "figcaption",
+            "captioned image",
+            "illustration block"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "file-card",
+          "name": "File Card",
+          "aliases": [
+            "file",
+            "attachment",
+            "download card",
+            "document card",
+            "file chip"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "uploading",
+            "complete",
+            "error"
+          ]
+        },
+        {
+          "slug": "file-tree",
+          "name": "File Tree",
+          "aliases": [
+            "directory browser",
+            "repo browser",
+            "project explorer",
+            "folder navigator"
+          ],
+          "aria_pattern": "Tree View",
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "selected",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "image-cropper",
+          "name": "Image Cropper",
+          "aliases": [
+            "crop tool",
+            "image editor",
+            "pan zoom",
+            "avatar cropper",
+            "crop and rotate"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "idle",
+            "cropping",
+            "saving"
+          ]
+        },
+        {
+          "slug": "image-well",
+          "name": "Image Well",
+          "aliases": [
+            "image drop target",
+            "image placeholder input",
+            "avatar upload well"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "empty",
+            "filled",
+            "drag-over"
+          ]
+        },
+        {
+          "slug": "camera-capture",
+          "name": "Camera Capture",
+          "aliases": [
+            "capture view",
+            "barcode scanner",
+            "qr scanner",
+            "photo capture",
+            "webcam view",
+            "document scanner"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "idle",
+            "active",
+            "captured",
+            "error"
+          ]
+        },
+        {
+          "slug": "waveform",
+          "name": "Waveform",
+          "aliases": [
+            "audio scrubber",
+            "voice visualizer",
+            "sound wave",
+            "spectrum visualizer"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "idle",
+            "loading",
+            "playing",
+            "paused",
+            "buffering",
+            "error"
+          ]
+        },
+        {
+          "slug": "transcript",
+          "name": "Transcript",
+          "aliases": [
+            "captions",
+            "subtitles",
+            "transcription view",
+            "closed captions",
+            "lyrics view"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "model-viewer",
+          "name": "Model Viewer",
+          "aliases": [
+            "3d viewer",
+            "ar quick look",
+            "gltf viewer",
+            "three.js canvas",
+            "product 3d"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "idle",
+            "loading",
+            "complete",
+            "error"
+          ]
+        },
+        {
+          "slug": "document-viewer",
+          "name": "Document Viewer",
+          "aliases": [
+            "pdf viewer",
+            "file preview",
+            "doc preview",
+            "slide viewer",
+            "ebook reader"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "idle",
+            "loading",
+            "complete",
+            "error"
+          ]
+        },
+        {
+          "slug": "logo",
+          "name": "Logo",
+          "aliases": [
+            "wordmark",
+            "brand band",
+            "identifier",
+            "brandmark",
+            "logo cloud",
+            "client logos"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "illustration",
+          "name": "Illustration",
+          "aliases": [
+            "spot illustration",
+            "empty-state art",
+            "decorative graphic",
+            "hero illustration"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "placeholder-image",
+          "name": "Placeholder Image",
+          "aliases": [
+            "blurhash",
+            "lqip",
+            "image placeholder",
+            "blur-up",
+            "dominant color placeholder"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "idle",
+            "loading",
+            "complete",
+            "error"
+          ]
+        },
+        {
+          "slug": "device-frame",
+          "name": "Device Frame",
+          "aliases": [
+            "phone mockup",
+            "browser frame",
+            "laptop mockup",
+            "screenshot frame",
+            "device mockup"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "avatar-upload",
+          "name": "Avatar Upload",
+          "aliases": [
+            "profile photo upload",
+            "picture picker",
+            "change photo"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "empty",
+            "uploading",
+            "filled",
+            "error"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "motion-effects",
+      "name": "Motion & Effects",
+      "components": [
+        {
+          "slug": "transition",
+          "name": "Transition",
+          "aliases": [
+            "animate presence",
+            "enter exit",
+            "view transition",
+            "transitions",
+            "fade",
+            "slide",
+            "mount animation"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "enter",
+            "entered",
+            "exit",
+            "exited"
+          ]
+        },
+        {
+          "slug": "animation",
+          "name": "Animation",
+          "aliases": [
+            "motion",
+            "keyframe animation",
+            "css animation",
+            "spring animation",
+            "tween"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "idle",
+            "running",
+            "paused",
+            "finished"
+          ]
+        },
+        {
+          "slug": "page-transition",
+          "name": "Page Transition",
+          "aliases": [
+            "route animation",
+            "navigation animation",
+            "screen transition"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "enter",
+            "exit"
+          ]
+        },
+        {
+          "slug": "ripple",
+          "name": "Ripple",
+          "aliases": [
+            "line ripple",
+            "touch feedback",
+            "ink effect",
+            "material ripple",
+            "press ripple"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "idle",
+            "active"
+          ]
+        },
+        {
+          "slug": "shimmer",
+          "name": "Shimmer",
+          "aliases": [
+            "skeleton shimmer",
+            "loading pulse",
+            "gradient sweep",
+            "pulse effect"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "loading",
+            "idle"
+          ]
+        },
+        {
+          "slug": "scroll-reveal",
+          "name": "Scroll Reveal",
+          "aliases": [
+            "reveal",
+            "fade in on scroll",
+            "intersection reveal",
+            "appear animation",
+            "stagger reveal"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "hidden",
+            "revealed"
+          ]
+        },
+        {
+          "slug": "collapse-animation",
+          "name": "Collapse Animation",
+          "aliases": [
+            "height animation",
+            "expand animation",
+            "auto height transition",
+            "accordion motion"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "collapsed",
+            "expanding",
+            "expanded",
+            "collapsing"
+          ]
+        },
+        {
+          "slug": "parallax",
+          "name": "Parallax",
+          "aliases": [
+            "depth scroll",
+            "parallax layers",
+            "background parallax"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "scroll-driven-animation",
+          "name": "Scroll-Driven Animation",
+          "aliases": [
+            "scrollytelling",
+            "sticky scroll",
+            "scroll progress",
+            "scroll timeline",
+            "pin scroll"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "drag-and-drop",
+          "name": "Drag and Drop",
+          "aliases": [
+            "sortable",
+            "draggable",
+            "reorder",
+            "drag handle",
+            "kanban drag",
+            "marquee selection",
+            "dnd",
+            "reorderable list"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "idle",
+            "dragging",
+            "drag-over",
+            "dropped",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "gesture",
+          "name": "Gesture",
+          "aliases": [
+            "swipe actions",
+            "pull to refresh",
+            "overscroll actions",
+            "pinch zoom",
+            "long press",
+            "touch gesture"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "idle",
+            "active",
+            "completed"
+          ]
+        },
+        {
+          "slug": "typewriter-text",
+          "name": "Typewriter Text",
+          "aliases": [
+            "typing effect",
+            "text scramble",
+            "word rotate",
+            "letter reveal"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "idle",
+            "typing",
+            "complete"
+          ]
+        },
+        {
+          "slug": "count-up",
+          "name": "Count Up",
+          "aliases": [
+            "number ticker",
+            "animated counter",
+            "odometer",
+            "rolling number",
+            "stat animation"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "idle",
+            "counting",
+            "complete"
+          ]
+        },
+        {
+          "slug": "confetti",
+          "name": "Confetti",
+          "aliases": [
+            "celebration effect",
+            "success burst",
+            "particles",
+            "fireworks effect"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "idle",
+            "firing"
+          ]
+        },
+        {
+          "slug": "marquee",
+          "name": "Marquee",
+          "aliases": [
+            "infinite scroll strip",
+            "logo scroller",
+            "ticker strip",
+            "looping banner"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "running",
+            "paused"
+          ]
+        },
+        {
+          "slug": "focus-ring",
+          "name": "Focus Ring",
+          "aliases": [
+            "focus indicator",
+            "focus outline",
+            "focus visible",
+            "keyboard focus style"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "hidden",
+            "visible"
+          ]
+        },
+        {
+          "slug": "hover-effect",
+          "name": "Hover Effect",
+          "aliases": [
+            "lift",
+            "tilt",
+            "magnetic",
+            "glow",
+            "spotlight cursor",
+            "3d card hover",
+            "shine"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover"
+          ]
+        },
+        {
+          "slug": "glassmorphism",
+          "name": "Glassmorphism",
+          "aliases": [
+            "backdrop blur",
+            "frosted glass",
+            "liquid glass",
+            "vibrancy",
+            "translucent surface"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "gradient-background",
+          "name": "Gradient Background",
+          "aliases": [
+            "aurora",
+            "mesh gradient",
+            "animated gradient",
+            "noise",
+            "grain",
+            "gradient blob"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "custom-cursor",
+          "name": "Custom Cursor",
+          "aliases": [
+            "cursor follower",
+            "cursor trail",
+            "pointer effect",
+            "magnetic cursor"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "text-effect",
+          "name": "Text Effect",
+          "aliases": [
+            "gradient text",
+            "text mask",
+            "split text",
+            "letter animation",
+            "glitch text",
+            "highlight sweep"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "particle-background",
+          "name": "Particle Background",
+          "aliases": [
+            "dot field",
+            "starfield",
+            "animated canvas background",
+            "wave background",
+            "grid background"
+          ],
+          "aria_pattern": null
+        }
+      ]
+    },
+    {
+      "slug": "charts",
+      "name": "Charts",
+      "components": [
+        {
+          "slug": "chart",
+          "name": "Chart",
+          "aliases": [
+            "graph",
+            "plot",
+            "data visualization",
+            "visualization",
+            "chart wrapper",
+            "chart container"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "idle",
+            "loading",
+            "complete",
+            "error"
+          ]
+        },
+        {
+          "slug": "bar-chart",
+          "name": "Bar Chart",
+          "aliases": [
+            "column chart",
+            "stacked bar",
+            "grouped bar",
+            "horizontal bar",
+            "bar graph"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "line-chart",
+          "name": "Line Chart",
+          "aliases": [
+            "trend chart",
+            "multi-line chart",
+            "time series chart",
+            "line graph"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "area-chart",
+          "name": "Area Chart",
+          "aliases": [
+            "stacked area",
+            "streamgraph",
+            "filled line chart"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "pie-chart",
+          "name": "Pie Chart",
+          "aliases": [
+            "donut chart",
+            "doughnut chart",
+            "circle chart"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "scatter-plot",
+          "name": "Scatter Plot",
+          "aliases": [
+            "scatter chart",
+            "bubble chart",
+            "xy plot",
+            "point cloud"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "histogram",
+          "name": "Histogram",
+          "aliases": [
+            "distribution chart",
+            "frequency chart",
+            "bin chart"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "box-plot",
+          "name": "Box Plot",
+          "aliases": [
+            "box and whisker",
+            "quartile chart",
+            "violin plot"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "heatmap",
+          "name": "Heatmap",
+          "aliases": [
+            "matrix chart",
+            "calendar heatmap",
+            "contribution graph",
+            "density map",
+            "correlation matrix"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "treemap",
+          "name": "Treemap",
+          "aliases": [
+            "nested rectangles chart",
+            "area hierarchy chart"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "sunburst",
+          "name": "Sunburst",
+          "aliases": [
+            "radial hierarchy",
+            "nested donut",
+            "radial treemap"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "sankey-diagram",
+          "name": "Sankey Diagram",
+          "aliases": [
+            "flow diagram",
+            "alluvial diagram",
+            "flow chart of volume"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "funnel-chart",
+          "name": "Funnel Chart",
+          "aliases": [
+            "conversion funnel",
+            "pipeline chart",
+            "drop-off chart"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "gauge-chart",
+          "name": "Gauge Chart",
+          "aliases": [
+            "radial gauge",
+            "dial chart",
+            "meter chart",
+            "progress ring chart",
+            "speedometer"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "radar-chart",
+          "name": "Radar Chart",
+          "aliases": [
+            "spider chart",
+            "polar chart",
+            "star plot",
+            "web chart"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "candlestick-chart",
+          "name": "Candlestick Chart",
+          "aliases": [
+            "ohlc chart",
+            "financial chart",
+            "stock chart",
+            "trading chart"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "waterfall-chart",
+          "name": "Waterfall Chart",
+          "aliases": [
+            "bridge chart",
+            "cascade chart"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "gantt-chart",
+          "name": "Gantt Chart",
+          "aliases": [
+            "project timeline",
+            "roadmap chart",
+            "schedule chart",
+            "timeline chart"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "sparkline",
+          "name": "Sparkline",
+          "aliases": [
+            "micro chart",
+            "inline chart",
+            "trend indicator",
+            "mini graph"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "choropleth",
+          "name": "Choropleth",
+          "aliases": [
+            "map chart",
+            "geo chart",
+            "cartogram",
+            "region map",
+            "geographic heatmap"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "network-graph",
+          "name": "Network Graph",
+          "aliases": [
+            "node-link diagram",
+            "force graph",
+            "graph view",
+            "relationship map",
+            "knowledge graph"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "active",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "node-editor",
+          "name": "Node Editor",
+          "aliases": [
+            "flow canvas",
+            "canvas",
+            "node",
+            "edge",
+            "connection",
+            "handle",
+            "minimap",
+            "flowchart builder",
+            "workflow editor",
+            "react flow"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "idle",
+            "dragging",
+            "drag-over",
+            "dropped",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "bullet-chart",
+          "name": "Bullet Chart",
+          "aliases": [
+            "target vs actual",
+            "goal chart",
+            "progress vs target"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "word-cloud",
+          "name": "Word Cloud",
+          "aliases": [
+            "tag cloud",
+            "term cloud"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "chord-diagram",
+          "name": "Chord Diagram",
+          "aliases": [
+            "circular relationship chart",
+            "arc diagram"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "parallel-coordinates",
+          "name": "Parallel Coordinates",
+          "aliases": [
+            "multi-axis plot",
+            "pcp chart"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "chart-legend",
+          "name": "Chart Legend",
+          "aliases": [
+            "legend",
+            "chart key",
+            "series legend",
+            "color key"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "selected",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "chart-axis",
+          "name": "Chart Axis",
+          "aliases": [
+            "axis",
+            "x axis",
+            "y axis",
+            "gridlines",
+            "ticks",
+            "scale",
+            "axis labels"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "chart-tooltip",
+          "name": "Chart Tooltip",
+          "aliases": [
+            "hover readout",
+            "crosshair tooltip",
+            "data tooltip",
+            "point tooltip"
+          ],
+          "aria_pattern": "Tooltip",
+          "states": [
+            "hidden",
+            "visible"
+          ]
+        },
+        {
+          "slug": "chart-brush",
+          "name": "Chart Brush",
+          "aliases": [
+            "range selector",
+            "zoom control",
+            "time range brush",
+            "data zoom",
+            "overview scrubber"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "idle",
+            "selecting",
+            "selected"
+          ]
+        },
+        {
+          "slug": "chart-annotation",
+          "name": "Chart Annotation",
+          "aliases": [
+            "reference line",
+            "threshold band",
+            "callout marker",
+            "target line",
+            "event marker"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "kpi-row",
+          "name": "KPI Row",
+          "aliases": [
+            "kpi row",
+            "dashboard tile",
+            "summary tile",
+            "metric row",
+            "stat grid"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "dashboard",
+          "name": "Dashboard",
+          "aliases": [
+            "analytics layout",
+            "report canvas",
+            "widget grid",
+            "metrics dashboard",
+            "admin dashboard"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "data-export",
+          "name": "Data Export",
+          "aliases": [
+            "download csv",
+            "export button",
+            "report download",
+            "export menu"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "idle",
+            "loading",
+            "complete",
+            "error"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "commerce",
+      "name": "Commerce",
+      "components": [
+        {
+          "slug": "product-card",
+          "name": "Product Card",
+          "aliases": [
+            "product tile",
+            "item card",
+            "listing card",
+            "shop card",
+            "catalog card"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "active",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "product-gallery",
+          "name": "Product Gallery",
+          "aliases": [
+            "product images",
+            "media viewer with thumbnails",
+            "product image carousel",
+            "zoom gallery"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "selected",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "price",
+          "name": "Price",
+          "aliases": [
+            "price display",
+            "compare-at price",
+            "sale price",
+            "price range",
+            "per-unit price",
+            "strikethrough price"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "variant-selector",
+          "name": "Variant Selector",
+          "aliases": [
+            "size selector",
+            "color swatch selector",
+            "option picker",
+            "sku selector",
+            "product options"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "selected",
+            "disabled",
+            "error"
+          ]
+        },
+        {
+          "slug": "add-to-cart-button",
+          "name": "Add to Cart Button",
+          "aliases": [
+            "buy button",
+            "add to bag",
+            "purchase button",
+            "buy now",
+            "atc"
+          ],
+          "aria_pattern": "Button",
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "active",
+            "disabled",
+            "loading"
+          ]
+        },
+        {
+          "slug": "cart",
+          "name": "Cart",
+          "aliases": [
+            "shopping cart",
+            "basket",
+            "mini cart",
+            "cart drawer",
+            "cart summary",
+            "bag"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "empty",
+            "filled",
+            "updating"
+          ]
+        },
+        {
+          "slug": "line-item",
+          "name": "Line Item",
+          "aliases": [
+            "cart row",
+            "order line",
+            "basket item",
+            "cart line",
+            "order item"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "updating",
+            "removed"
+          ]
+        },
+        {
+          "slug": "checkout",
+          "name": "Checkout",
+          "aliases": [
+            "checkout form",
+            "checkout steps",
+            "one-page checkout",
+            "payment flow",
+            "express checkout flow"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "idle",
+            "processing",
+            "error",
+            "complete"
+          ]
+        },
+        {
+          "slug": "order-summary",
+          "name": "Order Summary",
+          "aliases": [
+            "totals",
+            "subtotal",
+            "order recap",
+            "cost breakdown",
+            "basket summary"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "payment-form",
+          "name": "Payment Form",
+          "aliases": [
+            "card input",
+            "credit card field",
+            "card number field",
+            "expiry field",
+            "cvc field",
+            "payment element",
+            "card form"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "filled",
+            "placeholder",
+            "disabled",
+            "readonly",
+            "error",
+            "success"
+          ]
+        },
+        {
+          "slug": "payment-method-selector",
+          "name": "Payment Method Selector",
+          "aliases": [
+            "wallet buttons",
+            "apple pay button",
+            "google pay button",
+            "express checkout",
+            "shop pay",
+            "paypal button",
+            "payment options"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "selected",
+            "disabled",
+            "error"
+          ]
+        },
+        {
+          "slug": "address-form",
+          "name": "Address Form",
+          "aliases": [
+            "shipping address",
+            "billing address",
+            "address autocomplete",
+            "address fields"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "filled",
+            "placeholder",
+            "disabled",
+            "readonly",
+            "error",
+            "success"
+          ]
+        },
+        {
+          "slug": "shipping-selector",
+          "name": "Shipping Selector",
+          "aliases": [
+            "delivery options",
+            "rate picker",
+            "shipping method",
+            "delivery speed",
+            "pickup option"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "selected",
+            "disabled",
+            "error"
+          ]
+        },
+        {
+          "slug": "promo-code-field",
+          "name": "Promo Code Field",
+          "aliases": [
+            "discount code",
+            "coupon input",
+            "voucher field",
+            "gift code",
+            "apply code"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "applied",
+            "invalid",
+            "loading"
+          ]
+        },
+        {
+          "slug": "pricing-table",
+          "name": "Pricing Table",
+          "aliases": [
+            "pricing plans",
+            "plan comparison",
+            "tier cards",
+            "pricing grid",
+            "price cards"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "billing-period-toggle",
+          "name": "Billing Period Toggle",
+          "aliases": [
+            "monthly annual switch",
+            "billing cycle toggle",
+            "save with yearly"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "monthly",
+            "annual"
+          ]
+        },
+        {
+          "slug": "plan-selector",
+          "name": "Plan Selector",
+          "aliases": [
+            "subscription picker",
+            "upgrade card",
+            "tier selector",
+            "seat selector"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "selected",
+            "disabled",
+            "error"
+          ]
+        },
+        {
+          "slug": "invoice",
+          "name": "Invoice",
+          "aliases": [
+            "receipt",
+            "order confirmation",
+            "billing statement",
+            "payment receipt"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "order-tracking",
+          "name": "Order Tracking",
+          "aliases": [
+            "shipment tracker",
+            "delivery status",
+            "fulfillment timeline",
+            "tracking steps"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "placed",
+            "shipped",
+            "out-for-delivery",
+            "delivered",
+            "cancelled"
+          ]
+        },
+        {
+          "slug": "wishlist",
+          "name": "Wishlist",
+          "aliases": [
+            "save for later",
+            "favorites",
+            "saved items",
+            "heart button",
+            "watchlist"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "saved",
+            "loading"
+          ]
+        },
+        {
+          "slug": "review",
+          "name": "Review",
+          "aliases": [
+            "ratings breakdown",
+            "review list",
+            "review summary",
+            "customer reviews",
+            "testimonial list"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "stock-indicator",
+          "name": "Stock Indicator",
+          "aliases": [
+            "in stock",
+            "low stock",
+            "out of stock badge",
+            "inventory status",
+            "back in stock",
+            "availability"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "in-stock",
+            "low-stock",
+            "out-of-stock",
+            "preorder"
+          ]
+        },
+        {
+          "slug": "recommendations",
+          "name": "Recommendations",
+          "aliases": [
+            "upsell",
+            "cross-sell",
+            "related products",
+            "frequently bought together",
+            "you may also like",
+            "product carousel"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "comparison-table",
+          "name": "Comparison Table",
+          "aliases": [
+            "feature matrix",
+            "spec comparison",
+            "plan comparison table",
+            "versus table"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "product-listing",
+          "name": "Product Listing",
+          "aliases": [
+            "search results grid",
+            "product listing page",
+            "plp",
+            "catalog grid",
+            "shop grid"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "idle",
+            "loading",
+            "complete",
+            "error"
+          ]
+        },
+        {
+          "slug": "currency-selector",
+          "name": "Currency Selector",
+          "aliases": [
+            "market selector",
+            "currency switcher",
+            "store locale picker"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "closed",
+            "open",
+            "hover",
+            "focus",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "store-locator",
+          "name": "Store Locator",
+          "aliases": [
+            "find a store",
+            "pickup selector",
+            "branch finder",
+            "location finder"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "idle",
+            "loading",
+            "complete",
+            "error"
+          ]
+        },
+        {
+          "slug": "sale-countdown",
+          "name": "Sale Countdown",
+          "aliases": [
+            "deal timer",
+            "flash sale banner",
+            "limited offer timer",
+            "drop timer"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "running",
+            "expired"
+          ]
+        },
+        {
+          "slug": "free-shipping-bar",
+          "name": "Free Shipping Bar",
+          "aliases": [
+            "threshold progress bar",
+            "spend more bar",
+            "shipping goal meter"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "incomplete",
+            "complete"
+          ]
+        },
+        {
+          "slug": "gift-options",
+          "name": "Gift Options",
+          "aliases": [
+            "gift card",
+            "gift message",
+            "gift wrap",
+            "send as gift"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "returns-form",
+          "name": "Returns Form",
+          "aliases": [
+            "rma",
+            "exchange request",
+            "return request",
+            "refund form"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "loyalty-widget",
+          "name": "Loyalty Widget",
+          "aliases": [
+            "rewards",
+            "points balance",
+            "tier progress",
+            "referral card",
+            "membership status"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "usage-meter",
+          "name": "Usage Meter",
+          "aliases": [
+            "billing usage",
+            "quota bar",
+            "credit balance",
+            "seats used",
+            "consumption meter"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "normal",
+            "near-limit",
+            "over-limit"
+          ]
+        },
+        {
+          "slug": "trust-badges",
+          "name": "Trust Badges",
+          "aliases": [
+            "security seals",
+            "guarantee badge",
+            "payment icons",
+            "secure checkout badges",
+            "certification badges"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "subscription-manager",
+          "name": "Subscription Manager",
+          "aliases": [
+            "manage plan",
+            "billing settings",
+            "cancel subscription",
+            "renewal card"
+          ],
+          "aria_pattern": null
+        }
+      ]
+    },
+    {
+      "slug": "auth",
+      "name": "Auth",
+      "components": [
+        {
+          "slug": "login-form",
+          "name": "Login Form",
+          "aliases": [
+            "sign in form",
+            "credential form",
+            "log in",
+            "signin",
+            "auth form"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "idle",
+            "submitting",
+            "error",
+            "success"
+          ]
+        },
+        {
+          "slug": "signup-form",
+          "name": "Sign Up Form",
+          "aliases": [
+            "register form",
+            "create account",
+            "registration",
+            "join form",
+            "onboarding form"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "idle",
+            "submitting",
+            "error",
+            "success"
+          ]
+        },
+        {
+          "slug": "password-strength-meter",
+          "name": "Password Strength Meter",
+          "aliases": [
+            "strength indicator",
+            "password rules checklist",
+            "password requirements",
+            "strength bar"
+          ],
+          "aria_pattern": "Meter",
+          "states": [
+            "weak",
+            "fair",
+            "strong",
+            "very-strong"
+          ]
+        },
+        {
+          "slug": "forgot-password-form",
+          "name": "Forgot Password Form",
+          "aliases": [
+            "reset password",
+            "recovery form",
+            "password reset",
+            "account recovery"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "idle",
+            "submitting",
+            "sent",
+            "error"
+          ]
+        },
+        {
+          "slug": "magic-link",
+          "name": "Magic Link",
+          "aliases": [
+            "passwordless login",
+            "email link sign-in",
+            "one-click sign in",
+            "check your email screen"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "idle",
+            "sent",
+            "expired"
+          ]
+        },
+        {
+          "slug": "two-factor-setup",
+          "name": "Two-Factor Setup",
+          "aliases": [
+            "authenticator qr",
+            "totp setup",
+            "backup codes",
+            "recovery codes",
+            "mfa setup",
+            "2fa enrollment"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "social-login-buttons",
+          "name": "Social Login Buttons",
+          "aliases": [
+            "oauth buttons",
+            "sign in with google",
+            "sign in with apple",
+            "sign in with github",
+            "provider buttons",
+            "social auth"
+          ],
+          "aria_pattern": "Button",
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "active",
+            "disabled",
+            "loading"
+          ]
+        },
+        {
+          "slug": "sso-login",
+          "name": "SSO Login",
+          "aliases": [
+            "saml login",
+            "enterprise login",
+            "workspace domain entry",
+            "sign in with sso",
+            "okta login"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "passkey-prompt",
+          "name": "Passkey Prompt",
+          "aliases": [
+            "webauthn",
+            "biometric prompt",
+            "face id sheet",
+            "touch id sheet",
+            "fingerprint prompt"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "idle",
+            "waiting",
+            "success",
+            "error"
+          ]
+        },
+        {
+          "slug": "captcha",
+          "name": "Captcha",
+          "aliases": [
+            "bot check",
+            "recaptcha",
+            "turnstile",
+            "hcaptcha",
+            "human verification",
+            "challenge"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "idle",
+            "verifying",
+            "verified",
+            "failed"
+          ]
+        },
+        {
+          "slug": "consent-checkbox",
+          "name": "Consent Checkbox",
+          "aliases": [
+            "terms acceptance",
+            "privacy consent",
+            "agree to terms",
+            "legal checkbox"
+          ],
+          "aria_pattern": "Checkbox",
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "checked",
+            "unchecked",
+            "indeterminate",
+            "disabled",
+            "error"
+          ]
+        },
+        {
+          "slug": "cookie-consent",
+          "name": "Cookie Consent",
+          "aliases": [
+            "cookie banner",
+            "gdpr notice",
+            "privacy preferences modal",
+            "cookie preferences",
+            "consent manager"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "visible",
+            "accepted",
+            "dismissed"
+          ]
+        },
+        {
+          "slug": "permission-prompt",
+          "name": "Permission Prompt",
+          "aliases": [
+            "system permission dialog",
+            "notification permission",
+            "camera access",
+            "microphone access",
+            "location prompt"
+          ],
+          "aria_pattern": "Dialog (Modal)",
+          "states": [
+            "closed",
+            "opening",
+            "open",
+            "closing"
+          ]
+        },
+        {
+          "slug": "session-timeout-warning",
+          "name": "Session Timeout Warning",
+          "aliases": [
+            "idle timeout modal",
+            "re-authenticate prompt",
+            "session expiring",
+            "stay signed in"
+          ],
+          "aria_pattern": "Alert and Message Dialogs",
+          "states": [
+            "closed",
+            "opening",
+            "open",
+            "closing"
+          ]
+        },
+        {
+          "slug": "account-menu",
+          "name": "Account Menu",
+          "aliases": [
+            "user menu",
+            "profile dropdown",
+            "avatar menu",
+            "account dropdown",
+            "user popover"
+          ],
+          "aria_pattern": "Menu Button",
+          "states": [
+            "closed",
+            "open",
+            "hover",
+            "focus",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "role-selector",
+          "name": "Role Selector",
+          "aliases": [
+            "permission picker",
+            "access level",
+            "role dropdown",
+            "member role"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "selected",
+            "disabled",
+            "error"
+          ]
+        },
+        {
+          "slug": "api-key-display",
+          "name": "API Key Display",
+          "aliases": [
+            "secret reveal",
+            "token copy",
+            "credential card",
+            "access token field",
+            "reveal secret"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "masked",
+            "revealed",
+            "copied"
+          ]
+        },
+        {
+          "slug": "team-invite",
+          "name": "Team Invite",
+          "aliases": [
+            "member management",
+            "invite form",
+            "seat list",
+            "add teammate",
+            "invite modal"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "email-verification-banner",
+          "name": "Email Verification Banner",
+          "aliases": [
+            "confirm your email",
+            "verify email prompt",
+            "unverified account notice"
+          ],
+          "aria_pattern": "Alert",
+          "states": [
+            "visible",
+            "dismissed"
+          ]
+        },
+        {
+          "slug": "impersonation-banner",
+          "name": "Impersonation Banner",
+          "aliases": [
+            "viewing as",
+            "admin override bar",
+            "support mode banner",
+            "sudo banner"
+          ],
+          "aria_pattern": "Alert"
+        },
+        {
+          "slug": "access-denied-state",
+          "name": "Access Denied State",
+          "aliases": [
+            "403",
+            "unauthorized",
+            "upgrade required",
+            "paywall",
+            "restricted content",
+            "no permission"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "logout-button",
+          "name": "Logout Button",
+          "aliases": [
+            "sign out",
+            "log out",
+            "end session"
+          ],
+          "aria_pattern": "Button",
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "active",
+            "disabled",
+            "loading"
+          ]
+        },
+        {
+          "slug": "profile-form",
+          "name": "Profile Form",
+          "aliases": [
+            "account settings",
+            "preferences panel",
+            "user settings",
+            "edit profile"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "onboarding-flow",
+          "name": "Onboarding Flow",
+          "aliases": [
+            "setup wizard",
+            "welcome flow",
+            "getting started checklist",
+            "account setup",
+            "first-run experience"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "step",
+            "complete",
+            "skipped"
+          ]
+        },
+        {
+          "slug": "verification-status",
+          "name": "Verification Status",
+          "aliases": [
+            "verified badge",
+            "kyc status",
+            "identity check",
+            "trust status"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "unverified",
+            "pending",
+            "verified",
+            "rejected"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "ai-chat",
+      "name": "AI & Chat",
+      "components": [
+        {
+          "slug": "conversation",
+          "name": "Conversation",
+          "aliases": [
+            "chat",
+            "thread",
+            "transcript",
+            "message list",
+            "chat window",
+            "chat log"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "idle",
+            "loading",
+            "complete",
+            "error"
+          ]
+        },
+        {
+          "slug": "message",
+          "name": "Message",
+          "aliases": [
+            "chat message",
+            "turn",
+            "bubble",
+            "message bubble",
+            "chat item",
+            "chat row"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "sending",
+            "sent",
+            "streaming",
+            "error"
+          ]
+        },
+        {
+          "slug": "message-scroller",
+          "name": "Message Scroller",
+          "aliases": [
+            "chat scroll container",
+            "anchored scroll",
+            "auto-scroll region",
+            "stick to bottom",
+            "scroll to latest"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "at-bottom",
+            "scrolled-up"
+          ]
+        },
+        {
+          "slug": "prompt-input",
+          "name": "Prompt Input",
+          "aliases": [
+            "composer",
+            "chat input",
+            "message box",
+            "input bar",
+            "chat textarea",
+            "prompt box",
+            "ask bar"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "idle",
+            "typing",
+            "submitting",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "send-stop-button",
+          "name": "Send / Stop Button",
+          "aliases": [
+            "submit prompt",
+            "interrupt",
+            "cancel generation",
+            "stop button",
+            "send button"
+          ],
+          "aria_pattern": "Button",
+          "states": [
+            "idle",
+            "ready",
+            "generating",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "suggestion",
+          "name": "Suggestion",
+          "aliases": [
+            "prompt suggestion",
+            "suggested reply",
+            "quick reply",
+            "starter prompt",
+            "prompt chips",
+            "conversation starters"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "active",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "streaming-text",
+          "name": "Streaming Text",
+          "aliases": [
+            "token stream",
+            "typewriter response",
+            "live response",
+            "incremental text",
+            "stream renderer"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "idle",
+            "streaming",
+            "complete",
+            "interrupted"
+          ]
+        },
+        {
+          "slug": "typing-indicator",
+          "name": "Typing Indicator",
+          "aliases": [
+            "thinking dots",
+            "is-typing",
+            "bouncing dots",
+            "assistant typing"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "hidden",
+            "visible"
+          ]
+        },
+        {
+          "slug": "reasoning",
+          "name": "Reasoning",
+          "aliases": [
+            "chain of thought",
+            "thinking block",
+            "thought process",
+            "scratchpad",
+            "extended thinking",
+            "reasoning trace"
+          ],
+          "aria_pattern": "Disclosure",
+          "states": [
+            "collapsed",
+            "expanded",
+            "streaming"
+          ]
+        },
+        {
+          "slug": "plan",
+          "name": "Plan",
+          "aliases": [
+            "todo list",
+            "task plan",
+            "steps list",
+            "agent plan",
+            "checklist of steps"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "pending",
+            "in-progress",
+            "complete"
+          ]
+        },
+        {
+          "slug": "task",
+          "name": "Task",
+          "aliases": [
+            "step",
+            "tool step",
+            "progress step",
+            "action item",
+            "agent task"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "pending",
+            "running",
+            "complete",
+            "failed"
+          ]
+        },
+        {
+          "slug": "tool-call",
+          "name": "Tool Call",
+          "aliases": [
+            "tool",
+            "function call",
+            "tool result",
+            "tool invocation",
+            "tool use block",
+            "action log"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "pending",
+            "running",
+            "success",
+            "error"
+          ]
+        },
+        {
+          "slug": "approval-request",
+          "name": "Approval Request",
+          "aliases": [
+            "tool approval",
+            "permission request",
+            "allow deny prompt",
+            "confirmation",
+            "human in the loop"
+          ],
+          "aria_pattern": "Alert and Message Dialogs",
+          "states": [
+            "pending",
+            "approved",
+            "denied"
+          ]
+        },
+        {
+          "slug": "checkpoint",
+          "name": "Checkpoint",
+          "aliases": [
+            "rewind",
+            "restore point",
+            "branch point",
+            "conversation snapshot",
+            "undo point"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "sources",
+          "name": "Sources",
+          "aliases": [
+            "citations",
+            "references",
+            "retrieved documents",
+            "grounding",
+            "source list",
+            "search results panel"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "inline-citation",
+          "name": "Inline Citation",
+          "aliases": [
+            "footnote chip",
+            "source marker",
+            "citation badge",
+            "reference superscript"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "active",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "artifact",
+          "name": "Artifact",
+          "aliases": [
+            "canvas document",
+            "side panel preview",
+            "generated document",
+            "immersive view",
+            "output panel"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "idle",
+            "loading",
+            "complete",
+            "error"
+          ]
+        },
+        {
+          "slug": "agent-canvas",
+          "name": "Agent Canvas",
+          "aliases": [
+            "node graph",
+            "agent flow",
+            "workflow canvas",
+            "agent graph"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "idle",
+            "dragging",
+            "drag-over",
+            "dropped",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "web-preview",
+          "name": "Web Preview",
+          "aliases": [
+            "live preview",
+            "jsx preview",
+            "sandbox",
+            "iframe preview",
+            "render preview",
+            "app preview"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "idle",
+            "loading",
+            "complete",
+            "error"
+          ]
+        },
+        {
+          "slug": "attachments",
+          "name": "Attachments",
+          "aliases": [
+            "file chips",
+            "uploaded files",
+            "drag-drop attach",
+            "context files",
+            "prompt attachments"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "empty",
+            "uploading",
+            "attached",
+            "error"
+          ]
+        },
+        {
+          "slug": "generated-image",
+          "name": "Generated Image",
+          "aliases": [
+            "image result",
+            "image grid",
+            "ai image output",
+            "variations grid"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "generating",
+            "complete",
+            "failed"
+          ]
+        },
+        {
+          "slug": "speech-input",
+          "name": "Speech Input",
+          "aliases": [
+            "voice input",
+            "push-to-talk",
+            "mic button",
+            "dictation",
+            "mic selector",
+            "voice mode",
+            "record button"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "idle",
+            "listening",
+            "processing",
+            "error"
+          ]
+        },
+        {
+          "slug": "voice-output",
+          "name": "Voice Output",
+          "aliases": [
+            "read aloud",
+            "tts player",
+            "voice selector",
+            "speech playback"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "idle",
+            "loading",
+            "playing",
+            "paused",
+            "buffering",
+            "error"
+          ]
+        },
+        {
+          "slug": "model-selector",
+          "name": "Model Selector",
+          "aliases": [
+            "model picker",
+            "model switcher",
+            "engine selector",
+            "mode selector"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "closed",
+            "open",
+            "hover",
+            "focus",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "context-meter",
+          "name": "Context Meter",
+          "aliases": [
+            "context window meter",
+            "token usage",
+            "usage bar",
+            "credit usage",
+            "context length indicator"
+          ],
+          "aria_pattern": "Meter",
+          "states": [
+            "normal",
+            "near-limit",
+            "full"
+          ]
+        },
+        {
+          "slug": "message-actions",
+          "name": "Message Actions",
+          "aliases": [
+            "controls",
+            "regenerate",
+            "retry",
+            "copy message",
+            "edit message",
+            "branch",
+            "thumbs up",
+            "thumbs down",
+            "feedback buttons",
+            "message toolbar"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "active",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "agent-card",
+          "name": "Agent Card",
+          "aliases": [
+            "agent",
+            "agent status",
+            "subagent panel",
+            "assistant card",
+            "bot card"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "idle",
+            "running",
+            "waiting",
+            "done",
+            "error"
+          ]
+        },
+        {
+          "slug": "persona",
+          "name": "Persona",
+          "aliases": [
+            "assistant identity",
+            "bot avatar",
+            "system persona",
+            "character card",
+            "gpt profile"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "prompt-queue",
+          "name": "Prompt Queue",
+          "aliases": [
+            "queue",
+            "pending turns",
+            "message queue",
+            "queued prompts"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "empty",
+            "queued",
+            "processing"
+          ]
+        },
+        {
+          "slug": "chat-history",
+          "name": "Chat History",
+          "aliases": [
+            "conversation list",
+            "thread sidebar",
+            "recents",
+            "chat sidebar",
+            "session list"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "default",
+            "hover",
+            "focus",
+            "selected",
+            "disabled"
+          ]
+        },
+        {
+          "slug": "chat-empty-state",
+          "name": "Chat Empty State",
+          "aliases": [
+            "greeting",
+            "welcome screen",
+            "suggestion grid",
+            "new chat screen"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "guardrail-notice",
+          "name": "Guardrail Notice",
+          "aliases": [
+            "disclaimer",
+            "safety notice",
+            "content warning",
+            "ai can make mistakes",
+            "policy message",
+            "refusal message"
+          ],
+          "aria_pattern": null
+        },
+        {
+          "slug": "diff-proposal",
+          "name": "Diff Proposal",
+          "aliases": [
+            "code suggestion",
+            "apply patch card",
+            "commit card",
+            "edit preview",
+            "accept reject diff"
+          ],
+          "aria_pattern": null,
+          "states": [
+            "proposed",
+            "accepted",
+            "rejected",
+            "applied"
+          ]
+        },
+        {
+          "slug": "stack-trace-panel",
+          "name": "Stack Trace Panel",
+          "aliases": [
+            "error trace",
+            "test results",
+            "package info",
+            "environment variables",
+            "debug panel"
+          ],
+          "aria_pattern": null
+        }
+      ]
+    }
+  ]
+}

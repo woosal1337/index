@@ -1,0 +1,1432 @@
+[
+ {
+  "id": "dea11d28-a383-4dc7-b410-d4fe36a68c39",
+  "slug": "kibo-ui-github",
+  "url": "https://github.com/shadcnblocks/kibo",
+  "name": "Kibo UI",
+  "tagline": "shadcn registry of 41 complex components: Gantt, Kanban, editor, sandbox, cropper",
+  "description": "Kibo UI is a free shadcn/ui-compatible registry that ships the components shadcn/ui deliberately leaves out - Gantt charts, Kanban boards, a TanStack-backed table, a Sandpack code sandbox, a Tiptap editor, image crop and zoom, a QR code, a contribution graph and more. It wraps headless libraries (Radix, TanStack, dnd-kit, Tiptap) into composable parts that use your existing shadcn CSS variables, so nothing looks bolted on. Installed with its own CLI or the shadcn CLI, and it exposes an MCP server so an AI editor can read its docs directly. Maintained by the shadcnblocks team; the docs site also lists 28 blocks and 110 patterns.",
+  "category": "component-libraries",
+  "subcategory": "shadcn-registries",
+  "kinds": [
+   "registry",
+   "component-library",
+   "block-collection"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "tailwind-v4",
+    "tailwind-any",
+    "css-variables"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "cli",
+    "npm-package",
+    "github-repo",
+    "copy-paste"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "built-on-accessible-primitives",
+    "keyboard-navigable",
+    "claimed-accessible"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "mcp-server",
+    "cli-installable",
+    "structured-docs",
+    "open-source-code",
+    "registry-json"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "gantt-chart",
+   "kanban-board",
+   "data-grid",
+   "table",
+   "list",
+   "calendar-view",
+   "calendar",
+   "code-block",
+   "code-editor",
+   "copy-button",
+   "heatmap",
+   "combobox",
+   "radio-group",
+   "file-upload",
+   "tag-input",
+   "color-picker",
+   "rich-text-editor",
+   "image-cropper",
+   "lightbox",
+   "payment-form",
+   "ticker",
+   "carousel",
+   "video-player",
+   "announcement-bar",
+   "banner",
+   "typography",
+   "avatar-group",
+   "custom-cursor",
+   "dialog",
+   "modal",
+   "hover-card",
+   "marquee",
+   "badge",
+   "qr-code",
+   "rating",
+   "spinner",
+   "status-indicator",
+   "theme-provider",
+   "tree",
+   "tree-view"
+  ],
+  "component_count": 41,
+  "surfaces": [
+   "kanban-board",
+   "timeline-gantt-view",
+   "analytics",
+   "filtering-items",
+   "single-item-detail",
+   "uploading-media",
+   "making-a-card-payment",
+   "feature-announcement",
+   "settings-web-app",
+   "data-export"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "npx kibo-ui add gantt",
+  "package": "kibo-ui",
+  "docs_url": "https://www.kibo-ui.com/docs",
+  "repo_url": "https://github.com/shadcnblocks/kibo",
+  "registry_url": null,
+  "github": {
+   "stars": 3900,
+   "license": "MIT",
+   "last_activity": "2026-05-04"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": 28
+  },
+  "agent_guidance": "Reach for Kibo before hand-rolling any of the heavy widgets shadcn/ui does not ship - Gantt, Kanban, sortable data table, code sandbox, rich-text editor, image cropper. It composes with shadcn/ui because it reuses the same CSS variables and Radix primitives, so install shadcn first (CSS Variables mode is required) and layer Kibo on top; do not treat it as a replacement. Watch the client-bundle cost: several components pull large deps (TanStack Table, Sandpack, Tiptap, dnd-kit), so import them per route, not into a shared layout. Its MCP endpoint is npx -y mcp-remote https://www.kibo-ui.com/api/mcp/mcp if you want the docs in-editor.",
+  "why_it_matters": "It is the highest-signal answer to the most common shadcn/ui gap - the complex, stateful components teams otherwise rebuild badly. MIT, no paywall, and built by the shadcnblocks team, so it stays close to upstream conventions.",
+  "quality_tier": "S",
+  "notable_for": [
+   "Gantt and Kanban on shadcn primitives",
+   "MCP server for AI editors",
+   "own CLI: npx kibo-ui add",
+   "Sandpack code sandbox component",
+   "MIT and free forever"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://github.com/shadcnblocks/kibo, https://www.kibo-ui.com/components, https://www.kibo-ui.com/docs, https://www.kibo-ui.com/docs/setup, https://www.kibo-ui.com/docs/mcp, GitHub API repos/shadcnblocks/kibo"
+ },
+ {
+  "id": "9814ebe1-a74f-4b8e-972a-edd8246119e0",
+  "slug": "mvpblocks",
+  "url": "https://blocks.mvp-subha.me",
+  "name": "MVPBlocks",
+  "tagline": "100+ copy-paste Next.js + Tailwind marketing and dashboard blocks, plus 7 templates",
+  "description": "MVPBlocks is a free block library of pre-composed landing-page and app sections - heroes, pricing tables, FAQs, testimonials, auth forms, dashboards, bento grids and a large set of text-animation effects - built on Next.js, Tailwind CSS, shadcn/ui and Framer Motion. Blocks are copy-paste or installable with its own CLI, and each has a multi-viewport preview plus a v0 handoff. On top of the free blocks it sells seven full page templates. It is aimed at solo builders shipping an MVP landing page or dashboard in a day.",
+  "category": "blocks-templates-themes",
+  "subcategory": "page-blocks",
+  "kinds": [
+   "block-collection",
+   "registry",
+   "template"
+  ],
+  "facets": {
+   "framework": [
+    "next",
+    "react"
+   ],
+   "styling": [
+    "tailwind-any",
+    "css-variables"
+   ],
+   "license": [
+    "bsd"
+   ],
+   "pricing": [
+    "free",
+    "open-source",
+    "one-time"
+   ],
+   "distribution": [
+    "cli",
+    "copy-paste",
+    "shadcn-registry",
+    "npm-package",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "cli-installable",
+    "copy-paste-ready",
+    "structured-docs",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "hero",
+   "pricing-table",
+   "footer",
+   "header",
+   "navbar",
+   "accordion",
+   "card",
+   "card-grid",
+   "product-card",
+   "bento-grid",
+   "masonry",
+   "image-gallery",
+   "form",
+   "login-form",
+   "signup-form",
+   "progress-stepper",
+   "button",
+   "spinner",
+   "modal",
+   "pagination",
+   "progress-bar",
+   "skeleton",
+   "logo",
+   "quote",
+   "section",
+   "sidebar",
+   "dashboard",
+   "stat",
+   "kpi-row",
+   "chart",
+   "conversation",
+   "message",
+   "prompt-input",
+   "dock",
+   "tooltip",
+   "count-up",
+   "hover-effect",
+   "scroll-reveal",
+   "custom-cursor",
+   "text-effect",
+   "typewriter-text",
+   "gradient-background"
+  ],
+  "component_count": 100,
+  "surfaces": [
+   "homepage",
+   "features",
+   "pricing-website",
+   "testimonials",
+   "about",
+   "contact-us",
+   "faq",
+   "waitlist",
+   "sign-up",
+   "login-web-app",
+   "multi-step-form",
+   "chat-web-app",
+   "analytics",
+   "admin-panel",
+   "account-web-app"
+  ],
+  "templates": [
+   {
+    "name": "AuraClaw",
+    "url": "https://blocks.mvp-subha.me/docs/auraclaw-ai-chatbot",
+    "purpose": "Full AI chatbot product front-end (chat UI plus marketing shell) - $149, was $298"
+   },
+   {
+    "name": "AI SaaS Marketing",
+    "url": "https://blocks.mvp-subha.me/docs/ai-saas-marketing",
+    "purpose": "Marketing site for an AI SaaS: hero, features, pricing, testimonials - $29, was $58"
+   },
+   {
+    "name": "Fiona Designer Portfolio",
+    "url": "https://blocks.mvp-subha.me/docs/designer-portfolio",
+    "purpose": "Portfolio site for a visual designer, case-study led - $19, was $38"
+   },
+   {
+    "name": "Agno AI Studio",
+    "url": "https://blocks.mvp-subha.me/docs/agno-ai-studio",
+    "purpose": "AI studio / agency site with workspace-style sections - $9, was $18"
+   },
+   {
+    "name": "PayMintX",
+    "url": "https://blocks.mvp-subha.me/docs/paymintx",
+    "purpose": "Fintech / payments product site and dashboard shell - $9, was $18"
+   },
+   {
+    "name": "Opus DevOps",
+    "url": "https://blocks.mvp-subha.me/docs/opus-devops",
+    "purpose": "DevOps / infrastructure tooling marketing site - $9, was $18"
+   },
+   {
+    "name": "Porta Developer Portfolio",
+    "url": "https://blocks.mvp-subha.me/docs/developer-portfolio",
+    "purpose": "Developer portfolio with projects, stack and contact - free"
+   }
+  ],
+  "template_count": 7,
+  "install": "npx mvpblocks add <block-name>",
+  "package": "mvpblocks",
+  "docs_url": "https://blocks.mvp-subha.me/docs/introduction",
+  "repo_url": "https://github.com/subhadeeproy3902/mvpblocks",
+  "registry_url": null,
+  "github": {
+   "stars": 833,
+   "license": "BSD-3-Clause",
+   "last_activity": "2026-07-27"
+  },
+  "pricing_detail": "Blocks free. Templates: AuraClaw $149 (from $298), AI SaaS Marketing $29 (from $58), Fiona Designer Portfolio $19 (from $38), Agno AI Studio / PayMintX / Opus DevOps $9 each (from $18), Porta Developer Portfolio free.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": 100
+  },
+  "agent_guidance": "Use MVPBlocks when you need a whole marketing section fast - hero, pricing, FAQ, testimonials - not when you need a primitive; for primitives stay on shadcn/ui, which MVPBlocks already assumes is installed. It pulls Framer Motion into almost every block, so if the target project is a static or RSC-heavy site, strip the motion wrapper rather than shipping a client component for a hero. Quality is uneven across categories (the text-animation and creative blocks are the strongest, the dashboards the thinnest), so read the block source before you paste it; the docs route is /docs/introduction and bare /docs 404s.",
+  "why_it_matters": "One of the few free block libraries that covers a complete landing page end to end and installs by CLI, which makes it a practical first pass for an agent scaffolding a marketing site.",
+  "quality_tier": "B",
+  "notable_for": [
+   "100+ free page blocks",
+   "npx mvpblocks add CLI",
+   "16 text-animation effects",
+   "v0 handoff per block",
+   "7 paid page templates"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://blocks.mvp-subha.me, https://blocks.mvp-subha.me/docs/introduction, https://blocks.mvp-subha.me/templates, https://github.com/subhadeeproy3902/mvpblocks, GitHub API repos/subhadeeproy3902/mvpblocks (/docs and /registry.json both 404)"
+ },
+ {
+  "id": "e5279f5f-94cf-44ab-a6f9-341ab41ca1e7",
+  "slug": "mvpblocks-repo",
+  "url": "https://github.com/subhadeeproy3902/mvpblocks",
+  "name": "MVPBlocks (source repo)",
+  "tagline": "BSD-3 source for the MVPBlocks block library and its Next.js docs site",
+  "description": "This is the GitHub source for MVPBlocks, the copy-paste block library documented at blocks.mvp-subha.me. The repo holds every block component, the Next.js docs/preview site and the CLI that powers npx mvpblocks add. It is BSD-3-Clause, community-contributed with per-block author attribution, and is the place to read a block's real implementation before pasting it. Use the repo when you want to vendor blocks directly or check what a block actually imports.",
+  "category": "blocks-templates-themes",
+  "subcategory": "page-blocks",
+  "kinds": [
+   "block-collection",
+   "registry",
+   "component-library"
+  ],
+  "facets": {
+   "framework": [
+    "next",
+    "react"
+   ],
+   "styling": [
+    "tailwind-any",
+    "css-variables"
+   ],
+   "license": [
+    "bsd"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "github-repo",
+    "cli",
+    "copy-paste",
+    "npm-package"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "cli-installable",
+    "copy-paste-ready"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "hero",
+   "pricing-table",
+   "footer",
+   "header",
+   "navbar",
+   "accordion",
+   "card",
+   "card-grid",
+   "product-card",
+   "bento-grid",
+   "masonry",
+   "image-gallery",
+   "form",
+   "login-form",
+   "signup-form",
+   "progress-stepper",
+   "button",
+   "spinner",
+   "modal",
+   "pagination",
+   "progress-bar",
+   "skeleton",
+   "logo",
+   "quote",
+   "section",
+   "sidebar",
+   "dashboard",
+   "stat",
+   "kpi-row",
+   "chart",
+   "conversation",
+   "message",
+   "prompt-input",
+   "dock",
+   "tooltip",
+   "count-up",
+   "hover-effect",
+   "scroll-reveal",
+   "custom-cursor",
+   "text-effect",
+   "typewriter-text",
+   "gradient-background"
+  ],
+  "component_count": 100,
+  "surfaces": [
+   "homepage",
+   "features",
+   "pricing-website",
+   "testimonials",
+   "about",
+   "contact-us",
+   "faq",
+   "waitlist",
+   "sign-up",
+   "login-web-app",
+   "multi-step-form",
+   "chat-web-app",
+   "analytics",
+   "admin-panel",
+   "account-web-app"
+  ],
+  "templates": [],
+  "template_count": 7,
+  "install": "npx mvpblocks add <block-name>",
+  "package": "mvpblocks",
+  "docs_url": "https://blocks.mvp-subha.me/docs/introduction",
+  "repo_url": "https://github.com/subhadeeproy3902/mvpblocks",
+  "registry_url": null,
+  "github": {
+   "stars": 833,
+   "license": "BSD-3-Clause",
+   "last_activity": "2026-07-27"
+  },
+  "pricing_detail": "Repo and all blocks free under BSD-3-Clause; the seven page templates are sold separately on the site.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": 100
+  },
+  "agent_guidance": "Go to the repo rather than the site when you need to read a block's actual dependencies or vendor it into a monorepo - the docs site renders previews but hides the import graph. Note the license is BSD-3-Clause, not MIT, so the attribution clause travels with any code you copy into a client project. This is the same product as the blocks.mvp-subha.me entry; index them together and prefer the site URL when you just need the preview.",
+  "why_it_matters": "It is the auditable source behind a widely copied block library, and the license difference from the usual MIT is worth knowing before code lands in a commercial repo.",
+  "quality_tier": "B",
+  "notable_for": [
+   "BSD-3-Clause, not MIT",
+   "889 commits, community-contributed",
+   "ships its own CLI package",
+   "per-block author attribution"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://github.com/subhadeeproy3902/mvpblocks, GitHub API repos/subhadeeproy3902/mvpblocks, https://blocks.mvp-subha.me/docs/introduction"
+ },
+ {
+  "id": "c2a18ff8-cec3-47b8-bc58-becf334ea84e",
+  "slug": "radiant-shaders-gallery",
+  "url": "https://radiant-shaders.com/gallery/all",
+  "name": "Radiant Shader Gallery",
+  "tagline": "Browsable gallery of 87 free WebGL and Canvas 2D background effects",
+  "description": "This is the full browse view for Radiant, Paul Bakaus's MIT-licensed collection of generative shader art. It lists 87 named effects with live previews, filterable by style tag (fill, geometric, noise, object, organic, particles, physics) and by technique (WebGL, 60 / Canvas 2D, 27). Each entry links to a detail page with the effect running full-bleed and its tunable parameters, and a companion /learn section explains how three of them are built. Every effect ships as a single self-contained HTML file with zero dependencies and no build step.",
+  "category": "textures-assets",
+  "subcategory": "shaders-and-effects",
+  "kinds": [
+   "gallery",
+   "shader-pack",
+   "asset-pack"
+  ],
+  "facets": {
+   "framework": [
+    "vanilla",
+    "svelte"
+   ],
+   "styling": [
+    "shader-glsl",
+    "vanilla-css"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "gallery",
+    "download",
+    "github-repo",
+    "copy-paste"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "known-gaps"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "copy-paste-ready",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "gradient-background",
+   "particle-background",
+   "animation"
+  ],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "splash-screen",
+   "features"
+  ],
+  "templates": [
+   {
+    "name": "Analog Drift",
+    "url": "https://radiant-shaders.com/shader/analog-drift",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Artpop Iridescence",
+    "url": "https://radiant-shaders.com/shader/artpop-iridescence",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Aurora Curtain",
+    "url": "https://radiant-shaders.com/shader/aurora-curtain",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Aurora Veil",
+    "url": "https://radiant-shaders.com/shader/aurora-veil",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Bass Ripple",
+    "url": "https://radiant-shaders.com/shader/bass-ripple",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Bioluminescence",
+    "url": "https://radiant-shaders.com/shader/bioluminescence",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Burning Film",
+    "url": "https://radiant-shaders.com/shader/burning-film",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Champagne Fizz",
+    "url": "https://radiant-shaders.com/shader/champagne-fizz",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Chladni Resonance",
+    "url": "https://radiant-shaders.com/shader/chladni-resonance",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Chromatic Bloom",
+    "url": "https://radiant-shaders.com/shader/chromatic-bloom",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Clockwork Mind",
+    "url": "https://radiant-shaders.com/shader/clockwork-mind",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Crystal Lattice",
+    "url": "https://radiant-shaders.com/shader/crystal-lattice",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Diamond Caustics",
+    "url": "https://radiant-shaders.com/shader/diamond-caustics",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Digital Rain",
+    "url": "https://radiant-shaders.com/shader/digital-rain",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Dither Gradient",
+    "url": "https://radiant-shaders.com/shader/dither-gradient",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Eclipse Glow",
+    "url": "https://radiant-shaders.com/shader/eclipse-glow",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Edge of Chaos",
+    "url": "https://radiant-shaders.com/shader/edge-of-chaos",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Event Horizon",
+    "url": "https://radiant-shaders.com/shader/event-horizon",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Feedback Loop",
+    "url": "https://radiant-shaders.com/shader/feedback-loop",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Flow Field with Particle Trails",
+    "url": "https://radiant-shaders.com/shader/flow-field",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Fluid Amber",
+    "url": "https://radiant-shaders.com/shader/fluid-amber",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Generative Branching Tree",
+    "url": "https://radiant-shaders.com/shader/generative-tree",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Gilded Fracture",
+    "url": "https://radiant-shaders.com/shader/gilded-fracture",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Gilt Mosaic",
+    "url": "https://radiant-shaders.com/shader/gilt-mosaic",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Gilt Thread",
+    "url": "https://radiant-shaders.com/shader/gilt-thread",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Glitter Storm",
+    "url": "https://radiant-shaders.com/shader/glitter-storm",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Golden Throne",
+    "url": "https://radiant-shaders.com/shader/golden-throne",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Gothic Filigree",
+    "url": "https://radiant-shaders.com/shader/gothic-filigree",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Hologram Glitch",
+    "url": "https://radiant-shaders.com/shader/hologram-glitch",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Ink Calligraphy",
+    "url": "https://radiant-shaders.com/shader/ink-calligraphy",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Ink Dissolve",
+    "url": "https://radiant-shaders.com/shader/ink-dissolve",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Jazz Chaos",
+    "url": "https://radiant-shaders.com/shader/jazz-chaos",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Kaleidoscope Runway",
+    "url": "https://radiant-shaders.com/shader/kaleidoscope-runway",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Kinetic Grid",
+    "url": "https://radiant-shaders.com/shader/kinetic-grid",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Laser Labyrinth",
+    "url": "https://radiant-shaders.com/shader/laser-labyrinth",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Laser Precision",
+    "url": "https://radiant-shaders.com/shader/laser-precision",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Lens Whisper",
+    "url": "https://radiant-shaders.com/shader/lens-whisper",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Lipstick Smear",
+    "url": "https://radiant-shaders.com/shader/lipstick-smear",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Liquid Gold",
+    "url": "https://radiant-shaders.com/shader/liquid-gold",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Luminous Silt",
+    "url": "https://radiant-shaders.com/shader/luminous-silt",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Magma Core",
+    "url": "https://radiant-shaders.com/shader/magma-core",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Magnetic Field",
+    "url": "https://radiant-shaders.com/shader/magnetic-field",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Magnetic Sand",
+    "url": "https://radiant-shaders.com/shader/magnetic-sand",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Metamorphosis",
+    "url": "https://radiant-shaders.com/shader/metamorphosis",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Moiré Interference",
+    "url": "https://radiant-shaders.com/shader/moire-interference",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Moonlit Ripple",
+    "url": "https://radiant-shaders.com/shader/moonlit-ripple",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Murmuration",
+    "url": "https://radiant-shaders.com/shader/murmuration",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Neon Drip",
+    "url": "https://radiant-shaders.com/shader/neon-drip",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Neon Drive",
+    "url": "https://radiant-shaders.com/shader/neon-drive",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Neon Revival",
+    "url": "https://radiant-shaders.com/shader/neon-revival",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Painted Strata",
+    "url": "https://radiant-shaders.com/shader/painted-strata",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Pendulum Wave",
+    "url": "https://radiant-shaders.com/shader/pendulum-wave",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Phase Transition",
+    "url": "https://radiant-shaders.com/shader/phase-transition",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Phyllotaxis Spiral",
+    "url": "https://radiant-shaders.com/shader/phyllotaxis",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Polaroid Burn",
+    "url": "https://radiant-shaders.com/shader/polaroid-burn",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Radiant Geometry",
+    "url": "https://radiant-shaders.com/shader/radiant-geometry",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Rain on Glass",
+    "url": "https://radiant-shaders.com/shader/rain-on-glass",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Rain on Umbrella",
+    "url": "https://radiant-shaders.com/shader/rain-umbrella",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Resonant Strings",
+    "url": "https://radiant-shaders.com/shader/resonant-strings",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Rubber Reality",
+    "url": "https://radiant-shaders.com/shader/rubber-reality",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Sacred Strange",
+    "url": "https://radiant-shaders.com/shader/sacred-strange",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Scream Wave",
+    "url": "https://radiant-shaders.com/shader/scream-wave",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Sequin Wave",
+    "url": "https://radiant-shaders.com/shader/sequin-wave",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Shattered Plains",
+    "url": "https://radiant-shaders.com/shader/shattered-plains",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Shifting Veils",
+    "url": "https://radiant-shaders.com/shader/shifting-veils",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Signal Decay",
+    "url": "https://radiant-shaders.com/shader/signal-decay",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Silk Cascade",
+    "url": "https://radiant-shaders.com/shader/silk-cascade",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Silk Groove",
+    "url": "https://radiant-shaders.com/shader/silk-groove",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Smolder",
+    "url": "https://radiant-shaders.com/shader/smolder",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Spark Chamber",
+    "url": "https://radiant-shaders.com/shader/spark-chamber",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Stardust Veil",
+    "url": "https://radiant-shaders.com/shader/stardust-veil",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Strange Attractor (Lorenz)",
+    "url": "https://radiant-shaders.com/shader/strange-attractor",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Strobe Geometry",
+    "url": "https://radiant-shaders.com/shader/strobe-geometry",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Sugar Glass",
+    "url": "https://radiant-shaders.com/shader/sugar-glass",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Synth Ribbon",
+    "url": "https://radiant-shaders.com/shader/synth-ribbon",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Tesseract Shadow",
+    "url": "https://radiant-shaders.com/shader/tesseract-shadow",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Thunder Sermon",
+    "url": "https://radiant-shaders.com/shader/thunder-sermon",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Topographic Contour Map",
+    "url": "https://radiant-shaders.com/shader/topographic",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Torn Paper",
+    "url": "https://radiant-shaders.com/shader/torn-paper",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Tropical Heat",
+    "url": "https://radiant-shaders.com/shader/tropical-heat",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Velvet Spotlight",
+    "url": "https://radiant-shaders.com/shader/velvet-spotlight",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Vertigo",
+    "url": "https://radiant-shaders.com/shader/vertigo",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Vintage Static",
+    "url": "https://radiant-shaders.com/shader/vintage-static",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Vinyl Grooves",
+    "url": "https://radiant-shaders.com/shader/vinyl-grooves",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Voltage Arc",
+    "url": "https://radiant-shaders.com/shader/voltage-arc",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Vortex",
+    "url": "https://radiant-shaders.com/shader/vortex",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   },
+   {
+    "name": "Woven Radiance",
+    "url": "https://radiant-shaders.com/shader/woven-radiance",
+    "purpose": "Drop-in self-contained HTML canvas/WebGL background effect; embed via iframe and tune live with postMessage"
+   }
+  ],
+  "template_count": 87,
+  "install": null,
+  "package": null,
+  "docs_url": "https://radiant-shaders.com/learn",
+  "repo_url": "https://github.com/pbakaus/radiant",
+  "registry_url": null,
+  "github": {
+   "stars": 927,
+   "license": "MIT",
+   "last_activity": "2026-05-13"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 87,
+   "blocks": null
+  },
+  "agent_guidance": "Use this page to pick an effect by eye, then take the matching HTML file from the GitHub repo - the site itself has no copy button or package. Embed the file in a fixed, z-index -1 iframe behind your content and drive parameters with postMessage; that isolation is the point, because it keeps the shader off your React render path entirely. Two cautions: these are decorative full-canvas animations with real GPU cost, so gate them behind prefers-reduced-motion and do not stack two on one page, and the gallery lists 87 effects while the repo README badge still says 94.",
+  "why_it_matters": "It is the rare shader collection that is both curated for taste and genuinely drop-in, which makes it the fastest route from a flat hero to a distinctive one without adding a 3D dependency.",
+  "quality_tier": "A",
+  "notable_for": [
+   "87 effects with live previews",
+   "filter by style tag and by technique",
+   "60 WebGL, 27 Canvas 2D",
+   "effects named after their inspiration",
+   "/learn walkthroughs for three shaders"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://radiant-shaders.com/gallery/all (fetched and link-extracted: 87 unique /shader/ URLs), https://github.com/pbakaus/radiant, GitHub API repos/pbakaus/radiant"
+ },
+ {
+  "id": "58f85827-961f-48b9-90ab-d88279c0c4fa",
+  "slug": "radiant-shaders",
+  "url": "https://github.com/pbakaus/radiant",
+  "name": "Radiant",
+  "tagline": "Zero-dependency generative shaders as single HTML files, embedded by iframe",
+  "description": "Radiant is Paul Bakaus's MIT-licensed collection of generative shader art for the web. Each effect is one self-contained HTML file with no dependencies and no build step, mixing WebGL and Canvas 2D; you drop it in as a full-bleed iframe and change its parameters at runtime through postMessage. Effects handle mouse and touch input, pause when off-screen, and render device-pixel-ratio aware capped at 2x. The README advertises 94 shaders and the live gallery currently lists 87. There is no npm package - you copy the file.",
+  "category": "textures-assets",
+  "subcategory": "shaders-and-effects",
+  "kinds": [
+   "shader-pack",
+   "asset-pack",
+   "gallery"
+  ],
+  "facets": {
+   "framework": [
+    "vanilla",
+    "svelte"
+   ],
+   "styling": [
+    "shader-glsl",
+    "vanilla-css"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "github-repo",
+    "download",
+    "copy-paste"
+   ],
+   "platform": [
+    "web",
+    "platform-agnostic"
+   ],
+   "accessibility": [
+    "known-gaps"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "copy-paste-ready",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "gradient-background",
+   "particle-background",
+   "animation"
+  ],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "splash-screen",
+   "features"
+  ],
+  "templates": [],
+  "template_count": 94,
+  "install": "<iframe src=\"event-horizon.html\" style=\"position:fixed;inset:0;width:100%;height:100%;border:0;z-index:-1\"></iframe>",
+  "package": null,
+  "docs_url": "https://radiant-shaders.com/learn",
+  "repo_url": "https://github.com/pbakaus/radiant",
+  "registry_url": null,
+  "github": {
+   "stars": 927,
+   "license": "MIT",
+   "last_activity": "2026-05-13"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 94,
+   "blocks": null
+  },
+  "agent_guidance": "Reach for Radiant instead of pulling in three.js or react-three-fiber when all you need is an animated backdrop - it adds literally zero bytes of dependency and cannot break your bundler, because the shader lives in its own iframe document. Copy the single HTML file into /public and iframe it; change look at runtime with postMessage({type:'param',name:'ROTATION_SPEED',value:0.6}), and recolor without touching GLSL by applying a CSS filter to the iframe, which is how the gallery does its six color schemes. The tradeoff is that the iframe is opaque to your app - no React state, no SSR, no easy screenshot - and the shader count in the README (94) is ahead of the published gallery (87).",
+  "why_it_matters": "It solves the animated-background problem with the smallest possible blast radius on a codebase, which is exactly the property an agent should optimise for when adding decoration to someone else's app.",
+  "quality_tier": "S",
+  "notable_for": [
+   "zero dependencies, zero build step",
+   "single self-contained HTML file per effect",
+   "runtime parameters over postMessage",
+   "CSS-filter recoloring, six schemes",
+   "MIT licensed"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://github.com/pbakaus/radiant, https://raw.githubusercontent.com/pbakaus/radiant/main/README.md, https://radiant-shaders.com/gallery/all, GitHub API repos/pbakaus/radiant"
+ },
+ {
+  "id": "72500521-65ff-4568-bc09-b727de91189a",
+  "slug": "tweakcn",
+  "url": "https://tweakcn.com",
+  "name": "tweakcn",
+  "tagline": "Visual shadcn/ui theme editor that exports 42 presets as a shadcn registry",
+  "description": "tweakcn is a no-code visual editor for shadcn/ui and Tailwind themes: you edit colors, typography, radius and shadows against a live component preview and it emits the CSS variables shadcn expects. It ships 42 named presets - including Claude, Vercel, Supabase, Catppuccin, T3 Chat and Twitter lookalikes - served as a real shadcn registry at /r/themes/registry.json, so any theme installs with one shadcn add command or through the shadcn registry MCP server. A contrast checker is built in, and it supports Tailwind v3 and v4 with OKLCH and HSL. The app itself is Apache-2.0 and self-hostable; AI theme generation is metered.",
+  "category": "blocks-templates-themes",
+  "subcategory": "themes-and-style-packs",
+  "kinds": [
+   "theme-pack",
+   "tool",
+   "ai-tool"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "tailwind-v4",
+    "tailwind-v3",
+    "css-variables"
+   ],
+   "license": [
+    "apache-2.0"
+   ],
+   "pricing": [
+    "freemium",
+    "free",
+    "subscription",
+    "account-required"
+   ],
+   "distribution": [
+    "web-app",
+    "shadcn-registry",
+    "saas",
+    "github-repo",
+    "mcp-server"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "contrast-checked"
+   ],
+   "content_type": [
+    "code",
+    "design-tokens"
+   ],
+   "agent_readiness": [
+    "registry-json",
+    "mcp-server",
+    "cli-installable",
+    "copy-paste-ready",
+    "open-source-code",
+    "auth-required"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "theme-provider",
+   "color-picker"
+  ],
+  "component_count": null,
+  "surfaces": [
+   "settings-web-app"
+  ],
+  "templates": [
+   {
+    "name": "Modern Minimal",
+    "url": "https://tweakcn.com/r/themes/modern-minimal.json",
+    "purpose": "shadcn/ui style preset built on the Modern Minimal color palette."
+   },
+   {
+    "name": "Violet Bloom",
+    "url": "https://tweakcn.com/r/themes/violet-bloom.json",
+    "purpose": "shadcn/ui style preset built on the Violet Bloom color palette."
+   },
+   {
+    "name": "T3 Chat",
+    "url": "https://tweakcn.com/r/themes/t3-chat.json",
+    "purpose": "shadcn/ui style preset built on the T3 Chat color palette."
+   },
+   {
+    "name": "Twitter",
+    "url": "https://tweakcn.com/r/themes/twitter.json",
+    "purpose": "shadcn/ui style preset built on the Twitter color palette."
+   },
+   {
+    "name": "Mocha Mousse",
+    "url": "https://tweakcn.com/r/themes/mocha-mousse.json",
+    "purpose": "shadcn/ui style preset built on the Mocha Mousse color palette."
+   },
+   {
+    "name": "Bubblegum",
+    "url": "https://tweakcn.com/r/themes/bubblegum.json",
+    "purpose": "shadcn/ui style preset built on the Bubblegum color palette."
+   },
+   {
+    "name": "Amethyst Haze",
+    "url": "https://tweakcn.com/r/themes/amethyst-haze.json",
+    "purpose": "shadcn/ui style preset built on the Amethyst Haze color palette."
+   },
+   {
+    "name": "Notebook",
+    "url": "https://tweakcn.com/r/themes/notebook.json",
+    "purpose": "shadcn/ui style preset built on the Notebook color palette."
+   },
+   {
+    "name": "Doom 64",
+    "url": "https://tweakcn.com/r/themes/doom-64.json",
+    "purpose": "shadcn/ui style preset built on the Doom 64 color palette."
+   },
+   {
+    "name": "Catppuccin",
+    "url": "https://tweakcn.com/r/themes/catppuccin.json",
+    "purpose": "shadcn/ui style preset built on the Catppuccin color palette."
+   },
+   {
+    "name": "Graphite",
+    "url": "https://tweakcn.com/r/themes/graphite.json",
+    "purpose": "shadcn/ui style preset built on the Graphite color palette."
+   },
+   {
+    "name": "Perpetuity",
+    "url": "https://tweakcn.com/r/themes/perpetuity.json",
+    "purpose": "shadcn/ui style preset built on the Perpetuity color palette."
+   },
+   {
+    "name": "Kodama Grove",
+    "url": "https://tweakcn.com/r/themes/kodama-grove.json",
+    "purpose": "shadcn/ui style preset built on the Kodama Grove color palette."
+   },
+   {
+    "name": "Cosmic Night",
+    "url": "https://tweakcn.com/r/themes/cosmic-night.json",
+    "purpose": "shadcn/ui style preset built on the Cosmic Night color palette."
+   },
+   {
+    "name": "Tangerine",
+    "url": "https://tweakcn.com/r/themes/tangerine.json",
+    "purpose": "shadcn/ui style preset built on the Tangerine color palette."
+   },
+   {
+    "name": "Quantum Rose",
+    "url": "https://tweakcn.com/r/themes/quantum-rose.json",
+    "purpose": "shadcn/ui style preset built on the Quantum Rose color palette."
+   },
+   {
+    "name": "Nature",
+    "url": "https://tweakcn.com/r/themes/nature.json",
+    "purpose": "shadcn/ui style preset built on the Nature color palette."
+   },
+   {
+    "name": "Bold Tech",
+    "url": "https://tweakcn.com/r/themes/bold-tech.json",
+    "purpose": "shadcn/ui style preset built on the Bold Tech color palette."
+   },
+   {
+    "name": "Elegant Luxury",
+    "url": "https://tweakcn.com/r/themes/elegant-luxury.json",
+    "purpose": "shadcn/ui style preset built on the Elegant Luxury color palette."
+   },
+   {
+    "name": "Amber Minimal",
+    "url": "https://tweakcn.com/r/themes/amber-minimal.json",
+    "purpose": "shadcn/ui style preset built on the Amber Minimal color palette."
+   },
+   {
+    "name": "Supabase",
+    "url": "https://tweakcn.com/r/themes/supabase.json",
+    "purpose": "shadcn/ui style preset built on the Supabase color palette."
+   },
+   {
+    "name": "Neo Brutalism",
+    "url": "https://tweakcn.com/r/themes/neo-brutalism.json",
+    "purpose": "shadcn/ui style preset built on the Neo Brutalism color palette."
+   },
+   {
+    "name": "Solar Dusk",
+    "url": "https://tweakcn.com/r/themes/solar-dusk.json",
+    "purpose": "shadcn/ui style preset built on the Solar Dusk color palette."
+   },
+   {
+    "name": "Claymorphism",
+    "url": "https://tweakcn.com/r/themes/claymorphism.json",
+    "purpose": "shadcn/ui style preset built on the Claymorphism color palette."
+   },
+   {
+    "name": "Cyberpunk",
+    "url": "https://tweakcn.com/r/themes/cyberpunk.json",
+    "purpose": "shadcn/ui style preset built on the Cyberpunk color palette."
+   },
+   {
+    "name": "Pastel Dreams",
+    "url": "https://tweakcn.com/r/themes/pastel-dreams.json",
+    "purpose": "shadcn/ui style preset built on the Pastel Dreams color palette."
+   },
+   {
+    "name": "Clean Slate",
+    "url": "https://tweakcn.com/r/themes/clean-slate.json",
+    "purpose": "shadcn/ui style preset built on the Clean Slate color palette."
+   },
+   {
+    "name": "Caffeine",
+    "url": "https://tweakcn.com/r/themes/caffeine.json",
+    "purpose": "shadcn/ui style preset built on the Caffeine color palette."
+   },
+   {
+    "name": "Ocean Breeze",
+    "url": "https://tweakcn.com/r/themes/ocean-breeze.json",
+    "purpose": "shadcn/ui style preset built on the Ocean Breeze color palette."
+   },
+   {
+    "name": "Retro Arcade",
+    "url": "https://tweakcn.com/r/themes/retro-arcade.json",
+    "purpose": "shadcn/ui style preset built on the Retro Arcade color palette."
+   },
+   {
+    "name": "Midnight Bloom",
+    "url": "https://tweakcn.com/r/themes/midnight-bloom.json",
+    "purpose": "shadcn/ui style preset built on the Midnight Bloom color palette."
+   },
+   {
+    "name": "Candyland",
+    "url": "https://tweakcn.com/r/themes/candyland.json",
+    "purpose": "shadcn/ui style preset built on the Candyland color palette."
+   },
+   {
+    "name": "Northern Lights",
+    "url": "https://tweakcn.com/r/themes/northern-lights.json",
+    "purpose": "shadcn/ui style preset built on the Northern Lights color palette."
+   },
+   {
+    "name": "Vintage Paper",
+    "url": "https://tweakcn.com/r/themes/vintage-paper.json",
+    "purpose": "shadcn/ui style preset built on the Vintage Paper color palette."
+   },
+   {
+    "name": "Sunset Horizon",
+    "url": "https://tweakcn.com/r/themes/sunset-horizon.json",
+    "purpose": "shadcn/ui style preset built on the Sunset Horizon color palette."
+   },
+   {
+    "name": "Starry Night",
+    "url": "https://tweakcn.com/r/themes/starry-night.json",
+    "purpose": "shadcn/ui style preset built on the Starry Night color palette."
+   },
+   {
+    "name": "Claude",
+    "url": "https://tweakcn.com/r/themes/claude.json",
+    "purpose": "shadcn/ui style preset built on the Claude color palette."
+   },
+   {
+    "name": "Vercel",
+    "url": "https://tweakcn.com/r/themes/vercel.json",
+    "purpose": "shadcn/ui style preset built on the Vercel color palette."
+   },
+   {
+    "name": "Darkmatter",
+    "url": "https://tweakcn.com/r/themes/darkmatter.json",
+    "purpose": "shadcn/ui style preset built on the Darkmatter color palette."
+   },
+   {
+    "name": "Mono",
+    "url": "https://tweakcn.com/r/themes/mono.json",
+    "purpose": "shadcn/ui style preset built on the Mono color palette."
+   },
+   {
+    "name": "Soft Pop",
+    "url": "https://tweakcn.com/r/themes/soft-pop.json",
+    "purpose": "shadcn/ui style preset built on the Soft Pop color palette."
+   },
+   {
+    "name": "Sage Garden",
+    "url": "https://tweakcn.com/r/themes/sage-garden.json",
+    "purpose": "shadcn/ui style preset built on the Sage Garden color palette."
+   }
+  ],
+  "template_count": 42,
+  "install": "npx shadcn@latest add https://tweakcn.com/r/themes/modern-minimal.json",
+  "package": null,
+  "docs_url": "https://tweakcn.com/editor/theme",
+  "repo_url": "https://github.com/jnsahaj/tweakcn",
+  "registry_url": "https://tweakcn.com/r/themes/registry.json",
+  "github": {
+   "stars": 10273,
+   "license": "Apache-2.0",
+   "last_activity": "2026-07-31"
+  },
+  "pricing_detail": "Free $0/month: full theme customization, 5 AI-generated themes, save and share up to 10 themes, CSS-variable import/export, shadcn registry command export, contrast checker. Pro $8/month billed monthly: unlimited saved and shared themes, unlimited AI generation, generate a theme from an image, save your own fonts and colors, priority support.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": 42,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "This is the fastest way to stop a shadcn/ui app looking stock: skip the web editor entirely and install a preset directly with npx shadcn@latest add https://tweakcn.com/r/themes/<name>.json - 42 names are listed in /r/themes/registry.json, so you can pick one from a text prompt like 'make it look like Claude' without opening a browser. Wire the whole registry into an agent with the shadcn MCP server, setting REGISTRY_URL to that registry.json. Two things to watch: a preset is registry:style, so it overwrites your base CSS variables and any hand-tuned tokens go with it - diff before applying - and saving your own themes or using AI generation needs an account, with the free tier capped at 10 saved themes and 5 AI generations.",
+  "why_it_matters": "It turned shadcn theming from a hand-edited CSS-variable chore into a one-command, machine-readable install, and at 10k stars it is the de facto standard theme source in the shadcn ecosystem.",
+  "quality_tier": "S",
+  "notable_for": [
+   "42 presets as an installable shadcn registry",
+   "one-command theme install, no browser needed",
+   "works with the shadcn registry MCP server",
+   "Tailwind v3 and v4, OKLCH and HSL",
+   "built-in contrast checker",
+   "Apache-2.0 and self-hostable"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://tweakcn.com (JS shell via WebFetch), https://tweakcn.com/pricing (raw HTML parsed for tiers), https://tweakcn.com/r/themes/registry.json (42 items), https://tweakcn.com/r/themes/claude.json, https://github.com/jnsahaj/tweakcn, GitHub API repos/jnsahaj/tweakcn, repo file components/editor/action-bar/components/mcp-dialog.tsx"
+ }
+]

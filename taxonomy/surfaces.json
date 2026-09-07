@@ -1,0 +1,1797 @@
+{
+  "version": 1,
+  "groups": [
+    {
+      "slug": "onboarding-auth",
+      "name": "Onboarding & Auth",
+      "surfaces": [
+        {
+          "slug": "splash-screen",
+          "name": "Splash Screen",
+          "description": "The branded launch frame that covers app initialisation and hands off to the first real screen.",
+          "checklist": [
+            "Logo or wordmark — the app brand mark centred on a clean background",
+            "Brand background — a solid or subtly branded background that makes the transition from the mobile home screen clear",
+            "Launch duration — the splash visible only for as long as the app genuinely needs to initialise, not used as decorative padding",
+            "Transition to first screen — a smooth, intentional animation into the first real screen, not a hard cut or jarring flash",
+            "No interactive elements — no buttons, inputs, or tappable areas; it is purely for transition",
+            "Loading indicator — for any initialisation taking more than a second, so the user knows something is happening"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "onboarding-mobile",
+          "name": "Onboarding (Mobile app)",
+          "description": "The first-run sequence that orients a new user and collects only what the app needs before it can be used.",
+          "checklist": [
+            "Steps — the number of steps limited to what is genuinely required before the app can be used",
+            "Progress indicator — a clear indication of how many steps remain and where in the sequence the user currently is",
+            "Step navigation — a clear mechanism for advancing through steps e.g. a 'next' button or a horizontal swipe gesture",
+            "Contextual permissions — permissions surfaced at their contextually relevant moment, rather than grouped at the start",
+            "Skip option — a visible way to exit onboarding early and explore the app, with setup available to complete later",
+            "Personalisation step — one or two choices that make the app feel tailored from the start e.g. your name, interests",
+            "Keyboard handling — views that adjust when the keyboard appears, appropriate keyboard types per field, and Next advancing to the following input"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "onboarding-web-app",
+          "name": "Onboarding (Web app)",
+          "description": "The guided setup that takes a newly signed-up account from empty to first meaningful action.",
+          "checklist": [
+            "Progress indicator — an indication of how many steps are involved and where the user currently is in the sequence",
+            "Welcome message — a brief message acknowledging this is a new experience and orienting the user toward what the product does",
+            "Account setup — the minimum information needed to personalise the experience, gathered at the start",
+            "Product highlights — key features introduced through short contextual tips or a visual walkthrough",
+            "First action prompt — a clear prompt directing the user to an action or feature",
+            "Completion confirmation — a clear acknowledgement that setup is complete, transitioning the user into the main product"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "onboarding-checklist",
+          "name": "Onboarding Checklist",
+          "description": "The in-app progress checklist that keeps guiding setup after the first session, without blocking the product.",
+          "checklist": [
+            "Card or sheet presentation — presented as a dismissible bottom sheet or a persistent card on the home screen, not a full-screen overlay",
+            "Task count and progress — a visible count of completed versus total tasks and a progress bar or ring that updates as steps complete",
+            "Tap to start each task — each item tappable, navigating directly to the relevant screen or feature, not just informational",
+            "Completion celebration — a brief celebratory moment when all tasks are complete, before the checklist disappears",
+            "Dismissible action — the checklist can be dismissed by users who do not want it; it is not a forced guided path",
+            "Persistent but unobtrusive — accessible from a consistent location (dashboard, profile, home)",
+            "Personalised to user type — onboarding questions that route different user types to tailored steps"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "login-mobile",
+          "name": "Login (Mobile app)",
+          "description": "The returning-user sign-in screen, optimised for biometrics and autofill rather than typing.",
+          "checklist": [
+            "Social sign-in — options that connect to an existing Apple or Google account, bypassing manual credential entry",
+            "Email field — the input where users enter the email address associated with their account",
+            "Password field — a masked text input with the option to reveal what has been typed",
+            "Biometric authentication — Face ID or fingerprint sign-in for returning users who have already authenticated once with a password",
+            "Credential autofill — system-level support for pre-filling saved email and password from the user's password manager",
+            "Forgot password link — the link users reach for when they can't recall their password, leading into the reset flow",
+            "Error states — feedback that distinguishes an unrecognised email address from an incorrect password",
+            "Passwordless sign-in (magic link) — an alternative that sends a one-time link to the user's email, requiring no password"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "login-web-app",
+          "name": "Login (Web app)",
+          "description": "The in-product authentication screen that gets an existing account back into the workspace.",
+          "checklist": [
+            "Email and password fields — the two standard authentication inputs",
+            "Show/hide password toggle — a button alongside the password field that reveals or conceals what the user has typed",
+            "Forgot password — a link that begins the password reset flow",
+            "Remember me — a checkbox that persists the user's session across browser closures",
+            "SSO or social login — alternative authentication via a third-party identity provider (Google, Microsoft, GitHub)",
+            "Sign up link — a link to the account creation screen for users who do not yet have an account",
+            "Error messages — feedback shown when authentication fails, indicating what the user should try next"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "login-website",
+          "name": "Login (Website)",
+          "description": "The marketing-site login page, which doubles as a branded touchpoint before the user enters the product.",
+          "checklist": [
+            "Logo — either your complete logo or a symbol mark",
+            "Title — tell the user this is where they login",
+            "Account identification — a unique identifier for the user, potentially username, email address, or phone number",
+            "Password — a secure, private code that allows access to their account, with the ability to make it visible",
+            "Link to reset password — positioned close to the password input field",
+            "Link to sign up — for a user who does not have an account and landed on this page anyway",
+            "Login via third party — one-click connection via Google, Apple, Facebook or similar",
+            "Testimonial — reinforcing the brand and product",
+            "Blog post — an opportunity to show off content relevant to the user",
+            "New feature — building excitement for something new right before a user logs in and sees it"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "sign-up",
+          "name": "Sign up",
+          "description": "The account creation page that converts an interested visitor into a credentialed user.",
+          "checklist": [
+            "Logo — either your complete logo or a symbol mark",
+            "Title — tell the user this is where they create an account",
+            "Description — describe the basic features of creating an account and set expectations for what they can achieve",
+            "Account identification — a unique identifier to log in with; an email address also gains a communication channel",
+            "Setting a password — with a password strength indicator and stated password requirements",
+            "Link to login — for a user who already has an account and landed on this page anyway",
+            "Sign up via third party — reduce several clicks to one by allowing sign-up via Google, Apple or similar",
+            "Current active customer count — how many people are already using the product",
+            "Testimonial or social proof — reinforcing the brand and product",
+            "Blog post — content that can convert an unsure lead",
+            "Billing plans and trial period — clearly define the length of the trial and when they will be charged"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "resetting-password",
+          "name": "Resetting password",
+          "description": "The recovery flow that returns a locked-out user to a working password and back to logging in.",
+          "checklist": [
+            "Place reset link close to password field — styled as a link to show it is clickable",
+            "Ask for account details to verify — usually the email address, because it identifies the account and is the channel the link is sent to",
+            "Show information has been sent — explain how they can continue, and send the email for the next step",
+            "The message sent explains next steps — for example a link to a page that allows the user to reset their password",
+            "Reset the password — behind the verification code or link, a clear text field to enter a new password",
+            "Password successfully reset — indicate success and push their momentum back to their initial intent: logging in"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "verifying-account",
+          "name": "Verifying account",
+          "description": "The code or link challenge that proves the user controls the contact address on the account.",
+          "checklist": [
+            "Establish a trigger point — clearly indicate when verification is required and why it is necessary",
+            "Method selection — where offered, multiple verification methods (email, SMS, authenticator)",
+            "Confirm delivery and contact information used — display the email address or phone number so the user can see it is the correct destination",
+            "Ability to input verification code — a field per digit is intuitive, but a default input field is perfectly accessible",
+            "Incorrect value and resend option — specific error messages per failure: expired code offers a new send, incorrect code asks to re-enter",
+            "Verification success state — clear confirmation when verification succeeds, continuing to the next step of the interface"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "two-factor-authentication",
+          "name": "2FA",
+          "description": "The setup and management surface for a second authentication factor on the account.",
+          "checklist": [
+            "Method selection — authenticator app, SMS, or email code; offer at least two, as some users lack access to one",
+            "Setup instructions — clear step-by-step guidance, particularly for authenticator flows that require scanning a QR code",
+            "QR code or setup key — a scannable QR code or copyable key for linking an authenticator app to the account",
+            "Verification step — a code entry step confirming setup was successful before 2FA is enabled on the account",
+            "Recovery codes — a set of one-time backup codes for when the user loses access to their 2FA method",
+            "Setup confirmation — a clear success state confirming that 2FA is now active",
+            "Disable or reset option — a way to turn off or reconfigure 2FA from account security settings, gated by re-authentication"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "sso-enterprise-login",
+          "name": "SSO / Enterprise login",
+          "description": "The identity-provider path that lets an organisation authenticate its members without product-held passwords.",
+          "checklist": [
+            "Email-first routing — a single email field that detects the domain and redirects to the correct identity provider automatically",
+            "Explicit 'Sign in with SSO' entry point — for users whose domain is not auto-detected, accepting a workspace slug or company email",
+            "Provider handoff state — a visible interstitial while redirecting to Okta, Entra, Google Workspace, or the customer's own IdP",
+            "Just-in-time provisioning outcome — a clear result when a first-time SSO user is created, including which role they were assigned",
+            "SSO-required enforcement — a clear message when password login is blocked by policy, naming the admin or domain that enforces it",
+            "Failure messages that name the cause — unmapped user, expired assertion, misconfigured certificate, or domain not verified",
+            "Break-glass path — a documented fallback for admins when the identity provider itself is unreachable"
+          ],
+          "source": "added"
+        },
+        {
+          "slug": "session-expired",
+          "name": "Session expired / Re-authentication",
+          "description": "The interruption that asks a still-present user to prove identity again without destroying their work.",
+          "checklist": [
+            "Non-destructive interrupt — a modal or inline prompt over the current screen, never a hard redirect that discards unsaved state",
+            "Reason stated — whether the session timed out, was revoked, the password changed, or a sensitive action requires step-up auth",
+            "Credential-only re-entry — ask for password or biometric only, with the email pre-filled and not editable",
+            "Draft preservation — unsaved form or editor content restored intact after successful re-authentication",
+            "Return to the same place — the user lands back on the exact screen and scroll position they were on, not the dashboard",
+            "Step-up scope — for sensitive actions, state what the re-authentication authorises and for how long it lasts"
+          ],
+          "source": "added"
+        },
+        {
+          "slug": "permission-primer",
+          "name": "Permission primer",
+          "description": "The in-app explanation shown before the OS permission dialog, so the system prompt is only fired once it will be accepted.",
+          "checklist": [
+            "Fired at the moment of need — shown when the user takes the action that requires the permission, not at launch",
+            "Value stated before the system dialog — one line on what the permission unlocks, in the user's terms",
+            "Soft decline path — a 'not now' that dismisses without ever triggering the OS prompt, keeping the permission re-askable",
+            "Correct permission tier requested — for example 'while using the app' rather than 'always' for location, and limited photo access where sufficient",
+            "Denied state handling — a screen explaining the degraded experience with a deep link to system settings once the OS prompt has been declined",
+            "No repeat nagging — the primer is not re-shown on every session after a decline"
+          ],
+          "source": "added"
+        }
+      ]
+    },
+    {
+      "slug": "monetization",
+      "name": "Monetization & Billing",
+      "surfaces": [
+        {
+          "slug": "paywall",
+          "name": "Paywall",
+          "description": "A hard gate that blocks locked content and offers a fair, dismissible path to subscribe.",
+          "checklist": [
+            "Locked feature context and breakdown — a clear statement or short list of which specific features the user is being blocked from",
+            "Upgrade CTA — the primary action to start a subscription or free trial, positioned prominently and specific about what is unlocked",
+            "Free trial offer — a clear statement of any trial period available before subscription billing begins",
+            "Dismiss action — a clear, neutral way to close the paywall and return to the free experience",
+            "Restore purchases — a way for existing subscribers to recover access after reinstalling or signing in on a new device",
+            "No guilt language — dismiss and decline actions written in neutral language, without shaming or pressuring the user"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "pricing-website",
+          "name": "Pricing (Website)",
+          "description": "The public pricing page that lets a prospect self-select a plan and understand the total commitment.",
+          "checklist": [
+            "Pricing options — subscription plans or one-off purchase",
+            "Pricing features — what the user gets for purchasing the product",
+            "A free pathway to sign up — a way to try the product before purchase, stating the trial length before being charged",
+            "Refund or return policy — for users who want to understand this before committing",
+            "Highlighted price as a recommendation — showcase the plan most users purchase or get the best value from",
+            "Security logo for payment processing — show which credible vendor processes purchases",
+            "Frequency of payments (monthly vs yearly) — an annual option rewarded with a discount for long-term customers"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "pricing-web-app",
+          "name": "Pricing (Web app)",
+          "description": "The in-product plan comparison that converts an active free or trial account onto a paid tier.",
+          "checklist": [
+            "Plan names, prices and frequency — the name and cost of each available plan, with billing frequency clearly stated",
+            "Billing period toggle — a switch between monthly and annual billing, with the annual discount shown",
+            "Feature comparison — a side-by-side breakdown of what each plan includes and excludes",
+            "Call to action — a button on each plan to start a trial, subscribe, or contact sales",
+            "Free tier or trial details — what's included, how long it lasts, and what happens when it ends",
+            "FAQ section — answers to common questions about billing, plan limits, cancellation, and payment",
+            "Enterprise option — a prompt for organisations that need a custom arrangement beyond the listed plans"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "billing-web-app",
+          "name": "Billing (Web app)",
+          "description": "The account billing portal where a customer manages payment method, invoices and failed charges.",
+          "checklist": [
+            "Payment method on file — the current card or payment method, shown with masked details",
+            "Add or update payment method action — a way to enter a new card or change the current one",
+            "Next billing date and amount — when the next payment will be taken and for how much",
+            "Invoices and receipts — a list of past charges with the ability to download a PDF invoice for each",
+            "Tax and VAT — applicable tax shown on invoices and billing history",
+            "Failed payment recovery — clear messaging and recovery instructions when a payment attempt has failed",
+            "Billing contact email — the address where invoices and billing notifications are sent, often not the account owner's"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "billing-website",
+          "name": "Billing (Website)",
+          "description": "The subscriber-facing billing area covering plan, payment history and the exit path.",
+          "checklist": [
+            "Payment methods used — display payment method details with the ability to update or remove",
+            "History — a list of past charges with the ability to download invoices as PDF",
+            "Plan details — current plan price, features and next billing date, with a clear action to upgrade or change plan",
+            "Promo or discount code — a field to apply a code to activate a discount or deal",
+            "Additional details — information that influences billing decisions e.g. seats, roles, usage, metrics",
+            "Next payment — for subscriptions, the upcoming payment amount, date and method",
+            "Cancel subscription — a clear action to cancel and stop payments"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "billing-mobile",
+          "name": "Billing (Mobile app)",
+          "description": "The mobile billing screen, constrained by App Store and Play Store rules on where subscriptions can be managed.",
+          "checklist": [
+            "Manage via App Store — a link or prompt directing users to the App Store or Play Store to manage their subscription",
+            "Next billing date and amount — visible without needing to dig into billing history",
+            "Billing history and receipts — a list of past charges with amounts and dates, with individual receipts accessible",
+            "Restore purchases — a button to restore previously purchased subscriptions or in-app purchases on a new device",
+            "Refund help link — guidance on how to request a refund, typically via the platform's own process",
+            "Tax display — tax or VAT amounts displayed separately from the base price where legally required"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "making-a-card-payment",
+          "name": "Making a card payment",
+          "description": "The sequential flow from choosing a payment method to a confirmed charge and stated next steps.",
+          "checklist": [
+            "Offer payment methods — present the available methods and let the user select card entry",
+            "Request card details — show all relevant text fields, sized relative to the details entered; allow saved methods to be added or removed on repeat visits",
+            "Submit payment with card details entered — validate before submission for mistyped numbers and expired cards, and address each error state",
+            "Show payment processing — a loading state, because a payment may take seconds or minutes and the user is watching their money",
+            "Confirmation payment processed successfully — clearly indicate the payment was processed and the funds received",
+            "Outline next steps — state what the payment triggered e.g. a shipment, or a link to start using the subscription"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "entering-promo-code",
+          "name": "Entering promo code",
+          "description": "The discount-entry flow that applies, reflects, errors on and removes a promotional code.",
+          "checklist": [
+            "Show promo code input field — the cart and checkout are the pages expected to have one",
+            "Promo code applied successfully — reflected with success state colours to indicate the code was applied",
+            "Reflect promo code impact — shown as a total amount or on an item-by-item basis",
+            "Promo code error — for a code that is not applicable or entered incorrectly",
+            "Remove promo code — for users who prefer the original price or found a better code"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "canceling-subscription",
+          "name": "Canceling subscription",
+          "description": "The graceful exit that ends a paid relationship without dark patterns.",
+          "checklist": [
+            "Show a link in account details — clearly visible, or placed in billing settings",
+            "Confirm intent to cancel — ask if they are sure rather than cancelling on a single misclick",
+            "Request a reason for canceling (optional) — helpful feedback, never a forced or pressured step",
+            "Confirm subscription has been canceled — and tell the user the date their subscription is active until",
+            "Make cancelling no harder than subscribing — the same number of steps and the same channel it was bought in; the FTC's click-to-cancel rule was vacated in July 2025, but ROSCA enforcement and state automatic-renewal laws still apply",
+            "Say exactly what happens to the data — what is kept, what is deleted, what can be exported, and for how long",
+            "Offer an export before access ends, not after",
+            "Offer an alternative once, and only once — pause or downgrade, never a retention maze",
+            "State refunds and proration plainly — whether the remaining period is refunded, credited or simply runs out",
+            "Confirm by email as well as on screen — the on-screen confirmation disappears; the email is the receipt",
+            "Say how to come back — whether reactivation restores the old plan, price and data",
+            "Say what happens to team members and seats — who loses access, and when"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "usage-and-limits",
+          "name": "Usage & limits",
+          "description": "The meter that shows consumption against plan entitlements before the user hits a wall.",
+          "checklist": [
+            "Current period consumption per metered dimension — seats, API calls, storage, credits, messages — each against its included allowance",
+            "Reset date stated — the exact date and time the current period rolls over, in the user's timezone",
+            "Overage policy made explicit — whether the account is hard-blocked, throttled, or charged per unit past the limit, with the per-unit price",
+            "Threshold alerts — configurable email or in-app warnings at 75% and 90%, addressed to the billing contact and admins",
+            "Historical trend — consumption across previous periods, so a team can predict the next invoice",
+            "Per-member or per-key attribution — which user, workspace, or API key is driving consumption",
+            "Upgrade path inline — a direct action to raise the limit from the same screen that reports it"
+          ],
+          "source": "added"
+        },
+        {
+          "slug": "quota-exceeded",
+          "name": "Quota exceeded / Rate limited",
+          "description": "The blocking state shown when a hard limit is reached, which must explain the limit and the fastest way back to working.",
+          "checklist": [
+            "Which limit was hit, named exactly — 'You have used all 500 monthly credits', not 'Something went wrong'",
+            "Time until reset — a concrete timestamp or countdown, not 'try again later'",
+            "Immediate remedies ranked — upgrade, buy an add-on pack, wait for reset, or ask an admin to raise the cap",
+            "Distinguish account limit from transient rate limit — a per-second throttle and an exhausted monthly plan need different copy and different actions",
+            "Preserve the blocked work — the request, prompt, or draft is retained so it can be retried once capacity returns",
+            "Machine-readable parity for API callers — the same condition returns 429 with Retry-After and a documented error code"
+          ],
+          "source": "added"
+        }
+      ]
+    },
+    {
+      "slug": "commerce",
+      "name": "Commerce & Checkout",
+      "surfaces": [
+        {
+          "slug": "adding-to-cart",
+          "name": "Adding to cart",
+          "description": "The flow from product variant selection to confirmed cart addition and a route back to the cart.",
+          "checklist": [
+            "Outline variant selection for product — size, colour, amount or otherwise, it must be clear what must be picked before adding to cart",
+            "Primary action on product page is add to cart — one of the most prominent buttons on the page",
+            "Feedback once added — immediate confirmation the item has been added, at a level of intrusion you choose deliberately",
+            "Link to cart view — typically in primary navigation, showing the item count and optionally the total price",
+            "Show availability before the action — in stock, low stock, out of stock or backordered, so the button never promises what the warehouse cannot",
+            "Let quantity be set and bounded — with a clear maximum and a reason when one is hit",
+            "Show the price the user will actually pay — currency, whether tax is included, and shipping when it is known",
+            "Persist the cart across sessions and devices for a signed-in user",
+            "Announce the addition assistively — a live region, so confirmation is not visual-only (WCAG 4.1.3 Status Messages)",
+            "Handle the failure case — the item selling out between page load and click, and what the user sees when it does",
+            "Offer both next steps — continue shopping and go to cart, rather than forcing the checkout path"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "cart-website",
+          "name": "Cart (Website)",
+          "description": "The pre-checkout review where the shopper edits their order and commits to paying.",
+          "checklist": [
+            "Item name and image — matching what was displayed on the product page",
+            "Update or remove item — adjust quantity, change variants, or remove an item directly from the cart",
+            "Item variations — selected size, colour, style, or type displayed clearly alongside the item",
+            "Promo or discount code — a field for entering a code, showing acceptance or rejection immediately after entry",
+            "Accepted payment methods — cards, PayPal, Apple Pay and others available for completing the purchase",
+            "Link to support — a way to get help with items in the cart, useful for configurable or custom orders",
+            "Checkout button — a prominent button to proceed to payment",
+            "Suggested add-ons — related or complementary items based on what is already in the cart"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "cart-mobile",
+          "name": "Cart (Mobile app)",
+          "description": "The touch-scale cart where quantity, removal and totals must all work with a thumb.",
+          "checklist": [
+            "Item list — each item shown with its image, name, selected variants, and quantity",
+            "Quantity stepper — plus and minus controls large enough to tap accurately without zooming",
+            "Swipe to remove — a swipe-left gesture on a cart item revealing a remove action",
+            "Price breakdown — subtotal, applied discounts, estimated tax, and total shown before the checkout action",
+            "Empty cart state — shown when no items are in the cart, with a clear prompt to continue browsing",
+            "Promo code field — enter a code and see the discount reflected across items and total"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "checkout",
+          "name": "Checkout",
+          "description": "The payment sequence that must minimise typing, survive failure, and end in an unambiguous confirmation.",
+          "checklist": [
+            "Native payment methods — Apple Pay and Google Pay as primary options, completing purchase with a single biometric tap",
+            "Persistent order summary — item list, quantities and total available throughout the flow, visible or one tap away",
+            "Minimal form fields — only the fields genuinely required to complete the purchase",
+            "Autofill capabilities — shipping address fields that support iOS and Android autofill",
+            "Keyboard types per field — numeric for card numbers and CVV, date or numeric pad for expiry",
+            "Checkout progress — a clear step indicator for a multi-step experience",
+            "Error recovery — after a payment failure, return to the payment step with entered data intact and a clear explanation",
+            "Order/payment confirmation — a confirmation screen with summary, payment method and amount"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "order-status",
+          "name": "Order status & tracking",
+          "description": "The post-purchase surface where a buyer confirms what they bought and where it is now.",
+          "checklist": [
+            "Order identifier prominently shown — the reference a customer quotes to support, copyable in one tap",
+            "Fulfilment stage as a named state — confirmed, processing, shipped, out for delivery, delivered, or a stated exception",
+            "Carrier and tracking number — linked to the carrier's own tracking, opened in a new context",
+            "Estimated delivery window — a date range rather than a single optimistic date, updated when the carrier revises it",
+            "Itemised contents — what shipped in this parcel versus what is still to come on a split shipment",
+            "Return, cancel or change window — which actions are still available at this stage, and until when",
+            "Support entry point carrying the order context — so the customer never re-types the order number"
+          ],
+          "source": "added"
+        }
+      ]
+    },
+    {
+      "slug": "account-settings",
+      "name": "Account & Settings",
+      "surfaces": [
+        {
+          "slug": "account-web-app",
+          "name": "Account (Web app)",
+          "description": "The private profile screen where a user edits their own identity and can leave the product.",
+          "checklist": [
+            "Profile photo — a way to upload or change the profile image, with a sensible fallback such as initials",
+            "Display name — the name shown to other users or across the product interface",
+            "Account details — fields for email address, phone number, job title or other relevant identifying information",
+            "Linked accounts — a view of which third-party accounts are connected for sign-in or data access, with the ability to disconnect",
+            "Save confirmation — clear feedback that changes have been saved, either inline or as a toast",
+            "Delete or deactivate account — options clearly separated from other settings"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "account-mobile",
+          "name": "Account (Mobile app)",
+          "description": "Private account settings covering credentials, linked accounts and destructive actions.",
+          "checklist": [
+            "Email — the current email address displayed with an option to update it, verifying the new address before the change completes",
+            "Password change — a way to update the account password, requiring the current password first",
+            "Linked accounts — which third-party accounts are connected for sign-in or data access, with the ability to disconnect",
+            "Save confirmation — clear feedback that changes have been saved, either inline or as a toast",
+            "Delete or deactivate account — options to deactivate or permanently delete, clearly separated from other settings"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "settings-web-app",
+          "name": "Settings (Web app)",
+          "description": "The organised home for every account-level preference, with destructive actions isolated.",
+          "checklist": [
+            "Structure — settings organised into logical categories e.g. account, notifications, security, billing",
+            "Account details — the fields where users update their name, email address, and profile photo",
+            "Security details — change password, two-factor authentication and other security information, gated by re-authentication",
+            "Notification preferences — which notifications the user receives and through which channel, grouped by type",
+            "Billing — managing payment method and plan, or a preview with a link directly to the billing area",
+            "Additional preferences — language, timezone, date format, and appearance settings like dark mode",
+            "Danger zone — destructive actions like account deletion, clearly separated and confirmation-gated"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "settings-mobile",
+          "name": "Settings (Mobile app)",
+          "description": "The native grouped-list settings screen, which app stores also require to carry legal links.",
+          "checklist": [
+            "Grouped table layout — settings organised into clearly labelled sections (Account, Notifications, Privacy, Support) using the native grouped list pattern",
+            "Native toggle controls — binary settings presented with the platform-native switch (UISwitch on iOS, Material Switch on Android)",
+            "Destructive actions grouped — log out, delete account and other irreversible actions in their own section at the bottom, distinguished in red",
+            "Account details at top — the user's avatar, name and email as a clear anchor for whose account is being managed",
+            "Deep link to specific settings — a direct link from relevant in-app prompts to the specific settings screen they reference",
+            "Support and feedback access — a clear path to contact support, submit feedback, or access help documentation",
+            "App version — shown at the bottom, essential for support conversations and identifying build-specific issues",
+            "Legal links — Privacy Policy and Terms of Service accessible within settings, as required by app stores"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "notification-settings",
+          "name": "Notification Settings",
+          "description": "The preference matrix that lets a user choose what they are told about and on which channel.",
+          "checklist": [
+            "Categories — notification types organised into logical groups e.g. product activity, mentions, billing, security, marketing",
+            "Channel selection — controls for which channel each notification type comes through e.g. email, push, in-app",
+            "Frequency controls — where applicable, immediately, daily digest, or weekly summary",
+            "Global mute — a way to temporarily silence all notifications without turning each one off individually",
+            "Save confirmation — a clear indication that preference changes have been saved"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "public-profile",
+          "name": "Public Profile",
+          "description": "The outward-facing identity page other users see, distinct from private account settings.",
+          "checklist": [
+            "Avatar and display name — the user's photo and name shown prominently as the primary identifier",
+            "Role or title — the user's job title, team, or role within the product context",
+            "Bio or description — a short free-text description the user has written about themselves",
+            "Activity or contributions — a summary of what the user has done in the product (posts, projects, comments)",
+            "Contact or follow action — a way to initiate contact, follow, or connect, depending on what the product supports",
+            "Joined date — when the user joined the product",
+            "Profile visibility controls — which profile fields are visible according to the user's own privacy preferences"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "api-keys",
+          "name": "API Keys",
+          "description": "The credential manager where a developer creates, scopes and revokes programmatic access.",
+          "checklist": [
+            "Key list — a table of all existing keys showing name, creation date, last used date and permissions, revealing only the last few characters",
+            "Generate key — a clear way to create a new key, naming it and setting its scope or permissions",
+            "Copy key on creation — the full key revealed exactly once immediately after creation, with a prominent copy button and an explicit warning",
+            "Key permissions or scopes — the ability to limit what each key can access (read-only, specific resources, or full access)",
+            "Revoke key — a clear way to immediately invalidate a key, with a confirmation step",
+            "Documentation link — a direct link to API documentation so developers can start without searching"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "integrations",
+          "name": "Integrations",
+          "description": "The catalogue where a user connects, inspects and disconnects third-party services.",
+          "checklist": [
+            "Catalogue — a browsable list or grid of all available integrations with logos, names and a brief description",
+            "Categories or filtering — a way to browse by category (productivity, communication, analytics, CRM)",
+            "Search — a field to find a specific integration by name without scrolling the full list",
+            "Connection status — a clear indicator showing connected, disconnected, or connected but experiencing an issue",
+            "Connect and disconnect actions — with a confirmation before disconnecting that states what will stop working",
+            "Integration detail — a dedicated view showing what data it accesses, configuration options, and a sync or activity log",
+            "Request an integration — a way for users to suggest tools they want the product to support"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "webhooks",
+          "name": "Webhooks",
+          "description": "The outbound-event configuration where a developer subscribes an endpoint and debugs failed deliveries.",
+          "checklist": [
+            "Endpoint list with subscribed event types — each endpoint showing its URL, enabled events, and current health",
+            "Event type selection — explicit per-event subscription rather than an all-or-nothing firehose",
+            "Signing secret — a per-endpoint secret shown once on creation, with a rotate action that supports a dual-secret overlap window",
+            "Delivery log — recent attempts with timestamp, HTTP status, response body excerpt and latency",
+            "Manual replay — re-send any individual past event to the endpoint without reproducing the original trigger",
+            "Retry and back-off policy stated — how many times a failed delivery is retried, over what window, and when the endpoint is auto-disabled",
+            "Test event — send a synthetic payload of any event type to verify the endpoint before going live"
+          ],
+          "source": "added"
+        },
+        {
+          "slug": "data-export",
+          "name": "Data export & deletion request",
+          "description": "The self-serve surface that satisfies a user's right to take their data out or have it erased.",
+          "checklist": [
+            "Scope statement — exactly which data is included in the export and which is not (for example logs or third-party-held data)",
+            "Asynchronous generation with notification — the export is prepared in the background and the user is emailed when the archive is ready",
+            "Time-limited, authenticated download link — the archive is not on a public URL and expires after a stated period",
+            "Open, documented format — JSON or CSV with a manifest, not a proprietary blob the user cannot read",
+            "Deletion request path separate from export — with a stated grace period before erasure becomes irreversible",
+            "Consequences of deletion enumerated — what is destroyed, what is retained for legal reasons, and for how long",
+            "Request history — past exports and deletion requests with their status and dates"
+          ],
+          "source": "added"
+        },
+        {
+          "slug": "deleting-account",
+          "name": "Deleting account",
+          "description": "The full account-closure flow, which must be findable, honest about consequences, and final.",
+          "checklist": [
+            "Show a link to delete account — visible in the profile or settings, and available in the support area; do not make this difficult",
+            "Politely ask for feedback — helpful to know why somebody is leaving, but never pressured or forced",
+            "Explain what it means to delete the account before confirming — be clear about what happens to the account and the information in it",
+            "Confirm account has been deleted — acknowledge the completion comfortably rather than hiding it",
+            "Re-authenticate before the destructive step — password or passkey, because deletion is exactly the class of action WCAG 3.3.4 Error Prevention (Legal, Financial, Data) exists for",
+            "Offer a grace period with recovery — say how long it lasts and what happens at the end of it",
+            "Offer an export before deletion, and make it complete enough to be worth having",
+            "Say what happens to shared and team content — owned documents, comments, invitations and anything other people depend on",
+            "Couple it to billing — cancel active subscriptions as part of the flow, or say plainly that they continue",
+            "Confirm by email — deletion is the one action a user must be able to prove happened",
+            "State the legal timeline where it applies — GDPR Article 17 requires erasure without undue delay, and Article 12(3) requires a response within one month, extendable by two for complex requests",
+            "State what is retained and why — records kept for accounting, fraud or legal obligation, and for how long"
+          ],
+          "source": "checklist.design"
+        }
+      ]
+    },
+    {
+      "slug": "team-admin",
+      "name": "Team & Administration",
+      "surfaces": [
+        {
+          "slug": "admin-panel",
+          "name": "Admin Panel",
+          "description": "The org-level control room for members, settings, usage, billing and irreversible workspace actions.",
+          "checklist": [
+            "Role-based access — the admin panel visible and accessible only to users with the appropriate permissions",
+            "User management — a view of all users in the organisation with the ability to invite, edit roles, and remove members",
+            "Organisation settings — controls for configuring the product at an account level: name, logo, SSO, domains",
+            "Usage overview — high-level metrics on how the product is being used, with the ability to export for reporting",
+            "Billing and plan management — subscription details, seat counts and invoices at the account level",
+            "Audit log — a record of account-related actions e.g. logins, permission changes, deletions",
+            "Danger zone — destructive account-level actions e.g. deleting the workspace or transferring ownership, visually separated"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "user-management",
+          "name": "User Management",
+          "description": "The member roster where an admin invites, re-roles and revokes access for the whole team.",
+          "checklist": [
+            "User list — a table of all users showing name, email, role and account status",
+            "Invite user action — a clear way to add new members by email, with an option to set their role before sending",
+            "Roles and permissions — the ability to assign and change what each user can see and do, using universal terms like admin, member or viewer",
+            "Pending invitation status — invitations sent but not yet accepted, with the option to resend or revoke",
+            "Search and filter — find users quickly by name, email, role or other user information",
+            "Remove or deactivate user — a clear way to revoke access, distinguishing temporary deactivation from permanent removal"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "invite",
+          "name": "Invite",
+          "description": "The flow that brings a new person into a workspace with the right access and a visible seat cost.",
+          "checklist": [
+            "Email invite — the primary method of inviting someone by entering their email address directly",
+            "Role or permission selection — a control for setting what the invited person can see and do once they accept",
+            "Contact picker — access to the device's contacts list for finding people without typing a full address",
+            "Bulk invite — a way to add multiple people at once, supporting comma-separated and line-break-separated input",
+            "Pending invites and actions — sent invitations not yet accepted, with the option to resend or revoke each one",
+            "Shareable invite link — a link granting access to anyone who opens it, with a configurable permission level, expiry and usage limit",
+            "Seat or member limit — a visible count of remaining seats, surfaced before the user reaches the plan's member cap",
+            "Access scope summary — a clear statement of what the invited person will be able to see and do, shown to the sender before confirming"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "share-and-permissions",
+          "name": "Share & permissions",
+          "description": "The per-object access dialog that decides who can see or change one document, project or record.",
+          "checklist": [
+            "Current access list — every person, group and link that can reach this object, with their access level shown",
+            "Per-invitee access level at the point of invitation — viewer, commenter, editor, owner chosen before the invite is sent",
+            "Link sharing scope, stated in plain language — restricted, anyone in the organisation, or anyone with the link",
+            "Inherited versus explicit access made visible — access granted by the parent folder or workspace distinguished from access granted here",
+            "Copy link action that matches the current scope — never hands out a URL the recipient cannot open",
+            "Link controls — expiry date, password, and disable-download or disable-copy where the product supports them",
+            "Revoke that takes effect immediately — including on active sessions, not only on next load",
+            "Ownership transfer — a distinct action from granting edit access, with confirmation from both sides where possible"
+          ],
+          "source": "added"
+        },
+        {
+          "slug": "workspace-switcher",
+          "name": "Workspace / Organisation switcher",
+          "description": "The control that tells a multi-tenant user which context they are in and moves them between tenants safely.",
+          "checklist": [
+            "Current workspace always visible — the active tenant named in persistent chrome, not only inside the menu",
+            "Full list of memberships — every workspace the account belongs to, with avatar, name and the user's role in each",
+            "Visual distinction between tenants — colour or logo, so a user with production and staging workspaces cannot confuse them",
+            "Switch preserves the equivalent route — landing on the same section of the new workspace where it exists, and on its home when it does not",
+            "Pending invitations surfaced in the same menu — workspaces the user has been invited to but not yet joined",
+            "Create-workspace entry point — distinct from joining an existing one",
+            "Unsaved-work guard — switching context warns before discarding an in-progress editor or form"
+          ],
+          "source": "added"
+        }
+      ]
+    },
+    {
+      "slug": "content-data",
+      "name": "Content & Data Views",
+      "surfaces": [
+        {
+          "slug": "feed",
+          "name": "Feed",
+          "description": "The reverse-chronological or ranked stream that shows what is new and worth opening.",
+          "checklist": [
+            "Feed item preview — title, excerpt or thumbnail sufficient to judge whether the item is worth opening",
+            "Author — the name and avatar of the person who created or posted each item",
+            "Timestamps — when each item was published or last updated, switching from relative to exact time as items age",
+            "Engagement actions — like, comment, share, save or react, sized by prominence and frequency of use",
+            "New content indicator — a banner or button when new items have been posted since the user loaded the feed",
+            "Filtering — controls for narrowing to a category, content type or followed accounts, with active filters indicated",
+            "Pagination or infinite scroll — a mechanism for loading more items as the user reaches the bottom",
+            "Empty state — for no connections, no activity, or an empty filter result"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "search-results",
+          "name": "Search Results",
+          "description": "The results page that must let a user judge, refine and recover from a query without starting over.",
+          "checklist": [
+            "Search input — at the top of the results, pre-filled with the current query so it can be refined",
+            "Result count — how many results were found, shown even at zero so the user knows the search ran",
+            "Result items — title, type, image and a snippet of the matching content, with the matched term highlighted",
+            "Result type indicators — a label or icon marking what kind of item each result is (document, person, project, message)",
+            "Filters — the ability to narrow results by category, date, status or other relevant values",
+            "No results state — with suggestions for what to try instead, rather than a blank space",
+            "Recent searches — the user's previous queries, shown when the search field is focused but empty"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "search-mobile",
+          "name": "Search (Mobile app)",
+          "description": "The mobile search screen where the keyboard, live results and filters all compete for one small viewport.",
+          "checklist": [
+            "Sticky search bar — the input fixed at the top of the screen as results scroll beneath it",
+            "Keyboard auto-focus — the keyboard opens immediately on navigating to the search screen, with no extra tap",
+            "Live results — results updating as the user types rather than requiring a submit tap",
+            "Recent searches — previously searched terms shown before the user starts typing",
+            "Filter bottom sheet — filtering accessed via a bottom sheet rather than a separate screen, keeping search context visible",
+            "Skeleton loading — skeleton cards in the expected result shape shown while results load",
+            "No results state — a helpful empty state suggesting spelling checks, removing filters, or related terms",
+            "Clear query button — an action inside or near the field to clear the current query with one tap"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "search-website",
+          "name": "Search (Website)",
+          "description": "Site-wide search over content or catalogue, where sorting and relevance signals do the heavy lifting.",
+          "checklist": [
+            "Search box — the element a user types in, at the top of the page and styled consistently with other search boxes",
+            "Visualisation of results — showing the items relevant to the search with enough detail to contextualise them",
+            "Search progress — a loading indicator, since a search may not be instant",
+            "Suggested search items — trending, most popular, recently searched, or autocorrected queries offered to save typing",
+            "Categories and/or filters — constraints to help users narrow their search area",
+            "Ordering of search results — sorting by best price, most relevant, newest first, and similar",
+            "Highlighting keywords — highlighting the searched words within the displayed results"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "filtering-items",
+          "name": "Filtering items",
+          "description": "The flow for narrowing a collection, keeping the applied constraints visible and easy to undo.",
+          "checklist": [
+            "Show action near item collection — placed above or beside the collection it affects, with a recognisable icon and/or label",
+            "Show available filter options — on the same page for immediate feedback, or on another page",
+            "Consider different filter types — a multi-select picker is standard, but some properties benefit from a range, date or toggle control",
+            "Show active filters clearly when applied — display which filters are currently applied on the collection page",
+            "Provide easy filter removal — clear individual filters or all filters at once",
+            "Show result count — where it is meaningful for users to see how far the result set has narrowed",
+            "Empty state — a filter combination can produce no results; explain it and suggest adjusting or clearing filters"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "single-item-detail",
+          "name": "Single Item Detail",
+          "description": "The full record view for one object, carrying its status, attributes, history and destructive actions.",
+          "checklist": [
+            "Clear title or identifier — the name, ID or primary label shown prominently at the top",
+            "Status indicator — a clear signal of the item's current state (active, pending, completed, archived), not conveyed by colour alone",
+            "Key details section — the most important attributes surfaced prominently, with secondary details below or in a sidebar",
+            "Edit action — a clear way to modify the item's details, either inline or via an edit mode",
+            "Related items or activity — associated records, linked content, or a history of who changed what and when",
+            "Breadcrumb or back navigation — a way to return to the list or parent context",
+            "Destructive actions — delete or archive options, kept visually separate from the primary actions"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "kanban-board",
+          "name": "Kanban board",
+          "description": "The column-per-stage work view where dragging a card is the primary act of updating state.",
+          "checklist": [
+            "Columns — distinct vertical lanes representing each stage of the workflow, configurable per team",
+            "Cards — individual items within each column showing title and key metadata at a glance",
+            "Drag and drop — moving cards between columns and reordering within a column, with a visual drop target while dragging",
+            "Quick add card — a fast way to create a new card directly within a column without opening a full form",
+            "Card detail on click — opening full detail (description, comments, attachments, history) without leaving the board",
+            "Column item count — how many cards are in each column, visible in the column header",
+            "Filtering, sorting and grouping — re-organising cards by assignee, label, priority or due date to focus on a subset"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "timeline-gantt-view",
+          "name": "Timeline / Gantt View",
+          "description": "The time-axis plan view where duration, sequence and slippage must be readable at a glance.",
+          "checklist": [
+            "Time axis — a horizontal axis with clear date markers at day, week or month granularity depending on zoom",
+            "Task bars — horizontal bars representing each task or milestone, positioned by start and end date",
+            "Dependencies — visual connectors between tasks that must be completed in sequence, showing what is blocked",
+            "Today indicator — a vertical line marking the current date so users see what is on track and what is overdue",
+            "Milestones — distinct markers for key dates or deliverables that are not duration-based tasks",
+            "Drag to reschedule — moving or resizing task bars to update dates directly, with a date tooltip while dragging",
+            "Row grouping — organising tasks by assignee, team, project phase or another dimension"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "analytics",
+          "name": "Analytics",
+          "description": "The metrics dashboard that answers what changed, over what period, and compared to what.",
+          "checklist": [
+            "Date range selector — with shortcuts for today, last 7 days, last 30 days, this month, and a custom range",
+            "Headline metrics — the most important numbers displayed as prominent figures readable at a glance",
+            "Charts with labels and axes — clearly labelled axes, a legend where needed, and readable tick marks",
+            "Period comparison — a percentage or absolute change indicator versus the prior period",
+            "Segment breakdown — the ability to slice a metric by channel, device, geography or another attribute",
+            "Last updated indicator — a visible timestamp or refresh button showing when the data was last updated",
+            "Loading and empty states — skeleton loaders while fetching, and a contextual message when no data exists for the range"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "version-history",
+          "name": "Version History",
+          "description": "The record of past states of a document, with a safe way to inspect and restore any of them.",
+          "checklist": [
+            "Version timeline — saved versions in reverse chronological order, each labelled with a timestamp and the user who saved it",
+            "Named versions — the ability to name a version (a milestone, a submission date, a phase label) so it is findable",
+            "Version preview — a read-only preview of any past version, visible without committing to a restore",
+            "Diff or change summary — a visual indication of what was added, removed or modified between two versions",
+            "Restore action — a clear way to make a past version current, with a confirmation that explains what happens to the current content",
+            "Autosave indicator — a persistent, subtle indicator of when the document was last saved automatically"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "data-import",
+          "name": "Data import",
+          "description": "The onboarding-critical flow that gets a customer's existing data into the product without corrupting it.",
+          "checklist": [
+            "Source selection — file upload (CSV, XLSX), a direct connector to a named competing tool, or API, each with its own path",
+            "Template download — a correctly formatted sample file, so the user shapes their export before uploading",
+            "Column mapping step — source columns mapped to product fields, with auto-detected guesses the user can override",
+            "Pre-import validation report — row count, detected errors, and duplicates flagged before anything is written",
+            "Row-level error handling choice — skip bad rows and continue, or abort the whole import; never partially apply silently",
+            "Duplicate strategy — create new, skip, or update matching records on a chosen key",
+            "Progress and completion summary — created, updated, skipped and failed counts, with a downloadable error file",
+            "Undo or rollback — the ability to revert an entire import batch as one unit"
+          ],
+          "source": "added"
+        },
+        {
+          "slug": "bulk-actions",
+          "name": "Bulk actions & multi-select",
+          "description": "The multi-select mode that applies one operation to many records while keeping the blast radius visible.",
+          "checklist": [
+            "Selection affordance per row plus select-all — with a clear distinction between 'all on this page' and 'all matching the current filter'",
+            "Persistent selection count — the number of selected items always visible while the action bar is open",
+            "Contextual action bar — appearing only in selection mode, listing exactly the operations valid for the selected set",
+            "Partial-validity handling — when an action applies to only some selected items, state how many will be affected and why the rest cannot",
+            "Confirmation proportional to risk — destructive bulk actions state the exact count and require explicit confirmation",
+            "Progress for long operations — a determinate indicator, and a per-item result summary when the batch finishes",
+            "Undo for reversible bulk operations — offered immediately after completion, not buried in an activity log",
+            "Clear selection — an obvious escape from selection mode that does not require deselecting each item"
+          ],
+          "source": "added"
+        },
+        {
+          "slug": "trash-and-restore",
+          "name": "Trash & restore",
+          "description": "The recoverable holding area that makes deletion survivable for a stated window.",
+          "checklist": [
+            "Deleted items listed with deletion date and the user who deleted them",
+            "Retention window stated per item — how many days remain before permanent purge",
+            "Restore action returning the item to its original location — including its parent folder, project, or board column",
+            "Handling for a restore whose parent is gone — either restore the parent chain or place the item somewhere named and findable",
+            "Permanent delete as a separate, confirmation-gated action — distinct from moving to trash",
+            "Empty trash action — with a count and an irreversibility warning",
+            "Search and filter within trash — so a large trash is still usable",
+            "Storage accounting made explicit — whether trashed items still count against the plan's quota"
+          ],
+          "source": "added"
+        }
+      ]
+    },
+    {
+      "slug": "communication",
+      "name": "Communication & Notifications",
+      "surfaces": [
+        {
+          "slug": "chat-mobile",
+          "name": "Chat (Mobile app)",
+          "description": "The messaging thread where keyboard behaviour and gestures decide whether the conversation feels native.",
+          "checklist": [
+            "Keyboard push-up — the message input bar rising with the keyboard so conversation history is not obscured",
+            "Input bar — persistent at the bottom with a text field, send button and media attachment option, thumb-reachable in all grips",
+            "Message bubbles — sent messages on the right, received on the left, consistent with existing messaging conventions",
+            "Swipe to reply — swiping a message right revealing a reply-to action that threads the response to that message",
+            "Long press message actions — opening a reaction picker and action menu e.g. react, reply, copy, delete",
+            "Read receipts — sent message status shown as subtle indicators (sent, delivered, read)",
+            "Media and file sharing — images, videos and files shareable from the input bar, with inline previews in the thread",
+            "Typing indicator — an animated indicator when the other party is composing",
+            "Scroll to latest — a button to jump to the newest message when new ones arrive while the user is scrolled up"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "chat-web-app",
+          "name": "Chat (Web app)",
+          "description": "The in-product conversation panel where message provenance and attachments must stay legible.",
+          "checklist": [
+            "Message thread — a chronological display with the most recent at the bottom, auto-scrolled to latest on load",
+            "Message input — a text field supporting multi-line input, typically Shift + Enter for a new line",
+            "Sender identification — name and avatar alongside each message, with consecutive messages from the same sender grouped",
+            "Timestamps — relative time for recent messages and a full timestamp for older ones",
+            "Read receipts — an indicator showing whether the other participant has seen a message",
+            "File and media sharing — the ability to attach images, files or links, shown within the conversation",
+            "Reactions — emoji reactions on individual messages as a lightweight way to respond without a full reply"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "comments",
+          "name": "Comments",
+          "description": "Anchored discussion attached to a specific piece of content, with a path to resolution.",
+          "checklist": [
+            "Anchor to context — comments attached to a specific paragraph, image, task or row rather than floating in a general thread",
+            "Reply threading — replies nested under the comment they respond to, keeping related discussion together",
+            "Resolve and archive — a way to mark a thread resolved, removing it from the active view while keeping it accessible",
+            "Reactions — emoji reactions on individual comments as a lightweight acknowledgement",
+            "@mention element — mentioning a user notifies them directly and is visually distinguished in the comment body",
+            "Edit action — the ability to edit after posting, with a visible edited marker for transparency",
+            "Delete action — the ability to delete after posting, with a confirmation modal beforehand",
+            "Comment count indicator — a visible count or badge on the item being discussed, so collaborators can see where threads exist"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "notifications",
+          "name": "Notifications",
+          "description": "The in-product notification centre that collects activity and lets the user clear it.",
+          "checklist": [
+            "Notification list — a chronological feed of alerts, messages and activity updates for the user",
+            "Read and unread states — a clear visual distinction, with an unread count on the icon that opens the centre",
+            "Notification type — a visual or label indicating type e.g. mention, system alert, billing event",
+            "Timestamp — relative time for recent items, a complete date and time for older ones",
+            "Actions — an action related to the event where relevant e.g. a reply button on a direct message notification",
+            "Mark all as read — a single action to clear all unread indicators at once",
+            "Empty state — a clear message when there are no notifications"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "in-app-notifications",
+          "name": "In-App Notifications",
+          "description": "The mobile notification inbox, distinct from system push, with grouping and swipe management.",
+          "checklist": [
+            "Reverse chronological order — newest notifications at the top so users do not scroll for the latest",
+            "Unread indicators — visually distinct from read items e.g. a dot, bolder text, or a background colour difference",
+            "Mark all as read — a single action to clear all unread indicators at once",
+            "Notification grouping — related notifications grouped e.g. multiple comments on the same post as a single expandable item",
+            "Swipe to dismiss action — individual notifications dismissible by swiping left to reveal a delete action",
+            "Deep link on tap — tapping a notification navigates directly to the relevant content",
+            "Empty state — for when the user has not received any notifications yet",
+            "Settings shortcut — a direct link to notification preferences for users who want to adjust what they receive",
+            "Notification content — the change, author and time that triggered the notification"
+          ],
+          "source": "checklist.design"
+        }
+      ]
+    },
+    {
+      "slug": "ai-agents",
+      "name": "AI & Agents",
+      "surfaces": [
+        {
+          "slug": "ai-chat-panel",
+          "name": "AI chat panel",
+          "description": "The assistant surface docked beside the product, which must show its work and stay correctable.",
+          "checklist": [
+            "Streaming response with a stop control — the user can interrupt generation mid-token without losing what has already streamed",
+            "Attached context made visible — which document, selection, file or record the assistant can currently see, and a way to remove any of it",
+            "Citations or source links on factual claims — resolvable to the underlying record, not free-floating assertions",
+            "Regenerate and edit-last-message — a retry path that does not require re-typing the prompt",
+            "Copy and insert actions on each response — copy as markdown, and insert directly into the document where that applies",
+            "Per-message feedback — thumbs up/down with an optional reason, routed somewhere a human reads",
+            "Conversation history — past threads listed, renameable, deletable, and scoped to the current workspace",
+            "Model or mode disclosure — which model or reasoning mode produced the answer, where the product offers a choice",
+            "Error and refusal states that name the cause — context length exceeded, rate limited, content policy, or upstream failure",
+            "Data handling statement reachable in one click — whether conversations train models or are retained, and for how long"
+          ],
+          "source": "added"
+        },
+        {
+          "slug": "agent-settings",
+          "name": "Agent settings",
+          "description": "The configuration surface that bounds what an autonomous agent may do on the user's behalf.",
+          "checklist": [
+            "Tool inventory with per-tool enable/disable — every capability the agent can invoke, listed explicitly",
+            "Autonomy level per tool — always ask, ask once per session, or always allow, with a safe default of always ask for anything destructive or outbound",
+            "Data scope — which workspaces, folders, repositories or connectors the agent may read, and which it may write",
+            "Spend and step caps — a maximum token or credit budget and a maximum step count per run, with the behaviour on exhaustion stated",
+            "Instruction or persona field — persistent custom instructions, with a visible character limit and a preview of the effective prompt",
+            "Model and reasoning-effort selection — with the cost and latency implication of each option shown",
+            "Schedule and trigger configuration — when the agent runs unattended, and what event starts it",
+            "Kill switch — a single control that halts all running agents and revokes their tokens immediately",
+            "Audit trail link — where to review what the agent actually did under these settings"
+          ],
+          "source": "added"
+        },
+        {
+          "slug": "ai-action-approval",
+          "name": "AI action approval",
+          "description": "The interrupt that puts a human in the loop before an agent takes a consequential action.",
+          "checklist": [
+            "The exact action rendered concretely — the file diff, the API call with its parameters, the recipient and body of the message",
+            "Blast radius stated — how many records are affected, and whether the action is reversible",
+            "Approve, edit-then-approve, and reject as three distinct outcomes — rejection can carry a reason back to the agent",
+            "Scope of the approval — this once, all similar actions this session, or always for this tool",
+            "Timeout behaviour defined — what happens if the user does not respond, defaulting to not acting",
+            "Origin trace — which agent, which run, and which instruction led to this request",
+            "Post-action receipt — confirmation of what was actually done, with an undo where the operation supports it"
+          ],
+          "source": "added"
+        },
+        {
+          "slug": "agent-run-history",
+          "name": "Agent run history",
+          "description": "The retrospective log that makes an autonomous run auditable after the fact.",
+          "checklist": [
+            "Run list with trigger, start time, duration, outcome and cost",
+            "Per-run step trace — each tool call with its inputs, outputs and errors, expandable without leaving the page",
+            "Artefacts produced linked from the run — files written, records changed, messages sent",
+            "Failure classification — distinguishing a model error, a tool error, a permission denial and a budget exhaustion",
+            "Replay or resume — re-run from the start or continue from the failed step with corrected input",
+            "Retention and export — how long traces are kept, and a way to export one for a support conversation",
+            "Filtering by agent, status and date range"
+          ],
+          "source": "added"
+        }
+      ]
+    },
+    {
+      "slug": "navigation-command",
+      "name": "Navigation & Command",
+      "surfaces": [
+        {
+          "slug": "tab-bar-navigation",
+          "name": "Tab Bar Navigation",
+          "description": "The persistent bottom bar that defines a mobile app's top-level information architecture.",
+          "checklist": [
+            "Tab count — limited to the most important destinations; three to five items is the typical range",
+            "Icon and label — each tab paired with both an icon and a text label unless the icon is unambiguous",
+            "Active and default states — the active tab visually distinct by colour, border or icon weight",
+            "Badge counts — for tabs with unread counts like messages and notifications, updating in real time",
+            "Fixed presence — the tab bar remains visible across its sections, and may be hidden a level deeper",
+            "Tap target size — each tab at least 44×44pt to be reliably tappable with a thumb in any grip",
+            "Haptic feedback — a subtle tap haptic on tab selection confirming the action"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "gesture-navigation",
+          "name": "Gesture navigation",
+          "description": "The set of touch gestures a mobile app supports, and how it teaches and confirms them.",
+          "checklist": [
+            "Swipe to go back — the standard action to go back without tapping a button, disabled where a horizontal swipe conflicts",
+            "List item swipe actions — revealing quick actions such as delete, archive or mark as read without opening the item",
+            "Pull to refresh — for scrollable content lists, with a visible indicator and haptic confirmation when triggered",
+            "Long press menus — an item revealing actions relevant to that specific element",
+            "Pinch to zoom — image and map content supporting standard pinch-to-zoom, with zoom level reset logically on navigation away",
+            "Drag to reorder — long-press-to-lift and drag with clear visual feedback during the drag state",
+            "Gesture hints — a subtle animation or tooltip on first encounter with a key gesture",
+            "Haptic feedback — for key gesture moments where a finger covers the screen and engagement is otherwise unclear"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "action-sheet",
+          "name": "Action Sheet",
+          "description": "The bottom sheet that presents options or confirmations without leaving the current screen.",
+          "checklist": [
+            "Heading and actions — a clear heading outlining the purpose, along with the relevant actions the user can select",
+            "Swipe or backdrop dismiss — dismissible by dragging down or tapping the dimmed area behind it, plus the expected close button",
+            "Destructive action styling — delete, remove or block styled in red and positioned last, separated from safe actions",
+            "Cancel action — a clearly labelled option that dismisses the sheet without taking any action",
+            "Snap points (if expandable) — defined positions the sheet expands or compresses to, with a drag handle indicating it is expandable",
+            "Content scrollability — decide what stays pinned on scroll so the sheet remains contextual; avoid scrolling where possible",
+            "Keyboard relation — sheet size and responsiveness when the keyboard is triggered while it is active",
+            "Backdrop dimming — the screen behind darkened to draw focus to the action sheet"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "in-app-browser",
+          "name": "In-App Browser",
+          "description": "The embedded web view that must prove which domain the user is on before they trust it.",
+          "checklist": [
+            "URL bar visibility — the current page's URL visible, confirming the domain before the user interacts with forms or credentials",
+            "Close action — a clear, persistent button in a fixed toolbar rather than hidden behind a gesture",
+            "Open in external default browser action — while preserving the in-app browser experience",
+            "Share action — allowing the URL to be shared without opening the default browser",
+            "Loading feedback — a top progress bar or activity indicator so the user knows the browser is working"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "map-view",
+          "name": "Map View",
+          "description": "The spatial browse surface where markers, permission and offline behaviour all have to hold up.",
+          "checklist": [
+            "Pin and marker designs — custom markers distinguishable from each other and the base map, sized for reliable tap accuracy",
+            "Marker clustering — how markers are grouped when too close together to be shown individually",
+            "Native map components — MapKit on iOS or Google Maps on Android to leverage existing foundations",
+            "Location permission — requested at the point in the flow where it is needed, with context on the access level and why",
+            "Current location re-centre — a visible button to re-centre the map without zooming or scrolling manually",
+            "Selected item bottom sheet — tapping a marker expanding a sheet with details, not a full-screen navigation away from the map",
+            "Search or filter actions — accessible as a persistent overlay on the map or as a separate screen",
+            "Offline handling — cached map tiles displayed where available, with a clear indicator the map may not be current"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "camera-capture",
+          "name": "Camera",
+          "description": "The capture screen that requests permission in context and lets the user confirm before committing media.",
+          "checklist": [
+            "Permission request — camera permission requested at the moment capture is triggered, not on app launch or during onboarding",
+            "Viewfinder and capture button — a full-screen viewfinder with a large capture button reachable by thumb at the bottom",
+            "Flash controls — accessible without leaving the capture screen, with auto, on and off states clearly indicated",
+            "Camera flip — a clear button accessible during capture, positioned so it is not accidentally triggered",
+            "Post-capture preview — shown after capture, giving the user the chance to retake or confirm before the media is used",
+            "Gallery picker of captures — the option to open a library containing the photos captured within that session"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "command-palette",
+          "name": "Command palette",
+          "description": "The keyboard-summoned launcher that exposes every navigable destination and executable action in one input.",
+          "checklist": [
+            "Single, discoverable shortcut — Cmd/Ctrl+K, opening from anywhere in the product including inside modals",
+            "Unified index — navigation targets, records, settings and executable commands searchable from the same field",
+            "Fuzzy matching with ranking — recent and frequent items ranked above alphabetical matches",
+            "Grouped, labelled results — sections such as Actions, Pages, Recent, so the result type is never ambiguous",
+            "Keyboard shortcut shown beside each command — teaching the direct shortcut for actions that have one",
+            "Full keyboard operation — arrow keys to move, Enter to run, Escape to dismiss, with no pointer required",
+            "Nested command mode — a selected command can accept a follow-up argument in the same palette without closing it",
+            "Contextual commands — actions valid for the current selection surfaced first, and invalid actions omitted rather than shown disabled",
+            "Empty and no-match states — the empty state suggests common commands; no-match offers the nearest alternatives"
+          ],
+          "source": "added"
+        },
+        {
+          "slug": "keyboard-shortcuts-overlay",
+          "name": "Keyboard shortcuts overlay",
+          "description": "The reference sheet that makes a product's keyboard model learnable in one glance.",
+          "checklist": [
+            "Opened by the conventional key — ? or Cmd+/ from any screen, and also linked from the help menu",
+            "Grouped by task area — navigation, editing, selection, view, with the current context's group shown first",
+            "Platform-correct key glyphs — Cmd on macOS and Ctrl on Windows and Linux, detected rather than hardcoded",
+            "Only shortcuts that are actually bound and currently valid — nothing aspirational or context-invalid",
+            "Searchable when the list is long — filtering by command name or by key",
+            "Custom bindings reflected — if the product allows rebinding, the overlay shows the user's own keys",
+            "Dismissable with Escape and by clicking outside, returning focus to where it was"
+          ],
+          "source": "added"
+        }
+      ]
+    },
+    {
+      "slug": "forms-flows",
+      "name": "Forms & Interaction Flows",
+      "surfaces": [
+        {
+          "slug": "multi-step-form",
+          "name": "Multi-step form",
+          "description": "A long input broken into stages, validated per step and reviewable before submission.",
+          "checklist": [
+            "Progress indicator — a clear visual showing how many steps exist and which one the user is on, with labels for context",
+            "Step heading and context — a clear title and brief context for each step, so users know what is being asked",
+            "Field grouping — each step containing only fields that belong together logically",
+            "Step-level validation — validation at each step before the user proceeds, not all at once at the end",
+            "Back navigation — the ability to return to a previous step without losing subsequent progress",
+            "Save and resume — the ability to save progress and return to the form later",
+            "Final review step — a summary of all entered information before submission, with a link to edit each section"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "submitting-a-form",
+          "name": "Submitting a form",
+          "description": "The submit-to-outcome sequence covering the loading, success and failure states of one form.",
+          "checklist": [
+            "Show button to submit — below the form fields, with copy that fits the form's purpose",
+            "Show loading state after submission — the user must see the form is being submitted; consider the hover state before the press too",
+            "Show success message when it submits — communicate the result back with a clear success message",
+            "If it doesn't, show an error message — for invalid information or another failure, the error must be shown",
+            "An error may occur because of the wrong information — when a field's criteria are not met, detail which field and why"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "showing-input-error",
+          "name": "Showing input error",
+          "description": "The validation timing model for a single field, so the user is corrected but never interrupted.",
+          "checklist": [
+            "Keep the input in default state — check for errors only after the information has been entered",
+            "Allow user to enter information — let the user type without interruption; do not assess as changes are made",
+            "Signal error after loss of focus — assess the field once the user has clicked or tabbed to another element",
+            "Return to default state upon reattempt — once the user focuses the field again, the error message disappears",
+            "Tie the message to the field programmatically — aria-describedby and aria-invalid, so it is identified for everyone, not only sighted users (WCAG 3.3.1 Error Identification)",
+            "Say how to fix it, not only what is wrong — \"use at least 8 characters\" beats \"invalid password\" (WCAG 3.3.3 Error Suggestion)",
+            "Never signal by colour alone — pair colour with text and an icon",
+            "Move focus to the first error on submit, and summarise the errors above long forms so the user is not hunting",
+            "Announce errors that arrive asynchronously in a live region (WCAG 4.1.3 Status Messages)",
+            "Preserve what the user typed — never clear a field because it failed validation",
+            "Do not re-ask for information already given in the same flow (WCAG 3.3.7 Redundant Entry)"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "saving-changes",
+          "name": "Saving changes",
+          "description": "The edit-to-persisted cycle that makes it obvious whether the user's changes are stored.",
+          "checklist": [
+            "Show action that enables change — an action to make information editable, since always-editable is riskier for some software",
+            "Disable save action until changes are made — the save button starts disabled",
+            "State changes to active once a change is made — the save action becomes enabled when a field is edited",
+            "Action changes to loading state when pressed — show that saving is in progress",
+            "Notify changes have been saved — after the page updates, inform the user their changes were saved"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "uploading-media",
+          "name": "Uploading media",
+          "description": "The file intake flow covering the drop target, constraints, progress and per-file outcome.",
+          "checklist": [
+            "Empty state — a clear visual placeholder with an upload icon and text indicating a file can be dropped to upload",
+            "Drag and drop interaction — a clear visual state change when a file is dragged over the drop area",
+            "Progress indicator — progress that updates in real time so users know their upload is working",
+            "File restrictions and constraints — size and format limits stated in the upload area before users attempt to upload",
+            "Outcome status — visual indicators such as green checkmarks for success and red warning icons for failures",
+            "Upload actions — ways to interact with an upload, choosing which actions show by default versus on hover",
+            "Showing multiple uploaded files — a clean list or grid with thumbnails, in a layout that scales"
+          ],
+          "source": "checklist.design"
+        }
+      ]
+    },
+    {
+      "slug": "system-states",
+      "name": "System & Edge States",
+      "surfaces": [
+        {
+          "slug": "empty-state",
+          "name": "Empty State",
+          "description": "The screen shown when there is nothing to show, which must distinguish new, filtered-out and broken.",
+          "checklist": [
+            "Illustration or icon — a contextual visual that signals emptiness rather than making the screen feel broken",
+            "Clear heading — a short, plain-language title naming what is missing e.g. 'No projects yet'",
+            "Supporting description — a brief explanation of what belongs in this space, most useful for first-time users",
+            "Primary action — a CTA that creates the first item, imports or connects, rather than linking somewhere generic",
+            "Zero state vs. no-results state — distinguish a screen empty because nothing was created from one that returned no matches",
+            "Error state variant — a separate variant for when content failed to load, as opposed to genuinely being empty"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "404",
+          "name": "404",
+          "description": "The not-found page that explains the miss and offers a way to stay on the site.",
+          "checklist": [
+            "Logo — either your complete logo or a symbol mark",
+            "Title — make it clear the user is on the 404 page",
+            "Description — explain why the user has landed on this page",
+            "Links to other pages — a link to the homepage, a link to contact, and a search bar to find what they wanted",
+            "Illustrations, patterns, visual flair — an opportunity to show off your brand's personality"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "error-500",
+          "name": "Error boundary / 500 page",
+          "description": "The failure surface for an unexpected server or client crash, which must not lose the user's work or their trust.",
+          "checklist": [
+            "Plain-language statement that the failure is ours, not the user's input",
+            "Retry action that re-attempts only the failed unit — the component or request, not a full page reload where a boundary can recover locally",
+            "Error reference identifier displayed and copyable — the same ID present in server logs, so support can trace it",
+            "Escape routes — links to the previous page, the dashboard, and the status page",
+            "Scoped boundary — a crash in one panel does not blank the entire application shell",
+            "Unsaved state preserved where the failure is client-side — draft content retained in local storage and offered on recovery",
+            "Automatic report with an opt-in description field — telemetry sent without the user having to file a ticket",
+            "No stack traces, internal hostnames or SQL in the user-facing message"
+          ],
+          "source": "added"
+        },
+        {
+          "slug": "offline-state",
+          "name": "Offline state",
+          "description": "The degraded mode that keeps a product usable, honest and non-destructive when the network is gone.",
+          "checklist": [
+            "Persistent connectivity indicator — a non-modal banner stating the app is offline, which clears itself on reconnect",
+            "Explicit read availability — which cached content is still viewable, and how stale it is, with a last-synced timestamp",
+            "Write queueing — actions taken offline are queued and marked pending rather than silently failing",
+            "Per-item sync status — pending, syncing, synced, or failed, visible on each affected record",
+            "Automatic replay on reconnect — with a summary of what synced and what did not",
+            "Conflict resolution — when the server changed the same record, the user is shown both versions and chooses, rather than losing one",
+            "Disabled-with-reason for genuinely online-only actions — payment, invites, exports, rather than letting them fail after a delay",
+            "No data loss on app termination while offline — the queue survives a cold start"
+          ],
+          "source": "added"
+        },
+        {
+          "slug": "maintenance",
+          "name": "Maintenance",
+          "description": "The planned-downtime page that tells users when the product will be back and where to watch.",
+          "checklist": [
+            "Clear status message — a plain-language explanation that the product is unavailable and why, differentiating scheduled from unexpected",
+            "Estimated return time — when the product is expected back, as specifically as possible",
+            "Status page link — a live status page where users can monitor progress and see real-time updates",
+            "Contact or support link — a way to reach support for urgent issues that cannot wait for the window to end",
+            "Brand consistency — styled consistently with the product, even if the content is minimal"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "force-update",
+          "name": "Force update required",
+          "description": "The blocking gate that stops an unsupported client version from talking to an incompatible backend.",
+          "checklist": [
+            "Hard block only when the old version genuinely cannot work — otherwise use a dismissible soft prompt",
+            "Reason and benefit stated — a security fix or a breaking API change, not just 'a new version is available'",
+            "Direct action to the store listing — one tap to the App Store or Play Store entry for this app",
+            "Current and required version numbers shown — useful for support conversations",
+            "Soft-prompt variant with 'later' — for recommended, non-breaking updates, with a frequency cap on re-asking",
+            "Offline-safe behaviour — the gate does not trap a user with no connection in an unrecoverable loop",
+            "Server-driven threshold — the minimum supported version is configured remotely, not compiled into the client"
+          ],
+          "source": "added"
+        }
+      ]
+    },
+    {
+      "slug": "marketing",
+      "name": "Marketing Site",
+      "surfaces": [
+        {
+          "slug": "homepage",
+          "name": "Homepage",
+          "description": "The top-of-funnel page that has to state what the product is, for whom, and what to do next.",
+          "checklist": [
+            "Above-the-fold value proposition — one sentence naming the product category and the outcome, readable without scrolling",
+            "Primary CTA repeated — the same action in the hero, mid-page and footer, with identical wording",
+            "Secondary CTA for the not-yet-ready — book a demo, watch a video, or read the docs",
+            "Product visual that shows the actual interface — a real screenshot or short loop, not an abstract illustration",
+            "Social proof near the top — customer logos, a headline metric, or a review score",
+            "Three to five benefit blocks — each tied to an outcome, each linking to the deeper feature or use-case page",
+            "Objection handling — pricing entry point, security posture, and integrations reachable in one click",
+            "Meta title, description and Open Graph image — set deliberately, since this page is the most-shared URL",
+            "Mobile-first layout — the hero, CTA and proof all legible on a phone without horizontal scroll"
+          ],
+          "source": "added"
+        },
+        {
+          "slug": "features",
+          "name": "Features",
+          "description": "The capability page that translates what the product does into what the visitor can do.",
+          "checklist": [
+            "Feature grouping — capabilities organised into logical themes so the page is scannable, not a wall of bullet points",
+            "Feature descriptions — each explained in one or two sentences from the user's perspective",
+            "Feature visuals — screenshots, GIFs or short video clips showing each feature in action",
+            "Benefits framing — each feature connected explicitly to an outcome, not just the capability",
+            "Social proof per feature — a relevant customer quote placed alongside the feature it relates to",
+            "CTA — a conversion point at the bottom and optionally inline for visitors convinced mid-page"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "compare",
+          "name": "Compare",
+          "description": "The head-to-head page that positions the product against a named competitor without losing credibility.",
+          "checklist": [
+            "Clear positioning statement — an opening that states plainly how this product differs from the competitor",
+            "Feature comparison table — side-by-side key features with clear tick and cross indicators",
+            "Key differentiators — a section expanding on where this product genuinely excels beyond the table",
+            "Social proof — testimonials or quotes from customers who switched from the competitor being compared",
+            "Pricing comparison — a clear, fair comparison of pricing structures where it is a meaningful factor",
+            "CTA — a direct prompt to try the product or book a demo"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "testimonials",
+          "name": "Testimonials",
+          "description": "The proof page that converts customer experience into credible, attributable evidence.",
+          "checklist": [
+            "Customer quotes — direct quotes describing their experience, attributed with name, role and company",
+            "Customer details — name, role, company and photo for each testimonial, since anonymised quotes carry less weight",
+            "Use case variety — testimonials across different customer types, industries and use cases",
+            "Video testimonials — short clips from customers willing to speak on camera",
+            "Review platform badges — aggregate scores from G2, Trustpilot, Capterra or similar, linking to verified reviews"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "waitlist",
+          "name": "Waitlist",
+          "description": "The pre-launch capture page that converts interest into a queued, incentivised signup.",
+          "checklist": [
+            "Email capture — a simple form to join, with a clear statement of what joining means",
+            "What to expect — what waitlist members receive (early access, a discount, a feature) and a rough timeline",
+            "Social proof — the total number of people already on the waitlist, to signal demand",
+            "Position indicator — the user's current position in the queue, shown after sign-up and updated as they move up",
+            "Referral mechanic — a shareable link that moves the user up the list when others join through it",
+            "Progress toward access — how close the product is to launch or how many spots remain at the current tier"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "affiliate",
+          "name": "Affiliate",
+          "description": "The partner-programme page that explains the economics clearly enough to recruit promoters.",
+          "checklist": [
+            "Programme overview — what the affiliate or partner programme involves and who it is designed for",
+            "Commission or reward structure — exactly what affiliates earn (percentage, flat fee, recurring) stated plainly",
+            "How it works — a step-by-step breakdown of joining, sharing and earning",
+            "Resources provided — links, banners, copy and tracking the company provides to help affiliates succeed",
+            "Social proof — testimonials or earnings examples from existing affiliates",
+            "Application or signup CTA — a clear form or button to join the programme"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "referral-flow",
+          "name": "Referral flow",
+          "description": "The in-product loop where an existing user invites a friend and both sides get a stated reward.",
+          "checklist": [
+            "Reward stated symmetrically — exactly what the referrer gets and exactly what the referred friend gets",
+            "Qualifying condition made explicit — signup, activation, or first payment, and when the reward actually lands",
+            "Unique, trackable link plus a code — shareable by copy, native share sheet, email and a pre-filled message",
+            "Referral status list — invited, signed up, qualified, rewarded, per person",
+            "Earned rewards balance with a redemption path — credit applied to billing, or payout, and how to trigger it",
+            "Limits and eligibility rules — caps per user, expiry, geographic restrictions, self-referral prohibited",
+            "Recipient-side landing page that honours the referral — the reward visible on arrival, not discovered after signup"
+          ],
+          "source": "added"
+        }
+      ]
+    },
+    {
+      "slug": "content-publishing",
+      "name": "Content & Publishing",
+      "surfaces": [
+        {
+          "slug": "blog",
+          "name": "Blog",
+          "description": "The content index that lets a reader find, filter and subscribe to the company's writing.",
+          "checklist": [
+            "Hero — a clear indicator that this is a blog, whether for an individual, team or company",
+            "Navigation — a logo, links, a CTA and potentially a search function, with links surfacing sub-topics",
+            "Layout — how sections and posts are structured, considering what is above the fold on mobile, tablet and desktop",
+            "Blog post preview — visuals and text where typography hierarchy puts the heading first and a branded thumbnail sets tone",
+            "Description — a summary of what the blog covers, shown in the hero",
+            "Tags and/or categories — topics attached to posts for convenient filtering",
+            "Search function — for a blog with many posts, so readers can find the content they want",
+            "Opt-in for subscription — a signup form that makes the reader a subscriber",
+            "Sidebar — supporting links and resources such as search, popular posts and trending topics",
+            "Pagination — breaking content into pages after 10–20 items"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "blog-post",
+          "name": "Blog Post",
+          "description": "The article page that has to hold attention, credit its author, and convert a reader onward.",
+          "checklist": [
+            "Title — copy that tells the user what to expect, phrased in an eye-catching or interesting manner",
+            "Sub heading — elaborating on the title and defining the purpose of the post",
+            "Thumbnail — a visual aid illustrating the themes of the content, drawn from the brand style guide",
+            "Author — who wrote and contributed to the post, with a selectable author profile",
+            "Content — the post itself, with responsiveness considered on smaller devices",
+            "Social sharing tools — the ability to share or send the post, positioned so it stays available while reading",
+            "Lead conversion content — relevant information about your product that ties in with the post",
+            "Related articles — suggested posts relevant to the current one",
+            "Opt-in for subscription — a signup form to notify readers of new posts",
+            "Date posted — when the post was shared live",
+            "Tags — a specific category for users to explore as a topic",
+            "Comments — a section for discussion that readers can join"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "changelog",
+          "name": "Changelog / Release notes",
+          "description": "The dated record of what shipped, written for users rather than for the commit log.",
+          "checklist": [
+            "Reverse-chronological entries each with a date and a version or release name",
+            "Change type labelled per item — new, improved, fixed, deprecated, breaking",
+            "User-facing language — what changed for the reader, not the internal ticket title",
+            "Visual evidence for significant changes — a screenshot or short clip of the new behaviour",
+            "Deep links into the product and into the docs for each substantive entry",
+            "Breaking changes and deprecations called out separately, with the removal date and a migration path",
+            "Subscription options — RSS, email, and an in-product 'what's new' badge that clears once read",
+            "Permalink and filter per entry — so a support reply can link to one specific change, filtered by product area"
+          ],
+          "source": "added"
+        },
+        {
+          "slug": "press-media",
+          "name": "Press / Media",
+          "description": "The journalist-facing page that supplies facts, assets and a named contact without an email exchange.",
+          "checklist": [
+            "Company overview — a concise, factual description of the company, what it does, when it was founded and who it serves",
+            "Press coverage — a curated list of notable media mentions with publication name, headline and link",
+            "Press contact — a dedicated email address for media enquiries",
+            "Brand assets — downloadable logos, product screenshots and founder headshots in multiple formats, light and dark",
+            "Key statistics — notable numbers journalists can use e.g. customers, revenue milestones, countries, team size",
+            "Recent press releases — archived official announcements for journalists researching the company's history"
+          ],
+          "source": "checklist.design"
+        }
+      ]
+    },
+    {
+      "slug": "company-trust",
+      "name": "Company & Trust",
+      "surfaces": [
+        {
+          "slug": "about",
+          "name": "About",
+          "description": "The company page that establishes why the product exists and who is behind it.",
+          "checklist": [
+            "Origin story — a genuine account of why the company was founded and the problem it set out to solve",
+            "Mission or values — what the company stands for and how it makes decisions, stated plainly",
+            "Team — the people behind the product: names, roles and faces",
+            "Milestones or traction — founding year, customer count, notable launches, establishing credibility",
+            "Investors or backers — logos or names of investors, accelerators or notable backers where relevant",
+            "CTA — a clear next step e.g. view open roles, read the blog, or try the product"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "team",
+          "name": "Team",
+          "description": "The people page that makes the company legible as a group of humans.",
+          "checklist": [
+            "Personality and branding — a theme or tone conveying how the team behaves",
+            "Team members — a representation of the team, with detail scaled to team size",
+            "Visuals — photography or illustrations of the team, offices or culture",
+            "Group by area or team — dividing members by area (marketing, design, engineering) for easier scanning",
+            "Link to careers — a route to open job opportunities for someone who liked what they saw"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "careers",
+          "name": "Careers",
+          "description": "The hiring page that sells the company to candidates and routes them into open roles.",
+          "checklist": [
+            "Company story — how the business started and the journey it has been on, including the why",
+            "Up to date information — quantitative values kept current e.g. team headcount, offices open, time operating",
+            "Employee benefits — perks and value props that show real, tangible value rather than gimmicks",
+            "Teams and divisions — a breakdown of team members or the areas that exist, scaled to team size",
+            "Job openings — a listing of all roles currently available, broken up by department for easier scanning",
+            "Working locations — where the offices are, and whether remote work is offered",
+            "Employee testimonials — stories from current employees about why they work there and what to expect"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "contact-us",
+          "name": "Contact Us",
+          "description": "The page that routes a stranger to the right channel and the right team.",
+          "checklist": [
+            "Personality and branding — visual character and tone of voice aligned with your brand",
+            "Clear methods to contact — phone number, email address or a form to fill in",
+            "Social media accounts — for users who feel more comfortable contacting via a social platform",
+            "Segmenting contact methods — separate contacts for support and sales, showing you have specific help for their issue",
+            "Easy location to get to — the page available in your header or footer"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "legal-privacy",
+          "name": "Privacy",
+          "description": "The legal hub carrying the privacy policy, terms and cookie policy in a readable, versioned form.",
+          "checklist": [
+            "Privacy policy — what data is collected, how it is used, how long it is kept, and how users can request deletion",
+            "Terms of service — the agreement governing use of the product: responsibilities, acceptable use, limitation of liability",
+            "Cookie policy — which cookies are used, what they do, and how users can control them",
+            "Last updated date — a clear timestamp on every legal document so users know they are reading the current version",
+            "Version history or changelog — a log of what changed between policy versions",
+            "Contact for legal queries — a dedicated email or address for data, privacy or legal enquiries"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "cookie-consent",
+          "name": "Cookie consent",
+          "description": "The consent gate that must obtain a lawful choice without dark-patterning the visitor.",
+          "checklist": [
+            "Reject-all with equal prominence to accept-all — same size, same visual weight, same click depth",
+            "Granular category toggles — necessary, functional, analytics, marketing, each described in one plain sentence",
+            "No pre-ticked non-essential categories — consent is opt-in, not opt-out",
+            "No tracking script fires before an affirmative choice — including analytics and tag managers",
+            "Consent record kept — timestamp, categories chosen, and policy version, retrievable for an audit",
+            "Persistent re-entry point — a footer link or floating control to change the choice later, at any time",
+            "Re-prompt on material change — when new vendors or categories are added, not on a fixed nagging schedule",
+            "Non-blocking layout — the banner does not obscure the content or the legal links behind it"
+          ],
+          "source": "added"
+        },
+        {
+          "slug": "security",
+          "name": "Security",
+          "description": "The trust page that lets a buyer's security reviewer answer their questions without a call.",
+          "checklist": [
+            "Certifications and compliance — SOC 2, ISO 27001, GDPR, HIPAA logos paired with an explanation of scope",
+            "Data encryption — a plain-language explanation of how data is encrypted at rest and in transit",
+            "Data residency — where customer data is stored and processed, with any regional options",
+            "Access controls — who within the company can access customer data, under what conditions, and what limits that access",
+            "Vulnerability disclosure — how security issues are reported and handled: an email address, a bug bounty, or a disclosure policy",
+            "Incident history — past disclosed incidents with dates and resolution summaries",
+            "Penetration testing — third-party audits with the most recent date and a way to request the report"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "status",
+          "name": "Status",
+          "description": "The independently hosted uptime page that reports component health and live incident progress.",
+          "checklist": [
+            "Component status list — each major service (API, dashboard, integrations, notifications) with its current operational state",
+            "Live incident updates — timestamped updates posted in sequence: identifying, investigating, resolved",
+            "Incident history — an archive of past incidents with dates, duration, affected components and a brief post-mortem",
+            "Uptime metrics — historical uptime percentages per component, typically over a rolling 90-day window",
+            "Scheduled maintenance — upcoming windows listed in advance with estimated duration and affected components",
+            "Subscribe to updates — email, SMS or webhook subscription so users are notified without checking the page",
+            "Separate domain — hosted independently of the main infrastructure, so it stays up when the product is down"
+          ],
+          "source": "checklist.design"
+        }
+      ]
+    },
+    {
+      "slug": "support",
+      "name": "Help & Support",
+      "surfaces": [
+        {
+          "slug": "help-center",
+          "name": "Help Center",
+          "description": "The self-serve documentation hub that resolves questions before they become tickets.",
+          "checklist": [
+            "Search with suggestions — a prominent search input returning relevant articles as the user types",
+            "Content categories — a hierarchy of topics for users who are not sure what to search for",
+            "Featured and popular content — the most-viewed or most-useful articles surfaced on the homepage",
+            "Article formatting — proper heading hierarchy, screenshots and formatted code blocks where relevant",
+            "Last updated date — the date each article was last reviewed or edited, shown at the top",
+            "Helpfulness feedback — a thumbs up/down or yes/no at the end of each article",
+            "Related articles — links to adjacent articles that might answer follow-up questions"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "faq",
+          "name": "FAQ",
+          "description": "The structured question list that removes purchase and usage objections at the point of doubt.",
+          "checklist": [
+            "Purposeful information — questions and answers that genuinely help users decide about your product",
+            "Contact options — a direct route to contact you when the question is not answered, ordered by preference",
+            "Table of contents — structured topics so users can navigate a large question set",
+            "Search functionality — keyword search for users to look up their questions",
+            "Navigate by topic — questions segmented into general topics to structure the content"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "contacting-support",
+          "name": "Contacting support",
+          "description": "The flow from a stuck user to the right support channel with expectations set.",
+          "checklist": [
+            "Show a link to contact support — in the website footer, in mobile app settings, and on any page experiencing an error, with clear copy",
+            "Show methods of contact — chat, call or FAQ listed with the benefits of each where multiple exist",
+            "Outline how to communicate and what is expected — once a method is chosen, make it clear how it will work",
+            "State the expected response time — per channel, before the message is sent, so the wait is a known quantity rather than silence",
+            "Give the request a reference and confirm it — a ticket ID on screen and by email, so the user has something to quote",
+            "Show past requests and their status — a history the user can return to instead of starting over",
+            "Let the user attach evidence — screenshots, files or logs, since the fastest support thread is the one that does not need three replies to reproduce",
+            "Carry context automatically — plan, app version, device and locale, so the user is not asked to repeat what you already know (WCAG 3.3.7 Redundant Entry)",
+            "Say when support is available — hours and timezone, and what happens to a message sent outside them"
+          ],
+          "source": "checklist.design"
+        },
+        {
+          "slug": "api-documentation",
+          "name": "API documentation",
+          "description": "The developer reference that has to get someone from zero to a successful first call.",
+          "checklist": [
+            "Quickstart that produces a working call in under five minutes — including how to obtain a key",
+            "Authentication explained once, concretely — header name, token format, and a copy-pasteable example",
+            "Per-endpoint reference — method, path, every parameter with type and requirement, and every response field",
+            "Runnable request examples in multiple languages — curl plus the officially supported SDKs, generated from the same spec",
+            "Complete error catalogue — every status code and error string, with the cause and the fix",
+            "Rate limits, pagination and idempotency documented as first-class topics, not footnotes",
+            "Versioning and deprecation policy — how versions are pinned, how long old ones live, and what changes without notice",
+            "Machine-readable spec published — OpenAPI or equivalent, downloadable and matching the rendered docs",
+            "Changelog for the API itself, separate from the product changelog"
+          ],
+          "source": "added"
+        },
+        {
+          "slug": "feature-announcement",
+          "name": "Feature announcement / Product tour",
+          "description": "The in-product introduction of something new, which must inform without hijacking the session.",
+          "checklist": [
+            "Targeted to users the feature is relevant to — not broadcast to every account regardless of plan or role",
+            "Dismissible at every step — with the dismissal remembered across devices and sessions",
+            "Anchored to the real UI element it describes — a positioned tooltip or spotlight, not a floating modal describing something offscreen",
+            "Step count bounded and visible — three to five steps at most, with progress shown",
+            "One clear action per step — try it now, read more, or skip",
+            "Never blocks the user's original intent — deferred if the user is mid-task in a form or editor",
+            "Re-openable on demand — findable later from a help or 'what's new' menu once dismissed",
+            "Links to the changelog entry and documentation for the same feature"
+          ],
+          "source": "added"
+        },
+        {
+          "slug": "feedback-survey",
+          "name": "In-product feedback survey",
+          "description": "The lightweight prompt that collects a rating or comment without derailing the user.",
+          "checklist": [
+            "Triggered after a completed action, never mid-task — at the end of a successful flow, not during one",
+            "Single question first — the rating or score alone, with the free-text follow-up appearing only after an answer",
+            "Frequency cap and cool-down — a stated minimum interval before the same user is asked again",
+            "Dismiss without answering — an obvious close that counts as a decline, not a deferral loop",
+            "Response acknowledged — a confirmation that the feedback reached a human, with a route to support for anything urgent",
+            "Low-score follow-up path — an offer to talk to support or file a bug when the rating indicates a problem",
+            "No blocking of the underlying interface — the prompt is a non-modal card or inline element"
+          ],
+          "source": "added"
+        }
+      ]
+    }
+  ]
+}

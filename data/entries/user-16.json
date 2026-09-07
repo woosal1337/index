@@ -1,0 +1,112 @@
+[
+ {
+  "id": "user:7fcdb0f572ee524d",
+  "templates": [],
+  "template_count": null,
+  "install": "pnpm add vgpu",
+  "package": "vgpu",
+  "docs_url": "https://vgpu.sh/llms.txt",
+  "repo_url": "https://github.com/vercel-labs/vgpu",
+  "registry_url": "https://vgpu.sh/api/mcp",
+  "github": {
+   "stars": 113,
+   "license": "MIT",
+   "last_activity": "2026-08-27"
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 22,
+   "blocks": null
+  },
+  "components": [
+   "gradient-background",
+   "animation",
+   "hero"
+  ],
+  "component_count": null,
+  "surfaces": [
+   "homepage"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-27",
+  "source": "user",
+  "slug": "vgpu",
+  "url": "https://vgpu.sh",
+  "name": "vgpu",
+  "tagline": "Vercel Labs WebGPU library where one WGSL shader renders in the browser, headless in Node.js and as a CI snapshot test",
+  "description": "vgpu is a WebGPU library from Vercel Labs, published under MIT as the npm package vgpu. The claim on the homepage is \"one shader, render everywhere\": the same WGSL runs on a browser canvas, headless in Node.js through Dawn, out to a PNG at 8192 by 4608, out to MP4 at 60 fps, and inside a CI test that compiles the shader, renders a frame and compares it to a stored snapshot.\n\nThe second idea is WGSL as a module system. You import and export .wgsl files the way you import TypeScript. At build time vgpu resolves the module graph, reflects the bindings, removes unused declarations and emits compact shader source. The homepage shows a three-file example that compiles down to 397 bytes.\n\nThe site carries 22 examples with read-only source: Simple Gradient, Triangle LED Hero, Anti-Aliasing, Black Hole, Optimized Black Hole, Earth, Interactive Fluid, Instanced Rendering, Batch Rendering, FFT ocean, FFT ocean surface, Raymarched fractal, Glass Fractal, Environment Map, Transmission, Clipping, Radiance Cascades, Agent Radiance Cascades, Next.js Flare, Depth Estimation, MNIST Classifier and Air Painting. The last three run the GPU tensor and neural-network side of the library, not a shader.\n\nEverything is built for a coding agent to drive. The CLI is npx vgpu, with check to validate WGSL, docs to read the reference, examples to pull verified source, doctor to repair the local runtime, snapshot to compare pixels, and mcp to serve the same content over stdio. An agent skill installs with npx skills add vercel-labs/vgpu. A hosted MCP server sits at /api/mcp with two read-only tools, docs and examples.",
+  "category": "textures-assets",
+  "subcategory": "shaders-and-effects",
+  "kinds": [
+   "shader-pack",
+   "animation-library",
+   "tool",
+   "mcp-server",
+   "agent-skill"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next",
+    "vanilla"
+   ],
+   "styling": [
+    "shader-glsl"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "cli",
+    "github-repo",
+    "mcp-server",
+    "agent-skill",
+    "public-api"
+   ],
+   "platform": [
+    "web",
+    "cross-platform"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code",
+    "3d",
+    "prose"
+   ],
+   "agent_readiness": [
+    "llms-txt",
+    "mcp-server",
+    "agent-skill",
+    "cli-installable",
+    "public-api",
+    "structured-docs",
+    "machine-index",
+    "open-source-code"
+   ],
+   "maturity": "beta"
+  },
+  "pricing_detail": "Free and MIT. No account, no paid tier and no rate limit on the examples API, which needs no token. The hosted MCP server needs no authentication.",
+  "agent_guidance": "Read /llms.txt first, then /agents.md. Append .md to any documentation URL to get that page as Markdown. The whole site is server-rendered, so a plain fetch works everywhere.\n\nUse vgpu when a brief needs a real-time effect that CSS cannot fake and the same frame must also exist as a PNG, an MP4 or a CI snapshot. That render-everywhere path is the reason to choose it over Paper Shaders or Shader Lab, both already in this corpus. Pick Paper Shaders instead when you only want an animated background in React, because vgpu asks you to write WGSL and gives you no ready component.\n\nTwo hard limits. The library is WebGPU only, so gate on navigator.gpu and ship a static poster for any browser without it. The package sits at 0.3.1 with 36 open issues, so pin the version.\n\nThe hosted MCP server at https://vgpu.sh/api/mcp works, but it accepts only protocol revision 2026-07-28. It rejects 2025-06-18 outright, and it also demands an Mcp-Method header and an _meta envelope on every request. An older MCP client cannot connect. Install it with npx -y add-mcp https://vgpu.sh/api/mcp -g, or run npx vgpu mcp over stdio, rather than hand-rolling the HTTP calls.",
+  "why_it_matters": "This is the most complete agent surface in the corpus: llms.txt, llms-full.txt, agents.md, sitemap.md, per-page Markdown, an OpenAPI 3.1 description, an RFC 9727 API catalog, a hosted MCP server, an installable skill and a CLI that documents itself. Treat it as the reference for what agent-ready documentation looks like, apart from what the library renders.",
+  "quality_tier": "A",
+  "tier_reason": "A cross-runtime WebGPU library from Vercel Labs under MIT, with 22 working examples, 103 English documentation pages mirrored in Chinese, and an agent surface no other record here matches. Held below S because the package is 0.3.1 with 36 open issues and a repository only 3 months old, because WebGPU support rules out any browser without it, and because it hands you WGSL rather than a component you can drop into a page.",
+  "notable_for": [
+   "one WGSL shader renders to canvas, PNG, MP4 and a CI snapshot",
+   "WGSL modules imported and tree-shaken like TypeScript",
+   "22 examples including black hole, FFT ocean and radiance cascades",
+   "hosted MCP server, agent skill and self-documenting CLI",
+   "GPU tensors, MNIST classifier and depth estimation"
+  ],
+  "evidence": "https://vgpu.sh/ 200, 242 KB server-rendered Next.js; title \"vgpu\", meta description \"The WebGPU library, designed for agents.\", og:image /hero/og.webp 1200x630. Homepage text read: \"One shader. Render everywhere.\", the four output panes Web interactive canvas, Image png 8192 x 4608, Video mp4 60 fps, CI headless artifact, the test log \"compile eve.wgsl / render headless frame / compare snapshot / 1 test passed 842ms\", the install lines pnpm add vgpu, npx skills add vercel-labs/vgpu and npx -y add-mcp https://vgpu.sh/api/mcp -g, and a compiled.wgsl output stated as 397 B. https://vgpu.sh/examples 200, 308 KB, 22 distinct example links, each with a title, a summary and tags. https://vgpu.sh/sitemap.xml 200, 232 URLs: 103 documentation pages under /docs (64 reference, 19 guides, 8 concepts, 4 get-started, 4 ml), the same 103 mirrored under /cn, 22 examples, plus the root and the examples index. https://vgpu.sh/llms.txt 200, 2,944 bytes of real content naming every documentation and machine surface. https://vgpu.sh/agents.md 200 gives category, audience, MCP manifest and agent instructions. https://vgpu.sh/openapi.json 200, 28,024 bytes, OpenAPI 3.1, title \"vgpu Examples Discovery API\", license MIT, security []. https://vgpu.sh/.well-known/vgpu-examples.json 200: contract vgpu-examples/v1, status active, minimumCliVersion 0.2.0-rc.1, a schemaSha256, indexUrl /api/examples/v1/latest.json. https://vgpu.sh/.well-known/mcp.json 200 names the server. https://vgpu.sh/robots.txt 200 allows all agents. MCP probe against https://vgpu.sh/api/mcp: initialize at 2025-06-18 answered 400 -32022 \"Unsupported protocol version\" with supported [\"2026-07-28\"]; tools/list then required an Mcp-Method header and an _meta envelope carrying io.modelcontextprotocol/protocolVersion and clientCapabilities; with all three it returned 200 and two tools, docs (search, read, resolve, list, grep, symbols) and examples, both readOnlyHint true. https://vgpu.sh/docs/cli.md 200 lists the commands check, docs, examples, mcp, snapshot, install-dawn, install-software-renderer and doctor. GitHub API vercel-labs/vgpu: MIT, 113 stars, 7 forks, 36 open issues, created 2026-05-05, pushed 2026-08-27, description \"Modular cross-runtime WebGPU library for shaders, 3D scenes, GPU tensors, neural networks, and math viz\". npm registry vgpu: latest 0.3.1, 20 versions, MIT, first published 2026-05-26, keywords webgpu graphics rendering vgpu, dependencies include @vgpu/core, @vgpu/wgsl, @vgpu/wgsl-std, @vgpu/adapter-node, @vgpu/adapter-mock, wgpu-matrix, pixelmatch and pngjs."
+ }
+]

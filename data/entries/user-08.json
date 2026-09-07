@@ -1,0 +1,86 @@
+[
+  {
+    "id": "user:89484628989abb64",
+    "slug": "indie-app-tools",
+    "url": "https://indieapp.tools/",
+    "name": "Indie App Tools",
+    "tagline": "Curated directory of ~48 tools for shipping an indie app, filed across 14 stages from inspiration to ASO",
+    "description": "A directory built around the sequence of shipping a mobile app alone rather than around tool categories. Fourteen sections run the length of that job: Inspiration (Icon Museum, Before, 60fps, Mobbin, AppShot Gallery, ScreensDesign), Design (Superdesign, Figma, Sleek), Subscriptions & Paywalls (RevenueCat, Superwall, StoreKit 2), AI App Builders (Rork, Anything, Superapp, Vibecode, Replit), Marketing (Everank, Postiz, Appkittie, SuperX), ASO (Appfigures, AppTweak, AppSprint, Astro), Analytics (PostHog, Amplitude, Mixpanel), AI Coding (Cursor, Claude Code, OpenAI Codex), Frameworks (SwiftUI, Flutter, React Native, Expo, Capacitor), then Videos, Blogs and an Agent Skills shelf. That last one is the unusual part: it lists skills rather than apps, including an App Store ASO skill driven from Claude Code and a generator for App Store screenshots. One line of description per tool, no scores and no reviews.",
+    "category": "inspiration-galleries",
+    "subcategory": "directories-and-meta-indexes",
+    "kinds": [
+      "directory",
+      "reference"
+    ],
+    "facets": {
+      "framework": [
+        "astro"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "no-license"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "gallery"
+      ],
+      "platform": [
+        "web",
+        "ios"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "prose"
+      ],
+      "agent_readiness": [
+        "js-only-shell"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": "Free. Has a submit form and a weekly newsletter.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 48,
+      "blocks": null
+    },
+    "agent_guidance": "Useful as a map of the mobile-shipping pipeline rather than as a deep catalogue: fourteen stages, roughly forty-eight tools, one line each. It is strongest where this corpus is weakest - paywalls and subscriptions (RevenueCat, Superwall, StoreKit 2), ASO (Appfigures, AppTweak, AppSprint) and App Store marketing, none of which a web-design catalog normally carries. The Agent Skills shelf is worth reading directly, since it lists Claude Code skills rather than SaaS products. It is an Astro site and the outbound hrefs are not in the served HTML, so a plain fetch returns every tool name and description but no destination URLs; render it to follow a link.",
+    "why_it_matters": "It is organised by the stage of shipping rather than by tool type, which makes it a checklist for a solo mobile launch and covers paywall, ASO and App Store surfaces that a web-focused design catalog otherwise misses entirely.",
+    "quality_tier": "B",
+    "tier_reason": "Well-organised and genuinely covers ground this corpus does not, especially subscriptions, ASO and the Agent Skills shelf. Held at B because it is shallow by design - one line per tool, about forty-eight entries, no depth on any of them - and the links are not retrievable without rendering.",
+    "notable_for": [
+      "14 stages from inspiration to ASO",
+      "~48 tools, one line each",
+      "Agent Skills shelf lists Claude Code skills, not apps",
+      "covers paywalls, subscriptions and ASO",
+      "Astro, free, newsletter and submit form"
+    ],
+    "http_status": 200,
+    "verified_at": "2026-08-18",
+    "evidence": "https://indieapp.tools/ 200; all 14 sections and their tools read from the rendered text; outbound hrefs absent from the served HTML (0 external links in source)",
+    "source": "user",
+    "already_enriched": true
+  }
+]

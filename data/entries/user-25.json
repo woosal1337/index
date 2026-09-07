@@ -1,0 +1,626 @@
+[
+ {
+  "id": "user:221392b8e708910c",
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-30",
+  "source": "user",
+  "slug": "color-review",
+  "url": "https://color.review",
+  "name": "Color.review",
+  "tagline": "A contrast checker that puts the ratio on a live scale against the 3, 4.5 and 7 thresholds while you drag the colour",
+  "description": "Color.review checks the contrast between a foreground and a background colour, and it does it while you move the colour rather than after you commit it.\n\nThe three WCAG thresholds are marked on the scale: 3 for large text, 4.5 for normal text and 7 for the enhanced level. Seeing where a pair falls between them is more useful than a pass or fail badge, because it shows how much room you have before the pair breaks.\n\nBoth colours are editable in hex, RGB, HSL, HSV and CMYK at once, with a Flip control to swap them. Separate previews cover Text and Headlines, which matters because the 3 and 4.5 thresholds apply to different sizes.\n\nThe state lives in the URL, in the form color.review/check/293845-FFFFFF, so a pair can be sent to a colleague as a link. The page publishes no real llms.txt: the path returns the same body as the home page.",
+  "category": "color",
+  "subcategory": "palette-generators",
+  "kinds": [
+   "tool",
+   "color-tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "wcag-aa",
+    "wcag-aaa"
+   ],
+   "content_type": [
+    "design-tokens"
+   ],
+   "agent_readiness": [
+    "js-only-shell"
+   ],
+   "maturity": "stable"
+  },
+  "pricing_detail": "Free, with no account and no paid tier on the page.",
+  "agent_guidance": "Build the URL to share a result: color.review/check/<foreground>-<background>, hex without the hash, as in color.review/check/293845-FFFFFF. That makes a contrast decision citable in a review.\n\nRead the position on the scale, not just the pass. The tool marks 3, 4.5 and 7, so a pair at 4.6 and a pair at 12 both pass and only one has room to survive a brand tweak.\n\nCheck Text and Headlines separately. The 3 threshold applies to large text and 4.5 to normal, so one pair can pass for a heading and fail for body copy.",
+  "why_it_matters": "A contrast checker that answers pass or fail hides how close the call was. Showing the ratio against all three thresholds turns it into a decision you can defend.",
+  "quality_tier": "B",
+  "tier_reason": "A focused accessibility tool that shows the ratio against all three WCAG thresholds live, edits in five colour models, and encodes its state in the URL so a result can be shared. Held at B because the page is client-rendered with no API, no llms.txt and no package, so an agent must compute contrast itself.",
+  "notable_for": [
+   "ratio shown live against the 3, 4.5 and 7 thresholds",
+   "separate previews for text and headlines",
+   "hex, RGB, HSL, HSV and CMYK at once",
+   "state encoded in a shareable URL",
+   "free with no account"
+  ],
+  "evidence": "https://color.review/ 200, 61 KB; title \"Color.review - Colors that look and work great for everyone\"; the page reads \"The contrast between foreground and background is\" beside a Contrast readout of 12, preview labels Text and Headlines, the threshold marks 3, 4.5 and 7, a Flip control, and the colour models RGB, HSL, CMYK and CSS with hex, r/g/b, h/s/l, h/s/v and c/m/y/k inputs for both foreground and background; the sample state URL shown is color.review/check/293845-FFFFFF. /llms.txt answers 200 with the same body as the home page, so it is a catch-all. Listed under Web Utility on designengineer.tools."
+ },
+ {
+  "id": "user:6960e0a1293e1930",
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "features"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-30",
+  "source": "user",
+  "slug": "ui-camera",
+  "url": "https://ui.camera",
+  "name": "ui.camera",
+  "tagline": "Product photography for software: studio-quality stills and video of an interface, made in the browser",
+  "description": "ui.camera makes marketing visuals out of a user interface. It calls the job product photography for software, which is the right description: the same work a photographer does for a physical product, applied to a screen.\n\nThe output is stills and video at what the site calls studio quality, produced in the browser with no desktop tool. Work is organised into Projects with an asset Library, and the canvas offers preset ratios such as 16:9.\n\nEvery product needs these images for a landing page, an app store listing or a launch post, and the usual routes are a screenshot that looks flat or a designer spending a day in a 3D tool. This sits between them.\n\nAn account is needed. The site publishes a sitemap but no llms.txt.",
+  "category": "textures-assets",
+  "subcategory": "mockups-and-asset-packs",
+  "kinds": [
+   "tool",
+   "mockup-tool",
+   "generator"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium",
+    "account-required"
+   ],
+   "distribution": [
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "images",
+    "video",
+    "screenshots"
+   ],
+   "agent_readiness": [
+    "js-only-shell",
+    "auth-required"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "pricing_detail": "An account is needed, with a free entry path. No figure appears in the served HTML.",
+  "agent_guidance": "Reach for it at the launch stage, not the build stage. The output is marketing imagery of a finished interface, so the interface has to exist first.\n\nAsk for video as well as stills. The site produces both, and a moving product shot is what a landing page hero usually needs.\n\nSend a person. It is a browser application behind an account with no API and no llms.txt, so an agent can specify the shot but cannot produce it.",
+  "why_it_matters": "A flat screenshot undersells a product and a day in a 3D tool overspends on one. This closes the gap between the two with no software to install.",
+  "quality_tier": "B",
+  "tier_reason": "A clear job named precisely, producing both stills and video in the browser with projects and an asset library behind it. Held at B because an account gates everything, no price appears, and there is no API, package or llms.txt for an agent to use.",
+  "notable_for": [
+   "product photography for software",
+   "stills and video from one interface",
+   "runs in the browser, nothing to install",
+   "projects and an asset library",
+   "sitemap but no llms.txt"
+  ],
+  "evidence": "https://ui.camera/ 200, 56 KB; title \"ui.camera — Product photography for software\"; the page reads \"Create beautiful product visuals from your UI. Studio-quality photos and videos of software, right in the browser.\", shows a 16:9 ratio control, and carries \"Add media\", Library, Projects, \"New project\", Showcase, \"Log in\" and \"Sign up\" controls with an Operator Demo assets view. /sitemap.xml 200 and /llms.txt 404. Listed under Web Utility on designengineer.tools."
+ },
+ {
+  "id": "user:c7089a842ce091f9",
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "components": [
+   "code-block"
+  ],
+  "component_count": null,
+  "surfaces": [],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-30",
+  "source": "user",
+  "slug": "ray-so",
+  "url": "https://ray.so",
+  "name": "ray.so",
+  "tagline": "Raycast's code screenshot tool: paste code, get an image worth putting in a post",
+  "description": "ray.so turns a block of code into an image. Raycast makes it, and its own description is code images.\n\nIt exists because a raw terminal screenshot reads badly in a post or a slide: the background is wrong, the padding is wrong and the syntax colours belong to somebody's editor theme. This produces a framed, padded, consistently highlighted image instead.\n\nThe interaction is one step. Paste the code, choose the look, export the image.\n\nThe site is small and client-rendered. A request for /llms.txt returns the same body as a nonsense path, so no agent file exists.",
+  "category": "utilities-naming",
+  "subcategory": "small-web-utilities",
+  "kinds": [
+   "tool",
+   "generator"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "images",
+    "code"
+   ],
+   "agent_readiness": [
+    "js-only-shell"
+   ],
+   "maturity": "stable"
+  },
+  "pricing_detail": "Free, with no account. Raycast makes it and the tool itself carries no paid tier.",
+  "agent_guidance": "Use it when code has to appear as an image: a post, a slide, a README header. A terminal screenshot reads badly in all three.\n\nDo not use it for code a reader must copy. An image cannot be selected, so a code block belongs in the document whenever the reader needs the text.\n\nSend a person. The tool is a client-rendered page with no API and a catch-all llms.txt, so an agent cannot generate the image here.",
+  "why_it_matters": "Code shared as a raw screenshot carries someone else's editor theme and no padding. One consistent frame makes the difference between a post that reads and one that does not.",
+  "quality_tier": "C",
+  "tier_reason": "A single job done cleanly, free, made by a company with a real product behind it. Held at C because it is a small utility with no API, no package and a catch-all llms.txt, and its output is an image, which is the wrong format whenever a reader needs to copy the code.",
+  "notable_for": [
+   "code as a shareable image",
+   "made by Raycast",
+   "one paste and one export",
+   "free with no account",
+   "llms.txt is a catch-all"
+  ],
+  "evidence": "https://ray.so/ 200, 30 KB; the served text reads \"Create beautiful images of your code — Code Images by Raycast\" with About and \"Export Image\" controls. /llms.txt answers 200 with the same body as a nonsense path, so it is a catch-all. /sitemap.xml 200. Listed under Web Utility on designengineer.tools."
+ },
+ {
+  "id": "user:3e2172ff079fbe61",
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "components": [
+   "gradient-background"
+  ],
+  "component_count": null,
+  "surfaces": [],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-30",
+  "source": "user",
+  "slug": "easing-gradients",
+  "url": "https://larsenwork.com/easing-gradients",
+  "name": "Easing Gradients",
+  "tagline": "Fixes the hard edge on a CSS gradient by easing the colour mix, with an editor plus PostCSS and Sketch plugins",
+  "description": "A linear CSS gradient usually shows a hard edge where it starts or ends. Easing Gradients explains why and fixes it: control the colour mix with an easing function rather than letting it run linearly.\n\nThe clearest case on the page is the one designers hit most often. A gradient laid under text or interface elements exists to raise contrast, and it should be invisible. A linear one is not, because the eye catches its boundary. An eased one carries the same amount of black and disappears.\n\nThree things ship beside the explanation: an editor for generating the gradient, a PostCSS plugin so it happens at build time, and a Sketch plugin.\n\nIt is a CSS Working Group proposal, so the technique is a stated direction for the platform and not only a trick. The page publishes no llms.txt and no sitemap.",
+  "category": "textures-assets",
+  "subcategory": "gradients-and-backgrounds",
+  "kinds": [
+   "tool",
+   "generator",
+   "reference"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "vanilla-css"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "web-app",
+    "npm-package",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code",
+    "design-tokens",
+    "images"
+   ],
+   "agent_readiness": [
+    "copy-paste-ready",
+    "cli-installable"
+   ],
+   "maturity": "stable"
+  },
+  "pricing_detail": "Free. The editor and both plugins carry no charge and need no account.",
+  "agent_guidance": "Reach for this whenever a gradient sits under text. That is the exact case the page addresses: a scrim meant to raise contrast should be invisible, and a linear gradient never is.\n\nUse the PostCSS plugin rather than pasting stops when the project has a build step. It generates the eased gradient at build time, so the source stays readable.\n\nKnow that it is a CSS Working Group proposal. The technique is a stated direction for the platform, so a hand-rolled version today is likely to be replaced by native syntax later.",
+  "why_it_matters": "The hard edge on a scrim gradient is one of the most common and least noticed defects in interface work, and this page names the cause and ships three ways to fix it.",
+  "quality_tier": "B",
+  "tier_reason": "A real and widespread defect explained precisely, with a live editor, a PostCSS plugin and a Sketch plugin behind it, and grounded in a CSS Working Group proposal rather than in preference. Held at B because it is one page by one person with no llms.txt, no sitemap, no stated licence and no versioning.",
+  "notable_for": [
+   "fixes the hard edge on a CSS gradient",
+   "eases the colour mix instead of the position",
+   "editor plus PostCSS and Sketch plugins",
+   "a CSS Working Group proposal",
+   "aimed at scrims under text"
+  ],
+  "evidence": "https://larsenwork.com/easing-gradients/ 200, 98 KB; the page reads \"Easing Gradients — Linear gradients often have hard edges where they start and/or end. We can avoid those by controlling the color mix with easing functions. It's currently a CSSWG proposal and you can use the Editor, PostCSS plugin, Sketch plugin\", and the examples section reads \"Gradients under text/ui are used to increase contrast but should often be as invisible as possible. The examples below have the same amount of black\". /llms.txt and /sitemap.xml both 404 and return the same body as a nonsense path. Listed under Web Utility on designengineer.tools as Easing Gradients."
+ },
+ {
+  "id": "user:847d5e87bee1f4e0",
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-30",
+  "source": "user",
+  "slug": "makeemoji",
+  "url": "https://makeemoji.com",
+  "name": "MakeEmoji",
+  "tagline": "An emoji maker with an AI animated mode, emoji packs, a Discord tie-in and a credit economy",
+  "description": "MakeEmoji builds custom emoji, and it goes further than a static image: an AI animated emoji mode sits on the front page.\n\nThe product splits into an Editor, a Studio marked BETA, Emoji Packs and a directory of Emoji Makers, with Tools, Guides and a Compare section behind them. A Discord link and an account sit in the navigation, which tells you where custom emoji actually get used.\n\nCredits meter the AI generation, and the site offers a way to earn them as well as a Pro tier.\n\nCustom emoji are a real part of a brand's presence in Slack and Discord, and almost nothing else in this corpus addresses that surface. The page is server-rendered at 681 KB with a sitemap, and it publishes no llms.txt.",
+  "category": "icons-logos",
+  "subcategory": "icon-sets",
+  "kinds": [
+   "generator",
+   "ai-tool",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium",
+    "usage-based",
+    "account-required"
+   ],
+   "distribution": [
+    "web-app",
+    "download"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "icons",
+    "images"
+   ],
+   "agent_readiness": [
+    "machine-index",
+    "auth-required"
+   ],
+   "maturity": "beta"
+  },
+  "pricing_detail": "Freemium on credits. The site calls itself free to start, meters AI generation with credits, offers a way to earn credits, and sells a Pro tier. No figure appears in the served HTML.",
+  "agent_guidance": "Reach for it when the brief covers Slack or Discord presence. Custom emoji are part of a brand there, and nothing else in this corpus produces them.\n\nAsk for the animated mode when the target is Discord. Animated emoji are a Discord feature and a static set will look flat beside them.\n\nBudget the credits. AI generation is metered rather than unlimited, and the site publishes no rate, so confirm the cost before promising a full pack.",
+  "why_it_matters": "A brand lives in Slack and Discord as much as on a landing page, and its emoji set is part of that. This is the only record in the corpus that makes them.",
+  "quality_tier": "C",
+  "tier_reason": "It covers a surface nothing else here does, with an animated mode and a pack model that matches how emoji are actually used. Held at C because the Studio is marked BETA, no price or credit rate is published, an account gates generation, there is no llms.txt, and no licence is stated for the output.",
+  "notable_for": [
+   "custom emoji including an AI animated mode",
+   "emoji packs and a makers directory",
+   "aimed at Slack and Discord presence",
+   "credits meter the generation",
+   "Studio marked BETA"
+  ],
+  "evidence": "https://makeemoji.com/ 200, 681 KB server-rendered; title \"Emoji Maker – Create Custom Emojis Online | MakeEmoji\"; the navigation holds Editor, \"Studio BETA\", Pack, Makers, \"Sign In\", Emojis, \"Emoji Packs\", \"Emoji Makers\", \"Earn Credits\", Tools, Guides, Pro, Blog, FAQ, Compare, Discord and Account; the hero reads \"Make AI animated emoji\" and \"The #1 Free Onl[ine]\" emoji maker. /sitemap.xml 200 and /llms.txt 404. Listed under Misc on designengineer.tools."
+ },
+ {
+  "id": "user:b1955931d2359bd0",
+  "templates": [],
+  "template_count": null,
+  "install": "npm install animejs",
+  "package": "animejs",
+  "docs_url": null,
+  "repo_url": "https://github.com/juliangarnier/anime",
+  "registry_url": null,
+  "github": {
+   "stars": 72523,
+   "license": "MIT",
+   "last_activity": "2026-08-21"
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "components": [
+   "animation",
+   "transition",
+   "text-effect",
+   "scroll-reveal"
+  ],
+  "component_count": null,
+  "surfaces": [],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-30",
+  "source": "user",
+  "slug": "anime-js",
+  "url": "https://animejs.com",
+  "name": "Anime.js",
+  "tagline": "The 72,523-star MIT JavaScript animation library, listed here for its easing function editor",
+  "description": "Anime.js is a JavaScript animation library. Julian Garnier maintains it, the repository carries 72,523 stars, the licence is MIT and it was pushed on 2026-08-21.\n\ndesignengineer.tools links it under Web Utility as \"Easing Editor\", pointing at its easing function documentation. That page is a visual editor for easing curves, and it is genuinely useful on its own: motion goes wrong more often through a bad curve than through a bad duration, and seeing the curve beats reading four numbers.\n\nThe library itself is the larger reason to record it. It animates CSS properties, SVG, DOM attributes and plain JavaScript objects through one API, which is what keeps it in use after more than a decade.\n\nThe documentation URL that the list points at now redirects to the site root, so link to the site and navigate to the easing section rather than deep-linking. The site publishes a sitemap, and /llms.txt returns the same body as the home page.",
+  "category": "motion-interaction",
+  "subcategory": "animation-engines",
+  "kinds": [
+   "animation-library",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "vanilla",
+    "react",
+    "vue",
+    "svelte"
+   ],
+   "styling": [
+    "vanilla-css"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo",
+    "copy-paste"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "cli-installable",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "pricing_detail": "Free and MIT, with no account and no paid tier.",
+  "agent_guidance": "Use the easing editor before you pick a curve by hand. That page is why the tool appears on a design engineer's list, and a wrong curve breaks motion more often than a wrong duration.\n\nInstall it as `animejs`. It is MIT, so there is no licence question, and it drives CSS properties, SVG, DOM attributes and plain objects through one API.\n\nLink to the site root, not the documentation path. The URL on designengineer.tools, animejs.com/documentation/easing-functions/, now redirects to animejs.com.\n\nCompare it against the corpus's motion records before you choose. Anime.js is imperative and general, which suits a one-off sequence more than a component library does.",
+  "why_it_matters": "One API that animates CSS, SVG, attributes and plain objects, under MIT, maintained for over a decade. The easing editor is the part a designer reaches for and the reason it is on this list.",
+  "quality_tier": "A",
+  "tier_reason": "A long-lived MIT animation library at 72,523 stars, pushed within the fortnight, covering CSS, SVG, attributes and objects through one API, with a visual easing editor that a design engineer cites on its own. Held below S because the site publishes no real llms.txt, the linked documentation URL now redirects, and it is imperative rather than component-shaped, so it fits a one-off sequence better than a system.",
+  "notable_for": [
+   "72,523 GitHub stars, MIT",
+   "visual easing function editor",
+   "animates CSS, SVG, attributes and plain objects",
+   "maintained for over a decade",
+   "the linked documentation URL now redirects"
+  ],
+  "evidence": "https://animejs.com/documentation/easing-functions/ 200 at 45,925 bytes, redirecting to https://animejs.com/, which is how designengineer.tools links it under the label \"Easing Editor\". /llms.txt answers 200 with the same body as the home page, so it is a catch-all, and /sitemap.xml answers 200. GitHub API for juliangarnier/anime: 72,523 stars, MIT, pushed 2026-08-21."
+ },
+ {
+  "id": "user:f701b46de623d806",
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "already_enriched": false,
+  "http_status": 403,
+  "verified_at": "2026-08-30",
+  "source": "user",
+  "slug": "shadertoy",
+  "url": "https://www.shadertoy.com",
+  "name": "ShaderToy",
+  "tagline": "The reference archive of GLSL fragment shaders, and it refuses every automated request",
+  "description": "ShaderToy is where fragment shaders are published, studied and copied. It is the reference archive for real-time GLSL work on the web, and a large share of the shader techniques used in interface backgrounds trace back to a shader posted there.\n\nNone of that could be verified from here. The site refuses automated requests: two attempts returned 403, including one with a full browser user agent, and /llms.txt and /sitemap.xml both answer 403 as well.\n\nFor a person with a browser it works normally. For anything automated it does not, and that is the fact this record carries.\n\ndesignengineer.tools lists it under Visual.",
+  "category": "textures-assets",
+  "subcategory": "shaders-and-effects",
+  "kinds": [
+   "gallery",
+   "reference",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free",
+    "account-required"
+   ],
+   "distribution": [
+    "web-app",
+    "gallery"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code",
+    "3d"
+   ],
+   "agent_readiness": [
+    "bot-blocked"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "pricing_detail": "Not verifiable. The site refuses automated requests, so no pricing page could be read.",
+  "agent_guidance": "Do not fetch this site. Two attempts returned 403, one with a full browser user agent, and both /llms.txt and /sitemap.xml return 403 too. Treat it as bot-blocked and do not retry.\n\nHand it to a person when the brief needs a shader. It works in a browser, and it remains the deepest archive of fragment shader work.\n\nUse NodeToy from this corpus when the shader has to be built rather than found. That record is readable and it generates shader graphs.",
+  "why_it_matters": "It is the archive most published shader work descends from, and recording that it blocks every automated request saves the next agent two wasted attempts.",
+  "quality_tier": "C",
+  "tier_reason": "The underlying archive is the reference for its field. Held at C because nothing could be verified: two requests returned 403 including one with a browser user agent, and the llms.txt and sitemap paths return 403 as well, so this corpus can state no count, licence or price.",
+  "notable_for": [
+   "the reference archive for GLSL fragment shaders",
+   "blocks every automated request with 403",
+   "llms.txt and sitemap also answer 403",
+   "works normally in a browser",
+   "listed under Visual on designengineer.tools"
+  ],
+  "evidence": "https://www.shadertoy.com/ returned 403 at 5,386 bytes on a plain request and 403 at 5,685 bytes on a retry with the user agent \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/131.0.0.0 Safari/537.36\" and an Accept-Language header. /llms.txt returned 403 at 5,623 bytes and /sitemap.xml returned 403. Tested 2026-08-30. Listed under Visual on designengineer.tools."
+ }
+]

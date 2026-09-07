@@ -1,0 +1,1079 @@
+[
+ {
+  "id": "505f5db4-89b4-4e44-ae72-3d23327d9b8b",
+  "slug": "kokonut-ui",
+  "url": "https://kokonutui.com",
+  "name": "Kokonut UI",
+  "tagline": "45 animated shadcn-CLI components for landing pages, plus 7 paid templates",
+  "description": "Kokonut UI is a shadcn-compatible registry of animated marketing and AI-flavoured React components built with Tailwind CSS and Motion. The free registry ships 45 installable components plus 2 hooks — text effects, gradient buttons, bento grids, AI prompt inputs, animated backgrounds. A separate Pro tier (kokonutui.pro) adds 100+ blocks across hero, pricing, auth and FAQ categories and 7 full page templates for a one-time fee. It is aimed at developers assembling a distinctive landing page fast rather than building an application design system.",
+  "category": "component-libraries",
+  "subcategory": "shadcn-registries",
+  "kinds": [
+   "registry",
+   "component-library",
+   "animation-library"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "tailwind-v4",
+    "tailwind-any"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source",
+    "freemium",
+    "one-time"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "cli",
+    "copy-paste",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "built-on-accessible-primitives",
+    "unknown"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "registry-json",
+    "cli-installable",
+    "copy-paste-ready",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "button",
+   "prompt-input",
+   "card",
+   "drawer",
+   "hero",
+   "shimmer",
+   "streaming-text",
+   "carousel",
+   "file-upload",
+   "search-input",
+   "command-palette",
+   "currency-input",
+   "gradient-background",
+   "meter",
+   "speech-input",
+   "tabs",
+   "workspace-switcher",
+   "switch",
+   "bento-grid",
+   "social-login-buttons",
+   "toolbar",
+   "typing-indicator",
+   "avatar",
+   "typewriter-text",
+   "text-effect",
+   "embed",
+   "glassmorphism",
+   "account-menu",
+   "dropdown-menu",
+   "animation"
+  ],
+  "component_count": 45,
+  "surfaces": [
+   "homepage",
+   "features",
+   "pricing-website",
+   "ai-chat-panel",
+   "search-results",
+   "uploading-media",
+   "public-profile",
+   "login-web-app"
+  ],
+  "templates": [
+   {
+    "name": "Agenta",
+    "url": "https://kokonutui.pro/docs/templates/agenta",
+    "purpose": "Futuristic detail-rich marketing site template"
+   },
+   {
+    "name": "Lume",
+    "url": "https://kokonutui.pro/docs/templates/lume",
+    "purpose": "Minimal AI/SaaS startup landing page"
+   },
+   {
+    "name": "Sonae",
+    "url": "https://kokonutui.pro/docs/templates/sonae",
+    "purpose": "Clean modern site for AI agent products"
+   },
+   {
+    "name": "AI",
+    "url": "https://kokonutui.pro/docs/templates/ai",
+    "purpose": "Landing page for AI projects"
+   },
+   {
+    "name": "Postly",
+    "url": "https://kokonutui.pro/docs/templates/postly",
+    "purpose": "SaaS template for selling an online product"
+   },
+   {
+    "name": "Futur",
+    "url": "https://kokonutui.pro/docs/templates/futur",
+    "purpose": "Modern storefront template for physical products"
+   },
+   {
+    "name": "Startup",
+    "url": "https://kokonutui.pro/docs/templates/startup",
+    "purpose": "Business/company site template"
+   }
+  ],
+  "template_count": 7,
+  "install": "npx shadcn@latest add @kokonutui/card-flip",
+  "package": null,
+  "docs_url": "https://kokonutui.com/docs",
+  "repo_url": "https://github.com/kokonut-labs/kokonutui",
+  "registry_url": "https://kokonutui.com/r/registry.json",
+  "github": {
+   "stars": 2000,
+   "license": "MIT",
+   "last_activity": null
+  },
+  "pricing_detail": "Free registry (MIT). Kokonut UI Pro: $119 lifetime one-time (listed at $159, discounted with code SUMMER25), includes 100+ Pro blocks and all 7 templates.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Reach for this when a landing page needs visual personality and plain shadcn/ui looks too flat — the text effects (glitch-text, matrix-text, sliced-text), gradient/particle buttons and animated backgrounds are the real draw. It installs alongside shadcn/ui via the same CLI so the two compose without conflict, but nearly every component pulls in Motion and is a client component, so keep them out of hot server-rendered paths and expect bundle growth. Do not use it as an application component set: it has no form, table, or data-grid coverage, so pair it with shadcn/ui or HextaUI for anything past the marketing page.",
+  "why_it_matters": "One of the few shadcn registries whose value is motion and typographic effect rather than another copy of the Radix primitives, which makes it a genuine complement to a base kit instead of a competitor.",
+  "quality_tier": "A",
+  "notable_for": [
+   "animated text effects",
+   "Motion-driven buttons",
+   "AI prompt input components",
+   "shadcn CLI namespace @kokonutui",
+   "$119 lifetime Pro tier"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://kokonutui.com, https://kokonutui.com/r/registry.json, https://kokonutui.pro, https://github.com/kokonut-labs/kokonutui, https://kokonutui.com/r/card-flip.json (200), https://kokonutui.pro/docs/templates/agenta (200). kokonutui.com/templates and /docs/components both 404."
+ },
+ {
+  "id": "2c9d283a-c18a-48cf-83e7-fe5bee79b8b0",
+  "slug": "8bitcn-ui",
+  "url": "https://www.8bitcn.com",
+  "name": "8bitcn/ui",
+  "tagline": "Retro pixel-art restyle of shadcn/ui: 57 components and 44 blocks",
+  "description": "8bitcn/ui is a full 8-bit/pixel-art reskin of shadcn/ui, distributed as a shadcn registry with 57 components and 44 blocks (102 registry items total). It covers the complete shadcn primitive surface — accordion through tooltip — restyled with pixel borders and a retro font, and then adds game-native pieces most kits lack: health/mana/XP bars, quest logs, save slots, character sheets, leaderboards, pause and game-over screens, plus playable 404 pages. Marketing blocks (hero, pricing, FAQ, CTA, footer, team, timeline) are included so a whole retro site can be assembled from the registry.",
+  "category": "component-libraries",
+  "subcategory": "shadcn-registries",
+  "kinds": [
+   "registry",
+   "component-library",
+   "theme-pack"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "tailwind-v4",
+    "tailwind-any"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "cli",
+    "copy-paste",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "built-on-accessible-primitives",
+    "keyboard-navigable",
+    "claimed-accessible"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "registry-json",
+    "cli-installable",
+    "copy-paste-ready",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "button",
+   "button-group",
+   "text-input",
+   "toast",
+   "otp-input",
+   "badge",
+   "textarea",
+   "calendar",
+   "card",
+   "carousel",
+   "dialog",
+   "dropdown-menu",
+   "hover-card",
+   "popover",
+   "resizable",
+   "select",
+   "sheet",
+   "label",
+   "checkbox",
+   "scroll-area",
+   "switch",
+   "alert",
+   "alert-dialog",
+   "tooltip",
+   "avatar",
+   "skeleton",
+   "breadcrumbs",
+   "collapsible",
+   "progress-bar",
+   "meter",
+   "slider",
+   "context-menu",
+   "menubar",
+   "toggle-button",
+   "table",
+   "tabs",
+   "combobox",
+   "command-palette",
+   "separator",
+   "radio-group",
+   "pagination",
+   "toggle-group",
+   "accordion",
+   "drawer",
+   "navigation-menu",
+   "theme-provider",
+   "spinner",
+   "kbd",
+   "empty-state",
+   "date-picker",
+   "chart",
+   "sidebar",
+   "login-form",
+   "hero",
+   "pricing-table",
+   "footer",
+   "timeline",
+   "error-page",
+   "bar-chart",
+   "area-chart",
+   "loading-overlay",
+   "dashboard",
+   "list"
+  ],
+  "component_count": 57,
+  "surfaces": [
+   "homepage",
+   "features",
+   "pricing-website",
+   "faq",
+   "login-web-app",
+   "sign-up",
+   "404",
+   "analytics",
+   "settings-web-app",
+   "team",
+   "testimonials",
+   "public-profile"
+  ],
+  "templates": [
+   {
+    "name": "dashboard-01",
+    "url": "https://www.8bitcn.com/blocks",
+    "purpose": "Full 8-bit admin dashboard page block"
+   },
+   {
+    "name": "login-page",
+    "url": "https://www.8bitcn.com/blocks",
+    "purpose": "Complete retro login page"
+   }
+  ],
+  "template_count": 2,
+  "install": "pnpm dlx shadcn@latest add @8bitcn/button",
+  "package": null,
+  "docs_url": "https://www.8bitcn.com/docs",
+  "repo_url": "https://github.com/TheOrcDev/8bitcn-ui",
+  "registry_url": "https://www.8bitcn.com/r/registry.json",
+  "github": {
+   "stars": 2000,
+   "license": "MIT",
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": 44
+  },
+  "agent_guidance": "Use this when the brief is a game, a jam project, a devtool with attitude, or any product that wants a deliberate retro identity — it is a drop-in restyle, so components keep shadcn's Radix behaviour and prop shapes and you can swap it in over an existing shadcn app almost mechanically. Its real differentiator over a plain retro theme is the game furniture: health-bar, xp-bar, quest-log, save-slots, leaderboard, main-menu, pause-menu and game-over blocks have no equivalent in any general-purpose kit. Watch the pixel font and thick borders — they break dense data tables and long-form reading, so keep it to chrome and marketing surfaces if the app has serious content.",
+  "why_it_matters": "The most complete themed fork of shadcn/ui in this index: it does not just restyle 20 primitives, it covers the whole surface and then adds a game-UI vocabulary nothing else ships.",
+  "quality_tier": "A",
+  "notable_for": [
+   "complete shadcn primitive parity",
+   "game UI blocks (health/mana/XP bars, quest log)",
+   "playable 404 pages",
+   "44 blocks including full marketing sections",
+   "MIT, 2k GitHub stars"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://www.8bitcn.com, https://www.8bitcn.com/r/registry.json (full item enumeration), https://github.com/TheOrcDev/8bitcn-ui"
+ },
+ {
+  "id": "5e2e2f7f-fa26-47d4-8b77-f2358c91c317",
+  "slug": "thegridcn",
+  "url": "https://thegridcn.com",
+  "name": "The Gridcn",
+  "tagline": "Tron-styled shadcn registry: 140 items, six themes, HUD and 3D grid components",
+  "description": "The Gridcn is a Tron-inspired theme system and component registry for shadcn/ui, built by Edu Calvo. Its registry ships 140 installable items: the full set of restyled shadcn primitives plus roughly 90 sci-fi originals — HUD frames, radar, reticle, identity disc, boot sequence, CRT effect, circuit background, grid floor, energy meters, coordinate and location displays, waveforms and data streams. Six named colour schemes (Tron, Ares, Clu, Athena, Aphrodite, Poseidon) swap the neon accent. Three.js powers the 3D grid pieces; everything else is React and Tailwind.",
+  "category": "component-libraries",
+  "subcategory": "shadcn-registries",
+  "kinds": [
+   "registry",
+   "theme-pack",
+   "component-library"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "tailwind-v4",
+    "tailwind-any",
+    "css-variables"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "cli",
+    "copy-paste",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "built-on-accessible-primitives",
+    "unknown"
+   ],
+   "content_type": [
+    "code",
+    "design-tokens"
+   ],
+   "agent_readiness": [
+    "registry-json",
+    "cli-installable",
+    "copy-paste-ready",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "accordion",
+   "alert",
+   "alert-dialog",
+   "aspect-ratio",
+   "avatar",
+   "avatar-group",
+   "badge",
+   "breadcrumbs",
+   "button",
+   "button-group",
+   "calendar",
+   "card",
+   "carousel",
+   "chart",
+   "checkbox",
+   "collapsible",
+   "command-palette",
+   "context-menu",
+   "dialog",
+   "drawer",
+   "dropdown-menu",
+   "dropdown-panel",
+   "empty-state",
+   "fieldset",
+   "form",
+   "grid",
+   "hover-card",
+   "text-input",
+   "input-group",
+   "otp-input",
+   "kbd",
+   "label",
+   "map",
+   "menubar",
+   "navigation-menu",
+   "pagination",
+   "popover",
+   "progress-bar",
+   "radio-group",
+   "scroll-area",
+   "select",
+   "separator",
+   "sheet",
+   "sidebar",
+   "skeleton",
+   "slider",
+   "toast",
+   "spinner",
+   "switch",
+   "table",
+   "data-grid",
+   "tabs",
+   "textarea",
+   "toggle-button",
+   "toggle-group",
+   "tooltip",
+   "video-player",
+   "terminal",
+   "meter",
+   "gauge-chart",
+   "timeline",
+   "tag",
+   "stat",
+   "sparkline",
+   "pricing-table",
+   "countdown",
+   "bento-grid",
+   "marquee",
+   "announcement-bar",
+   "rating",
+   "modal",
+   "file-upload",
+   "kanban-board",
+   "chip",
+   "number-input",
+   "heatmap",
+   "comparison-table",
+   "waveform",
+   "status-indicator",
+   "notification-center",
+   "progress-stepper",
+   "banner",
+   "panel",
+   "logo",
+   "review",
+   "count-up",
+   "ticker",
+   "particle-background",
+   "hover-effect",
+   "progress-feedback",
+   "animation"
+  ],
+  "component_count": 140,
+  "surfaces": [
+   "homepage",
+   "features",
+   "pricing-website",
+   "analytics",
+   "kanban-board",
+   "settings-web-app",
+   "search-results",
+   "map-view",
+   "testimonials",
+   "faq",
+   "changelog",
+   "empty-state",
+   "404"
+  ],
+  "templates": [],
+  "template_count": 0,
+  "install": "npx shadcn@latest add @thegridcn/button",
+  "package": null,
+  "docs_url": "https://thegridcn.com/docs/install",
+  "repo_url": "https://github.com/educlopez/thegridcn-ui",
+  "registry_url": "https://thegridcn.com/r/registry.json",
+  "github": {
+   "stars": 372,
+   "license": "MIT",
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Reach for this when the product wants a command-centre or sci-fi console feel — telemetry dashboards, monitoring tools, crypto and trading UIs, game companion apps. It is the only registry here that ships genuine HUD furniture (hud-corner-frame, radar, reticle, gauge, energy-meter, boot-sequence, data-stream) alongside real shadcn primitives, so you can build the whole screen from one namespace instead of hand-rolling the chrome. Two cautions: the 3D pieces pull in Three.js and are heavy, and the CRT/glow/scanline effects have no obvious reduced-motion story, so gate them behind a preference check yourself.",
+  "why_it_matters": "A themed registry that goes past recolouring — the ninety-odd sci-fi originals are a genuinely new component vocabulary, and the six Greek-god palettes make it a theme system rather than a single look.",
+  "quality_tier": "B",
+  "notable_for": [
+   "140 registry items",
+   "six named neon themes",
+   "HUD, radar and reticle components",
+   "Three.js grid-floor and 3D effects",
+   "CRT and scanline overlays"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://thegridcn.com, https://thegridcn.com/r/registry.json (full 140-item enumeration), https://github.com/educlopez/thegridcn-ui, https://thegridcn.com/r/hud.json (200). Note: https://thegridcn.com/registry.json returns 404; the registry lives at /r/registry.json."
+ },
+ {
+  "id": "3b875d90-d969-4856-a25e-cde5cfd0c51b",
+  "slug": "neobrutalism-ui",
+  "url": "https://retroui.dev",
+  "name": "Neobrutalism (ex RetroUI)",
+  "tagline": "Neo-brutalist shadcn registry: 60 free components, 158 Pro blocks, 6 templates",
+  "description": "Neobrutalism is a neo-brutalist React component system distributed as a shadcn registry — hard shadows, thick black borders, flat saturated colour. retroui.dev now 301-redirects to neobrutalism.com: the project rebranded from RetroUI and kept the same codebase and registry. The free tier is 60 open-source components covering the full Radix/Base UI primitive surface, installable through the shadcn CLI, with RTL and dark-mode variants and an MCP server so AI editors can search and install components directly. A paid Pro tier adds 158 production blocks, a Figma kit, a theme builder and 6 full-site templates.",
+  "category": "component-libraries",
+  "subcategory": "shadcn-registries",
+  "kinds": [
+   "registry",
+   "component-library",
+   "theme-pack"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "tailwind-v4",
+    "tailwind-any",
+    "css-variables"
+   ],
+   "license": [
+    "mit",
+    "commercial"
+   ],
+   "pricing": [
+    "free",
+    "open-source",
+    "freemium",
+    "subscription",
+    "one-time"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "cli",
+    "copy-paste",
+    "github-repo",
+    "mcp-server",
+    "figma-file"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "built-on-accessible-primitives",
+    "keyboard-navigable",
+    "rtl-support",
+    "claimed-accessible"
+   ],
+   "content_type": [
+    "code",
+    "figma",
+    "design-tokens"
+   ],
+   "agent_readiness": [
+    "mcp-server",
+    "registry-json",
+    "cli-installable",
+    "copy-paste-ready",
+    "open-source-code",
+    "agent-paywalled"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "accordion",
+   "alert",
+   "alert-dialog",
+   "aspect-ratio",
+   "avatar",
+   "badge",
+   "breadcrumbs",
+   "button",
+   "button-group",
+   "calendar",
+   "card",
+   "carousel",
+   "checkbox",
+   "collapsible",
+   "combobox",
+   "command-palette",
+   "context-menu",
+   "dialog",
+   "direction-provider",
+   "drawer",
+   "dropdown-menu",
+   "empty-state",
+   "fieldset",
+   "hover-card",
+   "text-input",
+   "input-group",
+   "otp-input",
+   "kbd",
+   "label",
+   "menubar",
+   "select",
+   "navigation-menu",
+   "pagination",
+   "popover",
+   "progress-bar",
+   "radio-group",
+   "resizable",
+   "scroll-area",
+   "separator",
+   "sheet",
+   "sidebar",
+   "skeleton",
+   "slider",
+   "toast",
+   "spinner",
+   "switch",
+   "table",
+   "tabs",
+   "textarea",
+   "toggle-button",
+   "toggle-group",
+   "tooltip"
+  ],
+  "component_count": 60,
+  "surfaces": [
+   "homepage",
+   "features",
+   "pricing-website",
+   "blog",
+   "blog-post",
+   "login-web-app",
+   "sign-up",
+   "analytics",
+   "admin-panel",
+   "public-profile",
+   "about",
+   "contact-us",
+   "faq",
+   "testimonials"
+  ],
+  "templates": [
+   {
+    "name": "Brutstack",
+    "url": "https://neobrutalism.com/templates/brutstack",
+    "purpose": "Devtools landing page for open-source projects, SaaS and cloud hosting"
+   },
+   {
+    "name": "Neoflux",
+    "url": "https://neobrutalism.com/templates/neoflux",
+    "purpose": "Multipage SaaS site with marketing, blog and authentication pages"
+   },
+   {
+    "name": "Brut Studio",
+    "url": "https://neobrutalism.com/templates/brutstudio",
+    "purpose": "Creative agency landing page for design studios"
+   },
+   {
+    "name": "Defolio",
+    "url": "https://neobrutalism.com/templates/defolio",
+    "purpose": "Portfolio site for product designers and developers"
+   },
+   {
+    "name": "Artis",
+    "url": "https://neobrutalism.com/templates/artis",
+    "purpose": "AI SaaS template built around image generation"
+   },
+   {
+    "name": "BrutAdmin",
+    "url": "https://neobrutalism.com/templates/brutadmin",
+    "purpose": "Admin dashboard with KPI cards, analytics and product tables"
+   }
+  ],
+  "template_count": 6,
+  "install": "npx shadcn add https://neobrutalism.com/r/base/button.json",
+  "package": null,
+  "docs_url": "https://neobrutalism.com/docs",
+  "repo_url": "https://github.com/neobrutalism/neobrutalism",
+  "registry_url": "https://neobrutalism.com/r/registry.json",
+  "github": {
+   "stars": 1600,
+   "license": "MIT",
+   "last_activity": null
+  },
+  "pricing_detail": "Free core components forever. Pro yearly: Individual $32/mo ($389/yr, 1 seat, personal and open-source use only), Team $66/mo ($789/yr, 5 seats, commercial use), Organization $132/mo ($1,589/yr, unlimited seats, commercial use). Lifetime one-time purchase offered at each tier. Client and commercial work needs Team or higher.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": 158
+  },
+  "agent_guidance": "This is the strongest neo-brutalist option available and the only one in this batch shipping an MCP server, so an agent can query and install components without scraping the docs — wire that up first. Note the URL history: retroui.dev and the old RetroUI name both still resolve, so treat retroui.dev, neobrutalism.com and 'RetroUI' as one product and always install from the neobrutalism.com registry. The licence trap matters more than the code: the $389 Individual tier forbids client and commercial work, so any paid client build needs the Team plan — flag that to the user before pulling a Pro block or template.",
+  "why_it_matters": "The reference implementation of the neo-brutalist look, with full primitive coverage, RTL support and an agent-installable MCP server — a themed registry maintained to the standard of a general-purpose one.",
+  "quality_tier": "S",
+  "notable_for": [
+   "rebranded from RetroUI",
+   "MCP server for AI editors",
+   "RTL variants and theme builder",
+   "158 Pro blocks and 6 full templates",
+   "seat-based commercial licensing"
+  ],
+  "already_enriched": false,
+  "http_status": 301,
+  "verified_at": "2026-08-15",
+  "evidence": "https://retroui.dev (301 -> neobrutalism.com), https://retroui.dev/r/registry.json (301 -> neobrutalism.com/r/registry.json), https://neobrutalism.com/, https://neobrutalism.com/r/registry.json (60-item enumeration), https://neobrutalism.com/templates, https://neobrutalism.com/pricing, https://github.com/neobrutalism/neobrutalism, https://neobrutalism.com/r/base/button.json (200)"
+ },
+ {
+  "id": "7f3781c7-8bf3-4efc-8089-0670f986eaf4",
+  "slug": "hextaui",
+  "url": "https://hextaui.com",
+  "name": "HextaUI",
+  "tagline": "103 shadcn registry items: primitives plus AI, auth, billing, settings and team blocks",
+  "description": "HextaUI extends shadcn/ui with full application blocks rather than another restyle. Its registry holds 103 items: roughly 54 base primitives (the standard Radix set plus tree, video-player, native-select, kbd) and then ~49 composed blocks grouped by product surface — 16 AI blocks (conversation, prompt input, streaming response, model selector, citations, thinking, usage quota), 17 auth blocks, 17 billing blocks, 22 settings blocks, 17 team blocks and 7 task blocks. Built by Preet Suthar, MIT-licensed, installed with the standard shadcn CLI.",
+  "category": "component-libraries",
+  "subcategory": "shadcn-registries",
+  "kinds": [
+   "registry",
+   "block-collection",
+   "component-library"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "tailwind-v4",
+    "tailwind-any",
+    "css-variables"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "cli",
+    "copy-paste",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "built-on-accessible-primitives",
+    "keyboard-navigable",
+    "claimed-accessible"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "registry-json",
+    "cli-installable",
+    "copy-paste-ready",
+    "structured-docs",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "accordion",
+   "alert",
+   "alert-dialog",
+   "aspect-ratio",
+   "avatar",
+   "badge",
+   "breadcrumbs",
+   "button",
+   "button-group",
+   "calendar",
+   "card",
+   "carousel",
+   "checkbox",
+   "collapsible",
+   "command-palette",
+   "context-menu",
+   "dialog",
+   "drawer",
+   "dropdown-menu",
+   "empty-state",
+   "fieldset",
+   "hover-card",
+   "text-input",
+   "input-group",
+   "otp-input",
+   "kbd",
+   "label",
+   "menubar",
+   "navigation-menu",
+   "pagination",
+   "popover",
+   "progress-bar",
+   "radio-group",
+   "resizable",
+   "scroll-area",
+   "sidebar",
+   "select",
+   "separator",
+   "sheet",
+   "skeleton",
+   "slider",
+   "toast",
+   "spinner",
+   "switch",
+   "table",
+   "tabs",
+   "textarea",
+   "toggle-button",
+   "toggle-group",
+   "tooltip",
+   "tree-view",
+   "video-player",
+   "conversation",
+   "prompt-input",
+   "message",
+   "streaming-text",
+   "reasoning",
+   "model-selector",
+   "suggestion",
+   "sources",
+   "chat-history",
+   "attachments",
+   "context-meter",
+   "file-upload",
+   "login-form",
+   "signup-form",
+   "magic-link",
+   "forgot-password-form",
+   "two-factor-setup",
+   "email-verification-banner",
+   "session-timeout-warning",
+   "profile-form",
+   "social-login-buttons",
+   "api-key-display",
+   "invoice",
+   "payment-form",
+   "payment-method-selector",
+   "plan-selector",
+   "pricing-table",
+   "promo-code-field",
+   "subscription-manager",
+   "usage-meter",
+   "team-invite",
+   "workspace-switcher",
+   "data-export",
+   "kanban-board",
+   "feed",
+   "comment",
+   "list",
+   "filter-panel"
+  ],
+  "component_count": 103,
+  "surfaces": [
+   "ai-chat-panel",
+   "agent-settings",
+   "settings-web-app",
+   "billing-web-app",
+   "pricing-web-app",
+   "api-keys",
+   "integrations",
+   "webhooks",
+   "data-export",
+   "invite",
+   "user-management",
+   "admin-panel",
+   "kanban-board",
+   "login-web-app",
+   "sign-up",
+   "resetting-password",
+   "two-factor-authentication",
+   "verifying-account",
+   "notification-settings",
+   "account-web-app",
+   "public-profile",
+   "usage-and-limits",
+   "deleting-account",
+   "share-and-permissions",
+   "filtering-items",
+   "feed",
+   "comments",
+   "chat-web-app",
+   "team"
+  ],
+  "templates": [],
+  "template_count": 0,
+  "install": "npx shadcn@latest add https://hextaui.com/r/button.json",
+  "package": null,
+  "docs_url": "https://hextaui.com",
+  "repo_url": "https://github.com/preetsuthar17/HextaUI",
+  "registry_url": "https://hextaui.com/r/registry.json",
+  "github": {
+   "stars": 635,
+   "license": "MIT",
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": 49
+  },
+  "agent_guidance": "This is the one in this batch to reach for when you are building the boring, expensive interior of a SaaS product — settings, billing, team management, API keys, 2FA — because it ships those as composed blocks instead of leaving you to assemble them from primitives. It is additive to shadcn/ui, not a replacement: same Radix base, same CLI, so install shadcn/ui first and pull only the HextaUI blocks you need. Its AI block set overlaps heavily with Vercel AI Elements, so pick one and stay there rather than mixing two chat vocabularies in the same app.",
+  "why_it_matters": "Most shadcn registries stop at the primitive layer or restyle it; HextaUI is one of the few that maps directly onto real product surfaces, which is exactly the layer an agent building an app is missing.",
+  "quality_tier": "A",
+  "notable_for": [
+   "49 surface-level blocks",
+   "16 AI chat blocks",
+   "22 settings blocks",
+   "17 billing blocks",
+   "MIT, additive to shadcn/ui"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://hextaui.com, https://hextaui.com/r/registry.json (full 103-item enumeration), https://github.com/preetsuthar17/HextaUI, https://hextaui.com/r/button.json (200). /docs and /docs/ui/components/button both 404 — docs are routed elsewhere."
+ },
+ {
+  "id": "91460dc5-7851-4cec-9ceb-a35109361f6b",
+  "slug": "wds-shadcn-registry",
+  "url": "https://wds-shadcn-registry.netlify.app",
+  "name": "WDS Shadcn Registry",
+  "tagline": "Five shadcn components for async actions, loading states and hard form inputs",
+  "description": "WDS Shadcn Registry is Web Dev Simplified's small, deliberately narrow shadcn registry. It ships five components — action-button, loading-swap, number-input, multi-select and password-input — each solving a specific problem shadcn/ui leaves to you: running an async action with a pending state, swapping content for a spinner without layout shift, validated numeric entry, multi-value selection, and password fields with reveal. Each also has an -experimental variant with wider icon-library support, for ten registry items total. It is a gap-filler for an existing shadcn app, not a library to start from.",
+  "category": "component-libraries",
+  "subcategory": "shadcn-registries",
+  "kinds": [
+   "registry",
+   "component-library"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "tailwind-any",
+    "css-variables"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "cli",
+    "copy-paste",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "built-on-accessible-primitives",
+    "keyboard-navigable",
+    "claimed-accessible"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "registry-json",
+    "cli-installable",
+    "copy-paste-ready",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "button",
+   "spinner",
+   "number-input",
+   "multi-select",
+   "password-input",
+   "progress-feedback"
+  ],
+  "component_count": 5,
+  "surfaces": [
+   "submitting-a-form",
+   "showing-input-error",
+   "saving-changes",
+   "multi-step-form",
+   "login-web-app",
+   "filtering-items"
+  ],
+  "templates": [],
+  "template_count": 0,
+  "install": "npx shadcn@latest add https://wds-shadcn-registry.netlify.app/r/action-button.json",
+  "package": null,
+  "docs_url": "https://wds-shadcn-registry.netlify.app/getting-started/installation/",
+  "repo_url": "https://github.com/WebDevSimplified/wds-shadcn-registry",
+  "registry_url": "https://wds-shadcn-registry.netlify.app/r/registry.json",
+  "github": {
+   "stars": 290,
+   "license": "MIT",
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Pull individual items from here, never the whole registry — the value is action-button and loading-swap, which correctly handle the async-submit pending state that developers otherwise reimplement badly on every form. Its multi-select and number-input predate and are simpler than the shadcn combobox and input-group patterns, so prefer the upstream shadcn versions if the project already has them and take only the async pieces. Skip the -experimental duplicates unless you need a non-Lucide icon library; they are the same components with a different icon dependency.",
+  "why_it_matters": "A rare example of a registry that is honest about being five components rather than padding to a hundred — the async-action pattern it encodes is a real, widely repeated gap in shadcn/ui.",
+  "quality_tier": "B",
+  "notable_for": [
+   "async action-button with pending state",
+   "loading-swap avoids layout shift",
+   "only 5 components, no padding",
+   "by Web Dev Simplified (Kyle Cook)",
+   "MIT"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://wds-shadcn-registry.netlify.app, https://wds-shadcn-registry.netlify.app/r/registry.json (10-item enumeration), https://github.com/WebDevSimplified/wds-shadcn-registry, https://wds-shadcn-registry.netlify.app/r/action-button.json (200)"
+ }
+]

@@ -1,0 +1,876 @@
+[
+ {
+  "id": "e7384663-79e1-4d17-a6bf-3b327a51e0f3",
+  "slug": "awesome-design-skills",
+  "url": "https://github.com/bergside/awesome-design-skills",
+  "name": "Awesome Design Skills",
+  "tagline": "67 named visual-style SKILL.md files an agent can pull into a repo",
+  "description": "A curated registry of 67 design-system \"skills\", each a pair of SKILL.md (machine instructions for a coding agent) and DESIGN.md (human rationale). Every skill encodes one named aesthetic — Brutalism, Claymorphism, Editorial, Neon, Riso, Skeuomorphism and so on — as brand philosophy, typography, colour, spacing, component specs, WCAG 2.2 AA gates, writing tone, and explicit do/don't rules. You pull one into a project with the TypeUI CLI so Claude Code, Cursor or Codex generate UI in a consistent, pre-argued visual language. It is for anyone who wants an agent's output to look deliberate instead of default-Tailwind.",
+  "category": "agent-design-tooling",
+  "subcategory": "agent-skills",
+  "kinds": [
+   "agent-skill",
+   "registry",
+   "design-md"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "agent-skill",
+    "cli",
+    "github-repo"
+   ],
+   "platform": [
+    "platform-agnostic"
+   ],
+   "accessibility": [
+    "wcag-aa",
+    "claimed-accessible"
+   ],
+   "content_type": [
+    "prompts",
+    "prose",
+    "design-tokens"
+   ],
+   "agent_readiness": [
+    "agent-skill",
+    "cli-installable",
+    "open-source-code",
+    "structured-docs",
+    "machine-index"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npx typeui.sh pull <slug>",
+  "package": "typeui.sh",
+  "docs_url": null,
+  "repo_url": "https://github.com/bergside/awesome-design-skills",
+  "registry_url": null,
+  "github": {
+   "stars": 2400,
+   "license": "MIT",
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 67,
+   "blocks": null
+  },
+  "agent_guidance": "Reach for this at the START of a build, before you write a single component — pulling one skill fixes type scale, colour, spacing and tone so every later generation agrees with itself. Pair it with a code source (shadcn/ui, Tailark) rather than treating it as one: these files are prose specs, not components, and they will not install anything renderable. Run `npx typeui.sh list` to browse, and pick exactly one style per project — stacking two skills produces contradictory token rules that you will silently average into mush.",
+  "why_it_matters": "It solves the real failure mode of agent-built UI — competent components arranged with no point of view — by making visual direction a one-command, versionable input.",
+  "quality_tier": "A",
+  "notable_for": [
+   "67 named visual styles as SKILL.md files",
+   "paired SKILL.md + DESIGN.md per style",
+   "one-command pull via npx typeui.sh",
+   "WCAG 2.2 AA quality gates baked into each skill",
+   "targets Claude Code, Cursor and Codex directly"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://github.com/bergside/awesome-design-skills"
+ },
+ {
+  "id": "ba79b4e3-2773-46c0-a6de-670e0e90eb8c",
+  "slug": "shadcn-ui-github",
+  "url": "https://github.com/shadcn-ui/ui",
+  "name": "shadcn/ui (GitHub)",
+  "tagline": "Source monorepo for shadcn/ui: components, CLI, registry schema, skills",
+  "description": "The upstream monorepo behind shadcn/ui — the component sources, the `shadcn` CLI, the registry schema that every third-party shadcn registry conforms to, plus `templates/` and `skills/` directories for agent tooling. Components are React on top of Radix and Tailwind, distributed as code you copy into your repo rather than a dependency you import. Read this repo when you need the actual implementation, the registry JSON contract, or to file against upstream behaviour.",
+  "category": "component-libraries",
+  "subcategory": "shadcn-registries",
+  "kinds": [
+   "registry",
+   "component-library",
+   "primitive"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next",
+    "remix",
+    "astro",
+    "vanilla"
+   ],
+   "styling": [
+    "tailwind-v4",
+    "tailwind-v3",
+    "css-variables"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "github-repo",
+    "shadcn-registry",
+    "cli",
+    "copy-paste",
+    "npm-package"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "built-on-accessible-primitives",
+    "aria-complete",
+    "keyboard-navigable",
+    "focus-managed"
+   ],
+   "content_type": [
+    "code",
+    "design-tokens"
+   ],
+   "agent_readiness": [
+    "registry-json",
+    "cli-installable",
+    "open-source-code",
+    "agent-skill",
+    "copy-paste-ready",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "accordion",
+   "alert",
+   "alert-dialog",
+   "aspect-ratio",
+   "attachments",
+   "avatar",
+   "badge",
+   "breadcrumbs",
+   "button",
+   "button-group",
+   "calendar",
+   "card",
+   "carousel",
+   "chart",
+   "bar-chart",
+   "line-chart",
+   "area-chart",
+   "pie-chart",
+   "checkbox",
+   "collapsible",
+   "combobox",
+   "command-palette",
+   "context-menu",
+   "data-grid",
+   "table",
+   "date-picker",
+   "dialog",
+   "direction-provider",
+   "drawer",
+   "dropdown-menu",
+   "empty-state",
+   "form",
+   "label",
+   "help-text",
+   "validation-message",
+   "hover-card",
+   "text-input",
+   "input-group",
+   "otp-input",
+   "kbd",
+   "menubar",
+   "message",
+   "message-scroller",
+   "navigation-menu",
+   "pagination",
+   "popover",
+   "progress-bar",
+   "survey",
+   "radio-group",
+   "resizable",
+   "scroll-area",
+   "select",
+   "separator",
+   "sheet",
+   "sidebar",
+   "skeleton",
+   "slider",
+   "spinner",
+   "switch",
+   "tabs",
+   "textarea",
+   "toast",
+   "toggle-button",
+   "toggle-group",
+   "tooltip",
+   "typography",
+   "login-form",
+   "signup-form",
+   "app-shell"
+  ],
+  "component_count": 64,
+  "surfaces": [
+   "login-web-app",
+   "sign-up",
+   "settings-web-app",
+   "account-web-app",
+   "admin-panel",
+   "analytics",
+   "search-results",
+   "filtering-items",
+   "single-item-detail",
+   "empty-state",
+   "multi-step-form",
+   "showing-input-error",
+   "command-palette",
+   "notifications",
+   "ai-chat-panel"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "pnpm dlx shadcn@latest init",
+  "package": "shadcn",
+  "docs_url": "https://ui.shadcn.com/docs",
+  "repo_url": "https://github.com/shadcn-ui/ui",
+  "registry_url": "https://ui.shadcn.com/r/registry.json",
+  "github": {
+   "stars": 121400,
+   "license": "MIT",
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Go to the repo, not the docs site, when you need the registry JSON schema (you are authoring or validating a custom registry), the exact source of a component you are patching, or the `skills/` and `templates/` directories. For ordinary \"add a dialog\" work use the CLI against ui.shadcn.com instead — cloning or vendoring from this monorepo gets you a pnpm workspace you do not want. Note that components land as editable files in your repo, so upstream fixes never reach you automatically; re-running `add` overwrites your local edits.",
+  "why_it_matters": "This repo defines the registry contract that most of the modern React UI ecosystem now publishes against, which makes it infrastructure rather than just another library.",
+  "quality_tier": "S",
+  "notable_for": [
+   "121k+ GitHub stars",
+   "defines the shadcn registry JSON schema",
+   "ships .claude and .cursor-plugin agent config",
+   "MIT, copy-in-not-import distribution",
+   "templates/ and skills/ directories in-repo"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://github.com/shadcn-ui/ui, https://ui.shadcn.com/docs/components, https://ui.shadcn.com/docs/cli"
+ },
+ {
+  "id": "ef2e1912-407e-4402-8a6d-78669e0b0246",
+  "slug": "shadcn-ui",
+  "url": "https://ui.shadcn.com",
+  "name": "shadcn/ui",
+  "tagline": "64 copy-in React components on Radix + Tailwind, installed by CLI",
+  "description": "The official shadcn/ui site: documentation, live examples, blocks, theming, and the registry the `shadcn` CLI reads from. It ships 64 documented components — from Button and Dialog through Sidebar, Data Table, Chart, and the newer chat primitives Message, Message Scroller, Bubble and Attachment — as source files you own, styled with Tailwind CSS variables and built on Radix primitives. Blocks cover dashboard, sidebar, login and signup layouts. It is the default starting point for any React app that needs a coherent, accessible, themeable component layer without a runtime dependency.",
+  "category": "component-libraries",
+  "subcategory": "shadcn-registries",
+  "kinds": [
+   "component-library",
+   "registry",
+   "design-system-docs"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next",
+    "remix",
+    "astro",
+    "vanilla"
+   ],
+   "styling": [
+    "tailwind-v4",
+    "tailwind-v3",
+    "css-variables"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "cli",
+    "copy-paste",
+    "npm-package",
+    "github-repo",
+    "mcp-server"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "built-on-accessible-primitives",
+    "aria-complete",
+    "keyboard-navigable",
+    "focus-managed",
+    "semantic-html"
+   ],
+   "content_type": [
+    "code",
+    "design-tokens"
+   ],
+   "agent_readiness": [
+    "registry-json",
+    "cli-installable",
+    "mcp-server",
+    "structured-docs",
+    "copy-paste-ready",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "accordion",
+   "alert",
+   "alert-dialog",
+   "aspect-ratio",
+   "attachments",
+   "avatar",
+   "badge",
+   "breadcrumbs",
+   "button",
+   "button-group",
+   "calendar",
+   "card",
+   "carousel",
+   "chart",
+   "bar-chart",
+   "line-chart",
+   "area-chart",
+   "pie-chart",
+   "checkbox",
+   "collapsible",
+   "combobox",
+   "command-palette",
+   "context-menu",
+   "data-grid",
+   "table",
+   "date-picker",
+   "dialog",
+   "direction-provider",
+   "drawer",
+   "dropdown-menu",
+   "empty-state",
+   "form",
+   "label",
+   "help-text",
+   "validation-message",
+   "hover-card",
+   "text-input",
+   "input-group",
+   "otp-input",
+   "kbd",
+   "menubar",
+   "message",
+   "message-scroller",
+   "navigation-menu",
+   "pagination",
+   "popover",
+   "progress-bar",
+   "survey",
+   "radio-group",
+   "resizable",
+   "scroll-area",
+   "select",
+   "separator",
+   "sheet",
+   "sidebar",
+   "skeleton",
+   "slider",
+   "spinner",
+   "switch",
+   "tabs",
+   "textarea",
+   "toast",
+   "toggle-button",
+   "toggle-group",
+   "tooltip",
+   "typography",
+   "login-form",
+   "signup-form",
+   "app-shell",
+   "theme-provider"
+  ],
+  "component_count": 64,
+  "surfaces": [
+   "login-web-app",
+   "sign-up",
+   "settings-web-app",
+   "account-web-app",
+   "admin-panel",
+   "analytics",
+   "search-results",
+   "filtering-items",
+   "single-item-detail",
+   "empty-state",
+   "multi-step-form",
+   "showing-input-error",
+   "saving-changes",
+   "command-palette",
+   "notifications",
+   "ai-chat-panel",
+   "chat-web-app",
+   "user-management",
+   "api-keys"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "pnpm dlx shadcn@latest add [component]",
+  "package": "shadcn",
+  "docs_url": "https://ui.shadcn.com/docs",
+  "repo_url": "https://github.com/shadcn-ui/ui",
+  "registry_url": "https://ui.shadcn.com/r/registry.json",
+  "github": {
+   "stars": 121400,
+   "license": "MIT",
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Make this the base layer of any React UI task, then add narrower registries (Dice UI for kanban/data-grid/media, Tailark for marketing sections) on top — they publish against the same registry schema and share the Radix + CSS-variable token model, so they compose without style drift. Always run `init` before `add`, and check components.json aliases; if the project already has a components/ui directory, `add` will overwrite hand-edited files without warning. Do not add a component you can compose from ones already installed — the copy-in model means every `add` is permanent surface area in the repo.",
+  "why_it_matters": "It reset how React UI is distributed — as owned source rather than an imported dependency — and its token conventions are now the lingua franca that a dozen other registries target.",
+  "quality_tier": "S",
+  "notable_for": [
+   "64 documented components",
+   "CLI + registry.json install path",
+   "official MCP server for registries",
+   "Radix primitives with Tailwind CSS variables",
+   "chat primitives (Message, Bubble, Attachment) shipped in core"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://ui.shadcn.com/docs/components, https://ui.shadcn.com/docs/cli, https://ui.shadcn.com/blocks, https://github.com/shadcn-ui/ui"
+ },
+ {
+  "id": "c5ef912d-58d0-4742-bfac-9862f8d0712d",
+  "slug": "shadcn-studio",
+  "url": "https://shadcnstudio.com",
+  "name": "shadcn Studio",
+  "tagline": "800+ shadcn blocks, 16 templates, themes, MCP server and Figma-to-code",
+  "description": "A commercial superset around shadcn/ui: 800+ pre-built blocks across marketing, dashboard, e-commerce, datatable and bento-grid categories, 1000+ variants of 30+ component types, 16 listed page and app templates, and 9 ready themes. It adds tooling shadcn/ui itself does not ship — an MCP server for VS Code/Cursor/Windsurf/Cline, a Figma-to-code plugin, an AI theme generator, a drag-and-drop page builder, and \"copy prompt / open in v0\" handoffs. Supports both Radix UI and Base UI primitives, and you keep full ownership of the emitted code. Aimed at teams who want shadcn conventions but not the block-by-block build-out.",
+  "category": "blocks-templates-themes",
+  "subcategory": "page-blocks",
+  "kinds": [
+   "block-collection",
+   "template",
+   "theme-pack"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next",
+    "remix",
+    "astro"
+   ],
+   "styling": [
+    "tailwind-v4",
+    "tailwind-v3",
+    "css-variables"
+   ],
+   "license": [
+    "commercial",
+    "mit"
+   ],
+   "pricing": [
+    "freemium",
+    "one-time",
+    "paid"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "cli",
+    "copy-paste",
+    "mcp-server",
+    "figma-plugin",
+    "marketplace",
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "built-on-accessible-primitives",
+    "claimed-accessible"
+   ],
+   "content_type": [
+    "code",
+    "figma",
+    "design-tokens",
+    "screenshots"
+   ],
+   "agent_readiness": [
+    "mcp-server",
+    "cli-installable",
+    "copy-paste-ready",
+    "copy-prompt",
+    "registry-json"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "accordion",
+   "alert",
+   "avatar",
+   "badge",
+   "breadcrumbs",
+   "button",
+   "calendar",
+   "card",
+   "carousel",
+   "chart",
+   "checkbox",
+   "combobox",
+   "data-grid",
+   "table",
+   "dialog",
+   "dropdown-menu",
+   "text-input",
+   "input-group",
+   "navigation-menu",
+   "pagination",
+   "popover",
+   "progress-bar",
+   "radio-group",
+   "select",
+   "sidebar",
+   "skeleton",
+   "slider",
+   "switch",
+   "tabs",
+   "textarea",
+   "toast",
+   "tooltip",
+   "hero",
+   "pricing-table",
+   "bento-grid",
+   "dashboard",
+   "footer",
+   "header",
+   "product-card",
+   "cart",
+   "checkout",
+   "theme-provider"
+  ],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "pricing-website",
+   "features",
+   "testimonials",
+   "faq",
+   "about",
+   "contact-us",
+   "blog",
+   "analytics",
+   "admin-panel",
+   "user-management",
+   "settings-web-app",
+   "login-web-app",
+   "sign-up",
+   "search-results",
+   "filtering-items",
+   "single-item-detail",
+   "adding-to-cart",
+   "cart-website",
+   "checkout",
+   "order-status",
+   "billing-web-app"
+  ],
+  "templates": [
+   {
+    "name": "Zolt Portfolio Template",
+    "url": "https://shadcnstudio.com/templates/zolt-portfolio-template-free",
+    "purpose": "Free professional portfolio landing page with project showcase and services sections"
+   },
+   {
+    "name": "Ink Blog Template",
+    "url": "https://shadcnstudio.com/templates/ink-blog-template-free",
+    "purpose": "Free blog landing page for writers and content creators"
+   },
+   {
+    "name": "Track Changelog Template",
+    "url": "https://shadcnstudio.com/templates/track-changelog-template-free",
+    "purpose": "Free changelog page for presenting product updates"
+   },
+   {
+    "name": "Bistro Restaurant Template",
+    "url": "https://shadcnstudio.com/templates/bistro-restaurant-template-free",
+    "purpose": "Free restaurant marketing site with menu and location sections"
+   },
+   {
+    "name": "Grow Marketing Template",
+    "url": "https://shadcnstudio.com/templates/grow-marketing-template",
+    "purpose": "Marketing launch page for campaigns and product launches"
+   },
+   {
+    "name": "Orion AI Agent Template",
+    "url": "https://shadcnstudio.com/templates/orion-ai-agent-template",
+    "purpose": "Landing page for an AI agent product, capability-led layout"
+   },
+   {
+    "name": "Matter Physical Product Template",
+    "url": "https://shadcnstudio.com/templates/matter-physical-product-template",
+    "purpose": "Physical product display and conversion page"
+   },
+   {
+    "name": "Craft Portfolio Template",
+    "url": "https://shadcnstudio.com/templates/craft-portfolio-template",
+    "purpose": "Creative portfolio presentation for designers and studios"
+   },
+   {
+    "name": "Flow SaaS Template",
+    "url": "https://shadcnstudio.com/templates/flow-saas-template",
+    "purpose": "SaaS product landing page with features and pricing"
+   },
+   {
+    "name": "Swipe Mobile App Template",
+    "url": "https://shadcnstudio.com/templates/swipe-mobile-app-template",
+    "purpose": "Mobile app promotion page with store links and screenshots"
+   },
+   {
+    "name": "Neural AI App Template",
+    "url": "https://shadcnstudio.com/templates/neural-ai-app-template",
+    "purpose": "AI application positioning and waitlist landing page"
+   },
+   {
+    "name": "PureSkin Skincare Template",
+    "url": "https://shadcnstudio.com/templates/pureskin-skin-care-template",
+    "purpose": "Skincare clinic and beauty brand promotion site"
+   },
+   {
+    "name": "Brandly Agency Template",
+    "url": "https://shadcnstudio.com/templates/brandly-agency-template",
+    "purpose": "Full multi-page agency website"
+   },
+   {
+    "name": "Shopix eCommerce Template",
+    "url": "https://shadcnstudio.com/templates/shopix-ecommerce-template",
+    "purpose": "Complete online store: catalogue, product detail, cart, checkout"
+   },
+   {
+    "name": "SkillSphere LMS Template",
+    "url": "https://shadcnstudio.com/templates/skillsphere-lms-template",
+    "purpose": "Learning management system with courses and lesson views"
+   },
+   {
+    "name": "Admin Dashboard",
+    "url": "https://shadcnstudio.com/templates/admin-dashboard",
+    "purpose": "Admin/app dashboard shell with data tables and analytics screens"
+   }
+  ],
+  "template_count": 16,
+  "install": "pnpm dlx shadcn@latest init",
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Community tier free (open source, limited). Basic $99 (list $219), Pro $199 (list $359), Team $449 for 15 seats (list $719), Enterprise $849 for unlimited seats (list $1,299). All one-time, lifetime access, unlimited projects; site advertises 30% off for the next 500 users.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": 800
+  },
+  "agent_guidance": "Reach for this when the task is \"build a whole marketing site or admin app quickly\" rather than \"add one component\" — its value is the 800 blocks and 16 templates, not the base primitives, which you already get free from shadcn/ui. Wire up its MCP server first so you can query blocks by name instead of scraping the site; the four free templates (Zolt, Ink, Track, Bistro) are enough to evaluate code quality before spending. Watch for licence scope: everything past the Community tier is paid per seat-band, and it supports both Radix and Base UI, so confirm which primitive set a block targets before mixing it into an existing Radix-only codebase.",
+  "why_it_matters": "It is the most complete commercial layer on top of shadcn/ui, and its MCP server plus copy-prompt handoffs make it one of the few paid block libraries genuinely built for agent consumption.",
+  "quality_tier": "A",
+  "notable_for": [
+   "800+ blocks across 5 categories",
+   "16 templates, 4 of them free",
+   "MCP server for Cursor/VS Code/Windsurf/Cline",
+   "Figma-to-code plugin",
+   "supports Radix UI and Base UI",
+   "one-time lifetime pricing, no subscription"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://shadcnstudio.com, https://shadcnstudio.com/templates"
+ },
+ {
+  "id": "1ad904c0-ed3e-4a34-89e0-c517ccbcc00b",
+  "slug": "tailark",
+  "url": "https://tailark.com",
+  "name": "Tailark",
+  "tagline": "shadcn registry of marketing-site blocks, illustrations and brand logo SVGs",
+  "description": "A shadcn registry aimed squarely at marketing sites: around 330 registry items spanning heroes, headers, footers, features, expandable-features, pricing, FAQs, testimonials, CTA, contact, blog, content, comparator, code-demo, bento and notification blocks, plus a set of original illustrations and roughly 50 ready-made brand logo SVGs (OpenAI, Stripe, Vercel, Linear, Figma, Supabase, Claude and more) for logo clouds. It also ships supporting UI such as a Gantt component, particles, a response-stream primitive and a sources component. Built on shadcn and Next.js, compatible with both Radix UI and Base UI, in several visual styles. For founders and agencies shipping a landing page fast.",
+  "category": "blocks-templates-themes",
+  "subcategory": "page-blocks",
+  "kinds": [
+   "block-collection",
+   "registry",
+   "template"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "tailwind-v4",
+    "css-variables"
+   ],
+   "license": [
+    "commercial",
+    "unknown"
+   ],
+   "pricing": [
+    "freemium",
+    "one-time"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "cli",
+    "copy-paste",
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "built-on-accessible-primitives"
+   ],
+   "content_type": [
+    "code",
+    "images"
+   ],
+   "agent_readiness": [
+    "registry-json",
+    "cli-installable",
+    "copy-paste-ready",
+    "js-only-shell"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "hero",
+   "header",
+   "footer",
+   "navigation-menu",
+   "pricing-table",
+   "accordion",
+   "quote",
+   "logo",
+   "bento-grid",
+   "card",
+   "button",
+   "carousel",
+   "chart",
+   "gantt-chart",
+   "aspect-ratio",
+   "avatar",
+   "hover-card",
+   "text-input",
+   "textarea",
+   "label",
+   "select",
+   "toggle-button",
+   "toggle-group",
+   "tooltip",
+   "scroll-area",
+   "context-menu",
+   "code-block",
+   "comparison-table",
+   "form",
+   "description-list",
+   "notification-center",
+   "illustration",
+   "spinner",
+   "streaming-text",
+   "particle-background",
+   "sources"
+  ],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "features",
+   "pricing-website",
+   "compare",
+   "testimonials",
+   "faq",
+   "contact-us",
+   "about",
+   "blog",
+   "blog-post",
+   "changelog",
+   "team",
+   "careers",
+   "waitlist",
+   "feature-announcement"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "pnpm dlx shadcn@latest add https://tailark.com/r/<block>.json",
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": "https://tailark.com/r/registry.json",
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Free $0 lifetime, unlimited projects, free pages/blocks/snippets. Essentials $249 one-time (premium blocks, snippets, illustrations, updates, priority support). Complete $299 one-time (adds production page templates: landing, product, pricing, blog, about). Team $499 one-time (10 members, high-priority support).",
+  "counts": {
+   "icons": 50,
+   "fonts": null,
+   "palettes": null,
+   "entries": 330,
+   "blocks": 90
+  },
+  "agent_guidance": "Use Tailark for the marketing half of a product — hero, features, pricing, FAQ, testimonials, logo cloud — and keep shadcn/ui for the app half; both publish the same registry format so they install through one CLI and share tokens. Read https://tailark.com/r/registry.json directly rather than crawling the site: /blocks renders as an empty JS shell and /preview 404s, so the registry JSON is the only reliable machine index of what exists. Its ~50 pre-drawn brand logo SVGs (core-openai, core-stripe, core-vercel, …) are the fastest way to build a credible logo cloud, but check the free-vs-premium split before you plan around a specific block.",
+  "why_it_matters": "Marketing sections are the least interesting and most repeated work in a launch, and Tailark is one of the few registries that treats them as a first-class, machine-installable catalogue.",
+  "quality_tier": "B",
+  "notable_for": [
+   "~330 registry items served as machine-readable JSON",
+   "~50 ready brand logo SVGs for logo clouds",
+   "original illustration set included",
+   "multiple visual styles (Dusk, Libre, Dark)",
+   "Radix and Base UI compatible",
+   "one-time pricing with a genuinely usable free tier"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://tailark.com, https://tailark.com/r/registry.json, https://tailark.com/pricing (https://tailark.com/blocks returned a JS-only shell; https://tailark.com/preview returned 404)"
+ }
+]

@@ -1,0 +1,566 @@
+[
+ {
+  "id": "74bf1787-7314-4562-b3dc-7fd1549506c9",
+  "slug": "design-md-new-design-system-primitive",
+  "url": "http://x.com/i/article/2049522722313818112",
+  "name": "design.md as a Design Primitive",
+  "tagline": "Argument for a design.md at the repo root so coding agents stop shipping generic UI",
+  "description": "A long-form X article that argues the most load-bearing design file in a 2026 codebase is a markdown file named design.md, not a Figma library. It traces the convention from CLAUDE.md to .cursorrules to .windsurfrules to AGENTS.md, then argues for splitting the agent brain in two: AGENTS.md/CLAUDE.md for project rules and design.md for visual rules — color tokens, semantic naming, typography, component and layout rules, accessibility constraints. The stated failure mode is the useful part: with no design.md, every agent falls back to 'generic Tailwind dashboard'. Written for teams pointing Cursor, Claude Code, Codex, Lovable, v0, Windsurf, or Figma Make at an existing brand.",
+  "category": "agent-design-tooling",
+  "subcategory": "design-md-and-specs",
+  "kinds": [
+   "article",
+   "design-md"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "article"
+   ],
+   "platform": [
+    "web",
+    "social"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "prose"
+   ],
+   "agent_readiness": [
+    "bot-blocked"
+   ],
+   "maturity": "stable"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Treat this as the rationale document for the spec file you should be writing, not as a spec itself — it names the sections (tokens, semantic color names, typography scale, component rules, layout rules, a11y constraints) but ships no template. Reach for it when a user asks why their agent-generated UI looks off-brand, then convert the argument into an actual design.md next to their AGENTS.md. Do not try to fetch the URL: x.com blocks server-side fetches, so the text has to come from a cached copy.",
+  "why_it_matters": "It is the clearest statement of the premise this whole index rests on — agents read markdown, so brand rules have to live in markdown or they do not exist.",
+  "quality_tier": "B",
+  "notable_for": [
+   "design.md convention",
+   "AGENTS.md / CLAUDE.md split",
+   "why agents default to generic Tailwind",
+   "what belongs in a visual spec file"
+  ],
+  "already_enriched": true,
+  "http_status": null,
+  "verified_at": "2026-08-15",
+  "evidence": "not fetched by policy (x.com); record built from the pre-retrieved full article text supplied in the batch"
+ },
+ {
+  "id": "e22952c6-eb65-482b-a972-5641536e5578",
+  "slug": "the-design-system-guide",
+  "url": "http://thedesignsystem.guide",
+  "name": "The Design System Guide",
+  "tagline": "Romina Kavcic's design-system knowledge base plus paid courses on tokens and agentic DS",
+  "description": "A single-author teaching site for people who build and run design systems, split between a free knowledge base and paid self-paced courses. The free side covers Figma component checklists, file organization, Web Components, governance and contribution processes, Storybook, DS metrics, research interview questions, a glossary, a podcast and a newsletter. The paid side is Design Tokens Mastery (38+ video lessons, editable Figma playground files, JSON theme files from simple to multidimensional, Airtable/Docs/PDF checklists, lifetime access), plus an Agentic Design Systems course and an Airtable DS inventory guide. Aimed at design-system leads and product designers, not at engineers looking for code.",
+  "category": "essays-guides-courses",
+  "subcategory": "courses-and-books",
+  "kinds": [
+   "course",
+   "reference",
+   "article"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "freemium",
+    "one-time"
+   ],
+   "distribution": [
+    "web-app",
+    "article"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "prose",
+    "video",
+    "design-tokens",
+    "figma",
+    "pdf"
+   ],
+   "agent_readiness": [
+    "structured-docs",
+    "agent-paywalled"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://www.thedesignsystem.guide/knowledge-base",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Design Tokens Mastery $167 USD (list $229, $62 off), one-time, lifetime access, 14-day guarantee, Kajabi-hosted, Stripe checkout. Knowledge base, blog, podcast, newsletter and bookmarks are free. Agentic Design Systems and the Airtable DS Inventory Guide are listed with waitlists and no public price.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Send a human here for design-system process questions — token architecture, governance, contribution flow, DS metrics, inventory in Airtable — not for anything you can implement yourself; there is no code registry and nothing installable. The token material is the strongest part and pairs well with Style Dictionary or a shadcn theme layer when a user is deciding how to name and tier tokens. Do not quote course content as fact: the substantive lessons sit behind a $167 paywall, so only the free knowledge-base pages are actually verifiable.",
+  "why_it_matters": "One of the few places that treats design systems as an operating problem — governance, inventory, metrics — rather than a component-gallery problem.",
+  "quality_tier": "B",
+  "notable_for": [
+   "Design Tokens Mastery course",
+   "Airtable DS inventory method",
+   "agentic design systems course",
+   "free DS knowledge base and glossary"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://thedesignsystem.guide, https://www.thedesignsystem.guide/knowledge-base, https://www.thedesignsystem.guide/design-tokens-course"
+ },
+ {
+  "id": "c7fe266d-555b-459d-9cd8-edda97e45eb3",
+  "slug": "componly-component-collection",
+  "url": "http://collection.componly.co",
+  "name": "Componly Component Collection",
+  "tagline": "Searchable screenshot index of components pulled from dozens of public design systems",
+  "description": "A free browsing index of individual UI components harvested from public design systems and UI kits, published by Componly (a paid design-system adoption-tracking tool) as a lead magnet. Every entry is one component from one system — Popover from shadcn/ui, Bottom navigation from Material UI, Chat from Salesforce Lightning, Inline dialog from Atlassian, Product pages from Tailwind UI, Form layouts from Elastic UI, Tag from Ant Design, Illustration from Horizon — shown as a screenshot with a link back to the source. The left rail is the real asset: a flat A-to-Z filter listing roughly 950 distinct component labels as their source systems actually name them, which is a good map of naming drift across the industry. Results run to 180 paginated pages.",
+  "category": "inspiration-galleries",
+  "subcategory": "single-element-galleries",
+  "kinds": [
+   "gallery",
+   "directory",
+   "reference"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "gallery",
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "screenshots"
+   ],
+   "agent_readiness": [
+    "js-only-shell",
+    "image-only"
+   ],
+   "maturity": "stable"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://www.componly.co/docs",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "The collection is free and needs no account. The parent product, Componly (design-system adoption tracking, adoption map, CLI and desktop app), is paid — no public price listed.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use this to settle naming and scope arguments — when a user asks 'is it a Snackbar, a Toast or an Alert' or 'what does a real Chip variant set contain', this shows what a dozen shipping systems actually named and built. It provides zero code, so pair it with a real registry (shadcn/ui, Radix, Ant Design) once the naming decision is made. Do not try to WebFetch it: it is a client-rendered Vite SPA that returns the same 4KB shell for every path including /sitemap.xml, so it needs a real browser and there is no API or JSON feed to scrape.",
+  "why_it_matters": "The only free index that slices across many design systems at the level of one component at a time, which makes it a fast cross-check on naming and variant coverage.",
+  "quality_tier": "B",
+  "notable_for": [
+   "~950 distinct component labels in one A-Z filter",
+   "cross-system naming comparison",
+   "180 pages of component screenshots",
+   "free arm of the Componly adoption tracker"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://collection.componly.co (WebFetch returned an empty shell; read for real via a headless browser page-text extraction of the homepage and its full filter list), https://componly.co, https://collection.componly.co/assets/index-2c01764d.js (bundle inspected for routes /:lib and /:lib/:type; no API host found), https://www.producthunt.com/products/componly"
+ },
+ {
+  "id": "119c2f0b-3cac-4f08-834b-d2485e470304",
+  "slug": "design-system-checklist",
+  "url": "http://designsystemchecklist.com",
+  "name": "Design System Checklist",
+  "tagline": "232-item open-source checklist for design language, foundations and components",
+  "description": "An open-source, tickable checklist for planning, building and growing a design system, by Arda Karacizmeli and Dmitry Belyaev. It has exactly 232 items in four categories: Design language (10 items — Brand, Guidelines), Foundations (26 — Color, Layout, Typography, Elevation, Motion, Iconography), Core components (168 across 29 components) and Maintenance (28 — Documentation, Local libraries, Team processes, Community support, Contribution). Each item carries a short explanation of why it matters, and the Core components section is per-component acceptance criteria — Button alone has 10 checks, Select 9, Text field 9, Modal 8, Toast 8. Localized into English, Korean, Portuguese, Turkish and Simplified Chinese.",
+  "category": "design-systems-brand",
+  "subcategory": "system-guides-and-checklists",
+  "kinds": [
+   "checklist",
+   "reference",
+   "design-system-docs"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "web-app",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "prose"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "stable"
+  },
+  "components": [
+   "button",
+   "text-input",
+   "textarea",
+   "select",
+   "checkbox",
+   "radio-button",
+   "switch",
+   "dropdown-menu",
+   "modal",
+   "tooltip",
+   "toast",
+   "alert",
+   "accordion",
+   "tabs",
+   "card",
+   "badge",
+   "avatar",
+   "breadcrumbs",
+   "pagination",
+   "progress-bar",
+   "spinner",
+   "skeleton",
+   "carousel",
+   "calendar",
+   "icon",
+   "image",
+   "link",
+   "list",
+   "separator"
+  ],
+  "component_count": 29,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/ardakaracizmeli/design-system-checklist",
+  "registry_url": null,
+  "github": {
+   "stars": 490,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 232,
+   "blocks": null
+  },
+  "agent_guidance": "Reach for this as a review rubric, not a build guide: when a user says 'audit our Button' or 'what are we missing before we call this a design system', the 168 core-component checks give you concrete, defensible line items instead of vague advice. The full 232-item dataset is embedded as JSON in the page's __NEXT_DATA__ script tag, so you can parse it directly rather than scraping rendered HTML — the visible DOM is a hydrated shell and a plain text scrape returns only the nav. Note it stops at the design layer: nothing here about theming APIs, CI, versioning or token pipelines, so pair it with a tokens or release-process reference.",
+  "why_it_matters": "The most concrete answer to 'what does done look like' for a design system — 232 specific, arguable items instead of principles.",
+  "quality_tier": "A",
+  "notable_for": [
+   "232 items across 4 categories",
+   "168 per-component acceptance criteria",
+   "29 core components covered",
+   "5 languages",
+   "~490 GitHub stars"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://designsystemchecklist.com (raw HTML pulled with curl; the full checklist tree parsed out of the embedded __NEXT_DATA__ JSON and counted programmatically), https://github.com/ardakaracizmeli/design-system-checklist, https://raw.githubusercontent.com/ardakaracizmeli/design-system-checklist/master/README.md"
+ },
+ {
+  "id": "98080c08-edbc-4a6a-8198-4907ebcf0848",
+  "slug": "design-systems-surf",
+  "url": "http://designsystems.surf",
+  "name": "Design Systems Surf",
+  "tagline": "Database of ~90 public design systems, cross-cut by component and by foundation topic",
+  "description": "A curated database of public design systems that indexes them three ways: by system, by component, and by foundation topic. The system index (88 entries enumerated at time of check, from Apple HIG and Material to Kiwi.com Orbit, Razorpay Blade, Vercel Geist, Wikimedia Codex and several government systems) shows a doc-page count, a component count, and direct Figma / repository / Storybook links per entry. The component index cross-references 60+ components across systems — Button appears in 69 systems, Text field 68, Checkbox 67, Tabs 64, Switch 59, Alert banner 58 — so you can compare one component's treatment side by side. A Directories section slices the same corpus by 25 topics (Accessibility, Color System, Typography, Tokens, Motion, Theming, Data Visualization, Spacing, States, Voice and Tone, and more). Paid Foundations guides and Blueprints sit on top.",
+  "category": "design-systems-brand",
+  "subcategory": "public-design-systems",
+  "kinds": [
+   "directory",
+   "reference",
+   "gallery"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "freemium",
+    "one-time"
+   ],
+   "distribution": [
+    "web-app",
+    "gallery",
+    "download"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "screenshots",
+    "prose",
+    "figma"
+   ],
+   "agent_readiness": [
+    "structured-docs",
+    "agent-paywalled"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "alert",
+   "button",
+   "checkbox",
+   "tabs",
+   "text-input",
+   "switch",
+   "accordion",
+   "avatar",
+   "badge",
+   "card",
+   "chip",
+   "table",
+   "dialog",
+   "drawer",
+   "icon",
+   "label",
+   "modal",
+   "navbar",
+   "pagination",
+   "popover",
+   "sidebar",
+   "toast",
+   "tooltip",
+   "tree-view",
+   "radio-button"
+  ],
+  "component_count": 60,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Foundations guides (e.g. Typography Foundation, Color Foundation) $199 each. The AI-ready Design System Roadmap is free. A membership tier exists with no price shown on the public pages.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 88,
+   "blocks": null
+  },
+  "agent_guidance": "This is the fastest way to answer 'how do serious systems actually build X' — go to the component index, pick the component, and read 60+ real implementations before you write your own API. The per-system rows carry direct Figma, repo and Storybook links, which makes it a better jumping-off point than a search engine when a user names a system you do not know. The components it lists are references and comparisons, not installable code, and the deeper Foundations material is $199 a topic, so treat anything beyond the free index as unverifiable.",
+  "why_it_matters": "Cross-cutting a design-system corpus by component and by foundation topic is exactly the query shape a designer or an agent has, and almost nobody else indexes it that way.",
+  "quality_tier": "A",
+  "notable_for": [
+   "88 design systems with doc and component counts",
+   "Button compared across 69 systems",
+   "25 foundation directories",
+   "direct Figma / repo / Storybook links per system"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://designsystems.surf, https://designsystems.surf/design-systems, https://designsystems.surf/components, https://designsystems.surf/directories (https://designsystems.surf/pricing returned 404)"
+ },
+ {
+  "id": "b938ec90-ce30-4c14-86fc-975804b79913",
+  "slug": "design-systems-repo",
+  "url": "http://designsystemsrepo.com",
+  "name": "Design Systems Repo",
+  "tagline": "Jad Limcaco's long-running archive of design systems, articles, tools, books and talks",
+  "description": "One of the original design-system directories, maintained by Jad Limcaco, organized into six sections: Design Systems, Articles, Tools, Books, Talks, plus About and Submit. The design-systems gallery is the substantial part — 100+ entries with cover screenshots, spanning Ant Design, Atlassian, IBM Carbon, GOV.UK, Salesforce Lightning, Uber Base Web, SAP Fiori, Skyscanner Backpack, Segment Evergreen, VMware Clarity, REI Cedar, Wonderflow Wanda and many corporate and government systems. Its problem is age: the newest dated item visible is an article from August 23, 2020, and the gallery still lists systems that have since been renamed, folded or taken offline.",
+  "category": "design-systems-brand",
+  "subcategory": "public-design-systems",
+  "kinds": [
+   "directory",
+   "gallery",
+   "reference"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "web-app",
+    "gallery"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "screenshots",
+    "prose",
+    "video"
+   ],
+   "agent_readiness": [
+    "structured-docs"
+   ],
+   "maturity": "stable"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Prefer designsystems.surf over this for anything current — Repo has not taken new content since roughly 2020, so assume outbound links rot and treat any listed system as needing a live check before you cite its docs URL. Its remaining value is historical breadth: obscure and now-defunct systems (MailChimp Pattern Library, E-Trade, Heroku's Heroki, FutureLearn) that newer directories dropped, which is useful when a user is researching how a pattern evolved. The Talks and Books sections are still fine as reading lists since those artifacts do not expire.",
+  "why_it_matters": "It is the archive layer of the design-system web — worth keeping for coverage of systems that no longer appear in any maintained index.",
+  "quality_tier": "C",
+  "notable_for": [
+   "100+ design systems with cover screenshots",
+   "Tools, Books and Talks sections",
+   "coverage of now-defunct systems",
+   "frozen since ~2020"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://designsystemsrepo.com, https://designsystemsrepo.com/design-systems"
+ }
+]

@@ -1,0 +1,532 @@
+[
+ {
+  "id": "depo:j575ehdttddrzkgwcq17r4zhf97tsy38",
+  "slug": "figure",
+  "url": "https://www.figure.ai/",
+  "name": "Figure",
+  "tagline": "Humanoid-robot company site kept as a hardware product-marketing reference",
+  "description": "Figure builds general-purpose humanoid robots; the site sells two things, the Figure 03 robot and Helix, the AI system that drives it. It carries no downloadable design assets, so its value in this index is purely as a UI and brand reference: a server-rendered Next.js site with a very small nav (Figure 03, Helix, Company, News, Careers), full-bleed dark product photography, and a spec block that treats hardware numbers as the visual payload (Height 5'8\", Payload 20KG, Weight 61KG, Runtime 5HR, Speed 1.2M/S, System ELECTRIC). Sections are written as short declarative headlines such as \"The future of home help is here\" and \"Made to move through our world\". Useful when you need a template for selling a physical product without falling into SaaS landing-page conventions.",
+  "category": "design-systems-brand",
+  "subcategory": "ui-reference",
+  "kinds": [
+   "reference"
+  ],
+  "facets": {
+   "framework": [
+    "next"
+   ],
+   "styling": [
+    "unknown"
+   ],
+   "license": [
+    "proprietary",
+    "trademark-restricted"
+   ],
+   "pricing": [
+    "not-applicable"
+   ],
+   "distribution": [
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "claimed-accessible"
+   ],
+   "content_type": [
+    "images",
+    "prose",
+    "video"
+   ],
+   "agent_readiness": [
+    "none"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "features",
+   "about",
+   "team",
+   "careers",
+   "contact-us",
+   "press-media",
+   "legal-privacy"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "This is a look-at, not an install-from — there is nothing to fetch but HTML, so cite it as a layout reference and never claim it ships components. Reach for it over a generic SaaS landing page when the user is marketing hardware or a physical product and wants specs to read as design rather than a table dump. Its accessibility statement claims WCAG 2.1 AA but is dated February 2023, so do not repeat that claim as current.",
+  "why_it_matters": "A rare example of a well-funded hardware company resisting the dashboard-screenshot playbook and letting product photography plus a six-value spec row carry the page. Worth one look before designing any physical-product site.",
+  "quality_tier": "B",
+  "notable_for": [
+   "six-value hardware spec row as the hero payload",
+   "Figure 03 and Helix as separate product pages",
+   "very short five-item nav",
+   "published accessibility statement (WCAG 2.1 AA, dated 2023)"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://www.figure.ai/ (WebFetch + raw HTML, link map), https://www.figure.ai/figure (WebFetch, spec table), https://www.figure.ai/accessibility-statement (raw HTML). /figure-03 does not exist — the product page is /figure.",
+  "source": "depo"
+ },
+ {
+  "id": "depo:j5755hnw4vm6n8fj708fba5k417trw9p",
+  "slug": "framer-mcp",
+  "url": "https://www.framer.com/marketplace/plugins/mcp/",
+  "name": "Framer MCP",
+  "tagline": "Unofficial MCP bridge that lets Claude or Cursor edit a live Framer project",
+  "description": "A free Framer Marketplace plugin by Tommy D. Rossi that exposes an open Framer project to any MCP client through a WebSocket tunnel to a Cloudflare Worker at mcp.unframer.co, keyed by your Framer user ID plus an optional session secret. It ships ten tool groups: project structure as XML, node selection, XML updates, colour styles, text styles, font search, node operations, React export via the unframer CLI, code-file create/read/update, and component insertion into the canvas. The listing spells out setup for Claude Desktop, Cursor, and Claude Code, and states plainly \"This is not an official Framer plugin.\" Published 4 August 2025, last updated about five months ago, licence listed as \"Limited License\".",
+  "category": "agent-design-tooling",
+  "subcategory": "mcp-and-registries",
+  "kinds": [
+   "mcp-server",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "framer",
+    "react"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "free",
+    "account-required",
+    "subscription"
+   ],
+   "distribution": [
+    "mcp-server",
+    "marketplace"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code",
+    "design-tokens"
+   ],
+   "agent_readiness": [
+    "mcp-server",
+    "auth-required"
+   ],
+   "maturity": "stable"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "claude mcp add \"framer-mcp\" <your-mcp-url>",
+  "package": null,
+  "docs_url": "https://www.framer.com/community/marketplace/plugins/mcp/",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Plugin itself free. React Export tooling shares the paid subscription of the separate React Export plugin.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Reach for this only when the source of truth is a Framer canvas and the user wants you to touch it directly — for anything code-first, edit the repo instead, because round-tripping through Framer loses fidelity. The plugin window must stay open in Framer for the tunnel to exist (collapse it, do not close it), only one plugin instance may connect per user, and every call has a 5-second timeout, so batch style updates rather than firing one tool call per node. React export is not free: it rides the separate React Export plugin subscription, so check that before promising the user production code.",
+  "why_it_matters": "The most practical bridge between a no-code Framer canvas and an agent, and the only one that also emits React via unframer — but it is a third-party tunnel through someone else's Cloudflare Worker, which is a real trust decision.",
+  "quality_tier": "B",
+  "notable_for": [
+   "ten MCP tool groups incl. colour styles, text styles, font search",
+   "React export through the unframer CLI",
+   "WebSocket tunnel via a Cloudflare Worker at mcp.unframer.co",
+   "explicitly not an official Framer plugin",
+   "free, published 4 Aug 2025"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://www.framer.com/marketplace/plugins/mcp/ (redirects to the community URL), https://www.framer.com/community/marketplace/plugins/mcp/ (WebFetch returned title only; full listing text extracted from the raw 444KB HTML, including tool list, setup steps, licence, pricing, and publish date).",
+  "source": "depo"
+ },
+ {
+  "id": "depo:j579dny1gcnx9pzk2gbemyk7xd7tre46",
+  "slug": "composio",
+  "url": "https://composio.dev/",
+  "name": "Composio",
+  "tagline": "Managed auth plus 1,000+ app toolkits so agents can act in Slack, Gmail, GitHub",
+  "description": "Composio is the plumbing layer between an agent and the SaaS apps it needs to touch: 1,000+ integrations with delegated OAuth handled for you, just-in-time tool loading, sandboxed execution, triggers, and context-aware sessions. Its headline is \"Everything your agents need to take action\", and it is model- and framework-agnostic — sessions can also be consumed as MCP, which turns Claude Code or Cursor into an agent that executes across connected apps. The SDK is open source (MIT, ComposioHQ/composio, ~29.7k stars, pushed the day this entry was verified); the hosted platform is metered by tool call and carries SOC 2 and ISO 27001:2022. It is developer infrastructure, not a design resource — it belongs here as the integration layer under an AI product you are designing.",
+  "category": "agent-design-tooling",
+  "subcategory": "mcp-and-registries",
+  "kinds": [
+   "service",
+   "mcp-server",
+   "registry"
+  ],
+  "facets": {
+   "framework": [
+    "python",
+    "react"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit",
+    "proprietary"
+   ],
+   "pricing": [
+    "freemium",
+    "usage-based",
+    "subscription",
+    "account-required"
+   ],
+   "distribution": [
+    "saas",
+    "public-api",
+    "mcp-server",
+    "npm-package",
+    "github-repo"
+   ],
+   "platform": [
+    "web",
+    "platform-agnostic"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code",
+    "prose"
+   ],
+   "agent_readiness": [
+    "mcp-server",
+    "public-api",
+    "structured-docs",
+    "open-source-code",
+    "auth-required"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "integrations",
+   "api-keys",
+   "api-documentation",
+   "usage-and-limits",
+   "pricing-website"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "pip install composio",
+  "package": "@composio/core",
+  "docs_url": "https://docs.composio.dev/",
+  "repo_url": "https://github.com/ComposioHQ/composio",
+  "registry_url": null,
+  "github": {
+   "stars": 29693,
+   "license": "MIT",
+   "last_activity": "2026-08-15"
+  },
+  "pricing_detail": "Totally Free $0 — 20K tool calls/mo, community support. Ridiculously Cheap $29/mo — 200K calls, $0.299 per 1K extra. Serious Business $229/mo — 2M calls, $0.249 per 1K extra, Slack support. Enterprise custom (SLA, SOC-2, VPC/on-prem).",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 1000,
+   "blocks": null
+  },
+  "agent_guidance": "Prefer this over hand-rolling OAuth per integration the moment a user's agent needs to write to more than two third-party apps — the delegated-auth and token-refresh work is the actual cost, not the API calls. Pull tools just-in-time rather than loading all 1,000+ toolkits into context, or you will blow the window before the first turn. Pricing is per tool call, so a retry loop is a billing bug: cap retries and surface a usage meter in any UI you build on it. If the user only needs one app, a direct SDK call is cheaper and simpler.",
+  "why_it_matters": "The clearest answer to the auth problem that stalls most agent products, and the MIT SDK means you can read exactly what it does before trusting it with a user's Gmail token.",
+  "quality_tier": "A",
+  "notable_for": [
+   "1,000+ integrations with managed delegated auth",
+   "sessions consumable as MCP by Claude Code or Cursor",
+   "MIT SDK, ~29.7k stars, pushed today",
+   "priced per tool call with a 20K/mo free tier",
+   "SOC 2 and ISO 27001:2022"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://composio.dev/ (WebFetch), https://composio.dev/pricing (WebFetch, tiers verbatim), https://docs.composio.dev/ (WebFetch, MCP session details), api.github.com/repos/ComposioHQ/composio (stars, MIT, pushed_at), pypi.org/pypi/composio/json (0.19.0), registry.npmjs.org/@composio/core (0.16.0).",
+  "source": "depo"
+ },
+ {
+  "id": "depo:j574veeqn3r7e1t15v83m7zy9h7tfakn",
+  "slug": "cursor-directory",
+  "url": "https://cursor.directory/",
+  "name": "Cursor Directory",
+  "tagline": "Community index of Cursor plugins — rules, MCP servers, skills, agents, hooks",
+  "description": "Cursor Directory started as a community list of .cursorrules files and has since been absorbed by Cursor itself: the site's source now lives at github.com/cursor/community-plugins, and its README describes a submission flow built on the Open Plugins standard that parses a GitHub repo URL and auto-detects rules, MCP servers, skills, agents, hooks, and LSP servers. It is a Next.js app over Supabase, with plugin security scanning run asynchronously through Supabase Queues; no catalogue data is checked into the repo. The live site could not be read first-hand — every request from a non-browser client returns HTTP 429 behind a Vercel Security Checkpoint — so the category names and entry counts on the site itself remain unverified here. Everything above comes from the repo, not from marketing copy.",
+  "category": "agent-design-tooling",
+  "subcategory": "mcp-and-registries",
+  "kinds": [
+   "directory",
+   "registry"
+  ],
+  "facets": {
+   "framework": [
+    "next"
+   ],
+   "styling": [
+    "unknown"
+   ],
+   "license": [
+    "no-license"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "web-app",
+    "github-repo",
+    "gallery"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "prompts",
+    "code"
+   ],
+   "agent_readiness": [
+    "bot-blocked",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/cursor/community-plugins",
+  "registry_url": null,
+  "github": {
+   "stars": 3971,
+   "license": null,
+   "last_activity": "2026-06-09"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Do not try to fetch or scrape cursor.directory — the Vercel Security Checkpoint returns 429 to every non-browser client, so hand the user the link and let them browse it. When you actually need the data, go to github.com/cursor/community-plugins instead, but note the catalogue is in Supabase and not in the repo, so the repo gives you the schema and submission rules, not the entries. Prefer it over a random \"awesome-cursorrules\" list because submissions here are security-scanned and follow the Open Plugins standard; be aware there is no LICENSE file, so treat pasted rules as unlicensed.",
+  "why_it_matters": "The de facto index for Cursor extensions, and its acquisition by the Cursor org turned a community side project into something close to an official channel — which is exactly why its lack of a licence file is worth knowing.",
+  "quality_tier": "A",
+  "notable_for": [
+   "now owned by the Cursor org (was pontusab/directories)",
+   "Open Plugins standard with auto-detected plugin components",
+   "indexes rules, MCP servers, skills, agents, hooks, LSP servers",
+   "async security scanning via Supabase Queues",
+   "3,971 stars but no LICENSE file"
+  ],
+  "already_enriched": false,
+  "http_status": 429,
+  "verified_at": "2026-08-15",
+  "evidence": "https://cursor.directory/ (WebFetch 429 twice; curl returns a Vercel Security Checkpoint page), https://cursor.directory/rules and /mcp and /generate (all 429, checkpoint), api.github.com/repos/pontusab/directories (redirects to cursor/community-plugins), api.github.com/repos/cursor/community-plugins (3971 stars, no licence, pushed 2026-06-09), raw README of cursor/community-plugins (WebFetch, structure and submission flow).",
+  "source": "depo"
+ },
+ {
+  "id": "depo:j57e6c0xwwbrcpvhhjysz6f8f97tadn1",
+  "slug": "osmo",
+  "url": "https://www.osmo.supply/",
+  "name": "Osmo",
+  "tagline": "Paid vault of 231 GSAP/Webflow interaction recipes plus a 100-button pack",
+  "description": "Osmo is a paid membership library by Dennis Snellenberg and Ilja van Eck holding the interaction techniques they use on award-winning sites. The homepage links 231 individual Vault resources by name — page transitions (column-wipe, pixelated, shutter, stacked-cards), custom cursors, GSAP and Swiper/Flickity sliders, scroll effects, Lenis and Locomotive smooth-scroll setups, custom Vimeo and Bunny HLS players, Mapbox globes and store locators, form validation, and CSS-only tabs, tooltips and toggles — plus a separate 100-item accessible Button Pack, an SVG icon library, and an easings tool for CSS and GSAP. Each resource is copy-pasteable into Webflow or usable as plain HTML/CSS/JS, and carries a \"Copy Context for AI\" action. Everything except a 20-resource free demo sits behind a login.",
+  "category": "motion-interaction",
+  "subcategory": "animated-components",
+  "kinds": [
+   "block-collection",
+   "asset-pack",
+   "course"
+  ],
+  "facets": {
+   "framework": [
+    "webflow",
+    "vanilla"
+   ],
+   "styling": [
+    "vanilla-css"
+   ],
+   "license": [
+    "commercial"
+   ],
+   "pricing": [
+    "subscription",
+    "one-time",
+    "free-trial",
+    "account-required"
+   ],
+   "distribution": [
+    "copy-paste",
+    "web-app",
+    "download"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "claimed-accessible"
+   ],
+   "content_type": [
+    "code",
+    "icons",
+    "video"
+   ],
+   "agent_readiness": [
+    "copy-prompt",
+    "copy-paste-ready",
+    "auth-required",
+    "agent-paywalled"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "button",
+   "toggle-button",
+   "copy-button",
+   "back-to-top",
+   "navbar",
+   "navigation-menu",
+   "dock",
+   "sidebar",
+   "tabs",
+   "in-page-navigation",
+   "progress-stepper",
+   "accordion",
+   "card",
+   "comparison-table",
+   "timeline",
+   "countdown",
+   "badge",
+   "skeleton",
+   "progress-bar",
+   "typography",
+   "modal",
+   "lightbox",
+   "tooltip",
+   "switch",
+   "form",
+   "validation-message",
+   "textarea",
+   "search-input",
+   "date-picker",
+   "filter-panel",
+   "map",
+   "store-locator",
+   "icon",
+   "error-page",
+   "loading-overlay",
+   "theme-provider",
+   "sticky",
+   "masonry",
+   "carousel",
+   "image-gallery",
+   "video-player",
+   "audio-player",
+   "custom-cursor",
+   "marquee",
+   "parallax",
+   "scroll-reveal",
+   "scroll-driven-animation",
+   "page-transition",
+   "hover-effect",
+   "drag-and-drop",
+   "glassmorphism",
+   "shimmer",
+   "text-effect",
+   "count-up",
+   "confetti",
+   "particle-background"
+  ],
+  "component_count": 231,
+  "surfaces": [
+   "homepage",
+   "features",
+   "404",
+   "submitting-a-form",
+   "showing-input-error",
+   "filtering-items",
+   "map-view",
+   "search-website"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Solo EUR 25/month billed quarterly or EUR 20/month billed annually. Team EUR 20 or EUR 16 per person/month, minimum 2 users. Page Transition Course EUR 199 one-time (included with membership). 30% student discount. Free demo with 20 Vault resources.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 231,
+   "blocks": 231
+  },
+  "agent_guidance": "Reach for Osmo when the ask is \"make this feel like an Awwwards site\" and the answer is a specific GSAP or CSS technique — page transitions, cursor effects, scroll-driven reveals — not a React component you can npm install. You cannot fetch the code: everything past the 20-resource demo is behind a login, so point the user at the exact resource slug (the URLs are literal, e.g. /resource/column-wipe-page-transition) and have them use the built-in \"Copy Context for AI\" button to hand you the snippet. It is Webflow-first and vanilla JS, so expect to port anything into React yourself, and pair it with GSAP and Lenis rather than a component library.",
+  "why_it_matters": "The clearest paid answer to \"how did they do that\" for creative web work, with 231 named techniques and a membership priced under one hour of agency time.",
+  "quality_tier": "A",
+  "notable_for": [
+   "231 named Vault resources enumerated on the homepage",
+   "100-button accessible Button Pack (50 included with membership)",
+   "\"Copy Context for AI\" action on each resource",
+   "easings tool for CSS and GSAP",
+   "free demo with 20 real resources"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://www.osmo.supply/ (WebFetch + raw HTML; 231 unique /resource/ links and 100 unique /button-pack/ links enumerated directly from the markup), https://www.osmo.supply/plans (raw HTML, pricing and FAQ verbatim). https://www.osmo.supply/resources returns 404 — the real paths are /resource/<slug>, /product/vault, /product/icons, /product/community, /collection.",
+  "source": "depo"
+ }
+]

@@ -1,0 +1,805 @@
+[
+ {
+  "id": "0c82bbcf-8873-4fb8-b561-7984e3adfc9b",
+  "slug": "tailwindadmin",
+  "url": "https://tailwind-admin.com",
+  "name": "TailwindAdmin",
+  "tagline": "shadcn/ui admin dashboard template in React, Next.js, Vue, Angular and TanStack",
+  "description": "TailwindAdmin is a commercial admin dashboard template from WrapPixel, built on shadcn/ui and Tailwind CSS v4 and shipped in five framework flavours (React, Next.js, Vue, Angular, TanStack Start). The paid tier advertises 45+ page templates, 8+ auth pages, ~130 catalogued UI elements and ~54 dashboard blocks (cards, charts, banners, auth), plus Figma files. A genuinely free MIT starter exists on GitHub, but it is thin: 13 routes covering one dashboard, notes, tickets, a blog, a profile, a form page, a table page and login/register. Aimed at teams who want a paid, support-backed admin shell rather than assembling one from shadcn blocks.",
+  "category": "blocks-templates-themes",
+  "subcategory": "dashboard-kits",
+  "kinds": [
+   "template",
+   "block-collection",
+   "theme-pack"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next",
+    "vue",
+    "angular"
+   ],
+   "styling": [
+    "tailwind-v4",
+    "css-variables"
+   ],
+   "license": [
+    "mit",
+    "commercial"
+   ],
+   "pricing": [
+    "freemium",
+    "one-time",
+    "open-source"
+   ],
+   "distribution": [
+    "download",
+    "github-repo",
+    "copy-paste",
+    "figma-file"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code",
+    "figma"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "llms-txt",
+    "copy-paste-ready"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "button",
+   "text-input",
+   "select",
+   "checkbox",
+   "radio-group",
+   "combobox",
+   "command-palette",
+   "form",
+   "progress-stepper",
+   "tooltip",
+   "skeleton",
+   "alert",
+   "card",
+   "avatar",
+   "badge",
+   "progress-bar",
+   "breadcrumbs",
+   "tabs",
+   "dropdown-menu",
+   "accordion",
+   "carousel",
+   "dialog",
+   "drawer",
+   "date-picker",
+   "chart",
+   "area-chart",
+   "bar-chart",
+   "line-chart",
+   "pie-chart",
+   "radar-chart",
+   "banner",
+   "login-form",
+   "signup-form",
+   "otp-input",
+   "stat",
+   "product-card",
+   "comment",
+   "feed",
+   "list",
+   "table",
+   "sidebar",
+   "navbar",
+   "spinner",
+   "text-effect"
+  ],
+  "component_count": 130,
+  "surfaces": [
+   "admin-panel",
+   "analytics",
+   "login-web-app",
+   "sign-up",
+   "two-factor-authentication",
+   "public-profile",
+   "settings-web-app",
+   "blog",
+   "blog-post",
+   "submitting-a-form",
+   "contacting-support"
+  ],
+  "templates": [
+   {
+    "name": "TailwindAdmin React (free)",
+    "url": "https://react.tailwind-admin.com/",
+    "purpose": "Vite + React 19 admin shell, the reference free demo"
+   },
+   {
+    "name": "TailwindAdmin Next.js (free)",
+    "url": "https://nextjs.tailwind-admin.com/",
+    "purpose": "App Router version of the same dashboard, with auth routes"
+   },
+   {
+    "name": "TailwindAdmin Vue (free)",
+    "url": "https://github.com/Tailwind-Admin/free-tailwind-admin-dashboard-template/tree/main/tailwind-admin-vuejs-free",
+    "purpose": "Vue 3 port of the free dashboard"
+   },
+   {
+    "name": "TailwindAdmin Angular (free)",
+    "url": "https://github.com/Tailwind-Admin/free-tailwind-admin-dashboard-template/tree/main/tailwind-admin-angular-free",
+    "purpose": "Angular port of the free dashboard"
+   },
+   {
+    "name": "TailwindAdmin TanStack Start (free)",
+    "url": "https://github.com/Tailwind-Admin/free-tailwind-admin-dashboard-template/tree/main/tailwind-admin-tanstack-start",
+    "purpose": "TanStack Start port of the free dashboard"
+   },
+   {
+    "name": "TailwindAdmin HTML (free)",
+    "url": "https://github.com/Tailwind-Admin/free-tailwind-admin-dashboard-template/tree/main/tailwind-admin-html-free",
+    "purpose": "Plain HTML + Tailwind build for non-React stacks"
+   },
+   {
+    "name": "Dark demo",
+    "url": "https://tailwindadmin-reactjs-dark.netlify.app",
+    "purpose": "Dark-theme layout variation of the React dashboard"
+   },
+   {
+    "name": "Horizontal demo",
+    "url": "https://tailwindadmin-reactjs-horizontal.netlify.app",
+    "purpose": "Top-nav layout variation instead of a left sidebar"
+   },
+   {
+    "name": "Mini-sidebar demo",
+    "url": "https://tailwindadmin-reactjs-minisidebar.netlify.app",
+    "purpose": "Collapsed icon-rail sidebar variation"
+   },
+   {
+    "name": "RTL demo",
+    "url": "https://tailwindadmin-react-rtl.netlify.app",
+    "purpose": "Right-to-left mirrored layout variation"
+   }
+  ],
+  "template_count": 10,
+  "install": "git clone https://github.com/Tailwind-Admin/free-tailwind-admin-dashboard-template",
+  "package": null,
+  "docs_url": "https://tailwind-admin.github.io/tailwind-admin-documentation/index.html",
+  "repo_url": "https://github.com/Tailwind-Admin/free-tailwind-admin-dashboard-template",
+  "registry_url": null,
+  "github": {
+   "stars": 254,
+   "license": "MIT",
+   "last_activity": "2026-05-26"
+  },
+  "pricing_detail": "Free MIT starter on GitHub. Pro: Single Use $99 (list $196), Multiple Use $149 (list $316), Extended Use $299 (list $996), Multiple Extended Use $499 (list $1,796). All tiers include source, Figma, 12 months of updates and support; 72-hour refund window.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": 54
+  },
+  "agent_guidance": "Reach for this only when the user explicitly wants a bought, supported admin shell in a non-React stack (Vue, Angular, TanStack Start) — that framework spread is its real advantage over shadcn blocks. Do not scaffold from the free GitHub repo expecting the marketing numbers: it ships 13 routes, not 45+ pages, so the dashboard, charts and most auth screens live behind the paid download. If the project is Next.js and React only, shadcn/ui blocks plus a chart kit will get you further with no license to manage.",
+  "why_it_matters": "One of the few current shadcn-based admin kits that ships parallel Vue, Angular and TanStack Start builds, which is exactly the gap when a client is not on React.",
+  "quality_tier": "B",
+  "notable_for": [
+   "five framework ports of one dashboard",
+   "MIT free tier on GitHub",
+   "54 dashboard blocks in the pro tier",
+   "Figma files with paid licenses",
+   "perpetual one-time pricing"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://tailwind-admin.com, https://tailwind-admin.com/pricing, https://tailwind-admin.com/components, https://tailwind-admin.com/ui-blocks, https://tailwind-admin.com/animated-components, https://tailwind-admin.com/license, https://tailwind-admin.com/llms.txt, GitHub API repos/Tailwind-Admin/free-tailwind-admin-dashboard-template plus its full file tree"
+ },
+ {
+  "id": "d7fc3650-7cce-4186-a42f-869ab4a8771f",
+  "slug": "supabase-ui-library",
+  "url": "https://supabase.com/ui",
+  "name": "Supabase UI Library",
+  "tagline": "shadcn registry of blocks that wire a UI straight into Supabase auth, storage and realtime",
+  "description": "Supabase's own shadcn-compatible registry (the site now resolves to supabase.com/library). It ships 12 distinct blocks — Supabase client, password auth, social auth, dropzone upload, realtime cursor, realtime chat, realtime avatar stack, realtime Monaco, realtime flow, current-user avatar, infinite query and the Platform Kit — each published per framework, for 60 registry items in total. Every block is real wiring, not just markup: the auth block includes routes, middleware and server clients. Frameworks covered are Next.js, React, React Router, TanStack Start, Vue and Nuxt.",
+  "category": "component-libraries",
+  "subcategory": "integration-components",
+  "kinds": [
+   "registry",
+   "block-collection",
+   "component-library"
+  ],
+  "facets": {
+   "framework": [
+    "next",
+    "react",
+    "vue",
+    "nuxt"
+   ],
+   "styling": [
+    "tailwind-any",
+    "css-variables"
+   ],
+   "license": [
+    "apache-2.0"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "cli",
+    "copy-paste",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "built-on-accessible-primitives"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "registry-json",
+    "cli-installable",
+    "agent-skill",
+    "llms-txt",
+    "structured-docs",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "login-form",
+   "signup-form",
+   "forgot-password-form",
+   "social-login-buttons",
+   "file-upload",
+   "avatar",
+   "avatar-group",
+   "conversation",
+   "message",
+   "code-editor",
+   "node-editor",
+   "infinite-scroll",
+   "custom-cursor"
+  ],
+  "component_count": 12,
+  "surfaces": [
+   "login-web-app",
+   "sign-up",
+   "resetting-password",
+   "uploading-media",
+   "chat-web-app",
+   "feed",
+   "admin-panel",
+   "verifying-account"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "npx shadcn@latest add https://supabase.com/ui/r/realtime-chat-nextjs.json",
+  "package": null,
+  "docs_url": "https://supabase.com/ui/docs/getting-started/introduction",
+  "repo_url": "https://github.com/supabase/supabase",
+  "registry_url": "https://supabase.com/ui/r/registry.json",
+  "github": {
+   "stars": 108019,
+   "license": "Apache-2.0",
+   "last_activity": "2026-08-15"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 60,
+   "blocks": 12
+  },
+  "agent_guidance": "Use this the moment a project already has Supabase — it saves you writing the auth route handlers, cookie-aware server client and RLS-safe upload paths by hand, and the generated code lands in your repo so you can edit it. Always append the framework suffix to the registry item name (realtime-chat-nextjs vs realtime-chat-tanstack); picking the wrong one silently pulls the wrong client. It assumes shadcn/ui is already initialised, and the realtime blocks need Realtime enabled on the project, so check both before you promise the user a working chat.",
+  "why_it_matters": "First-party registry from the backend vendor itself, so the blocks track Supabase API changes instead of drifting the way third-party auth starters do.",
+  "notable_for": [
+   "first-party Supabase blocks",
+   "60 registry items across 6 frameworks",
+   "realtime cursors, chat and presence out of the box",
+   "Platform Kit for embedding Supabase management UI",
+   "ships companion AI skills"
+  ],
+  "quality_tier": "A",
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://supabase.com/ui (redirects to https://supabase.com/library), https://supabase.com/ui/r/registry.json (full 60-item manifest), https://supabase.com/ui/docs/getting-started/quickstart, https://supabase.com/ui/r/realtime-chat-nextjs.json (200), GitHub API repos/supabase/supabase"
+ },
+ {
+  "id": "ce34507c-531f-4ee9-b502-7a442046e992",
+  "slug": "clerk-shadcn-registry",
+  "url": "https://clerk.com/docs/guides/development/shadcn-cli",
+  "name": "Clerk shadcn Registry",
+  "tagline": "shadcn CLI commands that scaffold Clerk auth pages and middleware into a Next.js app",
+  "description": "Clerk's docs page for its shadcn-compatible registry, plus the registry itself at clerk.com/r. Twelve items are published: a full quickstart block, a sign-in-or-up variant, sign-in / sign-up / waitlist pages, a ClerkProvider wrapper, a theme provider, a header with auth buttons, a layout-with-header, the Clerk middleware file, and two multistep onboarding flows (AIO and custom-flows). Everything targets the Next.js App Router only — there are no React Router, Vue or Remix items.",
+  "category": "component-libraries",
+  "subcategory": "integration-components",
+  "kinds": [
+   "registry",
+   "block-collection",
+   "reference"
+  ],
+  "facets": {
+   "framework": [
+    "next",
+    "react"
+   ],
+   "styling": [
+    "tailwind-any"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium",
+    "account-required"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "cli",
+    "saas",
+    "npm-package"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code",
+    "prose"
+   ],
+   "agent_readiness": [
+    "registry-json",
+    "cli-installable",
+    "llms-txt",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "login-form",
+   "signup-form",
+   "account-menu",
+   "onboarding-flow",
+   "theme-provider",
+   "header"
+  ],
+  "component_count": 12,
+  "surfaces": [
+   "login-web-app",
+   "sign-up",
+   "waitlist",
+   "onboarding-web-app",
+   "multi-step-form",
+   "account-web-app"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "npx shadcn@latest add https://clerk.com/r/nextjs-quickstart.json",
+  "package": "@clerk/nextjs",
+  "docs_url": "https://clerk.com/docs/guides/development/shadcn-cli",
+  "repo_url": null,
+  "registry_url": "https://clerk.com/r/registry.json",
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Registry items are free to install; Clerk itself is freemium and requires an account and API keys to run.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 12,
+   "blocks": null
+  },
+  "agent_guidance": "This is the fastest correct path from an empty Next.js app to working auth: run the nextjs-quickstart item and it drops ClerkProvider, middleware, a header and the sign-in/sign-up routes in one shot, instead of you hand-writing matchers in middleware.ts and getting the public-route regex wrong. Pair it with the Supabase UI blocks only if Supabase is the database and Clerk is the identity provider — do not install both auth blocks or you get two competing session layers. The registry stops at Next.js App Router, so for Vite, React Router or Remix fall back to Clerk's normal SDK docs.",
+  "why_it_matters": "A vendor proving that auth setup — the most error-prone part of a scaffold — can be one shadcn command, which is exactly the shape an agent can execute reliably.",
+  "notable_for": [
+   "one-command Next.js auth scaffold",
+   "12 registry items including waitlist and onboarding",
+   "writes middleware.ts for you",
+   "App Router only",
+   "official Clerk-maintained"
+  ],
+  "quality_tier": "A",
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://clerk.com/docs/guides/development/shadcn-cli, https://clerk.com/r/registry.json (full 12-item manifest), https://clerk.com/r/nextjs-quickstart.json (200), https://clerk.com/llms.txt"
+ },
+ {
+  "id": "6f715daf-9a96-448b-b31f-f61146dfcaf6",
+  "slug": "plate",
+  "url": "https://platejs.org",
+  "name": "Plate",
+  "tagline": "Slate-based rich-text editor framework with 86 shadcn-installable editor components",
+  "description": "Plate is a plugin framework for building rich-text editors in React, sitting on top of Slate and distributed the shadcn way: the registry at platejs.org/r publishes 324 items, of which 86 are Plate UI components (nodes, toolbars, menus) and the rest are feature 'kits' that bundle a plugin plus its UI. It covers tables, code blocks with drawing, columns, callouts, equations, Excalidraw, footnotes, mentions, slash commands, emoji, media with UploadThing, DOCX/Markdown import-export, comments, suggestions (track changes) and Yjs collaboration. AI is first-class: an ai-kit, copilot ghost text and a streaming AI menu. Free core is MIT; Plate Plus sells premium components and a Notion-like app template.",
+  "category": "component-libraries",
+  "subcategory": "shadcn-registries",
+  "kinds": [
+   "component-library",
+   "registry",
+   "primitive"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "tailwind-v4",
+    "css-variables"
+   ],
+   "license": [
+    "mit",
+    "commercial"
+   ],
+   "pricing": [
+    "open-source",
+    "free",
+    "one-time",
+    "freemium"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "npm-package",
+    "cli",
+    "github-repo",
+    "mcp-server"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "built-on-accessible-primitives",
+    "keyboard-navigable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "registry-json",
+    "cli-installable",
+    "mcp-server",
+    "llms-txt",
+    "structured-docs",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "rich-text-editor",
+   "toolbar",
+   "code-block",
+   "table",
+   "mentions",
+   "emoji-picker",
+   "comment",
+   "link",
+   "heading",
+   "quote",
+   "kbd",
+   "image",
+   "video-player",
+   "audio-player",
+   "embed",
+   "file-card",
+   "drag-and-drop",
+   "command-palette",
+   "combobox",
+   "tag",
+   "separator",
+   "in-page-navigation",
+   "color-picker",
+   "date-input",
+   "context-menu",
+   "dialog",
+   "lightbox",
+   "collapsible"
+  ],
+  "component_count": 86,
+  "surfaces": [
+   "blog-post",
+   "blog",
+   "comments",
+   "version-history",
+   "ai-chat-panel",
+   "single-item-detail"
+  ],
+  "templates": [
+   {
+    "name": "Potion",
+    "url": "https://pro.platejs.org",
+    "purpose": "Notion-like full-stack editor app, the flagship Plate Plus template"
+   },
+   {
+    "name": "Plate Playground",
+    "url": "https://github.com/udecode/plate-playground-template",
+    "purpose": "Next.js starter with every plugin enabled, for exploring the full feature set"
+   },
+   {
+    "name": "Plate Minimal",
+    "url": "https://github.com/udecode/plate-minimal-template",
+    "purpose": "Bare Next.js starter with just the editor, for building up from scratch"
+   }
+  ],
+  "template_count": 3,
+  "install": "npx shadcn@latest add @plate/editor-ai",
+  "package": "platejs",
+  "docs_url": "https://platejs.org/docs",
+  "repo_url": "https://github.com/udecode/plate",
+  "registry_url": "https://platejs.org/r/registry.json",
+  "github": {
+   "stars": 16500,
+   "license": "MIT",
+   "last_activity": "2026-08-15"
+  },
+  "pricing_detail": "Core is MIT and free. Plate Plus: Personal EUR 299 one-time (unlimited solo projects), Teams EUR 799 one-time (up to 5 users). Both perpetual with lifetime updates and GitHub repo access.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 324,
+   "blocks": 4
+  },
+  "agent_guidance": "Reach for Plate over Tiptap or a raw contenteditable when the target is a Notion-style block editor in a shadcn codebase — the components land in components/ui as ordinary Tailwind React files you can restyle, which is the thing Tiptap does not give you. Install feature kits (table-kit, media-kit, ai-kit), not individual nodes: a bare node without its plugin renders nothing and the failure is silent. Watch the bundle — editor-ai pulls Slate, the AI SDK and a large plugin graph, so start from editor-basic and add kits when a feature is actually needed, and note that comments, suggestions and Yjs collaboration all need a backend you supply.",
+  "why_it_matters": "The reference answer for rich-text in React right now, and the clearest proof that a whole editor framework can ship through the shadcn registry rather than as an opaque npm widget.",
+  "notable_for": [
+   "324 registry items, 86 UI components",
+   "feature kits bundle plugin plus UI",
+   "AI copilot and streaming AI menu built in",
+   "DOCX and Markdown import-export",
+   "track changes, comments and Yjs collaboration"
+  ],
+  "quality_tier": "S",
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://platejs.org, https://platejs.org/r/registry.json (full 324-item manifest, counted by type), https://platejs.org/r/editor-ai.json (200), https://pro.platejs.org, https://github.com/udecode/plate, https://registry.npmjs.org/platejs (latest 53.3.5 published 2026-08-15), https://platejs.org/llms.txt"
+ },
+ {
+  "id": "b019cb67-9e4c-468d-9df9-8da6e9b69bef",
+  "slug": "nuqs-registry",
+  "url": "https://nuqs.dev/registry",
+  "name": "nuqs Registry",
+  "tagline": "shadcn-installable adapters that run nuqs URL state outside Next.js",
+  "description": "The community registry for nuqs, the type-safe search-params state manager for React. It is small and deliberately so: five items, four of them framework adapters (Inertia.js, One.js, React Router v5, Waku) and one utility (typed links for Next.js using typedRoutes), with an Expo Router adapter announced. These are not UI components — each item drops adapter source into your project so useQueryState works on a router nuqs does not ship first-party support for.",
+  "category": "component-libraries",
+  "subcategory": "shadcn-registries",
+  "kinds": [
+   "registry",
+   "primitive"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "cli",
+    "copy-paste",
+    "npm-package",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "registry-json",
+    "cli-installable",
+    "llms-txt",
+    "copy-paste-ready",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "filtering-items",
+   "search-results"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "npx shadcn@latest add https://nuqs.dev/r/adapter-inertia.json",
+  "package": "nuqs",
+  "docs_url": "https://nuqs.dev/docs",
+  "repo_url": "https://github.com/47ng/nuqs",
+  "registry_url": "https://nuqs.dev/r/registry.json",
+  "github": {
+   "stars": 10745,
+   "license": "MIT",
+   "last_activity": "2026-08-15"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 5,
+   "blocks": null
+  },
+  "agent_guidance": "Only open this page when nuqs is already the choice and the app is NOT on Next.js, React Router v6/v7, Remix or TanStack Router — those adapters ship inside the nuqs package itself, so installing a registry item for them is wrong. The registry exists for the long tail: Inertia (Laravel/Rails backends), Waku, One.js and legacy React Router v5. Treat the installed adapter as your code from that point on, because it is copied in rather than versioned by npm, and it will not update when nuqs does.",
+  "why_it_matters": "A neat pattern worth knowing: a library using the shadcn registry to distribute integration glue that would otherwise bloat its npm package or be a copy-paste gist.",
+  "notable_for": [
+   "five items, four framework adapters",
+   "Inertia.js and Waku support",
+   "typed links utility for Next.js",
+   "adapters are vendored, not versioned",
+   "Expo Router announced"
+  ],
+  "quality_tier": "B",
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://nuqs.dev/registry, https://nuqs.dev/r/registry.json (full 5-item manifest), https://nuqs.dev/r/adapter-inertia.json (200), https://nuqs.dev/llms.txt, GitHub API repos/47ng/nuqs, https://registry.npmjs.org/nuqs"
+ },
+ {
+  "id": "a2e11b04-694a-44c7-b6e7-5982eb87c39e",
+  "slug": "motion-primitives",
+  "url": "https://www.motion-primitives.com",
+  "name": "Motion Primitives",
+  "tagline": "34 MIT motion components for React, installed one at a time by shadcn CLI",
+  "description": "Motion Primitives by Julien Thibeaut (ibelick) is a free component kit for animated interface parts, built on Motion (Framer Motion) and Tailwind. The open-source set is 34 components: dock, morphing dialog, morphing popover, spotlight, border trail, glow effect, magnetic, tilt, cursor, in-view, infinite slider, progressive blur, scroll progress, animated number, sliding number, image comparison, transition panel, dynamic and expandable toolbars, and a full family of text animations (text-effect, text-loop, text-morph, text-roll, text-scramble, text-shimmer, text-shimmer-wave, spinning-text). A paid Pro tier adds 50+ marketing sections and full templates.",
+  "category": "motion-interaction",
+  "subcategory": "animated-components",
+  "kinds": [
+   "animation-library",
+   "component-library",
+   "registry"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "tailwind-any",
+    "css-variables"
+   ],
+   "license": [
+    "mit",
+    "commercial"
+   ],
+   "pricing": [
+    "freemium",
+    "one-time",
+    "open-source"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "cli",
+    "copy-paste",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "cli-installable",
+    "copy-paste-ready",
+    "open-source-code",
+    "bot-blocked"
+   ],
+   "maturity": "stable"
+  },
+  "components": [
+   "accordion",
+   "carousel",
+   "dialog",
+   "popover",
+   "collapsible",
+   "dock",
+   "toolbar",
+   "custom-cursor",
+   "count-up",
+   "scroll-reveal",
+   "marquee",
+   "text-effect",
+   "typewriter-text",
+   "shimmer",
+   "hover-effect",
+   "transition",
+   "animation",
+   "progress-bar",
+   "image"
+  ],
+  "component_count": 34,
+  "surfaces": [
+   "homepage",
+   "features",
+   "pricing-website",
+   "testimonials",
+   "faq",
+   "about",
+   "team",
+   "blog"
+  ],
+  "templates": [
+   {
+    "name": "Noir",
+    "url": "https://pro.motion-primitives.com",
+    "purpose": "Pro marketing-site template built from the motion sections"
+   },
+   {
+    "name": "Nim",
+    "url": "https://pro.motion-primitives.com",
+    "purpose": "Pro marketing-site template built from the motion sections"
+   }
+  ],
+  "template_count": null,
+  "install": "npx shadcn@latest add \"https://motion-primitives.com/c/dock.json\"",
+  "package": null,
+  "docs_url": "https://motion-primitives.com/docs",
+  "repo_url": "https://github.com/ibelick/motion-primitives",
+  "registry_url": null,
+  "github": {
+   "stars": 5976,
+   "license": "MIT",
+   "last_activity": "2026-03-19"
+  },
+  "pricing_detail": "Free tier is MIT. Motion Primitives Pro: Individual License $149 one-time (list $299), perpetual, lifetime updates, commercial use, 50+ sections plus templates.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 34,
+   "blocks": 50
+  },
+  "agent_guidance": "Use this for the one or two moments in a page that need to feel crafted — a macOS-style dock, a morphing dialog that grows out of its trigger card, a scrambling headline — not as a general component library, because it has no forms, tables or navigation. It composes cleanly with shadcn/ui since each install is a single self-contained file under components/motion-primitives, but every component is a client component pulling in motion, so keep them off server-rendered shells and out of long lists. The site sits behind a Vercel bot checkpoint, so read the component source from the GitHub repo rather than trying to scrape the docs.",
+  "why_it_matters": "The most-copied free motion kit in the shadcn ecosystem, and the reference implementation for morphing dialogs and text effects that dozens of other kits re-derive.",
+  "notable_for": [
+   "34 MIT components",
+   "morphing dialog and morphing popover",
+   "eight text-animation components",
+   "macOS-style dock",
+   "per-component shadcn install"
+  ],
+  "quality_tier": "A",
+  "already_enriched": false,
+  "http_status": 403,
+  "verified_at": "2026-08-15",
+  "evidence": "https://www.motion-primitives.com (WebFetch 403, curl 429 Vercel Security Checkpoint), https://motion-primitives.com/docs (blocked), https://pro.motion-primitives.com (fetched), GitHub API repos/ibelick/motion-primitives plus full file tree for components/core (34 files) and components/website/installation-cli.tsx for the exact install command"
+ }
+]

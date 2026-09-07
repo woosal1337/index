@@ -1,0 +1,470 @@
+[
+  {
+    "id": "depo:j5725x909r556addm82nvqned980zw55",
+    "slug": "open-source-3d-assets",
+    "url": "https://www.opensource3dassets.com/",
+    "name": "Open Source 3D Assets (OS3A)",
+    "tagline": "991 CC0 GLB models from Polygonal Mind's metaverse projects, browsable and downloadable",
+    "description": "OS3A is a browsable front-end over ToxSam's CC0 re-release of Polygonal Mind's 2018-2023 metaverse project assets: 991 GLB models across 18 named packs, all CC0-1.0. The site adds a gallery with filtering, a model finder, and a GLB Inspector that reports geometry, materials, and validation for any file you drop in. Model files and thumbnails are served straight from GitHub raw, so nothing is gated behind an account. It is for game, WebGL, WebXR, and VRChat builders who need drop-in props and environments with no licence homework.",
+    "category": "textures-assets",
+    "subcategory": "mockups-and-asset-packs",
+    "kinds": [
+      "asset-pack",
+      "gallery",
+      "tool"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "cc0"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "download",
+        "web-app",
+        "github-repo",
+        "public-api"
+      ],
+      "platform": [
+        "web",
+        "xr",
+        "cross-platform"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "3d",
+        "images",
+        "dataset"
+      ],
+      "agent_readiness": [
+        "public-api",
+        "machine-index",
+        "open-source-code"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": "https://www.opensource3dassets.com/en/about",
+    "repo_url": "https://github.com/ToxSam/cc0-models-Polygonal-Mind",
+    "registry_url": "https://www.opensource3dassets.com/api/assets",
+    "github": {
+      "stars": 8,
+      "license": "CC0-1.0",
+      "last_activity": "2026-02-09"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 991,
+      "blocks": null
+    },
+    "agent_guidance": "Skip the JS gallery — it renders empty to a fetcher. Hit https://www.opensource3dassets.com/api/assets directly: one unauthenticated GET returns all 991 records with name, direct GitHub raw modelFileUrl, thumbnail, file_size, and trait tags (Category, Style, Rigging, Animations, Polycount), which is enough to filter and download programmatically. Content skews hard to architecture (307) and nature (111) props from VRChat worlds, so reach for it when you need environment dressing rather than characters — the only rigged creature set is the 60-model 'xyz' pack.",
+    "why_it_matters": "One of the few places where a large, coherent, genuinely CC0 GLB library is exposed as clean JSON rather than a marketplace funnel. The GLB Inspector alone saves a round-trip to a desktop DCC tool.",
+    "quality_tier": "B",
+    "notable_for": [
+      "991 GLB models, all CC0-1.0",
+      "18 named packs (avatar-garden 126, towers 89, MomusPark 72)",
+      "Unauthenticated JSON asset index",
+      "In-browser GLB inspector and validator",
+      "Files served from GitHub raw, no account"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://www.opensource3dassets.com/ (WebFetch), https://www.opensource3dassets.com/gallery (WebFetch, JS shell), https://www.opensource3dassets.com/api/assets (curl, full 991-record JSON parsed), https://www.opensource3dassets.com/sitemap.xml (curl), https://api.github.com/repos/ToxSam/cc0-models-Polygonal-Mind",
+    "source": "depo"
+  },
+  {
+    "id": "depo:j578f95r9tntq6bahnj0skv6td80fhdj",
+    "slug": "facehash",
+    "url": "https://www.facehash.dev/",
+    "name": "Facehash",
+    "tagline": "Deterministic CSS-drawn avatar faces from any string, zero runtime dependencies",
+    "description": "Facehash is a single React component that hashes a string into a minimalist face rendered entirely in CSS — no canvas, no SVG sprites, no network call, no runtime dependencies. Props cover size, custom colour arrays, gradient or solid variants, a four-step 3D intensity, an initial-letter fallback, blinking, and a custom mouth renderer; it also exports Avatar / AvatarImage / AvatarFallback wrappers so a real photo falls back to a generated face. It ships from the Cossistant monorepo as the MIT-licensed npm package `facehash`, with a Next.js route handler for image-URL usage. It suits placeholder identity in chat apps, comment threads, agent lists, and seeded demo data.",
+    "category": "component-libraries",
+    "subcategory": "react-component-libraries",
+    "kinds": [
+      "component-library",
+      "primitive"
+    ],
+    "facets": {
+      "framework": [
+        "react",
+        "next"
+      ],
+      "styling": [
+        "vanilla-css",
+        "css-variables",
+        "tailwind-any"
+      ],
+      "license": [
+        "mit"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "npm-package",
+        "github-repo"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "code"
+      ],
+      "agent_readiness": [
+        "open-source-code",
+        "structured-docs"
+      ],
+      "maturity": "beta"
+    },
+    "components": [
+      "avatar"
+    ],
+    "component_count": 1,
+    "surfaces": [
+      "public-profile",
+      "chat-web-app",
+      "comments",
+      "feed"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": "npm i facehash",
+    "package": "facehash",
+    "docs_url": "https://www.facehash.dev/",
+    "repo_url": "https://github.com/cossistantcom/cossistant/tree/main/packages/facehash",
+    "registry_url": null,
+    "github": {
+      "stars": 713,
+      "license": "MIT",
+      "last_activity": "2026-08-04"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Reach for this instead of Dicebear or boring-avatars when you must not make a network request and want zero added bundle weight — it is pure CSS, so it renders in RSC output and in email-preview-style static HTML without hydration. Peer deps pin React >=18 <20 and Next >=15, so it will refuse to install on a React 17 or Next 14 codebase. It is at v0.1.0 and the repo stars belong to the parent Cossistant support-widget monorepo (AGPL-3.0) even though the package itself is MIT — cite the package licence, not the repo licence.",
+    "why_it_matters": "Identicon libraries almost always pull a canvas or SVG generator; drawing the whole face in CSS makes the same feature free at runtime and trivially themeable.",
+    "quality_tier": "B",
+    "notable_for": [
+      "Faces drawn purely in CSS, 0 dependencies",
+      "Deterministic — same string, same face",
+      "Avatar/AvatarImage/AvatarFallback photo fallback",
+      "Next.js route handler for image URLs",
+      "MIT package inside an AGPL monorepo"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://www.facehash.dev/ (WebFetch), https://registry.npmjs.org/facehash (curl, metadata parsed: v0.1.0, MIT, 7 versions, packages/facehash), https://github.com/cossistantcom/cossistant (WebFetch), https://api.github.com/repos/cossistantcom/cossistant. Note: npmjs.com package page returned 403 to WebFetch; registry API used instead.",
+    "source": "depo"
+  },
+  {
+    "id": "depo:j578t5qjwj8dwcg8z69dmmj5hx80frnm",
+    "slug": "ui-sh",
+    "url": "https://ui.sh/",
+    "name": "ui.sh",
+    "tagline": "Nine invite-only agent skills for UI work, from the Tailwind and Refactoring UI team",
+    "description": "ui.sh is a set of nine task-oriented agent skills for interface work, published by the people behind Tailwind CSS and Refactoring UI. The listed skills are Design, Ideas, Brand Kit, Componentize, Canonicalize Tailwind, Add Dark Mode, Dark Mode Image, Make Responsive, and Markup From Image — each framed as a workflow an assistant runs rather than a component you install. As of this check the product is invite-only: the homepage and /docs both show the skill list and a Request an invite call to action, with no install command, pricing, licence, or repository published. Treat it as an announced-and-gated release from a high-credibility team rather than something you can pick up today.",
+    "category": "agent-design-tooling",
+    "subcategory": "agent-skills",
+    "kinds": [
+      "agent-skill",
+      "prompt-pack",
+      "tool"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "tailwind-any"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "account-required",
+        "unknown"
+      ],
+      "distribution": [
+        "agent-skill"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "prompts"
+      ],
+      "agent_readiness": [
+        "agent-skill",
+        "auth-required"
+      ],
+      "maturity": "beta"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": "https://ui.sh/docs",
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 9,
+      "blocks": null
+    },
+    "agent_guidance": "Do not attempt an install — there is no public command, package, or repo behind this yet; /pricing and /llms.txt both 404 and the docs page is the same marketing list as the homepage. What is useful right now is the skill taxonomy itself: Canonicalize Tailwind, Add Dark Mode, Make Responsive, and Markup From Image name the four UI chores worth wrapping as your own skills, and the Refactoring UI book is the published source of the taste behind them. Re-check this entry once invites open, because the facets here are unverified by necessity.",
+    "why_it_matters": "The Tailwind and Refactoring UI authors packaging their design judgment as agent skills is the strongest signal yet that design taste is shipping as tooling rather than as prose.",
+    "quality_tier": "A",
+    "notable_for": [
+      "By the Tailwind CSS and Refactoring UI team",
+      "Nine named UI skills, no install path yet",
+      "Invite-only as of Aug 2026",
+      "Skill names double as a UI-chore taxonomy"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://ui.sh/ (WebFetch + raw HTML text extract), https://ui.sh/skills (WebFetch, all nine skills and blurbs), https://ui.sh/docs (WebFetch, no install info), status probes on /pricing (404) and /llms.txt (404)",
+    "source": "depo"
+  },
+  {
+    "id": "depo:j577yvxr9z2wwjdjw0x5rycjdd80f9b1",
+    "slug": "shadcn-kanban-board",
+    "url": "https://www.shadcn-kanban-board.com/",
+    "name": "Shadcn Kanban Board",
+    "tagline": "Accessible drag-and-drop kanban as a shadcn registry item, no dnd library",
+    "description": "A single-file kanban board distributed as a shadcn registry item, installed with `npx shadcn@latest add https://shadcn-kanban-board.com/r/kanban.json`. The kanban.tsx file exports roughly 30 named parts — KanbanBoardProvider, KanbanBoard, Column, ColumnHeader/Title/List/Footer, Card, CardTitle/Description/Textarea/ButtonGroup, ColumnSkeleton, KanbanColumnCircle — plus a full accessibility layer with live region, screen-reader instructions, announcements, and a useDndEvents monitor hook. Drag and drop is written in plain React with no dnd-kit or react-dnd; the only runtime deps are Radix Slot, Radix Tooltip, cva, clsx, and tailwind-merge. Eleven column-circle colours ship as oklch CSS variables wired into the shadcn theme, and a second registry item, use-js-loaded.json, guards render until client JS is ready.",
+    "category": "component-libraries",
+    "subcategory": "shadcn-registries",
+    "kinds": [
+      "registry",
+      "component-library",
+      "block-collection"
+    ],
+    "facets": {
+      "framework": [
+        "react",
+        "next",
+        "remix"
+      ],
+      "styling": [
+        "tailwind-v4",
+        "css-variables"
+      ],
+      "license": [
+        "mit"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "shadcn-registry",
+        "copy-paste",
+        "github-repo"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "keyboard-navigable",
+        "screen-reader-tested",
+        "aria-complete",
+        "built-on-accessible-primitives"
+      ],
+      "content_type": [
+        "code",
+        "design-tokens"
+      ],
+      "agent_readiness": [
+        "registry-json",
+        "cli-installable",
+        "copy-paste-ready",
+        "open-source-code"
+      ],
+      "maturity": "stable"
+    },
+    "components": [
+      "kanban-board",
+      "drag-and-drop",
+      "card",
+      "live-region",
+      "skeleton",
+      "textarea",
+      "tooltip",
+      "button"
+    ],
+    "component_count": 2,
+    "surfaces": [
+      "kanban-board"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": "npx shadcn@latest add https://shadcn-kanban-board.com/r/kanban.json",
+    "package": null,
+    "docs_url": "https://github.com/janhesters/shadcn-kanban-board/blob/main/README.md",
+    "repo_url": "https://github.com/janhesters/shadcn-kanban-board",
+    "registry_url": "https://www.shadcn-kanban-board.com/r/registry.json",
+    "github": {
+      "stars": 255,
+      "license": "MIT",
+      "last_activity": "2025-05-29"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": 2
+    },
+    "agent_guidance": "Prefer this over wiring dnd-kit yourself when the app is already on shadcn/ui and the board is a feature rather than the product — you get keyboard reordering and screen-reader announcements for free, which a hand-rolled dnd-kit board almost never has. Install use-js-loaded.json alongside it or the columns flash unstyled before hydration. Two cautions: the registry emits Tailwind v4 oklch variables under @layer base so a v3 project needs them rewritten, and the repo has had no commits since May 2025 — treat it as frozen source you now own, not a dependency that will get fixed upstream.",
+    "why_it_matters": "Most kanban demos ship drag and drop and stop there; this one ships the ARIA live region and announcement plumbing that makes a board usable without a mouse.",
+    "quality_tier": "A",
+    "notable_for": [
+      "~30 exported sub-components in one file",
+      "Drag and drop with no dnd library",
+      "Live region + screen-reader announcements built in",
+      "11 oklch column colours as theme variables",
+      "MIT, but unmaintained since May 2025"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://www.shadcn-kanban-board.com/ (WebFetch), https://www.shadcn-kanban-board.com/r/registry.json (curl, parsed), https://www.shadcn-kanban-board.com/r/kanban.json (WebFetch + curl, all file contents and export names extracted), https://github.com/janhesters/shadcn-kanban-board (WebFetch), https://api.github.com/repos/janhesters/shadcn-kanban-board",
+    "source": "depo"
+  },
+  {
+    "id": "depo:j5797aezd5dzmwkpjc6y6fv4t180fve1",
+    "slug": "refactoring-ui",
+    "url": "https://www.refactoringui.com/",
+    "name": "Refactoring UI",
+    "tagline": "218-page design book for developers: 50 chapters of concrete UI tactics, plus assets",
+    "description": "Refactoring UI is Adam Wathan and Steve Schoger's paid design package for developers: a 218-page PDF of 50 short, heavily illustrated chapters grouped into nine sections — Starting from Scratch, Hierarchy is Everything, Layout and Spacing, Designing Text, Working with Color, Creating Depth, Working with Images, Finishing Touches, Leveling Up. The pitch is tactics over theory: establish a type scale, ditch hex for HSL, use shadows to convey elevation, use fewer borders. The Complete Package adds three video tutorials (complex form, data dashboard, landing page), a 200+ item component inspiration gallery across 20+ categories, a dozen-plus 10-shade colour palettes, 30+ font recommendations split by UI / headline / article use, and 200 two-colour customisable SVG icons. Over 30,000 copies sold; it remains the default answer when an engineer asks how to get better at UI.",
+    "category": "essays-guides-courses",
+    "subcategory": "courses-and-books",
+    "kinds": [
+      "course",
+      "reference",
+      "asset-pack"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "commercial"
+      ],
+      "pricing": [
+        "one-time",
+        "paid"
+      ],
+      "distribution": [
+        "download"
+      ],
+      "platform": [
+        "web",
+        "print"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "pdf",
+        "video",
+        "prose",
+        "images",
+        "icons"
+      ],
+      "agent_readiness": [
+        "none"
+      ],
+      "maturity": "stable"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": "The Essentials $99 USD (218-page PDF + 3 videos); The Complete Package $149 USD (adds component gallery, colour palettes, font showcase, 200 SVG icons); plus local taxes. Team Complete Package: 3 members $399, 5 $649, 10 $1249, 15 $1799, 25 $2749 USD. Two free sample chapters available.",
+    "counts": {
+      "icons": 200,
+      "fonts": 30,
+      "palettes": 12,
+      "entries": 200,
+      "blocks": null
+    },
+    "agent_guidance": "This is the taste reference to cite when a user asks why a layout feels off — its chapter titles map one-to-one onto fixable defects (ambiguous spacing, grey text on coloured backgrounds, lightness killing saturation, too many borders), so name the tactic rather than saying 'add more whitespace'. The content is a paid DRM-free PDF with no API, no repo, and no llms.txt, so never claim to quote it verbatim; the free chapters and the authors' public tips are the only fetchable parts. Pair it with Tailwind CSS, whose spacing, type, and shade scales are the direct implementation of chapters 3, 4, and 5.",
+    "why_it_matters": "The book that converted a generation of engineers into competent interface designers, and the source of the design conventions now baked into Tailwind and much of the modern web.",
+    "quality_tier": "S",
+    "notable_for": [
+      "218 pages, 50 chapters, 9 sections",
+      "Tactics not theory — each chapter is one fixable defect",
+      "200+ item component inspiration gallery",
+      "200 two-colour SVG icons and 12+ 10-shade palettes",
+      "30,000+ copies sold; by the Tailwind CSS authors"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://www.refactoringui.com/ (WebFetch + full raw HTML text extract covering the complete table of contents, all bundle contents, both tiers, and the five team price points)",
+    "source": "depo"
+  }
+]

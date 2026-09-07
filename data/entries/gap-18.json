@@ -1,0 +1,542 @@
+[
+  {
+    "id": "depo:j57cejq2t2bsg0hgt0hk48txe57yjm8g",
+    "slug": "transhumans",
+    "url": "https://www.transhumans.xyz",
+    "name": "Transhumans",
+    "tagline": "CC0 black-and-white character illustrations in SVG and PNG",
+    "description": "A free illustration pack by Pablo Stanley of loose, brush-drawn characters in a punk sci-fi register — androids, helmets, plants, dogs, people mid-stride. Every piece downloads as SVG and PNG, is recolourable in Blush, and ships under CC0 for commercial and personal use with no attribution. Use it when a product needs empty states, 404s or a hero illustration with personality instead of the usual corporate-flat house style.",
+    "category": "textures-assets",
+    "subcategory": "mockups-and-asset-packs",
+    "kinds": [
+      "asset-pack"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "cc0"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "download",
+        "figma-file"
+      ],
+      "platform": [
+        "web",
+        "print",
+        "platform-agnostic"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "images",
+        "figma"
+      ],
+      "agent_readiness": [
+        "image-only"
+      ],
+      "maturity": "stable"
+    },
+    "components": [
+      "illustration"
+    ],
+    "component_count": null,
+    "surfaces": [
+      "empty-state",
+      "404",
+      "homepage",
+      "onboarding-web-app",
+      "waitlist"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": "All illustrations free via Gumroad under CC0; physical prints sold separately in the shop.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 38,
+      "blocks": null
+    },
+    "agent_guidance": "Reach for this when a project needs hand-drawn character art and the brief is playful rather than enterprise — it is the counterweight to unDraw or Storyset, which read generic. It is CC0, so you can recolour the SVG fills directly to a project's token palette with no attribution block; the strokes are deliberately imperfect, so do not try to normalise stroke widths. Assets are static files only: there is no npm package, no API and no naming convention, so download and commit the SVGs into the repo rather than hotlinking.",
+    "why_it_matters": "One of the very few genuinely CC0 illustration sets with an actual artistic point of view, which makes it safe to ship commercially without the licence anxiety that surrounds most free illustration packs.",
+    "quality_tier": "A",
+    "notable_for": [
+      "CC0 public domain",
+      "SVG and PNG per illustration",
+      "recolourable in Blush",
+      "distinctive brush-stroke style",
+      "Pablo Stanley"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://www.transhumans.xyz (fetched, HTTP 200; 38 distinct illustration names read from the page's own alt attributes, page itself claims 40+ with more to come)",
+    "source": "depo"
+  },
+  {
+    "id": "depo:j57a6gm0dttckfzw37vyqed6v57xcgn8",
+    "slug": "react-native-reanimated",
+    "url": "https://docs.swmansion.com/react-native-reanimated/",
+    "name": "React Native Reanimated",
+    "tagline": "UI-thread animation library for React Native, v4 on the New Architecture",
+    "description": "Software Mansion's animation library for React Native: it runs animation logic as worklets on the UI thread, so gestures and transitions stay at 60fps while JS is busy. The API is hook-shaped — useSharedValue, useAnimatedStyle, useDerivedValue, withSpring/withTiming, plus layout animations like FadeIn/FadeOut, keyboard and sensor hooks. Version 4 requires the New Architecture (Fabric) and a separate react-native-worklets dependency; 3.x remains for old-architecture apps but is no longer actively developed.",
+    "category": "motion-interaction",
+    "subcategory": "animation-engines",
+    "kinds": [
+      "animation-library",
+      "primitive"
+    ],
+    "facets": {
+      "framework": [
+        "react-native"
+      ],
+      "styling": [
+        "native-styles"
+      ],
+      "license": [
+        "mit"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "npm-package",
+        "github-repo"
+      ],
+      "platform": [
+        "ios",
+        "android",
+        "web",
+        "cross-platform"
+      ],
+      "accessibility": [
+        "reduced-motion"
+      ],
+      "content_type": [
+        "code"
+      ],
+      "agent_readiness": [
+        "structured-docs",
+        "open-source-code",
+        "cli-installable"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "animation",
+      "transition",
+      "page-transition",
+      "scroll-driven-animation",
+      "gesture"
+    ],
+    "component_count": null,
+    "surfaces": [
+      "gesture-navigation",
+      "onboarding-mobile",
+      "tab-bar-navigation",
+      "action-sheet"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": "npm install react-native-reanimated react-native-worklets",
+    "package": "react-native-reanimated",
+    "docs_url": "https://docs.swmansion.com/react-native-reanimated/docs/fundamentals/getting-started/",
+    "repo_url": "https://github.com/software-mansion/react-native-reanimated",
+    "registry_url": null,
+    "github": {
+      "stars": 10957,
+      "license": "MIT",
+      "last_activity": "2026-08-15"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "This is the default for any non-trivial React Native motion — prefer it over the built-in Animated API whenever the animation is driven by a gesture, a scroll position or anything that must not stutter under JS load, and pair it with react-native-gesture-handler for Gesture/GestureDetector. Before installing v4, check the app is on the New Architecture: v4 will not run on the old bridge, so pin 3.x instead of debugging mysterious crashes. Two setup traps to check first — 'react-native-worklets/plugin' must be the LAST entry in babel.config.js plugins, and Metro cache must be cleared after install; on Expo, SDK 50+ already wires the plugin.",
+    "why_it_matters": "The library that made genuinely native-feeling motion possible in React Native, and the substrate almost every RN gesture, sheet and navigation library is built on.",
+    "quality_tier": "S",
+    "notable_for": [
+      "worklets run on the UI thread",
+      "hook-based shared values",
+      "layout animations (FadeIn/FadeOut)",
+      "v4 requires Fabric",
+      "MIT, ~11k stars"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://docs.swmansion.com/react-native-reanimated/, https://docs.swmansion.com/react-native-reanimated/docs/fundamentals/getting-started/, https://github.com/software-mansion/react-native-reanimated, GitHub API (10957 stars, MIT, pushed 2026-08-15), npm registry (latest 4.5.3)",
+    "source": "depo"
+  },
+  {
+    "id": "depo:j57cr6w07j8f35hvessfc9zd117xdwv0",
+    "slug": "details-inspo",
+    "url": "https://www.inspo.page/",
+    "name": "Details Inspo",
+    "tagline": "3,500+ web design details filed by component, interaction and industry",
+    "description": "inspo.page now 301-redirects to details.so/inspo, the inspiration half of Details. Instead of full-page screenshots it captures individual details from production sites — heroes (338), footers (287), navigations, preloaders, page transitions, cursor interactions — and cross-files them by industry (Studio 1,036, SaaS 601, AI 408, Architecture 275). A separate Vault tier adds paste-ready code for transitions, buttons and text reveals plus AI-ready build prompts. Free browsing shows the latest drops and category previews; the full library is paid.",
+    "category": "inspiration-galleries",
+    "subcategory": "section-galleries",
+    "kinds": [
+      "gallery",
+      "directory"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "proprietary"
+      ],
+      "pricing": [
+        "freemium",
+        "subscription",
+        "one-time",
+        "account-required"
+      ],
+      "distribution": [
+        "web-app",
+        "gallery"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "screenshots",
+        "video",
+        "code"
+      ],
+      "agent_readiness": [
+        "copy-prompt",
+        "auth-required",
+        "agent-paywalled"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "hero",
+      "footer",
+      "navigation-menu",
+      "accordion",
+      "button",
+      "card",
+      "carousel",
+      "list",
+      "modal",
+      "drawer",
+      "dropdown-menu",
+      "page-transition",
+      "scroll-reveal",
+      "custom-cursor",
+      "hover-effect",
+      "full-screen-takeover",
+      "pricing-table",
+      "error-page"
+    ],
+    "component_count": null,
+    "surfaces": [
+      "homepage",
+      "pricing-website",
+      "features",
+      "about",
+      "blog",
+      "contact-us",
+      "404",
+      "testimonials"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": "Free (Starter): latest drops, category previews, 50 saves, 1 board. Pro $9/mo annual or $12/mo quarterly. Max $19/mo annual or $25/mo quarterly (adds Vault code, AI build prompts, implementation docs). Lifetime $490 one-time. Team $22/seat/mo annual or $28/seat/mo quarterly.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 3500,
+      "blocks": null
+    },
+    "agent_guidance": "Use this when the brief is one specific element — 'what do good preloaders look like', 'show me footer treatments' — because its taxonomy is component-and-interaction-first, unlike Godly or Land-book which index whole pages. The industry cross-filter (Studio, SaaS, AI, Architecture) is the fastest way to match a client's sector to real motion references. Caveat before recommending it: only the newest drops are free, the 3,500-item library and the copy-ready code Vault sit behind Pro/Max, and an agent cannot read the gallery without an account — so treat it as a human's research tool, not a scrapeable source.",
+    "why_it_matters": "Component-level indexing is the rare gallery structure that actually answers a design question, rather than dumping another wall of pretty homepages.",
+    "quality_tier": "A",
+    "notable_for": [
+      "indexed by component, not by page",
+      "3,500+ details, weekly drops",
+      "industry cross-filter with real counts",
+      "Vault ships paste-ready code and AI prompts",
+      "old inspo.page domain redirects here"
+    ],
+    "already_enriched": false,
+    "http_status": 301,
+    "verified_at": "2026-08-15",
+    "evidence": "https://www.inspo.page/ (HTTP 301 to https://www.details.so/inspo, confirmed by curl), https://www.details.so/inspo, https://www.details.so/, https://www.details.so/pricing — categories and counts read verbatim from those pages",
+    "source": "depo"
+  },
+  {
+    "id": "depo:j57bbr18e12zs19cnzypjwhk1x7xdv7y",
+    "slug": "isocons",
+    "url": "https://www.isocons.app/",
+    "name": "Isocons",
+    "tagline": "Free isometric SVG icon set, three perspectives, CC BY 4.0",
+    "description": "An isometric icon library drawn in three perspectives and two corner styles, exported as SVG with stroke weight and colour editable on the site before download. It ships as a Figma plugin as well as direct download, and is free under CC BY 4.0 with attribution. Note: the site is a client-rendered Next.js app that serves an empty shell to fetchers, so the counts below come from third-party listings rather than first-hand reading.",
+    "category": "icons-logos",
+    "subcategory": "icon-sets",
+    "kinds": [
+      "icon-set"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "cc-by"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "download",
+        "figma-plugin",
+        "web-app"
+      ],
+      "platform": [
+        "web",
+        "platform-agnostic"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "icons",
+        "images"
+      ],
+      "agent_readiness": [
+        "js-only-shell"
+      ],
+      "maturity": "stable"
+    },
+    "components": [
+      "icon"
+    ],
+    "component_count": null,
+    "surfaces": [
+      "homepage",
+      "features",
+      "help-center"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": "Free; CC BY 4.0 requires credit to the creator.",
+    "counts": {
+      "icons": 1000,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Reach for this only when the design deliberately wants isometric/2.5D iconography — feature grids, developer-tool marketing pages, infographic decks — never as a general UI icon set, where Lucide or Phosphor are the right call because they align to a pixel grid at 16-24px. Isometric glyphs lose legibility below roughly 32px, so budget space for them. Two practical warnings: the licence is CC BY, not MIT or CC0, so the project needs a visible credit line; and you cannot enumerate or scrape the catalogue programmatically because the page renders entirely client-side (its robots.txt still points at a placeholder acme.com sitemap), so a human has to pick icons in the browser or via the Figma plugin.",
+    "why_it_matters": "A rare free isometric set that is consistent enough to use as a system rather than as one-off spot art, though the CC BY attribution requirement and the unscrapeable site limit it.",
+    "quality_tier": "B",
+    "notable_for": [
+      "three perspectives, two corner styles",
+      "stroke and colour editable before download",
+      "official Figma plugin",
+      "CC BY 4.0 attribution required",
+      "client-side-only site"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://www.isocons.app/ (HTTP 200 but body is a Next.js BAILOUT_TO_CLIENT_SIDE_RENDERING shell with an empty <main>; /icons and /sitemap.xml return the same shell or 404), https://www.gooddesign.tools/tools/isocons (free, icons), https://community.eagle.cool/resource/isocons-isometric-icons (1,000+ SVG icons, three perspectives, two corner styles, CC BY 4.0); Figma plugin page 1413541312472258622 returned HTTP 403. Icon count is SECOND-HAND and unverified on-site.",
+    "source": "depo"
+  },
+  {
+    "id": "depo:j577j0949e1sj0x9zn0c4g0yc17trj72",
+    "slug": "palm-ui",
+    "url": "https://www.palmui.com/",
+    "name": "Palm UI",
+    "tagline": "2,000+ copy-paste website sections for Figma and Framer, $149 once",
+    "description": "A library of ready-made landing-page sections — heroes, navbars, pricing, footers, testimonials — supplied as Figma components and as Framer sections, in matched light and dark themes, plus interactive Framer pieces like magnetic hover buttons and rotating cubes. The workflow is copy, paste, customise, publish; the paid bundle also includes a Navbar kit and finished Framer templates. This is design-file output, not code: nothing here compiles into a React project.",
+    "category": "blocks-templates-themes",
+    "subcategory": "page-blocks",
+    "kinds": [
+      "block-collection",
+      "template",
+      "theme-pack"
+    ],
+    "facets": {
+      "framework": [
+        "framer"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "commercial"
+      ],
+      "pricing": [
+        "one-time",
+        "freemium",
+        "paid"
+      ],
+      "distribution": [
+        "figma-file",
+        "download",
+        "marketplace"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "figma",
+        "images"
+      ],
+      "agent_readiness": [
+        "none"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "hero",
+      "navbar",
+      "footer",
+      "pricing-table",
+      "button",
+      "hover-effect"
+    ],
+    "component_count": null,
+    "surfaces": [
+      "homepage",
+      "pricing-website",
+      "features",
+      "testimonials",
+      "waitlist"
+    ],
+    "templates": [
+      {
+        "name": "Sirius",
+        "url": "https://sirius-plus.framer.website/",
+        "purpose": "Dark minimal SaaS marketing site"
+      },
+      {
+        "name": "Queue",
+        "url": "https://queue.framer.website/",
+        "purpose": "Waitlist / pre-launch landing page"
+      },
+      {
+        "name": "Synth AI (light)",
+        "url": "https://synth-main-light.framer.website/",
+        "purpose": "Light-theme AI product site"
+      },
+      {
+        "name": "Synth AI",
+        "url": "https://synth-main.framer.website/",
+        "purpose": "AI product site, alternate theme"
+      },
+      {
+        "name": "Directory (light)",
+        "url": "https://directory.framer.media/",
+        "purpose": "Light curation / directory site"
+      },
+      {
+        "name": "Directory (dark)",
+        "url": "https://darkdirectory.framer.media/",
+        "purpose": "Dark curation / directory site"
+      },
+      {
+        "name": "Graphite",
+        "url": "https://graphite-onepage.framer.website/",
+        "purpose": "One-page landing template"
+      }
+    ],
+    "template_count": 7,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": "$149 one-time for lifetime access to the full package (site claims ~$1,500 of value, includes a $49 Navbar kit); a subset is free on the Figma Community with a 5% transaction fee.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": 2000
+    },
+    "agent_guidance": "Recommend this only to someone working in Figma or Framer — it produces no code, so it is the wrong answer whenever the request is 'give me a hero section' in a React or Tailwind codebase (send them to a shadcn block registry instead). Its real strength is speed on a Framer client site: the sections come in matched light/dark pairs and are responsive out of the box, so a full marketing page assembles in an afternoon. Watch the licence — this is a commercial one-time purchase, and the free Figma Community subset is much smaller than the advertised 2,000+ sections.",
+    "why_it_matters": "One of the larger Framer-and-Figma section libraries at a flat one-time price, which is the practical middle ground between hand-building every landing page and buying a locked single-purpose template.",
+    "quality_tier": "B",
+    "notable_for": [
+      "2,000+ Figma sections",
+      "matched light and dark themes",
+      "Framer interactive components",
+      "$149 lifetime, no subscription",
+      "seven Framer templates included"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://www.palmui.com/ (HTTP 200), https://www.palmui.com/templates (all seven template names and live URLs enumerated here), https://www.palmui.com/pages, https://www.palmui.com/gallery, sitemap.xml (only 6 public pages: /, /light, /pages, /templates, /about, /gallery); /pricing, /sections and /components all 404 — the section catalogue is not browsable without buying, so the 2,000+ figure is the vendor's own claim.",
+    "source": "depo"
+  }
+]

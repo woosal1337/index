@@ -1,0 +1,92 @@
+[
+ {
+  "id": "user:ba0601da9ef483ac",
+  "slug": "sue-ellen-zhang",
+  "url": "https://www.zhangsueellen.com",
+  "name": "Sue Ellen Zhang",
+  "tagline": "A painter's portfolio with a generative section of nine abstract works, each carrying a written colour description",
+  "description": "Sue Ellen Zhang is a Chinese American artist born in 2000. She holds a B.A. in Linguistics and Psychology from UCLA. Her site holds an artist statement, an exhibition list and two galleries.\n\nThe section at /generative holds nine works, numbered experiment.01 to experiment.09. They are exported stills rather than live code, so nothing runs in the browser. Every one carries a written description of its colour and form, such as \"Generative abstract work with pale peach, neon yellow, red, and soft translucent forms\". Those nine descriptions are the reason the page is worth reading: most image galleries give an agent nothing.\n\nThe home page shows the oil paintings. It opens on \"A Pollinator Only Thinks of Harvest\" from 2025, oil on canvas at 30 by 40 inches.\n\nHer statement names the argument behind the work. She was trained in fine art, piano and ballet, and she calls those \"systems of precision and discipline\". Her words: \"Zhang treats ambiguity not as a lack of clarity, but as a condition of perception itself\".\n\nThe exhibition list runs to seven shows in 2025 and 2026, including the Triton Museum of Art, SF Design Week and two New York galleries.\n\nTwo of the five navigation links, Studio and Physical, return 404. The site is under construction.",
+  "category": "artists-creators",
+  "subcategory": "artist-profiles",
+  "kinds": [
+   "portfolio",
+   "gallery",
+   "profile"
+  ],
+  "facets": {
+   "framework": [
+    "next",
+    "react"
+   ],
+   "styling": [
+    "unknown"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "gallery"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "images",
+    "prose"
+   ],
+   "agent_readiness": [
+    "js-only-shell"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "about",
+   "contact-us"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 9,
+   "blocks": null
+  },
+  "pricing_detail": "Free to read. The work is not licensed for reuse. There is no licence page and no terms page.",
+  "agent_guidance": "Fetch https://www.zhangsueellen.com/generative rather than the home page. That page renders all nine images in the HTML with a written description on each, so a plain fetch returns something to read. The home page loads its paintings after the JavaScript runs, so a fetch of the root returns one work and no more.\n\nUse the nine descriptions as reference language for a colour brief. They name a ground and a mark type in one line, which is the shape a colour prompt wants.\n\nDo not treat this as a tool. The nine works are PNG files, not code. There is no source, no repository and no parameters to drive. The file names are ol.png, ai-bg-039.png and frame-30-1.png through frame-38.png, and the site does not say how any of them were made.\n\nSkip /studio and /physical. Both return 404 even though the navigation links to them.\n\nThe site publishes no llms.txt, no sitemap.xml and no robots.txt. All three return 404.",
+  "why_it_matters": "It is a working example of a painter treating a generative series as part of one practice rather than as a separate act. The nine written colour descriptions also make an image gallery legible to an agent, which almost no artist site bothers to do.",
+  "quality_tier": "B",
+  "tier_reason": "A real artist site with a written statement, a seven-show exhibition list and a nine-work generative gallery, and every image carries a descriptive line rather than a file name. Held at B because the generative works are exported stills with no titles, no dates and no stated method, two of the five navigation links return 404, and the site publishes no llms.txt, no sitemap and no robots.txt.",
+  "notable_for": [
+   "nine generative works, each with a written colour description",
+   "oil painting and generative work in one practice",
+   "seven exhibitions across 2025 and 2026",
+   "artist statement on ambiguity as a condition of perception",
+   "Studio and Physical navigation links return 404"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-09-05",
+  "source": "user",
+  "evidence": "https://www.zhangsueellen.com/ 200, 21,622 bytes, Next.js with turbopack chunks. Title \"Sue Ellen Zhang - Art & Design\". Visible text on the root: the navigation About / Studio / Physical / Generative / Contact, then \"A Pollinator Only Thinks of Harvest (2025) Oil on canvas 30x40\" and a scroll cue. The rest of the gallery loads after the JavaScript runs. https://www.zhangsueellen.com/generative 200, 60,024 bytes, title \"Generative | Sue Ellen Zhang\", meta description \"Generative experiments from Sue Ellen Zhang.\" It renders nine items labelled experiment.01 through experiment.09, served through /_next/image from /generative/ol.png, /generative/ai-bg-039.png and /generative/frame-30-1.png, frame-33-1.png, frame-34-1.png, frame-35-1.png, frame-36.png, frame-37.png and frame-38.png. Each image carries a written alt line, for example \"Generative abstract work with olive field and pale orbital linework\", \"Generative abstract work with pale peach, neon yellow, red, and soft translucent forms\" and \"Generative abstract work with pink, green, and blue spiral motion\". The page holds no canvas element, no shader and no link to source. https://www.zhangsueellen.com/about 200 and reads \"Sue Ellen Zhang (b. 2000) is a Chinese American artist whose work centers on the tension between control and expression. Trained across fine art, piano, and ballet, her early practice was shaped by systems of precision and discipline. Her studies in Linguistics and Psychology inform her use of biomorphic abstraction to explore perception, ambiguity, and the instability of fixed meaning.\" It also states \"Zhang treats ambiguity not as a lack of clarity, but as a condition of perception itself: layered, shifting, and continuously translated through memory, context, and lived experience\", gives \"B.A. in Linguistics and Psychology, University of California, Los Angeles (UCLA)\", and lists seven shows: OURS at Foundation for Future Aesthetics New York 2026, The Benefit Collection at Visionary Projects New York 2026, Patron's Circle Showcase San Francisco 2026, Living Forms at SF Design Week 2026, Celebrating AAPI Heritage Month: Between, Across, Within at FLOHAUS Gallery New York 2026, Salon at the Triton 2D Art Competition juried group exhibition at the Triton Museum of Art Santa Clara 2026, and Common Thread at Wave Collective San Francisco 2025. https://www.zhangsueellen.com/contact 200 and gives art.sueellen@gmail.com plus https://www.instagram.com/sueellenzhang, https://www.tiktok.com/@sulunestudio and https://www.linkedin.com/in/sue-ellen-zhang/. https://www.zhangsueellen.com/studio and /physical both return 404 although the navigation on every page links to them. /llms.txt, /sitemap.xml and /robots.txt all return 404, and /zzz-not-a-page also returns 404, so the site has no catch-all route."
+ }
+]

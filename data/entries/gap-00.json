@@ -1,0 +1,573 @@
+[
+ {
+  "id": "depo:j576z57m9t50zs1kn5vddcr4658cfj19",
+  "slug": "coachmark",
+  "url": "https://sglza.xyz/coachmark",
+  "name": "Coachmark",
+  "tagline": "Unstyled React primitive for product tours, built on Base UI Popover",
+  "description": "A single-purpose headless library by sglza that gives you the compound parts of a product tour — Root, Trigger, Backdrop, Step, Positioner, Popup, Arrow, Stepper, Title, Description, Previous, Next, Close and Viewport — with no styles of its own. It sits on Base UI's Popover, so you inherit collision detection, anchoring and focus management, and it adds the two things a tour needs that a popover does not: explicit step order and a detached trigger, so one popup slides between targets instead of unmounting and remounting. Motion states (entering, exiting, repositioning, idle) are exposed as data attributes on the backdrop, positioner and popup, and out-of-view targets are scrolled into view automatically. The docs site ships live playgrounds with both Tailwind and CSS Modules implementations, plus a View as Markdown link on each page.",
+  "category": "component-libraries",
+  "subcategory": "headless-primitives",
+  "kinds": [
+   "primitive",
+   "component-library"
+  ],
+  "facets": {
+   "framework": [
+    "react"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "built-on-accessible-primitives",
+    "focus-managed",
+    "claimed-accessible"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "structured-docs",
+    "open-source-code"
+   ],
+   "maturity": "beta"
+  },
+  "components": [
+   "coachmark",
+   "backdrop",
+   "popover",
+   "progress-stepper"
+  ],
+  "component_count": 14,
+  "surfaces": [
+   "onboarding-web-app",
+   "onboarding-checklist",
+   "feature-announcement"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "pnpm add coachmark",
+  "package": "coachmark",
+  "docs_url": "https://sglza.xyz/coachmark",
+  "repo_url": "https://github.com/sglza/coachmark",
+  "registry_url": null,
+  "github": {
+   "stars": 37,
+   "license": "MIT",
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Reach for this instead of Driver.js, Shepherd or Intro.js when the app already uses Base UI or Radix and you want the tour to inherit the project's own popover styling rather than fight a themed widget — it ships zero CSS, so budget real time for styling the popup, backdrop and spotlight yourself. The detached-trigger behaviour is the reason to pick it: one Popup animating between targets instead of a remount per step, driven by the entering/exiting/repositioning data attributes. It is small and young (37 stars), so pin the version and read the source before shipping it into anything load-bearing.",
+  "why_it_matters": "Product tours are the one surface almost every UI kit skips, and this is the rare take that treats them as a composable primitive rather than a drop-in widget you have to skin around.",
+  "notable_for": [
+   "Built on Base UI Popover",
+   "Detached triggers reposition one popup across steps",
+   "Motion states as data attributes",
+   "Completely unstyled",
+   "Docs pages offer View as Markdown"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://sglza.xyz/coachmark (WebFetch + raw HTML via curl), https://github.com/sglza/coachmark",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "Real MIT npm package with 14 compound parts, but a beta single-purpose primitive at 37 stars that the guidance says to pin and read the source of before shipping."
+ },
+ {
+  "id": "depo:j576wy8z71kgsntkt00rvcqh2d8cfs9x",
+  "slug": "amicons",
+  "url": "https://amicons.design/",
+  "name": "Amicons",
+  "tagline": "760 icons in 3,040 variants on a 24px grid, Figma and SVG, one-time price",
+  "description": "A paid icon set from Minor Adventures (Amsterdam), now at version 2.0: 760 hand-drawn icons, each shipped in two fills (Line, Solid) and two styles (Round, Sharp) for 3,040 total variants, on a 24px grid with a 2px stroke. The icons are sorted into 43 named categories — General, AI, Animals, Architecture, Arrows, Audio & Video, Charts & Diagrams, Clothing, Communication, Design, Development, Devices, Editor, Education, Emoji, Files, Finance, Food & Drinks, Games, Hands, House, Layout, Logos, Media, Maps, Nature, Objects, People, Photography, Politics, Privacy & Security, Religion, Shapes, Shopping, Sports, System UI, Symbols, Technology, Text Formatting, Time, Transportation, Travel and Weather. Delivery is a download of the Figma file plus optimised SVGs; there is no npm package or React component wrapper. A free tier gives you 300 icons in 1,200 variants with no lifetime updates.",
+  "category": "icons-logos",
+  "subcategory": "icon-sets",
+  "kinds": [
+   "icon-set",
+   "asset-pack"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "commercial",
+    "proprietary"
+   ],
+   "pricing": [
+    "freemium",
+    "one-time",
+    "paid"
+   ],
+   "distribution": [
+    "download",
+    "figma-file"
+   ],
+   "platform": [
+    "platform-agnostic"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "icons",
+    "figma"
+   ],
+   "agent_readiness": [
+    "none"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "icon"
+  ],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Free: 300 icons / 1,200 variants, no lifetime updates, no icon requests. Pro is a one-time purchase priced by company size: Personal (1 person) $89, Startup (up to 10) $199, Middle Company (up to 50) $449, Big Company (up to 250) $899, Huge Company (up to 1,000) $1,799, Enterprise (1,000+) custom. Pro includes free lifetime updates and unlimited commercial use. No refunds (digital product).",
+  "counts": {
+   "icons": 760,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Do not reach for this in a code task by default — there is no npm package, no React exports and no CDN, so using it means a human bought the pack and dropped SVG files into the repo. Check for a local /icons or /assets directory of Amicons SVGs first; if one exists, inline them or wrap them yourself. For anything you have to install from a command line, use Lucide, Phosphor, Tabler or Hugeicons instead, and suggest Amicons only when the ask is explicitly about a warmer, hand-drawn look with Round and Sharp variants of the same glyph.",
+  "why_it_matters": "One of the few paid sets that ships a genuinely warm drawing style without tipping into cute, and the Round/Sharp split lets one product use the same glyph vocabulary in a marketing page and a data-dense dashboard.",
+  "notable_for": [
+   "760 icons, 3,040 variants",
+   "Line and Solid fills, Round and Sharp styles",
+   "43 categories",
+   "24px grid, 2px stroke",
+   "One-time price tiered by company size",
+   "Figma and SVG only, no code package"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://amicons.design/ (WebFetch, then full raw HTML via curl for the pricing, categories and FAQ sections), plus a web search that surfaced the older Gumroad listing",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "760 icons in 3,040 verified variants and actively maintained, but agent_readiness is \"none\" — no npm, no CDN, Figma/SVG download only — so an agent cannot install or use it."
+ },
+ {
+  "id": "depo:j5726m7w6nbz9wsw2h2cvp3qy58ceybv",
+  "slug": "sugar-high",
+  "url": "https://sugar-high.vercel.app/",
+  "name": "Sugar High",
+  "tagline": "Zero-dependency ~1KB syntax highlighter for 25 languages, themed with CSS vars",
+  "description": "A tiny syntax highlighter by huozhi (a Next.js maintainer) that takes a string and returns HTML, with no DOM and no dependencies, so it runs in the browser, in Node, and in any other JS runtime. It covers 25 languages — JavaScript, TypeScript, CSS, Python, C, C++, C#, Go, Java, Rust, JSON, Diff, Shell, SQL, HTML, YAML, Markdown, Kotlin, Swift, PHP, TOML, PowerShell, Dockerfile, GraphQL and HCL — which the README frames as the formats coding agents actually emit. Themes are scoped CSS custom properties rather than a bundled stylesheet, and line highlighting is done by targeting .sh__line. The repo also publishes @sugar-high/react (an <Editor /> and a <Code /> component) and @sugar-high/remark for markdown code fences.",
+  "category": "component-libraries",
+  "subcategory": "integration-components",
+  "kinds": [
+   "component-library",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "vanilla"
+   ],
+   "styling": [
+    "css-variables"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "code-block",
+   "code-editor"
+  ],
+  "component_count": 2,
+  "surfaces": [
+   "blog-post",
+   "api-documentation",
+   "changelog"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "npm install sugar-high",
+  "package": "sugar-high",
+  "docs_url": "https://sugar-high.vercel.app/",
+  "repo_url": "https://github.com/huozhi/sugar-high",
+  "registry_url": null,
+  "github": {
+   "stars": 1200,
+   "license": "MIT",
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Pick this over Shiki or Prism when payload matters more than fidelity — an MDX blog, a docs site, a chat UI streaming code back to the user — because it is roughly a kilobyte gzipped, has no dependencies and needs no async theme loading or WASM. It returns an HTML string, so pair it with dangerouslySetInnerHTML or use @sugar-high/react, and theme it by defining the --sh-* CSS variables in both colour schemes rather than looking for a theme package. Accept the trade: the tokenizer is heuristic and lighter than a real grammar, so exotic syntax will occasionally mis-colour; if you need TextMate-grade accuracy, use Shiki.",
+  "why_it_matters": "It solves the real cost of syntax highlighting on the web — the bundle — and its language list is chosen for what LLMs actually output, which makes it the sane default inside chat and agent interfaces.",
+  "notable_for": [
+   "~1KB minified and gzipped",
+   "Zero dependencies, no DOM needed",
+   "25 languages",
+   "Themed by CSS custom properties",
+   "@sugar-high/react and @sugar-high/remark packages",
+   "Built by a Next.js maintainer"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://sugar-high.vercel.app/, https://github.com/huozhi/sugar-high",
+  "source": "depo",
+  "quality_tier": "A",
+  "tier_reason": "Actively maintained MIT package at ~1,200 stars with a real install command, 25 languages and companion @sugar-high/react and remark packages, but Shiki remains the higher-fidelity default in its niche."
+ },
+ {
+  "id": "depo:j5758wr7w27s6p4jcywkhxfxts8cfm7k",
+  "slug": "loora",
+  "url": "https://loora.design/",
+  "name": "Loora",
+  "tagline": "Canvas design tool with a remote MCP server your coding agent edits live",
+  "description": "An infinite-canvas design tool by lassejlv where pages, components and tokens are stored as structured nodes, and every edit — yours or an agent's — goes through the same validated, undoable, conflict-aware transaction. It runs a remote MCP server at https://mcp.loora.design/mcp over streamable HTTP with OAuth 2.1 (PKCE, dynamic client registration, no API key), and exposes roughly 30 typed tools grouped as Read (listDesigns, getDesignContext, readNode, readTree, searchNodes, listAssets, listVersions), Write (createPage, insertNodes, patchNodes, moveNodes, deleteNodes), Reuse (createComponent, createInstance, setTokens), Motion (setAnimations, animateNodes), Look (viewCanvas, viewPage, viewNode, getScreenshot), Branches (listBranches, createBranch, proposeBranch, compareBranch, applyBranch, reopenBranch, closeBranch) and Designs (createDesign, renameDesign, deleteDesign, exportCode). Designs have git-style branches and version history; export is one-way to HTML/CSS, React TSX, plain JSX, Tailwind utilities, raw JSON or PNG. There is no built-in chat agent — you bring Claude Code, the Claude app, Codex, Cursor, VS Code Copilot, opencode, Windsurf, Cline, Zed, Gemini CLI, Goose or Warp.",
+  "category": "agent-design-tooling",
+  "subcategory": "ai-design-apps",
+  "kinds": [
+   "ai-tool",
+   "mcp-server",
+   "app"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "vanilla"
+   ],
+   "styling": [
+    "tailwind-any",
+    "vanilla-css"
+   ],
+   "license": [
+    "agpl"
+   ],
+   "pricing": [
+    "freemium",
+    "subscription",
+    "open-source",
+    "account-required"
+   ],
+   "distribution": [
+    "web-app",
+    "mcp-server",
+    "agent-skill",
+    "desktop-app",
+    "github-repo"
+   ],
+   "platform": [
+    "web",
+    "desktop"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "design-tokens",
+    "code",
+    "images"
+   ],
+   "agent_readiness": [
+    "mcp-server",
+    "agent-skill",
+    "open-source-code",
+    "auth-required",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npx skills add https://github.com/lassejlv/loora/tree/main/skills/loora-design-guide",
+  "package": null,
+  "docs_url": "https://loora.design/mcp",
+  "repo_url": "https://github.com/lassejlv/loora",
+  "registry_url": null,
+  "github": {
+   "stars": 122,
+   "license": "AGPL-3.0",
+   "last_activity": null
+  },
+  "pricing_detail": "Free $0/month: 50 design files, 100 Agent Calls per week, 1 GB asset storage, 2 days of version history, one open branch per design. Pro $20/month: unlimited files and branches, 50 GB assets, 1,000,000 Agent Calls per week, 90 days of history.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Add the endpoint once, then work the documented order: listDesigns → getDesignContext → setTokens before you draw anything → createPage and insertNodes → patchNodes to refine → getScreenshot to actually look at what you made → exportCode. Install the loora-design-guide skill alongside the server, because the tools tell you what you can do and not how to design. Two traps: a 401 means the OAuth token lapsed, so re-run the client's login step rather than editing config, and export is one-way — code you change afterwards never returns to the canvas, so branch inside Loora for anything speculative instead of regenerating.",
+  "why_it_matters": "It answers the real complaint about prompting an agent for React — regenerated files have no stable identity for their parts — by giving both you and the agent addressable nodes in one document, with branches and history around it.",
+  "notable_for": [
+   "Remote MCP server, OAuth 2.1, no API key",
+   "About 30 typed canvas tools including getScreenshot",
+   "Branches, merge and version history on designs",
+   "Exports HTML, React TSX, JSX, Tailwind, JSON, PNG",
+   "AGPL-3.0 source, self-hostable",
+   "Ships its own design-guide agent skill"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://loora.design/ (WebFetch + raw HTML via curl), https://loora.design/mcp (raw HTML, full tool list), https://github.com/lassejlv/loora. docs.loora.design does not resolve.",
+  "source": "depo",
+  "quality_tier": "S",
+  "tier_reason": "Remote MCP server with OAuth 2.1 and about 30 typed tools, branches and version history, code export and its own agent skill on AGPL source — the deepest agent-addressable resource in the file."
+ },
+ {
+  "id": "depo:j575fnxpcm79wcge3ysgrgjkkx8cefb1",
+  "slug": "slowmo",
+  "url": "https://slowmo.dev/",
+  "name": "slowmo",
+  "tagline": "Patches browser time so you can slow, pause or speed up any web animation",
+  "description": "An MIT library by seflless that intercepts the browser's clock rather than any one animation library: it patches requestAnimationFrame timestamps, performance.now(), Date.now(), setTimeout/setInterval, Web Animations API playbackRate, and media element playback. One call — slowmo(0.5) for half speed, slowmo(0) to pause, slowmo(2) to double — retimes CSS animations and transitions, GSAP, Framer Motion, Three.js, canvas loops and video together, with pause(), play(), reset() and getSpeed() alongside. It ships an optional draggable dial UI, as setupDial()/shutdownDial() for vanilla JS or a <Slowmo /> React component that remembers its position in localStorage, plus a Chrome extension for driving sites you cannot add code to. The README is honest about the limits: frame-counted animations, libraries that cache time functions before slowmo loads, iframes, service workers, WebGL shader clocks and server-synced animation stay at normal speed.",
+  "category": "motion-interaction",
+  "subcategory": "animation-engines",
+  "kinds": [
+   "tool",
+   "animation-library"
+  ],
+  "facets": {
+   "framework": [
+    "vanilla",
+    "react"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "browser-extension",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npm install slowmo",
+  "package": "slowmo",
+  "docs_url": "https://slowmo.dev/",
+  "repo_url": "https://github.com/seflless/slowmo",
+  "registry_url": null,
+  "github": {
+   "stars": 173,
+   "license": "MIT",
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Pull this into a dev-only entry point when you are tuning easing, spring stiffness or a stagger and cannot see what is happening at full speed — it is strictly better than Chrome DevTools' animation slider because one call retimes GSAP, Framer Motion, canvas and video at once instead of only WAAPI. Import it before the animation libraries initialise, or anything that cached performance.now() at module load will ignore it. Never ship it in a production bundle: it monkey-patches global timing primitives, so gate it behind a dev flag, and reach for the Chrome extension when the site is not yours.",
+  "why_it_matters": "Almost every motion bug is invisible at 60fps, and this is the only one-line way to retime an entire page — libraries, canvas and video together — without touching the animation code.",
+  "notable_for": [
+   "Patches rAF, performance.now, Date.now and timers",
+   "Retimes GSAP, Framer Motion, Three.js and video together",
+   "Draggable dial UI, vanilla and React",
+   "Chrome extension for third-party sites",
+   "README documents its own blind spots"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://slowmo.dev/, https://github.com/seflless/slowmo, plus a web search confirming the Chrome Web Store listing. slowmo.dev/docs is a 404 and npmjs.com/package/slowmo returned 403 to the fetcher; the GitHub README says the extension is 'coming soon' while the site and the Chrome Web Store list it as live.",
+  "source": "depo",
+  "quality_tier": "A",
+  "tier_reason": "Actively maintained MIT library with npm install, React and vanilla dial UIs and a Chrome extension, and a README that documents its own blind spots; only its dev-only scope keeps it below S."
+ },
+ {
+  "id": "depo:j576hgt419y6c3e0qv41jhk9418cf362",
+  "slug": "interaction-kit",
+  "url": "https://interactionkit.org/",
+  "name": "Interaction Kit",
+  "tagline": "12 copy-ready React micro-interaction demos by Armond Schneider",
+  "description": "A one-page gallery of twelve small React interactions, each with a live inline demo on the homepage and a full-screen demo route: Image expand, Image modal, Icon morph (a sound toggle), Emoji picker, Search expand, Notification reveal, Spring button, Hold to delete, Tabs, Text highlight, Tooltip and Code block. The repo (armondschneider/interactionkit, MIT, 19 stars) calls itself an experimental collection and is a Next.js 15 / React 19 app built with Tailwind, Framer Motion, Lucide and Hugeicons, with the components sorted into src/components subfolders. There is no CLI, no shadcn registry and no per-component docs page — you read the demo, then lift the source out of the repo yourself.",
+  "category": "motion-interaction",
+  "subcategory": "animated-components",
+  "kinds": [
+   "component-library",
+   "gallery"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "tailwind-any"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "copy-paste",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "copy-paste-ready",
+    "open-source-code"
+   ],
+   "maturity": "experimental"
+  },
+  "components": [
+   "lightbox",
+   "modal",
+   "toggle-button",
+   "emoji-picker",
+   "search-input",
+   "toast",
+   "button",
+   "tabs",
+   "tooltip",
+   "code-block",
+   "copy-button",
+   "text-effect"
+  ],
+  "component_count": 12,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/armondschneider/interactionkit",
+  "registry_url": null,
+  "github": {
+   "stars": 19,
+   "license": "MIT",
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Treat this as reference, not a dependency — there is no install command and no registry, so the only path is reading src/components in the repo and porting one file. It is worth that effort for exactly two of the twelve, Hold to delete and Notification reveal, which are fiddly to get right and rarely shipped by the big kits; for tabs, tooltips, modals and emoji pickers use shadcn/ui or Base UI instead, which give you the keyboard and ARIA behaviour this does not document. Expect to supply your own accessibility pass and to swap out its Lucide and Hugeicons imports.",
+  "why_it_matters": "A tasteful but very small personal collection — useful as a motion reference for a handful of interactions that mainstream kits skip, not as a foundation to build on.",
+  "notable_for": [
+   "12 interactions, each with a live demo route",
+   "Hold-to-delete and notification-reveal patterns",
+   "MIT source, Next.js 15 and Framer Motion",
+   "No install path, copy from the repo"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://interactionkit.org/ (WebFetch + raw HTML via curl to enumerate all 12 /demo/ routes), https://github.com/armondschneider/interactionkit, https://github.com/armondschneider/interactionkit/tree/main/src/components. interactionkit.org/demo is a 404 — demos live at /demo/<name>.",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "Experimental 19-star personal gallery with no install path or registry, and the guidance steers agents to shadcn/ui or Base UI for ten of its twelve components."
+ }
+]

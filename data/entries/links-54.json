@@ -1,0 +1,988 @@
+[
+ {
+  "id": "a3665e19-c6e0-4f87-88d5-36378045204b",
+  "slug": "namethatui",
+  "url": "https://namethatui.com/",
+  "name": "NameThatUI",
+  "tagline": "Visual dictionary that maps 76 web and macOS UI elements to their real names and code",
+  "description": "NameThatUI is a reference site that answers \"what is this thing called?\" for 44 web elements and 32 macOS elements. Each entry names the pattern, breaks down its anatomy part by part, lists the phrases people mistakenly use for it, and gives the exact API symbol in CSS, Tailwind, SwiftUI, AppKit and Electron. Every page ships a paste-ready build prompt and a separate debug prompt listing the classic failure modes. It also carries 14 visual-style pages (\"Name That Vibe\") and 18 head-to-head \"X vs Y\" disambiguation pages.",
+  "category": "design-systems-brand",
+  "subcategory": "ui-reference",
+  "kinds": [
+   "reference",
+   "prompt-pack"
+  ],
+  "facets": {
+   "framework": [
+    "vanilla",
+    "swiftui"
+   ],
+   "styling": [
+    "vanilla-css",
+    "tailwind-any"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free",
+    "sponsor-supported"
+   ],
+   "distribution": [
+    "web-app"
+   ],
+   "platform": [
+    "web",
+    "macos"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "prose",
+    "code",
+    "prompts"
+   ],
+   "agent_readiness": [
+    "copy-prompt",
+    "llms-txt",
+    "structured-docs",
+    "copy-paste-ready"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "accordion",
+   "alert",
+   "banner",
+   "avatar-group",
+   "badge",
+   "chip",
+   "bento-grid",
+   "breadcrumbs",
+   "card",
+   "carousel",
+   "combobox",
+   "command-palette",
+   "date-picker",
+   "dialog",
+   "drawer",
+   "sheet",
+   "separator",
+   "drag-and-drop",
+   "animation",
+   "empty-state",
+   "focus-ring",
+   "form",
+   "navbar",
+   "header",
+   "hover-card",
+   "lightbox",
+   "marquee",
+   "masonry",
+   "multi-select",
+   "pagination",
+   "parallax",
+   "popover",
+   "dropdown-menu",
+   "tooltip",
+   "progress-bar",
+   "spinner",
+   "resizable",
+   "backdrop",
+   "in-page-navigation",
+   "login-form",
+   "skeleton",
+   "transition",
+   "progress-stepper",
+   "sticky",
+   "switch",
+   "checkbox",
+   "radio-button",
+   "tabs",
+   "text-effect",
+   "toast",
+   "toggle-group",
+   "typography",
+   "alert-dialog",
+   "color-picker",
+   "column-view",
+   "split-button",
+   "context-menu",
+   "collapsible",
+   "dock",
+   "menubar",
+   "tree-view",
+   "panel",
+   "meter",
+   "custom-cursor",
+   "select",
+   "scroll-area",
+   "search-input",
+   "segmented-control",
+   "sidebar",
+   "slider",
+   "split-view",
+   "quantity-stepper",
+   "tag-input",
+   "toolbar",
+   "glassmorphism",
+   "floating-window"
+  ],
+  "component_count": 76,
+  "surfaces": [
+   "login-web-app",
+   "command-palette",
+   "empty-state"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://namethatui.com/translate",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Free to read. Three founding-sponsor slots sold via /sponsor.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 76,
+   "blocks": null
+  },
+  "agent_guidance": "Use this as the disambiguation layer before you write component code: when a user says \"the grid with one big box\" or \"the thing that slides up from the bottom\", look up the element here to get the canonical name, then use the page's own paste-ready prompt as your build spec. The 'In code' table is the real value — it gives the literal API symbol per framework (CSS grid-column, Tailwind col-span, SwiftUI, AppKit), which stops you from hallucinating a React idiom into a SwiftUI file. Every page has 'Copy page as Markdown' and the site serves llms.txt, so fetch the page directly rather than guessing; the debug prompts are worth pasting verbatim when a layout misbehaves.",
+  "why_it_matters": "It is the only resource that translates a user's vague description into a canonical component name AND the exact per-framework API symbol, which is precisely the lookup an AI coding agent needs and normally has to guess at.",
+  "quality_tier": "S",
+  "notable_for": [
+   "44 web + 32 macOS elements named",
+   "paste-ready build and debug prompts per element",
+   "cross-framework API symbol translation table",
+   "18 'X vs Y' disambiguation pages",
+   "llms.txt and copy-as-Markdown on every page"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://namethatui.com/, https://namethatui.com/sitemap.xml, https://namethatui.com/web/bento-grid, https://namethatui.com/llms.txt (HEAD 200)"
+ },
+ {
+  "id": "9f1dec66-caeb-499a-a01d-0e5aff87a6e1",
+  "slug": "marcel-kargul-typography-post",
+  "url": "https://x.com/i/status/2077093536000864257",
+  "name": "Marcel Kargul on Typography",
+  "tagline": "Single X post arguing typography is the deciding factor in whether a design works",
+  "description": "A saved X post by designer Marcel Kargul (@marcelkargul) making the case that typography — font choice, spacing and visual hierarchy — is what separates good design from bad, in any medium. It is an opinion post, not a tutorial or a resource with downloadable assets. Value is as a talking point or a reminder of first principles, not as a reference.",
+  "category": "artists-creators",
+  "subcategory": "saved-posts",
+  "kinds": [
+   "social-post"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "article"
+   ],
+   "platform": [
+    "social",
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "prose",
+    "images"
+   ],
+   "agent_readiness": [
+    "bot-blocked"
+   ],
+   "maturity": "stable"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Do not fetch x.com — it is bot-blocked and will return a login shell. Treat this as a one-line editorial datapoint, not a source: it carries no spec, no code and no asset. If a user needs actual typography guidance, route them to a type-scale tool or a foundry reference instead of this post.",
+  "why_it_matters": "Only marginally — it is a saved opinion post, kept for provenance of a design principle rather than for any reusable material.",
+  "notable_for": [
+   "typography-first design argument",
+   "designer Marcel Kargul",
+   "single-post bookmark"
+  ],
+  "quality_tier": "C",
+  "already_enriched": true,
+  "http_status": null,
+  "verified_at": "2026-08-15",
+  "evidence": "Not fetched per instructions (x.com). Record built from the pre-supplied title, description and tags."
+ },
+ {
+  "id": "be488ac4-81fa-4fc5-872f-fd307812a420",
+  "slug": "bestwebsitetemplate",
+  "url": "https://bestwebsitetemplate.com/",
+  "name": "BestWebsiteTemplate",
+  "tagline": "881 Webflow, Framer and Shopify templates, each scored out of 10 by 11 named reviewers",
+  "description": "A free, independent review library of website templates across Webflow, Framer and Shopify — it does not sell them, it scores and links them. Every listing gets a Design Score from 6 designers and a Dev Score from 5 developers, averaged into an Overall Score; templates below 7.0 are not published. Roughly 881 template detail pages are live (378 Framer, 332 Webflow, 171 Shopify), filterable by platform, 33 industry categories, free vs paid, style tags and feature tags. Each card hover-plays a screen recording of the template homepage.",
+  "category": "blocks-templates-themes",
+  "subcategory": "templates-and-starters",
+  "kinds": [
+   "directory",
+   "template",
+   "gallery"
+  ],
+  "facets": {
+   "framework": [
+    "webflow",
+    "framer"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "commercial"
+   ],
+   "pricing": [
+    "free",
+    "paid"
+   ],
+   "distribution": [
+    "gallery",
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "screenshots",
+    "video",
+    "prose"
+   ],
+   "agent_readiness": [
+    "structured-docs",
+    "machine-index"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "features",
+   "pricing-website",
+   "about",
+   "contact-us",
+   "blog",
+   "blog-post",
+   "careers",
+   "cart-website",
+   "checkout",
+   "adding-to-cart",
+   "404",
+   "waitlist",
+   "testimonials"
+  ],
+  "templates": [
+   {
+    "name": "MOSS",
+    "url": "https://bestwebsitetemplate.com/templates/webflow/moss",
+    "purpose": "Webflow template ($49) — Portfolio & Agency, Art & Design, Photography."
+   },
+   {
+    "name": "Zeentra",
+    "url": "https://bestwebsitetemplate.com/templates/framer/zeentra",
+    "purpose": "Framer template ($79) — Portfolio & Agency, Professional Services, Business & Startup."
+   },
+   {
+    "name": "ArcArch",
+    "url": "https://bestwebsitetemplate.com/templates/webflow/arcarch",
+    "purpose": "Webflow template ($79) — Architecture, Real Estate & Property, Furniture & Interior Design."
+   },
+   {
+    "name": "Cash",
+    "url": "https://bestwebsitetemplate.com/templates/webflow/cash",
+    "purpose": "Webflow template ($129) — Financial Services, Technology & Software, Business & Startup."
+   },
+   {
+    "name": "Olyver",
+    "url": "https://bestwebsitetemplate.com/templates/framer/olyver",
+    "purpose": "Framer template (free) — Personal site / single-person portfolio."
+   },
+   {
+    "name": "Clixr E-commerce",
+    "url": "https://bestwebsitetemplate.com/templates/webflow/clixr-e-commerce",
+    "purpose": "Webflow template ($79) — Retail & E-commerce, Technology & Software, Music & Audio."
+   },
+   {
+    "name": "Unmade",
+    "url": "https://bestwebsitetemplate.com/templates/framer/unmade",
+    "purpose": "Framer template ($39) — Portfolio & Agency, Art & Design, Business & Startup."
+   },
+   {
+    "name": "Inception 3D",
+    "url": "https://bestwebsitetemplate.com/templates/webflow/inception-3d",
+    "purpose": "Webflow template ($129) — Portfolio & Agency with 3D, Art & Design, Photography."
+   },
+   {
+    "name": "SaaSly.",
+    "url": "https://bestwebsitetemplate.com/templates/webflow/saasly",
+    "purpose": "Webflow template ($79) — SaaS marketing site, Technology & Software, Business & Startup."
+   },
+   {
+    "name": "Smoov",
+    "url": "https://bestwebsitetemplate.com/templates/webflow/smoov",
+    "purpose": "Webflow template ($129) — Portfolio & Agency, Professional Services, Photography."
+   },
+   {
+    "name": "Get Swipe",
+    "url": "https://bestwebsitetemplate.com/templates/webflow/get-swipe",
+    "purpose": "Webflow template ($79) — Technology & Software, Business & Startup product site."
+   },
+   {
+    "name": "Le Reve",
+    "url": "https://bestwebsitetemplate.com/templates/framer/le-reve",
+    "purpose": "Framer template ($39) — Portfolio & Agency, Art & Design, Photography."
+   },
+   {
+    "name": "Elian",
+    "url": "https://bestwebsitetemplate.com/templates/framer/elian",
+    "purpose": "Framer template (free) — Portfolio & Agency, Personal, Art & Design."
+   },
+   {
+    "name": "Fabrica",
+    "url": "https://bestwebsitetemplate.com/templates/framer/fabrica",
+    "purpose": "Framer template ($129) — Portfolio & Agency, Blog & Editorial, Art & Design."
+   },
+   {
+    "name": "Gordian",
+    "url": "https://bestwebsitetemplate.com/templates/framer/gordian",
+    "purpose": "Framer template (free) — Portfolio & Agency, Fashion & Accessories, Art & Design."
+   },
+   {
+    "name": "Portfi",
+    "url": "https://bestwebsitetemplate.com/templates/webflow/portfi",
+    "purpose": "Webflow template ($79) — Portfolio & Agency, Personal, Retail & E-commerce."
+   },
+   {
+    "name": "Paprika",
+    "url": "https://bestwebsitetemplate.com/templates/webflow/paprika",
+    "purpose": "Webflow template ($129) — Portfolio & Agency, Art & Design, Personal, Retail & E-commerce."
+   },
+   {
+    "name": "TommasQuinn",
+    "url": "https://bestwebsitetemplate.com/templates/framer/tommasquinn",
+    "purpose": "Framer template ($49) — Personal portfolio, Professional Services, Photography."
+   },
+   {
+    "name": "FRQNCY",
+    "url": "https://bestwebsitetemplate.com/templates/framer/frqncy",
+    "purpose": "Framer template ($79) — Portfolio & Agency, Art & Design, Business & Startup."
+   },
+   {
+    "name": "Waitlists",
+    "url": "https://bestwebsitetemplate.com/templates/webflow/waitlists",
+    "purpose": "Webflow template ($79) — Waitlist & Coming Soon page, Technology & Software."
+   },
+   {
+    "name": "Boulevard",
+    "url": "https://bestwebsitetemplate.com/templates/webflow/boulevard",
+    "purpose": "Webflow template ($129) — Portfolio & Agency, Digital Products, Art & Design."
+   },
+   {
+    "name": "Zenith",
+    "url": "https://bestwebsitetemplate.com/templates/shopify/zenith",
+    "purpose": "Shopify template ($380) — Retail & E-commerce, Fashion & Accessories, Blog & Editorial."
+   },
+   {
+    "name": "Elias",
+    "url": "https://bestwebsitetemplate.com/templates/framer/elias",
+    "purpose": "Framer template ($79) — Photography & Videography portfolio, Art & Design."
+   },
+   {
+    "name": "Monica Ellis",
+    "url": "https://bestwebsitetemplate.com/templates/framer/monica-ellis",
+    "purpose": "Framer template ($49) — Personal portfolio, Photography, Art & Design."
+   },
+   {
+    "name": "ZeroFrame",
+    "url": "https://bestwebsitetemplate.com/templates/framer/zeroframe",
+    "purpose": "Framer template ($69) — Portfolio & Agency, Photography, Business & Startup."
+   },
+   {
+    "name": "Snow",
+    "url": "https://bestwebsitetemplate.com/templates/shopify/snow",
+    "purpose": "Shopify template ($400) — Retail & E-commerce, Fashion & Accessories, Sports & Fitness."
+   },
+   {
+    "name": "SwissBrut",
+    "url": "https://bestwebsitetemplate.com/templates/framer/swissbrut",
+    "purpose": "Framer template (free) — Portfolio & Agency, Personal, Photography (Swiss/brutalist)."
+   },
+   {
+    "name": "Fuel",
+    "url": "https://bestwebsitetemplate.com/templates/framer/fuel",
+    "purpose": "Framer template (free) — Portfolio & Agency, Professional Services, Business & Startup."
+   },
+   {
+    "name": "Oddly Made",
+    "url": "https://bestwebsitetemplate.com/templates/webflow/oddly-made",
+    "purpose": "Webflow template ($79) — Portfolio & Agency, Art & Design, Business & Startup."
+   },
+   {
+    "name": "Plutarch",
+    "url": "https://bestwebsitetemplate.com/templates/framer/plutarch",
+    "purpose": "Framer template ($59) — Events & Entertainment, Portfolio & Agency, Art & Design."
+   },
+   {
+    "name": "Rabah",
+    "url": "https://bestwebsitetemplate.com/templates/framer/rabah",
+    "purpose": "Framer template ($99) — Photography & Videography, Personal portfolio."
+   },
+   {
+    "name": "Minimuline",
+    "url": "https://bestwebsitetemplate.com/templates/framer/minimuline",
+    "purpose": "Framer template ($69) — Minimal multi-purpose site."
+   },
+   {
+    "name": "Clara",
+    "url": "https://bestwebsitetemplate.com/templates/framer/clara",
+    "purpose": "Framer template ($59) — Portfolio & Agency, Personal, Art & Design."
+   },
+   {
+    "name": "Aerio",
+    "url": "https://bestwebsitetemplate.com/templates/webflow/aerio",
+    "purpose": "Webflow template ($99) — Portfolio & Agency, Business & Startup, Personal."
+   },
+   {
+    "name": "OXR",
+    "url": "https://bestwebsitetemplate.com/templates/framer/oxr",
+    "purpose": "Framer template (free) — Portfolio & Agency, Photography, Art & Design."
+   },
+   {
+    "name": "Monologue",
+    "url": "https://bestwebsitetemplate.com/templates/framer/monologue",
+    "purpose": "Framer template ($49) — Portfolio & Agency, Business & Startup, Personal."
+   },
+   {
+    "name": "PORTFOLY",
+    "url": "https://bestwebsitetemplate.com/templates/webflow/portfoly",
+    "purpose": "Webflow template ($79) — Portfolio & Agency, Retail & E-commerce, Photography."
+   },
+   {
+    "name": "Affair",
+    "url": "https://bestwebsitetemplate.com/templates/shopify/affair",
+    "purpose": "Shopify template ($380) — Retail & E-commerce, Beauty & Personal Care, Blog & Editorial."
+   },
+   {
+    "name": "OXYCO",
+    "url": "https://bestwebsitetemplate.com/templates/webflow/oxyco",
+    "purpose": "Webflow template ($79) — Portfolio & Agency, Blog & Editorial, Retail & E-commerce."
+   },
+   {
+    "name": "Wow",
+    "url": "https://bestwebsitetemplate.com/templates/webflow/wow",
+    "purpose": "Webflow template ($129) — Technology & Software, Business & Startup, Portfolio & Agency."
+   },
+   {
+    "name": "Candy",
+    "url": "https://bestwebsitetemplate.com/templates/shopify/candy",
+    "purpose": "Shopify template ($380) — Retail & E-commerce, Food & Drink, Blog & Editorial."
+   },
+   {
+    "name": "INTERVALS",
+    "url": "https://bestwebsitetemplate.com/templates/framer/intervals",
+    "purpose": "Framer template ($79) — Portfolio & Agency, Technology & Software, Business & Startup."
+   },
+   {
+    "name": "Alture",
+    "url": "https://bestwebsitetemplate.com/templates/webflow/alture",
+    "purpose": "Webflow template ($129) — Portfolio & Agency, Professional Services, Art & Design."
+   },
+   {
+    "name": "Mollie",
+    "url": "https://bestwebsitetemplate.com/templates/webflow/mollie",
+    "purpose": "Webflow template ($149) — Technology & Software, Retail & E-commerce, Business & Startup."
+   },
+   {
+    "name": "Nolan Barret",
+    "url": "https://bestwebsitetemplate.com/templates/framer/nolan-barret",
+    "purpose": "Framer template ($29) — Personal portfolio, Fashion & Accessories, Art & Design."
+   },
+   {
+    "name": "Journey Studio",
+    "url": "https://bestwebsitetemplate.com/templates/webflow/journey-studio",
+    "purpose": "Webflow template ($99) — Portfolio & Agency, Art & Design, Business & Startup."
+   },
+   {
+    "name": "Aura",
+    "url": "https://bestwebsitetemplate.com/templates/shopify/aura",
+    "purpose": "Shopify template ($380) — Retail & E-commerce, Beauty & Personal Care, Wellness & Health."
+   },
+   {
+    "name": "Jane",
+    "url": "https://bestwebsitetemplate.com/templates/webflow/jane",
+    "purpose": "Webflow template ($129) — Wellness & Health, Medical, Beauty & Personal Care, Retail."
+   },
+   {
+    "name": "Neebo",
+    "url": "https://bestwebsitetemplate.com/templates/webflow/neebo",
+    "purpose": "Webflow template ($129) — Retail & E-commerce, Digital Products, Technology & Software."
+   },
+   {
+    "name": "Press",
+    "url": "https://bestwebsitetemplate.com/templates/shopify/press",
+    "purpose": "Shopify template ($400) — Retail & E-commerce, Food & Drink, Blog & Editorial."
+   },
+   {
+    "name": "Method",
+    "url": "https://bestwebsitetemplate.com/templates/shopify/method",
+    "purpose": "Shopify template ($380) — Retail & E-commerce, Food & Drink, Business & Startup."
+   },
+   {
+    "name": "Kensei",
+    "url": "https://bestwebsitetemplate.com/templates/framer/kensei",
+    "purpose": "Framer template ($49) — Portfolio & Agency, Personal, Business & Startup."
+   },
+   {
+    "name": "Aurora",
+    "url": "https://bestwebsitetemplate.com/templates/shopify/aurora",
+    "purpose": "Shopify template ($390) — Retail & E-commerce, Fashion & Accessories, Blog & Editorial."
+   },
+   {
+    "name": "Pebble",
+    "url": "https://bestwebsitetemplate.com/templates/shopify/pebble",
+    "purpose": "Shopify template ($400) — Retail & E-commerce, Fashion & Accessories, Family & Children."
+   },
+   {
+    "name": "South",
+    "url": "https://bestwebsitetemplate.com/templates/framer/south",
+    "purpose": "Framer template ($59) — Portfolio & Agency, Photography, Personal."
+   },
+   {
+    "name": "Beautify",
+    "url": "https://bestwebsitetemplate.com/templates/shopify/beautify",
+    "purpose": "Shopify template ($420) — Retail & E-commerce, Beauty & Personal Care."
+   },
+   {
+    "name": "Noma",
+    "url": "https://bestwebsitetemplate.com/templates/webflow/noma",
+    "purpose": "Webflow template ($49) — Portfolio & Agency, Art & Design, Photography, Personal."
+   },
+   {
+    "name": "Snacks",
+    "url": "https://bestwebsitetemplate.com/templates/shopify/snacks",
+    "purpose": "Shopify template ($260) — Retail & E-commerce, Food & Drink, Wellness & Health."
+   },
+   {
+    "name": "SilenceFolio",
+    "url": "https://bestwebsitetemplate.com/templates/webflow/silencefolio",
+    "purpose": "Webflow template (free) — Portfolio & Agency, Personal, Photography."
+   },
+   {
+    "name": "Silence",
+    "url": "https://bestwebsitetemplate.com/templates/framer/silence",
+    "purpose": "Framer template (free) — Personal, Portfolio & Agency, Fashion & Accessories."
+   },
+   {
+    "name": "Luna",
+    "url": "https://bestwebsitetemplate.com/templates/framer/luna",
+    "purpose": "Framer template ($49) — Portfolio & Agency, Art & Design, Personal."
+   },
+   {
+    "name": "Baseform",
+    "url": "https://bestwebsitetemplate.com/templates/framer/baseform",
+    "purpose": "Framer template ($49) — Portfolio & Agency, Photography, Business & Startup."
+   },
+   {
+    "name": "FoundFormed",
+    "url": "https://bestwebsitetemplate.com/templates/framer/foundformed",
+    "purpose": "Framer template ($99) — Real Estate & Property, Furniture & Interior Design, Agency."
+   },
+   {
+    "name": "Siwa",
+    "url": "https://bestwebsitetemplate.com/templates/framer/siwa",
+    "purpose": "Framer template ($99) — Portfolio & Agency, Blog & Editorial, Photography."
+   },
+   {
+    "name": "All Natural",
+    "url": "https://bestwebsitetemplate.com/templates/framer/all-natural",
+    "purpose": "Framer template ($79) — Retail & E-commerce, Beauty & Personal Care, Wellness & Health."
+   },
+   {
+    "name": "Glyph",
+    "url": "https://bestwebsitetemplate.com/templates/framer/glyph",
+    "purpose": "Framer template ($79) — Portfolio & Agency, Art & Design, Business & Startup."
+   },
+   {
+    "name": "Waveyu",
+    "url": "https://bestwebsitetemplate.com/templates/webflow/waveyu",
+    "purpose": "Webflow template ($39) — Travel, Sports & Fitness, Events & Entertainment."
+   },
+   {
+    "name": "Gringo",
+    "url": "https://bestwebsitetemplate.com/templates/webflow/gringo",
+    "purpose": "Webflow template ($79) — Portfolio & Agency, Business & Startup, Photography."
+   },
+   {
+    "name": "Riwa",
+    "url": "https://bestwebsitetemplate.com/templates/framer/riwa",
+    "purpose": "Framer template ($99) — Portfolio & Agency, Photography, Professional Services."
+   }
+  ],
+  "template_count": 881,
+  "install": null,
+  "package": null,
+  "docs_url": "https://bestwebsitetemplate.com/for-ai",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "The library is free with no account. Listed templates cost $0–$149 for Webflow/Framer and $260–$420 for Shopify themes; purchase happens on the creator's own platform.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 881,
+   "blocks": null
+  },
+  "agent_guidance": "Reach for this when a user wants a whole site fast on a no-code platform and you need a defensible shortlist — the Design/Dev scores give you a reason to pick one template over another instead of guessing. Critical caveat: these are Webflow, Framer and Shopify templates, not code you can npm install or drop into a Next.js repo, so never propose one as a starter for a hand-coded project; use it as visual reference or as the answer when the user explicitly says 'no-code'. Fetch /for-ai first — the site publishes a machine-readable facts page with the exact URL grammar (/templates/[platform]/[slug], /templates/[platform]/[free|paid]/[category]) so you can deep-link a filtered result instead of sending the user to the homepage.",
+  "why_it_matters": "It is the only template index with two-axis human scoring and a published methodology, and it deliberately refuses to list everything — which makes its shortlist worth citing where an aggregator's is not.",
+  "quality_tier": "A",
+  "notable_for": [
+   "881 template pages across three platforms",
+   "separate Design Score and Dev Score, human-assigned",
+   "7.0 minimum score to be listed",
+   "dedicated /for-ai machine-readable facts page",
+   "hover video previews of every template"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://bestwebsitetemplate.com/ (WebFetch 403, retrieved 200 via curl with browser UA), https://bestwebsitetemplate.com/templates, https://bestwebsitetemplate.com/for-ai, https://bestwebsitetemplate.com/site-map, https://bestwebsitetemplate.com/sitemap.xml (1338 URLs)"
+ },
+ {
+  "id": "00a09a27-623b-4970-b705-83504b88035e",
+  "slug": "brand-archive",
+  "url": "https://brandarchive.xyz/",
+  "name": "Brand Archive",
+  "tagline": "Searchable archive of brand identities 1950–2026: logos, colours, type, applications",
+  "description": "Brand Archive is a research tool for brand designers: it collects the identity systems of hundreds of brands, past and present, and breaks each one down into logos, colour values, typefaces, art direction and real-world applications. Browse indexes seen in search include /browse/featured (recently added), /browse/historical, /browse/big-brands, /browse/ai-branding and /browse/design-studio. It is freemium — a large share of the deeper case studies are gated behind Brand Archive Pro. Direct fetching is blocked by a Vercel security checkpoint, so the record below is assembled from search-engine indexed pages, not from a page read.",
+  "category": "design-systems-brand",
+  "subcategory": "brand-guideline-archives",
+  "kinds": [
+   "brand-guidelines",
+   "gallery",
+   "directory"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "trademark-restricted",
+    "unknown"
+   ],
+   "pricing": [
+    "freemium",
+    "subscription",
+    "account-required"
+   ],
+   "distribution": [
+    "gallery",
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "images",
+    "screenshots"
+   ],
+   "agent_readiness": [
+    "bot-blocked",
+    "auth-required",
+    "image-only",
+    "agent-paywalled"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Freemium with a paid 'Brand Archive Pro' tier at /pricing; exact prices could not be verified because the page is bot-blocked.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Do not try to scrape this — brandarchive.xyz sits behind a Vercel security checkpoint and returns 403/429 to every non-browser client, so hand the user the URL rather than promising extracted content. Reach for it when the task is upstream brand strategy (picking a palette direction, a type pairing, or seeing how one identity stretches across packaging, signage and web) rather than when you need shippable UI. Everything here is a third party's trademarked identity, so treat it as reference only and never copy a mark or exact palette into a user's product.",
+  "why_it_matters": "It is the closest thing to 'Mobbin for brand identity' — a structured, searchable record of how real identity systems were built across 75 years, which is otherwise scattered across PDFs and dead studio sites.",
+  "quality_tier": "A",
+  "notable_for": [
+   "brand identities spanning 1950–2026",
+   "colour, type and application breakdown per brand",
+   "curated browse sets: historical, big brands, AI branding, by studio",
+   "Pro paywall on the deeper case studies",
+   "hard bot-blocked (Vercel checkpoint)"
+  ],
+  "already_enriched": false,
+  "http_status": 403,
+  "verified_at": "2026-08-15",
+  "evidence": "https://brandarchive.xyz/ (WebFetch 403 twice; curl with browser UA returned 429 'Vercel Security Checkpoint'), https://brandarchive.xyz/pricing (403). Supporting facts from web search results indexing brandarchive.xyz/browse/* and /pricing."
+ },
+ {
+  "id": "04e0be25-3483-4688-b894-5312995c61a3",
+  "slug": "footer-design",
+  "url": "https://www.footer.design/",
+  "name": "Footer.design",
+  "tagline": "Gallery of ~695 website footers, filterable by 81 industry types and 36 style tags",
+  "description": "A single-element inspiration gallery that does one thing: collect website footers. Its sitemap lists about 695 site entries, 81 type pages and 36 style pages, so you can filter to, for example, an animated footer for a SaaS product or a typographic footer for an editorial site. Entries are screenshots and captures linking out to the live site, with Editor's Choice picks highlighted and an open submission form. Built and run by NOOON Studio.",
+  "category": "inspiration-galleries",
+  "subcategory": "single-element-galleries",
+  "kinds": [
+   "gallery",
+   "directory"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "gallery",
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "screenshots",
+    "images"
+   ],
+   "agent_readiness": [
+    "image-only"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "footer"
+  ],
+  "component_count": null,
+  "surfaces": [
+   "homepage"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Free to browse, free to submit. Sponsor slot sold on the gallery.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 695,
+   "blocks": null
+  },
+  "agent_guidance": "Use this only at the reference stage, and be precise about the filter — deep-link /styles/<style> (animated, brutalist, large-type, bento-box, typographic, grid, cards, dark, bright, flat, illustrative, small-type, bold) or a /types/<industry> page rather than the homepage, because the value is in narrowing 695 entries down to five. It is image-only with no code or markup, so pair it with an actual component source (a shadcn registry block, or NameThatUI's footer anatomy) when you have to build the thing. Do not cite it for accessibility or semantics — nothing here is audited.",
+  "why_it_matters": "Footers are the most neglected section of a site and the hardest to find good references for; a 695-entry gallery devoted entirely to them with 81 industry filters is a genuinely unique slice.",
+  "quality_tier": "A",
+  "notable_for": [
+   "~695 curated footers",
+   "81 industry type filters, 36 style filters",
+   "single-element focus, no other page sections",
+   "Editor's Choice picks",
+   "run by NOOON Studio"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://www.footer.design/, https://www.footer.design/browse, https://www.footer.design/sitemap.xml (817 URLs: 695 /sites, 81 /types, 36 /styles)"
+ },
+ {
+  "id": "09e65fef-ade3-4cae-a92b-43518fccd19a",
+  "slug": "aicss",
+  "url": "https://www.aicss.dev/",
+  "name": "AICSS",
+  "tagline": "14 copy-paste agent-chat components in React, Vue and Svelte with plain CSS, 9 free",
+  "description": "AICSS is a small collection of UI blocks for the things an AI agent shows mid-conversation: thinking states, tool calls, streaming text, citations, code blocks, to-do lists and data tables. It ships 14 components in five groups — Thinking & Reasoning (3), Tool & Action States (3), Text Outputs (4), Structured Outputs (3) and Rich & Interactive (1) — each with a live light/dark preview and a Code tab that toggles between React, Vue and Svelte. There is no Tailwind dependency: components are framework-native code plus CSS Modules. Nine components are free; the other five unlock with a one-time license, and you must sign in to copy the code. Currently labelled Beta V1.2 and built by a solo developer (@kvnkld).",
+  "category": "ai-interface-kits",
+  "subcategory": "chat-and-agent-components",
+  "kinds": [
+   "component-library",
+   "block-collection"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "vue",
+    "svelte"
+   ],
+   "styling": [
+    "css-modules",
+    "vanilla-css"
+   ],
+   "license": [
+    "proprietary",
+    "commercial"
+   ],
+   "pricing": [
+    "freemium",
+    "one-time",
+    "account-required"
+   ],
+   "distribution": [
+    "copy-paste",
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "copy-paste-ready",
+    "auth-required",
+    "agent-paywalled"
+   ],
+   "maturity": "beta"
+  },
+  "components": [
+   "reasoning",
+   "streaming-text",
+   "tool-call",
+   "prompt-input",
+   "message",
+   "code-block",
+   "inline-citation",
+   "sources",
+   "task",
+   "diff-view",
+   "diff-proposal",
+   "generated-image",
+   "table",
+   "comparison-table",
+   "spinner"
+  ],
+  "component_count": 14,
+  "surfaces": [
+   "ai-chat-panel",
+   "chat-web-app"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://www.aicss.dev/components/thinking-state",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "9 of 14 components free for personal and commercial use. Personal license $190 one-time (1 developer); Enterprise $490 one-time (unlimited developers in the org). No subscription, lifetime access, future components included, redistribution not permitted, generally non-refundable.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": 14
+  },
+  "agent_guidance": "Reach for AICSS over Vercel AI Elements only when the project is Vue or Svelte, or when the codebase has no Tailwind and you want CSS Modules instead — that is its real differentiator, since AI Elements is React-plus-Tailwind only. Do not plan an install step: there is no npm package, no CLI and no shadcn registry, so the flow is a human signing in and copying source out of the Code tab, and five of the fourteen components are behind a $190 paywall you cannot reach. Treat the component set as a spec you can reimplement rather than a dependency, and check accessibility yourself — nothing here claims ARIA or keyboard coverage.",
+  "why_it_matters": "It is one of the few agent-chat component sets that is not React-and-Tailwind, which makes it the fallback when a Vue or Svelte app needs credible thinking, tool-call and streaming UI.",
+  "quality_tier": "B",
+  "notable_for": [
+   "14 agent-conversation components, 9 free",
+   "React, Vue and Svelte source for each",
+   "plain CSS / CSS Modules, no Tailwind",
+   "one-time $190 / $490 license, no subscription",
+   "solo-built, Beta V1.2, no public repo"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://www.aicss.dev/, https://www.aicss.dev/sitemap.xml, https://www.aicss.dev/pricing, https://www.aicss.dev/components/thinking-state. /docs and /components both 404."
+ }
+]

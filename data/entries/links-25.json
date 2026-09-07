@@ -1,0 +1,1189 @@
+[
+ {
+  "id": "e2cc2f31-ccf9-436f-a2cf-4522a44e9aa5",
+  "slug": "backgrounds-supply",
+  "url": "https://www.backgrounds.supply",
+  "name": "Backgrounds Supply",
+  "tagline": "1,273 handcrafted and AI-made backgrounds in 29 packs, $49 once",
+  "description": "Backgrounds Supply is a paid asset store that sells one large library of abstract backgrounds, gradients, textures and wallpapers, grouped into 29 named collections such as Gradient BGs (165), Smudge (112), Perplex (104) and Zephyr (83). One $49 payment unlocks lifetime access to every collection plus later additions, including a 36-file Animated Backgrounds pack. It is aimed at product, brand and motion designers who need a hero or slide backdrop immediately and do not want to generate one. A small free sample set sits at /freebies.",
+  "category": "textures-assets",
+  "subcategory": "gradients-and-backgrounds",
+  "kinds": [
+   "asset-pack",
+   "marketplace"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "commercial"
+   ],
+   "pricing": [
+    "one-time",
+    "paid",
+    "freemium"
+   ],
+   "distribution": [
+    "download",
+    "web-app"
+   ],
+   "platform": [
+    "platform-agnostic",
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "images",
+    "video"
+   ],
+   "agent_readiness": [
+    "agent-paywalled",
+    "image-only"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "homepage"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "$49 one-time payment for Unlimited Access, described as lifetime with future collections included. No refunds (digital goods). Free sample set at https://www.backgrounds.supply/freebies.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 1273,
+   "blocks": null
+  },
+  "agent_guidance": "Reach for this only when a human has already bought it and can hand you the image files — everything past the freebies page is behind a one-time paywall, so you cannot fetch assets at build time. When you do have the files, treat them as static hero/section backdrops (Figma, Framer, Photoshop, Canva, Webflow and After Effects are all confirmed to accept them) rather than as CSS you can generate; for a programmatic gradient you want a CSS or shader library instead. The site never states file formats or resolutions, so verify dimensions before you commit one to a full-bleed hero.",
+  "why_it_matters": "Handcrafted background packs are the fastest way to make a generic Tailwind landing page look art-directed, and this is one of the larger curated libraries at a single flat price. The undisclosed file formats and the two conflicting counts on the page (1,273/29 in the header, 1,167/24 in the FAQ) keep it out of the top tier.",
+  "notable_for": [
+   "1,273 backgrounds across 29 named collections",
+   "$49 one-time, lifetime access",
+   "36-file animated backgrounds pack",
+   "client work and commercial use permitted",
+   "free sample set at /freebies"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://www.backgrounds.supply (fetched twice — once for pricing/licence/FAQ, once for the per-collection asset counts and freebies link)",
+  "quality_tier": "B",
+  "tier_reason": "A single paywalled image pack with no formats or resolutions stated and two conflicting asset counts on its own page, so an agent can only use it after a human buys and hands over the files."
+ },
+ {
+  "id": "465c1ef6-c904-49cb-b6ec-ca59de97a7d3",
+  "slug": "motionsites",
+  "url": "https://motionsites.ai",
+  "name": "MotionSites",
+  "tagline": "Paid copy-paste prompt packs for Lovable, Bolt, Cursor and Claude",
+  "description": "MotionSites sells a library of ready-written website prompts that you paste into an AI site builder — Lovable, Bolt, Cursor or Claude — to get a finished hero, section or full landing page, with a heavy bias toward 3D and animated visuals. Prompts are filed under categories including Apps, Sections, Hero, Landing Page, SaaS, Agency, Portfolio, 3D Website, Travel, Ecommerce, Wellness, AI, Carousel, Fintech, Technology, Fashion and Healthcare. Part of the library is free to copy; the rest unlocks with an annual or one-time licence. It targets non-designers and solo founders who want a good-looking page without writing the prompt themselves.",
+  "category": "agent-design-tooling",
+  "subcategory": "prompts-and-feedback",
+  "kinds": [
+   "prompt-pack",
+   "marketplace"
+  ],
+  "facets": {
+   "framework": [
+    "unknown"
+   ],
+   "styling": [
+    "unknown"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "freemium",
+    "subscription",
+    "one-time",
+    "paid"
+   ],
+   "distribution": [
+    "web-app",
+    "copy-paste"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "prompts"
+   ],
+   "agent_readiness": [
+    "copy-prompt",
+    "agent-paywalled",
+    "js-only-shell"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "features"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Free tier for prompts marked Copy. Go Unlimited $149/year or $239 one-time (all website prompts, no animated backgrounds or sections). Power $239/year or $349 one-time (adds animated backgrounds, page sections, future prompt drops). App prompts sold separately at $89/year or $129 one-time. Prices come from third-party directory listings — motionsites.ai/pricing returned 404 to a direct fetch.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 65,
+   "blocks": null
+  },
+  "agent_guidance": "You are the tool this product is prompting, so there is almost nothing here for you to consume directly — the paid prompts are gated and the site is a Lovable-built SPA whose subroutes do not render to a fetch. If a user pastes one of these prompts at you, expect a maximalist 3D/animated spec (Three.js, WebGL, heavy scroll effects) and push back on bundle size, reduced-motion support and mobile performance before you build it. For a repeatable house style, a checked-in design.md plus a real component registry beats buying prompt text.",
+  "why_it_matters": "It is a clear signal of where the market is going — prompts themselves are now a paid design asset — but the actual value is thin next to the price, and a well-written design brief you own outperforms a licensed prompt.",
+  "notable_for": [
+   "prompts sold as a licensed product",
+   "targets Lovable, Bolt, Cursor and Claude",
+   "3D and animated hero specialism",
+   "free tier of copyable prompts",
+   "up to $349 one-time for the Power tier"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://motionsites.ai (homepage rendered; category list and positioning read from it), https://motionsites.ai/pricing (404 on fetch), plus a web search across stork.ai, seektool.ai and aiwith.me listings for the prompt count and price tiers",
+  "quality_tier": "C",
+  "tier_reason": "A js-only-shell SPA whose pricing route 404s, selling gated prompt text up to $349 that the record itself says a self-written brief outperforms."
+ },
+ {
+  "id": "34675344-2cf1-4e9d-860b-fc0537ed1383",
+  "slug": "htmlrev-shadcn-templates",
+  "url": "https://htmlrev.com/free-shadcn-templates.html",
+  "name": "HTMLrev Free Shadcn Templates",
+  "tagline": "120 free shadcn/ui templates and starters, indexed on one page",
+  "description": "This is HTMLrev's curated index of free shadcn/ui templates, themes, UI libraries and boilerplates — 120 entries on a single static page, grouped into Business, Product, Agency, Coming Soon, Blog, Portfolio, Ecommerce, Dashboard, Documentation, UI Kit, UI Library and Boilerplate sections. Every entry links out to the original GitHub repo or product site; HTMLrev hosts nothing itself and takes no payment. It spans Next.js, React, Vue, Nuxt, Svelte and even Laravel, so it doubles as a map of the whole free shadcn ecosystem. HTMLrev is run by Devluc and covers 18 framework categories in total.",
+  "category": "blocks-templates-themes",
+  "subcategory": "templates-and-starters",
+  "kinds": [
+   "directory",
+   "gallery"
+  ],
+  "facets": {
+   "framework": [
+    "next",
+    "react",
+    "vue",
+    "nuxt",
+    "svelte"
+   ],
+   "styling": [
+    "tailwind-any",
+    "tailwind-v4"
+   ],
+   "license": [
+    "mit",
+    "unknown"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "gallery",
+    "github-repo",
+    "download"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "built-on-accessible-primitives"
+   ],
+   "content_type": [
+    "code",
+    "screenshots"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "structured-docs",
+    "copy-paste-ready"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "pricing-website",
+   "waitlist",
+   "blog",
+   "blog-post",
+   "public-profile",
+   "admin-panel",
+   "analytics",
+   "user-management",
+   "cart-website",
+   "checkout",
+   "api-documentation",
+   "changelog",
+   "sign-up",
+   "login-web-app",
+   "settings-web-app"
+  ],
+  "templates": [
+   {
+    "name": "Retro",
+    "url": "https://www.easyui.pro/retro",
+    "purpose": "Next.js startup/business website template"
+   },
+   {
+    "name": "Shadcn Landing Page Template (nobruf)",
+    "url": "https://github.com/nobruf/shadcn-landing-page",
+    "purpose": "Next.js startup marketing site"
+   },
+   {
+    "name": "Shadcn Landing Page (leoMirandaa)",
+    "url": "https://github.com/leoMirandaa/shadcn-landing-page",
+    "purpose": "React product landing page"
+   },
+   {
+    "name": "ChatDeck",
+    "url": "https://www.shadcndeck.com/templates/chatdeck-saas-landing-page",
+    "purpose": "Next.js SaaS landing page for a chat/AI product"
+   },
+   {
+    "name": "Mainline",
+    "url": "https://www.shadcnblocks.com/template/mainline",
+    "purpose": "Next.js SaaS landing page"
+   },
+   {
+    "name": "HomeGuardian",
+    "url": "https://www.shadcnui-blocks.com/templates",
+    "purpose": "Next.js product landing page"
+   },
+   {
+    "name": "Easy Design",
+    "url": "https://www.easyui.pro/ez-design",
+    "purpose": "Next.js product landing page"
+   },
+   {
+    "name": "Easy Template 5",
+    "url": "https://www.easyui.pro/ez-tmp5",
+    "purpose": "Next.js product landing page"
+   },
+   {
+    "name": "Easy Chatbot",
+    "url": "https://www.easyui.pro/ez-chatbot",
+    "purpose": "Next.js chatbot product landing page"
+   },
+   {
+    "name": "QuotesAI",
+    "url": "https://www.easyui.pro/quotesai",
+    "purpose": "Next.js SaaS landing page"
+   },
+   {
+    "name": "Easy Red",
+    "url": "https://www.easyui.pro/ez-red",
+    "purpose": "Next.js SaaS landing page"
+   },
+   {
+    "name": "Minimalist Landing Page",
+    "url": "https://www.shadcnui-blocks.com/templates",
+    "purpose": "Next.js minimal SaaS landing page"
+   },
+   {
+    "name": "PureLanding",
+    "url": "https://www.shadcnui-blocks.com/templates",
+    "purpose": "Next.js SaaS landing page"
+   },
+   {
+    "name": "Shadcn Vue Landing Page",
+    "url": "https://github.com/leoMirandaa/shadcn-vue-landing-page",
+    "purpose": "Vue product landing page"
+   },
+   {
+    "name": "Homely",
+    "url": "https://www.wrappixel.com/templates/homely-nextjs-template-for-real-estate/",
+    "purpose": "Next.js real estate / agency website"
+   },
+   {
+    "name": "Waitly",
+    "url": "https://shadcnuikit.com/template/waitly-free-waitlist-template",
+    "purpose": "Next.js waitlist / coming-soon page"
+   },
+   {
+    "name": "Easy Waitlist",
+    "url": "https://www.easyui.pro/ez-waitlist",
+    "purpose": "Next.js waitlist page"
+   },
+   {
+    "name": "Nextjs Notion Waitlist Template",
+    "url": "https://github.com/lakshaybhushan/nextjs-notion-waitlist-template",
+    "purpose": "Next.js waitlist page backed by a Notion database"
+   },
+   {
+    "name": "Ink Blog Template",
+    "url": "https://shadcnstudio.com/templates/ink-blog-template-free",
+    "purpose": "Next.js blog template"
+   },
+   {
+    "name": "Devstarter",
+    "url": "https://zippystarter.com/templates/devstarter",
+    "purpose": "Next.js developer portfolio"
+   },
+   {
+    "name": "Portfolio Dillion",
+    "url": "https://github.com/dillionverma/portfolio",
+    "purpose": "Next.js personal portfolio (Magic UI author)"
+   },
+   {
+    "name": "Minimal Portfolio",
+    "url": "https://www.shadcnui-blocks.com/templates",
+    "purpose": "Next.js minimal portfolio"
+   },
+   {
+    "name": "Shadcn Portfolio (techwithanirudh)",
+    "url": "https://github.com/techwithanirudh/shadcn-portfolio",
+    "purpose": "Next.js personal portfolio"
+   },
+   {
+    "name": "nextMotion",
+    "url": "https://github.com/yoyocharlie/nextMotion",
+    "purpose": "Next.js animated portfolio"
+   },
+   {
+    "name": "Portfolio Sikandar",
+    "url": "https://github.com/SikandarJODD/portfolio-template",
+    "purpose": "Svelte personal portfolio"
+   },
+   {
+    "name": "Relivator",
+    "url": "https://github.com/blefnk/relivator-nextjs-saas-ecommerce-starter",
+    "purpose": "Next.js SaaS + ecommerce starter"
+   },
+   {
+    "name": "Easy Marketplace",
+    "url": "https://www.easyui.pro/ez-marketplace",
+    "purpose": "Next.js marketplace storefront"
+   },
+   {
+    "name": "Next.js E-Commerce Storefront",
+    "url": "https://github.com/sesto-dev/next-prisma-tailwind-ecommerce",
+    "purpose": "Next.js + Prisma storefront with admin"
+   },
+   {
+    "name": "Prostore",
+    "url": "https://github.com/bradtraversy/prostore",
+    "purpose": "Next.js ecommerce store (Traversy course project)"
+   },
+   {
+    "name": "EcommerceKit",
+    "url": "https://ecommercekit.dev/",
+    "purpose": "Next.js ecommerce UI kit and storefront"
+   },
+   {
+    "name": "Tailwindadmin",
+    "url": "https://tailwind-admin.com/",
+    "purpose": "React admin dashboard"
+   },
+   {
+    "name": "MaterialM Free Tailwind React Admin",
+    "url": "https://www.wrappixel.com/templates/materialm-free-tailwind-react-admin-template/",
+    "purpose": "React admin dashboard"
+   },
+   {
+    "name": "Shadcn UI Dashboard",
+    "url": "https://shadcnuidashboard.com/",
+    "purpose": "React admin dashboard"
+   },
+   {
+    "name": "Shadcn Admin (satnaing)",
+    "url": "https://github.com/satnaing/shadcn-admin",
+    "purpose": "React admin dashboard with RBAC-style screens"
+   },
+   {
+    "name": "Material Dashboard Shadcn",
+    "url": "https://www.creative-tim.com/product/material-dashboard-shadcn",
+    "purpose": "React Material-styled admin dashboard"
+   },
+   {
+    "name": "AdminCN",
+    "url": "https://shadcnstudio.com/templates/admin-dashboard/admincn-free",
+    "purpose": "Next.js admin dashboard"
+   },
+   {
+    "name": "Shadcn Admin",
+    "url": "https://shadcnadmin.com/",
+    "purpose": "Next.js admin dashboard"
+   },
+   {
+    "name": "Chronicle",
+    "url": "https://github.com/silicondeck/shadcn-dashboard-landing-template",
+    "purpose": "Next.js dashboard plus landing page combo"
+   },
+   {
+    "name": "MaterialM Free Tailwind Next.js Admin",
+    "url": "https://www.wrappixel.com/templates/materialm-free-nextjs-admin-template/",
+    "purpose": "Next.js admin dashboard"
+   },
+   {
+    "name": "Easy Dashboard",
+    "url": "https://www.easyui.pro/ez-dashboard",
+    "purpose": "Next.js admin dashboard"
+   },
+   {
+    "name": "Next.js Admin Dashboard Starter (Kiranism)",
+    "url": "https://github.com/Kiranism/next-shadcn-dashboard-starter",
+    "purpose": "Next.js dashboard starter with auth and data tables"
+   },
+   {
+    "name": "Shadcn Nextjs Dashboard (naveenda)",
+    "url": "https://github.com/naveenda/shadcn-nextjs-dashboard",
+    "purpose": "Next.js admin dashboard"
+   },
+   {
+    "name": "T3 App Template",
+    "url": "https://github.com/gaofubin/t3-app-template",
+    "purpose": "Next.js T3-stack dashboard starter"
+   },
+   {
+    "name": "Next.js Admin Template (arhamkhnz)",
+    "url": "https://github.com/arhamkhnz/next-shadcn-admin-dashboard",
+    "purpose": "Next.js admin dashboard"
+   },
+   {
+    "name": "Shadboard",
+    "url": "https://github.com/Qualiora/shadboard",
+    "purpose": "Next.js admin dashboard"
+   },
+   {
+    "name": "Material Dashboard Shadcn Vue",
+    "url": "https://www.creative-tim.com/product/material-dashboard-shadcn-vue",
+    "purpose": "Vue admin dashboard"
+   },
+   {
+    "name": "Nuxt Shadcn UnoCSS Dashboard",
+    "url": "https://github.com/dianprata/nuxt-shadcn-dashboard",
+    "purpose": "Nuxt admin dashboard using UnoCSS"
+   },
+   {
+    "name": "Easy Docs",
+    "url": "https://www.easyui.pro/ez-docs",
+    "purpose": "Next.js documentation site"
+   },
+   {
+    "name": "Track Changelog Template",
+    "url": "https://shadcnstudio.com/templates/track-changelog-template-free",
+    "purpose": "Next.js product changelog page"
+   },
+   {
+    "name": "Shadcn Docs Nuxt",
+    "url": "https://github.com/ZTL-UwU/shadcn-docs-nuxt",
+    "purpose": "Nuxt documentation site theme"
+   },
+   {
+    "name": "MynaUI",
+    "url": "https://mynaui.com/",
+    "purpose": "React UI kit built on shadcn/ui"
+   },
+   {
+    "name": "TWBlocks",
+    "url": "https://www.twblocks.com/",
+    "purpose": "Next.js copy-paste block collection"
+   },
+   {
+    "name": "Shadcnblocks",
+    "url": "https://www.shadcnblocks.com/",
+    "purpose": "React shadcn block library"
+   },
+   {
+    "name": "Shadcn Space",
+    "url": "https://shadcnspace.com/",
+    "purpose": "React shadcn component and template library"
+   },
+   {
+    "name": "Shadcn Studio",
+    "url": "https://shadcnstudio.com/",
+    "purpose": "React shadcn blocks, templates and Figma kit"
+   },
+   {
+    "name": "Shadcn UI Kit",
+    "url": "https://shadcnuikit.com/",
+    "purpose": "React shadcn UI kit and templates"
+   },
+   {
+    "name": "UIAble",
+    "url": "https://uiable.com/",
+    "purpose": "React component library"
+   },
+   {
+    "name": "Shadcn Admin Kit",
+    "url": "https://marmelab.com/shadcn-admin-kit/",
+    "purpose": "React admin framework on shadcn primitives"
+   },
+   {
+    "name": "Creative Tim UI",
+    "url": "https://www.creative-tim.com/ui",
+    "purpose": "React UI component collection"
+   },
+   {
+    "name": "Shadcnexamples",
+    "url": "https://shadcnexamples.com/",
+    "purpose": "React shadcn usage examples"
+   },
+   {
+    "name": "uselayouts",
+    "url": "https://uselayouts.com/",
+    "purpose": "React layout and section blocks"
+   },
+   {
+    "name": "Worigami",
+    "url": "https://www.worigami.com/blocks",
+    "purpose": "React block collection"
+   },
+   {
+    "name": "Shadcn-UI expansions",
+    "url": "https://shadcnui-expansions.typeart.cc/",
+    "purpose": "React extra components missing from core shadcn/ui"
+   },
+   {
+    "name": "Kokonut UI",
+    "url": "https://kokonutui.com/",
+    "purpose": "React animated component library"
+   },
+   {
+    "name": "Blocks",
+    "url": "https://blocks.so/",
+    "purpose": "React block collection"
+   },
+   {
+    "name": "Launch UI",
+    "url": "https://www.launchuicomponents.com/",
+    "purpose": "React landing-page component library"
+   },
+   {
+    "name": "8bitcn UI",
+    "url": "https://www.8bitcn.com/",
+    "purpose": "React retro 8-bit themed shadcn variant"
+   },
+   {
+    "name": "Shadcn UI Blocks",
+    "url": "https://www.shadcnui-blocks.com/",
+    "purpose": "React block and template collection"
+   },
+   {
+    "name": "Dice UI",
+    "url": "https://www.diceui.com/",
+    "purpose": "React advanced components on Radix primitives"
+   },
+   {
+    "name": "Tailark",
+    "url": "https://tailark.com/",
+    "purpose": "React marketing block collection"
+   },
+   {
+    "name": "ShadcnStore",
+    "url": "https://shadcnstore.com/",
+    "purpose": "React shadcn blocks and templates store"
+   },
+   {
+    "name": "Prompt Kit",
+    "url": "https://www.prompt-kit.com/",
+    "purpose": "React AI chat and agent UI components"
+   },
+   {
+    "name": "HextaUI",
+    "url": "https://www.hextaui.com/",
+    "purpose": "React component library"
+   },
+   {
+    "name": "Efferd",
+    "url": "https://efferd.com/",
+    "purpose": "React block collection"
+   },
+   {
+    "name": "Commerce UI",
+    "url": "https://ui.stackzero.co/",
+    "purpose": "React ecommerce component library"
+   },
+   {
+    "name": "WDS Shadcn Registry",
+    "url": "https://wds-shadcn-registry.netlify.app/",
+    "purpose": "React shadcn registry of extra components"
+   },
+   {
+    "name": "Pixelact UI",
+    "url": "https://www.pixelactui.com/",
+    "purpose": "React pixel-art styled component library"
+   },
+   {
+    "name": "SmoothUI",
+    "url": "https://www.smoothui.dev/",
+    "purpose": "React animated component library"
+   },
+   {
+    "name": "Magic UI",
+    "url": "https://magicui.design/",
+    "purpose": "React animated marketing component library"
+   },
+   {
+    "name": "Edil Ozi",
+    "url": "https://www.edil-ozi.pro/",
+    "purpose": "React animated component library"
+   },
+   {
+    "name": "Kibo UI",
+    "url": "https://www.kibo-ui.com/",
+    "purpose": "React composite components (Kanban, Gantt, AI) on shadcn"
+   },
+   {
+    "name": "Farm UI",
+    "url": "https://www.farmui.com/",
+    "purpose": "React block and component library"
+   },
+   {
+    "name": "UI TripleD",
+    "url": "https://ui.tripled.work/",
+    "purpose": "React component library"
+   },
+   {
+    "name": "Spectrum UI",
+    "url": "https://ui.spectrumhq.in/",
+    "purpose": "Next.js component library"
+   },
+   {
+    "name": "CommerCN",
+    "url": "https://commercn.com/",
+    "purpose": "Next.js ecommerce component library"
+   },
+   {
+    "name": "Glass UI",
+    "url": "https://glass-ui.crenspire.com/",
+    "purpose": "Next.js glassmorphism component library"
+   },
+   {
+    "name": "MVPBlocks",
+    "url": "https://blocks.mvp-subha.me/",
+    "purpose": "Next.js MVP-oriented block collection"
+   },
+   {
+    "name": "DY Comps",
+    "url": "https://dycomps.oimmi.com/",
+    "purpose": "Next.js component collection"
+   },
+   {
+    "name": "Ruixen UI",
+    "url": "https://www.ruixen.com/",
+    "purpose": "Next.js component library"
+   },
+   {
+    "name": "Shadcn-vue",
+    "url": "https://www.shadcn-vue.com/",
+    "purpose": "Vue port of shadcn/ui"
+   },
+   {
+    "name": "Inspira UI",
+    "url": "https://inspira-ui.com/",
+    "purpose": "Vue animated component library"
+   },
+   {
+    "name": "Shadcn-svelte",
+    "url": "https://www.shadcn-svelte.com/",
+    "purpose": "Svelte port of shadcn/ui"
+   },
+   {
+    "name": "Svelte Efferd Blocks",
+    "url": "https://github.com/SikandarJODD/sv-efferd",
+    "purpose": "Svelte block collection"
+   },
+   {
+    "name": "Ori UI",
+    "url": "https://oriui.app/",
+    "purpose": "Svelte component library"
+   },
+   {
+    "name": "RetroUI Svelte",
+    "url": "https://github.com/Mhamad6000/retroui-svelte",
+    "purpose": "Svelte retro-styled component library"
+   },
+   {
+    "name": "TanStarter",
+    "url": "https://github.com/mugnavo/tanstarter",
+    "purpose": "TanStack Start + React full-stack starter"
+   },
+   {
+    "name": "Saas Starter Kit",
+    "url": "https://www.saasstarterkit.com/",
+    "purpose": "Next.js SaaS boilerplate"
+   },
+   {
+    "name": "Nextjs SaaS Stripe Starter",
+    "url": "https://github.com/mickasmt/next-saas-stripe-starter",
+    "purpose": "Next.js SaaS starter with Stripe billing"
+   },
+   {
+    "name": "Next Forge",
+    "url": "https://www.next-forge.com/",
+    "purpose": "Next.js production-grade monorepo boilerplate"
+   },
+   {
+    "name": "SaaS Boilerplate (ixartz)",
+    "url": "https://github.com/ixartz/SaaS-Boilerplate",
+    "purpose": "Next.js SaaS boilerplate with auth and i18n"
+   },
+   {
+    "name": "Horizon AI Boilerplate",
+    "url": "https://github.com/horizon-ui/shadcn-nextjs-boilerplate",
+    "purpose": "Next.js AI SaaS boilerplate"
+   },
+   {
+    "name": "ChadNext",
+    "url": "https://chadnext.moinulmoin.com/en/",
+    "purpose": "Next.js starter kit with auth, i18n and Stripe"
+   },
+   {
+    "name": "SaaSy Land",
+    "url": "https://github.com/pjborowiecki/SAASY-LAND-Next-14-Starters-With-Authentication-And-Database-Implemented",
+    "purpose": "Next.js SaaS boilerplate with auth and database"
+   },
+   {
+    "name": "Next App Starter",
+    "url": "https://github.com/jellydn/next-app-starter",
+    "purpose": "Next.js App Router starter kit"
+   },
+   {
+    "name": "Kaminari",
+    "url": "https://github.com/lucky-chap/kaminari",
+    "purpose": "Next.js 15 + Tailwind 4 + shadcn-ui starter"
+   },
+   {
+    "name": "Full-Stack Cloudflare SaaS Kit",
+    "url": "https://github.com/supermemoryai/cloudflare-saas-stack",
+    "purpose": "Next.js SaaS starter on Cloudflare Workers/D1"
+   },
+   {
+    "name": "Next.js SaaS Starter",
+    "url": "https://github.com/nextjs/saas-starter",
+    "purpose": "Official Next.js SaaS boilerplate with Stripe"
+   },
+   {
+    "name": "Open HR",
+    "url": "https://github.com/zeon-studio/open-hr",
+    "purpose": "Next.js HR management app starter"
+   },
+   {
+    "name": "Kirimase",
+    "url": "https://kirimase.dev/",
+    "purpose": "Next.js boilerplate/code generator CLI"
+   },
+   {
+    "name": "Next Starter (Skolaczk)",
+    "url": "https://github.com/Skolaczk/next-starter",
+    "purpose": "Next.js starter with testing and tooling preconfigured"
+   },
+   {
+    "name": "Saasfly",
+    "url": "https://github.com/nextify-limited/saasfly",
+    "purpose": "Next.js enterprise SaaS boilerplate monorepo"
+   },
+   {
+    "name": "Firestarta",
+    "url": "https://github.com/uixmat/firestarta",
+    "purpose": "Next.js SaaS boilerplate on Firebase"
+   },
+   {
+    "name": "Makerkit Lite",
+    "url": "https://github.com/makerkit/nextjs-saas-starter-kit-lite",
+    "purpose": "Next.js SaaS starter (free lite edition)"
+   },
+   {
+    "name": "Onyx MVP Template",
+    "url": "https://github.com/rmourey26/onyx",
+    "purpose": "Next.js PWA/MVP starter"
+   },
+   {
+    "name": "Blanq The Nuxt Starter",
+    "url": "https://github.com/Eckhardt-D/blanq",
+    "purpose": "Nuxt boilerplate"
+   },
+   {
+    "name": "SelfKit",
+    "url": "https://selfkit.dev/",
+    "purpose": "SvelteKit self-hosted SaaS boilerplate"
+   },
+   {
+    "name": "Spatz 2",
+    "url": "https://github.com/engageintellect/spatz-2",
+    "purpose": "SvelteKit + PocketBase web app starter"
+   },
+   {
+    "name": "SvelteKit Boilerplate (alegarn)",
+    "url": "https://github.com/alegarn/sveltekit-boilerplate",
+    "purpose": "SvelteKit starter kit"
+   },
+   {
+    "name": "Laravel Shadcn Starter Template",
+    "url": "https://github.com/mahmudz/laravel-shadcn-starter-template",
+    "purpose": "Laravel + Inertia starter with shadcn UI"
+   },
+   {
+    "name": "Apptension SaaS Boilerplate",
+    "url": "https://github.com/apptension/saas-boilerplate",
+    "purpose": "React + Django full-stack SaaS starter with AWS infra"
+   }
+  ],
+  "template_count": 120,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 120,
+   "blocks": null
+  },
+  "agent_guidance": "Use this as a lookup table, not a dependency: when a user asks for \"a free shadcn dashboard\" or \"a free shadcn waitlist page\", fetch this single static HTML page, pick the entry whose section matches the brief, then go straight to that project's GitHub repo and read its real README before you promise anything. It is one plain HTML document with no JS gate, so it is unusually cheap for you to parse compared to the SPA galleries it indexes. Watch two things: several entries share the same generic landing URL (shadcnui-blocks.com/templates), and \"free\" here sometimes means a free tier of a paid product — Homely, for example, is a $29 template.",
+  "why_it_matters": "One fetch gets you a near-complete map of the free shadcn ecosystem — 120 templates, UI libraries and boilerplates across six frameworks — which is exactly the index an agent needs before it starts a project from scratch.",
+  "notable_for": [
+   "120 free shadcn templates on one static page",
+   "grouped by use case: dashboard, portfolio, ecommerce, docs, boilerplate",
+   "covers Next.js, React, Vue, Nuxt, Svelte and Laravel",
+   "links to originals, hosts nothing",
+   "no JS gate — trivially fetchable"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://htmlrev.com/free-shadcn-templates.html (full template enumeration — all 120 entries with names, URLs and section), https://htmlrev.com/ (site scope, 18 framework categories, Devluc attribution, links-out model)",
+  "quality_tier": "S",
+  "tier_reason": "120 verified free templates enumerated with names and URLs across six frameworks on one plain static HTML page with no JS gate — a whole-ecosystem map for a single cheap fetch."
+ },
+ {
+  "id": "bad47580-be2b-47fd-be7a-f9772e5e4155",
+  "slug": "kaminari",
+  "url": "https://github.com/lucky-chap/kaminari",
+  "name": "Kaminari",
+  "tagline": "Minimal Next.js 15 + Tailwind 4 + shadcn-ui starter, MIT",
+  "description": "Kaminari is a deliberately bare Next.js 15 starter by lucky-chap (Huncho) that arrives with Tailwind CSS 4, shadcn-ui, TypeScript, ESLint, Prettier and `@`-prefixed absolute imports already wired up. It ships no marketing pages, no auth and no database — it is the empty-but-configured floor you build on, deployable to Vercel in one click. Use it when you want the shadcn toolchain without inheriting somebody else's product decisions. 358 stars, MIT, last pushed February 2026; the author lists Jest as \"coming soon\" and a version 4 as planned.",
+  "category": "blocks-templates-themes",
+  "subcategory": "templates-and-starters",
+  "kinds": [
+   "template"
+  ],
+  "facets": {
+   "framework": [
+    "next",
+    "react"
+   ],
+   "styling": [
+    "tailwind-v4"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "github-repo",
+    "cli"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "built-on-accessible-primitives"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "cli-installable",
+    "open-source-code",
+    "copy-paste-ready"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npx create-next-app my-app -e https://github.com/lucky-chap/kaminari",
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/lucky-chap/kaminari",
+  "registry_url": null,
+  "github": {
+   "stars": 358,
+   "license": "MIT",
+   "last_activity": "2026-02-26"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Reach for this when the user wants a clean Next.js 15 + Tailwind 4 + shadcn project and you would otherwise spend three tool calls running create-next-app, `shadcn init` and fixing the Tailwind 4 config by hand — the one `create-next-app -e` command replaces all of it. It pairs naturally with any shadcn registry (shadcnblocks, Kibo UI, Magic UI) because the components.json and CSS-variable theme are already in place. Do not reach for it when the brief needs auth, billing or a database: it has none, so a SaaS boilerplate like next-forge or the official nextjs/saas-starter saves more work. Verify the Tailwind 4 config still matches current upstream before you scaffold — the repo is one maintainer's side project.",
+  "why_it_matters": "Tailwind 4 broke a lot of older shadcn starters, and this one is small enough to read end to end in a minute while still being current — a rare combination for a scaffold you are going to inherit.",
+  "notable_for": [
+   "one-command scaffold via create-next-app -e",
+   "Next.js 15 with Tailwind CSS 4 already configured",
+   "shadcn-ui, TypeScript, ESLint and Prettier preset",
+   "MIT, 358 stars, pushed Feb 2026",
+   "no auth, no database — intentionally empty"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://github.com/lucky-chap/kaminari (README, features, install command), GitHub REST API repos/lucky-chap/kaminari via gh (stars 358, forks 36, MIT, pushed_at 2026-02-26, archived false, TypeScript, homepage kaminari.vercel.app)",
+  "quality_tier": "A",
+  "tier_reason": "MIT, 358 stars, pushed Feb 2026, with a working one-command `create-next-app -e` install that gets Next.js 15 plus Tailwind 4 and shadcn configured, but it is one maintainer's deliberately empty scaffold rather than the leading starter."
+ },
+ {
+  "id": "1e42e0c6-b6b9-4323-8f69-9e754dc2e200",
+  "slug": "homely-nextjs-real-estate",
+  "url": "https://www.wrappixel.com/templates/homely-nextjs-template-for-real-estate",
+  "name": "Homely Real Estate Template",
+  "tagline": "$29 Next.js 15 + shadcn real estate site with listings and detail pages",
+  "description": "Homely is a paid Next.js real estate website template from WrapPixel, built on Next.js App Router, React, Tailwind and shadcn/ui with TypeScript. The live demo ships a marketing home page (hero with a featured listing, four property-category cards, a six-property showcase grid, a featured-property spotlight, testimonials, a three-post blog strip, a CTA band, an FAQ accordion, a newsletter form and a footer) plus /properties, /blogs, /contactus, /documentation, /signin and /signup routes. It is for agencies and solo developers who need a property site delivered this week rather than a design system to build on. Listed at $29 with light/dark mode and reusable components.",
+  "category": "blocks-templates-themes",
+  "subcategory": "templates-and-starters",
+  "kinds": [
+   "template",
+   "theme-pack"
+  ],
+  "facets": {
+   "framework": [
+    "next",
+    "react"
+   ],
+   "styling": [
+    "tailwind-v4"
+   ],
+   "license": [
+    "commercial"
+   ],
+   "pricing": [
+    "one-time",
+    "paid"
+   ],
+   "distribution": [
+    "marketplace",
+    "download"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "built-on-accessible-primitives"
+   ],
+   "content_type": [
+    "code",
+    "screenshots"
+   ],
+   "agent_readiness": [
+    "bot-blocked",
+    "agent-paywalled"
+   ],
+   "maturity": "stable"
+  },
+  "components": [
+   "hero",
+   "header",
+   "navbar",
+   "footer",
+   "card",
+   "card-grid",
+   "quote",
+   "accordion",
+   "form",
+   "text-input",
+   "button",
+   "image",
+   "login-form",
+   "signup-form"
+  ],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "single-item-detail",
+   "filtering-items",
+   "blog",
+   "blog-post",
+   "contact-us",
+   "faq",
+   "login-website",
+   "sign-up"
+  ],
+  "templates": [
+   {
+    "name": "Homely",
+    "url": "https://homely-nextjs-tailwind.vercel.app/",
+    "purpose": "Real estate marketing site — property listing grid, property detail, blog, contact and sign-in/sign-up flows"
+   }
+  ],
+  "template_count": 1,
+  "install": null,
+  "package": null,
+  "docs_url": "https://homely-nextjs-tailwind.vercel.app/documentation",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "$29 one-time on WrapPixel. Listing metadata reports roughly 820 downloads and a last update of 17 April 2025. Exact licence tiers could not be confirmed — the product page returns HTTP 403 to automated fetches.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Reach for this only on a genuine property-listing brief, and only after the user has bought and downloaded it — wrappixel.com returns 403 to every automated fetch, so you cannot inspect the source or scaffold from it yourself. When the files land, the value is the domain-shaped sections (listing grid, property spotlight with bed/bath/parking specs, agent contact form), not the primitives: those are stock shadcn and you can rebuild them for free. Beware that HTMLrev files this under free shadcn templates while WrapPixel sells it at $29 — check which version the user actually has, and expect a template last refreshed in April 2025, so audit its Next.js and Tailwind versions before upgrading around it.",
+  "why_it_matters": "Vertical templates like this are worth money only for the domain modelling — listing cards, property detail layout, lead-capture flow — which is exactly the part a generic shadcn starter makes you invent yourself.",
+  "notable_for": [
+   "$29 one-time real estate template",
+   "Next.js App Router with shadcn/ui and Tailwind",
+   "property listing grid plus detail, blog, contact and auth routes",
+   "light/dark mode included",
+   "vendor site blocks automated fetches (HTTP 403)"
+  ],
+  "already_enriched": false,
+  "http_status": 403,
+  "verified_at": "2026-08-15",
+  "evidence": "https://www.wrappixel.com/templates/homely-nextjs-template-for-real-estate (HTTP 403, twice, with and without trailing slash — bot-blocked), https://homely-nextjs-tailwind.vercel.app/ (live demo — full route list and homepage section-by-section enumeration), web search across wrappixel.com, getnextjstemplates.com and dev.to listings for price, download count and last-update date; https://getnextjstemplates.com/products/homely-nextjs-website-template also returned 403",
+  "quality_tier": "B",
+  "tier_reason": "One narrow $29 vertical template whose vendor page returns 403 and whose last update was April 2025; only the live demo made it inspectable at all."
+ },
+ {
+  "id": "85e5a843-1e6a-478a-84f7-e39882ec63f8",
+  "slug": "deck-gallery-deck",
+  "url": "https://deck.gallery",
+  "name": "Deck.gallery",
+  "tagline": "180 curated presentation decks, brand guidelines and reports",
+  "description": "Deck.gallery is a curated gallery of beautifully designed presentation decks — 180 entries at last count — filed by type: Report, Guideline, Sales, Portfolio, Pitch, Marketing, Strategy, Talks and Other. It collects the real thing rather than mockups: Formula 1, Pleo, Zapier, Discord and Nike brand guidelines; Linear, Perplexity Ads and Yuga Labs pitch decks; Palantir Q4 2023, Strava Year in Sport and Mailchimp reports; portfolios from Studio Freight and other independents. Each deck gets its own page on the site, with a weekly newsletter and a small paid marketplace of deck templates alongside. It is a reference library for anyone who has to design a slide deck, a brand book or an annual report and wants to see how good ones are actually built.",
+  "category": "inspiration-galleries",
+  "subcategory": "directories-and-meta-indexes",
+  "kinds": [
+   "gallery",
+   "brand-guidelines",
+   "directory"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free",
+    "freemium"
+   ],
+   "distribution": [
+    "gallery",
+    "web-app",
+    "marketplace"
+   ],
+   "platform": [
+    "web",
+    "print"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "pdf",
+    "images",
+    "screenshots"
+   ],
+   "agent_readiness": [
+    "image-only",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Browsing is free. A small marketplace sells deck and workbook templates — e.g. \"Brand Strategy Workbook eBook Template $25\".",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 180,
+   "blocks": null
+  },
+  "agent_guidance": "Reach for this when the brief is a deck, a brand book or an annual report rather than a screen — it is one of the few indexes of real, shipped presentation design, and the type filter (Pitch, Guideline, Report, Sales, Portfolio) maps cleanly onto a brief. The index page exposes a schema.org ItemList, so you can enumerate the 180 entries and their type from the HTML, but the decks themselves are images and PDFs: you can cite and link them, you cannot read the typography or grid out of them, so ask the user to look. Pair it with a type-specimen or colour source when you are actually producing slides — this gives you references and direction, never assets.",
+  "why_it_matters": "Presentation design is badly under-indexed compared to web UI, and having Nike, Discord and Linear's real decks in one filterable place is a genuinely scarce reference for brand and narrative work.",
+  "notable_for": [
+   "180 curated decks with per-deck pages",
+   "typed by Report, Guideline, Sales, Portfolio, Pitch, Strategy, Talks",
+   "real brand guidelines from Formula 1, Nike, Discord, Zapier, Pleo",
+   "pitch decks from Linear, Perplexity Ads, Yuga Labs",
+   "weekly newsletter plus a small paid template marketplace"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://deck.gallery (fetched twice — first for site purpose, type list and featured examples, second for the schema.org numberOfItems count of 180, newsletter, marketplace and external-link structure)",
+  "quality_tier": "A",
+  "tier_reason": "180 real shipped decks from Nike, Discord and Linear, enumerable through a schema.org ItemList, covering a badly under-indexed category — but the decks are images and PDFs an agent cannot read."
+ }
+]

@@ -1,0 +1,927 @@
+[
+  {
+    "id": "0701e6d7-cd7c-4c65-b97b-07deee39e7a7",
+    "slug": "assistant-ui",
+    "url": "https://www.assistant-ui.com",
+    "name": "assistant-ui",
+    "tagline": "React chat primitives and shadcn-installable UI for LLM apps, copilots, and agents",
+    "description": "assistant-ui is an open-source React library for AI chat interfaces, split into headless Radix-style primitives (Thread, Composer, Message, BranchPicker, ChainOfThought, ThreadList) and ~33 styled components you install through the shadcn CLI. It ships runtime adapters for Vercel AI SDK, LangGraph, LangChain, Mastra, AG-UI, A2A, Google ADK and custom servers, so streaming, tool calls, attachments, branching and voice are wired for you. Beyond React on the web it targets React Native and React Ink terminals, and an optional hosted Cloud product adds thread persistence and history. Aimed at teams building a production chat surface rather than reinventing a message list.",
+    "category": "ai-interface-kits",
+    "subcategory": "chat-and-agent-components",
+    "kinds": [
+      "component-library",
+      "primitive",
+      "registry"
+    ],
+    "facets": {
+      "framework": [
+        "react",
+        "next",
+        "react-native",
+        "terminal-tui"
+      ],
+      "styling": [
+        "tailwind-any",
+        "css-variables"
+      ],
+      "license": [
+        "mit"
+      ],
+      "pricing": [
+        "open-source",
+        "free",
+        "freemium"
+      ],
+      "distribution": [
+        "shadcn-registry",
+        "npm-package",
+        "cli",
+        "github-repo",
+        "mcp-server"
+      ],
+      "platform": [
+        "web",
+        "cross-platform",
+        "terminal"
+      ],
+      "accessibility": [
+        "built-on-accessible-primitives",
+        "keyboard-navigable",
+        "rtl-support"
+      ],
+      "content_type": [
+        "code"
+      ],
+      "agent_readiness": [
+        "llms-txt",
+        "mcp-server",
+        "agent-skill",
+        "registry-json",
+        "cli-installable",
+        "structured-docs",
+        "open-source-code"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "conversation",
+      "message",
+      "message-scroller",
+      "prompt-input",
+      "send-stop-button",
+      "suggestion",
+      "streaming-text",
+      "reasoning",
+      "tool-call",
+      "sources",
+      "inline-citation",
+      "attachments",
+      "generated-image",
+      "speech-input",
+      "voice-output",
+      "model-selector",
+      "context-meter",
+      "message-actions",
+      "chat-history",
+      "chat-empty-state",
+      "code-block",
+      "diff-view",
+      "quote",
+      "file-card",
+      "image",
+      "badge",
+      "accordion",
+      "tabs",
+      "select",
+      "popover",
+      "dialog",
+      "modal",
+      "sidebar",
+      "scroll-area",
+      "count-up",
+      "status-indicator",
+      "mentions"
+    ],
+    "component_count": 46,
+    "surfaces": [
+      "ai-chat-panel",
+      "chat-web-app",
+      "chat-mobile",
+      "agent-run-history",
+      "agent-settings",
+      "uploading-media"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": "npx assistant-ui@latest create",
+    "package": "@assistant-ui/react",
+    "docs_url": "https://www.assistant-ui.com/docs",
+    "repo_url": "https://github.com/assistant-ui/assistant-ui",
+    "registry_url": "https://r.assistant-ui.com",
+    "github": {
+      "stars": 11671,
+      "license": "MIT",
+      "last_activity": "2026-08-15"
+    },
+    "pricing_detail": "Library is MIT and free. assistant-ui Cloud (managed thread persistence, search, history) is a separate hosted product; no price list appeared on the pages fetched.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Reach for this the moment a project needs a real chat surface with streaming, branching, tool-call rendering and attachments — hand-rolling a message list plus auto-scroll plus a composer costs days and will still miss stop-generation and branch state. It composes with shadcn/ui because the registry serves both Radix and Base UI flavors: point components.json at https://r.assistant-ui.com/styles/{style}/{name}.json so the flavor matches your project style, otherwise Base UI projects get Radix-compiled files. Do not adopt it as a generic component library — it is chat-shaped, brings a runtime and context providers, and its non-chat pieces (accordion, tabs, select) exist to serve the thread, not to replace your design system.",
+    "why_it_matters": "It is the default answer for 'build an AI chat UI in React' — the only library that covers primitives, styled components, runtime adapters and persistence at once, and one of the very few design resources built for agent consumption (llms.txt, MCP endpoint, Claude Code skills, per-page markdown).",
+    "quality_tier": "S",
+    "notable_for": [
+      "headless chat primitives plus shadcn registry",
+      "Radix and Base UI flavors of every component",
+      "runtime adapters for AI SDK and LangGraph",
+      "React Native and React Ink targets",
+      "llms.txt, MCP endpoint and agent-skills index"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://www.assistant-ui.com/docs, https://www.assistant-ui.com/llms.txt, https://www.assistant-ui.com/docs/installation.md, https://api.github.com/repos/assistant-ui/assistant-ui"
+  },
+  {
+    "id": "12b2c8ca-4d42-41b1-ba8d-e9f6a36b5a99",
+    "slug": "react-aria",
+    "url": "https://react-aria.adobe.com",
+    "name": "React Aria",
+    "tagline": "Adobe's unstyled React primitives with ARIA, keyboard, i18n and touch behavior built in",
+    "description": "React Aria is Adobe's library of 50+ style-free React components and matching hooks that supply the behavior layer: ARIA roles and state, focus management, keyboard and pointer interaction, screen-reader announcements, internationalization and RTL. React Aria Components is the higher-level render-prop API; the underlying react-aria hooks stay available when you need total DOM control. It ships zero styles, so it works with Tailwind, vanilla CSS, CSS Modules or CSS-in-JS. It is the accessibility foundation under Adobe Spectrum and the reference implementation most other headless libraries are measured against.",
+    "category": "component-libraries",
+    "subcategory": "headless-primitives",
+    "kinds": [
+      "primitive",
+      "component-library",
+      "design-system-docs"
+    ],
+    "facets": {
+      "framework": [
+        "react",
+        "next"
+      ],
+      "styling": [
+        "vanilla-css",
+        "tailwind-any",
+        "css-modules",
+        "css-in-js"
+      ],
+      "license": [
+        "apache-2.0"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "npm-package",
+        "github-repo"
+      ],
+      "platform": [
+        "web",
+        "cross-platform"
+      ],
+      "accessibility": [
+        "aria-complete",
+        "wcag-aa",
+        "keyboard-navigable",
+        "focus-managed",
+        "screen-reader-tested",
+        "rtl-support",
+        "semantic-html"
+      ],
+      "content_type": [
+        "code"
+      ],
+      "agent_readiness": [
+        "structured-docs",
+        "open-source-code"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "button",
+      "toggle-button",
+      "toggle-group",
+      "checkbox",
+      "checkbox-group",
+      "radio-group",
+      "switch",
+      "slider",
+      "range-slider",
+      "text-input",
+      "search-input",
+      "number-input",
+      "date-input",
+      "date-picker",
+      "date-range-picker",
+      "calendar",
+      "time-picker",
+      "color-picker",
+      "select",
+      "combobox",
+      "autocomplete",
+      "listbox",
+      "dropdown-menu",
+      "tabs",
+      "breadcrumbs",
+      "link",
+      "table",
+      "list",
+      "tree-view",
+      "tag",
+      "tag-input",
+      "progress-bar",
+      "meter",
+      "toast",
+      "tooltip",
+      "popover",
+      "modal",
+      "dialog",
+      "separator",
+      "form",
+      "label",
+      "file-upload",
+      "drag-and-drop",
+      "toolbar",
+      "collapsible",
+      "accordion",
+      "hover-card",
+      "direction-provider"
+    ],
+    "component_count": 50,
+    "surfaces": [
+      "submitting-a-form",
+      "showing-input-error",
+      "multi-step-form",
+      "filtering-items",
+      "settings-web-app",
+      "search-results"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": "npm install react-aria-components",
+    "package": "react-aria-components",
+    "docs_url": "https://react-aria.adobe.com",
+    "repo_url": "https://github.com/adobe/react-spectrum",
+    "registry_url": null,
+    "github": {
+      "stars": 15797,
+      "license": "Apache-2.0",
+      "last_activity": "2026-08-15"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Pick React Aria over Radix or Base UI when the build has a hard accessibility or internationalization requirement — government, enterprise procurement, VPAT, or anything with dates, colors, or non-Latin/RTL locales, where its DateField, Calendar, ColorArea/ColorWheel and I18nProvider have no real equivalent elsewhere. It ships no styles at all, so budget for a full styling pass; do not expect shadcn-style copy-paste files, and do not mix it with Radix inside one component tree since the two manage focus differently. If the project is already shadcn/ui, treat React Aria as the escape hatch for the two or three widgets shadcn cannot do accessibly, not as a wholesale replacement.",
+    "why_it_matters": "It is the most rigorously accessible headless React library in existence, maintained by a team that ships it in Adobe's own products — the correctness baseline every other primitive library is compared against.",
+    "quality_tier": "S",
+    "notable_for": [
+      "50+ style-free components",
+      "date, time and color widgets with full i18n",
+      "adaptive touch and desktop interaction",
+      "hooks API under the component API",
+      "Apache-2.0, backed by Adobe"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://react-aria.adobe.com/, https://react-aria.adobe.com/ComboBox.html, https://api.github.com/repos/adobe/react-spectrum, https://registry.npmjs.org/react-aria-components"
+  },
+  {
+    "id": "d6d46d24-2b20-4805-b5a1-8675de6d27b0",
+    "slug": "termcn",
+    "url": "https://termcn.vercel.app",
+    "name": "termcn",
+    "tagline": "Terminal UI components for React, installed with the shadcn CLI, on Ink and OpenTUI",
+    "description": "termcn applies the shadcn copy-paste model to terminal user interfaces: 123 components published twice, once for Ink and once for OpenTUI, plus hooks, providers and 40+ terminal color themes, totalling 342 registry items. The catalog goes far past text and boxes — dithered charts, data grids, diff views, git status, embedded terminals, command palettes, wizards, plus a full agent-CLI set (chat thread, streaming text, thinking block, tool call, tool approval, token usage, model selector). Items are namespaced by base (ink/ or opentui/) and pulled with `npx shadcn@latest add`, so you own the source. Built for anyone shipping a serious CLI or coding-agent TUI in TypeScript.",
+    "category": "component-libraries",
+    "subcategory": "cross-framework-and-native",
+    "kinds": [
+      "registry",
+      "component-library"
+    ],
+    "facets": {
+      "framework": [
+        "react",
+        "terminal-tui"
+      ],
+      "styling": [
+        "inline-styles"
+      ],
+      "license": [
+        "mit"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "shadcn-registry",
+        "cli",
+        "copy-paste",
+        "github-repo"
+      ],
+      "platform": [
+        "terminal",
+        "cross-platform"
+      ],
+      "accessibility": [
+        "claimed-accessible",
+        "reduced-motion",
+        "keyboard-navigable"
+      ],
+      "content_type": [
+        "code"
+      ],
+      "agent_readiness": [
+        "registry-json",
+        "cli-installable",
+        "llms-txt",
+        "structured-docs",
+        "agent-skill",
+        "copy-paste-ready",
+        "public-api",
+        "open-source-code"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "alert",
+      "app-shell",
+      "aspect-ratio",
+      "badge",
+      "banner",
+      "bar-chart",
+      "box",
+      "breadcrumbs",
+      "card",
+      "center",
+      "message",
+      "conversation",
+      "chat-history",
+      "checkbox",
+      "checkbox-group",
+      "copy-button",
+      "code-block",
+      "color-picker",
+      "command-palette",
+      "alert-dialog",
+      "data-grid",
+      "date-picker",
+      "description-list",
+      "dialog",
+      "diff-view",
+      "file-tree",
+      "area-chart",
+      "pie-chart",
+      "radar-chart",
+      "sparkline",
+      "line-chart",
+      "separator",
+      "drawer",
+      "terminal",
+      "error-page",
+      "file-upload",
+      "form",
+      "gauge-chart",
+      "gradient-background",
+      "grid",
+      "heading",
+      "heatmap",
+      "image",
+      "json-viewer",
+      "kbd",
+      "link",
+      "list",
+      "login-form",
+      "masked-input",
+      "dropdown-menu",
+      "modal",
+      "model-selector",
+      "multi-select",
+      "notification-center",
+      "number-input",
+      "pagination",
+      "panel",
+      "password-input",
+      "popover",
+      "progress-bar",
+      "qr-code",
+      "radio-group",
+      "scroll-area",
+      "search-input",
+      "select",
+      "onboarding-flow",
+      "sidebar",
+      "skeleton",
+      "spacer",
+      "spinner",
+      "stack",
+      "status-indicator",
+      "countdown",
+      "streaming-text",
+      "tabs",
+      "table",
+      "tag",
+      "tag-input",
+      "textarea",
+      "text-input",
+      "theme-provider",
+      "reasoning",
+      "time-picker",
+      "toast",
+      "toggle-button",
+      "context-meter",
+      "approval-request",
+      "tool-call",
+      "tooltip",
+      "tree",
+      "tree-select",
+      "meter",
+      "progress-stepper",
+      "typography",
+      "inline-message",
+      "empty-state"
+    ],
+    "component_count": 123,
+    "surfaces": [
+      "command-palette",
+      "keyboard-shortcuts-overlay",
+      "ai-chat-panel",
+      "ai-action-approval",
+      "agent-run-history",
+      "multi-step-form",
+      "analytics",
+      "usage-and-limits"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": "npx shadcn@latest add https://termcn.dev/r/ink/spinner.json",
+    "package": null,
+    "docs_url": "https://www.termcn.dev/docs",
+    "repo_url": "https://github.com/shadcn-labs/termcn",
+    "registry_url": "https://www.termcn.dev/r/registry.json",
+    "github": {
+      "stars": 1068,
+      "license": "MIT",
+      "last_activity": "2026-08-09"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 342,
+      "blocks": null
+    },
+    "agent_guidance": "Reach for termcn whenever the deliverable is a CLI, installer, or coding-agent TUI in TypeScript — it removes the worst part of terminal work (grapheme-safe width, cursor math, truncation, Unicode fallbacks, reduced-motion) and its ink/tool-call, ink/tool-approval, ink/streaming-text and ink/token-usage items are exactly the pieces an agent runner needs. Choose the base before you install anything: ink/ for the mature Ink ecosystem, opentui/ for the GPU-accelerated renderer; the two namespaces are parallel but not interchangeable, and mixing them in one app will break the theme and interaction providers. Install the matching theme-provider and use-theme items first, or components fall back to unstyled defaults.",
+    "why_it_matters": "It is the only serious attempt to give terminal UIs the shadcn treatment, and it lands with real depth — 123 components per renderer, dithered charts, and a purpose-built agent-CLI set — at a moment when most new dev tools ship as a TUI.",
+    "quality_tier": "A",
+    "notable_for": [
+      "123 components mirrored across Ink and OpenTUI",
+      "342 registry items including 40+ terminal themes",
+      "dithered terminal charts and heatmaps",
+      "agent-CLI set: tool-call, tool-approval, token-usage",
+      "OpenAPI spec and .well-known agent-skills index"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://termcn.vercel.app (307 -> https://www.termcn.dev/), https://www.termcn.dev/docs.md, https://www.termcn.dev/r/registry.json, https://api.github.com/search/repositories?q=termcn"
+  },
+  {
+    "id": "a009af2a-93d1-4471-ba3d-6cc2a2fc736c",
+    "slug": "coss-ui-originui",
+    "url": "https://originui.com",
+    "name": "coss ui",
+    "tagline": "Cal.com's Base UI + Tailwind v4 registry: 56 primitives and 500 particle variants",
+    "description": "coss ui is the successor to Origin UI — originui.com now serves it — and is the official design system Cal.com is progressively adopting. It ships 56 copy-paste React primitives built directly on Base UI (not ported from Radix) and styled with Tailwind v4, plus 500 'particles': pre-composed variants of those primitives such as 41 buttons, 25 calendars, 20 autocompletes and 20 badges. Everything installs through the shadcn CLI from its own registry, including a @coss/style preset that lays down colors, sidebar variables, fonts and base styles in one command. Origin UI itself remains online as a pre-acquisition collection with limited maintenance.",
+    "category": "component-libraries",
+    "subcategory": "shadcn-registries",
+    "kinds": [
+      "registry",
+      "component-library",
+      "block-collection"
+    ],
+    "facets": {
+      "framework": [
+        "react",
+        "next"
+      ],
+      "styling": [
+        "tailwind-v4",
+        "css-variables"
+      ],
+      "license": [
+        "mit",
+        "agpl"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "shadcn-registry",
+        "cli",
+        "copy-paste",
+        "github-repo"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "built-on-accessible-primitives",
+        "keyboard-navigable",
+        "focus-managed"
+      ],
+      "content_type": [
+        "code",
+        "design-tokens"
+      ],
+      "agent_readiness": [
+        "registry-json",
+        "cli-installable",
+        "llms-txt",
+        "copy-paste-ready",
+        "structured-docs",
+        "open-source-code"
+      ],
+      "maturity": "beta"
+    },
+    "components": [
+      "accordion",
+      "alert",
+      "alert-dialog",
+      "autocomplete",
+      "avatar",
+      "badge",
+      "breadcrumbs",
+      "button",
+      "calendar",
+      "card",
+      "checkbox",
+      "checkbox-group",
+      "collapsible",
+      "combobox",
+      "command-palette",
+      "context-menu",
+      "date-picker",
+      "dialog",
+      "drawer",
+      "empty-state",
+      "form",
+      "fieldset",
+      "input-group",
+      "text-input",
+      "kbd",
+      "label",
+      "dropdown-menu",
+      "menubar",
+      "meter",
+      "number-input",
+      "otp-input",
+      "pagination",
+      "popover",
+      "hover-card",
+      "progress-bar",
+      "radio-group",
+      "scroll-area",
+      "select",
+      "separator",
+      "sheet",
+      "skeleton",
+      "slider",
+      "spinner",
+      "switch",
+      "table",
+      "tabs",
+      "textarea",
+      "toast",
+      "toggle-button",
+      "toggle-group",
+      "toolbar",
+      "tooltip",
+      "panel",
+      "validation-message",
+      "theme-provider",
+      "direction-provider"
+    ],
+    "component_count": 56,
+    "surfaces": [
+      "settings-web-app",
+      "submitting-a-form",
+      "showing-input-error",
+      "filtering-items",
+      "multi-step-form",
+      "search-results",
+      "admin-panel",
+      "account-web-app"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": "pnpm dlx shadcn@latest add @coss/ui",
+    "package": null,
+    "docs_url": "https://coss.com/ui/docs",
+    "repo_url": "https://github.com/cosscom/coss",
+    "registry_url": "https://coss.com/ui/r/registry.json",
+    "github": {
+      "stars": 10420,
+      "license": "AGPL-3.0",
+      "last_activity": "2026-08-04"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 568,
+      "blocks": 500
+    },
+    "agent_guidance": "Use this when the project is on Base UI and Tailwind v4 and you want variants rather than bare primitives — the 500 particles are the real value, so instead of hand-building the 12th button style, pull p-button-N or p-calendar-N and edit. Initialize new projects with `pnpm dlx shadcn@latest init @coss/style` to get the tokens, sidebar variables and Inter/Geist Mono wiring in one shot; on an existing shadcn project add @coss/ui and @coss/colors-neutral separately so you keep your own theme. Two cautions: it is self-declared early development on top of Base UI's own beta, so pin what you copy; and the repo is AGPL-3.0 except the apps/origin and apps/ui directories, which matters if you vendor anything beyond the component files.",
+    "why_it_matters": "A 500-variant registry maintained as a real company's production design system is rare — most shadcn registries are one-person variant dumps, and this one ships with the migration path off Radix that the ecosystem is about to need.",
+    "quality_tier": "A",
+    "notable_for": [
+      "500 particle variants over 56 primitives",
+      "built natively on Base UI, not ported from Radix",
+      "official Cal.com design system",
+      "one-command @coss/style theme preset",
+      "Origin UI's successor at the same domain"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://originui.com/, https://originui.com/particles, https://coss.com/ui/docs, https://coss.com/ui/docs/get-started, https://coss.com/ui/r/registry.json, https://github.com/origin-space/originui (301 -> cosscom/coss), https://api.github.com/repos/cosscom/coss"
+  },
+  {
+    "id": "397deeec-2889-461f-abbd-7044ab8cd58e",
+    "slug": "neobrutalism-components",
+    "url": "https://neobrutalism.dev",
+    "name": "Neobrutalism Components",
+    "tagline": "48 shadcn/ui components restyled as neobrutalism, plus 4 free Tailwind templates",
+    "description": "Neobrutalism Components is a restyle layer over shadcn/ui: 48 React + Tailwind components rebuilt with hard black borders, offset drop shadows and saturated flat color, covering everything from Accordion and Data Table to Charts, Sidebar, Marquee and Image Card. You install the underlying shadcn component, replace globals.css with the provided styling, then paste the neobrutalism variant — component pages carry a shadcn CLI command where one applies. It also ships four free open-source templates (portfolio, blog, windowed portfolio, bento) and a companion Figma file. For projects that want a loud, opinionated aesthetic without giving up shadcn's structure.",
+    "category": "blocks-templates-themes",
+    "subcategory": "themes-and-style-packs",
+    "kinds": [
+      "theme-pack",
+      "component-library",
+      "template"
+    ],
+    "facets": {
+      "framework": [
+        "react",
+        "next"
+      ],
+      "styling": [
+        "tailwind-any",
+        "css-variables"
+      ],
+      "license": [
+        "mit"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "copy-paste",
+        "cli",
+        "github-repo",
+        "figma-file"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "built-on-accessible-primitives",
+        "claimed-accessible"
+      ],
+      "content_type": [
+        "code",
+        "figma"
+      ],
+      "agent_readiness": [
+        "copy-paste-ready",
+        "cli-installable",
+        "structured-docs",
+        "open-source-code"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "accordion",
+      "alert-dialog",
+      "alert",
+      "avatar",
+      "badge",
+      "breadcrumbs",
+      "button",
+      "calendar",
+      "card",
+      "carousel",
+      "chart",
+      "checkbox",
+      "collapsible",
+      "combobox",
+      "command-palette",
+      "context-menu",
+      "date-picker",
+      "data-grid",
+      "dialog",
+      "drawer",
+      "dropdown-menu",
+      "form",
+      "hover-card",
+      "image",
+      "text-input",
+      "otp-input",
+      "label",
+      "marquee",
+      "menubar",
+      "navigation-menu",
+      "pagination",
+      "popover",
+      "progress-bar",
+      "radio-group",
+      "resizable",
+      "scroll-area",
+      "select",
+      "sheet",
+      "sidebar",
+      "skeleton",
+      "slider",
+      "toast",
+      "switch",
+      "table",
+      "tabs",
+      "textarea",
+      "tooltip"
+    ],
+    "component_count": 48,
+    "surfaces": [
+      "homepage",
+      "blog",
+      "blog-post",
+      "public-profile",
+      "features"
+    ],
+    "templates": [
+      {
+        "name": "Portfolio",
+        "url": "https://neobrutalism-portfolio.netlify.app/",
+        "purpose": "Single-page personal portfolio; free and open source, Tailwind."
+      },
+      {
+        "name": "Blog",
+        "url": "https://neobrutalism-blog.netlify.app/",
+        "purpose": "Blog index plus post layout in the neobrutalism style."
+      },
+      {
+        "name": "Windowed Portfolio",
+        "url": "https://neobrutalism-windowed-portfolio.netlify.app/",
+        "purpose": "Portfolio built around draggable window chrome for showing work."
+      },
+      {
+        "name": "Bento",
+        "url": "https://neobrutalism-bento.netlify.app/",
+        "purpose": "Bento-grid landing layout for a personal or product page."
+      }
+    ],
+    "template_count": 4,
+    "install": null,
+    "package": null,
+    "docs_url": "https://neobrutalism.dev/docs",
+    "repo_url": "https://github.com/ekmas/neobrutalism-components",
+    "registry_url": null,
+    "github": {
+      "stars": 5313,
+      "license": "MIT",
+      "last_activity": "2026-08-02"
+    },
+    "pricing_detail": "Everything is free, including the four templates and the Figma file.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Use this when the brief asks for something loud, retro-web, indie or deliberately anti-corporate — portfolios, hackathon projects, meme-adjacent products — not for a dashboard someone stares at all day. It is not a drop-in registry: install the base shadcn component first, then replace globals.css wholesale with their styling and paste the neobrutalism variant on top, and note that the v4 release dropped utility-class components so only the CSS-variable path works. Because the shadow and border language is applied at the component level, mixing these files with stock shadcn components in one app looks broken — commit to it or skip it.",
+    "why_it_matters": "The canonical neobrutalism kit for React, with enough coverage (48 components, charts, sidebar, data table) to build a whole product in the style rather than just a landing page.",
+    "quality_tier": "A",
+    "notable_for": [
+      "48 components including charts and data table",
+      "4 free open-source templates",
+      "companion Figma file",
+      "CSS-variable theming, v4 rewrite",
+      "5.3k stars, MIT"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://neobrutalism.dev/, https://neobrutalism.dev/docs/, https://neobrutalism.dev/docs/installation, https://neobrutalism.dev/templates, https://api.github.com/repos/ekmas/neobrutalism-components"
+  },
+  {
+    "id": "84f51b89-6b02-4634-9be6-0d67b4d4398e",
+    "slug": "styleglide",
+    "url": "https://www.styleglide.ai",
+    "name": "StyleGlide",
+    "tagline": "Prompt-driven shadcn/ui theme generator: P3 color scales, font pairs, live preview",
+    "description": "StyleGlide generates complete shadcn/ui style kits from a natural-language description of your project: a P3-gamut color palette, display and text font pairings drawn from hundreds of open-source families, and the full set of shadcn CSS variables. You preview kits live against mock applications and popular UI frameworks, edit or mix generated kits by hand, and export in Tailwind and shadcn-ready form through the shadcn registry. A companion package, @styleglide/theme-editor, drops the same editor into any running shadcn app via a script tag or npm install. The hosted app requires an account; the editor package is MIT.",
+    "category": "blocks-templates-themes",
+    "subcategory": "themes-and-style-packs",
+    "kinds": [
+      "generator",
+      "ai-tool",
+      "color-tool"
+    ],
+    "facets": {
+      "framework": [
+        "react",
+        "next",
+        "vanilla"
+      ],
+      "styling": [
+        "tailwind-any",
+        "css-variables"
+      ],
+      "license": [
+        "mit",
+        "proprietary"
+      ],
+      "pricing": [
+        "free",
+        "account-required"
+      ],
+      "distribution": [
+        "web-app",
+        "saas",
+        "npm-package",
+        "shadcn-registry"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "design-tokens",
+        "code",
+        "fonts"
+      ],
+      "agent_readiness": [
+        "auth-required",
+        "token-export"
+      ],
+      "maturity": "stable"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": "npm install @styleglide/theme-editor",
+    "package": "@styleglide/theme-editor",
+    "docs_url": "https://docs.styleglide.ai",
+    "repo_url": "https://github.com/shane-downes/styleglide",
+    "registry_url": null,
+    "github": {
+      "stars": 68,
+      "license": null,
+      "last_activity": "2025-12-06"
+    },
+    "pricing_detail": "No pricing page exists (styleglide.ai/pricing returns 404) and no prices appear on the site; the editor is behind a login. Treat it as free with an account until proven otherwise.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Use StyleGlide at the start of a shadcn project when the brief gives you a vibe but no brand — it is faster at producing a coherent, P3-correct color scale and a font pairing than picking hex values by hand, and it emits real CSS variables rather than hardcoded tokens. For an agent workflow the useful artifact is the exported globals.css / shadcn theme, not the app itself: the editor sits behind a login, so a headless run cannot generate a kit and you should have the human paste the export. Do not expect components or blocks — pair it with a component registry such as coss ui or shadcn/ui, and sanity-check generated pairs for AA contrast, which the tool does not guarantee.",
+    "why_it_matters": "Theme generators are crowded (tweakcn, shadcn.io, shadcndesign), but StyleGlide is the one that treats typography and P3 color as first-class alongside the palette and exports through the shadcn registry rather than a copy-paste blob.",
+    "quality_tier": "B",
+    "notable_for": [
+      "natural-language style-kit generation",
+      "P3-gamut color palettes by default",
+      "hundreds of open-source font pairings",
+      "embeddable MIT theme editor package",
+      "variable-based output, not hardcoded tokens"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://www.styleglide.ai (curl), https://www.styleglide.ai/pricing (404), https://docs.styleglide.ai, https://api.github.com/repos/shane-downes/styleglide, https://registry.npmjs.org/@styleglide/theme-editor"
+  }
+]

@@ -1,0 +1,839 @@
+[
+ {
+  "id": "855f107d-0b1f-475d-af5e-4d39864d866b",
+  "slug": "amir-mushich",
+  "url": "https://x.com/AmirMushich",
+  "name": "Amir Mushich",
+  "tagline": "X feed of a brand/ad designer posting AI image and motion prompt recipes",
+  "description": "The X account of Amir Mushich, a creative director with roughly a decade in brand and advertising design (Warner Music, PepsiCo, Spotify) who now posts AI-assisted design work. The feed is mostly prompt recipes, before/after generations, and short technique threads for Flux, Nano Banana and LTX Studio, often bundled with free giveaway docs. Useful as a source of concrete, copy-able prompt craft for graphic-design-flavoured AI output rather than as a queryable resource.",
+  "category": "artists-creators",
+  "subcategory": "social-profiles",
+  "kinds": [
+   "profile",
+   "social-post"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free",
+    "account-required"
+   ],
+   "distribution": [
+    "web-app"
+   ],
+   "platform": [
+    "web",
+    "social"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "profile",
+    "prompts",
+    "images",
+    "video"
+   ],
+   "agent_readiness": [
+    "bot-blocked",
+    "auth-required"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Do not try to fetch this at run time — x.com is bot-blocked and login-walled, so any scrape returns an empty shell. Treat it as a human-curated pointer: the value is the prompt packs he links out to (see the boiling-animation prompt doc in this same index), not the profile page. If an agent needs the actual prompts, follow the linked t.co/Google Doc artifacts instead.",
+  "why_it_matters": "One of the few working designers publishing reproducible AI prompt recipes with real typographic and print-craft sensibility instead of generic 'cinematic' slop.",
+  "notable_for": [
+   "Flux and LTX Studio prompt recipes",
+   "graphic-design-led AI output",
+   "free downloadable prompt packs",
+   "ex-Warner Music / PepsiCo / Spotify"
+  ],
+  "already_enriched": true,
+  "http_status": null,
+  "verified_at": "2026-08-15",
+  "evidence": "Not fetched per instruction (x.com). Record built from supplied title/description; corroborated indirectly by the t.co giveaway doc in this batch, whose UTM tags are utm_source=Amir&utm_medium=Flux&utm_campaign=FluxPrompts.",
+  "quality_tier": "C",
+  "tier_reason": "agent_readiness is bot-blocked/auth-required and the record admits the page was never fetched, so an agent gets an empty x.com shell rather than any of the prompt content."
+ },
+ {
+  "id": "23afd6b2-370f-4807-b215-1fb758421737",
+  "slug": "boiling-animation-prompt-pack",
+  "url": "https://t.co/nlzJuKwBSM",
+  "name": "12 Boiling Animation Prompts",
+  "tagline": "Google Doc of 12 image prompts that animate into hand-drawn 'boiling' type",
+  "description": "A short t.co link that redirects to a public Google Doc titled '12 prompts for boiling animation (frame by frame)', released free by Amir Mushich. All twelve prompts are variations on one skeleton: the word 'Flux' set in Manrope Regular with tight kerning on pure white with monochrome dust, scratches and film grain, differing only in the hand-drawn mark laid over it — pencil underline, ballpoint oval, ink asterisks, red felt-tip strikethrough, marker double-rule, graphite scribble-out, nervous wavy line, editorial squiggle, stray ink dots. The stated workflow is: generate the stills in Flux.2 Max or Nano Banana Pro, then push them through LTX Studio to get the frame-by-frame jitter that animators call 'boiling'.",
+  "category": "agent-design-tooling",
+  "subcategory": "prompts-and-feedback",
+  "kinds": [
+   "prompt-pack",
+   "reference"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "article",
+    "download"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "prompts",
+    "images"
+   ],
+   "agent_readiness": [
+    "copy-prompt",
+    "copy-paste-ready"
+   ],
+   "maturity": "stable"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Reach for this when a brief asks for hand-drawn, sketchbook-annotated typography or 'boiling' line jitter over a wordmark — the reusable asset is the prompt skeleton, not the word 'Flux': keep 'centered perfectly in <font> Regular with tight kerning' plus 'pure white background with monochrome dust, scratches and fine film grain, no color tint', then swap only the annotation clause. Generate 4-8 near-identical stills from the same prompt and cycle them at 8-12fps to get the boil; a single still gives you nothing. Note the doc is a Google Doc behind a t.co redirect — fetch the /export?format=txt endpoint, because the /edit URL returns only the Docs chrome.",
+  "why_it_matters": "A compact, honest recipe for one specific and much-wanted look — analogue frame-by-frame boil — with the exact typographic and grain vocabulary that makes it land.",
+  "notable_for": [
+   "12 variants on one prompt skeleton",
+   "Manrope + white + film-grain base",
+   "boil via LTX Studio",
+   "free, no email gate"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://t.co/nlzJuKwBSM (HEAD, 301 -> docs.google.com), https://docs.google.com/document/d/1qrJZZXuyL6famRxjsenfKzDwYbYkLDoMBr_uXGJV0Wg/edit, https://docs.google.com/document/d/1qrJZZXuyL6famRxjsenfKzDwYbYkLDoMBr_uXGJV0Wg/export?format=txt (full 4.8KB plain-text export read, all 12 prompts)",
+  "quality_tier": "B",
+  "tier_reason": "A verified but tiny 4.8KB Google Doc of twelve variants on a single prompt skeleton — real and copy-paste-ready, but it covers exactly one visual trick."
+ },
+ {
+  "id": "07056d13-9254-412b-a5f3-87d4683fd8a4",
+  "slug": "krea",
+  "url": "https://krea.ai",
+  "name": "Krea",
+  "tagline": "Multi-model image, video and 3D generation with a first-party MCP server and API",
+  "description": "Krea is a hosted generative media suite that puts its own Krea 2 model alongside third-party ones (Veo 3.1, Flux, Ideogram, Runway, Luma, Kling, Hailuo, Wan, Seedance 2.5, Nano Banana, Qwen, Topaz) behind one UI and one billing balance. It covers text-to-image, realtime canvas generation, text-to-video, motion transfer, text/image-to-3D, generative editing, background removal, lipsync, upscaling and frame interpolation to 120fps, plus image and video LoRA finetuning with shareable LoRAs. Critically for agent work it ships an official MCP server and a REST API with model IDs like image/krea/krea-2/medium and video/google/veo-3.1. Aimed at designers and studios who want one account instead of six model subscriptions.",
+  "category": "generative-media-tools",
+  "subcategory": "image-generation",
+  "kinds": [
+   "ai-tool",
+   "mcp-server",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary",
+    "commercial"
+   ],
+   "pricing": [
+    "freemium",
+    "subscription",
+    "usage-based",
+    "account-required"
+   ],
+   "distribution": [
+    "web-app",
+    "saas",
+    "public-api",
+    "mcp-server"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "images",
+    "video",
+    "3d"
+   ],
+   "agent_readiness": [
+    "mcp-server",
+    "public-api",
+    "llms-txt",
+    "structured-docs",
+    "auth-required"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "claude mcp add --transport http krea-ai https://api.krea.ai/mcp",
+  "package": null,
+  "docs_url": "https://www.krea.ai/docs/developers/mcp",
+  "repo_url": null,
+  "registry_url": "https://api.krea.ai/mcp",
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Free $0 (100 compute units/day); Basic $9/mo (5,000 CU); Pro $35/mo (20,000 CU); Max ~$105/mo (60,000 CU — third-party trackers list this tier as $70/40,000 CU, so verify before quoting); Business $200/mo (80,000 CU, up to 50 seats); Enterprise custom. All paid plans include a commercial licence and watermark-free output; consumer plans discount ~40% on annual billing.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Reach for Krea over a single-model API when the job needs several models in one pipeline — generate in Krea 2 or Flux, upscale with Topaz, then animate with Veo or Kling — because one balance covers all of them and the MCP hides the per-vendor auth. Connect it as MCP (no API key; OAuth in-client) and drive it with list_models -> get_model_schema -> generate -> get_job; use get_upload_url first when a reference image lives on disk. Watch out for compute-unit burn: video and LoRA training drain a month's Basic allowance fast, so gate generation behind an explicit user confirmation rather than looping on it.",
+  "why_it_matters": "It is the rare generative suite built for agents as a first-class client — a hosted MCP, a documented model registry and llms.txt — which makes it directly callable from a coding agent instead of screenshot-and-paste.",
+  "notable_for": [
+   "Krea 2 plus 60+ third-party models on one balance",
+   "official hosted MCP at api.krea.ai/mcp",
+   "realtime canvas generation",
+   "image and video LoRA finetuning",
+   "120fps interpolation and Topaz upscaling"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://www.krea.ai/ (homepage, full feature and pricing read), https://www.krea.ai/docs/developers/mcp (MCP URL, install command, tool list, model IDs). https://www.krea.ai/pricing failed with a header-overflow parse error; pricing cross-checked against the homepage read and public trackers, and the Max tier discrepancy is flagged in pricing_detail.",
+  "quality_tier": "A",
+  "tier_reason": "Official hosted MCP, public REST API with documented model IDs and llms.txt make it directly agent-callable, but it is proprietary, credit-metered, and its own pricing page could not be verified."
+ },
+ {
+  "id": "244b5dfd-978d-447e-9e12-2c72993ff9f2",
+  "slug": "hyperframes",
+  "url": "https://github.com/heygen-com/hyperframes",
+  "name": "HyperFrames",
+  "tagline": "Apache-2.0 framework that renders HTML compositions to deterministic MP4, built for agents",
+  "description": "HyperFrames is HeyGen's open-source video framework: a composition is a plain index.html with data attributes for timing, so it plays in a browser with no build step and renders frame-by-frame to MP4 through Puppeteer plus FFmpeg. Animation is adapter-based — bring GSAP, CSS animations, WAAPI, Lottie, Three.js or Anime.js — and rendering is deterministic, so the same input yields the same frames in CI. It ships as a monorepo of packages (@hyperframes/core, engine, producer, studio, player, sdk, shader-transitions, aws-lambda, gcp-cloud-run) plus a non-interactive CLI and a set of installable agent skills. The pitch is that agents already write HTML, so they can already write video.",
+  "category": "generative-media-tools",
+  "subcategory": "video-and-render",
+  "kinds": [
+   "tool",
+   "agent-skill",
+   "animation-library"
+  ],
+  "facets": {
+   "framework": [
+    "vanilla",
+    "web-components",
+    "react"
+   ],
+   "styling": [
+    "vanilla-css",
+    "css-variables",
+    "shader-glsl"
+   ],
+   "license": [
+    "apache-2.0"
+   ],
+   "pricing": [
+    "open-source",
+    "free",
+    "usage-based"
+   ],
+   "distribution": [
+    "github-repo",
+    "npm-package",
+    "cli",
+    "agent-skill",
+    "mcp-server"
+   ],
+   "platform": [
+    "cross-platform",
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code",
+    "video",
+    "prompts"
+   ],
+   "agent_readiness": [
+    "agent-skill",
+    "cli-installable",
+    "open-source-code",
+    "llms-txt",
+    "structured-docs",
+    "mcp-server"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "transition",
+   "animation",
+   "page-transition",
+   "scroll-reveal",
+   "parallax",
+   "scroll-driven-animation",
+   "typewriter-text",
+   "count-up",
+   "confetti",
+   "marquee",
+   "ripple",
+   "shimmer",
+   "glassmorphism",
+   "gradient-background",
+   "particle-background",
+   "custom-cursor",
+   "text-effect",
+   "hover-effect",
+   "gesture",
+   "code-block",
+   "diff-view",
+   "terminal",
+   "ticker",
+   "timeline",
+   "card",
+   "stat",
+   "badge",
+   "chip",
+   "avatar-group",
+   "comment",
+   "logo",
+   "rating",
+   "progress-bar",
+   "skeleton",
+   "spinner",
+   "toast",
+   "notification-center",
+   "confirmation-state",
+   "modal",
+   "sheet",
+   "context-menu",
+   "tabs",
+   "progress-stepper",
+   "switch",
+   "carousel",
+   "image-gallery",
+   "video-player",
+   "audio-player",
+   "device-frame",
+   "map",
+   "chart",
+   "bar-chart",
+   "line-chart",
+   "gauge-chart",
+   "choropleth",
+   "conversation",
+   "message",
+   "streaming-text",
+   "typing-indicator",
+   "prompt-input",
+   "agent-canvas",
+   "checkout",
+   "signup-form",
+   "onboarding-flow",
+   "review",
+   "trust-badges",
+   "grid",
+   "share-sheet"
+  ],
+  "component_count": 375,
+  "surfaces": [
+   "homepage",
+   "features",
+   "changelog",
+   "feature-announcement",
+   "press-media",
+   "blog-post"
+  ],
+  "templates": [
+   {
+    "name": "Product launch video",
+    "url": "https://hyperframes.heygen.com/guides/product-launch-video",
+    "purpose": "Turn a product URL or launch brief into a promo, product tour, or social video."
+   },
+   {
+    "name": "Faceless explainer",
+    "url": "https://hyperframes.heygen.com/guides/faceless-explainer",
+    "purpose": "Turn notes, an article, or a difficult idea into a visual explanation with no product footage."
+   },
+   {
+    "name": "PR-to-video",
+    "url": "https://hyperframes.heygen.com/guides/pr-to-video",
+    "purpose": "Turn a GitHub pull request into a video showing what changed and why it matters."
+   },
+   {
+    "name": "Captions and recuts",
+    "url": "https://hyperframes.heygen.com/guides/captions-and-recuts",
+    "purpose": "Add captions and designed overlays to talking-head footage, or change the spoken edit."
+   },
+   {
+    "name": "Motion graphic",
+    "url": "https://hyperframes.heygen.com/guides/motion-graphics",
+    "purpose": "Make a short motion-led title, statistic, chart, logo sting, or overlay."
+   },
+   {
+    "name": "Music-driven video",
+    "url": "https://hyperframes.heygen.com/guides/music-to-video",
+    "purpose": "Cut footage, images, lyrics, and motion to a track's beat grid."
+   },
+   {
+    "name": "Interactive presentation",
+    "url": "https://hyperframes.heygen.com/guides/slideshow",
+    "purpose": "Build a navigable deck with reveals, notes, branches, hotspots, and presenter mode."
+   },
+   {
+    "name": "Custom / general video",
+    "url": "https://hyperframes.heygen.com/guides/general-video",
+    "purpose": "Combine sources or co-direct a video when no focused workflow fits."
+   },
+   {
+    "name": "Bring a design into a project",
+    "url": "https://hyperframes.heygen.com/guides/design-tools",
+    "purpose": "Start from a Figma file or design draft; keep the look, rebuild only what has to move."
+   }
+  ],
+  "template_count": 9,
+  "install": "npx skills add heygen-com/hyperframes --full-depth",
+  "package": "hyperframes",
+  "docs_url": "https://hyperframes.heygen.com/introduction",
+  "repo_url": "https://github.com/heygen-com/hyperframes",
+  "registry_url": "https://hyperframes.heygen.com/llms.txt",
+  "github": {
+   "stars": 41065,
+   "license": "Apache-2.0",
+   "last_activity": "2026-08-15"
+  },
+  "pricing_detail": "Framework is Apache-2.0 with no per-render fee and no commercial-use threshold. Optional HeyGen cloud rendering (npx hyperframes cloud render) and the hosted MCP connector are paid HeyGen services; self-hosting via AWS Lambda or GCP Cloud Run costs only your own compute.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 515,
+   "blocks": 375
+  },
+  "agent_guidance": "Reach for this over Remotion when the renderer is an agent rather than a React developer — compositions are plain HTML with data attributes, so there is no JSX build step and no bundler to fight, and the CLI is non-interactive by default. Bootstrap with `npx skills add heygen-com/hyperframes --full-depth` (pick Core Skills), then let the `/hyperframes` router select a workflow; add domain skills one at a time with `--skill <name>` instead of `--all`, which floods the context window. Two real constraints: Node 22+ and a local FFmpeg are hard requirements, and determinism only holds if every animation is seekable — a bare CSS animation or an unseeded random will drift between preview and render, so use the GSAP adapter with a paused timeline.",
+  "why_it_matters": "It is the first serious video framework designed around an agent as the author, and at 41k stars in five months it has become the default answer to 'make me a video with code'.",
+  "notable_for": [
+   "HTML compositions, no build step",
+   "deterministic frame-by-frame MP4 render",
+   "20 installable agent skills with a router",
+   "375-item block catalog",
+   "Apache-2.0 with no per-render fee",
+   "GSAP / Lottie / Three.js adapters"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://github.com/heygen-com/hyperframes (README, packages, skills, CLI), https://api.github.com/repos/heygen-com/hyperframes (41,065 stars, Apache-2.0, pushed_at 2026-08-15, created 2026-03-10, not archived), https://hyperframes.heygen.com/llms.txt (515 doc pages, 375 catalog entries counted: 221 /catalog/components + 154 /catalog/blocks), https://hyperframes.heygen.com/quickstart.md, https://hyperframes.heygen.com/guides/skills.md",
+  "quality_tier": "S",
+  "tier_reason": "41,065 GitHub stars under Apache-2.0 with a verified 375-block catalog, an llms.txt registry, a non-interactive CLI and installable agent skills — the leading agent-authored video framework."
+ },
+ {
+  "id": "6d63a5d5-7517-41f2-be55-fe57d77e5fe4",
+  "slug": "hyperframes-docs",
+  "url": "https://hyperframes.heygen.com/introduction",
+  "name": "HyperFrames Docs & Catalog",
+  "tagline": "515-page HyperFrames manual with a 375-block motion catalog and an llms.txt index",
+  "description": "The official HyperFrames documentation site, and the reason to bookmark this separately from the repo: it exposes a complete llms.txt index of 515 pages, including a Catalog of 375 ready-made motion blocks and components with per-item markdown pages. The catalog spans caption styles, lower thirds, shader transitions, code and terminal animations, charts and maps, device and UI mocks, social-post cards, ambient backgrounds, liquid-glass effects, hand-drawn diagrams and composed flows such as checkout, signup and onboarding steppers. Alongside it sit a 30-page prompting guide, nine task workflows, Studio and SDK references, and rendering guides for CLI, cloud, AWS Lambda and GCP Cloud Run.",
+  "category": "generative-media-tools",
+  "subcategory": "video-and-render",
+  "kinds": [
+   "block-collection",
+   "design-system-docs",
+   "agent-skill"
+  ],
+  "facets": {
+   "framework": [
+    "vanilla",
+    "web-components",
+    "react"
+   ],
+   "styling": [
+    "vanilla-css",
+    "css-variables",
+    "shader-glsl"
+   ],
+   "license": [
+    "apache-2.0"
+   ],
+   "pricing": [
+    "open-source",
+    "free",
+    "usage-based"
+   ],
+   "distribution": [
+    "cli",
+    "npm-package",
+    "agent-skill",
+    "mcp-server",
+    "copy-paste"
+   ],
+   "platform": [
+    "cross-platform",
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code",
+    "video",
+    "prose",
+    "prompts"
+   ],
+   "agent_readiness": [
+    "llms-txt",
+    "structured-docs",
+    "agent-skill",
+    "cli-installable",
+    "copy-paste-ready",
+    "mcp-server"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "transition",
+   "animation",
+   "page-transition",
+   "scroll-reveal",
+   "parallax",
+   "scroll-driven-animation",
+   "typewriter-text",
+   "count-up",
+   "confetti",
+   "marquee",
+   "ripple",
+   "shimmer",
+   "glassmorphism",
+   "gradient-background",
+   "particle-background",
+   "custom-cursor",
+   "text-effect",
+   "hover-effect",
+   "gesture",
+   "code-block",
+   "diff-view",
+   "terminal",
+   "ticker",
+   "timeline",
+   "card",
+   "stat",
+   "badge",
+   "chip",
+   "avatar-group",
+   "comment",
+   "logo",
+   "rating",
+   "progress-bar",
+   "skeleton",
+   "spinner",
+   "toast",
+   "notification-center",
+   "confirmation-state",
+   "status-indicator",
+   "modal",
+   "sheet",
+   "context-menu",
+   "tabs",
+   "progress-stepper",
+   "switch",
+   "carousel",
+   "image-gallery",
+   "video-player",
+   "audio-player",
+   "device-frame",
+   "map",
+   "chart",
+   "bar-chart",
+   "line-chart",
+   "gauge-chart",
+   "choropleth",
+   "conversation",
+   "message",
+   "streaming-text",
+   "typing-indicator",
+   "prompt-input",
+   "agent-canvas",
+   "checkout",
+   "signup-form",
+   "onboarding-flow",
+   "review",
+   "trust-badges",
+   "grid",
+   "share-sheet",
+   "quote",
+   "heading",
+   "typography"
+  ],
+  "component_count": 375,
+  "surfaces": [
+   "homepage",
+   "features",
+   "changelog",
+   "feature-announcement",
+   "press-media",
+   "blog-post",
+   "api-documentation"
+  ],
+  "templates": [
+   {
+    "name": "Product launch video",
+    "url": "https://hyperframes.heygen.com/guides/product-launch-video",
+    "purpose": "Turn a product URL or launch brief into a promo, product tour, or social video."
+   },
+   {
+    "name": "Faceless explainer",
+    "url": "https://hyperframes.heygen.com/guides/faceless-explainer",
+    "purpose": "Turn notes, an article, or a difficult idea into a visual explanation with no product footage."
+   },
+   {
+    "name": "PR-to-video",
+    "url": "https://hyperframes.heygen.com/guides/pr-to-video",
+    "purpose": "Turn a GitHub pull request into a video showing what changed and why it matters."
+   },
+   {
+    "name": "Captions and recuts",
+    "url": "https://hyperframes.heygen.com/guides/captions-and-recuts",
+    "purpose": "Add captions and designed overlays to talking-head footage, or change the spoken edit."
+   },
+   {
+    "name": "Motion graphic",
+    "url": "https://hyperframes.heygen.com/guides/motion-graphics",
+    "purpose": "Make a short motion-led title, statistic, chart, logo sting, or overlay."
+   },
+   {
+    "name": "Music-driven video",
+    "url": "https://hyperframes.heygen.com/guides/music-to-video",
+    "purpose": "Cut footage, images, lyrics, and motion to a track's beat grid."
+   },
+   {
+    "name": "Interactive presentation",
+    "url": "https://hyperframes.heygen.com/guides/slideshow",
+    "purpose": "Build a navigable deck with reveals, notes, branches, hotspots, and presenter mode."
+   },
+   {
+    "name": "Custom / general video",
+    "url": "https://hyperframes.heygen.com/guides/general-video",
+    "purpose": "Combine sources or co-direct a video when no focused workflow fits."
+   },
+   {
+    "name": "Figma / design-tool import",
+    "url": "https://hyperframes.heygen.com/guides/design-tools",
+    "purpose": "Start from a Figma file or design draft; keep the look, rebuild only what has to move."
+   },
+   {
+    "name": "Create through an AI chat (hosted MCP)",
+    "url": "https://hyperframes.heygen.com/guides/mcp",
+    "purpose": "Use the hosted HyperFrames MCP connector to create and render with no local CLI install."
+   },
+   {
+    "name": "HyperFrames or Remotion?",
+    "url": "https://hyperframes.heygen.com/guides/hyperframes-vs-remotion",
+    "purpose": "Side-by-side of the same title card in Remotion React and HyperFrames HTML, with a fit judgement."
+   },
+   {
+    "name": "Porting from Remotion",
+    "url": "https://hyperframes.heygen.com/prompting/porting-from-remotion",
+    "purpose": "Migrate an existing Remotion composition into a HyperFrames project."
+   }
+  ],
+  "template_count": 12,
+  "install": "npx hyperframes init my-video",
+  "package": "hyperframes",
+  "docs_url": "https://hyperframes.heygen.com/introduction",
+  "repo_url": "https://github.com/heygen-com/hyperframes",
+  "registry_url": "https://hyperframes.heygen.com/llms.txt",
+  "github": {
+   "stars": 41065,
+   "license": "Apache-2.0",
+   "last_activity": "2026-08-15"
+  },
+  "pricing_detail": "Docs are free and open. The framework is Apache-2.0; the hosted MCP connector and HeyGen cloud rendering are paid HeyGen services.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 515,
+   "blocks": 375
+  },
+  "agent_guidance": "Do not crawl this site page by page — fetch https://hyperframes.heygen.com/llms.txt first, then request only the specific .md pages you need; every page has a .md twin, and the catalog pages carry the exact block name to put in a prompt. Name blocks explicitly ('use Pill Karaoke captions and a Flash Through White transition') instead of describing motion in prose, because the skills map named blocks to real settings while adjectives get guessed at. Note the .md paths are the reliable ones: several human-readable URLs like /agent-skills and /prompting/design-systems-and-brand 404, and any doc page fetched as HTML comes back wrapped in Mintlify React component source.",
+  "why_it_matters": "A 375-block motion catalog with a machine-readable index is the closest thing to a shadcn registry that exists for video, and it is the single richest source of named motion vocabulary an agent can cite.",
+  "notable_for": [
+   "llms.txt index of 515 doc pages",
+   "375 catalog blocks with .md pages each",
+   "57 named caption styles, 14 shader transitions",
+   "iOS 26 / macOS Tahoe liquid-glass blocks",
+   "SDK docs for programmatic composition editing",
+   "every page has a .md twin"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://hyperframes.heygen.com/introduction, https://hyperframes.heygen.com/llms.txt (raw file saved and counted: 515 '- [' entries, 221 /catalog/components/, 154 /catalog/blocks/), https://hyperframes.heygen.com/quickstart.md, https://hyperframes.heygen.com/guides/skills.md. Two guessed URLs 404'd and are recorded as such: /agent-skills and /prompting/design-systems-and-brand (the real path is /prompting/design-systems.md).",
+  "quality_tier": "A",
+  "tier_reason": "A verified 515-page llms.txt index with a .md twin per page is exceptionally agent-readable, but it documents the same project as the repo entry and several advertised doc paths 404."
+ },
+ {
+  "id": "9f0de221-4912-44e3-9125-8bf9341c99b2",
+  "slug": "higgsfield",
+  "url": "https://higgsfield.ai",
+  "name": "Higgsfield",
+  "tagline": "30+ image/video models behind one credit balance, callable via MCP, CLI and agent skills",
+  "description": "Higgsfield is a hosted generative media platform aimed at marketing and short-form video: image generation to 4K, video clips up to 15 seconds, audio, an EditLayers editor, Cinema Studio 4.0 for cinematic shots, a Marketing Studio with 1500+ presets, and Soul character training for consistent people across shots. It fronts 30+ models including Soul 2.0, Seedance 2.5 and 2.0, Kling 3, Veo, Flux, Seedream 5.0 Lite, Minimax Hailuo, GPT Image 2, Google Omni Flash and Nano Banana Pro. Its distinguishing move is the agent surface: a hosted MCP server at mcp.higgsfield.ai/mcp that needs no API key, a global npm CLI, and three installable skills (Generate, Soul, Product Photoshoot) that spend your existing plan credits from inside a coding agent.",
+  "category": "generative-media-tools",
+  "subcategory": "video-and-render",
+  "kinds": [
+   "ai-tool",
+   "mcp-server",
+   "agent-skill"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary",
+    "commercial"
+   ],
+   "pricing": [
+    "freemium",
+    "subscription",
+    "usage-based",
+    "account-required"
+   ],
+   "distribution": [
+    "web-app",
+    "saas",
+    "mcp-server",
+    "cli",
+    "agent-skill",
+    "mobile-app"
+   ],
+   "platform": [
+    "web",
+    "ios",
+    "android"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "images",
+    "video",
+    "audio",
+    "prompts"
+   ],
+   "agent_readiness": [
+    "mcp-server",
+    "cli-installable",
+    "agent-skill",
+    "auth-required"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npm i -g @higgsfield/cli && higgsfield auth login",
+  "package": "@higgsfield/cli",
+  "docs_url": "https://higgsfield.ai/mcp",
+  "repo_url": null,
+  "registry_url": "https://mcp.higgsfield.ai/mcp",
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Free tier ~150 credits/month. Paid tiers were renamed during 2026 from Basic/Pro/Ultimate/Creator to Starter (~$15/mo annual, ~200 credits), Plus (~$39/mo annual, ~1,000 credits, all models), Ultra (~$99/mo annual, ~3,000+ credits) and Business. Top-up credit packs run about $5 per 100 credits and reportedly expire after 90 days. Higgsfield has changed tier names, prices and the meaning of 'unlimited' several times in 2026 — treat any figure here as needing re-verification.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Connect this as an MCP connector (https://mcp.higgsfield.ai/mcp, OAuth sign-in, no API key) when you need generated stills or short clips inside a build — product shots, hero imagery, 15-second social cuts — and install the skills with `npx skills add higgsfield-ai/skills` so /higgsfield:generate, :soul and :product-photoshoot are addressable. Use Soul character training once and reuse the trained identity rather than re-prompting for consistency; it is a fixed credit cost and re-rolling is what burns a plan. Two cautions: pricing and tier names have churned repeatedly through 2026 so never hardcode a plan assumption, and the marketing site is a JS-heavy shell where /pricing returns no readable content to a fetcher — read /mcp and /cli instead.",
+  "why_it_matters": "Alongside Krea it is one of only two generative suites that treat a coding agent as a first-class client, with a free hosted MCP plus a CLI plus published skills rather than a locked web UI.",
+  "notable_for": [
+   "free hosted MCP, no API key",
+   "30+ models on one credit balance",
+   "Soul character consistency training",
+   "1500+ Marketing Studio presets",
+   "installable Claude Code skills",
+   "volatile pricing"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://higgsfield.ai/ (homepage feature list), https://higgsfield.ai/mcp (MCP URL, supported agents, model list), https://higgsfield.ai/cli (npm package and install command), https://higgsfield.ai/skills (three skills and install command). https://higgsfield.ai/pricing returned only nav chrome with no readable pricing; tier and credit figures come from third-party trackers via web search and are flagged as unverified in pricing_detail.",
+  "quality_tier": "A",
+  "tier_reason": "Free hosted MCP with no API key, a global CLI and three published skills over 30+ models, held below S by proprietary credit pricing that the record flags as repeatedly churned and unverifiable behind a JS-only pricing page."
+ }
+]

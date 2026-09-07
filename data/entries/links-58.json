@@ -1,0 +1,791 @@
+[
+ {
+  "id": "6f323ed7-f2ca-49ff-82a5-eb58a8776a3c",
+  "slug": "uiverse",
+  "url": "https://uiverse.io/",
+  "name": "Uiverse",
+  "tagline": "Community archive of ~4,400 MIT-licensed CSS and Tailwind UI snippets",
+  "description": "Uiverse is a community-submitted library of single-element UI snippets written in plain HTML with either vanilla CSS or Tailwind classes. Every element is MIT licensed and copied straight out of the browser; the categories are Buttons, Cards, Loaders, Toggle switches, Inputs, Forms, Checkboxes, Patterns, Radio buttons, Tooltips and Notifications. The open-source mirror lives in the uiverse-io/galaxy repo, where each element is one self-contained HTML file. It is for developers who want a decorative, animated one-off element rather than a coherent design system.",
+  "category": "component-libraries",
+  "subcategory": "cross-framework-and-native",
+  "kinds": [
+   "component-library",
+   "gallery",
+   "asset-pack"
+  ],
+  "facets": {
+   "framework": [
+    "vanilla",
+    "react",
+    "vue",
+    "svelte",
+    "angular"
+   ],
+   "styling": [
+    "vanilla-css",
+    "tailwind-any"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "copy-paste",
+    "github-repo",
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "known-gaps"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "copy-paste-ready",
+    "open-source-code",
+    "bot-blocked"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "button",
+   "card",
+   "spinner",
+   "switch",
+   "text-input",
+   "form",
+   "login-form",
+   "checkbox",
+   "radio-button",
+   "tooltip",
+   "toast"
+  ],
+  "component_count": 4449,
+  "surfaces": [
+   "login-web-app",
+   "sign-up",
+   "submitting-a-form",
+   "homepage"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/uiverse-io/galaxy",
+  "registry_url": null,
+  "github": {
+   "stars": 12073,
+   "license": "MIT",
+   "last_activity": "2024-09-02"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 4449,
+   "blocks": null
+  },
+  "agent_guidance": "Treat this as a snippet quarry, not a library: there is no package, no props API, no a11y contract, and quality swings wildly between authors, so lift one element (a loader, a fancy toggle, a gradient button) and rewrite it against your own tokens. uiverse.io itself returns 403 to crawlers and CLI fetchers, so pull code from the github.com/uiverse-io/galaxy mirror instead — one self-contained HTML file per element under Buttons/, Cards/, loaders/ and so on. Do not use it where keyboard, focus, or ARIA behaviour matters; pair it with shadcn/ui or Radix for anything interactive.",
+  "why_it_matters": "It is the largest open, MIT-licensed pool of pure-CSS UI elements on the web, and the one place to find an animated micro-detail nobody has written a React component for. Its weakness — no API, no accessibility — is exactly why it belongs in the index as a snippet source rather than a dependency.",
+  "notable_for": [
+   "4,449 MIT elements",
+   "2,006 buttons, 1,198 loaders",
+   "pure CSS + Tailwind, no framework",
+   "open-source Galaxy mirror on GitHub",
+   "blocks bot fetches (403)"
+  ],
+  "already_enriched": false,
+  "http_status": 403,
+  "verified_at": "2026-08-15",
+  "evidence": "https://uiverse.io/ (403 via WebFetch and curl, twice), https://uiverse.io/elements (403), GitHub API repos/uiverse-io/galaxy + full tree (per-category file counts), web search results exposing live page titles for /elements, /buttons, /loaders, /switches, /checkboxes, /inputs",
+  "quality_tier": "A",
+  "tier_reason": "4,449 verified MIT elements with a 12k-star open-source GitHub mirror make it the largest snippet pool of its kind, but no package, no props API and known a11y gaps keep it below S."
+ },
+ {
+  "id": "b4fed9b5-1499-4ffd-b52b-e6a0aed520f7",
+  "slug": "beautiful-ui",
+  "url": "https://www.beautifului.dev",
+  "name": "Beautiful UI",
+  "tagline": "20 MIT interaction patterns for agent UIs: thinking, streaming, approvals, diffs",
+  "description": "Beautiful UI is a single-page set of 19 interaction patterns for AI-native products, built by the product design studio Turbo (Shane Levine) and released under MIT. Each pattern is a live, interactive demo of a moment in a human-agent conversation — thinking traces, streamed answers with inline sources, human-in-the-loop approval cards, tool-call chips, agent task rows, retrieved context chunks, AI-proposed diff tables. It is closer to a reference implementation of AI UX than a packaged library: there is no CLI, no npm package, and no documented registry. The domain now redirects to beautifului.dev.",
+  "category": "ai-interface-kits",
+  "subcategory": "chat-and-agent-components",
+  "kinds": [
+   "component-library",
+   "block-collection",
+   "reference"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "tailwind-any"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "copy-paste",
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "copy-paste-ready",
+    "js-only-shell"
+   ],
+   "maturity": "stable"
+  },
+  "components": [
+   "spinner",
+   "reasoning",
+   "streaming-text",
+   "approval-request",
+   "tool-call",
+   "task",
+   "conversation",
+   "prompt-input",
+   "suggestion",
+   "sources",
+   "diff-proposal",
+   "table",
+   "data-grid",
+   "sidebar",
+   "command-palette",
+   "code-block",
+   "chart",
+   "message-actions",
+   "panel"
+  ],
+  "component_count": 20,
+  "surfaces": [
+   "ai-chat-panel",
+   "ai-action-approval",
+   "agent-run-history",
+   "chat-web-app",
+   "filtering-items",
+   "search-results",
+   "analytics"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": "MIT",
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": 19
+  },
+  "agent_guidance": "Reach for this when you are designing the *states* of an agent product — what a thinking trace, an approval request, or a proposed diff should look and feel like — and use Vercel AI Elements or HeroUI Pro's chat set when you need an installable dependency instead. There is no install command or public repo that I could verify, so plan to reimplement each pattern from the demo behaviour and its named parts (elapsed-time loader, expandable step traces, confidence meter, context chunks with source badges). The demo data is deliberately fictional (an ice-cream shop CRM), so do not copy its labels.",
+  "why_it_matters": "It names and shows the specific screens agent products keep getting wrong — approval, tool activity, retrieved context, proposed edits — with the taste of a design studio rather than a component dump. As a shape reference for AI UX it is worth more than most installable kits.",
+  "notable_for": [
+   "19 AI-native interaction patterns",
+   "human-in-the-loop approval card",
+   "AI-proposed diff table",
+   "MIT, by Turbo / Shane Levine",
+   "showcase page, no CLI or repo"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-29",
+  "evidence": "https://beautiful-ui-five.vercel.app/ (308 redirect), https://www.beautifului.dev/ (full DOM text, all 19 component names + anchors), https://www.beautifului.dev/license (MIT, Shane Levine), /registry.json and /llms.txt probed and both return the app shell, web search for a public repo. Re-checked 2026-08-29: the canonical URL is now https://www.beautifului.dev (200, 628 KB); the old beautiful-ui-five.vercel.app address still 308-redirects there, so this record now names the production domain. The set has grown from 19 patterns to 20 — the page numbers its sections 01 through 20 and adds a Fine-tune Card, a Recommendation Card, a Flowchart and a Filter Table since the last check. The footer still credits the product design studio Turbo.",
+  "quality_tier": "B",
+  "tier_reason": "Only 19 patterns, delivered as a js-only-shell showcase with no repo, npm package or registry, so every pattern must be reimplemented by hand.",
+  "domain": "beautifului.dev"
+ },
+ {
+  "id": "6742de89-b3f7-4164-bd42-8af81e6e44f0",
+  "slug": "heroui-pro",
+  "url": "https://heroui.pro",
+  "name": "HeroUI Pro",
+  "tagline": "Paid React + React Native components, 6 templates, MCP server and agent skills",
+  "description": "HeroUI Pro is the commercial layer on top of open-source HeroUI: 65 documented React (web) components and 47 React Native components, plus premium themes, Figma libraries and full-page templates. It covers the parts HeroUI OSS does not — DataGrid, Kanban, Agenda calendar, MapLibre map, KPI widgets, Recharts-based charts, a Tiptap rich text editor, command palette, and a full AI chat set (chain of thought, chat message, tool cards, prompt input, markdown/streaming). It targets React 19 + Tailwind CSS v4 and ships an authenticated CLI, two MCP servers, agent skills and llms.txt files. Currently in the 1.0.0-beta line.",
+  "category": "component-libraries",
+  "subcategory": "react-component-libraries",
+  "kinds": [
+   "component-library",
+   "template",
+   "design-system-docs"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next",
+    "react-native"
+   ],
+   "styling": [
+    "tailwind-v4",
+    "css-variables"
+   ],
+   "license": [
+    "commercial",
+    "proprietary"
+   ],
+   "pricing": [
+    "paid",
+    "one-time",
+    "account-required"
+   ],
+   "distribution": [
+    "npm-package",
+    "cli",
+    "mcp-server",
+    "agent-skill",
+    "figma-file",
+    "download"
+   ],
+   "platform": [
+    "web",
+    "ios",
+    "android",
+    "cross-platform"
+   ],
+   "accessibility": [
+    "built-on-accessible-primitives",
+    "aria-complete",
+    "keyboard-navigable",
+    "rtl-support",
+    "claimed-accessible"
+   ],
+   "content_type": [
+    "code",
+    "figma",
+    "design-tokens"
+   ],
+   "agent_readiness": [
+    "mcp-server",
+    "agent-skill",
+    "llms-txt",
+    "structured-docs",
+    "cli-installable",
+    "copy-prompt",
+    "auth-required",
+    "agent-paywalled"
+   ],
+   "maturity": "beta"
+  },
+  "components": [
+   "reasoning",
+   "attachments",
+   "conversation",
+   "chat-history",
+   "message",
+   "message-actions",
+   "sources",
+   "tool-call",
+   "code-block",
+   "prompt-input",
+   "suggestion",
+   "shimmer",
+   "skeleton",
+   "area-chart",
+   "bar-chart",
+   "line-chart",
+   "pie-chart",
+   "radar-chart",
+   "gauge-chart",
+   "chart-tooltip",
+   "rating",
+   "ripple",
+   "resizable",
+   "color-picker",
+   "select",
+   "slider",
+   "switch",
+   "checkbox-group",
+   "radio-group",
+   "file-upload",
+   "quantity-stepper",
+   "number-input",
+   "rich-text-editor",
+   "app-shell",
+   "command-palette",
+   "context-menu",
+   "navbar",
+   "sidebar",
+   "segmented-control",
+   "progress-stepper",
+   "emoji-picker",
+   "sheet",
+   "floating-action-bar",
+   "floating-action-button",
+   "calendar-view",
+   "calendar",
+   "date-picker",
+   "date-range-picker",
+   "time-picker",
+   "carousel",
+   "data-grid",
+   "empty-state",
+   "file-tree",
+   "in-page-navigation",
+   "hover-card",
+   "card",
+   "card-grid",
+   "kanban-board",
+   "stat",
+   "list",
+   "map",
+   "timeline",
+   "panel",
+   "badge",
+   "progress-bar",
+   "meter",
+   "autocomplete",
+   "combobox",
+   "split-view",
+   "toggle-group",
+   "toggle-button",
+   "social-login-buttons"
+  ],
+  "component_count": 112,
+  "surfaces": [
+   "analytics",
+   "ai-chat-panel",
+   "chat-web-app",
+   "kanban-board",
+   "timeline-gantt-view",
+   "settings-web-app",
+   "admin-panel",
+   "filtering-items",
+   "command-palette",
+   "map-view",
+   "notifications",
+   "single-item-detail",
+   "account-web-app"
+  ],
+  "templates": [
+   {
+    "name": "Dashboard",
+    "url": "https://heroui.pro/docs/react/templates",
+    "purpose": "React analytics dashboard with orders, tracker, settings and help pages"
+   },
+   {
+    "name": "Mail",
+    "url": "https://heroui.pro/docs/react/templates",
+    "purpose": "React email client with folders, message threads and compose views"
+   },
+   {
+    "name": "Chat",
+    "url": "https://heroui.pro/docs/react/templates",
+    "purpose": "React AI chat interface with conversations, library and exploration views"
+   },
+   {
+    "name": "Finances",
+    "url": "https://heroui.pro/docs/react/templates",
+    "purpose": "React finance dashboard with portfolio, spending and transaction views"
+   },
+   {
+    "name": "Crypto Wallet",
+    "url": "https://heroui.pro/docs/native/releases/template-crypto-wallet-1.0.0",
+    "purpose": "React Native mobile crypto wallet with portfolio, assets and transaction views"
+   },
+   {
+    "name": "Stride (Fitness App)",
+    "url": "https://heroui.pro/docs/native/releases/template-fitness-app-1.0.0",
+    "purpose": "React Native workout and activity app with activity rings, program library, in-session logging and a summary screen"
+   }
+  ],
+  "template_count": 6,
+  "install": "npx heroui-pro@latest login && npx heroui-pro@latest install",
+  "package": "@heroui-pro/react",
+  "docs_url": "https://heroui.pro/docs/react",
+  "repo_url": null,
+  "registry_url": "https://heroui.pro/llms.txt",
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "One-time purchase with a 1-year updates window and perpetual access to versions released in it; renewal optional. Team plans are seat-based with a 2-seat minimum and volume discounts above 25; Enterprise is custom (SSO, SLA, audit logs). The pricing page renders client-side and exposed no figures to a server-side fetch.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Reach for this over shadcn/ui when the project already sits on HeroUI v3 and needs the heavy pieces — DataGrid with virtualization and pinned columns, Kanban, Agenda calendar, MapLibre map, KPI widgets — or when the same product must ship a React Native twin from one design system. It is licensed and CLI-gated: `heroui-pro login` needs a GitHub account with a valid seat, so an agent without credentials can read the docs (llms.txt, MCP, agent skills, Copy Markdown on every page) but cannot install. Import order matters (tailwindcss, then @heroui/styles, then @heroui-pro/react/css), several components pull optional peers (maplibre-gl, @tiptap/*, recharts, shiki, embla), and the whole line is still 1.0.0-beta, so pin versions.",
+  "why_it_matters": "It is one of the few paid component vendors that builds for agents on purpose — llms.txt per platform, unified MCP servers, published agent skills and a design-taste guide — while covering web and native from one token system. That combination is rare enough to justify the license cost on a serious product.",
+  "notable_for": [
+   "65 React + 47 React Native Pro components",
+   "4 web + 2 native templates",
+   "two authenticated MCP servers and agent skills",
+   "React 19 + Tailwind v4, compound APIs",
+   "perpetual one-time license, 1 year of updates"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://heroui.pro (WebFetch), https://heroui.pro/llms.txt (full docs index, every component and release), https://heroui.pro/docs/react/templates, https://heroui.pro/docs/native/templates, https://heroui.pro/docs/react/getting-started/installation, https://heroui.pro/docs/react/getting-started/licensing, https://heroui.pro/pricing (JS shell, no figures)",
+  "quality_tier": "S",
+  "tier_reason": "112 documented web plus native components, 6 templates, an authenticated CLI, two MCP servers, agent skills and per-platform llms.txt make it the most agent-ready commercial component vendor in its niche."
+ },
+ {
+  "id": "5d4e0290-3312-4689-9c5f-47ebbe1db021",
+  "slug": "interior-dev",
+  "url": "https://www.interior.dev/",
+  "name": "interior.dev",
+  "tagline": "54 MIT micro-interaction components for React, installable as a shadcn registry",
+  "description": "interior.dev is a shadcn-compatible registry of 54 React components that fix the half-second after a click: interruptible springs, width reserved before a state change, and a reduced-motion path that still delivers the information. Each component is one file exporting a headless hook (useX) holding all behaviour plus a styled example you can replace, and the only dependency is motion. The set is organised by what the user is doing — Action Feedback, Input, Async, Notification, Overlay, Navigation, Scroll, Data, Gesture, Content — rather than by widget type. MIT, 609 stars, last pushed 2026-08-12.",
+  "category": "motion-interaction",
+  "subcategory": "micro-interactions-and-loaders",
+  "kinds": [
+   "registry",
+   "component-library",
+   "animation-library"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "tailwind-any"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "cli",
+    "copy-paste",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "keyboard-navigable",
+    "reduced-motion",
+    "focus-managed",
+    "claimed-accessible"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "registry-json",
+    "cli-installable",
+    "structured-docs",
+    "open-source-code",
+    "copy-paste-ready"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "copy-button",
+   "button",
+   "confirmation-state",
+   "ripple",
+   "icon",
+   "hover-effect",
+   "label",
+   "validation-message",
+   "password-strength-meter",
+   "otp-input",
+   "tag-input",
+   "search-input",
+   "skeleton",
+   "progress-bar",
+   "infinite-scroll",
+   "streaming-text",
+   "progress-stepper",
+   "status-indicator",
+   "banner",
+   "avatar-group",
+   "typing-indicator",
+   "modal",
+   "popover",
+   "tooltip",
+   "command-palette",
+   "drawer",
+   "context-menu",
+   "dropdown-menu",
+   "tabs",
+   "segmented-control",
+   "accordion",
+   "pagination",
+   "tree-view",
+   "sticky",
+   "in-page-navigation",
+   "carousel",
+   "table",
+   "filter-panel",
+   "count-up",
+   "survey",
+   "slider",
+   "gesture",
+   "drag-and-drop",
+   "lightbox",
+   "text-effect",
+   "marquee",
+   "image",
+   "collapsible"
+  ],
+  "component_count": 54,
+  "surfaces": [
+   "submitting-a-form",
+   "showing-input-error",
+   "saving-changes",
+   "multi-step-form",
+   "sign-up",
+   "verifying-account",
+   "search-results",
+   "feed",
+   "command-palette",
+   "in-app-notifications"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "npx shadcn@latest add https://www.interior.dev/r/poll-results.json",
+  "package": null,
+  "docs_url": "https://www.interior.dev/docs",
+  "repo_url": "https://github.com/ddoemonn/interior",
+  "registry_url": "https://www.interior.dev/r/registry.json",
+  "github": {
+   "stars": 609,
+   "license": "MIT",
+   "last_activity": "2026-08-12"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use this when the interaction quality of a specific moment matters — a submit button that must not resize, an OTP field, a reorderable list, a drawer that survives an interrupted drag — and keep shadcn/ui as the base layer, since interior installs into components/interior through the same shadcn CLI and only adds `motion`. Prefer the headless useX hook and drop the styled example when the project has its own design language; the behaviour, not the classes, is the value. Read /r/registry.json for the machine list of all 54 items and their categories, and note there is no npm package — every add copies source you then own.",
+  "why_it_matters": "Most animation libraries ship the animation and skip the three things that make it feel cheap: layout jump, non-interruptible springs, and ignoring prefers-reduced-motion. interior argues each component to the frame and ships that last twenty percent, which is exactly the part an agent-generated UI usually misses.",
+  "notable_for": [
+   "54 components in a shadcn registry",
+   "headless useX hook per component",
+   "interruptible springs, reserved widths",
+   "reduced-motion path preserves information",
+   "single dependency: motion"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://www.interior.dev/ (WebFetch), https://www.interior.dev/docs (10 section names), https://www.interior.dev/r/registry.json (all 54 items with categories), https://www.interior.dev/r/accordion.json, https://www.interior.dev/docs/poll-results (install command), GitHub API repos/ddoemonn/interior + tree + README",
+  "quality_tier": "A",
+  "tier_reason": "54 MIT components published as a machine-readable shadcn registry.json with a working `npx shadcn add` install and a push two days before verification, but it is a single-purpose micro-interaction set rather than a base library."
+ },
+ {
+  "id": "e8c1c4ed-64f8-454a-bd7d-c8ea33758c73",
+  "slug": "collect-ui",
+  "url": "https://collectui.com/",
+  "name": "Collect UI",
+  "tagline": "Daily UI archive of Dribbble shots, indexed by challenge such as sign-up or form",
+  "description": "Collect UI is a long-running inspiration gallery that collects Dribbble shots from the Daily UI archive and beyond, hand-picked and grouped by challenge — each one lives at /challenges/<slug> (sign-up, form, and the rest of the Daily UI list) and each shot at /designs/<category>-ui-design-inspiration/<id>. The current site is a SvelteKit single-page app: the category index, trending list, designer directory and shot counts all load client-side, so a server fetch returns an empty shell. Much of the visible page is now a sponsor network panel (Panda Network, Adobe, Framer) and a paid-listing pitch. Screenshots only; there is no code, no license, and no export.",
+  "category": "inspiration-galleries",
+  "subcategory": "single-element-galleries",
+  "kinds": [
+   "gallery",
+   "directory"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "not-applicable"
+   ],
+   "pricing": [
+    "free",
+    "account-required"
+   ],
+   "distribution": [
+    "gallery",
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "screenshots",
+    "images"
+   ],
+   "agent_readiness": [
+    "js-only-shell",
+    "image-only"
+   ],
+   "maturity": "stable"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "sign-up",
+   "feed"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Free to browse; sponsor listings are sold through the Panda Network ('Become a Sponsor', 48h approval).",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Do not try to scrape this: every listing renders client-side, /categories returns 'Loading categories...', and __data.json comes back empty, so an agent gets nothing without a headless browser. Send a human here when they want visual references for one screen type (the URL /challenges/<slug> is guessable — sign-up, form), and prefer Mobbin or recent.design when you need real product screens rather than Dribbble concept art. Nothing here converts to code, and the shots are aspirational rather than shippable.",
+  "why_it_matters": "It is the canonical archive of the Daily UI challenge era and still the fastest way to see fifty takes on one screen, but it is concept art indexed for humans, and the site has drifted toward a sponsor-listing network. It earns a place as a mood-board source, not a build source.",
+  "notable_for": [
+   "Daily UI archive organised by challenge",
+   "Dribbble shots, hand-picked",
+   "SPA — content invisible to fetchers",
+   "sponsor/backlink network panel",
+   "no code or license"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://collectui.com/ (WebFetch + curl DOM), https://collectui.com/categories (WebFetch: 'Loading categories...'), https://collectui.com/challenges (404), https://collectui.com/challenges/sign-up (200, shell only), https://collectui.com/categories/__data.json (empty nodes), SvelteKit chunk inspection for the /designs/<category>-ui-design-inspiration/<id> route",
+  "quality_tier": "C",
+  "tier_reason": "js-only-shell where /categories returns 'Loading categories...' and __data.json is empty, so an agent recovers nothing, and the page has drifted into a sponsor-listing network over aging Dribbble concept art."
+ },
+ {
+  "id": "cb3a7d28-c333-4a33-ab8f-585ad26d45d2",
+  "slug": "recent-design-recent",
+  "url": "https://recent.design/",
+  "name": "Recent",
+  "tagline": "Daily curation of design, websites, OG images, app icons, tools, agent skills and jobs",
+  "description": "Recent is a daily curated index split into eight browsable sections: Design (All, Web, Interface, Branding, Product, Typography, Motion, Illustration, 3D, Editorial, Print, Packaging), Websites (All, AI, Agency, Portfolio, SaaS, Ecommerce, Startup, Product, Technology, Finance, Food & Drink, Music, Art, Photography, Architecture, Health, Education, Entertainment, Web3, Crypto, Editorial, Personal), OG Images, App Store Screenshots, App Icons (grouped by App Store category), Tools, Skills and Jobs. The Skills section is a directory of installable design agent skills with install counts — anthropics/canvas-design, pbakaus/quieter, distill, critique, polish, vercel-labs/web-design-guidelines, emilkowalski/prototype, ibelick/ui-skills and more. Tools carries negotiated deals (Framer, Mobbin, beehiiv, Cal.com), and Jobs lists design and design-engineering roles with salary bands. Around 4,490 subscribers at time of check.",
+  "category": "inspiration-galleries",
+  "subcategory": "directories-and-meta-indexes",
+  "kinds": [
+   "gallery",
+   "directory"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "not-applicable"
+   ],
+   "pricing": [
+    "free",
+    "account-required"
+   ],
+   "distribution": [
+    "gallery",
+    "web-app"
+   ],
+   "platform": [
+    "web",
+    "ios"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "screenshots",
+    "images",
+    "video"
+   ],
+   "agent_readiness": [
+    "structured-docs",
+    "machine-index",
+    "image-only"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "homepage"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Free to browse, free signup for the daily newsletter; sponsorship via /sponsor and job posts at $149.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use this as the visual brief stage — pull a direction from /websites filtered to the right vertical (SaaS, AI, Agency), or from /og-images and /app-icons when the deliverable is a single asset rather than a page. Its section pages are server-rendered, so category names and job listings are readable without a browser, but the media grid itself is lazy-loaded and thumbnails will not come through a plain fetch. The /skills directory is the sleeper feature: it indexes installable design agent skills by install count, so check it before writing your own critique or polish prompt.",
+  "why_it_matters": "It is one of the few inspiration galleries that also indexes the working layer — tools, deals, agent skills, and paid design roles — instead of only screenshots, and the curation stays tight and current. The agent-skills directory alone makes it useful to a coding agent, not just to a designer.",
+  "notable_for": [
+   "8 sections: design, websites, OG images, app screenshots, app icons, tools, skills, jobs",
+   "22 website verticals, 11 design categories",
+   "directory of installable design agent skills",
+   "server-rendered category and job pages",
+   "daily curation, ~4,490 subscribers"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://recent.design/ (403 to WebFetch, 200 via curl — full DOM), https://recent.design/websites, /og-images, /app-icons, /tools, /skills, /jobs (all 200, category names read verbatim), /app-screenshots and /resources 404 (real paths are /app-store-screenshots and /tools)",
+  "quality_tier": "A",
+  "tier_reason": "Server-rendered category and job pages plus a directory of installable design agent skills indexed by install count give it machine-readable value that ordinary screenshot galleries lack."
+ }
+]

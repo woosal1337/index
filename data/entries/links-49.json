@@ -1,0 +1,530 @@
+[
+ {
+  "id": "3dc8d904-819f-4ef7-955b-fa8ed1f85c4c",
+  "slug": "parameter-security-site",
+  "url": "http://hex.co",
+  "name": "Parameter (formerly Hex Security)",
+  "tagline": "Dark-mode security SaaS marketing site; the saved hex.co URL now 301s to parameter.ai",
+  "description": "The saved link hex.co is a permanent 301 redirect to parameter.ai — the company rebranded from Hex Security to Parameter. The product is a Y Combinator-backed continuous security testing platform: autonomous agents that pentest web apps, APIs and cloud infrastructure, plus a PR-time code reviewer called Sentinel, dependency scanning and secrets detection. In this index its value is as a design reference, not a design resource: a dark, gradient-accented SaaS marketing page with an Old Way / Parameter Way comparison block, a three-step how-it-works, an in-product findings dashboard showcase, and a Fortune 500 logo wall. The originally captured hex.co page was built in Framer (its og:image and favicon are served from framerusercontent.com).",
+  "category": "utilities-naming",
+  "subcategory": "apps-and-references",
+  "kinds": [
+   "service",
+   "app",
+   "reference"
+  ],
+  "facets": {
+   "framework": [
+    "framer"
+   ],
+   "styling": [
+    "unknown"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "saas",
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "prose"
+   ],
+   "agent_readiness": [
+    "none"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "features",
+   "security",
+   "blog",
+   "about",
+   "careers"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Do not treat this as a reusable design resource — it ships no code, tokens or assets, and the saved hex.co URL is a dead brand that redirects to parameter.ai. Reach for it only as a visual reference when a user asks for a dark, high-trust security or infra SaaS homepage: the useful patterns are the Old Way / New Way two-column comparison, the metric strip (<1% false positives, 24/7 coverage), and the in-product findings-card showcase. If you cite it, cite parameter.ai, not hex.co.",
+  "why_it_matters": "It documents a rebrand that broke a saved URL, and it is a clean specimen of the current dark security-SaaS marketing template. Its index value is cautionary and referential, not constructive.",
+  "quality_tier": "C",
+  "notable_for": [
+   "hex.co 301s to parameter.ai — brand renamed",
+   "originally built in Framer",
+   "Old Way vs Parameter Way comparison block",
+   "in-product findings dashboard as hero proof",
+   "no pricing on the homepage, book-a-call CTA only"
+  ],
+  "already_enriched": false,
+  "http_status": 301,
+  "verified_at": "2026-08-15",
+  "evidence": "https://hex.co (301 Moved Permanently -> https://www.parameter.ai/?from=hex), https://www.parameter.ai/?from=hex"
+ },
+ {
+  "id": "281ddce9-8e9d-4119-90fb-6effbc8cd8d2",
+  "slug": "best-designs-on-x",
+  "url": "https://bestdesignsonx.com",
+  "name": "Best Designs on X",
+  "tagline": "Hourly-refreshed index of design work across X, Dribbble, Behance, Instagram and more",
+  "description": "A meta-index that pulls design work from several sources into one browsable feed, refreshed hourly. It is far broader than its name suggests: the app ships twelve top-level sections — Best Designs, Websites, OG Images, App Icons, Design Studios, Dribbble, Behance, Instagram, Fonts, Skills, Design Systems and DESIGN.md. Each section carries its own filter vocabulary (Websites filters by AI, SaaS, Agency, Portfolio, E-commerce, Developer Tools, Finance, Health, Crypto, Consumer; Dribbble by UI/UX, Mobile, Web Design, Dashboard, Branding, Illustration, Animation, 3D, Typography; Design Studios by discipline and by roughly 55 countries). It is a client-rendered Vite SPA over Supabase with no public API and no server-rendered content.",
+  "category": "inspiration-galleries",
+  "subcategory": "directories-and-meta-indexes",
+  "kinds": [
+   "directory",
+   "gallery",
+   "reference"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "gallery",
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "screenshots",
+    "images",
+    "fonts",
+    "profile",
+    "prose"
+   ],
+   "agent_readiness": [
+    "js-only-shell"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Send a human here, not a fetch — the page is an empty <div id=\"app\"> and WebFetch returns only the title, so any 'summary' of its contents that is not read out of the JS bundle is invented. Its differentiator over Dribbble or Land-book is breadth of surface type: OG Images and App Icons are hard to find indexed anywhere else, and the Skills / Design Systems / DESIGN.md sections index agent-facing artifacts, which makes it the closest public analogue to this index. Use it to source candidate entries; do not use it as a citable fact source.",
+  "why_it_matters": "Very few galleries index OG images, app icons and agent-facing artifacts like DESIGN.md files side by side with visual inspiration. It is a useful discovery surface for curation, and a direct point of comparison for what this index is trying to be.",
+  "quality_tier": "A",
+  "notable_for": [
+   "twelve sections including Skills, Design Systems and DESIGN.md",
+   "OG Images and App Icons galleries — rarely indexed elsewhere",
+   "Design Studios directory filterable by ~55 countries",
+   "updated hourly from X",
+   "JS-only shell — no SSR, no public API"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-30",
+  "evidence": "https://bestdesignsonx.com (WebFetch, returned title only), https://bestdesignsonx.com/ (raw curl, 200, 2.7 KB Vite shell), https://bestdesignsonx.com/assets/index-fz1fDSwu.js (747 KB bundle — section list, category labels and Supabase backend read from source). Re-checked 2026-08-30: still at the same URL, still a 2,730-byte Vite shell, unchanged in size. /llms.txt, /sitemap.xml and /robots.txt each answer 200, but all three return that same shell byte for byte, and so does a nonsense path such as /zzz-not-a-page, so the server has a catch-all route and none of the three files exists. Do not record an llms.txt for this site on the strength of a 200."
+ },
+ {
+  "id": "2e6b0992-e11f-43eb-a4c6-649f90c2d27d",
+  "slug": "us-army-brand-guidelines-2023",
+  "url": "https://deck.gallery/u-s-army-2023",
+  "name": "U.S. Army Brand Guidelines 2023",
+  "tagline": "139-slide enterprise identity manual: G.I. typeface, exposed grid, motion and data-viz",
+  "description": "The U.S. Army Brand Guidelines v1.0, published March 2023, mirrored free-to-read on Deck.gallery as 139 individually linkable slide images. It runs the full enterprise stack: brand strategy and positioning pillars, the Clear / Confident / Human identity principles, logo lockups, the Army Black / Gold / Green palette with secondary and highlight ramps, the custom G.I. typeface family, photography themes, a composition grid framework with an exposed-grid device, a motion toolkit with logo animations and video transitions, a categorised icon library, two distinct data-visualisation modes (Reporting and Expressive), the Be All You Can Be tagline assets, family-of-brands hierarchy, and a verbal identity framework. It closes with WCAG / Section 508 contrast tables and an implementation gallery covering social, email, apps and business collateral.",
+  "category": "design-systems-brand",
+  "subcategory": "brand-guideline-archives",
+  "kinds": [
+   "brand-guidelines",
+   "reference"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "trademark-restricted"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "gallery"
+   ],
+   "platform": [
+    "web",
+    "print"
+   ],
+   "accessibility": [
+    "wcag-aa",
+    "contrast-checked"
+   ],
+   "content_type": [
+    "images",
+    "prose"
+   ],
+   "agent_readiness": [
+    "image-only"
+   ],
+   "maturity": "stable"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 139,
+   "blocks": null
+  },
+  "agent_guidance": "Reach for this when you need to see what a complete identity system looks like at institutional scale — it is one of very few public guidelines that covers motion, iconography, data visualisation and accessibility contrast tables in the same document, so it is a strong checklist when you are auditing a client system for gaps. Every slide is an image, so you cannot extract hex values or token names programmatically; read the specific slide URL (deck.gallery/u-s-army-2023/slide/N-slug/) with vision, and never fabricate the Army palette values. The G.I. typeface is not licensable outside the Army, so treat the type system as structural reference only.",
+  "why_it_matters": "It is the rare public brand manual that treats data visualisation and WCAG contrast as first-class chapters rather than appendices, which makes it a better structural template than most SaaS brand guides.",
+  "quality_tier": "S",
+  "notable_for": [
+   "139 slides, each individually addressable",
+   "separate Reporting and Expressive data-viz modes",
+   "motion toolkit with logo animations and transitions",
+   "WCAG / Section 508 contrast tables included",
+   "custom G.I. typeface family"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://deck.gallery/u-s-army-2023 (fetched twice — section outline, slide count, per-slide URL pattern, free-access flag), https://deck.gallery (parent site: ~180 decks, categories Report/Guideline/Sales/Portfolio/Pitch/Talks/Strategy/Marketing/Marketplace/Other)"
+ },
+ {
+  "id": "ea957478-7f4e-4697-944b-8b1c17715b74",
+  "slug": "wild-craft-engineered",
+  "url": "https://craft.wild.as/",
+  "name": "Wild — Craft, Engineered",
+  "tagline": "Vienna studio's scroll manifesto on where human judgment sits in AI design work",
+  "description": "A single long-scroll manifesto and portfolio page from Wild, a Vienna design and technology studio. It argues a 'last 10 percent' thesis — that AI covers the bulk of a job and human judgment carries the finish — and lays out a four-stage Explore / Generate / Refine / Scale workflow, an AI adoption ladder from L1 (chats) through L3 (workflows, human review) to L5 (autonomous agents), and a Brand Context Protocol: 'a single source that holds the voice, the design and the rules, written so a person and an AI can both use it.' Client work shown includes Replit, Serve Robotics, Unstructured, Ouster, IBM, The Ordinary, Montefiore Einstein, Tersa and Nutrafol. Services span web and app design, brand strategy, 3D and design systems, plus AI-readiness consulting and workshops.",
+  "category": "studios-portfolios",
+  "subcategory": "product-and-web-studios",
+  "kinds": [
+   "studio",
+   "article",
+   "portfolio"
+  ],
+  "facets": {
+   "framework": [
+    "unknown"
+   ],
+   "styling": [
+    "unknown"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "article"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "prose",
+    "screenshots"
+   ],
+   "agent_readiness": [
+    "none"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "about"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "The reason to cite this page is the Brand Context Protocol framing, not the portfolio: it is the cleanest public articulation of the artifact this whole index assumes exists — one brand source of truth written to be read by both a human and a model. Use it as prior art when a user asks you to write their DESIGN.md, brand context file or style spec, and pair the L1/L3/L5 ladder with a concrete recommendation about which rung their team is actually on. Do not treat the protocol as a downloadable spec — it is client work Wild produces, not an open standard, and the page publishes no schema.",
+  "why_it_matters": "It names and argues for the machine-readable brand document as a deliverable, from a studio with real client work behind the claim, rather than as an AI-hype talking point.",
+  "quality_tier": "A",
+  "notable_for": [
+   "Brand Context Protocol — one brand source for humans and models",
+   "'the last 10 percent' thesis on human judgment",
+   "L1 chats / L3 workflows / L5 agents adoption ladder",
+   "clients include Replit, IBM, Ouster, Serve Robotics",
+   "Wiener Werkstätte lineage as the studio's framing"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://craft.wild.as/ (fetched twice — page sections, services, client list, verbatim Brand Context Protocol and AI-adoption-ladder quotes; confirmed single-scroll, no byline or publish date)"
+ },
+ {
+  "id": "61c6205c-57a4-45b5-bea5-82c468b55f72",
+  "slug": "zapier-brand-guide-2022",
+  "url": "https://deck.gallery/zapier-brand-guide-2022",
+  "name": "Zapier Brand Guide 2022",
+  "tagline": "60-slide SaaS brand guide with a verbal identity: persona, tone spectrum, headline bank",
+  "description": "Zapier's 2022 internal brand guide, 60 slides, mirrored free-to-read on Deck.gallery for product and marketing teams. The first half is verbal: belief, mission, values, a 'Wise Mentor' brand persona, a voice and tone spectrum, a headline bank, and the 'Set your work in motion' tagline. The second half is visual — logo construction, safety spacing and contrast rules, then three named pillars of typography, colour and photography. Type is Degular as the lead face, GT Alpina for serif, Inter for UI and body; colour centres on Zap Orange with secondary and supportive ramps; photography runs two named series, 'The People Behind The Screens' and 'Automation Heroes'.",
+  "category": "design-systems-brand",
+  "subcategory": "brand-guideline-archives",
+  "kinds": [
+   "brand-guidelines",
+   "reference"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "trademark-restricted"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "gallery"
+   ],
+   "platform": [
+    "web",
+    "print"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "images",
+    "prose"
+   ],
+   "agent_readiness": [
+    "image-only"
+   ],
+   "maturity": "stable"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 60,
+   "blocks": null
+  },
+  "agent_guidance": "Reach for this over the U.S. Army guide when the job is a SaaS or product brand and the missing piece is voice, not visual system — the persona, tone spectrum and headline bank are the parts worth copying structurally, and at 60 slides it is short enough to read end to end. Pair it with a heavier system doc for grid, motion and accessibility, which this guide does not cover. Two cautions: it is a 2022 document and Zapier's live brand has moved since, and the slides are images, so read specific slide URLs with vision rather than claiming hex values you have not seen.",
+  "why_it_matters": "Most public brand guides are logo-and-colour PDFs; this one gives equal weight to a written voice system, which is the half agents most often have to invent from nothing.",
+  "quality_tier": "A",
+  "notable_for": [
+   "'Wise Mentor' brand persona and tone spectrum",
+   "headline bank as a shipped artifact",
+   "Degular / GT Alpina / Inter type stack",
+   "named photography series with casting direction",
+   "60 slides — readable in one sitting"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://deck.gallery/zapier-brand-guide-2022 (slide count, section outline, type and colour names, free-access flag), https://deck.gallery (parent site context)"
+ },
+ {
+  "id": "18c3057d-f993-4640-a11d-1d869bdf2063",
+  "slug": "memrynote",
+  "url": "http://memrynote.com",
+  "name": "MemryNote",
+  "tagline": "Local-first, end-to-end encrypted notes, tasks, journal and calendar in one desktop app",
+  "description": "An open-source (AGPL-3.0) desktop app that merges notes, tasks, journal, calendar and an inbox into a single local-first workspace, built by a solo founder who was 'tired of my life being split across four apps that all wanted my data.' Notes are a block editor over markdown on disk with backlinks and properties; tasks sync via CRDT and render as kanban; the inbox captures links and files with optional AI clustering; an optional Claude-backed agent runs against a localhost server. Ships for macOS, Windows and Linux with a CLI and a web clipper; iOS and Android are listed as coming. In this index it earns its place mainly as a landing-page reference — a calm, illustration-led local-first product page with feature cards, screenshot galleries, an Obsidian/Notion comparison block and persona sections.",
+  "category": "utilities-naming",
+  "subcategory": "apps-and-references",
+  "kinds": [
+   "app",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "unknown"
+   ],
+   "styling": [
+    "unknown"
+   ],
+   "license": [
+    "agpl"
+   ],
+   "pricing": [
+    "freemium",
+    "open-source",
+    "subscription",
+    "one-time"
+   ],
+   "distribution": [
+    "desktop-app",
+    "download",
+    "github-repo",
+    "cli",
+    "browser-extension"
+   ],
+   "platform": [
+    "macos",
+    "windows",
+    "linux",
+    "desktop"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code",
+    "prose"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "cli-installable"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "features",
+   "pricing-website",
+   "changelog"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "brew install --cask memrynote/tap/memry",
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/memrynote/memry",
+  "registry_url": null,
+  "github": {
+   "stars": 59,
+   "license": "AGPL-3.0",
+   "last_activity": null
+  },
+  "pricing_detail": "Free $0 forever (local only, no account). Plus $4/mo or $48/yr — 1 GB encrypted sync, 1 vault, 5 MB files, 30-day history. Pro $8/mo or $96/yr — 10 GB, 10 vaults, 200 MB files, 365-day history. Believer $500 one-time lifetime — 50 GB, unlimited vaults, limited slots.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "This ships no reusable UI — do not pull components from it. Its use to you is twofold: as a layout reference when a user wants a calm, local-first indie-app landing page (the honest-founder hero, the Obsidian/Notion comparison table, the persona grid including an explicit ADHD segment, and a four-tier ladder ending in a $500 lifetime 'Believer' plan), and as a readable AGPL codebase if a user is building a local-first notes app and wants to see markdown-on-disk plus CRDT task sync in practice. Note the AGPL — copying its code into a hosted product carries obligations most users do not want.",
+  "why_it_matters": "A well-executed specimen of the indie local-first product page, including the pricing-ladder pattern that ends in a lifetime tier — a structure agents are frequently asked to reproduce and rarely shown a good example of.",
+  "quality_tier": "B",
+  "notable_for": [
+   "notes, tasks, journal, calendar and inbox in one local-first app",
+   "markdown on disk with backlinks; CRDT task sync",
+   "AGPL-3.0, 59 stars, ~3,600 commits",
+   "four-tier pricing ending in a $500 lifetime 'Believer' plan",
+   "landing page names ADHD users as an explicit persona"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://memrynote.com (product, features, platforms, landing-page structure), https://memrynote.com/pricing (all four tiers and exact prices), https://github.com/memrynote/memry (stars, AGPL-3.0 license, TypeScript, brew cask install command)"
+ }
+]

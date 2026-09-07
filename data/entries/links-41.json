@@ -1,0 +1,1168 @@
+[
+ {
+  "id": "6d35a9da-440d-48a7-8d52-71e87577224f",
+  "slug": "react-bits",
+  "url": "https://reactbits.dev",
+  "name": "React Bits",
+  "tagline": "234 copy-paste animated React components: text effects, cursors, WebGL backgrounds",
+  "description": "React Bits is an open-source catalog of 234 animated React components split into four buckets: Text Animations (32), Animations (37 cursor/hover/reveal effects), Components (44 cards, galleries, menus, docks) and Backgrounds (53 WebGL and canvas scenes). Every component ships in four variants — JS or TS, plain CSS or Tailwind — and installs through the shadcn or jsrepo CLI. It is aimed at marketing sites, hero sections and portfolio pages rather than at application UI, and official Vue and Svelte ports exist.",
+  "category": "motion-interaction",
+  "subcategory": "animated-components",
+  "kinds": [
+   "animation-library",
+   "component-library",
+   "registry"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next",
+    "vue",
+    "svelte"
+   ],
+   "styling": [
+    "tailwind-v4",
+    "tailwind-any",
+    "vanilla-css",
+    "shader-glsl"
+   ],
+   "license": [
+    "mit",
+    "source-available"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "cli",
+    "copy-paste",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "reduced-motion",
+    "known-gaps"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "registry-json",
+    "cli-installable",
+    "llms-txt",
+    "copy-paste-ready",
+    "open-source-code",
+    "js-only-shell"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "text-effect",
+   "typewriter-text",
+   "count-up",
+   "scroll-reveal",
+   "scroll-driven-animation",
+   "marquee",
+   "custom-cursor",
+   "hover-effect",
+   "particle-background",
+   "gradient-background",
+   "glassmorphism",
+   "transition",
+   "animation",
+   "shimmer",
+   "ripple",
+   "dock",
+   "carousel",
+   "masonry",
+   "card",
+   "card-grid",
+   "bento-grid",
+   "image-gallery",
+   "navigation-menu",
+   "navbar",
+   "sidebar",
+   "progress-stepper",
+   "slider",
+   "model-viewer",
+   "stack",
+   "list",
+   "button",
+   "text-input",
+   "icon"
+  ],
+  "component_count": 234,
+  "surfaces": [
+   "homepage",
+   "features",
+   "waitlist",
+   "pricing-website",
+   "public-profile",
+   "splash-screen"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "npx shadcn@latest add https://reactbits.dev/r/BlurText-TS-TW",
+  "package": null,
+  "docs_url": "https://reactbits.dev/llms.txt",
+  "repo_url": "https://github.com/DavidHDev/react-bits",
+  "registry_url": "https://reactbits.dev/r/registry.json",
+  "github": {
+   "stars": 45554,
+   "license": "MIT + Commons Clause",
+   "last_activity": "2026-08-15"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": 234
+  },
+  "agent_guidance": "Reach for React Bits when the brief is a hero, a landing page or a portfolio and the ask is visual impact — not when you need form controls or a11y-correct app UI, which it does not ship. Install by exact variant slug (`<Component>-<JS|TS>-<CSS|TW>`) so the code matches the host project's language and styling; the shadcn registry.json only exposes ~62 of the 234, so read https://reactbits.dev/llms.txt to resolve names before installing. Many Backgrounds components are WebGL/three.js scenes that will dominate the bundle and drain battery — cap them at one per page and pair with a reduced-motion fallback.",
+  "why_it_matters": "It is the largest single source of drop-in web-motion components for React, and the four-variant JS/TS × CSS/Tailwind matrix means an agent can install into almost any codebase without rewriting.",
+  "notable_for": [
+   "234 components in four categories",
+   "JS/TS × CSS/Tailwind variant matrix",
+   "53 WebGL and canvas backgrounds",
+   "official Vue and Svelte ports",
+   "MIT + Commons Clause, not plain MIT"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://reactbits.dev (JS shell, no content), https://reactbits.dev/llms.txt (full component index), https://reactbits.dev/r/registry.json (248 registry items = 62 components x 4 variants), https://github.com/DavidHDev/react-bits, GitHub API repo metadata",
+  "quality_tier": "S",
+  "tier_reason": "234 verified components at 45.5k stars with a shadcn/jsrepo install path, an llms.txt index, a registry.json and a JS/TS x CSS/Tailwind variant matrix makes it the deepest drop-in motion library an agent can install anywhere."
+ },
+ {
+  "id": "65567ffd-09fb-4c17-994b-dcc7918c4642",
+  "slug": "magic-ui",
+  "url": "https://magicui.design",
+  "name": "Magic UI",
+  "tagline": "150+ animated shadcn-compatible React components for landing pages",
+  "description": "Magic UI is an MIT-licensed library of animated React components built on React, TypeScript, Tailwind CSS and Motion, installed through the same shadcn CLI flow as shadcn/ui. The free set covers marquees, terminals, bento grids, docks, device mocks, 18 text animations, 11 backgrounds and a large community section. A paid tier, Magic UI Pro, adds 50+ landing-page sections and 9 full Next.js templates. It is explicitly positioned as a companion to shadcn/ui, which supplies the accessible primitives Magic UI does not.",
+  "category": "motion-interaction",
+  "subcategory": "animated-components",
+  "kinds": [
+   "animation-library",
+   "component-library",
+   "registry"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "tailwind-v4",
+    "tailwind-v3",
+    "tailwind-any",
+    "css-variables"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source",
+    "freemium",
+    "one-time"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "cli",
+    "copy-paste",
+    "npm-package",
+    "github-repo",
+    "mcp-server"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "reduced-motion",
+    "known-gaps"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "registry-json",
+    "cli-installable",
+    "mcp-server",
+    "structured-docs",
+    "copy-paste-ready",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "marquee",
+   "terminal",
+   "video-player",
+   "lightbox",
+   "bento-grid",
+   "list",
+   "dock",
+   "card",
+   "avatar-group",
+   "icon",
+   "device-frame",
+   "button",
+   "shimmer",
+   "ripple",
+   "hover-effect",
+   "text-effect",
+   "typewriter-text",
+   "count-up",
+   "scroll-reveal",
+   "scroll-driven-animation",
+   "confetti",
+   "particle-background",
+   "gradient-background",
+   "custom-cursor",
+   "transition",
+   "animation",
+   "file-tree",
+   "diff-view",
+   "progress-bar",
+   "image",
+   "toggle-button",
+   "map"
+  ],
+  "component_count": 150,
+  "surfaces": [
+   "homepage",
+   "features",
+   "pricing-website",
+   "waitlist",
+   "changelog",
+   "blog",
+   "about"
+  ],
+  "templates": [
+   {
+    "name": "CodeForge",
+    "url": "https://codeforge-magicui.vercel.app/",
+    "purpose": "Developer-tool and API landing page with inline code snippet blocks"
+   },
+   {
+    "name": "AI Agent",
+    "url": "https://agent-magicui.vercel.app/",
+    "purpose": "Landing page for an AI startup or agent product"
+   },
+   {
+    "name": "Dev Tool",
+    "url": "https://devtool-magicui.vercel.app/",
+    "purpose": "Developer-tool marketing site with an MDX blog"
+   },
+   {
+    "name": "Mobile",
+    "url": "https://mobile-magicui.vercel.app/",
+    "purpose": "Mobile-app showcase with App Store / Play Store links"
+   },
+   {
+    "name": "SaaS",
+    "url": "https://saas-magicui.vercel.app/",
+    "purpose": "General SaaS product landing page"
+   },
+   {
+    "name": "Startup",
+    "url": "https://startup-template-sage.vercel.app/",
+    "purpose": "Startup launch page with swappable sections"
+   },
+   {
+    "name": "Portfolio",
+    "url": "https://portfolio-magicui.vercel.app/",
+    "purpose": "Personal portfolio for creatives and professionals"
+   },
+   {
+    "name": "Changelog",
+    "url": "https://changelog-magicui.vercel.app/",
+    "purpose": "Product update and release-notes site"
+   },
+   {
+    "name": "Blog",
+    "url": "https://blog-magicui.vercel.app/",
+    "purpose": "MDX blog with SEO metadata wired up"
+   }
+  ],
+  "template_count": 9,
+  "install": "npx shadcn@latest add @magicui/globe",
+  "package": null,
+  "docs_url": "https://magicui.design/docs",
+  "repo_url": "https://github.com/magicuidesign/magicui",
+  "registry_url": "https://magicui.design/r/registry.json",
+  "github": {
+   "stars": 21971,
+   "license": "MIT",
+   "last_activity": "2026-08-11"
+  },
+  "pricing_detail": "Core library free and MIT. Magic UI Pro individual license: $199 one-time, lifetime access and updates, commercial use.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": 50
+  },
+  "agent_guidance": "Add Magic UI on top of an existing shadcn/ui project rather than instead of it — the CLI, registry format and CSS variables are identical, so the two compose without config, but Magic UI ships zero accessible primitives (no dialog, no select, no combobox). Use it for the marketing surface: Marquee for logo walls, Bento Grid for feature sections, Number Ticker for stats, Safari/iPhone mocks for product shots. Nearly every component is a Motion client component, so mark them `'use client'` and keep them out of the critical render path in an RSC app.",
+  "why_it_matters": "It is the default landing-page motion layer for the shadcn ecosystem — the same install flow, the same tokens, and enough components that a marketing page can be assembled entirely from the registry.",
+  "notable_for": [
+   "same install flow as shadcn/ui",
+   "18 text animations, 11 background patterns",
+   "Safari, iPhone and Android device mocks",
+   "MCP server for agent installs",
+   "9 Next.js templates behind a $199 Pro license"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://magicui.design/docs/components (full sidebar enumeration), https://magicui.design/docs/installation, https://pro.magicui.design/ (template list and pricing), https://github.com/magicuidesign/magicui, GitHub API repo metadata. Note: https://magicui.design/docs/templates returns 404.",
+  "quality_tier": "A",
+  "tier_reason": "150 MIT components with an MCP server and the identical shadcn registry flow, but it ships zero accessible primitives and is explicitly a companion layer rather than the leading standalone option."
+ },
+ {
+  "id": "0fc7e07a-240e-4e67-9e61-6116b9fc543f",
+  "slug": "svgl",
+  "url": "https://svgl.app",
+  "name": "SVGL",
+  "tagline": "665 optimized brand logos as SVG, with a free JSON API",
+  "description": "SVGL is an open-source library of 665 company and product logos delivered as optimized SVG, each under 21 KB, with optional wordmark variants and separate light/dark files where a brand needs them. Logos are sorted into 50+ categories (AI, Framework, Database, Payment, Social, Software with 283 entries, and more) and every entry links back to the brand's official guidelines. A public REST API at api.svgl.app exposes the same data, and community packages wrap it for React, Vue, Svelte, Figma, Framer, VS Code and Raycast.",
+  "category": "icons-logos",
+  "subcategory": "logo-svgs",
+  "kinds": [
+   "icon-set",
+   "asset-pack",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "vue",
+    "svelte",
+    "vanilla",
+    "framer",
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit",
+    "trademark-restricted"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "web-app",
+    "public-api",
+    "npm-package",
+    "shadcn-registry",
+    "browser-extension",
+    "figma-plugin",
+    "cli",
+    "github-repo",
+    "download"
+   ],
+   "platform": [
+    "web",
+    "platform-agnostic"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "icons",
+    "images",
+    "code"
+   ],
+   "agent_readiness": [
+    "public-api",
+    "copy-paste-ready",
+    "cli-installable",
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "logo",
+   "icon"
+  ],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "features",
+   "integrations",
+   "about"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://svgl.app/docs/api",
+  "repo_url": "https://github.com/pheralb/svgl",
+  "registry_url": "https://api.svgl.app",
+  "github": {
+   "stars": 6241,
+   "license": "MIT",
+   "last_activity": "2026-07-19"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": 665,
+   "fonts": null,
+   "palettes": null,
+   "entries": 665,
+   "blocks": null
+  },
+  "agent_guidance": "Hit `https://api.svgl.app/?search=<brand>` or `/category/<category>` instead of scraping the site — the JSON returns a `route` field that is either a URL or a `{dark, light}` pair, so branch on its type before writing an `<img>` src. Use it for integration grids, logo walls and 'works with' sections; do not use it as a general icon set — it carries brand marks only, and Lucide or Iconify is the right tool for UI glyphs. The API is rate limited without published numbers, so cache responses at build time and vendor the SVGs rather than fetching at runtime, and check each brand's linked guidelines before shipping a recolored mark.",
+  "why_it_matters": "It is the single best-maintained free source of correct, current brand SVGs, and it is the only one with a real API — which makes it the one an agent can call rather than guess at.",
+  "notable_for": [
+   "665 logos across 50+ categories",
+   "free REST API at api.svgl.app",
+   "light/dark and wordmark variants",
+   "every SVG optimized to under 21 KB",
+   "links to official brand guidelines"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://svgl.app, https://svgl.app/docs/api, https://github.com/pheralb/svgl, GitHub API repo metadata",
+  "quality_tier": "A",
+  "tier_reason": "665 optimized brand logos behind a free public REST API with light/dark variants makes it authoritative, but it covers one narrow asset type and the API is rate limited with no published numbers."
+ },
+ {
+  "id": "1f2b1b68-6881-4c22-bb03-e76a545eb369",
+  "slug": "soft-club-ui",
+  "url": "https://cobanov.github.io/soft-club-ui",
+  "name": "Soft Club UI",
+  "tagline": "118 Radix-based React components in a late-90s dark-glass aesthetic",
+  "description": "Soft Club UI is a React component library by Mert Cobanov styled after late-1990s Sony-adjacent 'soft club' graphics — dark glass, phosphor green, cold blue, smoke — with four themes (green, blue, orange, night-city) switched by a `data-sc-theme` attribute. It ships 118 components: a complete Radix-backed app kit (dialog, combobox, command palette, table, calendar, tabs, toast) plus an unusual set of procedural canvas pieces — ASCII fields, dithered and halftone images, Chladni plates, Voronoi territories, L-system gardens — and AI-chat parts such as PromptBox, ChatBubble and ToolCall. It is distributed both as npm packages (`@softclub/ui`, `@softclub/tokens`) and as a per-component shadcn registry, with `llms.txt` and `llms-full.txt` written for agents.",
+  "category": "component-libraries",
+  "subcategory": "shadcn-registries",
+  "kinds": [
+   "component-library",
+   "registry",
+   "theme-pack"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "vanilla-css",
+    "css-variables"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "npm-package",
+    "cli",
+    "copy-paste",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "built-on-accessible-primitives",
+    "keyboard-navigable",
+    "reduced-motion",
+    "semantic-html"
+   ],
+   "content_type": [
+    "code",
+    "design-tokens"
+   ],
+   "agent_readiness": [
+    "llms-txt",
+    "registry-json",
+    "cli-installable",
+    "structured-docs",
+    "open-source-code",
+    "copy-paste-ready"
+   ],
+   "maturity": "beta"
+  },
+  "components": [
+   "button",
+   "button-group",
+   "text-input",
+   "textarea",
+   "checkbox",
+   "radio-group",
+   "switch",
+   "slider",
+   "toggle-button",
+   "toggle-group",
+   "number-input",
+   "label",
+   "select",
+   "date-input",
+   "otp-input",
+   "breadcrumbs",
+   "pagination",
+   "tabs",
+   "navigation-menu",
+   "menubar",
+   "dropdown-menu",
+   "context-menu",
+   "header",
+   "footer",
+   "card",
+   "dialog",
+   "alert-dialog",
+   "sheet",
+   "drawer",
+   "popover",
+   "hover-card",
+   "collapsible",
+   "accordion",
+   "scroll-area",
+   "pricing-table",
+   "table",
+   "tree-view",
+   "calendar",
+   "timeline",
+   "badge",
+   "alert",
+   "avatar",
+   "avatar-group",
+   "status-indicator",
+   "progress-bar",
+   "skeleton",
+   "progress-stepper",
+   "rating",
+   "spinner",
+   "combobox",
+   "command-palette",
+   "date-picker",
+   "prompt-input",
+   "announcement-bar",
+   "banner",
+   "toast",
+   "tooltip",
+   "kbd",
+   "separator",
+   "carousel",
+   "aspect-ratio",
+   "marquee",
+   "typewriter-text",
+   "text-effect",
+   "count-up",
+   "stat",
+   "gradient-background",
+   "glassmorphism",
+   "particle-background",
+   "terminal",
+   "code-block",
+   "conversation",
+   "message",
+   "tool-call",
+   "image",
+   "logo",
+   "theme-provider"
+  ],
+  "component_count": 118,
+  "surfaces": [
+   "homepage",
+   "pricing-website",
+   "features",
+   "ai-chat-panel",
+   "chat-web-app",
+   "settings-web-app",
+   "command-palette",
+   "multi-step-form",
+   "feature-announcement"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "npx shadcn@latest add https://cobanov.github.io/soft-club-ui/r/<name>.json",
+  "package": "@softclub/ui",
+  "docs_url": "https://cobanov.github.io/soft-club-ui/llms-full.txt",
+  "repo_url": "https://github.com/cobanov/soft-club-ui",
+  "registry_url": "https://cobanov.github.io/soft-club-ui/registry.json",
+  "github": {
+   "stars": 7,
+   "license": "MIT",
+   "last_activity": "2026-06-26"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Take the whole thing or take nothing — the components read `--sc-*` tokens from `@softclub/tokens`, so cherry-picking one into a stock shadcn project gives you an unstyled shell unless you also import `@softclub/ui/styles.css` and set `data-sc-theme` on `<html>`. It is the right pick when the brief asks for a dark, technical, terminal-adjacent identity and you want the Radix primitives already skinned; it is the wrong pick for a light, neutral or corporate product. Read `llms-full.txt` first — it is the authoritative component index and is written for agents — and treat the procedural canvas components (AsciiFire, PhysarumTrails, MorphogenField) as decorative only: they run continuous rAF loops and should be behind a reduced-motion guard.",
+  "why_it_matters": "A rare component library with a real point of view instead of a neutral default, and one of the very few that ships an agent-readable `llms-full.txt` alongside a per-component shadcn registry despite being a solo project.",
+  "notable_for": [
+   "118 components with a single coherent aesthetic",
+   "four themes via a data-sc-theme attribute",
+   "Radix primitives under the styling",
+   "ASCII, dither, halftone and reaction-diffusion canvases",
+   "llms.txt and llms-full.txt written for agents"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://cobanov.github.io/soft-club-ui (JS shell, no content), https://cobanov.github.io/soft-club-ui/llms.txt (full 118-component catalog), https://github.com/cobanov/soft-club-ui, GitHub API repo metadata",
+  "quality_tier": "B",
+  "tier_reason": "Well-built and agent-readable, but a beta solo project at 7 stars whose components are unusable outside its own token package — a niche aesthetic pick, not a general recommendation."
+ },
+ {
+  "id": "c66cc907-4276-47f7-b4e6-5787f6310af6",
+  "slug": "claude-design",
+  "url": "https://claude.com",
+  "name": "Claude Design",
+  "tagline": "Anthropic's design surface: prompt to prototype, deck or one-pager, exports PPTX/PDF/HTML",
+  "description": "Claude Design is Anthropic's in-beta visual creation product, sitting alongside Claude Code, Cowork, Science and Security. You describe a prototype, wireframe, deck, one-pager or piece of marketing collateral and Claude produces a first draft you then refine with fine-grained editing controls. It can import a design system from a GitHub repo, a design file or a codebase so output holds a brand, and it exports to PPTX, PDF and HTML or hands off to Claude Code, Adobe, Canva, Gamma, Lovable, Miro, Replit, Vercel and Wix.",
+  "category": "agent-design-tooling",
+  "subcategory": "ai-design-apps",
+  "kinds": [
+   "ai-tool",
+   "app"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "subscription",
+    "account-required",
+    "paid"
+   ],
+   "distribution": [
+    "web-app",
+    "saas"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "images",
+    "pdf",
+    "prose",
+    "code",
+    "design-tokens"
+   ],
+   "agent_readiness": [
+    "auth-required"
+   ],
+   "maturity": "beta"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "features",
+   "analytics",
+   "press-media"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Included in Claude Pro ($17/mo billed annually, $200/yr) and above — Pro, Max, Team, Enterprise. Not on Free. Enterprise requires admin enablement in Organization settings. Shares usage limits with chat, Cowork and Claude Code.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "This is a human-facing product, not something you can call — there is no API, CLI or MCP surface, so do not plan a pipeline around it. Its relevance to you is the handoff direction: a user who built a look in Claude Design can export HTML or push the work to Claude Code, and it ingests a design system from a GitHub repo, so the highest-leverage thing you can do is make that repo legible — a clear DESIGN.md, exported tokens, a components index. Treat anything it produces as a first draft with beta-grade fidelity, and expect the shared usage cap to be consumed by whichever surface the user touched last.",
+  "why_it_matters": "The first-party answer to 'what does design look like when the model does it', and the reference point every open-source competitor in this category now benchmarks against.",
+  "notable_for": [
+   "imports a design system from GitHub or a codebase",
+   "PPTX, PDF and HTML export",
+   "handoff to Claude Code and to Figma-adjacent apps",
+   "beta, Pro tier and above only",
+   "shares a usage budget with chat and Claude Code"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://claude.com (product list and pricing tiers), https://claude.com/product/design (capabilities, export formats, plan availability)",
+  "quality_tier": "B",
+  "tier_reason": "Beta, proprietary and Pro-tier-only with agent_readiness of auth-required and no API, CLI or MCP surface, so agent_guidance explicitly says do not plan a pipeline around it."
+ },
+ {
+  "id": "48d3a01a-c457-460d-b6e1-9de30d83eb22",
+  "slug": "nexu-open-design",
+  "url": "https://github.com/nexu-io/open-design",
+  "name": "Open Design",
+  "tagline": "Local-first desktop app that turns a coding agent into a design engine",
+  "description": "Open Design is an Apache-2.0, local-first Electron desktop app positioned as the open-source alternative to Claude Design. It drives whichever coding CLI you already have — Claude Code, Codex, Cursor, OpenCode, DeepSeek Harness and 20+ others via BYOK — to produce prototypes, landing pages, dashboards, slide decks, images and video, and it exports real files: HTML, PDF, PPTX, MP4. Every output reads from an active DESIGN.md brand contract, and the repo ships 152 named design-system packages (Stripe, Linear, Vercel, Notion, Apple, plus style families like brutalism, neumorphism, editorial) and 114 design templates. It runs as a macOS or Windows desktop build, under Docker, or self-hosted on the web.",
+  "category": "agent-design-tooling",
+  "subcategory": "ai-design-apps",
+  "kinds": [
+   "ai-tool",
+   "app",
+   "template"
+  ],
+  "facets": {
+   "framework": [
+    "next",
+    "react"
+   ],
+   "styling": [
+    "tailwind-any",
+    "css-variables"
+   ],
+   "license": [
+    "apache-2.0"
+   ],
+   "pricing": [
+    "free",
+    "open-source",
+    "account-required"
+   ],
+   "distribution": [
+    "desktop-app",
+    "download",
+    "github-repo",
+    "web-app",
+    "cli"
+   ],
+   "platform": [
+    "macos",
+    "windows",
+    "desktop",
+    "web",
+    "linux",
+    "cross-platform"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code",
+    "images",
+    "video",
+    "pdf",
+    "prose",
+    "design-tokens",
+    "prompts"
+   ],
+   "agent_readiness": [
+    "agent-skill",
+    "open-source-code",
+    "structured-docs",
+    "cli-installable",
+    "auth-required"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "pricing-website",
+   "waitlist",
+   "blog-post",
+   "analytics",
+   "kanban-board",
+   "onboarding-mobile",
+   "api-documentation",
+   "feature-announcement",
+   "billing-web-app"
+  ],
+  "templates": [
+   {
+    "name": "saas-landing",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/saas-landing",
+    "purpose": "SaaS product landing page"
+   },
+   {
+    "name": "pricing-page",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/pricing-page",
+    "purpose": "Pricing and plan comparison page"
+   },
+   {
+    "name": "waitlist-page",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/waitlist-page",
+    "purpose": "Pre-launch email capture page"
+   },
+   {
+    "name": "docs-page",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/docs-page",
+    "purpose": "Documentation site layout"
+   },
+   {
+    "name": "blog-post",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/blog-post",
+    "purpose": "Long-form article layout"
+   },
+   {
+    "name": "dashboard",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/dashboard",
+    "purpose": "General analytics dashboard"
+   },
+   {
+    "name": "live-dashboard",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/live-dashboard",
+    "purpose": "Dashboard bound to live refreshing data"
+   },
+   {
+    "name": "github-dashboard",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/github-dashboard",
+    "purpose": "Repo activity and contributor dashboard"
+   },
+   {
+    "name": "social-media-dashboard",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/social-media-dashboard",
+    "purpose": "Cross-channel social metrics dashboard"
+   },
+   {
+    "name": "trading-analysis-dashboard-template",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/trading-analysis-dashboard-template",
+    "purpose": "Market and trading analysis surface"
+   },
+   {
+    "name": "kanban-board",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/kanban-board",
+    "purpose": "Column-based task board"
+   },
+   {
+    "name": "mobile-app",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/mobile-app",
+    "purpose": "Mobile app screen set"
+   },
+   {
+    "name": "mobile-onboarding",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/mobile-onboarding",
+    "purpose": "First-run mobile onboarding flow"
+   },
+   {
+    "name": "web-prototype",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/web-prototype",
+    "purpose": "Clickable web prototype scaffold"
+   },
+   {
+    "name": "web-prototype-taste-brutalist",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/web-prototype-taste-brutalist",
+    "purpose": "Web prototype in a brutalist visual register"
+   },
+   {
+    "name": "web-prototype-taste-editorial",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/web-prototype-taste-editorial",
+    "purpose": "Web prototype in an editorial visual register"
+   },
+   {
+    "name": "web-prototype-taste-soft",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/web-prototype-taste-soft",
+    "purpose": "Web prototype in a soft/rounded visual register"
+   },
+   {
+    "name": "wireframe-greybox",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/wireframe-greybox",
+    "purpose": "Low-fidelity greybox wireframes"
+   },
+   {
+    "name": "wireframe-annotated",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/wireframe-annotated",
+    "purpose": "Wireframes with spec annotations for handoff"
+   },
+   {
+    "name": "wireframe-sketch",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/wireframe-sketch",
+    "purpose": "Hand-drawn-style wireframes"
+   },
+   {
+    "name": "wireframe-mobile-flow",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/wireframe-mobile-flow",
+    "purpose": "Screen-by-screen mobile flow wireframes"
+   },
+   {
+    "name": "html-ppt",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/html-ppt",
+    "purpose": "Base HTML slide-deck engine the ppt variants build on"
+   },
+   {
+    "name": "html-ppt-pitch-deck",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/html-ppt-pitch-deck",
+    "purpose": "Investor pitch deck"
+   },
+   {
+    "name": "html-ppt-product-launch",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/html-ppt-product-launch",
+    "purpose": "Product launch deck"
+   },
+   {
+    "name": "html-ppt-weekly-report",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/html-ppt-weekly-report",
+    "purpose": "Recurring weekly status deck"
+   },
+   {
+    "name": "html-ppt-course-module",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/html-ppt-course-module",
+    "purpose": "Teaching module deck"
+   },
+   {
+    "name": "html-ppt-tech-sharing",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/html-ppt-tech-sharing",
+    "purpose": "Engineering tech-talk deck"
+   },
+   {
+    "name": "html-ppt-presenter-mode-reveal",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/html-ppt-presenter-mode-reveal",
+    "purpose": "Reveal.js-style deck with presenter notes"
+   },
+   {
+    "name": "html-ppt-taste-editorial",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/html-ppt-taste-editorial",
+    "purpose": "Editorial-styled deck theme"
+   },
+   {
+    "name": "html-ppt-taste-brutalist",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/html-ppt-taste-brutalist",
+    "purpose": "Brutalist deck theme"
+   },
+   {
+    "name": "html-ppt-hermes-cyber-terminal",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/html-ppt-hermes-cyber-terminal",
+    "purpose": "Terminal/cyber deck theme"
+   },
+   {
+    "name": "html-ppt-knowledge-arch-blueprint",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/html-ppt-knowledge-arch-blueprint",
+    "purpose": "Blueprint-style architecture deck"
+   },
+   {
+    "name": "html-ppt-graphify-dark-graph",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/html-ppt-graphify-dark-graph",
+    "purpose": "Dark data-heavy chart deck"
+   },
+   {
+    "name": "simple-deck",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/simple-deck",
+    "purpose": "Minimal general-purpose deck"
+   },
+   {
+    "name": "ib-pitch-book",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/ib-pitch-book",
+    "purpose": "Investment-banking pitch book"
+   },
+   {
+    "name": "dcf-valuation",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/dcf-valuation",
+    "purpose": "Discounted cash flow valuation model output"
+   },
+   {
+    "name": "finance-report",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/finance-report",
+    "purpose": "Formatted financial report"
+   },
+   {
+    "name": "invoice",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/invoice",
+    "purpose": "Billing invoice document"
+   },
+   {
+    "name": "pm-spec",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/pm-spec",
+    "purpose": "Product spec document"
+   },
+   {
+    "name": "eng-runbook",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/eng-runbook",
+    "purpose": "Operational engineering runbook"
+   },
+   {
+    "name": "meeting-notes",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/meeting-notes",
+    "purpose": "Structured meeting notes document"
+   },
+   {
+    "name": "team-okrs",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/team-okrs",
+    "purpose": "OKR tracking one-pager"
+   },
+   {
+    "name": "weekly-update",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/weekly-update",
+    "purpose": "Written weekly update"
+   },
+   {
+    "name": "hr-onboarding",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/hr-onboarding",
+    "purpose": "New-hire onboarding pack"
+   },
+   {
+    "name": "clinical-case-report",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/clinical-case-report",
+    "purpose": "Medical case report layout"
+   },
+   {
+    "name": "email-marketing",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/email-marketing",
+    "purpose": "Marketing email layout"
+   },
+   {
+    "name": "social-carousel",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/social-carousel",
+    "purpose": "Multi-slide social post carousel"
+   },
+   {
+    "name": "magazine-poster",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/magazine-poster",
+    "purpose": "Editorial poster artwork"
+   },
+   {
+    "name": "image-poster",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/image-poster",
+    "purpose": "Single-image poster composition"
+   },
+   {
+    "name": "video-shortform",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/video-shortform",
+    "purpose": "Short-form vertical video render"
+   },
+   {
+    "name": "motion-frames",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/motion-frames",
+    "purpose": "Frame-by-frame motion sequence"
+   },
+   {
+    "name": "sprite-animation",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/sprite-animation",
+    "purpose": "Sprite-sheet animation"
+   },
+   {
+    "name": "webgl-experience",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/webgl-experience",
+    "purpose": "Interactive WebGL scene"
+   },
+   {
+    "name": "audio-jingle",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/audio-jingle",
+    "purpose": "Short generated audio jingle"
+   },
+   {
+    "name": "digital-eguide",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/digital-eguide",
+    "purpose": "Downloadable lead-magnet ebook"
+   },
+   {
+    "name": "gamified-app",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/gamified-app",
+    "purpose": "Game-mechanic app screens"
+   },
+   {
+    "name": "dating-web",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/dating-web",
+    "purpose": "Dating product web screens"
+   },
+   {
+    "name": "critique",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/critique",
+    "purpose": "Design critique write-up of an existing artifact"
+   },
+   {
+    "name": "x-research",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/x-research",
+    "purpose": "Research digest sourced from X"
+   },
+   {
+    "name": "orbit-github",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/orbit-github",
+    "purpose": "Orbit-style live view of GitHub activity"
+   },
+   {
+    "name": "orbit-linear",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/orbit-linear",
+    "purpose": "Orbit-style live view of Linear issues"
+   },
+   {
+    "name": "orbit-notion",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/orbit-notion",
+    "purpose": "Orbit-style live view of Notion content"
+   },
+   {
+    "name": "orbit-gmail",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/orbit-gmail",
+    "purpose": "Orbit-style live view of Gmail"
+   },
+   {
+    "name": "hyperframes",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/hyperframes",
+    "purpose": "Linked multi-frame prototype navigation"
+   },
+   {
+    "name": "live-artifact",
+    "url": "https://github.com/nexu-io/open-design/tree/main/design-templates/live-artifact",
+    "purpose": "Self-updating interactive artifact"
+   }
+  ],
+  "template_count": 114,
+  "install": "brew install --cask open-design  # or download the .dmg/.exe from GitHub Releases",
+  "package": null,
+  "docs_url": "https://github.com/nexu-io/open-design/blob/main/QUICKSTART.md",
+  "repo_url": "https://github.com/nexu-io/open-design",
+  "registry_url": null,
+  "github": {
+   "stars": 86863,
+   "license": "Apache-2.0",
+   "last_activity": "2026-08-15"
+  },
+  "pricing_detail": "App is free and Apache-2.0. You supply your own model keys (BYOK), so cost is whatever your Claude / OpenAI / other provider charges.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 152,
+   "blocks": 114
+  },
+  "agent_guidance": "The reusable asset here is the repo, not the app: `design-systems/` holds 152 named brand and style packages (stripe, linear, vercel, notion, apple, brutalism, neumorphism, editorial) and `design-templates/` holds 114 output scaffolds — clone them and read the DESIGN.md contract even if the user never installs the desktop build. Reach for the app itself when the deliverable is a file a non-developer opens — a PPTX deck, a PDF one-pager, an MP4 — because that export path is the thing raw code generation does not give you. Watch two things: it is a fast-moving 0.x (v0.19.2 as of 2026-08-14) so pin a version, and the 'brand' design systems reproduce trademarked identities, which is fine for internal prototypes and not fine for shipped product.",
+  "why_it_matters": "The largest open-source attempt at agent-driven design, and its 152 design-system packages plus 114 templates are a directly reusable corpus regardless of whether you ever run the app.",
+  "notable_for": [
+   "152 named design-system packages",
+   "114 design templates from decks to dashboards",
+   "HTML, PDF, PPTX and MP4 export",
+   "BYOK across 20+ coding CLIs",
+   "local-first Electron, Docker and self-host options"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://github.com/nexu-io/open-design (README), GitHub contents API for /design-systems (154 entries incl. README.md and _schema) and /design-templates (115 entries incl. AGENTS.md), GitHub releases API (open-design-v0.19.2, 2026-08-14)",
+  "quality_tier": "S",
+  "tier_reason": "Apache-2.0 at 86.9k stars with 152 named design-system packages and 114 templates that are a directly reusable corpus even without running the app, plus PPTX/PDF/MP4 export no code generator matches."
+ }
+]

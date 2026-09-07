@@ -1,0 +1,618 @@
+[
+ {
+  "id": "depo:j57fm4nbry2x19p31n10f9fxy185nbax",
+  "slug": "dot-matrix",
+  "url": "https://dotmatrix.zzzzshawn.cloud/",
+  "name": "Dot Matrix",
+  "tagline": "90 dot-matrix loading animations installed one at a time through a shadcn registry",
+  "description": "Dot Matrix is a single-purpose shadcn registry of dot-matrix loading animations. Each loader is a React and TypeScript component styled with Tailwind and self-contained CSS keyframes.\n\nThe registry holds 91 items: 90 loaders and one bundle named all, which writes 93 files at once. The loaders come in five shape families, and the name of each one says which: dotm-3x3 20, dotm-circular 20, dotm-square 20, dotm-triangle 20 and dotm-hex 10.\n\nOne loader installs four files: the loader itself, dotmatrix-core.tsx, dotmatrix-hooks.ts and dotmatrix-loader.css. It pulls no npm dependency and no other registry item.\n\nIt is for a team that already runs the shadcn CLI and wants one loading vocabulary across a product instead of a generic spinner.",
+  "category": "component-libraries",
+  "subcategory": "shadcn-registries",
+  "kinds": [
+   "registry",
+   "animation-library",
+   "component-library"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "tailwind-any",
+    "vanilla-css"
+   ],
+   "license": [
+    "source-available"
+   ],
+   "pricing": [
+    "free",
+    "sponsor-supported"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "cli",
+    "copy-paste",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "registry-json",
+    "cli-installable",
+    "copy-paste-ready",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "spinner",
+   "animation"
+  ],
+  "component_count": 90,
+  "surfaces": [
+   "saving-changes",
+   "submitting-a-form"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "npx shadcn@latest add @dotmatrix/dotm-square-3",
+  "package": null,
+  "docs_url": "https://dotmatrix.zzzzshawn.cloud/getting-started/introduction",
+  "repo_url": "https://github.com/zzzzshawn/matrix",
+  "registry_url": "https://dotmatrix.zzzzshawn.cloud/r/registry.json",
+  "github": {
+   "stars": 586,
+   "license": "Custom Proprietary License",
+   "last_activity": "2026-07-03"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": 91
+  },
+  "agent_guidance": "Reach for this only when a product wants one retro dot-matrix loading identity across many states. For a single ordinary spinner, Loading UI or a plain shadcn Skeleton costs less.\n\nInstall by the exact registry name, not the marketing name on the site. The site calls one loader \"Neon Drift\", and the registry calls it dotm-square-3 or similar. The five prefixes are dotm-3x3, dotm-circular, dotm-square, dotm-triangle and dotm-hex.\n\nRead https://dotmatrix.zzzzshawn.cloud/r/registry.json for the 91 names. It is the only complete list. The home page says \"55+ loaders\", which undercounts by 35.\n\nExpect four files per install: the loader, dotmatrix-core.tsx, dotmatrix-hooks.ts and dotmatrix-loader.css. The first install writes the shared three, and later ones reuse them. A components.json and a cn util must already exist.\n\nDo not call this open source. The home page says \"free and open-source\", but the LICENSE in the repository is a Custom Proprietary License. It permits commercial use and forbids you to publish any component as a standalone reusable component or as part of another component library. Never vendor it into another registry.",
+  "why_it_matters": "One of the few loader sets with a coherent visual language rather than a grab-bag of spinners, which makes loading states feel authored instead of default. The mismatch between its 'open-source' claim and its actual proprietary licence is the thing to know before adopting it.",
+  "notable_for": [
+   "90 loaders in five shape families",
+   "per-loader shadcn registry install",
+   "self-contained CSS keyframes, zero npm dependencies",
+   "an all bundle that writes 93 files",
+   "licence contradicts its open-source claim"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-09-05",
+  "evidence": "https://dotmatrix.zzzzshawn.cloud/ 200, 995,898 bytes, title \"Dot Matrix\". Its meta description reads \"Dot Matrix is a React component library of dot matrix loaders-expressive loading primitives you install via the shadcn registry and own as local code.\" The home page states \"55+ free and open-source loaders, built with React, TypeScript, Tailwind CSS, and shadcn\" and shows the install line \"npx shadcn@latest add @dotmatrix/dotm-square-3\". https://dotmatrix.zzzzshawn.cloud/r/registry.json 200 and holds 91 items, all of type registry:ui. 90 carry the dotm prefix and one is named all. Counting the prefixes: dotm-3x3 20 (1 to 21 with 17 absent), dotm-circular 20, dotm-square 20, dotm-triangle 20, dotm-hex 10. https://dotmatrix.zzzzshawn.cloud/r/dotm-square-3.json 200 and lists dependencies [] with four files: components/ui/dotm-square-3.tsx, components/ui/dotmatrix-core.tsx, components/ui/dotmatrix-hooks.ts and components/dotmatrix-loader.css. https://dotmatrix.zzzzshawn.cloud/r/all.json 200 with 93 files and no dependencies. /getting-started/introduction, /playground and /showcase all return 200. /robots.txt 200 and /sitemap.xml 200 at 268 bytes. /llms.txt returns 404, and /zzz-not-a-page also returns 404, so the site has no catch-all route. GitHub API for zzzzshawn/matrix: 586 stars, 30 forks, licence reported as Other, last push 2026-07-03. The raw LICENSE reads \"Custom Proprietary License\", \"Copyright (c) 2026 dot-matrix contributors\", grants use \"including in commercial and non-commercial products\", and prohibits \"Publishing, distributing, or presenting any component from this project as a standalone reusable component, or claiming it as part of another component library\". Previous check on 2026-08-15 recorded 85 loaders and 546 stars.",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "90 loaders behind a real shadcn registry with zero npm dependencies, and every install lands as editable source. Held at B because the whole set is one narrow retro look, the Custom Proprietary Licence contradicts the open-source claim on the home page, and the site publishes no llms.txt and undercounts its own catalogue by 35."
+ },
+ {
+  "id": "depo:j571pc68bm4g6b8j5x3ehqt4f185jerr",
+  "slug": "loading-ui",
+  "url": "https://loading-ui.com/",
+  "name": "Loading UI",
+  "tagline": "47 MIT-licensed React loaders, spinners and skeletons via shadcn CLI",
+  "description": "Loading UI is an MIT-licensed collection of 47 loading components for React + Tailwind, distributed as a shadcn registry so each one copies into your codebase as plain source. The set covers rings and arcs, dot and pulse loaders, text shimmer and typing states, geometric grid and wave loaders, plus a skeleton and a terminal loader. Components are small SVG or div primitives driven by scoped CSS keyframes with a `--duration` variable, so there is no runtime animation dependency. It suits any React + Tailwind + shadcn project that wants consistent, tokenisable loading states.",
+  "category": "component-libraries",
+  "subcategory": "shadcn-registries",
+  "kinds": [
+   "registry",
+   "component-library",
+   "animation-library"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "tailwind-any",
+    "vanilla-css",
+    "css-variables"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "cli",
+    "copy-paste",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "registry-json",
+    "cli-installable",
+    "copy-paste-ready",
+    "structured-docs",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "spinner",
+   "skeleton",
+   "shimmer",
+   "typing-indicator",
+   "animation",
+   "progress-feedback"
+  ],
+  "component_count": 47,
+  "surfaces": [
+   "saving-changes",
+   "submitting-a-form",
+   "uploading-media",
+   "ai-chat-panel"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "npx shadcn@latest add @loading-ui/ring",
+  "package": null,
+  "docs_url": "https://loading-ui.com/docs",
+  "repo_url": "https://github.com/turbostarter/loading-ui",
+  "registry_url": "https://loading-ui.com/r/registry.json",
+  "github": {
+   "stars": 463,
+   "license": "MIT",
+   "last_activity": "2026-08-01"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": 50
+  },
+  "agent_guidance": "Make this the default loader source for a React + Tailwind + shadcn app: it is MIT, the components are dependency-free SVG plus scoped keyframes, and speed is tuned by setting `--duration` rather than editing the file. Prefer it over Dot Matrix when licence clarity matters, and over hand-rolled spinners when you need matched text-shimmer and typing states for an AI chat surface. Install by registry id (`@loading-ui/ring`, `@loading-ui/skeleton`); the site markets 47 loaders while registry.json holds 50 items because style and util entries are included.",
+  "why_it_matters": "A rare loader library that stays honest about scope: no runtime dependency, no design-system lock-in, MIT, and small enough that an agent can install exactly the two states a screen needs.",
+  "notable_for": [
+   "MIT licence",
+   "no runtime animation dependency",
+   "--duration CSS variable",
+   "text-shimmer and typing loaders",
+   "47 loaders across 50 registry items"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://loading-ui.com/, https://loading-ui.com/docs, https://loading-ui.com/docs/components/ring, https://loading-ui.com/r/registry.json, https://loading-ui.com/r/ring.json, https://github.com/turbostarter/loading-ui, api.github.com/repos/turbostarter/loading-ui (loading-ui.dev in the repo README does not resolve)",
+  "source": "depo",
+  "quality_tier": "S",
+  "tier_reason": "MIT licence, live registry.json with per-component install, 47 dependency-free loaders tuned by a --duration variable and active as of 2026-08-01 — the record itself names it the default loader source for a React + Tailwind + shadcn app."
+ },
+ {
+  "id": "depo:j579mpp6wq3n9j1xqh6p941tq585jdyf",
+  "slug": "macfolio",
+  "url": "https://macfolio.com/",
+  "name": "Macfolio",
+  "tagline": "Curated directory of Mac apps, hardware, desk setups, books and videos",
+  "description": "Macfolio is a curated discovery directory for the Mac ecosystem, organised into Software, Hardware, Workspace, Books and Videos, with Top Picks and New filters and a blog. The software section alone runs past 100 indexed apps (Raycast-era indie utilities such as Klack, Alcove, Superwhisper, Presentify and mymind alongside staples like Obsidian, 1Password and Fantastical), each tagged by purpose and platform. Entries carry short editorial descriptions and affiliate links rather than screenshots or teardowns. It is for designers and Mac users hunting for tools and setup inspiration, not for anyone shipping UI code.",
+  "category": "inspiration-galleries",
+  "subcategory": "directories-and-meta-indexes",
+  "kinds": [
+   "directory",
+   "gallery"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "not-applicable"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "web-app",
+    "gallery"
+   ],
+   "platform": [
+    "macos",
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "prose",
+    "screenshots"
+   ],
+   "agent_readiness": [
+    "none"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 150,
+   "blocks": null
+  },
+  "agent_guidance": "Use this to answer 'what Mac app does X' or to source indie-macOS UI references for a native-feeling design, not to build anything — it ships no code, tokens or assets. Its real value to a design task is the long tail of small indie macOS apps whose interfaces are worth studying for menu-bar, dock and window-chrome patterns. Treat the copy as affiliate-influenced editorial and verify a tool's current pricing at its own site before recommending it.",
+  "why_it_matters": "A genuinely well-curated slice of the indie macOS scene, which is where a lot of current desktop interaction craft actually lives. It is a discovery aid, not a production resource.",
+  "notable_for": [
+   "five verbatim sections: Software, Hardware, Workspace, Books, Videos",
+   "100+ macOS apps indexed",
+   "Top Picks and New filters",
+   "affiliate-funded curation"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://macfolio.com/, https://macfolio.com/software (raw HTML of the homepage also checked for the category route list)",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "Well-curated 150-entry Mac directory but agent_readiness is \"none\" and it ships no code, tokens or assets — discovery-only, with affiliate-influenced editorial."
+ },
+ {
+  "id": "depo:j57dqbafdbezm9qjfg51ak666185d4nx",
+  "slug": "sortui",
+  "url": "https://sortui.company/",
+  "name": "SortUI",
+  "tagline": "Paid Figma design system and Framer section kit, plus six store templates",
+  "description": "SortUI is a one-studio shop selling two flagship products — a Figma UI kit design system ($99) and a Framer kit of pre-built website sections ($79) — with a $199 lifetime pass covering both plus future releases. A separate store holds six smaller items: two free downloads, a $12 device mockup, and three Framer site templates from $29 to $49. Everything is delivered as a Figma file or a Framer project, so there is no code output, npm package or registry. It is aimed at designers building marketing sites in Framer who want a paid head start.",
+  "category": "blocks-templates-themes",
+  "subcategory": "templates-and-starters",
+  "kinds": [
+   "template",
+   "marketplace",
+   "theme-pack"
+  ],
+  "facets": {
+   "framework": [
+    "framer"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "commercial"
+   ],
+   "pricing": [
+    "paid",
+    "one-time",
+    "free"
+   ],
+   "distribution": [
+    "download",
+    "marketplace",
+    "figma-file"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "figma",
+    "images"
+   ],
+   "agent_readiness": [
+    "none"
+   ],
+   "maturity": "stable"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "features",
+   "pricing-website",
+   "about",
+   "contact-us"
+  ],
+  "templates": [
+   {
+    "name": "Figma UI Kit",
+    "url": "https://shrk.ink/figma-buy",
+    "purpose": "$99 Figma design system covering the full component set"
+   },
+   {
+    "name": "Framer Kit",
+    "url": "https://shrk.ink/framer-buy",
+    "purpose": "$79 library of pre-built Framer website sections"
+   },
+   {
+    "name": "Sort UI Pass",
+    "url": "https://shrk.ink/unlimited",
+    "purpose": "$199 lifetime access to every SortUI Figma and Framer product"
+   },
+   {
+    "name": "Inweb Free",
+    "url": "https://sortui.company/store/inweb-free-personal-framer-template",
+    "purpose": "Free Framer website template for personal use"
+   },
+   {
+    "name": "Free Browser Mockups",
+    "url": "https://sortui.company/store",
+    "purpose": "Free browser-chrome mockup asset for presentations"
+   },
+   {
+    "name": "iPhone 5S In Hand Mockup",
+    "url": "https://sortui.company/store/iphone-5s-mockup",
+    "purpose": "$12 in-hand device mockup asset"
+   },
+   {
+    "name": "Manson",
+    "url": "https://sortui.company/store/agency-framer-template",
+    "purpose": "$49 Framer template for agency sites"
+   },
+   {
+    "name": "Anor",
+    "url": "https://sortui.company/store",
+    "purpose": "$29 personal-use Framer template"
+   },
+   {
+    "name": "Dynamo",
+    "url": "https://sortui.company/store",
+    "purpose": "$39 portfolio-focused Framer template"
+   }
+  ],
+  "template_count": 9,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Figma UI Kit $99; Framer Kit $79; Sort UI Pass $199 lifetime; Manson $49; Dynamo $39; Anor $29; iPhone 5S mockup $12; Inweb Free and Browser Mockups free",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Skip this in any code task — the deliverables are Figma files and Framer projects behind a paywall, so an agent gets nothing installable and cannot inspect the components before purchase. Only surface it when a human designer explicitly wants a paid Framer marketing-site kit and has already ruled out the far larger Framer marketplace. The catalogue is small (three kits, six store items) and the whole site is a Framer build with an outbound shrk.ink checkout, so verify prices at checkout rather than trusting the landing page.",
+  "why_it_matters": "A competent but thin solo shop: useful to one designer buying a Framer head start, and close to worthless to anyone shipping code or evaluating component quality.",
+  "notable_for": [
+   "Figma design system plus matching Framer kit",
+   "$199 lifetime pass",
+   "only nine products total",
+   "no code deliverable"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://sortui.company/, https://sortui.company/store (raw HTML link inventory of the homepage also checked)",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "agent_guidance says to skip it in any code task: nine paywalled Figma/Framer files, nothing installable or inspectable, and superseded by the far larger Framer marketplace."
+ },
+ {
+  "id": "depo:j572ag3k1advxzgc3v50e3m5ch85dc0y",
+  "slug": "smallbits",
+  "url": "https://smallbits.design/",
+  "name": "Smallbits",
+  "tagline": "290+ free pixel icons drawn on a strict 8x8 grid",
+  "description": "Smallbits is a free icon set of 290+ pixelated icons, every one drawn inside an 8x8 pixel grid so the whole set shares one hard constraint and one visual voice. It is distributed as a single 'Download all' bundle through a Creem checkout by the studio Minor Adventures. The licence is free for personal and commercial work including client projects, permits modification, requires no attribution, and forbids reselling or redistributing the icon files themselves. It suits retro, terminal and low-fi interfaces where a modern stroke icon set would look wrong.",
+  "category": "icons-logos",
+  "subcategory": "icon-sets",
+  "kinds": [
+   "icon-set",
+   "asset-pack"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "download"
+   ],
+   "platform": [
+    "platform-agnostic",
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "icons"
+   ],
+   "agent_readiness": [
+    "none"
+   ],
+   "maturity": "stable"
+  },
+  "components": [
+   "icon"
+  ],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Free; the whole set is obtained through a Creem checkout (prod_4t85ShareDLL7yYg6vfKYc)",
+  "counts": {
+   "icons": 290,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Choose Smallbits only for a deliberately pixel or 8-bit aesthetic — at 8x8 these icons will not scale into a normal 20-24px stroke-icon slot next to Lucide or Heroicons, and mixing the two families looks accidental. There is no npm package, CDN or registry: a human must complete the free Creem checkout and drop the files in, so plan the asset step outside the agent loop. The licence allows commercial and client work but bars redistributing the files, which rules out committing them to a public template or shipping them inside another icon package.",
+  "why_it_matters": "A rigid grid constraint is what makes an icon set cohere, and 8x8 is about the strictest one anybody ships at this scale. Free commercial use makes it a cheap way to give a retro product a real identity.",
+  "notable_for": [
+   "strict 8x8 pixel grid",
+   "290+ icons",
+   "free for commercial and client work",
+   "no redistribution allowed",
+   "no npm or CDN delivery"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://smallbits.design/ (WebFetch plus raw HTML and page metadata), https://smallbits.design/license, https://www.creem.io/payment/prod_4t85ShareDLL7yYg6vfKYc returned no readable product detail. Depo's '200+' count is stale; the live page states 290+. File formats in the bundle could not be verified without completing checkout.",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "290 icons on a genuinely strict 8x8 grid and free for commercial use, but delivery is a manual Creem checkout with no npm, CDN or registry, and the 8x8 size fits only a deliberate pixel aesthetic."
+ },
+ {
+  "id": "depo:j57bcx71pybd14em6fksa2a7z985c2yf",
+  "slug": "animate-text",
+  "url": "https://pixelpoint.io/skills/animate-text/",
+  "name": "Animate Text Skill",
+  "tagline": "Agent skill with 20 specced text animations for any motion library",
+  "description": "Animate Text is an installable agent skill from Pixel Point that hands a coding agent a catalogue of 20 named text animations with real motion specs — timing, easing curves, stagger and per-character or per-word splitting — instead of a component library. Because the skill carries specifications rather than code, the agent can implement each one in Motion, GSAP, Remotion, the Web Animations API or plain CSS. The catalogue includes soft-blur-in, per-character-rise, per-word-crossfade, spring-scale-in, mask-reveal-up, line-by-line-slide, typewriter, shimmer-sweep, shared-axis-y/z, focus-blur-resolve, kinetic-center-build and others. It is for anyone whose agent writes motion code and keeps producing generic fades.",
+  "category": "agent-design-tooling",
+  "subcategory": "agent-skills",
+  "kinds": [
+   "agent-skill",
+   "prompt-pack",
+   "animation-library"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "vanilla"
+   ],
+   "styling": [
+    "vanilla-css",
+    "css-in-js"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "agent-skill",
+    "cli",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "prompts",
+    "code"
+   ],
+   "agent_readiness": [
+    "agent-skill",
+    "cli-installable",
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "stable"
+  },
+  "components": [
+   "text-effect",
+   "typewriter-text",
+   "animation"
+  ],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "features"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "npx skills add pixel-point/animate-text --skill animate-text",
+  "package": null,
+  "docs_url": "https://pixelpoint.io/skills/animate-text/",
+  "repo_url": "https://github.com/pixel-point/animate-text",
+  "registry_url": null,
+  "github": {
+   "stars": 143,
+   "license": null,
+   "last_activity": "2026-04-24"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 20,
+   "blocks": null
+  },
+  "agent_guidance": "Install this before writing hero or section text motion in an unfamiliar stack — it is the rare resource that gives an agent the timing and easing numbers rather than a React component you then have to port. Name the animation you want from the catalogue (`soft-blur-in`, `mask-reveal-up`, `per-character-rise`) so the spec is fetched deterministically instead of improvised. Pair it with Motion or GSAP for app work and Remotion for video; the repo carries no LICENSE file, so treat the generated code as yours but do not redistribute the skill itself, and add your own prefers-reduced-motion guard because the specs do not supply one.",
+  "why_it_matters": "It packages design judgement — curves, stagger, split granularity — as an agent-readable artifact, which is the shape most design knowledge will need to take to survive contact with AI codegen. Twenty well-chosen specs beat a hundred copy-paste components you cannot retarget.",
+  "notable_for": [
+   "20 named text-animation specs",
+   "library-agnostic: Motion, GSAP, Remotion, WAAPI",
+   "installs via npx skills add",
+   "specs not components",
+   "no LICENSE file in the repo"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://pixelpoint.io/skills/animate-text/, https://github.com/pixel-point/animate-text (README plus api.github.com metadata), raw catalog/text-animations/catalog.json for the 20 visible animation ids. https://pixelpoint.io/skills/ returns 404, so there is no browsable skill index.",
+  "source": "depo",
+  "quality_tier": "A",
+  "tier_reason": "An agent-installable skill (npx skills add) carrying 20 library-agnostic motion specs with real timing and easing numbers — unusually agent-ready, held back from S by its small catalogue and missing LICENSE file."
+ }
+]

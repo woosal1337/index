@@ -1,0 +1,117 @@
+[
+ {
+  "id": "canon:9a885ce8e45969ed8497",
+  "slug": "gsap",
+  "url": "https://gsap.com",
+  "name": "GSAP",
+  "tagline": "JavaScript animation engine with 19 plugins, now free for commercial use",
+  "description": "GSAP (GreenSock Animation Platform) is a framework-agnostic JavaScript animation engine built around tweens and timelines that can animate any numeric property, CSS value, SVG attribute, or canvas/WebGL object. Webflow acquired GreenSock in 2024 and made the entire toolkit free in April 2025, so the formerly paid Club plugins — SplitText, MorphSVG, DrawSVG, ScrollSmoother, Inertia, GSDevTools — now ship inside the single `gsap` npm package. It is aimed at developers building scroll-driven marketing sites, complex sequenced motion, and physics-flavoured interactions that CSS transitions and simple spring libraries cannot express.",
+  "category": "motion-interaction",
+  "subcategory": "animation-engines",
+  "kinds": [
+   "animation-library",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "vanilla",
+    "react",
+    "next",
+    "vue",
+    "nuxt",
+    "svelte",
+    "angular",
+    "webflow"
+   ],
+   "styling": [
+    "inline-styles",
+    "not-applicable"
+   ],
+   "license": [
+    "source-available",
+    "proprietary"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo",
+    "download"
+   ],
+   "platform": [
+    "web",
+    "cross-platform"
+   ],
+   "accessibility": [
+    "reduced-motion"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "llms-txt",
+    "structured-docs",
+    "cli-installable",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "animation",
+   "transition",
+   "scroll-driven-animation",
+   "scroll-reveal",
+   "parallax",
+   "page-transition",
+   "drag-and-drop",
+   "gesture",
+   "text-effect",
+   "typewriter-text",
+   "count-up",
+   "marquee"
+  ],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "features",
+   "splash-screen",
+   "onboarding-web-app"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "npm install gsap",
+  "package": "gsap",
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": 27734,
+   "license": null,
+   "last_activity": "2026-04-13"
+  },
+  "pricing_detail": "Free, including every former Club GreenSock plugin. Webflow's Standard 'No Charge' License (effective 2025-04-30) permits unlimited commercial use but forbids building a competing no-code visual animation builder.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Reach for GSAP when the brief needs a sequenced timeline, scroll-position-driven scrubbing (ScrollTrigger), or SVG path morphing — Framer Motion and CSS transitions cover component enter/exit far more cleanly and should stay the default for React UI state. In React always install `@gsap/react` and wrap animations in `useGSAP()`; a bare `useEffect` leaks tweens across Strict Mode double-renders and hot reloads. Every plugin needs an explicit `gsap.registerPlugin(...)` call and tree-shakes out silently if you forget, and note the licence is source-available proprietary, not MIT — fine to ship, not fine to vendor into an animation-editor product.",
+  "why_it_matters": "GSAP is the twenty-year reference implementation of web animation, and Webflow making the paid plugin set free removed the one reason teams reached for weaker alternatives. Its docs are published as `.md` alongside a full llms.txt index, which makes it one of the few motion libraries an agent can actually read end to end.",
+  "quality_tier": "S",
+  "notable_for": [
+   "19 plugins in one free npm package",
+   "ScrollTrigger for scroll-driven scrubbing",
+   "SplitText and MorphSVG now free",
+   "llms.txt plus .md docs for every page",
+   "gsap.matchMedia() for prefers-reduced-motion"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-16",
+  "evidence": "https://gsap.com, https://gsap.com/docs/v3/, https://gsap.com/docs/v3/Installation, https://gsap.com/community/standard-license/, https://gsap.com/llms.txt, https://registry.npmjs.org/gsap, https://registry.npmjs.org/@gsap/react, gh api repos/greensock/GSAP",
+  "source": "canon"
+ }
+]

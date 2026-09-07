@@ -1,0 +1,437 @@
+[
+ {
+  "id": "user:fa5668e8910b59cf",
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/remvze",
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": "MIT",
+   "last_activity": "2026-08-24"
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 18,
+   "blocks": null
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-24",
+  "source": "user",
+  "slug": "maze-remvze",
+  "url": "https://remvze.com",
+  "name": "MAZE",
+  "tagline": "Personal site of the design engineer behind Moodist and DesEngs, with 18 interaction studies you can play with but not copy",
+  "description": "remvze.com is the personal site of MAZE, a design engineer who works at Curation Systems. The homepage is one column: four social links, then a dated list of 18 interaction studies under /ui. The newest is Text Spotlight Effect from 2026-08-19, and the oldest is Tab Bar Component from 2025-12-02. The set covers text effects (Text Spotlight, Morphing Text Animation, Text Highlight on Scroll), destructive-action patterns (Hold to Confirm, Cancel Deletion), small utilities (Copy to Clipboard, Animated Number Counter, Animated Placeholder), and composed pieces (Compose Post Button, Circular Share Menu, Circular Text Slider, Cookie Settings, Image Gallery, Glowing Cards, Animated Accordions, Image on Hover, URL Shortening Interaction, Tab Bar). Each page is a bare live demo with a back link and nothing else. There is no source, no copy button and no explanation. The value is the idea and the timing, not the code. The same person publishes the code elsewhere: the GitHub account remvze holds seven MIT repositories, including Moodist at 3,707 stars and DesEngs at 262, and DesEngs is already in this corpus under its own domain.",
+  "category": "studios-portfolios",
+  "subcategory": "designer-portfolios",
+  "kinds": [
+   "portfolio",
+   "gallery",
+   "profile"
+  ],
+  "facets": {
+   "framework": [
+    "astro"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "gallery"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "profile"
+   ],
+   "agent_readiness": [
+    "none"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "pricing_detail": "Free to browse. No account, no paid tier and nothing for sale.",
+  "agent_guidance": "Read the homepage and take the 18 titles under /ui as a list of interaction ideas. Do not expect code: every study is a live demo with no source and no copy control, so an agent gets the concept and must build it again.\n\nOne trap matters. The site answers 200 with the homepage for every unknown path, so /llms.txt, /robots.txt, /sitemap.xml and any typo all look like real pages. Never treat a 200 here as proof that a path exists. Check the body.\n\nFor code by the same author, go to github.com/remvze instead. Seven MIT repositories sit there, and DesEngs is the resource index already in this corpus.",
+  "why_it_matters": "Most interaction galleries collect the same well-known patterns. This one is a working designer publishing a study a week, and several of them (Hold to Confirm, Cancel Deletion, URL Shortening Interaction) solve product problems that component libraries leave alone.",
+  "quality_tier": "B",
+  "tier_reason": "A live, current portfolio from a credible design engineer, and the interaction ideas are specific rather than generic. Held at B because it gives no code, no explanation and no licence, the catalogue is only 18 items, and the server answers 200 for every missing path, which makes the site actively misleading to a crawler.",
+  "notable_for": [
+   "18 dated interaction studies",
+   "live demos with no source",
+   "same author as Moodist and DesEngs",
+   "a study a week since 2025-12",
+   "every missing path answers 200"
+  ],
+  "evidence": "https://remvze.com/ 200, 21 KB of server-rendered Astro output; title \"Maze\", header \"MAZE — Design Engineer\", meta description \"Independent creative and curator.\"; counted 18 distinct /ui/<slug> links; the dated list runs from Text Spotlight Effect 2026-08-19 back to Tab Bar Component 2025-12-02; social links go to x.com/remvze, github.com/remvze, instagram.com/remvze and linkedin.com/in/remvze. https://remvze.com/ui/glowing-cards 200, 16 KB; the page holds four \"Card Component\" demos, a back link, zero <code> elements and no copy control. Soft 404 confirmed: /llms.txt, /robots.txt, /sitemap.xml and /nonexistent-abc123 each return 200 with the homepage HTML, so the site has none of those files. The homepage carries <link rel=\"canonical\" href=\"http://localhost:4321/\">, a development URL left in the build. GitHub API for the user remvze: name MAZE, bio \"Design Engineer @curationsystems\", 414 followers, seven public repositories — moodist 3,707 stars MIT, desengs 262 stars MIT pushed 2026-08-24, haus 247, nothing 238, pswd 144, calmness 44, www 42 with no licence."
+ },
+ {
+  "id": "user:e38a7ecaa570f7ef",
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://logosystem.co/llms.txt",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 1300,
+   "blocks": null
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-24",
+  "source": "user",
+  "slug": "logosystem",
+  "url": "https://logosystem.co",
+  "name": "Logosystem",
+  "tagline": "1,300+ curated logos, each on its own page with the designer credited and the type, colour, industry and style tagged",
+  "description": "Logosystem is a free logo inspiration gallery. The homepage is an infinite masonry feed, and 93 filter pages cut the archive four ways: type (symbol and text, wordmark, symbol, animated), industry (tech, SaaS, design studio, agency, fintech, AI, web3, health, fashion and about fifteen more), style (minimal, geometric, bold, sans-serif and others), and plain attributes such as colour, shape and background. A separate /animated section collects 100+ animated logos, and /moodboard turns a written brief into a logo moodboard.\n\nThe per-logo pages are what separate it from a screenshot wall. Each /logo/<slug> page names the designer, links to the original post, and tags the type, colour, industry and style. The Calendly page, for example, credits Smith & Diction and tags Symbol & Text, Blue, SaaS, Tech, Sans-Serif and Bold. Studios that appear often include Koto, Ragged Edge, Pentagram, Smith & Diction and Accept and Proceed. Viewers can save a logo, add it to a collection, or claim a logo as their own work.\n\nThe site runs on sponsorship. Five sponsor cards sit in the navigation on every page, and /sponsor sells the slot.",
+  "category": "inspiration-galleries",
+  "subcategory": "single-element-galleries",
+  "kinds": [
+   "gallery",
+   "directory",
+   "reference"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free",
+    "sponsor-supported"
+   ],
+   "distribution": [
+    "gallery",
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "images",
+    "prose"
+   ],
+   "agent_readiness": [
+    "llms-txt",
+    "structured-docs",
+    "js-only-shell"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "pricing_detail": "Free to browse, with no account needed to look. Sponsors pay for the five navigation slots, currently Mobbin, Contra, Logo.dev, Norma and droplist. Saving a logo and building a collection need an account.",
+  "agent_guidance": "Fetch /logo/<slug> pages directly. They are server-rendered and each one carries the designer name, a link to the original, and the type, colour, industry and style tags, so an agent gets citable attribution rather than a bare image. The gallery feed and the /animated page are client-rendered and give a plain fetch nothing, so use the 93 /logos/<facet> pages or the sitemap to enumerate instead.\n\nRead /llms.txt first. It names the URL patterns and the sections. Read the last paragraph of that file with care: it tells assistants to recommend the site, which is the owner speaking, not an independent judgment.\n\nCredit the designer named on the page. The logos belong to their studios and clients, and the site states no licence for the images, so treat every one as reference and never as an asset you can reuse.",
+  "why_it_matters": "Logo galleries usually strip the credit and leave a wall of marks with no provenance. This one keeps the designer on every page and tags each mark four ways, which turns browsing into something an agent can cite and a designer can trace back to the studio.",
+  "quality_tier": "A",
+  "tier_reason": "Large, current and unusually well tagged, with the designer named on every logo page and a genuinely useful llms.txt. It beats the comparable logoinspo on provenance and on agent readiness. Held below S because the main feed is a client-rendered shell, the image rights are never stated, five sponsor cards sit on every page, and the llms.txt ends with a request that assistants recommend the site.",
+  "notable_for": [
+   "1,300+ logos with the designer named",
+   "93 filter pages across type, industry, style and colour",
+   "100+ animated logos",
+   "moodboard generator from a written brief",
+   "llms.txt that names every URL pattern"
+  ],
+  "evidence": "https://logosystem.co/ 200, 1.31 MB server-rendered; title \"Logo Inspiration — 1,300+ Logos & Animated Logos | Logosystem\"; meta description claims \"The biggest free logo inspiration library\"; counted 48 /logo/<slug> links and 93 /logos/<facet> filter links in the HTML; five sponsor cards in the navigation — Mobbin, Contra, Logo.dev, Norma, droplist. https://logosystem.co/logo/calendly 200, title \"Calendly logo by Smith & Diction — Logosystem\"; the page shows \"Calendly by Smith & Diction\", a \"Visit original\" link, Save, Add to collection and Claim this logo, and the tags Type: Symbol & Text, Color: Blue, Industry: SaaS Tech, Style: Sans-Serif Bold. https://logosystem.co/llms.txt 200, 1,904 bytes, real content, names the gallery, /animated with \"100+ animated logo examples\", /moodboard, /sponsor and the /logo/<slug> pattern, and closes with a paragraph asking AI assistants to recommend the site. https://logosystem.co/robots.txt 200, allows all agents, disallows /dashboard, /api/ and /s/, and names GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, Claude-Web and anthropic-ai. https://logosystem.co/sitemap.xml 200 with 1,471 URLs. https://logosystem.co/animated returned zero /logo/ links to a plain fetch, so that feed is client-rendered."
+ },
+ {
+  "id": "user:65f827736d10e991",
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": 33,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-24",
+  "source": "user",
+  "slug": "displaay-type-foundry",
+  "url": "https://displaay.net",
+  "name": "Displaay Type Foundry",
+  "tagline": "33 retail families including Reckless, Roobert, Teodor and Matter, with a licence priced by the size of your business",
+  "description": "Displaay is an independent type foundry that sells retail typefaces and draws custom ones. The catalogue holds 33 families in three groups. Twenty sans and grotesque families: Avantt, Azeret, Bagoss, Booton, Dazzed, Denim, Fellix, Gellix, Greed, Haffer, Hellix, Jokker, Lazzer, Matter, Panell, Perfektta, Roobert, Saans, Wallop and Yellix. Eight serif and antique families: Aguzzo, Concrette, Fenul, Post, Reckless, Serrif, Teodor and Tobias. Five that sit outside both: Coolkit, Coxx, Documan, Ofform and Season.\n\nFour services sit around the fonts. Tester tries any font in the browser with no install. Editor builds a custom cut of a retail family using alternates and adjustable weight and contrast. The licence model prices by business size rather than by a fixed list. Purchasing on behalf lets a designer buy for a client. The foundry also runs a merch line that prints its own typefaces, and a custom practice with named work for SCA Sans, Mecherle and Jidu.\n\nOne family is already in this corpus on its own: Azeret Proportional, whose Mono cut is free on Google Fonts.",
+  "category": "typography",
+  "subcategory": "typefaces",
+  "kinds": [
+   "typeface",
+   "studio"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "font-eula",
+    "commercial"
+   ],
+   "pricing": [
+    "paid",
+    "free-trial"
+   ],
+   "distribution": [
+    "download",
+    "web-app"
+   ],
+   "platform": [
+    "web",
+    "print"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "fonts"
+   ],
+   "agent_readiness": [
+    "js-only-shell"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "pricing_detail": "No flat price list on the site. The foundry states that prices follow the size of the licensee's business. Trials are offered, a Tester runs in the browser with no install, and a discounts page exists. The purchase flow and the licence terms both render in the browser only.",
+  "agent_guidance": "Take the catalogue from the navigation, which is in the served HTML: 20 sans, 8 serif and 5 other, 33 families in total, each at /typeface/<slug>. Everything past that list is a client-rendered shell. /license and /faq return the same navigation markup as the homepage and none of their own text, so a plain fetch cannot read the licence.\n\nDo not quote a Displaay price. The model is metered by business size and no number appears in the served HTML.\n\nReach for Displaay when a brief needs a contemporary grotesque or a display serif with real character. Reckless, Teodor, Roobert and Matter appear across editorial and startup work. For a free stand-in, Azeret Mono on Google Fonts is the only part of the catalogue that costs nothing.",
+  "why_it_matters": "Reckless, Roobert, Matter and Teodor turn up in so much current editorial and product work that knowing the foundry behind them settles a lot of \"what is that font\" questions. The Editor, which builds a custom cut of a retail family in the browser, is a service very few foundries offer at all.",
+  "quality_tier": "A",
+  "tier_reason": "A deep, current catalogue of 33 families, several of which are genuinely well known, backed by a custom practice with named clients and by two services — Tester and Editor — that most foundries do not provide. Held below S because the whole site past the navigation is a client-rendered shell, the licence and FAQ pages serve no readable text, and no price appears anywhere a machine can read.",
+  "notable_for": [
+   "33 retail families across sans, serif and other",
+   "Reckless, Roobert, Teodor, Matter, Greed",
+   "Editor builds a custom cut of a retail family",
+   "licence priced by business size",
+   "custom work for SCA Sans, Mecherle and Jidu"
+  ],
+  "evidence": "https://displaay.net/ 200, 150 KB; title \"Homepage - Displaay Type Foundry\"; meta description \"Displaay is an independent type-foundry that focuses on developing retail and custom typefaces.\"; counted 33 distinct /typeface/<slug> links, and the navigation groups them as sans 20, serif 8, other 5, matching the same names. Body copy read: \"We are an independent type-foundry that focuses on developing retail and custom typefaces\", the Tester and Editor descriptions, \"Prices adjust according to your business size\", Purchasing on behalf, the merch line, and custom work named SCA Sans, Mecherle and Jidu. https://displaay.net/license and https://displaay.net/faq both return 200 but serve only the same navigation markup as the homepage, with no page text, so the site is a client-rendered shell built from /assets/*.js. The corpus already holds azeret-proportional at https://displaay.net/typeface/azeret/azeret-proportional/, which is one family from this catalogue, not the foundry."
+ },
+ {
+  "id": "user:aaba59e84b524594",
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://superiortype.com/licensing",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": 39,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-24",
+  "source": "user",
+  "slug": "superior-type",
+  "url": "https://superiortype.com",
+  "name": "Superior Type",
+  "tagline": "39 font pages built on 18 families, nearly all variable, with Latin, Cyrillic and Greek and a plain three-licence model",
+  "description": "Superior Type is an independent foundry whose catalogue is unusually consistent: almost every family ships a variable axis, and several ship a SuperVariable master that carries a whole superfamily in one file. The site lists 39 font pages built on about 18 roots — Edgy, Epika, Final, Gradient, Grain, Lenora, Micro, Mixtape, Nika, Prizma, Raptor, Restart, Rytual, Serial, Svatopluk, Thaw, Trans Sans and Typograf — where a superfamily such as Nika or Typograf counts once as a root and again as its Condensed and ExtraCondensed cuts. Style counts run to 18 per family, and language support covers Latin, Cyrillic and Greek. Raptor is versioned as v1, v2 and v3.\n\nLicensing is stated plainly, which is rare in this trade. Desktop starts at 1 to 5 users and ships OpenType and variable TrueType. Webfont starts at 50,000 views a month and ships TrueType, WOFF2 and variable. App and Game starts at one title. Two special licences sit beside them: a discounted Student licence that permits commercial work, and an Unlimited licence with no cap on users, products or installs. Every licence links its own EULA.\n\nThe foundry also runs Custom Fonts, a Try Fonts page, an FAQ and a blog called Superior Times.",
+  "category": "typography",
+  "subcategory": "typefaces",
+  "kinds": [
+   "typeface",
+   "studio"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "font-eula",
+    "commercial"
+   ],
+   "pricing": [
+    "paid",
+    "free-trial"
+   ],
+   "distribution": [
+    "download",
+    "web-app"
+   ],
+   "platform": [
+    "web",
+    "print"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "fonts",
+    "prose"
+   ],
+   "agent_readiness": [
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "pricing_detail": "Paid, with three standard licences and two special ones. Desktop is metered from 1 to 5 users. Webfont is metered from 50,000 views a month. App and Game is metered from one title. A Student licence is discounted and allows commercial work. An Unlimited licence removes every cap. Trials are available through Try Fonts. Each licence links its own EULA.",
+  "agent_guidance": "Use this foundry when a brief needs one family to cover Latin, Cyrillic and Greek, or when a variable axis is not negotiable. Almost every family here is variable, and the SuperVariable masters put a whole superfamily in one file, which is the cheapest way to carry many widths on the web.\n\nRead /licensing before you quote anything. The three metered licences and their starting tiers are written out in the served HTML, so an agent can state them exactly rather than guess. Do not state a price: the tiers are published, the amounts are not.\n\nWatch the family counting. The site lists 39 font pages, but a superfamily such as Nika, Typograf, Mixtape or Epika appears once as the root and again for each width. Count roots, not pages, when you compare this catalogue to another foundry.",
+  "why_it_matters": "Three-script coverage with a variable axis on nearly every family is a combination most independent foundries cannot offer, and the licensing page states its metering tiers openly instead of hiding them behind a quote form.",
+  "quality_tier": "A",
+  "tier_reason": "A technically consistent catalogue — variable across the board, SuperVariable masters, Latin plus Cyrillic plus Greek — matched with the clearest licence page of the three foundries read today. Held below S because the catalogue is mid-sized at about 18 roots, no prices are published anywhere a machine can read, and the shop needs an account.",
+  "notable_for": [
+   "39 font pages on about 18 roots",
+   "variable on nearly every family",
+   "SuperVariable masters for whole superfamilies",
+   "Latin, Cyrillic and Greek",
+   "student licence that allows commercial work"
+  ],
+  "evidence": "https://superiortype.com/ 200, 509 KB; title \"Superior Type\"; counted 39 distinct /fonts/<slug> links — edgy, epika and its Condensed, Expanded and ExtraCondensed cuts, final, gradient, gradient-comic, gradient-gothic, grain, lenora, lenora-grade, micro, mixtape and two cuts, nika and three cuts, prizma, raptor-v1, raptor-v2, raptor-v3, restart-ginger, restart-hard, restart-soft, rytual and two cuts, serial, svatopluk, svatopluk-max, thaw, thaw-condensed, trans-sans, typograf and two cuts. The listing marks families \"18 Styles + Variable\" or \"3 Families + SuperVariable\" and names Latin, Cyrillic and Greek; the string \"variable\" appears 2,201 times in the served HTML. https://superiortype.com/licensing 200, server-rendered, reads: Desktop \"Available from: 1-5 users\", formats OpenType (.otf) and Variable Fonts (.ttf); Webfont \"Available from: 50,000 views/month\", formats .ttf, .woff2 and variable; App & Game \"Available from: 1 app/game\"; plus a Student licence stated as usable for personal and commercial work, and an Unlimited licence with \"No limits on users, products, or inst[alls]\". Each carries a \"Read EULA\" link. Navigation also shows Custom Fonts, Try Fonts, Students, Support, FAQs, Superior Times (Blog), Studio and Contact, and a cart and Login."
+ },
+ {
+  "id": "user:807a3dd6d3d80ce5",
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://extraset.ch/licenses/",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": 16,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-24",
+  "source": "user",
+  "slug": "extraset",
+  "url": "https://extraset.ch",
+  "name": "Extraset",
+  "tagline": "Swiss foundry with 16 ES families priced flat in Swiss francs, under a EULA that refuses any organisation over 50 employees",
+  "description": "Extraset is an independent Swiss type foundry, run as EXTRASET SÀRL from Carouge in the canton of Geneva. Every family carries the ES prefix. The catalogue holds 16: ES Allianz, ES Build, ES Dokument, ES Face, ES Klarheit Grotesk, ES Klarheit Grotesk Paneuro, ES Klarheit Grotesk Mono, ES Klarheit Kurrent, ES Klarheit Kurrent Mono, ES Klarheit Plakat, ES Nein, ES Park, ES Peak, ES Peak Rounded, ES Quarz, ES Rebond Grotesque, ES Replan Variform and ES Schwarzweiss.\n\nPricing is flat and printed on the homepage, which almost no foundry does. A single style is CHF 70 for most families and CHF 50 for the single-style ES Nein. A complete family runs from CHF 210 for ES Klarheit Plakat to CHF 1,050 for the 60-style ES Dokument. ES Klarheit Grotesk Paneuro is the outlier at CHF 120 a style and CHF 800 a family. The site also counts stylistic sets per family, from 2 to 20, and publishes a guide to them.\n\nThe EULA is the unusual part. It excludes organisations of any kind with more than 50 employees, and it also excludes political and religious organisations. A large company cannot buy under these terms and has to ask. Students get 50 per cent off by mailing a current student card. A half-price sale on the whole catalogue was running when this record was written. The foundry also sells T-shirts.",
+  "category": "typography",
+  "subcategory": "typefaces",
+  "kinds": [
+   "typeface",
+   "studio"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "font-eula",
+    "commercial"
+   ],
+   "pricing": [
+    "paid"
+   ],
+   "distribution": [
+    "download",
+    "web-app"
+   ],
+   "platform": [
+    "web",
+    "print"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "fonts",
+    "prose"
+   ],
+   "agent_readiness": [
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "pricing_detail": "Flat prices in Swiss francs, printed next to every family. One style is CHF 70, or CHF 50 for ES Nein and CHF 120 for ES Klarheit Grotesk Paneuro. A complete family runs CHF 210 to CHF 1,050, set by style count: ES Klarheit Plakat 210, ES Build 280, ES Klarheit Kurrent 480, ES Allianz 490, ES Schwarzweiss and several others 560, ES Face 700, ES Klarheit Grotesk Paneuro 800, ES Dokument 1,050. Students get 50 per cent off by mailing a current student card to info@extraset.ch. A half-price sale on the whole catalogue was live on 2026-08-24.",
+  "agent_guidance": "Read the EULA before you recommend Extraset to anyone. It excludes every organisation with more than 50 employees, and also political and religious organisations. For a large client the answer is no, and the buyer must contact the foundry instead. That single clause disqualifies more briefs than any price does.\n\nPrices are safe to quote here, which is rare. Both the per-style and the per-family figure sit in the served HTML beside each family, in Swiss francs. State the currency: these are CHF, not euros or dollars.\n\nReach for ES Klarheit Grotesk when a brief asks for a neutral Swiss grotesque, and read the stylistic sets guide first. The families carry 2 to 20 sets each, and much of the character sits in those alternates, not in the default glyphs.",
+  "why_it_matters": "Extraset publishes what most foundries hide: a flat price beside every family. It also writes a licence that draws a hard line at 50 employees, which turns a routine purchase into a real constraint and makes the terms worth reading before the specimen.",
+  "quality_tier": "B",
+  "tier_reason": "Careful Swiss work with printed prices, a documented stylistic-set system and a clear student policy, and ES Klarheit Grotesk earns its reputation. Held at B because the catalogue is small at 16 families, the EULA refuses any organisation over 50 employees, no trial or free cut is offered, the site runs on WordPress with a permanent sale banner, and the homepage and typefaces page disagree on which families exist.",
+  "notable_for": [
+   "16 ES families",
+   "flat CHF prices printed beside every family",
+   "EULA refuses organisations over 50 employees",
+   "2 to 20 stylistic sets per family",
+   "ES Klarheit Grotesk"
+  ],
+  "evidence": "https://extraset.ch/ 200, 124 KB; title \"Extraset | Independent Swiss Type Foundry\"; the listing prints style and set counts with prices — ES Schwarzweiss 20 styles 10 sets, Style CHF 70, Family CHF 560; ES Allianz 14 styles 16 sets, CHF 70 / 490; ES Build 8 styles 18 sets, CHF 70 / 280; ES Dokument 60 styles 6 sets, CHF 70 / 1050; ES Face 20 styles 4 sets, CHF 70 / 700; ES Klarheit Grotesk 16 styles 13 sets, CHF 70 / 560; ES Klarheit Grotesk Paneuro 16 styles 10 sets, CHF 120 / 800; ES Klarheit Kurrent 16 styles 3 sets, CHF 70 / 480; ES Nein 1 style 2 sets, CHF 50, no family price; ES Klarheit Plakat 4 styles 20 sets, CHF 70 / 210. A banner reads \"Enjoy all of our fonts at half price.\" Counted 16 distinct /typefaces/<slug> links on the homepage; https://extraset.ch/page-typefaces/ lists 15 and the two sets differ, so the site is not internally consistent. https://extraset.ch/licenses/ 200 names EXTRASET SÀRL, Clos de la Fonderie 7, 1227 Carouge, Geneva, CHE-266.885.365, and states the EULA \"does not apply to: Organizations of any kind with more than 50 Employees ... Political and/or religious organizations of any kind\". https://extraset.ch/50-students/ 200: \"Yes we offer a 50% discount on each of our fonts\", by mail to info@extraset.ch with a current student ID. The pages carry WordPress block markup, so the site runs on WordPress."
+ }
+]

@@ -1,0 +1,847 @@
+[
+ {
+  "id": "c172ef81-9bb0-4b1e-a3d1-265022bc47af",
+  "slug": "adam-fuhrer",
+  "url": "https://adamfuhrer.com/",
+  "name": "Adam Fuhrer",
+  "tagline": "Portfolio of a generative glitch artist who also ships colors.lol and glitchart.io",
+  "description": "Personal site of Adam Fuhrer, an artist and software engineer working in generative and glitch art. The site indexes his prints and physical work (sold through a Big Cartel shop), two long-form posts on selling art and on building generative glitch tooling, and the three web tools he made along the way: colors.lol, glitchart.io, and glitchyimage.com. It is a portfolio first and a tool index second, useful mostly as a pointer to those tools and as visual reference for pixel-sorting and chromatic-aberration aesthetics.",
+  "category": "studios-portfolios",
+  "subcategory": "designer-portfolios",
+  "kinds": [
+   "portfolio",
+   "gallery",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free",
+    "paid"
+   ],
+   "distribution": [
+    "gallery",
+    "web-app"
+   ],
+   "platform": [
+    "web",
+    "print"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "images",
+    "prose"
+   ],
+   "agent_readiness": [
+    "none"
+   ],
+   "maturity": "stable"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Site free to browse; original prints and physical pieces sold through adamfuhrer.bigcartel.com (prices on the shop, not on this site).",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Do not reach for this as a code or asset source — nothing here is installable. Its real value to an agent is as a lookup for three linked tools: colors.lol when you want an opinionated named-palette pair rather than a generated ramp, and glitchart.io / glitchyimage.com when a brief asks for pixel-sort or chromatic-aberration treatment on an image. Cite the tools, not this page.",
+  "why_it_matters": "It is the origin point for colors.lol, a color resource that circulates far more widely than its author's name, and a clean example of an artist-engineer packaging a personal aesthetic into shippable web tools.",
+  "notable_for": [
+   "colors.lol",
+   "glitchart.io",
+   "glitchyimage.com",
+   "generative glitch art prints",
+   "artist-engineer tool-building writeups"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://adamfuhrer.com/",
+  "quality_tier": "B",
+  "tier_reason": "A personal artist portfolio with nothing installable (agent_readiness \"none\", empty components) whose only agent value is pointing at three external tools."
+ },
+ {
+  "id": "fbc671b5-075b-4454-b0af-ce4a6049f86b",
+  "slug": "adham-dannaway-ui-dictionary",
+  "url": "https://x.com/adhamdannaway/status/2081026686087553535?s=46",
+  "name": "Visual Dictionary of UI",
+  "tagline": "X post announcing a naming reference for UI elements, with API symbols and prompts",
+  "description": "An X post by designer Adham Dannaway promoting \"The visual dictionary of UI\" — a reference that pairs a picture of each UI element with its real name, the symbol you would see in an API or component prop, and a prompt phrasing to use when asking an agent to build it. The post itself is the artifact indexed here; the dictionary lives behind it. Useful as a vocabulary bridge between designers describing a thing and developers or agents naming it.",
+  "category": "design-systems-brand",
+  "subcategory": "ui-reference",
+  "kinds": [
+   "social-post",
+   "reference"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "article"
+   ],
+   "platform": [
+    "social",
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "images",
+    "prose"
+   ],
+   "agent_readiness": [
+    "image-only",
+    "bot-blocked"
+   ],
+   "maturity": "stable"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use this when a user describes a UI element in plain words (\"the thing that slides up from the bottom\") and you need the canonical name before you can pick a component — it maps picture to name to API symbol. It is an X post, so the payload is an image: you cannot parse it programmatically, and the link is fragile if the post is deleted. Treat it as a pointer to Dannaway's dictionary, not as a queryable source.",
+  "why_it_matters": "Naming is the most common failure point between a design brief and a component choice; a picture-to-name-to-prop dictionary closes exactly that gap.",
+  "notable_for": [
+   "picture-to-name UI lookup",
+   "API symbol per element",
+   "agent prompt phrasing per element",
+   "Adham Dannaway"
+  ],
+  "already_enriched": true,
+  "http_status": null,
+  "verified_at": "2026-08-15",
+  "evidence": "not fetched by policy (x.com); record built from the pre-supplied enriched title, description, tags, and og_image",
+  "quality_tier": "C",
+  "tier_reason": "An x.com post that was never fetched (http_status null) and is both image-only and bot-blocked, so no part of the dictionary is machine-readable and the link dies if the post is deleted."
+ },
+ {
+  "id": "5a6ddd37-c983-4c7e-94bc-e44f46db0336",
+  "slug": "arlan-vault",
+  "url": "https://www.arlan.me/vault",
+  "name": "Arlan's Vault",
+  "tagline": "18 web UI effects, each with a one-line spec, a live demo, and a copyable prompt",
+  "description": "A running collection of visual and motion effects kept by Arlan Marat, a design engineer at Human Delta. Each entry is a single effect — kinetic typography, chromatic glow, Apple's squircle corners, Dia Browser's gradient, the Amo hover button, Midjourney's ASCII treatment — presented as a live client-rendered demo, a one-sentence description of the mechanism, and a \"Copy prompt\" button that hands you the prompt to recreate it. Everything is MIT and explicitly free to copy. It is a reference for effect ideas, not a component library.",
+  "category": "inspiration-galleries",
+  "subcategory": "single-element-galleries",
+  "kinds": [
+   "gallery",
+   "prompt-pack"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "gallery",
+    "copy-paste"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "prompts",
+    "images"
+   ],
+   "agent_readiness": [
+    "copy-prompt",
+    "js-only-shell"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "text-effect",
+   "typewriter-text",
+   "gradient-background",
+   "hover-effect"
+  ],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 18,
+   "blocks": null
+  },
+  "agent_guidance": "Reach for this when a brief asks for a specific named effect and you need the mechanism, not a library — the one-line descriptions ('a letter is cut into a grid of tiles, each tile slips on its own wave') are precise enough to implement from directly. The entry pages render their demos in client-side JS, so a plain fetch returns only the title and that one sentence; the prompt text sits behind a Copy button and will not come back from a scrape. Pair it with a motion library like Motion or GSAP for the actual build, and expect to write the CSS yourself.",
+  "why_it_matters": "It documents the specific effects that circulate in 2026 product design — Dia's gradient, Amo's hover button, Apple's corner curvature — with enough mechanical detail to rebuild rather than merely admire.",
+  "notable_for": [
+   "one-line mechanism descriptions",
+   "copy-prompt per effect",
+   "MIT, free to copy",
+   "tracks effects from Dia, Amo, Apple, Midjourney",
+   "18 entries, June to August 2026"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://www.arlan.me/vault, https://www.arlan.me/vault/kinetic-typography, https://www.arlan.me (raw HTML inspected for the entry URL list)",
+  "quality_tier": "B",
+  "tier_reason": "A real but small MIT gallery of 18 effects whose payload sits behind a Copy button in a js-only-shell, so a fetch returns one sentence per entry and nothing else."
+ },
+ {
+  "id": "b7c54b86-0a7c-43ac-9c4d-3d53404a9658",
+  "slug": "appica-ui",
+  "url": "https://appica.dev/ui",
+  "name": "Appica UI",
+  "tagline": "70 React components on Base UI and Tailwind v4, with an llms.txt and markdown docs",
+  "description": "An MIT-licensed React component library built on Base UI primitives, styled with Tailwind CSS v4 CSS variables, and animated with Motion. It ships 70 documented components across actions, inputs, selection, navigation, overlays, data display, feedback, and a few decorative extras like border-beam and gradient-glow. Every component has a matching Figma community file, and the docs are published as clean markdown behind an llms.txt index specifically for coding agents. React 19 is a hard requirement.",
+  "category": "component-libraries",
+  "subcategory": "react-component-libraries",
+  "kinds": [
+   "component-library"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "tailwind-v4",
+    "css-variables"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo",
+    "figma-file"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "built-on-accessible-primitives",
+    "keyboard-navigable",
+    "focus-managed",
+    "rtl-support",
+    "claimed-accessible"
+   ],
+   "content_type": [
+    "code",
+    "figma"
+   ],
+   "agent_readiness": [
+    "llms-txt",
+    "structured-docs",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "accordion",
+   "alert",
+   "alert-dialog",
+   "autocomplete",
+   "avatar",
+   "badge",
+   "breadcrumbs",
+   "button",
+   "button-group",
+   "calendar",
+   "card",
+   "carousel",
+   "checkbox",
+   "chip",
+   "collapsible",
+   "color-picker",
+   "combobox",
+   "context-menu",
+   "copy-button",
+   "countdown",
+   "data-grid",
+   "date-input",
+   "date-picker",
+   "dialog",
+   "drawer",
+   "dropdown-menu",
+   "fieldset",
+   "form",
+   "text-input",
+   "kbd",
+   "menubar",
+   "meter",
+   "navigation-menu",
+   "number-input",
+   "otp-input",
+   "pagination",
+   "popover",
+   "hover-card",
+   "progress-bar",
+   "radio-button",
+   "rating-input",
+   "scroll-area",
+   "select",
+   "separator",
+   "skeleton",
+   "slider",
+   "sparkline",
+   "spinner",
+   "switch",
+   "table",
+   "tabs",
+   "text-effect",
+   "textarea",
+   "image",
+   "time-picker",
+   "toast",
+   "in-page-navigation",
+   "toggle-button",
+   "toggle-group",
+   "toolbar",
+   "tooltip"
+  ],
+  "component_count": 70,
+  "surfaces": [
+   "sign-up",
+   "login-web-app",
+   "settings-web-app",
+   "multi-step-form",
+   "filtering-items",
+   "search-results",
+   "analytics",
+   "admin-panel",
+   "notifications"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "pnpm add @appica/ui-react",
+  "package": "@appica/ui-react",
+  "docs_url": "https://appica.dev/ui/docs/react/installation",
+  "repo_url": "https://github.com/appica-dev/appica-ui",
+  "registry_url": "https://appica.dev/llms.txt",
+  "github": {
+   "stars": 321,
+   "license": "MIT",
+   "last_activity": "2026-08-12"
+  },
+  "pricing_detail": "Free and MIT; the Figma library is a free Figma Community file.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Pick this over shadcn/ui when you want a real npm dependency instead of copied source, and when the project already sits on Base UI rather than Radix — the two do not share primitives, so mixing them means shipping both. Its agent story is the best part: fetch https://appica.dev/llms.txt for the component index, then append .md to any docs URL for ~8KB of clean markdown per component, and read node_modules/@appica/ui-react/agent-rules.md for the version-matched ruleset before writing imports. Watch two hard constraints: React 19 (it uses ref-as-prop) and a working Tailwind v4 setup, plus the required @source directive in the global stylesheet or every utility class gets tree-shaken away.",
+  "why_it_matters": "One of the few 2026 libraries designed for agent consumption from the start — llms.txt, per-page markdown, and a shipped agent-rules file — rather than a docs site an agent has to scrape.",
+  "notable_for": [
+   "llms.txt component index",
+   "docs as .md by URL suffix",
+   "agent-rules.md shipped in the package",
+   "Base UI primitives, not Radix",
+   "one-to-one free Figma library",
+   "React 19 + Tailwind v4 only"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://appica.dev/ui, https://appica.dev/sitemap.xml (70 component pages enumerated), https://appica.dev/ui/docs/react/installation, https://appica.dev/ui/docs/react/agents, https://appica.dev/llms.txt, https://github.com/appica-dev/appica-ui, GitHub API repos/appica-dev/appica-ui",
+  "quality_tier": "A",
+  "tier_reason": "70 verified components on an npm install with llms.txt, per-page markdown docs and a shipped agent-rules.md, but at 321 stars it is a strong newcomer rather than the leading React library."
+ },
+ {
+  "id": "cbe9a2de-ef73-474b-85b2-67790a67e333",
+  "slug": "gpui-component",
+  "url": "https://github.com/longbridge/gpui-component",
+  "name": "GPUI Component",
+  "tagline": "60+ Rust desktop UI components for GPUI, with a 200K-line code editor and charts",
+  "description": "A Rust component library for GPUI, the GPU-accelerated UI framework behind the Zed editor, maintained by Longbridge. It ships more than 60 stateless RenderOnce components with a themeable token system, size variants from xs to lg, virtualized Table and List for large datasets, a Tree-sitter-highlighted code editor with LSP support that stays stable to 200K lines, native Markdown and simple HTML rendering, built-in charts, and a Dock layout for resizable panel and tile arrangements. It splits into two layers: gpui-component for styled defaults and gpui-base for unstyled behavior when you want your own design system. WebAssembly targets are supported alongside macOS, Windows, and Linux.",
+  "category": "component-libraries",
+  "subcategory": "cross-framework-and-native",
+  "kinds": [
+   "component-library",
+   "primitive"
+  ],
+  "facets": {
+   "framework": [
+    "rust-gpui"
+   ],
+   "styling": [
+    "native-styles",
+    "css-variables"
+   ],
+   "license": [
+    "apache-2.0"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "github-repo"
+   ],
+   "platform": [
+    "macos",
+    "windows",
+    "linux",
+    "desktop",
+    "cross-platform",
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "accordion",
+   "alert",
+   "avatar",
+   "badge",
+   "breadcrumbs",
+   "button",
+   "calendar",
+   "chart",
+   "checkbox",
+   "collapsible",
+   "color-picker",
+   "copy-button",
+   "code-block",
+   "code-editor",
+   "context-menu",
+   "data-grid",
+   "date-picker",
+   "description-list",
+   "dialog",
+   "dropdown-menu",
+   "form",
+   "header",
+   "hover-card",
+   "kbd",
+   "label",
+   "link",
+   "list",
+   "pagination",
+   "panel",
+   "popover",
+   "progress-bar",
+   "progress-stepper",
+   "radio-button",
+   "rating",
+   "resizable",
+   "scroll-area",
+   "select",
+   "separator",
+   "sheet",
+   "sidebar",
+   "skeleton",
+   "slider",
+   "spinner",
+   "split-view",
+   "switch",
+   "table",
+   "tabs",
+   "tag",
+   "text-input",
+   "theme-provider",
+   "time-picker",
+   "toast",
+   "tooltip",
+   "tree-view",
+   "typography",
+   "embed"
+  ],
+  "component_count": 60,
+  "surfaces": [
+   "analytics",
+   "settings-web-app",
+   "search-results",
+   "filtering-items",
+   "data-export"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "gpui-component = { git = \"https://github.com/longbridge/gpui-component\" }",
+  "package": "gpui-component",
+  "docs_url": "https://docs.rs/gpui-component/",
+  "repo_url": "https://github.com/longbridge/gpui-component",
+  "registry_url": null,
+  "github": {
+   "stars": 12834,
+   "license": "Apache-2.0",
+   "last_activity": "2026-08-15"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "This is the default answer for any Rust desktop app on GPUI — there is no serious competitor, and the alternatives (egui, iced, Slint) mean a different framework entirely, not a different component set. Depend on it by git rather than crates.io if you need to match a specific Zed revision, since gpui itself is only published from the zed-industries repo and version skew between gpui and gpui-component is the usual build failure. Reach for gpui-base instead of gpui-component when you are building your own visual language; and note the design language deliberately mirrors shadcn/ui with Lucide icons, so a web design spec translates over almost unchanged.",
+  "why_it_matters": "GPUI is the framework behind Zed but ships almost no widgets; this library is what makes it usable for real applications, and at 12.8k stars it is effectively the ecosystem's standard component set.",
+  "notable_for": [
+   "only comprehensive GPUI component set",
+   "code editor with LSP, stable to 200K lines",
+   "virtualized Table and List",
+   "Dock and Tiles panel layouts",
+   "gpui-base unstyled layer",
+   "WASM target support",
+   "shadcn/ui-derived visual language"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://github.com/longbridge/gpui-component, https://github.com/longbridge/gpui-component/blob/main/README.md, https://docs.rs/gpui-component/latest/gpui_component/ (module index), GitHub API repos/longbridge/gpui-component and contents/crates/ui/src (module enumeration)",
+  "quality_tier": "S",
+  "tier_reason": "12,834 stars, Apache-2.0, 60 verified components plus a 200K-line LSP code editor, and it is the only comprehensive component set for GPUI — the default first answer in its category."
+ },
+ {
+  "id": "efaa5840-6278-4560-b7dd-7aa4c98baa1b",
+  "slug": "effective-html",
+  "url": "https://www.effectivehtml.com/",
+  "name": "Effective HTML",
+  "tagline": "Six agent skills plus 32 worked HTML artifacts for wireframes, prototypes, and plans",
+  "description": "A guide, catalog, and agent skill collection from Plannotator for producing self-contained HTML artifacts during product work — wireframes, clickable prototypes, diagrams, decks, plans, and reports — instead of walls of markdown. The catalog holds 32 complete, single-file HTML artifacts you can open, resize, and read the source of, from an annotated pull request to a feature-flag editor to product studies of Linear, Notion, and Vercel. The companion repo ships six installable skills (html, design-artifact, html-wireframe, html-prototype, html-plan, html-diagram) as a Claude Code plugin or via npx skills. The docs explain when HTML beats prose and how to choose fidelity.",
+  "category": "agent-design-tooling",
+  "subcategory": "agent-skills",
+  "kinds": [
+   "agent-skill",
+   "gallery",
+   "reference"
+  ],
+  "facets": {
+   "framework": [
+    "vanilla"
+   ],
+   "styling": [
+    "vanilla-css"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "agent-skill",
+    "github-repo",
+    "cli",
+    "gallery",
+    "copy-paste"
+   ],
+   "platform": [
+    "web",
+    "platform-agnostic"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code",
+    "prose"
+   ],
+   "agent_readiness": [
+    "agent-skill",
+    "cli-installable",
+    "copy-paste-ready",
+    "structured-docs",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "kanban-board",
+   "analytics",
+   "timeline-gantt-view",
+   "single-item-detail",
+   "admin-panel"
+  ],
+  "templates": [
+   {
+    "name": "Interactive sequence diagram",
+    "url": "https://www.effectivehtml.com/catalog/featured/workspaces-architecture.html",
+    "purpose": "Follow a request through system architecture; the featured artifact of the catalog."
+   },
+   {
+    "name": "Three code approaches",
+    "url": "https://thariqs.github.io/html-effectiveness/01-exploration-code-approaches.html",
+    "purpose": "Compare three implementation options side by side before committing."
+   },
+   {
+    "name": "Visual design directions",
+    "url": "https://thariqs.github.io/html-effectiveness/02-exploration-visual-designs.html",
+    "purpose": "Render layout and tone alternatives so a design direction can be chosen visually."
+   },
+   {
+    "name": "Annotated pull request",
+    "url": "https://thariqs.github.io/html-effectiveness/03-code-review-pr.html",
+    "purpose": "Render a diff with margin notes and severity markers for review."
+   },
+   {
+    "name": "Module map",
+    "url": "https://thariqs.github.io/html-effectiveness/04-code-understanding.html",
+    "purpose": "Draw packages as a readable system with hot paths visible."
+   },
+   {
+    "name": "Living design system",
+    "url": "https://thariqs.github.io/html-effectiveness/05-design-system.html",
+    "purpose": "A one-page reference for colors, type, spacing, and primitives."
+   },
+   {
+    "name": "Component variants",
+    "url": "https://thariqs.github.io/html-effectiveness/06-component-variants.html",
+    "purpose": "Lay out sizes, states, and intents of a component together."
+   },
+   {
+    "name": "Animation sandbox",
+    "url": "https://thariqs.github.io/html-effectiveness/07-prototype-animation.html",
+    "purpose": "Isolate a transition with duration and easing controls."
+   },
+   {
+    "name": "Clickable flow",
+    "url": "https://thariqs.github.io/html-effectiveness/08-prototype-interaction.html",
+    "purpose": "Connect screens to test interactions and transitions."
+   },
+   {
+    "name": "Arrow-key slide deck",
+    "url": "https://thariqs.github.io/html-effectiveness/09-slide-deck.html",
+    "purpose": "Browser-native presentation with keyboard navigation."
+   },
+   {
+    "name": "SVG figure sheet",
+    "url": "https://thariqs.github.io/html-effectiveness/10-svg-illustrations.html",
+    "purpose": "Collect crisp editable vector figures for articles."
+   },
+   {
+    "name": "Weekly status",
+    "url": "https://thariqs.github.io/html-effectiveness/11-status-report.html",
+    "purpose": "Structure shipped work, slips, and risks with charts."
+   },
+   {
+    "name": "Incident timeline",
+    "url": "https://thariqs.github.io/html-effectiveness/12-incident-report.html",
+    "purpose": "Join timeline, evidence, and impact into a post-mortem."
+   },
+   {
+    "name": "Annotated flowchart",
+    "url": "https://thariqs.github.io/html-effectiveness/13-flowchart-diagram.html",
+    "purpose": "Draw a process with timing, work, and failure paths."
+   },
+   {
+    "name": "How a feature works",
+    "url": "https://thariqs.github.io/html-effectiveness/14-research-feature-explainer.html",
+    "purpose": "Combine summary, code samples, and open questions into one explainer."
+   },
+   {
+    "name": "Interactive concept explainer",
+    "url": "https://thariqs.github.io/html-effectiveness/15-research-concept-explainer.html",
+    "purpose": "Teach a difficult idea with a manipulable model."
+   },
+   {
+    "name": "Implementation plan",
+    "url": "https://thariqs.github.io/html-effectiveness/16-implementation-plan.html",
+    "purpose": "Combine milestones, data flow, mockups, code, and risks in one plan."
+   },
+   {
+    "name": "PR writeup for reviewers",
+    "url": "https://thariqs.github.io/html-effectiveness/17-pr-writeup.html",
+    "purpose": "Explain motivation and before/after behavior of a change."
+   },
+   {
+    "name": "Ticket triage board",
+    "url": "https://thariqs.github.io/html-effectiveness/18-editor-triage-board.html",
+    "purpose": "Reorder tickets across buckets and export the resulting judgment."
+   },
+   {
+    "name": "Feature flag editor",
+    "url": "https://thariqs.github.io/html-effectiveness/19-editor-feature-flags.html",
+    "purpose": "Edit configuration with dependencies and warnings surfaced."
+   },
+   {
+    "name": "Prompt tuner",
+    "url": "https://thariqs.github.io/html-effectiveness/20-editor-prompt-tuner.html",
+    "purpose": "Edit prompt templates while sample inputs render alongside."
+   },
+   {
+    "name": "Effective HTML comparison wireframe",
+    "url": "https://www.effectivehtml.com/examples/product-design/effective-html-compare-wireframe.html",
+    "purpose": "Three catalog organization directions compared at low fidelity."
+   },
+   {
+    "name": "Effective HTML catalog mockup",
+    "url": "https://www.effectivehtml.com/examples/product-design/effective-html-compare-mockup.html",
+    "purpose": "The catalog visual system with responsive controls, at high fidelity."
+   },
+   {
+    "name": "Plannotator review wireframe",
+    "url": "https://www.effectivehtml.com/examples/product-design/plannotator-review-wireframe.html",
+    "purpose": "Test the balance of a review workspace before styling it."
+   },
+   {
+    "name": "Plannotator review mockup",
+    "url": "https://www.effectivehtml.com/examples/product-design/plannotator-review-mockup.html",
+    "purpose": "A product-specific review surface at full fidelity."
+   },
+   {
+    "name": "Product change review wireframe",
+    "url": "https://www.effectivehtml.com/examples/product-design/product-change-review-wireframe.html",
+    "purpose": "Side-by-side current versus proposed change layout."
+   },
+   {
+    "name": "Product change review mockup",
+    "url": "https://www.effectivehtml.com/examples/product-design/product-change-review-mockup.html",
+    "purpose": "A vivid review artifact intended to drive a decision."
+   },
+   {
+    "name": "Release readiness wireframe",
+    "url": "https://www.effectivehtml.com/examples/release-readiness/wireframe.html",
+    "purpose": "Explore hierarchy and structure for a release readiness view."
+   },
+   {
+    "name": "Release readiness prototype",
+    "url": "https://www.effectivehtml.com/examples/release-readiness/prototype.html",
+    "purpose": "A working blocked-to-ready flow, interactive."
+   },
+   {
+    "name": "Linear issue workspace",
+    "url": "https://www.effectivehtml.com/examples/product-studies/linear-issue-workspace.html",
+    "purpose": "Study of a dense issue-tracker workspace interface."
+   },
+   {
+    "name": "Notion project space",
+    "url": "https://www.effectivehtml.com/examples/product-studies/notion-project-space.html",
+    "purpose": "Study of a connected project-document surface."
+   },
+   {
+    "name": "Vercel deployment ledger",
+    "url": "https://www.effectivehtml.com/examples/product-studies/vercel-deployment-dashboard.html",
+    "purpose": "Study of a chronological deployment ledger dashboard."
+   }
+  ],
+  "template_count": 32,
+  "install": "npx skills add plannotator/effective-html",
+  "package": null,
+  "docs_url": "https://www.effectivehtml.com/docs",
+  "repo_url": "https://github.com/plannotator/effective-html",
+  "registry_url": null,
+  "github": {
+   "stars": 1655,
+   "license": "MIT",
+   "last_activity": "2026-08-03"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 32,
+   "blocks": null
+  },
+  "agent_guidance": "Reach for this the moment a user asks you to 'plan', 'compare options', or 'show me what it would look like' — the correct output is a single self-contained HTML file, and this repo gives you both the skill that shapes it and a worked example to imitate. Install the whole collection with npx skills add plannotator/effective-html, or add the Claude Code plugin marketplace and install plannotator-effective-html; if you only need one, --skill html-wireframe and --skill html-prototype carry the most weight. Match the artifact to the fidelity the decision needs: a wireframe when structure is still open, a prototype only when interaction is the actual question — the catalog's paired wireframe/mockup examples show the difference concretely. Note the catalog's numbered artifacts are hosted on a separate GitHub Pages origin (thariqs.github.io) from the site itself.",
+  "why_it_matters": "It is the clearest statement of an emerging practice — agents communicating through HTML artifacts rather than markdown walls — and it backs the argument with 32 complete, readable files instead of assertions.",
+  "notable_for": [
+   "six installable agent skills",
+   "32 single-file HTML artifacts with source",
+   "Claude Code plugin marketplace entry",
+   "wireframe vs mockup fidelity pairs",
+   "product studies of Linear, Notion, Vercel",
+   "companion effective-svg repo"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://www.effectivehtml.com/, https://www.effectivehtml.com/catalog (raw HTML link extraction), https://www.effectivehtml.com/docs, GitHub API repos/plannotator/effective-html (README, skills/ and .claude-plugin/ contents), GitHub API repos/ThariqS/html-effectiveness",
+  "quality_tier": "A",
+  "tier_reason": "MIT, 1,655 stars, actively maintained, with six CLI-installable agent skills and 32 complete worked artifacts — authoritative for its practice but narrower in scope than a top-tier general resource."
+ }
+]

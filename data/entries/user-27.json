@@ -1,0 +1,85 @@
+[
+ {
+  "id": "user:a55ee4f750ba62a1",
+  "slug": "oreo-ui",
+  "url": "https://www.oreoui.com",
+  "name": "Oreo Design",
+  "tagline": "A waitlist page for a UI library aimed at AI agents, with no components shipped as of 2026-08-30",
+  "description": "Oreo Design announces itself as a UI library for AI agents. As of 2026-08-30 that is a title and a signup form, and this record says so rather than describing a product that does not exist yet.\n\nThe served page is 605 bytes: a Vite shell carrying the title \"Oreo Design – UI Library for AI Agents\" and an empty root element. Every content route answers 404, including /components, /docs, /registry, /install, /pricing and /about. The JavaScript bundle runs to 295 KB, and the only network endpoint in it is /api/subscribe, which collects an email address. No npm package for the library exists.\n\nThe premise is worth watching. A component library built for agents rather than for people is exactly what this corpus indexes, and very few products aim there deliberately.\n\nThe same maker already ships one thing, and this corpus holds it: Oreo Avatar, an SVG avatar generator, is indexed as oreo-design-avatar with the package @oreo-design/avatar at version 0.1.0. Do not confuse the two.",
+  "category": "ai-interface-kits",
+  "subcategory": "chat-and-agent-components",
+  "kinds": [
+   "component-library",
+   "reference"
+  ],
+  "facets": {
+   "framework": [
+    "react"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "js-only-shell"
+   ],
+   "maturity": "announced"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "pricing_detail": "Not stated. No pricing route exists and /pricing answers 404.",
+  "agent_guidance": "Do not send anyone here for components yet. Nothing ships. The page is a 605-byte shell and every content route answers 404.\n\nUse oreo-design-avatar instead if you want the maker's shipping work. That record is in this corpus and its package is @oreo-design/avatar.\n\nRe-check the site before you cite it. The only endpoint is /api/subscribe, so the state of this record changes the moment the library launches. Treat the tagline as a dated observation, not a verdict on the product.",
+  "why_it_matters": "A component library written for agents rather than for people is the premise this whole corpus is organised around. Very few products state that aim, so the launch is worth catching.",
+  "quality_tier": "C",
+  "tier_reason": "Nothing has shipped. The page is a 605-byte client-rendered shell, every content route answers 404, the only endpoint collects an email address, no package exists, and there is no llms.txt or sitemap. The record is filed for the premise and the URL, and it will be rewritten when the library launches.",
+  "notable_for": [
+   "a UI library aimed at AI agents",
+   "waitlist only as of 2026-08-30",
+   "every content route answers 404",
+   "the only endpoint is /api/subscribe",
+   "same maker as oreo-design-avatar"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-30",
+  "source": "user",
+  "evidence": "https://www.oreoui.com/ 200 but only 605 bytes; the entire body is a Vite shell with `<title>Oreo Design – UI Library for AI Agents</title>`, a theme-color of #F9F9F8, one module script at /assets/index-B298K9C3.js, one stylesheet, and `<div id=\"root\"></div>` with no content. Tested 2026-08-30: /components, /docs, /registry, /install, /pricing and /about each answer 404 at 79 bytes, and /llms.txt and /sitemap.xml answer 404 as well. The bundle at /assets/index-B298K9C3.js is 294,860 bytes and yields no readable strings, no routes and no install command; the only fetch target and the only API path in it is /api/subscribe. Its absolute URLs are React, React Router and va.vercel-scripts.com, so the site runs React Router with Vercel analytics. An npm search for the library returns no package; @oreo-design/avatar 0.1.0 exists with the homepage https://oreo-design-avatar.vercel.app, which this corpus already indexes as oreo-design-avatar. A browser render could not be attempted because the Chrome extension was disconnected at the time of writing."
+ }
+]

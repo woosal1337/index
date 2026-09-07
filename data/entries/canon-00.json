@@ -1,0 +1,1087 @@
+[
+ {
+  "id": "canon:4de01906fcf6f6e0f9d8",
+  "slug": "mui",
+  "url": "https://mui.com",
+  "name": "MUI",
+  "tagline": "React component suite: Material UI, MUI X data grid, charts and date pickers",
+  "description": "MUI is the umbrella for Material UI (a 67-component MIT React library implementing Google's Material Design), MUI X (Data Grid, Date and Time Pickers, Charts, Tree View), Base UI and Joy UI. The MIT core covers the whole standard form, navigation, feedback and layout surface, and eight free page templates ship in the docs. It is the default pick for internal tools and enterprise React apps where you want a complete, opinionated kit rather than assembling primitives.",
+  "category": "component-libraries",
+  "subcategory": "react-component-libraries",
+  "kinds": [
+   "component-library",
+   "design-system-docs",
+   "template"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "css-in-js",
+    "css-variables"
+   ],
+   "license": [
+    "mit",
+    "commercial"
+   ],
+   "pricing": [
+    "free",
+    "open-source",
+    "freemium",
+    "subscription"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo",
+    "mcp-server",
+    "figma-file"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "aria-complete",
+    "keyboard-navigable",
+    "focus-managed",
+    "rtl-support",
+    "claimed-accessible"
+   ],
+   "content_type": [
+    "code",
+    "prose",
+    "design-tokens",
+    "figma"
+   ],
+   "agent_readiness": [
+    "mcp-server",
+    "llms-txt",
+    "structured-docs",
+    "cli-installable",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "autocomplete",
+   "button",
+   "button-group",
+   "checkbox",
+   "floating-action-button",
+   "number-input",
+   "radio-group",
+   "rating-input",
+   "select",
+   "slider",
+   "switch",
+   "text-input",
+   "textarea",
+   "transfer",
+   "toggle-button",
+   "toggle-group",
+   "avatar",
+   "avatar-group",
+   "badge",
+   "chip",
+   "separator",
+   "icon",
+   "list",
+   "table",
+   "tooltip",
+   "typography",
+   "alert",
+   "backdrop",
+   "dialog",
+   "modal",
+   "progress-bar",
+   "spinner",
+   "skeleton",
+   "toast",
+   "accordion",
+   "header",
+   "card",
+   "panel",
+   "tab-bar",
+   "breadcrumbs",
+   "drawer",
+   "link",
+   "dropdown-menu",
+   "menubar",
+   "pagination",
+   "progress-stepper",
+   "tabs",
+   "box",
+   "container",
+   "grid",
+   "stack",
+   "image-gallery",
+   "masonry",
+   "timeline",
+   "popover",
+   "portal",
+   "theme-provider",
+   "transition",
+   "data-grid",
+   "date-picker",
+   "date-range-picker",
+   "time-picker",
+   "calendar",
+   "tree-view",
+   "chart",
+   "bar-chart",
+   "line-chart",
+   "pie-chart",
+   "scatter-plot",
+   "sparkline",
+   "gauge-chart",
+   "heatmap",
+   "funnel-chart",
+   "radar-chart"
+  ],
+  "component_count": 67,
+  "surfaces": [
+   "admin-panel",
+   "settings-web-app",
+   "account-web-app",
+   "analytics",
+   "user-management",
+   "filtering-items",
+   "single-item-detail",
+   "multi-step-form",
+   "submitting-a-form",
+   "showing-input-error",
+   "login-web-app",
+   "sign-up",
+   "checkout",
+   "pricing-website",
+   "notifications",
+   "blog"
+  ],
+  "templates": [
+   {
+    "name": "Dashboard",
+    "url": "https://mui.com/material-ui/getting-started/templates/dashboard/",
+    "purpose": "Data-visualisation dashboard built on MUI X Data Grid and Charts"
+   },
+   {
+    "name": "CRUD dashboard",
+    "url": "https://mui.com/material-ui/getting-started/templates/crud-dashboard/",
+    "purpose": "Dashboard with CRUD pages and a mobile-friendly sidebar"
+   },
+   {
+    "name": "Marketing page",
+    "url": "https://mui.com/material-ui/getting-started/templates/marketing-page/",
+    "purpose": "Features, testimonials, pricing and FAQ sections"
+   },
+   {
+    "name": "Checkout",
+    "url": "https://mui.com/material-ui/getting-started/templates/checkout/",
+    "purpose": "Multi-step checkout flow"
+   },
+   {
+    "name": "Sign-in",
+    "url": "https://mui.com/material-ui/getting-started/templates/sign-in/",
+    "purpose": "Single-column sign-in page for any auth provider"
+   },
+   {
+    "name": "Sign-in side",
+    "url": "https://mui.com/material-ui/getting-started/templates/sign-in-side/",
+    "purpose": "Two-column sign-in page with room for marketing content"
+   },
+   {
+    "name": "Sign-up",
+    "url": "https://mui.com/material-ui/getting-started/templates/sign-up/",
+    "purpose": "Sign-up page that pairs with the sign-in template"
+   },
+   {
+    "name": "Blog",
+    "url": "https://mui.com/material-ui/getting-started/templates/blog/",
+    "purpose": "Blog homepage layout with markdown-to-jsx support"
+   }
+  ],
+  "template_count": 8,
+  "install": "npm install @mui/material @emotion/react @emotion/styled",
+  "package": "@mui/material",
+  "docs_url": "https://mui.com/material-ui/getting-started/",
+  "repo_url": "https://github.com/mui/material-ui",
+  "registry_url": null,
+  "github": {
+   "stars": 98807,
+   "license": "MIT",
+   "last_activity": "2026-08-14"
+  },
+  "pricing_detail": "Material UI core is MIT and free. MUI X Pro is $299/developer/year; MUI X Premium is $599/developer/year.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Reach for MUI when the task is a data-heavy internal tool or admin panel and the user has not asked for Tailwind: the Data Grid, Date Pickers and Charts are far more complete out of the box than anything you would assemble from shadcn/ui plus TanStack. Watch the licence boundary — column grouping, row pinning, Excel export and several chart types are MUI X Pro or Premium and will render a watermark plus a console warning without a key. There is an official MCP server (`@mui/mcp`) and per-product llms.txt at mui.com/material-ui/llms.txt; prefer those over scraping the docs site, and note that the default styling is Emotion CSS-in-JS, which fights a Tailwind-first codebase.",
+  "why_it_matters": "The largest and oldest React component library still under heavy active development, and the reference implementation of Material Design on the web. Any index of design resources that omits it is not serious.",
+  "notable_for": [
+   "67 documented Material UI components",
+   "MUI X Data Grid, Charts and Date Pickers",
+   "8 free page templates",
+   "official @mui/mcp MCP server",
+   "MIT core with paid X tiers"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-16",
+  "evidence": "https://mui.com/material-ui/all-components/, https://mui.com/pricing/, https://mui.com/material-ui/getting-started/templates/, https://mui.com/material-ui/llms.txt (200), api.github.com/repos/mui/material-ui, registry.npmjs.org/@mui/mcp",
+  "source": "canon",
+  "quality_tier": "S",
+  "tier_reason": "67 MIT components plus MUI X Data Grid/Charts/Pickers, 8 templates, 98k stars with activity two days ago, and an official @mui/mcp server with per-product llms.txt — the most complete React kit in the index."
+ },
+ {
+  "id": "canon:214464ca864eb2636bc3",
+  "slug": "ant-design",
+  "url": "https://ant.design",
+  "name": "Ant Design",
+  "tagline": "73-component React library and design language for enterprise back-office apps",
+  "description": "Ant Design is Ant Group's enterprise design language plus its React implementation, `antd`. The docs index lists 73 components across General, Layout, Navigation, Data Entry, Data Display, Feedback and Other, alongside a written spec covering colour, typography, alignment, copywriting and page patterns. It is aimed squarely at dense admin consoles and internal tooling, especially in the Chinese enterprise ecosystem where it is the default choice.",
+  "category": "component-libraries",
+  "subcategory": "react-component-libraries",
+  "kinds": [
+   "component-library",
+   "design-system-docs"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "css-in-js",
+    "css-variables"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo",
+    "figma-file",
+    "cli"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "keyboard-navigable",
+    "rtl-support",
+    "claimed-accessible",
+    "known-gaps"
+   ],
+   "content_type": [
+    "code",
+    "prose",
+    "design-tokens",
+    "figma"
+   ],
+   "agent_readiness": [
+    "llms-txt",
+    "structured-docs",
+    "cli-installable",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "button",
+   "floating-action-button",
+   "icon",
+   "typography",
+   "separator",
+   "stack",
+   "grid",
+   "app-shell",
+   "masonry",
+   "split-view",
+   "in-page-navigation",
+   "breadcrumbs",
+   "dropdown-menu",
+   "navigation-menu",
+   "pagination",
+   "progress-stepper",
+   "tabs",
+   "autocomplete",
+   "cascader",
+   "checkbox",
+   "color-picker",
+   "date-picker",
+   "date-range-picker",
+   "form",
+   "text-input",
+   "textarea",
+   "number-input",
+   "mentions",
+   "radio-group",
+   "rating-input",
+   "select",
+   "multi-select",
+   "slider",
+   "switch",
+   "time-picker",
+   "transfer",
+   "tree-select",
+   "file-upload",
+   "avatar",
+   "badge",
+   "calendar",
+   "card",
+   "carousel",
+   "collapsible",
+   "description-list",
+   "empty-state",
+   "image",
+   "list",
+   "popover",
+   "qr-code",
+   "segmented-control",
+   "stat",
+   "table",
+   "data-grid",
+   "tag",
+   "timeline",
+   "tooltip",
+   "coachmark",
+   "tree-view",
+   "alert",
+   "drawer",
+   "toast",
+   "modal",
+   "popconfirm",
+   "progress-bar",
+   "error-page",
+   "skeleton",
+   "spinner",
+   "sticky",
+   "theme-provider"
+  ],
+  "component_count": 73,
+  "surfaces": [
+   "admin-panel",
+   "user-management",
+   "settings-web-app",
+   "account-web-app",
+   "analytics",
+   "filtering-items",
+   "search-results",
+   "single-item-detail",
+   "bulk-actions",
+   "data-import",
+   "data-export",
+   "multi-step-form",
+   "submitting-a-form",
+   "showing-input-error",
+   "empty-state",
+   "notifications"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "npm install antd",
+  "package": "antd",
+  "docs_url": "https://ant.design/components/overview/",
+  "repo_url": "https://github.com/ant-design/ant-design",
+  "registry_url": null,
+  "github": {
+   "stars": 99090,
+   "license": "MIT",
+   "last_activity": "2026-08-15"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Prefer Ant Design over MUI when the app is a dense CRUD console and you want Table, Form, Cascader, Transfer and TreeSelect to work together without glue code — antd's Form plus Table pairing is the tightest in the React ecosystem. It publishes a real llms.txt with llms-full.txt, llms-semantic.md and a dedicated `docs/react/for-agents` page, so fetch those instead of scraping; the `.md` suffix works on any docs URL. Be careful with two things: the default look is unmistakably Ant and hard to de-brand, and accessibility is weaker than Radix, Base UI or Carbon, so do not use it where a WCAG audit is in scope.",
+  "why_it_matters": "One of the two largest React component libraries by stars, and the definitive vocabulary for enterprise back-office UI. Its written design spec is unusually good and worth reading independently of the code.",
+  "notable_for": [
+   "73 documented components",
+   "llms.txt, llms-full.txt and a for-agents doc",
+   "Form plus Table integration",
+   "written design spec, not just an API reference",
+   "ConfigProvider theming with design tokens"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-16",
+  "evidence": "https://ant.design/components/overview/, https://ant.design/llms.txt (200, 73 unique component slugs), api.github.com/repos/ant-design/ant-design",
+  "source": "canon",
+  "quality_tier": "A",
+  "tier_reason": "73 verified components and real llms.txt/for-agents docs, but accessibility carries a \"known-gaps\" facet and the guidance warns against it where a WCAG audit is in scope, so it is not the top pick in its niche."
+ },
+ {
+  "id": "canon:b684a0bf0b7e5f58eb53",
+  "slug": "radix-ui",
+  "url": "https://radix-ui.com",
+  "name": "Radix UI",
+  "tagline": "Unstyled accessible React primitives, plus Themes, Colors and Icons",
+  "description": "Radix UI is a family of four things on one site: Primitives (about 35 unstyled, WAI-ARIA-conformant React components), Themes (a pre-styled component library), Colors (12-step perceptual light and dark scales) and Icons. Primitives handle the hard parts — focus management, typeahead, collision-aware positioning, controlled and uncontrolled state, portals and RTL — and leave every pixel to you. It is the substrate under shadcn/ui and a large share of modern React design systems; the project is now maintained by WorkOS.",
+  "category": "component-libraries",
+  "subcategory": "headless-primitives",
+  "kinds": [
+   "primitive",
+   "component-library",
+   "design-system-docs"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "vanilla-css",
+    "css-variables",
+    "tailwind-any",
+    "css-modules"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo",
+    "copy-paste"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "aria-complete",
+    "keyboard-navigable",
+    "focus-managed",
+    "screen-reader-tested",
+    "rtl-support",
+    "semantic-html"
+   ],
+   "content_type": [
+    "code",
+    "prose",
+    "design-tokens",
+    "icons"
+   ],
+   "agent_readiness": [
+    "structured-docs",
+    "open-source-code",
+    "copy-paste-ready"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "accordion",
+   "alert-dialog",
+   "aspect-ratio",
+   "avatar",
+   "checkbox",
+   "collapsible",
+   "context-menu",
+   "dialog",
+   "dropdown-menu",
+   "form",
+   "hover-card",
+   "label",
+   "menubar",
+   "navigation-menu",
+   "otp-input",
+   "password-input",
+   "popover",
+   "portal",
+   "progress-bar",
+   "radio-group",
+   "scroll-area",
+   "select",
+   "separator",
+   "slider",
+   "switch",
+   "tabs",
+   "toast",
+   "toggle-button",
+   "toggle-group",
+   "toolbar",
+   "tooltip",
+   "visually-hidden",
+   "direction-provider",
+   "icon",
+   "focus-trap"
+  ],
+  "component_count": 35,
+  "surfaces": [
+   "settings-web-app",
+   "account-web-app",
+   "admin-panel",
+   "command-palette",
+   "action-sheet",
+   "filtering-items",
+   "submitting-a-form",
+   "showing-input-error",
+   "multi-step-form",
+   "in-app-notifications",
+   "share-and-permissions",
+   "notification-settings"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "npm install radix-ui",
+  "package": "radix-ui",
+  "docs_url": "https://www.radix-ui.com/primitives/docs/overview/introduction",
+  "repo_url": "https://github.com/radix-ui/primitives",
+  "registry_url": null,
+  "github": {
+   "stars": 19164,
+   "license": "MIT",
+   "last_activity": "2026-08-08"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "This is the accessibility layer, not the design layer — reach for Primitives when you are building a bespoke design system and want correct dialog focus traps, roving tabindex and collision-aware popovers without writing them. In practice you rarely install it directly: `npx shadcn@latest add dialog` already vendors Radix into the project, so check for `components/ui/` before adding a second copy. Use the single `radix-ui` package rather than the old per-component `@radix-ui/react-*` packages for new work, keep Radix Colors in mind as a ready-made 12-step token set, and note there is no llms.txt so the docs must be fetched page by page.",
+  "why_it_matters": "Radix set the modern standard for headless, accessible React components, and shadcn/ui made it the de facto foundation of the entire copy-paste component ecosystem. Almost everything else in this index sits on top of it.",
+  "notable_for": [
+   "foundation under shadcn/ui",
+   "WAI-ARIA APG conformance",
+   "Radix Colors 12-step light and dark scales",
+   "maintained by WorkOS",
+   "single `radix-ui` package replaces per-component installs"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-16",
+  "evidence": "https://www.radix-ui.com/primitives/docs/overview/introduction, https://www.radix-ui.com/themes/docs/overview/getting-started, api.github.com/repos/radix-ui/primitives/contents/packages/react (package listing), llms.txt returns 404",
+  "source": "canon",
+  "quality_tier": "S",
+  "tier_reason": "35 WAI-ARIA-conformant MIT primitives that are the verified substrate under shadcn/ui and most modern React systems, shipped with Radix Colors 12-step scales — the definitive headless layer despite having no llms.txt."
+ },
+ {
+  "id": "canon:ffc411ce6774e5789829",
+  "slug": "base-ui",
+  "url": "https://base-ui.com",
+  "name": "Base UI",
+  "tagline": "37 unstyled React components from the Radix, Floating UI and MUI teams",
+  "description": "Base UI is an unstyled, styling-agnostic React component library built by people from Radix, Floating UI and MUI. It shipped v1.0.0 in December 2025 and now documents 37 components, including several Radix never had — Autocomplete, Combobox, Drawer, Field, Meter and OTP Field. Every component is tree-shakable and composition-first, and the docs publish a full llms.txt aimed at coding agents.",
+  "category": "component-libraries",
+  "subcategory": "headless-primitives",
+  "kinds": [
+   "primitive",
+   "component-library"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "tailwind-v4",
+    "vanilla-css",
+    "css-modules",
+    "css-variables"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo",
+    "copy-paste"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "aria-complete",
+    "keyboard-navigable",
+    "focus-managed",
+    "screen-reader-tested",
+    "rtl-support",
+    "semantic-html"
+   ],
+   "content_type": [
+    "code",
+    "prose"
+   ],
+   "agent_readiness": [
+    "llms-txt",
+    "structured-docs",
+    "open-source-code",
+    "copy-paste-ready"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "accordion",
+   "alert-dialog",
+   "autocomplete",
+   "avatar",
+   "button",
+   "checkbox",
+   "checkbox-group",
+   "collapsible",
+   "combobox",
+   "context-menu",
+   "dialog",
+   "drawer",
+   "form",
+   "fieldset",
+   "label",
+   "help-text",
+   "validation-message",
+   "text-input",
+   "dropdown-menu",
+   "menubar",
+   "meter",
+   "navigation-menu",
+   "number-input",
+   "otp-input",
+   "popover",
+   "hover-card",
+   "progress-bar",
+   "radio-group",
+   "scroll-area",
+   "select",
+   "separator",
+   "slider",
+   "switch",
+   "tabs",
+   "toast",
+   "toggle-button",
+   "toggle-group",
+   "toolbar",
+   "tooltip"
+  ],
+  "component_count": 37,
+  "surfaces": [
+   "settings-web-app",
+   "account-web-app",
+   "admin-panel",
+   "command-palette",
+   "action-sheet",
+   "filtering-items",
+   "search-results",
+   "submitting-a-form",
+   "showing-input-error",
+   "multi-step-form",
+   "in-app-notifications",
+   "two-factor-authentication"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "npm install @base-ui/react",
+  "package": "@base-ui/react",
+  "docs_url": "https://base-ui.com/react/overview/quick-start",
+  "repo_url": "https://github.com/mui/base-ui",
+  "registry_url": null,
+  "github": {
+   "stars": 10636,
+   "license": "MIT",
+   "last_activity": "2026-08-14"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Choose Base UI over Radix when the design calls for a Combobox, Autocomplete, Drawer, OTP Field or Field-level validation wiring, since Radix has no first-party equivalent and you would otherwise bolt on cmdk plus Vaul plus a form library. It has the best agent-facing docs of any primitive library here: fetch https://base-ui.com/llms.txt, and note that the docs explicitly tell you to downgrade the Tailwind v4 examples if the project is on v3. shadcn/ui ships a Base UI variant, so check which primitive layer a project already vendors before mixing the two — running Radix and Base UI side by side duplicates portal and focus-management logic.",
+  "why_it_matters": "The most credible successor to Radix Primitives, built by the same people who wrote the original, and the first primitive library designed with LLM consumers in mind.",
+  "notable_for": [
+   "v1.0.0 stable since December 2025",
+   "Combobox, Autocomplete and Drawer that Radix lacks",
+   "first-class llms.txt with per-page .md",
+   "team from Radix, Floating UI and MUI",
+   "tree-shakable, styling-agnostic"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-16",
+  "evidence": "https://base-ui.com/react/overview/quick-start, https://base-ui.com/llms.txt (200, 37 component paths), registry.npmjs.org/@base-ui/react (v1.7.0, MIT), api.github.com/repos/mui/base-ui",
+  "source": "canon",
+  "quality_tier": "A",
+  "tier_reason": "37 components at stable v1.0.0 with the best agent-facing docs of any primitive library (llms.txt with per-page .md), but at 10.6k stars it is still the challenger to Radix rather than the established default."
+ },
+ {
+  "id": "canon:664913a8880680973d11",
+  "slug": "primer",
+  "url": "https://primer.style",
+  "name": "Primer",
+  "tagline": "GitHub's design system: 62 React components, Octicons and design tokens",
+  "description": "Primer is the design system behind GitHub. The site is the hub for Product UI (62 documented React components plus a Rails ViewComponent and a CSS implementation), Brand UI and the brand toolkit, and Foundations — accessibility guidance, Octicons, and colour, spacing and typography tokens. Primer's real value outside GitHub is its written guidance and its component anatomy docs, which are more thorough than most public systems.",
+  "category": "design-systems-brand",
+  "subcategory": "public-design-systems",
+  "kinds": [
+   "design-system-docs",
+   "component-library",
+   "brand-guidelines"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "vanilla",
+    "web-components"
+   ],
+   "styling": [
+    "css-modules",
+    "css-variables",
+    "vanilla-css"
+   ],
+   "license": [
+    "mit",
+    "trademark-restricted"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo",
+    "figma-file"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "wcag-aa",
+    "aria-complete",
+    "keyboard-navigable",
+    "focus-managed",
+    "screen-reader-tested",
+    "semantic-html"
+   ],
+   "content_type": [
+    "code",
+    "prose",
+    "design-tokens",
+    "icons",
+    "figma"
+   ],
+   "agent_readiness": [
+    "structured-docs",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "toolbar",
+   "list",
+   "dropdown-menu",
+   "popover",
+   "autocomplete",
+   "avatar",
+   "avatar-group",
+   "banner",
+   "empty-state",
+   "tag",
+   "breadcrumbs",
+   "button",
+   "button-group",
+   "card",
+   "checkbox",
+   "checkbox-group",
+   "badge",
+   "alert-dialog",
+   "data-grid",
+   "table",
+   "collapsible",
+   "dialog",
+   "form",
+   "label",
+   "heading",
+   "icon-button",
+   "inline-message",
+   "kbd",
+   "link",
+   "navigation-menu",
+   "modal",
+   "page-header",
+   "app-shell",
+   "pagination",
+   "progress-bar",
+   "radio-button",
+   "radio-group",
+   "segmented-control",
+   "select",
+   "multi-select",
+   "skeleton",
+   "spinner",
+   "split-view",
+   "stack",
+   "status-indicator",
+   "typography",
+   "text-input",
+   "tag-input",
+   "textarea",
+   "timeline",
+   "switch",
+   "chip",
+   "tooltip",
+   "tree-view",
+   "tabs",
+   "icon"
+  ],
+  "component_count": 62,
+  "surfaces": [
+   "settings-web-app",
+   "account-web-app",
+   "admin-panel",
+   "user-management",
+   "invite",
+   "share-and-permissions",
+   "search-results",
+   "filtering-items",
+   "single-item-detail",
+   "comments",
+   "notifications",
+   "version-history",
+   "empty-state",
+   "api-documentation",
+   "changelog"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "npm install @primer/react",
+  "package": "@primer/react",
+  "docs_url": "https://primer.style/components",
+  "repo_url": "https://github.com/primer/react",
+  "registry_url": null,
+  "github": {
+   "stars": 3886,
+   "license": "MIT",
+   "last_activity": "2026-08-15"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Do not install @primer/react for a generic product — it carries GitHub's visual identity and its trademark restrictions, and it is far less adopted (3.9k stars) than MUI or antd. Read it instead: the component anatomy, ActionList and SelectPanel patterns, PageLayout and the accessibility Foundations are among the best-written public references for how to structure a dense developer tool, and Octicons (github.com/primer/octicons, MIT) is genuinely reusable on its own. If you are building a GitHub App or Action UI, then Primer is the correct and expected choice.",
+  "why_it_matters": "One of the few public design systems maintained at real product scale, with the written rationale left in — the guidance is worth more to an agent than the npm package.",
+  "notable_for": [
+   "62 documented React components",
+   "Octicons SVG icon set",
+   "Rails ViewComponent implementation",
+   "primer/css with 13k stars",
+   "GitHub brand toolkit and design tokens"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-16",
+  "evidence": "https://primer.style/, https://primer.style/components (62 components enumerated), api.github.com/repos/primer/react, api.github.com/orgs/primer/repos, llms.txt returns 404",
+  "source": "canon",
+  "quality_tier": "B",
+  "tier_reason": "agent_guidance explicitly says not to install it for a generic product — trademark-restricted GitHub identity and only 3.9k stars — so its value is narrow: written guidance and Octicons rather than a usable component library."
+ },
+ {
+  "id": "canon:5cf9a5cb9046eb909006",
+  "slug": "carbon-design-system",
+  "url": "https://carbondesignsystem.com",
+  "name": "Carbon Design System",
+  "tagline": "IBM's open-source design system: 44 documented components across five frameworks",
+  "description": "Carbon is IBM's open-source design system, Apache-2.0 licensed. The site documents 44 components with separate Usage, Style, Code and Accessibility tabs for each, on top of the IBM Design Language — the 2x Grid, IBM Plex type scale, colour tokens, motion curves and IBM Able accessibility standards. React is the reference implementation (the package exports around 135 modules including Fluid form variants and AI-specific pieces); Web Components, Angular, Vue and Svelte implementations exist alongside it. There is also an official Carbon MCP server and a Carbon for AI guidance track.",
+  "category": "design-systems-brand",
+  "subcategory": "public-design-systems",
+  "kinds": [
+   "design-system-docs",
+   "component-library",
+   "brand-guidelines"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "web-components",
+    "angular",
+    "vue",
+    "svelte"
+   ],
+   "styling": [
+    "sass",
+    "css-variables",
+    "vanilla-css"
+   ],
+   "license": [
+    "apache-2.0"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo",
+    "figma-file",
+    "mcp-server"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "wcag-aa",
+    "aria-complete",
+    "keyboard-navigable",
+    "focus-managed",
+    "screen-reader-tested",
+    "semantic-html",
+    "contrast-checked"
+   ],
+   "content_type": [
+    "code",
+    "prose",
+    "design-tokens",
+    "figma",
+    "icons",
+    "fonts"
+   ],
+   "agent_readiness": [
+    "mcp-server",
+    "llms-txt",
+    "structured-docs",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "accordion",
+   "breadcrumbs",
+   "button",
+   "checkbox",
+   "code-block",
+   "list",
+   "segmented-control",
+   "data-grid",
+   "table",
+   "date-picker",
+   "select",
+   "combobox",
+   "multi-select",
+   "file-upload",
+   "form",
+   "spinner",
+   "link",
+   "loading-overlay",
+   "dropdown-menu",
+   "menu-button",
+   "context-menu",
+   "modal",
+   "dialog",
+   "alert",
+   "toast",
+   "number-input",
+   "text-input",
+   "textarea",
+   "password-input",
+   "search-input",
+   "pagination",
+   "popover",
+   "progress-bar",
+   "progress-stepper",
+   "radio-button",
+   "radio-group",
+   "slider",
+   "description-list",
+   "tabs",
+   "tag",
+   "card",
+   "switch",
+   "tooltip",
+   "tree-view",
+   "app-shell",
+   "sidebar",
+   "header",
+   "skeleton",
+   "time-picker",
+   "copy-button",
+   "icon-button",
+   "grid",
+   "stack",
+   "theme-provider",
+   "inline-edit",
+   "toggle-group"
+  ],
+  "component_count": 44,
+  "surfaces": [
+   "admin-panel",
+   "user-management",
+   "settings-web-app",
+   "account-web-app",
+   "analytics",
+   "filtering-items",
+   "search-results",
+   "single-item-detail",
+   "bulk-actions",
+   "data-import",
+   "data-export",
+   "multi-step-form",
+   "submitting-a-form",
+   "showing-input-error",
+   "empty-state",
+   "notifications",
+   "ai-chat-panel",
+   "api-documentation"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "npm install @carbon/react",
+  "package": "@carbon/react",
+  "docs_url": "https://carbondesignsystem.com/developing/get-started",
+  "repo_url": "https://github.com/carbon-design-system/carbon",
+  "registry_url": null,
+  "github": {
+   "stars": 9358,
+   "license": "Apache-2.0",
+   "last_activity": "2026-08-15"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Reach for Carbon when accessibility is a contractual requirement or the target is a regulated enterprise product — its per-component Accessibility tab and IBM Able conformance evidence are stronger than anything MUI or antd publish. It ships an official MCP server (github.com/carbon-design-system/carbon-mcp) that answers documentation questions and generates conforming code, plus an llms.txt, so wire those up rather than scraping; the marketing site is a Gatsby build whose HTML fetches poorly and whose /components/overview/ path 404s, so navigate to /components/<name>/usage directly. Watch the Sass toolchain — @carbon/react expects Sass with `@use`, which is friction in a Tailwind or CSS-in-JS project, and the visual identity is strongly IBM.",
+  "why_it_matters": "The most rigorously documented open design system in public, and one of the very few that treats accessibility, motion and grid as first-class specified subjects rather than afterthoughts.",
+  "notable_for": [
+   "Apache-2.0, not just MIT",
+   "official Carbon MCP server",
+   "44 components with Usage, Style, Code and Accessibility tabs",
+   "React, Web Components, Angular, Vue and Svelte builds",
+   "IBM Plex type system and 2x Grid",
+   "Carbon for AI guidance track"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-16",
+  "evidence": "https://carbondesignsystem.com/ (HTML), https://carbondesignsystem.com/sitemap-0.xml (44 component paths), https://carbondesignsystem.com/llms.txt (200), api.github.com/repos/carbon-design-system/carbon and its packages/react/src/components listing (135 dirs), api.github.com search for carbon-mcp; /components/overview/ returned 404",
+  "source": "canon",
+  "quality_tier": "A",
+  "tier_reason": "Apache-2.0 with an official MCP server, llms.txt and 44 components documented across five frameworks, held below S by the strongly IBM identity and a Sass `@use` toolchain that fights Tailwind or CSS-in-JS projects."
+ }
+]

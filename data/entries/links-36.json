@@ -1,0 +1,506 @@
+[
+ {
+  "id": "7a24168e-ffe5-4185-91e0-90988746c6d5",
+  "slug": "rourke-heath-seedance-2-prompting-tutorial",
+  "url": "https://www.youtube.com/watch?v=tYJQusOS2jI",
+  "name": "Seedance 2.0 Prompting Tutorial",
+  "tagline": "18-min video: a free Claude skill that writes time-coded Seedance 2.0 shot lists",
+  "description": "A YouTube tutorial by Rourke Heath (founder of Gen HQ) on prompting ByteDance's Seedance 2.0 video model through Higgsfield. Its actual deliverable is a free downloadable Claude skill called 'video prompt builder' that turns a one-line idea into a granular, timestamped shot list covering lighting design, hex colour palettes, camera behaviour, particle and atmospheric effects, character presentation and mood. The video demonstrates four workflows: seamless transitions from a live-action start frame, VFX shots, camera-tracked 3D text as an After Effects replacement, and 15-second Meta ad creatives from a single prompt. It also explains Omni reference, where you upload character sheets, location plates and text plates as prompt ingredients instead of a start frame.",
+  "category": "essays-guides-courses",
+  "subcategory": "ai-workflow-guides",
+  "kinds": [
+   "video",
+   "agent-skill",
+   "prompt-pack"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free",
+    "account-required"
+   ],
+   "distribution": [
+    "article",
+    "agent-skill"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "video",
+    "prompts"
+   ],
+   "agent_readiness": [
+    "agent-skill",
+    "copy-prompt"
+   ],
+   "maturity": "stable"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Video is free. The demonstrated generation runs are on Higgsfield (sponsor), which is a paid subscription platform; the Claude skill itself is a free download from the video description.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Reach for this when a user asks you to write a Seedance 2.0 or Higgsfield video prompt and you need the house format: 2-second shot blocks with explicit camera move, lighting, colour hex, and audio layer per block. The two hard operational constraints it states are worth carrying into any prompt you generate — Seedance caps prompts at 4,000 characters and Higgsfield at roughly 3,000, so budget length before you write, and emit only the shot list, not the 'master effects inventory' scaffolding. Do not treat the linked Claude skill as verified: the download sits behind a YouTube description link that was not fetched, and several unaffiliated clones of the same idea exist on GitHub.",
+  "why_it_matters": "It is one of the few Seedance walkthroughs that treats prompt authoring as a structured artifact — a reusable Claude skill — rather than a list of magic words, which is exactly the shape an agent can reuse.",
+  "quality_tier": "B",
+  "notable_for": [
+   "free 'video prompt builder' Claude skill",
+   "2-second-block time-coded shot lists",
+   "Omni reference vs start-frame explained",
+   "camera-tracked 3D text without After Effects",
+   "states the 4,000 / 3,000 character prompt caps"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://www.youtube.com/watch?v=tYJQusOS2jI (WebFetch returned only footer chrome; full caption transcript retrieved via YouTube captions, 484 segments, ~18 min), https://www.youtube.com/oembed?url=... for the exact title 'Seedance 2.0 Officially Public! Full Prompting Tutorial (Claude + Higgsfield)' and channel 'Rourke Heath'. Description links were not resolvable, so the Claude skill file itself is unverified."
+ },
+ {
+  "id": "4b4df164-8e21-4814-8774-4e8637083c0c",
+  "slug": "replicate-seedance-2-guide",
+  "url": "https://replicate.com/blog/seedance-2",
+  "name": "Seedance 2.0 on Replicate",
+  "tagline": "Replicate's official guide + API for ByteDance Seedance 2.0 text/image/video-to-video",
+  "description": "Replicate's engineering blog post 'How to make remarkable videos with Seedance 2.0' by Shridharathi, published 15 April 2026. It documents the model's multimodal input contract — up to 9 images, 3 video clips, 3 audio files and a text prompt in one generation, each addressable inside the prompt as [Image1], [Video1], [Audio1] — plus native synchronised stereo audio from the same engine, and time-coded multi-shot prompting in the form [0-4s]: ... [4-8s]: .... It ships copy-ready Python and JavaScript snippets against the model slug bytedance/seedance-2.0 and closes with a prompting-tips section. Use it as the canonical API-side reference when you need programmatic video generation rather than a web UI.",
+  "category": "generative-media-tools",
+  "subcategory": "video-and-render",
+  "kinds": [
+   "article",
+   "ai-tool",
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "python",
+    "vanilla"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "usage-based",
+    "account-required"
+   ],
+   "distribution": [
+    "public-api",
+    "saas",
+    "article"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "video",
+    "prose",
+    "code"
+   ],
+   "agent_readiness": [
+    "public-api",
+    "structured-docs",
+    "copy-prompt"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "pip install replicate",
+  "package": "replicate",
+  "docs_url": "https://replicate.com/bytedance/seedance-2.0",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Not stated in the post; Replicate bills per run and the model page did not expose a per-second rate at fetch time. Treat cost as unverified usage-based.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use this over the Higgsfield UI whenever the video generation has to happen in code — it gives you the exact slug bytedance/seedance-2.0 and working Python/JS calls. Hard limits to design around: 15 seconds maximum per generation, 480p or 720p only, aspect ratios 16:9 / 4:3 / 1:1 / 3:4 / 9:16 / 21:9 / adaptive, and duration -1 to let the model choose. Structure long prompts as time-coded blocks and describe the audio explicitly, because audio is generated by the same pass — if you leave sound undescribed you get a soundtrack you did not ask for rather than silence.",
+  "why_it_matters": "It is the shortest path from 'we want AI video in the product' to a running API call, and the time-coded prompt grammar it documents is the piece most third-party tutorials get wrong.",
+  "quality_tier": "A",
+  "notable_for": [
+   "exact model slug bytedance/seedance-2.0",
+   "9 images + 3 videos + 3 audio in one call",
+   "[Image1]/[Video1]/[Audio1] prompt addressing",
+   "[0-4s]: time-coded multi-shot syntax",
+   "native millisecond-synced stereo audio"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://replicate.com/blog/seedance-2 (fetched twice — once for the summary, once for section headings, code identifiers and the prompting-tips list), https://replicate.com/bytedance/seedance-2.0 (fetched for input parameters and limits; pricing and run count were not exposed)."
+ },
+ {
+  "id": "95a9eea9-aee5-43ce-9625-18cc2c4fd4b3",
+  "slug": "instagram-reel-dw3-r-3e2jk",
+  "url": "https://www.instagram.com/reel/DW3-R-3E2Jk",
+  "name": "Instagram Reel DW3-R-3E2Jk",
+  "tagline": "Saved Instagram Reel filed under creative AI; creator and subject unidentified",
+  "description": "A single Instagram Reel saved as a creative-AI reference. The upstream enrichment pass returned only the generic Reels boilerplate — no creator handle, caption, or on-screen subject — so the specific technique or output it demonstrates is not recorded. Treat it as a placeholder pointer into a saved-posts collection rather than a described resource.",
+  "category": "artists-creators",
+  "subcategory": "saved-posts",
+  "kinds": [
+   "social-post",
+   "video"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free",
+    "account-required"
+   ],
+   "distribution": [
+    "unknown"
+   ],
+   "platform": [
+    "social",
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "video"
+   ],
+   "agent_readiness": [
+    "auth-required",
+    "bot-blocked"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Do not fetch this URL — Instagram serves a login wall to unauthenticated clients and any 'content' you produce from it would be invented. There is nothing here to act on: no creator, no technique, no asset. If a user needs what this reel shows, ask them to open it and describe it, or route through an authenticated Instagram tool.",
+  "why_it_matters": "It marks a gap in the index rather than a resource — an unlabelled saved post that needs a human pass before it earns a place in a design catalog.",
+  "quality_tier": "C",
+  "notable_for": [
+   "creative-AI saved post",
+   "no creator or caption captured",
+   "login-walled to agents"
+  ],
+  "already_enriched": true,
+  "http_status": null,
+  "verified_at": "2026-08-15",
+  "evidence": "Not fetched, per the instagram.com policy in the task brief. Fields derived from the supplied bucketmark title, description and tags only."
+ },
+ {
+  "id": "f30397a9-c585-472a-83e1-6987cd460bdb",
+  "slug": "instagram-reel-dwmpmf-jo69",
+  "url": "https://www.instagram.com/reel/DWMPmF-jo69",
+  "name": "Instagram Reel DWMPmF-jo69",
+  "tagline": "Saved Instagram Reel filed under creative AI; creator and subject unidentified",
+  "description": "A single Instagram Reel saved as a creative-AI reference. The upstream enrichment returned only generic Reels boilerplate — music, effects, creative edits — with no creator handle, caption, or identifiable subject, so what it actually demonstrates is unrecorded. Treat it as a pointer into a saved-posts collection, not a described resource.",
+  "category": "artists-creators",
+  "subcategory": "saved-posts",
+  "kinds": [
+   "social-post",
+   "video"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free",
+    "account-required"
+   ],
+   "distribution": [
+    "unknown"
+   ],
+   "platform": [
+    "social",
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "video"
+   ],
+   "agent_readiness": [
+    "auth-required",
+    "bot-blocked"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Do not fetch — Instagram login-walls unauthenticated clients, and anything you write from the URL alone is fabrication. Nothing here is actionable for building or designing. Escalate to the user for a description, or use an authenticated Instagram reader if one is connected.",
+  "why_it_matters": "Another unlabelled saved post: it records that something was worth keeping without recording why, which is a maintenance debt on the index.",
+  "quality_tier": "C",
+  "notable_for": [
+   "creative-AI saved post",
+   "boilerplate description only",
+   "login-walled to agents"
+  ],
+  "already_enriched": true,
+  "http_status": null,
+  "verified_at": "2026-08-15",
+  "evidence": "Not fetched, per the instagram.com policy in the task brief. Fields derived from the supplied bucketmark title, description and tags only."
+ },
+ {
+  "id": "e2d25d19-20bc-4a9a-b425-48a7d8f3c657",
+  "slug": "instagram-reel-dvjxkqpiams",
+  "url": "https://www.instagram.com/reel/DVJXkQpiAMS",
+  "name": "Instagram Reel DVJXkQpiAMS",
+  "tagline": "Saved Instagram Reel filed under creative AI; creator and subject unidentified",
+  "description": "A single Instagram Reel saved as a creative-AI reference. Its stored description is one line of boilerplate with no creator, caption, or subject, so the technique or output it shows is not on record. Treat it as an unresolved pointer rather than a catalog entry with content.",
+  "category": "artists-creators",
+  "subcategory": "saved-posts",
+  "kinds": [
+   "social-post",
+   "video"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free",
+    "account-required"
+   ],
+   "distribution": [
+    "unknown"
+   ],
+   "platform": [
+    "social",
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "video"
+   ],
+   "agent_readiness": [
+    "auth-required",
+    "bot-blocked"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Do not fetch — the URL returns a login wall to agents, so no honest description can be produced from it. It carries the thinnest metadata of the four reels in this batch. Ask the user what it shows before you let it influence any design decision.",
+  "why_it_matters": "The thinnest record in the batch — useful only as evidence that saved social posts need an authenticated enrichment path to become real index entries.",
+  "quality_tier": "C",
+  "notable_for": [
+   "creative-AI saved post",
+   "single-line stored description",
+   "login-walled to agents"
+  ],
+  "already_enriched": true,
+  "http_status": null,
+  "verified_at": "2026-08-15",
+  "evidence": "Not fetched, per the instagram.com policy in the task brief. Fields derived from the supplied bucketmark title, description and tags only."
+ },
+ {
+  "id": "f1a53f01-4cb4-43c7-9d6c-ab7e28f51d75",
+  "slug": "instagram-reel-dujbpm5cieo",
+  "url": "https://www.instagram.com/reel/DUJBpM5CIEO",
+  "name": "Instagram Reel DUJBpM5CIEO",
+  "tagline": "Saved Instagram Reel filed under creative AI; creator and subject unidentified",
+  "description": "A single Instagram Reel saved as a creative-AI reference. The stored description is the generic Reels format blurb — user-generated short video with music, effects and editing — and names no creator, caption, or subject. Nothing about its actual craft content is verified.",
+  "category": "artists-creators",
+  "subcategory": "saved-posts",
+  "kinds": [
+   "social-post",
+   "video"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free",
+    "account-required"
+   ],
+   "distribution": [
+    "unknown"
+   ],
+   "platform": [
+    "social",
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "video"
+   ],
+   "agent_readiness": [
+    "auth-required",
+    "bot-blocked"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Do not fetch — Instagram blocks unauthenticated reads, so any description you generate would be invented. Treat this as a to-triage item, not a source. If the surrounding batch context matters, the other three reels in this batch share the same defect and should be resolved together in one authenticated pass.",
+  "why_it_matters": "One of four identically undescribed reels in this batch, which together show that the creative-AI social bucket has not been enriched at all.",
+  "quality_tier": "C",
+  "notable_for": [
+   "creative-AI saved post",
+   "generic Reels boilerplate description",
+   "login-walled to agents"
+  ],
+  "already_enriched": true,
+  "http_status": null,
+  "verified_at": "2026-08-15",
+  "evidence": "Not fetched, per the instagram.com policy in the task brief. Fields derived from the supplied bucketmark title, description and tags only."
+ }
+]

@@ -1,0 +1,50 @@
+name: CI
+
+permissions:
+  contents: read
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Build the static export
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7.0.1
+
+      - uses: actions/setup-node@v7.0.0
+        with:
+          node-version: '24'
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci --no-audit --no-fund
+
+      - name: Audit dependencies
+        run: npm audit --audit-level=high
+
+      - name: Check source, data, and static export
+        run: npm run check
+
+      - name: Report the export size
+        run: |
+          echo "Pages: $(find out -name '*.html' | wc -l)"
+          echo "Size:  $(du -sh out | cut -f1)"
+
+      - name: Build and check the container
+        run: |
+          docker build -t index-ci .
+          docker run --rm index-ci nginx -t
+          docker run -d --name index-ci -p 127.0.0.1:8099:80 index-ci
+          trap 'docker logs index-ci; docker rm -f index-ci' EXIT
+          curl --retry 10 --retry-all-errors --retry-delay 1 --retry-max-time 30 --max-time 10 -fsS http://127.0.0.1:8099/ -o /dev/null
+          curl -fsS http://127.0.0.1:8099/api/stats.json | jq -e '.resources > 0'

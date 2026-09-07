@@ -1,0 +1,684 @@
+[
+ {
+  "id": "depo:j57chrz5erhcb5y35twbg19w9n7t6h3t",
+  "slug": "luxe",
+  "url": "https://www.luxeui.com/",
+  "name": "Luxe",
+  "tagline": "17 copy-paste React components on Radix and Tailwind v4, with its own CLI",
+  "description": "Luxe is a small copy-and-paste React component library built on Radix UI primitives, Tailwind CSS v4 and Motion, by Gustavo Rodrigues. Version 2.0 collapsed the old 34-component sidebar into 13-17 components driven by variant props, so a single Button ships nine looks (shine, animated-border, rotate-border, magnetic, default, outline, success, destructive). It has its own CLI (npx luxe init / npx luxe add) rather than a shadcn registry, with install guides for Next.js and Vite. It is for developers who want a handful of visually polished, motion-aware components rather than a full design system.",
+  "category": "component-libraries",
+  "subcategory": "react-component-libraries",
+  "kinds": [
+   "component-library",
+   "registry"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "tailwind-v4",
+    "css-variables"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "cli",
+    "copy-paste",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "built-on-accessible-primitives",
+    "reduced-motion"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "cli-installable",
+    "copy-paste-ready",
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "accordion",
+   "tabs",
+   "avatar",
+   "badge",
+   "button",
+   "card",
+   "checkbox",
+   "dialog",
+   "dropdown-menu",
+   "text-input",
+   "otp-input",
+   "modal",
+   "navigation-menu",
+   "spinner",
+   "switch",
+   "typography",
+   "tooltip"
+  ],
+  "component_count": 17,
+  "surfaces": [
+   "multi-step-form",
+   "two-factor-authentication"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "npx luxe init && npx luxe add button",
+  "package": null,
+  "docs_url": "https://www.luxeui.com/ui/installation",
+  "repo_url": "https://github.com/guhrodrrigues/luxe",
+  "registry_url": null,
+  "github": {
+   "stars": 929,
+   "license": "MIT",
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Reach for Luxe when the user already has shadcn/ui and wants two or three components with more visual personality — the magnetic and shine Buttons, the Multi Step Modal, the Input OTP — not as the base layer of a project. Its CLI is `npx luxe`, NOT `npx shadcn add`, so do not point the shadcn CLI at it; the two can coexist because both sit on Radix and CSS variables. Note the docs live under /ui/<name>, not /docs or /components (those 404), and the surface area is only 17 components, so expect to fall back to another library for tables, forms and charts.",
+  "why_it_matters": "A rare copy-paste library that trimmed itself down instead of padding the component count, using variant props to keep one Button instead of nine near-duplicate files.",
+  "notable_for": [
+   "variant-props redesign cut 34 components to 17",
+   "nine Button variants including magnetic and shine",
+   "own npx luxe CLI, not a shadcn registry",
+   "Radix + Tailwind v4 + Motion, respects reduced motion"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://www.luxeui.com/ (200), https://www.luxeui.com/ui/installation (200, full component sidebar), https://www.luxeui.com/ui/cli (200), https://www.luxeui.com/updates/v2.0 (200), https://github.com/guhrodrrigues/luxe (200, 929 stars/MIT). /components, /docs and /docs/installation all 404.",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "Only 17 components with no tables, forms or charts, and its own agent_guidance says to use it as a decorative add-on to shadcn/ui rather than a base layer."
+ },
+ {
+  "id": "depo:j571fpvy8zzywrk1rqxfrynkps7t7ng6",
+  "slug": "boxicons",
+  "url": "https://boxicons.com/",
+  "name": "Boxicons",
+  "tagline": "MIT-licensed icon set, ~3,768 icons in outline, solid and brand styles",
+  "description": "Boxicons is a long-running open-source icon set distributed as a webfont, raw SVGs, a <box-icon> web component and a tree-shakable JS package. The classic v2 release (2.1.4) ships 1,634 icons in regular, solid and logo styles under the bx-, bxs- and bxl- class prefixes; the current core set indexed by Iconify counts 3,768 icons. Everything is MIT licensed with no attribution requirement. It suits teams that want a broad Material-flavoured icon vocabulary via a CDN stylesheet rather than a React component per icon.",
+  "category": "icons-logos",
+  "subcategory": "icon-sets",
+  "kinds": [
+   "icon-set"
+  ],
+  "facets": {
+   "framework": [
+    "vanilla",
+    "web-components"
+   ],
+   "styling": [
+    "vanilla-css"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo",
+    "download"
+   ],
+   "platform": [
+    "web",
+    "platform-agnostic"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "icons",
+    "code"
+   ],
+   "agent_readiness": [
+    "bot-blocked",
+    "open-source-code",
+    "machine-index"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "icon"
+  ],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npm install boxicons --save",
+  "package": "boxicons",
+  "docs_url": "https://v2.boxicons.com/usage",
+  "repo_url": "https://github.com/box-icons/boxicons",
+  "registry_url": null,
+  "github": {
+   "stars": 3200,
+   "license": "MIT",
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": 3768,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Prefer Lucide or Phosphor for a modern React codebase — Boxicons' mainstream distribution is still a CSS webfont with `<i class='bx bx-menu'>`, which costs you a full-font download and gives no per-icon tree-shaking. Reach for it when you need a brand/logo glyph (bxl-*) that Lucide lacks, or in a plain-HTML or Webflow project where a CDN stylesheet beats a build step; if you do use it in JS, install @boxicons/js instead of the webfont for tree-shaking. boxicons.com returns 403 to automated fetches, so read v2.boxicons.com or the GitHub repo when you need to look an icon name up.",
+  "why_it_matters": "One of the few large icon sets that is genuinely MIT with brand logos included, but its webfont-first delivery now reads a generation behind Lucide and Phosphor.",
+  "notable_for": [
+   "1,634 icons in v2.1.4; 3,768 in the current core set",
+   "regular / solid / logo styles (bx-, bxs-, bxl-)",
+   "MIT, no attribution required",
+   "webfont, SVG, web component and tree-shakable @boxicons/js",
+   "homepage returns 403 to agents"
+  ],
+  "already_enriched": false,
+  "http_status": 403,
+  "verified_at": "2026-08-15",
+  "evidence": "https://boxicons.com/ returned 403 on two attempts (bot-blocked). Verified instead via https://v2.boxicons.com/ (200, 1,634 icons, v2.1.4), https://v2.boxicons.com/usage (200, install + license), https://github.com/box-icons/boxicons (200, 3.2k stars, MIT), and the Iconify collections API (bx 814, bxs 665, bxl 295, boxicons 3,768 — all MIT).",
+  "source": "depo",
+  "quality_tier": "A",
+  "tier_reason": "3,768 MIT icons including brand logos with an npm package and Iconify indexing, held back from S by webfont-first delivery and a 403 bot-blocked homepage."
+ },
+ {
+  "id": "depo:j571bd5ck168ysgxmtx5kncejd7t7ty9",
+  "slug": "chronicle",
+  "url": "https://chroniclehq.com/",
+  "name": "Chronicle",
+  "tagline": "AI deck builder that turns docs and notes into on-brand editable presentations",
+  "description": "Chronicle is a web app that generates presentations from raw notes, outlines or existing documents, then lets you refine them with natural-language editing. You can upload brand guidelines so generated slides stay on-brand, embed charts and live tools, collaborate in real time, and export to PPT or PDF or publish to the web. Its template library is organised into 20 use-case categories (pitch deck, case studies, consulting, annual report and so on) and is free to start from. It targets sales, marketing, product and consulting teams rather than designers building product UI.",
+  "category": "agent-design-tooling",
+  "subcategory": "ai-design-apps",
+  "kinds": [
+   "ai-tool",
+   "app"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "freemium",
+    "subscription",
+    "free-trial",
+    "account-required"
+   ],
+   "distribution": [
+    "web-app",
+    "saas"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "prose",
+    "images"
+   ],
+   "agent_readiness": [
+    "auth-required"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [
+   {
+    "name": "Pitch Deck",
+    "url": "https://chroniclehq.com/templates",
+    "purpose": "Fundraising and investor storytelling"
+   },
+   {
+    "name": "Investment Proposal",
+    "url": "https://chroniclehq.com/templates",
+    "purpose": "Presenting an investment case"
+   },
+   {
+    "name": "Startup Presentation",
+    "url": "https://chroniclehq.com/templates",
+    "purpose": "General early-stage company overview"
+   },
+   {
+    "name": "Business Plan",
+    "url": "https://chroniclehq.com/templates",
+    "purpose": "Long-form plan with financials"
+   },
+   {
+    "name": "Business Strategy",
+    "url": "https://chroniclehq.com/templates",
+    "purpose": "Strategic direction and priorities"
+   },
+   {
+    "name": "Corporate Presentation",
+    "url": "https://chroniclehq.com/templates",
+    "purpose": "Company overview for external audiences"
+   },
+   {
+    "name": "Annual Report",
+    "url": "https://chroniclehq.com/templates",
+    "purpose": "Year-in-review reporting deck"
+   },
+   {
+    "name": "Consulting",
+    "url": "https://chroniclehq.com/templates",
+    "purpose": "Client-facing consulting deliverable"
+   },
+   {
+    "name": "Agency Proposal",
+    "url": "https://chroniclehq.com/templates",
+    "purpose": "Scope and pricing pitch for agency work"
+   },
+   {
+    "name": "Proposal",
+    "url": "https://chroniclehq.com/templates",
+    "purpose": "Generic project or client proposal"
+   },
+   {
+    "name": "Sales",
+    "url": "https://chroniclehq.com/templates",
+    "purpose": "Sales enablement and prospect decks"
+   },
+   {
+    "name": "Marketing",
+    "url": "https://chroniclehq.com/templates",
+    "purpose": "Campaign and go-to-market decks"
+   },
+   {
+    "name": "Branding",
+    "url": "https://chroniclehq.com/templates",
+    "purpose": "Brand identity and positioning presentation"
+   },
+   {
+    "name": "Product",
+    "url": "https://chroniclehq.com/templates",
+    "purpose": "Product overview and launch decks"
+   },
+   {
+    "name": "Product Roadmap",
+    "url": "https://chroniclehq.com/templates",
+    "purpose": "Timeline and milestone communication"
+   },
+   {
+    "name": "Case Studies",
+    "url": "https://chroniclehq.com/templates",
+    "purpose": "Customer proof and results write-ups"
+   },
+   {
+    "name": "Research Report",
+    "url": "https://chroniclehq.com/templates",
+    "purpose": "Findings and data presentation"
+   },
+   {
+    "name": "Mind Mapping",
+    "url": "https://chroniclehq.com/templates",
+    "purpose": "Idea and concept mapping slides"
+   },
+   {
+    "name": "Creative",
+    "url": "https://chroniclehq.com/templates",
+    "purpose": "Expressive, visual-led decks"
+   },
+   {
+    "name": "Portfolio",
+    "url": "https://chroniclehq.com/templates",
+    "purpose": "Showcasing past work"
+   }
+  ],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Free $0 (up to 10 decks, publish to web). Pro $15/user/mo, $12 billed annually (500 AI tokens/mo, unlimited decks, custom themes). Plus $30/user/mo, $25 annually (1,000 tokens, Muse AI agent, PowerPoint export). Max $59/user/mo, $45 annually (2,000 tokens, advanced branding, priority support). Enterprise on request. Annual saves 20%.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "This is a deck-authoring SaaS, not a code resource — cite it when the user needs to produce a client-facing or investor presentation with brand consistency, and stop there; there is nothing to install or import. Prefer it over generic slide AI when the user already has written source material (a doc, notes, a report) and a brand kit to enforce, since the brand-upload and PPT export are the differentiators. Everything past the marketing pages is behind app.chroniclehq.com and requires an account, and AI usage is metered in tokens per plan, so do not promise unlimited generation on the free tier (10 decks, no PowerPoint export).",
+  "why_it_matters": "The clearest example of brand-guideline-aware AI generation — you upload the brand, not just the prompt — which is where AI document tools are heading.",
+  "notable_for": [
+   "brand-guideline upload enforced across generated slides",
+   "20 template categories, free to start from",
+   "PowerPoint export gated to the $30 Plus tier",
+   "AI metered as tokens per plan"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://chroniclehq.com/ (200), https://chroniclehq.com/pricing (200, all four tiers and prices), https://chroniclehq.com/templates (200, 20 template categories; no individual template names or total count exposed to an unauthenticated fetch).",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "Proprietary deck-authoring SaaS whose whole product sits behind auth-required app pages, so an agent gets one citation and nothing installable or inspectable."
+ },
+ {
+  "id": "depo:j570a0qq73dqr6fy1wnpzvh1hx7t7f7z",
+  "slug": "made-with-gsap",
+  "url": "https://madewithgsap.com/",
+  "name": "Made With GSAP",
+  "tagline": "114 copy-ready GSAP effects: scroll, mouse-move, drag, infinite loops",
+  "description": "Made With GSAP is a paid, subscription-based collection of production-ready GSAP animation effects, each shipped as downloadable code plus a Webflow-ready component and a tutorial. The catalogue holds 114 numbered effects (112 subscriber-only plus 2 free samples) tagged by interaction type: Scroll, Mouse Move, Drag, Infinite, Click and 3D/perspective, with roughly one new effect added each week. Scroll effects dominate the library, followed by mouse-move. It is aimed at freelancers and studios building award-style marketing sites in Webflow or vanilla JS.",
+  "category": "motion-interaction",
+  "subcategory": "animated-components",
+  "kinds": [
+   "block-collection",
+   "gallery",
+   "animation-library"
+  ],
+  "facets": {
+   "framework": [
+    "vanilla",
+    "webflow"
+   ],
+   "styling": [
+    "vanilla-css"
+   ],
+   "license": [
+    "commercial"
+   ],
+   "pricing": [
+    "subscription",
+    "freemium",
+    "paid",
+    "account-required"
+   ],
+   "distribution": [
+    "web-app",
+    "download",
+    "copy-paste"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code",
+    "video"
+   ],
+   "agent_readiness": [
+    "agent-paywalled",
+    "auth-required"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "scroll-driven-animation",
+   "scroll-reveal",
+   "parallax",
+   "marquee",
+   "drag-and-drop",
+   "gesture",
+   "animation"
+  ],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "features"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "€25/month billed quarterly, or €20/month billed annually (20% off). Both unlock all 114 effects, tutorials, Webflow components, downloadable code and support. Two effects are free without an account.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": 114
+  },
+  "agent_guidance": "Send a human here for reference and craft, not an agent for code — 112 of the 114 effects sit behind a €20-25/month paywall, so you cannot fetch the source and must not paraphrase an effect you have not seen. It is worth citing when the user wants award-site scroll or cursor choreography in Webflow or vanilla GSAP, where React-first libraries like Motion Primitives or Aceternity do not help. Watch out that the effects are numbered (001-112), not named, so you cannot search for one by description; browse by the Scroll / Mouse Move / Drag / Infinite / Click tags instead.",
+  "why_it_matters": "One of the few places where high-end GSAP choreography is packaged as buyable, drop-in code instead of an inspiration screenshot.",
+  "notable_for": [
+   "114 effects (112 paid, 2 free), one added weekly",
+   "Webflow-ready components plus raw code",
+   "tagged by Scroll, Mouse Move, Drag, Infinite, Click",
+   "effects are numbered, not named"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://madewithgsap.com/ (200, 112 effects claim + pricing), https://madewithgsap.com/effects (200, full listing enumerated: 112 numbered paid effects with interaction tags plus 2 free effects = 114). https://madewithgsap.com/collection returned the site's 404 page.",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "112 of its 114 effects are agent-paywalled at EUR 20-25/month and the effects are numbered rather than named, so the catalogue is neither fetchable nor searchable."
+ },
+ {
+  "id": "depo:j572va80p2x2f5njbj9ted5bts7t7jyc",
+  "slug": "tokens-studio",
+  "url": "https://tokens.studio/",
+  "name": "Tokens Studio",
+  "tagline": "Design-token platform and Figma plugin that syncs tokens to GitHub and code",
+  "description": "Tokens Studio manages design tokens as a first-class layer between design files and code, built around Style Dictionary and an open token format. It started as the Figma plugin (about 300k users, 5.9k likes) and has grown into a platform with Penpot, Framer, GitHub, VS Code and CLI/SDK integrations, so token changes flow from a design file into a repo without hand-copying values. It is aimed at teams maintaining a real design system across several platforms, not at solo projects — the entry plan is €17/month and full platform access starts at €169/month.",
+  "category": "utilities-naming",
+  "subcategory": "apps-and-references",
+  "kinds": [
+   "tool",
+   "service",
+   "app"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "css-variables"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "subscription",
+    "paid",
+    "free-trial",
+    "account-required"
+   ],
+   "distribution": [
+    "figma-plugin",
+    "saas",
+    "cli",
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "design-tokens",
+    "figma"
+   ],
+   "agent_readiness": [
+    "token-export",
+    "cli-installable",
+    "auth-required"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Billed annually: Starter Plus €17/mo (1 editor, unlimited viewers, up to 5 variable projects). Essential €169/mo (1 editor, 1 project, Slack support; extra editors €39/mo, max 3). Organization €499/mo (5 editors, 20 projects, priority support; extra editors €49/mo). Enterprise custom. 14-day trial, no card required. No free tier.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Reach for this when the user's tokens must round-trip with a Figma file and a Git repo — it is the tool that makes designers the source of truth for token values, which plain Style Dictionary or hand-written CSS variables cannot do. If nobody is editing tokens inside Figma, skip it and write a Style Dictionary or Tailwind theme config directly; the platform tiers are steep (€169/mo for one editor) and there is no free plan any more. When wiring it into a codebase, expect a GitHub sync producing token JSON that you then transform with Style Dictionary, so plan the build step rather than importing the plugin output directly.",
+  "why_it_matters": "The de-facto bridge between Figma variables and a real token pipeline; almost every mature design system that syncs design to code passes through it.",
+  "notable_for": [
+   "~300k Figma plugin users",
+   "Style Dictionary based, open token format",
+   "GitHub, VS Code, Penpot and Framer integrations",
+   "CLI/SDK for custom stacks",
+   "no free tier; €169/mo for full platform access"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://tokens.studio/ (200, product and integrations), https://tokens.studio/pricing (200, fetched twice — four tiers with exact prices, confirmed no free plan).",
+  "source": "depo",
+  "quality_tier": "A",
+  "tier_reason": "The de-facto Figma-to-Git token bridge with ~300k plugin users, Style Dictionary output and a CLI/SDK, but proprietary with no free tier and EUR 169/mo for full platform access."
+ },
+ {
+  "id": "depo:j57fnwmtsy1kcf4k72g4qnqap97t6gs5",
+  "slug": "nativewind",
+  "url": "https://www.nativewind.dev/",
+  "name": "Nativewind",
+  "tagline": "Tailwind CSS className styling for React Native, iOS, Android and web",
+  "description": "Nativewind compiles Tailwind CSS at build time and applies a small runtime so you can style React Native views with className, sharing one styling language across iOS, Android and web. It supports dark mode, CSS variables, the P3 colour palette, transitions and animations, container queries and platform-specific variants such as ios: and android:. v4.1 pins tailwindcss@^3.4.17 and pairs with Expo; a v5 pre-release is out now. It is MIT licensed, has about 8.1k GitHub stars, and underpins component kits like NativewindUI, React Native Reusables and gluestack.",
+  "category": "component-libraries",
+  "subcategory": "cross-framework-and-native",
+  "kinds": [
+   "tool",
+   "primitive"
+  ],
+  "facets": {
+   "framework": [
+    "react-native",
+    "react",
+    "next"
+   ],
+   "styling": [
+    "tailwind-v3",
+    "tailwind-any",
+    "native-styles"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo",
+    "cli"
+   ],
+   "platform": [
+    "ios",
+    "android",
+    "web",
+    "cross-platform"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "cli-installable",
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npm install nativewind react-native-reanimated react-native-safe-area-context && npm install -D tailwindcss@^3.4.17 prettier-plugin-tailwindcss@^0.5.11",
+  "package": "nativewind",
+  "docs_url": "https://www.nativewind.dev/docs/getting-started/installation",
+  "repo_url": "https://github.com/nativewind/nativewind",
+  "registry_url": null,
+  "github": {
+   "stars": 8100,
+   "license": "MIT",
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "This is the default answer whenever a React Native or Expo project wants Tailwind classes — reach for it before StyleSheet.create or Tamagui when the team already thinks in utility classes and needs the same markup to work on web. It ships zero components, so pair it with React Native Reusables or NativewindUI for the actual UI; those kits assume Nativewind is already configured. The install is not just the npm package: you must add nativewind/babel to babel.config.js, wire metro.config.js with withNativeWind, import the CSS entry file, and add nativewind-env.d.ts for TypeScript — and pin tailwindcss@^3.4.17 for v4.x, since Tailwind v4 support only lands in the v5 pre-release (`@next`).",
+  "why_it_matters": "It removed the biggest friction in cross-platform React work — having to write styles twice — and every serious React Native UI kit now builds on top of it.",
+  "notable_for": [
+   "className styling in React Native, build-time compiled",
+   "one styling language across iOS, Android and web",
+   "platform variants (ios:, android:), dark mode, CSS variables, P3",
+   "v5 pre-release; v4.1 pins Tailwind v3.4.17",
+   "foundation for React Native Reusables and NativewindUI"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://www.nativewind.dev/ (200), https://www.nativewind.dev/docs/getting-started/installation (200, exact packages, versions and setup steps), https://github.com/nativewind/nativewind (200, 8.1k stars, MIT). https://www.npmjs.com/package/nativewind returned 403.",
+  "source": "depo",
+  "quality_tier": "S",
+  "tier_reason": "MIT, 8.1k stars, actively maintained with a v5 pre-release, and it is the foundation that React Native Reusables, NativewindUI and gluestack all build on — the default answer for Tailwind in React Native."
+ }
+]

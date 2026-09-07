@@ -1,0 +1,582 @@
+[
+  {
+    "id": "depo:j578g1a6rvebyps6dzvh7v9kch88rvf6",
+    "slug": "mingcute-icons",
+    "url": "https://www.mingcute.com/",
+    "name": "MingCute Icons",
+    "tagline": "1,663 icons in regular and filled, shipped as 10 framework packages",
+    "description": "MingCute is an open-source icon library of 1,663 icons drawn in two matched styles, Core Regular and Core Filled, for 3,326 total styled definitions. It is generated from one canonical set of artwork into ten packages: React, Vue 3, Svelte, SolidJS, React Native, vanilla JS, web components, raw SVG, a WOFF2 icon font, and a framework-neutral definition package. Apache-2.0 for the free set, with a separate paid Pro tier on a private registry for extra styles. Suited to product teams that want one consistent icon voice across web and mobile without paying per seat.",
+    "category": "icons-logos",
+    "subcategory": "icon-sets",
+    "kinds": [
+      "icon-set"
+    ],
+    "facets": {
+      "framework": [
+        "react",
+        "vue",
+        "svelte",
+        "solid",
+        "react-native",
+        "web-components",
+        "vanilla"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "apache-2.0",
+        "commercial"
+      ],
+      "pricing": [
+        "free",
+        "open-source",
+        "freemium"
+      ],
+      "distribution": [
+        "npm-package",
+        "github-repo",
+        "download",
+        "figma-plugin",
+        "mcp-server"
+      ],
+      "platform": [
+        "web",
+        "cross-platform"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "icons",
+        "code"
+      ],
+      "agent_readiness": [
+        "mcp-server",
+        "open-source-code",
+        "js-only-shell"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "icon"
+    ],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": "npm install @mingcute/react",
+    "package": "@mingcute/react",
+    "docs_url": null,
+    "repo_url": "https://github.com/mingcute-design/mingcute-icons",
+    "registry_url": null,
+    "github": {
+      "stars": 1615,
+      "license": "Apache-2.0",
+      "last_activity": "2026-07-31"
+    },
+    "pricing_detail": "Core set free under Apache-2.0; MingCute Pro is a paid tier on a private registry under a proprietary licence (price not published on the pages fetched).",
+    "counts": {
+      "icons": 3326,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Reach for MingCute when Lucide's stroke-only look is too plain and you need a matched filled variant of every glyph — it is one of the few Apache-2.0 sets that ships regular and filled as a true pair, so a filled active state never drifts off-style. Install the framework package (@mingcute/react, @mingcute/vue, @mingcute/svelte) rather than copying SVGs, and use @mingcute/font only for legacy non-React surfaces. Watch out: the marketing site is a JS-only shell that blocks bots, so search the GitHub repo or the Figma plugin for icon names instead of scraping mingcute.com.",
+    "why_it_matters": "A permissively licensed, genuinely two-style icon set at 1,600+ glyphs is rare — most free sets give you one weight and force you to fake the second. The ten-package build story also means the same names work in React, Vue, Svelte, and React Native.",
+    "quality_tier": "A",
+    "notable_for": [
+      "1,663 icons in two matched styles",
+      "10 generated framework packages",
+      "Apache-2.0 licence",
+      "WOFF2 icon font included",
+      "Figma plugin"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://www.mingcute.com/ (403 to WebFetch twice; curl with a browser UA returned 200 but only a 3.6KB JS shell with no icon data), https://github.com/Richard9394/MingCute (redirects to mingcute-design/mingcute-icons), https://github.com/Richard9394/MingCute/blob/main/README.md, GitHub API repos/Richard9394/MingCute for stars/licence/pushed_at",
+    "source": "depo"
+  },
+  {
+    "id": "depo:j57fapf3jz2vswf5rehd6y68y588pgnh",
+    "slug": "notra",
+    "url": "https://www.usenotra.com/",
+    "name": "Notra",
+    "tagline": "Turns merged PRs and closed Linear issues into changelogs and launch posts",
+    "description": "Notra is a hosted SaaS that reads shipped work from GitHub and Linear and writes the release communication around it: changelog entries, launch posts, blog drafts, social updates, and matching generated images in your brand colours. You train it on a company profile so output keeps one voice, then wire event automations that fire on a merge or an issue close. It reaches your workflow through an API, an MCP server, and a CLI. It is a marketing-ops tool for small product teams, not a design resource — there is nothing here to install into a UI.",
+    "category": "utilities-naming",
+    "subcategory": "apis-and-services",
+    "kinds": [
+      "ai-tool",
+      "service",
+      "app"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "proprietary"
+      ],
+      "pricing": [
+        "subscription",
+        "free-trial",
+        "account-required",
+        "paid"
+      ],
+      "distribution": [
+        "saas",
+        "web-app",
+        "public-api",
+        "mcp-server",
+        "cli"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "prose",
+        "images"
+      ],
+      "agent_readiness": [
+        "mcp-server",
+        "public-api",
+        "cli-installable",
+        "auth-required"
+      ],
+      "maturity": "stable"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [
+      "changelog",
+      "feature-announcement"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": "Basic $200/year (2 members, $12 AI credits/month, 3 workflows); Pro $500/year (5 members, $32 AI credits/month, unlimited workflows); Enterprise custom. 3-day free trial on all plans.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "This is a content-writing service, not a UI resource — do not reach for it while building screens. It earns a look only when a task is 'write our changelog / launch post from the merged PRs', and even then its MCP server plus the GitHub and Linear integrations are the whole value; the web dashboard adds nothing an agent needs. Everything is behind a paid account with an API key, so assume no output without credentials.",
+    "why_it_matters": "Marginal for this catalog: a competent but ordinary AI marketing-copy SaaS whose only agent-relevant surface is its MCP server. Listed for completeness rather than craft.",
+    "quality_tier": "C",
+    "notable_for": [
+      "GitHub and Linear event automations",
+      "brand-voice training",
+      "MCP server plus CLI and API",
+      "annual-only pricing"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://www.usenotra.com/ (homepage plus its inline pricing section — read in full, product is live, no waitlist)",
+    "source": "depo"
+  },
+  {
+    "id": "depo:j571rwz2fvbjsfwnprqsw6exyx88ctzk",
+    "slug": "highlighters",
+    "url": "https://highlighte.rs/",
+    "name": "Highlighters",
+    "tagline": "Physics-modelled highlighter-pen marks for text, in React, Vue, and Svelte",
+    "description": "Highlighters draws realistic marker-pen strokes over live text — ink flow, feathering, bleed, and streaking are modelled rather than faked with a flat background colour. It renders through three tiers (SVG, CSS gradient, or the native CSS Custom Highlight API), keeps multiline marks as one continuous swipe, and reflows correctly on resize. Bindings ship for vanilla JS, React (component plus useHighlight hook), Vue (component plus composable), and Svelte (action). Zero runtime dependencies, SSR-safe and deterministic, MIT.",
+    "category": "motion-interaction",
+    "subcategory": "animated-components",
+    "kinds": [
+      "primitive",
+      "animation-library",
+      "component-library"
+    ],
+    "facets": {
+      "framework": [
+        "react",
+        "vue",
+        "svelte",
+        "vanilla"
+      ],
+      "styling": [
+        "vanilla-css",
+        "css-variables"
+      ],
+      "license": [
+        "mit"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "npm-package",
+        "github-repo"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "semantic-html",
+        "claimed-accessible"
+      ],
+      "content_type": [
+        "code"
+      ],
+      "agent_readiness": [
+        "open-source-code",
+        "bot-blocked"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "text-effect",
+      "animation",
+      "scroll-reveal"
+    ],
+    "component_count": null,
+    "surfaces": [
+      "homepage",
+      "blog-post"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": "npm install @highlighters/core",
+    "package": "@highlighters/core",
+    "docs_url": null,
+    "repo_url": "https://github.com/JaceThings/Highlighters",
+    "registry_url": null,
+    "github": {
+      "stars": 190,
+      "license": "MIT",
+      "last_activity": "2026-06-12"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Use this instead of the usual `background: linear-gradient` underline trick when the highlight must survive a line wrap or a responsive reflow — that trick breaks into disjoint bars across lines, and this one does not. Install @highlighters/core plus the binding for your framework, and reach for the scroll-triggered animation only on a headline, never on body copy. The marketing site returns 403 to non-browser clients, so read the README in the GitHub repo for the API rather than fetching highlighte.rs.",
+    "why_it_matters": "A narrow problem solved properly: it is the only text-highlight library that treats multiline marks and reflow as first-class instead of an afterthought, and it leaves the text selectable and searchable.",
+    "quality_tier": "B",
+    "notable_for": [
+      "multiline marks as one continuous swipe",
+      "three renderer tiers including the native Custom Highlight API",
+      "curated fluorescent / mild / vintage / neutral palettes",
+      "zero runtime dependencies",
+      "SSR-safe and deterministic"
+    ],
+    "already_enriched": false,
+    "http_status": 403,
+    "verified_at": "2026-08-15",
+    "evidence": "https://highlighte.rs/ (403 Forbidden to WebFetch on both attempts — bot-blocked, page never read), https://github.com/JaceThings/highlighters (README read in full), GitHub API repos/JaceThings/highlighters, web search to locate the repo. All product detail here comes from the repo, not from the depo.zip blurb.",
+    "source": "depo"
+  },
+  {
+    "id": "depo:j5743tb37834a37v5yh5ne04pd88asz5",
+    "slug": "extend-ui",
+    "url": "https://ui.extend.ai/",
+    "name": "Extend UI",
+    "tagline": "shadcn registry of PDF, DOCX, XLSX and CSV viewers with bounding-box citations",
+    "description": "Extend UI is the internal component layer Extend uses for document-heavy products, released as a 55-item shadcn registry under the @extend namespace. Beyond a standard shadcn base (button, dialog, sidebar, command, sonner and the rest) it ships the parts nobody else open-sources: PDF, DOCX, XLSX, PPTX and CSV viewers, DOCX and Excel editors, bounding-box citation overlays, layout blocks, a file-system browser, file upload with thumbnails, e-signature, document splits, and a schema builder. Components land as editable source, not a dependency. Built for teams putting a document agent or a review queue in front of users.",
+    "category": "component-libraries",
+    "subcategory": "shadcn-registries",
+    "kinds": [
+      "registry",
+      "component-library",
+      "block-collection"
+    ],
+    "facets": {
+      "framework": [
+        "react",
+        "next"
+      ],
+      "styling": [
+        "tailwind-any"
+      ],
+      "license": [
+        "mit"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "shadcn-registry",
+        "cli",
+        "copy-paste",
+        "github-repo"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "built-on-accessible-primitives"
+      ],
+      "content_type": [
+        "code",
+        "pdf"
+      ],
+      "agent_readiness": [
+        "registry-json",
+        "cli-installable",
+        "copy-paste-ready",
+        "open-source-code"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "document-viewer",
+      "file-upload",
+      "file-card",
+      "file-tree",
+      "signature-pad",
+      "inline-citation",
+      "form",
+      "resizable",
+      "sidebar",
+      "scroll-area",
+      "command-palette",
+      "dialog",
+      "sheet",
+      "popover",
+      "tooltip",
+      "dropdown-menu",
+      "select",
+      "autocomplete",
+      "color-picker",
+      "text-input",
+      "input-group",
+      "button",
+      "toggle-button",
+      "tabs",
+      "accordion",
+      "collapsible",
+      "alert",
+      "badge",
+      "breadcrumbs",
+      "card",
+      "aspect-ratio",
+      "kbd",
+      "separator",
+      "skeleton",
+      "spinner",
+      "toast"
+    ],
+    "component_count": 55,
+    "surfaces": [
+      "uploading-media",
+      "single-item-detail",
+      "data-import",
+      "ai-chat-panel",
+      "admin-panel"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": "npx shadcn@latest add @extend/pdf-viewer",
+    "package": null,
+    "docs_url": "https://www.extend.ai/ui/docs/components",
+    "repo_url": "https://github.com/extend-hq/ui",
+    "registry_url": "https://ui.extend.ai/r/registry.json",
+    "github": {
+      "stars": 1445,
+      "license": "MIT (LICENSE file not SPDX-classified by GitHub)",
+      "last_activity": "2026-08-10"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": 8
+    },
+    "agent_guidance": "This is the first thing to reach for when a build needs a document viewer with citation highlighting — writing bounding-box overlays on top of react-pdf by hand costs days, and @extend/bounding-box-citations plus @extend/pdf-viewer gets there in one CLI call. It is a shadcn superset, so install it into a project that already ran shadcn init or the base ui primitives will collide with yours; prefer the block variants (`*-block`) when you want a whole working screen rather than a bare viewer. Do not use it for a generic app UI — the base primitives are only there to support the document parts.",
+    "why_it_matters": "Document viewers with grounded citation overlays are the missing layer in every RAG and document-agent demo, and this is a production set from a company that runs it over millions of pages, given away MIT.",
+    "quality_tier": "A",
+    "notable_for": [
+      "PDF, DOCX, XLSX, PPTX and CSV viewers",
+      "bounding-box citation overlays",
+      "e-signature and schema builder",
+      "8 ready-made block screens",
+      "MIT, from production use at Extend"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://ui.extend.ai/, https://ui.extend.ai/r/registry.json (parsed, 55 items enumerated: 44 registry:ui, 8 registry:block, 1 lib, 1 hook, 1 component), https://www.extend.ai/ui, https://github.com/extend-hq/ui, GitHub API repos/extend-hq/ui. https://extend-ui.com/ui/docs/components 404s — the live docs path is www.extend.ai/ui/docs/components.",
+    "source": "depo"
+  },
+  {
+    "id": "depo:j57ejn3b2ta95rj3rxzjexp2ds88bm4s",
+    "slug": "remocn",
+    "url": "https://www.remocn.dev/",
+    "name": "remocn",
+    "tagline": "282 Remotion components for product-demo video, installed by the shadcn CLI",
+    "description": "remocn is a shadcn registry of 282 production-ready Remotion pieces for building product demo and launch videos in React code instead of a timeline editor. It is organised into eleven groups — Typography, Transitions, Shaders, Effects, Filters, Layout, Compositions, UI, UI Blocks, Social, and AI — covering text reveals (blur-out-up, kinetic-warp, slot-machine-roll), scene transitions (whip-pan, gooey-morph, dither-dissolve), GLSL shader backdrops, simulated app screens with a fake cursor, branded surfaces for Claude Code, ChatGPT, v0 and OpenCode, and ~110 animated icons. Every component is written against useCurrentFrame, interpolate and spring, and is copied into your repo rather than installed. MIT.",
+    "category": "motion-interaction",
+    "subcategory": "animated-components",
+    "kinds": [
+      "animation-library",
+      "registry",
+      "component-library"
+    ],
+    "facets": {
+      "framework": [
+        "react"
+      ],
+      "styling": [
+        "inline-styles",
+        "shader-glsl"
+      ],
+      "license": [
+        "mit"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "shadcn-registry",
+        "cli",
+        "copy-paste",
+        "github-repo"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "code",
+        "video"
+      ],
+      "agent_readiness": [
+        "registry-json",
+        "cli-installable",
+        "llms-txt",
+        "structured-docs",
+        "agent-skill",
+        "copy-paste-ready",
+        "open-source-code"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "text-effect",
+      "typewriter-text",
+      "marquee",
+      "transition",
+      "page-transition",
+      "animation",
+      "gradient-background",
+      "particle-background",
+      "shimmer",
+      "confetti",
+      "count-up",
+      "custom-cursor",
+      "terminal",
+      "code-block",
+      "spinner",
+      "button",
+      "accordion",
+      "dialog",
+      "alert-dialog",
+      "sheet",
+      "drawer",
+      "checkbox",
+      "radio-button",
+      "switch",
+      "text-input",
+      "select",
+      "dropdown-menu",
+      "tabs",
+      "toast",
+      "command-palette",
+      "tooltip",
+      "progress-bar",
+      "skeleton",
+      "slider",
+      "combobox",
+      "popover",
+      "context-menu",
+      "toggle-group",
+      "progress-stepper",
+      "resizable",
+      "message",
+      "typing-indicator",
+      "conversation",
+      "icon",
+      "bar-chart",
+      "line-chart",
+      "onboarding-flow",
+      "checkout",
+      "signup-form"
+    ],
+    "component_count": 282,
+    "surfaces": [
+      "homepage",
+      "feature-announcement",
+      "onboarding-web-app",
+      "checkout",
+      "sign-up"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": "npx shadcn@latest add @remocn/blur-reveal",
+    "package": null,
+    "docs_url": "https://www.remocn.dev/docs/components",
+    "repo_url": "https://github.com/Remocn/remocn",
+    "registry_url": "https://www.remocn.dev/r/registry.json",
+    "github": {
+      "stars": 1230,
+      "license": "MIT",
+      "last_activity": "2026-08-13"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": 110,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Start at /llms-components.txt, not the homepage — it is a single table of all 282 components with a `Use for` / `Avoid for` signal, a frame length at 30fps, a vibe tag, and registry dependencies, which is exactly the routing information you need before installing anything, and every docs URL also serves raw Markdown by appending .md. Budget scenes from the `Length` column (`state-driven` items have no duration of their own, `sustained` ones last as long as the scene wraps) and keep one vibe tag across a video rather than mixing. It only works inside an existing Remotion project, and shader components pull @paper-design/shaders-react, so check the dependency column before adding one to a light bundle.",
+    "why_it_matters": "The best-instrumented registry for agents I have seen: llms.txt, llms-full.txt, a routed component index with anti-recommendations, and Markdown for every docs page — plus it makes code-authored launch videos genuinely reachable without an editor.",
+    "quality_tier": "S",
+    "notable_for": [
+      "282 components across 11 categories",
+      "llms-components.txt routing table with use / avoid signals",
+      "GLSL shader backdrops via paper-design",
+      "branded AI surfaces (Claude Code, ChatGPT, v0, OpenCode)",
+      "~110 animated icons"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://www.remocn.dev/, https://www.remocn.dev/r/registry.json (parsed, all 282 items enumerated), https://www.remocn.dev/llms.txt, https://www.remocn.dev/llms-components.txt (category list and routing table), https://www.remocn.dev/r/typewriter.json (source inspected for styling), https://github.com/Remocn/remocn, GitHub API repos/Remocn/remocn",
+    "source": "depo"
+  }
+]

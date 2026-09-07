@@ -1,0 +1,88 @@
+[
+  {
+    "id": "user:526974e1171ab48b",
+    "slug": "kynd-geom",
+    "url": "https://www.kynd.info/geom/sound-reactive-shapes/",
+    "name": "Geom \u2014 Sound-reactive shapes",
+    "tagline": "kynd's working log for a generative music video: 10 chapters on SDFs, parametric shapes, lighting and audio reactivity, with live WebGL demos",
+    "description": "Geom is a sketchbook and working log kept by kynd while making the music video for Musical Architecture by Yaporigami (Yu Miyashita). It runs to ten chapters \u2014 sound analysis, parametric shapes, lighting and rendering, sound-reactive environment, sound-reactive shapes, multitrack visualization, transitions, composition and an appendix \u2014 roughly 7,500 words with KaTeX-set mathematics throughout. The sound-reactive shapes chapter is the clearest entry point: four sections (Amplitude, History, Frequency, Form) each embedding a live WebGL sketch you can drive with a chosen drum track, with an antialias toggle and an fps readout, showing four parametric families (SDF, Platonic solids, scalar fields, moving scalar fields) deformed in real time by audio. The author wrote Sketching with Math and Quasi Physics and the Japanese translation of The Book of Shaders, and this log is explicitly framed as an introduction to the former.",
+    "category": "essays-guides-courses",
+    "subcategory": "craft-essays",
+    "kinds": [
+      "article",
+      "reference"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "no-license"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "article"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "prose",
+        "code",
+        "images"
+      ],
+      "agent_readiness": [
+        "structured-docs"
+      ],
+      "maturity": "stable"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": "https://www.kynd.info/geom/",
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": "Free to read. No licence is stated, so treat the text, the mathematics and the demo source as all rights reserved.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 10,
+      "blocks": null
+    },
+    "agent_guidance": "Read this when a brief asks for audio-reactive or mathematically-generated motion and you need the mechanism rather than a library. It states plainly which audio feature drives which deformation \u2014 amplitude at the current frame gives an immediate, tight reaction; history and frequency give slower, banded ones \u2014 which is the decision most audio-visualiser code gets wrong. The prose and the mathematics are in the server-rendered HTML, so a plain fetch returns the full text of every chapter; the figures are not. Each demo is a separate page under /geom/demos/<name>/index.html loaded in an iframe with ?embedded, so fetch those directly if you want the source. There is no robots.txt and no sitemap.xml (both 404), and the maths is KaTeX, so expressions arrive as markup rather than as plain formulae.",
+    "why_it_matters": "Almost nothing in this corpus explains how a visual is actually derived from sound; this does, in the open, with runnable sketches beside the equations \u2014 and it comes from the person who translated The Book of Shaders into Japanese.",
+    "quality_tier": "A",
+    "tier_reason": "Original, technically rigorous and unusually generous \u2014 ten chapters of real working process with live WebGL demos and set mathematics, from a recognised creative-coding author. Held below S because it is the log of one project rather than a general reference, no licence is stated, and it is not a resource you install or reuse directly.",
+    "notable_for": [
+      "10 chapters, ~7,500 words",
+      "live WebGL demos embedded per section",
+      "KaTeX mathematics throughout",
+      "four parametric families: SDF, Platonic, scalar, moving scalar",
+      "by the Japanese translator of The Book of Shaders",
+      "made for Yaporigami's Musical Architecture"
+    ],
+    "http_status": 200,
+    "verified_at": "2026-08-17",
+    "evidence": "https://www.kynd.info/geom/sound-reactive-shapes/ and all 10 chapters fetched 200; 4 demo iframes under /geom/demos/*; robots.txt and sitemap.xml both 404; word counts parsed per chapter",
+    "source": "user",
+    "already_enriched": true
+  }
+]

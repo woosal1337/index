@@ -1,0 +1,256 @@
+[
+  {
+    "id": "user:aabffed0bcf1d4e4",
+    "slug": "uiinspoo",
+    "url": "https://uiinspoo.com/",
+    "name": "Uiinspoo",
+    "tagline": "Daily UI gallery that serves its whole corpus as markdown to agents, with llms.txt and Accept: text/markdown",
+    "description": "A daily-updated gallery of interface screenshots and motion UI across mobile apps, dashboards, landing pages and motion, filed by category and by designer. Its distinction is not the curation but the delivery: it publishes /llms.txt as a site index and /llms-full.txt as the full corpus, serves a markdown variant of any public page by appending .md to the path, and honours an Accept: text/markdown request header with real content negotiation. That last part is rare - most sites that claim agent support only drop a static llms.txt file.",
+    "category": "inspiration-galleries",
+    "subcategory": "app-screens",
+    "kinds": [
+      "gallery",
+      "directory"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "license": [
+        "no-license"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "gallery"
+      ],
+      "content_type": [
+        "images",
+        "prose"
+      ],
+      "agent_readiness": [
+        "llms-txt",
+        "machine-index",
+        "structured-docs"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "This is the easiest gallery in the corpus for an agent to read. Start at https://uiinspoo.com/llms.txt for the index, or /llms-full.txt for the whole corpus in one 14 KB fetch. Any public page has a markdown twin: append .md to the path, or send Accept: text/markdown and the server negotiates properly and returns text/markdown. Do not follow the homepage's pointer to /skill.md - it is advertised but returns 404, and its own 404 page redirects you back to llms.txt. Browse by designer when you want a consistent hand rather than a category.",
+    "why_it_matters": "It is the clearest example in this corpus of a design gallery built to be read by an agent rather than only by a person, using content negotiation instead of a token gesture.",
+    "quality_tier": "A",
+    "tier_reason": "Genuinely agent-native - llms.txt, llms-full.txt, per-page markdown and working Accept header negotiation, which almost nothing else here offers. Held below S because the gallery itself is young, the entry count is not published anywhere, and one advertised surface (/skill.md) is broken.",
+    "notable_for": [
+      "/llms.txt and /llms-full.txt both live",
+      "append .md to any page path",
+      "honours Accept: text/markdown",
+      "filed by category and by designer",
+      "advertised /skill.md returns 404"
+    ],
+    "http_status": 200,
+    "verified_at": "2026-08-18",
+    "evidence": "https://uiinspoo.com/ 200; /llms.txt 200 (1,454b); /llms-full.txt 200 (14,180b); /categories.md 200 (25,780b); Accept: text/markdown on / returns text/markdown (20,736b); /skill.md returns 404",
+    "source": "user",
+    "already_enriched": true
+  },
+  {
+    "id": "user:ec88d909b43c92b0",
+    "slug": "asoinspo",
+    "url": "https://www.asoinspo.com/",
+    "name": "Asoinspo",
+    "tagline": "iOS App Store screenshots, paywalls and onboarding flows, with an llms.txt index for agents",
+    "description": "A gallery of App Store marketing surfaces rather than app interiors: screenshot sets, paywall designs and onboarding flows taken from shipped iOS apps, gathered to be studied for conversion rather than for style. It publishes /llms.txt as a canonical index for agents, and carries a command palette, a random button and a submit form.",
+    "category": "inspiration-galleries",
+    "subcategory": "app-screens",
+    "kinds": [
+      "gallery",
+      "directory"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "platform": [
+        "ios",
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "license": [
+        "no-license"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "gallery"
+      ],
+      "content_type": [
+        "screenshots"
+      ],
+      "agent_readiness": [
+        "llms-txt",
+        "machine-index"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Reach for this when the brief is an App Store listing, a paywall or a first-run flow - three surfaces a web-focused design catalog barely covers. Start at https://www.asoinspo.com/llms.txt, which is a short canonical index naming the main gallery pages. Pair it with the paywall and onboarding-mobile checklists in Surfaces: this shows what shipped apps actually do, the checklist says what the flow must contain.",
+    "why_it_matters": "App Store screenshots and paywalls are among the highest-leverage surfaces in a mobile product and almost nothing else in this corpus documents them.",
+    "quality_tier": "B",
+    "tier_reason": "A focused gallery of surfaces this corpus otherwise misses, and it ships an llms.txt index. Held at B because the entry count is unpublished, the depth per example is a single screenshot rather than a breakdown, and it is narrow to iOS.",
+    "notable_for": [
+      "App Store screenshots, paywalls and onboarding",
+      "llms.txt canonical index for agents",
+      "command palette and random browse",
+      "iOS only"
+    ],
+    "http_status": 200,
+    "verified_at": "2026-08-18",
+    "evidence": "https://www.asoinspo.com/ 200; /llms.txt 200 (663b) titled 'Canonical index for AI agents'",
+    "source": "user",
+    "already_enriched": true
+  },
+  {
+    "id": "user:657a72a18e6e3547",
+    "slug": "logoinspo",
+    "url": "https://www.logoinspo.com/",
+    "name": "Logoinspo",
+    "tagline": "1,200+ curated logos filed by mark type, industry and colour, real and fictional",
+    "description": "A library of 1,200+ hand-picked logos, searchable by style, industry and colour, and filed by mark type: symbol, wordmark, symbol-and-text, and animated. Entries carry the designer's handle and the colour of the mark, and the collection deliberately mixes real brand marks with fictional ones made for practice, which makes it a study set rather than a brand archive. It also publishes an llms.txt index.",
+    "category": "inspiration-galleries",
+    "subcategory": "single-element-galleries",
+    "kinds": [
+      "gallery",
+      "directory"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "license": [
+        "no-license"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "gallery"
+      ],
+      "content_type": [
+        "images"
+      ],
+      "agent_readiness": [
+        "llms-txt",
+        "machine-index"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 1200,
+      "blocks": null
+    },
+    "agent_guidance": "Use it when the brief is a mark rather than a screen. The filing that matters is mark type - symbol, wordmark, symbol-and-text, animated - because that is the actual decision when a logo is briefed, and colour and industry narrow it further. Note that real and fictional marks sit side by side, so it is a reference for form, not evidence of what a given company ships. An llms.txt index is available.",
+    "why_it_matters": "It is the only source here that treats the logo as a filable artefact with a mark-type taxonomy, rather than as one more image in a mood wall.",
+    "quality_tier": "B",
+    "tier_reason": "Well-filed and reasonably large at 1,200+ entries, with a mark-type taxonomy that is genuinely the right axis. Held at B because it mixes fictional practice marks with real ones without always distinguishing them, and offers no depth beyond the image.",
+    "notable_for": [
+      "1,200+ logos",
+      "filed by symbol, wordmark, symbol-and-text, animated",
+      "searchable by style, industry and colour",
+      "designer handle per entry",
+      "mixes real and fictional marks"
+    ],
+    "http_status": 200,
+    "verified_at": "2026-08-18",
+    "evidence": "https://www.logoinspo.com/ 200, title states '1,200+ Logos for Inspiration'; /llms.txt 200",
+    "source": "user",
+    "already_enriched": true
+  }
+]

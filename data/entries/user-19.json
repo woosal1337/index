@@ -1,0 +1,357 @@
+[
+ {
+  "id": "user:e95d7b6a1c01b720",
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://oa.letterformarchive.org",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 3500,
+   "blocks": null
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-29",
+  "source": "user",
+  "slug": "letterform-archive",
+  "url": "https://letterformarchive.org",
+  "name": "Letterform Archive",
+  "tagline": "3,500 graphic design and lettering artifacts photographed in relief, browsable by designer, decade, country and format",
+  "description": "Letterform Archive is a San Francisco institution that holds original graphic design and lettering work, and its Online Archive puts more than 3,500 of those objects on the web at oa.letterformarchive.org.\n\nThe photography is the reason to use it. Each object is imaged to keep the texture of paper and ink and the relief of letterpress or engraved printing, and the web images hold that detail under zoom. Almost nothing else online shows a printed piece as a physical thing rather than a flat scan.\n\nFiltering runs on country, designer, decade and format, and the visual search updates as you narrow it. Saved sets are called Tables, they can be shared, and they open in a full-screen slideshow, which the site suggests for teaching type history and for client mood boards.\n\nThe named collections are the archive's spine: Arthur Baker, W. A. Dwiggins, Emigre, Ross F. George, Dennis Y. Ichiyama, the ID Manual Collection, Linotype Master Drawings, Aaron Marcus, Jan Tholenaar and Piet Zwart. The ID Manual Collection is the one to know about, because identity manuals are hard to find anywhere else.\n\nThe institution also runs open hours, guided tours, research visits, the Type West education programme, a publishing arm and a shop, and it asks for membership and donations throughout.",
+  "category": "inspiration-galleries",
+  "subcategory": "historical-archives",
+  "kinds": [
+   "gallery",
+   "reference",
+   "directory"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free",
+    "account-required",
+    "sponsor-supported"
+   ],
+   "distribution": [
+    "gallery",
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "images",
+    "prose",
+    "fonts"
+   ],
+   "agent_readiness": [
+    "js-only-shell",
+    "image-only"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "pricing_detail": "The Online Archive answers without a login. Membership and donation are pushed on every page and they fund the institution, and they also cover the physical visits, tours and education. Image rights and reproductions are handled as a separate service.",
+  "agent_guidance": "Go to oa.letterformarchive.org, not the main site. The main domain is the institution: visits, events, education and the shop. The Online Archive is the collection.\n\nFilter through the URL. The archive takes query parameters of the shape ?dims=Collection&vals0=Dwiggins%20Collection, so a named collection can be reached without clicking.\n\nDo not plan to scrape it. The Online Archive is a client-rendered shell of about 8 KB, and the objects are photographs with no machine-readable record beside them. Send a person, or use it to name what to look for.\n\nReach for the ID Manual Collection when a brief needs historical identity work. Corporate identity manuals from that era are scarce online, and this is one of the few places that holds them and photographs them properly.",
+  "why_it_matters": "Every other archive here flattens a printed piece into a scan. This one photographs the object, so the paper, the ink and the press impression survive, which is the part a designer actually needs to judge historical work.",
+  "quality_tier": "A",
+  "tier_reason": "A real institution with 3,500 objects imaged to a standard nothing else here matches, filtered on the four axes a designer thinks in, and holding named collections such as the ID Manual Collection that are hard to find elsewhere. Held below S because the Online Archive is a client-rendered shell with no API, no llms.txt and no machine-readable record, so an agent gets nothing but pictures.",
+  "notable_for": [
+   "3,500 objects in the Online Archive",
+   "photographed in relief, texture survives zoom",
+   "ID Manual Collection of identity manuals",
+   "Emigre, Dwiggins, Piet Zwart and Tholenaar collections",
+   "Tables: shareable sets with a slideshow mode"
+  ],
+  "evidence": "https://letterformarchive.org/ 200, 208 KB; the navigation lists Visit, Learn, News, Events, Collections, Exhibitions, Online Archive, Education and Publishing, and names the collections Arthur Baker, W. A. Dwiggins, Emigre, Ross F. George, Dennis Y. Ichiyama, ID Manual Collection, Linotype Master Drawings, Aaron Marcus, Jan Tholenaar and Piet Zwart. https://letterformarchive.org/online-archive/ 200, 214 KB, and it reads: \"Browse a trove of digitally imaged materials — over 3,500 items and counting — by country, designer, decade, or format. The visual search shows instant results as you filter\", \"Each object is meticulously photographed to produce the lifelike, dimensional images. We capture the detail and texture of paper and ink, as well as the relief of letterpress or engraved printing\", and \"you can save them in sets we call Tables, and share them with friends and colleagues. Educators can teach type history from a Table in full-screen slideshow mode\", plus \"A Database Designed for Designers — Instead of relying on an existing product, we custom built the Online Archive\". https://oa.letterformarchive.org/ 200 but only 8,533 bytes, so the archive itself is client-rendered; the page links filter URLs of the form https://oa.letterformarchive.org/?dims=Collection&vals0=Dwiggins%20Collection. The footer reads \"© Letterform Archive 2015–2026\"."
+ },
+ {
+  "id": "user:e8d21e2b53db749c",
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-29",
+  "source": "user",
+  "slug": "archives-design",
+  "url": "https://archives.design",
+  "name": "archives.design",
+  "tagline": "A hand-built index of graphic design books, annuals and specimens that already sit on the Internet Archive, with the borrow status marked",
+  "description": "archives.design does one useful thing: it finds graphic design material inside the Internet Archive and files it so a designer can actually find it again. Valery Marier compiles and curates it, and the site calls it a labour of love run in her free time.\n\nTen categories cut the collection: Annuals, Books, Branding, Editorial, Education, Ephemera, Information, Interactive, Posters and Type Specimens. Each entry gives the year, the place, the creator and a written note. An entry for a 1965 R. Hunter Middleton essay explains it was published as a keepsake beside a talk he gave at UCLA. The 1990 AIGA graphic design annual is listed with what it covers.\n\nThe detail that saves time is the availability tag. Every item is marked always_available, borrow_only or stream_only, so you know before you click whether you can read it now or must join a queue.\n\nSubmissions go by email. The site publishes a robots.txt and a sitemap, but the sitemap holds one URL, because the whole archive is a single page.",
+  "category": "inspiration-galleries",
+  "subcategory": "historical-archives",
+  "kinds": [
+   "directory",
+   "reference",
+   "gallery"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "gallery"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "images",
+    "prose",
+    "pdf"
+   ],
+   "agent_readiness": [
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "pricing_detail": "Free, with no account. The site asks for donations. The items themselves live on the Internet Archive, and a borrow_only item needs an Internet Archive account.",
+  "agent_guidance": "Read the availability tag before you follow a link. always_available means you can open it now, borrow_only means the Internet Archive lending queue, and stream_only means you cannot download it. That one field decides whether the item is usable in the next ten minutes.\n\nUse it as a finding aid, not as a source. Every item lives on archive.org, and this site is the index that makes the graphic design material findable inside a much larger collection.\n\nFetch the whole page at once. The archive is one page with no pagination and a one-URL sitemap, so a single request returns the catalogue, and there is no per-item route to walk.",
+  "why_it_matters": "The Internet Archive holds a great deal of graphic design history and almost no way to find it by design category. One person built that index by hand, and marked what you can actually read today.",
+  "quality_tier": "B",
+  "tier_reason": "A genuinely useful finding aid over material that is otherwise hard to surface, with real notes on each item and an availability tag that saves a wasted click. Held at B because it is one page with no per-item URL, no total is published, there is no llms.txt, and it depends entirely on both one volunteer and the Internet Archive staying up.",
+  "notable_for": [
+   "indexes graphic design material on the Internet Archive",
+   "ten categories from Annuals to Type Specimens",
+   "always_available, borrow_only and stream_only tags",
+   "written note on each item",
+   "compiled by Valery Marier in her free time"
+  ],
+  "evidence": "https://archives.design/ 200, 58 KB server-rendered; the page reads \"A digital archive of graphic design related items that are available on the Internet Archives\" with the tags §always_available, §borrow_only and §stream_only, and states \"This collection is compiled and curated by Valery Marier. It is a labour of love ran in her free time\" and \"Want to submit an item to the collection? Send it over to info@archives.design\"; the menu lists Annuals, Editorial, Branding, Ephemera, Books, Education, Posters, Type Specimens, Interactive and Information; sample entries read \"An essay on the forgotten art of the punchcutter — 1965 :: USA :: R. Hunter Middleton\" with the note that it was \"published as a keepsake alongside a talk given by R. Hunter Middleton to the School of Library Service of the University of California at Los Angeles (UCLA)\", and \"1990 :: New York :: American Institute of Graphic Arts — The AIGA graphic design annual for 1990\"; counted 54 item blocks and 15 distinct archive.org/details ids in the first load. https://archives.design/robots.txt 200 and /sitemap.xml 200 but with a single URL, so the archive is one page. https://archives.design/llms.txt 404."
+ },
+ {
+  "id": "user:80cca2c9a76e587b",
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://data.rijksmuseum.nl/",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 500000,
+   "blocks": null
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-29",
+  "source": "user",
+  "slug": "rijksmuseum-collection",
+  "url": "https://www.rijksmuseum.nl/en/collection",
+  "name": "Rijksmuseum Collection",
+  "tagline": "More than half a million catalogued objects with a documented data service, and the old Rijksstudio URL now lands on the collection",
+  "description": "The Rijksmuseum publishes its collection as data, not only as a website. Rijksmuseum Data Services states extensive descriptions of more than half a million art-historical objects, hundreds of thousands of object photographs and the complete library catalogue, offered to developers, researchers and enthusiasts under a published Information and Data Policy. The portal carries Docs, Tutorials, a Policy page and an About page.\n\nFor a designer the value is the imagery: high-resolution photography of paintings, prints, drawings, furniture, textiles and objects across several centuries, with catalogue metadata attached to each one.\n\nOne thing changed. The Rijksstudio URL, which is how most people know this collection, now redirects to /en/collection. Rijksstudio was the feature that let a visitor build and share a personal set from the collection. The path still answers, and it lands on the collection rather than on a page of its own.",
+  "category": "inspiration-galleries",
+  "subcategory": "historical-archives",
+  "kinds": [
+   "gallery",
+   "reference",
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free",
+    "account-required"
+   ],
+   "distribution": [
+    "gallery",
+    "public-api",
+    "download",
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "images",
+    "dataset",
+    "prose"
+   ],
+   "agent_readiness": [
+    "public-api",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "pricing_detail": "Free to browse and free to use the data services. The museum publishes an Information and Data Policy that governs reuse. An account is needed to save a personal set.",
+  "agent_guidance": "Start at data.rijksmuseum.nl, not at the museum website. That portal is the documented route to the collection, and it carries Docs, Tutorials and the data policy in one place.\n\nDo not link to /en/rijksstudio as a destination. It still answers 200 but it redirects to /en/collection, so name the collection URL instead and avoid sending a reader through a redirect.\n\nRead the data policy before you reuse an image. The museum publishes one and the reuse terms per object are not uniform, so an object being visible is not the same as an object being free to use.\n\nReach for this for historical imagery, texture and colour rather than for anything about interfaces. Half a million catalogued objects with photography is a source, not a design reference.",
+  "why_it_matters": "Very few museums publish their catalogue as a documented data service with tutorials beside it. That turns half a million objects from a website you browse into a source you can query.",
+  "quality_tier": "A",
+  "tier_reason": "Scale and openness together: more than half a million catalogued objects, hundreds of thousands of photographs, the full library catalogue, and a data portal with docs, tutorials and a stated policy. Held below S because the reuse terms vary per object rather than resolving to one licence, the Rijksstudio path now redirects, and none of it is aimed at design or interface work specifically.",
+  "notable_for": [
+   "more than 500,000 catalogued objects",
+   "hundreds of thousands of object photographs",
+   "documented data service with docs and tutorials",
+   "complete library catalogue published",
+   "the Rijksstudio URL now redirects to the collection"
+  ],
+  "evidence": "https://www.rijksmuseum.nl/en/rijksstudio 200 after one redirect, landing on https://www.rijksmuseum.nl/en/collection, 167 KB; title \"Collection - Rijksmuseum\"; the navigation lists Visit and tickets, What's on, Collection, Stories, Support us, Giftshop and Research, and the page describes the museum of Rembrandt, Vermeer and Van Gogh. https://data.rijksmuseum.nl/ 200; title \"Rijksmuseum Data Services\"; it reads \"The Rijksmuseum makes available extensive descriptions of more than a half a million art historical objects, hundreds of thousands of object photographs and the complete library catalogue to developers, researchers and enthusiasts\" and \"we offer them in different ways, guided by our Information- and Data Policy\", with Docs, Tutorials, Policy and About in the navigation."
+ },
+ {
+  "id": "user:43fa75c96b9b55c4",
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 1000000,
+   "blocks": null
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-29",
+  "source": "user",
+  "slug": "nypl-digital-collections",
+  "url": "https://digitalcollections.nypl.org",
+  "name": "NYPL Digital Collections",
+  "tagline": "Over a million digitised objects, and as of 2026-08-01 no public API and a bot wall that blocks every path",
+  "description": "The New York Public Library has digitised more than a million objects from over a century of collecting, covering prints, photographs, maps, manuscripts, ephemera and posters. For a person with a browser it remains one of the great public archives.\n\nFor anything automated it is now closed, and this record exists mainly to say so.\n\nEvery path on digitalcollections.nypl.org answers a 212-byte Incapsula stub carrying a noindex, nofollow tag, including robots.txt itself. The library's own page about the collections on nypl.org answers the same stub. Nothing readable comes back from a plain request.\n\nThe API is gone as well. The portal at api.repo.nypl.org states: \"The Repo API is being deprecated and will no longer be available starting August 1st, 2026. No public API replacement is planned at this time.\" That date has passed. Version 1 answers 410 Gone and version 2 answers 401. The stated contact for questions is digitaldam@nypl.org.",
+  "category": "inspiration-galleries",
+  "subcategory": "historical-archives",
+  "kinds": [
+   "gallery",
+   "reference",
+   "directory"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "gallery",
+    "download"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "images",
+    "pdf",
+    "prose"
+   ],
+   "agent_readiness": [
+    "bot-blocked",
+    "none"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "pricing_detail": "Free, with no account, for a person using a browser. Nothing is available to an automated client.",
+  "agent_guidance": "Do not fetch this site. Every path returns a 212-byte Incapsula stub, robots.txt included, so a request costs time and returns nothing. Treat it as bot-blocked and do not retry.\n\nDo not reach for the API either. It was withdrawn on 2026-08-01 with no replacement planned. Version 1 answers 410 Gone and version 2 answers 401.\n\nHand this one to a person. The collection is real and large, and a browser reaches it, so name it as a place to look rather than as a source you can pull from.\n\nUse Rijksmuseum Data Services instead when the task needs public-domain historical imagery an agent can actually query. That record is in this corpus and its data service is documented and live.",
+  "why_it_matters": "The collection is one of the largest public archives in the world, and it now sits behind a bot wall with its API withdrawn. Recording that saves the next agent a wasted attempt, which is the only useful thing this entry can do.",
+  "quality_tier": "C",
+  "tier_reason": "The underlying collection is outstanding and the institution is permanent. Held at C because this corpus measures what an agent can read, and the answer here is nothing: every path returns a bot-protection stub, the public API was withdrawn on 2026-08-01 with no replacement planned, and version 1 already answers 410 Gone.",
+  "notable_for": [
+   "more than a million digitised objects",
+   "every path answers a 212-byte Incapsula stub",
+   "public API withdrawn on 2026-08-01",
+   "API v1 answers 410 Gone, v2 answers 401",
+   "no public API replacement planned"
+  ],
+  "evidence": "https://digitalcollections.nypl.org/ 200 but only 212 bytes, and the body is an Incapsula stub: `<META NAME=\"robots\" CONTENT=\"noindex,nofollow\">` with a script tag for /_Incapsula_Resource and an empty body. https://digitalcollections.nypl.org/robots.txt returns the same 212-byte stub, as does https://www.nypl.org/research/collections/digital-collections. https://api.repo.nypl.org/ 200, 141 KB, titled \"NYPL Digital Collections API\", and it states: \"The Repo API is being deprecated and will no longer be available starting August 1st, 2026. No public API replacement is planned at this time. If you have any questions or concerns, contact us digitaldam@nypl.org\", alongside the claim of \"over one million objects\". Tested on 2026-08-29: https://api.repo.nypl.org/api/v1/items/search?q=poster answers 410 and https://api.repo.nypl.org/api/v2/items/search?q=poster answers 401."
+ }
+]

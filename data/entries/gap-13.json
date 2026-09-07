@@ -1,0 +1,503 @@
+[
+ {
+  "id": "depo:j57bzbmfdebr9rg36pzdbk3aj9834p3p",
+  "slug": "ripplix",
+  "url": "https://www.ripplix.com/",
+  "name": "Ripplix",
+  "tagline": "7,000+ recorded UI animations from 1,000+ real apps, filterable by element",
+  "description": "Ripplix is a curated reference library of UI animations and micro-interactions captured from shipping products. Every entry is a recording of a real interaction, filterable by platform (Website, Web App, Mobile App, AR VR, Smartwatch), by element (Tabs, Modal, Hover, Text Animation, Onboarding, Load, Scroll, Splash, Button, Success, Footer, Slide, Loop, Illustration, Feature) and by industry (AI Tools, Creative Agency, Healthcare, Fintech). It is for designers and engineers who need a motion reference before they write the animation, not a code library. A Figma plugin puts the same library inside the design file.",
+  "category": "inspiration-galleries",
+  "subcategory": "single-element-galleries",
+  "kinds": [
+   "gallery",
+   "directory"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "freemium",
+    "subscription",
+    "account-required"
+   ],
+   "distribution": [
+    "web-app",
+    "figma-plugin",
+    "gallery"
+   ],
+   "platform": [
+    "web",
+    "ios",
+    "android",
+    "xr"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "video",
+    "screenshots"
+   ],
+   "agent_readiness": [
+    "image-only",
+    "auth-required"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "splash-screen",
+   "onboarding-mobile",
+   "onboarding-web-app",
+   "homepage",
+   "pricing-website",
+   "feed"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Free tier with account; Pro advertised at $5/month (shown with a 40% OFF promo)",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 7000,
+   "blocks": null
+  },
+  "agent_guidance": "Reach for this when a human asks 'how should this transition feel' and you need precedent rather than code - it will not give you a single line you can paste. Pair it with a real motion library (Motion/Framer Motion, GSAP) or an animated-component registry: Ripplix decides the timing and gesture, the library implements it. Content is video behind an account wall, so you cannot scrape or cite it programmatically; surface the URL to the human instead.",
+  "why_it_matters": "The largest organised catalogue of real product motion, indexed by the element you are actually building rather than by app name. It fills the gap between static screenshot galleries and code libraries that show you syntax but not taste.",
+  "notable_for": [
+   "7,000+ animations from 1,000+ apps",
+   "filters by element and industry",
+   "covers AR/VR and smartwatch",
+   "Figma plugin",
+   "$5/month"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://www.ripplix.com/ (homepage, categories and pricing read verbatim), https://www.ripplix.com/all-apps (counts and filters); https://www.ripplix.com/pricing returned a truncated shell, so plan detail beyond the $5/month figure is unverified",
+  "source": "depo",
+  "quality_tier": "A",
+  "tier_reason": "7,000 verified motion recordings from 1,000+ apps with element-level filters and a Figma plugin make it a leading motion-reference library, but it is video behind an auth wall with no machine-readable surface, so it falls short of S."
+ },
+ {
+  "id": "depo:j570k51jydq41v6m9t14knxxkd835pe1",
+  "slug": "typeui",
+  "url": "https://www.typeui.sh/",
+  "name": "TypeUI",
+  "tagline": "CLI that writes design-system SKILL.md files for AI coding agents",
+  "description": "TypeUI is an open-source CLI plus a public registry of design skill files - structured markdown that encodes typography scale, colour tokens, spacing rhythm, component anatomy, interaction states and accessibility rules in a form an agent will actually follow. `npx typeui.sh` runs an interactive generator, or `pull <slug>` fetches a curated spec straight from the registry into `.agents/skills/design-system/SKILL.md`. Commands are generate, update, randomize, list and pull; it also runs as an MCP server so an agent can consult the design system mid-build. It exists to stop LLMs inventing padding values and brand colours on the fly.",
+  "category": "agent-design-tooling",
+  "subcategory": "design-md-and-specs",
+  "kinds": [
+   "design-md",
+   "agent-skill",
+   "mcp-server"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "open-source",
+    "free",
+    "freemium",
+    "subscription"
+   ],
+   "distribution": [
+    "cli",
+    "npm-package",
+    "github-repo",
+    "mcp-server",
+    "web-app"
+   ],
+   "platform": [
+    "terminal",
+    "platform-agnostic"
+   ],
+   "accessibility": [
+    "claimed-accessible"
+   ],
+   "content_type": [
+    "prose",
+    "design-tokens",
+    "prompts"
+   ],
+   "agent_readiness": [
+    "agent-skill",
+    "cli-installable",
+    "mcp-server",
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npx typeui.sh",
+  "package": "typeui.sh",
+  "docs_url": "https://www.typeui.sh/docs",
+  "repo_url": "https://github.com/bergside/typeui",
+  "registry_url": "https://www.typeui.sh/design-skills",
+  "github": {
+   "stars": 1800,
+   "license": "MIT",
+   "last_activity": null
+  },
+  "pricing_detail": "CLI and public skill/prompt catalogue free (MIT); Pro subscription via Polar (monthly or yearly, price not verified) adds 20+ markdown files per skill, 10x more layout prompts, private Discord",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Run this at the start of a greenfield UI task, before you write any component: `npx typeui.sh generate` produces the constraint file you then obey, which is far more reliable than the human describing the style in chat. Prefer `pull <slug>` over `generate` when the user has no strong opinion - a curated spec beats twenty interactive answers. Watch out that the skill file is instructions, not code: it will not install anything, so pair it with an actual registry (shadcn, Componentry, Base UI) for implementation.",
+  "why_it_matters": "It treats the design system as an artefact the agent reads rather than a prompt the human retypes, which is the correct shape for this problem and rare among design-for-AI tools.",
+  "notable_for": [
+   "generates SKILL.md / DESIGN.md",
+   "MIT CLI, no install needed",
+   "public registry of curated design skills",
+   "doubles as an MCP server",
+   "~1.8k GitHub stars"
+  ],
+  "already_enriched": false,
+  "http_status": 429,
+  "verified_at": "2026-08-15",
+  "evidence": "https://github.com/bergside/typeui (stars, MIT licence, command list, npm name - the load-bearing source), https://www.creative-tim.com/blog/ai-agent/typeui-the-design-layer-for-ai-coding-agents/, plus web search. typeui.sh itself returned HTTP 429 on four attempts (homepage, /docs, /design-skills twice), so the skill count is left null - sources claim 48, 50+ and 67",
+  "source": "depo",
+  "quality_tier": "S",
+  "tier_reason": "MIT CLI with ~1.8k stars, a public design-skill registry, and an MCP server makes it the strongest agent-consumable design-spec tool in its niche despite the site's 429."
+ },
+ {
+  "id": "depo:j572xanba0p3sgd9j80a92zaph834sbm",
+  "slug": "ux-pilot",
+  "url": "https://uxpilot.ai/",
+  "name": "UX Pilot",
+  "tagline": "AI generates wireframes and hi-fi UI screens, then exports them into Figma",
+  "description": "UX Pilot is a hosted AI design tool that turns a text brief into wireframes and high-fidelity screens, with screen flows, predictive attention heatmaps and a design-review pass on top. Output moves into Figma through its plugin, though that export is gated behind the paid plans. It is aimed at PMs and designers who want a first draft of a screen quickly, not at engineers who want production code. Everything runs on a daily/monthly credit budget and stops generating when the credits are gone.",
+  "category": "agent-design-tooling",
+  "subcategory": "ai-design-apps",
+  "kinds": [
+   "ai-tool",
+   "app"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "freemium",
+    "subscription",
+    "usage-based",
+    "account-required"
+   ],
+   "distribution": [
+    "web-app",
+    "saas",
+    "figma-plugin"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "figma",
+    "images",
+    "screenshots"
+   ],
+   "agent_readiness": [
+    "auth-required",
+    "none"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "onboarding-web-app",
+   "settings-web-app",
+   "analytics",
+   "multi-step-form"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Free tier advertised on the homepage as 80 daily credits, no card. A third-party review reports Standard $19/mo (420 credits, 70 screens), Pro $29/mo (1,200 credits, 200 screens), Teams $39/user/mo (1,600 credits), Enterprise custom, 25% off annual - not confirmed on uxpilot.ai itself",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "This is a human's tool, not yours - there is no API, no CLI and no export you can consume, so do not plan a build step around it. Suggest it only when the user is stuck on what a screen should look like and wants a Figma-ready draft; if they want shippable markup, go straight to a component registry instead. Note the credit meter: a user mid-project can hit a hard stop, so never assume regeneration is free.",
+  "why_it_matters": "One of the more established AI wireframe-to-Figma tools, useful for early ideation, but reviewers consistently report the output is a starting point rather than something you can ship.",
+  "notable_for": [
+   "wireframe and hi-fi generation",
+   "Figma plugin export on paid plans",
+   "predictive attention heatmaps",
+   "credit-metered",
+   "free tier without a card"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://uxpilot.ai/ and https://uxpilot.ai/ai-ui-design-generator (both truncated to headline copy and the free-credit claim), https://uxpilot.ai/pricing and /plans returned no plan content, so pricing comes from https://flowstep.ai/blog/ux-pilot-pricing/ (a competitor's blog) and is flagged as unconfirmed",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "agent_readiness is auth-required/none with no API, CLI or consumable export, and even its pricing came from a competitor's blog, so it is a human-only ideation app of narrow use."
+ },
+ {
+  "id": "depo:j570x62gb42kcmkttttg6w009x82y0dt",
+  "slug": "livekit-agents-ui",
+  "url": "https://livekit.io/ui",
+  "name": "LiveKit Agents UI",
+  "tagline": "shadcn registry of voice-agent UI: visualizers, control bar, transcript",
+  "description": "Agents UI is LiveKit's shadcn-registry component set for building voice and multimodal agent front-ends in React. It ships the pieces a realtime agent app actually needs: five audio visualizer styles (bar, radial, wave, aura, grid), a control bar with mic and screen-share toggles and a disconnect button, a chat transcript with a speaking indicator, an autoplay-unblocking start-audio button, and a full session view that wires them together. Components install individually with shadcn, so you own and edit the source. Requires React 19, Tailwind CSS 4 and an existing shadcn/ui setup.",
+  "category": "ai-interface-kits",
+  "subcategory": "chat-and-agent-components",
+  "kinds": [
+   "component-library",
+   "registry",
+   "primitive"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "tailwind-v4",
+    "css-variables"
+   ],
+   "license": [
+    "apache-2.0"
+   ],
+   "pricing": [
+    "open-source",
+    "free"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "cli",
+    "github-repo",
+    "copy-paste"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "built-on-accessible-primitives",
+    "keyboard-navigable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "registry-json",
+    "cli-installable",
+    "open-source-code",
+    "structured-docs",
+    "copy-paste-ready"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "waveform",
+   "conversation",
+   "message",
+   "transcript",
+   "typing-indicator",
+   "speech-input",
+   "voice-output",
+   "toolbar",
+   "toggle-button",
+   "button",
+   "status-indicator"
+  ],
+  "component_count": 13,
+  "surfaces": [
+   "ai-chat-panel",
+   "chat-web-app",
+   "agent-settings",
+   "camera-capture"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "npx shadcn@latest add @agents-ui/agent-session-view-01",
+  "package": null,
+  "docs_url": "https://docs.livekit.io/frontends/components/agents-ui/",
+  "repo_url": "https://github.com/livekit/components-js",
+  "registry_url": "https://livekit.com/ui/r/{name}.json",
+  "github": {
+   "stars": 458,
+   "license": "Apache-2.0",
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use this the moment a task involves a live voice agent - the audio visualizers and the autoplay-unblocking StartAudioButton are the two things people get wrong when hand-rolling, and this solves both. Prefer it over a generic chat kit (assistant-ui, ai-elements) when audio tracks are in play, and combine the two when the app needs both a text thread and a voice session. Register `@agents-ui` in components.json first, and check the project is on React 19 + Tailwind 4 before installing, or the registry files will not compile.",
+  "why_it_matters": "The reference implementation for voice-agent interfaces from the company that runs the transport layer, and Apache-2.0 shadcn source you own rather than a black-box widget.",
+  "notable_for": [
+   "five audio visualizer styles",
+   "shadcn registry, source you own",
+   "Apache-2.0",
+   "session view wires the pieces together",
+   "React 19 + Tailwind 4"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://livekit.io/ui (308 -> https://livekit.com/ui, component list and install command read there), https://github.com/livekit/components-js and .../tree/main/packages/shadcn (stars, Apache-2.0, registry config, full component names). docs.livekit.io failed DNS resolution from this host on two attempts",
+  "source": "depo",
+  "quality_tier": "A",
+  "tier_reason": "Apache-2.0 shadcn registry with 13 verified voice-agent components and a public registry.json from the vendor that runs the transport layer, but it is a small, single-domain set rather than a category-leading library."
+ },
+ {
+  "id": "depo:j578m73fbsj1q09csd0kk1r1k982wrx3",
+  "slug": "inspo-ai",
+  "url": "https://www.inspoai.io/",
+  "name": "Inspo AI",
+  "tagline": "AI search over a UI reference library, plus moodboards and brand scans",
+  "description": "Inspo AI positions itself as a Mobbin alternative: natural-language search across a curated UI/UX screenshot library, a moodboard builder that pins search results onto a shared board with notes and swatches, a brand scanner that extracts palette, typography and spacing from any live site, and a design audit that compares a design against reference standards. The marketing claims 150K+ assets and 180+ teams. This entry could not be verified first-hand - every page on the domain returns a JavaScript shell whose only readable content is the page title, so the feature and library claims below come from the vendor's own indexed copy, not from inspection.",
+  "category": "inspiration-galleries",
+  "subcategory": "app-screens",
+  "kinds": [
+   "gallery",
+   "ai-tool",
+   "app"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "freemium",
+    "subscription",
+    "one-time",
+    "account-required"
+   ],
+   "distribution": [
+    "web-app",
+    "saas"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "screenshots",
+    "images"
+   ],
+   "agent_readiness": [
+    "js-only-shell",
+    "auth-required",
+    "image-only"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "search-results",
+   "homepage",
+   "feed"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Reported by the vendor's own indexed pages, unverified: Free (15 searches/day, 1 moodboard, 1 audit, 1 brand scan); Lite $5/mo; Freelancer $9/mo; Team $29/mo; Lifetime $199 one-time",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Do not plan around this one - the site renders nothing to a fetcher, so you cannot read its library, cite a screen, or confirm it is alive. If a user wants a screenshot reference library, point them at Mobbin, Land-book or Ripplix first and mention Inspo AI only as the cheaper option they may want to trial themselves. Treat the 150K-asset claim as marketing until someone logs in and counts.",
+  "why_it_matters": "A plausible low-cost Mobbin alternative with a brand-scanner angle that the incumbents lack, but nothing about it is independently verifiable from outside the login.",
+  "notable_for": [
+   "natural-language design search",
+   "brand scanner extracts palette and type",
+   "moodboards with team notes",
+   "$199 lifetime option",
+   "unverifiable behind a JS shell"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://www.inspoai.io/, https://www.inspoai.io/pricing, https://www.inspoai.io/use-cases/agencies, https://www.inspoai.io/compare/inspo-ai-vs-mobbin, https://www.inspoai.io/blogs/ai-design-inspiration-tool - all five returned only the page title. Feature and price detail came from search-engine snippets of those same vendor pages and is explicitly unconfirmed",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "Every one of five fetched pages returned only a title (js-only-shell) and maturity is unknown, so no claim about the 150K-asset library is verifiable and the record itself says do not plan around it."
+ }
+]

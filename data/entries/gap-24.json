@@ -1,0 +1,548 @@
+[
+ {
+  "id": "depo:j57dsaf58qrmrhfftfpqsz3mqd7t4nyz",
+  "slug": "fontpair",
+  "url": "https://www.fontpair.co/",
+  "name": "Fontpair",
+  "tagline": "Curated Google Fonts and Fontshare pairings, with an AI prompt export",
+  "description": "Fontpair is a typography discovery site built around hand-curated two-font combinations drawn from Google Fonts and Fontshare, filterable by Sans-Serif, Serif, Slab, Display, Monospace and Handwriting. Around the pairings it has grown a full toolbox: a playground that drops a pairing into real layouts, ~23 bundled open-source icon sets (Lucide, Phosphor, Tabler, Heroicons, Iconoir, Material Symbols and more), colour palettes, a brand extractor, an inspiration feed and a large curated directory of third-party typography tools. A Chrome extension detects fonts and colours on any site, a Figma plugin brings pairings into a file, and Pro can export a pairing as an AI design prompt aimed at Cursor, v0, Lovable and Claude Code. Free to browse; Pro unlocks favourites, collections, exports and ad-free use.",
+  "category": "typography",
+  "subcategory": "font-services",
+  "kinds": [
+   "font-service",
+   "gallery",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "ofl",
+    "proprietary"
+   ],
+   "pricing": [
+    "freemium",
+    "subscription",
+    "one-time",
+    "account-required"
+   ],
+   "distribution": [
+    "web-app",
+    "browser-extension",
+    "figma-plugin"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "contrast-checked"
+   ],
+   "content_type": [
+    "fonts",
+    "prompts",
+    "prose"
+   ],
+   "agent_readiness": [
+    "copy-prompt",
+    "js-only-shell"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Free browsing tier. Pro Monthly $8/mo, Pro Yearly $48/yr (billed as $4/mo), Pro Lifetime $120 one-time.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Reach for this when a project needs a typographic direction and all you have is a vibe — it settles the heading/body question with pairings that are already known to work and are all free webfonts, so the answer converts straight into a Google Fonts or Fontshare @import. Prefer it over Fontjoy when you want human curation instead of an embedding-similarity roll of the dice, and over browsing Google Fonts directly when you need the second font too. The site is a client-rendered SPA, so scraping it yields an empty shell — use the visible pairing names, and note that favourites, exports and the AI-prompt output sit behind a paid account.",
+  "why_it_matters": "Type pairing is the design decision agents most reliably get wrong, and Fontpair reduces it to picking from a curated shortlist of free, self-hostable webfonts. Its AI-prompt export is a rare case of a design resource explicitly shaped for handing to a coding agent.",
+  "quality_tier": "A",
+  "notable_for": [
+   "500+ curated Google Fonts and Fontshare pairings",
+   "AI design-prompt export for Cursor, v0 and Claude Code",
+   "Chrome extension that detects fonts and colours on any site",
+   "~23 bundled open-source icon sets",
+   "Large curated directory of third-party typography tools"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://www.fontpair.co/ (rendered), https://www.fontpair.co/all (24 pairing names read), https://www.fontpair.co/pricing, https://www.fontpair.co/typography-tools, plus the SPA route table parsed from https://www.fontpair.co/assets/index-AkSQyPRR.js (104 routes)",
+  "source": "depo"
+ },
+ {
+  "id": "depo:j57516xd6hg66fwb3chafcewqn7t4nxn",
+  "slug": "iconer",
+  "url": "https://iconer.app/",
+  "name": "Iconer",
+  "tagline": "36 open-source icon libraries, 33,271 icons, searchable in one place",
+  "description": "Iconer is a free browser app that aggregates 36 open-source icon libraries into a single searchable, remixable surface — Material Icons (2,946), IconPark (2,437), Remix (2,213), Phosphor (2,094), Carbon (1,898), Bootstrap Icons (1,668), Boxicons (1,578), Tabler (1,520), Line Awesome (1,393), Health Icons (1,141), Ionicons (1,193), Iconoir (1,007), Teenyicons (1,055), Emblem (1,064), Jam (940), cssgg (704), Majesticons (703), Lucide (541), Basil (473), Kalai (473), Pixelart (460), Heroicons (448), Doodle Icons (451), Systemui (420), Coolicons (419), Codicons (401), Eva (401), Akar (377), Radix (333), Ikonate (327), Feather (286), Basicons (225), Mono (180), Iconic (180), Pep (167) and Bytesize (101). Every library carries its licence in the listing — mostly MIT, with Apache 2.0 for the Google/IBM/Alibaba sets, ISC for Lucide, Unlicense for Systemui and CC BY 4.0 for a handful. Icons can be restyled (stroke width, line vs solid, sharp vs round) and exported as SVG, PNG, HTML or JSX.",
+  "category": "icons-logos",
+  "subcategory": "icon-sets",
+  "kinds": [
+   "tool",
+   "icon-set",
+   "app"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "vanilla"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit",
+    "apache-2.0",
+    "isc",
+    "cc-by"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "web-app",
+    "download",
+    "copy-paste"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "icons"
+   ],
+   "agent_readiness": [
+    "copy-paste-ready"
+   ],
+   "maturity": "stable"
+  },
+  "components": [
+   "icon"
+  ],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Free, no account or pricing page found.",
+  "counts": {
+   "icons": 33271,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use this as the lookup layer when you need one specific glyph and do not know which library has it — searching 36 sets at once beats guessing whether Lucide, Phosphor or Tabler shipped a 'stethoscope'. Once you find it, do NOT wire the app to Iconer: install the source library as an npm package (lucide-react, @phosphor-icons/react, @tabler/icons-react) so the icon set is versioned and tree-shaken, and only paste raw SVG for one-off glyphs. Check the licence column before pulling from the CC BY 4.0 sets (Basil, Kalai, Doodle, Coolicons, Codicons, Pep) — those need attribution, unlike the MIT majority.",
+  "why_it_matters": "It solves the real problem with open-source icons — not scarcity but discovery across three dozen incompatible sets — and it is the rare aggregator that labels the licence of every library it indexes.",
+  "quality_tier": "A",
+  "notable_for": [
+   "36 libraries, 33,271 icons, one search box",
+   "Per-library licence stated in the listing",
+   "Stroke-width, line/solid and sharp/round style variants",
+   "SVG, PNG, HTML and JSX export",
+   "Completely free, no sign-in"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://iconer.app/ , https://iconer.app/libraries (full 36-library enumeration with per-library counts and licences), https://iconer.app/about",
+  "source": "depo"
+ },
+ {
+  "id": "depo:j57denrryz8xh963vyqgt7q5b57t454z",
+  "slug": "svg-doodles",
+  "url": "https://svgdoodles.com/",
+  "name": "SVG Doodles",
+  "tagline": "~209 abstract doodle SVGs exportable as JSX, Vue, Svelte, Astro or PNG",
+  "description": "SVG Doodles is a single-page browser tool holding a set of hand-drawn abstract vector marks — squiggles, blobs, stars, arrows and geometric scribbles — filed under three categories: Abstract, General and Square. The shipped data file carries 225 shapes of which 16 are hidden by the app, leaving roughly 209 visible; none of them are named, they are numbered. Each doodle can be recoloured in-app and copied out as SVG, TSX, JSX, Vue, Svelte, Astro, React Native, CSS or base64, or downloaded as PNG at 16-240px. Note that no licence or usage terms appear anywhere on the site or in its bundle, the app is a Lovable-generated SPA with debug logging still in production, and the footer is an ad for Lexington Themes.",
+  "category": "icons-logos",
+  "subcategory": "icon-sets",
+  "kinds": [
+   "icon-set",
+   "asset-pack",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "vue",
+    "svelte",
+    "astro",
+    "react-native",
+    "vanilla"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "web-app",
+    "copy-paste",
+    "download"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "icons",
+    "images"
+   ],
+   "agent_readiness": [
+    "copy-paste-ready",
+    "js-only-shell"
+   ],
+   "maturity": "experimental"
+  },
+  "components": [
+   "illustration",
+   "icon"
+  ],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": 209,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Only reach for this when a landing page needs a couple of throwaway decorative squiggles and you want framework-ready markup rather than a raw file — the multi-framework export (TSX/Vue/Svelte/Astro/React Native) is genuinely the one thing it does better than a generic SVG pack. Do not treat it as a licensed asset source: the site states no terms at all, so for anything shipped commercially prefer an explicitly licensed set such as Doodle Icons via Iconer (CC BY 4.0), undraw, or Lukasz Adam's illustrations. The doodles are unnamed and numbered, so you cannot search them semantically — you have to look.",
+  "why_it_matters": "A thin, vibe-coded funnel to a theme shop dressed as a free asset library; the export breadth is nice but the missing licence makes it unsafe for client work.",
+  "quality_tier": "C",
+  "notable_for": [
+   "Exports to TSX, JSX, Vue, Svelte, Astro and React Native",
+   "PNG download at 16-240px",
+   "No licence or usage terms stated anywhere",
+   "Doodles are numbered, not named or searchable",
+   "depo.zip's claim of 50 doodles is wrong; the bundle holds 225"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://svgdoodles.com/ (returns a 3.9KB empty React shell; WebFetch read only the title), so verified by parsing the shipped bundles directly: https://svgdoodles.com/assets/index-DdZiT24f.js (export-format table, PNG sizes, 16 hidden ids, Lexington Themes footer) and https://svgdoodles.com/assets/icons-Dv4YwgKn.js (225 shape records, 3 categories, numeric names, no licence string)",
+  "source": "depo"
+ },
+ {
+  "id": "depo:j576m1r895vty944gwjmz16s017t5e00",
+  "slug": "mmm-page",
+  "url": "https://build.mmm.page/",
+  "name": "mmm.page",
+  "tagline": "Freeform drag-anything-anywhere personal website builder (unverifiable page)",
+  "description": "mmm.page is a no-code website builder whose pitch is a freeform canvas — you drag text, images and embeds anywhere on the page instead of filling in a template, which produces the scrapbook-ish personal sites it is known for. This entry could not be verified first-hand: build.mmm.page 301-redirects to mmm.page, and every mmm.page route (/, /pricing, /about, /faq) returns the same ~4.7KB client-rendered shell with no readable body content, so nothing beyond the meta title and description was directly observable. Third-party reviews describe a free tier with page and block limits plus a paid Pro tier adding custom domains and unlimited pages, but reported prices disagree ($8/mo in one source, $15/mo or $150/yr in another) and are recorded here as unconfirmed. Treat the feature and pricing claims as second-hand.",
+  "category": "utilities-naming",
+  "subcategory": "apps-and-references",
+  "kinds": [
+   "app",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "freemium",
+    "account-required"
+   ],
+   "distribution": [
+    "web-app",
+    "saas"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "js-only-shell",
+    "auth-required"
+   ],
+   "maturity": "stable"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Unconfirmed. Third-party reviews report a free tier (page/block limited) and a Pro tier at either $8/mo or $15/mo ($150/yr); the site's own /pricing route rendered no readable content.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "This is an end-user editor, not a source of code, components or tokens — there is nothing here to install, import or copy into a build. Mention it only when a user explicitly wants to hand-make a one-off personal page or link-in-bio without touching code and specifically wants the freeform, non-template look; for anything you are going to generate and deploy yourself, an Astro or Next starter is the right answer. Do not try to scrape it: every route serves the same empty shell behind a Firebase-backed SPA.",
+  "why_it_matters": "A charming freeform builder with a devoted following, but it contributes nothing an agent can build with, and the URL catalogued here is a bare redirect to the marketing homepage.",
+  "quality_tier": "C",
+  "notable_for": [
+   "build.mmm.page 301-redirects to mmm.page",
+   "Every route serves the same ~4.7KB empty SPA shell",
+   "Freeform drag-anywhere canvas rather than templates",
+   "No code, tokens or assets an agent can consume"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://build.mmm.page/ (301 -> https://mmm.page/), https://mmm.page/ , https://mmm.page/pricing , https://mmm.page/about , https://mmm.page/faq — all returned an identical ~4.7KB JS shell with zero body text; feature and pricing notes come from third-party reviews (cenny.net, microbasehq.com) via web search and are flagged unconfirmed",
+  "source": "depo"
+ },
+ {
+  "id": "depo:j57a02ttscqd0cyyd245n73zpx7t5jx5",
+  "slug": "skybox-ai",
+  "url": "https://www.blockadelabs.com/",
+  "name": "Skybox AI",
+  "tagline": "Text-to-360 equirectangular panorama generator with HDRI and API output",
+  "description": "Skybox AI, by Blockade Labs, generates seamless 360-degree equirectangular panoramas from a text prompt in roughly 15 seconds, with style presets, negative prompts and a remix flow for iterating on an existing world. Output goes well past a flat image: 8K and 16K exports, 32-bit HDRI for image-based lighting, and 3D skybox meshes, with direct paths into Blender and Unreal plus a native Unity plugin. There is a documented API and SDK and the site advertises MCP support, so generation can be driven from a pipeline or an agent rather than the web UI. All paid plans include full commercial licensing; the free tier is preview-only with no exports.",
+  "category": "generative-media-tools",
+  "subcategory": "image-generation",
+  "kinds": [
+   "ai-tool",
+   "generator",
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "commercial"
+   ],
+   "pricing": [
+    "freemium",
+    "subscription",
+    "usage-based",
+    "account-required"
+   ],
+   "distribution": [
+    "web-app",
+    "saas",
+    "public-api",
+    "mcp-server"
+   ],
+   "platform": [
+    "web",
+    "xr",
+    "cross-platform"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "images",
+    "3d"
+   ],
+   "agent_readiness": [
+    "mcp-server",
+    "public-api",
+    "auth-required",
+    "agent-paywalled"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Free tier: 5 preview generations, no exports. Essential $20/mo per seat (100 credits/mo, 8K exports, limited API). Standard $48/mo per seat (300 credits/mo, HDRI lighting, 3D skybox meshes, priority queue). Business $112/mo (500 credits/mo, 16K, full API, custom rate limits). All paid plans include full commercial licensing.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Reach for this when a scene needs an environment or a lighting source rather than a picture — a WebXR or three.js background, a Unity/Unreal skybox, or an HDRI to light a product render. It is the wrong tool for a hero image or a texture: use Midjourney or Krea for those, and note that a normal diffusion model cannot give you the wrap-around seam continuity Skybox AI is built for. Budget before you automate it: exports and API access are paywalled, the free tier cannot export at all, and the HDRI and 3D-mesh outputs that make it worth calling only appear on the $48/mo Standard plan and up.",
+  "why_it_matters": "The clear category leader for text-to-360 environments, and one of the few generative-media services with a real API, an MCP surface and unambiguous commercial licensing.",
+  "quality_tier": "A",
+  "notable_for": [
+   "Seamless 360 equirectangular output in ~15 seconds",
+   "32-bit HDRI export and 3D skybox meshes",
+   "16K resolution on the Business tier",
+   "Native Unity plugin, plus Blender and Unreal export",
+   "Documented API, SDK and advertised MCP support"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://www.blockadelabs.com/ , https://skybox.blockadelabs.com/plans (exact tier prices, credits and per-tier features). https://www.blockadelabs.com/pricing and /membership 404; https://skybox.blockadelabs.com/ returned HTTP 500",
+  "source": "depo"
+ },
+ {
+  "id": "depo:j575y8mbtkt5nn7xy5f8tw15bh7t5757",
+  "slug": "colour-contrast-checker",
+  "url": "https://colourcontrast.cc/",
+  "name": "Colour Contrast Checker",
+  "tagline": "Single-screen WCAG contrast checker with live Google Fonts preview",
+  "description": "A focused open-source web tool that takes a background and a foreground colour and shows the contrast ratio alongside four pass/fail grades at once: AA Large, AAA Large, AA Normal and AAA Normal. Each colour can be edited as hex, RGB or HSL with individual channel readouts, copied to the clipboard, swapped with the other via a reverse control, or saved for later. A Google Fonts picker restyles the live specimen text so you can judge the pairing at 18pt/24px large and 16px normal rather than as abstract swatches. It is MIT-licensed TypeScript by Alex Clapperton with UI by Will Tarpey, free with a Buy Me a Coffee link, and the page itself is built accessibly with real skip links to each region.",
+  "category": "color",
+  "subcategory": "palette-generators",
+  "kinds": [
+   "color-tool",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source",
+    "sponsor-supported"
+   ],
+   "distribution": [
+    "web-app",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "wcag-aa",
+    "wcag-aaa",
+    "contrast-checked",
+    "keyboard-navigable",
+    "semantic-html"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code"
+   ],
+   "maturity": "stable"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/Pushedskydiver/Colour-Contrast-Checker",
+  "registry_url": null,
+  "github": {
+   "stars": 170,
+   "license": "MIT",
+   "last_activity": "2024-10-14"
+  },
+  "pricing_detail": "Free. Optional Buy Me a Coffee support.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Send a human here when a chosen palette needs a visual sanity check — the typeface preview means you can see whether 4.6:1 actually reads at 16px, which a bare ratio number never tells you. Do not use it as a programmatic gate: there is no API, so in a build pipeline compute the ratio yourself (wcag-contrast, polished's `getContrast`, or the CSS Color 4 formula) or lean on axe-core. Its real edge over WebAIM's checker is showing all four AA/AAA thresholds simultaneously, so it is the faster tool when you are tuning one token against several text sizes.",
+  "why_it_matters": "A small, well-built, MIT-licensed utility that shows every WCAG threshold at once instead of one at a time, and practises what it checks with proper skip links and semantic markup.",
+  "quality_tier": "B",
+  "notable_for": [
+   "All four AA/AAA large and normal grades on one screen",
+   "Google Fonts specimen preview at 18pt/24px and 16px",
+   "Hex, RGB and HSL editing with per-channel readouts",
+   "MIT-licensed TypeScript, 170 stars",
+   "Skip links to every region on the page itself"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://colourcontrast.cc/ (rendered plus raw HTML text extraction for the skip links and grade labels), GitHub API for Pushedskydiver/Colour-Contrast-Checker via gh (170 stars, MIT, TypeScript, last push 2024-10-14, not archived)",
+  "source": "depo"
+ }
+]

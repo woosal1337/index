@@ -1,0 +1,85 @@
+[
+ {
+  "id": "user:920465101787054e",
+  "slug": "design-engineer-tools",
+  "url": "https://designengineer.tools",
+  "name": "Design Engineer Tools",
+  "tagline": "125 tools for web-focused design engineers across 18 categories, from inspiration galleries to volumetric capture",
+  "description": "A single-page list of the tools a web-focused design engineer actually opens, kept by James Warner. It holds 125 distinct entries across 18 categories, and the range is what makes it useful: it does not stop at design.\n\nThe categories are Inspiration, AI Code, Components, Web Utility, Desktop Utility, Video & Capture, Whiteboard, Organization, Fonts, Visual, Interface, Motion, Audio, Volumetric, 3D, Digital Fashion, Research and Browser.\n\nFour of those are rare in a design list. Volumetric names Depthkit, KIRI Engine, Luma AI, Polycam, RealityScan and SuperSplat, so photogrammetry and Gaussian splatting sit beside the galleries. Digital Fashion names CLO, Marvelous Designer and Style3D. Audio names FMOD and Splice. AI Code names Bolt.new, Claude Code, Cline, Cursor, OpenAI Codex, Skills, v0, Windsurf and Zed, which places coding agents in the same list as Figma.\n\nThat breadth is the editorial point. A design engineer records a demo, captures a mesh, picks a font and prompts an agent in the same afternoon, and almost no other list admits that.\n\nThe page is server-rendered at 138 KB, so a plain fetch returns every name and link. It publishes no llms.txt and no sitemap: both paths answer 404 with the same 11,577-byte body as any nonsense path.",
+  "category": "inspiration-galleries",
+  "subcategory": "directories-and-meta-indexes",
+  "kinds": [
+   "directory",
+   "reference"
+  ],
+  "facets": {
+   "framework": [
+    "next"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "gallery"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "prose"
+   ],
+   "agent_readiness": [
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 125,
+   "blocks": null
+  },
+  "pricing_detail": "Free, with no account, no advertisement and no sponsor slot on the page.",
+  "agent_guidance": "Fetch the page itself. It is server-rendered at 138 KB and every one of the 125 names and links is in the HTML, so one request returns the whole list. There is no llms.txt and no sitemap, and both paths answer 404 with the same body as a nonsense path.\n\nUse it to find the category, not the tool. The value is the 18 headings, because they name parts of the job a design list usually leaves out: Volumetric, Digital Fashion, Audio and Browser.\n\nRead AI Code when the brief is about agent tooling. It lists Bolt.new, Claude Code, Cline, Cursor, OpenAI Codex, Skills, v0, Windsurf and Zed in one place.\n\nCross-check before you cite an entry. Several links now redirect: Godly goes to recent.design, Windsurf to devin.ai, v0.dev to v0.app, Muse to allume.com, Cavalry to cavalry.studio and Style3D from linctex.com. The list is not stale in substance, but the domains have moved under it.",
+  "why_it_matters": "Most tool lists cover the design half of the job. This one admits that a design engineer also captures video, scans meshes, edits audio and drives a coding agent, and it names the tools for all of it in one page.",
+  "quality_tier": "B",
+  "tier_reason": "Broad and honestly scoped at 125 entries across 18 categories, and server-rendered so an agent reads the whole list in one request. Four categories, Volumetric, Digital Fashion, Audio and Browser, appear in almost no other design list. Held at B because it is a flat list with no descriptions, no counts, no filtering and no dates, it publishes no llms.txt or sitemap, and six of its links now redirect to a different domain.",
+  "notable_for": [
+   "125 tools across 18 categories",
+   "Volumetric category: photogrammetry and Gaussian splatting",
+   "AI Code lists Claude Code, Cursor, Codex and Zed",
+   "Digital Fashion and Audio categories",
+   "server-rendered, no llms.txt and no sitemap"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-30",
+  "source": "user",
+  "evidence": "https://designengineer.tools/ 200, 138 KB server-rendered; title \"Design Engineer Tools\"; the page reads \"A list of useful tools for web-focused design engineers\" and credits James Warner in the footer, linking jmswrnr.com. Parsed 125 distinct external entries from the HTML across the 18 headings Inspiration, AI Code, Components, Web Utility, Desktop Utility, Video & Capture, Whiteboard, Organization, Fonts, Visual, Interface, Motion, Audio, Volumetric, 3D, Digital Fashion, Research and Browser. Volumetric lists Depthkit, KIRI Engine, Luma AI, Polycam, RealityScan and SuperSplat Editor; Digital Fashion lists CLO, Marvelous Designer and Style3D; Audio lists ElevenLabs, FMOD and Splice; AI Code lists Bolt.new, Claude Code, Cline, Cursor, OpenAI Codex, Skills, v0 by Vercel, Windsurf and Zed. /llms.txt, /sitemap.xml and /zzz-not-a-page each answer 404 with an identical 11,577-byte body, so neither file exists. Cross-checked on 2026-08-30 against this corpus: 43 of the 125 entries were already indexed here, and six entries now redirect elsewhere — godly.website to recent.design, v0.dev to v0.app, codeium.com to devin.ai, museapp.com to allume.com, cavalry.scenegroup.co to cavalry.studio and linctex.com to style3d.com."
+ }
+]

@@ -1,0 +1,571 @@
+[
+  {
+    "id": "depo:j57e23grnb6ceywfng5mx16fs58888qp",
+    "slug": "index-how-vocabulary",
+    "url": "https://index.how/to/articulate",
+    "name": "Index — Design Vocabulary",
+    "tagline": "188 design terms across 12 disciplines, installable as an agent skill",
+    "description": "A single-page glossary of the words designers use when they know what they are looking at, grouped into 12 disciplines: Typography (21), Color (13), Iconography (12), Layout (18), Interaction (12), Motion (15), Accessibility (11), Information Architecture (15), Copywriting (15), Tools (12), Analysis (10) and Components (34). Each term gets a short, precise definition — kerning, tabular nums, OKLCH, optical centre, layout shift, affordance, progressive disclosure, microcopy. The same vocabulary ships as an agent skill via `npx skills add index-how/vocabulary`, which the page states works with Claude Code, Codex and Cursor. It is the first public piece of index.how, a design-education platform from Emil Kowalski and Glenn Me announced for fall 2026.",
+    "category": "agent-design-tooling",
+    "subcategory": "agent-skills",
+    "kinds": [
+      "agent-skill",
+      "reference",
+      "article"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "agent-skill",
+        "cli",
+        "article"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "prose"
+      ],
+      "agent_readiness": [
+        "agent-skill",
+        "cli-installable",
+        "structured-docs"
+      ],
+      "maturity": "beta"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": "npx skills add index-how/vocabulary",
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 188,
+      "blocks": null
+    },
+    "agent_guidance": "Install this skill when you are asked to critique, describe or spec a UI in words rather than build one — it gives you shared, unambiguous names for things you would otherwise describe by hand (optical centre, tint neutrals, tabular figures, widow) so your feedback lands with a designer instead of reading as vague praise. Pair it with a real design-token source or a DESIGN.md; the vocabulary defines terms, it does not encode any project's values. Note that the rest of index.how (basics, diffs, palettes, pairings, prompts, workflows) is still locked behind a waitlist, so do not expect more than the vocabulary page to be reachable.",
+    "why_it_matters": "Design feedback fails most often on vocabulary, not taste, and this is the first version of that vocabulary shipped in a form an agent can actually load. The authors' track record (Emil Kowalski of Sonner and Vaul) makes the definitions unusually precise.",
+    "quality_tier": "A",
+    "notable_for": [
+      "188 terms across 12 disciplines",
+      "npx skills add — real agent skill",
+      "Emil Kowalski and Glenn Me",
+      "definitions, not opinions",
+      "precursor to index.how"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://index.how/to/articulate (WebFetch + raw curl to confirm the install string and the 'Supports Claude Code, Codex, Cursor' note), https://index.how/ (WebFetch), https://index.how/llms.txt (404)",
+    "source": "depo"
+  },
+  {
+    "id": "depo:j5789cqf7sz82gnyne2zf65r9h885nmy",
+    "slug": "designmd-me",
+    "url": "https://designmd.me/",
+    "name": "DesignMD",
+    "tagline": "Could not be verified — Vercel bot checkpoint blocks every automated fetch",
+    "description": "A hosted web tool that claims to turn any URL into a DESIGN.md spec plus an interactive HTML preview of the extracted colours, type and component patterns, aimed at feeding AI coding agents a design system. This entry is NOT first-hand verified: every request from this machine — WebFetch and a browser-UA curl alike — was answered by a Vercel Security Checkpoint page (HTTP 403 then 429), so no product surface, pricing, output format or account requirement could be confirmed. Search results show at least five near-identical competing sites on adjacent domains (designmd.cc, designmd.co, getdesignmd.net, getdesignmd.org and a Chrome extension), which is a pattern worth weighing before trusting any one of them. Treat the claims above as the vendor's own copy, not as findings.",
+    "category": "agent-design-tooling",
+    "subcategory": "design-md-and-specs",
+    "kinds": [
+      "ai-tool",
+      "design-md",
+      "tool"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "unknown"
+      ],
+      "distribution": [
+        "web-app"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "unknown"
+      ],
+      "agent_readiness": [
+        "bot-blocked"
+      ],
+      "maturity": "unknown"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Do not attempt to call this from an automated context — the Vercel checkpoint returns 403/429 to any non-browser client, so it cannot be part of a scripted pipeline; a human has to run it in a real browser and hand you the resulting file. If you need a DESIGN.md for a site and cannot get a human in the loop, extract the tokens yourself from the target page's computed styles instead, which is more auditable anyway. Before recommending this specific domain, note that several visually identical clones exist on neighbouring domains, so confirm with the user which one they actually mean.",
+    "why_it_matters": "The DESIGN.md-from-a-URL category is genuinely useful to agent workflows, but this particular entry is unverifiable from here and sits in a crowded field of look-alike domains.",
+    "quality_tier": "C",
+    "notable_for": [
+      "blocked by Vercel Security Checkpoint",
+      "unverified vendor claims only",
+      "crowded clone field",
+      "URL to DESIGN.md category"
+    ],
+    "already_enriched": false,
+    "http_status": 403,
+    "verified_at": "2026-08-15",
+    "evidence": "https://designmd.me/ via WebFetch (403) and via curl with a desktop Chrome UA (429, body = 'Vercel Security Checkpoint'); a WebSearch for the product to establish that clone domains exist. No product page was ever read.",
+    "source": "depo"
+  },
+  {
+    "id": "depo:j579sfk4n7n9148zgakkcwbpph884f38",
+    "slug": "aave-building-glass-for-the-web",
+    "url": "https://aave.com/design/building-glass-for-the-web",
+    "name": "Building Glass for the Web",
+    "tagline": "How Aave built a cross-browser refractive glass effect with feDisplacementMap",
+    "description": "An engineering write-up from the Aave Labs design team on building an Apple-Liquid-Glass-style refraction effect that works outside Chromium. The technique generates a displacement-map PNG and drives it through the SVG `feDisplacementMap` filter primitive so real rendered pixels bend behind the element, rather than relying on the Chromium-only backdrop tricks most demos use; where SVG filters cannot reach — a canvas-drawn QR code, video-player controls in Safari — the team falls back to a WebGL shader. It then walks through the component family the effect produced: a toggle with a glass thumb, a slider tuned for readable values, a spring-animated toggle-group indicator, a QR code and video controls. Written by Lochie Axon with research by Abhijeet Singh; no library is released.",
+    "category": "essays-guides-courses",
+    "subcategory": "craft-essays",
+    "kinds": [
+      "article"
+    ],
+    "facets": {
+      "framework": [
+        "unknown"
+      ],
+      "styling": [
+        "vanilla-css",
+        "shader-glsl"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "article"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "prose",
+        "code"
+      ],
+      "agent_readiness": [
+        "none"
+      ],
+      "maturity": "stable"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Reach for this when a user asks for 'liquid glass' or iOS-26-style refraction and you are about to reply that it is Chromium-only — this article is the reference for the feDisplacementMap approach that ships in Safari and Firefox too, and it is more honest about the cost than the usual CodePen demos. There is no package to install, so you are reimplementing from the description: budget for generating the displacement map as an asset, and expect to drop to a WebGL shader for anything drawn on a canvas or a video surface. Watch the performance and reduced-motion story — a full-page filter of this kind is expensive and the article's components are small on purpose.",
+    "why_it_matters": "One of the few glass write-ups that solves the cross-browser problem instead of shipping a Chromium-only demo, and it shows the effect shaping a real component family rather than a hero card.",
+    "quality_tier": "A",
+    "notable_for": [
+      "feDisplacementMap instead of backdrop-filter",
+      "works in Safari and Firefox",
+      "WebGL fallback for canvas and video",
+      "toggle, slider, toggle-group, QR, player",
+      "no library released"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://aave.com/design/building-glass-for-the-web (WebFetch, full article), https://aave.com/design (WebFetch — section index, only this one article listed)",
+    "source": "depo"
+  },
+  {
+    "id": "depo:j57f4cke0qhwxkszxqfrhp40vs87x38z",
+    "slug": "nauvalazhar-ai",
+    "url": "https://ai.nauv.al/",
+    "name": "nauvalazhar/ai",
+    "tagline": "48 owned-source React components for agentic AI apps, on Base UI + Tailwind v4",
+    "description": "A copy-into-your-repo component kit for AI chat and agent interfaces, built on Base UI primitives, Tailwind v4 and React 19. Its own CLI writes an `aikit.json`, installs tokens and the `cn` helper, then copies each component's source into your project with imports rewritten to your alias — the shadcn ownership model, and the docs list Vite, Next.js, React Router, TanStack Start and shadcn-CLI paths. It ships 29 chatbot components, 9 code-surface components and 10 primitives, and is deliberately data-layer agnostic: 'no built-in store, no required hook, no transport', so it works with any React AI SDK or a hand-rolled fetch loop. Built by Nauval at Kredibel; early — v0.0.2 on npm, 56 stars, and no LICENSE file in the repo.",
+    "category": "ai-interface-kits",
+    "subcategory": "chat-and-agent-components",
+    "kinds": [
+      "component-library",
+      "registry",
+      "block-collection"
+    ],
+    "facets": {
+      "framework": [
+        "react"
+      ],
+      "styling": [
+        "tailwind-v4",
+        "css-variables"
+      ],
+      "license": [
+        "no-license"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "cli",
+        "copy-paste",
+        "shadcn-registry",
+        "github-repo",
+        "npm-package"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "built-on-accessible-primitives"
+      ],
+      "content_type": [
+        "code"
+      ],
+      "agent_readiness": [
+        "cli-installable",
+        "registry-json",
+        "copy-paste-ready",
+        "open-source-code",
+        "structured-docs"
+      ],
+      "maturity": "beta"
+    },
+    "components": [
+      "conversation",
+      "message",
+      "message-actions",
+      "prompt-input",
+      "rich-text-editor",
+      "streaming-text",
+      "reasoning",
+      "plan",
+      "task",
+      "tool-call",
+      "approval-request",
+      "sources",
+      "inline-citation",
+      "suggestion",
+      "model-selector",
+      "context-meter",
+      "generated-image",
+      "attachments",
+      "file-upload",
+      "transcript",
+      "document-viewer",
+      "status-indicator",
+      "spinner",
+      "inline-message",
+      "code-block",
+      "terminal",
+      "diff-view",
+      "diff-proposal",
+      "stack-trace-panel",
+      "file-tree",
+      "web-preview",
+      "button",
+      "chip",
+      "dropdown-menu",
+      "video-player",
+      "popover",
+      "scroll-area",
+      "select",
+      "description-list",
+      "switch",
+      "tooltip"
+    ],
+    "component_count": 48,
+    "surfaces": [
+      "ai-chat-panel",
+      "chat-web-app",
+      "ai-action-approval",
+      "agent-run-history",
+      "agent-settings",
+      "uploading-media"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": "npx @nauvalazhar/ai init && npx @nauvalazhar/ai add conversation",
+    "package": "@nauvalazhar/ai",
+    "docs_url": "https://ai.nauv.al/docs",
+    "repo_url": "https://github.com/nauvalazhar/ai",
+    "registry_url": null,
+    "github": {
+      "stars": 56,
+      "license": null,
+      "last_activity": "2026-05-26"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": 48
+    },
+    "agent_guidance": "Prefer this over Vercel's ai-elements when the project is NOT on the Vercel AI SDK — this kit refuses to own the transport, so it drops cleanly onto TanStack AI, a raw fetch loop, or your own store, and its code-surface set (Diff Rich, Sandbox, Console, Exception, Env, File Tree) is deeper than the chat-only kits if you are building a coding agent UI. It is Base UI, not Radix, so do not mix its primitives with shadcn/ui's Radix ones in the same component tree or you will ship two overlay systems. The blocker to flag to the user first: there is no LICENSE file in the repo and npm shows v0.0.2, so it is legally unsafe for commercial work until the author adds one — treat it as a reference implementation to read, not a dependency to standardise on.",
+    "why_it_matters": "The deepest coding-agent surface set outside the SDK-locked kits — Diff Rich, Sandbox, Exception and Env are components almost nobody else ships — and it is genuinely transport-agnostic. The missing licence is the only thing keeping it out of production.",
+    "quality_tier": "B",
+    "notable_for": [
+      "48 components across chat, code and primitives",
+      "Base UI + Tailwind v4 + React 19",
+      "no store, no hook, no transport",
+      "own CLI with aikit.json",
+      "no LICENSE file in the repo"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://ai.nauv.al/ , https://ai.nauv.al/docs , https://ai.nauv.al/introduction , https://ai.nauv.al/installation (all WebFetch), https://github.com/nauvalazhar/ai (WebFetch), raw README.md + package.json + LICENSE probe on raw.githubusercontent.com, api.github.com/repos/nauvalazhar/ai, registry.npmjs.org/@nauvalazhar%2Fai. Component list enumerated from the docs sidebar.",
+    "source": "depo"
+  },
+  {
+    "id": "depo:j5757pb5hq7zskxfx2kktbjp7987v783",
+    "slug": "lisse",
+    "url": "https://corne.rs/",
+    "name": "Lisse",
+    "tagline": "Squircle corners via Figma's smoothing algorithm, with React, Vue and Svelte bindings",
+    "description": "A small MIT-licensed JavaScript library that draws the continuous corner curve Figma and iOS use, instead of the circular arc `border-radius` gives you. It implements Figma's corner-smoothing algorithm plus three other curve types — `arc`, `squircle` (default), `superellipse` and `clothoid` — and emits SVG paths and CSS `clip-path` values, with per-corner control and working borders and shadows, which is where most squircle hacks fall down. Ships as a framework-agnostic core (`@lisse/core`) with first-class hooks and components for React, Vue and Svelte. The site includes a live comparison demo that overlays the squircle against a plain rounded rect, and a playground.",
+    "category": "component-libraries",
+    "subcategory": "headless-primitives",
+    "kinds": [
+      "primitive",
+      "component-library"
+    ],
+    "facets": {
+      "framework": [
+        "react",
+        "vue",
+        "svelte",
+        "vanilla"
+      ],
+      "styling": [
+        "vanilla-css",
+        "inline-styles"
+      ],
+      "license": [
+        "mit"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "npm-package",
+        "github-repo"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "code"
+      ],
+      "agent_readiness": [
+        "open-source-code",
+        "structured-docs"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": "npm install @lisse/react",
+    "package": "@lisse/react",
+    "docs_url": "https://corne.rs/",
+    "repo_url": "https://github.com/JaceThings/Lisse",
+    "registry_url": null,
+    "github": {
+      "stars": 281,
+      "license": "MIT",
+      "last_activity": "2026-08-12"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Reach for this only when the design is explicitly iOS- or Figma-derived and the user has noticed that `border-radius` looks wrong at large radii — for radii under about 12px nobody can see the difference and you are adding a dependency for nothing. Prefer it over squircle-js or a hand-rolled clip-path when the element needs a visible border or shadow, since clip-path alone crops both and Lisse handles them; and prefer `@lisse/core` if you are in Astro, Solid or plain HTML rather than pulling a framework binding. Watch out that a clip-path corner will crop overflowing children and focus rings, so check keyboard focus visibility on any interactive element you wrap.",
+    "why_it_matters": "The squircle problem has a dozen half-solutions that break on borders and shadows; this is the one that implements Figma's actual algorithm, ships four curve types, and maintains bindings for three frameworks under MIT.",
+    "quality_tier": "A",
+    "notable_for": [
+      "Figma's corner-smoothing algorithm",
+      "arc, squircle, superellipse, clothoid",
+      "borders and shadows actually work",
+      "React, Vue, Svelte and a vanilla core",
+      "MIT, 281 stars, active"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://corne.rs/ (WebFetch returned 403; read successfully by curl with a desktop UA and parsed — install commands and copy quoted from that HTML), https://github.com/JaceThings/Lisse (WebFetch), api.github.com/repos/JaceThings/Lisse, registry.npmjs.org for @lisse/react and @lisse/core",
+    "source": "depo"
+  },
+  {
+    "id": "depo:j57c8n4b9hg7pyj7mbxxc6r3cx86y8ep",
+    "slug": "free-faces",
+    "url": "https://www.freefaces.gallery/",
+    "name": "Free Faces",
+    "tagline": "87 hand-picked free-licence typefaces, filterable by six classifications",
+    "description": "A curated gallery of typefaces available under some free licence, designed and maintained by Simon Foster. It indexes 87 faces across six classifications — Cursive, Display, Monospace, Sans Serif, Serif and Slab — in a grid or list view, with each detail page giving the classification, the number of styles, the exact licence (for example Commit Mono is 'SIL Open Font License 1.1'), selected glyphs and a 'Get this typeface' link straight to the foundry or repo. The selection leans editorial rather than exhaustive: Apfel Grotezk, Bluu Next, Karrik, Pilowlava, Departure Mono, Typefesse and Murmure sit alongside the obvious Inter, Work Sans, Lora and JetBrains Mono. It hosts nothing itself — every download goes to the source.",
+    "category": "typography",
+    "subcategory": "typefaces",
+    "kinds": [
+      "gallery",
+      "directory",
+      "typeface"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "ofl",
+        "free-for-personal",
+        "cc-by"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "gallery",
+        "download"
+      ],
+      "platform": [
+        "web",
+        "print"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "fonts"
+      ],
+      "agent_readiness": [
+        "none"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": 87,
+      "palettes": null,
+      "entries": 87,
+      "blocks": null
+    },
+    "agent_guidance": "Use this when a user wants a typeface with character and you would otherwise default to Inter — it is the fastest way to surface Apfel Grotezk, Karrik, Bluu Next or Departure Mono instead of the Google Fonts top ten, and every entry names its exact licence on the detail page. It is a link directory, not a CDN: it hosts no files and offers no npm package, so pair it with Fontsource or a self-hosted @font-face setup once the user picks one. Always open the individual typeface page and read the licence before you commit — 'free' here spans OFL, CC and personal-use-only, and personal-use faces will get a commercial project in trouble.",
+    "why_it_matters": "Taste is the scarce thing in free type, and this is one of the few free-font indexes curated by a designer rather than generated from a scrape — 87 faces you would actually specify, each with its licence stated plainly.",
+    "quality_tier": "A",
+    "notable_for": [
+      "87 curated free typefaces",
+      "six classifications with filters",
+      "exact licence on every detail page",
+      "links straight to the foundry",
+      "curated by Simon Foster"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://www.freefaces.gallery/ (WebFetch), all 8 pagination pages scraped by curl via ?7e2ee8ed_page=1..8 and de-duplicated to 87 unique /typefaces/ slugs, https://www.freefaces.gallery/typefaces/commit-mono (WebFetch, to confirm the detail-page fields and licence string)",
+    "source": "depo"
+  }
+]

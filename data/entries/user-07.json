@@ -1,0 +1,98 @@
+[
+  {
+    "id": "user:bbe865084be637c7",
+    "slug": "driver-js",
+    "url": "https://driverjs.com",
+    "name": "Driver.js",
+    "tagline": "26.6k-star, dependency-free product tours and spotlight highlights in vanilla JS",
+    "description": "A lightweight library for guiding attention across a page: product tours, feature hints and a simple spotlight highlight that dims everything except the element in focus. It is vanilla JavaScript with zero runtime dependencies and ships its own TypeScript types, so it drops into any stack rather than requiring React. The API is deliberately small - drive a sequence of steps, or highlight one element on demand - and it handles the parts that are tedious to get right by hand: scrolling the target into view, keeping the overlay aligned as the page reflows, and keyboard control through the sequence. MIT, 26,597 stars, and still maintained.",
+    "category": "motion-interaction",
+    "subcategory": "micro-interactions-and-loaders",
+    "kinds": [
+      "animation-library",
+      "primitive"
+    ],
+    "facets": {
+      "framework": [
+        "vanilla"
+      ],
+      "styling": [
+        "css-variables"
+      ],
+      "license": [
+        "mit"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "npm-package",
+        "github-repo"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "keyboard-navigable",
+        "focus-managed"
+      ],
+      "content_type": [
+        "code"
+      ],
+      "agent_readiness": [
+        "open-source-code",
+        "structured-docs"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "coachmark",
+      "popover",
+      "tooltip"
+    ],
+    "component_count": null,
+    "surfaces": [
+      "onboarding-web-app",
+      "onboarding-mobile",
+      "permission-primer"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": "npm i driver.js",
+    "package": "driver.js",
+    "docs_url": "https://driverjs.com/docs/installation",
+    "repo_url": "https://github.com/kamranahmedse/driver.js",
+    "registry_url": null,
+    "github": {
+      "stars": 26597,
+      "license": "MIT",
+      "last_activity": "2026-07-18"
+    },
+    "pricing_detail": "Free and MIT. No paid tier.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Reach for this when a brief asks for an onboarding tour, a coachmark or a 'highlight this element' moment and the project is not React - it is vanilla JS with no dependencies, so it works in any stack including plain HTML. Install is npm i driver.js and the whole API is a driver() instance with a steps array; each step is an element selector plus a popover. It does the fiddly parts for you: scrolling the target into view, re-aligning the overlay when the page reflows, and moving through the sequence by keyboard. Reach for React Joyride or React Spotlight Tour instead only if the project already depends on React-specific behaviour. Check the Surfaces checklist for onboarding-web-app before building the sequence, since the ordering and the escape route are the parts tours usually get wrong, not the highlight.",
+    "why_it_matters": "Onboarding tours are one of the few surfaces almost every product ships and almost no component library covers, and this is the framework-agnostic default with no dependencies to carry.",
+    "quality_tier": "A",
+    "tier_reason": "The de facto library for its job: 26.6k stars, MIT, zero dependencies, own TypeScript types, still pushed in 2026, and it works outside React which most alternatives do not. Held below S because the scope is deliberately one narrow interaction rather than a system.",
+    "notable_for": [
+      "26,597 stars, MIT",
+      "zero runtime dependencies",
+      "vanilla JS, works in any stack",
+      "ships TypeScript types",
+      "product tours, feature hints and spotlight highlight",
+      "named in the shadcn/reactbits/assistant-ui tool carousel"
+    ],
+    "http_status": 200,
+    "verified_at": "2026-08-18",
+    "evidence": "https://driverjs.com 200; GitHub API for kamranahmedse/driver.js (redirects to nilbuild/driver.js) reports 26,597 stars, MIT, pushed 2026-07-18; npm registry reports driver.js@1.8.0 with no dependencies and bundled types",
+    "source": "user",
+    "already_enriched": true
+  }
+]

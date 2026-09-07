@@ -1,0 +1,672 @@
+[
+ {
+  "id": "15a77448-4d72-4c27-bdf7-738a64f8d72f",
+  "slug": "shadcn-ui-blocks",
+  "url": "https://shadcnui-blocks.com",
+  "name": "Shadcn UI Blocks",
+  "tagline": "200+ free copy-paste marketing and app blocks built on shadcn/ui",
+  "description": "A free block library by Akash Moradiya that ships pre-composed page sections (hero, pricing, FAQ, login, timeline, empty state) and 27 shadcn/ui component pages showing many styled variants of each primitive. Everything is preview-copy-paste with no account, no CLI and no paywall on the free site; a separate Pro tier at pro.shadcnui-blocks.com sells extra blocks for a one-time fee. It also hosts four complete free Next.js templates with their own GitHub repos. Aimed at developers who already run shadcn/ui and want finished sections instead of primitives.",
+  "category": "blocks-templates-themes",
+  "subcategory": "page-blocks",
+  "kinds": [
+   "block-collection",
+   "component-library",
+   "template"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "tailwind-v4",
+    "tailwind-any",
+    "css-variables"
+   ],
+   "license": [
+    "mit",
+    "commercial"
+   ],
+   "pricing": [
+    "free",
+    "open-source",
+    "one-time"
+   ],
+   "distribution": [
+    "copy-paste",
+    "github-repo",
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "built-on-accessible-primitives"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "copy-paste-ready",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "accordion",
+   "alert",
+   "alert-dialog",
+   "avatar",
+   "badge",
+   "breadcrumbs",
+   "button",
+   "card",
+   "carousel",
+   "checkbox",
+   "collapsible",
+   "dropdown-menu",
+   "text-input",
+   "otp-input",
+   "navigation-menu",
+   "pagination",
+   "progress-bar",
+   "radio-group",
+   "select",
+   "separator",
+   "slider",
+   "spinner",
+   "switch",
+   "table",
+   "tabs",
+   "textarea",
+   "tooltip",
+   "hero",
+   "header",
+   "navbar",
+   "footer",
+   "pricing-table",
+   "login-form",
+   "signup-form",
+   "empty-state",
+   "timeline",
+   "stat",
+   "error-page",
+   "code-block",
+   "kbd",
+   "banner",
+   "team-invite",
+   "onboarding-flow",
+   "profile-form",
+   "order-summary",
+   "quote",
+   "logo",
+   "form"
+  ],
+  "component_count": 27,
+  "surfaces": [
+   "homepage",
+   "pricing-website",
+   "login-web-app",
+   "sign-up",
+   "verifying-account",
+   "404",
+   "blog",
+   "changelog",
+   "contact-us",
+   "features",
+   "testimonials",
+   "invite",
+   "team",
+   "empty-state",
+   "keyboard-shortcuts-overlay",
+   "order-status",
+   "public-profile",
+   "onboarding-checklist",
+   "faq"
+  ],
+  "templates": [
+   {
+    "name": "HomeGuardian",
+    "url": "https://homeguardian-shadcn-landing-page.vercel.app/",
+    "purpose": "Home-security / service business landing page; source at github.com/akash3444/homeguardian-shadcn-landing-page"
+   },
+   {
+    "name": "Minimalist Landing Page",
+    "url": "https://shadcn-ui-landing-page.vercel.app/",
+    "purpose": "Clean general-purpose SaaS landing page; source at github.com/akash3444/shadcn-ui-landing-page"
+   },
+   {
+    "name": "PureLanding",
+    "url": "https://pure-landing-shadcnui-template.vercel.app/",
+    "purpose": "Minimal product landing page; source at github.com/akash3444/pure-landing-shadcnui-template"
+   },
+   {
+    "name": "Minimal Portfolio",
+    "url": "https://shadcn-portfolio-template.vercel.app/",
+    "purpose": "Developer portfolio template; source at github.com/akash3444/portfolio-template"
+   }
+  ],
+  "template_count": 4,
+  "install": null,
+  "package": null,
+  "docs_url": "https://www.shadcnui-blocks.com/components/introduction",
+  "repo_url": "https://github.com/akash3444/shadcn-ui-blocks",
+  "registry_url": null,
+  "github": {
+   "stars": 623,
+   "license": "MIT",
+   "last_activity": "2026-05-10"
+  },
+  "pricing_detail": "Free site is entirely free for personal and commercial use, no account. Pro $49 one-time (list $69) and Premium $69 one-time (list $89) at pro.shadcnui-blocks.com; Pro adds 15+ new blocks/month, Premium 25+/month plus all templates.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": 200
+  },
+  "agent_guidance": "Reach for this when the user already has shadcn/ui wired up and needs a finished section fast — it is section-level, not primitive-level, so it complements ui.shadcn.com rather than replacing it. There is no working shadcn registry endpoint on the free site (r/registry.json returns the HTML shell), so you must scrape the block page and paste the source; budget a fetch per block. The 31 block categories are the fastest index: /blocks/categories/{hero,pricing,faq,login,timeline,emptyState,...}. Tailwind v4 syntax is used throughout, so it will break on a v3 project without rewriting arbitrary-value and `size-*` classes.",
+  "why_it_matters": "One of the few large shadcn block sets that stays genuinely free with no signup wall, and the four bundled template repos mean a whole marketing site can be seeded from it in one sitting.",
+  "quality_tier": "A",
+  "notable_for": [
+   "31 named block categories",
+   "27 component pages with many variants each",
+   "4 free Next.js templates with public repos",
+   "no account or paywall on the free tier",
+   "Tailwind v4 class syntax"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://shadcnui-blocks.com, https://www.shadcnui-blocks.com/sitemap.xml, https://www.shadcnui-blocks.com/blocks, https://www.shadcnui-blocks.com/blocks/categories/hero, https://www.shadcnui-blocks.com/templates (RSC payload parsed for template names/URLs/repos), https://www.shadcnui-blocks.com/r/registry.json (soft-404 HTML), https://pro.shadcnui-blocks.com/, GitHub API repos/akash3444/shadcn-ui-blocks"
+ },
+ {
+  "id": "bfa0f2fa-b5a2-4c86-84dc-ced71c146356",
+  "slug": "heroicons-animated",
+  "url": "https://heroicons-animated.vercel.app",
+  "name": "Heroicons Animated",
+  "tagline": "316 Heroicons rebuilt as Motion-animated React components",
+  "description": "Aniket Kudale's MIT-licensed port of the full Heroicons outline set into React components whose strokes and shapes animate on hover or on demand, built with Motion (motion.dev). Every icon is a separate shadcn registry item, so you install exactly the icons you use rather than pulling a whole package, and the source lands in your repo as editable TSX. A published npm package (@heroicons-animated/react) exists for teams who prefer a dependency. Best for developers already on Heroicons who want motion without hand-writing SVG keyframes.",
+  "category": "icons-logos",
+  "subcategory": "animated-icons",
+  "kinds": [
+   "icon-set",
+   "animation-library",
+   "registry"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "tailwind-any",
+    "css-variables"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source",
+    "sponsor-supported"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "npm-package",
+    "copy-paste",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "icons",
+    "code"
+   ],
+   "agent_readiness": [
+    "registry-json",
+    "cli-installable",
+    "copy-paste-ready",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "icon",
+   "animation",
+   "transition"
+  ],
+  "component_count": 316,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npx shadcn@latest add @heroicons-animated/heart",
+  "package": "@heroicons-animated/react",
+  "docs_url": "https://www.heroicons-animated.com",
+  "repo_url": "https://github.com/Aniket-508/heroicons-animated",
+  "registry_url": "https://www.heroicons-animated.com/r/registry.json",
+  "github": {
+   "stars": 168,
+   "license": "MIT",
+   "last_activity": "2026-08-08"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": 316,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use this instead of plain @heroicons/react only where motion earns its place — icon buttons, toggles, nav items, empty states — because each icon arrives as a Motion component and pulls `motion` into the client bundle. The registry index at /r/registry.json lists all 316 slugs in Heroicons naming (arrow-down-tray, chevron-up-down, ellipsis-vertical), so you can resolve an icon name programmatically before installing. Pair it with lucide-animated if you need icons Heroicons does not cover, and gate the animations behind prefers-reduced-motion yourself — that is not verified as built in.",
+  "why_it_matters": "Full 1:1 coverage of the Heroicons outline set is rare in animated-icon projects, which usually ship 40 to 80 hand-picked icons; here you can adopt motion without dropping your existing icon vocabulary.",
+  "quality_tier": "A",
+  "notable_for": [
+   "complete 316-icon Heroicons parity",
+   "per-icon shadcn registry install",
+   "built on Motion (motion.dev)",
+   "MIT, backed by the Vercel OSS program",
+   "npm package alternative to copy-paste"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://heroicons-animated.vercel.app (307 -> https://www.heroicons-animated.com/), https://www.heroicons-animated.com/, https://www.heroicons-animated.com/r/registry.json (316 items enumerated), https://github.com/Aniket-508/heroicons-animated, GitHub API repos/Aniket-508/heroicons-animated"
+ },
+ {
+  "id": "94444d99-fe2c-4411-bc77-f8d739bf3bd4",
+  "slug": "shadix-ui",
+  "url": "https://shadix-ui.vercel.app",
+  "name": "Shadix UI",
+  "tagline": "14 motion-heavy shadcn add-ons: signature pad, datetime picker, reorder list",
+  "description": "A small namespaced shadcn registry by apix-js that fills the gaps shadcn/ui leaves open, with Framer Motion baked in. It is not a general component library: the 14 items are specific, non-trivial widgets like a signature pad, a combined date-and-time picker, a drag-to-reorder list, a morphing image, an expandable card and a custom video player. Components arrive as source, not an npm dependency, so you own and edit them after install. Useful when you need one of those exact widgets and do not want to build it yourself.",
+  "category": "component-libraries",
+  "subcategory": "shadcn-registries",
+  "kinds": [
+   "registry",
+   "component-library",
+   "animation-library"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "tailwind-any",
+    "css-variables"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "cli",
+    "copy-paste",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "built-on-accessible-primitives",
+    "claimed-accessible"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "registry-json",
+    "cli-installable",
+    "copy-paste-ready",
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "beta"
+  },
+  "components": [
+   "popconfirm",
+   "button",
+   "tabs",
+   "date-picker",
+   "time-picker",
+   "date-input",
+   "card",
+   "collapsible",
+   "image-gallery",
+   "spinner",
+   "image",
+   "dialog",
+   "modal",
+   "drag-and-drop",
+   "list",
+   "segmented-control",
+   "signature-pad",
+   "scroll-area",
+   "video-player",
+   "animation",
+   "transition"
+  ],
+  "component_count": 14,
+  "surfaces": [
+   "submitting-a-form",
+   "multi-step-form",
+   "uploading-media",
+   "single-item-detail",
+   "saving-changes"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "npx shadcn@latest add @shadix-ui/action-button",
+  "package": null,
+  "docs_url": "https://shadix-ui.vercel.app/docs",
+  "repo_url": "https://github.com/apix-js/shadix-ui",
+  "registry_url": "https://shadix-ui.vercel.app/r/registry.json",
+  "github": {
+   "stars": 13,
+   "license": "MIT",
+   "last_activity": "2026-03-29"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Cherry-pick from this — do not adopt it as a base library. Register the namespace once in components.json as \"@shadix-ui\": \"https://shadix-ui.vercel.app/r/{name}.json\", then pull only the widget you need; signature-pad, datetimepicker and reorder-list are the three that are genuinely hard to hand-roll and are the reason to come here. At 13 stars with no push since March 2026 you are effectively forking unmaintained code, so review the installed TSX rather than trusting it, and expect to supply your own aria wiring since accessibility is claimed but not evidenced.",
+  "why_it_matters": "A reminder that the useful long tail of shadcn registries is one-widget-deep — this one exists mainly because shadcn/ui still has no signature pad or combined datetime picker.",
+  "quality_tier": "C",
+  "notable_for": [
+   "signature pad and combined datetime picker",
+   "drag-to-reorder list",
+   "namespaced @shadix-ui registry",
+   "only 14 items, all non-primitive",
+   "low adoption, stale since March 2026"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://shadix-ui.vercel.app, https://shadix-ui.vercel.app/docs, https://shadix-ui.vercel.app/r/registry.json (14 items enumerated), https://github.com/apix-js/shadix-ui, GitHub API repos/apix-js/shadix-ui"
+ },
+ {
+  "id": "4fa725e7-c899-447b-bc38-25ecf85ceef4",
+  "slug": "eldora-ui",
+  "url": "https://www.eldoraui.site",
+  "name": "Eldora UI",
+  "tagline": "40 animated React components plus 16 landing-page blocks, shadcn-installable",
+  "description": "Karthik Mudunuri's open-source animated component set for React, TypeScript, Tailwind and Motion, positioned as a companion to shadcn/ui rather than a replacement. The registry actually resolves to 40 UI components (device mockups, 11 text-animation variants, three animated backgrounds, a Cobe globe, a terminal, an animated list) and 16 marketing blocks (headers, logo clouds, testimonials, CTAs, pricing, footer), plus one portfolio template — the marketed \"150+\" figure counts demo files as well. Installation is the plain shadcn CLI against the @eldoraui namespace. For developers building animated landing pages who want more than Magic UI's set.",
+  "category": "motion-interaction",
+  "subcategory": "animated-components",
+  "kinds": [
+   "animation-library",
+   "registry",
+   "block-collection"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next",
+    "vanilla"
+   ],
+   "styling": [
+    "tailwind-any",
+    "tailwind-v4",
+    "css-variables"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source",
+    "sponsor-supported"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "cli",
+    "copy-paste",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "registry-json",
+    "cli-installable",
+    "copy-paste-ready",
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "beta"
+  },
+  "components": [
+   "device-frame",
+   "map",
+   "comment",
+   "badge",
+   "grid",
+   "otp-input",
+   "marquee",
+   "terminal",
+   "carousel",
+   "quote",
+   "ripple",
+   "animation",
+   "text-effect",
+   "particle-background",
+   "gradient-background",
+   "hover-effect",
+   "card",
+   "glassmorphism",
+   "button",
+   "list",
+   "timeline",
+   "logo",
+   "scroll-reveal",
+   "transition",
+   "header",
+   "pricing-table",
+   "footer",
+   "hero",
+   "section",
+   "card-grid"
+  ],
+  "component_count": 56,
+  "surfaces": [
+   "homepage",
+   "features",
+   "pricing-website",
+   "testimonials",
+   "waitlist",
+   "two-factor-authentication",
+   "verifying-account",
+   "changelog",
+   "about"
+  ],
+  "templates": [
+   {
+    "name": "Portfolio",
+    "url": "https://www.eldoraui.site/docs/templates/portfolio",
+    "purpose": "Single animated personal/developer portfolio template — the only template in the set"
+   }
+  ],
+  "template_count": 1,
+  "install": "npx shadcn@latest add @eldoraui/map",
+  "package": null,
+  "docs_url": "https://www.eldoraui.site/docs/components",
+  "repo_url": "https://github.com/karthikmudunuri/eldoraui",
+  "registry_url": "https://www.eldoraui.site/r/registry.json",
+  "github": {
+   "stars": 1956,
+   "license": "MIT",
+   "last_activity": "2026-04-18"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": 16
+  },
+  "agent_guidance": "Treat the \"150+ components\" claim as marketing — the registry has 40 real UI items and 16 blocks, the rest are `registry:example` demo files, so verify against /r/registry.json before promising a user a component exists. Its distinct value over Magic UI is the mockup set (MacBook Pro, iPhone 17 Pro, iPad, Safari, browser chrome), the 11 text-animation variants and the Cobe globe; for buttons, cards and layout keep using shadcn/ui underneath. Everything is client-side Motion, so mark these `\"use client\"` and keep them out of above-the-fold server components if you care about LCP.",
+  "why_it_matters": "A well-adopted (2k stars) middle ground between shadcn/ui's plainness and a full motion framework, and the device-mockup components alone save an afternoon on any product landing page.",
+  "quality_tier": "B",
+  "notable_for": [
+   "5 device mockup frames including iPhone 17 Pro",
+   "11 text-animation variants",
+   "3 shader-style animated backgrounds",
+   "16 marketing blocks in the same registry",
+   "component count is inflated by demo entries"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://www.eldoraui.site, https://www.eldoraui.site/docs/components, https://www.eldoraui.site/docs/installation, https://www.eldoraui.site/r/registry.json (115 items: 40 registry:ui, 16 registry:block, rest registry:example), https://github.com/karthikmudunuri/eldoraui, GitHub API repos/karthikmudunuri/eldoraui"
+ },
+ {
+  "id": "1ea7a842-094a-47bb-8e99-7dc0a7774453",
+  "slug": "algolia-sitesearch",
+  "url": "https://sitesearch.algolia.com",
+  "name": "Algolia SiteSearch",
+  "tagline": "Five drop-in Algolia search and Ask AI experiences as shadcn registry blocks",
+  "description": "Algolia's own open-source registry of opinionated, complete search experiences rather than low-level widgets — you install a whole screen, not a SearchBox. Five blocks ship today: a full-page instant search, a search with Ask AI conversational answers, an inline autocomplete dropdown, an Ask AI side panel and a highlight-to-Ask-AI interaction still in development. Each is a shadcn registry:block that brings its own components, keyboard-navigation hook and page route, wired to algoliasearch v5, react-instantsearch and the Vercel AI SDK. A vanilla-JS standalone package exists alongside the React registry.",
+  "category": "component-libraries",
+  "subcategory": "integration-components",
+  "kinds": [
+   "registry",
+   "block-collection",
+   "component-library"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next",
+    "vanilla"
+   ],
+   "styling": [
+    "tailwind-v4",
+    "css-variables"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source",
+    "freemium",
+    "account-required",
+    "usage-based"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "cli",
+    "copy-paste",
+    "github-repo",
+    "public-api"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "wcag-aa",
+    "keyboard-navigable",
+    "claimed-accessible"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "registry-json",
+    "cli-installable",
+    "structured-docs",
+    "open-source-code",
+    "public-api",
+    "auth-required"
+   ],
+   "maturity": "beta"
+  },
+  "components": [
+   "search-input",
+   "autocomplete",
+   "command-palette",
+   "dropdown-panel",
+   "dialog",
+   "modal",
+   "sheet",
+   "drawer",
+   "empty-state",
+   "conversation",
+   "message",
+   "prompt-input",
+   "streaming-text",
+   "sources",
+   "inline-citation",
+   "suggestion",
+   "filter-panel",
+   "list",
+   "skeleton"
+  ],
+  "component_count": 5,
+  "surfaces": [
+   "search-results",
+   "search-website",
+   "search-mobile",
+   "filtering-items",
+   "command-palette",
+   "ai-chat-panel",
+   "help-center",
+   "api-documentation"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "npx shadcn@latest add https://sitesearch.algolia.com/r/search.json",
+  "package": null,
+  "docs_url": "https://sitesearch.algolia.com/docs",
+  "repo_url": "https://github.com/algolia/sitesearch",
+  "registry_url": "https://sitesearch.algolia.com/r/registry.json",
+  "github": {
+   "stars": 23,
+   "license": "MIT",
+   "last_activity": "2026-07-29"
+  },
+  "pricing_detail": "The registry and code are free and MIT. Running it needs an Algolia account, an index and an API key, and Ask AI needs an Algolia AI assistant — those are billed on Algolia's own freemium/usage plans.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": 5
+  },
+  "agent_guidance": "This is the fastest correct way to put real search into a shadcn project: install the block, then supply appId, searchApiKey and indexName — do not hand-roll react-instantsearch markup around it. Pick `dropdown-search` for a header autocomplete, `search` for a dedicated results page, `search-ai` or `sidepanel-askai` when the user wants answers rather than links (those pull @ai-sdk/react, ai and marked, so expect a heavier bundle and a streaming endpoint). Each block installs a `page.tsx` at a fixed app-router target such as app/search/page.tsx, so move or rename it deliberately; `highlight-to-askai` is still marked in development and should not be promised to a user.",
+  "why_it_matters": "A first-party vendor shipping its integration as a shadcn registry rather than a docs snippet is the pattern the ecosystem is moving to, and it turns a search build from a week to an afternoon.",
+  "quality_tier": "B",
+  "notable_for": [
+   "official Algolia first-party registry",
+   "complete experiences, not primitives",
+   "Ask AI conversational search block",
+   "React and vanilla-JS paths",
+   "requires an Algolia account and API key"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://sitesearch.algolia.com, https://sitesearch.algolia.com/docs, https://sitesearch.algolia.com/docs/tools, https://sitesearch.algolia.com/r/registry.json (5 blocks with full dependency lists), https://sitesearch.algolia.com/r/search.json, https://github.com/algolia/sitesearch, GitHub API repos/algolia/sitesearch. Note: /docs/getting-started/shadcn returned 404."
+ }
+]

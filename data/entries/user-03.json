@@ -1,0 +1,95 @@
+[
+ {
+  "id": "user:2b92b25ff6d65a1a",
+  "slug": "annual-reports-gallery",
+  "url": "https://annualreport.gallery",
+  "name": "Annual Report Archive",
+  "tagline": "3,002 corporate annual-report covers from 1945 to 2023, searchable by design vibe over an open MCP server that needs no key",
+  "description": "An archive of corporate annual-report covers, restored and credited. The collection now holds 3,002 covers spanning 1945 to 2023, with real attribution where it exists: Paul Rand, Chermayeff & Geismar Associates, Robert Miles Runyan, Arnold Saks, George Tscherny, Saul Bass and Lester Beall all appear, and IBM alone carries dozens. Coverage peaks across the 1960s and 1970s, the period when an annual report was a serious design commission.\n\nPhil Hedayatnia built the archive and states the reason plainly on the site: companies once hired designers, illustrators and artists for these reports, then stopped once layout was democratised, and he worries the same loss is about to repeat as graphics get mechanised again.\n\nThe search is the second half of the project, designed and built by Rachit Pradhan. It reads design language rather than keywords, so \"quiet type\", \"photographic sky\", \"playful mascot\", \"collage\", \"gold on black\" and \"harvest\" are all real queries. Filters cut by decade, industry and colour.\n\nThe archive also runs a free remote MCP server at /api/mcp over Streamable HTTP, with no key and no account. It exposes four tools — search_covers for vibe search, get_cover for one record, similar_covers for nearest neighbours in the image-and-caption embedding space, and list_facets for valid filter counts — plus a cover://{id} resource and a copy_for_ai prompt. The /mcp page gives per-client setup for Cursor, Claude Code, Claude Desktop and Devin, and it warns that Devin uses serverUrl where the others use url.\n\nAn older prototype still runs at annual-reports-gallery.vercel.app. It holds the head-to-head voting and the Elo ranking that this domain does not carry, so the two are worth telling apart.",
+  "category": "inspiration-galleries",
+  "subcategory": "historical-archives",
+  "kinds": [
+   "gallery",
+   "reference",
+   "mcp-server"
+  ],
+  "facets": {
+   "framework": [
+    "next"
+   ],
+   "styling": [
+    "tailwind-any"
+   ],
+   "license": [
+    "no-license"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "gallery",
+    "mcp-server",
+    "public-api"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "images",
+    "dataset",
+    "prose"
+   ],
+   "agent_readiness": [
+    "mcp-server",
+    "llms-txt",
+    "public-api",
+    "structured-docs",
+    "js-only-shell"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://annualreport.gallery/llms.txt",
+  "repo_url": null,
+  "registry_url": "https://annualreport.gallery/api/mcp",
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Free, with no account and no key. The MCP server is public and unauthenticated, and the site states that the search embedding runs on its side rather than the client's.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 3002,
+   "blocks": null
+  },
+  "agent_guidance": "Connect the MCP server and stop parsing HTML. Add it in one line: `claude mcp add -s user -t http annual-report-archive https://annualreport.gallery/api/mcp`. There is no key and no account, and the endpoint answers 405 to a GET because it is JSON-RPC over POST.\n\nAsk in design language, not keywords. search_covers reads a phrase like \"quiet type on an ivory field\" or \"playful 1950s mascot\", and it takes optional decade, industry and colour. Call list_facets first when you want those filters to stay valid.\n\nUse similar_covers to walk a visual thread. It returns nearest neighbours in the image-and-caption embedding space with no live query embedding, which is the cheapest way to move from one cover to a family of them.\n\nDo not scrape the gallery. It is a client-rendered Next.js page with no sitemap and no robots.txt, so a plain fetch gets the shell. The llms.txt links a source repository at github.com/hedayatnia/annual-report-archive that answers 404, so treat the project as closed source for now.\n\nReach for this for editorial and corporate design, not for UI: cover typography, grid, photographic treatment and mark usage across eight decades, with the designer named often enough to study one hand across many years.",
+  "why_it_matters": "Annual report covers are where mid-century corporate identity was actually practised. This is the only archive in the corpus that collects them with attribution, and the only design gallery anywhere here that lets an agent search images by design language through an open MCP server.",
+  "quality_tier": "S",
+  "tier_reason": "A rare subject collected properly at 3,002 covers with real designer attribution, and the best agent surface of any gallery in this corpus: a free unauthenticated MCP server with four tools, a resource and a prompt, semantic search over image-and-caption embeddings, and per-client setup for Cursor, Claude Code, Claude Desktop and Devin, down to the serverUrl trap. The last record held this at B because it lived on a vercel.app subdomain and its durability was unproven. It now has its own domain, six times the covers and a public API.",
+  "notable_for": [
+   "3,002 covers, 1945 to 2023",
+   "free MCP server with no key, four tools",
+   "vibe search over image and caption embeddings",
+   "Paul Rand, Chermayeff & Geismar, Saul Bass credited",
+   "per-client setup for Cursor, Claude Code and Devin"
+  ],
+  "http_status": 200,
+  "verified_at": "2026-08-29",
+  "evidence": "https://annualreport.gallery/ 200, 1.33 MB; title \"Annual Report Archive\"; the page offers the example queries \"quiet type\", \"photographic sky\", \"playful mascot\", \"collage\", \"gold on black\" and \"harvest\", with Decade, Industry and Color filters, and credits \"Built by @philhedayatnia\"; the About text reads \"For the better part of the last century, annual reports were things that companies put lots of effort into, hiring graphic designers, illustrators, and artists ... As the production of graphics gets further mechanized via AI tools, I do worry about what we're about to lose this time.\" https://annualreport.gallery/llms.txt 200, 490 bytes: \"3,002 historic corporate annual-report covers, 1945–2023\", naming the gallery, the MCP page, the endpoint https://annualreport.gallery/api/mcp with tools search_covers, get_cover, similar_covers and list_facets, and a GitHub source link. https://annualreport.gallery/mcp 200: \"A free, remote Model Context Protocol server for vibe search over 3,002 historic annual-report covers (1945–2023)\", \"Remote MCP · no auth\", \"Public — no API key on the client. Search is embedded on our side\", \"Search designed and built by @rachpradhan\"; it documents the resource cover://{id} and the prompt copy_for_ai, gives config for Cursor, Claude Code (`claude mcp add -s user -t http annual-report-archive https://annualreport.gallery/api/mcp`), Claude Desktop and Devin, and warns \"Devin uses serverUrl, not url\". https://annualreport.gallery/api/mcp answers 405 to GET, which is correct for JSON-RPC over POST. /sitemap.xml, /robots.txt and /about all 404. The source link in llms.txt, https://github.com/hedayatnia/annual-report-archive, answers 404, though the user hedayatnia (Phil Hedayatnia) exists with 9 public repositories. The earlier record indexed this project on 2026-08-17 at annual-reports-gallery.vercel.app/grade with 452 covers; that prototype still answers 200 and still carries the Contribute, Vote and Leaderboard routes, which this domain does not, while the designer attributions and the counts 452 and 446 both appear in the new site's payload, so it is the same archive rebuilt.",
+  "source": "user",
+  "already_enriched": true,
+  "domain": "annualreport.gallery"
+ }
+]

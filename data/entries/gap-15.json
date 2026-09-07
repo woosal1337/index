@@ -1,0 +1,612 @@
+[
+ {
+  "id": "depo:j57c78yhkg45a9e6rjf463v1a181vk36",
+  "slug": "workspaces",
+  "url": "https://www.workspaces.xyz/",
+  "name": "Workspaces",
+  "tagline": "Weekly photo tours of 538+ real desk setups, with a gear database",
+  "description": "A long-running newsletter and browsable archive of desk-setup tours from designers, founders and developers, sent every Saturday to a stated 21,000+ subscribers. Each issue is a numbered entry with photos, the owner's name, role and location, and a tagged list of the hardware on the desk. Alongside the setups it runs a gear database with comparison pages, buying guides and ten curated collections (Apple 430, Designers 204, Developers 79, Founders 128, IKEA 159, Minimal 56, Multi-Monitor 24, Plants 61, Single Monitor 53, Standing Desks 153). It is physical-workspace inspiration and product research, not UI design reference.",
+  "category": "inspiration-galleries",
+  "subcategory": "directories-and-meta-indexes",
+  "kinds": [
+   "gallery",
+   "directory"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "gallery",
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "images",
+    "prose"
+   ],
+   "agent_readiness": [
+    "image-only"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Free site and newsletter; gear links are affiliate. Free downloadable Gear Report. Paid advertising slots are sold.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 538,
+   "blocks": null
+  },
+  "agent_guidance": "This is a physical-desk-setup archive, not a UI resource - do not reach for it when you need interface inspiration or components. It is genuinely useful for one narrow job: sourcing real, dated evidence of what monitors, keyboards, chairs and desks working creatives actually buy, which the gear database and collection counts give you directly. There is no API, feed or structured export, and every entry is photographic, so any extraction is manual scraping of prose and images.",
+  "why_it_matters": "One of the few setup galleries with enough history and volume to read as a longitudinal record of creative-tool buying rather than a sponsored listicle.",
+  "quality_tier": "B",
+  "notable_for": [
+   "538+ dated setup issues",
+   "ten curated collections with real counts",
+   "gear database with comparison pages",
+   "21,000+ subscriber weekly newsletter",
+   "off-topic for UI work"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://www.workspaces.xyz/, https://www.workspaces.xyz/collections (collection names and counts read verbatim); https://www.workspaces.xyz/sitemap.xml returns a 404 HTML page, so entry count is the site's own stated 538+",
+  "source": "depo"
+ },
+ {
+  "id": "depo:j576kkx0k4ccs1t6my8p5b7j3981vg70",
+  "slug": "subframe",
+  "url": "https://www.subframe.com/",
+  "name": "Subframe",
+  "tagline": "Visual editor that emits React + Tailwind + Radix code, with an MCP server",
+  "description": "A hosted design tool where you lay out real components on a responsive canvas and pull the result down as React code through a CLI, rather than exporting a mockup. The generated code is deterministic - Subframe states it is produced without an LLM - and is built on Radix primitives with Tailwind for styling, so you own the business logic and Subframe owns the markup and classes. It ships a library of 43 documented components covering forms, overlays, navigation and charts, plus theme and icon layers, and exposes an MCP server so Claude Code or Cursor can read your designs directly. Aimed at product teams who want a shared design surface that does not end in a hand-off.",
+  "category": "agent-design-tooling",
+  "subcategory": "ai-design-apps",
+  "kinds": [
+   "ai-tool",
+   "tool",
+   "component-library"
+  ],
+  "facets": {
+   "framework": [
+    "react"
+   ],
+   "styling": [
+    "tailwind-any"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "freemium",
+    "subscription",
+    "account-required"
+   ],
+   "distribution": [
+    "saas",
+    "web-app",
+    "cli",
+    "mcp-server"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "built-on-accessible-primitives"
+   ],
+   "content_type": [
+    "code",
+    "design-tokens"
+   ],
+   "agent_readiness": [
+    "mcp-server",
+    "cli-installable",
+    "structured-docs",
+    "auth-required"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "accordion",
+   "alert",
+   "area-chart",
+   "avatar",
+   "badge",
+   "bar-chart",
+   "breadcrumbs",
+   "button",
+   "calendar",
+   "checkbox",
+   "checkbox-group",
+   "context-menu",
+   "copy-button",
+   "dialog",
+   "drawer",
+   "dropdown-menu",
+   "full-screen-takeover",
+   "icon-button",
+   "icon",
+   "line-chart",
+   "link",
+   "spinner",
+   "pie-chart",
+   "progress-bar",
+   "radio-group",
+   "select",
+   "sidebar",
+   "skeleton",
+   "slider",
+   "progress-stepper",
+   "switch",
+   "table",
+   "tabs",
+   "textarea",
+   "text-input",
+   "toast",
+   "toggle-group",
+   "tooltip",
+   "tree-view"
+  ],
+  "component_count": 43,
+  "surfaces": [
+   "login-web-app",
+   "sign-up",
+   "analytics",
+   "admin-panel",
+   "settings-web-app"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://docs.subframe.com",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Free: 1 project, 10 pages, limited AI. Pro: $29 per editor per month, unlimited projects and pages. Custom: contact sales.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Reach for this over generating shadcn/ui screens from scratch when a human designer needs to keep editing the layout after you ship it - the round trip through the visual editor is the whole point, and the Radix + Tailwind output drops into an existing shadcn codebase without a second styling system. Connect its MCP server before you start writing components, otherwise you will hand-transcribe designs you could have read. Watch out: the component library and templates live behind an account, the CLI sync command is not published on the public docs pages, and the emitted code is a snapshot - hand-editing a synced component is overwritten on the next pull.",
+  "why_it_matters": "One of the few design tools whose output is real Radix and Tailwind source rather than an LLM's guess at your design, which makes it safe to keep in a production repo.",
+  "quality_tier": "A",
+  "notable_for": [
+   "deterministic non-LLM code generation",
+   "43-component library on Radix",
+   "MCP server for Claude Code and Cursor",
+   "CLI sync into an existing repo",
+   "$29 per editor per month"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://www.subframe.com/, https://www.subframe.com/library (all 43 component names and URLs read directly), https://docs.subframe.com/, https://www.subframe.com/templates and https://www.subframe.com/sitemap.xml - the templates page is a client-rendered shell with zero /templates/ links in the HTML or sitemap, so templates could not be enumerated and none are invented here",
+  "source": "depo"
+ },
+ {
+  "id": "depo:j5701exbm2qw54b5zagx7gxamx81tez2",
+  "slug": "beautiful-mermaid",
+  "url": "https://agents.craft.do/mermaid",
+  "name": "Beautiful Mermaid",
+  "tagline": "Zero-DOM TypeScript Mermaid renderer with SVG and ASCII output",
+  "description": "The showcase and playground for beautiful-mermaid, a Mermaid diagram renderer written by the Craft team as pure TypeScript with no DOM dependency, so it runs in a browser, in Node and in a terminal alike. It renders synchronously through renderMermaidSVG, offers an async variant and a parseMermaid structural parser, and emits either SVG with optional tooltips or ASCII/Unicode for CLI output. Themes are the selling point: 15 built-ins plus Shiki VS Code theme compatibility, driven by CSS custom properties so a theme swap needs no re-render, and a Mono Mode that derives a full scheme from just a background and foreground colour. The playground carries live samples across six diagram families - flowchart (24), sequence (16), class (16), ER (14), XY chart (10) and state (4).",
+  "category": "utilities-naming",
+  "subcategory": "small-web-utilities",
+  "kinds": [
+   "generator",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "vanilla"
+   ],
+   "styling": [
+    "css-variables"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo"
+   ],
+   "platform": [
+    "web",
+    "terminal",
+    "cross-platform"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code",
+    "images"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "structured-docs",
+    "cli-installable"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "network-graph",
+   "bar-chart",
+   "line-chart"
+  ],
+  "component_count": null,
+  "surfaces": [
+   "api-documentation"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "npm install beautiful-mermaid",
+  "package": "beautiful-mermaid",
+  "docs_url": "https://agents.craft.do/mermaid",
+  "repo_url": "https://github.com/lukilabs/beautiful-mermaid",
+  "registry_url": null,
+  "github": {
+   "stars": 10900,
+   "license": "MIT",
+   "last_activity": "2026-02-26"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Prefer this over upstream mermaid-js when you need to render a diagram outside a browser or without awaiting - the synchronous, DOM-free API means you can produce SVG inside a server handler or a build step, and renderMermaidASCII gives you a diagram inside terminal output where mermaid-js gives you nothing. Pair the CSS-variable themes with your own design tokens so diagrams follow light and dark without a re-render. Watch the scope: it covers six diagram families only, so Gantt, pie, mindmap and journey diagrams still need upstream Mermaid, and it pulls elkjs for layout, which is not a trivial dependency.",
+  "why_it_matters": "The first Mermaid renderer designed around agent and CLI output rather than a browser canvas, and the ASCII path makes diagrams legible in places a chart has never been.",
+  "quality_tier": "S",
+  "notable_for": [
+   "synchronous, zero-DOM rendering",
+   "ASCII/Unicode terminal output",
+   "15 themes plus Shiki compatibility",
+   "Mono Mode derives a scheme from two colours",
+   "10.9k stars, MIT"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://agents.craft.do/mermaid (themes, diagram families, sample counts), https://github.com/lukilabs/beautiful-mermaid (stars, MIT licence, API, install), https://registry.npmjs.org/beautiful-mermaid (v1.1.3 published 2026-02-26, deps elkjs and entities). Note: the depo title implies the page is the library; it is Craft's showcase for the lukilabs/beautiful-mermaid package.",
+  "source": "depo"
+ },
+ {
+  "id": "depo:j570b4fw4g0n3edbgxc2zcb3t181qa3n",
+  "slug": "navbar-gallery",
+  "url": "https://www.navbar.gallery/",
+  "name": "Navbar Gallery",
+  "tagline": "496 screenshotted site navbars, filtered by 10 nav types and 100+ styles",
+  "description": "A single-element inspiration gallery that collects nothing but website navigation. Its sitemap resolves 496 individual navbar entries, each on its own page with the source site named, sorted into ten navigation types - Static, Dropdown, Mega Menu, Side Bar, Search Bar, Announcement, Full Screen, Breadcrumbs, Tabs and Progress Bar - and cross-cut by more than 100 style and industry tags plus dedicated Framer and Webflow filters. A blog runs long-form roundups per navigation type, and readers can submit a navbar with a link, type and social handle. Content is screenshots and recordings of live sites, never code.",
+  "category": "inspiration-galleries",
+  "subcategory": "single-element-galleries",
+  "kinds": [
+   "gallery",
+   "directory"
+  ],
+  "facets": {
+   "framework": [
+    "framer",
+    "webflow"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "gallery"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "screenshots"
+   ],
+   "agent_readiness": [
+    "image-only"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "navbar",
+   "navigation-menu",
+   "header",
+   "mega-menu",
+   "dropdown-menu",
+   "sidebar",
+   "search-input",
+   "announcement-bar",
+   "breadcrumbs",
+   "tabs",
+   "full-screen-takeover",
+   "progress-bar",
+   "sticky"
+  ],
+  "component_count": null,
+  "surfaces": [
+   "homepage"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Free to browse; sponsorship slots sold via /sponsor.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 496,
+   "blocks": null
+  },
+  "agent_guidance": "Use this when a human has asked for a specific navigation pattern and you need to agree on which one before writing any markup - the /type/ routes (mega-menu, full-screen, side-bar, announcement, breadcrumbs) give you a shared vocabulary far faster than describing hover states in prose. It is strictly reference: there is no code, no export and no API, so pair it with a component source such as a shadcn registry for the actual build. Do not try to scrape structure from it - every entry is an image of a live site, and the /style/ taxonomy has near-duplicate tags (ecommerce vs e-commerce, typographic vs typography, webapp vs web-app) that will pollute any index you build off it.",
+  "why_it_matters": "Navigation is the component teams argue about longest and document least, and this is the deepest single-element archive of real-world answers.",
+  "quality_tier": "A",
+  "notable_for": [
+   "496 individual navbar entries",
+   "ten explicit navigation types",
+   "Framer and Webflow cloneable filters",
+   "per-type long-form blog roundups",
+   "screenshots only, no code"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://www.navbar.gallery/, https://www.navbar.gallery/browse (type and style filter names verbatim), https://www.navbar.gallery/sitemap.xml (642 URLs, 496 of them /navbar/ entries, 10 /type/ routes, 140+ /style/ routes). /categories, /mega-menu and /category/mega-menu all 404 - the real route is /type/<slug>.",
+  "source": "depo"
+ },
+ {
+  "id": "depo:j57e5tdymbr1g0kpkhaw0xcv5h817pq6",
+  "slug": "sileo",
+  "url": "https://sileo.aaryan.design/",
+  "name": "Sileo",
+  "tagline": "React toast with gooey SVG morphing and spring physics, one-line API",
+  "description": "A single-purpose React toast library by hiaaryan built around gooey SVG morphing and spring animation, where the notification shape physically deforms between states instead of cross-fading. The public surface is deliberately tiny: a Toaster component with a position prop and a sileo() function, covering success, error, warning, info, action and promise toasts across six placements. Docs ship a live playground, and it is published as sileo on npm at v0.1.5 under MIT. For teams who want notification motion to be a visible part of the product's character rather than a solved utility.",
+  "category": "component-libraries",
+  "subcategory": "react-component-libraries",
+  "kinds": [
+   "component-library",
+   "animation-library"
+  ],
+  "facets": {
+   "framework": [
+    "react"
+   ],
+   "styling": [
+    "unknown"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "structured-docs",
+    "cli-installable"
+   ],
+   "maturity": "beta"
+  },
+  "components": [
+   "toast"
+  ],
+  "component_count": 2,
+  "surfaces": [
+   "in-app-notifications",
+   "saving-changes",
+   "showing-input-error"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "npm install sileo",
+  "package": "sileo",
+  "docs_url": "https://sileo.aaryan.design/docs",
+  "repo_url": "https://github.com/hiaaryan/sileo",
+  "registry_url": null,
+  "github": {
+   "stars": 1600,
+   "license": "MIT",
+   "last_activity": "2026-02-22"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Choose this over Sonner only when the motion is the product decision - Sonner is the safer default for anything with a compliance or accessibility bar, because Sileo publishes no live-region, focus or reduced-motion behaviour and is still v0.1.5 with a mutable API. Correct one myth before you plan around it: it is not zero-dependency, it requires motion ^12 plus React 18+, so audit the bundle if you already ship a different animation runtime. Mount a single Toaster at the app root and drive everything through sileo(), including the promise variant, rather than rendering toasts inline.",
+  "why_it_matters": "Proof that a toast can be a signature interaction, and one of the few libraries where the SVG morph is the abstraction rather than a decoration bolted on.",
+  "quality_tier": "B",
+  "notable_for": [
+   "gooey SVG morphing between states",
+   "spring physics, no config",
+   "six toast types, six positions",
+   "1.6k stars at v0.1.5",
+   "depends on motion, not dependency-free"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://sileo.aaryan.design/, https://sileo.aaryan.design/docs (API, toast types, positions), https://github.com/hiaaryan/sileo (1.6k stars, MIT, install), https://registry.npmjs.org/sileo (v0.1.5 published 2026-02-22, dependency motion ^12.34.0, peers react and react-dom >=18 - this contradicts depo's 'zero dependencies' claim)",
+  "source": "depo"
+ },
+ {
+  "id": "depo:j5743hm4qqwnj1wf73b99s4gdx813xbb",
+  "slug": "code-blocks",
+  "url": "https://code-blocks.pheralb.dev/",
+  "name": "Code Blocks",
+  "tagline": "shadcn registry of 30 items for syntax-highlighted code blocks",
+  "description": "A shadcn-compatible registry by pheralb that gives you everything around a code block rather than a single component. Its registry.json exposes 30 items: client and MDX code-block components for three highlighters (Shiki, Sugar High, Prism.js), a copy button, an animated text-morph, five composed blocks (inline code, copy-with-text-morph, package-manager select, package-manager tabs, multi-tabs), and 14 supporting libs and CSS files including Shiki transformers for line numbers, word wrap, line anchors, diff and focus notations, and pre-element attributes. You install only the variant you need by URL, so a docs site that uses Shiki never pulls Prism. Built for anyone writing documentation, a blog or a changelog in React or MDX.",
+  "category": "component-libraries",
+  "subcategory": "shadcn-registries",
+  "kinds": [
+   "registry",
+   "block-collection",
+   "component-library"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "tailwind-any"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "copy-paste",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "registry-json",
+    "cli-installable",
+    "copy-paste-ready",
+    "structured-docs",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "code-block",
+   "copy-button",
+   "diff-view",
+   "tabs",
+   "select",
+   "text-effect"
+  ],
+  "component_count": 30,
+  "surfaces": [
+   "api-documentation",
+   "blog-post",
+   "changelog"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "pnpm dlx shadcn@latest add https://code-blocks.pheralb.dev/r/client-shiki.json",
+  "package": null,
+  "docs_url": "https://code-blocks.pheralb.dev/docs",
+  "repo_url": "https://github.com/pheralb/code-blocks",
+  "registry_url": "https://code-blocks.pheralb.dev/r/registry.json",
+  "github": {
+   "stars": 148,
+   "license": "MIT",
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": 5
+  },
+  "agent_guidance": "Reach for this instead of hand-wiring Shiki when the ask is a docs or blog surface, because the fiddly parts are already registry items: the package-manager tabs block, line anchors for deep links, and the diff and focus notation transformers are each an afternoon you skip. Decide the highlighter first - Shiki for build-time and full transformer support, Sugar High for the smallest client bundle, Prism.js only for legacy parity - then add just that variant's JSON, since installing several drags in three highlighters and three CSS files. Prerequisites are real and not installed for you: clsx, tailwind-merge, lucide-react, @react-symbols/icons and @base-ui/react, plus a shadcn init, and the package-manager store needs Zustand.",
+  "why_it_matters": "Code blocks are the one component every docs site rebuilds badly, and this is the rare registry that treats the transformers and copy affordances as first-class items rather than an example snippet.",
+  "quality_tier": "A",
+  "notable_for": [
+   "30-item public shadcn registry",
+   "three interchangeable highlighters",
+   "Shiki transformers for diff, focus and line anchors",
+   "package-manager tabs and select blocks",
+   "install one variant by URL"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://code-blocks.pheralb.dev/, https://code-blocks.pheralb.dev/r/registry.json (all 30 item names and types enumerated), https://code-blocks.pheralb.dev/docs (sidebar and prerequisites), https://github.com/pheralb/code-blocks (148 stars, MIT, 494 commits on main)",
+  "source": "depo"
+ }
+]

@@ -1,0 +1,621 @@
+[
+ {
+  "id": "canon:c87402c17f7ce7eb9144",
+  "slug": "aria-authoring-practices-guide",
+  "url": "https://w3.org/WAI/ARIA/apg/patterns/",
+  "name": "ARIA Authoring Practices Guide",
+  "tagline": "W3C's 30 canonical widget patterns with keyboard maps and working HTML examples",
+  "description": "The APG is the W3C Web Accessibility Initiative's reference for building accessible UI widgets. Its Patterns index documents 30 widget patterns — accordion, combobox, dialog, grid, listbox, menu/menubar, tabs, treegrid, window splitter and the rest — each with the required ARIA roles, states and properties, a full keyboard-interaction table, and runnable vanilla HTML/CSS/JS examples. Companion Practices pages cover cross-cutting topics (names and descriptions, landmark regions, keyboard focus order, grid navigation). It is the source every component library cites when it claims a widget is accessible.",
+  "category": "design-systems-brand",
+  "subcategory": "ui-reference",
+  "kinds": [
+   "reference",
+   "design-system-docs",
+   "checklist"
+  ],
+  "facets": {
+   "framework": [
+    "vanilla"
+   ],
+   "styling": [
+    "vanilla-css"
+   ],
+   "license": [
+    "bsd"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "github-repo",
+    "copy-paste"
+   ],
+   "platform": [
+    "web",
+    "platform-agnostic"
+   ],
+   "accessibility": [
+    "aria-complete",
+    "wcag-aa",
+    "keyboard-navigable",
+    "focus-managed",
+    "screen-reader-tested",
+    "semantic-html"
+   ],
+   "content_type": [
+    "prose",
+    "code"
+   ],
+   "agent_readiness": [
+    "structured-docs",
+    "copy-paste-ready",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "accordion",
+   "alert",
+   "alert-dialog",
+   "dialog",
+   "modal",
+   "breadcrumbs",
+   "button",
+   "carousel",
+   "checkbox",
+   "combobox",
+   "collapsible",
+   "feed",
+   "data-grid",
+   "link",
+   "listbox",
+   "menubar",
+   "dropdown-menu",
+   "menu-button",
+   "meter",
+   "radio-group",
+   "slider",
+   "range-slider",
+   "number-input",
+   "switch",
+   "table",
+   "tabs",
+   "toolbar",
+   "tooltip",
+   "tree-view",
+   "treegrid",
+   "resizable"
+  ],
+  "component_count": 30,
+  "surfaces": [
+   "submitting-a-form",
+   "showing-input-error",
+   "filtering-items",
+   "keyboard-shortcuts-overlay",
+   "settings-web-app",
+   "command-palette"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://www.w3.org/WAI/ARIA/apg/patterns/",
+  "repo_url": "https://github.com/w3c/aria-practices",
+  "registry_url": null,
+  "github": {
+   "stars": 1341,
+   "license": "W3C Software and Document Notice and License",
+   "last_activity": "2026-08-15"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 30,
+   "blocks": null
+  },
+  "agent_guidance": "Reach for this before writing any custom interactive widget by hand — the pattern page tells you the exact role, aria-* attributes and arrow-key behaviour, so you can spec correctness instead of guessing. It pairs with Radix or React Aria: use those as the implementation and the APG page as the acceptance checklist, and quote the keyboard table straight into your tests. The pages are static server-rendered HTML, so a plain fetch of /WAI/ARIA/apg/patterns/<name>/ returns full readable text plus the example source — no JS execution needed.",
+  "why_it_matters": "It is the upstream authority that every accessible component library implements against, so it settles arguments that would otherwise be decided by whoever shouts loudest. For an agent it converts 'make it accessible' from a vibe into a testable spec.",
+  "quality_tier": "S",
+  "notable_for": [
+   "30 documented widget patterns",
+   "per-pattern keyboard interaction tables",
+   "runnable vanilla HTML examples",
+   "the spec Radix and React Aria cite",
+   "fully fetchable static HTML"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-16",
+  "evidence": "https://www.w3.org/WAI/ARIA/apg/patterns/ (fetched twice — WebFetch and raw curl, 49KB static HTML, all 30 pattern names and blurbs extracted), https://api.github.com/repos/w3c/aria-practices",
+  "source": "canon"
+ },
+ {
+  "id": "canon:762c35e46948e0ad97ba",
+  "slug": "spline",
+  "url": "https://spline.design",
+  "name": "Spline",
+  "tagline": "Browser-based 3D design tool that exports interactive scenes to React, web components and native",
+  "description": "Spline is a collaborative, browser-based tool for building interactive 3D scenes and, more recently, 2D interactive canvases (its 'Hana' surface). You model, light, animate and wire up event-driven interactions in the editor, then publish the scene and drop it into a page. Runtime targets include a <spline-viewer> web component, React and Next.js via @splinetool/runtime, plus Webflow, Framer, Wix Studio and native Swift and Kotlin embeds. It is the default choice when a marketing hero needs real-time 3D rather than a video loop.",
+  "category": "motion-interaction",
+  "subcategory": "animation-engines",
+  "kinds": [
+   "tool",
+   "app",
+   "animation-library"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next",
+    "vanilla",
+    "web-components",
+    "swiftui",
+    "kotlin-compose",
+    "webflow",
+    "framer"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "freemium",
+    "subscription",
+    "free-trial",
+    "account-required"
+   ],
+   "distribution": [
+    "web-app",
+    "saas",
+    "npm-package",
+    "desktop-app"
+   ],
+   "platform": [
+    "web",
+    "macos",
+    "windows",
+    "ios",
+    "android",
+    "cross-platform"
+   ],
+   "accessibility": [
+    "known-gaps"
+   ],
+   "content_type": [
+    "3d",
+    "video",
+    "images"
+   ],
+   "agent_readiness": [
+    "js-only-shell",
+    "auth-required"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "model-viewer",
+   "embed",
+   "animation",
+   "hero",
+   "custom-cursor"
+  ],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "features",
+   "splash-screen",
+   "onboarding-web-app"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "npm i @splinetool/runtime",
+  "package": "@splinetool/runtime",
+  "docs_url": "https://docs.spline.design/",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Free $0/mo (limited personal files, watermarked web exports); Hobby $12/mo billed yearly or $15 monthly; Pro $20/mo billed yearly or $25 monthly; Max $120/mo billed yearly or $150 monthly (10,000 AI credits); Enterprise custom, billed annually (SSO, code export, team privacy).",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use Spline only when the design genuinely needs a live, interactive 3D scene the user can drag or that reacts to scroll — for a fixed camera path, an exported MP4 or a Lottie file is smaller and faster. You cannot author a scene programmatically: a human builds it in the editor and hands you a scene URL, after which your job is the <spline-viewer> tag or the @splinetool/runtime React wrapper plus a lazy-load boundary, because these bundles are heavy. The marketing site is a JS-rendered shell and the editor is login-walled, so do not expect to scrape scene data or docs content without a session.",
+  "why_it_matters": "It is the tool that made real-time 3D on the web a normal product decision instead of a WebGL engineering project. The trade-off it hides is weight — a Spline hero routinely costs more than the rest of the page.",
+  "quality_tier": "B",
+  "notable_for": [
+   "real-time collaborative 3D editing in the browser",
+   "@splinetool/runtime React and web-component embeds",
+   "Swift and Kotlin native export",
+   "free tier watermarks web exports",
+   "AI credits on Max tier"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-16",
+  "evidence": "https://spline.design (WebFetch; JS shell, runtime package names and embed targets read from inline code sample), https://spline.design/pricing (WebFetch; all five tiers and exact prices), curl HEAD 200 on spline.design",
+  "source": "canon"
+ },
+ {
+  "id": "canon:52482a5f367cdb201df3",
+  "slug": "animista",
+  "url": "https://animista.net",
+  "name": "Animista",
+  "tagline": "Pick-and-tweak CSS keyframe animations; copy only the ones you use, BSD-licensed",
+  "description": "Animista is a playground of pre-built CSS keyframe animations that you preview on a sample object, tune (duration, delay, timing function, iteration, direction, origin), and then copy out as plain CSS. Counting @keyframes blocks in its own stylesheet gives roughly 660 named animations across families like slide, scale, rotate, flip, swing, swirl, roll, puff, bounce, tilt, shadow-drop, shadow-inset, kenburns, tracking, text-pop-up, text-shadow, jello, wobble, vibrate, flicker and bg-pan. Made by Ana Travas; everything it generates is free for personal and commercial use under the FreeBSD (2-clause BSD) licence. Its point is that you ship four keyframes, not a whole animation library.",
+  "category": "motion-interaction",
+  "subcategory": "micro-interactions-and-loaders",
+  "kinds": [
+   "generator",
+   "animation-library",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "vanilla"
+   ],
+   "styling": [
+    "vanilla-css"
+   ],
+   "license": [
+    "bsd"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "web-app",
+    "copy-paste",
+    "download"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "known-gaps"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "copy-paste-ready",
+    "js-only-shell"
+   ],
+   "maturity": "stable"
+  },
+  "components": [
+   "animation",
+   "transition",
+   "text-effect",
+   "gradient-background",
+   "shimmer"
+  ],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "features",
+   "onboarding-web-app"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://animista.net/about",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": "FreeBSD (2-clause BSD)",
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 671,
+   "blocks": null
+  },
+  "agent_guidance": "Prefer Animista over pulling in Animate.css or Motion when you need two or three one-shot entrance or attention effects — you paste the keyframes and pay nothing in bundle size, and the BSD licence means you can edit and ship them freely. The picker UI is a JS app, but you do not need it: fetch https://animista.net/style.<hash>.css from the homepage and grep @keyframes to get every animation by name. The generated CSS ships no prefers-reduced-motion guard, so wrap anything you copy in @media (prefers-reduced-motion: no-preference) yourself.",
+  "why_it_matters": "It is the reason a lot of shipped CSS contains a keyframe called slide-in-blurred-top — a decade of default web motion vocabulary came out of this one page. As a source of named, well-tuned keyframes it is still hard to beat.",
+  "quality_tier": "A",
+  "notable_for": [
+   "~660 keyframe animations verified from its own stylesheet",
+   "FreeBSD licence, commercial use allowed",
+   "live tuning of duration, delay and easing before copy",
+   "download as animista.css",
+   "zero runtime, zero dependency"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-16",
+  "evidence": "https://animista.net (WebFetch + raw curl of the 70KB HTML), https://animista.net/about (WebFetch; author and FreeBSD licence), https://animista.net/style.e0ea3b0e0d395b19c6a3.css (curl, 541KB — counted 671 @keyframes rules and extracted every animation name)",
+  "source": "canon"
+ },
+ {
+  "id": "canon:95d8ac4f266389df6b30",
+  "slug": "easings-net",
+  "url": "https://easings.net",
+  "name": "Easings.net",
+  "tagline": "30 standard easing curves, each with an animated demo, a cubic-bezier value and TS source",
+  "description": "Easings.net is a cheat sheet for picking an easing function. It documents the 30 classic curves — Sine, Quad, Cubic, Quart, Quint, Expo, Circ, Back, Elastic and Bounce, each in In, Out and InOut form — and for every one shows an animated preview, the curve shape, a copy-ready CSS cubic-bezier() value where one exists, and the equivalent TypeScript function. It also points at the postcss-easings plugin so you can write the names directly in CSS. Built by Andrey Sitnik (author of PostCSS and Autoprefixer) and Ivan Solovev, open source and translated into many languages.",
+  "category": "utilities-naming",
+  "subcategory": "apps-and-references",
+  "kinds": [
+   "reference",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "vanilla"
+   ],
+   "styling": [
+    "vanilla-css"
+   ],
+   "license": [
+    "gpl"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "github-repo",
+    "copy-paste"
+   ],
+   "platform": [
+    "web",
+    "platform-agnostic"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code",
+    "prose"
+   ],
+   "agent_readiness": [
+    "copy-paste-ready",
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "transition",
+   "animation"
+  ],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npm i postcss-easings",
+  "package": "postcss-easings",
+  "docs_url": "https://easings.net/",
+  "repo_url": "https://github.com/ai/easings.net",
+  "registry_url": null,
+  "github": {
+   "stars": 8665,
+   "license": "GPL-3.0",
+   "last_activity": "2026-04-07"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 30,
+   "blocks": null
+  },
+  "agent_guidance": "Use this when you know the feel you want but not the numbers — it maps a plain-English intent ('overshoot slightly', 'settle with a bounce') onto a named curve and hands you both the CSS cubic-bezier and the JS implementation, which matters because Elastic and Bounce cannot be expressed as a cubic-bezier at all and need the function form. Pair it with cubic-bezier.com when you want to nudge one of these curves rather than take it as-is. Note the GPL-3.0 on the repo covers the site's own source; the easing formulas themselves are standard maths from Robert Penner and are not encumbered.",
+  "why_it_matters": "It turned a scattered folder of Penner equations into the shared vocabulary designers and engineers actually use when arguing about motion. Cheap to consult, and it stops teams from defaulting to ease-in-out for everything.",
+  "quality_tier": "A",
+  "notable_for": [
+   "30 named easing curves with live previews",
+   "CSS cubic-bezier and TypeScript for each",
+   "postcss-easings plugin integration",
+   "by Andrey Sitnik of PostCSS",
+   "8.6k GitHub stars, many translations"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-16",
+  "evidence": "https://easings.net (WebFetch; all 30 function names enumerated), https://github.com/ai/easings.net (WebFetch), https://api.github.com/repos/ai/easings.net (stars, GPL-3.0, pushed_at)",
+  "source": "canon"
+ },
+ {
+  "id": "canon:4aee755f3bd51440234e",
+  "slug": "cubic-bezier",
+  "url": "https://cubic-bezier.com",
+  "name": "cubic-bezier.com",
+  "tagline": "Lea Verou's bezier curve editor: drag the handles, compare against presets, share via URL",
+  "description": "cubic-bezier.com is a single-purpose editor for CSS timing functions. You drag the two control points of a cubic-bezier curve, preview the motion at an adjustable duration, and compare your curve side by side against the CSS defaults and a saved library of presets. The curve is encoded in the URL fragment (for example cubic-bezier.com/#.17,.67,.83,.67), so any curve is a permalink you can paste into a ticket or a code review. Built by Lea Verou, MIT-licensed, and effectively finished — it has not needed to change in years.",
+  "category": "utilities-naming",
+  "subcategory": "small-web-utilities",
+  "kinds": [
+   "tool",
+   "reference"
+  ],
+  "facets": {
+   "framework": [
+    "vanilla"
+   ],
+   "styling": [
+    "vanilla-css"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "web-app",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "copy-paste-ready",
+    "open-source-code",
+    "js-only-shell"
+   ],
+   "maturity": "stable"
+  },
+  "components": [
+   "transition",
+   "animation"
+  ],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/LeaVerou/cubic-bezier",
+  "registry_url": null,
+  "github": {
+   "stars": 184,
+   "license": "MIT",
+   "last_activity": "2024-07-15"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "You cannot read a curve out of this page — it is a canvas app — but you can write one into it: construct https://cubic-bezier.com/#x1,y1,x2,y2 and hand that link to the human when you want them to approve or nudge an easing you chose. Reach for easings.net first to pick a named curve, then link here only when the answer is 'close, but slower at the end'. Four values in a URL is also a good way to record a design decision in a PR description.",
+  "why_it_matters": "It is the canonical shared workspace for the one CSS function nobody can read by eye, and the URL-encoded curve makes motion decisions reviewable. Twelve years old, still the first link anyone sends.",
+  "quality_tier": "A",
+  "notable_for": [
+   "curve encoded in the URL fragment",
+   "side-by-side comparison against presets",
+   "adjustable-duration live preview",
+   "MIT, by Lea Verou",
+   "no build, no account, no tracking wall"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-16",
+  "evidence": "https://cubic-bezier.com (WebFetch + curl 200), https://github.com/LeaVerou/cubic-bezier (WebFetch), https://api.github.com/repos/LeaVerou/cubic-bezier (184 stars, MIT, pushed 2024-07-15)",
+  "source": "canon"
+ },
+ {
+  "id": "canon:f0c7b710a20c9e2efb3e",
+  "slug": "transition-css",
+  "url": "https://transition.style",
+  "name": "Transition.css",
+  "tagline": "52 drop-in clip-path enter/exit transitions applied with an HTML attribute",
+  "description": "Transition.css is a tiny CSS-only library of clip-path based enter and exit transitions by Adam Argyle. You add an attribute such as transition-style=\"in:circle:bottom-right\" to an element and it animates in or out — no JS, no class-name collisions. Reading the published stylesheet gives 52 attribute values: 26 named effects (circle, square, diamond, wipe and polygon variants across centre, four corners, four edges, plus hesitate, cinematic and opposing-corners) each in an in: and out: form. It ships as the transition-style npm package, is served whole or as circles/squares/polygons/wipes sub-bundles from unpkg, and a 'hackpack' build exposes only the custom properties so you can compose your own.",
+  "category": "motion-interaction",
+  "subcategory": "animation-engines",
+  "kinds": [
+   "animation-library",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "vanilla"
+   ],
+   "styling": [
+    "vanilla-css",
+    "css-variables"
+   ],
+   "license": [
+    "apache-2.0"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo",
+    "copy-paste"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "copy-paste-ready",
+    "open-source-code",
+    "js-only-shell"
+   ],
+   "maturity": "stable"
+  },
+  "components": [
+   "page-transition",
+   "transition",
+   "animation"
+  ],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "features"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "npm i transition-style",
+  "package": "transition-style",
+  "docs_url": "https://github.com/argyleink/transition.css#readme",
+  "repo_url": "https://github.com/argyleink/transition.css",
+  "registry_url": null,
+  "github": {
+   "stars": 2024,
+   "license": "Apache-2.0",
+   "last_activity": "2025-06-16"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 52,
+   "blocks": null
+  },
+  "agent_guidance": "Reach for this instead of Motion or GSAP when the requirement is a decorative reveal or dismiss and nothing else — it is pure CSS, the attribute syntax cannot clash with a utility class, and you can import one sub-bundle (say wipes) rather than all 52 effects. The homepage at transition.style is an empty Svelte shell with no server-rendered body, so do not try to read the effect list from it; fetch https://unpkg.com/transition-style instead and grep for transition-style= to enumerate every value. Verify prefers-reduced-motion handling yourself before shipping — clip-path reveals across a full viewport are exactly the kind of motion that triggers vestibular problems.",
+  "why_it_matters": "It shows how far plain CSS clip-path gets you on transitions that teams usually reach for a JS animation library to do. The attribute-based API is a small idea that removes a whole class of naming friction.",
+  "quality_tier": "B",
+  "notable_for": [
+   "52 attribute values across 26 named effects",
+   "attribute API, not class names",
+   "per-category CDN sub-bundles",
+   "hackpack build exposing only custom properties",
+   "Apache-2.0, by Adam Argyle"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-16",
+  "evidence": "https://transition.style (curl — 1.8KB, empty <body>, confirmed JS-only shell), https://unpkg.com/transition-style (curl of the 28KB stylesheet — enumerated all 52 transition-style values), https://github.com/argyleink/transition.css (WebFetch), GitHub search API for stars/licence/pushed_at",
+  "source": "canon"
+ }
+]

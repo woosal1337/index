@@ -1,0 +1,1295 @@
+[
+ {
+  "id": "2dcf9b54-feb4-4849-93bd-89635a0d064e",
+  "slug": "animate-ui",
+  "url": "https://animate-ui.com",
+  "name": "Animate UI",
+  "tagline": "73 motion-first React components shipped as a shadcn registry",
+  "description": "Animate UI is a shadcn-CLI distribution of React components where the animation is the point, built with Tailwind and Motion (motion.dev). It ships the same primitive four ways — a Radix-backed set, a Base UI set, a Headless UI set, and its own animated set — so you can pick whichever primitive layer your app already uses. On top of that it adds animated backgrounds, button variants, and a community section with things like radial menus and notification stacks. For React developers who already own a design system and want motion without hand-rolling Motion variants.",
+  "category": "motion-interaction",
+  "subcategory": "animated-components",
+  "kinds": [
+   "animation-library",
+   "registry",
+   "component-library"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "tailwind-any",
+    "css-variables"
+   ],
+   "license": [
+    "source-available",
+    "trademark-restricted"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "cli",
+    "copy-paste",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "built-on-accessible-primitives",
+    "keyboard-navigable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "registry-json",
+    "cli-installable",
+    "copy-paste-ready",
+    "open-source-code"
+   ],
+   "maturity": "stable"
+  },
+  "components": [
+   "button",
+   "icon-button",
+   "copy-button",
+   "toggle-button",
+   "toggle-group",
+   "accordion",
+   "alert-dialog",
+   "dialog",
+   "sheet",
+   "popover",
+   "hover-card",
+   "dropdown-menu",
+   "navigation-menu",
+   "sidebar",
+   "tabs",
+   "tooltip",
+   "checkbox",
+   "radio-group",
+   "switch",
+   "progress-bar",
+   "avatar",
+   "avatar-group",
+   "card",
+   "carousel",
+   "list",
+   "file-tree",
+   "code-block",
+   "notification-center",
+   "share-sheet",
+   "floating-action-bar",
+   "custom-cursor",
+   "gradient-background",
+   "particle-background",
+   "ripple",
+   "hover-effect",
+   "animation",
+   "transition"
+  ],
+  "component_count": 73,
+  "surfaces": [
+   "homepage",
+   "features",
+   "notifications",
+   "settings-web-app"
+  ],
+  "templates": [],
+  "template_count": 0,
+  "install": "npx shadcn@latest add https://animate-ui.com/r/components-buttons-button.json",
+  "package": null,
+  "docs_url": "https://animate-ui.com/docs",
+  "repo_url": "https://github.com/animate-ui/animate-ui",
+  "registry_url": "https://animate-ui.com/r/registry.json",
+  "github": {
+   "stars": 4159,
+   "license": "MIT + Commons Clause",
+   "last_activity": "2025-12-31"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Reach for this when a shadcn/ui app needs real motion and you do not want to author Motion variants by hand — it composes with shadcn because the Radix track wraps the same primitives. Critically, pick the right namespace prefix: components-radix-* for a normal shadcn project, components-base-* for Base UI, components-headless-* for Headless UI; mixing tracks pulls in duplicate primitive deps. Two things to watch: the licence is MIT + Commons Clause, so you may not resell the components as a product, and the repo has had no commits since 2025-12-31, so verify a component against your React and Motion versions before you build on it.",
+  "why_it_matters": "One of the few motion registries that respects the primitive layer you already chose instead of forcing Radix on you, which makes it drop-in for Base UI and Headless UI codebases nobody else serves.",
+  "quality_tier": "B",
+  "notable_for": [
+   "Four parallel primitive tracks: Radix, Base UI, Headless UI, and its own",
+   "Seven canvas/WebGL animated backgrounds",
+   "Commons Clause rider on top of MIT",
+   "Community-contributed section (radial menus, pin list, presence avatars)",
+   "No commits since December 2025"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://animate-ui.com/docs, https://animate-ui.com/r/registry.json (170 items enumerated, 73 non-demo components), https://animate-ui.com/r/components-buttons-button.json (200 OK, install path verified), https://github.com/animate-ui/animate-ui, https://raw.githubusercontent.com/animate-ui/animate-ui/main/LICENSE.md (revealed Commons Clause), gh api repos/animate-ui/animate-ui for stars and last commit"
+ },
+ {
+  "id": "60dd358e-7721-4f15-9d5b-7dcb2938df38",
+  "slug": "smoothui",
+  "url": "https://smoothui.dev",
+  "name": "SmoothUI",
+  "tagline": "130 animated React components including 33 text effects and 16 shader transitions",
+  "description": "SmoothUI is a shadcn-compatible registry of 130 animated components built on React 19, Tailwind v4, Motion, and GSAP. Its depth is unusual for a one-maintainer project: 33 text-animation components, 16 WebGL/shader page transitions, 19 AI chat and agent components, and a long tail of showpieces like Dynamic Island, Siri Orb, Number Flow, and a GitHub contribution graph. Everything in the free tier is MIT and installs through the shadcn CLI. For developers building a marketing site or an AI product surface who want polish without wiring GSAP themselves.",
+  "category": "motion-interaction",
+  "subcategory": "animated-components",
+  "kinds": [
+   "animation-library",
+   "registry",
+   "component-library"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "tailwind-v4",
+    "css-variables",
+    "shader-glsl"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "freemium",
+    "open-source",
+    "subscription"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "cli",
+    "copy-paste",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "keyboard-navigable",
+    "claimed-accessible",
+    "known-gaps"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "registry-json",
+    "cli-installable",
+    "copy-paste-ready",
+    "structured-docs",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "button",
+   "copy-button",
+   "text-input",
+   "textarea",
+   "form",
+   "search-input",
+   "select",
+   "combobox",
+   "checkbox",
+   "radio-group",
+   "switch",
+   "slider",
+   "otp-input",
+   "tag-input",
+   "file-upload",
+   "dropdown-menu",
+   "context-menu",
+   "accordion",
+   "tabs",
+   "breadcrumbs",
+   "pagination",
+   "progress-stepper",
+   "modal",
+   "dialog",
+   "drawer",
+   "popover",
+   "tooltip",
+   "toast",
+   "badge",
+   "skeleton",
+   "spinner",
+   "progress-bar",
+   "card",
+   "product-card",
+   "avatar",
+   "avatar-group",
+   "carousel",
+   "image-gallery",
+   "comment",
+   "review",
+   "price",
+   "heatmap",
+   "list",
+   "conversation",
+   "message",
+   "prompt-input",
+   "streaming-text",
+   "suggestion",
+   "reasoning",
+   "tool-call",
+   "task",
+   "approval-request",
+   "diff-proposal",
+   "artifact",
+   "context-meter",
+   "sources",
+   "inline-citation",
+   "typewriter-text",
+   "text-effect",
+   "scroll-reveal",
+   "shimmer",
+   "count-up",
+   "custom-cursor",
+   "page-transition",
+   "transition",
+   "animation",
+   "hover-effect"
+  ],
+  "component_count": 130,
+  "surfaces": [
+   "ai-chat-panel",
+   "chat-web-app",
+   "ai-action-approval",
+   "homepage",
+   "features",
+   "uploading-media",
+   "public-profile"
+  ],
+  "templates": [
+   {
+    "name": "Chat Template",
+    "url": "https://smoothui.dev/docs/templates/chat",
+    "purpose": "Full ChatGPT-style chat surface — sidebar, transcript, and composer, with a simulated agent so it runs with no backend or API key"
+   }
+  ],
+  "template_count": 1,
+  "install": "npx shadcn@latest add @smoothui/dynamic-island",
+  "package": null,
+  "docs_url": "https://smoothui.dev/docs/components",
+  "repo_url": "https://github.com/Educlopez/smoothui",
+  "registry_url": "https://smoothui.dev/r/registry.json",
+  "github": {
+   "stars": 910,
+   "license": "MIT",
+   "last_activity": "2026-08-15"
+  },
+  "pricing_detail": "Free tier is MIT and unlimited. Pro $11.99/month, Scale $22.99/month for the paid blocks tier.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": 27
+  },
+  "agent_guidance": "Use SmoothUI as an overlay on an existing shadcn/ui project, not as its base — it assumes Tailwind v4 and React 19, and it installs under the @smoothui namespace so it will not collide with your shadcn primitives. Its real differentiators are the 33 text-animation components and the 16 shader transitions; when a brief asks for a hero headline reveal or a page wipe, look here before you write GSAP. Watch the payload: the shader transitions ship WebGL and GSAP, so scope them to one hero rather than the whole route tree, and audit the flashier components for reduced-motion and focus handling before shipping to an accessibility-sensitive product.",
+  "why_it_matters": "The deepest free catalog of text-animation and shader-transition components in the shadcn ecosystem, and it shipped commits the day it was catalogued.",
+  "quality_tier": "A",
+  "notable_for": [
+   "33 dedicated text-animation components",
+   "16 WebGL shader page transitions",
+   "19 AI chat and agent components including Siri Orb",
+   "Tailwind v4 and React 19 from the start",
+   "MIT free tier with a paid blocks tier on top"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://smoothui.dev, https://smoothui.dev/docs/components (all 130 components enumerated by category), https://smoothui.dev/doc, https://smoothui.dev/docs/templates, gh api repos/Educlopez/smoothui for stars, licence, and last push. Note: the homepage renders a stat reading 8,811 stars; the GitHub API reports 910, and I recorded the API value."
+ },
+ {
+  "id": "94ff95dd-a889-4a41-a6b0-9624e0373c8f",
+  "slug": "cult-ui",
+  "url": "https://cult-ui.com",
+  "name": "Cult UI",
+  "tagline": "82 free design-engineer components plus 10 paid full-stack AI starters",
+  "description": "Cult UI is a shadcn-compatible registry of 82 MIT components aimed at design engineers, best known for its Apple-flavoured pieces — Dynamic Island, Dock, Family Button, Family Drawer, Expandable Screen — alongside texture cards, shader lens blur, dithered images, and pixel typography. A separate paid tier (Cult Pro at pro.cult-ui.com) sells 10 full-stack Next.js starters and a library of AI-agent interface patterns built on the Vercel AI SDK. For developers who want interface moments that feel hand-crafted rather than generic, and for teams who want a working AI product skeleton instead of loose components.",
+  "category": "component-libraries",
+  "subcategory": "shadcn-registries",
+  "kinds": [
+   "registry",
+   "component-library",
+   "block-collection"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "tailwind-any",
+    "css-variables",
+    "shader-glsl"
+   ],
+   "license": [
+    "mit",
+    "commercial"
+   ],
+   "pricing": [
+    "freemium",
+    "open-source",
+    "one-time"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "copy-paste",
+    "github-repo",
+    "cli"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "built-on-accessible-primitives",
+    "keyboard-navigable",
+    "known-gaps"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "registry-json",
+    "copy-paste-ready",
+    "open-source-code",
+    "cli-installable",
+    "bot-blocked"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "button",
+   "button-group",
+   "floating-action-button",
+   "toolbar",
+   "dock",
+   "command-palette",
+   "context-menu",
+   "dropdown-menu",
+   "menubar",
+   "navigation-menu",
+   "breadcrumbs",
+   "pagination",
+   "tabs",
+   "accordion",
+   "collapsible",
+   "card",
+   "card-grid",
+   "badge",
+   "avatar",
+   "heading",
+   "typography",
+   "code-block",
+   "terminal",
+   "separator",
+   "skeleton",
+   "progress-bar",
+   "countdown",
+   "calendar",
+   "table",
+   "feed",
+   "list",
+   "survey",
+   "dialog",
+   "alert-dialog",
+   "modal",
+   "drawer",
+   "sheet",
+   "popover",
+   "hover-card",
+   "floating-window",
+   "full-screen-takeover",
+   "panel",
+   "hero",
+   "resizable",
+   "scroll-area",
+   "alert",
+   "toast",
+   "tooltip",
+   "text-input",
+   "textarea",
+   "label",
+   "form",
+   "select",
+   "checkbox",
+   "radio-group",
+   "switch",
+   "slider",
+   "otp-input",
+   "color-picker",
+   "video-player",
+   "image",
+   "logo",
+   "illustration",
+   "device-frame",
+   "glassmorphism",
+   "gradient-background",
+   "particle-background",
+   "text-effect",
+   "typewriter-text",
+   "count-up",
+   "carousel",
+   "drag-and-drop",
+   "scroll-reveal",
+   "animation",
+   "transition",
+   "onboarding-flow",
+   "coachmark"
+  ],
+  "component_count": 82,
+  "surfaces": [
+   "homepage",
+   "features",
+   "onboarding-web-app",
+   "onboarding-checklist",
+   "ai-chat-panel",
+   "settings-web-app",
+   "feed",
+   "pricing-website",
+   "waitlist",
+   "blog"
+  ],
+  "templates": [
+   {
+    "name": "Better Auth Postgres",
+    "url": "https://pro.cult-ui.com",
+    "purpose": "Multi-tenant SaaS starter with authentication, PostgreSQL, Stripe billing, and organization management"
+   },
+   {
+    "name": "Directory v2.0",
+    "url": "https://pro.cult-ui.com",
+    "purpose": "Full-stack directory site with scraping, AI enrichment, and SEO optimisation"
+   },
+   {
+    "name": "Polar Subscription",
+    "url": "https://pro.cult-ui.com",
+    "purpose": "Landing page and blog with Supabase auth and Polar subscription billing"
+   },
+   {
+    "name": "Cult SEO v2.0",
+    "url": "https://pro.cult-ui.com",
+    "purpose": "Website crawler and SEO analysis tool with AI-generated recommendations"
+   },
+   {
+    "name": "Logo GPT",
+    "url": "https://pro.cult-ui.com",
+    "purpose": "Logo generation marketplace built on DALL-E 3 and Supabase"
+   },
+   {
+    "name": "Travel Stash",
+    "url": "https://pro.cult-ui.com",
+    "purpose": "Offline-first travel itinerary app using Claude Haiku and RxDB"
+   },
+   {
+    "name": "Manifest",
+    "url": "https://pro.cult-ui.com",
+    "purpose": "RAG retrieval system for building a Perplexity-style AI search product"
+   },
+   {
+    "name": "Landing Page",
+    "url": "https://pro.cult-ui.com",
+    "purpose": "High-converting SaaS landing page template"
+   },
+   {
+    "name": "Prompt Stash",
+    "url": "https://pro.cult-ui.com",
+    "purpose": "Local-first AI prompt manager with variable highlighting and agents"
+   },
+   {
+    "name": "Cult UI",
+    "url": "https://github.com/nolly-studio/cult-ui",
+    "purpose": "The free open-source component library itself"
+   }
+  ],
+  "template_count": 10,
+  "install": "npx shadcn@latest add https://cult-ui.com/registry/styles/default/texture-card.json",
+  "package": null,
+  "docs_url": "https://cult-ui.com/docs/components",
+  "repo_url": "https://github.com/nolly-studio/cult-ui",
+  "registry_url": "https://cult-ui.com/registry/index.json",
+  "github": {
+   "stars": 6045,
+   "license": "MIT",
+   "last_activity": "2026-07-22"
+  },
+  "pricing_detail": "Free registry is MIT. Cult Pro is a one-time lifetime purchase covering 416+ components and blocks plus the 10 starters; the storefront showed a '$50 off, limited time' banner and no base price at the time of checking.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": 416
+  },
+  "agent_guidance": "Reach for Cult UI when the brief asks for a specific Apple-style interaction — Dynamic Island, a Dock, an expanding Family Button, a morphing drawer — because those are hard to rebuild and Cult ships them working. It layers cleanly on shadcn/ui since it reuses the same Radix primitives and the same default/new-york style folders. Two operational warnings: cult-ui.com sits behind a Vercel security checkpoint that returns 429 to non-browser clients, so a headless fetch of the docs or the registry JSON will fail and you should pull component source from the GitHub repo at apps/www/registry/default/ui instead; and the AI-agent patterns advertised on the homepage live in the paid Cult Pro tier, not in the MIT repo.",
+  "why_it_matters": "The reference implementation for Apple-grade interaction moments in React — six thousand stars because nobody else ships a credible Dynamic Island you can paste in.",
+  "quality_tier": "A",
+  "notable_for": [
+   "Dynamic Island, Dock, Family Button, and Family Drawer",
+   "Shader lens blur, dithered images, and liquid-metal heroes",
+   "Registry blocked to non-browser clients by a Vercel checkpoint",
+   "10 paid full-stack Next.js AI starters",
+   "Pixel typography and texture card systems"
+  ],
+  "already_enriched": false,
+  "http_status": 429,
+  "verified_at": "2026-08-15",
+  "evidence": "https://github.com/nolly-studio/cult-ui (README), gh api repos/nolly-studio/cult-ui git tree (82 component files enumerated at apps/www/registry/default/ui plus the public registry JSON tree), https://pro.cult-ui.com/?ref=newcult.co (10 templates enumerated), https://www.newcult.co (307 redirect). cult-ui.com itself returned HTTP 429 'Vercel Security Checkpoint' on every attempt (/, /docs/components, /r/registry.json, /registry/styles/default/*.json), so the component list came from the repo, not the site. The install command above is the shadcn URL form derived from the repo's public/registry tree and was NOT confirmed live because of the block."
+ },
+ {
+  "id": "3fa5981d-b001-413c-9099-e1709ee7c648",
+  "slug": "reui",
+  "url": "https://reui.io",
+  "name": "ReUI",
+  "tagline": "1,052 free shadcn components, 502 pro blocks, 10 templates, hosted MCP",
+  "description": "ReUI is a design-forward shadcn kit from Keenthemes covering 1,052 free component examples across 71 categories, plus 21 in-house primitives that base shadcn/ui does not have — Data Grid, Event Calendar, Gantt, Kanban, Sortable, Filters, Scrollspy, Tree, Phone Input, and more. Paid tiers add 502 application, e-commerce, and marketing blocks, 2,552 icons, and 10 full-page templates spanning Next.js, Laravel, Vite, TanStack Start, and Astro. Its distinguishing feature is a hosted MCP server at mcp.reui.io plus agent skills, so a coding agent can browse and install through the shadcn CLI directly. For teams building admin tools, CRMs, and internal dashboards who need the heavy data components on day one.",
+  "category": "component-libraries",
+  "subcategory": "shadcn-registries",
+  "kinds": [
+   "registry",
+   "component-library",
+   "block-collection"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next",
+    "astro",
+    "vue"
+   ],
+   "styling": [
+    "tailwind-v4",
+    "tailwind-v3",
+    "css-variables"
+   ],
+   "license": [
+    "mit",
+    "commercial"
+   ],
+   "pricing": [
+    "freemium",
+    "open-source",
+    "one-time"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "cli",
+    "mcp-server",
+    "agent-skill",
+    "figma-file",
+    "github-repo",
+    "copy-paste"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "built-on-accessible-primitives",
+    "keyboard-navigable",
+    "claimed-accessible"
+   ],
+   "content_type": [
+    "code",
+    "figma",
+    "icons",
+    "design-tokens"
+   ],
+   "agent_readiness": [
+    "mcp-server",
+    "agent-skill",
+    "registry-json",
+    "cli-installable",
+    "structured-docs",
+    "open-source-code",
+    "agent-paywalled"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "data-grid",
+   "table",
+   "kanban-board",
+   "gantt-chart",
+   "timeline",
+   "tree-view",
+   "drag-and-drop",
+   "filter-panel",
+   "sort-control",
+   "calendar",
+   "calendar-view",
+   "date-picker",
+   "date-range-picker",
+   "file-upload",
+   "autocomplete",
+   "combobox",
+   "number-input",
+   "phone-input",
+   "rating",
+   "progress-stepper",
+   "in-page-navigation",
+   "icon",
+   "alert",
+   "badge",
+   "card",
+   "list",
+   "empty-state",
+   "app-shell",
+   "navbar",
+   "sidebar",
+   "dialog",
+   "sheet",
+   "form",
+   "login-form",
+   "signup-form",
+   "onboarding-flow",
+   "chart",
+   "bar-chart",
+   "line-chart",
+   "area-chart",
+   "pie-chart",
+   "dashboard",
+   "kpi-row",
+   "stat",
+   "data-export",
+   "pricing-table",
+   "product-card",
+   "product-listing",
+   "checkout",
+   "cart",
+   "comparison-table",
+   "promo-code-field",
+   "invoice",
+   "review",
+   "wishlist",
+   "profile-form",
+   "team-invite"
+  ],
+  "component_count": 1052,
+  "surfaces": [
+   "admin-panel",
+   "analytics",
+   "kanban-board",
+   "timeline-gantt-view",
+   "user-management",
+   "invite",
+   "settings-web-app",
+   "billing-web-app",
+   "login-web-app",
+   "sign-up",
+   "onboarding-web-app",
+   "search-results",
+   "filtering-items",
+   "single-item-detail",
+   "data-export",
+   "api-keys",
+   "checkout",
+   "cart-website",
+   "adding-to-cart",
+   "pricing-website",
+   "agent-run-history",
+   "ai-action-approval",
+   "faq",
+   "blog",
+   "contact-us",
+   "empty-state"
+  ],
+  "templates": [
+   {
+    "name": "Overture",
+    "url": "https://reui.io/template/overture-waitlist",
+    "purpose": "One-page pre-launch waitlist with signup form and SEO"
+   },
+   {
+    "name": "Manifest",
+    "url": "https://reui.io/template/manifest-commerce",
+    "purpose": "Laravel commerce admin with orders, catalog, and inventory"
+   },
+   {
+    "name": "Surge",
+    "url": "https://reui.io/template/surge-commerce",
+    "purpose": "TanStack Start commerce admin with analytics"
+   },
+   {
+    "name": "Atlas",
+    "url": "https://reui.io/template/atlas-admin",
+    "purpose": "General-purpose Next.js admin dashboard"
+   },
+   {
+    "name": "Verve",
+    "url": "https://reui.io/template/verve-crm",
+    "purpose": "Sales CRM with a deal board and forecasting"
+   },
+   {
+    "name": "Cohort",
+    "url": "https://reui.io/template/cohort-hr",
+    "purpose": "Laravel HR and people-management system"
+   },
+   {
+    "name": "Flux",
+    "url": "https://reui.io/template/flux-agentops",
+    "purpose": "AI agent operations console with approval flows"
+   },
+   {
+    "name": "Tempo",
+    "url": "https://reui.io/template/tempo-tasks",
+    "purpose": "Task management app on TanStack Start"
+   },
+   {
+    "name": "Roster",
+    "url": "https://reui.io/template/roster-hr",
+    "purpose": "React-based people operations platform"
+   },
+   {
+    "name": "Lucent",
+    "url": "https://reui.io/template/lucent-devops",
+    "purpose": "DevOps delivery console with pipeline views"
+   }
+  ],
+  "template_count": 10,
+  "install": "npx shadcn@latest add @reui/c-button-10",
+  "package": null,
+  "docs_url": "https://reui.io/docs",
+  "repo_url": "https://github.com/keenthemes/reui",
+  "registry_url": "https://reui.io/r/registry.json",
+  "github": {
+   "stars": 3299,
+   "license": "MIT",
+   "last_activity": "2026-08-05"
+  },
+  "pricing_detail": "Free $0 forever: 1,052 components, 21 primitives, free Figma design system, unlimited commercial use, 100 MCP requests/day, no account required. Pro $249 one-time: adds 502 pro blocks and unlimited MCP requests, 1 seat. Ultimate $499 one-time: adds 2,552 icons and 10 full-page templates. Lifetime updates on all paid tiers.",
+  "counts": {
+   "icons": 2552,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": 502
+  },
+  "agent_guidance": "Reach for ReUI over plain shadcn/ui the moment you need a Gantt chart, Kanban board, virtualised Data Grid, or Event Calendar — it is built on the same Radix primitives so the two compose in one project, but it pulls in TanStack Table, dnd-kit, and Recharts, so it is meaningfully heavier client JS than a shadcn component. Wire the hosted MCP server at mcp.reui.io if you are installing programmatically; the free tier caps you at 100 MCP requests per day, so batch your lookups rather than querying per component. Be aware the 502 blocks and the 10 templates sit behind a $249/$499 one-time paywall, so plan around the 1,052 free examples unless the user already holds a licence.",
+  "why_it_matters": "The most agent-native registry in the shadcn ecosystem — a hosted MCP server, agent skills, and a free tier deep enough to build a real admin product without paying.",
+  "quality_tier": "S",
+  "notable_for": [
+   "Hosted MCP server at mcp.reui.io with agent skills",
+   "21 primitives shadcn/ui lacks: Data Grid, Gantt, Kanban, Event Calendar",
+   "1,052 free examples across 71 categories, no account required",
+   "10 full-page templates across Next.js, Laravel, Vite, TanStack, Astro",
+   "One-time pricing with lifetime updates, not a subscription"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://reui.io/docs (primitives, block categories, icon count), https://reui.io/pricing (exact tier prices), https://reui.io/templates (all 10 templates with URLs and purposes), https://github.com/keenthemes/reui (install command, tech stack), gh api repos/keenthemes/reui for stars, licence, and last push"
+ },
+ {
+  "id": "bba0b2c4-282c-446f-8ebc-93d3bd723a26",
+  "slug": "intent-ui",
+  "url": "https://intentui.com",
+  "name": "Intent UI",
+  "tagline": "80+ React Aria components with real ARIA semantics, MIT and copy-paste",
+  "description": "Intent UI is an MIT component library built on React Aria Components and Tailwind, distributed through the shadcn CLI under the @intentui namespace. Because the accessibility layer is React Aria rather than Radix, it ships things most registries skip: a full colour-picker suite (wheel, area, slider, swatch picker, thumb), a Virtualizer, a Grid List, a Tag Group, and Date/Time fields with proper internationalised calendar behaviour. Free starter kits cover Next.js, Laravel, TanStack Router, and Vite; a separate paid site at design.intentui.com adds 507 blocks, 542 patterns, and 16 templates. For teams with an accessibility bar to clear who do not want to hand-roll ARIA on top of unstyled primitives.",
+  "category": "component-libraries",
+  "subcategory": "shadcn-registries",
+  "kinds": [
+   "component-library",
+   "registry",
+   "block-collection"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next",
+    "remix",
+    "astro"
+   ],
+   "styling": [
+    "tailwind-v4",
+    "css-variables"
+   ],
+   "license": [
+    "mit",
+    "commercial"
+   ],
+   "pricing": [
+    "freemium",
+    "open-source",
+    "one-time"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "cli",
+    "copy-paste",
+    "github-repo",
+    "npm-package"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "aria-complete",
+    "built-on-accessible-primitives",
+    "keyboard-navigable",
+    "focus-managed",
+    "rtl-support",
+    "semantic-html"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "registry-json",
+    "cli-installable",
+    "structured-docs",
+    "copy-paste-ready",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "button",
+   "button-group",
+   "toggle-button",
+   "toggle-group",
+   "link",
+   "toolbar",
+   "command-palette",
+   "context-menu",
+   "dropdown-menu",
+   "kbd",
+   "navbar",
+   "sidebar",
+   "breadcrumbs",
+   "pagination",
+   "tabs",
+   "container",
+   "autocomplete",
+   "combobox",
+   "select",
+   "multi-select",
+   "listbox",
+   "visual-picker",
+   "tree-view",
+   "table",
+   "list",
+   "tag",
+   "tag-input",
+   "text-input",
+   "textarea",
+   "search-input",
+   "number-input",
+   "otp-input",
+   "fieldset",
+   "label",
+   "form",
+   "checkbox",
+   "checkbox-group",
+   "radio-group",
+   "switch",
+   "slider",
+   "file-upload",
+   "color-picker",
+   "calendar",
+   "date-input",
+   "date-picker",
+   "date-range-picker",
+   "time-picker",
+   "dialog",
+   "modal",
+   "drawer",
+   "sheet",
+   "popover",
+   "tooltip",
+   "accordion",
+   "collapsible",
+   "card",
+   "description-list",
+   "heading",
+   "typography",
+   "separator",
+   "avatar",
+   "carousel",
+   "code-block",
+   "scroll-area",
+   "badge",
+   "spinner",
+   "meter",
+   "inline-message",
+   "progress-bar",
+   "skeleton",
+   "toast",
+   "chart",
+   "bar-chart",
+   "line-chart",
+   "area-chart",
+   "pie-chart"
+  ],
+  "component_count": 80,
+  "surfaces": [
+   "login-web-app",
+   "sign-up",
+   "settings-web-app",
+   "account-web-app",
+   "admin-panel",
+   "analytics",
+   "search-results",
+   "filtering-items",
+   "multi-step-form",
+   "submitting-a-form",
+   "showing-input-error",
+   "saving-changes",
+   "notifications",
+   "pricing-website",
+   "homepage",
+   "keyboard-shortcuts-overlay",
+   "command-palette"
+  ],
+  "templates": [
+   {
+    "name": "Prism",
+    "url": "https://design.intentui.com/templates",
+    "purpose": "Analytics platform marketing template"
+   },
+   {
+    "name": "Gridlines",
+    "url": "https://design.intentui.com/templates",
+    "purpose": "Docs and blog template"
+   },
+   {
+    "name": "Cashier",
+    "url": "https://design.intentui.com/templates",
+    "purpose": "Point-of-sale dashboard template"
+   },
+   {
+    "name": "Signal",
+    "url": "https://design.intentui.com/templates",
+    "purpose": "Analytics SaaS marketing template"
+   },
+   {
+    "name": "Promptly",
+    "url": "https://design.intentui.com/templates",
+    "purpose": "AI playground app template"
+   },
+   {
+    "name": "Synth",
+    "url": "https://design.intentui.com/templates",
+    "purpose": "AI playground marketing template"
+   },
+   {
+    "name": "Spotlight",
+    "url": "https://design.intentui.com/templates",
+    "purpose": "Simple personal website template"
+   },
+   {
+    "name": "Scale",
+    "url": "https://design.intentui.com/templates",
+    "purpose": "SaaS landing page template"
+   },
+   {
+    "name": "Axis",
+    "url": "https://design.intentui.com/templates",
+    "purpose": "Retail dashboard template"
+   },
+   {
+    "name": "Cartel",
+    "url": "https://design.intentui.com/templates",
+    "purpose": "Commerce dashboard template"
+   },
+   {
+    "name": "Personal",
+    "url": "https://design.intentui.com/templates",
+    "purpose": "Modern personal website template"
+   },
+   {
+    "name": "Screencast",
+    "url": "https://design.intentui.com/templates",
+    "purpose": "Course platform template"
+   },
+   {
+    "name": "Provision",
+    "url": "https://design.intentui.com/templates",
+    "purpose": "Provision dashboard template"
+   },
+   {
+    "name": "Commerce",
+    "url": "https://design.intentui.com/templates",
+    "purpose": "Commerce design template"
+   },
+   {
+    "name": "Deploy",
+    "url": "https://design.intentui.com/templates",
+    "purpose": "Server management template"
+   },
+   {
+    "name": "Clinic",
+    "url": "https://design.intentui.com/templates",
+    "purpose": "Clinic dashboard template"
+   }
+  ],
+  "template_count": 16,
+  "install": "npx shadcn@latest init @intentui/theme-default && npx shadcn@latest add @intentui/combo-box",
+  "package": null,
+  "docs_url": "https://intentui.com/docs/2.x/getting-started/installation",
+  "repo_url": "https://github.com/intentui/intentui",
+  "registry_url": "https://intentui.com/r/registry.json",
+  "github": {
+   "stars": 1948,
+   "license": "MIT",
+   "last_activity": "2026-08-13"
+  },
+  "pricing_detail": "Core library is MIT and free forever, including the Next.js, Laravel, TanStack Router, and Vite starter kits. design.intentui.com sells lifetime access one-time: Personal $249 (1 seat), Small team $499 (5 seats), Growing team $765 (15 seats, discounted from $899), Scale team $1,499 (25 seats), Business team $2,499 (50 seats), Enterprise team $4,499 (100 seats). Single templates can also be bought outright.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": 507
+  },
+  "agent_guidance": "Pick Intent UI over shadcn/ui when accessibility is a stated requirement or when the app needs internationalised date, time, or colour input — React Aria handles keyboard, focus, RTL, and locale calendars that Radix leaves to you. Do not mix it into an existing Radix-based shadcn project component-for-component: the two primitive systems have different prop and ref contracts, and you will end up shipping both runtimes; adopt it as the base layer instead, starting from one of the four starter kits. Note the version split in the docs URLs (2.x vs 3.x) and pin the one you generate against, and remember the 507 blocks, 542 patterns, and 16 templates are paid on design.intentui.com while the components themselves are MIT.",
+  "why_it_matters": "The strongest React Aria option in a Radix-saturated ecosystem, which makes it the practical default when a project has a genuine WCAG obligation rather than an aspiration.",
+  "quality_tier": "S",
+  "notable_for": [
+   "Built on React Aria Components, not Radix",
+   "Complete colour-picker suite: wheel, area, slider, swatch picker, thumb",
+   "Free starter kits for Next.js, Laravel, TanStack Router, and Vite",
+   "Internationalised date, time, and range calendar fields",
+   "507 paid blocks and 542 patterns on a separate lifetime-licence site"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://intentui.com/components (all components enumerated by category), https://intentui.com/blocks, https://intentui.com/docs/2.x/getting-started/installation (exact CLI commands), https://design.intentui.com/templates (16 templates with purposes, via curl — WebFetch failed with a header-overflow parse error), https://design.intentui.com/pricing (all six lifetime tiers), https://github.com/irsyadadl/intentui, gh api repos/intentui/intentui for stars, licence, last push"
+ },
+ {
+  "id": "7adf2111-b43f-4a5a-a0c6-56c29cfa7a8f",
+  "slug": "elevenlabs-ui",
+  "url": "https://ui.elevenlabs.io",
+  "name": "ElevenLabs UI",
+  "tagline": "First-party shadcn registry for voice agents: orbs, waveforms, transcripts",
+  "description": "ElevenLabs UI is ElevenLabs' own MIT component library and shadcn registry for building multimodal voice and audio interfaces. Its 17 domain components are the reason to use it — Orb, Waveform, Live Waveform, Bar Visualizer, Matrix, Audio Player, Scrub Bar, Mic Selector, Voice Picker, Voice Button, Speech Input, Transcript Viewer, Conversation, Conversation Bar, Message, Response, and Shimmering Text — shipped alongside a full re-export of the shadcn base set so the registry stands on its own. Eleven example blocks demonstrate complete surfaces: voice chat, voice forms, voice navigation, real-time transcription, music players, and a voice-controlled Pong. For anyone wiring the ElevenLabs Agents or Audio SDKs into a React front end.",
+  "category": "ai-interface-kits",
+  "subcategory": "chat-and-agent-components",
+  "kinds": [
+   "component-library",
+   "registry",
+   "block-collection"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "tailwind-v4",
+    "css-variables"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "cli",
+    "copy-paste",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "built-on-accessible-primitives",
+    "keyboard-navigable",
+    "known-gaps"
+   ],
+   "content_type": [
+    "code",
+    "audio"
+   ],
+   "agent_readiness": [
+    "registry-json",
+    "cli-installable",
+    "copy-paste-ready",
+    "open-source-code",
+    "bot-blocked"
+   ],
+   "maturity": "stable"
+  },
+  "components": [
+   "waveform",
+   "audio-player",
+   "voice-output",
+   "speech-input",
+   "transcript",
+   "conversation",
+   "message",
+   "message-scroller",
+   "streaming-text",
+   "prompt-input",
+   "send-stop-button",
+   "model-selector",
+   "shimmer",
+   "button",
+   "icon-button",
+   "toggle-button",
+   "toggle-group",
+   "toolbar",
+   "command-palette",
+   "context-menu",
+   "dropdown-menu",
+   "menubar",
+   "navigation-menu",
+   "sidebar",
+   "breadcrumbs",
+   "pagination",
+   "tabs",
+   "text-input",
+   "textarea",
+   "label",
+   "form",
+   "select",
+   "checkbox",
+   "radio-group",
+   "switch",
+   "slider",
+   "otp-input",
+   "calendar",
+   "accordion",
+   "collapsible",
+   "card",
+   "badge",
+   "avatar",
+   "table",
+   "separator",
+   "skeleton",
+   "progress-bar",
+   "chart",
+   "carousel",
+   "dialog",
+   "alert-dialog",
+   "drawer",
+   "sheet",
+   "popover",
+   "hover-card",
+   "alert",
+   "toast",
+   "tooltip",
+   "scroll-area",
+   "resizable",
+   "aspect-ratio"
+  ],
+  "component_count": 62,
+  "surfaces": [
+   "ai-chat-panel",
+   "chat-web-app",
+   "agent-settings",
+   "contacting-support",
+   "multi-step-form",
+   "submitting-a-form",
+   "command-palette",
+   "help-center"
+  ],
+  "templates": [
+   {
+    "name": "voice-chat-01",
+    "url": "https://ui.elevenlabs.io/blocks",
+    "purpose": "Full voice-chat surface wiring the Agents SDK to the orb and transcript components"
+   },
+   {
+    "name": "voice-chat-02",
+    "url": "https://ui.elevenlabs.io/blocks",
+    "purpose": "Alternate voice-chat layout built around the conversation-bar component"
+   },
+   {
+    "name": "voice-chat-03",
+    "url": "https://ui.elevenlabs.io/blocks",
+    "purpose": "Third voice-chat variant pairing live waveform with the message list"
+   },
+   {
+    "name": "realtime-transcriber-01",
+    "url": "https://ui.elevenlabs.io/blocks",
+    "purpose": "Live speech-to-text surface with a language selector, demonstrating Scribe"
+   },
+   {
+    "name": "transcriber-01",
+    "url": "https://ui.elevenlabs.io/blocks",
+    "purpose": "File-based transcription surface built on the transcript-viewer component"
+   },
+   {
+    "name": "voice-form-01",
+    "url": "https://ui.elevenlabs.io/blocks",
+    "purpose": "Form filled by voice instead of typing"
+   },
+   {
+    "name": "voice-nav-01",
+    "url": "https://ui.elevenlabs.io/blocks",
+    "purpose": "Voice-driven app navigation and command surface"
+   },
+   {
+    "name": "speaker-01",
+    "url": "https://ui.elevenlabs.io/blocks",
+    "purpose": "Text-to-speech playback surface with a standalone speaker component"
+   },
+   {
+    "name": "music-player-01",
+    "url": "https://ui.elevenlabs.io/blocks",
+    "purpose": "Music player layout built on the audio-player and scrub-bar components"
+   },
+   {
+    "name": "music-player-02",
+    "url": "https://ui.elevenlabs.io/blocks",
+    "purpose": "Second music player layout with a different transport and artwork treatment"
+   },
+   {
+    "name": "pong-01",
+    "url": "https://ui.elevenlabs.io/blocks",
+    "purpose": "Voice-controlled Pong game demonstrating low-latency audio input"
+   }
+  ],
+  "template_count": 11,
+  "install": "npx @elevenlabs/cli@latest components add orb",
+  "package": null,
+  "docs_url": "https://ui.elevenlabs.io/docs/components",
+  "repo_url": "https://github.com/elevenlabs/ui",
+  "registry_url": "https://ui.elevenlabs.io/r/registry.json",
+  "github": {
+   "stars": 2347,
+   "license": "MIT",
+   "last_activity": "2026-05-15"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": 11
+  },
+  "agent_guidance": "This is the correct first stop for any voice or audio interface in React — the Orb, Live Waveform, and Bar Visualizer are tuned to real microphone and TTS streams, not decorative loops, and rebuilding them is a genuine time sink. It is a full shadcn registry rather than an add-on: it re-exports the whole base set under its own namespace, so installing it into an existing shadcn project will overwrite your button and card unless you scope the install to the audio components only. Two practical notes: ui.elevenlabs.io returns 403 to non-browser clients, so pull component source from github.com/elevenlabs/ui at apps/www/registry/elevenlabs-ui/ui rather than fetching the registry JSON, and the components assume the ElevenLabs Agents or Audio SDK for their data, so budget for that integration and its API key.",
+  "why_it_matters": "A vendor shipping production-grade open-source UI for its own SDK is rare, and there is no comparable free library for voice-agent interfaces.",
+  "quality_tier": "A",
+  "notable_for": [
+   "The Orb — the reference agent-state visualiser for voice apps",
+   "Live Waveform and Bar Visualizer driven by real microphone input",
+   "11 complete blocks including voice forms and voice navigation",
+   "First-party and MIT, maintained by ElevenLabs",
+   "Site blocks non-browser clients; use the GitHub repo instead"
+  ],
+  "already_enriched": false,
+  "http_status": 403,
+  "verified_at": "2026-08-15",
+  "evidence": "https://github.com/elevenlabs/ui (README, install commands), gh api repos/elevenlabs/ui git tree recursive (62 registry ui components and 11 blocks enumerated from apps/www/registry/elevenlabs-ui/), gh api repos/elevenlabs/ui for stars, licence, last push, WebSearch for the repo location. ui.elevenlabs.io returned HTTP 403 on /docs and /docs/installation and HTTP 429 on /r/registry.json and /r/all.json, so nothing was read from the live site."
+ }
+]

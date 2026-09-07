@@ -1,0 +1,532 @@
+[
+ {
+  "id": "depo:j57enrjpqahk71ccask8g5k7ts84snbs",
+  "slug": "type-foundry-directory",
+  "url": "https://typefoundry.directory/",
+  "name": "Type Foundry Directory",
+  "tagline": "Filterable index of ~394 type foundries and their font licensing terms",
+  "description": "A curated, opinionated index of independent type foundries, built by Matthew Smith of Morning Type in 2018 and maintained out of Airtable. Its real value is not the font specimens but the licensing metadata: for each foundry it records purchasing-power parity, licensing model, desktop/web/app metrics, whether self-hosted webfonts are allowed, whether web tracking is required, whether the designer is covered by the client licence, and whether logo use, social media use and modification are permitted. Filters also cover founding year, country, script and language support, variable fonts, trial fonts, student discounts and platform presence (Adobe Fonts, Fontstand, Future Fonts, Fonts In Use). It deliberately skips large private-equity-backed foundries in favour of active independents.",
+  "category": "inspiration-galleries",
+  "subcategory": "directories-and-meta-indexes",
+  "kinds": [
+   "directory",
+   "reference"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "web-app",
+    "gallery"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "dataset",
+    "prose",
+    "fonts"
+   ],
+   "agent_readiness": [
+    "none"
+   ],
+   "maturity": "stable"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 394,
+   "blocks": null
+  },
+  "agent_guidance": "Reach for this before you recommend a paid typeface to a client, not to browse specimens — Fonts In Use or the foundry's own site is better for that. It is the only place that answers the questions that actually kill a font purchase: can the webfont be self-hosted, does the licence require phoning home for tracking, is logo use allowed, is the designer covered by the client's licence. There is no public API, so read it in a browser and copy the terms out by hand; do not assume the data is current, since it is maintained by one person on an irregular schedule.",
+  "why_it_matters": "Font licensing is the most under-documented risk in brand work, and this is the only structured, comparable dataset of foundry terms that exists in public.",
+  "notable_for": [
+   "licensing terms compared across foundries",
+   "purchasing-power-parity flag",
+   "self-hosted webfont flag",
+   "web-tracking-required flag",
+   "indie foundries only, by design"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://typefoundry.directory/, https://typefoundry.directory/about (https://typefoundry.directory/foundries returned 404)",
+  "source": "depo",
+  "quality_tier": "S",
+  "tier_reason": "394 verified foundry entries with structured licensing metadata (self-hosting, tracking, logo use) that exists nowhere else in public, making it the first stop for font-licensing questions."
+ },
+ {
+  "id": "depo:j57365jxv7bm9s2ggas0fpekfh84nanc",
+  "slug": "alcove",
+  "url": "https://tryalcove.com/",
+  "name": "Alcove",
+  "tagline": "Dynamic Island for macOS: notifications, live activities, custom HUDs",
+  "description": "A paid native Mac app that puts an iPhone-style Dynamic Island around the notch, absorbing notifications, live activities, media controls and system HUDs into one interactive surface. Advertised features are fluid transitions, instant notifications, live activities, swipe gestures, customisable HUDs and lock-screen widgets. It is a consumer utility, not a developer library — depo.zip's 'UI Library' tag on this link is wrong.",
+  "category": "utilities-naming",
+  "subcategory": "apps-and-references",
+  "kinds": [
+   "app",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "one-time",
+    "paid"
+   ],
+   "distribution": [
+    "desktop-app",
+    "download"
+   ],
+   "platform": [
+    "macos",
+    "desktop"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "none"
+   ],
+   "maturity": "stable"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "$14.99 one-time purchase",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Do not try to install or import this — there is no SDK, package or API, only a $14.99 Mac binary. Its use in a design context is as a reference implementation for notch-anchored, expand-on-hover HUD interaction: study how it collapses a live activity into a pill and re-expands it before you build a floating status surface of your own. If a user asks for 'a Dynamic Island component' for the web, point them at a motion library instead; this is prior art, not code.",
+  "why_it_matters": "One of the cleaner examples of borrowing an iOS interaction pattern into desktop without it feeling like a costume, which makes it useful reference for anyone designing ambient status UI.",
+  "notable_for": [
+   "notch-anchored HUD on macOS",
+   "live activities on desktop",
+   "$14.99 one-time, no subscription",
+   "swipe gestures on the notch"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://tryalcove.com/",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "A $14.99 consumer Mac binary with no SDK, package or API — usable only as prior art for one interaction pattern."
+ },
+ {
+  "id": "depo:j579kwe3eymx11psfh5tmdt6zx84j0bq",
+  "slug": "tinycloud",
+  "url": "https://tinycloud.cloudglue.dev/",
+  "name": "Tinycloud",
+  "tagline": "Agent CLI that analyses, clips and captions video from your terminal",
+  "description": "A CLI from Cloudglue that gives a coding agent real video and image capability: point it at a file and it returns cached, reusable context plus a JSON envelope on stdout. It ships fifteen verbs — watch, see, extract, caption, search, probe, ask, query, clip, grab, face, library, jobs, workflow, publish — plus setup and login, with ffmpeg-backed local editing and Cloudglue-hosted analysis. It also distributes eight agent skills (tinycloud-init, tinycloud, sales-coaching, blog-post, ad-analysis, meeting-breakdown, youtube-publish, tinycloud-skill-creator) installable into Claude Code, Codex, Cursor or the universal .agents layout, and a Claude Code plugin marketplace entry. Currently in public beta; macOS and Linux only, Windows needs WSL2.",
+  "category": "generative-media-tools",
+  "subcategory": "video-and-render",
+  "kinds": [
+   "ai-tool",
+   "agent-skill",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "usage-based",
+    "freemium",
+    "account-required"
+   ],
+   "distribution": [
+    "cli",
+    "npm-package",
+    "agent-skill",
+    "github-repo",
+    "saas"
+   ],
+   "platform": [
+    "macos",
+    "linux",
+    "terminal"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "video",
+    "code",
+    "images"
+   ],
+   "agent_readiness": [
+    "agent-skill",
+    "cli-installable",
+    "structured-docs",
+    "auth-required"
+   ],
+   "maturity": "beta"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npm install -g @cloudglue/tinycloud",
+  "package": "@cloudglue/tinycloud",
+  "docs_url": "https://www.npmjs.com/package/@cloudglue/tinycloud",
+  "repo_url": "https://github.com/cloudglue/tinycloud",
+  "registry_url": null,
+  "github": {
+   "stars": 1,
+   "license": null,
+   "last_activity": "2026-08-14"
+  },
+  "pricing_detail": "Local and network commands are free; cloud commands are billed per the Cloudglue rate card at app.cloudglue.dev/home/billing/rate-card. No public price list on the marketing page.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Install this instead of shelling out to raw ffmpeg plus a transcription API when the task needs understanding, not just cutting — `watch` caches a reusable context so repeated `ask`/`extract`/`search` calls over the same video stay cheap. Run `npx @cloudglue/tinycloud skills install` first so the skill files teach you the JSON envelope contract, and always pass `--json` since logs go to stderr. Watch out for two things: cloud verbs are metered against a Cloudglue API key and need `tinycloud login`, and the npm package is only a launcher that pulls a platform binary from a CDN on first run, so it will fail in a sandbox with no network egress and on Windows outside WSL2.",
+  "why_it_matters": "It is one of the few video tools designed for an agent to drive rather than a human to click, and the JSON-envelope-plus-skills packaging is a good model for how AI-native CLIs should ship.",
+  "notable_for": [
+   "15 verbs with a JSON envelope contract",
+   "8 installable agent skills",
+   "ffmpeg-backed local clip verb is free",
+   "Claude Code plugin marketplace entry",
+   "cached video context across calls"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://tinycloud.cloudglue.dev/, registry.npmjs.org/@cloudglue/tinycloud (full README, v0.3.21), api.github.com/repos/cloudglue/tinycloud. npmjs.com web page returned 403.",
+  "source": "depo",
+  "quality_tier": "A",
+  "tier_reason": "Installable CLI with a documented JSON-envelope contract, 15 verbs and 8 shipped agent skills, actively committed as of 2026-08-14, held back from S only by public beta status and metered cloud auth."
+ },
+ {
+  "id": "depo:j57aancegen6yt8r4n3hjw303s84k437",
+  "slug": "outpace-studios",
+  "url": "https://www.outpacestudios.com/",
+  "name": "Outpace Studios",
+  "tagline": "Senior-led product, brand and web studio leaning crypto and web3",
+  "description": "A small distributed design and development studio selling four service lines: Product (web apps, dashboards, mobile apps, DeFi apps, crypto exchanges, physical), Brand (strategy, logo system, pitch decks, brand guidelines, illustrations, animations), Website (ecommerce, crypto/web3, venture firms, SaaS, portfolios, landing pages) and Development (websites, web apps, mobile apps, DeFi platforms, databases, auditing/consulting). It publishes its rates openly, which is unusual for a studio of this size. Note that the client list on the live site is POAP Global, Celebratix, AITA Protocol, Essai, Glide Finance, Elastos Foundation and Ingenius — not the Solana/Near/Whop/Aleo roster claimed in the scraped description.",
+  "category": "studios-portfolios",
+  "subcategory": "product-and-web-studios",
+  "kinds": [
+   "studio",
+   "portfolio"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "not-applicable"
+   ],
+   "pricing": [
+    "paid",
+    "subscription"
+   ],
+   "distribution": [
+    "unknown"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "screenshots",
+    "prose"
+   ],
+   "agent_readiness": [
+    "none"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Marathon: $12k/month retainer (senior designers, dedicated PM). Sprint: $16k fixed scope, 2-4 weeks. Booking for Q3 2026.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use this as a pricing and scoping benchmark, not as a source of reusable design: the published $12k/month retainer and $16k fixed sprint are rare public data points for costing a senior-led engagement. Its portfolio skews crypto and DeFi dashboards, so cite it when a user is designing exchange or protocol UI and wants precedent. Do not repeat the client names from any scraped blurb — verify against the live site, since the circulating description lists companies the site does not claim.",
+  "why_it_matters": "Publishing exact retainer and sprint prices makes it a useful reference point for what senior product-and-brand work actually costs.",
+  "notable_for": [
+   "published rates: $12k/mo, $16k sprint",
+   "crypto and DeFi product work",
+   "brand plus build under one roof",
+   "scraped client list did not match the site"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://www.outpacestudios.com/",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "A small studio portfolio whose only reusable value is the published $12k/mo and $16k sprint rates; no components, assets or code."
+ },
+ {
+  "id": "depo:j57et15mmfwgkgb8vh6cyp5m8x84gd6z",
+  "slug": "awesomepost",
+  "url": "https://awesomepost.appps.od.ua/",
+  "name": "AwesomePost",
+  "tagline": "Mac app that turns screenshots and clips into 4K device-mockup demos",
+  "description": "A macOS 14.6+ app for producing device-framed demo videos and stills aimed at Threads, X and Instagram. It composes one, two or three devices in a shot with selectable model and colour, animates zoom and position, and offers a timeline with trim and transition controls. Backgrounds can be solid colours, gradients, custom images or Unsplash photos, with an auto colour selection mode that picks a background matching the content; export is 4K at up to 60fps. Distributed through TestFlight and free during the beta, with iOS promised.",
+  "category": "textures-assets",
+  "subcategory": "mockups-and-asset-packs",
+  "kinds": [
+   "mockup-tool",
+   "app",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "free",
+    "free-trial"
+   ],
+   "distribution": [
+    "desktop-app",
+    "download"
+   ],
+   "platform": [
+    "macos",
+    "desktop"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "video",
+    "images"
+   ],
+   "agent_readiness": [
+    "none"
+   ],
+   "maturity": "beta"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Free during the TestFlight beta; no post-launch price published.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Suggest this only for a macOS user who needs a launch clip today — it is a GUI TestFlight build with no CLI, no API and no headless mode, so it cannot be scripted into a build pipeline; use ffmpeg plus a static device-frame PNG if the work has to be automated. Its edge over generic screen-recorder mockup tools is the multi-device composition and the auto background colour pick, which is handy when you have no brand palette to hand. Note the indexed URL awesomepost.appps.od.ua now 301s to awesomepost.app — link to the latter.",
+  "why_it_matters": "Fills the narrow gap between a raw screen recording and a motion-designed launch video, which is exactly the asset most small teams fake badly.",
+  "notable_for": [
+   "one-, two- or three-device compositions",
+   "4K/60fps export",
+   "auto background colour from content",
+   "Unsplash backgrounds built in",
+   "free TestFlight beta"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://awesomepost.appps.od.ua/ (301 to https://awesomepost.app/), https://awesomepost.app/",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "TestFlight-only beta with no CLI, API or headless mode, no published post-launch price, and an indexed URL that already 301s to a different domain."
+ },
+ {
+  "id": "depo:j5742bzy8wqjq1vcbqhfb4gcnd84hxmp",
+  "slug": "theme-toggle-effect",
+  "url": "https://theme-toggle.rdsx.dev/",
+  "name": "Theme Toggle Effect",
+  "tagline": "Copy-paste CSS for View Transitions API theme-switch animations",
+  "description": "Rudrodip Sarker's demo page for animating light/dark switching with the View Transitions API, and the reference everyone copies for it. The whole JavaScript surface is two lines wrapping your existing switchTheme call in document.startViewTransition with a fallback; everything else is CSS on ::view-transition-old/new(root). The page demos six effects and links a plain /animations.txt containing the full CSS for each, named circle, circle-with-blur, circle-blur-top-left, polygon, polygon-gradient, gif-1 and gif-2, plus a block of easing curves. Vanilla CSS with SVG masks and clip-paths, no framework and no package.",
+  "category": "motion-interaction",
+  "subcategory": "micro-interactions-and-loaders",
+  "kinds": [
+   "reference",
+   "animation-library"
+  ],
+  "facets": {
+   "framework": [
+    "vanilla"
+   ],
+   "styling": [
+    "vanilla-css",
+    "css-variables"
+   ],
+   "license": [
+    "no-license"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "copy-paste",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "known-gaps"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "copy-paste-ready",
+    "open-source-code"
+   ],
+   "maturity": "stable"
+  },
+  "components": [
+   "transition",
+   "page-transition"
+  ],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://theme-toggle.rdsx.dev/animations.txt",
+  "repo_url": "https://github.com/rudrodip/theme-toggle-effect",
+  "registry_url": null,
+  "github": {
+   "stars": 810,
+   "license": null,
+   "last_activity": "2025-10-07"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": 6
+  },
+  "agent_guidance": "Fetch /animations.txt and paste one named block into global CSS rather than pulling a motion library — this needs zero dependencies and works with next-themes, a class toggle, or anything else, because it only hooks the existing switch function. Use circle-blur-top-left when the toggle sits in a corner nav and circle-with-blur when it sits centre; set the mask origin to the button's coordinates if you want the wipe to start from the cursor. Two real cautions: the repo has no LICENSE file at all, so treat it as reference to reimplement rather than code you can safely vendor into a client product, and none of the snippets guard prefers-reduced-motion, so add that media query yourself.",
+  "why_it_matters": "It is the canonical demonstration that the flashiest theme-switch animation on the web costs two lines of JavaScript, and it set the pattern nearly every shadcn-era site now copies.",
+  "notable_for": [
+   "two lines of JavaScript, all the rest is CSS",
+   "7 named CSS blocks in a plain text file",
+   "SVG mask and clip-path techniques",
+   "810 GitHub stars",
+   "no LICENSE file in the repo"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://theme-toggle.rdsx.dev/, https://theme-toggle.rdsx.dev/animations.txt, https://github.com/rudrodip/theme-toggle-effect, api.github.com/repos/rudrodip/theme-toggle-effect, raw README.md",
+  "source": "depo",
+  "quality_tier": "A",
+  "tier_reason": "810 stars and 7 copy-paste CSS blocks served as a plain animations.txt make it the canonical View Transitions theme-switch reference; the missing LICENSE file blocks safe vendoring and keeps it off S."
+ }
+]

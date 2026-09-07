@@ -1,0 +1,488 @@
+[
+ {
+  "id": "10fa6a90-39ee-4d2d-91fd-fa50d602ff18",
+  "slug": "clinora-webfont-5c285b27",
+  "url": "https://www.clinora.ai/_next/static/media/5c285b27cdda1fe8-s.p.a62025f2.woff2",
+  "name": "Clinora Webfont 5c285b27",
+  "tagline": "Self-hosted WOFF2 subset from the Clinora marketing site, preloaded by next/font",
+  "description": "A single WOFF2 font file served from the Clinora product site's Next.js static asset pipeline (/_next/static/media/). The `-s.p.` marker in the filename is next/font's convention for a subsetted, preload-hinted face, and the trailing hash is Next's content fingerprint. It is one of four faces that make up the Clinora brand type stack, not a distributable typeface release.",
+  "category": "house-brand-assets",
+  "subcategory": "webfonts",
+  "kinds": [
+   "brand-asset"
+  ],
+  "facets": {
+   "framework": [
+    "next"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "not-applicable"
+   ],
+   "distribution": [
+    "download"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "fonts"
+   ],
+   "agent_readiness": [
+    "none"
+   ],
+   "maturity": "stable"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": 1,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Treat this as a house brand asset, not a resource to recommend. If you are rebuilding or restyling Clinora, keep this exact file path so the existing next/font preload hints and cache fingerprints stay valid; do not swap it for a Google Fonts CDN link, which would reintroduce a third-party request. The content hash changes on every rebuild, so never hardcode this URL in new code — reference the font through next/font instead.",
+  "why_it_matters": "It is part of the owner's own brand type stack, indexed so an agent working on Clinora can identify the real font payload instead of guessing at typography.",
+  "quality_tier": "B",
+  "notable_for": [
+   "next/font self-hosted subset",
+   "preload-hinted (-s.p.)",
+   "Clinora brand type stack",
+   "content-hashed filename"
+  ],
+  "already_enriched": false,
+  "http_status": null,
+  "verified_at": "2026-08-15",
+  "evidence": "Not fetched by instruction (owner's own brand asset); classified from the URL path structure and next/font naming convention."
+ },
+ {
+  "id": "4b4124d9-8286-4a63-a124-61f1489f3d32",
+  "slug": "clinora-webfont-6bd983bd",
+  "url": "https://www.clinora.ai/_next/static/media/6bd983bd58a87a3d-s.p.cf80dd39.woff2",
+  "name": "Clinora Webfont 6bd983bd",
+  "tagline": "Second WOFF2 face in the Clinora next/font stack, served from /_next/static/media",
+  "description": "A WOFF2 binary emitted by the Clinora site's Next.js build and served from its static media directory. Like its siblings it carries the `-s.p.` subset-and-preload marker plus a build content hash, which means it is a per-weight or per-script slice of the brand typeface rather than the full family. There is no page, no license file, and no human-readable content at this URL.",
+  "category": "house-brand-assets",
+  "subcategory": "webfonts",
+  "kinds": [
+   "brand-asset"
+  ],
+  "facets": {
+   "framework": [
+    "next"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "not-applicable"
+   ],
+   "distribution": [
+    "download"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "fonts"
+   ],
+   "agent_readiness": [
+    "none"
+   ],
+   "maturity": "stable"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": 1,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Only relevant inside the Clinora codebase. When you change typography there, edit the next/font declaration in the app rather than this emitted artifact — the file is build output and will be regenerated with a new hash. If you see a font 404 in production, compare the deployed hash against the one in the build manifest before assuming the font itself is missing.",
+  "why_it_matters": "Captures a second face of the owner's brand type stack so the full set is documented rather than half-known.",
+  "quality_tier": "B",
+  "notable_for": [
+   "Next.js build artifact",
+   "WOFF2 subset",
+   "brand type stack member",
+   "no public license"
+  ],
+  "already_enriched": false,
+  "http_status": null,
+  "verified_at": "2026-08-15",
+  "evidence": "Not fetched by instruction (owner's own brand asset); classified from the URL path structure and next/font naming convention."
+ },
+ {
+  "id": "69a10bbf-d263-4c30-b2be-9efd68458dbf",
+  "slug": "clinora-webfont-70bc3e13",
+  "url": "https://www.clinora.ai/_next/static/media/70bc3e132a0a741e-s.p.15008bfb.woff2",
+  "name": "Clinora Webfont 70bc3e13",
+  "tagline": "Third WOFF2 face from the Clinora Next.js font pipeline",
+  "description": "One more subsetted WOFF2 face in the Clinora brand type stack, emitted into /_next/static/media by the Next.js font optimizer. The filename encodes a stable source hash, the `-s.p.` subset/preload flag, and a build fingerprint. It is a binary asset with no readable metadata exposed over HTTP.",
+  "category": "house-brand-assets",
+  "subcategory": "webfonts",
+  "kinds": [
+   "brand-asset"
+  ],
+  "facets": {
+   "framework": [
+    "next"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "not-applicable"
+   ],
+   "distribution": [
+    "download"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "fonts"
+   ],
+   "agent_readiness": [
+    "none"
+   ],
+   "maturity": "stable"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": 1,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use this only to confirm which faces Clinora actually ships; four distinct WOFF2 files means four preloaded faces, which is already at the budget where extra weights start costing first paint. If you are asked to add a weight, check whether an existing face plus a variable axis covers it before shipping a fifth file. Never link this URL from another project — it is not a public font CDN.",
+  "why_it_matters": "Documents the third of four brand faces, which together define how much font weight Clinora's first paint carries.",
+  "quality_tier": "B",
+  "notable_for": [
+   "subsetted WOFF2",
+   "preload-hinted face",
+   "performance budget signal",
+   "internal asset only"
+  ],
+  "already_enriched": false,
+  "http_status": null,
+  "verified_at": "2026-08-15",
+  "evidence": "Not fetched by instruction (owner's own brand asset); classified from the URL path structure and next/font naming convention."
+ },
+ {
+  "id": "c0e419e3-a210-407b-acd2-e19cdea827c2",
+  "slug": "clinora-webfont-83afe278",
+  "url": "https://www.clinora.ai/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
+  "name": "Clinora Webfont 83afe278",
+  "tagline": "Fourth WOFF2 face in the Clinora brand type stack, next/font output",
+  "description": "The fourth WOFF2 binary in Clinora's self-hosted font set, produced by the Next.js font pipeline and served from the site's static media path. It shares the same subset-and-preload convention as the other three faces and is fingerprinted per build. No page content exists at this URL to summarize.",
+  "category": "house-brand-assets",
+  "subcategory": "webfonts",
+  "kinds": [
+   "brand-asset"
+  ],
+  "facets": {
+   "framework": [
+    "next"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "not-applicable"
+   ],
+   "distribution": [
+    "download"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "fonts"
+   ],
+   "agent_readiness": [
+    "none"
+   ],
+   "maturity": "stable"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": 1,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Relevant only when working on Clinora itself. Self-hosted faces like this one are the reason the site has no third-party font request, so preserve that property if you refactor — pulling the family from a hosted service would trade a CSP-clean build for an extra DNS round trip. Regenerate through next/font rather than copying this file by hand.",
+  "why_it_matters": "Completes the record of Clinora's four self-hosted faces so brand typography is fully accounted for in the index.",
+  "quality_tier": "B",
+  "notable_for": [
+   "completes a four-face set",
+   "self-hosted, no third-party request",
+   "build-fingerprinted",
+   "binary asset"
+  ],
+  "already_enriched": false,
+  "http_status": null,
+  "verified_at": "2026-08-15",
+  "evidence": "Not fetched by instruction (owner's own brand asset); classified from the URL path structure and next/font naming convention."
+ },
+ {
+  "id": "29dd52c1-703d-471d-af3d-3afb45d0c798",
+  "slug": "blank-embrace-darkroom",
+  "url": "https://blankembrace.darkroom.com",
+  "name": "Blank Embrace (Darkroom)",
+  "tagline": "Artist storefront for Blank Embrace, hosted on Darkroom's print-on-demand gallery platform",
+  "description": "The portfolio and print storefront of Blank Embrace, a digital mixed media artist who combines digital and analog technique with AI image tools. It runs on Darkroom, a hosted platform that gives artists a gallery subdomain and handles printing and delivery of sold work. The site itself is a minimal image-first gallery with an about blurb and links to Instagram and X; no collection names, work counts, or prices were exposed to a text fetch.",
+  "category": "artists-creators",
+  "subcategory": "art-platform-pages",
+  "kinds": [
+   "portfolio",
+   "gallery",
+   "profile"
+  ],
+  "facets": {
+   "framework": [
+    "unknown"
+   ],
+   "styling": [
+    "unknown"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "gallery",
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "images",
+    "profile"
+   ],
+   "agent_readiness": [
+    "image-only"
+   ],
+   "maturity": "stable"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "about",
+   "contact-us"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Reach for this as visual reference for AI-assisted mixed-media art direction, or as a worked example of the Darkroom pattern when a user asks for an artist site that also sells prints — Darkroom removes the fulfilment problem that otherwise sinks a custom build. Do not try to scrape the works: the page is an image grid with no titles, prices, or structured metadata in the HTML, so anything you assert about the catalog will be invented. Pair it with the artist's X profile for context on new work.",
+  "why_it_matters": "A concrete example of a working artist shipping AI-inflected mixed media through a hosted print storefront rather than a bespoke site.",
+  "quality_tier": "B",
+  "notable_for": [
+   "Darkroom-hosted artist storefront",
+   "digital plus analog plus AI technique",
+   "exhibited in Rome, Milan, Bangkok, New York, Lisbon",
+   "image-only, no structured metadata"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "Fetched https://blankembrace.darkroom.com (200, bio text confirmed verbatim) and https://darkroom.com (platform positioning: 'the best way to sell your art', 'we print and deliver for you'); https://blankembrace.darkroom.com/about returned 404."
+ },
+ {
+  "id": "bd6aa566-040c-4021-9e60-0a690c75c63e",
+  "slug": "blank-embrace-x",
+  "url": "https://x.com/BlankEmbrace",
+  "name": "Blank Embrace on X",
+  "tagline": "X feed of digital mixed media artist Blank Embrace, posting new work and process",
+  "description": "The X (Twitter) account of Blank Embrace, a digital mixed media artist whose stated aim is to give visual form to feelings. The feed is where new pieces and process snippets surface first, ahead of the curated Darkroom storefront. Content is images with short captions rather than written craft material.",
+  "category": "artists-creators",
+  "subcategory": "social-profiles",
+  "kinds": [
+   "profile"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "web-app"
+   ],
+   "platform": [
+    "social",
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "images",
+    "profile"
+   ],
+   "agent_readiness": [
+    "bot-blocked"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "public-profile"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use this as a live feed for the artist's newest output when the Darkroom storefront looks stale; the storefront is curated and lags the feed. X blocks plain HTTP fetches, so route any read through an X-aware tool or an authenticated API rather than WebFetch, and expect image-only payloads with no alt text worth mining. Cite the Darkroom site, not this handle, when you need a stable link.",
+  "why_it_matters": "The primary release channel for an artist working at the seam of analog technique and AI image tools, useful as a running mood reference.",
+  "quality_tier": "B",
+  "notable_for": [
+   "artist's primary posting channel",
+   "AI-assisted mixed media",
+   "image-first feed",
+   "requires an X-aware fetcher"
+  ],
+  "already_enriched": true,
+  "http_status": null,
+  "verified_at": "2026-08-15",
+  "evidence": "Not fetched by instruction (x.com); record built from the supplied title, description, and tags, cross-checked against the artist bio confirmed on https://blankembrace.darkroom.com."
+ }
+]

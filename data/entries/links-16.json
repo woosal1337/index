@@ -1,0 +1,1036 @@
+[
+ {
+  "id": "2db8bed4-9eeb-4faa-b89f-eeec40454331",
+  "slug": "better-upload",
+  "url": "https://better-upload.com",
+  "name": "Better Upload",
+  "tagline": "React file uploads straight to any S3-compatible bucket, with shadcn UI parts",
+  "description": "Better Upload is a React file-upload library split into a server package that signs upload routes and a client package that drives the browser side, so bytes go directly from the user to your own S3-compatible bucket instead of through your server. It ships a small shadcn-style registry of four UI pieces (Upload Button, Upload Dropzone, Upload Progress, Paste Upload Area) that you install into your own codebase and edit. It is framework-agnostic across Next.js, Remix and TanStack Start, and works with AWS S3, Cloudflare R2, Backblaze and Tigris. For teams that want UploadThing ergonomics without handing over their storage or their bill.",
+  "category": "component-libraries",
+  "subcategory": "integration-components",
+  "kinds": [
+   "registry",
+   "component-library",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next",
+    "remix"
+   ],
+   "styling": [
+    "tailwind-any",
+    "css-variables"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "shadcn-registry",
+    "github-repo",
+    "copy-paste"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "built-on-accessible-primitives"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "registry-json",
+    "cli-installable",
+    "structured-docs",
+    "open-source-code",
+    "copy-paste-ready"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "file-upload",
+   "progress-bar",
+   "button",
+   "drag-and-drop"
+  ],
+  "component_count": 4,
+  "surfaces": [
+   "uploading-media",
+   "submitting-a-form",
+   "data-import"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "npx shadcn@latest add @better-upload/upload-dropzone",
+  "package": "@better-upload/client",
+  "docs_url": "https://better-upload.com/docs",
+  "repo_url": "https://github.com/Nic13Gamer/better-upload",
+  "registry_url": "https://better-upload.com/r/registry.json",
+  "github": {
+   "stars": 1286,
+   "license": "MIT",
+   "last_activity": "2026-07-04"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Reach for this instead of UploadThing or a hand-rolled presigned-URL flow when the project already has an S3-compatible bucket and you must not add a metered third-party upload vendor. Install `@better-upload/server` for the route handler and `@better-upload/client` for hooks, then pull the UI in with the shadcn CLI namespace `@better-upload/...` — the components assume shadcn's `button` and `progress` already exist, so run `shadcn init` first or the add will fail on missing registry dependencies. Do not expect it to do image transforms, virus scanning or a media library; it stops at the upload.",
+  "why_it_matters": "It is the rare upload library that keeps your storage, your credentials and your bill while still giving you a dropzone you can paste in and restyle. The server/client split makes it usable in any React meta-framework rather than being locked to Next.js.",
+  "notable_for": [
+   "direct-to-S3, no proxying",
+   "shadcn CLI namespace install",
+   "R2 / Backblaze / Tigris adapters",
+   "paste-to-upload area",
+   "MIT, 1.3k stars"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://better-upload.com, https://better-upload.com/docs, https://better-upload.com/docs/quickstart, https://better-upload.com/r/registry.json, https://better-upload.com/docs/components/upload-dropzone, https://github.com/Nic13Gamer/better-upload, GitHub API repos/Nic13Gamer/better-upload",
+  "quality_tier": "A",
+  "tier_reason": "MIT, actively maintained (last activity 2026-07-04) with a real registry.json, npm packages and multi-provider S3 adapters, but only 4 UI components and a single narrow job keeps it below best-in-class."
+ },
+ {
+  "id": "f4fcbf99-9a17-44b9-bc0a-60898cee99a7",
+  "slug": "ui-tripled",
+  "url": "https://ui.tripled.work",
+  "name": "UI TripleD",
+  "tagline": "282-item shadcn registry of motion components, sections and full pages",
+  "description": "UI TripleD is an open-source shadcn registry that ships 282 installable items: 165 animated components, 20 base UI pieces, 74 page blocks and 23 complete pages, every one built on Framer Motion over shadcn/ui or Base UI. Most blocks exist in two parallel variants — a `-shadcnui` build on Radix and a `-baseui` build on Base UI — so you pick the primitive layer your project already uses. Alongside the registry it runs three browser tools: a Landing Page Builder that assembles blocks, a shader-driven Background Builder and a Tailwind Grid Generator. Aimed at developers who want motion-heavy marketing and dashboard surfaces without writing the animation choreography.",
+  "category": "component-libraries",
+  "subcategory": "shadcn-registries",
+  "kinds": [
+   "registry",
+   "component-library",
+   "block-collection"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "tailwind-v4",
+    "tailwind-any",
+    "css-variables"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "copy-paste",
+    "github-repo",
+    "web-app",
+    "cli"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "built-on-accessible-primitives",
+    "claimed-accessible"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "registry-json",
+    "cli-installable",
+    "copy-paste-ready",
+    "open-source-code",
+    "js-only-shell"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "accordion",
+   "card",
+   "card-grid",
+   "checkbox",
+   "dialog",
+   "modal",
+   "list",
+   "navbar",
+   "header",
+   "footer",
+   "pagination",
+   "account-menu",
+   "progress-bar",
+   "quote",
+   "radio-group",
+   "select",
+   "sidebar",
+   "tabs",
+   "tooltip",
+   "avatar",
+   "avatar-group",
+   "typography",
+   "drawer",
+   "sheet",
+   "file-tree",
+   "carousel",
+   "chart",
+   "area-chart",
+   "dashboard",
+   "table",
+   "kanban-board",
+   "conversation",
+   "message",
+   "prompt-input",
+   "streaming-text",
+   "typing-indicator",
+   "skeleton",
+   "command-palette",
+   "comment",
+   "context-menu",
+   "payment-method-selector",
+   "slider",
+   "drag-and-drop",
+   "tag",
+   "word-cloud",
+   "product-card",
+   "switch",
+   "search-input",
+   "floating-window",
+   "gradient-background",
+   "popover",
+   "text-input",
+   "glassmorphism",
+   "login-form",
+   "signup-form",
+   "forgot-password-form",
+   "otp-input",
+   "checkout",
+   "order-summary",
+   "profile-form",
+   "stat",
+   "hover-card",
+   "timeline",
+   "custom-cursor",
+   "marquee",
+   "feed",
+   "notification-center",
+   "password-input",
+   "count-up",
+   "typewriter-text",
+   "badge",
+   "button",
+   "ripple",
+   "shimmer",
+   "calendar",
+   "social-login-buttons",
+   "dropdown-menu",
+   "form",
+   "progress-stepper",
+   "bento-grid",
+   "hero",
+   "pricing-table",
+   "comparison-table",
+   "lightbox",
+   "image-gallery",
+   "node-editor",
+   "scroll-reveal",
+   "scroll-driven-animation",
+   "transition",
+   "toast",
+   "empty-state",
+   "transcript",
+   "toolbar",
+   "separator"
+  ],
+  "component_count": 282,
+  "surfaces": [
+   "homepage",
+   "features",
+   "pricing-website",
+   "testimonials",
+   "about",
+   "contact-us",
+   "blog",
+   "blog-post",
+   "faq",
+   "team",
+   "analytics",
+   "kanban-board",
+   "feed",
+   "public-profile",
+   "login-web-app",
+   "sign-up",
+   "ai-chat-panel",
+   "notifications",
+   "search-results",
+   "empty-state"
+  ],
+  "templates": [
+   {
+    "name": "About Us Page",
+    "url": "https://ui.tripled.work/r/about-us-page-shadcnui.json",
+    "purpose": "Glassmorphism about page with mission, values and leadership sections"
+   },
+   {
+    "name": "Profile Page",
+    "url": "https://ui.tripled.work/r/profile-page-shadcnui.json",
+    "purpose": "User profile with gradient cover, stats and a posts feed"
+   },
+   {
+    "name": "Hero Section",
+    "url": "https://ui.tripled.work/r/hero-section-shadcnui.json",
+    "purpose": "Marketing hero with staggered text and button reveal (Base UI twin available)"
+   },
+   {
+    "name": "Staggered Text Hero",
+    "url": "https://ui.tripled.work/r/staggered-hero-shadcnui.json",
+    "purpose": "Alternate hero built around staggered text reveal"
+   },
+   {
+    "name": "Pricing Section",
+    "url": "https://ui.tripled.work/r/pricing-section-shadcnui.json",
+    "purpose": "Animated pricing cards with hover effects and feature lists"
+   },
+   {
+    "name": "Feature Grid Section",
+    "url": "https://ui.tripled.work/r/feature-grid-section-shadcnui.json",
+    "purpose": "Feature grid with staggered card animations and icon reveals"
+   },
+   {
+    "name": "Stats Section",
+    "url": "https://ui.tripled.work/r/stats-section-shadcnui.json",
+    "purpose": "Statistics band with animated counters"
+   },
+   {
+    "name": "Testimonial Section",
+    "url": "https://ui.tripled.work/r/testimonial-section-shadcnui.json",
+    "purpose": "Carousel-style testimonials with smooth transitions"
+   },
+   {
+    "name": "FAQ Section",
+    "url": "https://ui.tripled.work/r/faq-section-shadcnui.json",
+    "purpose": "Expandable FAQ accordion with animated transitions"
+   },
+   {
+    "name": "CTA Banner Section",
+    "url": "https://ui.tripled.work/r/cta-banner-section-shadcnui.json",
+    "purpose": "Gradient call-to-action banner with animated buttons"
+   },
+   {
+    "name": "Dynamic Spotlight CTA",
+    "url": "https://ui.tripled.work/r/dynamic-spotlight-cta-shadcnui.json",
+    "purpose": "Cursor-following spotlight that reveals gradient CTA text"
+   },
+   {
+    "name": "Scroll Reveal",
+    "url": "https://ui.tripled.work/r/scroll-reveal-shadcnui.json",
+    "purpose": "Intersection-observer section that animates into view"
+   },
+   {
+    "name": "Scroll Progress Tracker",
+    "url": "https://ui.tripled.work/r/scroll-progress-tracker-shadcnui.json",
+    "purpose": "Fixed reading-progress bar that glows on section change"
+   },
+   {
+    "name": "Auto-Revealing Heading",
+    "url": "https://ui.tripled.work/r/auto-revealing-heading-shadcnui.json",
+    "purpose": "Heading that reveals letter by letter on scroll"
+   },
+   {
+    "name": "Toast Notification",
+    "url": "https://ui.tripled.work/r/toast-notification-shadcnui.json",
+    "purpose": "Animated toast popup page pattern"
+   },
+   {
+    "name": "Dashboard",
+    "url": "https://ui.tripled.work/r/dashboard-shadcnui.json",
+    "purpose": "Full admin dashboard block (Base UI twin available)"
+   },
+   {
+    "name": "Stocks Dashboard",
+    "url": "https://ui.tripled.work/r/stocks-dashboard-shadcnui.json",
+    "purpose": "Finance dashboard with charts and tickers"
+   },
+   {
+    "name": "Kanban Board",
+    "url": "https://ui.tripled.work/r/kanban-board-shadcnui.json",
+    "purpose": "Draggable task board block"
+   },
+   {
+    "name": "Notion Blog Page",
+    "url": "https://ui.tripled.work/r/notion-blog-page-shadcnui.json",
+    "purpose": "Notion-styled blog reading page"
+   },
+   {
+    "name": "Glassmorphism Portfolio",
+    "url": "https://ui.tripled.work/r/glassmorphism-portfolio-block-shadcnui.json",
+    "purpose": "Portfolio showcase in the glassmorphism family"
+   },
+   {
+    "name": "Glassmorphism Pricing",
+    "url": "https://ui.tripled.work/r/glassmorphism-pricing-block-shadcnui.json",
+    "purpose": "Frosted-glass pricing block"
+   },
+   {
+    "name": "N8N Workflow Block",
+    "url": "https://ui.tripled.work/r/n8n-workflow-block-shadcnui.json",
+    "purpose": "Node-graph workflow canvas block for automation product pages"
+   },
+   {
+    "name": "Interactive Logs Table",
+    "url": "https://ui.tripled.work/r/interactive-logs-table-shadcnui.json",
+    "purpose": "Filterable log/event table for observability UIs"
+   }
+  ],
+  "template_count": 23,
+  "install": "npx shadcn@latest add https://ui.tripled.work/r/hero-section-shadcnui.json",
+  "package": null,
+  "docs_url": "https://ui.tripled.work/components",
+  "repo_url": "https://github.com/moumen-soliman/uitripled",
+  "registry_url": "https://ui.tripled.work/r/registry.json",
+  "github": {
+   "stars": 1311,
+   "license": "MIT",
+   "last_activity": "2026-07-22"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": 74
+  },
+  "agent_guidance": "Do not scrape the marketing site — it renders as a JS shell and returns nothing useful. Read `https://ui.tripled.work/r/registry.json` instead: it is a full shadcn registry index with names, titles, descriptions and dependency lists for all 282 items, and every item is individually installable at `/r/<name>.json`. Watch the `-shadcnui` versus `-baseui` suffix and pick the one matching the project's primitive layer — mixing them pulls in both Radix and Base UI. Everything depends on `framer-motion`, so this is a poor fit for an RSC-heavy page that must ship near-zero client JS.",
+  "why_it_matters": "One of the very few free registries that carries motion components, full sections and complete pages at this volume, and the only one that mirrors most of its catalog across both Radix and Base UI. The registry JSON makes it directly machine-readable for an agent picking blocks.",
+  "notable_for": [
+   "282 registry items",
+   "dual shadcn/ui and Base UI builds",
+   "23 full page templates",
+   "Landing Page and Background builders",
+   "clean registry.json index"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://ui.tripled.work (JS shell, no readable text), https://ui.tripled.work/components (JS shell), https://ui.tripled.work/r/registry.json (full 282-item parse), https://ui.tripled.work/r/hero-section-shadcnui.json (200), https://github.com/moumen-soliman/uitripled, GitHub API repos/moumen-soliman/uitripled",
+  "quality_tier": "S",
+  "tier_reason": "282 verified registry items with a clean machine-readable registry.json, 23 full page templates and parallel Radix/Base UI builds, all MIT and free — depth no other free motion registry in this batch matches."
+ },
+ {
+  "id": "77fb63da-1673-4c47-a7a8-37d9dfae15e1",
+  "slug": "shadcn-form-builder",
+  "url": "https://shadcn-form.com",
+  "name": "Shadcn Form Builder",
+  "tagline": "Drag fields into a form, export shadcn + Zod code for four form libraries",
+  "description": "Shadcn Form Builder is a browser tool that lets you assemble a form from 22 field types, set each field's label, placeholder and validation, then export ready-to-paste React code. It targets shadcn/ui with Zod schemas and can emit the wiring for React Hook Form, TanStack Form, Server Actions, or no form library at all. The field set goes well past shadcn's built-ins — signature pad, credit card, phone, location, smart datetime, tags input and OTP are all included. For anyone who has to build a real settings, checkout or onboarding form and does not want to hand-write the Zod schema plus 200 lines of field boilerplate.",
+  "category": "component-libraries",
+  "subcategory": "shadcn-registries",
+  "kinds": [
+   "generator",
+   "tool",
+   "component-library"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "tailwind-any",
+    "css-variables"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "web-app",
+    "copy-paste",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "built-on-accessible-primitives"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "bot-blocked",
+    "open-source-code",
+    "copy-paste-ready"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "form",
+   "form-actions",
+   "label",
+   "help-text",
+   "validation-message",
+   "text-input",
+   "textarea",
+   "password-input",
+   "phone-input",
+   "otp-input",
+   "select",
+   "multi-select",
+   "combobox",
+   "checkbox",
+   "radio-group",
+   "switch",
+   "slider",
+   "range-slider",
+   "tag-input",
+   "rating-input",
+   "date-picker",
+   "date-input",
+   "time-picker",
+   "calendar",
+   "file-upload",
+   "signature-pad",
+   "payment-form"
+  ],
+  "component_count": 22,
+  "surfaces": [
+   "submitting-a-form",
+   "showing-input-error",
+   "multi-step-form",
+   "saving-changes",
+   "sign-up",
+   "contact-us",
+   "feedback-survey",
+   "settings-web-app"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/hasanharman/form-builder",
+  "registry_url": null,
+  "github": {
+   "stars": 2695,
+   "license": "MIT",
+   "last_activity": "2026-06-28"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "The site sits behind a Vercel Security Checkpoint and will 403 any fetch, so do not try to read it programmatically — pull the field catalog from `constants/index.tsx` in `hasanharman/form-builder` instead, which is the authoritative list of the 22 field types and the four supported form libraries. Use it when a user needs a non-trivial form fast and you want the Zod schema generated alongside the JSX; its exotic fields (signature pad, credit card, location, smart datetime) are the real reason to pick it over hand-writing shadcn's Form. The output is a one-shot code drop, not a dependency, so treat the generated file as yours to edit and expect to fix imports for whichever form library you chose.",
+  "why_it_matters": "Forms are the highest-boilerplate, lowest-creativity surface in any app, and this is the most-used generator that emits idiomatic shadcn plus Zod rather than a proprietary runtime. Supporting TanStack Form and Server Actions alongside React Hook Form makes it stack-agnostic in a way its clones are not.",
+  "notable_for": [
+   "22 field types including signature pad and credit card",
+   "emits Zod schemas",
+   "React Hook Form / TanStack Form / Server Actions output",
+   "2.7k stars, MIT",
+   "homepage bot-blocked by Vercel checkpoint"
+  ],
+  "already_enriched": false,
+  "http_status": 403,
+  "verified_at": "2026-08-15",
+  "evidence": "https://shadcn-form.com (403 Vercel Security Checkpoint, retried with browser UA — still blocked), https://shadcn-form.com/playground (403), https://github.com/hasanharman/form-builder, https://raw.githubusercontent.com/hasanharman/form-builder/main/README.md, GitHub API repos/hasanharman/form-builder + contents/constants/index.tsx (field type list read from source)",
+  "quality_tier": "A",
+  "tier_reason": "2.7k stars and a verified 22-field catalog emitting idiomatic shadcn plus Zod for four form libraries; the 403 Vercel checkpoint blocks agent fetching but the MIT source recovers everything, so it is strong rather than leading."
+ },
+ {
+  "id": "af2e8b43-16cf-4968-b182-5a82c21b63b3",
+  "slug": "uselayouts",
+  "url": "https://uselayouts.com",
+  "name": "useLayouts",
+  "tagline": "26 Motion-driven micro-interaction components installable via the shadcn CLI",
+  "description": "useLayouts is a small, opinionated shadcn registry of 26 React components whose whole point is the interaction, not the markup — a 3D book that flips pages, a magnifying lens dragged over a bento card, a toolbar that resizes to its contents, an input that morphs between states. Everything is built on Motion (Framer Motion) plus Tailwind and layered over shadcn/ui, and installs one item at a time with the standard shadcn CLI. It is free and MIT-licensed, funded by sponsorship rather than a pro tier. Use it when a page needs one memorable moment rather than a full component system.",
+  "category": "motion-interaction",
+  "subcategory": "animated-components",
+  "kinds": [
+   "registry",
+   "animation-library",
+   "component-library"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "tailwind-any",
+    "css-variables"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source",
+    "sponsor-supported"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "cli",
+    "copy-paste",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "registry-json",
+    "cli-installable",
+    "copy-paste-ready",
+    "open-source-code",
+    "js-only-shell"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "card",
+   "bento-grid",
+   "grid",
+   "tabs",
+   "dropdown-menu",
+   "carousel",
+   "image-gallery",
+   "list",
+   "inline-edit",
+   "form",
+   "progress-stepper",
+   "toolbar",
+   "dock",
+   "button",
+   "text-input",
+   "calendar",
+   "date-picker",
+   "file-tree",
+   "empty-state",
+   "pricing-table",
+   "quote",
+   "transition",
+   "animation",
+   "drag-and-drop",
+   "hover-effect",
+   "spinner"
+  ],
+  "component_count": 26,
+  "surfaces": [
+   "multi-step-form",
+   "homepage",
+   "features",
+   "pricing-website",
+   "testimonials",
+   "empty-state",
+   "filtering-items",
+   "single-item-detail",
+   "uploading-media"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "npx shadcn@latest add https://uselayouts.com/r/3d-book.json",
+  "package": null,
+  "docs_url": "https://uselayouts.com/components",
+  "repo_url": "https://github.com/iurvish/uselayouts",
+  "registry_url": "https://uselayouts.com/r/registry.json",
+  "github": {
+   "stars": 443,
+   "license": "MIT",
+   "last_activity": "2026-08-10"
+  },
+  "pricing_detail": "Free and MIT; optional GitHub sponsorship",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Read `https://uselayouts.com/r/registry.json` for the exact 26-item catalog — the marketing pages and `/components` render as a JS shell and `/docs/*` paths 404. This is a garnish library, not a foundation: install one or two items where the user wants a moment of delight (multi-step-form, 3d-book, magnified-bento, dynamic-toolbar) and keep shadcn/ui or a larger registry as the base system. Every item pulls in `motion`, `clsx` and `tailwind-merge` and is client-side, so gate them behind a `prefers-reduced-motion` check because the registry does not do that for you.",
+  "why_it_matters": "Most animated-component registries pad their counts with the same twenty gradient buttons; useLayouts stays small and each item is a genuinely distinct interaction you would otherwise spend a day building. Being MIT with no pro tier makes it safe to drop into client work.",
+  "notable_for": [
+   "26 hand-built micro-interactions",
+   "3D book with page flip",
+   "magnifying-lens bento card",
+   "animated multi-step form",
+   "MIT, no paid tier"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://uselayouts.com, https://uselayouts.com/components (404), https://uselayouts.com/registry.json (404), https://uselayouts.com/r/registry.json (full 26-item parse), https://uselayouts.com/r/3d-book.json (200), GitHub API search + repos/iurvish/uselayouts",
+  "quality_tier": "B",
+  "tier_reason": "Its own agent_guidance calls it a garnish library, not a foundation — 26 items, 443 stars, and JS-only shell pages make it a deliberately narrow micro-interaction add-on."
+ },
+ {
+  "id": "d223d21e-9ca5-48ee-9056-4cb275ffaa85",
+  "slug": "smui-terminal-theme",
+  "url": "https://smui.statico.io",
+  "name": "SMUI",
+  "tagline": "Nord-palette terminal theme for shadcn/ui: JetBrains Mono, zero border radius",
+  "description": "SMUI (SpaceMolt UI) is a single-file shadcn theme that repaints an existing shadcn/ui project as a terminal: Nord-derived colors, JetBrains Mono at every weight, zero border radius, uppercase tracked labels. It installs as one registry JSON through the shadcn CLI and works by replacing CSS variables, so it themes the components you already have rather than shipping its own. It defines four Frost blues, five Aurora status colors and a four-level surface hierarchy for both light (Snow Storm) and dark (Polar Night) modes, plus pre-set sidebar variables and runtime accent switching via next-themes. The repo also carries AESTHETIC.md, a full written design-system reference for the look.",
+  "category": "blocks-templates-themes",
+  "subcategory": "themes-and-style-packs",
+  "kinds": [
+   "theme-pack",
+   "registry",
+   "design-system-docs"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "tailwind-v4",
+    "css-variables"
+   ],
+   "license": [
+    "cc0"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "cli",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "contrast-checked"
+   ],
+   "content_type": [
+    "code",
+    "design-tokens"
+   ],
+   "agent_readiness": [
+    "registry-json",
+    "cli-installable",
+    "structured-docs",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npx shadcn add https://smui.statico.io/r/spacemolt-theme.json",
+  "package": null,
+  "docs_url": "https://smui.statico.io",
+  "repo_url": "https://github.com/statico/smui",
+  "registry_url": "https://smui.statico.io/r/spacemolt-theme.json",
+  "github": {
+   "stars": 24,
+   "license": "Unlicense (public domain)",
+   "last_activity": "2026-08-12"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": 2,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "This ships tokens, not components — install it into a project that already has shadcn/ui and expect nothing new in `components/ui`. It is the right call for a developer tool, CLI dashboard, log viewer or hacker-aesthetic landing page, and it composes with any shadcn registry because it only rewrites CSS variables; it will fight any registry that hardcodes colors or rounded corners instead of reading the theme. Read AESTHETIC.md in the repo before extending it, since the four-level surface hierarchy and uppercase-label rules are the part that makes the look hold together.",
+  "why_it_matters": "Terminal aesthetics are usually faked with a monospace font and a dark background; this one is a properly derived Nord token set with a documented surface hierarchy and light-mode parity. The written AESTHETIC.md makes it teachable to an agent rather than just installable.",
+  "notable_for": [
+   "Nord Frost/Aurora palette mapped to shadcn tokens",
+   "JetBrains Mono at 5 weights",
+   "zero border radius throughout",
+   "runtime accent switching",
+   "AESTHETIC.md design reference",
+   "Unlicense / public domain"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://smui.statico.io, https://github.com/statico/smui, GitHub API repos/statico/smui",
+  "quality_tier": "B",
+  "tier_reason": "A single-file CSS-variable theme with zero components and 24 stars: a real, well-documented one-trick token pack (AESTHETIC.md) rather than a system anyone builds on."
+ },
+ {
+  "id": "66e9eddd-330a-43b7-997c-a876fe8b9f52",
+  "slug": "shadcn-space",
+  "url": "https://shadcnspace.com",
+  "name": "Shadcn Space",
+  "tagline": "401+ shadcn blocks, 393+ component variants and 10 site templates, freemium",
+  "description": "Shadcn Space is a commercial block-and-template marketplace for shadcn/ui, advertising 401+ blocks, 393+ component variants across 64 component families, 25+ pages and 10 full site templates. Blocks are organized into Marketing, Ecommerce, Dashboard UI and Applications, and every component supports both Radix UI and Base UI as the primitive layer. It pairs the code with a Figma UI kit of 100+ components and exposes an MCP server so an IDE agent can pull blocks directly. Three templates are free; the rest sit behind a paid tier.",
+  "category": "blocks-templates-themes",
+  "subcategory": "page-blocks",
+  "kinds": [
+   "block-collection",
+   "marketplace",
+   "template"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "tailwind-v4",
+    "tailwind-any",
+    "css-variables"
+   ],
+   "license": [
+    "commercial",
+    "proprietary"
+   ],
+   "pricing": [
+    "freemium",
+    "one-time",
+    "subscription",
+    "paid",
+    "account-required"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "cli",
+    "marketplace",
+    "figma-file",
+    "copy-paste",
+    "mcp-server"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "wcag-aa",
+    "claimed-accessible",
+    "built-on-accessible-primitives"
+   ],
+   "content_type": [
+    "code",
+    "figma"
+   ],
+   "agent_readiness": [
+    "mcp-server",
+    "cli-installable",
+    "registry-json",
+    "auth-required",
+    "agent-paywalled"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "accordion",
+   "alert",
+   "list",
+   "typography",
+   "text-effect",
+   "dock",
+   "autocomplete",
+   "avatar",
+   "badge",
+   "breadcrumbs",
+   "button",
+   "button-group",
+   "calendar",
+   "card",
+   "carousel",
+   "checkbox",
+   "code-block",
+   "collapsible",
+   "combobox",
+   "command-palette",
+   "context-menu",
+   "date-picker",
+   "dialog",
+   "drawer",
+   "dropdown-menu",
+   "fieldset",
+   "file-upload",
+   "form",
+   "text-input",
+   "input-group",
+   "masked-input",
+   "otp-input",
+   "kbd",
+   "marquee",
+   "navbar",
+   "count-up",
+   "pagination",
+   "popover",
+   "progress-bar",
+   "radio-group",
+   "rating",
+   "resizable",
+   "scroll-area",
+   "select",
+   "separator",
+   "sheet",
+   "sidebar",
+   "skeleton",
+   "slider",
+   "toast",
+   "spinner",
+   "progress-stepper",
+   "switch",
+   "table",
+   "tabs",
+   "textarea",
+   "toggle-button",
+   "toggle-group",
+   "tooltip",
+   "header",
+   "animation",
+   "hero",
+   "pricing-table",
+   "product-card",
+   "conversation",
+   "footer",
+   "bento-grid",
+   "dashboard"
+  ],
+  "component_count": 393,
+  "surfaces": [
+   "homepage",
+   "features",
+   "pricing-website",
+   "testimonials",
+   "about",
+   "contact-us",
+   "faq",
+   "blog",
+   "blog-post",
+   "team",
+   "careers",
+   "cart-website",
+   "adding-to-cart",
+   "checkout",
+   "order-status",
+   "analytics",
+   "search-results",
+   "filtering-items",
+   "settings-web-app",
+   "account-web-app",
+   "login-web-app",
+   "sign-up",
+   "chat-web-app",
+   "admin-panel",
+   "user-management",
+   "empty-state",
+   "404"
+  ],
+  "templates": [
+   {
+    "name": "Saazio",
+    "url": "https://shadcnspace.com/templates/saazio",
+    "purpose": "SaaS product website — Pro"
+   },
+   {
+    "name": "Atomist",
+    "url": "https://shadcnspace.com/templates/atomist",
+    "purpose": "SaaS landing page — Pro"
+   },
+   {
+    "name": "Awake",
+    "url": "https://shadcnspace.com/templates/awake",
+    "purpose": "Agency and portfolio site — Pro"
+   },
+   {
+    "name": "Digital Arc",
+    "url": "https://shadcnspace.com/templates/digital-arc",
+    "purpose": "Startup and creative agency site — Pro"
+   },
+   {
+    "name": "Crypgo",
+    "url": "https://shadcnspace.com/templates/crypgo",
+    "purpose": "Crypto landing page — Free"
+   },
+   {
+    "name": "Studiova",
+    "url": "https://shadcnspace.com/templates/studiova",
+    "purpose": "Creative web agency site — Pro"
+   },
+   {
+    "name": "Typefolio",
+    "url": "https://shadcnspace.com/templates/typefolio",
+    "purpose": "Typography-led personal portfolio — Free"
+   },
+   {
+    "name": "Resume",
+    "url": "https://shadcnspace.com/templates/resume",
+    "purpose": "Resume and personal portfolio — Free"
+   },
+   {
+    "name": "Homely",
+    "url": "https://shadcnspace.com/templates/homely",
+    "purpose": "Real estate and property listing site — Pro"
+   },
+   {
+    "name": "Gleamer",
+    "url": "https://shadcnspace.com/templates/gleamer",
+    "purpose": "Cleaning and local services site — Pro"
+   }
+  ],
+  "template_count": 10,
+  "install": null,
+  "package": null,
+  "docs_url": "https://shadcnspace.com/components",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Free $0 (limited blocks, 1 export); Starter monthly $49/mo (100 blocks); Starter lifetime $99 (was $199, 400 blocks); Pro lifetime $149 (was $299, 800 blocks); Team lifetime $349 (was $2,235, 1,500 blocks, up to 15 users)",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": 401
+  },
+  "agent_guidance": "Treat this as a paid catalog: browse and quote block names freely, but most block source is gated, so never promise a working `shadcn add` without checking the user has a license and a token configured. Its real differentiator over free registries is the parallel Radix and Base UI builds plus the matching Figma kit — reach for it when a team needs design-to-code parity, not when they just want one hero. If the user has the MCP server connected, prefer that over scraping the site, and start from the three free templates (Crypgo, Typefolio, Resume) when you need to prove the workflow before anyone pays.",
+  "why_it_matters": "It is one of the largest curated shadcn block catalogs with a real Figma counterpart and an MCP server, which puts it in the small set of paid UI kits an agent can actually operate. The lifetime pricing makes it a defensible one-time purchase for an agency rather than another subscription.",
+  "notable_for": [
+   "401+ blocks across 64 component families",
+   "dual Radix UI and Base UI builds",
+   "MCP server for IDE agents",
+   "100+ component Figma kit",
+   "3 free templates, 7 paid",
+   "lifetime licenses from $99"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://shadcnspace.com, https://shadcnspace.com/templates, https://shadcnspace.com/components, https://shadcnspace.com/blocks, https://shadcnspace.com/pricing",
+  "quality_tier": "A",
+  "tier_reason": "401+ blocks, an MCP server and a matching Figma kit give it genuine scale, but proprietary licensing with agent-paywalled source and no repo keeps it out of S."
+ }
+]

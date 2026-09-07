@@ -1,0 +1,969 @@
+{
+ "version": 1,
+ "generated_for": "361 curated links in data/links-compact.txt",
+ "rules": {
+  "levels": 2,
+  "primary_category_per_entry": 1,
+  "max_share_of_collection": 0.18,
+  "largest_category": "component-libraries (52 entries, 14.4%)"
+ },
+ "categories": [
+  {
+   "slug": "component-libraries",
+   "name": "Component Libraries",
+   "description": "Copy-paste and installable UI component sets — the shadcn registry ecosystem, React libraries, headless primitives, and the odd native or cross-framework kit.",
+   "agent_hint": "Look here first when you must write actual interface code and want a real component (button, table, combobox, editor, map, upload) instead of inventing markup.",
+   "icon_hint": "puzzle",
+   "estimated_count": 52,
+   "subcategories": [
+    {
+     "slug": "shadcn-registries",
+     "name": "shadcn Registries",
+     "description": "Registries and registry explorers you install from with the shadcn CLI, plus the registry directories that index them."
+    },
+    {
+     "slug": "react-component-libraries",
+     "name": "React Component Libraries",
+     "description": "General-purpose React and Tailwind component sets that ship a broad catalog of interface elements."
+    },
+    {
+     "slug": "headless-primitives",
+     "name": "Headless Primitives",
+     "description": "Unstyled, accessibility-first building blocks that you style yourself."
+    },
+    {
+     "slug": "integration-components",
+     "name": "Integration & Data Components",
+     "description": "Components tied to a service or a data problem — auth, uploads, search, maps, rich text, diffs, URL state."
+    },
+    {
+     "slug": "cross-framework-and-native",
+     "name": "Native & Cross-Framework",
+     "description": "Component sets outside the React-web default: React Native, Vue, Svelte, Solid, terminal, and desktop toolkits."
+    }
+   ]
+  },
+  {
+   "slug": "blocks-templates-themes",
+   "name": "Blocks, Templates & Themes",
+   "description": "Page-level building material — marketing sections, full site templates and starters, admin kits, and drop-in visual themes for an existing component system.",
+   "agent_hint": "Look here when the unit of work is a whole page or a whole look — a landing page, a dashboard shell, a project starter, or a theme swap — not a single component.",
+   "icon_hint": "layout-template",
+   "estimated_count": 27,
+   "subcategories": [
+    {
+     "slug": "page-blocks",
+     "name": "Page Blocks & Sections",
+     "description": "Pre-built hero, pricing, feature, and footer sections you assemble into marketing pages."
+    },
+    {
+     "slug": "templates-and-starters",
+     "name": "Templates & Starters",
+     "description": "Complete site templates and preconfigured project starters, free and paid."
+    },
+    {
+     "slug": "dashboard-kits",
+     "name": "Dashboards & App Kits",
+     "description": "Admin panels, dashboard layouts, and SaaS app shells wired to common back ends."
+    },
+    {
+     "slug": "themes-and-style-packs",
+     "name": "Themes & Style Packs",
+     "description": "Style-defined skins over a base system — retro, neobrutalist, glass, terminal — and the editors and generators that produce theme tokens."
+    }
+   ]
+  },
+  {
+   "slug": "motion-interaction",
+   "name": "Motion & Interaction",
+   "description": "Animation engines, animated component sets, transitions, and the small moving details that make an interface feel alive.",
+   "agent_hint": "Look here when the request is about movement — a transition, a hover feel, a loading state, an animated number or border — or when a static UI needs to stop feeling dead.",
+   "icon_hint": "waves",
+   "estimated_count": 18,
+   "subcategories": [
+    {
+     "slug": "animation-engines",
+     "name": "Animation Engines",
+     "description": "The underlying libraries that drive animation in React, JavaScript, and Vue."
+    },
+    {
+     "slug": "animated-components",
+     "name": "Animated Component Sets",
+     "description": "Component libraries whose selling point is that everything already moves."
+    },
+    {
+     "slug": "micro-interactions-and-loaders",
+     "name": "Micro-interactions & Loaders",
+     "description": "Single-purpose motion pieces: transitions, micro-transitions, loading buttons, number flows, beams, and gooey effects."
+    }
+   ]
+  },
+  {
+   "slug": "ai-interface-kits",
+   "name": "AI Interface Kits",
+   "description": "Components made specifically for agent and chat surfaces — message streams, tool calls, thinking states, voice orbs, and audio waveforms.",
+   "agent_hint": "Look here when you are building the UI of an AI product itself: chat threads, streaming text, tool-call cards, agent status indicators, or an AI app shell.",
+   "icon_hint": "sparkles",
+   "estimated_count": 11,
+   "subcategories": [
+    {
+     "slug": "chat-and-agent-components",
+     "name": "Chat & Agent Components",
+     "description": "Message lists, composers, tool-call blocks, and structured-output views for conversational products."
+    },
+    {
+     "slug": "agent-state-indicators",
+     "name": "Agent State Indicators",
+     "description": "Thinking orbs, streaming cues, and activity indicators that show what an agent is doing."
+    },
+    {
+     "slug": "ai-app-starters",
+     "name": "AI App Starters",
+     "description": "Full starter kits and architectures for building AI-native design and chat applications."
+    }
+   ]
+  },
+  {
+   "slug": "typography",
+   "name": "Typography",
+   "description": "Typefaces, free font services, and the display faces worth keeping in a shortlist.",
+   "agent_hint": "Look here when you must choose or install a font, need a licence-safe alternative to a paid face, or must pair a display face with a UI face.",
+   "icon_hint": "type",
+   "estimated_count": 6,
+   "subcategories": [
+    {
+     "slug": "typefaces",
+     "name": "Typefaces",
+     "description": "Individual font families with their own site, weights, and licence terms."
+    },
+    {
+     "slug": "font-services",
+     "name": "Font Services & Libraries",
+     "description": "Catalogs that host many families for free or commercial use."
+    },
+    {
+     "slug": "display-and-decorative",
+     "name": "Display & Decorative",
+     "description": "Character faces for headlines, packaging, and one-off brand work."
+    }
+   ]
+  },
+  {
+   "slug": "color",
+   "name": "Color",
+   "description": "Palette generators, hand-picked palettes, gradient libraries, and the shade scales a design system needs.",
+   "agent_hint": "Look here when you must pick, extend, or check colors — a brand palette, a 50-950 ramp, a gradient, or a contrast decision.",
+   "icon_hint": "palette",
+   "estimated_count": 7,
+   "subcategories": [
+    {
+     "slug": "palette-generators",
+     "name": "Palette Generators",
+     "description": "Tools that build a palette or a full token scale from a seed color or an image."
+    },
+    {
+     "slug": "curated-palettes",
+     "name": "Curated Palettes",
+     "description": "Hand-picked palette collections you browse and copy, some with live layout previews."
+    },
+    {
+     "slug": "gradients",
+     "name": "Gradients",
+     "description": "CSS gradient libraries and gradient editors."
+    }
+   ]
+  },
+  {
+   "slug": "icons-logos",
+   "name": "Icons & Logos",
+   "description": "Icon families, animated icon sets, and libraries of brand marks in SVG.",
+   "agent_hint": "Look here when you need an icon of a given weight or style, an animated icon component, or the official SVG logo of a company.",
+   "icon_hint": "shapes",
+   "estimated_count": 8,
+   "subcategories": [
+    {
+     "slug": "icon-sets",
+     "name": "Icon Sets",
+     "description": "Static icon families with several weights, sizes, and framework packages."
+    },
+    {
+     "slug": "animated-icons",
+     "name": "Animated Icons",
+     "description": "Icon sets shipped as motion components you copy into a React project."
+    },
+    {
+     "slug": "logo-svgs",
+     "name": "Logo & Brand SVGs",
+     "description": "Collections of company and product marks as ready SVG files."
+    }
+   ]
+  },
+  {
+   "slug": "textures-assets",
+   "name": "Textures, Backgrounds & Assets",
+   "description": "The pixel supply — gradients, patterns, shaders, noise, mockups, 3D scenes, and the marketplaces that sell them.",
+   "agent_hint": "Look here when a surface needs visual material rather than structure: a background, a pattern, a grain or noise texture, a shader effect, a mockup, or a stock asset pack.",
+   "icon_hint": "layers",
+   "estimated_count": 26,
+   "subcategories": [
+    {
+     "slug": "gradients-and-backgrounds",
+     "name": "Gradients & Backgrounds",
+     "description": "Ready background images, grainy gradients, and background libraries."
+    },
+    {
+     "slug": "patterns-and-generators",
+     "name": "Patterns & SVG Generators",
+     "description": "Repeatable SVG patterns and the generators that produce shapes, blobs, grids, and textures."
+    },
+    {
+     "slug": "shaders-and-effects",
+     "name": "Shaders & Generative Effects",
+     "description": "Real-time shader packs and canvas effects that drop into a web page as components or GLSL."
+    },
+    {
+     "slug": "image-effect-tools",
+     "name": "Image Effect Tools",
+     "description": "Browser tools that transform an image or video — dither, halftone, ASCII, pixel, wireframe."
+    },
+    {
+     "slug": "mockups-and-asset-packs",
+     "name": "Mockups & Asset Packs",
+     "description": "3D mockup studios, scene builders, slide templates, and the marketplaces selling illustration and asset bundles."
+    },
+    {
+     "slug": "creative-coding-environments",
+     "name": "Creative Coding Environments",
+     "description": "Node-based and code-first environments for building visuals — patch editors, shader playgrounds, real-time graphics tools.",
+     "aliases": [
+      "creative-coding",
+      "node-editor",
+      "patch-editor",
+      "shader-playground",
+      "visual-programming"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "inspiration-galleries",
+   "name": "Inspiration Galleries",
+   "description": "Curated visual references — full sites, page sections, app screens, single elements like footers and 404s, plus the directories that index other directories.",
+   "agent_hint": "Look here when you need prior art before you write anything: how real products lay out this page, this section, or this one element.",
+   "icon_hint": "gallery-thumbnails",
+   "estimated_count": 30,
+   "subcategories": [
+    {
+     "slug": "site-galleries",
+     "name": "Site Galleries",
+     "description": "Full-page website inspiration, awards sites, and style-specific site collections."
+    },
+    {
+     "slug": "section-galleries",
+     "name": "Section & Layout Galleries",
+     "description": "Page sections cut out on their own — heroes, pricing, bento grids, CTAs."
+    },
+    {
+     "slug": "app-screens",
+     "name": "App Screens & Flows",
+     "description": "Mobile and web product screens, user flows, and screen-level pattern libraries."
+    },
+    {
+     "slug": "single-element-galleries",
+     "name": "Single-Element Galleries",
+     "description": "One artifact per site: footers, 404 pages, OG images, headlines, App Store screenshots, social posts, decks."
+    },
+    {
+     "slug": "directories-and-meta-indexes",
+     "name": "Directories & Meta-Indexes",
+     "description": "Collections of collections — resource directories, curated tool lists, and personal vaults."
+    },
+    {
+     "slug": "historical-archives",
+     "name": "Historical Archives",
+     "description": "Institutional and independent archives of design work from the past — annual reports, type specimens, identity manuals, print advertising, museum collections.",
+     "aliases": [
+      "archive",
+      "archives",
+      "historical-archive",
+      "design-archive",
+      "museum-collection",
+      "vintage-archive"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "design-systems-brand",
+   "name": "Design Systems & Brand Guidelines",
+   "description": "Public design systems, system-building guides and checklists, brand manuals from real organisations, and reference works that name UI parts correctly.",
+   "agent_hint": "Look here when you must set up or judge a system rather than build one screen: token structure, component coverage, naming, accessibility checks, or how a real brand documents itself.",
+   "icon_hint": "book-open",
+   "estimated_count": 16,
+   "subcategories": [
+    {
+     "slug": "public-design-systems",
+     "name": "Public Design Systems",
+     "description": "Galleries and databases of shipped design systems from tech companies and institutions."
+    },
+    {
+     "slug": "system-guides-and-checklists",
+     "name": "Guides & Checklists",
+     "description": "Structured guidance for planning, auditing, and growing a design system."
+    },
+    {
+     "slug": "brand-guideline-archives",
+     "name": "Brand Guidelines & Archives",
+     "description": "Real brand manuals, identity decks, and IP rules — Zapier, the U.S. Army, FIFA, Apple, Polar."
+    },
+    {
+     "slug": "ui-reference",
+     "name": "UI Reference & Naming",
+     "description": "Visual dictionaries and component references that tell you the accepted name and API of an element."
+    }
+   ]
+  },
+  {
+   "slug": "agent-design-tooling",
+   "name": "Agent Design Tooling",
+   "description": "The layer built so coding agents produce good design — DESIGN.md specs, agent skills, MCP servers, AI design apps, prompt libraries, and visual feedback tools.",
+   "agent_hint": "Look here when the task is about your own working method: installing a design skill, writing or reading a DESIGN.md, connecting a design MCP server, or taking visual feedback from a human.",
+   "icon_hint": "bot",
+   "estimated_count": 25,
+   "subcategories": [
+    {
+     "slug": "design-md-and-specs",
+     "name": "DESIGN.md & Specs",
+     "description": "Machine-readable design specifications and the catalogs of analyses built on that format."
+    },
+    {
+     "slug": "agent-skills",
+     "name": "Agent Skills & Commands",
+     "description": "Installable skills, command sets, and rule packs for Claude Code, Codex, and similar agents."
+    },
+    {
+     "slug": "mcp-and-registries",
+     "name": "MCP Servers & Skill Registries",
+     "description": "Endpoints an agent can call for design context, and the marketplaces that list them."
+    },
+    {
+     "slug": "ai-design-apps",
+     "name": "AI Design Apps",
+     "description": "Design tools built around agents — prototype generators, canvas tools, local-first design workspaces."
+    },
+    {
+     "slug": "prompts-and-feedback",
+     "name": "Prompt Libraries & Feedback Tools",
+     "description": "Prompt packs for design output, and tools that let a human point at UI and hand an agent precise selectors."
+    },
+    {
+     "slug": "coding-agents-and-editors",
+     "name": "Coding Agents & Editors",
+     "description": "The agents and editors that write the code — AI editors, terminal agents, and prompt-to-app builders that a designer hands work to.",
+     "aliases": [
+      "coding-agent",
+      "ai-editor",
+      "ai-ide",
+      "prompt-to-app",
+      "app-builder"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "generative-media-tools",
+   "name": "Generative Media Tools",
+   "description": "Model-backed tools that make or repair visual media — image and video generation, upscaling, background removal, and HTML-to-video rendering.",
+   "agent_hint": "Look here when the deliverable is a media file rather than an interface: a generated image or video, an upscale, a cutout, or a rendered motion piece.",
+   "icon_hint": "wand-2",
+   "estimated_count": 11,
+   "subcategories": [
+    {
+     "slug": "image-generation",
+     "name": "Image Generation",
+     "description": "Text-to-image and reference-driven image suites."
+    },
+    {
+     "slug": "video-and-render",
+     "name": "Video & Render Pipelines",
+     "description": "AI video models, their developer platforms, and deterministic HTML-to-video renderers."
+    },
+    {
+     "slug": "cleanup-and-upscale",
+     "name": "Cleanup & Upscaling",
+     "description": "Background removal, denoise, sharpen, and enlargement tools."
+    }
+   ]
+  },
+  {
+   "slug": "essays-guides-courses",
+   "name": "Essays, Guides & Courses",
+   "description": "Long-form writing about design practice — X threads, blog essays, playbooks on branding and selling work, AI workflow walkthroughs, tool explainers, and courses.",
+   "agent_hint": "Look here when you need reasoning rather than an artifact: why a layout converts, how to name a company, how a workflow is run end to end, or what a tool is actually for.",
+   "icon_hint": "scroll-text",
+   "estimated_count": 49,
+   "subcategories": [
+    {
+     "slug": "craft-essays",
+     "name": "Craft Essays",
+     "description": "Opinion and craft writing on interfaces, spacing, typography, taste, and what design is."
+    },
+    {
+     "slug": "brand-and-business-playbooks",
+     "name": "Brand & Business Playbooks",
+     "description": "Step-by-step pieces on naming, branding, positioning, landing pages, and selling design work."
+    },
+    {
+     "slug": "ai-workflow-guides",
+     "name": "AI Workflow Guides",
+     "description": "How-to threads and posts on shipping with coding agents, prompt systems, and AI video or UGC pipelines."
+    },
+    {
+     "slug": "tool-reviews",
+     "name": "Tool Reviews & Explainers",
+     "description": "Third-party reviews, pricing breakdowns, and pattern explainers about a specific resource."
+    },
+    {
+     "slug": "courses-and-books",
+     "name": "Courses & Books",
+     "description": "Paid and free courses, masterclasses, video walkthroughs, and reading lists."
+    }
+   ]
+  },
+  {
+   "slug": "studios-portfolios",
+   "name": "Studios & Portfolios",
+   "description": "Design studios, branding agencies, and individual designer portfolios kept as taste and positioning references.",
+   "agent_hint": "Look here when you need a benchmark for craft level, site structure, or service positioning — how a studio presents work, or what a strong portfolio site looks like.",
+   "icon_hint": "briefcase",
+   "estimated_count": 17,
+   "subcategories": [
+    {
+     "slug": "branding-studios",
+     "name": "Branding Studios",
+     "description": "Agencies whose main output is identity, strategy, and brand systems."
+    },
+    {
+     "slug": "product-and-web-studios",
+     "name": "Product & Web Studios",
+     "description": "Studios shipping product design, sites, and builds for startups and tech teams."
+    },
+    {
+     "slug": "designer-portfolios",
+     "name": "Designer Portfolios",
+     "description": "Personal sites of individual product, motion, and visual designers."
+    }
+   ]
+  },
+  {
+   "slug": "artists-creators",
+   "name": "Artists & Creators",
+   "description": "The people layer — artist profiles, their X and Instagram accounts, art-platform pages, and the saved posts and reels kept as visual reference.",
+   "agent_hint": "Look here for authorship and visual voice, not for buildable material: who made a piece, where else they publish, and which saved post a reference came from.",
+   "icon_hint": "users",
+   "estimated_count": 33,
+   "subcategories": [
+    {
+     "slug": "artist-profiles",
+     "name": "Artist Profiles",
+     "description": "Primary sites and bio pages of digital and generative artists."
+    },
+    {
+     "slug": "social-profiles",
+     "name": "Social Profiles",
+     "description": "X and Instagram accounts followed for a person's ongoing output."
+    },
+    {
+     "slug": "saved-posts",
+     "name": "Saved Posts & Reels",
+     "description": "Single Instagram reels, carousels, and posts kept for a technique or a look."
+    },
+    {
+     "slug": "art-platform-pages",
+     "name": "Art Platform Pages",
+     "description": "Collection, interview, and marketplace pages on SuperRare, NINFA, Verse, and similar platforms."
+    }
+   ]
+  },
+  {
+   "slug": "house-brand-assets",
+   "name": "House Brand Assets",
+   "description": "The owner's own Clinora brand files — logo and icon SVGs, favicon and app icon, web fonts, noise texture, and the PWA manifest.",
+   "agent_hint": "Look here first whenever you must apply the owner's own brand: pull the exact logo variant, favicon, webfont, texture, or manifest instead of generating a substitute.",
+   "icon_hint": "badge-check",
+   "estimated_count": 12,
+   "subcategories": [
+    {
+     "slug": "marks-and-icons",
+     "name": "Marks & Icons",
+     "description": "Logo and icon SVGs in default and white variants, plus favicon and Apple touch icon."
+    },
+    {
+     "slug": "webfonts",
+     "name": "Webfonts",
+     "description": "The hashed WOFF2 files the site loads."
+    },
+    {
+     "slug": "textures-and-config",
+     "name": "Textures & Config",
+     "description": "Supporting brand files such as the noise texture and the web app manifest."
+    }
+   ]
+  },
+  {
+   "slug": "utilities-naming",
+   "name": "Utilities & Naming",
+   "description": "Small sharp tools around the edges of design work — domain and username checks, etymology, privacy-first web utilities, and the services and apps kept as craft references.",
+   "agent_hint": "Look here for support tasks rather than design output: checking a name or handle, converting a file, or finding an API and pricing reference used in a build.",
+   "icon_hint": "wrench",
+   "estimated_count": 13,
+   "subcategories": [
+    {
+     "slug": "naming-and-availability",
+     "name": "Naming & Availability",
+     "description": "Domain search, username search, and word-origin lookup for naming work."
+    },
+    {
+     "slug": "small-web-utilities",
+     "name": "Small Web Utilities",
+     "description": "Single-purpose browser tools for images, color, text, and file conversion."
+    },
+    {
+     "slug": "apis-and-services",
+     "name": "APIs & Services",
+     "description": "Developer platforms and paid services referenced during builds."
+    },
+    {
+     "slug": "apps-and-references",
+     "name": "Apps & References",
+     "description": "Shipped products kept for their own craft, pricing, or feature reference."
+    }
+   ]
+  }
+ ],
+ "kinds": [
+  {
+   "slug": "component-library",
+   "name": "Component Library",
+   "definition": "A maintained set of reusable interface components you install or copy into a codebase.",
+   "expects_fields": [
+    "components",
+    "install",
+    "framework",
+    "license"
+   ]
+  },
+  {
+   "slug": "registry",
+   "name": "Registry",
+   "definition": "A shadcn-compatible registry, or an explorer over registries, that the CLI can add components from.",
+   "expects_fields": [
+    "registry_url",
+    "install",
+    "components",
+    "framework"
+   ]
+  },
+  {
+   "slug": "primitive",
+   "name": "Primitive",
+   "definition": "Unstyled, behaviour-and-accessibility-only building blocks meant to be styled by the consumer.",
+   "expects_fields": [
+    "package",
+    "framework",
+    "headless",
+    "a11y_notes"
+   ]
+  },
+  {
+   "slug": "animation-library",
+   "name": "Animation Library",
+   "definition": "A runtime that drives animation, or a component set whose defining feature is motion.",
+   "expects_fields": [
+    "package",
+    "framework",
+    "api_surface",
+    "bundle_size"
+   ]
+  },
+  {
+   "slug": "block-collection",
+   "name": "Block Collection",
+   "definition": "Page-level sections — hero, pricing, features, footer — supplied as ready code.",
+   "expects_fields": [
+    "blocks",
+    "framework",
+    "install",
+    "price"
+   ]
+  },
+  {
+   "slug": "template",
+   "name": "Template",
+   "definition": "A complete site, app, or project starter you clone and adapt.",
+   "expects_fields": [
+    "stack",
+    "price",
+    "demo_url",
+    "license"
+   ]
+  },
+  {
+   "slug": "theme-pack",
+   "name": "Theme Pack",
+   "definition": "A visual style layered over an existing component system, shipped as tokens, CSS, or a fork.",
+   "expects_fields": [
+    "base_system",
+    "tokens",
+    "install",
+    "preview_url"
+   ]
+  },
+  {
+   "slug": "design-system-docs",
+   "name": "Design System Docs",
+   "definition": "The published documentation of a real design system, or a gallery of such systems.",
+   "expects_fields": [
+    "owner",
+    "components",
+    "tokens_url",
+    "code_url"
+   ]
+  },
+  {
+   "slug": "brand-guidelines",
+   "name": "Brand Guidelines",
+   "definition": "An organisation's identity manual, brand deck, or IP usage rules.",
+   "expects_fields": [
+    "owner",
+    "format",
+    "pages",
+    "use_rights"
+   ]
+  },
+  {
+   "slug": "checklist",
+   "name": "Checklist",
+   "definition": "An ordered list of checks to run against a product, system, or component.",
+   "expects_fields": [
+    "items",
+    "scope",
+    "license"
+   ]
+  },
+  {
+   "slug": "reference",
+   "name": "Reference",
+   "definition": "A lookup work — a visual dictionary, a naming reference, or a component encyclopedia.",
+   "expects_fields": [
+    "coverage",
+    "lookup_axis",
+    "source"
+   ]
+  },
+  {
+   "slug": "icon-set",
+   "name": "Icon Set",
+   "definition": "A family of icons distributed as SVG or framework components.",
+   "expects_fields": [
+    "icon_count",
+    "formats",
+    "license",
+    "framework"
+   ]
+  },
+  {
+   "slug": "typeface",
+   "name": "Typeface",
+   "definition": "A single font family with its own weights, styles, and licence.",
+   "expects_fields": [
+    "family_name",
+    "weights",
+    "license",
+    "foundry"
+   ]
+  },
+  {
+   "slug": "font-service",
+   "name": "Font Service",
+   "definition": "A catalog that distributes many families under one licence model.",
+   "expects_fields": [
+    "font_count",
+    "license",
+    "formats",
+    "price"
+   ]
+  },
+  {
+   "slug": "color-tool",
+   "name": "Color Tool",
+   "definition": "A generator, picker, or palette collection that outputs color values or scales.",
+   "expects_fields": [
+    "output_formats",
+    "features",
+    "price"
+   ]
+  },
+  {
+   "slug": "generator",
+   "name": "Generator",
+   "definition": "A browser tool that produces an asset from parameters — patterns, shapes, backgrounds, wireframes, effects.",
+   "expects_fields": [
+    "outputs",
+    "export_formats",
+    "price"
+   ]
+  },
+  {
+   "slug": "shader-pack",
+   "name": "Shader Pack",
+   "definition": "Real-time GPU effects supplied as components or GLSL source.",
+   "expects_fields": [
+    "shaders",
+    "runtime",
+    "install",
+    "license"
+   ]
+  },
+  {
+   "slug": "asset-pack",
+   "name": "Asset Pack",
+   "definition": "A bundle of finished visual files — backgrounds, illustrations, slide templates, textures.",
+   "expects_fields": [
+    "asset_count",
+    "formats",
+    "license",
+    "price"
+   ]
+  },
+  {
+   "slug": "mockup-tool",
+   "name": "Mockup Tool",
+   "definition": "An editor that composes 3D scenes, device mockups, or key visuals in the browser.",
+   "expects_fields": [
+    "asset_types",
+    "export_formats",
+    "price"
+   ]
+  },
+  {
+   "slug": "marketplace",
+   "name": "Marketplace",
+   "definition": "A paid catalog selling design goods from many makers.",
+   "expects_fields": [
+    "catalog_size",
+    "categories",
+    "price_model",
+    "license"
+   ]
+  },
+  {
+   "slug": "gallery",
+   "name": "Gallery",
+   "definition": "A curated visual index of shipped work — sites, screens, sections, or single elements.",
+   "expects_fields": [
+    "item_count",
+    "item_type",
+    "filters",
+    "price"
+   ]
+  },
+  {
+   "slug": "directory",
+   "name": "Directory",
+   "definition": "An index of other resources, tools, or links rather than of designs.",
+   "expects_fields": [
+    "entry_count",
+    "taxonomy",
+    "submission_url"
+   ]
+  },
+  {
+   "slug": "article",
+   "name": "Article",
+   "definition": "A published piece of prose on a blog, magazine, or content site.",
+   "expects_fields": [
+    "author",
+    "published",
+    "source_site",
+    "topic"
+   ]
+  },
+  {
+   "slug": "thread",
+   "name": "Thread",
+   "definition": "Long-form writing published inside a social platform, usually on X.",
+   "expects_fields": [
+    "author",
+    "platform",
+    "posted",
+    "topic"
+   ]
+  },
+  {
+   "slug": "course",
+   "name": "Course",
+   "definition": "Structured paid or free teaching, delivered as lessons or a masterclass.",
+   "expects_fields": [
+    "instructor",
+    "platform",
+    "length",
+    "price"
+   ]
+  },
+  {
+   "slug": "video",
+   "name": "Video",
+   "definition": "A single recorded walkthrough or tutorial.",
+   "expects_fields": [
+    "creator",
+    "platform",
+    "duration",
+    "topic"
+   ]
+  },
+  {
+   "slug": "profile",
+   "name": "Profile",
+   "definition": "A person's account page on a social or art platform.",
+   "expects_fields": [
+    "person",
+    "platform",
+    "handle",
+    "discipline"
+   ]
+  },
+  {
+   "slug": "social-post",
+   "name": "Social Post",
+   "definition": "A single saved post, reel, or carousel kept for its content.",
+   "expects_fields": [
+    "platform",
+    "post_type",
+    "creator",
+    "saved_for"
+   ]
+  },
+  {
+   "slug": "portfolio",
+   "name": "Portfolio",
+   "definition": "An individual's own site showing their work.",
+   "expects_fields": [
+    "person",
+    "discipline",
+    "location",
+    "work_types"
+   ]
+  },
+  {
+   "slug": "studio",
+   "name": "Studio",
+   "definition": "A design or branding company site presenting services and clients.",
+   "expects_fields": [
+    "name",
+    "location",
+    "services",
+    "clients"
+   ]
+  },
+  {
+   "slug": "tool",
+   "name": "Tool",
+   "definition": "A general web utility that does a job in the browser without a model behind it.",
+   "expects_fields": [
+    "url",
+    "price",
+    "platform",
+    "runs_offline"
+   ]
+  },
+  {
+   "slug": "ai-tool",
+   "name": "AI Tool",
+   "definition": "A model-backed product that generates or repairs media, designs, or systems.",
+   "expects_fields": [
+    "engine",
+    "inputs",
+    "outputs",
+    "price"
+   ]
+  },
+  {
+   "slug": "agent-skill",
+   "name": "Agent Skill",
+   "definition": "An installable skill, command set, or rule pack for a coding agent.",
+   "expects_fields": [
+    "install",
+    "commands",
+    "agents_supported",
+    "license"
+   ]
+  },
+  {
+   "slug": "mcp-server",
+   "name": "MCP Server",
+   "definition": "An endpoint a coding agent connects to for design context or asset delivery.",
+   "expects_fields": [
+    "endpoint",
+    "transport",
+    "auth",
+    "tools"
+   ]
+  },
+  {
+   "slug": "design-md",
+   "name": "DESIGN.md",
+   "definition": "A machine-readable design specification for one site or brand, or a catalog of such files.",
+   "expects_fields": [
+    "subject_site",
+    "spec_version",
+    "install",
+    "updated"
+   ]
+  },
+  {
+   "slug": "prompt-pack",
+   "name": "Prompt Pack",
+   "definition": "A curated set of prompts aimed at a specific generation tool.",
+   "expects_fields": [
+    "prompt_count",
+    "target_tool",
+    "price"
+   ]
+  },
+  {
+   "slug": "brand-asset",
+   "name": "Brand Asset",
+   "definition": "A single first-party brand file served from the owner's own domain.",
+   "expects_fields": [
+    "file_type",
+    "variant",
+    "dimensions",
+    "usage"
+   ]
+  },
+  {
+   "slug": "service",
+   "name": "Service",
+   "definition": "A hosted developer platform or API used inside a build.",
+   "expects_fields": [
+    "api_docs",
+    "auth",
+    "pricing",
+    "sdks"
+   ]
+  },
+  {
+   "slug": "app",
+   "name": "App",
+   "definition": "A shipped end-user product kept as a reference or in use.",
+   "expects_fields": [
+    "platform",
+    "price",
+    "offline",
+    "open_source"
+   ]
+  }
+ ],
+ "assignment_notes": "Every entry gets exactly one primary category; anything else it touches becomes a secondary tag, never a second primary. Apply these tests in order. (1) Owner-first: any file served from clinora.ai is house-brand-assets, whatever it depicts. (2) Shape-first for editorial: if the entry is an article, X thread, review, course, or tutorial video, it goes to essays-guides-courses and carries the sibling category as a topic tag — this is what keeps the five Fontshare reviews and the six Seedance guides out of typography and generative-media-tools. Exception: an interview or write-up about one artist stays with that artist in artists-creators, and a machine-readable analysis file such as a DESIGN.md entry is a resource, not an essay. (3) Specific design axis beats generic code: a package whose selling point is motion, agent-chat UI, or icons goes to motion-interaction, ai-interface-kits, or icons-logos before component-libraries. Precedence order among code categories is icons-logos > ai-interface-kits > motion-interaction > blocks-templates-themes > component-libraries. (4) Style versus catalog: if the pitch is a look (retro, neobrutalist, glass, terminal, Tron) the entry is a theme pack in blocks-templates-themes; if the pitch is coverage and quality of components, it is component-libraries. (5) Page unit versus component unit: heroes, pricing sections, dashboards, and starters are blocks-templates-themes; single elements are component-libraries. (6) Pixels versus code: a tool that outputs an image, pattern, gradient, or shader is textures-assets; a tool that outputs tokens, CSS, or components is blocks-templates-themes. (7) Model output target: an AI tool aimed at coding agents, design specs, or agent workflow is agent-design-tooling; an AI tool that produces media files is generative-media-tools. (8) Shows designs versus indexes resources: a gallery of shipped work is inspiration-galleries/site-galleries or /app-screens; an index of tools, skills, or links is inspiration-galleries/directories-and-meta-indexes — unless it indexes installable registries, which stays in component-libraries/shadcn-registries. (9) People: a company selling design services is studios-portfolios; an individual selling design services is studios-portfolios/designer-portfolios; an artist, and every social or platform page belonging to them, is artists-creators. A social account that belongs to a product rather than a person takes the product's category. (10) Mirrors: a GitHub repo and its marketing site are two entries in the same category; mark one canonical and the other a mirror, and never split them across categories. (11) Real brand manuals and IP rules are design-systems-brand even when hosted on a gallery domain such as deck.gallery, because the artifact is the manual, not the gallery. (12) Last resort: choose the category a human would open first for this entry, then record the runner-up as a secondary tag so retrieval still finds it. Category slugs are the controlled vocabulary — no free-text categories, no singular/plural variants, and any new term needs a new slug plus an alias entry, so the No-code / No Code drift that broke depo.zip cannot happen here."
+}

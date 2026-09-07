@@ -1,0 +1,627 @@
+[
+ {
+  "id": "user:798565814c9a977a",
+  "templates": [],
+  "template_count": null,
+  "install": "npx skills add appllama/appllama-skills",
+  "package": null,
+  "docs_url": "https://appllama.io/llms.txt",
+  "repo_url": null,
+  "registry_url": "https://mcp.appllama.io/mcp",
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 42400,
+   "blocks": null
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-30",
+  "source": "user",
+  "slug": "appllama",
+  "url": "https://appllama.io",
+  "name": "Appllama",
+  "tagline": "42,400 screens from 985 top-earning iOS apps, each carrying revenue, downloads and ratings, with an MCP server behind Pro",
+  "description": "Appllama captures the App Store screen by screen. It holds more than 42,400 screens from 985 top-earning iOS apps, and new apps arrive weekly.\n\nThe context is what makes it different from a screenshot gallery. Every app carries an estimated monthly revenue, a download figure and a rating, so a pattern can be judged by what it earns rather than by how it looks. The grid shows Crazy Sounds & Voice Changer at 38 screens and 30 thousand dollars a month, Dispo at 24 screens and the same revenue band. Sorting runs on top revenue, most downloaded, recently launched, highest rated and A to Z.\n\nFour ways in: Apps, Screens tagged by flow, Flows that put onboarding and paywalls side by side, and UI Elements traced back to the app they came from. The catalogue splits into Health & Fitness at 339 apps, Lifestyle 274, Education 161, Productivity 145, Photo & Video 127, Utilities 114, Reference 94, Entertainment 92, Graphics & Design 70 and Sports 50.\n\nAn MCP server sits at mcp.appllama.io/mcp, one endpoint for every client, with setup pages for Claude, ChatGPT, Codex, Claude Code, Cursor and VS Code. There is also a skills package installed with `npx skills add appllama/appllama-skills`. Both sit inside Pro, metered at 1,500 credits a month that reset on the first.",
+  "category": "inspiration-galleries",
+  "subcategory": "app-screens",
+  "kinds": [
+   "gallery",
+   "directory",
+   "mcp-server",
+   "agent-skill"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium",
+    "subscription",
+    "account-required"
+   ],
+   "distribution": [
+    "gallery",
+    "mcp-server",
+    "web-app",
+    "cli"
+   ],
+   "platform": [
+    "web",
+    "ios"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "screenshots",
+    "dataset"
+   ],
+   "agent_readiness": [
+    "mcp-server",
+    "agent-skill",
+    "llms-txt",
+    "structured-docs",
+    "agent-paywalled"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "pricing_detail": "Free to browse. Pro covers everything else, and it is the only way to reach the MCP server and the skills. Pro is metered at 1,500 credits a month, reset on the first. No figure appears on the landing page.",
+  "agent_guidance": "Budget for Pro before you plan around the MCP server. The endpoint is https://mcp.appllama.io/mcp, and the site states plainly that it is part of Pro at 1,500 credits a month. Free browsing does not include it.\n\nInstall the skills package alongside the server: `npx skills add appllama/appllama-skills`. The site calls it the research playbooks and the design bar, so it carries the method and not only the data.\n\nFilter on revenue, not on looks. Every app carries an estimated monthly revenue, a download count and a rating, which is the whole point: a paywall that earns is a better reference than a paywall that is pretty.\n\nUse the Flows view for a sequence and the UI Elements view for one component. Flows put onboarding and paywalls side by side, and elements are traced back to the app they came from.\n\nRead /llms.txt first. It names all four browse routes, the MCP page and a public-works page of open-source projects.",
+  "why_it_matters": "Screenshot galleries show what an app looks like. This one attaches the revenue, so a designer can argue that a pattern works from evidence rather than from taste.",
+  "quality_tier": "A",
+  "tier_reason": "Real depth at 42,400 screens across 985 apps, and the revenue, download and rating figures beside each one make it a dataset rather than a mood board. The agent surface is strong: an MCP server on one endpoint, per-client setup for six clients, a skills package and a written llms.txt. Held below S because every part of that surface sits behind Pro and a credit meter, no price appears on the landing page, and the revenue figures are estimates the site does not source.",
+  "notable_for": [
+   "42,400 screens from 985 iOS apps",
+   "revenue, downloads and ratings on each app",
+   "MCP server on one endpoint for six clients",
+   "skills package via npx skills add",
+   "flows put onboarding and paywalls side by side"
+  ],
+  "evidence": "https://appllama.io/ 200, 501 KB; title \"Appllama — UI & UX design inspiration from top-earning iOS apps\"; the hero reads \"Discover the designs that win. Every onboarding, paywall and flow — 42,400+ screens from 980+ top-earning iOS apps. New apps weekly\"; the navigation holds Apps, Explore, Pricing, Screens, Flows, UI Elements and MCP; the category counts read All 985, Health & Fitness 339, Lifestyle 274, Education 161, Productivity 145, Photo & Video 127, Utilities 114, Reference 94, Entertainment 92, Graphics & Design 70 and Sports 50; sort options are Recently added, Top revenue, Most downloaded, Recently launched, Highest rated and A → Z; sample cards read \"Crazy Sounds & Voice Changer — Entertainment — 38 screens — $30K/mo est. revenue — 4.6 · 1K\" and \"Dispo: Retro Disposable Camera — Photo & Video — 24 screens — $30K/mo est. revenue — 4.3 · 7K\". https://appllama.io/mcp 200, 381 KB, titled \"Try the MCP\": \"Your agent searches real apps, opens real screens, and builds from what it finds\", \"Appllama MCP is part of Pro — 1,500 credits a month, reset on the 1st\", client tabs for Claude, ChatGPT, Codex, Claude Code, Cursor and VS Code, the server URL https://mcp.appllama.io/mcp described as \"One endpoint — it works in every client\", and the command `npx skills add appllama/appllama-skills` described as \"The research playbooks and the design bar, in one command\". https://appllama.io/llms.txt 200 and it names /screens, /flows, /elements, /mcp, /pricing and /public-works. /sitemap.xml 200. The corpus already holds loader-buttons.appllama.io as appllama-loader-buttons, which is one single-page motion study and not this catalogue."
+ },
+ {
+  "id": "user:d8176010ae5ec110",
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://www.cosmos.so/llms.txt",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-30",
+  "source": "user",
+  "slug": "cosmos-platform",
+  "url": "https://www.cosmos.so",
+  "name": "Cosmos",
+  "tagline": "An ad-free inspiration platform that searches by colour and visual similarity, researches each image back to its artist, and flags likely AI content",
+  "description": "Cosmos is a visual inspiration platform built for designers, photographers, architects and artists. You save images, links, videos, articles and text into collections, and the platform is deliberately quiet: no ads, no likes and no engagement metrics.\n\nThree things separate it from a pinboard. Search runs by colour, given as a hex value, and by visual similarity, so you can look the way you actually think about an image. Cosmos researches the images it holds and surfaces the artist, the source and the story rather than leaving a picture unattributed. And it detects content likely generated by AI, with a control to show, blur or hide it, which no other gallery in this corpus offers.\n\nThe company was founded by Andy McCune, sits in New York City, and has raised more than 21 million dollars from Google Ventures, Accel, Shine Capital and Matrix, along with Anthony Casalena of Squarespace. Its stated idea is curation as creation: collecting and organising as a creative practice in itself.\n\nNote that this corpus already holds one artist's page on this platform, cosmos-aarzooaly-work. This record is the platform.",
+  "category": "inspiration-galleries",
+  "subcategory": "directories-and-meta-indexes",
+  "kinds": [
+   "gallery",
+   "app",
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium",
+    "account-required"
+   ],
+   "distribution": [
+    "gallery",
+    "web-app",
+    "mobile-app"
+   ],
+   "platform": [
+    "web",
+    "ios"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "images",
+    "prose",
+    "video"
+   ],
+   "agent_readiness": [
+    "llms-txt",
+    "structured-docs",
+    "auth-required"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "pricing_detail": "Free to sign up, with a paid tier the site does not price on the landing page. An account is needed to save. There are no ads by design. A mobile app is offered alongside the web.",
+  "agent_guidance": "Search by colour or by similarity, not by keyword. The platform takes a hex value and it matches on visual likeness, which is the reason to use it over a keyword gallery.\n\nUse the attribution. Cosmos researches an image and surfaces the artist, the source and the story, so a reference pulled from here can be credited, which matters for client work.\n\nSet the AI filter before you gather references. The platform detects likely AI-generated content and lets you show, blur or hide it. For a brief that needs human work, hide it first.\n\nExpect a login. Saving needs an account and the deep content is behind it, so an agent cannot walk the collections.",
+  "why_it_matters": "Every other inspiration platform hands you an unattributed image and leaves you to guess whether a model made it. Cosmos answers both questions on the page.",
+  "quality_tier": "A",
+  "tier_reason": "Three capabilities nothing else here has together: colour and similarity search, image research that names the artist and source, and a working filter for likely AI content. The product is funded, staffed and used by professional teams, and the llms.txt is candid about who runs it. Held below S because an account gates the content, no price appears, there is no API or MCP server, and an agent cannot reach the collections.",
+  "notable_for": [
+   "search by colour and by visual similarity",
+   "researches an image to its artist and source",
+   "shows, blurs or hides likely AI content",
+   "no ads, no likes, no engagement metrics",
+   "raised more than 21 million dollars"
+  ],
+  "evidence": "https://www.cosmos.so/ 200, 332 KB; the page reads \"Your space for inspiration\", \"Your collections, your references, your taste. Connected, searchable, yours\", \"Search the way you think\" beside the colour value #bc361b with the controls \"By color\" and \"by visual similarity\", \"AI content — Content detected as likely generated by AI\" with Show, Blur and Hide, and \"Cosmos researches images—surfacing the artist, source, and story\"; sample attributions name Karl Blossfeldt's Unformen der Kunst and OOAA Arquitectura designed by Iker Ochotorena; the navigation holds Explore, Sequence, Shop, Careers, Log in and Sign up, plus a mobile app. https://www.cosmos.so/llms.txt 200 and it states \"a visual inspiration platform for creatives — a Pinterest alternative built for designers, photographers, architects, artists, and creative teams ... in a distraction-free, ad-free environment. Cosmos uses AI to research images and surface the original artist, source, and story\", plus \"Cosmos was founded by Andy McCune and is headquartered in New York City. The company has 21M+ in total funding from investors like Google Ventures, Accel, Shine Capital, Matrix and notable investors like Anthony Casalena, founder and CEO of Squarespace\" and \"built around the concept of 'curation as creation' ... no ads, no likes, and no engagement metrics\". /sitemap.xml 200."
+ },
+ {
+  "id": "user:be0277e4713415c9",
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 566,
+   "blocks": null
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-30",
+  "source": "user",
+  "slug": "design-spells",
+  "url": "https://designspells.com",
+  "name": "Design Spells",
+  "tagline": "566 catalogued interface details that feel like magic, tagged down to Dynamic Island, confetti and easter eggs",
+  "description": "Design Spells collects the small moment rather than the screen. Its own line is \"design details that feel like magic\", and the sitemap holds 566 item pages, so the collection is deep for something this narrow.\n\nThe tag set is the useful part, because it names things other galleries never separate: Interaction, Easter Egg, Skeuomorphic, Animation, Motion, Transition, Confetti, Dynamic Island, Button, 404, Occasion, Unique, Fun, Apple, Beautiful and 3D, split further by Mobile, Desktop and Tablet. A brief about a 404 page or a confetti moment lands on a filter rather than on a search.\n\nChester and Duncan run it. There is a newsletter, an RSS feed, open submissions and a sponsor slot.",
+  "category": "inspiration-galleries",
+  "subcategory": "single-element-galleries",
+  "kinds": [
+   "gallery",
+   "directory",
+   "reference"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free",
+    "sponsor-supported"
+   ],
+   "distribution": [
+    "gallery"
+   ],
+   "platform": [
+    "web",
+    "ios"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "screenshots",
+    "video",
+    "prose"
+   ],
+   "agent_readiness": [
+    "machine-index",
+    "js-only-shell"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "pricing_detail": "Free, with no account. A newsletter, open submissions and a sponsor slot fund it.",
+  "agent_guidance": "Filter by tag, not by search. The tags name a specific device or effect — Dynamic Island, Confetti, Easter Egg, 404, Skeuomorphic — so a brief about one of those reaches the right set in one step.\n\nWalk /sitemap.xml for the catalogue. It lists 566 item pages, and the site publishes no llms.txt, so the sitemap is the only machine index.\n\nUse it for the finishing pass, not for structure. Every entry is one detail on an otherwise finished product, which makes it the wrong place to look for a layout and the right place to look for what to add last.",
+  "why_it_matters": "Interface delight usually gets described and never catalogued. This one names 566 specific instances and tags them by the exact effect, which turns a vague brief into a filter.",
+  "quality_tier": "B",
+  "tier_reason": "Deep and precise for a narrow subject, with a tag set that maps to how a brief is actually worded and a sitemap of 566 items. Held at B because the gallery is a client-rendered shell with no llms.txt and no feed of records, the entries are pictures and video with no code beside them, and no editorial standard is published.",
+  "notable_for": [
+   "566 catalogued interface details",
+   "tags for Dynamic Island, confetti and easter eggs",
+   "split by mobile, desktop and tablet",
+   "RSS feed and open submissions",
+   "run by Chester and Duncan"
+  ],
+  "evidence": "https://designspells.com/ 200, 44 KB; title \"Design Spells · Design details that feel like magic\"; the tag row reads Mobile, Desktop, Interaction, Easter Egg, Skeuomorphic, Fun, Apple, Animation, 404, Motion, Occasion, Unique, Dynamic Island, Beautiful, Button, Tablet, Confetti, Transition and 3D; the footer reads \"Crafted with love by Chester & Duncan\" and links Spells, Newsletter, Sponsor, Submit and RSS, with \"© 2026 Design Spells\". /sitemap.xml 200 with 567 URLs, of which 566 are item pages. /llms.txt 404."
+ },
+ {
+  "id": "user:910be561483eaf02",
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": 243,
+   "fonts": null,
+   "palettes": null,
+   "entries": 243,
+   "blocks": null
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-30",
+  "source": "user",
+  "slug": "icon-museum",
+  "url": "https://icon.museum",
+  "name": "Icon Museum",
+  "tagline": "243 iOS and macOS app icons collected as craft objects, one page each",
+  "description": "Icon Museum collects app icons and treats each one as a finished piece of design. The sitemap holds 243 app pages under /apps/<name>, alongside /wall, /about and /press.\n\nThe subject is narrow on purpose. An app icon has to work at 60 pixels and at 512, carry a brand, and survive beside a hundred others on a home screen. Very little else collects that specific problem, and the entries name the app so the work is traceable, with pages such as not-boring-camera, acute-calculator and aesty-ai-stylist-planner.\n\nThe site is a client-rendered shell of about 3.6 KB. A request for /llms.txt returns the application HTML rather than a text file, so the catch-all route answers every path and there is no machine index beyond the sitemap.",
+  "category": "inspiration-galleries",
+  "subcategory": "single-element-galleries",
+  "kinds": [
+   "gallery",
+   "reference"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "gallery"
+   ],
+   "platform": [
+    "web",
+    "ios",
+    "macos"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "icons",
+    "screenshots"
+   ],
+   "agent_readiness": [
+    "machine-index",
+    "js-only-shell"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "pricing_detail": "Free to browse, with no account and no paid tier on the site.",
+  "agent_guidance": "Walk /sitemap.xml, not the home page. The site serves a 3.6 KB shell, and the sitemap is the only route to the 243 app pages at /apps/<name>.\n\nDo not fetch /llms.txt. It answers 200 but returns the application HTML, because the catch-all route serves every path. That is a false positive, not an agent index.\n\nReach for it when the brief is an app icon specifically. This is a reference for one artefact that has to read at 60 pixels and at 512, and it does not help with anything inside the app.",
+  "why_it_matters": "The app icon is the one piece of a product that every user sees before anything else, and almost nothing collects it on its own terms.",
+  "quality_tier": "C",
+  "tier_reason": "A clear subject, held to, with 243 named app pages and a working sitemap. Held at C because there is very little beside the images: the whole site is a 3.6 KB client-rendered shell, /llms.txt returns the app HTML rather than a text file, no designer attribution or editorial standard is published, and 243 entries is small.",
+  "notable_for": [
+   "243 app icon pages",
+   "iOS and macOS icons only",
+   "one page for each app",
+   "a 3.6 KB client-rendered shell",
+   "/llms.txt returns the app HTML, not a text file"
+  ],
+  "evidence": "https://icon.museum/ 200 but only 3,614 bytes, and the served HTML carries just the title \"Icon Museum - Curated App Icon Gallery & Inspiration\" and the description \"A curated collection of the finest app icons. Browse, discover, and explore beautifully crafted iOS and macOS app icons by top designers.\" /sitemap.xml 200 with 247 URLs, of which 243 are /apps/<name> pages, plus the root, /about, /press and /wall; sample app pages are /apps/not-boring-camera, /apps/untitled, /apps/acute-calculator and /apps/aesty-ai-stylist-planner. /llms.txt answers 200 but returns the application HTML shell, starting `<!doctype html>` with the same title tag, so the catch-all route serves it."
+ },
+ {
+  "id": "user:10c6e1dfaed78574",
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 69,
+   "blocks": null
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-30",
+  "source": "user",
+  "slug": "study-old-ads",
+  "url": "https://studyoldads.com",
+  "name": "Study Old Ads",
+  "tagline": "69 vintage print advertisements filed by category and decade, with three new ones by email every Sunday",
+  "description": "Study Old Ads is an archive of vintage print advertising. The sitemap holds 69 advertisement pages under /ad, cut by 16 categories and 11 decades, so the collection can be entered from either axis.\n\nThe format is a weekly letter. The person who runs it sends three prints every Sunday with the story behind each one, and states plainly that there is nothing else in the email. That editorial habit is what keeps the archive growing at a steady rate rather than in bursts.\n\nPrint advertising is where a great deal of twentieth-century type, layout and copywriting was actually practised, and the decade filter makes it usable as a period reference rather than as a scroll.",
+  "category": "inspiration-galleries",
+  "subcategory": "historical-archives",
+  "kinds": [
+   "gallery",
+   "reference",
+   "directory"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "gallery"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "images",
+    "prose"
+   ],
+   "agent_readiness": [
+    "machine-index"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "pricing_detail": "Free, with no account. A free weekly email carries three prints each Sunday.",
+  "agent_guidance": "Enter by decade when the brief names a period. The sitemap holds 11 decade routes and 16 category routes, so a request for 1950s advertising resolves to one page.\n\nWalk /sitemap.xml for the catalogue. It lists 69 /ad pages, and the site publishes no llms.txt.\n\nUse it for type, layout and copy together. A print advertisement carries all three at once, which is what separates it from a poster archive.",
+  "why_it_matters": "Print advertising is where twentieth-century typography and copywriting met commercial pressure, and a decade filter turns that into a period reference a designer can actually use.",
+  "quality_tier": "C",
+  "tier_reason": "A clear subject with real structure: 69 catalogued prints, 16 categories, 11 decades and a steady weekly rhythm. Held at C because 69 items is small, there is no llms.txt and no feed of records, no source or rights information is published for the scans, and the whole archive rests on one person's weekly letter.",
+  "notable_for": [
+   "69 catalogued print advertisements",
+   "16 categories and 11 decades",
+   "three prints by email every Sunday",
+   "the story behind each print",
+   "no llms.txt, sitemap only"
+  ],
+  "evidence": "https://studyoldads.com/ 200, 153 KB; title \"study old ads — a vintage print advertising archive\"; the page reads \"Three prints, every Sunday. From the archive, to your inbox. I run this archive. Every Sunday I send three of my favorite new prints — with the stories behind them. Nothing else, no spam. Unsubscribe whenever.\" /sitemap.xml 200 with 98 URLs, split as 69 under /ad, 16 under /category, 11 under /decade, plus /about and the root. /llms.txt 404."
+ },
+ {
+  "id": "user:c032dd1aaa18988c",
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-30",
+  "source": "user",
+  "slug": "fuse-kiwi",
+  "url": "https://www.fuse.kiwi",
+  "name": "Fuse.kiwi",
+  "tagline": "A guide to the creative web across nine media tags, browsed by Shuffle or by a Ball Pit rather than by a list",
+  "description": "Fuse.kiwi calls itself a guide for the creative web, and its own summary is \"Interesting Internet\". It collects work that is unexpected and original rather than work that is merely well made.\n\nNine tags cut the collection: graphic, illustration, photo, art, 3d, video, website, music and type. That range is wider than a web gallery, because music and moving image sit beside websites.\n\nBrowsing is deliberately not a list. A Shuffle control jumps at random, and a Ball Pit view is offered as a second way in. Submissions are open, and the site runs on an Ethereum tip jar rather than sponsorship or a subscription.\n\nIt publishes neither an llms.txt nor a sitemap, so there is no machine index at all.",
+  "category": "inspiration-galleries",
+  "subcategory": "site-galleries",
+  "kinds": [
+   "gallery",
+   "directory"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "gallery"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "screenshots",
+    "images",
+    "video"
+   ],
+   "agent_readiness": [
+    "image-only",
+    "js-only-shell"
+   ],
+   "maturity": "stable"
+  },
+  "pricing_detail": "Free, with no account and no paid tier. The site asks for tips through an Ethereum address.",
+  "agent_guidance": "Reach for it when a brief asks for something odd rather than something clean. The stated editorial line is unexpected and original work, so it is the opposite of a minimal-site gallery.\n\nUse the nine tags to narrow it: graphic, illustration, photo, art, 3d, video, website, music and type. Music and video sit beside websites here, which is unusual and worth knowing before you filter.\n\nDo not try to enumerate it. There is no sitemap and no llms.txt, and no total is published, so a plain fetch gives you the front page and nothing more.",
+  "why_it_matters": "Most galleries in this corpus converge on the same clean aesthetic. This one collects the work that does not fit, which is where a brief for something distinctive has to start.",
+  "quality_tier": "C",
+  "tier_reason": "A real editorial position and a media range wider than any other gallery here, with two browsing modes that suit wandering. Held at C because nothing is machine-readable: no sitemap, no llms.txt, no published total, and no per-item route, so an agent cannot enumerate or cite a single entry.",
+  "notable_for": [
+   "nine tags from graphic to music and type",
+   "Shuffle and Ball Pit browsing",
+   "collects the unexpected rather than the clean",
+   "funded by an Ethereum tip jar",
+   "no sitemap and no llms.txt"
+  ],
+  "evidence": "https://www.fuse.kiwi/ 200, 32 KB; title \"Fuse.kiwi - Interesting Internet\"; the page reads \"Fuse.kiwi is a guide for the creative web. Discover unexpected and original content that makes the internet vibrant. It's Interesting Internet.\"; the tag row reads all, graphic, illustration, photo, art, 3d, video, website, music and type; the controls include Submit, Shuffle and Ball Pit, with Twitter, Instagram and About, and an \"ETH tip jar\" address shown truncated as 0x17…38aEe8. https://www.fuse.kiwi/sitemap.xml 404 and /llms.txt 404."
+ },
+ {
+  "id": "user:62f81db88cf9126f",
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-30",
+  "source": "user",
+  "slug": "shadergradient",
+  "url": "https://shadergradient.co",
+  "name": "ShaderGradient",
+  "tagline": "A shader gradient editor that exports to code, with plugins for both Figma and Framer",
+  "description": "ShaderGradient makes animated shader gradients and hands them over as something you can ship. The /customize route is the editor, and the tool exists in three forms: the web editor, a Figma plugin and a Framer plugin, each with its own page.\n\nThat plugin pair is the reason to note it. A gradient built in the editor reaches a designer working in Figma and a designer building in Framer without either one leaving their tool, which very few generators here manage.\n\nThe site is small and client-rendered. The sitemap holds nine URLs, covering the editor, both plugin pages, a pricing page and some older home-page variants. The served HTML carries only the title, and there is no llms.txt, so nothing about the gradients themselves is readable without running the page.",
+  "category": "textures-assets",
+  "subcategory": "gradients-and-backgrounds",
+  "kinds": [
+   "generator",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "framer"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium",
+    "paid"
+   ],
+   "distribution": [
+    "web-app",
+    "figma-plugin",
+    "copy-paste"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "3d",
+    "images",
+    "code"
+   ],
+   "agent_readiness": [
+    "js-only-shell",
+    "machine-index"
+   ],
+   "maturity": "stable"
+  },
+  "pricing_detail": "Freemium. A pricing page exists at /pricing, and the site states no figure in the served HTML. Both plugins are listed on their own pages.",
+  "agent_guidance": "Send a person to /customize. The editor is the product, it is client-rendered, and there is no API, no package and no llms.txt, so an agent cannot generate a gradient here.\n\nName the plugin that matches the tool in the brief. There is a Figma plugin page and a Framer plugin page, so a designer stays inside the tool they already use.\n\nCheck /pricing before you promise the output. The site runs a paid tier and states no figure in the HTML that a fetch returns.",
+  "why_it_matters": "Gradient generators usually stop at an image. This one reaches Figma and Framer as plugins, so the gradient survives the handover from design to build.",
+  "quality_tier": "C",
+  "tier_reason": "A focused tool with a real advantage in the Figma and Framer plugins, which carry the output into the tools designers actually work in. Held at C because almost nothing is verifiable without running it: the served HTML is a title and nothing else, the sitemap holds nine URLs including stale home-page variants, no licence or price appears, and there is no llms.txt, package or API.",
+  "notable_for": [
+   "shader gradient editor at /customize",
+   "Figma plugin and Framer plugin",
+   "nine URLs in the whole sitemap",
+   "no llms.txt and no package",
+   "served HTML carries only the title"
+  ],
+  "evidence": "https://shadergradient.co/ 200, 157 KB, but the served HTML strips to the single word \"Shader Gradient\", so the app is client-rendered. /sitemap.xml 200 with 9 URLs: the root, /customize, /framer-plugin, /framer-plugin-dark, /figma-plugin, /old-home-2, /home-2, /pricing and one more. /llms.txt 404. The site is listed on rachelhow.com/tools among the tools its author returns to."
+ }
+]

@@ -1,0 +1,699 @@
+[
+  {
+    "id": "depo:j575zwa5wg49t165fng8erk3rh7t595h",
+    "slug": "heroui",
+    "url": "https://nextui.org/",
+    "name": "HeroUI (formerly NextUI)",
+    "tagline": "71 React components on React Aria + Tailwind v4, with an MCP server",
+    "description": "HeroUI is the renamed successor to NextUI — nextui.org now 301-redirects to heroui.com. v3 is a full React component library built on React Aria Components and Tailwind CSS v4, shipping 71 documented web components plus a separate HeroUI Native set of 39 React Native components. It is aimed at teams who want a maintained, versioned dependency rather than copy-paste source, and it invests unusually hard in agent tooling: an MCP server, llms.txt, AGENTS.md, agent skills, and per-page Copy Prompt / Copy Markdown buttons.",
+    "category": "component-libraries",
+    "subcategory": "react-component-libraries",
+    "kinds": [
+      "component-library",
+      "primitive",
+      "registry"
+    ],
+    "facets": {
+      "framework": [
+        "react",
+        "next",
+        "react-native"
+      ],
+      "styling": [
+        "tailwind-v4",
+        "css-variables"
+      ],
+      "license": [
+        "mit",
+        "apache-2.0"
+      ],
+      "pricing": [
+        "free",
+        "open-source",
+        "freemium"
+      ],
+      "distribution": [
+        "npm-package",
+        "cli",
+        "github-repo",
+        "mcp-server",
+        "figma-file"
+      ],
+      "platform": [
+        "web",
+        "ios",
+        "android",
+        "cross-platform"
+      ],
+      "accessibility": [
+        "built-on-accessible-primitives",
+        "aria-complete",
+        "keyboard-navigable",
+        "focus-managed",
+        "rtl-support"
+      ],
+      "content_type": [
+        "code",
+        "design-tokens",
+        "figma"
+      ],
+      "agent_readiness": [
+        "mcp-server",
+        "llms-txt",
+        "agent-skill",
+        "structured-docs",
+        "copy-prompt",
+        "cli-installable",
+        "open-source-code"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "accordion",
+      "alert",
+      "alert-dialog",
+      "autocomplete",
+      "avatar",
+      "badge",
+      "breadcrumbs",
+      "button",
+      "button-group",
+      "calendar",
+      "card",
+      "checkbox",
+      "checkbox-group",
+      "chip",
+      "close-button",
+      "collapsible",
+      "color-picker",
+      "combobox",
+      "date-input",
+      "date-picker",
+      "date-range-picker",
+      "dialog",
+      "drawer",
+      "dropdown-menu",
+      "fieldset",
+      "form",
+      "help-text",
+      "input-group",
+      "kbd",
+      "label",
+      "link",
+      "list",
+      "listbox",
+      "meter",
+      "modal",
+      "number-input",
+      "otp-input",
+      "pagination",
+      "panel",
+      "popover",
+      "progress-bar",
+      "radio-group",
+      "scroll-area",
+      "search-input",
+      "select",
+      "separator",
+      "sheet",
+      "skeleton",
+      "slider",
+      "spinner",
+      "switch",
+      "table",
+      "tabs",
+      "tag",
+      "text-input",
+      "textarea",
+      "theme-provider",
+      "time-picker",
+      "toast",
+      "toggle-button",
+      "toggle-group",
+      "toolbar",
+      "tooltip",
+      "typography",
+      "validation-message"
+    ],
+    "component_count": 71,
+    "surfaces": [
+      "login-web-app",
+      "sign-up",
+      "settings-web-app",
+      "account-web-app",
+      "multi-step-form",
+      "submitting-a-form",
+      "showing-input-error",
+      "filtering-items",
+      "search-results",
+      "admin-panel"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": "npm i @heroui/styles @heroui/react",
+    "package": "@heroui/react",
+    "docs_url": "https://heroui.com/en/docs/react/getting-started",
+    "repo_url": "https://github.com/heroui-inc/heroui",
+    "registry_url": null,
+    "github": {
+      "stars": 30400,
+      "license": "Apache-2.0 per GitHub sidebar; README states MIT",
+      "last_activity": "actively maintained; docs site sitemap lastmod 2026-08-14, v3.2.4 current"
+    },
+    "pricing_detail": "Core library free and open source. HeroUI Pro (components, templates, AI tooling) is a paid add-on; price not fetched.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Reach for HeroUI over shadcn/ui when the project wants an upgradeable npm dependency instead of vendored source you must maintain — and over MUI when the codebase is already Tailwind v4. Install the HeroUI MCP server first; the docs expose llms.txt, AGENTS.md and Copy Prompt on every page, so you can generate correct v3 APIs without guessing. Two traps: v3 hard-requires React 19 and Tailwind v4, and v2/NextUI code will not compile against it — check the /migration docs before touching an existing NextUI app, and never import from `@nextui-org/*`.",
+    "why_it_matters": "One of the very few React libraries that treats AI agents as a first-class consumer, with an MCP server and machine-readable docs rather than a marketing page. The React Aria foundation means accessibility is inherited from Adobe's primitives instead of hand-rolled.",
+    "quality_tier": "S",
+    "notable_for": [
+      "MCP server plus llms.txt and AGENTS.md",
+      "Built on React Aria Components",
+      "Tailwind CSS v4 / React 19 only",
+      "39-component React Native sibling",
+      "Renamed from NextUI; old domain redirects"
+    ],
+    "already_enriched": false,
+    "http_status": 301,
+    "verified_at": "2026-08-15",
+    "evidence": "https://nextui.org/ (301 -> heroui.com), https://heroui.com/, https://heroui.com/sitemap.xml (enumerated 71 react + 39 native component doc pages), https://heroui.com/en/docs/react/getting-started/quick-start, https://heroui.com/en/docs/react/getting-started, https://heroui.com/en/docs/react/getting-started/frameworks, https://github.com/heroui-inc/heroui",
+    "source": "depo"
+  },
+  {
+    "id": "depo:j57bvrjfwt994aqpxstk5zqywx7t4r48",
+    "slug": "bueno",
+    "url": "https://bueno.art/",
+    "name": "Bueno",
+    "tagline": "No-code generative NFT art, drops and contract deploys",
+    "description": "Bueno is a hosted no-code studio for NFT creators: upload layered artwork, tune rarity and rules, preview the set, then deploy an ERC contract and a drop page across Ethereum, Polygon and BASE. It also bundles Buenoverse (an interactive-world builder with a 2,500-asset library) and wallet-gated forms for allowlists and surveys. The pull for designers is the layer-and-rarity generative engine; everything else is crypto-launch plumbing.",
+    "category": "generative-media-tools",
+    "subcategory": "image-generation",
+    "kinds": [
+      "generator",
+      "app",
+      "tool"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "proprietary"
+      ],
+      "pricing": [
+        "freemium",
+        "usage-based",
+        "account-required"
+      ],
+      "distribution": [
+        "web-app",
+        "saas"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "images",
+        "3d"
+      ],
+      "agent_readiness": [
+        "auth-required",
+        "none"
+      ],
+      "maturity": "stable"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": "Art Generator $0.19 per token generated (~0.000045 ETH), unlimited collections, free IPFS. Smart contracts and Drops: free to deploy, 5% of primary sales, no cut of secondary royalties. Forms: free, unlimited.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Only relevant if the task is literally generating a combinatorial NFT collection from art layers — do not treat it as a general image or asset generator. There is no public API or SDK surfaced, everything is behind a login at app.bueno.art, so an agent cannot script it; hand the user the URL instead of trying to automate it. Check that the project actually needs on-chain deployment before recommending it, since the 5% primary-sale fee is the real cost.",
+    "why_it_matters": "Competent execution of a 2021-era brief. The blog last posted in August 2025 after an 18-month gap, so treat it as coasting rather than growing.",
+    "quality_tier": "C",
+    "notable_for": [
+      "Layer-based rarity engine",
+      "Multi-chain contract deploy (ETH, Polygon, BASE)",
+      "Buenoverse world builder, 2,500+ assets",
+      "5% primary-sales fee model",
+      "Blog nearly dormant since 2024"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://bueno.art/, https://bueno.art/pricing, https://bueno.art/blog, https://bueno.art/blog/rss.xml (latest pubDate 19 Aug 2025, prior posts May 2024)",
+    "source": "depo"
+  },
+  {
+    "id": "depo:j573w62fatg1atnk4avqjtfgjs7t5qq4",
+    "slug": "onym",
+    "url": "https://onym.co/",
+    "name": "Onym",
+    "tagline": "Curated directory of ~287 tools and resources for naming things",
+    "description": "Onym is not an agency site — onym.co redirects to guide.onym.co, a single long-form static guide that organises roughly 287 external naming resources into eight sections. It covers brainstorming (dictionaries, thesauruses, translators, word generators, jargon and mythology glossaries), vetting (cultural sensitivity, trademark search, domain and social availability), naming sprints and methodologies, company-name etymologies, cautionary tales, a directory of naming agencies and domain brokers, and further reading. Built by Greg Leppert and Willem Van Lancker, who run a separate paid practice at agency.onym.co.",
+    "category": "utilities-naming",
+    "subcategory": "naming-and-availability",
+    "kinds": [
+      "directory",
+      "reference",
+      "gallery"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "gallery",
+        "web-app"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "semantic-html"
+      ],
+      "content_type": [
+        "prose"
+      ],
+      "agent_readiness": [
+        "structured-docs"
+      ],
+      "maturity": "stable"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 287,
+      "blocks": null
+    },
+    "agent_guidance": "When a user asks you to name a product, read this page before free-associating — the whole directory is one static HTML document, so a single fetch gives you the full toolset (OneLook, Datamuse, Wordnik, RhymeZone, trademark and domain checkers) and the vetting checklist you would otherwise skip. Use the Vetting section as a gate: never hand over a name without a trademark and domain/social availability pass. Do not cite it as a naming agency; the agency arm is a separate site at agency.onym.co.",
+    "why_it_matters": "The best single-page map of the naming problem on the web — it turns an improvised thesaurus-and-domain-search habit into an actual method, including the cultural-sensitivity and trademark steps most designers skip.",
+    "quality_tier": "A",
+    "notable_for": [
+      "Eight sections, ~287 curated links",
+      "Trademark and cultural-sensitivity vetting lists",
+      "Company-name etymology case studies",
+      "Naming-sprint methodologies from agencies",
+      "Entire directory is one fetchable static page"
+    ],
+    "already_enriched": false,
+    "http_status": 301,
+    "verified_at": "2026-08-15",
+    "evidence": "https://onym.co/ (301 -> guide.onym.co), https://guide.onym.co/ (full HTML parsed: 8 H1 sections, 8 H2 and 14 H3 subsections, 287 unique external links)",
+    "source": "depo"
+  },
+  {
+    "id": "depo:j574gkahhj55vym0ne8gqxv37n7t50cf",
+    "slug": "radix-icons",
+    "url": "https://icons.radix-ui.com/",
+    "name": "Radix Icons",
+    "tagline": "318 crisp 15x15 icons, MIT, one React component each",
+    "description": "Radix Icons is a set of 318 icons drawn on a 15x15 grid by the WorkOS team, the same group behind Radix Primitives and Radix Themes. Every icon ships as an individually importable React component from @radix-ui/react-icons, and the set is also offered as raw SVG download and a Figma community file. Categories are Typography, Music, Abstract, Logos, Arrows, Objects, Design, Components, Borders and corners, Alignment, and Assets. Licensed MIT.",
+    "category": "icons-logos",
+    "subcategory": "icon-sets",
+    "kinds": [
+      "icon-set"
+    ],
+    "facets": {
+      "framework": [
+        "react",
+        "vanilla"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "mit"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "npm-package",
+        "github-repo",
+        "figma-file",
+        "download"
+      ],
+      "platform": [
+        "web",
+        "platform-agnostic"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "icons",
+        "code"
+      ],
+      "agent_readiness": [
+        "open-source-code",
+        "cli-installable",
+        "structured-docs"
+      ],
+      "maturity": "stable"
+    },
+    "components": [
+      "icon"
+    ],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": "npm install @radix-ui/react-icons",
+    "package": "@radix-ui/react-icons",
+    "docs_url": "https://www.radix-ui.com/icons",
+    "repo_url": "https://github.com/radix-ui/icons",
+    "registry_url": null,
+    "github": {
+      "stars": 2700,
+      "license": "MIT",
+      "last_activity": "237 commits on main; npm latest 1.3.2 with a 2.0.0 release candidate published"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": 318,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Default to this when the project already uses Radix Primitives or Radix Themes — the 15x15 grid and stroke weight are drawn to sit inside Radix components without optical adjustment, which Lucide and Heroicons will not do for free. Reach for Lucide or Phosphor instead when you need breadth (1000+ glyphs), multiple weights, or non-React targets; 318 icons runs out fast on a data-heavy product. Import named components (`import { SunIcon } from \"@radix-ui/react-icons\"`) so tree-shaking works, and size with CSS rather than a size prop since the icons are fixed-grid.",
+    "why_it_matters": "The reference example of a small, opinionated icon set that is better because it refused to grow — every glyph is optically tuned for one size instead of scaling badly across five.",
+    "quality_tier": "A",
+    "notable_for": [
+      "318 icons on a fixed 15x15 grid",
+      "One React component per icon",
+      "MIT, by the WorkOS/Radix team",
+      "Figma community file plus SVG download",
+      "Deliberately small, no weight variants"
+    ],
+    "already_enriched": false,
+    "http_status": 308,
+    "verified_at": "2026-08-15",
+    "evidence": "https://icons.radix-ui.com/ (308 -> radix-ui.com/icons), https://radix-ui.com/icons (raw HTML: license, npm command, category list), https://github.com/radix-ui/icons, https://github.com/radix-ui/icons/tree/master/packages/radix-icons/icons, jsdelivr package listing for @radix-ui/react-icons@1.3.2 (318 *Icon.d.ts files = exact icon count)",
+    "source": "depo"
+  },
+  {
+    "id": "depo:j5783h86fwkzyq5g9qa3qndnj97t4hew",
+    "slug": "basement-foundry",
+    "url": "https://foundry.basement.studio/",
+    "name": "Basement Foundry",
+    "tagline": "11 retail typefaces from basement.studio, $25-$120 personal",
+    "description": "Basement Foundry is the in-house type shop of the Argentine studio basement.studio, selling 11 typefaces ranging from the workhorse Basement Grotesque (10 styles, 4 weights, 265 glyphs) to blackletter, pixel and hard display faces. Every family ships otf/woff/woff2 (most also ttf) with a versioned release number and a published glyph count. Licensing is a seat-tiered commercial EULA bought per family, from Personal (1 person) up to Enterprise (101-400 employees), with a custom tier above that.",
+    "category": "typography",
+    "subcategory": "typefaces",
+    "kinds": [
+      "typeface",
+      "marketplace"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "font-eula",
+        "commercial"
+      ],
+      "pricing": [
+        "paid",
+        "one-time"
+      ],
+      "distribution": [
+        "download",
+        "marketplace"
+      ],
+      "platform": [
+        "web",
+        "print",
+        "platform-agnostic"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "fonts"
+      ],
+      "agent_readiness": [
+        "none"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [
+      {
+        "name": "Basement Grotesque",
+        "url": "https://foundry.basement.studio/fonts/grotesque",
+        "purpose": "Flagship grotesque inspired by early 19th-century forms; 10 styles / 4 weights, 265 glyphs, v1.1.7, otf/woff/woff2. $120 personal, $192 studio, $480 agency, $1,200 enterprise."
+      },
+      {
+        "name": "Adhesion",
+        "url": "https://foundry.basement.studio/fonts/adhesion",
+        "purpose": "Dense blackletter display face with flourishing ascenders; 1 style / 1 weight, 165 glyphs, v2.0.1, otf/woff/woff2/ttf."
+      },
+      {
+        "name": "B-Mecha",
+        "url": "https://foundry.basement.studio/fonts/b-mecha",
+        "purpose": "Mechanical/techno display face; 1 style / 1 weight, 111 glyphs."
+      },
+      {
+        "name": "Blob",
+        "url": "https://foundry.basement.studio/fonts/blob",
+        "purpose": "Soft rounded display face; 1 style / 1 weight, 160 glyphs."
+      },
+      {
+        "name": "Bunker",
+        "url": "https://foundry.basement.studio/fonts/bunker",
+        "purpose": "Heavy industrial display family; 3 styles / 1 weight, 207 glyphs."
+      },
+      {
+        "name": "Caniche",
+        "url": "https://foundry.basement.studio/fonts/caniche",
+        "purpose": "Decorative display face; 1 style / 1 weight, 99 glyphs."
+      },
+      {
+        "name": "Carpenter",
+        "url": "https://foundry.basement.studio/fonts/carpenter",
+        "purpose": "Display face; 1 style / 1 weight, 103 glyphs."
+      },
+      {
+        "name": "Curia",
+        "url": "https://foundry.basement.studio/fonts/curia",
+        "purpose": "Broadest character set in the catalog; 1 style / 1 weight, 244 glyphs."
+      },
+      {
+        "name": "FFFLAUTA",
+        "url": "https://foundry.basement.studio/fonts/ffflauta",
+        "purpose": "Pixel/bitmap family; 4 styles / 4 weights, 170 glyphs."
+      },
+      {
+        "name": "Trovador",
+        "url": "https://foundry.basement.studio/fonts/trovador",
+        "purpose": "Display face; 1 style / 1 weight, 153 glyphs."
+      },
+      {
+        "name": "Xer0",
+        "url": "https://foundry.basement.studio/fonts/xer0",
+        "purpose": "Wedge-shaped geometric display face whose letters recess into each other; 1 style / 1 weight, 101 glyphs, v1.2.1. $25 personal, $64 studio, $160 agency, $400 enterprise."
+      }
+    ],
+    "template_count": 11,
+    "install": null,
+    "package": null,
+    "docs_url": "https://foundry.basement.studio/eula",
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": "Per-family, seat-tiered one-time licence. Basement Grotesque: Personal $120, Studio (2-20) $192, Agency (21-100) $480, Enterprise (101-400) $1,200. Xer0: Personal $25, Studio $64, Agency $160, Enterprise $400. Teams over 400 employees quote a custom tier.",
+    "counts": {
+      "icons": null,
+      "fonts": 11,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Point a user here for a display or headline face with real personality when Google Fonts would read as generic — Xer0, Bunker and Adhesion have no free equivalent. Never self-host or embed these in a build: every family is a paid commercial EULA priced by company headcount, so the licence has to be bought by the user before any woff2 goes into a repo. For body copy, pair one of these display faces with a free text face; only Basement Grotesque has enough weights to carry a whole system.",
+    "why_it_matters": "A studio foundry that publishes glyph counts and version numbers per family, which is more engineering rigor than most retail type shops offer.",
+    "quality_tier": "B",
+    "notable_for": [
+      "11 families, glyph count published per face",
+      "Basement Grotesque: 10 styles / 4 weights",
+      "Headcount-tiered EULA, $25 to $1,200",
+      "otf/woff/woff2 with versioned releases",
+      "In-house foundry of basement.studio"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://foundry.basement.studio/ (raw HTML, all 11 font URLs and style/glyph counts), https://foundry.basement.studio/fonts/grotesque, /fonts/adhesion, /fonts/xer0, and the /checkout pages for grotesque and xer0 (full price tiers)",
+    "source": "depo"
+  },
+  {
+    "id": "depo:j57fjgnzgtam45ew873jcqngw57t4da4",
+    "slug": "dub",
+    "url": "https://dub.co/",
+    "name": "Dub",
+    "tagline": "Open-source short links, conversion tracking and affiliate payouts",
+    "description": "Dub is a link attribution platform: branded short links with QR codes, geo and device targeting, A/B tests, deep links and custom domains, joined to real-time analytics that follow a click through to a sale. On top of that sits Dub Partners, an affiliate and referral program manager with commission rules, global payouts and embeddable partner dashboards. The core is open source under AGPLv3 (24.4k stars, Next.js + TypeScript + Tailwind + Prisma), with a REST API and first-party SDKs for TypeScript, Python, Go, PHP and Ruby. It is marketing infrastructure, not a design resource — its value to a designer is as a reference Next.js codebase and a referral-flow backend.",
+    "category": "utilities-naming",
+    "subcategory": "apis-and-services",
+    "kinds": [
+      "service",
+      "tool",
+      "app"
+    ],
+    "facets": {
+      "framework": [
+        "next",
+        "react",
+        "python"
+      ],
+      "styling": [
+        "tailwind-any"
+      ],
+      "license": [
+        "agpl",
+        "commercial"
+      ],
+      "pricing": [
+        "subscription",
+        "free-trial",
+        "open-source",
+        "freemium"
+      ],
+      "distribution": [
+        "saas",
+        "web-app",
+        "public-api",
+        "npm-package",
+        "github-repo"
+      ],
+      "platform": [
+        "web",
+        "cross-platform"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "code"
+      ],
+      "agent_readiness": [
+        "public-api",
+        "open-source-code",
+        "structured-docs",
+        "auth-required"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [
+      "analytics",
+      "api-keys",
+      "integrations",
+      "webhooks",
+      "referral-flow",
+      "affiliate",
+      "data-export"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": "npm i dub",
+    "package": "dub",
+    "docs_url": "https://dub.co/docs/api-reference/introduction",
+    "repo_url": "https://github.com/dubinc/dub",
+    "registry_url": null,
+    "github": {
+      "stars": 24400,
+      "license": "AGPL-3.0 (open-source core) with a commercial Enterprise Edition",
+      "last_activity": "actively maintained; 25,929 commits on main"
+    },
+    "pricing_detail": "Dub Partners: Business $90/mo ($2.5K payouts/mo, 500 partners, 5% payout fee); Advanced $300/mo ($15K payouts/mo, unlimited partners, 5% fee); Enterprise custom annual (3% fee). Links quotas bundled: Business 10K links + 250K events/mo, Advanced 50K links + 1M events/mo. 14-day trial on all plans; yearly billing saves 10%.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Reach for Dub when a product needs referral or affiliate attribution wired end to end, not merely a URL shortener — Bitly and a homegrown /r/[code] route are cheaper if all you want is a short link. Integrate with the `dub` npm SDK plus the conversion-tracking endpoints (lead and sale events) rather than only creating links, or you get vanity metrics and no attribution. Two cautions: the self-host path is AGPLv3, which is a real obligation for a closed product, and the hosted plans start at $90/mo, so do not propose it for a side project.",
+    "why_it_matters": "A rare open-source SaaS whose Next.js/Tailwind/Prisma monorepo is worth reading as a production reference, quite apart from the product.",
+    "quality_tier": "B",
+    "notable_for": [
+      "AGPLv3 open-source core, 24.4k stars",
+      "Click-to-sale conversion attribution",
+      "Affiliate payouts and partner dashboards",
+      "SDKs for TS, Python, Go, PHP, Ruby",
+      "Reference-grade Next.js monorepo"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://dub.co/, https://dub.co/pricing, https://dub.co/docs/api-reference/introduction, https://github.com/dubinc/dub",
+    "source": "depo"
+  }
+]

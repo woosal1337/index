@@ -1,0 +1,589 @@
+[
+ {
+  "id": "user:d4ecaea210559729",
+  "templates": [],
+  "template_count": null,
+  "install": "npm install reicon-react",
+  "package": "reicon-react",
+  "docs_url": "https://reicon.dev/llms.txt",
+  "repo_url": "https://github.com/dqev/reicon",
+  "registry_url": null,
+  "github": {
+   "stars": 1320,
+   "license": "MIT",
+   "last_activity": "2026-08-24"
+  },
+  "counts": {
+   "icons": 3900,
+   "fonts": null,
+   "palettes": null,
+   "entries": 79800,
+   "blocks": null
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-29",
+  "source": "user",
+  "slug": "reicon",
+  "url": "https://reicon.dev",
+  "name": "Reicon",
+  "tagline": "3,900 icons, 71,000 illustrations and 4,900 brand logos, all MIT, with an MCP server and a CDN an agent can address by slug",
+  "description": "Reicon is one library holding three asset types, all free and all MIT. The icon set runs to more than 3,900 vectors in Outline, Filled and Duotone. The illustration set is the outlier at more than 71,000 SVG files. The logo set holds more than 4,900 brand marks, each with named variants such as original and wordmark.\n\nDelivery covers almost every route a developer takes. Packages exist for React, Vue 3, Svelte, React Native, Flutter and vanilla JavaScript, named reicon-react, reicon-vue, reicon-svelte, reicon-react-native, reicon_flutter and reicon. Beyond those there is a CDN, a Figma plugin, a VS Code extension and an MCP server.\n\nThe CDN is the part that matters to an agent. An illustration answers at cdn.reicon.dev/<slug>.svg and a logo at cdn.reicon.dev/logos/<slug>/<variant>.svg, so a model builds the URL from a name with no search step. The llms.txt opens with an Agent Quick Start that states those two patterns, and it warns that Reicon is not the unrelated Windows tool of the same name. The repository dqev/reicon carries 1,320 stars and 72 forks.",
+  "category": "icons-logos",
+  "subcategory": "icon-sets",
+  "kinds": [
+   "icon-set",
+   "asset-pack",
+   "mcp-server"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "vue",
+    "svelte",
+    "react-native",
+    "flutter",
+    "vanilla"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "cli",
+    "mcp-server",
+    "public-api",
+    "figma-plugin",
+    "browser-extension",
+    "github-repo",
+    "download"
+   ],
+   "platform": [
+    "web",
+    "cross-platform"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "icons",
+    "images",
+    "code"
+   ],
+   "agent_readiness": [
+    "mcp-server",
+    "llms-txt",
+    "public-api",
+    "cli-installable",
+    "structured-docs",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "pricing_detail": "Free and MIT across all three sets. No account, no paid tier and no attribution requirement.",
+  "agent_guidance": "Build the URL, do not search. An illustration answers at https://cdn.reicon.dev/<slug>.svg and a brand logo at https://cdn.reicon.dev/logos/<slug>/<variant>.svg. That makes Reicon the cheapest asset source in this corpus for an agent, because a name is enough.\n\nRead /llms.txt first. It opens with an Agent Quick Start that names the package for each framework and both CDN patterns, so no page needs rendering.\n\nTake the brand logos seriously. 4,900 marks with named variants is a set almost nothing else here offers free, and logo work is where a licence usually blocks you. Every asset is MIT.\n\nOne warning the site makes itself: Reicon is not the Windows desktop tool of the same name by Sordum. Do not conflate the two when you answer a question about it.",
+  "why_it_matters": "Icon libraries are close to a commodity, and free brand-logo sets are not. Reicon ships both, adds 71,000 illustrations, puts all of it under MIT, and gives an agent a CDN it can address from a slug.",
+  "quality_tier": "S",
+  "tier_reason": "Three asset types at real scale, all MIT, delivered through six framework packages, a CDN, a Figma plugin, a VS Code extension and an MCP server. The llms.txt is written for an agent rather than for search, it states both CDN URL patterns outright, and it corrects a known name collision. The repository is public and current at 1,320 stars.",
+  "notable_for": [
+   "3,900 icons in three weights",
+   "71,000 free SVG illustrations",
+   "4,900 brand logos with named variants",
+   "MCP server and slug-addressable CDN",
+   "MIT across every asset"
+  ],
+  "evidence": "https://reicon.dev/ 200, 10 KB; the served HTML is a client-rendered shell carrying only the title \"Reicon — Free Open-Source SVG Icons, Illustrations & Brand Logos\". https://reicon.dev/llms.txt 200 and it states \"3,900+ vector icons (Outline, Filled, Duotone), 71,000+ free SVG illustrations, and 4,900+ vector brand logos. Available for React, Vue 3, Svelte, React Native, Flutter, vanilla JS, CDN, Figma, VS Code, and AI MCP Server. 100% MIT licensed\", carries an \"Agent Quick Start\" naming the packages reicon-react, reicon-vue, reicon-svelte, reicon-react-native, reicon_flutter and reicon, gives the CDN patterns https://cdn.reicon.dev/{slug}.svg and https://cdn.reicon.dev/logos/{slug}/{variant}.svg with the worked examples aspen.svg, bag.svg, logos/react/original.svg and logos/github/wordmark.svg, and warns \"Not the Windows tool 'ReIcon' by Sordum — completely unrelated\". https://reicon.dev/sitemap.xml 200 with 22 URLs, and /robots.txt 200. GitHub API for dqev/reicon: 1,320 stars, 72 forks, MIT, pushed 2026-08-24, described as \"Reicon — Open-Source Icon Library for Designers & Developers\"."
+ },
+ {
+  "id": "user:0bfcacccb268b1ef",
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://www.ui-layouts.com/llms-full.txt",
+  "repo_url": "https://github.com/ui-layouts/uilayouts",
+  "registry_url": null,
+  "github": {
+   "stars": 3590,
+   "license": "MIT",
+   "last_activity": "2026-08-23"
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": 200
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-29",
+  "source": "user",
+  "slug": "ui-layouts",
+  "url": "https://www.ui-layouts.com",
+  "name": "UI Layouts",
+  "tagline": "An MIT component and block library at 3,590 stars, with a CLI, a registry and a paid tier of 200 blocks and a template builder",
+  "description": "UI Layouts is a component library and a code distribution platform in one. The free half is MIT and open, built with TypeScript, Tailwind CSS and modern React patterns, and it supports Next.js, Vite, Remix and Astro. It ships a command-line tool to install and manage components, a components.json configuration file and a registry system for publishing code, which is the shadcn model rather than a copy-paste page.\n\nThe documentation states five principles: Open Code, Composition, Distribution, Beautiful Defaults and AI-Ready. The navigation carries Components, Blocks and MCP.\n\nThe paid half sits at pro.ui-layouts.com. It states 200 blocks, more than 10 templates and a drag-and-drop template builder that exports production-ready code. The repository ui-layouts/uilayouts carries 3,590 stars and 210 forks, and it was pushed on 2026-08-23.",
+  "category": "component-libraries",
+  "subcategory": "shadcn-registries",
+  "kinds": [
+   "registry",
+   "component-library",
+   "block-collection"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next",
+    "remix",
+    "astro"
+   ],
+   "styling": [
+    "tailwind-any",
+    "css-variables"
+   ],
+   "license": [
+    "mit",
+    "commercial"
+   ],
+   "pricing": [
+    "freemium",
+    "open-source",
+    "one-time",
+    "paid"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "cli",
+    "npm-package",
+    "github-repo",
+    "mcp-server",
+    "copy-paste"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "claimed-accessible"
+   ],
+   "content_type": [
+    "code",
+    "design-tokens"
+   ],
+   "agent_readiness": [
+    "registry-json",
+    "cli-installable",
+    "llms-txt",
+    "mcp-server",
+    "structured-docs",
+    "copy-paste-ready",
+    "open-source-code",
+    "agent-paywalled"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "pricing_detail": "Freemium. The component library is MIT and free. UI Layouts Pro is a paid one-time purchase covering 200 blocks, more than 10 templates and the template builder. A 20 per cent discount code, UILAYOUTS20, was live on 2026-08-29. No price appears on the landing page.",
+  "agent_guidance": "Read /llms-full.txt, not /llms.txt. The short file names the canonical host and then points at the extended index, which is the one that carries the component list.\n\nInstall through the CLI and the registry. The docs cover the CLI, components.json and theming, so an agent configures the project once and then adds components by name.\n\nDraw the line at the paywall before you promise anything. The components are MIT and free. The 200 blocks, the templates and the builder are not, and the landing page states no price, so never quote one.",
+  "why_it_matters": "Most free registries stop at the primitive layer, and most block libraries are paid from the first click. This one gives away a real MIT component set with a working CLI and keeps the paywall at the block and template layer.",
+  "quality_tier": "A",
+  "tier_reason": "A genuine registry rather than a copy-paste page: a CLI, components.json, theming docs, four framework targets, an MCP entry and an llms-full.txt, backed by a public MIT repository at 3,590 stars pushed within the week. Held below S because the block and template layer is paid with no published price, the accessibility claim is stated but not evidenced, and the free component count never appears on the page.",
+  "notable_for": [
+   "3,590 GitHub stars, MIT",
+   "CLI, components.json and a registry",
+   "Next.js, Vite, Remix and Astro",
+   "200 paid blocks and a template builder",
+   "publishes llms.txt and llms-full.txt"
+  ],
+  "evidence": "https://www.ui-layouts.com/ 200, 413 KB; title \"Ui-Layouts | Your Frontend Universe\"; the navigation holds Components, Blocks, MCP, a theme toggle and Github; the banner reads \"Ship faster with UI-Layouts Pro – 100+ production-ready blocks waiting for you\" and the hero reads \"UI Layouts isn't just a library. It's your complete front-end universe with components, effects, design tools, and ready-to-use blocks\", with \"Trusted by 1000+ users\". https://www.ui-layouts.com/llms.txt 200 and it states the canonical host, points at https://www.ui-layouts.com/llms-full.txt, and reads \"a collection of beautifully-designed, accessible components and a code distribution platform ... built with TypeScript, Tailwind CSS, and modern React patterns. It supports multiple frameworks including Next.js, Vite, Remix, Astro ... Open Source. Open Code. AI-Ready\", listing docs for the CLI, components.json, Theming and a Changelog. https://www.ui-layouts.com/sitemap.xml 200 with 225 URLs. https://pro.ui-layouts.com/ 200, 461 KB; title \"UI Layouts Pro | Premium React + Tailwind Blocks & Templates\"; it reads \"150+ premium UI blocks, ready-made templates, and a drag-and-drop builder\" and \"10+ Templates | 200+ Blocks | Template Builder\", and carries the code UILAYOUTS20 for 20 per cent off. GitHub API for ui-layouts/uilayouts: 3,590 stars, 210 forks, MIT, pushed 2026-08-23."
+ },
+ {
+  "id": "user:12634ff1305e3d12",
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "single-item-detail"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-29",
+  "source": "user",
+  "slug": "hover-states",
+  "url": "https://www.hoverstat.es/archive",
+  "name": "Hover States",
+  "tagline": "A written archive of web interaction detail, one entry at a time, running without a break since 2012",
+  "description": "Hover States collects the interaction rather than the page. Every entry names one site, gives the date it was posted, and writes a sentence or two about the specific thing worth seeing. The archive runs by year without a gap from 2012 to 2026, which makes it the longest continuous curation in this corpus.\n\nThe writing is what separates it. An entry for softlabor.biz reads \"A soft fuzzy typography SVG animation to create an interaction that brings the words of this editorial for Soft Labor into focus when you decide to interact with them.\" One for xk.studio reads \"a lovely simple evolution to the timeline nav with playtime updates and scrollable video switching.\" Nothing else here names the mechanism that precisely.\n\nTwenty-four tags cut the archive: 3d, agency, animation, architecture, art, art-direction, basic, editorial, exhibition, fashion, gallery, graphic-design, informative, moving-image, music, navigation, photography, portfolio, scroll, scrolling, typography, video, web and weird. Submission is open. There is no llms.txt and no sitemap.",
+  "category": "inspiration-galleries",
+  "subcategory": "site-galleries",
+  "kinds": [
+   "gallery",
+   "directory",
+   "reference"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "gallery"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "screenshots",
+    "prose"
+   ],
+   "agent_readiness": [
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "pricing_detail": "Free to browse, with no account and no paid tier. Submission is open and free.",
+  "agent_guidance": "Read the notes, not the pictures. Each entry states the mechanism in words, so a plain fetch gives an agent something usable, which almost no other gallery in this corpus does.\n\nFilter by tag when a brief is about behaviour rather than looks. `scroll`, `scrolling`, `navigation`, `moving-image` and `typography` map to real implementation questions. The tag `weird` is the one to read when a brief asks for something that is not another clean grid.\n\nWalk the archive by year. The nav runs 2012 to 2026 and there is no sitemap and no llms.txt, so /archive/<year> is the only route to the older entries. Age is a feature here: the 2013 entries show which interaction ideas survived.",
+  "why_it_matters": "Fourteen unbroken years of one person writing down what a site actually does, in the sentence a screenshot cannot carry. That record of what lasted is worth more than any single year of captures.",
+  "quality_tier": "A",
+  "tier_reason": "The longest continuous curation here, and the only gallery that explains the mechanism in prose rather than showing a capture and stopping. Twenty-four tags map to real behaviour. Held below S because the site publishes no llms.txt, no sitemap and no feed, states no total, and the only route to the depth is one year at a time.",
+  "notable_for": [
+   "unbroken archive from 2012 to 2026",
+   "each entry explains the interaction in writing",
+   "24 tags including scroll, navigation and weird",
+   "open submission",
+   "no llms.txt and no sitemap"
+  ],
+  "evidence": "https://www.hoverstat.es/archive/ 200, 77 KB server-rendered; title \"Browse the archive | HOVERSTAT.ES\"; the year nav lists 2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013 and 2012 with no gap; the tag list reads 3d, agency, animation, architecture, art, art-direction, basic, editorial, exhibition, fashion, gallery, graphic-design, informative, moving-image, music, navigation, photography, portfolio, scroll, scrolling, typography, video, web and weird; counted 72 dated entries and 73 outbound site links on the one page; entries read \"www.softlabor.biz 21 Jul 2026 — A soft fuzzy typography SVG animation ...\", \"xk.studio 20 Jul 2026 — I lovely simple evolution to the timeline nav with playtime updates and scrollable video switching\", \"tiger.exposed 19 Jul 2026\", \"www.oliverdupuy.com 3 Jun 2026 — Lovely use of a hover-toggle effect\" and \"andrewtrousdale.com 28 May 2026\"; the header carries Archive, Submit and a help control. https://www.hoverstat.es/llms.txt 404 and https://www.hoverstat.es/sitemap.xml 404, so no machine index exists."
+ },
+ {
+  "id": "user:098e9bc50c5a1e2f",
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://www.fancycomponents.dev/llms.txt",
+  "repo_url": "https://github.com/danielpetho/fancy",
+  "registry_url": null,
+  "github": {
+   "stars": 3101,
+   "license": "MIT",
+   "last_activity": "2026-03-14"
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "components": [
+   "animation",
+   "transition",
+   "text-effect",
+   "typewriter-text",
+   "marquee",
+   "carousel",
+   "gradient-background",
+   "particle-background",
+   "parallax",
+   "hover-effect",
+   "image",
+   "scroll-reveal",
+   "drag-and-drop",
+   "gesture"
+  ],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "features"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-29",
+  "source": "user",
+  "slug": "fancy-components",
+  "url": "https://www.fancycomponents.dev",
+  "name": "Fancy Components",
+  "tagline": "An MIT React library of microinteractions at 3,101 stars, organised by physics, text and image effect rather than by widget",
+  "description": "Fancy Components collects the effects a component library leaves out. The documentation groups them by what they do rather than by what they are: background, blocks, carousel, filter, image, physics and text. A physics group in a React library is unusual, and it is the reason to look.\n\nEverything is free and MIT. The repository danielpetho/fancy carries 3,101 stars and 111 forks, and the sitemap holds 45 documentation URLs.\n\nOne caveat sits in the metadata. The repository was last pushed on 2026-03-14, more than five months before this record was written, while the site still describes the library as growing. Treat it as stable rather than active.",
+  "category": "motion-interaction",
+  "subcategory": "animated-components",
+  "kinds": [
+   "animation-library",
+   "component-library",
+   "block-collection"
+  ],
+  "facets": {
+   "framework": [
+    "react"
+   ],
+   "styling": [
+    "tailwind-any"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "copy-paste",
+    "github-repo",
+    "npm-package"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "llms-txt",
+    "structured-docs",
+    "copy-paste-ready",
+    "open-source-code"
+   ],
+   "maturity": "stable"
+  },
+  "pricing_detail": "Free and MIT. No account, no paid tier and no sponsor slot on the page.",
+  "agent_guidance": "Search by effect, not by widget. The docs group on background, blocks, carousel, filter, image, physics and text, so a brief like \"make this text land with weight\" maps to a group rather than to a component name.\n\nThe physics group is the one worth reading first. Almost nothing else in this corpus ships drag, throw and collision behaviour as ready React pieces.\n\nCheck the commit date before you promise support. The repository was last pushed on 2026-03-14 while the site still calls the library growing. It is MIT, so a stale dependency is fixable, but do not expect a maintainer to answer.",
+  "why_it_matters": "Component libraries ship the widget and leave the character to the designer. This one ships only the character, under MIT, which makes it the piece most kits are missing.",
+  "quality_tier": "B",
+  "tier_reason": "A well-organised MIT effect library at 3,101 stars, grouped by behaviour in a way that fits how a brief is actually worded, with a physics group that is genuinely rare. Held at B because the repository has not moved since 2026-03-14 while the site still claims growth, the site states no component count, and it names no accessibility position.",
+  "notable_for": [
+   "3,101 GitHub stars, MIT",
+   "grouped by physics, text, image and background",
+   "a physics group of React components",
+   "45 documentation pages",
+   "no repository activity since 2026-03-14"
+  ],
+  "evidence": "https://www.fancycomponents.dev/ 200, 29 KB; the page reads \"Fancy Components — Make your website fancy with a growing library of ready-to-use react components & microinteractions. free & open source\" and links \"Check docs\" and \"★ on GitHub\" to https://github.com/danielpetho/fancy. https://www.fancycomponents.dev/llms.txt 200 and /sitemap.xml 200 with 45 URLs, whose component paths include docs/components/background, /blocks, /carousel, /filter, /image and /physics. GitHub API for danielpetho/fancy: 3,101 stars, 111 forks, MIT, homepage https://fancycomponents.dev, pushed 2026-03-14, which is five months before this check while the site still describes the library as growing."
+ },
+ {
+  "id": "user:8277c8a45fdf99eb",
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://cuedesign.space/llms.txt",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-29",
+  "source": "user",
+  "slug": "cue-design",
+  "url": "https://cuedesign.space",
+  "name": "Cue",
+  "tagline": "Hand-picked component references from Awwwards-tier sites, each shipping an AI prompt, sold once for a lifetime",
+  "description": "Cue sells taste rather than code. Every entry is a component reference the founder picked by hand from an Awwwards Site of the Day, a Behance-featured interaction, or a component shipped in production. The stated standard is taste, not volume: when a better reference for the same pattern appears, the old one is replaced rather than kept.\n\nWhat ships today is an AI prompt for every component, written to paste into Bolt, v0, Cursor, Framer AI, ChatGPT or Claude. The site names two things as coming: React source for the top items, usable as a Framer code component, and an MCP server for native access from Cursor, Claude Desktop or any MCP-aware tool. Cue hosts nothing, deploys nothing and runs no model of its own. It calls itself the taste layer above the tools a builder already uses.\n\nIt is a one-time purchase and not a subscription. Founding pricing is 99 US dollars for a lifetime licence, capped at the first 50 members, and the standard price after that is 249 US dollars. The library needs JavaScript, and the sitemap holds a single URL, so the catalogue is invisible to a plain fetch.",
+  "category": "agent-design-tooling",
+  "subcategory": "prompts-and-feedback",
+  "kinds": [
+   "prompt-pack",
+   "gallery",
+   "reference"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "framer"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "commercial",
+    "proprietary"
+   ],
+   "pricing": [
+    "one-time",
+    "paid",
+    "account-required"
+   ],
+   "distribution": [
+    "web-app",
+    "gallery"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "prompts",
+    "screenshots",
+    "code"
+   ],
+   "agent_readiness": [
+    "llms-txt",
+    "copy-prompt",
+    "agent-paywalled",
+    "js-only-shell"
+   ],
+   "maturity": "beta"
+  },
+  "pricing_detail": "A one-time purchase, not a subscription. Founding pricing is 99 US dollars for a lifetime licence, limited to the first 50 members. The standard price after that cap is 249 US dollars. Prices include applicable tax, and Indian GST is included in the INR price at checkout. The currency is selected automatically.",
+  "agent_guidance": "Copy the prompt, do not fetch the component. What Cue ships today is a written prompt for each entry, aimed at Bolt, v0, Cursor, Framer AI, ChatGPT and Claude. React source and an MCP server are announced but not shipped.\n\nDo not plan to read the catalogue. The site states plainly that it needs JavaScript to browse, and its sitemap holds one URL, so a plain fetch sees a shell. Only the llms.txt is readable, and it describes the product rather than listing the components.\n\nCheck the price cap before you quote it. The 99 dollar rate is capped at the first 50 members and the standard rate is 249 dollars, so state both and say which applies only while the cap holds.",
+  "why_it_matters": "Most prompt packs are written from nothing. This one attaches each prompt to a specific component that already won an Awwwards day, which is a stronger claim than any wording trick.",
+  "quality_tier": "C",
+  "tier_reason": "The editorial idea is sound and the llms.txt is the most candid in this corpus about what ships and what does not. Held at C because almost everything an agent needs is either paid or unbuilt: the catalogue is a JavaScript shell with a one-URL sitemap, the React source and the MCP server are both announced rather than delivered, no component count is published anywhere, and the site marks itself as a one-person product at an early stage.",
+  "notable_for": [
+   "references drawn from Awwwards and Behance",
+   "an AI prompt for every component",
+   "one-time 99 dollar founding price, capped at 50 members",
+   "React source and MCP server announced, not shipped",
+   "an llms.txt that separates shipped from coming"
+  ],
+  "evidence": "https://www.cuedesign.space/ 200, 12 KB, and the served HTML states \"This site needs JavaScript to browse the component library\", so the catalogue is a client-rendered shell; title \"Cue — Awwwards-tier component library for builders who want to stand out\". https://cuedesign.space/sitemap.xml 200 with one URL. https://www.cuedesign.space/llms.txt 200 and it states: \"Every entry is a component reference sourced from an Awwwards Site of the Day, a Behance-featured interaction, or a production-shipped output the founder considered best-of-class\", \"Cue is operated by an independent creator based in India. It is a one-time-purchase product, not a subscription. Founding pricing is USD $99 lifetime, capped at the first 50 members; the standard price after that is USD $249 lifetime\", \"Today: AI prompt for every component (works in Bolt, v0, Cursor, Framer AI, ChatGPT, Claude)\", \"Coming: React source code for the top items (drop-in as Framer Code Component too)\", \"Coming: MCP server — native access from Cursor / Claude Desktop / any MCP-aware AI tool\", and \"Cue does not host projects, does not deploy code, and does not run an AI model itself — it is the taste layer on top of the AI tools people already use\". No component count appears in the HTML or the llms.txt."
+ },
+ {
+  "id": "user:3b69315905eb4019",
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-29",
+  "source": "user",
+  "slug": "watermelon-design",
+  "url": "https://watermelon.sh",
+  "name": "Watermelon",
+  "tagline": "The design-services company behind the Watermelon UI kit, selling systems and a design partner rather than a library",
+  "description": "Watermelon sells design to early-stage startups as an ongoing service. The company frames the problem in its own words: a founder hires a freelancer who disappears, buys a UI kit that does not match the product, and loses three months building a design system. Watermelon offers one platform instead, combining services, systems and inspiration.\n\nThis record covers the company site. The component library it publishes already sits in this corpus twice, as watermelon-ui and watermelon-ui-dashboards at ui.watermelon.sh, and the X account sits here as a third record. The root domain is a separate thing: it sells the engagement, not the kit.\n\nThe site publishes a sitemap but no llms.txt.",
+  "category": "studios-portfolios",
+  "subcategory": "product-and-web-studios",
+  "kinds": [
+   "studio",
+   "service",
+   "design-system-docs"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "not-applicable"
+   ],
+   "pricing": [
+    "paid",
+    "subscription"
+   ],
+   "distribution": [
+    "saas",
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "prose",
+    "profile"
+   ],
+   "agent_readiness": [
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "pricing_detail": "A paid design service for startups. The home page states no rate and no plan figure, and it sells an engagement rather than a product.",
+  "agent_guidance": "Do not confuse this with the component library. ui.watermelon.sh is the kit and it is already in this corpus as watermelon-ui. This record is the company that publishes it, and it sells design work.\n\nReach for it only when a brief asks who could do the design work, not when a brief asks for a component. Nothing here is installable.\n\nExpect no price. The site describes the problem and the offer and stops before a number, so any engagement starts with a conversation.",
+  "why_it_matters": "The kit already in this corpus makes more sense once you know a services company stands behind it. That explains why the components track one opinionated system rather than a general-purpose set.",
+  "quality_tier": "C",
+  "tier_reason": "Honest about the problem it sells against, and it gives the component library already indexed here its context. Held at C because the site is marketing prose with nothing an agent can use: no price, no case studies on the landing page, no llms.txt, and no artefact to install or read.",
+  "notable_for": [
+   "the company behind the Watermelon UI kit",
+   "design as an ongoing service for startups",
+   "systems, services and inspiration on one platform",
+   "no price on the site",
+   "no llms.txt"
+  ],
+  "evidence": "https://watermelon.sh/ 200, 30 KB, and it does not redirect to ui.watermelon.sh; title \"Watermelon | Design Infrastructure for Modern Startups\"; the page reads \"Building the design infrastructure for modern startups\", \"We started Watermelon because we saw the same problem everywhere — startups move fast, but design becomes the bottleneck\", \"You hire a freelancer who disappears. You buy a UI kit that doesn't match your product. You spend three months building a design system\", and \"we built Watermelon — a unified design ecosystem that combines services, systems, and inspiration into one platform. Not another tool. An infrastructure.\" https://watermelon.sh/sitemap.xml 200 and https://watermelon.sh/llms.txt 404. The corpus already holds ui.watermelon.sh as watermelon-ui and watermelon-ui-dashboards, and the X account as watermelon-ui-x-profile, so this record is the company and not the kit."
+ }
+]

@@ -1,0 +1,854 @@
+[
+ {
+  "id": "user:d942f916cfbc372d",
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://penpot.dev/llms-full.txt",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-30",
+  "source": "user",
+  "slug": "penpot",
+  "url": "https://penpot.app",
+  "name": "Penpot",
+  "tagline": "The open-source design platform, self-hostable with Docker, shipping native design tokens and an MCP server",
+  "description": "Penpot is a design platform you can host yourself. It is open source, free to use, and registered as a Digital Public Good, which puts it in a different category from every other design tool in this corpus.\n\nThree things matter to this corpus. It has native design tokens rather than a plugin that fakes them, so a component library and a Penpot file can share one source of truth. It runs an MCP server for agent integration, and the documented workflows run both ways: design to code and code to design. And it can be deployed anywhere with Docker, so the files never have to leave your own infrastructure.\n\nThe pricing is published in the llms.txt, which is rare: a free tier at zero, Unlimited at 7 dollars a user capped at 175 dollars a month, Enterprise at 25 dollars a user with a 950 dollar monthly minimum, and a Private Server at 50,000 dollars a year.\n\nThe compliance list is stated as GDPR, HIPAA compatible, FedRAMP deployable and SOC2 compatible, with AES-256 and TLS 1.2 or later. A fuller reference sits at penpot.dev/llms-full.txt.",
+  "category": "agent-design-tooling",
+  "subcategory": "ai-design-apps",
+  "kinds": [
+   "tool",
+   "mcp-server",
+   "design-system-docs"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "css-variables"
+   ],
+   "license": [
+    "mpl-2.0"
+   ],
+   "pricing": [
+    "freemium",
+    "open-source",
+    "subscription",
+    "account-required"
+   ],
+   "distribution": [
+    "web-app",
+    "mcp-server",
+    "public-api",
+    "github-repo",
+    "download"
+   ],
+   "platform": [
+    "web",
+    "cross-platform"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "design-tokens",
+    "code",
+    "figma"
+   ],
+   "agent_readiness": [
+    "mcp-server",
+    "llms-txt",
+    "public-api",
+    "structured-docs",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "pricing_detail": "Published openly in the llms.txt. Free tier at 0 dollars. Unlimited at 7 dollars a user, capped at 175 dollars a month. Enterprise at 25 dollars a user with a 950 dollar monthly minimum. Private Server at 50,000 dollars a year. Self-hosting is free and unlimited.",
+  "agent_guidance": "Use the MCP server for design work, not a screenshot. Penpot documents design-to-code and code-to-design as agent workflows, so a model reads and writes the file rather than looking at a picture of it.\n\nTake the design tokens seriously. They are native to the platform, not a plugin, so tokens defined in Penpot map straight onto CSS variables in a component library.\n\nRecommend self-hosting when the work is sensitive. Docker deployment is documented and the compliance list names GDPR, HIPAA, FedRAMP and SOC2, which is why this beats a hosted tool for regulated clients.\n\nRead penpot.dev/llms-full.txt for depth. The short llms.txt is a map and it names the full file.",
+  "why_it_matters": "Every other design tool here keeps your files on someone else's server and your tokens in a plugin. Penpot puts both under your control and adds an MCP server on top.",
+  "quality_tier": "S",
+  "tier_reason": "Open source, self-hostable with Docker, with native design tokens and a documented MCP server running design-to-code and code-to-design. It publishes an llms.txt and a fuller llms-full.txt, states every price outright, and names its compliance position. Nothing else in this corpus gives an agent a writable design tool that the user also owns.",
+  "notable_for": [
+   "open source and self-hostable with Docker",
+   "MCP server with design-to-code and code-to-design",
+   "native design tokens, not a plugin",
+   "prices published in the llms.txt",
+   "registered as a Digital Public Good"
+  ],
+  "evidence": "https://penpot.app/ 200, 1.41 MB; title \"Penpot: The open-source design platform for teams\"; the navigation holds Product, Self-host, \"AI Workflows\", Features, \"Release notes\", \"Integration & API\", Business Cases, Community, Learning Center, Plugins, \"Libraries & Templates\" and Pricing. https://penpot.app/llms.txt 200 at 2,710 bytes, and a control request to a nonsense path returns a different body, so the file is real. It reads \"Penpot is the open-source design platform for teams that need scalable collaboration. It connects design, code, and AI workflows through open standards, self-hosting options, design systems capabilities, and open API integrations. Penpot is a Digital Public Good, free to use, and self-hostable.\", names \"Full content reference for AI systems: llms-full.txt\" at penpot.dev/llms-full.txt, states \"Pricing: Free tier ($0), Unlimited ($7/user, cap $175/mo), Enterprise ($25/user, min $950/mo), Private Server ($50k/yr)\", \"Self-host: Deploy anywhere with Docker — full infrastructure control\", \"Security & Compliance: GDPR, HIPAA compatible, FedRAMP deployable, SOC2 compatible, AES-256, TLS 1.2+\", \"Design Systems: Components, libraries, and native design tokens\", \"AI Workflows: MCP Server integration, design-to-code, code-to-design, and agent workflows\" and \"MCP Server: Penpot's Model Context Protocol server for AI agent integration\". /sitemap.xml 200. Listed under Interface on designengineer.tools."
+ },
+ {
+  "id": "user:4e6422ff7e1b6866",
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://stitch.withgoogle.com/llms.txt",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-30",
+  "source": "user",
+  "slug": "stitch-google",
+  "url": "https://stitch.withgoogle.com",
+  "name": "Stitch by Google Labs",
+  "tagline": "Google Labs' AI interface designer, driven by adjectives, that outputs editable Figma files and HTML with CSS",
+  "description": "Stitch is Google Labs' AI interface design tool. It generates high-fidelity UI from a natural language prompt, a sketch, or a set of mood adjectives, and it outputs editable Figma files and frontend HTML and CSS.\n\nThe tool splits itself into two ideas. Vibe Design turns an aesthetic description into a visual system: adjectives like playful, industrial, Japandi or retro-futurist drive the styling, and a phrase like warm and inviting or trustworthy and clinical generates a colour scheme and a typographic hierarchy. It then harmonises the generated imagery, icons and components against that theme.\n\nVibe Coding is the other half: a prompt becomes semantic HTML and CSS, refinement happens through conversation rather than editing, and a rough hand-drawn sketch converts to a coded interface.\n\nWorking from adjectives is the unusual part. Most AI design tools take a functional brief. This one takes the words a client actually uses, which is where a real conversation about design starts.",
+  "category": "agent-design-tooling",
+  "subcategory": "ai-design-apps",
+  "kinds": [
+   "ai-tool",
+   "generator",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "vanilla-css"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "freemium",
+    "account-required"
+   ],
+   "distribution": [
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code",
+    "figma",
+    "screenshots",
+    "design-tokens"
+   ],
+   "agent_readiness": [
+    "llms-txt",
+    "structured-docs",
+    "auth-required"
+   ],
+   "maturity": "beta"
+  },
+  "pricing_detail": "A Google Labs product, so an account is needed. No price appears on the page or in the llms.txt, and Labs products usually carry usage limits rather than a published rate.",
+  "agent_guidance": "Feed it adjectives, not specifications. The tool is built to take words like playful, industrial or Japandi and turn them into a palette and a type hierarchy, which is the opposite of how most AI design tools expect a brief.\n\nTake the Figma export when a designer continues the work, and the HTML and CSS export when a developer does. The site states both are produced, and the Figma output is editable rather than flattened.\n\nUse sketch-to-UI for an existing drawing. Uploading a rough sketch is a documented path, so a whiteboard photograph is a valid starting point.\n\nExpect a Labs product. It is marked as an experiment, so treat availability and limits as subject to change.",
+  "why_it_matters": "Clients describe design in adjectives and tools demand specifications. This one closes that gap directly, and it hands back an editable Figma file rather than a picture.",
+  "quality_tier": "A",
+  "tier_reason": "A clear and unusual idea, executed by Google Labs, with a real llms.txt that documents both halves of the product and outputs an editable Figma file as well as HTML and CSS. Held below S because it is a Labs experiment with no published price, no API, no MCP server and no agent skill, so an agent cannot drive it.",
+  "notable_for": [
+   "design driven by adjectives and mood",
+   "outputs editable Figma files",
+   "sketch to coded interface",
+   "prompt to semantic HTML and CSS",
+   "a Google Labs experiment"
+  ],
+  "evidence": "https://stitch.withgoogle.com/ 200, 25 KB; title \"Stitch - Design with AI\". /llms.txt 200 at 3,091 bytes and not a catch-all: it reads \"Stitch is the premier AI-powered interface design tool for Vibe Coding and Vibe Design. It allows users to generate high-fidelity UI designs, editable Figma files, and frontend code (HTML/CSS) using natural language prompts, sketches, and mood-based adjectives.\"; under Vibe Design it names \"Adjective-Driven Styling\" with the examples playful, industrial, Japandi and retro-futurist, \"Mood-Based Palettes\" with the examples \"warm and inviting\" and \"trustworthy and clinical\", and \"Visual Consistency\"; under Vibe Coding it names \"Prompt-to-Code\" producing semantic HTML and CSS, \"Iterative Refinement\" through conversational loops, and \"Sketch-to-UI\" from hand-drawn uploads. /sitemap.xml 200. Listed under Interface on designengineer.tools."
+ },
+ {
+  "id": "user:d4e66779686f4a68",
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://www.are.na/developers/all.md",
+  "repo_url": null,
+  "registry_url": "https://api.are.na/v3/openapi.json",
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "feed",
+   "single-item-detail",
+   "public-profile",
+   "search-results"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-30",
+  "source": "user",
+  "slug": "are-na",
+  "url": "https://www.are.na",
+  "name": "Are.na",
+  "tagline": "Fifteen years of channel-based research collection, with a documented v3 API and a public OpenAPI spec",
+  "description": "Are.na is where people collect and connect things: images, text, links and files gathered into channels, and channels connected to each other. It has run for fifteen years and it describes its users as students, designers, academics, collectors and researchers who defy categorisation.\n\nThe model is the point. A block can live in many channels at once, so the same image sits in three different lines of thought without being copied. That is closer to how research actually works than a folder is.\n\nFor this corpus the API is the reason to record it. Version 3 is documented, and the developer surface is unusually complete: an OpenAPI specification at api.are.na/v3/openapi.json, a full markdown reference at /developers/all.md, a compact markdown reference at /developers/all-compact.md, an explorable docs page, a dedicated developer sitemap and an llms.txt that indexes all of it. The llms.txt states plainly that it covers the API and not the website.\n\nThere is a mobile app beside the web version.",
+  "category": "inspiration-galleries",
+  "subcategory": "directories-and-meta-indexes",
+  "kinds": [
+   "tool",
+   "app",
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium",
+    "subscription",
+    "account-required"
+   ],
+   "distribution": [
+    "web-app",
+    "public-api",
+    "mobile-app"
+   ],
+   "platform": [
+    "web",
+    "ios"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "images",
+    "prose",
+    "dataset"
+   ],
+   "agent_readiness": [
+    "public-api",
+    "llms-txt",
+    "structured-docs",
+    "auth-required"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "pricing_detail": "Free to sign up, with a paid tier that lifts limits. No figure appears on the front page. The API needs an account.",
+  "agent_guidance": "Take the compact markdown reference first: https://www.are.na/developers/all-compact.md. Are.na publishes both a full and a compact version, and the compact one is built for a context window.\n\nUse the OpenAPI spec at api.are.na/v3/openapi.json when you need exact shapes. It is a real specification, not a docs page.\n\nRead the llms.txt caveat. It says outright that it documents the API and not the website, so do not expect it to describe the product.\n\nModel a block as belonging to many channels. That is the core of the data model, and treating a channel as a folder will produce the wrong queries.",
+  "why_it_matters": "Fifteen years of collected research with a documented API and a compact markdown reference is a rare combination. Most inspiration tools give an agent nothing but pictures.",
+  "quality_tier": "A",
+  "tier_reason": "A fifteen-year-old platform with a genuinely complete developer surface: a v3 API, a public OpenAPI specification, full and compact markdown references, a developer sitemap and an llms.txt that indexes them and states its own scope. Held below S because an account gates the content, no price is published on the front page, and the collection is user-generated with no editorial standard.",
+  "notable_for": [
+   "channels that a block can belong to many of",
+   "public v3 API with an OpenAPI spec",
+   "full and compact markdown references for models",
+   "llms.txt states it covers the API, not the site",
+   "running for fifteen years"
+  ],
+  "evidence": "https://www.are.na/ 200, 147 KB; the page reads \"Are.na is Online software for saving and organizing the content that is important to you\", \"A toolkit for assembling new worlds from the scraps of the old\" and \"For the last 15 years and 21 days, Are.na has been a place for students, designers, academics, collectors, researchers, and many other people who defy categorization to share and connect ideas.\", with Sign up, Log in and \"Download the app\" controls. https://www.are.na/llms.txt 200 at 9,931 bytes and not a catch-all: it reads \"Users collect content — images, text, links, files — into channels, building personal and collaborative knowledge networks\", declares \"Version: 3.0.0\" and \"This document covers the Are.na developer API. It does not describe the full website.\", and lists API docs at /developers/explore, the OpenAPI spec at https://api.are.na/v3/openapi.json, a full markdown reference at /developers/all.md, a compact markdown reference at /developers/all-compact.md and a developer sitemap at /developers/sitemap.xml. /sitemap.xml 404. Listed under Organization on designengineer.tools."
+ },
+ {
+  "id": "user:fabb6378507d559c",
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": "tldraw",
+  "docs_url": "https://tldraw.dev/llms.txt",
+  "repo_url": "https://github.com/tldraw/tldraw",
+  "registry_url": null,
+  "github": {
+   "stars": 50033,
+   "license": "source-available",
+   "last_activity": "2026-08-28"
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "components": [
+   "agent-canvas",
+   "toolbar",
+   "context-menu",
+   "drag-and-drop",
+   "color-picker"
+  ],
+  "component_count": null,
+  "surfaces": [
+   "kanban-board",
+   "single-item-detail"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-30",
+  "source": "user",
+  "slug": "tldraw",
+  "url": "https://tldraw.com",
+  "name": "tldraw",
+  "tagline": "A collaborative whiteboard and the SDK behind it, at 50,000 stars, with a 21 KB llms.txt covering every feature",
+  "description": "tldraw is two things under one name. tldraw.com is a free collaborative whiteboard that opens instantly with no account. tldraw.dev is the SDK, and that is the half this corpus cares about.\n\nThe SDK builds a canvas into your own product. Its documented feature list is long and specific: accessibility, actions, animation, assets, attribution, bindings, a camera system, click detection, clipboard and collaboration, and it continues past those. A canvas is one of the hardest interfaces to build well, and this one is solved and shipping.\n\nThe repository carries 50,033 stars and was pushed on 2026-08-28.\n\nRead the licence before you ship. It is not open source in the usual sense: the software is copyrighted by tldraw Inc., using it means accepting their terms, and alternative commercial and non-commercial licences are sold separately. GitHub reports the licence as unrecognised for that reason.\n\ntldraw.dev publishes a 21 KB llms.txt indexing every SDK feature page.",
+  "category": "component-libraries",
+  "subcategory": "react-component-libraries",
+  "kinds": [
+   "tool",
+   "component-library",
+   "app"
+  ],
+  "facets": {
+   "framework": [
+    "react"
+   ],
+   "styling": [
+    "vanilla-css"
+   ],
+   "license": [
+    "source-available"
+   ],
+   "pricing": [
+    "freemium",
+    "paid"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo",
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "claimed-accessible"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "llms-txt",
+    "structured-docs",
+    "cli-installable",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "pricing_detail": "The whiteboard at tldraw.com is free with no account. The SDK carries tldraw's own licence, not an open-source one, and alternative commercial and non-commercial licences are sold by tldraw Inc. No figure is published.",
+  "agent_guidance": "Separate the two domains. tldraw.com is the app and tldraw.dev is the SDK, and only the second one matters when you are building.\n\nRead https://tldraw.dev/llms.txt first. It is 21 KB and indexes every SDK feature page by name, so you reach the right document without crawling.\n\nCheck the licence before you ship commercially. The repository is not MIT: the code is copyrighted by tldraw Inc., the licence binds you by use, and separate commercial terms are sold. GitHub cannot classify it.\n\nReach for it whenever a brief needs a canvas. Camera, bindings, click detection and collaboration are the parts that sink a hand-built canvas, and all four are documented features here.",
+  "why_it_matters": "A collaborative canvas is one of the most expensive interfaces to build from nothing. This is the one production-grade answer in the corpus, and its documentation is written for a model to read.",
+  "quality_tier": "A",
+  "tier_reason": "A canvas SDK at 50,033 stars, pushed within days, with a 21 KB llms.txt that indexes every feature page and an accessibility page among them. Held below S because the licence is source-available rather than open: tldraw Inc. holds copyright, use implies acceptance, commercial terms are sold separately and no price is published.",
+  "notable_for": [
+   "50,033 GitHub stars",
+   "SDK docs with a 21 KB llms.txt",
+   "camera, bindings, collaboration and click detection documented",
+   "source-available licence, not MIT",
+   "the app is free with no account"
+  ],
+  "evidence": "https://tldraw.com/ 200, 14 KB client-rendered; the served text reads \"tldraw • very good free whiteboard\" and \"tldraw - free and instant collaborative whiteboarding\". https://tldraw.dev/ 200 at 294 KB and https://tldraw.dev/llms.txt 200 at 20,928 bytes, headed \"# tldraw SDK\" and listing SDK feature pages including accessibility, actions, animation, assets, attribution, bindings, camera, click-detection, clipboard and collaboration. GitHub API for tldraw/tldraw: 50,033 stars, licence reported as NOASSERTION, pushed 2026-08-28. LICENSE.md reads \"This License from tldraw, Inc. ('tldraw') governs your use of the accompanying Software. By using the Software, you accept the terms of this License. The tldraw software is copyrighted by tldraw Inc. Alternative licenses are available from tldraw for commercial and non-commercial\" use. Listed under Whiteboard on designengineer.tools."
+ },
+ {
+  "id": "user:946feff58ccee67f",
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": "@excalidraw/excalidraw",
+  "docs_url": null,
+  "repo_url": "https://github.com/excalidraw/excalidraw",
+  "registry_url": null,
+  "github": {
+   "stars": 130796,
+   "license": "MIT",
+   "last_activity": "2026-08-30"
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "components": [
+   "agent-canvas",
+   "toolbar",
+   "context-menu",
+   "drag-and-drop",
+   "color-picker"
+  ],
+  "component_count": null,
+  "surfaces": [],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-30",
+  "source": "user",
+  "slug": "excalidraw",
+  "url": "https://excalidraw.com",
+  "name": "Excalidraw",
+  "tagline": "The hand-drawn whiteboard at 130,796 stars and MIT, pushed the same day this record was written",
+  "description": "Excalidraw is a virtual whiteboard that renders everything in a hand-drawn style. That style is a design decision, not a gimmick: a sketchy box reads as provisional, so people argue about the idea instead of the pixel alignment. It is the reason Excalidraw is the default tool for a system diagram that is still being decided.\n\nThe repository carries 130,796 stars, which makes it one of the most starred design tools anywhere, it is MIT licensed, and it was pushed on 2026-08-30, the day this record was written.\n\nMIT matters here. The whole editor can be embedded in your own product with no licence negotiation, which separates it from tldraw.\n\nThe hosted app at excalidraw.com is a client-rendered shell of about 7 KB, and its /llms.txt returns the same body as a nonsense path, so there is no agent file on that domain.",
+  "category": "component-libraries",
+  "subcategory": "react-component-libraries",
+  "kinds": [
+   "tool",
+   "app",
+   "component-library"
+  ],
+  "facets": {
+   "framework": [
+    "react"
+   ],
+   "styling": [
+    "vanilla-css"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source",
+    "freemium"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo",
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code",
+    "images"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "cli-installable",
+    "js-only-shell"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "pricing_detail": "The editor is free and MIT. A paid hosted tier, Excalidraw Plus, sells collaboration features separately. Embedding the open-source editor costs nothing.",
+  "agent_guidance": "Embed the package when a brief needs a diagram surface: `@excalidraw/excalidraw`. It is MIT, so there is no licence conversation, which is the practical difference from tldraw.\n\nChoose it over tldraw when the drawing should look unfinished. The hand-drawn rendering signals that a diagram is still a draft, and that changes how people respond to it.\n\nDo not fetch excalidraw.com for information. It is a 7 KB client-rendered shell and its llms.txt returns the same body as a nonsense path. Read the repository instead.",
+  "why_it_matters": "The hand-drawn style is the feature. A rough diagram invites an argument about the idea, and a crisp one invites an argument about the layout.",
+  "quality_tier": "A",
+  "tier_reason": "MIT, embeddable, at 130,796 stars and pushed the same day this record was written, with a deliberate visual decision that changes how a diagram is received. Held below S because the hosted domain publishes no real llms.txt and serves a 7 KB shell, so all the machine-readable value sits in the repository rather than on the site.",
+  "notable_for": [
+   "130,796 GitHub stars, MIT",
+   "hand-drawn rendering as a deliberate decision",
+   "embeddable as @excalidraw/excalidraw",
+   "pushed 2026-08-30",
+   "site llms.txt is a catch-all"
+  ],
+  "evidence": "https://excalidraw.com/ 200 but only 6,862 bytes; the served text reads \"Excalidraw Whiteboard — You need to enable JavaScript to run this app.\" /llms.txt answers 200 with the same body as a nonsense path, so it is a catch-all. /sitemap.xml 200. GitHub API for excalidraw/excalidraw: 130,796 stars, MIT, pushed 2026-08-30. Listed under Whiteboard on designengineer.tools."
+ },
+ {
+  "id": "user:a36a924ddecdf6b8",
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-30",
+  "source": "user",
+  "slug": "cavalry",
+  "url": "https://cavalry.studio",
+  "name": "Cavalry",
+  "tagline": "Professional real-time 2D animation and motion graphics software for Mac and Windows, free to download",
+  "description": "Cavalry is 2D animation and motion graphics software that runs in real time. It is professional software given away free for the standard licence, with a separate Enterprise offer.\n\nReal-time is the claim that matters. Motion graphics tools usually make you render before you can judge a change, and removing that wait changes how a designer iterates.\n\nThe site shows work from named practitioners and studios rather than stock examples, Studio Feixen among them, so the quality bar is visible on the front page. Features, Learn and Support sections sit behind the download.\n\nThe domain moved. designengineer.tools lists cavalry.scenegroup.co, which now redirects to cavalry.studio. A request for /llms.txt returns the same body as the home page, so no agent file exists.",
+  "category": "motion-interaction",
+  "subcategory": "animation-engines",
+  "kinds": [
+   "tool",
+   "generator"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "free",
+    "freemium",
+    "account-required"
+   ],
+   "distribution": [
+    "desktop-app",
+    "download"
+   ],
+   "platform": [
+    "macos",
+    "windows",
+    "desktop"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "video",
+    "images"
+   ],
+   "agent_readiness": [
+    "js-only-shell"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "pricing_detail": "Free to download for the standard licence, with an Enterprise tier quoted separately. No figure appears on the front page.",
+  "agent_guidance": "Send a person. This is desktop software for Mac and Windows with no API, no package and no agent surface, so an agent can name it but cannot drive it.\n\nUse the current domain, cavalry.studio. The address on designengineer.tools, cavalry.scenegroup.co, now redirects there.\n\nRecommend it over a subscription tool when cost is the blocker. Professional motion graphics software at no cost for the standard licence is unusual, and the real-time playback is the working difference.",
+  "why_it_matters": "Professional motion graphics software normally costs a monthly fee. This one is free, runs in real time, and shows work from studios that would otherwise be its customers.",
+  "quality_tier": "B",
+  "tier_reason": "Real professional software, free for the standard licence, with real-time playback and named studio work on the front page. Held at B because there is nothing for an agent: desktop only, no API, no package, no llms.txt, and no price for the Enterprise tier.",
+  "notable_for": [
+   "free professional motion graphics software",
+   "real-time animation, no render wait",
+   "Mac and Windows",
+   "work shown from Studio Feixen and other named studios",
+   "moved from cavalry.scenegroup.co to cavalry.studio"
+  ],
+  "evidence": "https://cavalry.scenegroup.co/ 200, 104 KB, redirecting to https://cavalry.studio/en/; title \"Free 2D animation & motion graphics software for Mac and Windows | Cavalry\"; the page reads \"Motion design reinvented — Professional, real-time animation software. For free.\" with \"Download for free\" and \"Get for Enterprise\" controls, the navigation Get Cavalry, Features, Learn and Support, a \"Reduce motion\" control, and credited work from @pathengart, @marsio.bellizzi, @bareis.nicolaus, @hannah.sun__, @studiofeixen, @antonin.work, @ashfall_studio and @fafa_motion. /llms.txt returns the same body as the home page, so it is a catch-all. Listed under Motion on designengineer.tools."
+ },
+ {
+  "id": "user:441e4328d4269407",
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "onboarding-mobile",
+   "splash-screen",
+   "homepage"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-30",
+  "source": "user",
+  "slug": "lottielab",
+  "url": "https://lottielab.com",
+  "name": "Lottielab",
+  "tagline": "A Lottie animation editor for product teams, used by a stated 500,000 designers, that ships straight to apps and sites",
+  "description": "Lottielab creates and edits Lottie animations and ships them to applications and websites. It calls itself the motion design tool for product teams, and it states 500,000 or more designers as users.\n\nEditing is the part that matters. Lottie is the standard format for vector animation in a product, and most teams produce it in After Effects through an export plugin, which means a small change costs a round trip through a video tool. An editor that opens the Lottie file directly removes that.\n\nThe examples on the page name the real jobs: a brand logo, a second version of it, an onboarding animation and two advertisement creatives. Templates and case studies sit beside a pricing page.\n\nIt publishes no llms.txt and no sitemap: both paths return the same body as a nonsense path.",
+  "category": "motion-interaction",
+  "subcategory": "animation-engines",
+  "kinds": [
+   "tool",
+   "generator",
+   "animation-library"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "freemium",
+    "subscription",
+    "account-required"
+   ],
+   "distribution": [
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "video",
+    "code",
+    "images"
+   ],
+   "agent_readiness": [
+    "js-only-shell",
+    "auth-required"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "pricing_detail": "Freemium with a stated \"Get started for free\" path and a pricing page. No figure appears in the served HTML. An account is needed to edit.",
+  "agent_guidance": "Reach for it when a Lottie file needs a change and nobody has After Effects. Editing the Lottie directly is the whole point, and it removes the export round trip.\n\nTake the output as a Lottie JSON file. That is the shipping format for vector animation in a product, and it plays on web, iOS and Android from the same file.\n\nSend a person to make the animation. The tool is a browser application behind an account, with no API and no agent surface, so an agent can specify the animation but cannot produce it here.",
+  "why_it_matters": "Lottie is the format products actually ship motion in, and most teams can only produce it through After Effects. An editor that opens the file directly changes who on the team can make a change.",
+  "quality_tier": "B",
+  "tier_reason": "A real gap closed, editing Lottie without a video tool, with a stated user base of 500,000 and templates and case studies behind it. Held at B because an account gates the product, no price is published in the served HTML, and there is no API, no llms.txt and no sitemap, so an agent gets nothing.",
+  "notable_for": [
+   "edits Lottie files directly, no After Effects",
+   "stated 500,000 designers",
+   "ships to apps and websites",
+   "templates and case studies",
+   "no llms.txt and no sitemap"
+  ],
+  "evidence": "https://lottielab.com/ 200, 80 KB; title \"Lottielab | Create & edit Lottie animations\"; the page reads \"The motion design tool for product teams — Create and edit lottie animations, ship to your apps and websites\", \"Get started for free\" and \"Trusted by 500,000+ designers, from the world's most innovative companies\"; the sample timeline names \"Brand logo\", \"Brand logo V2\", \"Onboarding animation\", \"Ad creative version 1\" and \"Ad creative version 2\"; the navigation holds Templates, \"Case studies\", Pricing, Login and Sign up. /llms.txt and /sitemap.xml both 404 and return the same body as a nonsense path. Listed under Motion on designengineer.tools."
+ },
+ {
+  "id": "user:b483afbebf5215c2",
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-30",
+  "source": "user",
+  "slug": "eagle-app",
+  "url": "https://en.eagle.cool",
+  "name": "Eagle",
+  "tagline": "A desktop library for design files, sold once, that collects and searches images across Windows and Mac",
+  "description": "Eagle organises design files on your own machine. It collects, searches and files images so that a reference found months ago can be found again, and its own line is that organising design files has never been easier.\n\nLocal storage is the argument. Are.na and Cosmos keep your references on someone else's server and need a connection. Eagle keeps them on your disk, so the library survives a service closing and works with no network.\n\nA browser extension feeds it, which is how most references arrive in practice.\n\nVersion 4.0.0 Build 23 is dated 2026-04-01, and builds exist for Windows 10 or later and for Mac. It is paid software, bought outright rather than by subscription. The site publishes a sitemap but no llms.txt.",
+  "category": "utilities-naming",
+  "subcategory": "apps-and-references",
+  "kinds": [
+   "tool",
+   "app"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "one-time",
+    "paid",
+    "free-trial"
+   ],
+   "distribution": [
+    "desktop-app",
+    "download",
+    "browser-extension"
+   ],
+   "platform": [
+    "windows",
+    "macos",
+    "desktop"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "images",
+    "screenshots"
+   ],
+   "agent_readiness": [
+    "none"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "pricing_detail": "Paid, bought once rather than by subscription, through a \"Buy Now\" control. No figure appears on the front page. A trial is offered through the free download.",
+  "agent_guidance": "Recommend it when the reference library must not depend on a service. Files live on the user's disk, so the library keeps working with no network and survives any platform closing.\n\nPair it with the browser extension. That is how references actually get collected, and the extension is the difference between a library that grows and one that does not.\n\nDo not plan to read it. Eagle is desktop software with no API and no agent surface, so an agent can recommend it and nothing more.",
+  "why_it_matters": "Every other reference tool in this corpus keeps your collection on a server you do not control. This one keeps it on your disk, which is the whole argument for buying it.",
+  "quality_tier": "C",
+  "tier_reason": "Maintained desktop software with a current build and a browser extension that makes collecting practical, and local storage is a real advantage over the hosted alternatives. Held at C because there is nothing here for an agent: no API, no llms.txt, no web surface, and no published price.",
+  "notable_for": [
+   "files stored locally, not on a service",
+   "browser extension for collecting",
+   "version 4.0.0 Build 23, dated 2026-04-01",
+   "Windows 10 or later and Mac",
+   "bought once rather than by subscription"
+  ],
+  "evidence": "https://en.eagle.cool/ 200, 477 KB; title \"Eagle - Organize design files has never been easier\"; the page reads \"Eagle 4 Highlights — Organizing design files has never been easier — A better way to collect, search and organize your design files in a logical way, all in one place.\" with \"Download for Windows v4.0.0 Build23 (2026-04-01)\", \"Supports Windows 10+\" and \"Download for Mac v4\"; the navigation holds Home, Extension, Blog, Resources, Support and \"Buy Now\". /sitemap.xml 200 and /llms.txt 404. Listed under Organization on designengineer.tools."
+ },
+ {
+  "id": "user:f16e219594f0e18b",
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "components": [
+   "button",
+   "text-effect",
+   "animation",
+   "transition",
+   "hero",
+   "scroll-reveal"
+  ],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "features"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-30",
+  "source": "user",
+  "slug": "framer-university",
+  "url": "https://framer.university",
+  "name": "Framer University",
+  "tagline": "Free Framer components and resources, each with a live preview, and an llms.txt that serves robots.txt by mistake",
+  "description": "Framer University collects free resources for Framer: components, effects and templates, each with a quick preview so the behaviour is visible before you take it. Named examples include a Shader Button component and a Blinds Text Reveal component.\n\nFramer is a design tool that publishes real websites, so a component here is a working artefact rather than a mockup. That places this record beside the code registries in this corpus rather than beside the galleries.\n\nThe site asks for feedback directly on the page, which suggests one person maintains it rather than a company.\n\nOne defect is worth recording. A request for /llms.txt answers 200 with the two lines `User-agent: *` and `Allow: /`. That is a robots.txt served at the llms.txt path, so the file exists but its content is wrong.",
+  "category": "blocks-templates-themes",
+  "subcategory": "page-blocks",
+  "kinds": [
+   "block-collection",
+   "component-library",
+   "directory"
+  ],
+  "facets": {
+   "framework": [
+    "framer"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "copy-paste",
+    "gallery"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code",
+    "screenshots"
+   ],
+   "agent_readiness": [
+    "copy-paste-ready",
+    "js-only-shell"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "pricing_detail": "Free. The site names itself around free resources and shows no paid tier or account requirement.",
+  "agent_guidance": "Reach for it only when the project is built in Framer. These are Framer components, so they do not transfer to a React or Tailwind codebase.\n\nUse the quick preview to judge behaviour. Every entry animates in place, which matters because the value here is motion rather than layout.\n\nIgnore /llms.txt. It answers 200 with robots.txt content, two lines reading `User-agent: *` and `Allow: /`, so it carries no index and the file is misconfigured.",
+  "why_it_matters": "Framer publishes real sites, so a free component here ships rather than sitting in a mockup. Very little else in this corpus serves that tool.",
+  "quality_tier": "C",
+  "tier_reason": "A useful free collection for a tool the corpus barely covers, with a live preview on every entry. Held at C because no count, licence or author is published, the page is a 1.7 MB client-rendered shell with no per-item route, and the llms.txt is misconfigured to serve robots.txt content.",
+  "notable_for": [
+   "free Framer components and resources",
+   "live preview on every entry",
+   "Shader Button and Blinds Text Reveal components",
+   "llms.txt serves robots.txt content",
+   "one of the few Framer resources indexed here"
+  ],
+  "evidence": "https://framer.university/ 200, 1.68 MB; title \"Best Free Framer Resources — Framer University\"; the page carries a feedback form reading \"How can I improve Framer Uni? Let me know if there's a missing feature or something that could be improved.\", and entries labelled \"Quick preview — Shader Button Component in Framer — Component\" and \"Blinds Text Reveal Component\"; the navigation repeats Resources and Components. https://framer.university/llms.txt answers 200 at 22 bytes with the body \"User-agent: *\\nAllow: /\", which is robots.txt content served at the llms.txt path. /sitemap.xml 200. Listed under Components on designengineer.tools."
+ }
+]

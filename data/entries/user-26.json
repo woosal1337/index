@@ -1,0 +1,87 @@
+[
+ {
+  "id": "user:1ab0c320494f4c76",
+  "slug": "visual-journal",
+  "url": "https://visualjournal.it",
+  "name": "Visual Journal",
+  "tagline": "One art director's blog of branding and graphic design, selected by personal research and a stated reductive, modernist eye",
+  "description": "Visual Journal is Alessandro Scarpellini's blog. He is an art director and design manager in Italy, and he describes his own visual language as reductive and modernist, working in strategy, branding and visual communication.\n\nThat declared position is the reason to read it. Most galleries hide their taste behind a submission queue. This one names the eye doing the selecting, so the collection is coherent and you know what it is coherent about.\n\nThe subject is branding and graphic design rather than interfaces: identity work, editorial design and visual communication, chosen through what he calls careful, personal research.\n\nSubmissions go by email, and he asks for a complete case study in a Drive or Dropbox folder organised into two sections. That is a higher bar than a form, and it explains why the collection stays small and consistent.\n\nThe site is a client-rendered shell of about 8.7 KB. It publishes no llms.txt and no sitemap.",
+  "category": "inspiration-galleries",
+  "subcategory": "site-galleries",
+  "kinds": [
+   "gallery",
+   "directory",
+   "profile"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "gallery"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "images",
+    "prose"
+   ],
+   "agent_readiness": [
+    "js-only-shell"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "pricing_detail": "Free to read, with no account. The site asks for support and takes submissions by email.",
+  "agent_guidance": "Reach for it for identity and editorial work, not for interfaces. The subject is branding and graphic design, so it answers a different brief from the site galleries in this corpus.\n\nRead the stated position before you use it. He names his language as reductive and modernist, so the collection argues for one aesthetic rather than covering the field.\n\nSend a person. The page is an 8.7 KB client-rendered shell with no llms.txt, no sitemap and no per-project route in the served HTML, so an agent cannot walk the projects.",
+  "why_it_matters": "A gallery that names its curator and their aesthetic is a stronger reference than one that hides behind a submission form, because you can judge the selection against a stated position.",
+  "quality_tier": "C",
+  "tier_reason": "Named curation with a declared aesthetic and a demanding submission standard, covering branding and editorial work that the interface galleries here do not. Held at C because nothing is machine-readable: an 8.7 KB shell, no llms.txt, no sitemap, no published total and no per-project route a fetch can reach.",
+  "notable_for": [
+   "curated by art director Alessandro Scarpellini",
+   "a declared reductive and modernist position",
+   "branding and editorial work, not interfaces",
+   "submissions need a full case study by email",
+   "8.7 KB shell, no llms.txt and no sitemap"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-30",
+  "source": "user",
+  "evidence": "https://visualjournal.it/ 200, 8,715 bytes client-rendered; title \"Visual Journal – Branding, Editorial and Graphic Design\"; the page reads \"Hello! I'm Alessandro Scarpellini, art director and design manager from Italy with a reductive and modernist visual language, specialized in strategy, branding, and visual communication. Visual Journal is my blog, where I showcase the finest branding and graphic design projects from around the world, selected through careful, personal research.\" and asks designers to submit at aesse@alessandroscarpellini.it with \"the complete case study via a Drive or Dropbox folder, clearly organized into two sections\"; the navigation holds \"About and support\". /llms.txt and /sitemap.xml both 404 with bodies close in size to a nonsense path but not identical, and no file content is served at either path. No meta description is set."
+ }
+]

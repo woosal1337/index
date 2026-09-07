@@ -1,0 +1,31 @@
+FACETS — use ONLY these slugs. 'unknown' = not verified. 'not-applicable' = axis does not apply.
+
+framework (multi):
+  react, next, remix, vue, nuxt, svelte, sveltekit, solid, preact, angular, astro, qwik, vanilla, web-components, react-native, swiftui, flutter, kotlin-compose, framer, webflow, go-templ, rust-gpui, terminal-tui, python, not-applicable, unknown
+
+styling (multi):
+  tailwind-v4, tailwind-v3, tailwind-any, vanilla-css, css-modules, css-in-js, sass, stylex, panda, unocss, css-variables, inline-styles, native-styles, shader-glsl, not-applicable, unknown
+
+license (multi):
+  mit, apache-2.0, bsd, isc, mpl-2.0, gpl, agpl, cc0, cc-by, cc-by-sa, cc-by-nc, ofl, font-eula, source-available, commercial, proprietary, free-for-personal, no-license, trademark-restricted, not-applicable, unknown
+
+pricing (multi):
+  free, freemium, open-source, one-time, subscription, usage-based, paid, free-trial, account-required, sponsor-supported, not-applicable, unknown
+
+distribution (multi):
+  shadcn-registry, npm-package, cli, copy-paste, github-repo, mcp-server, agent-skill, figma-file, figma-plugin, browser-extension, web-app, saas, public-api, download, marketplace, desktop-app, mobile-app, gallery, article, unknown
+
+platform (multi):
+  web, ios, android, macos, windows, linux, desktop, cross-platform, terminal, print, social, xr, platform-agnostic, unknown
+
+accessibility (multi):
+  wcag-aa, wcag-aaa, aria-complete, keyboard-navigable, focus-managed, screen-reader-tested, contrast-checked, reduced-motion, rtl-support, semantic-html, built-on-accessible-primitives, claimed-accessible, known-gaps, not-applicable, unknown
+
+content_type (multi):
+  code, screenshots, figma, prose, video, dataset, prompts, fonts, icons, images, 3d, audio, pdf, design-tokens, profile, unknown
+
+agent_readiness (multi):
+  mcp-server, agent-skill, registry-json, cli-installable, public-api, llms-txt, structured-docs, machine-index, copy-paste-ready, copy-prompt, token-export, open-source-code, auth-required, agent-paywalled, bot-blocked, image-only, js-only-shell, none, unknown
+
+maturity (single):
+  actively-maintained, stable, beta, experimental, announced, archived, deprecated, dead-link, unknown

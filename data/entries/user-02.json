@@ -1,0 +1,91 @@
+[
+ {
+  "id": "user:57709d4c17c5aab6",
+  "slug": "rachel-how",
+  "url": "https://www.rachelhow.com/",
+  "name": "Rachel How",
+  "tagline": "Designer's personal site whose /cursors page is a rare curated gallery of custom-cursor implementations",
+  "description": "The personal site of Rachel How, a designer, YouTuber and Video Lead at Mobbin. Three sections matter for reference work. /cursors collects nine sites chosen specifically for their custom cursor implementations (tinycamp.site, itsiddharth.design, recent.design, sidequest.camp, offscript.vc, config.floguo.com, sandstudio.shop, craft.wild.as, jackiehu.design) — a single-element gallery for an element almost nobody catalogues. /tools is an eleven-entry list of design tools she actually uses (mobbin.com, shadergradient.co, recent.design, cosmos.so, macfolio.com, fontsinuse.com, designspells.com, icon.museum, annualreport.gallery, studyoldads.com, fuse.kiwi). It held nine on 2026-08-17 and gained the Annual Report Archive and Study Old Ads since then. Every one of the eleven is now a record in this corpus. /resources offers four free downloads: Minimal icons, the Glow Wallpaper Pack, a UI/UX Design Learning Roadmap, and The Creative Freelancer Kit. The rest is personal work, a blog, notes and an affiliate-linked desk setup.",
+  "category": "inspiration-galleries",
+  "subcategory": "single-element-galleries",
+  "kinds": [
+   "gallery",
+   "portfolio",
+   "reference"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "no-license"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "gallery",
+    "download"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "images",
+    "icons",
+    "prose"
+   ],
+   "agent_readiness": [
+    "js-only-shell"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "custom-cursor"
+  ],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Free. The desk-setup section carries affiliate links, and /tools marks the Mobbin entry as one.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 22,
+   "blocks": null
+  },
+  "agent_guidance": "Reach for /cursors when a brief asks for a distinctive pointer and you want real implementations to study — custom cursors are widely discussed and almost never catalogued, so this short list is worth more than its length suggests. Treat /tools and /resources as a designer's personal shortlist, not a survey. The site is a Next.js shell over Webflow markup: the list pages render their entries client-side, so a plain fetch returns the chrome and the domain names but not the links, and there is no API or feed for them. RSS exists for the blog and notes only.",
+  "why_it_matters": "It is the only source in this corpus that treats the cursor as a design element worth collecting, which makes a nine-item list disproportionately useful.",
+  "quality_tier": "C",
+  "tier_reason": "Small and personal — 9 cursors, 9 tools, 4 downloads, mixed with gear affiliate links and blog content. Kept for the cursor gallery, which is genuinely rare, rather than for breadth.",
+  "notable_for": [
+   "custom-cursor gallery, 9 sites",
+   "11-tool designer shortlist, all indexed here",
+   "4 free downloads",
+   "RSS for blog and notes",
+   "author is Video Lead at Mobbin"
+  ],
+  "http_status": 200,
+  "verified_at": "2026-08-30",
+  "evidence": "https://www.rachelhow.com/, /tools, /cursors, /resources (all fetched 200; entry lists read from rendered text). Re-checked 2026-08-30: https://www.rachelhow.com/tools 200, 43 KB, headed \"Tools I keep coming back to\" and now listing eleven entries in this order — Mobbin (with a 20 per cent Pro offer), ShaderGradient, recent.design, Cosmos, Macfolio, Fonts In Use, Design Spells, Icon Museum, Annual Report Archive, Study Old Ads and fuse.kiwi. Every outbound link carries a ?ref=rachelhow.com parameter.",
+  "source": "user",
+  "already_enriched": true
+ }
+]

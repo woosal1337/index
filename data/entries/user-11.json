@@ -1,0 +1,303 @@
+[
+  {
+    "id": "user:b0c7cec2d6394267",
+    "slug": "boardui",
+    "url": "https://www.boardui.com",
+    "name": "BoardUI",
+    "tagline": "React 19 + Tailwind v4 design system for dashboards and agent UIs — 57 components, 47 of them free through a shadcn-schema registry",
+    "description": "BoardUI is a React 19 and Tailwind CSS v4 design system by Mertcan Esmergül, aimed squarely at data-rich dashboards and agentic product surfaces. It counts 57 components and blocks — 29 base components, 11 application blocks and 17 chart cards — plus 5 page templates and 400+ design tokens, all drawn in one master Figma file and translated into code through the Figma MCP server. Distribution follows the shadcn model rather than the npm one: `npx boardui@latest init` installs the runtime packages, writes theme.css, typography.css, globals.css and a cx helper, then `add` copies component source into the project and resolves internal dependencies transitively. React Aria Components supplies the interaction behaviour, Recharts renders most of the chart cards, and Motion handles animation. The Starter tier is free and covers the base components and a handful of blocks; 47 items are served publicly at /r/<name>.json against the shadcn registry-item schema, with a full index at /r/registry.json. Charts, page templates and the agent blocks (Agent Limits, Agent Progress, Composer, Calendar) carry a PRO badge and need a paid licence key. Framework guides cover Next.js, Vite, React Router and Astro.",
+    "category": "component-libraries",
+    "subcategory": "react-component-libraries",
+    "kinds": [
+      "component-library",
+      "registry",
+      "block-collection"
+    ],
+    "facets": {
+      "framework": [
+        "react",
+        "next",
+        "remix",
+        "astro"
+      ],
+      "styling": [
+        "tailwind-v4",
+        "css-variables"
+      ],
+      "license": [
+        "source-available",
+        "commercial"
+      ],
+      "pricing": [
+        "freemium",
+        "one-time",
+        "paid"
+      ],
+      "distribution": [
+        "shadcn-registry",
+        "cli",
+        "copy-paste",
+        "npm-package"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "built-on-accessible-primitives"
+      ],
+      "content_type": [
+        "code",
+        "design-tokens"
+      ],
+      "agent_readiness": [
+        "registry-json",
+        "cli-installable",
+        "structured-docs",
+        "copy-paste-ready",
+        "agent-paywalled"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "button",
+      "icon-button",
+      "button-group",
+      "close-button",
+      "link",
+      "text-input",
+      "otp-input",
+      "file-upload",
+      "checkbox",
+      "radio-group",
+      "switch",
+      "visual-picker",
+      "select",
+      "dropdown-menu",
+      "segmented-control",
+      "slider",
+      "date-picker",
+      "date-range-picker",
+      "calendar",
+      "social-login-buttons",
+      "login-form",
+      "tabs",
+      "breadcrumbs",
+      "pagination",
+      "sidebar",
+      "table",
+      "data-grid",
+      "card",
+      "stat",
+      "badge",
+      "chip",
+      "avatar",
+      "kbd",
+      "status-indicator",
+      "separator",
+      "carousel",
+      "tooltip",
+      "modal",
+      "toast",
+      "notification-center",
+      "announcement-bar",
+      "alert",
+      "theme-provider",
+      "conversation",
+      "message",
+      "prompt-input",
+      "typing-indicator",
+      "reasoning",
+      "task",
+      "context-meter",
+      "generated-image",
+      "chart",
+      "area-chart",
+      "bar-chart",
+      "line-chart",
+      "radar-chart",
+      "scatter-plot",
+      "funnel-chart",
+      "heatmap",
+      "sankey-diagram",
+      "gauge-chart",
+      "kpi-row",
+      "dashboard"
+    ],
+    "component_count": 57,
+    "surfaces": [
+      "analytics",
+      "admin-panel",
+      "settings-web-app",
+      "account-web-app",
+      "login-web-app",
+      "sign-up",
+      "ai-chat-panel",
+      "usage-and-limits",
+      "notifications",
+      "in-app-notifications",
+      "uploading-media",
+      "filtering-items"
+    ],
+    "templates": [
+      {
+        "name": "Home Dashboard",
+        "url": "https://www.boardui.com/components/home-dashboard",
+        "purpose": "Admin dashboard shell — sidebar navigation, KPI cards, bar chart and a customers data table. Pro."
+      },
+      {
+        "name": "AI Chat",
+        "url": "https://www.boardui.com/components/ai-chat",
+        "purpose": "Conversation surface built from the composer, thinking and message blocks. Pro."
+      },
+      {
+        "name": "AI Image Generation",
+        "url": "https://www.boardui.com/components/ai-image-generation",
+        "purpose": "Prompt-to-image screen with generation state and result gallery. Pro."
+      },
+      {
+        "name": "AI Profile",
+        "url": "https://www.boardui.com/components/ai-profile",
+        "purpose": "Agent profile and settings layout. Pro."
+      },
+      {
+        "name": "Medical Profile",
+        "url": "https://www.boardui.com/components/medical-profile",
+        "purpose": "Health dashboard — patient info card, activity rings, sleep score and alert cards. Pro."
+      }
+    ],
+    "template_count": 5,
+    "install": "npx boardui@latest init",
+    "package": "boardui",
+    "docs_url": "https://www.boardui.com/docs/introduction",
+    "repo_url": null,
+    "registry_url": "https://www.boardui.com/r/registry.json",
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": "Starter is free, with no account and no card: free source, unlimited projects, commercial use allowed. BoardUI Pro is a one-off payment in three shapes — Annual Access €149 (listed at €179) with one year of updates, Lifetime Access €199 (listed at €249, a €49 launch discount) with updates for as long as they ship, and Unlimited for Startups €349 for up to five developers in one organisation. Nothing renews automatically, and files already installed stay licensed after an updates window ends. Prices read from the homepage plan table on 2026-08-22.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": 11
+    },
+    "agent_guidance": "Reach for this when the brief is an analytics dashboard or an agent console in React 19 and Tailwind v4, and the usual registries stop at form controls — the 17 chart cards and the agent blocks (thinking, composer, limits, progress) are the reason to pick it over stock shadcn/ui. Two hard constraints before you install. First, the free/Pro split: only the 47 items listed in https://www.boardui.com/r/registry.json install without a licence key, and every chart card, every template and four of the blocks are Pro, so read that file first rather than the components gallery, which shows Pro items you cannot fetch. Second, the licence is source-available, not open source: the docs introduction calls the free tier open-source, but https://www.boardui.com/license forbids republishing the source in any public repository, gist, template or starter kit. Never install BoardUI source into a repo you intend to make public. The documented install path is the boardui CLI (`init` then `add`), which needs Tailwind v4 — a v3 project will not work. Registry items follow the shadcn registry-item schema, so `shadcn add <url>` against a /r/<name>.json is plausible but is not a documented path and was not tested here. There is no llms.txt and no public source repository, so the registry JSON is the machine-readable surface you have.",
+    "why_it_matters": "Chart cards and agent-state blocks in one Tailwind v4 token system is a real gap in the shadcn ecosystem — most registries cover form controls and stop, and the few with charts do not cover agent surfaces. It is also a clean worked example of the Figma-MCP-to-code pipeline the rest of this index keeps arguing for.",
+    "quality_tier": "B",
+    "tier_reason": "Well built and genuinely current — React Aria under the interactions, Recharts under the charts, a schema-valid public registry, framework guides for four setups, and a licence page that answers real questions. Held at B because it is young and small (320 npm downloads in the month to 2026-08-20), it is a one-person project with no public repository, most of the dashboard and agent value sits behind a €149–€349 licence, and the docs call the free tier open-source while the licence forbids redistribution.",
+    "notable_for": [
+      "57 components and blocks, 17 of them chart cards",
+      "agent blocks: thinking, composer, limits, progress",
+      "shadcn-schema registry at /r/registry.json, 47 free items",
+      "own CLI: npx boardui@latest init / add",
+      "one-time Pro licence, €149–€349, no subscription",
+      "source-available, not open source — no public repo"
+    ],
+    "http_status": 200,
+    "verified_at": "2026-08-22",
+    "evidence": "https://www.boardui.com/ 200, title \"BoardUI - React Design System for Dashboards\" and meta description claiming 57 components and blocks, 17 chart cards, 5 Pro templates; homepage plan table lists Starter free, Annual €179/€149, Lifetime €249/€199, Unlimited for Startups €349; https://www.boardui.com/docs/introduction states React 19, Next.js 16, Tailwind v4, TypeScript, React Aria Components and the Figma MCP pipeline; https://www.boardui.com/installation sidebar counts 29 base components, 11 blocks, 17 charts, 5 templates with PRO badges; https://www.boardui.com/docs/cli documents init/add/list and the --pro flag; https://www.boardui.com/license (updated 21 August 2026) forbids redistributing the source publicly and names React Aria Components (Apache 2.0), Recharts (MIT) and Motion; https://www.boardui.com/r/registry.json returns the shadcn registry schema with 55 items (36 registry:ui, 11 registry:block, 8 registry:lib); https://www.boardui.com/r/button.json validates against ui.shadcn.com/schema/registry-item.json; https://registry.npmjs.org/boardui reports version 0.3.1, MIT, published 2026-08-11; https://api.npmjs.org/downloads/point/last-month/boardui reports 320 downloads; https://api.github.com/repos/mertcanesmergul/boardui returns 404, so the repository named in the npm metadata is not public; https://www.boardui.com/llms.txt returns 404",
+    "source": "user",
+    "already_enriched": true
+  },
+  {
+    "id": "user:2763a9134db64a39",
+    "slug": "aengel-lab",
+    "url": "https://lab.aengel.io",
+    "name": "aengel.io Laboratory",
+    "tagline": "19 WebGPU and TSL experiments — compute fluids, raymarching, refraction — reference only, no source code",
+    "description": "The experiment shelf of aengel.io, and the page the root domain redirects to. Nineteen live demos, most dated 2026, built on WebGPU and TSL (the Three.js Shading Language) and tagged by technique: compute shaders (Blob, Liquid Field, Fluid Particles, Interactive Particles, Particles Network), raymarching (Magical Canopy, Smoke Raymarching), post-processing (Iridescent Fluid, Warp Speed Lines, Radial Blur), refraction (Reeded Shader), plus a parametric ribbon carousel, a metal tile field that deforms under the cursor, an FBM streak background, a Lenis magnetic-scroll study, a domain-warp shader, a hardware detection panel with GPU benchmarking, and the author's 2023 Three.js portfolio. Two of them — Gradient Shader and Reeded Shader — are configurable and export a PNG. Nothing else is downloadable: there is no repository, no npm package and no snippet on the page, and the legal notice keeps all source code and visuals as the exclusive property of aengel.io, with reproduction or reuse prohibited without written consent. The site itself warns the demos are experimental and may not run on every device. The author is not named on the site; contact is contact@aengel.io.",
+    "category": "textures-assets",
+    "subcategory": "shaders-and-effects",
+    "kinds": [
+      "gallery",
+      "reference",
+      "portfolio"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "proprietary"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "web-app",
+        "gallery"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "known-gaps"
+      ],
+      "content_type": [
+        "3d",
+        "images"
+      ],
+      "agent_readiness": [
+        "js-only-shell"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "gradient-background",
+      "particle-background",
+      "hover-effect",
+      "custom-cursor",
+      "animation",
+      "carousel",
+      "scroll-driven-animation",
+      "hero"
+    ],
+    "component_count": null,
+    "surfaces": [
+      "homepage",
+      "splash-screen"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": "Free to view. The legal notice states the demos are provided free of charge, as is and as available, with no warranty, and that reproduction, copy, redistribution or reuse of any part is prohibited without prior written consent.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 19,
+      "blocks": null
+    },
+    "agent_guidance": "Use this as art direction, not as a dependency. When a brief asks for a hero that a CSS gradient cannot fake — a glossy black liquid, an iridescent fluid, volumetric smoke, fluted refractive glass — open the matching demo, decide what you actually want, then build it yourself with an open shader library such as Paper Shaders or Shader Lab. There is no code to take: no repository, no package, no snippet, and the legal notice prohibits reuse without written consent, so do not copy anything off the canvas. Two demos, Gradient Shader and Reeded Shader, export a PNG, which is the only artifact the site hands you, and the same licence still applies to it. Every page is an empty shell with the work in WebGPU, so a fetch returns nothing readable and a screenshot of a still frame will miss the point of a demo whose whole subject is motion under the pointer. WebGPU is required: the site says outright that the projects may not run on your device.",
+    "why_it_matters": "It is a compact survey of what WebGPU and TSL can do in 2026 — compute fluids, raymarched volumes, real refraction — at a craft level almost no component library reaches. As a taste and feasibility reference it is worth more than another copy-paste pack.",
+    "quality_tier": "B",
+    "tier_reason": "High craft, current technique and a clear self-description, kept honest by a warning that the demos may fail on a given device. Held at B because nothing here is usable: no source, no package, no licence to reuse, one PNG export in two demos, and a WebGPU requirement that rules out part of the audience. It is a reference, and it is priced in the index as one.",
+    "notable_for": [
+      "19 WebGPU / TSL demos, most dated 2026",
+      "compute-shader fluids and raymarched volumes",
+      "PNG export in Gradient Shader and Reeded Shader",
+      "all rights reserved — no repo, no package, no reuse",
+      "aengel.io redirects here"
+    ],
+    "http_status": 200,
+    "verified_at": "2026-08-22",
+    "evidence": "https://lab.aengel.io/ 200, title \"lab.aengel.io\", meta description \"Experiments & mini-apps - WebGPU, TSL, creative coding.\"; the page lists 19 project cards with year and technique tags and links to /webgpu-blob/, /webgpu-liquid-field/, /webgpu-ribbon-carousel/, /webgpu-tilefield/, /webgpu-reeded-shader/, /webgpu-gradient-shader/, /webgpu-fluid-particles/, /webgpu-fluid-iridescent/, /webgpu-interactive-particles/, /webgpu-particles-network/, /webgpu-raymarching-canopy/, /webgpu-raymarching-smoke/, /webgpu-radial-streaks-shader/, /webgpu-speed-lines-shader/, /webgpu-radial-blur/, /magnetic-scroll/, /webgpu-domain-warp-shader/, /device-detector/, /portfolio-2023/; the legal-notice modal states the demos are free, as is, and that all content, source code and visuals remain the exclusive property of aengel.io with reuse prohibited; https://aengel.io returns 302 to https://lab.aengel.io/; https://lab.aengel.io/webgpu-blob/ 200 returns a 1.4 KB canvas shell; https://lab.aengel.io/llms.txt returns 404; no repository or package link appears anywhere on the page",
+    "source": "user",
+    "already_enriched": true
+  }
+]

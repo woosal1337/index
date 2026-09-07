@@ -1,0 +1,680 @@
+[
+  {
+    "id": "depo:j57apfkkbpp6x6cajtrg41h4fh8cfpvf",
+    "slug": "kinetics",
+    "url": "https://kinetics.colorion.co/",
+    "name": "Kinetics",
+    "tagline": "153 spring-physics micro-interactions with copy-paste CSS and React",
+    "description": "Kinetics is a single-page gallery of 153 interface animations built on spring physics instead of fixed-duration easing. Every effect has a live demo, an exposed stiffness/damping readout you can tune in the browser, and three copy formats: plain CSS, a React component, and an AI prompt. It is not a package you install — you take the code for the one effect you need. Built with Astro by ckissi; the repo has 480 stars and no LICENSE file.",
+    "category": "motion-interaction",
+    "subcategory": "micro-interactions-and-loaders",
+    "kinds": [
+      "animation-library",
+      "gallery"
+    ],
+    "facets": {
+      "framework": [
+        "react",
+        "vanilla"
+      ],
+      "styling": [
+        "vanilla-css",
+        "css-variables"
+      ],
+      "license": [
+        "no-license"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "copy-paste",
+        "github-repo"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "code"
+      ],
+      "agent_readiness": [
+        "copy-paste-ready",
+        "copy-prompt",
+        "open-source-code"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "animation",
+      "transition",
+      "hover-effect",
+      "ripple",
+      "shimmer",
+      "scroll-reveal",
+      "collapse-animation",
+      "drag-and-drop",
+      "gesture",
+      "marquee",
+      "count-up",
+      "typewriter-text",
+      "text-effect",
+      "custom-cursor",
+      "glassmorphism",
+      "confetti",
+      "button",
+      "toggle-button",
+      "floating-action-button",
+      "copy-button",
+      "command-palette",
+      "dock",
+      "toast",
+      "tooltip",
+      "tabs",
+      "accordion",
+      "slider",
+      "switch",
+      "checkbox",
+      "otp-input",
+      "password-strength-meter",
+      "quantity-stepper",
+      "tag-input",
+      "chip",
+      "segmented-control",
+      "rating-input",
+      "search-input",
+      "progress-bar",
+      "progress-stepper",
+      "spinner",
+      "skeleton",
+      "badge",
+      "status-indicator",
+      "countdown",
+      "bento-grid"
+    ],
+    "component_count": 153,
+    "surfaces": [
+      "homepage",
+      "features",
+      "command-palette",
+      "submitting-a-form",
+      "saving-changes",
+      "notifications"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": "https://github.com/ckissi/kinetics",
+    "registry_url": null,
+    "github": {
+      "stars": 480,
+      "license": null,
+      "last_activity": "2026-08-14"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": 153
+    },
+    "agent_guidance": "Reach for Kinetics when a user asks for one specific feel — a magnetic button, a rubber-band slider, an odometer counter — and you do not want to add Motion or GSAP as a dependency; most entries are pure CSS with a cubic-bezier approximation of a spring. Prefer it over Magic UI or Aceternity when the target project has no animation runtime, and prefer Motion when you need interruptible, physically-correct springs rather than a baked curve. Two cautions: the repo carries no LICENSE file, so treat reuse as legally unsettled and confirm with the user before shipping to a commercial product; and the effects are demo snippets, not a versioned API — you own the code once you paste it.",
+    "why_it_matters": "Nearly every copy-paste animation gallery ships fixed-duration easing and calls it spring; Kinetics actually exposes stiffness and damping per effect so you can feel the physics before you take the code. The volume (153) and the CSS-first bias make it unusually useful in projects that refuse a JS animation dependency.",
+    "quality_tier": "A",
+    "notable_for": [
+      "153 tunable effects",
+      "stiffness/damping shown per demo",
+      "CSS, React and AI-prompt copy formats",
+      "no animation runtime required",
+      "no LICENSE file in the repo"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://kinetics.colorion.co/ (200, full effect list read), https://github.com/ckissi/kinetics, GitHub API repos/ckissi/kinetics (stars 480, license null, pushed_at 2026-08-14), https://kinetics.colorion.co/llms.txt (404)",
+    "source": "depo"
+  },
+  {
+    "id": "depo:j5777945b0a0xe4510n57ypprx8cescz",
+    "slug": "cuelume",
+    "url": "https://cuelume-site.pages.dev/",
+    "name": "Cuelume",
+    "tagline": "17 synthesized UI sounds via Web Audio, zero runtime deps",
+    "description": "Cuelume is a small ESM library that gives buttons, links, toggles and completed actions audible feedback. It synthesizes 17 named cues live with the Web Audio API — chime, sparkle, droplet, bloom, whisper, tick, press, release, toggle, success, error, page, loading, ready, pulse, scan, arrival — so there are no audio files to load and no runtime dependencies. You mark up elements with data-cuelume-hover / -press / -release / -toggle and call bind() once; play(), setEnabled() and setVolume() cover the imperative cases. Framework-agnostic and MIT licensed.",
+    "category": "motion-interaction",
+    "subcategory": "micro-interactions-and-loaders",
+    "kinds": [
+      "asset-pack",
+      "tool"
+    ],
+    "facets": {
+      "framework": [
+        "vanilla"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "mit"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "npm-package",
+        "github-repo"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "audio",
+        "code"
+      ],
+      "agent_readiness": [
+        "open-source-code"
+      ],
+      "maturity": "beta"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [
+      "submitting-a-form",
+      "saving-changes",
+      "notifications",
+      "showing-input-error"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": "npm install cuelume",
+    "package": "cuelume",
+    "docs_url": null,
+    "repo_url": "https://github.com/Danilaa1/cuelume",
+    "registry_url": null,
+    "github": {
+      "stars": 1356,
+      "license": "MIT",
+      "last_activity": "2026-08-04"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 17,
+      "blocks": null
+    },
+    "agent_guidance": "Use Cuelume when the user wants interaction sound and you do not want to ship or license audio assets — everything is synthesized at play time, so bundle cost is near zero and there is no CDN fetch. The attribute-plus-bind() pattern means you can add it to an existing React/Vue tree without touching component code, which makes it a better fit than Howler or Tone.js for pure UI feedback. Watch three things: it is ESM-only so CommonJS require() will fail; browsers block audio until a user gesture, so call bind() and let the first real click unlock the context rather than autoplaying; and always give the user a mute control, because unrequested sound is an accessibility problem. Note the marketing site at cuelume-site.pages.dev did not respond during verification — send users to the GitHub repo or npm instead.",
+    "why_it_matters": "Interaction audio is the one sensory layer almost every web design system skips, and the usual reason is asset management; Cuelume removes that excuse by synthesizing a coherent 17-cue palette in a few kilobytes.",
+    "quality_tier": "B",
+    "notable_for": [
+      "17 named cues, all synthesized live",
+      "zero runtime dependencies",
+      "data-attribute binding, framework-agnostic",
+      "ESM-only",
+      "listed URL was unreachable at verification"
+    ],
+    "already_enriched": false,
+    "http_status": null,
+    "verified_at": "2026-08-15",
+    "evidence": "https://cuelume-site.pages.dev/ FAILED — three WebFetch attempts timed out and curl returned 000 after 25s while github.com and ui.unlumen.com returned 200 from the same shell, so the host is genuinely unreachable, not a local network fault. Verified instead via https://github.com/Danilaa1/cuelume (README: 17 cue names, API, data attributes, ESM-only), GitHub API repos/Danilaa1/cuelume (stars 1356, MIT, pushed_at 2026-08-04), and https://www.npmjs.com/package/cuelume (v0.1.2; page itself 403'd to WebFetch, version read from search result).",
+    "source": "depo"
+  },
+  {
+    "id": "depo:j571bgsbxycsf9q8d1j7sewcsh8ce0bd",
+    "slug": "oreo-design-avatar",
+    "url": "https://oreo-design-avatar.vercel.app/",
+    "name": "Oreo Avatar",
+    "tagline": "Deterministic soft-gradient SVG avatars, 6 shapes x 40 palettes",
+    "description": "Oreo Avatar generates soft gradient placeholder avatars as dependency-free SVG. It ships six shape families — Bloom, Silk, Flare, Nova, Void and Jade — across 40 colour presets, with OKLCH tone controls for hue, chroma and lightness, light/dark appearance, and a drift parameter. Passing a variantId makes output deterministic, so the same user id always renders the same avatar. The linked site is a live studio; the library is an npm package with both a createAvatar() function and a React entry point, and it can export SVG, PNG or JPG at 64/128/256/512 px.",
+    "category": "component-libraries",
+    "subcategory": "react-component-libraries",
+    "kinds": [
+      "generator",
+      "component-library"
+    ],
+    "facets": {
+      "framework": [
+        "react",
+        "vanilla"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "mit"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "npm-package",
+        "github-repo",
+        "web-app"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "code",
+        "images"
+      ],
+      "agent_readiness": [
+        "open-source-code",
+        "copy-paste-ready"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "avatar",
+      "placeholder-image"
+    ],
+    "component_count": 1,
+    "surfaces": [
+      "public-profile",
+      "account-web-app",
+      "comments",
+      "feed"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": "npm i @oreo-design/avatar",
+    "package": "@oreo-design/avatar",
+    "docs_url": null,
+    "repo_url": "https://github.com/BIAsia/oreo-design-avatar",
+    "registry_url": null,
+    "github": {
+      "stars": 51,
+      "license": "MIT",
+      "last_activity": "2026-07-31"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": 40,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Reach for this instead of Boring Avatars or DiceBear when the brief is a calm gradient blob rather than a geometric or illustrated identicon, and when you need the output to be plain SVG with no runtime dependency you can inline or server-render. The variantId seed is the important detail: hash a user id into it so avatars stay stable across sessions without storing an image. Use the /react entry only if you need reactivity — for lists, call createAvatar() once and cache the SVG string, because regenerating per render wastes work. It gives you a placeholder, not an upload flow, so pair it with your own avatar-upload component.",
+    "why_it_matters": "Most default-avatar libraries look like identicons; this one looks like a design decision, and the OKLCH tone controls let you pull the whole set toward an existing brand hue instead of accepting the library's taste.",
+    "quality_tier": "B",
+    "notable_for": [
+      "6 named shape families",
+      "40 palettes with OKLCH tone controls",
+      "deterministic per-user variants",
+      "zero-dependency SVG output",
+      "SVG/PNG/JPG export up to 512 px"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://oreo-design-avatar.vercel.app/ (200), https://github.com/BIAsia/oreo-design-avatar (README: shape names, createAvatar API, React entry), GitHub API repos/BIAsia/oreo-design-avatar (stars 51, MIT, pushed_at 2026-07-31), https://oreo-design-avatar.vercel.app/llms.txt (404)",
+    "source": "depo"
+  },
+  {
+    "id": "depo:j573rgpty79p2qkjgq6tt39m0d8a8rrk",
+    "slug": "tenkit",
+    "url": "https://www.tenkit.dev/",
+    "name": "Tenkit",
+    "tagline": "Expo scaffolder for white-label and multi-tenant mobile apps",
+    "description": "Tenkit is an MIT-licensed CLI that scaffolds an Expo SDK 57 / TypeScript project designed from the start to ship as many branded apps from one codebase. You pick one of three Setup Types — White Label Apps (one store listing per brand), Runtime Tenant App (one native identity, many businesses selected at runtime), or Generic + Standalone (a network app with selected brand breakouts) — plus a styling option (bare, Uniwind/Tailwind, or Unistyles 3). It generates a typed app-variants.ts, per-variant native identity (name, slug, scheme, bundle ID, Android package, icons, theme, EAS project), Expo Router navigation, and verify/diagnostic scripts. Run it with pnpm create tenkit@latest.",
+    "category": "blocks-templates-themes",
+    "subcategory": "templates-and-starters",
+    "kinds": [
+      "template",
+      "generator",
+      "tool"
+    ],
+    "facets": {
+      "framework": [
+        "react-native",
+        "react"
+      ],
+      "styling": [
+        "native-styles",
+        "tailwind-any"
+      ],
+      "license": [
+        "mit"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "cli",
+        "npm-package",
+        "github-repo"
+      ],
+      "platform": [
+        "ios",
+        "android",
+        "cross-platform"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "code"
+      ],
+      "agent_readiness": [
+        "cli-installable",
+        "llms-txt",
+        "structured-docs",
+        "open-source-code"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "app-shell",
+      "theme-provider"
+    ],
+    "component_count": null,
+    "surfaces": [
+      "workspace-switcher",
+      "splash-screen",
+      "tab-bar-navigation"
+    ],
+    "templates": [
+      {
+        "name": "White Label Apps",
+        "url": "https://www.tenkit.dev/setup-types.md",
+        "purpose": "One shared Expo product, a separate store listing per brand — each customer owns its app name, icon set, bundle ID, Android package, scheme, theme and EAS project."
+      },
+      {
+        "name": "Runtime Tenant App",
+        "url": "https://www.tenkit.dev/setup-types.md",
+        "purpose": "One native app identity that opens different businesses, organizations or locations at runtime, with selectable Runtime Tenants and bootstrap access data."
+      },
+      {
+        "name": "Generic + Standalone",
+        "url": "https://www.tenkit.dev/setup-types.md",
+        "purpose": "A network app where most tenants live inside a generic App Variant, while selected brands also ship as standalone App Variants excluded from the generic picker."
+      }
+    ],
+    "template_count": 3,
+    "install": "pnpm create tenkit@latest",
+    "package": "create-tenkit",
+    "docs_url": "https://www.tenkit.dev/setup-types.md",
+    "repo_url": "https://github.com/brilliantinsane/tenkit",
+    "registry_url": null,
+    "github": {
+      "stars": 30,
+      "license": "MIT",
+      "last_activity": "2026-08-13"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Use Tenkit only at project birth, when the user already knows they will ship the same Expo app under several brands — it decides the multi-tenancy model up front, and retrofitting one of these Setup Types onto an existing Expo app is far more work than starting over. Make the user choose between White Label (App Store listing per brand, EAS project per variant, slow release cadence) and Runtime Tenant (one binary, tenant chosen at runtime, instant onboarding) before you run anything; the CLI takes --setup and --styling flags so you can scaffold non-interactively with `pnpm create tenkit@latest --name x --setup white-label --styling unistyles --yes`. It is a scaffold, not a UI kit — it gives you variant plumbing, Expo Router and theming, so pair it with your own component library. Note it is young (30 stars) and pinned to Expo SDK 57; check the repo before assuming SDK compatibility. It publishes markdown mirrors and an llms.txt, so read those rather than the JS-rendered /configure page.",
+    "why_it_matters": "White-labelling an Expo app is a solved-in-private problem that almost nobody has open-sourced; Tenkit names the three architectures explicitly and generates the native identity plumbing that teams normally hand-roll and get wrong.",
+    "quality_tier": "B",
+    "notable_for": [
+      "three named multi-tenancy Setup Types",
+      "typed app-variants.ts with per-variant native identity",
+      "Expo SDK 57 and EAS project wiring",
+      "bare / Uniwind / Unistyles styling options",
+      "llms.txt plus markdown doc mirrors"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://www.tenkit.dev/ (200), https://www.tenkit.dev/llms.txt (200), https://www.tenkit.dev/setup-types.md, https://www.tenkit.dev/commands.md, https://github.com/brilliantinsane/tenkit, GitHub API repos/brilliantinsane/tenkit (stars 30, MIT, pushed_at 2026-08-13). https://www.tenkit.dev/docs 404s; /configure is a JS-only shell and yielded no option list.",
+    "source": "depo"
+  },
+  {
+    "id": "depo:j576aq5eja5zqb77jt81xa5s2h8a99h6",
+    "slug": "cooldock",
+    "url": "https://www.dock.cool/",
+    "name": "Cooldock",
+    "tagline": "Paid macOS second dock with ~40 live widgets",
+    "description": "Cooldock is a commercial macOS menu-bar/dock utility that adds a second dock holding live widgets. The site lists around 40 widgets across six groups: productivity (Pomodoro, Drink Water, Calendar & Meetings, Reminders & Todos, Progress, Time, Notes, Mail), system (System Stats, Quick Toggles, Audio Controls, Clipboard, Screenshots, Voice Memo, Emoji, Weather, Photos, Now Playing), access (Apps & Folders, Bookmarks, File Shelf, Files & Downloads, Search, App Switcher), utilities (Color Picker, Converter) and SaaS integrations (Revenue, Social Followers, Website Analytics, Shopify, Resend, Dub, Dodo Payments, Polar, Plausible, DataFast, GitHub, Linear, Supabase, Dropbox). It is a consumer app, not a developer resource: closed source, one-time purchase, macOS Sonoma 14.0 or later.",
+    "category": "utilities-naming",
+    "subcategory": "apps-and-references",
+    "kinds": [
+      "app",
+      "tool"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "proprietary",
+        "commercial"
+      ],
+      "pricing": [
+        "one-time",
+        "paid"
+      ],
+      "distribution": [
+        "desktop-app",
+        "download"
+      ],
+      "platform": [
+        "macos",
+        "desktop"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "unknown"
+      ],
+      "agent_readiness": [
+        "none"
+      ],
+      "maturity": "stable"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": "$15 early-bird (site showed 6 spots left), $29 standard. One-time purchase, lifetime updates, single-device licence, 14-day money-back guarantee, sold through Polar. No free trial.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 40,
+      "blocks": null
+    },
+    "agent_guidance": "Do not treat this as a build resource — it ships no code, no registry and no API, so there is nothing here an agent can install or import. Its only use in a design context is visual reference: the widget grid is a decent worked example of dense glanceable tiles and of how a SaaS-metrics widget (revenue, followers, analytics) reads at dock scale, so cite it as inspiration when designing a widget or menu-bar surface. If a user asks for a Mac dock replacement, mention that there is no trial and the licence covers one device.",
+    "why_it_matters": "A polished but narrow consumer utility; it earns a slot in this catalog only as reference for glanceable widget layout, not as anything you can build with.",
+    "quality_tier": "C",
+    "notable_for": [
+      "~40 widgets across six categories",
+      "live SaaS metric widgets (Polar, Stripe-adjacent, Plausible, Linear)",
+      "one-time $29, single-device licence",
+      "macOS Sonoma 14.0+ only",
+      "closed source, no trial"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://www.dock.cool/ fetched twice (200) — widget list, pricing, system requirement and Polar checkout link read from the page. https://www.dock.cool/llms.txt (404). No repo, changelog or version number exists on the site; widget total of ~40 is my de-duplicated count of the listed names, not a figure the site states.",
+    "source": "depo"
+  },
+  {
+    "id": "depo:j57ervyjp3pfwh5x4qagrq75gs8a0s69",
+    "slug": "unlumen-ui",
+    "url": "https://ui.unlumen.com/components",
+    "name": "unlumen UI",
+    "tagline": "Freemium shadcn registry of Motion-driven React components",
+    "description": "unlumen UI is a shadcn-compatible registry of animated React components built with TypeScript, Tailwind and Motion. Its registry.json declares 233 items — 136 registry:ui entries (124 once demos are removed), 78 examples, 11 components, 5 hooks and 2 libs — split between roughly 79 marketed components and about 45 lower-level animation primitives (text effects, button effects, transitions, tilt/magnetic/shine, particles). Roughly half the catalogue is free and the rest is Pro, gated behind a Polar licence key passed to the shadcn CLI. It also ships an MCP server so AI editors can browse and install from the registry directly.",
+    "category": "component-libraries",
+    "subcategory": "shadcn-registries",
+    "kinds": [
+      "registry",
+      "component-library",
+      "animation-library"
+    ],
+    "facets": {
+      "framework": [
+        "react",
+        "next"
+      ],
+      "styling": [
+        "tailwind-any"
+      ],
+      "license": [
+        "commercial"
+      ],
+      "pricing": [
+        "freemium",
+        "one-time",
+        "subscription"
+      ],
+      "distribution": [
+        "shadcn-registry",
+        "cli",
+        "copy-paste",
+        "mcp-server"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "code"
+      ],
+      "agent_readiness": [
+        "registry-json",
+        "mcp-server",
+        "cli-installable",
+        "llms-txt",
+        "structured-docs",
+        "agent-paywalled"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "dock",
+      "command-palette",
+      "navbar",
+      "sidebar",
+      "navigation-menu",
+      "tabs",
+      "accordion",
+      "card",
+      "list",
+      "tooltip",
+      "hover-card",
+      "switch",
+      "slider",
+      "button",
+      "text-input",
+      "search-input",
+      "kbd",
+      "badge",
+      "tag",
+      "icon",
+      "skeleton",
+      "code-block",
+      "file-tree",
+      "avatar-group",
+      "link",
+      "floating-action-button",
+      "survey",
+      "conversation",
+      "carousel",
+      "image-gallery",
+      "video-player",
+      "chart",
+      "heatmap",
+      "marquee",
+      "count-up",
+      "typewriter-text",
+      "text-effect",
+      "shimmer",
+      "scroll-reveal",
+      "page-transition",
+      "ripple",
+      "hover-effect",
+      "custom-cursor",
+      "gradient-background",
+      "particle-background",
+      "transition",
+      "animation"
+    ],
+    "component_count": 124,
+    "surfaces": [
+      "homepage",
+      "features",
+      "testimonials",
+      "pricing-website",
+      "ai-chat-panel",
+      "command-palette"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": "npx shadcn@latest add https://ui.unlumen.com/r/dock.json",
+    "package": null,
+    "docs_url": "https://unlumen-ui-docs.vercel.app/docs",
+    "repo_url": null,
+    "registry_url": "https://ui.unlumen.com/r/registry.json",
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": "Free tier for roughly half the catalogue. Pro $119 one-time (listed down from $149), or $69/year; Studio $430 for 5 seats. 20% student discount with email verification. Unlimited personal and client projects, no resale or redistribution, no refunds. Annual lapse keeps downloaded components but stops new releases.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 233,
+      "blocks": null
+    },
+    "agent_guidance": "Reach for unlumen UI when the ask is marketing-page motion — aurora and pixel backgrounds, gooey navbars, text reveals, dock magnification — rather than application chrome; for forms, tables and dialogs you still want plain shadcn/ui or Radix underneath, and unlumen assumes that base is already installed. Install by full registry URL (https://ui.unlumen.com/r/<slug>.json, verified working) or configure the @unlumen-ui namespace in components.json first; every component pulls `motion` as a dependency. The trap for agents is the paywall: the registry advertises Pro slugs so they look installable, but they 401 without UNLUMEN_LICENSE_KEY in .env.local passed as a bearer header or ?token=. Check the free/Pro label before you promise a component, and prefer the free slugs when the user has not bought a licence. Accessibility is not claimed anywhere in the docs, so audit keyboard and reduced-motion behaviour yourself on anything interactive.",
+    "why_it_matters": "One of the better-engineered paid shadcn registries: a real registry.json, a working MCP server, and a primitives layer under the showpieces so you can compose your own effects rather than only pasting finished ones.",
+    "quality_tier": "A",
+    "notable_for": [
+      "124 non-demo registry entries",
+      "~45 low-level animation primitives, not just finished components",
+      "MCP server for AI editors",
+      "Pro slugs gated by Polar licence key in the CLI",
+      "$119 one-time or $69/year"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-15",
+    "evidence": "https://ui.unlumen.com/components (200, full free/Pro component listing), https://ui.unlumen.com/r/registry.json parsed directly (233 items, type counts, 124 non-demo registry:ui slugs), https://ui.unlumen.com/r/dock.json (200, confirms `motion` dependency and install-by-URL), https://ui.unlumen.com/pricing, https://unlumen-ui-docs.vercel.app/docs/installation and /docs/mcp (reached via 307 from ui.unlumen.com/docs), https://ui.unlumen.com/llms.txt (200). Per-component docs pages under unlumen-ui-docs.vercel.app/docs/components/<slug> 404, so the exact namespaced add command was not readable and the URL form is given instead.",
+    "source": "depo"
+  }
+]

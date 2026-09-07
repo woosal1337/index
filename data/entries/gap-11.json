@@ -1,0 +1,450 @@
+[
+ {
+  "id": "depo:j574kn29vjbqmpse1js1k4pbq183cbew",
+  "slug": "matte",
+  "url": "https://matte.app/",
+  "name": "Matte",
+  "tagline": "Native macOS recorder and editor for iOS simulator and app demo videos",
+  "description": "Matte is a native Swift app for macOS 15+ (Apple Silicon) that records the iOS simulator, a tethered iPhone or iPad, the iPhone Mirroring window, or any macOS screen or window, then edits the take in a multitrack timeline. It ships device bezels for iPhone, iPad, Mac and Apple Watch, Auto Zoom, tap and swipe indicators, cursor styling, motion blur, background gallery, up to 5 text tracks, and Whisper-based captions transcribed entirely on-device. Export is 4K HEVC, H.264, ProRes, GIF or PNG stills, with alpha-channel support for transparent compositing. Built for indie developers and app marketers producing App Store previews, launch videos and changelog clips without opening After Effects.",
+  "category": "generative-media-tools",
+  "subcategory": "video-and-render",
+  "kinds": [
+   "tool",
+   "app"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "freemium",
+    "subscription",
+    "one-time"
+   ],
+   "distribution": [
+    "desktop-app",
+    "download"
+   ],
+   "platform": [
+    "macos",
+    "ios",
+    "desktop"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "video",
+    "images"
+   ],
+   "agent_readiness": [
+    "bot-blocked"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Free forever with a watermark, no account required. Pro removes the watermark: $10/mo, $39/yr, or $149 one-time lifetime. Every licence activates on up to 3 Macs. Teams of 5+ by contact. 15-day refund on lifetime only.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Recommend Matte when the deliverable is an iOS App Store preview or a simulator/device demo — its simulator cursor capture, live-device recording and Apple device bezels are things generic screen recorders such as Screen Studio and CleanShot do not do. It is macOS 15+ Apple Silicon only and has no CLI, API or headless mode, so never script it into a pipeline; treat it as a hand-driven step a human runs. The site returns 403 to programmatic fetchers, so read pricing and feature claims from a cached copy rather than re-fetching per request.",
+  "why_it_matters": "It is the sharpest tool in the narrow slot between a screen recorder and a motion-graphics editor, and the only one built specifically around the iOS simulator and real Apple hardware. On-device Whisper captions and alpha-channel export make it usable for real marketing output, not just quick screen grabs.",
+  "quality_tier": "A",
+  "notable_for": [
+   "iOS simulator and live-device recording",
+   "alpha-channel HEVC export",
+   "on-device Whisper captions",
+   "Apple device bezels and Auto Zoom",
+   "$149 lifetime option"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://matte.app/ fetched with curl, HTTP 200, full homepage text read (features, roadmap teaser, pricing table, FAQ). WebFetch on the same URL returned 403 Forbidden, so the page is bot-blocked to the standard fetcher.",
+  "source": "depo"
+ },
+ {
+  "id": "depo:j5710q4tqb2bsk5bfca1rg5yjs834nxs",
+  "slug": "stripe-press",
+  "url": "https://press.stripe.com/",
+  "name": "Stripe Press",
+  "tagline": "Stripe's book imprint: 19 titles on technology, science and progress",
+  "description": "Stripe Press is Stripe's publishing imprint, and press.stripe.com is a single long-scroll page that carries all 19 titles in full — cover art, a synopsis, author bios, praise blurbs and retailer links for each. Titles include Poor Charlie's Almanack, Working in Public, The Dream Machine, An Elegant Puzzle, Scaling People, The Art of Doing Science and Engineering, Boom and The Scaling Era. Beyond books it hosts the documentary We Are As Gods and the podcast Beneath the Surface, and several titles ship a free PDF zine or a full free web edition alongside the printed book. Designers cite it as a reference for editorial typography and for the animated 'living cover' treatments each book gets.",
+  "category": "essays-guides-courses",
+  "subcategory": "courses-and-books",
+  "kinds": [
+   "reference",
+   "article"
+  ],
+  "facets": {
+   "framework": [
+    "unknown"
+   ],
+   "styling": [
+    "unknown"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "paid",
+    "free"
+   ],
+   "distribution": [
+    "web-app",
+    "download"
+   ],
+   "platform": [
+    "web",
+    "print"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "prose",
+    "pdf",
+    "audio",
+    "video"
+   ],
+   "agent_readiness": [
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Hardcovers $17-$40, most $23-$35; Poor Charlie's Almanack softcover $18. Sold via Stripe's own store, Bookshop.org, Barnes & Noble and Amazon at parity pricing. Free PDF zines and free web editions for several titles; the film and podcast are free.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 19,
+   "blocks": null
+  },
+  "agent_guidance": "Reach for this as a design reference, not a component source — it is the canonical example of long-form editorial typography and per-title art direction on the web, so cite it when a user wants a book, essay or annual-report site rather than another SaaS landing page. The whole catalogue is server-rendered into one ~1 MB HTML document, so a single fetch of press.stripe.com gives you every synopsis and price with no pagination to crawl. Do not promise a free ebook: only some titles have a free web edition or PDF zine, and you must check the individual title before saying so.",
+  "why_it_matters": "A corporate imprint that is genuinely good at both halves — the books are real contributions and the site is a masterclass in restrained editorial craft that most product teams could learn from.",
+  "quality_tier": "S",
+  "notable_for": [
+   "19 titles, all on one page",
+   "animated 'living cover' treatments",
+   "free PDF zines and web editions",
+   "editorial typography reference",
+   "We Are As Gods film and Beneath the Surface podcast"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://press.stripe.com/ fetched twice — once via WebFetch and once via curl (HTTP 200, ~1.01 MB). All 19 book titles, authors, per-title URL paths, retailer prices and the film/podcast entries were read directly out of the served HTML.",
+  "source": "depo"
+ },
+ {
+  "id": "depo:j57c0j1j8bsjx8rc5g9dqjdhq9835ym7",
+  "slug": "cuicui-books",
+  "url": "https://cuicui.day/other/books",
+  "name": "Cuicui Books",
+  "tagline": "One copy-paste React 3D book-cover component, hover-rotated, Tailwind-styled",
+  "description": "This is a single section of Cuicui, Damien Schneider's React + Tailwind copy-paste component site. Despite the plural name the page ships exactly one component, Modern Book Cover: a 3D book-cover element with configurable size, colour and corner radius, a gradient spine and a rotate-on-hover animation, offered as a previewable modern-book-cover.tsx you copy or edit on GitHub. Useful if you need a decorative book mockup for a landing page or a docs hero. Note that the site's own banner now says 'Cuicui was the experiment' and points visitors to Control UI, the author's currently maintained library.",
+  "category": "motion-interaction",
+  "subcategory": "animated-components",
+  "kinds": [
+   "component-library"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "tailwind-any"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "copy-paste",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "copy-paste-ready",
+    "open-source-code"
+   ],
+   "maturity": "deprecated"
+  },
+  "components": [
+   "hover-effect"
+  ],
+  "component_count": 1,
+  "surfaces": [
+   "homepage"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/damien-schneider/cuicui",
+  "registry_url": null,
+  "github": {
+   "stars": 966,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Only send a user here for the specific visual — a fake 3D book on a marketing page — and copy the single TSX file rather than adopting Cuicui as a dependency, because the author has explicitly moved on to Control UI and the sitemap has not changed since August 2024. The component is pure Tailwind plus CSS transforms, so it drops into any React or Next project with no runtime, but you must add your own prefers-reduced-motion guard around the hover rotation and give the cover an accessible label, since neither is provided. If the user wants a broader Tailwind copy-paste set, prefer Aceternity, Magic UI or shadcn's registry over Cuicui.",
+  "why_it_matters": "A one-component curiosity from an abandoned experiment — worth indexing only because the 3D book-cover effect is oddly hard to find elsewhere as clean copy-paste React.",
+  "quality_tier": "C",
+  "notable_for": [
+   "single Modern Book Cover component",
+   "3D hover rotation in pure CSS",
+   "copy-paste TSX, no install",
+   "superseded by the author's Control UI"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://cuicui.day/other/books via WebFetch and curl (HTTP 200) — page text confirms exactly one component and the 966-star GitHub counter; https://cuicui.day/ via WebFetch for the category list and the Control UI succession notice; https://cuicui.day/sitemap.xml (HTTP 200, 32 URLs, lastmod 2024-08-14). Tailwind confirmed by grepping the served class attributes.",
+  "source": "depo"
+ },
+ {
+  "id": "depo:j577v80t7y7j5zcgg7pczz31gx834dbr",
+  "slug": "lenis",
+  "url": "https://www.lenis.dev/",
+  "name": "Lenis",
+  "tagline": "Smooth-scroll engine that keeps native scroll and honours reduced-motion",
+  "description": "Lenis, by studio darkroom.engineering, smooths native scrolling without CSS transforms, hijacked scrollbars or a virtual scroll container, so anchors, find-in-page and the real scrollbar keep working. It is set up in one line, `new Lenis()`, and the single npm package exports first-class adapters at lenis/react, lenis/vue and lenis/nuxt plus a lenis/snap module for scroll snapping and a Framer plugin for no-code use. By default it reads prefers-reduced-motion and disables smoothing when the user asks for reduced motion, exposing lenis.prefersReducedMotion so your own animations can follow. It is the default choice for agency-grade scroll sites and for keeping WebGL scenes in sync with DOM scroll position.",
+  "category": "motion-interaction",
+  "subcategory": "animation-engines",
+  "kinds": [
+   "animation-library",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "vanilla",
+    "react",
+    "next",
+    "vue",
+    "nuxt",
+    "framer"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "reduced-motion",
+    "semantic-html",
+    "claimed-accessible"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npm install lenis",
+  "package": "lenis",
+  "docs_url": null,
+  "repo_url": "https://github.com/darkroomengineering/lenis",
+  "registry_url": null,
+  "github": {
+   "stars": 15400,
+   "license": "MIT",
+   "last_activity": "2026-08-05"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Prefer Lenis over Locomotive Scroll or a hand-rolled lerp whenever a project needs smooth scroll at all — it is the only one of the three that leaves the native scrollbar and prefers-reduced-motion intact, and it is still shipping (1.3.26, August 2026, ~1.35M weekly npm installs). The critical wiring is the sync step: drive Lenis from your animation loop and forward its scroll event to whatever reads scroll position, e.g. `lenis.on('scroll', ScrollTrigger.update)` for GSAP, or use the useLenis hook from lenis/react, otherwise scroll-linked animations will lag one frame behind. Watch for position:sticky and IntersectionObserver behaving oddly inside a wrapped container, and push back if the user wants smooth scroll on a text-heavy content site — it costs more in motion sickness than it earns.",
+  "why_it_matters": "It made smooth scroll defensible again by refusing the usual trade-offs — no scroll hijack, no broken anchors, reduced-motion respected by default — which is why it became the studio-standard rather than another portfolio-only toy.",
+  "quality_tier": "S",
+  "notable_for": [
+   "no scroll hijack, native scrollbar preserved",
+   "prefers-reduced-motion honoured by default",
+   "react, vue, nuxt and framer adapters in one package",
+   "lenis/snap scroll snapping module",
+   "15.4k stars, ~1.35M weekly downloads"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://www.lenis.dev/ via WebFetch (HTTP 200); https://github.com/darkroomengineering/lenis via WebFetch for stars, MIT licence, adapter list and the reduced-motion paragraph; https://registry.npmjs.org/lenis for latest 1.3.26 published 2026-08-05, 114 versions, export map (./react ./vue ./nuxt ./snap); https://api.npmjs.org/downloads/point/last-week/lenis for 1,349,285 weekly downloads.",
+  "source": "depo"
+ },
+ {
+  "id": "depo:j578arybcntjtjxt7w9ykszktx83431m",
+  "slug": "react-fast-marquee",
+  "url": "https://www.npmjs.com/package/react-fast-marquee",
+  "name": "React Fast Marquee",
+  "tagline": "Single React marquee component driven by CSS animation, ~50 KB unpacked",
+  "description": "React Fast Marquee is a one-component package by Justin Chu: wrap any children in <Marquee> and they scroll continuously using CSS animation rather than a JS tick loop. Props cover speed in px/second, direction (left, right, up, down — vertical is flagged experimental in the README), autoFill to clone children until the track is full, pauseOnHover and pauseOnClick, loop counts, delay, edge gradient with configurable colour and width, and onFinish, onCycleComplete and onMount callbacks. It has zero runtime dependencies, ships TypeScript types, and peers on React >= 16.8. It is the standard answer for logo walls, testimonial tickers and announcement strips in React marketing pages.",
+  "category": "motion-interaction",
+  "subcategory": "animated-components",
+  "kinds": [
+   "component-library",
+   "animation-library"
+  ],
+  "facets": {
+   "framework": [
+    "react"
+   ],
+   "styling": [
+    "inline-styles"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "known-gaps"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "structured-docs",
+    "bot-blocked"
+   ],
+   "maturity": "stable"
+  },
+  "components": [
+   "marquee",
+   "ticker"
+  ],
+  "component_count": 1,
+  "surfaces": [
+   "homepage",
+   "testimonials"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "npm install react-fast-marquee --save",
+  "package": "react-fast-marquee",
+  "docs_url": "https://www.react-fast-marquee.com",
+  "repo_url": "https://github.com/justin-chu/react-fast-marquee",
+  "registry_url": null,
+  "github": {
+   "stars": 1500,
+   "license": "MIT",
+   "last_activity": "2024-07-01"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "For a plain logo wall, hand-written @keyframes plus a duplicated track is smaller and needs no dependency — reach for this package only when you actually want autoFill, pauseOnHover/pauseOnClick, a loop count with onFinish, or the edge fade gradient, because reimplementing autoFill correctly is the fiddly part. It has no reduced-motion handling of its own, so always wrap it and set play={false} under a prefers-reduced-motion media query, and skip direction='up'/'down' since the README still calls vertical experimental and buggy. Last publish was 1.6.5 in July 2024 with 57 open issues — stable and hugely used (~524k weekly installs) but not evolving, so do not expect fixes.",
+  "why_it_matters": "The default React marquee: tiny, dependency-free, and CSS-driven rather than requestAnimationFrame-driven, which is why it survived while heavier scroller libraries did not.",
+  "quality_tier": "B",
+  "notable_for": [
+   "autoFill clones children to fill the track",
+   "pure CSS animation, no rAF loop",
+   "zero dependencies, ~50 KB unpacked",
+   "~524k weekly npm downloads",
+   "no built-in reduced-motion support"
+  ],
+  "already_enriched": false,
+  "http_status": 403,
+  "verified_at": "2026-08-15",
+  "evidence": "https://www.npmjs.com/package/react-fast-marquee returned HTTP 403 to WebFetch, so verified through https://registry.npmjs.org/react-fast-marquee (latest 1.6.5 published 2024-07-01, MIT, 33 versions, 49,844 bytes unpacked, no deps, README with the full prop table) and https://api.npmjs.org/downloads/point/last-week/react-fast-marquee (524,377). Stars, forks and the 57 open issues read from https://github.com/justin-chu/react-fast-marquee via WebFetch.",
+  "source": "depo"
+ }
+]

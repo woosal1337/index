@@ -1,0 +1,365 @@
+[
+ {
+  "id": "user:7058179f318bbdf9",
+  "templates": [],
+  "template_count": null,
+  "install": "npx skills add sleekdotdesign/agent-skills -s sleek-design-mobile-apps",
+  "package": null,
+  "docs_url": "https://sleek.design/llms.txt",
+  "repo_url": null,
+  "registry_url": "https://sleek.design/api/v1/spec.json",
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "onboarding-mobile",
+   "splash-screen",
+   "settings-mobile",
+   "public-profile",
+   "account-mobile",
+   "homepage"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-30",
+  "source": "user",
+  "slug": "sleek-design",
+  "url": "https://sleek.design",
+  "name": "Sleek",
+  "tagline": "An AI mobile app designer built for coding agents, with a REST API, an OpenAPI spec, an agents.md and an installable skill",
+  "description": "Sleek turns a text description or a hand-drawn sketch into mobile app designs. It handles multi-screen projects with one design system across them, and it exports four ways: to Figma as native editable layers with no plugin, to HTML and React with Tailwind CSS, to AI builders including a0, Anything, Cursor and Claude Code, and to a share link for stakeholders.\n\nThe reason it belongs in this corpus is the word the site uses for itself: agent-native. A coding agent designs an app in Sleek on its own, through a REST API, and the whole surface is documented for that. There is a machine-readable onboarding file at /agents.md, an interactive API reference at /api/v1/docs, an OpenAPI specification at /api/v1/spec.json running to 75 KB, a setup page that creates an API key, and an official skill installed with `npx skills add sleekdotdesign/agent-skills -s sleek-design-mobile-apps`.\n\nThe llms.txt is 27 KB and unusually candid. It states the price outright, which very few paid tools here do: Pro at 69 dollars a month, or 30 dollars a month billed yearly at 360 dollars, including 20,000 monthly AI credits. It also states that a free account gets one-time trial credits worth about one design run, and that an API run consumes the same credits as one started in the app.",
+  "category": "agent-design-tooling",
+  "subcategory": "ai-design-apps",
+  "kinds": [
+   "ai-tool",
+   "tool",
+   "agent-skill",
+   "generator"
+  ],
+  "facets": {
+   "framework": [
+    "react"
+   ],
+   "styling": [
+    "tailwind-any"
+   ],
+   "license": [
+    "commercial"
+   ],
+   "pricing": [
+    "freemium",
+    "subscription",
+    "account-required"
+   ],
+   "distribution": [
+    "web-app",
+    "public-api",
+    "cli",
+    "figma-plugin"
+   ],
+   "platform": [
+    "web",
+    "ios",
+    "android"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "screenshots",
+    "code",
+    "figma",
+    "design-tokens"
+   ],
+   "agent_readiness": [
+    "agent-skill",
+    "public-api",
+    "llms-txt",
+    "structured-docs",
+    "cli-installable",
+    "agent-paywalled"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "pricing_detail": "Freemium, and the site states the figures rather than hiding them. A free account gets one-time trial credits worth about one design run. Pro costs 69 dollars a month, or 30 dollars a month billed yearly at 360 dollars a year, and it includes 20,000 AI credits a month. An API run costs the same credits as a run started in the app.",
+  "agent_guidance": "Read https://sleek.design/agents.md first. It is 3.3 KB of machine-readable onboarding written for this exact case, and it is a shorter route than the 27 KB llms.txt.\n\nInstall the skill rather than hand-rolling calls: `npx skills add sleekdotdesign/agent-skills -s sleek-design-mobile-apps`. For anything the skill does not cover, the OpenAPI spec sits at /api/v1/spec.json.\n\nGet the API key at /agents/setup. Sign-in, upgrade and key creation happen on that one page, so a person has to do it once before an agent can run.\n\nBudget the credits. A design run through the API costs the same as one in the app, a free account has about one run, and Pro gives 20,000 credits a month for 69 dollars, or 360 dollars a year.\n\nTake the Figma export when a designer continues the work. It produces native editable layers and needs no plugin, which is rarer than it sounds.",
+  "why_it_matters": "Most AI design tools expect a person at a keyboard. This one publishes an OpenAPI spec, an agents.md and an installable skill, so a coding agent designs the screens and then exports the code itself.",
+  "quality_tier": "S",
+  "tier_reason": "The most complete agent surface of any design tool in this corpus: a REST API with a 75 KB OpenAPI spec, interactive docs, a machine-readable agents.md, an official installable skill and a 27 KB llms.txt. It exports to Figma as native layers, to React and Tailwind, and to four AI builders. The llms.txt also states the exact price and the credit cost of an API run, which is a candour almost nothing else here matches.",
+  "notable_for": [
+   "agent-native, with a REST API and an OpenAPI spec",
+   "agents.md and an installable agent skill",
+   "Figma export as native layers, no plugin",
+   "exports to a0, Anything, Cursor and Claude Code",
+   "llms.txt states the price and the credit cost"
+  ],
+  "evidence": "https://sleek.design/ 200, 364 KB; title \"Sleek: AI Mobile App Designer | Design Apps in Minutes\"; the navigation holds Pricing, Resources, Templates, References, \"AI agents\", \"App Store Screenshots\" and Blog, and a banner reads \"Using Claude Code? Let it design your app\" beside a Codex label; the hero reads \"Design mobile apps in minutes — Go from idea to beautiful app designs in minutes by chatting with AI\", with sample references Health Tracker (Neo-Brutalism), Crypto Wallet (Glassmorphism), Pet Manager (Playful Whimsical) and Subscription Tracker (Soft Clay 3D). https://sleek.design/llms.txt 200 at 27,466 bytes, and a control request to /zzz-not-a-page returns a different 163 KB body, so the file is real and not a catch-all. It lists \"Export to Figma as native, editable layers (no plugin required)\", \"Export to code: HTML and React with Tailwind CSS\", \"Export to AI builders: a0, Anything, Cursor, Claude Code\", \"Agent-native: AI coding agents (Claude Code, Cursor, Codex, and others) design apps in Sleek via the REST API and agent skill\", the command `npx skills add sleekdotdesign/agent-skills -s sleek-design-mobile-apps`, and \"Free accounts can try the API with their one-time trial credits (about one design run); sustained use requires the Pro plan or higher ($69/month, or $30/month billed yearly at $360/year, including 20,000 monthly AI credits)\". https://sleek.design/agents.md 200 at 3,293 bytes, /api/v1/spec.json 200 at 75,335 bytes, /agents 200 at 231 KB, /sitemap.xml 200 with 1,768 URLs."
+ },
+ {
+  "id": "user:06878e5eb1045cc2",
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 2141,
+   "blocks": null
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-30",
+  "source": "user",
+  "slug": "landing-love",
+  "url": "https://www.landing.love",
+  "name": "landing.love",
+  "tagline": "2,141 animated websites filtered by the library that built them: 191 GSAP, 133 WebGL, 74 ThreeJS",
+  "description": "landing.love collects websites for their motion. It holds 2,141 of them, and the filtering is unusually specific.\n\nThe category axis carries counts on every term: Minimal 1,373, 3D Website 563, Portfolio 557, Studio 544, Agency 376, Illustration 270, Photography 199, E-commerce 196, Technology 148, Horizontal Scroll 131, and about forty more down to Marketplace at 3.\n\nThree other axes make it worth a visit over a general gallery. Style splits Dark Mode 628, Gradient 166, Retro 153 and Light Mode 81. Collection splits by the animation library the site was built with — GSAP 191, WebGL 133, ThreeJS 74. Platform splits Webflow 111, Framer 30 and Wix Studio 1.\n\nThat Collection axis is the reason to note it. Filtering a gallery by the library behind the motion is rare, and it turns a question like \"show me what GSAP looks like in production\" into one click. A Templates section sits beside the gallery.\n\nThe site publishes no llms.txt, and the sitemap holds one URL.",
+  "category": "inspiration-galleries",
+  "subcategory": "site-galleries",
+  "kinds": [
+   "gallery",
+   "directory"
+  ],
+  "facets": {
+   "framework": [
+    "webflow",
+    "framer"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "gallery"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "screenshots",
+    "video"
+   ],
+   "agent_readiness": [
+    "image-only"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "pricing_detail": "Free to browse. Templates for Webflow are offered beside the gallery.",
+  "agent_guidance": "Filter by Collection when the brief names a technique. GSAP, WebGL and ThreeJS are separate filters with 191, 133 and 74 entries, which is the fastest route from a library name to real production examples.\n\nFilter by Platform when the client builds in a tool. Webflow has 111 entries and Framer 30, so the reference is reachable in the same tool the work will ship in.\n\nDo not try to enumerate it. The sitemap holds one URL and there is no llms.txt, so the counts on the home page are the only figures a plain fetch returns.",
+  "why_it_matters": "Motion galleries show you the result and leave you guessing how it was built. This one tells you the library, which turns browsing into a shortlist you can actually implement.",
+  "quality_tier": "B",
+  "tier_reason": "Real depth at 2,141 sites, with counts on every filter term and a Collection axis that names GSAP, WebGL and ThreeJS as separate filters. That last axis is rare and genuinely useful. Held at B because nothing is machine-readable: no llms.txt, a one-URL sitemap, no per-site route in the served HTML, and no stated editorial standard.",
+  "notable_for": [
+   "2,141 animated websites",
+   "filters by GSAP, WebGL and ThreeJS",
+   "filters by Webflow, Framer and Wix Studio",
+   "counts on every category term",
+   "no llms.txt, one-URL sitemap"
+  ],
+  "evidence": "https://www.landing.love/ 200, 166 KB server-rendered; title \"Showcase of the best 2141 Animation Websites - landing.love\"; the category list with counts reads Minimal 1373, 3D Website 563, Portfolio 557, Studio 544, Agency 376, Illustration 270, Photography 199, ECommerce 196, Technology 148, Horizontal Scroll 131, Lifestyle 120, Film 119, Marketing 93, SaaS 92, Design 88, Fashion 76, Typography 76, Business 73, Food Drink 68, Finance 55, AI 53 and on down to Marketplace 3 and Newsletter 3; Style reads Dark Mode 628, Gradient 166, Retro 153 and Light Mode 81; Collection reads GSAP 191, WebGL 133 and ThreeJS 74; Platform reads Webflow 111, Framer 30 and Wix Studio 1; a Templates section lists Webflow Portfolio & Agency and Retail & E-Commerce. https://www.landing.love/llms.txt 404 and /sitemap.xml 200 with a single URL."
+ },
+ {
+  "id": "user:3ce61b8d6a981521",
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 728,
+   "blocks": null
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-30",
+  "source": "user",
+  "slug": "rebrand-gallery",
+  "url": "https://www.rebrand.gallery",
+  "name": "Rebrand",
+  "tagline": "A gallery of rebrands and visual identities that filters by the typeface used, across 211 rebrands and 517 bentos",
+  "description": "Rebrand collects identity work: new design systems, identity launches and rebrand reveal videos. Three sections divide it. Intros holds the reveal films. Bentos holds the grid layouts brands use to present a system, and the sitemap shows 517 of them. Shots holds the individual artefacts, and the sitemap shows 211 rebrands beside them.\n\nThe filtering is what sets it apart, because it names things a brand designer actually asks for. Shots split by Billboard and OOH, Packaging, Brand guidelines, Signage, Merch, Editorial and Stationery. Industries split by Fintech, AI, Hospitality, Food, Healthcare, Sports and Culture. Styles split by Geometric, 3D, Gradient, Pattern, Wordmark, Typography, Sans Serif, Serif, Display and Mono. Feels split by Vibrant, Modern, Confident, Human and Warm.\n\nOne axis is rare enough to name on its own: Typefaces. The gallery filters by the type used, and it lists Inter, Aeonik, ABC Diatype, Satoshi and Suisse Int'l, with 115 typeface pages in the sitemap. A question like \"who else shipped an identity on ABC Diatype\" has almost no other home.\n\nSahkyo made it. There is a Pro tier and the site publishes no llms.txt.",
+  "category": "design-systems-brand",
+  "subcategory": "brand-guideline-archives",
+  "kinds": [
+   "gallery",
+   "directory",
+   "reference"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium",
+    "account-required"
+   ],
+   "distribution": [
+    "gallery"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "images",
+    "video",
+    "fonts"
+   ],
+   "agent_readiness": [
+    "machine-index"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "pricing_detail": "Free to browse, with a Pro tier reached from a \"Try Pro\" control and a Pricing page. No figure appears in the served HTML. An account is needed to sign in.",
+  "agent_guidance": "Filter by typeface when the brief names one. The sitemap holds 115 typeface pages, and the named ones include Inter, Aeonik, ABC Diatype, Satoshi and Suisse Int'l. No other record in this corpus lets you enter a brand gallery through the type.\n\nUse the Feels axis for a brief written in adjectives. Vibrant, Modern, Confident, Human and Warm map to the words a client actually uses, which a category filter cannot answer.\n\nWalk /sitemap.xml for the catalogue. It holds 973 URLs, split as 517 bentos, 211 rebrands, 115 typefaces, 49 styles, 27 feels and 20 industries. There is no llms.txt.\n\nTake the Bentos section when you have to present a system. 517 examples of how a brand lays out its own identity on one screen is a narrow and useful reference.",
+  "why_it_matters": "Brand galleries file work by industry or by look. This one files it by the typeface, which is the single decision a brand designer most often has to justify and most rarely finds precedent for.",
+  "quality_tier": "A",
+  "tier_reason": "A focused collection with 973 catalogued pages and four filter axes that match how brand work is actually briefed, including a typeface axis with 115 pages that nothing else here offers. Held below S because there is no llms.txt and no API, the Pro tier carries no published price, and the whole surface is images and video with no machine-readable record beside them.",
+  "notable_for": [
+   "filters an identity gallery by typeface",
+   "115 typeface pages, 211 rebrands, 517 bentos",
+   "Feels axis: vibrant, modern, confident, human, warm",
+   "shots by billboard, packaging, signage and stationery",
+   "rebrand reveal films in the Intros section"
+  ],
+  "evidence": "https://www.rebrand.gallery/ 200, 416 KB; title \"Rebrand — A curated gallery of rebrands and visual identities\"; the navigation holds Intros, Bentos, Shots, About, Pricing, Sign in and Try Pro; the page reads \"Explore the best new design systems, identity launches, and rebrand reveal videos. The curated reference library for brand designers\"; the footer filter lists read Shots — Billboard & OOH, Packaging, Brand guidelines, Signage, Merch, Editorial, Stationery; Industries — Fintech, AI, Hospitality, Food, Healthcare, Sports, Culture; Styles — Geometric, 3D, Gradient, Pattern, Wordmark, Typography, Sans Serif, Serif, Display, Mono; Typefaces — Inter, Aeonik, ABC Diatype, Satoshi, Suisse Int'l; Feels — Vibrant, Modern, Confident, Human, Warm; and \"© 2026 Rebrand. Made by Sahkyo\". /sitemap.xml 200 with 973 URLs, split as 517 under /bento, 211 under /rebrand, 115 under /typefaces, 49 under /styles, 27 under /feels and 20 under /industries. /llms.txt 404."
+ },
+ {
+  "id": "user:2b594929bcc28c83",
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-30",
+  "source": "user",
+  "slug": "photogradient",
+  "url": "https://photogradient.com",
+  "name": "PhotoGradient",
+  "tagline": "An image-to-mesh-gradient tool, free and unlimited, with noise, shape and colour controls and no readable page",
+  "description": "PhotoGradient turns an image into a mesh gradient. The controls cover the noise, the shape, the colours and the gradient itself, and the tool is free with no stated limit on output.\n\nTaking a photograph as the input is the useful part. Most gradient generators start from colour pickers, so the result carries whatever palette the person chose. Starting from an image keeps the colour relationships of the source, which is a faster route to a background that matches a brand photograph.\n\nNothing on the site is readable without running it. The served page is 1,730 bytes and says \"You need to enable JavaScript to run this app\". A request to /llms.txt answers 200, and so does a nonsense path, and both return that same 1,730 bytes byte for byte. The sitemap answers 200 with zero entries. There is no machine index of any kind.",
+  "category": "textures-assets",
+  "subcategory": "gradients-and-backgrounds",
+  "kinds": [
+   "generator",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "react"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "images",
+    "3d"
+   ],
+   "agent_readiness": [
+    "js-only-shell"
+   ],
+   "maturity": "stable"
+  },
+  "pricing_detail": "Free, and the author states the output is unlimited. No account or paid tier appears in the served HTML.",
+  "agent_guidance": "Send a person. The whole tool runs in the browser, the served page is 1,730 bytes of shell, and there is no API and no package, so an agent cannot generate a gradient here.\n\nDo not record an llms.txt for this site. It answers 200 but returns the same 1,730-byte shell as any nonsense path, and the sitemap answers 200 with zero entries. Both are catch-all responses.\n\nReach for it when a background has to match a photograph. Feeding the image in keeps the source colour relationships, which a colour-picker generator cannot do.",
+  "why_it_matters": "A gradient built from a colour picker rarely matches the photography beside it. Starting from the image itself is the short path to a background that belongs on the same page.",
+  "quality_tier": "C",
+  "tier_reason": "A single job done well, free, with the useful twist of taking an image rather than colour stops as the input. Held at C because nothing is verifiable without running it: the served page is a 1,730-byte shell, the sitemap is empty, the llms.txt is a catch-all false positive, and no licence, author or output format is stated anywhere a fetch can read.",
+  "notable_for": [
+   "turns an image into a mesh gradient",
+   "noise, shape and colour controls",
+   "free with unlimited output",
+   "1,730-byte shell, needs JavaScript",
+   "llms.txt and sitemap are both catch-all responses"
+  ],
+  "evidence": "https://photogradient.com/ 200 but only 1,730 bytes; the served HTML strips to \"Image to Mesh Gradient — You need to enable JavaScript to run this app.\" /llms.txt answers 200 at 1,730 bytes, /zzz-not-a-page answers 200 at 1,730 bytes, and the two bodies are byte-identical, so the server has a catch-all route and no llms.txt exists. /sitemap.xml answers 200 but contains zero <loc> entries. The tool was described by @Abmankendrick on 2026-08-29: \"PhotoGradient lets you create unlimited gradients for your next project, completely free. Adjust the noise, shape, colors, and gradient until you get the perfect look.\""
+ }
+]

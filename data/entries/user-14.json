@@ -1,0 +1,189 @@
+[
+ {
+  "id": "user:4b9f9958595661dd",
+  "slug": "opensource-ui",
+  "url": "https://opensourceui.in",
+  "name": "Opensource UI",
+  "tagline": "154 free MIT React and Next.js components across 26 categories, copy-pasted from pages that serve the full TypeScript source in the HTML",
+  "description": "Opensource UI is a copy-paste component library by Bidyut Kundu, built on React, Next.js, TypeScript and Tailwind CSS v4 with Lucide icons. The /components index lists 154 components in 26 categories: Buttons, Inputs, Forms, Otp, Calender, Notifications, Table, Socials, Profile, Widgets, Mockups, Docks, Dropdowns, Files, Folder, Gallery, Event, Pricing, Resources, Text, Travel, Underlines, Users, Wallet, Audio and Others. There is no npm package and no shadcn registry. Each component page carries a live preview, a numbered setup guide, the shared lib/cn.ts helper, and the complete component source, all rendered server side in the HTML. The dependency line is small: npm install clsx tailwind-merge lucide-react. The catalog mixes two kinds of work. One part is normal product furniture that an app needs: login, signup, contact, newsletter and forgot-password forms, thirteen field inputs with two OTP variants, six data tables, five calendars, a dropdown family, docks, a spotlight command bar, toggle pricing cards and a filter and sort control. The other part is novelty and presentation work that most libraries skip: browser, laptop and phone mockup frames for screenshots, analog and digital clocks, a GitHub contribution heatmap, health widgets for steps, heart rate, sleep and hydration, social post cards for Twitter, Instagram, Facebook, LinkedIn and Threads, editorial pieces like drop caps and magazine covers, and travel items like boarding passes and postcards. The whole set is MIT, free for commercial use, with no attribution required on the UI.",
+  "category": "component-libraries",
+  "subcategory": "react-component-libraries",
+  "kinds": [
+   "component-library",
+   "block-collection"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "tailwind-v4"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "copy-paste",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "semantic-html",
+    "claimed-accessible",
+    "known-gaps"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "llms-txt",
+    "copy-paste-ready",
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "button",
+   "icon-button",
+   "toggle-button",
+   "copy-button",
+   "quick-action",
+   "command-palette",
+   "share-sheet",
+   "confirmation-state",
+   "text-input",
+   "textarea",
+   "search-input",
+   "password-input",
+   "otp-input",
+   "input-group",
+   "phone-input",
+   "quantity-stepper",
+   "character-count",
+   "file-upload",
+   "date-input",
+   "date-picker",
+   "date-range-picker",
+   "calendar",
+   "form",
+   "checkbox",
+   "radio-group",
+   "select",
+   "combobox",
+   "switch",
+   "segmented-control",
+   "dropdown-menu",
+   "filter-panel",
+   "sort-control",
+   "dock",
+   "workspace-switcher",
+   "account-menu",
+   "login-form",
+   "signup-form",
+   "forgot-password-form",
+   "table",
+   "card",
+   "stat",
+   "avatar",
+   "avatar-group",
+   "kbd",
+   "terminal",
+   "quote",
+   "typography",
+   "timeline",
+   "feed",
+   "message",
+   "heatmap",
+   "meter",
+   "progress-bar",
+   "countdown",
+   "map",
+   "alert",
+   "toast",
+   "status-indicator",
+   "image",
+   "image-gallery",
+   "audio-player",
+   "device-frame",
+   "glassmorphism",
+   "text-effect",
+   "price",
+   "pricing-table",
+   "billing-period-toggle",
+   "add-to-cart-button",
+   "invoice",
+   "order-tracking"
+  ],
+  "component_count": 154,
+  "surfaces": [
+   "homepage",
+   "features",
+   "testimonials",
+   "pricing-website",
+   "login-web-app",
+   "sign-up",
+   "resetting-password",
+   "two-factor-authentication",
+   "account-web-app",
+   "settings-web-app",
+   "workspace-switcher",
+   "user-management",
+   "notifications",
+   "in-app-notifications",
+   "feed",
+   "search-results",
+   "command-palette",
+   "keyboard-shortcuts-overlay",
+   "filtering-items",
+   "submitting-a-form",
+   "showing-input-error",
+   "uploading-media",
+   "adding-to-cart",
+   "order-status"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "npm install clsx tailwind-merge lucide-react",
+  "package": null,
+  "docs_url": "https://opensourceui.in/components",
+  "repo_url": "https://github.com/bidyut10/opensourceui",
+  "registry_url": null,
+  "github": {
+   "stars": 68,
+   "license": "MIT",
+   "last_activity": "2026-08-17"
+  },
+  "pricing_detail": "Free. MIT licensed for personal and commercial use, with no attribution required on the shipped UI. No paid tier and no account. The site asks for sponsors and has none yet.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 154,
+   "blocks": null
+  },
+  "agent_guidance": "Read the component pages directly with a plain fetch. Every /components/<slug> page serves the full TypeScript source inside the server-rendered HTML, so an agent gets working code without a browser, a CLI or an API key. That makes it one of the cheapest sources of real component code in this corpus. Start at /llms.txt, which names the URL patterns for pages, categories and search. There is no shadcn registry and no npm package, so do not look for /r/<name>.json or reach for a CLI: copy the file, add the cn() helper, and install clsx, tailwind-merge and lucide-react. Read the accessibility code before you ship a form: the login form does the work properly with htmlFor, aria-invalid, aria-live and autoComplete, but the user menu stops at aria-expanded and Escape with no arrow-key navigation and no focus return. Nothing in the library honours prefers-reduced-motion. Use it for the novelty layer that other libraries do not cover, notably the browser, laptop and phone mockup frames, the clocks and the social post cards. Do not use it as a base primitive kit, because there is no theming contract, no versioning and no test suite.",
+  "why_it_matters": "Most libraries with this much breadth either paywall the good half or hide the code behind a client-rendered viewer. This one is 154 components, MIT, in a public repository, with the source in the HTML and an llms.txt that explains the URL patterns. For an agent that must produce working React without an install step, that combination is rare.",
+  "quality_tier": "A",
+  "tier_reason": "Real breadth at 154 components across 26 categories, all MIT and all free, backed by a public repository and one of the best agent surfaces in the corpus: server-rendered source, a useful llms.txt, and a three-package dependency line. Held below S because it is young, started 2026-06-05 and run by one person at 68 stars, because there is no registry, CLI, npm package or version history, because accessibility is inconsistent between components and no component honours reduced motion, and because a large share of the catalog is novelty and presentation work rather than the primitive layer a product actually stands on.",
+  "notable_for": [
+   "154 components in 26 categories",
+   "full TypeScript source in the server-rendered HTML",
+   "MIT with no UI attribution required",
+   "browser, laptop and phone mockup frames",
+   "llms.txt that names the URL patterns"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-24",
+  "evidence": "https://opensourceui.in/ 200, 298 KB of server-rendered HTML; title \"Opensource UI - Free, open-source, production-ready components for React & Next.js\"; header shows \"Star 66\"; the stack section names React, Next.js, TypeScript, Tailwind CSS v4 and Lucide; footer reads \"Made & maintained by Bidyut Kundu\" and \"MIT licensed - Free for personal and commercial use. No UI attribution required.\". https://opensourceui.in/components 200, 1.04 MB; the page states \"Explore 154 polished React and Next.js components, organized across 26 categories\"; counted 154 distinct /components/<slug> links and 26 ?category= links in the HTML. https://opensourceui.in/components/login-form 200; setup steps read \"npm install clsx tailwind-merge lucide-react\", copy lib/cn.ts, create components/forms/login-form.tsx; the full source is in the HTML and contains aria-live, aria-invalid, htmlFor, sr-only and autoComplete, with no prefers-reduced-motion. https://opensourceui.in/components/user-menu 200; source carries aria-expanded, aria-haspopup and Escape handling, but no arrow-key navigation, no tabIndex management and no focus return. https://opensourceui.in/llms.txt 200, 1324 bytes, names the homepage, the components index, the GitHub repository, the MIT licence, the /components/{slug} and ?category= and ?q= URL patterns, and the stack. https://opensourceui.in/robots.txt 200, allows all agents except /api/, /dashboard, /lab and /ingest/. https://opensourceui.in/sitemap.xml 200 with 182 URLs. https://opensourceui.in/r/login-form.json and /registry.json both 404, so there is no shadcn registry. GitHub API for bidyut10/opensourceui: 68 stars, 5 forks, MIT, TypeScript, created 2026-06-05, last push 2026-08-17, not archived. Note one inconsistency: the repository description credits NextIcons (nexticons.in) for icons while the site and llms.txt both name Lucide.",
+  "source": "user"
+ }
+]

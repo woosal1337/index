@@ -1,0 +1,930 @@
+[
+ {
+  "id": "0942c9b4-4107-4432-b1a3-4bcefc77d507",
+  "slug": "mobbin-mcp",
+  "url": "https://mobbin.com/mcp",
+  "name": "Mobbin MCP",
+  "tagline": "MCP server that gives coding agents 621,500+ real shipped app screens",
+  "description": "Mobbin MCP is a hosted, OAuth-authenticated Model Context Protocol server that exposes Mobbin's screenshot library — 621,500+ screens captured from shipped iOS, Android and web products — to AI agents. An agent can search screens, pull flows (paywalls, KYC, onboarding, checkout, permission prompts), and compare how named apps such as Revolut, Duolingo, Uber, Airbnb and Booking.com solve a pattern, then design against that evidence instead of guessing. It is a design-reference source, not a code source: it returns screens and pattern notes, not components. Intended for designers and engineers who already pay for Mobbin and want the same library inside Claude Code, Cursor, Codex or v0.",
+  "category": "agent-design-tooling",
+  "subcategory": "mcp-and-registries",
+  "kinds": [
+   "mcp-server",
+   "service",
+   "reference"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "subscription",
+    "paid",
+    "account-required",
+    "freemium"
+   ],
+   "distribution": [
+    "mcp-server",
+    "saas",
+    "web-app"
+   ],
+   "platform": [
+    "web",
+    "ios",
+    "android"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "screenshots",
+    "images",
+    "dataset"
+   ],
+   "agent_readiness": [
+    "mcp-server",
+    "auth-required",
+    "agent-paywalled"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "paywall",
+   "pricing-website",
+   "onboarding-mobile",
+   "sign-up",
+   "login-mobile",
+   "verifying-account",
+   "checkout",
+   "cart-mobile",
+   "permission-primer",
+   "notifications",
+   "search-mobile",
+   "settings-mobile",
+   "feed",
+   "404",
+   "empty-state"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "claude mcp add mobbin --scope user --transport http https://api.mobbin.com/mcp",
+  "package": null,
+  "docs_url": "https://mobbin.com/mcp",
+  "repo_url": null,
+  "registry_url": "https://api.mobbin.com/mcp",
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Free tier is limited (latest 4 apps/sites, limited flows and animations, up to 3 collections). Pro $10/member/mo billed yearly; Team $16/member/mo billed yearly; Enterprise via sales. Finance+ add-on $399/mo billed yearly for 55+ finance apps. MCP access is included on all paid plans only.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 621500,
+   "blocks": null
+  },
+  "agent_guidance": "Reach for this before you write a single line of UI for a flow you have not shipped before — paywalls, KYC/identity verification, permission primers, checkout — and ask it for 20-40 real examples rather than one, because its value is pattern frequency across apps, not any single screen. It returns screenshots and prose, so pair it with a code registry (shadcn/ui, Originkit, Canvas UI) that actually emits components; Mobbin decides what to build, the registry decides what to type. Watch out for the paywall: the tool call fails silently for free accounts, browser OAuth is required on first use, and screen images consume a lot of vision tokens, so cap how many you pull per turn.",
+  "why_it_matters": "It is the largest curated corpus of real shipped product UI, and it is now addressable by an agent instead of only by a human scrolling a gallery. That makes it the strongest available antidote to agents inventing plausible-but-wrong app flows.",
+  "quality_tier": "S",
+  "notable_for": [
+   "621,500+ shipped product screens",
+   "OAuth HTTP MCP transport",
+   "flow-level not just screen-level references",
+   "works with Claude Code, Cursor, Codex, v0",
+   "paid plans only"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://mobbin.com/mcp (WebFetch + raw curl HTML), https://mobbin.com/pricing (raw curl HTML)"
+ },
+ {
+  "id": "ff2e8e4f-ccfa-4c11-910c-aa5987d726ba",
+  "slug": "originkit",
+  "url": "https://www.originkit.dev/",
+  "name": "Originkit",
+  "tagline": "180 animated web components plus 48 page sections, for Framer, React and MCP",
+  "description": "Originkit is a free registry of 180 animated components across nine categories (Text 62, Image Gallery 22, Cursor 20, Animations 17, Background 17, Image 15, Interactive Elements 13, Button 12, Border 2) plus 48 ready-made page sections (37 heroes, 4 features, 3 pricing, 2 CTA, 2 footer). Every component is authored Framer-first — default export, framer-motion, @framerSupportedLayoutWidth annotations — and can be pasted onto a Framer canvas as a code component, copied as .tsx, installed with its own CLI, or fetched by an agent over a hosted MCP server. The MCP server exposes four tools: list_components, get_component (adapts source to framer/react/nextjs/vite), search, and fetch. Aimed at people building marketing sites and landing pages who want awwwards-style motion without writing the animation themselves.",
+  "category": "motion-interaction",
+  "subcategory": "animated-components",
+  "kinds": [
+   "component-library",
+   "registry",
+   "animation-library"
+  ],
+  "facets": {
+   "framework": [
+    "framer",
+    "react",
+    "next",
+    "vanilla"
+   ],
+   "styling": [
+    "inline-styles",
+    "unknown"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "cli",
+    "mcp-server",
+    "copy-paste",
+    "npm-package"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "mcp-server",
+    "cli-installable",
+    "copy-prompt",
+    "copy-paste-ready",
+    "bot-blocked"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "text-effect",
+   "custom-cursor",
+   "hover-effect",
+   "button",
+   "image-gallery",
+   "image",
+   "carousel",
+   "marquee",
+   "typewriter-text",
+   "scroll-reveal",
+   "particle-background",
+   "animation",
+   "hero",
+   "pricing-table",
+   "footer",
+   "section"
+  ],
+  "component_count": 180,
+  "surfaces": [
+   "homepage",
+   "features",
+   "pricing-website"
+  ],
+  "templates": [
+   {
+    "name": "Hero 01",
+    "url": "https://www.originkit.dev/sections/hero-01",
+    "purpose": "Animated landing-page hero section"
+   },
+   {
+    "name": "Hero 02",
+    "url": "https://www.originkit.dev/sections/hero-02",
+    "purpose": "Animated landing-page hero section"
+   },
+   {
+    "name": "Hero 03",
+    "url": "https://www.originkit.dev/sections/hero-03",
+    "purpose": "Animated landing-page hero section"
+   },
+   {
+    "name": "Hero 04",
+    "url": "https://www.originkit.dev/sections/hero-04",
+    "purpose": "Animated landing-page hero section"
+   },
+   {
+    "name": "Hero 05",
+    "url": "https://www.originkit.dev/sections/hero-05",
+    "purpose": "Animated landing-page hero section"
+   },
+   {
+    "name": "Hero 06",
+    "url": "https://www.originkit.dev/sections/hero-06",
+    "purpose": "Animated landing-page hero section"
+   },
+   {
+    "name": "Hero 07",
+    "url": "https://www.originkit.dev/sections/hero-07",
+    "purpose": "Animated landing-page hero section"
+   },
+   {
+    "name": "Hero 08",
+    "url": "https://www.originkit.dev/sections/hero-08",
+    "purpose": "Animated landing-page hero section"
+   },
+   {
+    "name": "Hero 09",
+    "url": "https://www.originkit.dev/sections/hero-09",
+    "purpose": "Animated landing-page hero section"
+   },
+   {
+    "name": "Hero 10",
+    "url": "https://www.originkit.dev/sections/hero-10",
+    "purpose": "Animated landing-page hero section"
+   },
+   {
+    "name": "Hero 11",
+    "url": "https://www.originkit.dev/sections/hero-11",
+    "purpose": "Animated landing-page hero section"
+   },
+   {
+    "name": "Hero 12",
+    "url": "https://www.originkit.dev/sections/hero-12",
+    "purpose": "Animated landing-page hero section"
+   },
+   {
+    "name": "Hero 13",
+    "url": "https://www.originkit.dev/sections/hero-13",
+    "purpose": "Animated landing-page hero section"
+   },
+   {
+    "name": "Hero 14",
+    "url": "https://www.originkit.dev/sections/hero-14",
+    "purpose": "Animated landing-page hero section"
+   },
+   {
+    "name": "Hero 15",
+    "url": "https://www.originkit.dev/sections/hero-15",
+    "purpose": "Animated landing-page hero section"
+   },
+   {
+    "name": "Hero 16",
+    "url": "https://www.originkit.dev/sections/hero-16",
+    "purpose": "Animated landing-page hero section"
+   },
+   {
+    "name": "Hero 17",
+    "url": "https://www.originkit.dev/sections/hero-17",
+    "purpose": "Animated landing-page hero section"
+   },
+   {
+    "name": "Hero 18",
+    "url": "https://www.originkit.dev/sections/hero-18",
+    "purpose": "Animated landing-page hero section"
+   },
+   {
+    "name": "Hero 19",
+    "url": "https://www.originkit.dev/sections/hero-19",
+    "purpose": "Animated landing-page hero section"
+   },
+   {
+    "name": "Hero 20",
+    "url": "https://www.originkit.dev/sections/hero-20",
+    "purpose": "Animated landing-page hero section"
+   },
+   {
+    "name": "Hero 21",
+    "url": "https://www.originkit.dev/sections/hero-21",
+    "purpose": "Animated landing-page hero section"
+   },
+   {
+    "name": "Hero 22",
+    "url": "https://www.originkit.dev/sections/hero-22",
+    "purpose": "Animated landing-page hero section"
+   },
+   {
+    "name": "Hero 23",
+    "url": "https://www.originkit.dev/sections/hero-23",
+    "purpose": "Animated landing-page hero section"
+   },
+   {
+    "name": "Hero 24",
+    "url": "https://www.originkit.dev/sections/hero-24",
+    "purpose": "Animated landing-page hero section"
+   },
+   {
+    "name": "Hero 25",
+    "url": "https://www.originkit.dev/sections/hero-25",
+    "purpose": "Animated landing-page hero section"
+   },
+   {
+    "name": "Hero 26",
+    "url": "https://www.originkit.dev/sections/hero-26",
+    "purpose": "Animated landing-page hero section"
+   },
+   {
+    "name": "Hero 27",
+    "url": "https://www.originkit.dev/sections/hero-27",
+    "purpose": "Animated landing-page hero section"
+   },
+   {
+    "name": "Hero 28",
+    "url": "https://www.originkit.dev/sections/hero-28",
+    "purpose": "Animated landing-page hero section"
+   },
+   {
+    "name": "Hero 29",
+    "url": "https://www.originkit.dev/sections/hero-29",
+    "purpose": "Animated landing-page hero section"
+   },
+   {
+    "name": "Hero 30",
+    "url": "https://www.originkit.dev/sections/hero-30",
+    "purpose": "Animated landing-page hero section"
+   },
+   {
+    "name": "Hero 31",
+    "url": "https://www.originkit.dev/sections/hero-31",
+    "purpose": "Animated landing-page hero section"
+   },
+   {
+    "name": "Hero 32",
+    "url": "https://www.originkit.dev/sections/hero-32",
+    "purpose": "Animated landing-page hero section"
+   },
+   {
+    "name": "Hero 33",
+    "url": "https://www.originkit.dev/sections/hero-33",
+    "purpose": "Animated landing-page hero section"
+   },
+   {
+    "name": "Hero 34",
+    "url": "https://www.originkit.dev/sections/hero-34",
+    "purpose": "Animated landing-page hero section"
+   },
+   {
+    "name": "Hero 35",
+    "url": "https://www.originkit.dev/sections/hero-35",
+    "purpose": "Animated landing-page hero section"
+   },
+   {
+    "name": "Hero 36",
+    "url": "https://www.originkit.dev/sections/hero-36",
+    "purpose": "Animated landing-page hero section"
+   },
+   {
+    "name": "Hero 37",
+    "url": "https://www.originkit.dev/sections/hero-37",
+    "purpose": "Animated landing-page hero section"
+   },
+   {
+    "name": "Features 01",
+    "url": "https://www.originkit.dev/sections/features-01",
+    "purpose": "Feature-grid marketing section"
+   },
+   {
+    "name": "Features 02",
+    "url": "https://www.originkit.dev/sections/features-02",
+    "purpose": "Feature-grid marketing section"
+   },
+   {
+    "name": "Features 03",
+    "url": "https://www.originkit.dev/sections/features-03",
+    "purpose": "Feature-grid marketing section"
+   },
+   {
+    "name": "Features 04",
+    "url": "https://www.originkit.dev/sections/features-04",
+    "purpose": "Feature-grid marketing section"
+   },
+   {
+    "name": "Pricing 01",
+    "url": "https://www.originkit.dev/sections/pricing-01",
+    "purpose": "Pricing table section"
+   },
+   {
+    "name": "Pricing 02",
+    "url": "https://www.originkit.dev/sections/pricing-02",
+    "purpose": "Pricing table section"
+   },
+   {
+    "name": "Pricing 03",
+    "url": "https://www.originkit.dev/sections/pricing-03",
+    "purpose": "Pricing table section"
+   },
+   {
+    "name": "CTA 01",
+    "url": "https://www.originkit.dev/sections/cta-01",
+    "purpose": "Call-to-action closing section"
+   },
+   {
+    "name": "CTA 02",
+    "url": "https://www.originkit.dev/sections/cta-02",
+    "purpose": "Call-to-action closing section"
+   },
+   {
+    "name": "Footer 01",
+    "url": "https://www.originkit.dev/sections/footer-01",
+    "purpose": "Site footer section"
+   },
+   {
+    "name": "Footer 02",
+    "url": "https://www.originkit.dev/sections/footer-02",
+    "purpose": "Site footer section"
+   }
+  ],
+  "template_count": 48,
+  "install": "npx originkit@latest add <component-name>",
+  "package": "originkit",
+  "docs_url": "https://www.originkit.dev/intro",
+  "repo_url": null,
+  "registry_url": "https://mcp.originkit.dev/mcp",
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Free. No paid tier or pricing page exists in the sitemap. The npm CLI package `originkit` (v0.2.23, published 2026-08-07) is MIT; the component sources themselves carry no stated license on the site.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": 48
+  },
+  "agent_guidance": "Use the MCP server at https://mcp.originkit.dev/mcp rather than scraping the site — originkit.dev's robots.txt explicitly Disallows ClaudeBot and GPTBot, so a plain fetch returns 403 and you will get nothing. Call list_components with a category filter (text, button, border, image, image-gallery, cursor, interactive-elements, animation, background-animation) then get_component with stack=nextjs to get source with 'use client' already applied; the raw sources are Framer-first, so outside Framer the framer-motion property-control imports resolve to a no-op shim. Treat these as decoration for marketing pages only — they are heavy canvas/WebGL and cursor effects with no accessibility or reduced-motion story, so never put them inside an app shell or a form.",
+  "why_it_matters": "It is one of very few animated-component registries that ships a real MCP server with stack adaptation built in, and the 48 hero/pricing/footer sections make it a landing-page seed rather than just a bag of effects.",
+  "notable_for": [
+   "180 components, 48 page sections",
+   "MCP server with list_components/get_component/search/fetch",
+   "Framer-first authoring, pastes onto a Framer canvas",
+   "37 animated hero sections",
+   "robots.txt blocks ClaudeBot and GPTBot"
+  ],
+  "quality_tier": "A",
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://www.originkit.dev/ (403 to WebFetch/ClaudeBot; read via curl + decoded Next.js RSC payload), https://www.originkit.dev/sitemap.xml, https://www.originkit.dev/robots.txt, https://www.originkit.dev/intro, https://www.originkit.dev/integrations, Next.js chunk JS for the MCP endpoint and CLI, https://registry.npmjs.org/originkit"
+ },
+ {
+  "id": "8cda98dd-f72e-4496-a288-117700bc29e4",
+  "slug": "thinking-orbs-orbs",
+  "url": "https://orbs.jakubantalik.com/",
+  "name": "Thinking Orbs",
+  "tagline": "React canvas loading orb with 9 named agent states and two sizes",
+  "description": "Thinking Orbs is a single React component that renders a dotted, canvas-drawn orb as a loading indicator for AI and agent UIs. It ships nine hand-tuned states, each with its own particle geometry — working (orbits), searching (globe), solving (rubik), listening (wave), connecting (web), weaving (braid), composing (ribbon), breathing (ring) and shaping (morph) — at two sizes, 64px and 20px, with per-size speed and density tuning. Props are state, size, theme ('auto' resolves light/dark from context), speed, paused and aria-label, and it listens to prefers-reduced-motion. It is MIT, one npm install, and it replaces the generic spinner in a chat or agent surface with a state that actually tells the user what the model is doing.",
+  "category": "ai-interface-kits",
+  "subcategory": "agent-state-indicators",
+  "kinds": [
+   "primitive",
+   "animation-library",
+   "component-library"
+  ],
+  "facets": {
+   "framework": [
+    "react"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "reduced-motion"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "js-only-shell"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "spinner",
+   "status-indicator",
+   "typing-indicator"
+  ],
+  "component_count": 1,
+  "surfaces": [
+   "ai-chat-panel",
+   "agent-run-history"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "npm install thinking-orbs",
+  "package": "thinking-orbs",
+  "docs_url": "https://orbs.jakubantalik.com/",
+  "repo_url": "https://github.com/Jakubantalik/thinking-orbs",
+  "registry_url": null,
+  "github": {
+   "stars": 2468,
+   "license": "MIT",
+   "last_activity": "2026-08-11"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Drop this in wherever you would otherwise reach for a spinner in an agent or chat UI, and map your real pipeline stages onto its state names — 'searching' while a tool call runs, 'composing' while tokens stream, 'listening' for voice capture — because the whole point is that the shape communicates the stage. It renders to a canvas with devicePixelRatio scaling, so it is client-only: guard it behind 'use client' in Next.js and do not try to SSR it. Two sizes only (64 and 20) are hand-tuned; scaling the CSS box to other sizes degrades the dot field, so use 20px inline in a message row and 64px as a standalone hero indicator.",
+  "why_it_matters": "Agent UIs badly need a vocabulary for 'what is the model doing right now', and this is a tiny MIT dependency that gives you nine legible answers instead of one anonymous spinner.",
+  "notable_for": [
+   "9 named states with distinct particle geometry",
+   "64px and 20px hand-tuned sizes",
+   "prefers-reduced-motion aware",
+   "auto light/dark theme resolution",
+   "MIT, single npm install, React 18+"
+  ],
+  "quality_tier": "A",
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://orbs.jakubantalik.com/ (JS-only shell; read /assets/main-DQFaCC1-.js and /assets/ThinkingOrb-CPAX2vdL.js directly), https://github.com/Jakubantalik/thinking-orbs via gh api, https://registry.npmjs.org/thinking-orbs"
+ },
+ {
+  "id": "6f907ae5-b974-4a10-b669-9c6ab11f4cfd",
+  "slug": "toolcraft",
+  "url": "https://toolcraft.sh/",
+  "name": "Toolcraft",
+  "tagline": "MIT React starter for canvas design tools, with agent docs baked in",
+  "description": "Toolcraft is an MIT starter kit plus UI library from Pixel Point for building small creative design apps — procedural graphics generators, image effects (ASCII, pixel, halftone, glitch), shader experiments, animation tools and asset generators. Scaffolded with `npx @pixel-point/toolcraft create`, it gives you React 19 + TypeScript + Vite + Tailwind v4 + TanStack Router with a working canvas (upload, pan, zoom, radar, history), a layer system, an animation timeline with keyframes, image and video export via mediabunny, and a three.js/GLTF model-import pipeline. On top of that it ships 28 Base UI-backed composite components and 21 purpose-built creative-tool controls (curves, channel mixer, gradient, vector, font picker, colour, anchor grid). The `docs/toolcraft` folder is written for AI agents — component rules, schema reference, decision contracts, performance and acceptance-testing guides — and the examples carry `.agents/skills` skill files.",
+  "category": "agent-design-tooling",
+  "subcategory": "ai-design-apps",
+  "kinds": [
+   "template",
+   "component-library",
+   "agent-skill"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "vanilla"
+   ],
+   "styling": [
+    "tailwind-v4",
+    "css-variables"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "cli",
+    "github-repo",
+    "npm-package"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "built-on-accessible-primitives"
+   ],
+   "content_type": [
+    "code",
+    "prose"
+   ],
+   "agent_readiness": [
+    "agent-skill",
+    "cli-installable",
+    "structured-docs",
+    "open-source-code"
+   ],
+   "maturity": "beta"
+  },
+  "components": [
+   "accordion",
+   "alert",
+   "alert-dialog",
+   "aspect-ratio",
+   "avatar",
+   "badge",
+   "breadcrumbs",
+   "card",
+   "combobox",
+   "command-palette",
+   "context-menu",
+   "dialog",
+   "dropdown-menu",
+   "empty-state",
+   "hover-card",
+   "menubar",
+   "navigation-menu",
+   "pagination",
+   "progress-bar",
+   "radio-group",
+   "resizable",
+   "sheet",
+   "sidebar",
+   "toast",
+   "spinner",
+   "table",
+   "tabs",
+   "toolbar",
+   "color-picker",
+   "file-upload",
+   "slider",
+   "range-slider",
+   "select",
+   "segmented-control",
+   "text-input",
+   "switch",
+   "code-editor",
+   "timeline",
+   "model-viewer",
+   "panel",
+   "split-view",
+   "drag-and-drop"
+  ],
+  "component_count": 49,
+  "surfaces": [
+   "uploading-media",
+   "keyboard-shortcuts-overlay"
+  ],
+  "templates": [
+   {
+    "name": "ASCII",
+    "url": "https://github.com/pixel-point/toolcraft/tree/main/examples/ascii",
+    "purpose": "ASCII-art image converter built on the Toolcraft canvas and control panel"
+   },
+   {
+    "name": "Bricks",
+    "url": "https://github.com/pixel-point/toolcraft/tree/main/examples/bricks",
+    "purpose": "Brick/mosaic image-effect generator"
+   },
+   {
+    "name": "Draw Tool",
+    "url": "https://github.com/pixel-point/toolcraft/tree/main/examples/draw-tool",
+    "purpose": "Freehand drawing app showing tool selection and layer handling"
+   },
+   {
+    "name": "Frozen",
+    "url": "https://github.com/pixel-point/toolcraft/tree/main/examples/frozen",
+    "purpose": "Frost/ice shader image effect"
+   },
+   {
+    "name": "Glass",
+    "url": "https://github.com/pixel-point/toolcraft/tree/main/examples/glass",
+    "purpose": "Glass refraction effect tool"
+   },
+   {
+    "name": "Liquid Metal",
+    "url": "https://github.com/pixel-point/toolcraft/tree/main/examples/liquid-metal",
+    "purpose": "Liquid-metal shader generator with export"
+   }
+  ],
+  "template_count": 6,
+  "install": "npx @pixel-point/toolcraft create",
+  "package": "@pixel-point/toolcraft",
+  "docs_url": "https://github.com/pixel-point/toolcraft/tree/main/starter/docs/toolcraft",
+  "repo_url": "https://github.com/pixel-point/toolcraft",
+  "registry_url": null,
+  "github": {
+   "stars": 607,
+   "license": "MIT",
+   "last_activity": "2026-08-07"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Scaffold with this instead of hand-rolling a canvas editor whenever the ask is 'a tool that transforms an image or generates graphics, with controls and an export button' — you get pan/zoom/history, layers, a keyframe timeline and PNG/MP4 export for free. Read starter/docs/toolcraft/component-rules.md, decision-contract.md and schema-reference.md before you add anything: the runtime is schema-driven, so new controls are declared in the product schema rather than written as ad-hoc React, and ignoring that fights the framework. Note it is Base UI + Tailwind v4 + TanStack Router, not Radix + Next.js, so shadcn/ui blocks will not drop in unmodified, and the repo is young (6 commits, MIT, ~600 stars) — pin your version.",
+  "why_it_matters": "Most starters give you a marketing site; this gives you the hard part of a creative tool — canvas, layers, timeline, export — and writes its docs for the agent that will extend it.",
+  "notable_for": [
+   "canvas with pan/zoom/history plus layers and keyframe timeline",
+   "21 creative-tool controls including curves and channel mixer",
+   "image and video export pipeline",
+   "agent-facing docs and .agents/skills files",
+   "React 19 + Base UI + Tailwind v4 + Vite"
+  ],
+  "quality_tier": "A",
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://toolcraft.sh/, https://github.com/pixel-point/toolcraft, gh api repos/pixel-point/toolcraft (metadata, recursive tree, starter/package.json, LICENSE.md)"
+ },
+ {
+  "id": "4c1424e5-d53a-4557-9b66-637042f66386",
+  "slug": "canvas-ui",
+  "url": "https://canvasui.dev/components",
+  "name": "Canvas UI",
+  "tagline": "33 WebGL/canvas effects that wrap real HTML, in 6 frameworks",
+  "description": "Canvas UI by David Haz is a registry of 33 creative effects that render live DOM content inside a canvas element and run WebGL shaders over it, so your actual HTML gets asciified, frosted, dithered, refracted, shattered or melted rather than being replaced by a picture of itself. The catalogue: ASCII Object, Asciify, Bend, Blaze, Bubble, Canvas, Cloth, Clouds, Decrypt Reveal, Displacement, Dithered Object, Droplets, Flame Wrap, Force Field, Frost, Glass, Glass Object, Glitch, Glyph Rain, Grid, Hex Float, Laser, Liquid, Liquid Object, Magnify, Particle Object, Particle Reveal, Particle Scroll, Peel, Retro Dither, Ripple, Shatter and VHS. Each ships as a separate typed source registry entry per framework — React 19, Vue 3.5, Svelte 5, Solid 1.9, Preact 10 and vanilla — for 198 registry items in total, installed through the shadcn CLI.",
+  "category": "textures-assets",
+  "subcategory": "shaders-and-effects",
+  "kinds": [
+   "shader-pack",
+   "component-library",
+   "registry"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "vue",
+    "svelte",
+    "solid",
+    "preact",
+    "vanilla"
+   ],
+   "styling": [
+    "shader-glsl",
+    "vanilla-css"
+   ],
+   "license": [
+    "source-available"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "cli",
+    "github-repo",
+    "mcp-server",
+    "copy-paste"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "known-gaps"
+   ],
+   "content_type": [
+    "code",
+    "3d"
+   ],
+   "agent_readiness": [
+    "registry-json",
+    "cli-installable",
+    "mcp-server",
+    "structured-docs",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "glassmorphism",
+   "particle-background",
+   "text-effect",
+   "hover-effect",
+   "scroll-driven-animation",
+   "model-viewer",
+   "animation",
+   "image",
+   "hero"
+  ],
+  "component_count": 33,
+  "surfaces": [
+   "homepage",
+   "features"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "npx shadcn@latest add @canvas-ui/liquid-react",
+  "package": null,
+  "docs_url": "https://canvasui.dev/docs",
+  "repo_url": "https://github.com/DavidHDev/canvas-ui",
+  "registry_url": "https://canvasui.dev/r/registry.json",
+  "github": {
+   "stars": 3975,
+   "license": "MIT + Commons Clause v1.0",
+   "last_activity": "2026-08-15"
+  },
+  "pricing_detail": "Free to use, including commercially. The Commons Clause forbids selling, sublicensing or redistributing the components themselves, alone, bundled, or as a port.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Install per framework and per effect — the registry name is `@canvas-ui/<effect>-<framework>` (e.g. @canvas-ui/frost-svelte), so read https://canvasui.dev/r/registry.json before guessing a name. The headline trick, rendering live HTML into a canvas, depends on Chrome's experimental html-in-canvas API and needs the canvas-draw-element flag or an origin trial token in production; it falls back to plain HTML elsewhere, so never let a Canvas UI wrapper be the only thing that renders required content, and expect screen readers and text selection to be unreliable inside the canvas. Reach for the *-Object effects (ASCII Object, Dithered Object, Particle Object, Glass Object, Liquid Object) when you want a GLB/glTF or SVG rendered as a hero visual — those are pure three.js and shader work and do not need the flag.",
+  "why_it_matters": "It solves a problem no other registry does — applying a shader to your real, live, interactive DOM — and it does it across six frameworks with typed source, which is why it cleared 3,900 stars quickly.",
+  "notable_for": [
+   "live DOM rendered inside a canvas with WebGL over it",
+   "198 registry items = 33 effects x 6 frameworks",
+   "GLB/glTF and SVG object renderers",
+   "MIT + Commons Clause, not plain MIT",
+   "needs Chrome html-in-canvas flag or origin trial for the DOM effects"
+  ],
+  "quality_tier": "A",
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://canvasui.dev/components, https://canvasui.dev/docs, https://canvasui.dev/docs/installation, https://canvasui.dev/docs/mcp, https://canvasui.dev/r/registry.json (198 items parsed), gh api repos/DavidHDev/canvas-ui + contents/LICENSE.md"
+ },
+ {
+  "id": "b40e2f17-4e79-4d5d-bf81-bf589b68401c",
+  "slug": "hugeicons-animated",
+  "url": "https://hugeicons-animated.com/",
+  "name": "Hugeicons Animated",
+  "tagline": "165 hand-animated Hugeicons installed as React source via the shadcn CLI",
+  "description": "Hugeicons Animated is a free MIT collection of hand-animated icons built by Enes Gules on top of Hugeicons' core-free-icons set. Each icon is a React component that uses `motion` and a shared `use-icon-animation` hook, forwards a ref exposing startAnimation/stopAnimation, and takes a `size` prop, so you can trigger the animation on hover, on focus, or imperatively. There is no npm package: `npx shadcn add @hugeicons-animated/<name>` copies the .tsx plus lib/use-icon-animation.ts into your own repo, so you own and can edit the source. The public registry currently lists 165 icons covering navigation, files, media, comms, weather, commerce and user management.",
+  "category": "icons-logos",
+  "subcategory": "animated-icons",
+  "kinds": [
+   "icon-set",
+   "registry"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "tailwind-any"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "cli",
+    "copy-paste",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "icons",
+    "code"
+   ],
+   "agent_readiness": [
+    "registry-json",
+    "cli-installable",
+    "copy-paste-ready",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "icon",
+   "icon-button"
+  ],
+  "component_count": 165,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npx shadcn add @hugeicons-animated/notification-03",
+  "package": null,
+  "docs_url": "https://hugeicons-animated.com/",
+  "repo_url": "https://github.com/enesgules/hugeicons-animated",
+  "registry_url": "https://hugeicons-animated.com/r/registry.json",
+  "github": {
+   "stars": 90,
+   "license": "MIT",
+   "last_activity": "2026-08-13"
+  },
+  "pricing_detail": "Free (JSON-LD on the site declares price 0 USD and an MIT licence).",
+  "counts": {
+   "icons": 165,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Fetch https://hugeicons-animated.com/r/registry.json first and match against the real slugs — they carry Hugeicons' numeric suffixes (notification-03, arrow-down-02, share-08, sun-03), so a guessed name like 'notification' will 404. Each icon pulls in `motion` and writes lib/use-icon-animation.ts, so install one icon before batching a dozen to make sure that shared lib lands only once, and remember these are DOM-wrapped (each renders a div with HTMLAttributes) rather than bare SVGs — they will not drop into a slot expecting an <svg>. Use it for a handful of accent icons in menus and empty states; keep a static set like lucide for the other 200 icons in the app rather than animating everything.",
+  "why_it_matters": "Animated icons are usually either a paid Lottie pack or a hand-rolled one-off; this gives you a coherent, MIT, shadcn-native set drawn from a well-known icon family, with the animation source in your own repo.",
+  "notable_for": [
+   "165 icons in the public registry",
+   "shadcn CLI install, no npm dependency or lock-in",
+   "imperative startAnimation/stopAnimation handle per icon",
+   "built on motion and Hugeicons core-free-icons",
+   "site copy still advertises 85 icons"
+  ],
+  "quality_tier": "B",
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://hugeicons-animated.com/ (raw HTML + WebFetch), https://hugeicons-animated.com/r/registry.json (165 items parsed), https://hugeicons-animated.com/r/notification-03.json, https://github.com/enesgules/hugeicons-animated via gh api"
+ }
+]

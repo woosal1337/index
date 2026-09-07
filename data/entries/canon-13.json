@@ -1,0 +1,585 @@
+[
+  {
+    "id": "canon:14b51bcae043db924756",
+    "slug": "designsystems-com",
+    "url": "https://designsystems.com",
+    "name": "DesignSystems.com",
+    "tagline": "Figma's editorial publication on building and running design systems",
+    "description": "DesignSystems.com is a free publication by Figma about the practice of design systems — not a component library, but the writing around one. It holds roughly 39 long-form articles split into four sections (Getting Started, Design & Development, Operations, and talks from the Schema conference), plus foundational guides on spacing and grids, iconography, typography, colour, motion, and content strategy, and a curated page of open design systems published as Figma Community files. It is aimed at the person who has to justify, staff, govern, and grow a system, rather than the person picking a button component.",
+    "category": "design-systems-brand",
+    "subcategory": "system-guides-and-checklists",
+    "kinds": [
+      "reference",
+      "article",
+      "design-system-docs"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "proprietary"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "article",
+        "figma-file"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "prose",
+        "figma"
+      ],
+      "agent_readiness": [
+        "structured-docs"
+      ],
+      "maturity": "stable"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 39,
+      "blocks": null
+    },
+    "agent_guidance": "Reach for this when the question is organisational — how to name and version tokens, how to govern contributions, how to measure adoption — not when you need code, because there is none here. The four 'Getting Started' guides (space and grids, iconography, typography, content strategy) are the most quotable source in the index for defending a token scale or an icon naming convention to a human reviewer. The site is a static Gatsby build so plain HTML fetches work fine, but the content is largely frozen around 2022-2023, so treat anything it says about Figma features as dated.",
+    "why_it_matters": "It is the closest thing to an agreed vocabulary for design system *operations*, written by the company most teams build their systems inside. Every other entry in this index tells you what to build; this one tells you how to keep it alive.",
+    "quality_tier": "B",
+    "notable_for": [
+      "Figma-published, free to read",
+      "Schema conference talk write-ups",
+      "foundations guides on grids, icons, type",
+      "curated open design systems in Figma Community"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-16",
+    "evidence": "https://designsystems.com (redirects to https://www.designsystems.com/), https://www.designsystems.com/sections/getting-started/, https://www.designsystems.com/sections/design-and-development/, https://www.designsystems.com/sections/operations/, https://www.designsystems.com/sections/schema/, https://www.designsystems.com/open-design-systems/",
+    "source": "canon"
+  },
+  {
+    "id": "canon:7da37d3fcf724c8b27a4",
+    "slug": "open-ui",
+    "url": "https://open-ui.org",
+    "name": "Open UI",
+    "tagline": "W3C Community Group research and specs for native, styleable HTML controls",
+    "description": "Open UI is the W3C Community Group that documents how UI controls actually behave across design systems, then turns that research into proposals for the web platform itself. It publishes 61 component documents — 31 'research' pages that compare anatomy, states, and terminology across a dozen real design systems, and 24 'explainer' pages that specify proposed platform features. Its graduated work is already shipping in browsers: the Popover API, Invoker Commands, and customizable `<select>` all came through here, with Combobox, Menu elements, Toolbar, Navigation Bar, and Focusgroup still in flight. It is the source of truth for what a component *is* before anyone writes a line of framework code.",
+    "category": "design-systems-brand",
+    "subcategory": "ui-reference",
+    "kinds": [
+      "reference",
+      "design-system-docs",
+      "primitive"
+    ],
+    "facets": {
+      "framework": [
+        "vanilla",
+        "web-components"
+      ],
+      "styling": [
+        "vanilla-css"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "github-repo",
+        "article"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "semantic-html",
+        "aria-complete",
+        "keyboard-navigable",
+        "focus-managed"
+      ],
+      "content_type": [
+        "prose",
+        "code"
+      ],
+      "agent_readiness": [
+        "structured-docs",
+        "open-source-code"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "accordion",
+      "alert",
+      "avatar",
+      "badge",
+      "breadcrumbs",
+      "button",
+      "card",
+      "carousel",
+      "checkbox",
+      "collapsible",
+      "combobox",
+      "date-picker",
+      "dialog",
+      "dropdown-menu",
+      "file-upload",
+      "icon",
+      "image",
+      "list",
+      "menubar",
+      "navbar",
+      "number-input",
+      "popover",
+      "radio-button",
+      "range-slider",
+      "rich-text-editor",
+      "select",
+      "skeleton",
+      "slider",
+      "switch",
+      "table",
+      "tabs",
+      "tag",
+      "text-input",
+      "toast",
+      "toolbar",
+      "tooltip"
+    ],
+    "component_count": 61,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": "https://open-ui.org/research/component-matrix",
+    "repo_url": "https://github.com/openui/open-ui",
+    "registry_url": null,
+    "github": {
+      "stars": 4512,
+      "license": "unknown",
+      "last_activity": "2026-08-13"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 61,
+      "blocks": null
+    },
+    "agent_guidance": "Check here BEFORE you install a headless primitive — if the control you need is a popover, a dialog, an invoker, or a customizable select, the platform may already do it and Open UI's explainer tells you the exact attribute surface and browser support. The `.research` pages are the best machine-readable answer to 'what should I call this part?' because they tabulate real slot and part names across Carbon, Material, Fluent, and friends, which is exactly what you want when naming props for a new component. Two traps: an explainer is a proposal, not a shipped feature, so always confirm graduation status before generating code from one, and the repo carries a W3C contributor agreement rather than a normal OSS licence, so do not copy prose wholesale.",
+    "why_it_matters": "It is the only entry in this index that shapes the browser itself, and the reason 'just use the native element' is now a defensible answer for popovers, dialogs, and selects. Its cross-system component matrix is a naming authority nothing else matches.",
+    "quality_tier": "A",
+    "notable_for": [
+      "W3C Community Group, standards track",
+      "Popover API and customizable select originated here",
+      "cross-design-system component name matrix",
+      "31 research pages plus 24 explainers",
+      "4.5k GitHub stars, active in 2026"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-16",
+    "evidence": "https://open-ui.org (full HTML fetched and link-extracted; /components/ and /research/ index paths return 404, individual /components/*.research and *.explainer pages are the real structure), https://api.github.com/repos/openui/open-ui via gh",
+    "source": "canon"
+  },
+  {
+    "id": "canon:72eb25b03a587eca98fe",
+    "slug": "inclusive-components",
+    "url": "https://inclusive-components.design",
+    "name": "Inclusive Components",
+    "tagline": "Heydon Pickering's 11 deep essays on building components that stay accessible",
+    "description": "Inclusive Components is Heydon Pickering's self-described 'blog trying to be a pattern library' — eleven long essays that each take one interface pattern apart and rebuild it, reasoning aloud about semantics, keyboard behaviour, screen reader output, and the failure modes of the obvious implementation. The chapters are Cards, Data Tables, Notifications, A Content Slider, Collapsible Sections, Tabbed Interfaces, A Theme Switcher, Tooltips & Toggletips, Menus & Menu Buttons, A Todo List, and Toggle Buttons. Every chapter is free to read as plain HTML with working code inline; a revised 47,000-word book edition with a bonus modal dialog chapter sells for EUR 18 in ePub, PDF, and Kindle, with print via Smashing Magazine.",
+    "category": "design-systems-brand",
+    "subcategory": "ui-reference",
+    "kinds": [
+      "reference",
+      "article",
+      "primitive"
+    ],
+    "facets": {
+      "framework": [
+        "vanilla"
+      ],
+      "styling": [
+        "vanilla-css"
+      ],
+      "license": [
+        "proprietary"
+      ],
+      "pricing": [
+        "free",
+        "one-time"
+      ],
+      "distribution": [
+        "article",
+        "download"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "aria-complete",
+        "keyboard-navigable",
+        "focus-managed",
+        "semantic-html",
+        "screen-reader-tested"
+      ],
+      "content_type": [
+        "prose",
+        "code"
+      ],
+      "agent_readiness": [
+        "structured-docs",
+        "copy-paste-ready"
+      ],
+      "maturity": "stable"
+    },
+    "components": [
+      "card",
+      "table",
+      "toast",
+      "live-region",
+      "carousel",
+      "collapsible",
+      "accordion",
+      "tabs",
+      "theme-provider",
+      "tooltip",
+      "popover",
+      "menu-button",
+      "dropdown-menu",
+      "list",
+      "toggle-button"
+    ],
+    "component_count": 11,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": "Site free. Book EUR 18 (ePub, PDF, .mobi, .azw3) via Payhip; print edition from Smashing Magazine.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 11,
+      "blocks": null
+    },
+    "agent_guidance": "Read the relevant chapter when you are about to hand-roll one of these eleven patterns and the accessibility requirements are not obvious — the Tooltips & Toggletips and Menus & Menu Buttons chapters in particular will stop you shipping the common ARIA mistakes that a Radix or React Aria primitive would have handled for you. Pair it with Open UI for the current platform answer, because these essays predate `<dialog>`, `popover`, and the ARIA 1.2 tidy-up, so the reasoning is durable but some markup is dated. Do not paste its code verbatim into production without re-testing; the value here is the argument, not the snippet.",
+    "why_it_matters": "It is the text that taught a generation of front-end developers to think about a component as a set of behaviours rather than a box, and it is still the clearest explanation of why the naive version of each pattern fails.",
+    "quality_tier": "A",
+    "notable_for": [
+      "11 chapters, all free HTML",
+      "reasons from screen reader output, not rules",
+      "tooltip vs toggletip distinction",
+      "EUR 18 book edition, 47,000+ words"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-16",
+    "evidence": "https://inclusive-components.design, https://book.inclusive-components.design/",
+    "source": "canon"
+  },
+  {
+    "id": "canon:5c9f280dfdb990b83caf",
+    "slug": "a11y-project",
+    "url": "https://a11yproject.com",
+    "name": "The A11Y Project",
+    "tagline": "64-item WCAG A/AA checklist plus a curated directory of 394 accessibility resources",
+    "description": "The A11Y Project is a community-run, open-source accessibility hub with two things an agent can use directly. The first is a 64-item checklist grouped into sixteen sections (Content, Global code, Keyboard, Images, Headings, Lists, Controls, Tables, Forms, Media, Video, Audio, Appearance, Animation, Color contrast, Mobile and touch), where every item names its WCAG success criterion and explains why it matters. The second is a resources directory of 394 entries — books, courses, screen readers, colour tools, browser extensions, vision simulators, testing services, conferences, and meetups — organised by subject. The whole site is Apache-2.0 on GitHub and still actively committed to.",
+    "category": "design-systems-brand",
+    "subcategory": "system-guides-and-checklists",
+    "kinds": [
+      "checklist",
+      "reference",
+      "directory"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "apache-2.0"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "github-repo",
+        "article"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "wcag-aa",
+        "semantic-html",
+        "keyboard-navigable",
+        "contrast-checked"
+      ],
+      "content_type": [
+        "prose"
+      ],
+      "agent_readiness": [
+        "structured-docs",
+        "open-source-code"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": "https://www.a11yproject.com/checklist/",
+    "repo_url": "https://github.com/a11yproject/a11yproject.com",
+    "registry_url": null,
+    "github": {
+      "stars": 3878,
+      "license": "Apache-2.0",
+      "last_activity": "2026-08-13"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 394,
+      "blocks": null
+    },
+    "agent_guidance": "Use the checklist page as your accessibility acceptance criteria — 64 items is short enough to actually run against a PR, and each one carries its WCAG criterion so you can cite it in review comments instead of asserting. Fetch https://www.a11yproject.com/checklist/ as HTML and parse the `c-checklist__title` blocks; there is no llms.txt and no JSON export, but the markup is clean and the source Markdown is in the Apache-2.0 repo if you want the raw list. Reach for this over the full WCAG spec when you need something a human will actually complete, and hand off to WebAIM when you need a number rather than a yes/no.",
+    "why_it_matters": "It converts a 100-page standard into 64 checkable sentences, which is the single most useful transformation anyone has done to WCAG. Being Apache-2.0 means you can fork the checklist straight into your own repo.",
+    "quality_tier": "A",
+    "notable_for": [
+      "64 checklist items mapped to WCAG success criteria",
+      "394 curated accessibility resources",
+      "Apache-2.0, forkable",
+      "community-run since 2013",
+      "3.9k GitHub stars"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-16",
+    "evidence": "https://www.a11yproject.com/ (redirect target of https://a11yproject.com), https://www.a11yproject.com/checklist/ (full HTML, 64 items counted), https://www.a11yproject.com/resources/ (394 resource cards counted), https://api.github.com/repos/a11yproject/a11yproject.com via gh; /llms.txt returns 404",
+    "source": "canon"
+  },
+  {
+    "id": "canon:b34a5ca2117cc8b50ddb",
+    "slug": "webaim",
+    "url": "https://webaim.org",
+    "name": "WebAIM",
+    "tagline": "Contrast checker with a JSON API, the WCAG 2 checklist, WAVE, and the Million report",
+    "description": "WebAIM (Web Accessibility In Mind) is a non-profit centre at Utah State University and the de facto reference desk of web accessibility. It publishes the WCAG 2 and Section 508 checklists, an article library organised into five topic groups (the user's perspective; HTML, ARIA and CSS; documents and media; evaluation, testing and tools; standards and laws), cheat sheets, and the annual WebAIM Million report that automatically audits the top million home pages. Its tools matter most to an agent: the Color Contrast Checker and Link Contrast Checker both return JSON when you append `&api` to a query string, and the WAVE evaluation engine is available as a credit-based REST API and as browser extensions. Everything editorial is free; training, consulting, and WAVE API credits are paid.",
+    "category": "design-systems-brand",
+    "subcategory": "system-guides-and-checklists",
+    "kinds": [
+      "reference",
+      "checklist",
+      "tool"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "proprietary"
+      ],
+      "pricing": [
+        "free",
+        "usage-based",
+        "paid"
+      ],
+      "distribution": [
+        "web-app",
+        "public-api",
+        "browser-extension",
+        "article"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "wcag-aa",
+        "contrast-checked",
+        "screen-reader-tested",
+        "semantic-html"
+      ],
+      "content_type": [
+        "prose",
+        "dataset"
+      ],
+      "agent_readiness": [
+        "public-api",
+        "structured-docs"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": "https://webaim.org/resources/",
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": "Articles, checklists, and both contrast checkers are free with no account. WAVE API: 100 free credits on registration, then $0.04/credit for 250-999 ($10 minimum), $0.03/credit for 1,000-9,999, $0.025/credit for 10,000+; one basic page scan costs 1 credit, advanced features 2-3. Training and consulting quoted separately.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "This is the one accessibility site in the index you can call rather than read: GET `https://webaim.org/resources/contrastchecker/?fcolor=RRGGBB&bcolor=RRGGBB&api` returns `{\"ratio\",\"AA\",\"AALarge\",\"AAA\",\"AAALarge\"}` with no key and no account, so use it to verify a generated palette instead of trusting your own maths. The link contrast checker takes an extra `lcolor` and reports link-to-text, link-to-background, and text-to-background separately — reach for it whenever you tint links inside body copy. Full-page auditing needs the paid WAVE API with a key, so do not plan an automated crawl around it; use the free contrast endpoints for colour and The A11Y Project's checklist for everything structural.",
+    "why_it_matters": "Twenty-five years of institutional authority plus a free, keyless JSON endpoint makes WebAIM uniquely useful to an automated workflow. The WebAIM Million is also the only longitudinal dataset on how accessible the real web actually is.",
+    "quality_tier": "S",
+    "notable_for": [
+      "free keyless JSON contrast API via &api",
+      "link contrast checker with three ratios",
+      "WCAG 2 and Section 508 checklists",
+      "WebAIM Million annual dataset",
+      "Utah State University non-profit"
+    ],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-08-16",
+    "evidence": "https://webaim.org, https://webaim.org/resources/, https://webaim.org/articles/, https://wave.webaim.org/api/ (pricing table read), live calls to https://webaim.org/resources/contrastchecker/?...&api and https://webaim.org/resources/linkcontrastchecker/?...&api which both returned JSON",
+    "source": "canon"
+  },
+  {
+    "id": "canon:4653a78020e332bac3d7",
+    "slug": "laws-of-ux",
+    "url": "https://lawsofux.com",
+    "name": "Laws of UX",
+    "tagline": "30 psychology principles for interface decisions — but this URL does not resolve",
+    "description": "Laws of UX is Jon Yablonski's collection of psychology and usability principles distilled into short, citable pages — Fitts's Law, Hick's Law, Jakob's Law, Miller's Law, the Gestalt laws of Proximity, Similarity, Common Region, Prägnanz and Uniform Connectedness, plus cognitive-bias entries such as the Aesthetic-Usability Effect, Peak-End Rule, Von Restorff Effect, Serial Position Effect, and Zeigarnik Effect. Each law gets a one-paragraph statement, takeaways, origin, and references, and the set is cross-tagged (gestalt, memory, cognitive-load, usability, attention) and translated into Arabic, Spanish, Persian, and French. Important: the hyphenated domain in this record has no DNS record at all — the live site is lawsofux.com. Content is CC BY-NC-ND 4.0, so it may be cited but not remixed or used commercially.",
+    "category": "essays-guides-courses",
+    "subcategory": "craft-essays",
+    "kinds": [
+      "reference",
+      "article"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "cc-by-nc"
+      ],
+      "pricing": [
+        "free",
+        "one-time"
+      ],
+      "distribution": [
+        "article"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "prose"
+      ],
+      "agent_readiness": [
+        "none"
+      ],
+      "maturity": "dead-link"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "pricing_detail": "Site free. Companion book 'Laws of UX' (O'Reilly) and a large-format index poster and card deck sold via jonyablonski.bigcartel.com; prices not listed on the site itself.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 30,
+      "blocks": null
+    },
+    "agent_guidance": "Do not fetch the URL on this record — laws-of-ux.com has no A or NS record and fails at DNS, so retry against lawsofux.com instead, where /en/sitemap.xml gives you all 30 law pages in one request. Reach for a specific law when you need to justify a layout decision to a human ('Jakob's Law' beats 'users expect this'), and pair it with the A11Y Project or WebAIM when the decision has a measurable rather than a rhetorical answer. Watch the licence: CC BY-NC-ND forbids derivatives, so quote and attribute, never paraphrase into your own reference page.",
+    "why_it_matters": "It gave the industry a shared shorthand for arguing about interface decisions from evidence rather than taste. Its value to an agent is rhetorical — the names carry weight in review that raw reasoning does not.",
+    "quality_tier": "B",
+    "notable_for": [
+      "30 law pages, each with origin and references",
+      "translated into 4 additional languages",
+      "CC BY-NC-ND — no derivatives allowed",
+      "the hyphenated domain in this record is dead",
+      "companion O'Reilly book and poster"
+    ],
+    "already_enriched": false,
+    "http_status": null,
+    "verified_at": "2026-08-16",
+    "evidence": "https://laws-of-ux.com — DNS resolution failed twice (curl error 6, dig returns no A and no NS records). Content verified instead against the live canonical site: https://lawsofux.com/ (HTTP 200), https://lawsofux.com/laws/, https://lawsofux.com/sitemap.xml and https://lawsofux.com/en/sitemap.xml (30 law pages enumerated).",
+    "source": "canon"
+  }
+]

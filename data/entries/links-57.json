@@ -1,0 +1,1035 @@
+[
+ {
+  "id": "63748acf-d40c-469e-a95f-1b5394a9f44c",
+  "slug": "desengs",
+  "url": "https://desengs.com/",
+  "name": "DesEngs",
+  "tagline": "Curated link index of tools, libraries, essays and jobs for design engineers",
+  "description": "DesEngs is a single-page, chronologically ordered index of resources aimed at design engineers - the people who sit between design and front-end. Each entry is a link with a one-line editorial note, filtered by intent verbs rather than topic: Read, Watch, Listen, Browse, Use, Build, Learn, Join, Follow, Apply. It indexes roughly 80 hand-picked entries covering micro-interaction libraries, agent skill packs, craft essays, design-engineering job posts and notable practitioner sites. The whole site is an open-source Astro build maintained in public.",
+  "category": "inspiration-galleries",
+  "subcategory": "directories-and-meta-indexes",
+  "kinds": [
+   "directory",
+   "gallery",
+   "reference"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "gallery",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "semantic-html"
+   ],
+   "content_type": [
+    "prose"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "machine-index"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/remvze/desengs",
+  "registry_url": null,
+  "github": {
+   "stars": 231,
+   "license": "MIT",
+   "last_activity": "2026-08-13"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 80,
+   "blocks": null
+  },
+  "agent_guidance": "Use this as a discovery index, not as a dependency - when the user asks for 'something like Sonner' or 'a good micro-interaction library', scrape this page first because it is plain server-rendered HTML with a one-line description per link, so a single fetch gives you ~80 candidate URLs cheaply. It surfaces small, high-craft React libraries (NumberFlow, crd-ui, dither-kit, liquid-glass) that shadcn-style registries never list. Do not treat inclusion as a maintenance signal - many entries are one-person experiments, so always check the linked repo before you install.",
+  "why_it_matters": "It is the tightest editorial filter for the design-engineering corner of the web, and it is fetchable in one request - which makes it a high-yield seed list for an agent that needs candidate libraries rather than a single answer.",
+  "quality_tier": "A",
+  "notable_for": [
+   "intent-verb filters instead of topic tags",
+   "one-line editorial note per link",
+   "open-source Astro site",
+   "surfaces tiny high-craft React libraries",
+   "includes design-engineer job posts"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://desengs.com/ (raw HTML parsed for the full link list and the filter labels), https://api.github.com/repos/remvze/desengs"
+ },
+ {
+  "id": "949e9fec-bf29-4e69-a141-9ffd536b049c",
+  "slug": "aicss-aicss",
+  "url": "https://www.aicss.dev/components/orbs",
+  "name": "AIcss",
+  "tagline": "14 copy-paste AI-conversation UI components in React, Vue and Svelte, plain CSS",
+  "description": "AIcss is a small library of the UI states an AI agent shows mid-conversation: thinking and reasoning blocks, orb activity indicators, web-search and file-diff tool states, streaming text, inline citations, code blocks, to-do lists and a composer input. Every component ships React, Vue and Svelte source with plain CSS custom properties - no Tailwind and no UI dependencies. Nine of the fourteen are free; the rest need a one-time lifetime licence. The linked page is the Orbs component - compact animated DOM/CSS activity dots for agent status.",
+  "category": "ai-interface-kits",
+  "subcategory": "chat-and-agent-components",
+  "kinds": [
+   "component-library",
+   "registry"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "vue",
+    "svelte"
+   ],
+   "styling": [
+    "vanilla-css",
+    "css-variables"
+   ],
+   "license": [
+    "commercial",
+    "unknown"
+   ],
+   "pricing": [
+    "freemium",
+    "one-time",
+    "account-required"
+   ],
+   "distribution": [
+    "copy-paste",
+    "public-api",
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "llms-txt",
+    "public-api",
+    "copy-prompt",
+    "copy-paste-ready",
+    "agent-paywalled"
+   ],
+   "maturity": "beta"
+  },
+  "components": [
+   "reasoning",
+   "typing-indicator",
+   "status-indicator",
+   "tool-call",
+   "sources",
+   "diff-view",
+   "diff-proposal",
+   "generated-image",
+   "message",
+   "streaming-text",
+   "inline-citation",
+   "code-block",
+   "task",
+   "plan",
+   "table",
+   "comparison-table",
+   "prompt-input",
+   "attachments",
+   "model-selector"
+  ],
+  "component_count": 14,
+  "surfaces": [
+   "ai-chat-panel",
+   "chat-web-app"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://www.aicss.dev/llms.txt",
+  "repo_url": null,
+  "registry_url": "https://www.aicss.dev/r",
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "9 of 14 components are free. The remaining 5 unlock with a one-time lifetime licence in Personal or Enterprise tiers; the exact figures are behind /pricing and were not verified.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Fetch https://www.aicss.dev/llms.txt first - it lists all 14 components with slugs, free/licensed status and a JSON code endpoint at /r/{slug}, plus /r/{slug}?format=md which returns the component as a ready-to-paste markdown prompt. That makes it the rare AI-UI kit you can consume end-to-end without a browser. Reach for it over Vercel's AI Elements when the target is Vue or Svelte, or when the project has no Tailwind - AIcss is plain CSS custom properties, so it drops into any stack, but it also means you inherit no design-token system and must theme it by hand. The five licensed components (Web Search, File Diff, Image Generation, Inline Citations, Comparison Table) return 401 without a bearer token, so plan a fallback rather than assuming the fetch succeeds.",
+  "why_it_matters": "It is one of the few component libraries built for what an agent renders rather than what a form renders, and its llms.txt plus JSON/markdown code endpoints make it genuinely machine-consumable instead of merely documented.",
+  "notable_for": [
+   "llms.txt with per-component slugs and free/licensed flags",
+   "/r/{slug}?format=md returns a paste-ready prompt",
+   "React, Vue and Svelte from one source",
+   "plain CSS, no Tailwind, zero UI dependencies",
+   "agent-specific states: reasoning, tool calls, file diffs"
+  ],
+  "quality_tier": "A",
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://www.aicss.dev/components/orbs, https://www.aicss.dev/ (raw HTML), https://www.aicss.dev/llms.txt, https://www.aicss.dev/r/registry.json (404)"
+ },
+ {
+  "id": "8e078a9f-cc11-426f-ab02-d5e036632786",
+  "slug": "shadcn-templ",
+  "url": "https://shadcn-templ.com/",
+  "name": "shadcn-templ",
+  "tagline": "shadcn/ui ported to Go and templ: 52 components, 27 blocks, its own CLI",
+  "description": "shadcn-templ is an unofficial community port of shadcn/ui for Go's templ templating language, built by Axel Adrian. It ships 52 UI components and 27 blocks through a registry.json and a Go CLI, so you copy source into your project instead of taking a dependency. Styling is Tailwind v4 with CSS variables; interactivity is vanilla JavaScript rather than React. Version 2.0 is in beta and adds theming presets, charts and a Typeset section.",
+  "category": "component-libraries",
+  "subcategory": "shadcn-registries",
+  "kinds": [
+   "component-library",
+   "registry",
+   "block-collection"
+  ],
+  "facets": {
+   "framework": [
+    "go-templ",
+    "vanilla"
+   ],
+   "styling": [
+    "tailwind-v4",
+    "css-variables"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "cli",
+    "github-repo",
+    "copy-paste"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "claimed-accessible",
+    "keyboard-navigable"
+   ],
+   "content_type": [
+    "code",
+    "design-tokens"
+   ],
+   "agent_readiness": [
+    "registry-json",
+    "cli-installable",
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "accordion",
+   "alert",
+   "alert-dialog",
+   "aspect-ratio",
+   "avatar",
+   "badge",
+   "breadcrumbs",
+   "button",
+   "button-group",
+   "calendar",
+   "card",
+   "carousel",
+   "chart",
+   "checkbox",
+   "collapsible",
+   "combobox",
+   "command-palette",
+   "date-picker",
+   "sheet",
+   "dropdown-menu",
+   "icon",
+   "text-input",
+   "otp-input",
+   "label",
+   "drawer",
+   "dialog",
+   "pagination",
+   "popover",
+   "hover-card",
+   "fieldset",
+   "kbd",
+   "input-group",
+   "empty-state",
+   "spinner",
+   "toggle-button",
+   "toggle-group",
+   "context-menu",
+   "progress-bar",
+   "radio-group",
+   "resizable",
+   "select",
+   "separator",
+   "sidebar",
+   "skeleton",
+   "slider",
+   "switch",
+   "table",
+   "tabs",
+   "textarea",
+   "toast",
+   "tooltip",
+   "login-form",
+   "signup-form",
+   "social-login-buttons",
+   "dashboard",
+   "data-grid",
+   "tree-view",
+   "navigation-menu",
+   "theme-provider"
+  ],
+  "component_count": 52,
+  "surfaces": [
+   "login-web-app",
+   "login-website",
+   "sign-up",
+   "analytics",
+   "admin-panel",
+   "settings-web-app"
+  ],
+  "templates": [
+   {
+    "name": "dashboard-01",
+    "url": "https://shadcn-templ.com/blocks#dashboard-01",
+    "purpose": "A dashboard with sidebar, charts and data table."
+   },
+   {
+    "name": "sidebar-01",
+    "url": "https://shadcn-templ.com/blocks#sidebar-01",
+    "purpose": "A simple sidebar with navigation grouped by section."
+   },
+   {
+    "name": "sidebar-02",
+    "url": "https://shadcn-templ.com/blocks#sidebar-02",
+    "purpose": "A sidebar with collapsible sections."
+   },
+   {
+    "name": "sidebar-03",
+    "url": "https://shadcn-templ.com/blocks#sidebar-03",
+    "purpose": "A sidebar with submenus."
+   },
+   {
+    "name": "sidebar-04",
+    "url": "https://shadcn-templ.com/blocks#sidebar-04",
+    "purpose": "A floating sidebar with submenus."
+   },
+   {
+    "name": "sidebar-05",
+    "url": "https://shadcn-templ.com/blocks#sidebar-05",
+    "purpose": "A sidebar with collapsible submenus."
+   },
+   {
+    "name": "sidebar-06",
+    "url": "https://shadcn-templ.com/blocks#sidebar-06",
+    "purpose": "A sidebar with submenus as dropdowns."
+   },
+   {
+    "name": "sidebar-07",
+    "url": "https://shadcn-templ.com/blocks#sidebar-07",
+    "purpose": "A sidebar that collapses to icons."
+   },
+   {
+    "name": "sidebar-08",
+    "url": "https://shadcn-templ.com/blocks#sidebar-08",
+    "purpose": "An inset sidebar with secondary navigation."
+   },
+   {
+    "name": "sidebar-09",
+    "url": "https://shadcn-templ.com/blocks#sidebar-09",
+    "purpose": "Collapsible nested sidebars."
+   },
+   {
+    "name": "sidebar-10",
+    "url": "https://shadcn-templ.com/blocks#sidebar-10",
+    "purpose": "A sidebar in a popover."
+   },
+   {
+    "name": "sidebar-11",
+    "url": "https://shadcn-templ.com/blocks#sidebar-11",
+    "purpose": "A sidebar with a collapsible file tree."
+   },
+   {
+    "name": "sidebar-12",
+    "url": "https://shadcn-templ.com/blocks#sidebar-12",
+    "purpose": "A sidebar with a calendar."
+   },
+   {
+    "name": "sidebar-13",
+    "url": "https://shadcn-templ.com/blocks#sidebar-13",
+    "purpose": "A sidebar in a dialog."
+   },
+   {
+    "name": "sidebar-14",
+    "url": "https://shadcn-templ.com/blocks#sidebar-14",
+    "purpose": "A sidebar on the right."
+   },
+   {
+    "name": "sidebar-15",
+    "url": "https://shadcn-templ.com/blocks#sidebar-15",
+    "purpose": "A left and right sidebar."
+   },
+   {
+    "name": "sidebar-16",
+    "url": "https://shadcn-templ.com/blocks#sidebar-16",
+    "purpose": "A sidebar with a sticky site header."
+   },
+   {
+    "name": "login-01",
+    "url": "https://shadcn-templ.com/blocks#login-01",
+    "purpose": "A simple login form."
+   },
+   {
+    "name": "login-02",
+    "url": "https://shadcn-templ.com/blocks#login-02",
+    "purpose": "A two column login page with a cover image."
+   },
+   {
+    "name": "login-03",
+    "url": "https://shadcn-templ.com/blocks#login-03",
+    "purpose": "A login page with a muted background color."
+   },
+   {
+    "name": "login-04",
+    "url": "https://shadcn-templ.com/blocks#login-04",
+    "purpose": "A login page with form and image."
+   },
+   {
+    "name": "login-05",
+    "url": "https://shadcn-templ.com/blocks#login-05",
+    "purpose": "A simple email-only login page."
+   },
+   {
+    "name": "signup-01",
+    "url": "https://shadcn-templ.com/blocks#signup-01",
+    "purpose": "A simple signup form."
+   },
+   {
+    "name": "signup-02",
+    "url": "https://shadcn-templ.com/blocks#signup-02",
+    "purpose": "A two column signup page with a cover image."
+   },
+   {
+    "name": "signup-03",
+    "url": "https://shadcn-templ.com/blocks#signup-03",
+    "purpose": "A signup page with a muted background color."
+   },
+   {
+    "name": "signup-04",
+    "url": "https://shadcn-templ.com/blocks#signup-04",
+    "purpose": "A signup page with form and image."
+   },
+   {
+    "name": "signup-05",
+    "url": "https://shadcn-templ.com/blocks#signup-05",
+    "purpose": "A simple signup form with social providers."
+   }
+  ],
+  "template_count": 27,
+  "install": "go install github.com/axadrn/shadcn-templ/v2/cmd/shadcn-templ@latest && shadcn-templ init -t templ && shadcn-templ add card && templ generate && go mod tidy",
+  "package": null,
+  "docs_url": "https://shadcn-templ.com/docs",
+  "repo_url": "https://github.com/axadrn/shadcn-templ",
+  "registry_url": "https://raw.githubusercontent.com/axadrn/shadcn-templ/main/registry.json",
+  "github": {
+   "stars": 1708,
+   "license": "MIT",
+   "last_activity": "2026-08-15"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": 27
+  },
+  "agent_guidance": "Reach for this the moment a Go project needs a UI and the alternative is hand-writing templ markup - it is the closest thing to shadcn/ui parity outside the React world, and because the components are copied into the repo you can edit them freely. Do not run `npx shadcn add` against it; the CLI is a separate Go binary (`shadcn-templ add <name>`) and every add must be followed by `templ generate` and `go mod tidy` or the build fails with missing generated _templ.go files. Read https://raw.githubusercontent.com/axadrn/shadcn-templ/main/registry.json to enumerate exactly what exists - the site's own /registry.json 404s, and the registry file is the only reliable list of the 52 UI items plus 27 blocks. Interactivity is vanilla JS, not Radix, so accessibility is claimed rather than inherited - verify keyboard and focus behaviour on dialogs and menus yourself.",
+  "why_it_matters": "Go and templ teams had no credible shadcn equivalent; this one is MIT, pushed daily, at 1.7k stars, and it mirrors the upstream component names closely enough that shadcn knowledge and prompts transfer directly.",
+  "notable_for": [
+   "shadcn/ui parity for Go + templ",
+   "registry.json with 52 UI items and 27 blocks",
+   "own Go CLI: shadcn-templ init / add",
+   "Tailwind v4 with theming presets",
+   "dashboard-01 plus 16 sidebar, 5 login and 5 signup blocks"
+  ],
+  "quality_tier": "A",
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://shadcn-templ.com/, https://shadcn-templ.com/docs/components, https://shadcn-templ.com/docs/installation, https://shadcn-templ.com/blocks, https://raw.githubusercontent.com/axadrn/shadcn-templ/main/registry.json, gh api repos/axadrn/shadcn-templ"
+ },
+ {
+  "id": "a797601f-6285-48d0-961a-d89752bd61a2",
+  "slug": "appllama-loader-buttons",
+  "url": "https://loader-buttons.appllama.io/",
+  "name": "Appllama Loader Buttons",
+  "tagline": "25 named loading-button motion studies: 13 WebGL, 12 in SVG, Canvas and CSS",
+  "description": "A single-page motion experiment by Jaimin (@jaimintf) for Appllama, showing 25 distinct loading-button animations, each with its own name, technique note and status label such as Gathering, Tracing or Flipping. Thirteen are WebGL shaders; the other twelve are SVG, Canvas or DOM/CSS. Every study is an independent ES module under /src/designs/, so the source is readable even though the page itself renders nothing without JavaScript. There is no package, no licence and no copy button - it is reference and inspiration, not a library.",
+  "category": "motion-interaction",
+  "subcategory": "micro-interactions-and-loaders",
+  "kinds": [
+   "gallery",
+   "animation-library",
+   "reference"
+  ],
+  "facets": {
+   "framework": [
+    "vanilla"
+   ],
+   "styling": [
+    "vanilla-css",
+    "shader-glsl"
+   ],
+   "license": [
+    "no-license"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "gallery"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "reduced-motion",
+    "semantic-html"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "js-only-shell",
+    "open-source-code"
+   ],
+   "maturity": "experimental"
+  },
+  "components": [
+   "button",
+   "spinner",
+   "animation",
+   "shimmer",
+   "progress-feedback"
+  ],
+  "component_count": 25,
+  "surfaces": [
+   "submitting-a-form",
+   "saving-changes"
+  ],
+  "templates": [
+   {
+    "name": "Fibonacci Breather",
+    "url": "https://loader-buttons.appllama.io/#loader-01",
+    "purpose": "Loading-button motion study (webgl): Analytic WebGL2 Fibonacci micro-beads"
+   },
+   {
+    "name": "Glass Tide Lens",
+    "url": "https://loader-buttons.appllama.io/#loader-02",
+    "purpose": "Loading-button motion study (webgl)"
+   },
+   {
+    "name": "Binary Metaball Mitosis",
+    "url": "https://loader-buttons.appllama.io/#loader-03",
+    "purpose": "Loading-button motion study (webgl)"
+   },
+   {
+    "name": "Curl-Field Comet",
+    "url": "https://loader-buttons.appllama.io/#loader-04",
+    "purpose": "Loading-button motion study (webgl)"
+   },
+   {
+    "name": "Living Reaction Seed",
+    "url": "https://loader-buttons.appllama.io/#loader-05",
+    "purpose": "Loading-button motion study (webgl)"
+   },
+   {
+    "name": "Chladni Whisper",
+    "url": "https://loader-buttons.appllama.io/#loader-06",
+    "purpose": "Loading-button motion study (webgl)"
+   },
+   {
+    "name": "Topology Courier",
+    "url": "https://loader-buttons.appllama.io/#loader-07",
+    "purpose": "Loading-button motion study (webgl)"
+   },
+   {
+    "name": "Meridian Loom",
+    "url": "https://loader-buttons.appllama.io/#loader-08",
+    "purpose": "Loading-button motion study (webgl)"
+   },
+   {
+    "name": "Voronoi Lantern",
+    "url": "https://loader-buttons.appllama.io/#loader-09",
+    "purpose": "Loading-button motion study (webgl)"
+   },
+   {
+    "name": "Event Horizon Pulse",
+    "url": "https://loader-buttons.appllama.io/#loader-10",
+    "purpose": "Loading-button motion study (webgl)"
+   },
+   {
+    "name": "Prismatic Caustic Coin",
+    "url": "https://loader-buttons.appllama.io/#loader-11",
+    "purpose": "Loading-button motion study (webgl)"
+   },
+   {
+    "name": "Voxel Assembly Line",
+    "url": "https://loader-buttons.appllama.io/#loader-12",
+    "purpose": "Loading-button motion study (webgl)"
+   },
+   {
+    "name": "Strange-Attractor Scribe",
+    "url": "https://loader-buttons.appllama.io/#loader-13",
+    "purpose": "Loading-button motion study (webgl): Precomputed Lorenz phase-space stroke"
+   },
+   {
+    "name": "Conic Eclipse",
+    "url": "https://loader-buttons.appllama.io/#loader-14",
+    "purpose": "Loading-button motion study (css/svg)"
+   },
+   {
+    "name": "Orbital Calligraphy",
+    "url": "https://loader-buttons.appllama.io/#loader-15",
+    "purpose": "Loading-button motion study (css/svg)"
+   },
+   {
+    "name": "Mercury Relay",
+    "url": "https://loader-buttons.appllama.io/#loader-16",
+    "purpose": "Loading-button motion study (css/svg)"
+   },
+   {
+    "name": "Noise Chrysalis",
+    "url": "https://loader-buttons.appllama.io/#loader-17",
+    "purpose": "Loading-button motion study (css/svg)"
+   },
+   {
+    "name": "Contour Choir",
+    "url": "https://loader-buttons.appllama.io/#loader-18",
+    "purpose": "Loading-button motion study (css/svg)"
+   },
+   {
+    "name": "Shapeshifter Seal",
+    "url": "https://loader-buttons.appllama.io/#loader-19",
+    "purpose": "Loading-button motion study (css/svg)"
+   },
+   {
+    "name": "Murmuration Turn",
+    "url": "https://loader-buttons.appllama.io/#loader-20",
+    "purpose": "Loading-button motion study (css/svg)"
+   },
+   {
+    "name": "Frostwork Growth",
+    "url": "https://loader-buttons.appllama.io/#loader-21",
+    "purpose": "Loading-button motion study (css/svg)"
+   },
+   {
+    "name": "Sandpile Bloom",
+    "url": "https://loader-buttons.appllama.io/#loader-22",
+    "purpose": "Loading-button motion study (css/svg)"
+   },
+   {
+    "name": "Elastic Cartography",
+    "url": "https://loader-buttons.appllama.io/#loader-23",
+    "purpose": "Loading-button motion study (css/svg)"
+   },
+   {
+    "name": "Mechanical Iris",
+    "url": "https://loader-buttons.appllama.io/#loader-24",
+    "purpose": "Loading-button motion study (css/svg)"
+   },
+   {
+    "name": "Braille Flipwave",
+    "url": "https://loader-buttons.appllama.io/#loader-25",
+    "purpose": "Loading-button motion study (dom): Authored 3D dot-matrix flip choreography"
+   }
+  ],
+  "template_count": 25,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 25,
+   "blocks": null
+  },
+  "agent_guidance": "Do not fetch the HTML expecting content - it is a JS-only shell and the animation names live in JavaScript. Fetch https://loader-buttons.appllama.io/src/designs/index.js for the 25 module names, then a single module such as /src/designs/13-strange-attractor-scribe.js for its self-contained mount/render/resize/destroy source; each exports name, kind, technique and label. Mine it for one specific loader when a submit button needs a signature moment, and keep the WebGL ones out of long lists - the page itself lazily mounts and releases WebGL contexts because 13 live contexts will exhaust the browser. No licence is stated anywhere, so treat the code as reference and reimplement rather than copy into shipped work.",
+  "why_it_matters": "Loading states are where most interfaces go generic; this is a rare set of 25 individually authored, individually named alternatives to the spinner, with the technique spelled out for each.",
+  "notable_for": [
+   "25 individually authored motion studies",
+   "13 WebGL shaders, 12 SVG/Canvas/CSS",
+   "each ships name, technique and status label",
+   "honours prefers-reduced-motion and lazily releases WebGL contexts",
+   "no licence stated"
+  ],
+  "quality_tier": "B",
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://loader-buttons.appllama.io/ (raw HTML), /src/main.js, /src/designs/index.js, /src/designs/01-fibonacci-breather.js, /src/designs/13-strange-attractor-scribe.js, /src/designs/25-braille-flipwave.js"
+ },
+ {
+  "id": "2f948cda-f1b7-4816-9134-e8eccdd21e4a",
+  "slug": "checklist-design",
+  "url": "https://www.checklist.design/",
+  "name": "Checklist Design",
+  "tagline": "Design checklists for websites, web apps, mobile, components and flows",
+  "description": "Checklist Design collects per-surface design checklists so you can review a screen against a list of known best practices before you ship it. The site's own metadata names five groupings - websites, web apps, mobile, components and flows - and routes exist at /browse and /components. It is a React single-page app backed by Supabase, and neither the page HTML nor the anonymous Supabase REST endpoints return any checklist content, so the individual checklist names could not be verified from outside a browser.",
+  "category": "design-systems-brand",
+  "subcategory": "system-guides-and-checklists",
+  "kinds": [
+   "checklist",
+   "reference"
+  ],
+  "facets": {
+   "framework": [
+    "react"
+   ],
+   "styling": [
+    "unknown"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "prose"
+   ],
+   "agent_readiness": [
+    "js-only-shell",
+    "auth-required"
+   ],
+   "maturity": "beta"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Treat this as a human-review aid, not a data source: the served HTML is a 2 KB empty React root, and the Supabase tables it reads (categories, checklists) return zero rows to an anonymous key, so a plain fetch or WebFetch will always come back empty. If a user asks you to 'check the pricing page against Checklist Design', ask them to paste the checklist rather than guessing at its contents. For an agent that needs machine-readable design review criteria, prefer a source you can actually read - the value here is the curated wording, and you cannot get at it without a real browser session.",
+  "why_it_matters": "The per-surface checklist format is the right shape for pre-ship review, but the rebuild is currently opaque to anything without a browser, which caps its usefulness in an agent pipeline.",
+  "notable_for": [
+   "checklists grouped by websites, web apps, mobile, components, flows",
+   "/browse and /components routes are indexed",
+   "React + Supabase SPA",
+   "no server-rendered content at all"
+  ],
+  "quality_tier": "B",
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://www.checklist.design/ (raw HTML, 2033 bytes, empty #root), https://www.checklist.design/components (empty), https://www.checklist.design/sitemap.xml (404), Supabase REST /categories and /checklists with the site's publishable key (0 rows), web search for indexed routes"
+ },
+ {
+  "id": "9e756f3d-f6fc-4f94-b404-69f9caeb2062",
+  "slug": "backdrop",
+  "url": "https://www.backdrop.love/packs",
+  "name": "Backdrop",
+  "tagline": "29 photographic background packs for mockups, $19 each, ~20 assets per pack",
+  "description": "Backdrop sells photographic and painterly background packs meant to sit behind product mockups, portfolio shots and social posts. The catalogue holds 29 packs at $19 each, each a themed set of images - the Heather pack lists 20 assets, and pack cards preview 15. Themes run from landscape captures (Wetlands, Golden Roads, Night Grass) to abstract surfaces (Oil, Prism, Digital Ice, Gradient 1). Purchase is per pack through a cart; no licence page or bundle price is published.",
+  "category": "textures-assets",
+  "subcategory": "mockups-and-asset-packs",
+  "kinds": [
+   "asset-pack",
+   "marketplace"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "commercial",
+    "unknown"
+   ],
+   "pricing": [
+    "one-time",
+    "paid",
+    "account-required"
+   ],
+   "distribution": [
+    "download",
+    "marketplace",
+    "web-app"
+   ],
+   "platform": [
+    "web",
+    "social",
+    "print"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "images"
+   ],
+   "agent_readiness": [
+    "auth-required",
+    "image-only"
+   ],
+   "maturity": "stable"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [
+   {
+    "name": "Heather",
+    "url": "https://www.backdrop.love/packs/heather",
+    "purpose": "Motion-blurred field shot; 20 assets. Best seller."
+   },
+   {
+    "name": "Wetlands",
+    "url": "https://www.backdrop.love/packs/wetlands",
+    "purpose": "Wet, reedy landscape tones for mockup and portfolio backdrops. Best seller."
+   },
+   {
+    "name": "Golden Roads",
+    "url": "https://www.backdrop.love/packs/golden-roads",
+    "purpose": "Warm golden-hour road textures. Best seller."
+   },
+   {
+    "name": "35mm Sky",
+    "url": "https://www.backdrop.love/packs/35mm-sky",
+    "purpose": "Film-grain sky captures for soft product backdrops."
+   },
+   {
+    "name": "Amphora",
+    "url": "https://www.backdrop.love/packs/amphora",
+    "purpose": "Earthen ceramic tones and forms."
+   },
+   {
+    "name": "Black Sand",
+    "url": "https://www.backdrop.love/packs/black-sand",
+    "purpose": "Dark volcanic-sand texture for high-contrast mockups."
+   },
+   {
+    "name": "Blue",
+    "url": "https://www.backdrop.love/packs/blue",
+    "purpose": "Flat and graded blue fields."
+   },
+   {
+    "name": "Creamsicle",
+    "url": "https://www.backdrop.love/packs/creamsicle",
+    "purpose": "Warm orange-and-cream gradients."
+   },
+   {
+    "name": "Digital Ice",
+    "url": "https://www.backdrop.love/packs/digital-ice",
+    "purpose": "Cold, glassy digital-ice surfaces."
+   },
+   {
+    "name": "Faded Impressions",
+    "url": "https://www.backdrop.love/packs/faded-impressions",
+    "purpose": "Washed-out painterly impressions."
+   },
+   {
+    "name": "Faint Brush",
+    "url": "https://www.backdrop.love/packs/faint-brush",
+    "purpose": "Light brushed-paint strokes."
+   },
+   {
+    "name": "Flame",
+    "url": "https://www.backdrop.love/packs/flame",
+    "purpose": "Hot orange and red flame fields."
+   },
+   {
+    "name": "Flora",
+    "url": "https://www.backdrop.love/packs/flora",
+    "purpose": "Botanical forms and greens."
+   },
+   {
+    "name": "Fluted Sky",
+    "url": "https://www.backdrop.love/packs/fluted-sky",
+    "purpose": "Ribbed, fluted sky gradients."
+   },
+   {
+    "name": "Gradient 1",
+    "url": "https://www.backdrop.love/packs/gradient-1",
+    "purpose": "Plain multi-stop gradient set."
+   },
+   {
+    "name": "Horizon",
+    "url": "https://www.backdrop.love/packs/horizon",
+    "purpose": "Wide horizon-line landscape fields."
+   },
+   {
+    "name": "Infrared",
+    "url": "https://www.backdrop.love/packs/infrared",
+    "purpose": "False-color infrared foliage."
+   },
+   {
+    "name": "Lush",
+    "url": "https://www.backdrop.love/packs/lush",
+    "purpose": "Dense saturated greenery."
+   },
+   {
+    "name": "Morning",
+    "url": "https://www.backdrop.love/packs/morning",
+    "purpose": "Soft early-morning light."
+   },
+   {
+    "name": "Mural",
+    "url": "https://www.backdrop.love/packs/mural",
+    "purpose": "Painted wall and mural surfaces."
+   },
+   {
+    "name": "Night Grass",
+    "url": "https://www.backdrop.love/packs/night-grass",
+    "purpose": "Dark grass at night."
+   },
+   {
+    "name": "Oil",
+    "url": "https://www.backdrop.love/packs/oil",
+    "purpose": "Oil-slick iridescent surfaces."
+   },
+   {
+    "name": "OpenSky",
+    "url": "https://www.backdrop.love/packs/opensky",
+    "purpose": "Open, uncluttered sky fields."
+   },
+   {
+    "name": "Palm Shadow",
+    "url": "https://www.backdrop.love/packs/palm-shadow",
+    "purpose": "Palm-frond shadow casts."
+   },
+   {
+    "name": "Prism",
+    "url": "https://www.backdrop.love/packs/prism",
+    "purpose": "Refracted prismatic light."
+   },
+   {
+    "name": "Red Planet",
+    "url": "https://www.backdrop.love/packs/red-planet",
+    "purpose": "Arid red-terrain surfaces."
+   },
+   {
+    "name": "Sundrape",
+    "url": "https://www.backdrop.love/packs/sundrape",
+    "purpose": "Draped fabric in sunlight."
+   },
+   {
+    "name": "Twilight",
+    "url": "https://www.backdrop.love/packs/twilight",
+    "purpose": "Dusk blues and purples."
+   },
+   {
+    "name": "Wildflower",
+    "url": "https://www.backdrop.love/packs/wildflower",
+    "purpose": "Wildflower meadow fields."
+   }
+  ],
+  "template_count": 29,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "$19 per pack, 29 packs. Heather lists 20 assets included. No all-access bundle price, no /pricing or /license page (both 404).",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 29,
+   "blocks": null
+  },
+  "agent_guidance": "This is a paid image store, so never plan a build around it - you cannot download or inspect the assets, and there is no licence page to reason about commercial use. Surface it only when the user explicitly wants photographic backdrops behind mockups or a case-study hero, and name specific packs (Heather, Wetlands, Golden Roads are the sellers; Oil, Prism and Digital Ice are the abstract ones) rather than linking the index. If the user wants something you can generate or ship in code instead, redirect to a gradient or shader resource - Backdrop's whole value is that the images are photographed, not synthesised.",
+  "why_it_matters": "Most background resources are CSS gradients or AI renders; a curated, per-theme photographic set at a flat $19 fills the narrow gap where a mockup needs a real surface behind it.",
+  "notable_for": [
+   "29 themed packs, flat $19 each",
+   "~20 images per pack",
+   "photographic rather than generated",
+   "best sellers: Heather, Wetlands, Golden Roads",
+   "no published licence terms"
+  ],
+  "quality_tier": "B",
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-08-15",
+  "evidence": "https://www.backdrop.love/packs (raw HTML, all 29 pack slugs), https://www.backdrop.love/packs/heather, https://www.backdrop.love/ , https://www.backdrop.love/pricing (404), https://www.backdrop.love/license (404)"
+ }
+]
