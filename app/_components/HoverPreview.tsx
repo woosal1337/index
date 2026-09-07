@@ -51,6 +51,7 @@ export default function HoverPreview() {
   const cardRef = useRef<HTMLDivElement | null>(null);
   const rowRef = useRef<HTMLElement | null>(null);
   const timer = useRef<number | null>(null);
+  const blocked = useRef<string | null>(null);
   const seen = useRef<Set<string>>(new Set());
 
   const close = useCallback(() => {
@@ -90,16 +91,31 @@ export default function HoverPreview() {
     const rowOf = (t: EventTarget | null) =>
       t instanceof Element ? (t.closest("a.row[data-preview]") as HTMLElement | null) : null;
 
+    const keyOf = (row: HTMLElement | null) => row?.getAttribute("href") ?? null;
+
     const onOver = (e: PointerEvent) => {
       const row = rowOf(e.target);
-      if (!row) return;
+      if (!row) {
+        if (rowRef.current) close();
+        return;
+      }
+      if (keyOf(row) && keyOf(row) === blocked.current) return;
       if (row === rowRef.current) return;
       open(row, DELAY);
     };
     const onOut = (e: PointerEvent) => {
       const row = rowOf(e.target);
       if (row && row === rowOf(e.relatedTarget)) return;
+      if (row && keyOf(row) === blocked.current) blocked.current = null;
       if (row) close();
+    };
+    const onDown = (e: PointerEvent) => {
+      blocked.current = keyOf(rowOf(e.target));
+      close();
+    };
+    const onMove = (e: PointerEvent) => {
+      if (!blocked.current) return;
+      if (keyOf(rowOf(e.target)) !== blocked.current) blocked.current = null;
     };
 
     const onFocusIn = (e: FocusEvent) => {
@@ -113,18 +129,24 @@ export default function HoverPreview() {
 
     document.addEventListener("pointerover", onOver);
     document.addEventListener("pointerout", onOut);
+    document.addEventListener("pointerdown", onDown, true);
+    document.addEventListener("pointermove", onMove, { passive: true });
     document.addEventListener("focusin", onFocusIn);
     document.addEventListener("keydown", onKey);
 
-    window.addEventListener("scroll", close, { passive: true });
+    document.addEventListener("scroll", close, { capture: true, passive: true });
     window.addEventListener("resize", close);
+    window.addEventListener("blur", close);
     return () => {
       document.removeEventListener("pointerover", onOver);
       document.removeEventListener("pointerout", onOut);
+      document.removeEventListener("pointerdown", onDown, true);
+      document.removeEventListener("pointermove", onMove);
       document.removeEventListener("focusin", onFocusIn);
       document.removeEventListener("keydown", onKey);
-      window.removeEventListener("scroll", close);
+      document.removeEventListener("scroll", close, true);
       window.removeEventListener("resize", close);
+      window.removeEventListener("blur", close);
       if (timer.current) window.clearTimeout(timer.current);
     };
   }, [close, place]);
