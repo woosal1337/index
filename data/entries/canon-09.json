@@ -229,8 +229,8 @@
     "slug": "one-page-love",
     "url": "https://onepagelove.com",
     "name": "One Page Love",
-    "tagline": "9,079 one-page sites, 8,729 isolated page sections and 275 templates for sale",
-    "description": "One Page Love has curated single-page websites and landing pages since 2008 and now holds 9,079 One Pagers plus 8,729 individually clipped page sections, so you can browse a whole hero, pricing block or footer rather than a full site. Entries are filtered by genre (Portfolio, Landing Page, SaaS, Case Study, Launching Soon and ~30 more), style (Minimal, Brutalism, Glassmorphism, Editorial, Gradients, 3D and ~18 more), platform (Framer, Webflow, WordPress, Squarespace, Carrd, Figma Sites, Shopify and more), underlying tech (Tailwind CSS, GSAP, Next.js, shadcn/ui, Three.js and 30+ others) and 27 colours. A separate shop sells 275 one-page templates from free to $99. Browsing is free with no login.",
+    "tagline": "9,079 one-page sites, 8,729 sections, 1,603 OG image references and 275 templates",
+    "description": "One Page Love has curated single-page websites and landing pages since 2008 and now holds 9,079 One Pagers plus 8,729 individually clipped page sections, so you can browse a whole hero, pricing block or footer rather than a full site. Entries are filtered by genre (Portfolio, Landing Page, SaaS, Case Study, Launching Soon and ~30 more), style (Minimal, Brutalism, Glassmorphism, Editorial, Gradients, 3D and ~18 more), platform (Framer, Webflow, WordPress, Squarespace, Carrd, Figma Sites, Shopify and more), underlying tech (Tailwind CSS, GSAP, Next.js, shadcn/ui, Three.js and 30+ others) and 27 colours. A separate OG Image Gallery adds 1,603 link-preview references across more than 30 site types. A separate shop sells 275 one-page templates from free to $99. Browsing is free with no login.",
     "category": "inspiration-galleries",
     "subcategory": "site-galleries",
     "kinds": ["gallery", "directory", "marketplace"],
@@ -259,6 +259,11 @@
         "name": "Page Sections library",
         "url": "https://onepagelove.com/inspiration",
         "purpose": "8,729 individually clipped page sections — heroes, pricing blocks, footers, testimonials — for section-level rather than whole-page reference."
+      },
+      {
+        "name": "OG Image Gallery",
+        "url": "https://onepagelove.com/og",
+        "purpose": "1,603 Open Graph images grouped by more than 30 site types. The types include landing pages, portfolios, products, apps, SaaS and ecommerce."
       }
     ],
     "template_count": 275,
@@ -270,14 +275,14 @@
     "github": { "stars": null, "license": null, "last_activity": null },
     "pricing_detail": "Gallery is free. Templates are one-off purchases from free to $99, with common tiers at $29, $69, $79 and $99. Paid submission options exist for getting a site featured.",
     "counts": { "icons": null, "fonts": null, "palettes": null, "entries": 9079, "blocks": 8729 },
-    "agent_guidance": "Reach for this over Httpster when the brief is a single marketing page or a specific block — its section library lets you pull 'pricing block' or 'hero' examples in isolation, and its tech filter (Tailwind CSS, GSAP, Next.js, shadcn/ui) narrows to sites whose stack matches what you are actually building. Pages are server-rendered and readable, so you can extract outbound URLs and then fetch the real site for markup. The templates are commercial products with their own licences — link them, never assume you may copy their code.",
+    "agent_guidance": "Reach for this over Httpster when the brief is a single marketing page or a specific block — its section library lets you pull 'pricing block' or 'hero' examples in isolation, and its tech filter (Tailwind CSS, GSAP, Next.js, shadcn/ui) narrows to sites whose stack matches what you are actually building. Pages are server-rendered and readable, so you can extract outbound URLs and then fetch the real site for markup. Use `/og` when the task is a social link preview rather than a page layout. It exposes 1,603 references and type counts in server-rendered HTML. The templates are commercial products with their own licences — link them, never assume you may copy their code.",
     "why_it_matters": "Section-level clipping plus a tech-stack filter turns a taste gallery into something you can query the way a developer thinks, and an eighteen-year archive of landing pages has no real substitute.",
     "quality_tier": "A",
-    "notable_for": ["9,079 one-page sites since 2008", "8,729 isolated page sections", "filter by underlying tech including Tailwind and shadcn/ui", "275 templates from free to $99", "free, no login"],
+    "notable_for": ["9,079 one-page sites since 2008", "8,729 isolated page sections", "1,603 OG image references by site type", "filter by underlying tech including Tailwind and shadcn/ui", "275 templates from free to $99"],
     "already_enriched": false,
     "http_status": 200,
-    "verified_at": "2026-08-16",
-    "evidence": "https://onepagelove.com/ , https://onepagelove.com/inspiration (full genre/style/platform/tech/colour filter lists), https://onepagelove.com/templates (count, price range, platforms, category filters)",
+    "verified_at": "2026-09-09",
+    "evidence": "https://onepagelove.com/ , https://onepagelove.com/inspiration (full genre/style/platform/tech/colour filter lists), https://onepagelove.com/templates (count, price range, platforms, category filters). https://onepagelove.com/og returned 200. The page title is \"OG Image Gallery - One Page Love\". It reports 1,603 references. The page lists more than 30 type filters. Counts include Landing Page 690, Portfolio 431, Digital Product 326, App 221, Service 219, SaaS 101 and Ecommerce 29.",
     "source": "canon"
   }
 ]

@@ -1,0 +1,336 @@
+[
+ {
+  "id": "user:b969e6c9c3ce85b9",
+  "slug": "cta-gallery",
+  "url": "https://www.cta.gallery",
+  "name": "CTA Gallery",
+  "tagline": "494 call-to-action examples, with filters for type, industry and color mode",
+  "description": "CTA Gallery collects call-to-action examples from live websites. Its sitemap lists 494 entry pages.\n\nThe gallery sorts examples into buttons, purchase prompts, downloads, forms, modals, navigation, newsletters and pricing. It also has 23 industry pages and light or dark filters.\n\nEach entry shows a screenshot and names the source website. The public gallery needs no account, but it supplies no reusable code.\n\nWebestica runs the gallery. The site also publishes writing tips, accepts submissions and sells sponsor space.",
+  "category": "inspiration-galleries",
+  "subcategory": "section-galleries",
+  "kinds": [
+   "gallery",
+   "directory",
+   "reference"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "gallery",
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "screenshots",
+    "images"
+   ],
+   "agent_readiness": [
+    "machine-index",
+    "image-only"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "button",
+   "form",
+   "modal",
+   "navbar",
+   "pricing-table"
+  ],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "pricing-website",
+   "checkout",
+   "sign-up",
+   "contact-us",
+   "waitlist"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://www.cta.gallery/cta-tips",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 494,
+   "blocks": null
+  },
+  "pricing_detail": "Free to browse. The screenshots remain the property of their owners. The site sells sponsor placements and links to commercial templates.",
+  "agent_guidance": "Use the category, industry and mode routes before you browse all 494 examples. The sitemap gives an agent every entry URL.\n\nTreat the screenshots as references only. CTA Gallery supplies no code, Figma file, public API or content reuse license.\n\nThe server returns real HTML and correct 404 responses. It publishes a sitemap with 538 URLs, but `/llms.txt` does not exist.",
+  "why_it_matters": "Most galleries make a call to action part of a full page. This one isolates the conversion point and adds useful filters.",
+  "quality_tier": "A",
+  "tier_reason": "494 public CTA entries, nine type filters, 23 industry filters, real source websites and a readable sitemap earn tier A. The gallery stays below S because it supplies screenshots only and no reuse license.",
+  "notable_for": [
+   "494 public CTA examples",
+   "nine call-to-action type filters",
+   "23 industry filters",
+   "light and dark mode filters",
+   "readable sitemap with every entry URL"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-09-09",
+  "source": "user",
+  "evidence": "Source post: https://x.com/Manixh02/status/2097372767423484083. https://www.cta.gallery/ returned 200. The title reads \"CTA.gallery | The Best Call-to-Action Inspiration for Designers\". The page calls itself a curated CTA gallery and names Webestica as its maker. The type links cover Button, Call-to-Buy, Download, Form, Modal / Pop-up, Navigation, Newsletter and Pricing / Subscription.\n\nThe sitemap returned 200 with 538 URLs. Those URLs include 494 `/cta/` entries, 23 industry pages, nine type pages and two mode pages. `/llms.txt` returned 404. A made-up route also returned 404."
+ },
+ {
+  "id": "user:717a2691d989fe5c",
+  "slug": "saasframe",
+  "url": "https://www.saasframe.io",
+  "name": "SaaSFrame",
+  "tagline": "5,000+ SaaS screens, flows, emails, patterns, responsive views, Figma files and screenshot text search",
+  "description": "SaaSFrame is a research library for SaaS websites, product interfaces, emails and user flows. The homepage advertises more than 5,000 examples.\n\nIts current sitemap lists 5,929 example pages, 497 flows, 566 sections, 316 SaaS profiles and 111 pattern pages.\n\nThe catalog covers marketing pages and product states. It includes account setup, onboarding, signup, settings, dashboards, billing, checkout, search and empty states.\n\nThe site also groups screens into complete flows. Pro members can search text inside screenshots, view mobile versions, bookmark items and download Figma files.",
+  "category": "inspiration-galleries",
+  "subcategory": "app-screens",
+  "kinds": [
+   "gallery",
+   "directory",
+   "reference"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "freemium",
+    "subscription",
+    "account-required"
+   ],
+   "distribution": [
+    "gallery",
+    "web-app",
+    "figma-file",
+    "download"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "screenshots",
+    "images",
+    "figma",
+    "prose"
+   ],
+   "agent_readiness": [
+    "machine-index",
+    "auth-required",
+    "agent-paywalled",
+    "image-only"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "dashboard",
+   "button",
+   "form",
+   "pricing-table",
+   "table",
+   "empty-state",
+   "login-form",
+   "calendar",
+   "search-input",
+   "command-palette",
+   "modal",
+   "tabs",
+   "chart",
+   "checkbox",
+   "select",
+   "combobox",
+   "date-picker",
+   "toast",
+   "rich-text-editor",
+   "spinner"
+  ],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "pricing-website",
+   "about",
+   "blog",
+   "features",
+   "contact-us",
+   "onboarding-web-app",
+   "settings-web-app",
+   "billing-web-app",
+   "login-web-app",
+   "sign-up",
+   "checkout",
+   "empty-state",
+   "invite",
+   "analytics",
+   "search-results",
+   "account-web-app",
+   "integrations",
+   "notification-settings",
+   "data-export",
+   "canceling-subscription",
+   "paywall"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 5929,
+   "blocks": 111
+  },
+  "pricing_detail": "Free pages expose previews. Pro costs $14 monthly, $36 quarterly or $120 yearly on the dedicated pricing page. Team quotes are available.",
+  "agent_guidance": "Use the category and flow routes when you need a specific SaaS state. The sitemap exposes thousands of stable example URLs.\n\nExpect a paywall after the public preview. A Search Modal category showed three examples and locked the other 22.\n\nUse the source screenshots for research only. SaaSFrame owns the service, and the pictured products own their interfaces. Do not treat a Figma download as reusable code.\n\nThe dedicated pricing page lists $14 monthly, $36 quarterly and $120 yearly. Some site-wide upgrade panels still show $139 yearly, so check the pricing page before purchase.\n\nThe site publishes no llms.txt and no public API. Pages and categories are server-rendered, so an agent can read names, counts and paths.",
+  "why_it_matters": "SaaSFrame joins website pages, product flows, email sequences, responsive states and Figma files in one SaaS-specific research library.",
+  "quality_tier": "B",
+  "tier_reason": "More than 5,000 examples, flow grouping, screenshot text search, responsive pairs, Figma downloads and current additions earn tier B. The paywall, image-first content and conflicting annual prices keep it below A.",
+  "notable_for": [
+   "5,929 indexed example pages",
+   "497 user flows and 111 pattern pages",
+   "search text inside screenshots",
+   "desktop and mobile comparisons",
+   "Figma downloads for Pro members"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-09-09",
+  "source": "user",
+  "evidence": "Source post: https://x.com/Manixh02/status/2097372767423484083. https://www.saasframe.io/ returned 200. The homepage says \"5,000+ real-world UX & UI design examples\". It lists website and product categories with live counts. It also describes flows, mobile views, screenshot text search, bookmarks and Figma downloads. The sitemap returned 200 with 7,800 URLs. It includes 5,929 `/examples/` pages, 497 flows, 566 sections, 316 SaaS profiles and 111 pattern pages. The dedicated pricing page lists $14 monthly, $36 quarterly and $120 yearly. Some upgrade panels list $139 yearly. `/llms.txt` and a made-up route returned 404."
+ },
+ {
+  "id": "user:e63e2305a3aaecec",
+  "slug": "gridddy",
+  "url": "https://gridddy.framer.website",
+  "name": "Gridddy",
+  "tagline": "42 pre-footer call-to-action references, each tagged by visual style and linked to the live site",
+  "description": "Gridddy is a focused gallery of call-to-action sections placed before website footers. Sharanya D created it after she could not find a dedicated reference source.\n\nThe homepage lists 42 examples and links each one to a detail page. Every card names the live website and adds two visual tags.\n\nThe tags include minimal, illustrative, neumorphic, flat, colorful, typographic, retro and 3D. A public form accepts new examples.\n\nThe gallery is free and needs no account. It supplies screenshots and source links, but no code or reuse license.",
+  "category": "inspiration-galleries",
+  "subcategory": "section-galleries",
+  "kinds": [
+   "gallery",
+   "directory"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "gallery"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "screenshots",
+    "images"
+   ],
+   "agent_readiness": [
+    "machine-index",
+    "image-only"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "footer",
+   "button",
+   "form"
+  ],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "pricing-website",
+   "sign-up",
+   "contact-us",
+   "waitlist"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://gridddy.framer.website/about",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 42,
+   "blocks": null
+  },
+  "pricing_detail": "Free to browse. No account is required.",
+  "agent_guidance": "Start with the homepage because it exposes all 42 names and style tags in readable HTML. Open a detail page for its large screenshot and source link.\n\nUse Gridddy only for the section before a footer. CTA Gallery covers more action types, while Footer.design focuses on the footer itself.\n\nThe sitemap lists every detail route. The site has no llms.txt, public API, code export or Figma file.",
+  "why_it_matters": "Pre-footer calls to action often disappear inside broad section galleries. Gridddy gives that transition its own small, focused reference set.",
+  "quality_tier": "B",
+  "tier_reason": "Forty-two tagged examples, source links, readable pages and a clean sitemap make it a useful focused gallery. Its small image-only catalog and missing reuse terms set tier B.",
+  "notable_for": [
+   "42 pre-footer CTA examples",
+   "two visual-style tags per example",
+   "live source link on every detail page",
+   "free with no account",
+   "side project by Sharanya D"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-09-09",
+  "source": "user",
+  "evidence": "Source post: https://x.com/Manixh02/status/2097372767423484083. https://gridddy.framer.website/ returned 200. The homepage says \"v1 Launch, 40+ resources\" and describes a curated gallery of pre-footer CTA practices. The rendered page showed 42 named examples with outbound domains and two style tags each. The About page says Sharanya D runs the side project. The sitemap returned 200 with 45 URLs. These include the home page, About, the site index and 42 detail pages. `/llms.txt` and a made-up route returned 404."
+ }
+]
