@@ -1,0 +1,171 @@
+[
+ {
+  "id": "user:04aaa092c62d14ef",
+  "slug": "spectrum-ui",
+  "url": "https://ui.spectrumhq.in",
+  "name": "Spectrum UI",
+  "tagline": "255 shadcn registry items, 62 component guides, 34 blocks and an MCP installer",
+  "description": "Spectrum UI is an open-source React and Next.js component library built with TypeScript, Tailwind CSS, Motion, Radix and shadcn/ui. It is unrelated to Adobe Spectrum.\n\nIts registry contains 255 installable items. The documentation covers 62 component pages, while the block catalog adds 27 AI assistant blocks and 7 pricing blocks. A separate chart collection has 20 examples.\n\nComponents install through the standard shadcn CLI under the @spectrumui namespace, or you can copy their source into your project. Each documentation page shows the source and dependency list.\n\nThe optional @spectrumui/mcp package gives coding agents five tools to list, search, inspect and install components. It fetches the current registry and delegates installation to the shadcn CLI.\n\nArihant Jain maintains the Apache-2.0 repository. It had 1,063 stars and 105 forks when checked, with a push on 7 September 2026.",
+  "category": "component-libraries",
+  "subcategory": "shadcn-registries",
+  "kinds": [
+   "registry",
+   "component-library",
+   "block-collection"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "tailwind-any"
+   ],
+   "license": [
+    "apache-2.0"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "cli",
+    "copy-paste",
+    "github-repo",
+    "mcp-server",
+    "npm-package"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "built-on-accessible-primitives",
+    "claimed-accessible"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "mcp-server",
+    "registry-json",
+    "cli-installable",
+    "structured-docs",
+    "open-source-code",
+    "llms-txt",
+    "copy-paste-ready"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "accordion",
+   "alert",
+   "switch",
+   "card",
+   "chart",
+   "drawer",
+   "textarea",
+   "avatar-group",
+   "search-input",
+   "button",
+   "command-palette",
+   "date-picker",
+   "slider",
+   "status-indicator",
+   "rating",
+   "tabs",
+   "image",
+   "lightbox",
+   "infinite-scroll",
+   "modal",
+   "dialog",
+   "kanban-board",
+   "kbd",
+   "spinner",
+   "login-form",
+   "prompt-input",
+   "combobox",
+   "tag-input",
+   "form",
+   "progress-stepper",
+   "notification-center",
+   "count-up",
+   "password-input",
+   "dropdown-menu",
+   "progress-bar",
+   "number-input",
+   "skeleton",
+   "badge",
+   "checkbox",
+   "toast",
+   "payment-form",
+   "tree-view",
+   "conversation",
+   "message",
+   "streaming-text",
+   "inline-citation",
+   "sources",
+   "reasoning",
+   "tool-call",
+   "approval-request",
+   "model-selector",
+   "context-meter",
+   "diff-view",
+   "code-block",
+   "empty-state",
+   "suggestion",
+   "pricing-table",
+   "comparison-table"
+  ],
+  "component_count": 255,
+  "surfaces": [
+   "ai-chat-panel",
+   "chat-web-app",
+   "ai-action-approval",
+   "homepage",
+   "pricing-website",
+   "login-web-app",
+   "checkout",
+   "kanban-board",
+   "notifications",
+   "search-results",
+   "empty-state"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "npx shadcn@latest add @spectrumui/accordion",
+  "package": "@spectrumui/mcp",
+  "docs_url": "https://ui.spectrumhq.in/docs",
+  "repo_url": "https://github.com/arihantcodes/spectrum-ui",
+  "registry_url": "https://ui.spectrumhq.in/r/registry.json",
+  "github": {
+   "stars": 1063,
+   "license": "Apache-2.0",
+   "last_activity": "2026-09-07"
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 255,
+   "blocks": 34
+  },
+  "pricing_detail": "The public component library and registry are free under Apache-2.0. Installed component source becomes part of your own repository.",
+  "agent_guidance": "Use the standard shadcn command with the @spectrumui namespace. For example, run `npx shadcn@latest add @spectrumui/accordion`. Review the dependency list and generated diff before you keep an installed component.\n\nConnect the optional MCP server with `claude mcp add spectrum-ui -- npx -y @spectrumui/mcp` when an agent needs to browse the catalog. Its five tools can list categories, list or search components, return source and install through the shadcn CLI.\n\nTreat this as React and Next.js source, not a framework-neutral design system. It uses Tailwind, Motion and Radix primitives. It is unrelated to Adobe Spectrum.\n\nUse Apache-2.0 for the library. The repository LICENSE and llms.txt agree on that license, although the current brand-kit page says MIT. The separately published MCP package also reports MIT metadata.",
+  "why_it_matters": "It combines a broad shadcn registry with AI-interface blocks, machine-readable documentation and a working MCP installer. An agent can discover a component, inspect its source and add it without scraping a visual catalog.",
+  "quality_tier": "A",
+  "tier_reason": "A 255-item registry, 62 component guides, 34 composed blocks, 20 chart examples, llms.txt, an MCP server and an active Apache-2.0 repository with 1,063 stars make it one of the stronger free shadcn sources. Held below S because the brand page conflicts with the repository about the license, and the advertised 250+ count includes blocks and variants rather than 250 distinct documented components.",
+  "notable_for": [
+   "255 installable shadcn registry items",
+   "27 AI assistant blocks and 7 pricing blocks",
+   "MCP server with five discovery and install tools",
+   "62 component guides and 20 chart examples",
+   "Apache-2.0 source with llms.txt"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-09-09",
+  "source": "user",
+  "evidence": "https://ui.spectrumhq.in/docs returned 200 and describes an open-source React component and block library built with React, Next.js, Tailwind CSS, Motion, TypeScript and shadcn/ui. It states that components are copied or installed with the shadcn CLI and that each documentation page lists source and dependencies. https://ui.spectrumhq.in/llms.txt returned text/plain and names the Apache-2.0 repository https://github.com/arihantcodes/spectrum-ui, maintainer Arihant Jain, 250+ blocks/components/variants, 50 card blocks, 53 button variants, 160+ component demos, 13 page blocks, 62 component documentation pages, 34 blocks split into 27 AI assistant and 7 pricing blocks, and 20 charts. https://ui.spectrumhq.in/r/registry.json returned a registry with 255 items. https://ui.spectrumhq.in/docs/mcp documents @spectrumui/mcp and five tools: list_components, search_components, get_component, list_categories and install_component. GitHub API for arihantcodes/spectrum-ui reported 1,063 stars, 105 forks, Apache-2.0, default branch main, not archived and a last push on 2026-09-07. The repository LICENSE contains Apache License 2.0. The npm package @spectrumui/mcp was version 0.1.1 and reported MIT metadata when checked. The current brand-kit page says MIT, which conflicts with the repository LICENSE and llms.txt. The project explicitly states that Spectrum UI is not affiliated with Adobe Spectrum."
+ }
+]
