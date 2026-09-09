@@ -1,0 +1,114 @@
+[
+ {
+  "id": "user:c7b2714d5c564aab",
+  "slug": "apple-human-interface-guidelines",
+  "url": "https://developer.apple.com/design/human-interface-guidelines",
+  "name": "Apple Human Interface Guidelines",
+  "tagline": "Apple’s official design guidance for iOS, iPadOS, macOS, watchOS, tvOS and visionOS",
+  "description": "Apple’s Human Interface Guidelines describe how to design clear, consistent experiences for every Apple platform. The current guide starts with design principles and platform guidance, then covers foundations such as accessibility, app icons, color, layout, materials and typography.\n\nThe catalog also documents patterns, system-defined components, input methods and Apple technologies. Component guidance is grouped into content, layout and organization, menus and actions, navigation and search, presentation, selection and input, status, and system experiences.\n\nThe guide is free to read without an account. It is an authoritative specification, not an open-source component library or a general license to reuse Apple artwork, trademarks or interface assets.",
+  "category": "design-systems-brand",
+  "subcategory": "public-design-systems",
+  "kinds": [
+   "design-system-docs",
+   "reference",
+   "brand-guidelines"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "native-styles"
+   ],
+   "license": [
+    "proprietary",
+    "trademark-restricted"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "web-app"
+   ],
+   "platform": [
+    "ios",
+    "macos",
+    "xr",
+    "cross-platform"
+   ],
+   "accessibility": [
+    "claimed-accessible"
+   ],
+   "content_type": [
+    "prose",
+    "images"
+   ],
+   "agent_readiness": [
+    "structured-docs",
+    "js-only-shell"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "alert",
+   "combobox",
+   "dialog",
+   "menu-button",
+   "popover",
+   "search-input",
+   "segmented-control",
+   "sheet",
+   "sidebar",
+   "slider",
+   "switch",
+   "tab-bar",
+   "text-input",
+   "toolbar"
+  ],
+  "component_count": null,
+  "surfaces": [
+   "settings-mobile",
+   "search-mobile",
+   "tab-bar-navigation",
+   "action-sheet",
+   "notifications",
+   "showing-input-error"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://developer.apple.com/design/human-interface-guidelines/getting-started",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "pricing_detail": "Free to read without an Apple Developer account. Apple’s site terms, trademarks and asset-specific agreements still apply.",
+  "agent_guidance": "Use this as the first design reference for an app that targets an Apple platform. Start with the platform page, then read the relevant foundation, pattern and component pages. Pair it with SwiftUI, UIKit or AppKit documentation when you need implementation details.\n\nA raw HTTP request returns a JavaScript shell, but a browser exposes structured navigation and readable topic pages. There is no llms.txt file or public content API.\n\nTreat the guidance as a specification. Do not assume that Apple artwork, screenshots, icons, fonts or trademarks are reusable because the documentation is public.",
+  "why_it_matters": "It is the primary source for the interaction principles, components and platform conventions that make software feel native on Apple devices.",
+  "quality_tier": "S",
+  "tier_reason": "Canonical, current and detailed guidance across every Apple platform earns tier S. Its JavaScript-only delivery and lack of a machine-readable export make automated use less direct.",
+  "notable_for": [
+   "official Apple platform guidance",
+   "iOS, iPadOS, macOS, watchOS, tvOS and visionOS coverage",
+   "design principles and platform-specific foundations",
+   "component, pattern and input guidance",
+   "free access without an account"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-09-09",
+  "source": "user",
+  "evidence": "https://developer.apple.com/design/human-interface-guidelines returned 200. Its title is \"Human Interface Guidelines | Apple Developer Documentation\" and its description says the HIG contains guidance and best practices for every Apple platform. The rendered page links to design principles, iOS and macOS guidance, and six foundation topics: Accessibility, App icons, Color, Layout, Materials and Typography. Its main navigator groups the documentation into Getting started, Foundations, Patterns, Components, Inputs and Technologies. The Components page groups system components into Content, Layout and organization, Menus and actions, Navigation and search, Presentation, Selection and input, Status, and System experiences. The raw page is a JavaScript shell. /design/human-interface-guidelines/llms.txt returned 404. Checked 2026-09-09."
+ }
+]
