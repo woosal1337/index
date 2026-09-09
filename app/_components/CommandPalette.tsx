@@ -192,7 +192,7 @@ export default function CommandPalette() {
                 onMouseEnter={() => setActive(i)}
                 onClick={() => go(it.s)}
                 style={{ "--dot": `var(--cat-${it.c}, var(--fg))` } as CSSProperties}
-                className={`row w-full px-4 text-left ${i === active ? "bg-surface-2" : ""}`}
+                className="command-row row w-full px-4 text-left"
               >
                 <span className="dot" aria-hidden />
                 <span className="main text-[14px]">

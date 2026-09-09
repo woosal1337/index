@@ -574,14 +574,16 @@ body.is-dragging-window { user-select: none; -webkit-user-select: none; cursor: 
   border-radius: 3px;
 }
 
-.row:hover { background: var(--ink); color: var(--chrome); }
+.row:hover,
+.command-row[aria-selected="true"] { background: var(--ink); color: var(--chrome); }
 .row .dot {
   width: 8px; min-width: 8px; height: 8px;
   border-radius: 50%;
   background: var(--dot, var(--ink));
   border: 1px solid var(--ink);
 }
-.row:hover .dot { border-color: var(--chrome); }
+.row:hover .dot,
+.command-row[aria-selected="true"] .dot { border-color: var(--chrome); }
 .row .main {
   flex-shrink: 1;
   min-width: 0;
@@ -597,14 +599,16 @@ body.is-dragging-window { user-select: none; -webkit-user-select: none; cursor: 
   font-weight: 400;
   color: var(--fg-3);
 }
-.row:hover .main .desc { color: var(--chrome); }
+.row:hover .main .desc,
+.command-row[aria-selected="true"] .main .desc { color: var(--chrome); }
 .row .leader {
   flex-grow: 1;
   min-width: 12px;
   border-bottom: 1px dashed var(--fg-4);
   align-self: center;
 }
-.row:hover .leader { border-color: var(--chrome); }
+.row:hover .leader,
+.command-row[aria-selected="true"] .leader { border-color: var(--chrome); }
 .row .meta {
   flex-shrink: 0;
   font-family: var(--font-display);
@@ -615,7 +619,8 @@ body.is-dragging-window { user-select: none; -webkit-user-select: none; cursor: 
   color: var(--fg-3);
   white-space: nowrap;
 }
-.row:hover .meta { color: var(--chrome); }
+.row:hover .meta,
+.command-row[aria-selected="true"] .meta { color: var(--chrome); }
 .row .meta b { font-weight: 500; color: inherit; }
 
 .row.static:hover { background: none; color: var(--ink); }
