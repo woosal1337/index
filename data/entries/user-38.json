@@ -1,0 +1,249 @@
+[
+ {
+  "id": "user:a0000bb0c5baa554",
+  "slug": "hover-dev",
+  "url": "https://www.hover.dev/",
+  "name": "Hover.dev",
+  "tagline": "Animated React and Tailwind components, sections and three landing-page templates",
+  "description": "Hover.dev is a copy-and-paste collection of animated React and Tailwind components. The library uses Motion, JavaScript animation and CSS keyframes across common controls and full landing-page sections.\n\nThe catalog has 20 component categories and 10 section categories. It covers buttons, cards, inputs, navigation, tabs, tables, forms, pricing, testimonials, sign-in screens and kanban boards. The separate template catalog has three complete landing pages.\n\nBasic components are free. Hover Pro is a one-time purchase that unlocks all components and templates. The license permits commercial and non-commercial use, modification, unlimited projects and open-source projects, but it prohibits standalone redistribution and competing services.",
+  "category": "motion-interaction",
+  "subcategory": "animated-components",
+  "kinds": [
+   "animation-library",
+   "component-library",
+   "block-collection",
+   "template"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "tailwind-any",
+    "css-variables"
+   ],
+   "license": [
+    "commercial",
+    "proprietary"
+   ],
+   "pricing": [
+    "free",
+    "freemium",
+    "one-time"
+   ],
+   "distribution": [
+    "copy-paste",
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "copy-paste-ready",
+    "machine-index"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "accordion",
+   "button",
+   "calendar",
+   "card",
+   "carousel",
+   "dropdown-menu",
+   "grid",
+   "text-input",
+   "link",
+   "spinner",
+   "modal",
+   "navbar",
+   "toast",
+   "progress-bar",
+   "tabs",
+   "table",
+   "toggle-button",
+   "hero",
+   "form",
+   "pricing-table",
+   "stat",
+   "login-form",
+   "kanban-board",
+   "animation",
+   "hover-effect",
+   "transition"
+  ],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "features",
+   "pricing-website",
+   "sign-up",
+   "login-website",
+   "testimonials",
+   "faq"
+  ],
+  "templates": [
+   {
+    "name": "Clean Neubrutalism",
+    "url": "https://www.hover.dev/templates/clean",
+    "purpose": "Modern neubrutalist landing page"
+   },
+   {
+    "name": "Steam Dev Portfolio",
+    "url": "https://www.hover.dev/templates/steam",
+    "purpose": "Developer portfolio landing page"
+   },
+   {
+    "name": "The Startup",
+    "url": "https://www.hover.dev/templates/the-startup",
+    "purpose": "Dark-mode startup landing page"
+   }
+  ],
+  "template_count": 3,
+  "install": null,
+  "package": null,
+  "docs_url": "https://www.hover.dev/components",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "pricing_detail": "Basic components are free. Hover Pro costs $49 as a one-time lifetime purchase and includes all components and templates. The price was checked on 2026-09-09.",
+  "agent_guidance": "Use Hover.dev when a React and Tailwind interface needs a specific animated control or a polished marketing section. Browse by component or section category, then copy only the source that the project needs.\n\nReview the copied code for keyboard behavior, focus styles and reduced-motion support before release. The site makes no broad accessibility claim.\n\nRead the license before you publish copied source. Its dedicated license page permits commercial use, modification and open-source projects, but prohibits standalone redistribution and competing services. The footer uses stricter redistribution wording, so confirm the terms if a public component library will contain Hover.dev code. There is no public package, repository, registry, API or llms.txt file.",
+  "why_it_matters": "It combines animated controls, larger landing-page sections and complete templates in one practical copy-and-paste catalog.",
+  "quality_tier": "B",
+  "tier_reason": "A broad public catalog, editable source and a clear one-time plan earn tier B. The lack of a public registry or repository, unknown accessibility coverage and conflicting redistribution wording keep it below A.",
+  "notable_for": [
+   "20 component categories and 10 section categories",
+   "three complete landing-page templates",
+   "Motion, JavaScript and CSS animation examples",
+   "$49 one-time Hover Pro plan",
+   "copy-and-paste React and Tailwind source"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-09-09",
+  "source": "user",
+  "evidence": "Source post: https://x.com/noahelhadedy/status/2097581354837770703. https://www.hover.dev/ returned 200 and states that more than 30,000 developers, agencies and startups use the library. The rendered Components page lists 20 component categories and 10 section categories. The Templates page lists Clean Neubrutalism, Steam Dev Portfolio and The Startup. The Pricing page lists free basic components and Hover Pro at $49 for lifetime access. The License page permits commercial and non-commercial use, modification, unlimited projects and open-source projects, and prohibits standalone redistribution or a competing service. The footer separately says that components may not be redistributed without written consent. The sitemap returned 200 and lists 30 component and section category routes. /llms.txt returned 404. Checked 2026-09-09."
+ },
+ {
+  "id": "user:50b894bb78a9a5df",
+  "slug": "microinteractions-ui",
+  "url": "https://www.microinteractionsui.com/",
+  "name": "MicroInteractions UI",
+  "tagline": "20 animated React components across buttons, inputs, navigation, tabs, toggles and steppers",
+  "description": "MicroInteractions UI is a small animated component collection for React, Tailwind CSS and shadcn/ui. Its public site presents 20 examples across six categories: eight buttons, two inputs, one navigation bar, five tab controls, two theme toggles and two steppers.\n\nEach example installs through a live shadcn registry endpoint. The public source repository contains 21 component registry items, including a shared base stepper, plus one utility item. Motion supplies most of the animation.\n\nThe site and source are free to access. The repository has no license file, so the public code is not automatically open source or safe to redistribute.",
+  "category": "motion-interaction",
+  "subcategory": "animated-components",
+  "kinds": [
+   "animation-library",
+   "component-library",
+   "registry"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "tailwind-any",
+    "css-variables"
+   ],
+   "license": [
+    "no-license"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "cli",
+    "copy-paste",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "known-gaps"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "registry-json",
+    "cli-installable",
+    "copy-paste-ready",
+    "machine-index"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "button",
+   "text-input",
+   "navbar",
+   "tabs",
+   "toggle-button",
+   "progress-stepper",
+   "animation",
+   "transition"
+  ],
+  "component_count": 20,
+  "surfaces": [
+   "homepage",
+   "settings-web-app"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "npx shadcn@latest add https://microinteractionsui.com/r/button1.json",
+  "package": null,
+  "docs_url": "https://github.com/mateusmachry/microinteractionsui#readme",
+  "repo_url": "https://github.com/mateusmachry/microinteractionsui",
+  "registry_url": "https://microinteractionsui.com/r/{name}.json",
+  "github": {
+   "stars": 2,
+   "license": null,
+   "last_activity": "2026-06-26"
+  },
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 20,
+   "blocks": null
+  },
+  "pricing_detail": "Free to browse and install. No paid plan is shown. The public repository has no license file.",
+  "agent_guidance": "Use the six category pages to choose an interaction, then install one registry item through the shadcn CLI. Read the returned JSON and its dependencies before you add it to a production app. The registry endpoints return the complete component source.\n\nDo not treat the public GitHub repository as open source. No LICENSE or COPYING file was present when checked, and GitHub reported no license. Obtain permission before you redistribute or build on the code outside normal evaluation.\n\nAudit motion before release. The registry source uses animation but does not contain prefers-reduced-motion or Motion's useReducedMotion helper. Some components include ARIA state, and one input uses React Aria, but this does not establish library-wide accessibility.",
+  "why_it_matters": "It is a focused shadcn registry for small interaction details, with direct machine-readable install endpoints instead of screenshot-only examples.",
+  "quality_tier": "B",
+  "tier_reason": "A working shadcn registry, public source and 20 focused examples earn tier B. The missing license and missing reduced-motion handling keep it below A.",
+  "notable_for": [
+   "20 displayed animated component examples",
+   "live shadcn registry endpoints",
+   "React 19, Tailwind CSS 4 and Motion",
+   "public source repository",
+   "no published source license"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-09-09",
+  "source": "user",
+  "evidence": "Source post: https://x.com/noahelhadedy/status/2097581354837770703. https://www.microinteractionsui.com/ returned 200 and describes animated React, Tailwind CSS, shadcn/ui and Motion components. Its sitemap returned 200 and lists six category pages: button, input, navbar, tabs, theme-toggle and stepper. Those pages expose 20 displayed examples. https://www.microinteractionsui.com/r/button1.json returned a valid shadcn registry item. The public repository at https://github.com/mateusmachry/microinteractionsui contained 21 component registry items plus one utility item. GitHub reported two stars, activity on 2026-06-26 and no detected license. No LICENSE or COPYING file was present. A source scan found ARIA state in several components but no prefers-reduced-motion or useReducedMotion handling. /llms.txt returned 404. Checked 2026-09-09."
+ }
+]
