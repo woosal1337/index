@@ -41,6 +41,12 @@ const ICONS: Record<string, React.ReactNode> = {
       <rect x="4" y="13" width="8" height="2" />
     </>
   ),
+  learn: (
+    <>
+      <path d="M1 2h5c1.1 0 2 .9 2 2v10c-.5-.8-1.2-1.2-2.2-1.2H1V2Z" />
+      <path d="M15 2h-5c-1.1 0-2 .9-2 2v10c.5-.8 1.2-1.2 2.2-1.2H15V2Z" />
+    </>
+  ),
   agents: (
     <>
       <rect x="2" y="3" width="12" height="9" />
@@ -54,6 +60,7 @@ const ICONS: Record<string, React.ReactNode> = {
 const TILES = [
   { href: "/", label: "Browse", icon: "browse" },
   { href: "/categories", label: "Categories", icon: "categories" },
+  { href: "/learn", label: "Learn", icon: "learn" },
   { href: "/components", label: "Components", icon: "components" },
   { href: "/surfaces", label: "Surfaces", icon: "surfaces" },
   { href: "/templates", label: "Templates", icon: "templates" },

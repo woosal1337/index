@@ -49,6 +49,7 @@ export function norm(href: string) {
 export const PRELOAD = [
   { href: "/", label: "Browse" },
   { href: "/categories/", label: "Categories" },
+  { href: "/learn/", label: "Learn" },
   { href: "/components/", label: "Components" },
   { href: "/surfaces/", label: "Surfaces" },
   { href: "/templates/", label: "Templates" },

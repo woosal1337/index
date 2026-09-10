@@ -767,6 +767,200 @@ kbd {
   border-bottom: 1px solid var(--line);
 }
 
+.learning-track {
+  padding: 16px;
+  background: var(--paper);
+  border: var(--border-w) solid var(--ink);
+  border-radius: var(--radius-surface);
+}
+
+.learning-track-head {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(220px, 1fr);
+  gap: 32px;
+  align-items: start;
+  padding-bottom: 20px;
+  border-bottom: var(--border-w) solid var(--ink);
+}
+
+.learning-track-description {
+  max-width: 58ch;
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--fg-3);
+  text-wrap: pretty;
+}
+
+.learning-outcome {
+  max-width: 42ch;
+  font-size: 12px;
+  line-height: 1.55;
+  color: var(--fg-3);
+  text-wrap: pretty;
+}
+
+.learning-outcome span {
+  display: block;
+  margin-bottom: 4px;
+  font-family: var(--font-display);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+
+.learning-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.learning-item {
+  display: grid;
+  grid-template-columns: minmax(92px, 0.45fr) minmax(0, 2fr) minmax(140px, 0.75fr);
+  gap: 24px;
+  padding-block: 24px;
+}
+
+.learning-item + .learning-item {
+  border-top: 1px solid var(--line);
+}
+
+.learning-step {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-family: var(--font-display);
+  font-size: 12px;
+  line-height: 1.3;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--fg-3);
+}
+
+.learning-step span:first-child {
+  font-family: var(--font-mono);
+  font-size: 20px;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink);
+}
+
+.learning-copy h3 {
+  max-width: 30ch;
+  font-family: var(--font-display);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-wrap: balance;
+  color: var(--ink);
+}
+
+.learning-summary,
+.learning-use {
+  max-width: 62ch;
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--fg-3);
+  text-wrap: pretty;
+}
+
+.learning-summary { margin-top: 8px; }
+.learning-use { margin-top: 16px; color: var(--fg-2); }
+
+.learning-copy h4 {
+  margin-top: 20px;
+  font-family: var(--font-display);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+
+.learning-takeaways {
+  display: grid;
+  gap: 6px;
+  margin-top: 8px;
+  padding: 0;
+  list-style: none;
+  font-size: 12px;
+  line-height: 1.55;
+  color: var(--fg-3);
+}
+
+.learning-takeaways li {
+  position: relative;
+  padding-inline-start: 16px;
+}
+
+.learning-takeaways li::before {
+  content: "→";
+  position: absolute;
+  inset-inline-start: 0;
+  color: var(--ink);
+}
+
+.learning-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 20px;
+  margin-top: 20px;
+  font-family: var(--font-display);
+  font-size: 13px;
+}
+
+.learning-actions a {
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-thickness: from-font;
+  text-underline-position: from-font;
+  text-underline-offset: 3px;
+}
+
+.learning-actions a:hover { background: var(--accent); }
+
+.learning-meta {
+  display: grid;
+  align-content: start;
+  gap: 16px;
+  margin: 0;
+  font-size: 11px;
+  line-height: 1.45;
+}
+
+.learning-meta div {
+  display: grid;
+  gap: 3px;
+}
+
+.learning-meta dt {
+  font-family: var(--font-display);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--fg-4);
+}
+
+.learning-meta dd {
+  margin: 0;
+  color: var(--fg-2);
+}
+
+@media (max-width: 720px) {
+  .learning-track { padding: 14px; }
+  .learning-track-head { grid-template-columns: 1fr; gap: 16px; }
+  .learning-item { grid-template-columns: 72px minmax(0, 1fr); gap: 18px; }
+  .learning-meta { grid-column: 2; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+@media (max-width: 480px) {
+  .learning-item { grid-template-columns: 1fr; }
+  .learning-step { flex-direction: row; align-items: baseline; }
+  .learning-meta { grid-column: 1; grid-template-columns: 1fr; }
+}
+
 .overlay-surface {
   background: var(--overlay);
   border: var(--border-w) solid var(--ink);
