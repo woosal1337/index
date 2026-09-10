@@ -80,6 +80,44 @@ export default function LearningCollection({
                   <dd>{item.publication}</dd>
                 </div>
               </dl>
+
+              <details className="learning-details">
+                <summary>
+                  <span className="learning-details-label">{item.details.label}</span>
+                  <span className="learning-details-count">{item.details.countLabel}</span>
+                </summary>
+
+                <div className="learning-details-body">
+                  <p className="learning-details-intro">{item.details.description}</p>
+
+                  {item.details.groups.map((group, groupIndex) => {
+                    const groupId = `${item.slug}-detail-${groupIndex}`;
+
+                    return (
+                      <section key={group.title} className="learning-detail-group" aria-labelledby={groupId}>
+                        <header>
+                          <h4 id={groupId}>{group.title}</h4>
+                          <p>{group.description}</p>
+                        </header>
+
+                        <ol className="learning-detail-grid">
+                          {group.points.map((point, pointIndex) => (
+                            <li key={point.title} className="learning-detail-card">
+                              <span className="learning-detail-index">
+                                {point.index ?? String(pointIndex + 1).padStart(2, "0")}
+                              </span>
+                              <div>
+                                <h5>{point.title}</h5>
+                                <p>{point.explanation}</p>
+                              </div>
+                            </li>
+                          ))}
+                        </ol>
+                      </section>
+                    );
+                  })}
+                </div>
+              </details>
             </li>
           );
         })}
