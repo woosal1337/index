@@ -150,7 +150,14 @@ export default function Window({
         <span className="title-bar-text">{title}</span>
       </div>
 
-      <div className="window-body">{children}</div>
+      <div
+        className="window-body scroll-area"
+        role="region"
+        aria-label={`${title} content`}
+        tabIndex={0}
+      >
+        {children}
+      </div>
 
       {status ? <div className="window-status">{status}</div> : null}
     </div>

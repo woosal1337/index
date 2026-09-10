@@ -102,9 +102,15 @@
 @layer base {
 * { border-color: var(--line); }
 
-html { scroll-behavior: smooth; }
+html {
+  height: 100%;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
 
 body {
+  height: 100%;
+  overflow: hidden;
   font-size: 13px;
   background: var(--page);
   color: var(--fg);
@@ -137,7 +143,12 @@ textarea:focus-visible {
 @layer components {
 
 .desktop {
-  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  height: 100dvh;
+  min-height: 0;
+  overflow: hidden;
   background-color: var(--desktop);
   background-image: radial-gradient(var(--desktop-dot) 1px, transparent 1.1px);
   background-size: 6px 6px;
@@ -169,8 +180,12 @@ body.is-dragging-window { user-select: none; -webkit-user-select: none; cursor: 
   pointer-events: auto;
   width: min(720px, calc(100vw - 32px));
   max-height: calc(100vh - 180px);
+  max-height: calc(100dvh - 180px);
 }
-.window-float > .window { max-height: calc(100vh - 180px); }
+.window-float > .window {
+  max-height: calc(100vh - 180px);
+  max-height: calc(100dvh - 180px);
+}
 .window-float .window-body {
   font-size: 13px; overflow: auto; }
 
@@ -216,7 +231,14 @@ body.is-dragging-window { user-select: none; -webkit-user-select: none; cursor: 
   padding: 16px;
   background: var(--chrome);
   min-width: 0;
+  min-height: 0;
   flex: 1 1 auto;
+  overflow: auto;
+  overscroll-behavior: contain;
+}
+
+.window-body:focus-visible {
+  outline-offset: -4px;
 }
 
 .window-status {
@@ -317,6 +339,7 @@ body.is-dragging-window { user-select: none; -webkit-user-select: none; cursor: 
   position: sticky;
   top: 0;
   z-index: 40;
+  flex: none;
   display: flex;
   align-items: stretch;
   gap: 0;
@@ -430,10 +453,17 @@ body.is-dragging-window { user-select: none; -webkit-user-select: none; cursor: 
 .desktop-icon-label { max-width: 14ch; text-align: center; }
 
 .desk-area {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: hidden;
   padding: 16px 16px 110px;
 }
 .desk-area > .window,
 .desk-area > .desktop-icon { max-width: 920px; }
+.desk-area > .window {
+  height: 100%;
+  max-height: 100%;
+}
 .desk-area.wide > .window { max-width: 1140px; }
 @media (max-width: 640px) { .desk-area { padding: 12px 8px 110px; } }
 
