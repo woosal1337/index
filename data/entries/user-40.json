@@ -1,0 +1,418 @@
+[
+ {
+  "id": "user:0e0503b783286075",
+  "slug": "panelui",
+  "url": "https://panelui.dev/",
+  "name": "PanelUI",
+  "tagline": "React Native components for Expo with Uniwind and Reanimated",
+  "description": "PanelUI supplies typed React Native components for Expo. It uses Uniwind for Tailwind CSS v4 styles and Reanimated for animation.\n\nThe library includes forms, navigation, overlays, charts, and six themes. Its documentation lists 136 component modules. It works in Expo Go without custom native code.",
+  "category": "component-libraries",
+  "subcategory": "cross-framework-and-native",
+  "kinds": [
+   "component-library"
+  ],
+  "facets": {
+   "framework": [
+    "react-native"
+   ],
+   "styling": [
+    "tailwind-v4"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "cli",
+    "github-repo"
+   ],
+   "platform": [
+    "ios",
+    "android",
+    "web"
+   ],
+   "accessibility": [
+    "claimed-accessible"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "cli-installable",
+    "llms-txt",
+    "structured-docs",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "button",
+   "text-input",
+   "checkbox",
+   "select",
+   "combobox",
+   "calendar",
+   "date-picker",
+   "card",
+   "accordion",
+   "dialog",
+   "drawer",
+   "popover",
+   "toast",
+   "tooltip",
+   "tabs",
+   "table",
+   "slider",
+   "switch",
+   "avatar",
+   "badge",
+   "chart"
+  ],
+  "component_count": 136,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npx create-panelui-app@latest",
+  "package": "panelui-native",
+  "docs_url": "https://panelui.dev/docs",
+  "repo_url": "https://github.com/panel-ui/PanelUI",
+  "registry_url": null,
+  "github": {
+   "stars": 738,
+   "license": "MIT",
+   "last_activity": "2026-09-30T16:17:01Z"
+  },
+  "pricing_detail": "Free MIT library. The source code and documentation are public.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use this for Expo apps that use React Native, Uniwind, and Reanimated. Read the installation requirements before adding components. Use the public llms.txt index to find component props and examples. Check the documented accessibility behavior on the target device.",
+  "why_it_matters": "It gives Expo projects a shared component set, themes, and animation without custom native modules.",
+  "quality_tier": "B",
+  "tier_reason": "Public typed source, installation docs, and a broad component set support practical use. Accessibility claims still need device checks.",
+  "notable_for": [
+   "Expo Go support",
+   "136 typed component modules",
+   "Uniwind and Reanimated",
+   "six themes"
+  ],
+  "already_enriched": true,
+  "http_status": 200,
+  "verified_at": "2026-10-01",
+  "source": "user",
+  "evidence": "Checked https://panelui.dev/, https://panelui.dev/docs, https://panelui.dev/llms.txt, and https://api.github.com/repos/panel-ui/PanelUI on 2026-10-01. The official repository reports an MIT license. Source tweet: https://x.com/KhalidDevLog/status/2104908884901249215. Media MCP supplied the tweet and its PanelUI cover image."
+ },
+ {
+  "id": "user:73f87cdecc24dc96",
+  "slug": "obsidianui",
+  "url": "https://www.obsidianui.dev/",
+  "name": "ObsidianUI",
+  "tagline": "Animated React components and blocks through a shadcn registry",
+  "description": "ObsidianUI is an MIT collection of React components, blocks, and landing page templates. It uses TypeScript and Tailwind CSS.\n\nExamples include image galleries, draggable marquees, text effects, and showcase layouts. The public shadcn registry installs source files into your project.",
+  "category": "component-libraries",
+  "subcategory": "shadcn-registries",
+  "kinds": [
+   "component-library",
+   "registry",
+   "block-collection",
+   "template"
+  ],
+  "facets": {
+   "framework": [
+    "react"
+   ],
+   "styling": [
+    "tailwind-any"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "copy-paste",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "registry-json",
+    "cli-installable",
+    "structured-docs",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "image-gallery",
+   "marquee",
+   "text-effect",
+   "hover-effect",
+   "drag-and-drop"
+  ],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "features"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "npx shadcn@latest add https://www.obsidianui.dev/r/art-gallery.json",
+  "package": null,
+  "docs_url": "https://www.obsidianui.dev/docs/installation",
+  "repo_url": "https://github.com/Atharvsinh-codez/ObsidianUI",
+  "registry_url": "https://www.obsidianui.dev/r/{name}.json",
+  "github": {
+   "stars": 270,
+   "license": "MIT",
+   "last_activity": "2026-09-28T12:48:21Z"
+  },
+  "pricing_detail": "Free MIT source. The component registry and installation docs are public.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use this for animated web sections, image galleries, and text effects in React projects. Install the named registry item with the shadcn CLI. Check its dependencies, responsive layout, keyboard behavior, and reduced motion support before release.",
+  "why_it_matters": "It supplies editable source for visual web sections through the same registry format as shadcn.",
+  "quality_tier": "B",
+  "tier_reason": "A working public registry, MIT source, and installation docs support direct use. Component accessibility needs project checks.",
+  "notable_for": [
+   "shadcn registry",
+   "animated image galleries",
+   "draggable marquees",
+   "text effects"
+  ],
+  "already_enriched": true,
+  "http_status": 200,
+  "verified_at": "2026-10-01",
+  "source": "user",
+  "evidence": "Checked https://www.obsidianui.dev/, https://www.obsidianui.dev/docs/cli, https://www.obsidianui.dev/r/art-gallery.json, and https://api.github.com/repos/Atharvsinh-codez/ObsidianUI on 2026-10-01. The registry returned component source as JSON. The official repository reports an MIT license. Source tweet: https://x.com/athrix_codes/status/2104101588466074028. Media MCP supplied the tweet and its ObsidianUI cover image."
+ },
+ {
+  "id": "user:25e86dfb9381624b",
+  "slug": "bencho",
+  "url": "https://bencho.dev/",
+  "name": "Bencho",
+  "tagline": "Interactive React blocks with live controls and editable source",
+  "description": "Bencho is Lorenzo Cabra's collection of interactive React blocks. Each block offers a live example, controls, and component source.\n\nThe collection includes a cursor heat map, signature pad, sliders, menus, and media controls. You can copy the React source and CSS, or copy a prompt for an agent. An account saves your bench across browsers.",
+  "category": "motion-interaction",
+  "subcategory": "animated-components",
+  "kinds": [
+   "component-library",
+   "block-collection",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "react"
+   ],
+   "styling": [
+    "vanilla-css"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "copy-paste",
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "copy-paste-ready",
+    "copy-prompt"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [
+   "heatmap",
+   "signature-pad",
+   "slider",
+   "switch",
+   "carousel",
+   "command-palette",
+   "dock",
+   "audio-player",
+   "hover-effect",
+   "drag-and-drop",
+   "otp-input",
+   "file-upload"
+  ],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://bencho.dev/blocks/heat-word",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "MIT blocks, including commercial use. An account saves your bench. The public site includes source and CSS.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use this to find a focused React interaction and inspect it with the live controls. Copy the component source and CSS together. Read any listed dependencies. Keep the MIT notice with copied source. Check keyboard input, touch input, and reduced motion in your project.",
+  "why_it_matters": "It lets you adjust an interaction before copying its React source into a project.",
+  "quality_tier": "B",
+  "tier_reason": "The public examples include source, CSS, and a clear MIT license. The collection still needs accessibility checks for each interaction.",
+  "notable_for": [
+   "live parameter controls",
+   "cursor heat map",
+   "React source and CSS",
+   "copyable agent prompts"
+  ],
+  "already_enriched": true,
+  "http_status": 200,
+  "verified_at": "2026-10-01",
+  "source": "user",
+  "evidence": "Checked https://bencho.dev/, https://bencho.dev/blocks/heat-word, and https://bencho.dev/licence on 2026-10-01. The public application bundle supplies React component source, CSS, copy prompts, and the MIT license attributed to Lorenzo Cabra. No public repository link was found. Source tweet: https://x.com/cabralorenzo/status/2105003339612094735. Media MCP supplied the tweet and video frames of the heat map controls."
+ },
+ {
+  "id": "user:828a8c38fe7f24d9",
+  "slug": "pdfcn",
+  "url": "https://www.pdfcn.dev/",
+  "name": "pdfcn",
+  "tagline": "React PDF components, blocks, and themes for Takumi and Forme",
+  "description": "pdfcn supplies React components for PDF layouts with Takumi and Forme. The shadcn registry includes text, tables, charts, page controls, document blocks, and themes.\n\nEach renderer has its own namespace. The documentation includes an llms.txt index, Markdown pages, and an agent skill. The project uses the MIT license.",
+  "category": "component-libraries",
+  "subcategory": "shadcn-registries",
+  "kinds": [
+   "component-library",
+   "registry",
+   "block-collection",
+   "theme-pack"
+  ],
+  "facets": {
+   "framework": [
+    "react"
+   ],
+   "styling": [
+    "unknown"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "copy-paste",
+    "github-repo",
+    "agent-skill"
+   ],
+   "platform": [
+    "print",
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code",
+    "pdf"
+   ],
+   "agent_readiness": [
+    "registry-json",
+    "cli-installable",
+    "llms-txt",
+    "structured-docs",
+    "agent-skill",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "heading",
+   "typography",
+   "table",
+   "data-grid",
+   "chart",
+   "qr-code",
+   "image",
+   "signature-pad",
+   "stack",
+   "section",
+   "separator",
+   "invoice"
+  ],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npx shadcn@latest add https://pdfcn.dev/r/forme/text.json",
+  "package": null,
+  "docs_url": "https://www.pdfcn.dev/docs/installation",
+  "repo_url": "https://github.com/shadcn-labs/pdfcn",
+  "registry_url": "https://pdfcn.dev/r/{name}.json",
+  "github": {
+   "stars": 2755,
+   "license": "MIT",
+   "last_activity": "2026-09-24T12:40:45Z"
+  },
+  "pricing_detail": "Free MIT project with public component source and registry.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Choose Takumi or Forme before installing a component. Use its renderer namespace in the shadcn registry URL. Read the renderer requirements, font handling, and layout limits. Check the exported PDF with real content before using a block in production.",
+  "why_it_matters": "It supplies reusable document layouts and themes through a familiar React and shadcn workflow.",
+  "quality_tier": "B",
+  "tier_reason": "Public registry JSON, MIT source, renderer documentation, and machine-readable docs support direct use. PDF output still needs renderer-specific checks.",
+  "notable_for": [
+   "Takumi and Forme namespaces",
+   "PDF blocks and themes",
+   "shadcn registry",
+   "llms.txt and agent skill"
+  ],
+  "already_enriched": true,
+  "http_status": 200,
+  "verified_at": "2026-10-01",
+  "source": "user",
+  "evidence": "Checked https://www.pdfcn.dev/, https://www.pdfcn.dev/docs/registry, https://www.pdfcn.dev/r/forme/text.json, https://www.pdfcn.dev/llms.txt, https://www.pdfcn.dev/.well-known/agent-skills/site-skill.md, and https://api.github.com/repos/shadcn-labs/pdfcn on 2026-10-01. The registry returned component source as JSON. The official repository reports an MIT license. Source tweet: https://x.com/shadcnlabs/status/2104840500847263794. Media MCP supplied the tweet and demo video frames."
+ }
+]
