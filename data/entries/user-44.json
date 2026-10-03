@@ -1,0 +1,311 @@
+[
+ {
+  "id": "user:6c0dbc837253e74b",
+  "slug": "solace-ui",
+  "url": "https://www.solaceui.com/",
+  "name": "Solace UI",
+  "tagline": "Marketing page blocks for Next.js, Tailwind, and Motion",
+  "description": "Solace UI offers marketing sections for Next.js with Tailwind CSS and Motion. Its catalog lists 34 blocks across heroes, footers, testimonials, teams, bento grids, navigation, and authentication.\n\nThe docs show named registry installs through the shadcn CLI. They also explain how to connect an agent through the shadcn MCP server. Public previews and install instructions are available. A code license and full pricing terms were not found in the checked pages.",
+  "category": "blocks-templates-themes",
+  "subcategory": "page-blocks",
+  "kinds": [
+   "block-collection",
+   "component-library",
+   "registry"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "tailwind-any"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "copy-paste"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "claimed-accessible"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "structured-docs",
+    "cli-installable"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [
+   "hero",
+   "footer",
+   "navbar",
+   "bento-grid",
+   "login-form",
+   "signup-form"
+  ],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "testimonials",
+   "team",
+   "login-website",
+   "sign-up"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "npx shadcn@latest registry add @solaceui\nnpx shadcn@latest add @solaceui/hero-section-1",
+  "package": null,
+  "docs_url": "https://www.solaceui.com/docs",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Public demos and install instructions need no sign-in. A code license, commercial reuse rights, and paid tiers were not confirmed.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": 34
+  },
+  "agent_guidance": "Choose a section in the catalog before installing it. Add @solaceui through the shadcn CLI, then use the block name from its page. The docs describe agent access through shadcn MCP. Check the code license before reuse. No raw registry endpoint was confirmed.",
+  "why_it_matters": "It groups marketing sections by page purpose and gives a direct install path for each block.",
+  "quality_tier": "B",
+  "tier_reason": "The catalog has live section previews and documented registry commands. Missing license details limit reuse confidence.",
+  "notable_for": [
+   "34 marketing blocks",
+   "Next.js and Motion",
+   "named shadcn registry",
+   "shadcn MCP setup guide"
+  ],
+  "already_enriched": true,
+  "http_status": 200,
+  "verified_at": "2026-10-04",
+  "source": "user",
+  "evidence": "Checked the official homepage, /blocks, /blocks/hero-section, and /docs on 2026-10-04. The seven category counts sum to 34. Docs show @solaceui registry setup and hero-section-1 installation. The official Open Graph preview returned HTTP 200. Source tweet: https://x.com/kasuncfdo/status/2106250612216418746."
+ },
+ {
+  "id": "user:3186a9b706cdfaaa",
+  "slug": "feral-ui",
+  "url": "https://feralui.dev/",
+  "name": "FeralUI",
+  "tagline": "React interactions with ropes, paper, maps, and light",
+  "description": "FeralUI collects React interactions, animation experiments, and visual tools by Sarthak Navalekar. Its live catalog includes a pull-cord switch, claw captcha, stamped date picker, crumpled notes, animated maps, and a gradient studio.\n\nThe terms name five MIT packages: pullcord, playcaptcha, feral-blob, feral-fur, and animaps-react. Unpublished demos have no reuse license. Gradient Builder also documents a free MCP endpoint for gradient images and editable studio links.",
+  "category": "motion-interaction",
+  "subcategory": "animated-components",
+  "kinds": [
+   "component-library",
+   "gallery",
+   "tool",
+   "mcp-server"
+  ],
+  "facets": {
+   "framework": [
+    "react"
+   ],
+   "styling": [
+    "vanilla-css",
+    "css-variables"
+   ],
+   "license": [
+    "mit",
+    "no-license"
+   ],
+   "pricing": [
+    "free",
+    "open-source",
+    "sponsor-supported"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo",
+    "gallery",
+    "web-app",
+    "mcp-server"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code",
+    "images"
+   ],
+   "agent_readiness": [
+    "structured-docs",
+    "cli-installable",
+    "open-source-code",
+    "mcp-server"
+   ],
+   "maturity": "experimental"
+  },
+  "components": [
+   "switch",
+   "captcha",
+   "date-picker",
+   "card",
+   "map",
+   "animation",
+   "drag-and-drop",
+   "gradient-background"
+  ],
+  "component_count": null,
+  "surfaces": [
+   "trash-and-restore",
+   "map-view"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://feralui.dev/pullcord",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Demos need no account or payment. Five named npm packages use MIT licenses. Each package LICENSE controls reuse. Unpublished demos may not be copied or redistributed. Sponsorship is optional.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 22,
+   "blocks": null
+  },
+  "agent_guidance": "Open each demo to find its package and usage guide. For example, PullCord uses npm install pullcord and its own stylesheet. Check each package LICENSE. Treat unpublished demos as references only. The documented https://feralui.dev/mcp endpoint serves Gradient Builder tools, not component installation.",
+  "why_it_matters": "It makes physical motion easy to study, with reusable packages for some interactions and a separate gradient tool for agents.",
+  "quality_tier": "B",
+  "tier_reason": "The demos show distinctive interactions, and published packages have clear install guides. Licensing differs between packages and unpublished work.",
+  "notable_for": [
+   "physics interactions",
+   "five named MIT packages",
+   "22 catalog demos and tools",
+   "Gradient Builder MCP"
+  ],
+  "already_enriched": true,
+  "http_status": 200,
+  "verified_at": "2026-10-04",
+  "source": "user",
+  "evidence": "Checked the official homepage, /crumple, /pullcord, /terms, /about, and /mcp/docs on 2026-10-04. The live browser catalog showed 22 demo and tool links. PullCord documents its npm package, GitHub source, usage, and props. Terms distinguish five MIT packages from unpublished demos. MCP docs name https://feralui.dev/mcp and four gradient tools. The official preview returned HTTP 200. Source tweet: https://x.com/kasuncfdo/status/2106250612216418746."
+ },
+ {
+  "id": "user:083070d865f863ea",
+  "slug": "easyui-site",
+  "url": "https://www.easyui.site/",
+  "name": "EasyUI",
+  "tagline": "Animated React components from a shadcn registry",
+  "description": "EasyUI by Suraj Maurya offers animated React components with Tailwind CSS and Framer Motion. The checked registry contains 106 items, including buttons, checkboxes, navigation, data tables, file uploads, and chat interfaces.\n\nThe MIT repository supplies component source, registry metadata, and install commands. The site also has component docs and llms.txt. This project uses easyui.site and is separate from the Easy UI templates at easyui.pro.",
+  "category": "component-libraries",
+  "subcategory": "shadcn-registries",
+  "kinds": [
+   "component-library",
+   "registry"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "tailwind-any"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "shadcn-registry",
+    "github-repo",
+    "copy-paste"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "claimed-accessible"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "registry-json",
+    "cli-installable",
+    "structured-docs",
+    "llms-txt",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "button",
+   "checkbox",
+   "tabs",
+   "table",
+   "file-upload",
+   "avatar-group",
+   "command-palette",
+   "conversation",
+   "tooltip",
+   "animation"
+  ],
+  "component_count": 106,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npx shadcn@latest add Surajmaurya1/easyui/magnetic-button",
+  "package": null,
+  "docs_url": "https://www.easyui.site/docs/introduction",
+  "repo_url": "https://github.com/Surajmaurya1/easyui",
+  "registry_url": "https://raw.githubusercontent.com/Surajmaurya1/easyui/main/registry.json",
+  "github": {
+   "stars": 16,
+   "license": "MIT",
+   "last_activity": "2026-10-02T08:12:50Z"
+  },
+  "pricing_detail": "The public component library and source are free under the repository MIT license.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Read https://www.easyui.site/llms.txt to find the component docs. Use the repository registry to select an item and inspect its dependencies before installing through shadcn. The example command adds magnetic-button. Review motion, keyboard behavior, and reduced-motion support in your app. Accessibility is a source claim, not an independent audit.",
+  "why_it_matters": "It pairs animated components with source files, a machine-readable registry, and an agent document index.",
+  "quality_tier": "A",
+  "tier_reason": "The checked MIT source, 106-item registry, docs, and llms.txt give a clear path from discovery to installation.",
+  "notable_for": [
+   "106 registry items",
+   "MIT source",
+   "Framer Motion interactions",
+   "llms.txt component index",
+   "shadcn GitHub registry"
+  ],
+  "already_enriched": true,
+  "http_status": 200,
+  "verified_at": "2026-10-04",
+  "source": "user",
+  "evidence": "Checked the official homepage, /docs/introduction, /llms.txt, the Surajmaurya1/easyui repository, its LICENSE, and raw registry.json on 2026-10-04. The registry has 106 items and uses the shadcn registry schema. GitHub reports MIT and 16 stars. The official preview returned HTTP 200. Source tweet: https://x.com/kasuncfdo/status/2106250612216418746. The existing easyui.pro record remains separate."
+ }
+]
