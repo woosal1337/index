@@ -4,8 +4,8 @@
     "slug": "boardui",
     "url": "https://www.boardui.com",
     "name": "BoardUI",
-    "tagline": "React 19 + Tailwind v4 design system for dashboards and agent UIs — 57 components, 47 of them free through a shadcn-schema registry",
-    "description": "BoardUI is a React 19 and Tailwind CSS v4 design system by Mertcan Esmergül, aimed squarely at data-rich dashboards and agentic product surfaces. It counts 57 components and blocks — 29 base components, 11 application blocks and 17 chart cards — plus 5 page templates and 400+ design tokens, all drawn in one master Figma file and translated into code through the Figma MCP server. Distribution follows the shadcn model rather than the npm one: `npx boardui@latest init` installs the runtime packages, writes theme.css, typography.css, globals.css and a cx helper, then `add` copies component source into the project and resolves internal dependencies transitively. React Aria Components supplies the interaction behaviour, Recharts renders most of the chart cards, and Motion handles animation. The Starter tier is free and covers the base components and a handful of blocks; 47 items are served publicly at /r/<name>.json against the shadcn registry-item schema, with a full index at /r/registry.json. Charts, page templates and the agent blocks (Agent Limits, Agent Progress, Composer, Calendar) carry a PRO badge and need a paid licence key. Framework guides cover Next.js, Vite, React Router and Astro.",
+    "tagline": "React 19 and Tailwind v4 components for dashboards and agent interfaces, with an MIT free tier and paid Pro catalog",
+    "description": "BoardUI is a React 19.2 and Tailwind CSS v4 design system by Mertcan Esmergül. It focuses on dashboards, data charts, and agent interfaces. The homepage advertises 85 components, including 19 charts, plus 10 templates and more than 400 design tokens. The public registry contains 69 free items: 38 UI components, 17 blocks, and 14 supporting libraries. Thus its 69-item total includes tokens, utilities, and agent rules. The free source now has a public MIT repository. Pro components use a separate commercial license. React Aria supplies interactive primitives, Recharts draws charts, and Motion handles animation. The BoardUI command-line tool copies source into the project and installs dependencies. Its local MCP server can browse components, get examples, and install source. The site also supplies llms.txt, an agent skill, semantic design rules, dark-mode tokens, and right-to-left support. The template catalog includes a free Chat Starter alongside paid dashboards and agent pages.",
     "category": "component-libraries",
     "subcategory": "react-component-libraries",
     "kinds": [
@@ -25,6 +25,7 @@
         "css-variables"
       ],
       "license": [
+        "mit",
         "source-available",
         "commercial"
       ],
@@ -37,7 +38,10 @@
         "shadcn-registry",
         "cli",
         "copy-paste",
-        "npm-package"
+        "npm-package",
+        "github-repo",
+        "mcp-server",
+        "agent-skill"
       ],
       "platform": [
         "web"
@@ -54,6 +58,10 @@
         "cli-installable",
         "structured-docs",
         "copy-paste-ready",
+        "open-source-code",
+        "mcp-server",
+        "llms-txt",
+        "agent-skill",
         "agent-paywalled"
       ],
       "maturity": "actively-maintained"
@@ -123,7 +131,7 @@
       "kpi-row",
       "dashboard"
     ],
-    "component_count": 57,
+    "component_count": 85,
     "surfaces": [
       "analytics",
       "admin-panel",
@@ -140,65 +148,89 @@
     ],
     "templates": [
       {
-        "name": "Home Dashboard",
-        "url": "https://www.boardui.com/components/home-dashboard",
-        "purpose": "Admin dashboard shell — sidebar navigation, KPI cards, bar chart and a customers data table. Pro."
-      },
-      {
         "name": "AI Chat",
         "url": "https://www.boardui.com/components/ai-chat",
-        "purpose": "Conversation surface built from the composer, thinking and message blocks. Pro."
+        "purpose": "Paid conversation page with a composer and agent states."
       },
       {
         "name": "AI Image Generation",
         "url": "https://www.boardui.com/components/ai-image-generation",
-        "purpose": "Prompt-to-image screen with generation state and result gallery. Pro."
+        "purpose": "Paid image-generation page with a prompt and result gallery."
       },
       {
         "name": "AI Profile",
         "url": "https://www.boardui.com/components/ai-profile",
-        "purpose": "Agent profile and settings layout. Pro."
+        "purpose": "Paid profile and settings page for an agent."
+      },
+      {
+        "name": "Chat Starter",
+        "url": "https://www.boardui.com/components/chat-starter",
+        "purpose": "Free starting page for an AI chat app."
+      },
+      {
+        "name": "Finance Dashboard",
+        "url": "https://www.boardui.com/components/finance-dashboard",
+        "purpose": "Paid dashboard for finance data."
+      },
+      {
+        "name": "Home Dashboard",
+        "url": "https://www.boardui.com/components/home-dashboard",
+        "purpose": "Paid dashboard with navigation, charts, and tables."
+      },
+      {
+        "name": "Marketing Dashboard",
+        "url": "https://www.boardui.com/components/marketing-dashboard",
+        "purpose": "Paid dashboard for marketing data."
       },
       {
         "name": "Medical Profile",
         "url": "https://www.boardui.com/components/medical-profile",
-        "purpose": "Health dashboard — patient info card, activity rings, sleep score and alert cards. Pro."
+        "purpose": "Paid patient profile with health charts and alerts."
+      },
+      {
+        "name": "Multi-agent Chat",
+        "url": "https://www.boardui.com/components/multi-agent-chat",
+        "purpose": "Paid chat page for multiple agents."
+      },
+      {
+        "name": "Project Board",
+        "url": "https://www.boardui.com/components/project-board",
+        "purpose": "Paid board page for project tasks."
       }
     ],
-    "template_count": 5,
+    "template_count": 10,
     "install": "npx boardui@latest init",
     "package": "boardui",
-    "docs_url": "https://www.boardui.com/docs/introduction",
-    "repo_url": null,
+    "docs_url": "https://www.boardui.com/getting-started",
+    "repo_url": "https://github.com/BoardUI/boardui",
     "registry_url": "https://www.boardui.com/r/registry.json",
     "github": {
-      "stars": null,
-      "license": null,
-      "last_activity": null
+      "stars": 554,
+      "license": "MIT",
+      "last_activity": "2026-10-02"
     },
-    "pricing_detail": "Starter is free, with no account and no card: free source, unlimited projects, commercial use allowed. BoardUI Pro is a one-off payment in three shapes — Annual Access €149 (listed at €179) with one year of updates, Lifetime Access €199 (listed at €249, a €49 launch discount) with updates for as long as they ship, and Unlimited for Startups €349 for up to five developers in one organisation. Nothing renews automatically, and files already installed stay licensed after an updates window ends. Prices read from the homepage plan table on 2026-08-22.",
+    "pricing_detail": "The free tier needs no account or purchase and uses the MIT license. The homepage lists Pro at €149 for one year of updates, €199 for lifetime updates, or €349 for up to five developers. These are one-time payments. The installed Pro files remain licensed after an update period ends. Prices checked on 2026-10-04.",
     "counts": {
       "icons": null,
       "fonts": null,
       "palettes": null,
       "entries": null,
-      "blocks": 11
+      "blocks": 19
     },
-    "agent_guidance": "Reach for this when the brief is an analytics dashboard or an agent console in React 19 and Tailwind v4, and the usual registries stop at form controls — the 17 chart cards and the agent blocks (thinking, composer, limits, progress) are the reason to pick it over stock shadcn/ui. Two hard constraints before you install. First, the free/Pro split: only the 47 items listed in https://www.boardui.com/r/registry.json install without a licence key, and every chart card, every template and four of the blocks are Pro, so read that file first rather than the components gallery, which shows Pro items you cannot fetch. Second, the licence is source-available, not open source: the docs introduction calls the free tier open-source, but https://www.boardui.com/license forbids republishing the source in any public repository, gist, template or starter kit. Never install BoardUI source into a repo you intend to make public. The documented install path is the boardui CLI (`init` then `add`), which needs Tailwind v4 — a v3 project will not work. Registry items follow the shadcn registry-item schema, so `shadcn add <url>` against a /r/<name>.json is plausible but is not a documented path and was not tested here. There is no llms.txt and no public source repository, so the registry JSON is the machine-readable surface you have.",
-    "why_it_matters": "Chart cards and agent-state blocks in one Tailwind v4 token system is a real gap in the shadcn ecosystem — most registries cover form controls and stop, and the few with charts do not cover agent surfaces. It is also a clean worked example of the Figma-MCP-to-code pipeline the rest of this index keeps arguing for.",
+    "agent_guidance": "Use BoardUI for React dashboards or agent interfaces that need tables, chart cards, and one shared token system. Start with https://www.boardui.com/llms.txt and the installation guide. Run `npx boardui@latest init`, then add the selected components. Tailwind CSS v4 is required. The public registry lists 69 free items, including 14 supporting libraries. Read an item before you assume a gallery component is free. Free source uses MIT and can appear in public repositories. Pro source requires a purchased license and has redistribution limits. The documented local MCP command is `npx boardui@latest mcp`. It supplies component descriptions, examples, project setup, and installation tools. The shadcn namespace uses https://www.boardui.com/r/{name}.json. Check the monorepo guide before installation into a shared UI package. React Aria supplies the foundation, but test the final interface for keyboard and screen-reader use.",
+    "why_it_matters": "BoardUI combines data charts, dashboard blocks, and agent states in one token system. Its free source, registry, and MCP server support direct inspection before installation.",
     "quality_tier": "B",
-    "tier_reason": "Well built and genuinely current — React Aria under the interactions, Recharts under the charts, a schema-valid public registry, framework guides for four setups, and a licence page that answers real questions. Held at B because it is young and small (320 npm downloads in the month to 2026-08-20), it is a one-person project with no public repository, most of the dashboard and agent value sits behind a €149–€349 licence, and the docs call the free tier open-source while the licence forbids redistribution.",
+    "tier_reason": "The public MIT source and documented registry improve access to the free tier. Pro still controls much of the chart and agent catalog. Retain tier B because the free registry and the full gallery have different scopes.",
     "notable_for": [
-      "57 components and blocks, 17 of them chart cards",
-      "agent blocks: thinking, composer, limits, progress",
-      "shadcn-schema registry at /r/registry.json, 47 free items",
-      "own CLI: npx boardui@latest init / add",
-      "one-time Pro licence, €149–€349, no subscription",
-      "source-available, not open source — no public repo"
+      "85 advertised components, including 19 charts",
+      "69 free registry items, including 14 supporting libraries",
+      "MIT free source and a separate commercial Pro license",
+      "Local MCP server, agent skill, and llms.txt",
+      "React Aria, Tailwind v4 tokens, and right-to-left support"
     ],
     "http_status": 200,
-    "verified_at": "2026-08-22",
-    "evidence": "https://www.boardui.com/ 200, title \"BoardUI - React Design System for Dashboards\" and meta description claiming 57 components and blocks, 17 chart cards, 5 Pro templates; homepage plan table lists Starter free, Annual €179/€149, Lifetime €249/€199, Unlimited for Startups €349; https://www.boardui.com/docs/introduction states React 19, Next.js 16, Tailwind v4, TypeScript, React Aria Components and the Figma MCP pipeline; https://www.boardui.com/installation sidebar counts 29 base components, 11 blocks, 17 charts, 5 templates with PRO badges; https://www.boardui.com/docs/cli documents init/add/list and the --pro flag; https://www.boardui.com/license (updated 21 August 2026) forbids redistributing the source publicly and names React Aria Components (Apache 2.0), Recharts (MIT) and Motion; https://www.boardui.com/r/registry.json returns the shadcn registry schema with 55 items (36 registry:ui, 11 registry:block, 8 registry:lib); https://www.boardui.com/r/button.json validates against ui.shadcn.com/schema/registry-item.json; https://registry.npmjs.org/boardui reports version 0.3.1, MIT, published 2026-08-11; https://api.npmjs.org/downloads/point/last-month/boardui reports 320 downloads; https://api.github.com/repos/mertcanesmergul/boardui returns 404, so the repository named in the npm metadata is not public; https://www.boardui.com/llms.txt returns 404",
+    "verified_at": "2026-10-04",
+    "evidence": "Checked the homepage, /getting-started, /installation, /mcp, /license, /llms.txt, and /r/registry.json on 2026-10-04. The registry returned 69 items: 38 registry:ui, 17 registry:block, and 14 registry:lib. The homepage advertises 85 components, 19 charts, and 10 templates. The documentation lists Chat Starter without a Pro badge. The license page explicitly assigns MIT to free source and separate terms to Pro. https://github.com/BoardUI/boardui and its LICENSE file are public. The GitHub API reports 554 stars, MIT, and last activity on 2026-10-02. The official preview source is https://www.boardui.com/og_image.png.",
     "source": "user",
     "already_enriched": true
   },

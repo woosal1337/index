@@ -562,8 +562,8 @@
   "slug": "uselayouts",
   "url": "https://uselayouts.com",
   "name": "useLayouts",
-  "tagline": "26 Motion-driven micro-interaction components installable via the shadcn CLI",
-  "description": "useLayouts is a small, opinionated shadcn registry of 26 React components whose whole point is the interaction, not the markup — a 3D book that flips pages, a magnifying lens dragged over a bento card, a toolbar that resizes to its contents, an input that morphs between states. Everything is built on Motion (Framer Motion) plus Tailwind and layered over shadcn/ui, and installs one item at a time with the standard shadcn CLI. It is free and MIT-licensed, funded by sponsorship rather than a pro tier. Use it when a page needs one memorable moment rather than a full component system.",
+  "tagline": "64 free animated React components with source installation through the shadcn registry",
+  "description": "useLayouts is a free MIT library of animated React components by Urvish Mali. Its public shadcn registry now contains 64 components. They cover tabs, buttons, galleries, folders, forms, navigation, and pointer interactions. Examples include a page-turning 3D book, a confidential folder, a magnifying bento card, a dynamic toolbar, and a draggable coverflow. The stack uses React, Tailwind CSS, Motion, and shadcn/ui. Installation copies component source into the project and adds its dependencies. The current documentation explains the @uselayouts namespace and links to live previews and component source. Sponsorship supports the library, with no paid tier shown. Use a selected interaction where the product needs it, then match its motion and styling to the app.",
   "category": "motion-interaction",
   "subcategory": "animated-components",
   "kinds": [
@@ -608,7 +608,7 @@
     "cli-installable",
     "copy-paste-ready",
     "open-source-code",
-    "js-only-shell"
+    "structured-docs"
    ],
    "maturity": "actively-maintained"
   },
@@ -640,7 +640,7 @@
    "hover-effect",
    "spinner"
   ],
-  "component_count": 26,
+  "component_count": 64,
   "surfaces": [
    "multi-step-form",
    "homepage",
@@ -656,15 +656,15 @@
   "template_count": null,
   "install": "npx shadcn@latest add https://uselayouts.com/r/3d-book.json",
   "package": null,
-  "docs_url": "https://uselayouts.com/components",
+  "docs_url": "https://uselayouts.com/docs",
   "repo_url": "https://github.com/iurvish/uselayouts",
   "registry_url": "https://uselayouts.com/r/registry.json",
   "github": {
-   "stars": 443,
+   "stars": 661,
    "license": "MIT",
-   "last_activity": "2026-08-10"
+   "last_activity": "2026-10-03"
   },
-  "pricing_detail": "Free and MIT; optional GitHub sponsorship",
+  "pricing_detail": "Free MIT source. The site asks for optional sponsorship and shows no paid component tier.",
   "counts": {
    "icons": null,
    "fonts": null,
@@ -672,21 +672,21 @@
    "entries": null,
    "blocks": null
   },
-  "agent_guidance": "Read `https://uselayouts.com/r/registry.json` for the exact 26-item catalog — the marketing pages and `/components` render as a JS shell and `/docs/*` paths 404. This is a garnish library, not a foundation: install one or two items where the user wants a moment of delight (multi-step-form, 3d-book, magnified-bento, dynamic-toolbar) and keep shadcn/ui or a larger registry as the base system. Every item pulls in `motion`, `clsx` and `tailwind-merge` and is client-side, so gate them behind a `prefers-reduced-motion` check because the registry does not do that for you.",
-  "why_it_matters": "Most animated-component registries pad their counts with the same twenty gradient buttons; useLayouts stays small and each item is a genuinely distinct interaction you would otherwise spend a day building. Being MIT with no pro tier makes it safe to drop into client work.",
+  "agent_guidance": "Read https://uselayouts.com/r/registry.json for the current 64-item catalog. The introduction now lives at https://uselayouts.com/docs. Component pages use /docs/components/{name}. The old /components path is no longer the catalog. The documented shadcn namespace is @uselayouts, with https://uselayouts.com/r/{name}.json in components.json. You can also install an item by its full registry URL. Use a few selected components alongside the main design system. Inspect each item for dependencies and client-side behavior. The checked 3D Book item requires motion, clsx, and tailwind-merge. Its source does not use useReducedMotion, so check reduced-motion behavior before release. The MIT source is public on GitHub.",
+  "why_it_matters": "The registry supplies distinct motion patterns with editable source. The 64-item catalog now covers more gallery, navigation, folder, and button interactions than the earlier release.",
   "notable_for": [
-   "26 hand-built micro-interactions",
-   "3D book with page flip",
-   "magnifying-lens bento card",
-   "animated multi-step form",
-   "MIT, no paid tier"
+   "64 components in the public shadcn registry",
+   "3D book, folder interactions, and draggable galleries",
+   "Motion animations with editable React source",
+   "Documented @uselayouts namespace",
+   "MIT source with optional sponsorship"
   ],
-  "already_enriched": false,
+  "already_enriched": true,
   "http_status": 200,
-  "verified_at": "2026-08-15",
-  "evidence": "https://uselayouts.com, https://uselayouts.com/components (404), https://uselayouts.com/registry.json (404), https://uselayouts.com/r/registry.json (full 26-item parse), https://uselayouts.com/r/3d-book.json (200), GitHub API search + repos/iurvish/uselayouts",
+  "verified_at": "2026-10-04",
+  "evidence": "Checked https://uselayouts.com/, /docs, /docs/components/3d-book, /r/registry.json, and /r/3d-book.json on 2026-10-04. The registry returned 64 registry:component items. The introduction documents the @uselayouts namespace and source installation. The 3D Book item contains source and lists motion, clsx, and tailwind-merge as dependencies. https://github.com/iurvish/uselayouts and its LICENSE file report MIT. The GitHub API reports 661 stars and last activity on 2026-10-03. The existing Index preview is present and decodes at 1200 by 650 pixels.",
   "quality_tier": "B",
-  "tier_reason": "Its own agent_guidance calls it a garnish library, not a foundation — 26 items, 443 stars, and JS-only shell pages make it a deliberately narrow micro-interaction add-on."
+  "tier_reason": "Retain tier B for a focused collection of animated interactions. The source and installation paths are public. Each component still needs checks in the app that uses it."
  },
  {
   "id": "d223d21e-9ca5-48ee-9056-4cb275ffaa85",
