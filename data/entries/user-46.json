@@ -1,0 +1,107 @@
+[
+ {
+  "id": "user:d4bbf78aa937c45f",
+  "slug": "kanbaaan",
+  "url": "https://github.com/kargulstudio/kanban",
+  "name": "Kanbaaan",
+  "tagline": "Kargul Studio's Next.js 16 kanban dashboard source",
+  "description": "Kanbaaan is a kanban issue dashboard by Kargul Studio, published as the kargulstudio/kanban repository. It is built on the studio's Kargul Starter with Next.js 16, React 19, Tailwind CSS 4, Motion, dnd-kit, and Zustand. The board has To do, In progress, and Done columns, drag and drop with edge scrolling, hideable Backlog, Canceled, and Duplicated columns, filters, search, display options, issue dialogs, bulk import, and an inbox.\n\nBoard state persists in browser storage, so the demo needs no back end. The repository ships AGENTS.md and CLAUDE.md build rules, though the CONVENTIONS.md file they cite is missing. GitHub reports no license, so treat the code as a reference until the owner adds one.",
+  "category": "blocks-templates-themes",
+  "subcategory": "dashboard-kits",
+  "kinds": [
+   "template"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "tailwind-v4"
+   ],
+   "license": [
+    "no-license"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "reduced-motion"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "agent-skill"
+   ],
+   "maturity": "experimental"
+  },
+  "components": [
+   "kanban-board",
+   "drag-and-drop",
+   "app-shell",
+   "sidebar",
+   "toolbar",
+   "search-input",
+   "filter-panel",
+   "dialog",
+   "sheet",
+   "toast",
+   "notification-center",
+   "inline-edit",
+   "skeleton"
+  ],
+  "component_count": null,
+  "surfaces": [
+   "kanban-board",
+   "filtering-items",
+   "single-item-detail",
+   "data-import",
+   "in-app-notifications",
+   "keyboard-shortcuts-overlay"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/kargulstudio/kanban",
+  "registry_url": null,
+  "github": {
+   "stars": 92,
+   "license": null,
+   "last_activity": "2026-10-03T12:21:42Z"
+  },
+  "pricing_detail": "The source and live demo are public and free to view. The repository has no license file, so copying or redistributing the code is not granted.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Read the board code in components/dashboard, the store in stores/kanban-store.ts, and the data model in lib/kanban.ts to study kanban drag, column hiding, and filter patterns. Use https://kanban-blue-beta.vercel.app to check behavior. The repo has no license, so do not copy its code into a project without permission from Kargul Studio. AGENTS.md and CLAUDE.md describe the house rules, but CONVENTIONS.md is absent.",
+  "why_it_matters": "It shows a polished kanban dashboard as readable Next.js source, from drag behavior to hidden columns and filters.",
+  "quality_tier": "B",
+  "tier_reason": "The live demo is polished and the full source is public. The missing license and short commit history limit reuse.",
+  "notable_for": [
+   "kanban drag with edge scrolling",
+   "Next.js 16 and Tailwind CSS 4",
+   "hideable status columns",
+   "Kargul Studio design",
+   "no license file"
+  ],
+  "already_enriched": true,
+  "http_status": 200,
+  "verified_at": "2026-10-06",
+  "source": "user",
+  "evidence": "Checked https://github.com/kargulstudio/kanban, its README, AGENTS.md, CLAUDE.md, package.json, and source tree on 2026-10-06. The GitHub API reports 92 stars, no license, TypeScript, homepage kanban-blue-beta.vercel.app, and a last push on 2026-10-03. The main branch has 13 commits from 2026-09-16. The live demo returned HTTP 200. Its Open Graph image points to example.com, so the preview is a screenshot of the live demo. Source tweet: https://x.com/marcelkargul/status/2107112139605618920."
+ }
+]
