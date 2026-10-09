@@ -1,0 +1,2231 @@
+[
+ {
+  "id": "depo:j5739eebddb8zaqrd8f0hrb1md8de994",
+  "slug": "brilliant",
+  "url": "https://brilliant.design/",
+  "name": "Brilliant",
+  "tagline": "Vector design tool where you and AI agents edit the same canvas, free to use",
+  "description": "Brilliant is a vector design tool built for work with AI agents on the canvas. It has frames with auto layout, components with variants and overrides, about 50 GPU material presets such as liquid glass and metal, and design-system tokens with modes. A built-in chat lets you mention elements, eyedrop colors, and pin context for the agent. The site states that the tool is free.",
+  "category": "agent-design-tooling",
+  "subcategory": "ai-design-apps",
+  "kinds": [
+   "ai-tool",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "figma"
+   ],
+   "agent_readiness": [
+    "unknown"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://brilliant.design/docs/editor/vectors",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it when you want an agent to change real, editable vector designs instead of code previews. Export a test file first, because the format and handoff path differ from Figma.",
+  "why_it_matters": "It puts agent edits on a real design canvas with components and tokens.",
+  "notable_for": [
+   "Agent chat on the canvas",
+   "Components and variants",
+   "GPU material presets"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://brilliant.design/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j5739eebddb8zaqrd8f0hrb1md8de994",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "A capable new tool with clear docs, but young and outside the common Figma workflow."
+ },
+ {
+  "id": "depo:j579gmp9ag3n4at5exs434qveh8de0et",
+  "slug": "forge",
+  "url": "https://ui8.ai/forge/",
+  "name": "Forge",
+  "tagline": "Free macOS app by UI8 that turns a local web project into a visual canvas for agents",
+  "description": "Forge is a macOS app from UI8 that opens a local web project as a visual canvas. You and your coding agents design, build, and publish from the same window. The files always stay on disk in your repository, ready to commit, so there is no vendor lock-in. The depo listing describes the app as free.",
+  "category": "agent-design-tooling",
+  "subcategory": "ai-design-apps",
+  "kinds": [
+   "ai-tool",
+   "app"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "desktop-app"
+   ],
+   "platform": [
+    "macos"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "unknown"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it when a designer wants to shape a real codebase visually while an agent writes the code. Keep the project under Git, because Forge edits the files in place.",
+  "why_it_matters": "It joins a visual canvas and agent edits on top of real project files.",
+  "notable_for": [
+   "Local files",
+   "no lock-in",
+   "One-click publish",
+   "macOS app"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://ui8.ai/forge/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j579gmp9ag3n4at5exs434qveh8de0et",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "A clear product from an established design marketplace, but new and macOS only."
+ },
+ {
+  "id": "depo:j57dnv0crk34733cn7nvcra4dx80eaxz",
+  "slug": "gemini-design-mcp",
+  "url": "https://gemini-design-mcp.com/",
+  "name": "Gemini Design MCP",
+  "tagline": "MCP server that hands frontend generation to Gemini from inside any agent or IDE",
+  "description": "Gemini Design MCP is an MCP server that makes Gemini the frontend developer inside another agent or IDE. You keep your main model, such as Claude, and call Gemini for UI generation in the same conversation. It works with Claude, Cursor, and VS Code. It needs an API key from the service, and the site has a pricing page.",
+  "category": "agent-design-tooling",
+  "subcategory": "mcp-and-registries",
+  "kinds": [
+   "mcp-server"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "account-required"
+   ],
+   "distribution": [
+    "mcp-server",
+    "npm-package"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "mcp-server",
+    "auth-required"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npx -y gemini-design-mcp@latest",
+  "package": null,
+  "docs_url": "https://www.gemini-design-mcp.com/docs",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to compare Gemini UI output with your main model on the same task. Check the pricing and the code it sends to the service before you use it on private code.",
+  "why_it_matters": "It lets an agent route only the UI part of a task to a second model.",
+  "notable_for": [
+   "Works in any MCP client",
+   "One install command",
+   "Requires an API key"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://gemini-design-mcp.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j57dnv0crk34733cn7nvcra4dx80eaxz",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "A clear and useful setup, but a paid wrapper around another model."
+ },
+ {
+  "id": "depo:j57fpkdwbtbkzcgmkz10kmpnv989hc62",
+  "slug": "instatic",
+  "url": "https://github.com/CoreBunch/Instatic",
+  "name": "Instatic",
+  "tagline": "Self-hosted visual CMS that publishes clean static pages from one Bun server",
+  "description": "Instatic is an open-source, self-hosted visual CMS that positions itself as an alternative to Webflow, Framer, and WordPress. The visual editor, content engine, and publisher run in one Bun server. It outputs clean static pages and includes users, roles, plugins, content, and a database. It supports one-click deploy and agent workflows, and it uses the MIT license.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "tool",
+   "app"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "github-repo",
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/CoreBunch/Instatic",
+  "registry_url": null,
+  "github": {
+   "stars": 8894,
+   "license": "MIT",
+   "last_activity": "2026-09-13"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it when a team wants visual site editing without a hosted builder. Plan for hosting and backups, because you run the server yourself.",
+  "why_it_matters": "It is an open-source answer to hosted visual site builders.",
+  "notable_for": [
+   "Static output",
+   "Visual editor and CMS in one server",
+   "8",
+   "800+ GitHub stars"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://github.com/CoreBunch/Instatic (HTTP 200, page fetched 2026-10-09), https://github.com/CoreBunch/Instatic (GitHub API, 8894 stars), depo.zip listing https://www.depo.zip/tools/j57fpkdwbtbkzcgmkz10kmpnv989hc62",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "Popular and active, but a site platform rather than a design resource."
+ },
+ {
+  "id": "depo:j571ysffr21f0v3fapjkr97mvh86ph2a",
+  "slug": "mobrowser-app-icon-maker",
+  "url": "https://github.com/mo-browser-apps/icons",
+  "name": "MōIcons",
+  "tagline": "Desktop app that generates macOS .icns app icons with AI from a text prompt",
+  "description": "MōIcons is a small desktop app that makes macOS app icons with AI. You describe the icon, attach a reference image if you want, pick a variant, and refine it. It saves a proper .icns bundle and an .iconset folder with all standard sizes. The app calls the OpenAI API for image generation, and the repository uses the MIT license.",
+  "category": "generative-media-tools",
+  "subcategory": "image-generation",
+  "kinds": [
+   "ai-tool",
+   "app"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "desktop-app",
+    "github-repo"
+   ],
+   "platform": [
+    "macos"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "images"
+   ],
+   "agent_readiness": [
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/mo-browser-apps/icons",
+  "registry_url": null,
+  "github": {
+   "stars": 725,
+   "license": "MIT",
+   "last_activity": "2026-08-21"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to draft a macOS app icon set in minutes. You need your own OpenAI API key, and a designer should refine the final icon.",
+  "why_it_matters": "It handles the tedious icon sizes and formats after the image step.",
+  "notable_for": [
+   "Exports .icns and .iconset",
+   "Reference image input",
+   "MIT license"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://github.com/mo-browser-apps/icons (HTTP 200, page fetched 2026-10-09), https://github.com/mo-browser-apps/icons (GitHub API, 725 stars), depo.zip listing https://www.depo.zip/tools/j571ysffr21f0v3fapjkr97mvh86ph2a",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "Focused and MIT-licensed with 725 stars, but depends on a paid image API."
+ },
+ {
+  "id": "depo:j57c2n2vfz9gaxacdwngvpfh9s7z2smf",
+  "slug": "oh-my-opencode",
+  "url": "https://github.com/code-yeongyu/oh-my-openagent",
+  "name": "Oh My OpenAgent",
+  "tagline": "Popular agent harness, formerly oh-my-opencode, with multi-model workflows and memory",
+  "description": "Oh My OpenAgent (OmO), formerly oh-my-opencode, is an agent harness for coding. Version 5.0 adds a memory system, CodeMode, and support for Anthropic subscriptions. A keyword in the prompt starts its multi-model ultracode mode. It installs from npm or with an install script, and the repository has about 70,000 GitHub stars.",
+  "category": "agent-design-tooling",
+  "subcategory": "coding-agents-and-editors",
+  "kinds": [
+   "ai-tool",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "npm-package",
+    "cli",
+    "github-repo"
+   ],
+   "platform": [
+    "terminal"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "cli-installable",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npm i -g omo-ai",
+  "package": "omo-ai",
+  "docs_url": null,
+  "repo_url": "https://github.com/code-yeongyu/oh-my-openagent",
+  "registry_url": null,
+  "github": {
+   "stars": 69896,
+   "license": null,
+   "last_activity": "2026-10-08"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it if you already run OpenCode-style agents and want an opinionated harness on top. Read the license notes first, because GitHub reports no standard license.",
+  "why_it_matters": "It is one of the most starred community harnesses for coding agents.",
+  "notable_for": [
+   "70",
+   "000 GitHub stars",
+   "Memory system",
+   "Multi-model mode"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://github.com/code-yeongyu/oh-my-openagent (HTTP 200, page fetched 2026-10-09), https://github.com/code-yeongyu/oh-my-openagent (GitHub API, 69896 stars), depo.zip listing https://www.depo.zip/tools/j57c2n2vfz9gaxacdwngvpfh9s7z2smf",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "Very popular, but a coding harness outside interface design work."
+ },
+ {
+  "id": "depo:j5762g7s918y0cgpbn1n1m18dx83t7gk",
+  "slug": "pretext",
+  "url": "https://github.com/chenglou/pretext",
+  "name": "Pretext",
+  "tagline": "Fast JavaScript text measurement and multiline layout without DOM reflow",
+  "description": "Pretext is a pure JavaScript and TypeScript library by Cheng Lou for multiline text measurement and layout. It avoids DOM measurement calls such as getBoundingClientRect, which force layout reflow. It uses the browser font engine as ground truth and renders to the DOM, Canvas, or SVG. It supports many writing systems and has more than 50,000 GitHub stars.",
+  "category": "component-libraries",
+  "subcategory": "headless-primitives",
+  "kinds": [
+   "primitive"
+  ],
+  "facets": {
+   "framework": [
+    "vanilla"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npm install @chenglou/pretext",
+  "package": "@chenglou/pretext",
+  "docs_url": null,
+  "repo_url": "https://github.com/chenglou/pretext",
+  "registry_url": null,
+  "github": {
+   "stars": 50724,
+   "license": null,
+   "last_activity": "2026-10-08"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it for virtualized lists, canvas text, or any layout that must know text height before render. Check the license file, because GitHub does not detect a standard license.",
+  "why_it_matters": "It removes a classic performance cost in text-heavy interfaces.",
+  "notable_for": [
+   "No DOM reflow",
+   "DOM",
+   "Canvas",
+   "and SVG output",
+   "50",
+   "000+ GitHub stars"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://github.com/chenglou/pretext (HTTP 200, page fetched 2026-10-09), https://github.com/chenglou/pretext (GitHub API, 50724 stars), depo.zip listing https://www.depo.zip/tools/j5762g7s918y0cgpbn1n1m18dx83t7gk",
+  "source": "depo",
+  "quality_tier": "A",
+  "tier_reason": "A widely adopted, active library that solves a hard interface problem."
+ },
+ {
+  "id": "depo:j574q606fczk6chjsmry81b56d7t72g4",
+  "slug": "react-pdf-tailwind",
+  "url": "https://github.com/aanckar/react-pdf-tailwind",
+  "name": "react-pdf-tailwind",
+  "tagline": "Use Tailwind CSS classes to style PDFs built with react-pdf",
+  "description": "react-pdf-tailwind converts a compatible subset of Tailwind CSS class syntax into style objects for react-pdf. You style PDF documents with the same classes as your web app. Version 3 uses Tailwind v4, so a v2 config needs an update. An interactive react-pdf playground shows it in use.",
+  "category": "component-libraries",
+  "subcategory": "integration-components",
+  "kinds": [
+   "primitive"
+  ],
+  "facets": {
+   "framework": [
+    "react"
+   ],
+   "styling": [
+    "tailwind-v4"
+   ],
+   "license": [
+    "no-license"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npm install react-pdf-tailwind",
+  "package": "react-pdf-tailwind",
+  "docs_url": null,
+  "repo_url": "https://github.com/aanckar/react-pdf-tailwind",
+  "registry_url": null,
+  "github": {
+   "stars": 403,
+   "license": null,
+   "last_activity": "2025-08-15"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to keep invoice or report PDFs visually close to the web app. Only a subset of Tailwind works in PDF output, so test each class you need.",
+  "why_it_matters": "It lets one styling system cover both web pages and generated PDFs.",
+  "notable_for": [
+   "Tailwind v4 support",
+   "react-pdf playground",
+   "400+ GitHub stars"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://github.com/aanckar/react-pdf-tailwind (HTTP 200, page fetched 2026-10-09), https://github.com/aanckar/react-pdf-tailwind (GitHub API, 403 stars), depo.zip listing https://www.depo.zip/tools/j574q606fczk6chjsmry81b56d7t72g4",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "Useful and focused, but without a license file and last pushed in August 2025."
+ },
+ {
+  "id": "depo:j576mvy7remdn60bssc68wepw58dafng",
+  "slug": "shotbase",
+  "url": "https://shotbase.com/",
+  "name": "Shotbase",
+  "tagline": "macOS workspace to capture, edit, animate, organize, and share screenshots and recordings",
+  "description": "Shotbase is a screen capture workspace for macOS. It captures screenshots and recordings, then edits, animates, organizes, and shares them from one app. Private AI runs on the Mac to organize the library. A 7-day free trial needs no card.",
+  "category": "utilities-naming",
+  "subcategory": "apps-and-references",
+  "kinds": [
+   "app"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free-trial"
+   ],
+   "distribution": [
+    "desktop-app"
+   ],
+   "platform": [
+    "macos"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "images",
+    "video"
+   ],
+   "agent_readiness": [
+    "none"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to make product screenshots and short demo clips for launches and docs. Compare it with CleanShot X before you buy, because the core feature sets overlap.",
+  "why_it_matters": "It joins capture, light editing, and a searchable library in one tool.",
+  "notable_for": [
+   "Capture and record",
+   "On-device AI organization",
+   "7-day free trial"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://shotbase.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j576mvy7remdn60bssc68wepw58dafng",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "A clear, design-adjacent product with a trial, but a paid app in a crowded space."
+ },
+ {
+  "id": "depo:j57dab5cyaxgr4w6dp4skb81h97ysr7w",
+  "slug": "worldgen",
+  "url": "https://github.com/ZiYang-xie/WorldGen/",
+  "name": "WorldGen",
+  "tagline": "Python research tool that generates 3D scenes from text prompts or images",
+  "description": "WorldGen generates 3D scenes in seconds from text prompts and images. It targets environments for games, simulations, robotics, and virtual reality, with 360-degree free exploration of the result. It runs as a Python project with model submodules. The repository uses the Apache 2.0 license.",
+  "category": "generative-media-tools",
+  "subcategory": "video-and-render",
+  "kinds": [
+   "ai-tool",
+   "generator"
+  ],
+  "facets": {
+   "framework": [
+    "python"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "apache-2.0"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "github-repo"
+   ],
+   "platform": [
+    "unknown"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "3d",
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "pip install .",
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/ZiYang-xie/WorldGen",
+  "registry_url": null,
+  "github": {
+   "stars": 2153,
+   "license": "Apache-2.0",
+   "last_activity": "2026-04-12"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to rough out a 3D environment from a prompt for a game or spatial prototype. It needs a capable GPU and Python setup, so test the install on your machine first.",
+  "why_it_matters": "It shows how fast prompt-to-3D scene generation can be for early concepts.",
+  "notable_for": [
+   "Text or image to 3D scene",
+   "360-degree exploration",
+   "Apache 2.0"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://github.com/ZiYang-xie/WorldGen/ (HTTP 200, page fetched 2026-10-09), https://github.com/ZiYang-xie/WorldGen (GitHub API, 2153 stars), depo.zip listing https://www.depo.zip/tools/j57dab5cyaxgr4w6dp4skb81h97ysr7w",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "Open research code with 2,100 stars, but it needs a GPU and Python setup."
+ },
+ {
+  "id": "depo:j57evm9zaeqax5z34tagj1fgex84kkhv",
+  "slug": "acepe",
+  "url": "https://acepe.dev/",
+  "name": "Acepe",
+  "tagline": "Native workspace that runs Claude Code, Codex, Cursor Agent, and OpenCode together",
+  "description": "Acepe is an agentic developer environment that runs several coding agents in one native workspace. It supports Claude Code, Codex, Cursor Agent, OpenCode, and other ACP-compatible agents. You plan, orchestrate, review, and ship from plan to pull request in one app. It installs with Homebrew, and the site has a pricing page.",
+  "category": "agent-design-tooling",
+  "subcategory": "coding-agents-and-editors",
+  "kinds": [
+   "app",
+   "ai-tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "desktop-app"
+   ],
+   "platform": [
+    "macos"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "unknown"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "brew install --cask acepe",
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it if you switch between several coding agents and want one review surface. Check the pricing page and the agents it supports before you move a team to it.",
+  "why_it_matters": "It is one of the apps that put many coding agents behind one interface.",
+  "notable_for": [
+   "Multi-agent workspace",
+   "ACP support",
+   "Homebrew install"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://acepe.dev/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j57evm9zaeqax5z34tagj1fgex84kkhv",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A coding-agent workspace outside interface design work."
+ },
+ {
+  "id": "depo:j577wbvtnz6qz00zgszp0w51md84yp1d",
+  "slug": "addy",
+  "url": "https://addy.md/",
+  "name": "Addy",
+  "tagline": "Agentic development environment for macOS and iOS with AI agents in a native workspace",
+  "description": "Addy calls itself an agentic development environment for macOS and iOS. It is a native workspace where AI agents build alongside you. The public site gives few details beyond this description.",
+  "category": "agent-design-tooling",
+  "subcategory": "coding-agents-and-editors",
+  "kinds": [
+   "app",
+   "ai-tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "desktop-app"
+   ],
+   "platform": [
+    "macos",
+    "ios"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "unknown"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it only after you confirm the feature set and pricing directly, because the site shares little detail.",
+  "why_it_matters": "It is another native take on an agent-first coding environment.",
+  "notable_for": [
+   "macOS and iOS",
+   "Native workspace"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://addy.md/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j577wbvtnz6qz00zgszp0w51md84yp1d",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "Thin public evidence for a coding tool outside interface design work."
+ },
+ {
+  "id": "depo:j577w3gccs8rj4zkfwpbc55rt182yeek",
+  "slug": "admiral",
+  "url": "https://www.admiralai.dev/",
+  "name": "Admiral",
+  "tagline": "Native macOS workspace with branch-scoped tasks and Claude and Codex side by side",
+  "description": "Admiral is a native macOS developer workspace, now at version 2.0. Each workspace holds the chats, terminals, and pull requests for one task, scoped to a branch. Automated agent flows run the loop, and Claude and Codex work side by side. The site has documentation and a download for macOS.",
+  "category": "agent-design-tooling",
+  "subcategory": "coding-agents-and-editors",
+  "kinds": [
+   "app",
+   "ai-tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "desktop-app"
+   ],
+   "platform": [
+    "macos"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://www.admiralai.dev/docs",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to keep each agent task, its terminal, and its pull request together. Check how it stores credentials before you connect company repositories.",
+  "why_it_matters": "It organizes agent work by task and branch instead of by chat.",
+  "notable_for": [
+   "Branch-scoped workspaces",
+   "Claude and Codex together",
+   "Version 2.0"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.admiralai.dev/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j577w3gccs8rj4zkfwpbc55rt182yeek",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A coding-agent workspace outside interface design work."
+ },
+ {
+  "id": "depo:j576cw6xd2sjpc7manc5f2yt5984rar2",
+  "slug": "agentsroom",
+  "url": "https://agentsroom.dev/",
+  "name": "AgentsRoom",
+  "tagline": "Terminal and IDE that runs many projects and 14 AI coding agents in parallel",
+  "description": "AgentsRoom is a terminal and IDE for running many projects and AI agents at once. It supports 14 coding providers, including Claude, Codex, GitHub Copilot CLI, Cursor, OpenCode, Gemini CLI, and Aider. It shows live agent status, tasks, prompts, and notifications, and recent versions add a local API for agent status. The download is free.",
+  "category": "agent-design-tooling",
+  "subcategory": "coding-agents-and-editors",
+  "kinds": [
+   "app",
+   "ai-tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "desktop-app"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "public-api",
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://agentsroom.dev/docs",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it when you supervise many agents across projects and need one status view. Review how each provider handles your code, because it runs their own CLIs.",
+  "why_it_matters": "It treats agent supervision as a dashboard problem.",
+  "notable_for": [
+   "14 agent providers",
+   "Live status tracking",
+   "Local status API"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://agentsroom.dev/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j576cw6xd2sjpc7manc5f2yt5984rar2",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A coding-agent manager outside interface design work."
+ },
+ {
+  "id": "depo:j570d7c68y5e7nz8g3znj710j584he2z",
+  "slug": "air",
+  "url": "https://www.jetbrains.com/air/",
+  "name": "JetBrains Air",
+  "tagline": "JetBrains environment for building software with Codex, Claude Agent, Junie, and other ACP agents",
+  "description": "JetBrains Air is a system for building software with agents. It works with Claude Agent, Codex, Junie, Copilot, OpenCode, and any agent that connects through ACP. Agents run independent task loops without conflicts. You use it from JetBrains IDEs, the web, a CLI, or mobile.",
+  "category": "agent-design-tooling",
+  "subcategory": "coding-agents-and-editors",
+  "kinds": [
+   "app",
+   "ai-tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "desktop-app",
+    "web-app",
+    "cli"
+   ],
+   "platform": [
+    "cross-platform"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "unknown"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it if your team already works in JetBrains IDEs and wants several agents under one system. Check the pricing page for the agent limits of each plan.",
+  "why_it_matters": "It is the JetBrains answer to multi-agent development.",
+  "notable_for": [
+   "From JetBrains",
+   "ACP agent support",
+   "IDE",
+   "web",
+   "CLI",
+   "and mobile"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.jetbrains.com/air/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j570d7c68y5e7nz8g3znj710j584he2z",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A major vendor tool, but outside interface design work."
+ },
+ {
+  "id": "depo:j57aq9drr00d6wykm37s0gfagx8440zj",
+  "slug": "aizen",
+  "url": "https://aizen.win/",
+  "name": "Aizen",
+  "tagline": "Open-source macOS workspace that runs agents, terminals, and browsers per branch",
+  "description": "Aizen is an agent-first macOS workspace for parallel development. It runs agents, terminals, files, and browsers side by side across every branch. It supports Claude, Codex, Gemini, and other ACP agents, and you add MCP servers from the app. It is open source and runs on Apple Silicon only.",
+  "category": "agent-design-tooling",
+  "subcategory": "coding-agents-and-editors",
+  "kinds": [
+   "app",
+   "ai-tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "gpl"
+   ],
+   "pricing": [
+    "open-source"
+   ],
+   "distribution": [
+    "desktop-app",
+    "github-repo"
+   ],
+   "platform": [
+    "macos"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/vivy-company/aizen",
+  "registry_url": null,
+  "github": {
+   "stars": 308,
+   "license": "GPL-3.0",
+   "last_activity": "2026-08-01"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to run one agent for each branch without terminal clutter. It needs an Apple Silicon Mac.",
+  "why_it_matters": "It is an open-source option among parallel agent workspaces.",
+  "notable_for": [
+   "Open source",
+   "Branch-parallel agents",
+   "Apple Silicon only"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://aizen.win/ (HTTP 200, page fetched 2026-10-09), https://github.com/vivy-company/aizen (GitHub API, 308 stars), depo.zip listing https://www.depo.zip/tools/j57aq9drr00d6wykm37s0gfagx8440zj",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "An open-source coding workspace outside interface design work."
+ },
+ {
+  "id": "depo:j57cyzfcw2yjb0qfyy4bfe7r8187tff8",
+  "slug": "api-for-cursor",
+  "url": "https://api-for-cursor.standardagents.ai/",
+  "name": "API for Cursor",
+  "tagline": "Open-source macOS app that serves Cursor models through a local OpenAI-compatible API",
+  "description": "API for Cursor is an open-source native macOS app built on the Cursor Agent SDK. It exposes Cursor models, such as Composer 2.5 and Grok 4.6, through a local OpenAI-compatible API. Other harnesses, including OpenCode, Codex, VS Code, Cline, Kilo Code, and pi, then use those models. The publisher also offers hosted API endpoints.",
+  "category": "agent-design-tooling",
+  "subcategory": "coding-agents-and-editors",
+  "kinds": [
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "open-source"
+   ],
+   "distribution": [
+    "desktop-app",
+    "github-repo"
+   ],
+   "platform": [
+    "macos"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "public-api"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/standardagents/composer-api",
+  "registry_url": null,
+  "github": {
+   "stars": 345,
+   "license": "MIT",
+   "last_activity": "2026-08-12"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it only if your Cursor plan and its terms allow model access outside Cursor. Read those terms before you connect another harness.",
+  "why_it_matters": "It shows the demand to use one vendor's models inside other agent tools.",
+  "notable_for": [
+   "OpenAI-compatible local API",
+   "Works with many harnesses",
+   "Open source"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://api-for-cursor.standardagents.ai/ (HTTP 200, page fetched 2026-10-09), https://github.com/standardagents/composer-api (GitHub API, 345 stars), depo.zip listing https://www.depo.zip/tools/j57cyzfcw2yjb0qfyy4bfe7r8187tff8",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A niche bridge tool with unclear terms, outside interface design work."
+ },
+ {
+  "id": "depo:j578z3hh1xtmkx0ewemyv8v8kn83vam0",
+  "slug": "arbor",
+  "url": "https://github.com/penso/arbor",
+  "name": "Arbor",
+  "tagline": "Native Rust and GPUI app for agentic coding with worktrees, terminals, and diffs",
+  "description": "Arbor is a fully native app for agentic coding, built with Rust and GPUI. It manages repositories, issue-driven Git worktrees, embedded terminals, managed processes, diffs, pull request context, and coding agent activity. A shared daemon also powers its web UI, CLI, and MCP server. It uses the MIT license.",
+  "category": "agent-design-tooling",
+  "subcategory": "coding-agents-and-editors",
+  "kinds": [
+   "app",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "desktop-app",
+    "cli",
+    "github-repo"
+   ],
+   "platform": [
+    "macos"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "mcp-server",
+    "cli-installable",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "brew install penso/tap/arbor",
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/penso/arbor",
+  "registry_url": null,
+  "github": {
+   "stars": 836,
+   "license": "MIT",
+   "last_activity": "2026-09-21"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to run long agent sessions in worktrees with native performance. It expects a Nerd Font for its terminal, so install one first.",
+  "why_it_matters": "It is a native, open-source example of the worktree-per-task agent workflow.",
+  "notable_for": [
+   "Rust and GPUI",
+   "Worktree per task",
+   "MCP server"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://github.com/penso/arbor (HTTP 200, page fetched 2026-10-09), https://github.com/penso/arbor (GitHub API, 836 stars), depo.zip listing https://www.depo.zip/tools/j578z3hh1xtmkx0ewemyv8v8kn83vam0",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A solid MIT coding tool, outside interface design work."
+ },
+ {
+  "id": "depo:j57e1kmgx2t4067pc1mtmx1wfs81228t",
+  "slug": "axel",
+  "url": "https://www.axel.build/",
+  "name": "Axel",
+  "tagline": "macOS task manager that queues work and dispatches it to Claude, Codex, or OpenCode",
+  "description": "Axel is a native macOS task manager for coding agents. You add tasks to a queue, pick the agent for each one, and reorder priorities while tasks run. It works with Claude, Codex, OpenCode, and Antigravity, and manages permission requests from one inbox. Documentation lives on a separate docs site.",
+  "category": "agent-design-tooling",
+  "subcategory": "coding-agents-and-editors",
+  "kinds": [
+   "app",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "desktop-app"
+   ],
+   "platform": [
+    "macos"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://docs.axel.build/",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it when you run many small agent tasks and want one queue and one permission inbox. Keep risky permissions off by default.",
+  "why_it_matters": "It turns agent work into a queue you can reorder.",
+  "notable_for": [
+   "Task queue for agents",
+   "One permission inbox",
+   "Several agent backends"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.axel.build/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j57e1kmgx2t4067pc1mtmx1wfs81228t",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A coding-agent manager outside interface design work."
+ },
+ {
+  "id": "depo:j571jdcq698v9zhr81qgse32ss88vcab",
+  "slug": "bigbud",
+  "url": "https://bigbud.app/",
+  "name": "bigbud",
+  "tagline": "AI workspace that keeps research, writing, coding, files, and Git work in one place",
+  "description": "bigbud is an AI workspace for everyday knowledge work and coding. It keeps research, writing, code, files, and Git workflows in one place to reduce context switching. You use an existing AI subscription or connect an API key. The site has docs and a changelog.",
+  "category": "agent-design-tooling",
+  "subcategory": "coding-agents-and-editors",
+  "kinds": [
+   "app",
+   "ai-tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "desktop-app"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://bigbud.app/docs",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it if you want one AI workspace for writing and coding with your own model access. Check where it stores files and keys before use.",
+  "why_it_matters": "It is a general AI workspace that also handles code.",
+  "notable_for": [
+   "Bring your own subscription",
+   "Research",
+   "writing",
+   "and code"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://bigbud.app/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j571jdcq698v9zhr81qgse32ss88vcab",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A general AI workspace outside interface design work."
+ },
+ {
+  "id": "depo:j579wqt22sd2ny46q52czvtxe984rq6p",
+  "slug": "blueberry-the-workspace-for-modern-product-builders",
+  "url": "https://www.meetblueberry.com/",
+  "name": "Blueberry",
+  "tagline": "Mac workspace for building web apps with AI, free during its beta",
+  "description": "Blueberry is an AI-native product development workspace for the Mac. It brings the editor, terminal, and preview of a web app into one window to reduce tool switching. The app is free during its beta.",
+  "category": "agent-design-tooling",
+  "subcategory": "coding-agents-and-editors",
+  "kinds": [
+   "app",
+   "ai-tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "desktop-app"
+   ],
+   "platform": [
+    "macos"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "structured-docs"
+   ],
+   "maturity": "beta"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://www.meetblueberry.com/docs/workspace/terminal",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to try an all-in-one web app workspace during the free beta. Expect changes in pricing and features after the beta ends.",
+  "why_it_matters": "It targets product builders who want one window for building web apps.",
+  "notable_for": [
+   "Free during beta",
+   "Editor",
+   "terminal",
+   "and preview"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.meetblueberry.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j579wqt22sd2ny46q52czvtxe984rq6p",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A beta coding workspace outside interface design work."
+ },
+ {
+  "id": "depo:j57e0k3hp4pdkjnxmjeh73v2js8325de",
+  "slug": "capy",
+  "url": "https://capy.ai/",
+  "name": "Capy",
+  "tagline": "AI coding service that runs parallel agents from task to merged pull request",
+  "description": "Capy is an AI software engineering product that runs parallel coding agents. Agents plan, build, and ship work from a task to a merged pull request. Listed uses include pull request review with visual QA, issue triage, documentation, migrations, refactors, and end-to-end tests. It integrates with Slack and has a pricing page.",
+  "category": "agent-design-tooling",
+  "subcategory": "coding-agents-and-editors",
+  "kinds": [
+   "ai-tool",
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "saas",
+    "desktop-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://docs.capy.ai/welcome",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to delegate routine pull requests to agents in parallel. Set review rules first, because the agents open real pull requests.",
+  "why_it_matters": "It is one of the products that run coding agents as a team service.",
+  "notable_for": [
+   "Parallel agents",
+   "Visual QA on pull requests",
+   "Slack integration"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://capy.ai/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j57e0k3hp4pdkjnxmjeh73v2js8325de",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A coding service outside interface design work."
+ },
+ {
+  "id": "depo:j578kr0npthp158tat41zazzts83nk65",
+  "slug": "cline",
+  "url": "https://cline.bot/kanban",
+  "name": "Cline",
+  "tagline": "Open-source coding agent for the terminal, IDE, and a Kanban board of parallel agents",
+  "description": "Cline is an open-source AI coding agent with Plan and Act modes and MCP support. It runs in IDEs, as a CLI, in the cloud, and as an SDK. Cline Kanban runs many agents in parallel, each isolated, from a board of cards. It installs from npm and supports every major model provider.",
+  "category": "agent-design-tooling",
+  "subcategory": "coding-agents-and-editors",
+  "kinds": [
+   "ai-tool",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "apache-2.0"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "cli",
+    "github-repo"
+   ],
+   "platform": [
+    "cross-platform"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "mcp-server",
+    "cli-installable",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npm i -g cline",
+  "package": null,
+  "docs_url": "https://docs.cline.bot/",
+  "repo_url": "https://github.com/cline/cline",
+  "registry_url": null,
+  "github": {
+   "stars": 70034,
+   "license": "Apache-2.0",
+   "last_activity": "2026-10-08"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it when you want an open-source agent that works with any model provider. Set spending limits on your provider keys, because long runs use many tokens.",
+  "why_it_matters": "It is one of the most used open-source coding agents.",
+  "notable_for": [
+   "Plan and Act modes",
+   "Kanban for parallel agents",
+   "Open source"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://cline.bot/kanban (HTTP 200, page fetched 2026-10-09), https://github.com/cline/cline (GitHub API, 70034 stars), depo.zip listing https://www.depo.zip/tools/j578kr0npthp158tat41zazzts83nk65",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A leading open-source coding agent, outside interface design work."
+ },
+ {
+  "id": "depo:j57c8cp1wp4cd26x3r11sj4sjx835s1x",
+  "slug": "clonk",
+  "url": "https://www.clonk.ai/",
+  "name": "Clonk",
+  "tagline": "Mac app that runs a crew of AI agents to plan, build, test, and ship apps",
+  "description": "Clonk runs a fleet of AI agents that plan, build, test, and ship web and iPhone apps. You work on your Mac, in the cloud, with friends in shared rooms, or from your phone. It uses the AI subscriptions you already pay for. A Windows version is on a waitlist.",
+  "category": "agent-design-tooling",
+  "subcategory": "coding-agents-and-editors",
+  "kinds": [
+   "app",
+   "ai-tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "desktop-app"
+   ],
+   "platform": [
+    "macos"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "unknown"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to try multiplayer agent building on a small project. Check the pricing and the access it needs to your accounts first.",
+  "why_it_matters": "It explores shared, multiplayer rooms for agent-built apps.",
+  "notable_for": [
+   "Agent crew",
+   "Multiplayer rooms",
+   "Web and iPhone targets"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.clonk.ai/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j57c8cp1wp4cd26x3r11sj4sjx835s1x",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A coding-agent product outside interface design work."
+ },
+ {
+  "id": "depo:j575vya0bzhp3cx2wygmxmsmah84req3",
+  "slug": "codesurf",
+  "url": "https://github.com/jasonkneen/codesurf",
+  "name": "CodeSurf",
+  "tagline": "Electron app that places terminals, chats, editors, and browsers on an infinite canvas",
+  "description": "CodeSurf is an Electron desktop app with an infinite 2D canvas for AI agents and developers. Terminals, chats, code editors, browsers, notes, boards, and extensions live as blocks on the canvas. It also has tabbed layouts, local agent tooling, and project-scoped workspace state. The repository uses the AGPL-3.0 license.",
+  "category": "agent-design-tooling",
+  "subcategory": "coding-agents-and-editors",
+  "kinds": [
+   "app",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "agpl"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "desktop-app",
+    "npm-package",
+    "github-repo"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npm install -g codesurf",
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/jasonkneen/codesurf",
+  "registry_url": null,
+  "github": {
+   "stars": 293,
+   "license": "AGPL-3.0",
+   "last_activity": "2026-08-20"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to study a spatial canvas layout for developer tools. The AGPL license affects reuse of its code in a hosted product.",
+  "why_it_matters": "It is an example of a canvas interface for agent work instead of tabs.",
+  "notable_for": [
+   "Infinite canvas workspace",
+   "Terminals and browsers as blocks",
+   "AGPL-3.0"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://github.com/jasonkneen/codesurf (HTTP 200, page fetched 2026-10-09), https://github.com/jasonkneen/codesurf (GitHub API, 293 stars), depo.zip listing https://www.depo.zip/tools/j575vya0bzhp3cx2wygmxmsmah84req3",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "An early canvas IDE with 293 stars, outside interface design work."
+ },
+ {
+  "id": "depo:j57atyt14y6cbp157d4c7gwakn834vxm",
+  "slug": "codex",
+  "url": "https://chatgpt.com/codex/",
+  "name": "Codex",
+  "tagline": "OpenAI coding agent in ChatGPT and the terminal for pull requests, refactors, and reviews",
+  "description": "Codex is the OpenAI software engineering agent. In ChatGPT it answers codebase questions, runs code, and drafts pull requests, refactors, and code reviews across parallel tasks. A command-line version installs from npm. Access comes through ChatGPT plans, and the site has a pricing page.",
+  "category": "agent-design-tooling",
+  "subcategory": "coding-agents-and-editors",
+  "kinds": [
+   "ai-tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "account-required"
+   ],
+   "distribution": [
+    "saas",
+    "cli",
+    "npm-package"
+   ],
+   "platform": [
+    "cross-platform"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "cli-installable",
+    "auth-required"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npm i -g @openai/codex",
+  "package": "@openai/codex",
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it for parallel coding tasks that end in a pull request. Connect only the repositories it needs, and review every pull request it opens.",
+  "why_it_matters": "It is one of the main commercial coding agents.",
+  "notable_for": [
+   "From OpenAI",
+   "Cloud and CLI",
+   "Pull request output"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://chatgpt.com/codex/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j57atyt14y6cbp157d4c7gwakn834vxm",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A major coding agent, outside interface design work."
+ },
+ {
+  "id": "depo:j575jd21qe5bbjxm6xg22wnfah835nbc",
+  "slug": "collaborator",
+  "url": "https://cube.computer/",
+  "name": "Cube",
+  "tagline": "Always-on cloud computer and Mac app for running Claude Code and Codex, formerly Collaborator",
+  "description": "Cube, formerly Collaborator, runs coding agents on your Mac or on a personal cloud computer. The agents keep running when your laptop closes. The Mac app keeps projects, terminals, and previews together. The installer link arrives by email.",
+  "category": "agent-design-tooling",
+  "subcategory": "coding-agents-and-editors",
+  "kinds": [
+   "app",
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "desktop-app",
+    "saas"
+   ],
+   "platform": [
+    "macos"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://docs.cube.computer/",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it when agent tasks must keep running after you close your laptop. Check the cost of the cloud computer and the access it needs to your repositories.",
+  "why_it_matters": "It moves long agent runs to a machine that stays on.",
+  "notable_for": [
+   "Formerly Collaborator",
+   "Cloud computer for agents",
+   "Mac app"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://cube.computer/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j575jd21qe5bbjxm6xg22wnfah835nbc",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A coding-agent host outside interface design work."
+ }
+]

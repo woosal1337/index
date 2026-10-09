@@ -1,0 +1,2388 @@
+[
+ {
+  "id": "depo:j578770nghjy4xbtsj1c51mzyx8da7pa",
+  "slug": "ponytail",
+  "url": "https://ponytail.dev/",
+  "name": "ponytail",
+  "tagline": "Ruleset that makes AI coding agents write the least code that works",
+  "description": "ponytail is a ruleset for AI coding agents that pushes them to write the smallest working change. Version 5 is a rebuild, and its benchmark claims 53 percent less code, 41 percent faster runs, 26 percent lower cost, and 45 percent fewer tokens. It also requires a test for 98 percent of risky logic, according to the site.",
+  "category": "agent-design-tooling",
+  "subcategory": "agent-skills",
+  "kinds": [
+   "prompt-pack",
+   "agent-skill"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "github-repo",
+    "copy-paste"
+   ],
+   "platform": [
+    "cross-platform"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "prompts"
+   ],
+   "agent_readiness": [
+    "copy-paste-ready",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/DietrichGebert/ponytail",
+  "registry_url": null,
+  "github": {
+   "stars": 158492,
+   "license": "MIT",
+   "last_activity": "2026-10-08"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to stop an agent from over-building simple changes. Check the benchmark against your own tasks, because results vary by codebase.",
+  "why_it_matters": "It encodes restraint as rules an agent follows.",
+  "notable_for": [
+   "Least code that works",
+   "Benchmarked",
+   "Version 5"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://ponytail.dev/ (HTTP 200, page fetched 2026-10-09), https://github.com/DietrichGebert/ponytail (GitHub API, 158492 stars), depo.zip listing https://www.depo.zip/tools/j578770nghjy4xbtsj1c51mzyx8da7pa",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A coding ruleset outside interface design work."
+ },
+ {
+  "id": "depo:j57axfsarbewqe2wwjnca6brgn7trp5j",
+  "slug": "post-processing-shaders-as-a-creative-medium",
+  "url": "https://blog.maximeheckel.com/posts/post-processing-as-a-creative-medium/",
+  "name": "Post-Processing Shaders as a Creative Medium",
+  "tagline": "Maxime Heckel's illustrated essay on stylized post-processing shaders, from pixel patterns to animation",
+  "description": "This essay by Maxime Heckel compiles a year of post-processing and stylized shader experiments. It moves from pixel patterns and optical illusions to dynamic, animated effects, with interactive demos and code. It builds on shader libraries such as LYGIA and explains each technique step by step.",
+  "category": "essays-guides-courses",
+  "subcategory": "craft-essays",
+  "kinds": [
+   "article"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "article"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "prose",
+    "code"
+   ],
+   "agent_readiness": [
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to learn how to build a stylized look, such as dithering or halftone, as a post-processing pass. Start with one effect and its demo code.",
+  "why_it_matters": "It is a deep, interactive reference on shader-based visual style.",
+  "notable_for": [
+   "Interactive demos",
+   "Pixel patterns and illusions",
+   "Code included"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://blog.maximeheckel.com/posts/post-processing-as-a-creative-medium/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j57axfsarbewqe2wwjnca6brgn7trp5j",
+  "source": "depo",
+  "quality_tier": "A",
+  "tier_reason": "A detailed, hands-on design-engineering essay from a respected author."
+ },
+ {
+  "id": "depo:j57e9f15azhwytwcfzmtm3zx4x88dfz5",
+  "slug": "superlog",
+  "url": "https://superlog.sh/",
+  "name": "Superlog",
+  "tagline": "Agent service that triages alerts, watches deploys, and answers support questions",
+  "description": "Superlog automates routine engineering tasks. It triages alerts, answers support questions, and watches deploys, performance, and observability across code and infrastructure. You choose the model and harness and bring your own tokens and subscriptions.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "saas"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://docs.superlog.sh/",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to reduce on-call triage work. Keep a person in the loop for any production change.",
+  "why_it_matters": "It applies agents to operations work.",
+  "notable_for": [
+   "Alert triage",
+   "Deploy watching",
+   "Bring your own model"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://superlog.sh/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j57e9f15azhwytwcfzmtm3zx4x88dfz5",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "An operations service outside interface design work."
+ },
+ {
+  "id": "depo:j576khpy5gqm3b80w1mf8x0jw57t5jda",
+  "slug": "typescript-training",
+  "url": "https://www.totaltypescript.com/",
+  "name": "Total TypeScript",
+  "tagline": "Matt Pocock's exercise-driven TypeScript workshops and tutorials",
+  "description": "Total TypeScript is a set of self-paced, exercise-driven TypeScript workshops and tutorials by Matt Pocock. Bite-sized challenges teach advanced type techniques for web developers. Some tutorials are free and the full workshops are paid.",
+  "category": "essays-guides-courses",
+  "subcategory": "courses-and-books",
+  "kinds": [
+   "course"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium"
+   ],
+   "distribution": [
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "prose",
+    "video",
+    "code"
+   ],
+   "agent_readiness": [
+    "none"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to strengthen the TypeScript behind component APIs and design systems. Start with the free tutorials.",
+  "why_it_matters": "It is the best-known TypeScript course for web developers.",
+  "notable_for": [
+   "By Matt Pocock",
+   "Exercise-driven",
+   "Free tutorials"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.totaltypescript.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j576khpy5gqm3b80w1mf8x0jw57t5jda",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "A respected course, adjacent to design engineering."
+ },
+ {
+  "id": "depo:j57fq4t1hb1hd1bj4039gyx1wd834hx7",
+  "slug": "you-should-never-build-a-cms",
+  "url": "https://www.sanity.io/blog/you-should-never-build-a-cms",
+  "name": "You should never build a CMS",
+  "tagline": "Sanity's reply to Lee Robinson's move of cursor.com off Sanity",
+  "description": "This Sanity blog post answers Lee Robinson's article about moving cursor.com off Sanity to a custom setup. It accepts some of his points and argues what the migration story leaves out about content operations at scale. It is a vendor perspective in a public debate about headless CMS use.",
+  "category": "essays-guides-courses",
+  "subcategory": "tool-reviews",
+  "kinds": [
+   "article"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "article"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "prose"
+   ],
+   "agent_readiness": [
+    "unknown"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Read it together with Lee Robinson's original post before you choose a CMS approach. Remember that the author sells a CMS.",
+  "why_it_matters": "It shows both sides of the build-or-buy CMS decision.",
+  "notable_for": [
+   "Reply to Lee Robinson",
+   "Vendor perspective"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.sanity.io/blog/you-should-never-build-a-cms (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j57fq4t1hb1hd1bj4039gyx1wd834hx7",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A vendor argument about content tooling, not design practice."
+ },
+ {
+  "id": "depo:j57f34h8yayfzy3frgjhpj7qex86c3j8",
+  "slug": "zero-native",
+  "url": "https://native-sdk.dev/",
+  "name": "Native SDK",
+  "tagline": "Vercel Labs framework for native desktop apps written in TypeScript and Native markup",
+  "description": "Native SDK, from Vercel Labs and formerly listed as zero-native, builds native desktop applications with TypeScript and Native markup. It provides a native renderer, components, app state, and development tools. The earlier listing described Zig with a system WebView or bundled Chromium. A CLI installs from npm.",
+  "category": "component-libraries",
+  "subcategory": "cross-framework-and-native",
+  "kinds": [
+   "component-library",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "unknown"
+   ],
+   "styling": [
+    "unknown"
+   ],
+   "license": [
+    "apache-2.0"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "cli",
+    "github-repo"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "cli-installable",
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npm install -g @native-sdk/cli",
+  "package": null,
+  "docs_url": "https://native-sdk.dev/docs/introduction",
+  "repo_url": "https://github.com/vercel-labs/native",
+  "registry_url": null,
+  "github": {
+   "stars": 7758,
+   "license": "Apache-2.0",
+   "last_activity": "2026-10-08"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to try native desktop UI from TypeScript without Electron. It is young, so check platform support before you commit.",
+  "why_it_matters": "It is a new path to native desktop interfaces for web developers.",
+  "notable_for": [
+   "From Vercel Labs",
+   "Native renderer",
+   "TypeScript"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://native-sdk.dev/ (HTTP 200, page fetched 2026-10-09), https://github.com/vercel-labs/native (GitHub API, 7758 stars), depo.zip listing https://www.depo.zip/tools/j57f34h8yayfzy3frgjhpj7qex86c3j8",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "A promising native UI framework, but early and in flux."
+ },
+ {
+  "id": "depo:j5755rcnszg5n1x0xzkpb7hf3d7t5ts6",
+  "slug": "ably",
+  "url": "https://ably.com/",
+  "name": "Ably",
+  "tagline": "Realtime messaging platform for live chat, collaboration, and AI experiences at scale",
+  "description": "Ably is a realtime platform for live chat, messaging, collaborative apps, and AI experiences. It handles delivery, ordering, and failover at scale. Customers named on the listing include Toyota, Bloomberg, and HubSpot. You start for free.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium"
+   ],
+   "distribution": [
+    "saas",
+    "public-api"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "public-api",
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://ably.com/docs",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it for presence, live cursors, or chat without running your own socket servers. Watch message volume pricing.",
+  "why_it_matters": "It powers the realtime layer of many collaborative interfaces.",
+  "notable_for": [
+   "Realtime at scale",
+   "Free start"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://ably.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j5755rcnszg5n1x0xzkpb7hf3d7t5ts6",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "Infrastructure outside interface design work."
+ },
+ {
+  "id": "depo:j57e6r6ryrkz8z01dmxzss8tas7t4wnz",
+  "slug": "acquire-com",
+  "url": "https://acquire.com/",
+  "name": "Acquire.com",
+  "tagline": "Marketplace for buying and selling profitable online businesses and startups",
+  "description": "Acquire.com is a marketplace where founders sell startups and buyers find profitable online businesses. It lists more than 500,000 qualified buyers and thousands of vetted listings. It also offers M&A advisory, legal help, and escrow.",
+  "category": "utilities-naming",
+  "subcategory": "apps-and-references",
+  "kinds": [
+   "marketplace"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium"
+   ],
+   "distribution": [
+    "marketplace",
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "auth-required"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it when you sell or buy a small software business. It has no design use.",
+  "why_it_matters": "It is a known exit path for small software products.",
+  "notable_for": [
+   "500",
+   "000+ buyers",
+   "Vetted listings",
+   "Advisory and escrow"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://acquire.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j57e6r6ryrkz8z01dmxzss8tas7t4wnz",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A business marketplace outside interface design work."
+ },
+ {
+  "id": "depo:j57am81fj6n5tsfs1xhfa821ad7t5p9t",
+  "slug": "apollo",
+  "url": "https://www.apollo.io/",
+  "name": "Apollo",
+  "tagline": "AI sales platform with contact data and engagement tools for go-to-market teams",
+  "description": "Apollo is an AI go-to-market platform for sales teams. It combines contact and company data, background agents, and execution tools in one system. The site states access to 240 million contacts and 30 million companies.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium"
+   ],
+   "distribution": [
+    "saas",
+    "public-api"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "dataset"
+   ],
+   "agent_readiness": [
+    "public-api",
+    "auth-required"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://docs.apollo.io/",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it for sales prospecting and outreach lists. It has no role in interface design work.",
+  "why_it_matters": "It is a large sales data platform.",
+  "notable_for": [
+   "240M contacts",
+   "Sales agents"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.apollo.io/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j57am81fj6n5tsfs1xhfa821ad7t5p9t",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A sales tool outside interface design work."
+ },
+ {
+  "id": "depo:j572e4w9h4k0mtxtxdpvhkh02d7t917j",
+  "slug": "athas-industries",
+  "url": "https://athas.dev/",
+  "name": "Athas",
+  "tagline": "Lightweight open-source code editor with agents, terminal, and Git built in",
+  "description": "Athas is a lightweight, open-source code editor for people and agents. It brings code, Git workflows, a terminal, and coding agents into one fast workspace. It is free for macOS, Windows, and Linux. The site reported version 0.16.1, about 3,100 GitHub stars, and about 30,000 downloads.",
+  "category": "agent-design-tooling",
+  "subcategory": "coding-agents-and-editors",
+  "kinds": [
+   "app",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "desktop-app",
+    "github-repo"
+   ],
+   "platform": [
+    "macos",
+    "windows",
+    "linux"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://athas.dev/docs/changelog",
+  "repo_url": "https://github.com/athasdev/athas",
+  "registry_url": null,
+  "github": {
+   "stars": 3096,
+   "license": null,
+   "last_activity": "2026-10-08"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it if you want a small editor with agents instead of a heavy IDE. It is pre-1.0, so expect gaps.",
+  "why_it_matters": "It is a light, open alternative among agent editors.",
+  "notable_for": [
+   "Open source",
+   "Agents and Git built in",
+   "Three desktop platforms"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://athas.dev/ (HTTP 200, page fetched 2026-10-09), https://github.com/athasdev/athas (GitHub API, 3096 stars), depo.zip listing https://www.depo.zip/tools/j572e4w9h4k0mtxtxdpvhkh02d7t917j",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A code editor outside interface design work."
+ },
+ {
+  "id": "depo:j57dy6n4mz9fddtvnx47qt0sts835j4y",
+  "slug": "blogsync",
+  "url": "https://blogsync.io/",
+  "name": "BlogSync",
+  "tagline": "Publishes Google Docs, Word files, and Notion pages to WordPress, HubSpot, or Webflow",
+  "description": "BlogSync converts Google Docs, Word documents, and Notion pages into clean, SEO-ready HTML. It publishes directly to WordPress, HubSpot, Webflow, and other CMSs. It has paid plans.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "subscription"
+   ],
+   "distribution": [
+    "saas"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "unknown"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it when writers draft in Docs and the site runs on a CMS. Check the HTML output against your blog design.",
+  "why_it_matters": "It removes copy-and-paste formatting work for content teams.",
+  "notable_for": [
+   "Docs to CMS",
+   "WordPress",
+   "HubSpot",
+   "and Webflow"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://blogsync.io/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j57dy6n4mz9fddtvnx47qt0sts835j4y",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A publishing utility outside interface design work."
+ },
+ {
+  "id": "depo:j5749xzwaya22v4wxqe9de6hyx7t5yjc",
+  "slug": "bonsai",
+  "url": "https://www.hellobonsai.com/",
+  "name": "Bonsai",
+  "tagline": "Business management for freelancers and agencies: CRM, proposals, projects, and invoicing",
+  "description": "Bonsai is business management software for small businesses, freelancers, and agencies. It covers clients and CRM, proposals, contracts, projects, time tracking, resource planning, and invoicing. The site states that more than 500,000 small businesses use it.",
+  "category": "utilities-naming",
+  "subcategory": "apps-and-references",
+  "kinds": [
+   "app"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free-trial",
+    "subscription"
+   ],
+   "distribution": [
+    "saas"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "unknown"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to run the business side of a design practice. Compare plans against the features you need.",
+  "why_it_matters": "It is common among freelance designers for contracts and invoices.",
+  "notable_for": [
+   "Proposals and contracts",
+   "Invoicing",
+   "500",
+   "000+ businesses"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.hellobonsai.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j5749xzwaya22v4wxqe9de6hyx7t5yjc",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A business app outside interface design work."
+ },
+ {
+  "id": "depo:j57ebsjmzmw8wkrv5h7rvnp36d7t5w28",
+  "slug": "budibase",
+  "url": "https://budibase.com/",
+  "name": "Budibase",
+  "tagline": "Open-source low-code platform for internal tools, workflows, and AI agents",
+  "description": "Budibase is an open-source, low-code platform for building internal tools, automating workflows, and running AI agents and chat. It includes apps, automations, connectors, data tables, and an API explorer. It has about 27,500 GitHub stars and a free start.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "tool",
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium",
+    "open-source"
+   ],
+   "distribution": [
+    "saas",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "admin-panel"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://docs.budibase.com/",
+  "repo_url": "https://github.com/Budibase/budibase",
+  "registry_url": null,
+  "github": {
+   "stars": 28331,
+   "license": null,
+   "last_activity": "2026-10-08"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to build internal admin tools fast. Expect generated interfaces, and adjust them for heavy daily use.",
+  "why_it_matters": "It is a leading open-source internal tool builder.",
+  "notable_for": [
+   "Low-code",
+   "Open source",
+   "Agents and automations"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://budibase.com/ (HTTP 200, page fetched 2026-10-09), https://github.com/Budibase/budibase (GitHub API, 28331 stars), depo.zip listing https://www.depo.zip/tools/j57ebsjmzmw8wkrv5h7rvnp36d7t5w28",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A low-code platform outside interface design work."
+ },
+ {
+  "id": "depo:j576j8t1w58002mv6a79b2rcds86z6xz",
+  "slug": "claudefm-cli",
+  "url": "https://claudefm.anants.studio/",
+  "name": "ClaudeFM CLI",
+  "tagline": "Terminal music player for the Claude FM lofi YouTube stream",
+  "description": "ClaudeFM CLI plays the Claude FM YouTube lofi stream in the terminal. It uses mpv for playback and yt-dlp to resolve the stream, with keyboard controls, output-device settings, and a small dashboard. It installs from npm.",
+  "category": "utilities-naming",
+  "subcategory": "apps-and-references",
+  "kinds": [
+   "app",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "cli",
+    "github-repo"
+   ],
+   "platform": [
+    "terminal"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "audio"
+   ],
+   "agent_readiness": [
+    "cli-installable",
+    "open-source-code"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npm install -g claudefm",
+  "package": "claudefm",
+  "docs_url": null,
+  "repo_url": "https://github.com/GithubAnant/claudefm",
+  "registry_url": null,
+  "github": {
+   "stars": 25,
+   "license": "MIT",
+   "last_activity": "2026-07-03"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it for background music in the terminal. It needs mpv and yt-dlp installed.",
+  "why_it_matters": "It is a small example of a polished terminal interface.",
+  "notable_for": [
+   "Terminal player",
+   "mpv and yt-dlp"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://claudefm.anants.studio/ (HTTP 200, page fetched 2026-10-09), https://github.com/GithubAnant/claudefm (GitHub API, 25 stars), depo.zip listing https://www.depo.zip/tools/j576j8t1w58002mv6a79b2rcds86z6xz",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A novelty utility outside interface design work."
+ },
+ {
+  "id": "depo:j572ffdyr7g1gn3z5d8txwmx0n80e8q2",
+  "slug": "detailed-bug-reports-as-easy-as-screenshots",
+  "url": "https://usetool.bar/",
+  "name": "Toolbar",
+  "tagline": "AI test automation that creates, heals, and runs browser QA flows across environments",
+  "description": "Toolbar started as a tool for bug reports that capture the browser environment and every step before a bug. It now positions itself as AI test automation for web apps. It creates, heals, updates, and runs browser-based QA flows across pull requests, staging, and production.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "saas"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "unknown"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to catch visual and flow regressions from fast agent coding. Review healed tests, because a healed test can hide a real change.",
+  "why_it_matters": "It adds automatic QA to fast-moving interfaces.",
+  "notable_for": [
+   "Self-healing browser tests",
+   "PR",
+   "staging",
+   "and production"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://usetool.bar/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j572ffdyr7g1gn3z5d8txwmx0n80e8q2",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A QA service outside interface design work."
+ },
+ {
+  "id": "depo:j5724m925fgqexch8gfx27vycd7xcnnd",
+  "slug": "ebb",
+  "url": "https://ebb.cool/",
+  "name": "Ebb",
+  "tagline": "macOS focus app with time tracking, app and site blocking, and focus music",
+  "description": "Ebb is a macOS focus app for creatives and builders. It blocks distracting apps and websites, plays focus music, and tracks deep work sessions, like a Strava for focus. It runs on Apple Silicon and Intel Macs, and you try it for free.",
+  "category": "utilities-naming",
+  "subcategory": "apps-and-references",
+  "kinds": [
+   "app"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium"
+   ],
+   "distribution": [
+    "desktop-app",
+    "github-repo"
+   ],
+   "platform": [
+    "macos"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "open-source-code"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/CodeClimbersIO/ebb-app",
+  "registry_url": null,
+  "github": {
+   "stars": 79,
+   "license": null,
+   "last_activity": "2025-12-07"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to protect long design sessions from interruptions. Review the tracking settings for privacy.",
+  "why_it_matters": "It supports deep work for makers.",
+  "notable_for": [
+   "App and site blocking",
+   "Focus music",
+   "Session tracking"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://ebb.cool/ (HTTP 200, page fetched 2026-10-09), https://github.com/CodeClimbersIO/ebb-app (GitHub API, 79 stars), depo.zip listing https://www.depo.zip/tools/j5724m925fgqexch8gfx27vycd7xcnnd",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A productivity app outside interface design work."
+ },
+ {
+  "id": "depo:j576k4feqmwgmk83d8mn1qpcqs80fefs",
+  "slug": "email-verification-solutions",
+  "url": "https://emailable.com/",
+  "name": "Emailable",
+  "tagline": "Email verification service that checks addresses before you send, with a 99% deliverability guarantee",
+  "description": "Emailable verifies that email addresses are real and safe to send to, in bulk or at the point of capture. It offers bulk list cleaning, a single-address verifier, an API, and a real-time validation widget. The company states that more than 300,000 businesses use it.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "usage-based"
+   ],
+   "distribution": [
+    "saas",
+    "public-api"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "public-api",
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://emailable.com/docs/",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to validate email fields in sign-up forms. Show a clear, friendly error when an address fails.",
+  "why_it_matters": "It protects sender reputation for product email.",
+  "notable_for": [
+   "Bulk and real-time checks",
+   "API and widget"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://emailable.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j576k4feqmwgmk83d8mn1qpcqs80fefs",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "An email service outside interface design work."
+ },
+ {
+  "id": "depo:j57cvezpzmd0f197rz9wcqgdv58a9fr2",
+  "slug": "env-style",
+  "url": "https://www.env.style/",
+  "name": "env.style",
+  "tagline": "Library that colors or swaps your favicon per environment so every tab shows where you are",
+  "description": "env.style styles the favicon of each environment, such as local, staging, and production, with a color or a custom icon. A live preview updates as you edit, and the package installs from npm, pnpm, or Yarn. It helps you avoid working in the wrong tab.",
+  "category": "utilities-naming",
+  "subcategory": "small-web-utilities",
+  "kinds": [
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "vanilla"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "pnpm add env.style",
+  "package": "env.style",
+  "docs_url": null,
+  "repo_url": "https://github.com/QuadDepo/env.style",
+  "registry_url": null,
+  "github": {
+   "stars": 225,
+   "license": "MIT",
+   "last_activity": "2026-07-23"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it when you switch between staging and production in the same browser. Pick colors that stay distinct at favicon size.",
+  "why_it_matters": "It is a small, visual fix for a common mistake.",
+  "notable_for": [
+   "Color per environment",
+   "Live preview"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.env.style/ (HTTP 200, page fetched 2026-10-09), https://github.com/QuadDepo/env.style (GitHub API, 225 stars), depo.zip listing https://www.depo.zip/tools/j57cvezpzmd0f197rz9wcqgdv58a9fr2",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A small developer utility with modest design value."
+ },
+ {
+  "id": "depo:j57cnh34v9j7yps70p8nq5aa3d7t5v7v",
+  "slug": "flutterflow",
+  "url": "https://flutterflow.io/",
+  "name": "FlutterFlow",
+  "tagline": "Visual platform for building Flutter mobile, web, and desktop apps with code export",
+  "description": "FlutterFlow is a visual development platform for building mobile, web, and desktop apps with Flutter. You design screens in the browser, add Firebase and API integrations and animations, then export the code or deploy to the app stores. It has templates, docs, and a community of experts.",
+  "category": "utilities-naming",
+  "subcategory": "apps-and-references",
+  "kinds": [
+   "app",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "flutter"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium"
+   ],
+   "distribution": [
+    "web-app"
+   ],
+   "platform": [
+    "web",
+    "ios",
+    "android"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://docs.flutterflow.io/",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to build a working app prototype that can become production Flutter code. Plan for code review after export.",
+  "why_it_matters": "It is a leading visual builder for Flutter apps.",
+  "notable_for": [
+   "Visual Flutter builder",
+   "Code export",
+   "App store deploy"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://flutterflow.io/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j57cnh34v9j7yps70p8nq5aa3d7t5v7v",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "A design-adjacent app builder with export, partly paid."
+ },
+ {
+  "id": "depo:j577jc4qn5zprft6w0hwvtvn0s7t4qwv",
+  "slug": "focal",
+  "url": "https://focal.inc/",
+  "name": "Focal",
+  "tagline": "AI digital asset manager for performance ad teams with tagging and creative data",
+  "description": "Focal is a digital asset manager for performance ad teams. It stores creative assets with AI tagging, tracks concepts on creative boards, and links performance data to each asset. It started as a workspace for creative and marketing teams to manage tasks, assets, and copy.",
+  "category": "utilities-naming",
+  "subcategory": "apps-and-references",
+  "kinds": [
+   "app"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free-trial"
+   ],
+   "distribution": [
+    "saas",
+    "public-api"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "images",
+    "video"
+   ],
+   "agent_readiness": [
+    "public-api"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://api.focal.inc/docs",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it when ad creative volume makes folders unworkable. Set a tag scheme before you import assets.",
+  "why_it_matters": "It connects creative work to its performance results.",
+  "notable_for": [
+   "AI tagging",
+   "Creative boards",
+   "Performance data"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://focal.inc/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j577jc4qn5zprft6w0hwvtvn0s7t4qwv",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A marketing asset tool outside interface design work."
+ },
+ {
+  "id": "depo:j5780dfg84czhpaydfcq3p2jrs80e2fa",
+  "slug": "g2i",
+  "url": "https://www.g2i.co/",
+  "name": "G2i",
+  "tagline": "Video-based platform for hiring contract or full-time software engineers",
+  "description": "G2i is a hiring platform for contract and full-time engineers. It reports more than 8,000 engineers available in the US, Latin America, and Europe. It uses video-based vetting and offers a 7-day free trial.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free-trial"
+   ],
+   "distribution": [
+    "saas"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "unknown"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to hire contract or full-time engineers quickly. It has no role in interface design work.",
+  "why_it_matters": "It is a hiring service for engineering teams.",
+  "notable_for": [
+   "8",
+   "000+ engineers",
+   "Video vetting"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.g2i.co/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j5780dfg84czhpaydfcq3p2jrs80e2fa",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A hiring service outside interface design work."
+ },
+ {
+  "id": "depo:j575hp9tg25p866pyd4mx3e9nn7t4990",
+  "slug": "june",
+  "url": "https://www.june.so/",
+  "name": "June",
+  "tagline": "Product analytics for B2B SaaS with auto-generated company-level reports",
+  "description": "June is product analytics for B2B SaaS. It generates reports on how companies, not only users, use a product, and it integrates with Salesforce, HubSpot, and Attio. The site posts an announcement titled A new chapter for June from August 2025, so check the product status before you adopt it.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "saas"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://www.june.so/docs",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Read the August 2025 announcement before you start, because the product future may differ from the site.",
+  "why_it_matters": "It was known for clean, opinionated analytics reports.",
+  "notable_for": [
+   "Company-level analytics",
+   "CRM integrations"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.june.so/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j575hp9tg25p866pyd4mx3e9nn7t4990",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "An analytics service with an uncertain status."
+ },
+ {
+  "id": "depo:j574ggcvb6wjtjayhmwak08mxh84mwpt",
+  "slug": "klack",
+  "url": "https://tryklack.com/",
+  "name": "Klack",
+  "tagline": "Mac app that plays a mechanical keyboard sound with every keystroke",
+  "description": "Klack is a Mac app that plays a satisfying mechanical keyboard sound with every keystroke. The automated check failed, but a manual request on 2026-10-09 returned HTTP 200.",
+  "category": "utilities-naming",
+  "subcategory": "apps-and-references",
+  "kinds": [
+   "app"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "desktop-app"
+   ],
+   "platform": [
+    "macos"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "audio"
+   ],
+   "agent_readiness": [
+    "none"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it if typing feedback helps your focus. Keep the volume low in shared spaces.",
+  "why_it_matters": "It is a small example of sound as interface feedback.",
+  "notable_for": [
+   "Keystroke sounds",
+   "Mac app"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://tryklack.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j574ggcvb6wjtjayhmwak08mxh84mwpt",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A novelty app outside interface design work."
+ },
+ {
+  "id": "depo:j57ceqz86ew7y77sefz72x10b17t4ayj",
+  "slug": "liveblocks",
+  "url": "https://liveblocks.io/",
+  "name": "Liveblocks",
+  "tagline": "Realtime sync, comments, notifications, and editors as ready components for collaborative apps",
+  "description": "Liveblocks provides the infrastructure and ready-made components for collaborative apps. It handles concurrent edits on shared data, so people and AI agents work together without conflicts. Products include a sync engine, contextual comments, notifications, and collaborative text editors, with React components for each.",
+  "category": "component-libraries",
+  "subcategory": "integration-components",
+  "kinds": [
+   "component-library",
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "unknown"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "saas",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "rich-text-editor"
+  ],
+  "component_count": null,
+  "surfaces": [
+   "comments",
+   "notifications",
+   "in-app-notifications"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://liveblocks.io/docs",
+  "repo_url": "https://github.com/liveblocks/liveblocks",
+  "registry_url": null,
+  "github": {
+   "stars": 4752,
+   "license": null,
+   "last_activity": "2026-10-06"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to add comments, presence, or notifications that look like your product. Style the components to your design system, not the defaults.",
+  "why_it_matters": "It turns multiplayer features into drop-in interface parts.",
+  "notable_for": [
+   "Comments and notifications",
+   "Sync engine",
+   "React components"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://liveblocks.io/ (HTTP 200, page fetched 2026-10-09), https://github.com/liveblocks/liveblocks (GitHub API, 4752 stars), depo.zip listing https://www.depo.zip/tools/j57ceqz86ew7y77sefz72x10b17t4ayj",
+  "source": "depo",
+  "quality_tier": "A",
+  "tier_reason": "A mature, well-documented set of collaboration UI components."
+ },
+ {
+  "id": "depo:j57em57x5pqm4z14y1hdgahvc97t4ypk",
+  "slug": "logsnag",
+  "url": "https://logsnag.com/",
+  "name": "LogSnag",
+  "tagline": "Event tracking tool that sends realtime alerts and charts about your product",
+  "description": "LogSnag is a flexible event tracking tool for monitoring a product in real time. You send events from code, get alerts, and track charts and insights about users and revenue. A SaaS-focused version is on a waitlist.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium"
+   ],
+   "distribution": [
+    "saas",
+    "public-api"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "public-api",
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://docs.logsnag.com/",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it for quick alerts on sign-ups and payments in a small product. Do not send personal data in event names.",
+  "why_it_matters": "It is a simple event feed for small teams.",
+  "notable_for": [
+   "Realtime events",
+   "Alerts and charts"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://logsnag.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j57em57x5pqm4z14y1hdgahvc97t4ypk",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "An analytics service outside interface design work."
+ },
+ {
+  "id": "depo:j57b4raqt638hxz9r3sn3t2v257t4mbq",
+  "slug": "miro",
+  "url": "https://miro.com/",
+  "name": "Miro",
+  "tagline": "Visual workspace for whiteboards, diagrams, prototypes, and AI workflows with an MCP server",
+  "description": "Miro is a visual collaboration platform for teams. It covers whiteboards, diagrams including Mermaid, flows, prototypes and wireframes, and AI workflows on an intelligent canvas. It has an MCP server, a developer platform, and enterprise security, and the listing cites more than 50 million users.",
+  "category": "utilities-naming",
+  "subcategory": "apps-and-references",
+  "kinds": [
+   "app",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium"
+   ],
+   "distribution": [
+    "saas",
+    "desktop-app",
+    "mcp-server"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "images"
+   ],
+   "agent_readiness": [
+    "mcp-server",
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://miro.com/capabilities/docs/",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it for workshops, journey maps, and early flows with a whole team. Move final UI work to a design tool.",
+  "why_it_matters": "It is the default shared canvas for product teams.",
+  "notable_for": [
+   "Prototypes and wireframes",
+   "MCP server",
+   "50M+ users"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://miro.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j57b4raqt638hxz9r3sn3t2v257t4mbq",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "A widely used design-adjacent canvas, not a UI design tool."
+ },
+ {
+  "id": "depo:j578qbeth2a5dwtfdrczqhmw4h82683c",
+  "slug": "modem",
+  "url": "https://modem.ai/",
+  "name": "Modem",
+  "tagline": "Customer graph that turns support, chat, and analytics into context for developers and agents",
+  "description": "Modem keeps one living record of what customers said, what the team builds, and what shipped. It turns support, chat, and analytics into developer-ready context, so engineers decide, fix, and ship faster. You connect any agent or use Modem's own agents.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "saas"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://modem.ai/docs",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to link customer feedback to the work that answers it. Check what customer data it ingests.",
+  "why_it_matters": "It connects customer voice to product work.",
+  "notable_for": [
+   "Customer graph",
+   "Agents",
+   "Support and analytics inputs"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://modem.ai/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j578qbeth2a5dwtfdrczqhmw4h82683c",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A product ops service outside interface design work."
+ },
+ {
+  "id": "depo:j5730n9sjxctzqwf1ypt682nvd7xczmg",
+  "slug": "mole",
+  "url": "https://github.com/tw93/Mole",
+  "name": "Mole",
+  "tagline": "Open-source Mac CLI that cleans, uninstalls, analyzes, optimizes, and monitors your system",
+  "description": "Mole is a free, open-source command-line tool that cleans, uninstalls, analyzes, optimizes, and monitors a Mac. A separate native Mac app adds disk maps and live status. The CLI installs with Homebrew, uses the GPL-3.0 license, and has about 70,000 GitHub stars.",
+  "category": "utilities-naming",
+  "subcategory": "apps-and-references",
+  "kinds": [
+   "tool",
+   "app"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "gpl"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "cli",
+    "desktop-app",
+    "github-repo"
+   ],
+   "platform": [
+    "macos"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "cli-installable",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "brew install mole",
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/tw93/Mole",
+  "registry_url": null,
+  "github": {
+   "stars": 69670,
+   "license": "GPL-3.0",
+   "last_activity": "2026-10-08"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to free disk space taken by caches and old builds. Review what it deletes before you confirm.",
+  "why_it_matters": "It is a popular open-source Mac maintenance tool.",
+  "notable_for": [
+   "Clean and uninstall",
+   "Disk analysis",
+   "70",
+   "000 GitHub stars"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://github.com/tw93/Mole (HTTP 200, page fetched 2026-10-09), https://github.com/tw93/Mole (GitHub API, 69670 stars), depo.zip listing https://www.depo.zip/tools/j5730n9sjxctzqwf1ypt682nvd7xczmg",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A system utility outside interface design work."
+ },
+ {
+  "id": "depo:j577kjsef821z2361tkh1zzd9n7t5jsd",
+  "slug": "noor",
+  "url": "https://noor.to/",
+  "name": "Noor",
+  "tagline": "Team chat built for deep work with threads, focus, and short collaboration bursts",
+  "description": "Noor is a chat app for teams that balances uninterrupted deep work with short bursts of collaboration. You think and write in threads, focus, and collaborate. It runs on Apple Silicon Macs and other platforms, and the team aims for two releases a week.",
+  "category": "utilities-naming",
+  "subcategory": "apps-and-references",
+  "kinds": [
+   "app"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "desktop-app",
+    "mobile-app"
+   ],
+   "platform": [
+    "macos",
+    "ios"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "unknown"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it if your team wants calmer chat than Slack. Test it with a small group first.",
+  "why_it_matters": "It designs team chat around focus.",
+  "notable_for": [
+   "Threads first",
+   "Focus mode",
+   "Frequent releases"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://noor.to/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j577kjsef821z2361tkh1zzd9n7t5jsd",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A chat app outside interface design work."
+ }
+]

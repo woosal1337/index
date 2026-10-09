@@ -1,0 +1,2514 @@
+[
+ {
+  "id": "depo:j572b4kxqwmfw1q9jtvj3z1p2989k0n8",
+  "slug": "forgejo",
+  "url": "https://forgejo.org/",
+  "name": "Forgejo",
+  "tagline": "Self-hosted, lightweight software forge for Git hosting, issues, and reviews",
+  "description": "Forgejo is a self-hosted, lightweight software forge. It is easy to install and low in maintenance, and it covers Git hosting, issues, pull requests, and CI. A community nonprofit governs the project.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "download"
+   ],
+   "platform": [
+    "linux"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://forgejo.org/docs/latest/",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to host your own Git service. It has no role in interface design work.",
+  "why_it_matters": "It is a community-run alternative to hosted Git platforms.",
+  "notable_for": [
+   "Self-hosted",
+   "Lightweight",
+   "Community governed"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://forgejo.org/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j572b4kxqwmfw1q9jtvj3z1p2989k0n8",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "Developer infrastructure outside interface design work."
+ },
+ {
+  "id": "depo:j579qzgsbgf9dhkkyb9v0158hn7t6yne",
+  "slug": "fumadocs",
+  "url": "https://www.fumadocs.dev/",
+  "name": "Fumadocs",
+  "tagline": "React documentation framework with a designed default UI for docs sites",
+  "description": "Fumadocs is a React documentation framework for building docs sites with a designed default interface. It supports Next.js and other React setups, content sources such as MDX, BaseHub, and Sanity, search, and theming. It uses the MIT license and has about 13,000 GitHub stars.",
+  "category": "blocks-templates-themes",
+  "subcategory": "templates-and-starters",
+  "kinds": [
+   "template",
+   "component-library"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "tailwind-v4"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "cli",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "help-center",
+   "api-documentation"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/fuma-nama/fumadocs",
+  "registry_url": null,
+  "github": {
+   "stars": 13322,
+   "license": "MIT",
+   "last_activity": "2026-10-08"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to ship a design system or API docs site with a polished layout fast. Theme it early, or every docs site looks the same.",
+  "why_it_matters": "It is a popular base for well-designed documentation sites.",
+  "notable_for": [
+   "Docs framework for React",
+   "Designed default UI",
+   "13",
+   "000 GitHub stars"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.fumadocs.dev/ (HTTP 200, page fetched 2026-10-09), https://github.com/fuma-nama/fumadocs (GitHub API, 13322 stars), depo.zip listing https://www.depo.zip/tools/j579qzgsbgf9dhkkyb9v0158hn7t6yne",
+  "source": "depo",
+  "quality_tier": "A",
+  "tier_reason": "A widely used, active framework for documentation interfaces."
+ },
+ {
+  "id": "depo:j570nd0aarkqyqre3k6kk1feqd7t4mc6",
+  "slug": "geoflow",
+  "url": "https://getgeoflow.com/",
+  "name": "Geoflow",
+  "tagline": "Personalizes Webflow content by visitor location, device, and browser",
+  "description": "Geoflow personalizes a Webflow site for each visitor. It shows or hides content and changes text based on more than 30 visitor data properties, such as location, device type, and browser preferences. It also enriches form submissions with visitor data.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "webflow"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "saas"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "unknown"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it for regional content on a Webflow marketing site. Keep personalization subtle, and test each variant.",
+  "why_it_matters": "It adds personalization to Webflow without code.",
+  "notable_for": [
+   "30+ visitor properties",
+   "Dynamic text",
+   "Form enrichment"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://getgeoflow.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j570nd0aarkqyqre3k6kk1feqd7t4mc6",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A Webflow add-on outside interface design work."
+ },
+ {
+  "id": "depo:j57eh00a8nf9e9djgn7wste9xs7xdhre",
+  "slug": "graphite",
+  "url": "https://graphite.com/",
+  "name": "Graphite",
+  "tagline": "AI-era code review for GitHub teams with stacked pull requests and agent integration",
+  "description": "Graphite is a code review tool for teams on GitHub. It speeds up review with stacked pull requests, AI review, and now Cursor Cloud Agents inside the pull request view. It has documentation and paid plans.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium"
+   ],
+   "distribution": [
+    "saas",
+    "cli"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://graphite.com/docs",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it when many small pull requests, from people or agents, need fast review. It has no role in interface design itself.",
+  "why_it_matters": "It is a leading modern code review tool.",
+  "notable_for": [
+   "Stacked pull requests",
+   "AI review",
+   "Cursor agents in PRs"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://graphite.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j57eh00a8nf9e9djgn7wste9xs7xdhre",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A code review service outside interface design work."
+ },
+ {
+  "id": "depo:j57bpar6yat87dtps34qeeh6bn7t5dra",
+  "slug": "grid-js",
+  "url": "https://gridjs.io/",
+  "name": "Grid.js",
+  "tagline": "Lightweight, open-source JavaScript table plugin that works with most frameworks",
+  "description": "Grid.js is a free, open-source JavaScript table plugin. It works with most JavaScript frameworks and adds search, sorting, pagination, and server-side data to tables. It is light and works on all browsers and devices. It uses the MIT license.",
+  "category": "component-libraries",
+  "subcategory": "cross-framework-and-native",
+  "kinds": [
+   "component-library"
+  ],
+  "facets": {
+   "framework": [
+    "vanilla",
+    "react"
+   ],
+   "styling": [
+    "css-variables"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [
+   "table"
+  ],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://gridjs.io/docs/install",
+  "repo_url": "https://github.com/grid-js/gridjs",
+  "registry_url": null,
+  "github": {
+   "stars": 4690,
+   "license": "MIT",
+   "last_activity": "2026-01-29"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it for a quick, searchable table without a big data-grid library. Restyle the default theme to match your design system.",
+  "why_it_matters": "It is a simple, framework-agnostic table component.",
+  "notable_for": [
+   "Search",
+   "sort",
+   "and paginate",
+   "Framework-agnostic",
+   "MIT license"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://gridjs.io/ (HTTP 200, page fetched 2026-10-09), https://github.com/grid-js/gridjs (GitHub API, 4690 stars), depo.zip listing https://www.depo.zip/tools/j57bpar6yat87dtps34qeeh6bn7t5dra",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "A useful table component with modest activity."
+ },
+ {
+  "id": "depo:j57dskss13s06x7z4gjpkgc1zn7t45ar",
+  "slug": "hoppscotch",
+  "url": "https://hoppscotch.io/",
+  "name": "Hoppscotch",
+  "tagline": "Open-source API development ecosystem for building and testing requests",
+  "description": "Hoppscotch is an open-source API development ecosystem. You create, send, and test HTTP, GraphQL, and realtime requests from the browser or desktop, and share collections with a team. The repository has about 80,000 GitHub stars.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "web-app",
+    "desktop-app",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/hoppscotch/hoppscotch",
+  "registry_url": null,
+  "github": {
+   "stars": 80590,
+   "license": "MIT",
+   "last_activity": "2026-10-07"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to explore an API before you design screens on top of it. It has no direct role in interface design.",
+  "why_it_matters": "It is a leading open-source API client.",
+  "notable_for": [
+   "Open source",
+   "Browser and desktop",
+   "80",
+   "000 GitHub stars"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://hoppscotch.io/ (HTTP 200, page fetched 2026-10-09), https://github.com/hoppscotch/hoppscotch (GitHub API, 80590 stars), depo.zip listing https://www.depo.zip/tools/j57dskss13s06x7z4gjpkgc1zn7t45ar",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A developer tool outside interface design work."
+ },
+ {
+  "id": "depo:j5771ntsypnhbd607p9g9fwyd97t4d5h",
+  "slug": "hygraph",
+  "url": "https://hygraph.com/",
+  "name": "Hygraph",
+  "tagline": "GraphQL-native headless CMS with content federation and MCP workflows",
+  "description": "Hygraph is a GraphQL-native headless CMS. Teams structure and govern content, federate content from other services, and publish across channels. It supports AI workflows, including an MCP server for Claude.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium"
+   ],
+   "distribution": [
+    "saas",
+    "public-api",
+    "mcp-server"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "mcp-server",
+    "public-api",
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://hygraph.com/docs",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it when content comes from several systems and must reach many front ends. Model content with designers before you build.",
+  "why_it_matters": "It is a major headless CMS for structured content.",
+  "notable_for": [
+   "GraphQL-native",
+   "Content federation",
+   "MCP"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://hygraph.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j5771ntsypnhbd607p9g9fwyd97t4d5h",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "Content infrastructure outside interface design work."
+ },
+ {
+  "id": "depo:j5721exrwbz2pdvatmbgp7r1t57xcawh",
+  "slug": "in-app-subscriptions-made-easy",
+  "url": "https://www.revenuecat.com/",
+  "name": "RevenueCat",
+  "tagline": "In-app purchases and subscriptions across iOS, Android, and the web, with paywalls and analytics",
+  "description": "RevenueCat powers in-app purchases and subscriptions across iOS, Android, and the web. It manages customer purchase data, revenue analytics, and growth tools. It has extensive developer docs and a free start.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium"
+   ],
+   "distribution": [
+    "saas",
+    "npm-package"
+   ],
+   "platform": [
+    "ios",
+    "android",
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "paywall"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://www.revenuecat.com/docs",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to run subscriptions in a mobile app without your own receipt validation. Design and test paywall variants carefully.",
+  "why_it_matters": "It is the standard subscription layer for mobile apps.",
+  "notable_for": [
+   "iOS",
+   "Android",
+   "and web",
+   "Subscription analytics"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.revenuecat.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j5721exrwbz2pdvatmbgp7r1t57xcawh",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "Billing infrastructure outside interface design work."
+ },
+ {
+  "id": "depo:j57env0ytmtfpm83krv5y9e0yx7t4at9",
+  "slug": "inbound",
+  "url": "https://inbound.new/",
+  "name": "inbound",
+  "tagline": "Email API to send, receive, parse, and reply, with real inboxes for agents",
+  "description": "inbound is email infrastructure for developers. It sends transactional email, receives and parses inbound messages, and supports replies through a TypeScript SDK and webhooks. A new tool lets an agent run its own mailbox.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "freemium"
+   ],
+   "distribution": [
+    "saas",
+    "npm-package",
+    "public-api"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "public-api",
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "bun add inboundemail",
+  "package": null,
+  "docs_url": "https://inbound.new/docs",
+  "repo_url": "https://github.com/inboundemail/inbound",
+  "registry_url": null,
+  "github": {
+   "stars": 359,
+   "license": "MIT",
+   "last_activity": "2026-10-07"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it when an app or agent must receive and answer email. Set limits on outbound mail from agents.",
+  "why_it_matters": "It makes two-way email simple for apps and agents.",
+  "notable_for": [
+   "Send and receive",
+   "Webhooks",
+   "Agent mailboxes"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://inbound.new/ (HTTP 200, page fetched 2026-10-09), https://github.com/inboundemail/inbound (GitHub API, 359 stars), depo.zip listing https://www.depo.zip/tools/j57env0ytmtfpm83krv5y9e0yx7t4at9",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "Email infrastructure outside interface design work."
+ },
+ {
+  "id": "depo:j5709867txg243n9svnb21a1ms85wqa9",
+  "slug": "infisical",
+  "url": "https://infisical.com/",
+  "name": "Infisical",
+  "tagline": "Open-source identity security for secrets, certificates, and access for people and agents",
+  "description": "Infisical is an all-in-one identity security platform for developers, machines, and AI agents. It manages secrets, certificates, privileged access, and an agent vault. It is open source with a hosted service.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium",
+    "open-source"
+   ],
+   "distribution": [
+    "saas",
+    "cli",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://infisical.com/docs",
+  "repo_url": "https://github.com/Infisical/infisical",
+  "registry_url": null,
+  "github": {
+   "stars": 29664,
+   "license": null,
+   "last_activity": "2026-10-08"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to manage secrets for apps and agents in one place. Self-host it if secrets must stay in your network.",
+  "why_it_matters": "It is a leading open-source secrets platform.",
+  "notable_for": [
+   "Secrets and certificates",
+   "Agent vault",
+   "Open source"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://infisical.com/ (HTTP 200, page fetched 2026-10-09), https://github.com/Infisical/infisical (GitHub API, 29664 stars), depo.zip listing https://www.depo.zip/tools/j5709867txg243n9svnb21a1ms85wqa9",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "Security infrastructure outside interface design work."
+ },
+ {
+  "id": "depo:j57dvm05xg18rrrah1wpwz44rd7ts998",
+  "slug": "ipinfo",
+  "url": "https://ipinfo.io/",
+  "name": "IPinfo",
+  "tagline": "IP address data for geolocation, fraud detection, and analytics",
+  "description": "IPinfo provides IP address data and intelligence for geolocation, fraud detection, analytics, and security. The company states that more than 500,000 developers use it. It offers an API and data downloads.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium"
+   ],
+   "distribution": [
+    "public-api",
+    "download"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "dataset"
+   ],
+   "agent_readiness": [
+    "public-api"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to set a default country or language from the visitor's IP. Always let users change the guess.",
+  "why_it_matters": "It is a common source of IP geolocation.",
+  "notable_for": [
+   "IP geolocation",
+   "Fraud signals",
+   "500",
+   "000+ developers"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://ipinfo.io/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j57dvm05xg18rrrah1wpwz44rd7ts998",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A data service outside interface design work."
+ },
+ {
+  "id": "depo:j572b75kaspcbffcth64mtbp6n86kehe",
+  "slug": "iris-code",
+  "url": "https://www.iriscode.co/",
+  "name": "Iris Code",
+  "tagline": "Code health checks for AI-assisted code in the editor, hooks, CI, and through MCP",
+  "description": "Iris Code keeps AI-assisted code up to a team's standards. It gives coding agents your project rules, checks every change on its own, and enforces the same standard in the editor, Git hooks, and CI. Features include file health scores, secret detection, and dependency audits, plus an MCP server.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium"
+   ],
+   "distribution": [
+    "mcp-server",
+    "npm-package"
+   ],
+   "platform": [
+    "cross-platform"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "mcp-server"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npx -y @iris-code/mcp",
+  "package": null,
+  "docs_url": "https://docs.iriscode.co/",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to keep agent-written code within team rules. Tune the rules so the scores reflect what matters to you.",
+  "why_it_matters": "It adds an independent check to agent output.",
+  "notable_for": [
+   "Health scores",
+   "Secret detection",
+   "MCP server"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.iriscode.co/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j572b75kaspcbffcth64mtbp6n86kehe",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A code quality tool outside interface design work."
+ },
+ {
+  "id": "depo:j573kf4ksh5sxr0c6ycp8as0ed7t5tr3",
+  "slug": "keel",
+  "url": "https://keel.so/",
+  "name": "Keel",
+  "tagline": "Operations platform that replaces legacy ERP tools for fast-moving teams",
+  "description": "Keel is an operations platform for fast-moving teams. It gives operations staff control that legacy ERP systems lack, with tools that operators use and developers extend. The company announced a $6 million raise to transform ERP.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "saas",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://docs.keel.so/",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to build internal operations tools on a shared data model. It has no role in interface design work.",
+  "why_it_matters": "It modernizes internal operations software.",
+  "notable_for": [
+   "Operations platform",
+   "Developer-extendable"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://keel.so/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j573kf4ksh5sxr0c6ycp8as0ed7t5tr3",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "An operations platform outside interface design work."
+ },
+ {
+  "id": "depo:j579f7hew73f5vrh2xx72mzr417t4ebk",
+  "slug": "lemon-squeezy",
+  "url": "https://www.lemonsqueezy.com/",
+  "name": "Lemon Squeezy",
+  "tagline": "Merchant of record for selling software and digital products, with tax handled",
+  "description": "Lemon Squeezy sells digital products and SaaS subscriptions as a merchant of record, so it handles tax compliance. It covers payments, subscriptions, ecommerce, and checkout. A 2026 update connects it with Stripe Managed Payments.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "usage-based"
+   ],
+   "distribution": [
+    "saas",
+    "public-api"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "public-api",
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "checkout",
+   "pricing-website"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://docs.lemonsqueezy.com/help",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to sell a design template or tool without handling sales tax. Customize the checkout to match your brand.",
+  "why_it_matters": "It is a common way for designers to sell digital products.",
+  "notable_for": [
+   "Merchant of record",
+   "Tax handled",
+   "Stripe update"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.lemonsqueezy.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j579f7hew73f5vrh2xx72mzr417t4ebk",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A payments service outside interface design work."
+ },
+ {
+  "id": "depo:j578ef8gm22p2jww8p2q8n14ex7t4fmg",
+  "slug": "lightning-css",
+  "url": "https://lightningcss.dev/",
+  "name": "Lightning CSS",
+  "tagline": "Very fast Rust CSS parser, transformer, bundler, and minifier",
+  "description": "Lightning CSS is a CSS parser, transformer, bundler, and minifier written in Rust. It is over 100 times faster than comparable JavaScript tools, according to the project. It transpiles modern CSS syntax for older browsers and is used inside major build tools. It uses the MPL-2.0 license.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "vanilla-css"
+   ],
+   "license": [
+    "mpl-2.0"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "cli",
+    "github-repo"
+   ],
+   "platform": [
+    "cross-platform"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://lightningcss.dev/docs.html",
+  "repo_url": "https://github.com/parcel-bundler/lightningcss",
+  "registry_url": null,
+  "github": {
+   "stars": 7699,
+   "license": "MPL-2.0",
+   "last_activity": "2026-10-08"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to write modern CSS, such as nesting and new color spaces, and ship it to older browsers. Check its browser targets.",
+  "why_it_matters": "It lets design engineers use new CSS features safely.",
+  "notable_for": [
+   "Rust speed",
+   "Modern CSS transpiling",
+   "Playground"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://lightningcss.dev/ (HTTP 200, page fetched 2026-10-09), https://github.com/parcel-bundler/lightningcss (GitHub API, 7699 stars), depo.zip listing https://www.depo.zip/tools/j578ef8gm22p2jww8p2q8n14ex7t4fmg",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "A widely used CSS tool that matters for styling work."
+ },
+ {
+  "id": "depo:j578a389ng9khx3v40psdhdn817try2a",
+  "slug": "localcan",
+  "url": "https://www.localcan.com/",
+  "name": "LocalCan",
+  "tagline": "Local domains and stable public URLs for localhost, an ngrok alternative for macOS and Windows",
+  "description": "LocalCan gives local projects .local domains and stable, secure public URLs. Developers, designers, and agents use it to test webhooks, OAuth, and payment callbacks or share a live preview. It has flat per-seat pricing with no usage bills and installs with Homebrew.",
+  "category": "utilities-naming",
+  "subcategory": "apps-and-references",
+  "kinds": [
+   "app",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "subscription"
+   ],
+   "distribution": [
+    "desktop-app"
+   ],
+   "platform": [
+    "macos",
+    "windows"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "brew install localcan",
+  "package": null,
+  "docs_url": "https://www.localcan.com/docs",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to share a live design preview with a client from your machine. Stop sharing when the review ends.",
+  "why_it_matters": "It makes local previews shareable with a stable link.",
+  "notable_for": [
+   "Stable public URLs",
+   ".local domains",
+   "Flat pricing"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.localcan.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j578a389ng9khx3v40psdhdn817try2a",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A developer utility outside interface design work."
+ },
+ {
+  "id": "depo:j5719m9wermjw0pzf4xk0p8tgd7t4yb9",
+  "slug": "logrocket",
+  "url": "https://logrocket.com/",
+  "name": "LogRocket",
+  "tagline": "Session replay, product analytics, and error tracking with AI issue detection",
+  "description": "LogRocket combines session replay, product analytics, and error tracking. AI watches sessions to find the issues that affect users before they report them. It has docs and paid plans.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium"
+   ],
+   "distribution": [
+    "saas"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "video"
+   ],
+   "agent_readiness": [
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://docs.logrocket.com/",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use replays to see where users struggle in a new design. Mask personal data before you record.",
+  "why_it_matters": "It shows real user behavior behind design problems.",
+  "notable_for": [
+   "Session replay",
+   "Error tracking",
+   "AI detection"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://logrocket.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j5719m9wermjw0pzf4xk0p8tgd7t4yb9",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "An analytics service, useful for UX research but not a design resource."
+ },
+ {
+  "id": "depo:j573xcs208wxdhwwbvtsr5ftas7t5axh",
+  "slug": "lolo",
+  "url": "https://lolo.co/",
+  "name": "Lolo",
+  "tagline": "Secure networking company for IoT, automotive, and enterprise network security",
+  "description": "Lolo is a company that specializes in secure, globally scalable networking for enterprise, IoT, and automotive customers. It handles millions of devices and recently launched an operator security offering. The depo listing describes programmable networking.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "saas"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "unknown"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it only for device networking needs. It has no role in interface design work.",
+  "why_it_matters": "It is listed for completeness of the depo.zip set.",
+  "notable_for": [
+   "IoT networking",
+   "Network security"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://lolo.co/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j573xcs208wxdhwwbvtsr5ftas7t5axh",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A networking company with no connection to design work."
+ },
+ {
+  "id": "depo:j57cfnw6acnempq8qt4mrd3dzs7y84ah",
+  "slug": "maestro-end-to-end-ui-testing-for-mobile-and-web",
+  "url": "https://maestro.dev/",
+  "name": "Maestro",
+  "tagline": "Open-source end-to-end UI testing for iOS, Android, and web with readable test files",
+  "description": "Maestro creates end-to-end UI tests for iOS, Android, and web apps. Tests use human-readable code and run free on the CLI or in Maestro Studio, then scale on Maestro Cloud. It integrates with CI and positions itself for agent-speed development.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "apache-2.0"
+   ],
+   "pricing": [
+    "freemium",
+    "open-source"
+   ],
+   "distribution": [
+    "cli",
+    "desktop-app",
+    "saas",
+    "github-repo"
+   ],
+   "platform": [
+    "ios",
+    "android",
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "cli-installable",
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://docs.maestro.dev/",
+  "repo_url": "https://github.com/mobile-dev-inc/Maestro",
+  "registry_url": null,
+  "github": {
+   "stars": 15990,
+   "license": "Apache-2.0",
+   "last_activity": "2026-10-08"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to check that key mobile flows still work after design changes. Keep tests on stable labels, not on visual positions.",
+  "why_it_matters": "It makes mobile UI tests readable for the whole team.",
+  "notable_for": [
+   "iOS",
+   "Android",
+   "and web",
+   "Readable tests",
+   "Open source"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://maestro.dev/ (HTTP 200, page fetched 2026-10-09), https://github.com/mobile-dev-inc/Maestro (GitHub API, 15990 stars), depo.zip listing https://www.depo.zip/tools/j57cfnw6acnempq8qt4mrd3dzs7y84ah",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A testing tool outside interface design work."
+ },
+ {
+  "id": "depo:j5702vjmzfjpx7200c4q1gbjz57t4sdp",
+  "slug": "mapbox",
+  "url": "https://www.mapbox.com/",
+  "name": "Mapbox",
+  "tagline": "Maps, location search, navigation, and geospatial data APIs and SDKs for apps",
+  "description": "Mapbox provides APIs and SDKs for custom live maps, location search, turn-by-turn navigation, and geospatial data in mobile and web apps. It now also offers location infrastructure for AI and agent skills. You start for free.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium",
+    "usage-based"
+   ],
+   "distribution": [
+    "saas",
+    "public-api",
+    "npm-package"
+   ],
+   "platform": [
+    "web",
+    "ios",
+    "android"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "agent-skill",
+    "public-api",
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [
+   "map"
+  ],
+  "component_count": null,
+  "surfaces": [
+   "map-view"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://docs.mapbox.com/",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it when a product needs a custom-styled map. Design the map style to match the brand, not the default look.",
+  "why_it_matters": "It is a standard platform for custom maps in apps.",
+  "notable_for": [
+   "Custom live maps",
+   "Navigation",
+   "Agent skills"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.mapbox.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j5702vjmzfjpx7200c4q1gbjz57t4sdp",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "Map infrastructure, useful for map views but not a design resource."
+ },
+ {
+  "id": "depo:j573s4qrnawb5gj2v9cmwzjj717ttgpg",
+  "slug": "markdown-exit",
+  "url": "https://markdown-exit.pages.dev/",
+  "name": "markdown-exit",
+  "tagline": "Fast, extensible, type-safe Markdown toolkit with full CommonMark support",
+  "description": "markdown-exit is a toolkit for Markdown. It is fast, supports the full CommonMark spec, is extensible, and ships strong TypeScript types. It has a guide and an API reference.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/serkodev/markdown-exit",
+  "registry_url": null,
+  "github": {
+   "stars": 1367,
+   "license": "MIT",
+   "last_activity": "2026-08-24"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to render Markdown content in an app with typed extensions. Style the output with your design system's typography.",
+  "why_it_matters": "It is a modern parser for Markdown-driven content.",
+  "notable_for": [
+   "CommonMark",
+   "Type-safe",
+   "Extensible"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://markdown-exit.pages.dev/ (HTTP 200, page fetched 2026-10-09), https://github.com/serkodev/markdown-exit (GitHub API, 1367 stars), depo.zip listing https://www.depo.zip/tools/j573s4qrnawb5gj2v9cmwzjj717ttgpg",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A parsing library outside interface design work."
+ },
+ {
+  "id": "depo:j57bjfd0g05p1fv941qmz0gzqh7t5d7b",
+  "slug": "medusa",
+  "url": "https://medusajs.com/",
+  "name": "Medusa",
+  "tagline": "Open-source, flexible commerce platform for developers and agents",
+  "description": "Medusa is an open-source commerce platform built from Node.js modules. Developers build rich commerce apps without rewriting core commerce logic, and agents use it for agentic commerce. A new built-in search engine was announced at the time of the check.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "saas",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "checkout",
+   "cart-website"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://docs.medusajs.com/",
+  "repo_url": "https://github.com/medusajs/medusa",
+  "registry_url": null,
+  "github": {
+   "stars": 36662,
+   "license": null,
+   "last_activity": "2026-10-08"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it for a custom-designed store with an open-source backend. Plan the storefront design yourself.",
+  "why_it_matters": "It is the leading open-source headless commerce engine.",
+  "notable_for": [
+   "Open source",
+   "Commerce modules",
+   "Agentic commerce"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://medusajs.com/ (HTTP 200, page fetched 2026-10-09), https://github.com/medusajs/medusa (GitHub API, 36662 stars), depo.zip listing https://www.depo.zip/tools/j57bjfd0g05p1fv941qmz0gzqh7t5d7b",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "Commerce infrastructure outside interface design work."
+ },
+ {
+  "id": "depo:j572j4a1663xaqds7gte6ft2t57t54sc",
+  "slug": "memberstack",
+  "url": "https://www.memberstack.com/",
+  "name": "Memberstack",
+  "tagline": "Memberships, logins, payments, and gated content for Webflow, WordPress, and any site",
+  "description": "Memberstack adds memberships, user logins, Stripe payments, and gated content to Webflow, WordPress, and other websites. It offers components to copy and learning resources for Webflow. It is free until you launch and reports more than $200 million processed.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "webflow"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium"
+   ],
+   "distribution": [
+    "saas"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "unknown"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "login-website",
+   "sign-up",
+   "paywall"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to add member areas to a designed Webflow site. Style the login and paywall screens to match the site.",
+  "why_it_matters": "It lets Webflow designers ship membership sites.",
+  "notable_for": [
+   "Webflow memberships",
+   "Stripe payments",
+   "Gated content"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.memberstack.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j572j4a1663xaqds7gte6ft2t57t54sc",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A membership service outside interface design work."
+ },
+ {
+  "id": "depo:j576h6wcg2sbe8x99vrc3va2tx7t66mp",
+  "slug": "merge",
+  "url": "https://www.merge.dev/",
+  "name": "Merge",
+  "tagline": "Unified integrations and agent tools that connect products and AI agents to company data",
+  "description": "Merge provides customer-facing integrations and agent tools. One platform connects products and AI agents to company data, tools, and models, and its new Universal Context Layer acts as a company brain for any agent.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "paid"
+   ],
+   "distribution": [
+    "saas",
+    "public-api"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "public-api",
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://docs.merge.dev/merge-agent-handler/connectors/overview",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to offer many integrations without building each one. Review the data each connector exposes to agents.",
+  "why_it_matters": "It is a major unified API for integrations.",
+  "notable_for": [
+   "Unified integrations",
+   "Agent connectors"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.merge.dev/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j576h6wcg2sbe8x99vrc3va2tx7t66mp",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "Integration infrastructure outside interface design work."
+ },
+ {
+  "id": "depo:j579sb7q96frmmb4b8p0twxkwh84tzvh",
+  "slug": "monocle",
+  "url": "https://monocle.sh/",
+  "name": "Monocle",
+  "tagline": "AI observability platform for AdonisJS apps with traces, logs, errors, and status pages",
+  "description": "Monocle is an observability platform for AdonisJS applications. It collects traces, logs, errors, metrics, and uptime, with dashboards, alerts, queues, a status page, AI help, and an MCP server.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "saas",
+    "npm-package"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "mcp-server",
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://docs.monocle.sh/",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it if your backend runs on AdonisJS. It has no role in interface design work.",
+  "why_it_matters": "It gives one framework an all-in-one monitoring tool.",
+  "notable_for": [
+   "For AdonisJS",
+   "Traces and logs",
+   "MCP"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://monocle.sh/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j579sb7q96frmmb4b8p0twxkwh84tzvh",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "An observability service outside interface design work."
+ },
+ {
+  "id": "depo:j57ejcq6pj3pd4fmyh9wb1j30s7t5mg9",
+  "slug": "n8n-io",
+  "url": "https://n8n.io/",
+  "name": "n8n",
+  "tagline": "Workflow automation platform that combines AI agents with business process automation",
+  "description": "n8n is a workflow automation platform that combines AI capabilities with business process automation. Technical teams get the flexibility of code with the speed of no-code, across hundreds of integrations. It is source-available and self-hostable.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "source-available"
+   ],
+   "pricing": [
+    "freemium"
+   ],
+   "distribution": [
+    "saas",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://docs.n8n.io/",
+  "repo_url": "https://github.com/n8n-io/n8n",
+  "registry_url": null,
+  "github": {
+   "stars": 206728,
+   "license": null,
+   "last_activity": "2026-10-08"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to automate design ops, such as moving assets or posting release notes. Self-host it when data must stay with you.",
+  "why_it_matters": "It is a leading automation tool with AI steps.",
+  "notable_for": [
+   "Visual workflows",
+   "AI agents",
+   "Self-hostable"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://n8n.io/ (HTTP 200, page fetched 2026-10-09), https://github.com/n8n-io/n8n (GitHub API, 206728 stars), depo.zip listing https://www.depo.zip/tools/j57ejcq6pj3pd4fmyh9wb1j30s7t5mg9",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "An automation platform outside interface design work."
+ },
+ {
+  "id": "depo:j575jta8grtwd0fg9gekmwq9qh7t51h6",
+  "slug": "neon",
+  "url": "https://neon.com/",
+  "name": "Neon",
+  "tagline": "Serverless, branchable Postgres with auth, functions, storage, and an AI gateway",
+  "description": "Neon offers serverless, branchable Postgres for apps and agents. It adds auth, functions, storage, and an AI gateway. The free plan now includes 1 GB of storage per project and 100 projects.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium",
+    "usage-based"
+   ],
+   "distribution": [
+    "saas",
+    "cli"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "cli-installable",
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npx neon init",
+  "package": null,
+  "docs_url": "https://neon.com/docs",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it for a database per preview branch while you test a design change. It has no role in interface design itself.",
+  "why_it_matters": "It makes database branches cheap for preview environments.",
+  "notable_for": [
+   "Branchable Postgres",
+   "Generous free plan",
+   "AI gateway"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://neon.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j575jta8grtwd0fg9gekmwq9qh7t51h6",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "Database infrastructure outside interface design work."
+ },
+ {
+  "id": "depo:j579788bpv2bmbv1476dxf4zfx7xdb1d",
+  "slug": "next-gen-web-extension-framework",
+  "url": "https://wxt.dev/",
+  "name": "WXT",
+  "tagline": "Framework for building, zipping, and publishing browser extensions",
+  "description": "WXT is a framework for browser extensions. It focuses on developer experience, with built-in tools to build, zip, and publish an extension, and packages for analytics, auto icons, i18n, and storage. It was at version 0.21.4 when checked.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/wxt-dev/wxt",
+  "registry_url": null,
+  "github": {
+   "stars": 10584,
+   "license": "MIT",
+   "last_activity": "2026-10-08"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to build a browser extension, such as a design helper, with modern tooling. Test popup sizes in each browser.",
+  "why_it_matters": "It is the leading modern extension framework.",
+  "notable_for": [
+   "Build",
+   "zip",
+   "and publish",
+   "Auto icons",
+   "i18n"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://wxt.dev/ (HTTP 200, page fetched 2026-10-09), https://github.com/wxt-dev/wxt (GitHub API, 10584 stars), depo.zip listing https://www.depo.zip/tools/j579788bpv2bmbv1476dxf4zfx7xdb1d",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A developer framework outside interface design work."
+ },
+ {
+  "id": "depo:j575mgapftteejhh2247v9caa982yy9f",
+  "slug": "next-js-by-vercel",
+  "url": "https://nextjs.org/",
+  "name": "Next.js",
+  "tagline": "Vercel's full-stack React framework for the web",
+  "description": "Next.js, by Vercel, is the full-stack React framework for the web. It covers routing, rendering, data fetching, and optimization, with docs, learning courses, templates, and a showcase. Many component libraries and templates in this catalog target it.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "next",
+    "react"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "cli",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "llms-txt",
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npx create-next-app@latest",
+  "package": null,
+  "docs_url": "https://nextjs.org/docs",
+  "repo_url": "https://github.com/vercel/next.js",
+  "registry_url": null,
+  "github": {
+   "stars": 143029,
+   "license": "MIT",
+   "last_activity": "2026-10-08"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it as the base for most React interfaces in this catalog. Check each component library's supported Next.js version.",
+  "why_it_matters": "It is the framework that most catalog UI libraries target.",
+  "notable_for": [
+   "Full-stack React",
+   "Templates and showcase",
+   "From Vercel"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://nextjs.org/ (HTTP 200, page fetched 2026-10-09), https://github.com/vercel/next.js (GitHub API, 143029 stars), depo.zip listing https://www.depo.zip/tools/j575mgapftteejhh2247v9caa982yy9f",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "The main framework under modern React interface work."
+ },
+ {
+  "id": "depo:j57235p5wykp4hr816vbxyaxwh7trk6g",
+  "slug": "next-pwa",
+  "url": "https://github.com/shadowwalker/next-pwa",
+  "name": "next-pwa",
+  "tagline": "Zero-config PWA plugin for Next.js built on Workbox",
+  "description": "next-pwa is a zero-config plugin that turns a Next.js app into a progressive web app. It registers and generates a service worker with Workbox and optimizes precache and runtime cache. It uses the MIT license, but the last push was in July 2024.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "yarn add next-pwa",
+  "package": "next-pwa",
+  "docs_url": null,
+  "repo_url": "https://github.com/shadowwalker/next-pwa",
+  "registry_url": null,
+  "github": {
+   "stars": 4087,
+   "license": "MIT",
+   "last_activity": "2024-07-27"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Check compatibility with your Next.js version first, because the plugin is not maintained. Consider a maintained fork for new projects.",
+  "why_it_matters": "It was the common path to PWAs on Next.js.",
+  "notable_for": [
+   "Zero config",
+   "Workbox"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://github.com/shadowwalker/next-pwa (HTTP 200, page fetched 2026-10-09), https://github.com/shadowwalker/next-pwa (GitHub API, 4087 stars), depo.zip listing https://www.depo.zip/tools/j57235p5wykp4hr816vbxyaxwh7trk6g",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "Unmaintained since July 2024 and outside interface design work."
+ }
+]

@@ -1,0 +1,2334 @@
+[
+ {
+  "id": "depo:j5738jfdk9adtewxtj32hbsqgs84pxff",
+  "slug": "caveman",
+  "url": "https://github.com/JuliusBrussee/caveman",
+  "name": "Caveman",
+  "tagline": "Viral agent skill and proxy that cuts tokens by making coding agents talk like a caveman",
+  "description": "Caveman is a skill and proxy for coding agents that makes them say and read less. The project reports 33.2 percent fewer input tokens through the proxy, and 18 of 18 correct answers across 54 Claude Code runs. It also offers a compact browse mode for web pages. It ships an npm CLI, middleware, and an SDK, uses the Apache 2.0 license, and has more than 110,000 GitHub stars.",
+  "category": "agent-design-tooling",
+  "subcategory": "agent-skills",
+  "kinds": [
+   "agent-skill",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "apache-2.0"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "agent-skill",
+    "npm-package",
+    "cli",
+    "github-repo"
+   ],
+   "platform": [
+    "cross-platform"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "prompts",
+    "code"
+   ],
+   "agent_readiness": [
+    "agent-skill",
+    "cli-installable",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npm install -g @caveman-ai/cli",
+  "package": "@caveman-ai/cli",
+  "docs_url": null,
+  "repo_url": "https://github.com/JuliusBrussee/caveman",
+  "registry_url": null,
+  "github": {
+   "stars": 110585,
+   "license": "Apache-2.0",
+   "last_activity": "2026-10-08"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to cut token costs on long agent sessions. Keep the full style for user-facing text, because the terse output is for the agent, not the reader.",
+  "why_it_matters": "It shows how much an output style changes agent cost.",
+  "notable_for": [
+   "110",
+   "000+ GitHub stars",
+   "Proxy and skill",
+   "Apache 2.0"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://github.com/JuliusBrussee/caveman (HTTP 200, page fetched 2026-10-09), https://github.com/JuliusBrussee/caveman (GitHub API, 110585 stars), depo.zip listing https://www.depo.zip/tools/j5738jfdk9adtewxtj32hbsqgs84pxff",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "Very popular, but an agent cost tool outside interface design work."
+ },
+ {
+  "id": "depo:j578f5w0xbh4ws4j588wab0e7d7t5wzh",
+  "slug": "chatbase",
+  "url": "https://www.chatbase.co/",
+  "name": "Chatbase",
+  "tagline": "AI customer support agents trained on your knowledge base, used by 10,000+ businesses",
+  "description": "Chatbase builds AI agents for customer experience and support from your knowledge base. The agents answer across chat, email, and voice, resolve issues, and reduce ticket volume. The company states that more than 10,000 businesses use it. A free trial and developer guides are available.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free-trial",
+    "subscription"
+   ],
+   "distribution": [
+    "saas",
+    "public-api"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "public-api",
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://www.chatbase.co/docs/developer-guides/overview",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to add a support agent to a site without your own retrieval stack. Review the answers it gives before you let it act on customer accounts.",
+  "why_it_matters": "It is a common hosted option for support chat on websites.",
+  "notable_for": [
+   "Chat",
+   "email",
+   "and voice",
+   "Trained on your docs",
+   "Free trial"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.chatbase.co/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j578f5w0xbh4ws4j588wab0e7d7t5wzh",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A support service outside interface design work."
+ },
+ {
+  "id": "depo:j57dje8txpcrfd6v5r0cmtqp8n835hh7",
+  "slug": "claude-code-skills-hub",
+  "url": "https://tonsofskills.com/",
+  "name": "Tons of Skills",
+  "tagline": "Searchable catalog of about 2,900 agent skills across 434 plugins, free and open source",
+  "description": "Tons of Skills is a free, open-source catalog of skills and extensions for AI coding agents. The site lists about 2,900 marketplace-visible skills across 434 catalog plugins, with fuzzy search, filters, and interactive tutorials. The depo listing, from an earlier date, counted 1,423 skills.",
+  "category": "agent-design-tooling",
+  "subcategory": "mcp-and-registries",
+  "kinds": [
+   "directory"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "web-app",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "prompts"
+   ],
+   "agent_readiness": [
+    "agent-skill",
+    "machine-index",
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://tonsofskills.com/docs",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to find an existing skill before you write one. Read each skill before install, because quality varies across a catalog this large.",
+  "why_it_matters": "It is one of the largest indexes of agent skills.",
+  "notable_for": [
+   "About 2",
+   "900 skills",
+   "434 plugins",
+   "Free and open source"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://tonsofskills.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j57dje8txpcrfd6v5r0cmtqp8n835hh7",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A large directory with uneven entries, outside interface design work."
+ },
+ {
+  "id": "depo:j57eg1fnyq2h7y4bghrj0vxtkh7tsspa",
+  "slug": "claude-code-unified-agents",
+  "url": "https://github.com/stretchcloud/claude-code-unified-agents",
+  "name": "Claude Code Unified Agents",
+  "tagline": "Collection of 54 Claude Code sub-agents gathered from several community repositories",
+  "description": "Claude Code Unified Agents combines 54 specialized Claude Code sub-agents from several community collections. The agents cover development, infrastructure, quality, AI and ML, business, creative, and meta-management work. The repository uses the MIT license and had its last push in August 2025.",
+  "category": "agent-design-tooling",
+  "subcategory": "agent-skills",
+  "kinds": [
+   "prompt-pack"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "github-repo",
+    "copy-paste"
+   ],
+   "platform": [
+    "cross-platform"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "prompts"
+   ],
+   "agent_readiness": [
+    "copy-paste-ready",
+    "open-source-code"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/stretchcloud/claude-code-unified-agents",
+  "registry_url": null,
+  "github": {
+   "stars": 749,
+   "license": "MIT",
+   "last_activity": "2025-08-03"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it as a starting set of sub-agent prompts, then trim it to the roles you need. Check each prompt against current Claude Code features, because the set is from 2025.",
+  "why_it_matters": "It gives a broad sample of sub-agent role prompts in one place.",
+  "notable_for": [
+   "54 sub-agents",
+   "MIT license"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://github.com/stretchcloud/claude-code-unified-agents (HTTP 200, page fetched 2026-10-09), https://github.com/stretchcloud/claude-code-unified-agents (GitHub API, 749 stars), depo.zip listing https://www.depo.zip/tools/j57eg1fnyq2h7y4bghrj0vxtkh7tsspa",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "An unmaintained prompt collection outside interface design work."
+ },
+ {
+  "id": "depo:j57atwqsma53cjhgvd4b4436hx7tsa7f",
+  "slug": "claude-squad",
+  "url": "https://github.com/smtg-ai/claude-squad",
+  "name": "Claude Squad",
+  "tagline": "Terminal app that runs several coding agents in separate workspaces at once",
+  "description": "Claude Squad is a terminal app that manages several Claude Code, Codex, Gemini, Aider, and other local agents in separate workspaces. Tasks run in the background, including an auto-accept mode, and you review changes before you apply them. It installs with Homebrew, uses the AGPL-3.0 license, and has about 8,500 GitHub stars.",
+  "category": "agent-design-tooling",
+  "subcategory": "coding-agents-and-editors",
+  "kinds": [
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "agpl"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "cli",
+    "github-repo"
+   ],
+   "platform": [
+    "terminal"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "cli-installable",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "brew install claude-squad",
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/smtg-ai/claude-squad",
+  "registry_url": null,
+  "github": {
+   "stars": 8582,
+   "license": "AGPL-3.0",
+   "last_activity": "2026-08-20"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to run several agents from one terminal window. Avoid the auto-accept mode on repositories where a wrong change is costly.",
+  "why_it_matters": "It is an early, widely used tool for parallel terminal agents.",
+  "notable_for": [
+   "Separate workspaces",
+   "Background tasks",
+   "AGPL-3.0"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://github.com/smtg-ai/claude-squad (HTTP 200, page fetched 2026-10-09), https://github.com/smtg-ai/claude-squad (GitHub API, 8582 stars), depo.zip listing https://www.depo.zip/tools/j57atwqsma53cjhgvd4b4436hx7tsa7f",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A popular coding tool outside interface design work."
+ },
+ {
+  "id": "depo:j57405769v5jc3bwm7zdk1jznd7tss4f",
+  "slug": "claude-task-master",
+  "url": "https://github.com/eyaltoledano/claude-task-master",
+  "name": "Taskmaster",
+  "tagline": "AI task management system for agent-driven development in Cursor, Windsurf, and other editors",
+  "description": "Taskmaster is a task management system for AI-driven development. It breaks a product requirement into tasks that an AI editor such as Cursor, Lovable, Windsurf, or Roo works through. It runs as an npm CLI or as an MCP server and supports several model providers. The repository has about 28,000 GitHub stars.",
+  "category": "agent-design-tooling",
+  "subcategory": "coding-agents-and-editors",
+  "kinds": [
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "npm-package",
+    "cli",
+    "mcp-server",
+    "github-repo"
+   ],
+   "platform": [
+    "cross-platform"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "mcp-server",
+    "cli-installable",
+    "open-source-code"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npm install -g task-master-ai",
+  "package": "task-master-ai",
+  "docs_url": null,
+  "repo_url": "https://github.com/eyaltoledano/claude-task-master",
+  "registry_url": null,
+  "github": {
+   "stars": 28190,
+   "license": null,
+   "last_activity": "2026-04-28"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to give an agent a structured task list from a requirements document. Read the license terms, because GitHub does not detect a standard license.",
+  "why_it_matters": "It adds planning structure to agent coding sessions.",
+  "notable_for": [
+   "Tasks from a PRD",
+   "CLI and MCP server",
+   "28",
+   "000 GitHub stars"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://github.com/eyaltoledano/claude-task-master (HTTP 200, page fetched 2026-10-09), https://github.com/eyaltoledano/claude-task-master (GitHub API, 28190 stars), depo.zip listing https://www.depo.zip/tools/j57405769v5jc3bwm7zdk1jznd7tss4f",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A popular planning tool outside interface design work."
+ },
+ {
+  "id": "depo:j575qwwqrcg2ecx40mdge608nh7td3am",
+  "slug": "claudelog",
+  "url": "https://claudelog.com/",
+  "name": "ClaudeLog",
+  "tagline": "Guides, tutorials, and best practices for Claude Code from real-world use",
+  "description": "ClaudeLog, by OpenCues, collects Claude Code documentation, tutorials, and best practices from real use. Topics include CLAUDE.md files, plan mode, rewind, context handling, and experimentation habits. The site has a searchable knowledge base, news, and a changelog.",
+  "category": "essays-guides-courses",
+  "subcategory": "ai-workflow-guides",
+  "kinds": [
+   "article"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "article",
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "prose"
+   ],
+   "agent_readiness": [
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to learn Claude Code habits that the official docs do not cover. Check dates on each guide, because the tool changes fast.",
+  "why_it_matters": "It is a large practical guide to one major coding agent.",
+  "notable_for": [
+   "Claude Code guides",
+   "Plan mode and CLAUDE.md",
+   "Searchable"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://claudelog.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j575qwwqrcg2ecx40mdge608nh7td3am",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "Useful, specific workflow guidance, though focused on coding rather than design."
+ },
+ {
+  "id": "depo:j5735gmm092va4ksntjd91skks8a8r3s",
+  "slug": "cloudflare-sandboxes",
+  "url": "https://www.cloudflare.com/products/sandboxes/",
+  "name": "Cloudflare Sandboxes",
+  "tagline": "Isolated environments from Cloudflare for running untrusted and AI-generated code",
+  "description": "Cloudflare Sandboxes run untrusted code in isolated environments through a simple SDK. AI agents, code interpreters, and developer tools use them to execute code, install packages, and work with files. The product is part of the Cloudflare developer platform, which the catalog lists separately.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "usage-based"
+   ],
+   "distribution": [
+    "saas",
+    "public-api"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "public-api",
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it when an agent must run code it wrote without risk to your servers. Estimate the usage cost for long-running sandboxes.",
+  "why_it_matters": "It gives agents a safe place to run code at the edge.",
+  "notable_for": [
+   "From Cloudflare",
+   "Isolated code execution",
+   "SDK"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.cloudflare.com/products/sandboxes/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j5735gmm092va4ksntjd91skks8a8r3s",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "Agent infrastructure outside interface design work."
+ },
+ {
+  "id": "depo:j57dpqj2c8xjxwdjxqmryasdcd834ths",
+  "slug": "cmux",
+  "url": "https://cmux.com/",
+  "name": "cmux",
+  "tagline": "Free, open-source macOS terminal on Ghostty with vertical tabs and agent notifications",
+  "description": "cmux is a free and open-source native macOS terminal built on Ghostty for multitasking with AI coding agents. It has vertical tabs, notification rings when an agent needs attention, and programmable organization. It works with Claude Code, Codex, OpenCode, Gemini CLI, Kiro, Aider, and any CLI tool.",
+  "category": "agent-design-tooling",
+  "subcategory": "coding-agents-and-editors",
+  "kinds": [
+   "app",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "desktop-app",
+    "github-repo"
+   ],
+   "platform": [
+    "macos"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://cmux.com/docs/getting-started",
+  "repo_url": "https://github.com/manaflow-ai/cmux",
+  "registry_url": null,
+  "github": {
+   "stars": 28029,
+   "license": null,
+   "last_activity": "2026-10-08"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it if you run several agents in terminals and miss their prompts. The notification rings show which agent waits for input.",
+  "why_it_matters": "It adapts the terminal itself to agent multitasking.",
+  "notable_for": [
+   "Built on Ghostty",
+   "Vertical tabs",
+   "Agent notification rings"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://cmux.com/ (HTTP 200, page fetched 2026-10-09), https://github.com/manaflow-ai/cmux (GitHub API, 28029 stars), depo.zip listing https://www.depo.zip/tools/j57dpqj2c8xjxwdjxqmryasdcd834ths",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A popular terminal outside interface design work."
+ },
+ {
+  "id": "depo:j57a2gx2df9rgy09yfjsjs50798db03d",
+  "slug": "code-storage",
+  "url": "https://code.storage/",
+  "name": "code.storage",
+  "tagline": "Git infrastructure for AI apps that store code and generated artifacts at scale",
+  "description": "code.storage, from The Pierre Computer Company, is off-the-shelf Git infrastructure for AI applications. It stores code and other machine-generated artifacts at scale through simple SDKs or the native Git protocol. The company states that it serves very large agent workloads.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "saas",
+    "public-api"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "public-api",
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://code.storage/docs",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it when your product creates many repositories for users or agents. Compare the cost with self-hosted Git at your expected scale.",
+  "why_it_matters": "It treats Git as a managed backend for agent products.",
+  "notable_for": [
+   "Git as a service",
+   "SDKs and native Git"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://code.storage/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j57a2gx2df9rgy09yfjsjs50798db03d",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "Developer infrastructure outside interface design work."
+ },
+ {
+  "id": "depo:j5767abzdexg5631mantv0pqjh84412t",
+  "slug": "codebuff",
+  "url": "https://www.codebuff.com/",
+  "name": "Codebuff",
+  "tagline": "Terminal AI coding assistant that edits code and runs commands from plain instructions",
+  "description": "Codebuff is an AI coding assistant for the terminal. You describe a change in plain language, and it edits the codebase and runs terminal commands. The company claims higher quality output and faster runs than Claude Code. It installs from npm and is open source.",
+  "category": "agent-design-tooling",
+  "subcategory": "coding-agents-and-editors",
+  "kinds": [
+   "ai-tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "apache-2.0"
+   ],
+   "pricing": [
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "cli",
+    "github-repo"
+   ],
+   "platform": [
+    "terminal"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "cli-installable",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npm install -g codebuff",
+  "package": "codebuff",
+  "docs_url": "https://www.codebuff.com/docs",
+  "repo_url": "https://github.com/CodebuffAI/freebuff",
+  "registry_url": null,
+  "github": {
+   "stars": 13360,
+   "license": "Apache-2.0",
+   "last_activity": "2026-10-08"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it as an alternative terminal agent and compare it on your own tasks. Check the pricing for model usage.",
+  "why_it_matters": "It is one of the open-source terminal agents.",
+  "notable_for": [
+   "Terminal agent",
+   "Open source"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.codebuff.com/ (HTTP 200, page fetched 2026-10-09), https://github.com/CodebuffAI/freebuff (GitHub API, 13360 stars), depo.zip listing https://www.depo.zip/tools/j5767abzdexg5631mantv0pqjh84412t",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A coding agent outside interface design work."
+ },
+ {
+  "id": "depo:j57em6b6gzcmycw0cwyga7s3ks7t699r",
+  "slug": "context7",
+  "url": "https://context7.com/",
+  "name": "Context7",
+  "tagline": "Upstash service that feeds current, version-specific library docs into AI coding tools",
+  "description": "Context7, an Upstash project, gives LLMs and AI code editors current documentation and code examples for any library. It works with Cursor, Claude Code, Codex, Devin Desktop, Antigravity, and other tools, mostly through MCP. Library owners add their own docs, and the site ranks popular libraries.",
+  "category": "agent-design-tooling",
+  "subcategory": "mcp-and-registries",
+  "kinds": [
+   "mcp-server",
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium"
+   ],
+   "distribution": [
+    "mcp-server",
+    "saas"
+   ],
+   "platform": [
+    "cross-platform"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "prose",
+    "code"
+   ],
+   "agent_readiness": [
+    "mcp-server",
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://context7.com/docs",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it so an agent writes against the current API of a UI library, not an old one from its training data. Name the library and version in the prompt.",
+  "why_it_matters": "It reduces outdated code when agents use fast-moving UI libraries.",
+  "notable_for": [
+   "From Upstash",
+   "Version-specific docs",
+   "MCP server"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://context7.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j57em6b6gzcmycw0cwyga7s3ks7t699r",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "Widely used and useful for agent UI code, though not design-specific."
+ },
+ {
+  "id": "depo:j57enafp6jx7c1zhfqskq78ycs81qyzd",
+  "slug": "cossistant",
+  "url": "https://cossistant.com/",
+  "name": "Cossistant",
+  "tagline": "Open-source AI and human support widget framework for React and Next.js apps",
+  "description": "Cossistant is an open-source framework that adds human and AI customer support to React and Next.js apps. You get programmable actions, custom UI, and code-first workflows, and the AI agent learns from your team. The setup takes a few lines of code with the Next.js package.",
+  "category": "ai-interface-kits",
+  "subcategory": "chat-and-agent-components",
+  "kinds": [
+   "component-library"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "unknown"
+   ],
+   "license": [
+    "agpl"
+   ],
+   "pricing": [
+    "freemium",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo",
+    "saas"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "contacting-support",
+   "chat-web-app"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "pnpm add @cossistant/next",
+  "package": "@cossistant/next",
+  "docs_url": "https://cossistant.com/docs",
+  "repo_url": "https://github.com/cossistantcom/cossistant",
+  "registry_url": null,
+  "github": {
+   "stars": 729,
+   "license": "AGPL-3.0",
+   "last_activity": "2026-09-18"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it when the support widget must match your own design system. Plan for hosting or the paid service, because the AI part needs a backend.",
+  "why_it_matters": "It lets a team own the look of its support chat instead of a third-party embed.",
+  "notable_for": [
+   "Custom UI",
+   "React and Next.js",
+   "Open source"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://cossistant.com/ (HTTP 200, page fetched 2026-10-09), https://github.com/cossistantcom/cossistant (GitHub API, 729 stars), depo.zip listing https://www.depo.zip/tools/j57enafp6jx7c1zhfqskq78ycs81qyzd",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "A focused, open-source chat UI kit with clear docs."
+ },
+ {
+  "id": "depo:j57br2z20f20m4daey2mna8xx182z1z9",
+  "slug": "cred",
+  "url": "https://www.cred.ninja/",
+  "name": "Cred",
+  "tagline": "Open-source OAuth delegation that gives agents short-lived tokens while refresh tokens stay locked",
+  "description": "Cred is credential delegation middleware for AI agents. When an agent needs a user's Google Calendar, Slack, or GitHub, Cred checks the agent's identity and the user's consent, then returns a short-lived token. Refresh tokens never reach the agent. It is open source, self-hosted, and works with your existing auth provider.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "apache-2.0"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npm install @credninja/sdk",
+  "package": "@credninja/sdk",
+  "docs_url": "https://www.cred.ninja/docs",
+  "repo_url": "https://github.com/cred-ninja/sdk",
+  "registry_url": null,
+  "github": {
+   "stars": 21,
+   "license": "Apache-2.0",
+   "last_activity": "2026-10-07"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it when agents must act in user accounts without holding long-lived credentials. Test token expiry with your real providers.",
+  "why_it_matters": "It addresses a key security gap in agent integrations.",
+  "notable_for": [
+   "Short-lived tokens",
+   "Consent checks",
+   "Self-hosted"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.cred.ninja/ (HTTP 200, page fetched 2026-10-09), https://github.com/cred-ninja/sdk (GitHub API, 21 stars), depo.zip listing https://www.depo.zip/tools/j57br2z20f20m4daey2mna8xx182z1z9",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "Agent security infrastructure outside interface design work."
+ },
+ {
+  "id": "depo:j5725cm1vcy0cnbdq8neqe0r797t5qdj",
+  "slug": "daytona",
+  "url": "https://www.daytona.io/",
+  "name": "Daytona",
+  "tagline": "Secure, elastic infrastructure for running AI-generated code in sandboxes",
+  "description": "Daytona provides secure and elastic infrastructure for running AI-generated code. Developers create sandboxes through Python and TypeScript SDKs. It started as an alternative to GitHub Codespaces and now focuses on agent workloads.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "usage-based"
+   ],
+   "distribution": [
+    "saas",
+    "public-api"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "public-api",
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "pip install daytona",
+  "package": null,
+  "docs_url": "https://www.daytona.io/docs/",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to run agent code in disposable sandboxes. Compare its cold-start time and price with other sandbox providers.",
+  "why_it_matters": "It is one of the main sandbox providers for agents.",
+  "notable_for": [
+   "Sandboxes for AI code",
+   "Python and TypeScript SDKs"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.daytona.io/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j5725cm1vcy0cnbdq8neqe0r797t5qdj",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "Agent infrastructure outside interface design work."
+ },
+ {
+  "id": "depo:j575m7qt80dmx8y758bm97q68d7t58f9",
+  "slug": "decktopus-ai",
+  "url": "https://www.decktopus.com/",
+  "name": "Decktopus AI",
+  "tagline": "AI presentation maker that builds an on-brand deck from a topic",
+  "description": "Decktopus is an AI presentation maker. You describe a topic, and it builds a complete, on-brand deck ready to present, share, and track. It targets people who need professional slides without a designer, and it has paid plans.",
+  "category": "agent-design-tooling",
+  "subcategory": "ai-design-apps",
+  "kinds": [
+   "ai-tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium"
+   ],
+   "distribution": [
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "images"
+   ],
+   "agent_readiness": [
+    "auth-required"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it for a fast first draft of a deck. Expect template layouts, and plan a design pass for an important presentation.",
+  "why_it_matters": "It shows the template-driven end of AI deck tools.",
+  "notable_for": [
+   "Deck from a topic",
+   "Sharing and tracking"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.decktopus.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j575m7qt80dmx8y758bm97q68d7t58f9",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A template-driven deck generator with generic output."
+ },
+ {
+  "id": "depo:j57f2en319vt297k3fh7ke002981q48s",
+  "slug": "deepwiki",
+  "url": "https://deepwiki.com/",
+  "name": "DeepWiki",
+  "tagline": "AI documentation you can chat with for every public GitHub repository, by Devin",
+  "description": "DeepWiki, from the team behind Devin, gives up-to-date documentation you can talk to for public repositories. It works like deep research for GitHub: you ask questions about a codebase and get answers with references. The automated check met a bot wall (HTTP 429), so this record uses the depo listing.",
+  "category": "utilities-naming",
+  "subcategory": "apps-and-references",
+  "kinds": [
+   "ai-tool",
+   "app"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "prose"
+   ],
+   "agent_readiness": [
+    "unknown",
+    "bot-blocked"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to understand an unfamiliar library before you build on it. Confirm important answers in the source code.",
+  "why_it_matters": "It makes large codebases readable through questions.",
+  "notable_for": [
+   "Docs for every repo",
+   "Chat with a codebase",
+   "From the Devin team"
+  ],
+  "already_enriched": false,
+  "http_status": 429,
+  "verified_at": "2026-10-09",
+  "evidence": "https://deepwiki.com/ (HTTP 429, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j57f2en319vt297k3fh7ke002981q48s",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "Useful for code research, but outside interface design work and behind a bot wall."
+ },
+ {
+  "id": "depo:j570gwwxkm53y8kp921c9q21vh84k586",
+  "slug": "dex",
+  "url": "https://www.joindex.com/",
+  "name": "Dex",
+  "tagline": "Browser-first AI workspace with operational memory across your tools",
+  "description": "Dex is a browser-first AI workspace, delivered through Chrome, for operators. It ingests and structures data from your tools into one memory, then uses that context to move work forward. Onboarding happens through a booked call, and the site has a pricing page.",
+  "category": "utilities-naming",
+  "subcategory": "apps-and-references",
+  "kinds": [
+   "app",
+   "ai-tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "browser-extension"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "unknown"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it if your work spans many web tools and you want one assistant with memory. Review what data it ingests before you connect accounts.",
+  "why_it_matters": "It is an example of an AI layer built into the browser.",
+  "notable_for": [
+   "Chrome-based",
+   "Operational memory"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.joindex.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j570gwwxkm53y8kp921c9q21vh84k586",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A productivity tool outside interface design work."
+ },
+ {
+  "id": "depo:j579gef8s59ycz9zqv5vykg3bn839m3f",
+  "slug": "dictar",
+  "url": "https://dictar.app/",
+  "name": "Dictar",
+  "tagline": "On-device speech-to-text and voice productivity app for macOS and Windows",
+  "description": "Dictar is a voice productivity app for macOS and Windows. Its listing describes on-device speech to text with Whisper and Parakeet models, 99 languages, and offline use, so audio never leaves the machine. The current site adds reading, rewriting, and snippets. The automated check failed, but a manual request on 2026-10-09 returned HTTP 200.",
+  "category": "utilities-naming",
+  "subcategory": "apps-and-references",
+  "kinds": [
+   "app"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "desktop-app"
+   ],
+   "platform": [
+    "macos",
+    "windows"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "audio"
+   ],
+   "agent_readiness": [
+    "none"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to dictate notes and prompts without a cloud service. Check the model download size before you install it.",
+  "why_it_matters": "It keeps voice input private on the device.",
+  "notable_for": [
+   "On-device models",
+   "99 languages",
+   "Works offline"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://dictar.app/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j579gef8s59ycz9zqv5vykg3bn839m3f",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A productivity app outside interface design work."
+ },
+ {
+  "id": "depo:j57f15jwchdsbhh7xec6nd3d7s84vtz7",
+  "slug": "durable",
+  "url": "https://durable.com/",
+  "name": "Durable",
+  "tagline": "AI business builder that makes a website and adds SEO, CRM, and marketing tools",
+  "description": "Durable is an AI business builder for small businesses. It creates a website with AI, helps with search and AI-search visibility, manages customers, and offers AI marketing tools in one app. The company states that 3 million businesses use it. You start for free.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium"
+   ],
+   "distribution": [
+    "saas"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "auth-required"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it for a quick small-business site, not for a custom design. Expect generic layouts from the generator.",
+  "why_it_matters": "It shows the all-in-one end of AI site builders.",
+  "notable_for": [
+   "Site in 30 seconds",
+   "CRM and marketing tools"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://durable.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j57f15jwchdsbhh7xec6nd3d7s84vtz7",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A generic site builder outside interface design work."
+ },
+ {
+  "id": "depo:j573vgfet94907ee7y5zph7hr186hmh4",
+  "slug": "egregore",
+  "url": "https://egregore.xyz/",
+  "name": "Egregore",
+  "tagline": "Shared memory layer for teams using Claude Code, with async handoffs across sessions",
+  "description": "Egregore is a shared intelligence layer for teams that use Claude Code. It turns the traces of each session into persistent memory, with async handoffs and accumulated knowledge across sessions and people. A create command sets it up, and it is open source.",
+  "category": "agent-design-tooling",
+  "subcategory": "coding-agents-and-editors",
+  "kinds": [
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo"
+   ],
+   "platform": [
+    "cross-platform"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "cli-installable",
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npx create-egregore@latest",
+  "package": null,
+  "docs_url": "https://egregore.xyz/docs",
+  "repo_url": "https://github.com/egregore-labs/egregore",
+  "registry_url": null,
+  "github": {
+   "stars": 291,
+   "license": "MIT",
+   "last_activity": "2026-10-01"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it when several people share one codebase with agents and lose context between sessions. Decide what memory is shared before rollout.",
+  "why_it_matters": "It turns individual agent sessions into team knowledge.",
+  "notable_for": [
+   "Persistent team memory",
+   "Async handoffs",
+   "Open source"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://egregore.xyz/ (HTTP 200, page fetched 2026-10-09), https://github.com/egregore-labs/egregore (GitHub API, 291 stars), depo.zip listing https://www.depo.zip/tools/j573vgfet94907ee7y5zph7hr186hmh4",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A coding-agent tool outside interface design work."
+ },
+ {
+  "id": "depo:j57a38wqkwjt5ctyhtf9crveyh88v5a6",
+  "slug": "eve",
+  "url": "https://vercel.com/eve",
+  "name": "eve",
+  "tagline": "Vercel agent framework with Markdown instructions and skills and TypeScript tools",
+  "description": "eve is an agent framework from Vercel, described as Next.js for agents. You write instructions and skills in Markdown and tools in TypeScript. Agents are durable by default. A CLI command starts a new project.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "npm-package",
+    "cli"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "cli-installable",
+    "agent-skill",
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npx eve@latest init",
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to build an agent with file-based instructions that a designer can read and edit. Deploying it on Vercel adds platform costs.",
+  "why_it_matters": "It makes agent behavior readable as Markdown files.",
+  "notable_for": [
+   "From Vercel",
+   "Markdown instructions",
+   "Durable agents"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://vercel.com/eve (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j57a38wqkwjt5ctyhtf9crveyh88v5a6",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "An agent framework outside interface design work."
+ },
+ {
+  "id": "depo:j5771esr83gwqhsjet030t6xmh7teb3f",
+  "slug": "examples-of-my-claude-code-infrastructure-with-skill-auto-ac",
+  "url": "https://github.com/diet103/claude-code-infrastructure-showcase",
+  "name": "Claude Code Infrastructure Showcase",
+  "tagline": "Reference library of Claude Code skills, hooks, and agents from six months of real use",
+  "description": "This repository is a reference library of Claude Code infrastructure from six months on a large TypeScript microservices project. It shows patterns for skill auto-activation, hooks, and sub-agents, and it addresses the problem of skills that do not activate on their own. The author states that it is a showcase to learn from, not a working app. It uses the MIT license and has about 10,000 stars.",
+  "category": "essays-guides-courses",
+  "subcategory": "ai-workflow-guides",
+  "kinds": [
+   "reference"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code",
+    "prose"
+   ],
+   "agent_readiness": [
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/diet103/claude-code-infrastructure-showcase",
+  "registry_url": null,
+  "github": {
+   "stars": 10031,
+   "license": "MIT",
+   "last_activity": "2026-07-13"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to design your own skill and hook setup. Copy the patterns, not the whole repository.",
+  "why_it_matters": "It shows a tested setup for making agent skills fire reliably.",
+  "notable_for": [
+   "Skill auto-activation",
+   "Hooks and agents",
+   "10",
+   "000 GitHub stars"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://github.com/diet103/claude-code-infrastructure-showcase (HTTP 200, page fetched 2026-10-09), https://github.com/diet103/claude-code-infrastructure-showcase (GitHub API, 10031 stars), depo.zip listing https://www.depo.zip/tools/j5771esr83gwqhsjet030t6xmh7teb3f",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "Practical and popular agent workflow guidance, focused on engineering."
+ },
+ {
+  "id": "depo:j57dqjm87yxa9fqrbqnvs35by58a8zxd",
+  "slug": "executor",
+  "url": "https://executor.sh/",
+  "name": "Executor",
+  "tagline": "Open-source gateway that connects agents to your tools, skills, and automations",
+  "description": "Executor is an open-source gateway that connects every agent to the tools a team already uses. Connectors, skills, automations, and personal software live in one place, set up once for the whole team. It installs from npm in beta and has about 4,100 GitHub stars.",
+  "category": "agent-design-tooling",
+  "subcategory": "mcp-and-registries",
+  "kinds": [
+   "service",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "freemium",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "saas",
+    "github-repo"
+   ],
+   "platform": [
+    "cross-platform"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "beta"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npm i -g executor@beta",
+  "package": null,
+  "docs_url": "https://executor.sh/docs",
+  "repo_url": "https://github.com/UsefulSoftwareCo/executor",
+  "registry_url": null,
+  "github": {
+   "stars": 4110,
+   "license": "MIT",
+   "last_activity": "2026-10-08"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to manage agent tool access for a whole team in one place. Review which connectors each agent gets.",
+  "why_it_matters": "It centralizes agent tool connections for teams.",
+  "notable_for": [
+   "One gateway for agent tools",
+   "Open source",
+   "Beta"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://executor.sh/ (HTTP 200, page fetched 2026-10-09), https://github.com/UsefulSoftwareCo/executor (GitHub API, 4110 stars), depo.zip listing https://www.depo.zip/tools/j57dqjm87yxa9fqrbqnvs35by58a8zxd",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "Agent infrastructure outside interface design work."
+ },
+ {
+  "id": "depo:j570cat1cfptb066m3nr6b6asn7tmnhn",
+  "slug": "factory",
+  "url": "https://factory.com/",
+  "name": "Factory",
+  "tagline": "Agent-native software development platform whose Droids code, test, and deploy",
+  "description": "Factory builds agent-native software development tools. Its Droids automate coding, testing, and deployment for startups and enterprises. It offers a desktop download, docs, and team plans.",
+  "category": "agent-design-tooling",
+  "subcategory": "coding-agents-and-editors",
+  "kinds": [
+   "ai-tool",
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "saas",
+    "desktop-app",
+    "cli"
+   ],
+   "platform": [
+    "cross-platform"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://docs.factory.com/",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to evaluate autonomous agents across the delivery pipeline. Start with test generation before you let agents deploy.",
+  "why_it_matters": "It is one of the main enterprise coding-agent platforms.",
+  "notable_for": [
+   "Droids",
+   "Coding",
+   "testing",
+   "and deployment"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://factory.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j570cat1cfptb066m3nr6b6asn7tmnhn",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A coding-agent platform outside interface design work."
+ },
+ {
+  "id": "depo:j571rareykg7vghxzskq4d8ted7xcggg",
+  "slug": "firecrawl",
+  "url": "https://www.firecrawl.dev/",
+  "name": "Firecrawl",
+  "tagline": "Open-source web data API that searches, scrapes, and crawls sites into clean data for AI",
+  "description": "Firecrawl is a web data API for AI agents and builders. It searches, scrapes, maps, and crawls websites and returns clean, structured data. It is open source under the AGPL-3.0 license, with about 190,000 GitHub stars, and has SDKs and a CLI.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "agpl"
+   ],
+   "pricing": [
+    "freemium",
+    "open-source"
+   ],
+   "distribution": [
+    "saas",
+    "public-api",
+    "cli",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "public-api",
+    "cli-installable",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npx -y firecrawl-cli@latest",
+  "package": null,
+  "docs_url": "https://docs.firecrawl.dev/",
+  "repo_url": "https://github.com/firecrawl/firecrawl",
+  "registry_url": null,
+  "github": {
+   "stars": 189616,
+   "license": "AGPL-3.0",
+   "last_activity": "2026-10-08"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to collect reference sites or docs for an agent as clean text. Respect each site's terms and robots rules.",
+  "why_it_matters": "It is a standard tool for turning websites into agent input.",
+  "notable_for": [
+   "Search",
+   "scrape",
+   "and crawl",
+   "Open source",
+   "190",
+   "000 GitHub stars"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.firecrawl.dev/ (HTTP 200, page fetched 2026-10-09), https://github.com/firecrawl/firecrawl (GitHub API, 189616 stars), depo.zip listing https://www.depo.zip/tools/j571rareykg7vghxzskq4d8ted7xcggg",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A data service outside interface design work."
+ },
+ {
+  "id": "depo:j576g87g8cv1n3t52vepr256997t41gh",
+  "slug": "flowise",
+  "url": "https://flowiseai.com/",
+  "name": "Flowise",
+  "tagline": "Open-source visual builder for AI agents and LLM flows, now being sunset",
+  "description": "Flowise is an open-source, low-code platform for building AI agents and LLM orchestration flows visually. The site states that Flowise is being sunset. It installs from npm and has documentation and case studies.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo"
+   ],
+   "platform": [
+    "cross-platform"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "cli-installable",
+    "open-source-code"
+   ],
+   "maturity": "deprecated"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npx flowise start",
+  "package": null,
+  "docs_url": "https://docs.flowiseai.com/",
+  "repo_url": "https://github.com/FlowiseAI/Flowise",
+  "registry_url": null,
+  "github": {
+   "stars": 55494,
+   "license": null,
+   "last_activity": "2026-08-13"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Do not start a new project on it, because the product is being sunset. Use it only to study a visual flow builder.",
+  "why_it_matters": "It is a well-known example of node-based agent building.",
+  "notable_for": [
+   "Visual agent builder",
+   "Being sunset"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://flowiseai.com/ (HTTP 200, page fetched 2026-10-09), https://github.com/FlowiseAI/Flowise (GitHub API, 55494 stars), depo.zip listing https://www.depo.zip/tools/j576g87g8cv1n3t52vepr256997t41gh",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A deprecated tool outside interface design work."
+ },
+ {
+  "id": "depo:j5740yabpm7tysj7ya52ry8gcs83t9w0",
+  "slug": "geo-seo-claude",
+  "url": "https://github.com/zubair-trabzada/geo-seo-claude",
+  "name": "GEO SEO Claude",
+  "tagline": "Claude Code skill that audits a site for AI search visibility and classic SEO",
+  "description": "GEO SEO Claude is a skill for Claude Code that optimizes websites for AI-powered search engines while keeping classic SEO in place. It scores citability, analyzes AI crawlers, reviews brand authority and schema markup, and writes PDF reports. It uses the MIT license and has about 11,000 GitHub stars.",
+  "category": "agent-design-tooling",
+  "subcategory": "agent-skills",
+  "kinds": [
+   "agent-skill"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "agent-skill",
+    "github-repo"
+   ],
+   "platform": [
+    "cross-platform"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "prompts",
+    "code"
+   ],
+   "agent_readiness": [
+    "agent-skill",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/zubair-trabzada/geo-seo-claude",
+  "registry_url": null,
+  "github": {
+   "stars": 10973,
+   "license": "MIT",
+   "last_activity": "2026-10-08"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to audit how a marketing site appears in AI search answers. Treat its scores as hints, not measured rankings.",
+  "why_it_matters": "It turns a new search discipline into a repeatable agent workflow.",
+  "notable_for": [
+   "AI search audit",
+   "Schema checks",
+   "11",
+   "000 GitHub stars"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://github.com/zubair-trabzada/geo-seo-claude (HTTP 200, page fetched 2026-10-09), https://github.com/zubair-trabzada/geo-seo-claude (GitHub API, 10973 stars), depo.zip listing https://www.depo.zip/tools/j5740yabpm7tysj7ya52ry8gcs83t9w0",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A marketing skill outside interface design work."
+ }
+]

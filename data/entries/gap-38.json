@@ -1,0 +1,2484 @@
+[
+ {
+  "id": "depo:j5731hj32vyayjf4xnhm2pnp998a9sam",
+  "slug": "plinth",
+  "url": "https://plinthai.xyz/",
+  "name": "Plinth",
+  "tagline": "Marketplace that runs a SKILL.md as a metered, pay-per-call REST endpoint and MCP server",
+  "description": "Plinth is an MCP-native marketplace for small, pay-per-call agents. You upload a SKILL.md manifest, and Plinth validates it, runs it in an isolated sandbox, and exposes it as a REST endpoint and an MCP server. Each call is metered and priced. Example agents summarize a page, read an invoice, or classify text.",
+  "category": "agent-design-tooling",
+  "subcategory": "mcp-and-registries",
+  "kinds": [
+   "marketplace",
+   "mcp-server"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "usage-based"
+   ],
+   "distribution": [
+    "marketplace",
+    "mcp-server",
+    "public-api"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "prompts"
+   ],
+   "agent_readiness": [
+    "mcp-server",
+    "public-api",
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://plinthai.xyz/docs",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to sell or buy single-purpose agent skills by the call. Check how it handles the data each call sends.",
+  "why_it_matters": "It turns a skill file into a paid API.",
+  "notable_for": [
+   "SKILL.md to endpoint",
+   "REST and MCP",
+   "Pay per call"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://plinthai.xyz/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j5731hj32vyayjf4xnhm2pnp998a9sam",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "An agent marketplace outside interface design work."
+ },
+ {
+  "id": "depo:j5749350msb8c8qxxae1b29jys835fj0",
+  "slug": "ralph-wiggum",
+  "url": "https://awesomeclaude.ai/ralph-wiggum",
+  "name": "Ralph Wiggum Loop",
+  "tagline": "Guide to the loop technique that feeds a coding agent the same prompt until a task is done",
+  "description": "This Awesome Claude page explains the Ralph Wiggum loop, a technique from Geoffrey Huntley in 2025. A shell loop feeds an agent the same prompt until the task is complete. The guide covers the ralph-loop plugin, the built-in loop, goal, and batch commands in Claude Code, prompt practices, templates, and examples.",
+  "category": "essays-guides-courses",
+  "subcategory": "ai-workflow-guides",
+  "kinds": [
+   "article"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "article"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "prose"
+   ],
+   "agent_readiness": [
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use the technique for long, well-specified tasks with a clear test of done. Set a cost limit, because the loop runs until it stops itself.",
+  "why_it_matters": "It documents a widely copied pattern for autonomous agent runs.",
+  "notable_for": [
+   "Origin and method",
+   "Plugin and built-in commands",
+   "Templates"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://awesomeclaude.ai/ralph-wiggum (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j5749350msb8c8qxxae1b29jys835fj0",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "A clear guide to a popular agent technique, focused on coding."
+ },
+ {
+  "id": "depo:j57c8v812zvgqnzbxweq0hwnhh80e9yq",
+  "slug": "react-grab",
+  "url": "https://www.react-grab.com/",
+  "name": "React Grab",
+  "tagline": "Select any UI element in a React app and hand its exact source to your coding agent",
+  "description": "React Grab lets you select an element in a running React app and copy a pointer to the exact source behind it for a coding agent. The agent finds the right code about twice as fast, according to the site. It works with Claude Code, Codex, and Cursor, and one init command adds it to a project.",
+  "category": "agent-design-tooling",
+  "subcategory": "prompts-and-feedback",
+  "kinds": [
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "cli",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "cli-installable",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npx grab@latest init",
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/aidenybai/react-grab",
+  "registry_url": null,
+  "github": {
+   "stars": 7651,
+   "license": "MIT",
+   "last_activity": "2026-08-22"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it when you review a UI and want an agent to change one specific element. Keep it in development builds only.",
+  "why_it_matters": "It turns pointing at the interface into precise context for an agent.",
+  "notable_for": [
+   "Element to source in one click",
+   "Works with major agents",
+   "Open source"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.react-grab.com/ (HTTP 200, page fetched 2026-10-09), https://github.com/aidenybai/react-grab (GitHub API, 7651 stars), depo.zip listing https://www.depo.zip/tools/j57c8v812zvgqnzbxweq0hwnhh80e9yq",
+  "source": "depo",
+  "quality_tier": "A",
+  "tier_reason": "A popular, focused tool for design-to-code feedback loops."
+ },
+ {
+  "id": "depo:j574qf3wh6ytz6ks6ky4p7pcwn8a9a3p",
+  "slug": "sandbox",
+  "url": "https://vercel.com/sandbox",
+  "name": "Vercel Sandbox",
+  "tagline": "Isolated, ephemeral VMs from Vercel for running AI-generated or untrusted code",
+  "description": "Vercel Sandbox runs code you did not write, such as AI-generated or customer code, in isolated, ephemeral virtual machines. A CLI and SDK create sandboxes on demand. It is part of the Vercel agent stack with AI SDK, AI Gateway, and Workflows.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "usage-based"
+   ],
+   "distribution": [
+    "saas",
+    "cli",
+    "npm-package"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "cli-installable",
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npx sandbox create",
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to run agent code in a disposable VM on Vercel. Watch usage costs for long sessions.",
+  "why_it_matters": "It is the Vercel answer to agent sandboxing.",
+  "notable_for": [
+   "From Vercel",
+   "Ephemeral VMs",
+   "CLI and SDK"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://vercel.com/sandbox (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j574qf3wh6ytz6ks6ky4p7pcwn8a9a3p",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "Agent infrastructure outside interface design work."
+ },
+ {
+  "id": "depo:j579gymbemhg8dvp444qad6yhx8351xd",
+  "slug": "ship-studio",
+  "url": "https://www.ship.studio/",
+  "name": "Ship Studio",
+  "tagline": "Free, open-source desktop app that lets non-developers build and ship sites with coding agents",
+  "description": "Ship Studio is a free, open-source desktop app that wraps agentic development in an interface for people who avoid the terminal. It runs Claude Code, Codex, or OpenCode with your own subscriptions, connects your GitHub account and hosting, and shows agent, repository, and deploys in one window. You own the code and deploy anywhere.",
+  "category": "agent-design-tooling",
+  "subcategory": "ai-design-apps",
+  "kinds": [
+   "app",
+   "ai-tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "desktop-app",
+    "github-repo"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/ship-studio/ship-studio",
+  "registry_url": null,
+  "github": {
+   "stars": 285,
+   "license": "MIT",
+   "last_activity": "2026-09-24"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to let a designer ship a real site with an agent, without a terminal. Set up GitHub first, because the app works on your repositories.",
+  "why_it_matters": "It brings agent coding to designers with a visual shell.",
+  "notable_for": [
+   "No terminal needed",
+   "Own your code",
+   "Free and open source"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.ship.studio/ (HTTP 200, page fetched 2026-10-09), https://github.com/ship-studio/ship-studio (GitHub API, 285 stars), depo.zip listing https://www.depo.zip/tools/j579gymbemhg8dvp444qad6yhx8351xd",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "A clear tool for designers who ship code with agents."
+ },
+ {
+  "id": "depo:j5781w4zs4e8taz5f4qkh7zea97traq5",
+  "slug": "skill-seekers",
+  "url": "https://github.com/yusufkaraaslan/Skill_Seekers/",
+  "name": "Skill Seekers",
+  "tagline": "Turns docs sites, repositories, PDFs, and 15 other sources into AI skills and RAG data",
+  "description": "Skill Seekers converts documentation websites, GitHub repositories, PDFs, videos, notebooks, wikis, and more, 18 source types in total, into structured knowledge. The output powers skills for Claude, Gemini, and OpenAI, or RAG pipelines, with automatic conflict detection between sources. It installs with pip, uses the MIT license, and has about 15,000 stars.",
+  "category": "agent-design-tooling",
+  "subcategory": "agent-skills",
+  "kinds": [
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "python"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "cli",
+    "github-repo"
+   ],
+   "platform": [
+    "cross-platform"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "cli-installable",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "pip install skill-seekers",
+  "package": "skill-seekers",
+  "docs_url": null,
+  "repo_url": "https://github.com/yusufkaraaslan/Skill_Seekers",
+  "registry_url": null,
+  "github": {
+   "stars": 15117,
+   "license": "MIT",
+   "last_activity": "2026-09-30"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to turn a design system's docs into a skill for your agent. Review the generated skill, because automatic summaries miss nuance.",
+  "why_it_matters": "It makes any documentation into agent-ready knowledge.",
+  "notable_for": [
+   "18 source types",
+   "Conflict detection",
+   "MIT license"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://github.com/yusufkaraaslan/Skill_Seekers/ (HTTP 200, page fetched 2026-10-09), https://github.com/yusufkaraaslan/Skill_Seekers (GitHub API, 15117 stars), depo.zip listing https://www.depo.zip/tools/j5781w4zs4e8taz5f4qkh7zea97traq5",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A popular tool, but general agent infrastructure rather than design."
+ },
+ {
+  "id": "depo:j5792skjq7hf9r70vzb2nkj22s83m9nq",
+  "slug": "skills",
+  "url": "https://github.com/clerk/skills",
+  "name": "Clerk Skills",
+  "tagline": "Official agent skills and plugin that help coding agents work with Clerk auth",
+  "description": "Clerk Skills is the official set of agent skills for working with Clerk authentication. The skills follow the Agent Skills format, and the Clerk plugin bundles all of them with the Clerk MCP server. You install them with the skills CLI or the Claude Code plugin marketplace.",
+  "category": "agent-design-tooling",
+  "subcategory": "agent-skills",
+  "kinds": [
+   "agent-skill"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "no-license"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "agent-skill",
+    "github-repo"
+   ],
+   "platform": [
+    "cross-platform"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "prompts"
+   ],
+   "agent_readiness": [
+    "agent-skill",
+    "mcp-server",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "login-web-app",
+   "sign-up"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "npx skills add clerk/skills",
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/clerk/skills",
+  "registry_url": null,
+  "github": {
+   "stars": 87,
+   "license": null,
+   "last_activity": "2026-10-07"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it when an agent adds Clerk sign-in to an app. Check the generated auth screens against your design system afterward.",
+  "why_it_matters": "It gives agents current, vendor-written guidance for one auth provider.",
+  "notable_for": [
+   "Official Clerk skills",
+   "Plugin with MCP server"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://github.com/clerk/skills (HTTP 200, page fetched 2026-10-09), https://github.com/clerk/skills (GitHub API, 87 stars), depo.zip listing https://www.depo.zip/tools/j5792skjq7hf9r70vzb2nkj22s83m9nq",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "Vendor skills outside interface design work."
+ },
+ {
+  "id": "depo:j57ahdt79de6y6v1eqdd5j42518a97gc",
+  "slug": "social",
+  "url": "https://usesocial.dev/",
+  "name": "social",
+  "tagline": "CLI that lets an agent research, post, and run outreach on LinkedIn and X",
+  "description": "social is a command-line tool that lets an agent work on LinkedIn and X. It covers social research, engagement, publishing, and outreach, and it reports audience insights from any shell. The site has a pricing page.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "tool",
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "cli",
+    "saas"
+   ],
+   "platform": [
+    "terminal"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "cli-installable"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to let an agent draft and schedule posts. Review each post before it goes out, and follow each platform's automation rules.",
+  "why_it_matters": "It connects agents to social publishing.",
+  "notable_for": [
+   "LinkedIn and X",
+   "Outreach and posting"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://usesocial.dev/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j57ahdt79de6y6v1eqdd5j42518a97gc",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A marketing tool outside interface design work."
+ },
+ {
+  "id": "depo:j57b1am3ggqv1vqp2tbxkj2y8d7t7s1v",
+  "slug": "stagehand",
+  "url": "https://www.stagehand.dev/",
+  "name": "Stagehand",
+  "tagline": "Browserbase SDK for browser agents with a Playwright-style API and self-healing selectors",
+  "description": "Stagehand, from Browserbase, is an SDK for browser agents. It has a Playwright-style API, self-healing selectors, and versions for TypeScript, Python, and Go. It runs as an extension inside the browser, so remote browsers act as fast as local ones. Version 4.0 is current, and the repository has about 23,700 stars.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npm install @browserbasehq/stagehand",
+  "package": "@browserbasehq/stagehand",
+  "docs_url": "https://docs.stagehand.dev/",
+  "repo_url": "https://github.com/browserbase/stagehand",
+  "registry_url": null,
+  "github": {
+   "stars": 25579,
+   "license": "MIT",
+   "last_activity": "2026-10-08"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to script browser tasks that survive small UI changes. Add explicit checks, because self-healing selectors can click the wrong element.",
+  "why_it_matters": "It is a leading SDK for browser automation by agents.",
+  "notable_for": [
+   "Self-healing selectors",
+   "TypeScript",
+   "Python",
+   "and Go",
+   "Version 4"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.stagehand.dev/ (HTTP 200, page fetched 2026-10-09), https://github.com/browserbase/stagehand (GitHub API, 25579 stars), depo.zip listing https://www.depo.zip/tools/j57b1am3ggqv1vqp2tbxkj2y8d7t7s1v",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "Automation infrastructure outside interface design work."
+ },
+ {
+  "id": "depo:j57ab7g2f4vr9r1vy4w9ysemc18cftz0",
+  "slug": "steel",
+  "url": "https://steel.dev/",
+  "name": "Steel",
+  "tagline": "Open-source browser infrastructure that runs fleets of cloud browser sessions for agents",
+  "description": "Steel is open-source browser infrastructure for AI agents. A simple API controls fleets of browsers in the cloud for web automation. The open-source Steel Browser has about 7,800 GitHub stars, and the site has a cookbook, a leaderboard, and paid plans.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "apache-2.0"
+   ],
+   "pricing": [
+    "freemium",
+    "open-source"
+   ],
+   "distribution": [
+    "saas",
+    "public-api",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "public-api",
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://docs.steel.dev/changelog",
+  "repo_url": "https://github.com/steel-dev/steel-browser",
+  "registry_url": null,
+  "github": {
+   "stars": 7757,
+   "license": "Apache-2.0",
+   "last_activity": "2026-10-06"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it when agents need many browsers at once in the cloud. Self-host the open-source browser if data must stay with you.",
+  "why_it_matters": "It supplies the browsers that web agents run in.",
+  "notable_for": [
+   "Cloud browser fleets",
+   "Open-source browser"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://steel.dev/ (HTTP 200, page fetched 2026-10-09), https://github.com/steel-dev/steel-browser (GitHub API, 7757 stars), depo.zip listing https://www.depo.zip/tools/j57ab7g2f4vr9r1vy4w9ysemc18cftz0",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "Agent infrastructure outside interface design work."
+ },
+ {
+  "id": "depo:j57510ck675gnhsjgryrbqsm217t57m4",
+  "slug": "supabase-schema-visualizer",
+  "url": "https://supabase-schema.vercel.app/",
+  "name": "Supabase Schema Visualizer",
+  "tagline": "Web tool that draws a Supabase database schema with no install and no database password",
+  "description": "Supabase Schema Visualizer draws the schema of a Supabase database as a diagram. It needs no installation and no database password. The public page shows little more detail.",
+  "category": "utilities-naming",
+  "subcategory": "small-web-utilities",
+  "kinds": [
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "unknown"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to show a database structure to designers or new teammates. Check what access the tool needs before you connect a project.",
+  "why_it_matters": "It makes a data model visible for product discussions.",
+  "notable_for": [
+   "No install",
+   "No database password"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://supabase-schema.vercel.app/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j57510ck675gnhsjgryrbqsm217t57m4",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A small utility with thin public detail."
+ },
+ {
+  "id": "depo:j577q4jkfn0wxk4ssdz290m2018a959r",
+  "slug": "supervision",
+  "url": "https://github.com/roboflow/supervision",
+  "name": "Supervision",
+  "tagline": "Roboflow's Python toolkit of reusable computer vision tools and annotators",
+  "description": "Supervision, from Roboflow, is a Python toolkit for computer vision. It covers data loading, annotators that draw detections on images and video, datasets, and tasks such as real-time zone counting. It installs with pip, uses the MIT license, and has about 51,000 GitHub stars.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "python"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "github-repo"
+   ],
+   "platform": [
+    "cross-platform"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "pip install supervision",
+  "package": "supervision",
+  "docs_url": null,
+  "repo_url": "https://github.com/roboflow/supervision",
+  "registry_url": null,
+  "github": {
+   "stars": 51155,
+   "license": "MIT",
+   "last_activity": "2026-10-08"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it in computer vision projects that need clean overlays on images or video. It is a Python library, not a design tool.",
+  "why_it_matters": "It is a standard toolkit for computer vision overlays.",
+  "notable_for": [
+   "From Roboflow",
+   "Annotators",
+   "51",
+   "000 GitHub stars"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://github.com/roboflow/supervision (HTTP 200, page fetched 2026-10-09), https://github.com/roboflow/supervision (GitHub API, 51155 stars), depo.zip listing https://www.depo.zip/tools/j577q4jkfn0wxk4ssdz290m2018a959r",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A computer vision library outside interface design work."
+ },
+ {
+  "id": "depo:j575hex9xqv8c943bh78eznx0n7t63jf",
+  "slug": "superwhisper",
+  "url": "https://superwhisper.com/",
+  "name": "Superwhisper",
+  "tagline": "AI voice-to-text for macOS, Windows, iOS, and Android with offline and cloud models",
+  "description": "Superwhisper turns speech into polished text in any app on macOS, Windows, iOS, and Android. It uses offline and cloud speech recognition, supports more than 100 languages, and offers custom AI modes. The company states SOC 2 Type II certification and HIPAA compliance.",
+  "category": "utilities-naming",
+  "subcategory": "apps-and-references",
+  "kinds": [
+   "app"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "desktop-app",
+    "mobile-app"
+   ],
+   "platform": [
+    "macos",
+    "windows",
+    "ios",
+    "android"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "audio"
+   ],
+   "agent_readiness": [
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://superwhisper.com/docs",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to dictate long prompts and notes faster than you type. Choose the offline model for sensitive content.",
+  "why_it_matters": "It is a popular voice input tool for writing prompts.",
+  "notable_for": [
+   "Offline and cloud models",
+   "100+ languages",
+   "Custom modes"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://superwhisper.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j575hex9xqv8c943bh78eznx0n7t63jf",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A productivity app outside interface design work."
+ },
+ {
+  "id": "depo:j575vcrymp8a73zs39yt36e4kn7t547f",
+  "slug": "t3chat",
+  "url": "https://t3.chat/",
+  "name": "T3 Chat",
+  "tagline": "Chat app with models from Google, OpenAI, Anthropic, DeepSeek, and more for $8 a month",
+  "description": "T3 Chat gives access to AI models from Google, OpenAI, Anthropic, DeepSeek, and others in one chat app. The depo listing states a nearly unlimited tier for $8 a month. The automated check met a bot wall (HTTP 429), so this record uses the listing.",
+  "category": "utilities-naming",
+  "subcategory": "apps-and-references",
+  "kinds": [
+   "app",
+   "ai-tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "subscription"
+   ],
+   "distribution": [
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "unknown",
+    "bot-blocked"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "Listing states a nearly unlimited tier for $8 a month.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to compare model answers in one chat for a low monthly price. Confirm the current price and limits in the app.",
+  "why_it_matters": "It is a low-cost way to try many models in one place.",
+  "notable_for": [
+   "Many model providers",
+   "$8 a month tier"
+  ],
+  "already_enriched": false,
+  "http_status": 429,
+  "verified_at": "2026-10-09",
+  "evidence": "https://t3.chat/ (HTTP 429, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j575vcrymp8a73zs39yt36e4kn7t547f",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A chat app outside interface design work, behind a bot wall."
+ },
+ {
+  "id": "depo:j57118psckqcq0p96bdgsx7bnn835yfm",
+  "slug": "taphaptic",
+  "url": "https://www.taphaptic.com/",
+  "name": "Taphaptic",
+  "tagline": "Sends Claude Code task completions to an Apple Watch as haptic taps",
+  "description": "Taphaptic turns Claude Code task completion signals into haptic taps on an Apple Watch over your local network. The site covers features, installation, daily commands, and troubleshooting, and the source is on GitHub.",
+  "category": "agent-design-tooling",
+  "subcategory": "coding-agents-and-editors",
+  "kinds": [
+   "tool",
+   "app"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "mobile-app",
+    "github-repo"
+   ],
+   "platform": [
+    "macos",
+    "ios"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/dzzzgnr/taphaptic",
+  "registry_url": null,
+  "github": {
+   "stars": 88,
+   "license": "MIT",
+   "last_activity": "2026-07-26"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to step away from the desk while an agent works. It needs an Apple Watch on the same network.",
+  "why_it_matters": "It is a small example of haptic feedback for agent status.",
+  "notable_for": [
+   "Apple Watch haptics",
+   "Local network"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.taphaptic.com/ (HTTP 200, page fetched 2026-10-09), https://github.com/dzzzgnr/taphaptic (GitHub API, 88 stars), depo.zip listing https://www.depo.zip/tools/j57118psckqcq0p96bdgsx7bnn835yfm",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A niche agent utility outside interface design work."
+ },
+ {
+  "id": "depo:j57efchhhw5frvfqkgd3bq6ads8dbhkk",
+  "slug": "telemetry-dev",
+  "url": "https://telemetry.dev/",
+  "name": "telemetry.dev",
+  "tagline": "OpenTelemetry-native observability for LLM calls, agent tool steps, cost, and latency",
+  "description": "telemetry.dev traces model calls, tool steps, and retrievals for AI agents in one view. It shows token use, cost, latency, and errors. It is OpenTelemetry-native with TypeScript and Python SDKs or an existing OTLP exporter, and you start tracing for free.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium"
+   ],
+   "distribution": [
+    "saas"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://telemetry.dev/docs",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to find why an AI feature is slow or expensive. Redact user content in traces when it holds personal data.",
+  "why_it_matters": "It makes agent cost and latency visible.",
+  "notable_for": [
+   "OpenTelemetry-native",
+   "Cost and latency per step"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://telemetry.dev/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j57efchhhw5frvfqkgd3bq6ads8dbhkk",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "An observability service outside interface design work."
+ },
+ {
+  "id": "depo:j57eyjj769c7m1ejvq60fdqfz181qwmq",
+  "slug": "tembo",
+  "url": "https://www.tembo.io/",
+  "name": "Tembo",
+  "tagline": "Runs any coding agent in the cloud, each change on its own computer, from Slack or GitHub",
+  "description": "Tembo runs coding agents such as Claude Code, Cursor, and Codex in the cloud. Every change gets its own computer, and you start work by tagging Tembo in Slack, Linear, GitHub, or elsewhere. Tembo Insights shows agent work, results, and merges. Desktop apps cover macOS, Linux, and Windows, and a self-hosted option exists.",
+  "category": "agent-design-tooling",
+  "subcategory": "coding-agents-and-editors",
+  "kinds": [
+   "service",
+   "ai-tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "saas",
+    "desktop-app"
+   ],
+   "platform": [
+    "cross-platform"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://docs.tembo.io/",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to send routine fixes to agents from your team chat. Require review on every pull request it opens.",
+  "why_it_matters": "It brings coding agents into the tools teams already use.",
+  "notable_for": [
+   "Agents from Slack and Linear",
+   "Computer per change",
+   "Self-hosted option"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.tembo.io/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j57eyjj769c7m1ejvq60fdqfz181qwmq",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A coding-agent service outside interface design work."
+ },
+ {
+  "id": "depo:j574xg6yj90eag7ffcbs8wc5d982scrg",
+  "slug": "the-typescript-ai-framework",
+  "url": "https://mastra.ai/",
+  "name": "Mastra",
+  "tagline": "TypeScript framework for agents with memory, tools, MCP, workflows, and observability",
+  "description": "Mastra is a TypeScript framework for AI agents and apps. It provides memory, tools, MCP support, workflows, streaming, an interactive playground, evals, and tracing. It aims to take agents from prototype to production, and it is open source with a hosted offering.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo",
+    "saas"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "mcp-server",
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://mastra.ai/docs",
+  "repo_url": "https://github.com/mastra-ai/mastra",
+  "registry_url": null,
+  "github": {
+   "stars": 28647,
+   "license": null,
+   "last_activity": "2026-10-08"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it when a TypeScript team needs agents with memory and evals in one framework. Compare it with AI SDK for simpler cases.",
+  "why_it_matters": "It is one of the main TypeScript agent frameworks.",
+  "notable_for": [
+   "Memory and workflows",
+   "Playground and evals",
+   "Open source"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://mastra.ai/ (HTTP 200, page fetched 2026-10-09), https://github.com/mastra-ai/mastra (GitHub API, 28647 stars), depo.zip listing https://www.depo.zip/tools/j574xg6yj90eag7ffcbs8wc5d982scrg",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "An agent framework outside interface design work."
+ },
+ {
+  "id": "depo:j5793sgznhqbjt47srd3x8fdhs7t6tx0",
+  "slug": "translate-your-app",
+  "url": "https://tolgee.io/",
+  "name": "Tolgee",
+  "tagline": "Open-source localization platform with in-context translation and developer SDKs",
+  "description": "Tolgee is an open-source localization platform. It offers in-context translation inside your app, AI translation, collaboration tools, a JavaScript SDK, a CLI, and a REST API. You sign up for free or self-host the platform.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium",
+    "open-source"
+   ],
+   "distribution": [
+    "saas",
+    "npm-package",
+    "cli",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "public-api",
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://docs.tolgee.io/",
+  "repo_url": "https://github.com/tolgee/tolgee-platform",
+  "registry_url": null,
+  "github": {
+   "stars": 4124,
+   "license": null,
+   "last_activity": "2026-10-08"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it so translators see strings in the real interface while they translate. Check long translations for layout breaks.",
+  "why_it_matters": "In-context translation shows text in the real design.",
+  "notable_for": [
+   "In-context translation",
+   "Open source",
+   "SDK and CLI"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://tolgee.io/ (HTTP 200, page fetched 2026-10-09), https://github.com/tolgee/tolgee-platform (GitHub API, 4124 stars), depo.zip listing https://www.depo.zip/tools/j5793sgznhqbjt47srd3x8fdhs7t6tx0",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A localization service outside interface design work."
+ },
+ {
+  "id": "depo:j573rdakwabmbtq0nq604h1xq97tsq0p",
+  "slug": "vibeproxy",
+  "url": "https://github.com/automazeio/vibeproxy",
+  "name": "VibeProxy",
+  "tagline": "macOS menu bar app that routes Claude Code and ChatGPT subscriptions to other coding tools",
+  "description": "VibeProxy is a native macOS menu bar app that lets you use existing Claude Code, ChatGPT, Gemini, Kimi, Qwen, Antigravity, and GLM subscriptions in other AI coding tools, such as Factory Droids. It builds on CLIProxyAPI and handles OAuth, tokens, and API routing without API keys. It uses the MIT license.",
+  "category": "agent-design-tooling",
+  "subcategory": "coding-agents-and-editors",
+  "kinds": [
+   "app",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "desktop-app",
+    "github-repo"
+   ],
+   "platform": [
+    "macos"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/automazeio/vibeproxy",
+  "registry_url": null,
+  "github": {
+   "stars": 3381,
+   "license": "MIT",
+   "last_activity": "2026-10-08"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it only if each provider's terms allow subscription use outside its own apps. Read those terms first.",
+  "why_it_matters": "It shows demand to reuse one subscription across agent tools.",
+  "notable_for": [
+   "Menu bar app",
+   "Many subscriptions",
+   "MIT license"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://github.com/automazeio/vibeproxy (HTTP 200, page fetched 2026-10-09), https://github.com/automazeio/vibeproxy (GitHub API, 3381 stars), depo.zip listing https://www.depo.zip/tools/j573rdakwabmbtq0nq604h1xq97tsq0p",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A routing tool with unclear terms, outside interface design work."
+ },
+ {
+  "id": "depo:j570zxwpeetfp5t9a7tqphvwpx7t4aas",
+  "slug": "voiceflow",
+  "url": "https://www.voiceflow.com/",
+  "name": "Voiceflow",
+  "tagline": "Platform for building and launching chat and voice AI agents for customer experience",
+  "description": "Voiceflow is a platform for building, launching, and scaling chat and voice AI agents for customer support and experience. It started as a tool where conversational AI teams design and prototype experiences together. It has docs for designers and developers, and G2 named it a 2026 Best Software Award winner.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium"
+   ],
+   "distribution": [
+    "saas"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://www.voiceflow.com/docs",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it when designers and developers build a support agent together on a visual canvas. Plan the handoff to people for hard cases.",
+  "why_it_matters": "It is one of the few agent builders with a designer-friendly canvas.",
+  "notable_for": [
+   "Chat and voice agents",
+   "Visual design canvas"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.voiceflow.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j570zxwpeetfp5t9a7tqphvwpx7t4aas",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A support agent platform outside interface design work."
+ },
+ {
+  "id": "depo:j57dn6jv17vjd07th9kv856ey983tn0x",
+  "slug": "weglot",
+  "url": "https://www.weglot.com/",
+  "name": "Weglot",
+  "tagline": "No-code website translation with multilingual SEO and a translation workflow",
+  "description": "Weglot translates a website in minutes without code. It displays and manages multilingual content and handles multilingual SEO. One system replaces separate tools for the whole translation workflow, and it has paid plans.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free-trial",
+    "subscription"
+   ],
+   "distribution": [
+    "saas"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "unknown"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to add languages to a marketing site quickly. Check each language for text that breaks the layout.",
+  "why_it_matters": "It is a common no-code path to a multilingual site.",
+  "notable_for": [
+   "No-code translation",
+   "Multilingual SEO"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.weglot.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j57dn6jv17vjd07th9kv856ey983tn0x",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A translation service outside interface design work."
+ },
+ {
+  "id": "depo:j577p6zqd2vvp91yfckbkf6gk9835ak6",
+  "slug": "workway",
+  "url": "https://workway.co/",
+  "name": "WORKWAY",
+  "tagline": "AI assistant for construction teams that drafts RFIs and tracks submittals through Procore",
+  "description": "WORKWAY connects Procore to Claude or Cursor in one click. You ask in plain language, and the AI drafts RFIs, summarizes daily logs, and tracks submittals. It offers 100 free runs with no credit card.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free-trial"
+   ],
+   "distribution": [
+    "saas",
+    "mcp-server"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "mcp-server"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://workway.co/docs/mcp/claude",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it in construction projects that run on Procore. It has no use outside that domain.",
+  "why_it_matters": "It is an example of a vertical AI agent for one industry tool.",
+  "notable_for": [
+   "Procore connection",
+   "100 free runs"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://workway.co/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j577p6zqd2vvp91yfckbkf6gk9835ak6",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A vertical industry tool outside interface design work."
+ },
+ {
+  "id": "depo:j5759bvzdmam0a8x51s3fq4np18db044",
+  "slug": "aside",
+  "url": "https://heyaside.com/",
+  "name": "Aside",
+  "tagline": "Mac app that records and transcribes meetings without a bot and saves Markdown notes",
+  "description": "Aside records and transcribes meetings on your Mac without adding a bot to the call. Every note is a Markdown file in your own folder, and it also types dictation into any app. It costs $8 a month or $79 once.",
+  "category": "utilities-naming",
+  "subcategory": "apps-and-references",
+  "kinds": [
+   "app"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "subscription",
+    "one-time"
+   ],
+   "distribution": [
+    "desktop-app"
+   ],
+   "platform": [
+    "macos"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "audio",
+    "prose"
+   ],
+   "agent_readiness": [
+    "none"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "$8 a month or $79 once.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to record design reviews as plain Markdown notes. Ask everyone in the call for consent first.",
+  "why_it_matters": "It keeps meeting notes as files you own.",
+  "notable_for": [
+   "No meeting bot",
+   "Markdown notes",
+   "One-time price option"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://heyaside.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j5759bvzdmam0a8x51s3fq4np18db044",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A productivity app outside interface design work."
+ },
+ {
+  "id": "depo:j575yegm4bfeyy65tnpm3hf4kn7t6wvw",
+  "slug": "consent-io",
+  "url": "https://inth.com/",
+  "name": "Inth",
+  "tagline": "Cookie consent banner built into your app and styled like your product, formerly consent.io",
+  "description": "Inth, formerly consent.io, puts a cookie consent banner inside your app instead of a third-party script. The banner is styled like your product, follows regional rules, and records every choice. The site reports 89 ms to screen on a consent benchmark. It also audits code and websites for privacy risk, and its docs build on the open-source c15t library.",
+  "category": "component-libraries",
+  "subcategory": "integration-components",
+  "kinds": [
+   "component-library",
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "unknown"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium"
+   ],
+   "distribution": [
+    "npm-package",
+    "saas"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [
+   "banner"
+  ],
+  "component_count": null,
+  "surfaces": [
+   "cookie-consent"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://c15t.com/docs/frameworks/next/quickstart",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it when the consent banner must match your design system. Have legal review the regional rules for your markets.",
+  "why_it_matters": "It treats the consent banner as a designed product component.",
+  "notable_for": [
+   "Styled like your app",
+   "Regional rules",
+   "Consent records"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://inth.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j575yegm4bfeyy65tnpm3hf4kn7t6wvw",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "A design-aware consent component with documentation, partly paid."
+ },
+ {
+  "id": "depo:j57afv2wr3k1y3x4k3szbmx4qs8da834",
+  "slug": "developer-index",
+  "url": "https://www.firecrawl.dev/developer-index",
+  "name": "Firecrawl Developer Index",
+  "tagline": "Search API over 70M+ GitHub READMEs, issues, pull requests, and docs for coding agents",
+  "description": "Developer Index, from Firecrawl, is a search index for coding agents. One endpoint searches more than 70 million GitHub READMEs, issues, merged pull requests, and documentation pages. Firecrawl claims the highest recall of any coding-specific index, and no API key is needed to start.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium"
+   ],
+   "distribution": [
+    "public-api",
+    "cli"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "public-api",
+    "cli-installable",
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://docs.firecrawl.dev/",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to let an agent find real usage examples of a library. Verify found code against the library's current docs.",
+  "why_it_matters": "It gives agents a large search index of real code discussions.",
+  "notable_for": [
+   "70M+ documents",
+   "No key to start"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.firecrawl.dev/developer-index (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j57afv2wr3k1y3x4k3szbmx4qs8da834",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A search service outside interface design work."
+ },
+ {
+  "id": "depo:j579qxde55bxrgygst0kyg43hx80fgwb",
+  "slug": "developer-roadmaps",
+  "url": "https://roadmap.sh/",
+  "name": "roadmap.sh",
+  "tagline": "Community roadmaps, guides, and courses for developer and design roles",
+  "description": "roadmap.sh offers community-built roadmaps, articles, guides, and courses for developers. Roadmaps cover frontend, backend, full stack, DevOps, and many more roles, including design-related paths. An AI tutor and lesson packs add guided learning.",
+  "category": "essays-guides-courses",
+  "subcategory": "courses-and-books",
+  "kinds": [
+   "course",
+   "reference"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium"
+   ],
+   "distribution": [
+    "web-app",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "prose"
+   ],
+   "agent_readiness": [
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/nilbuild/developer-roadmap",
+  "registry_url": null,
+  "github": {
+   "stars": 368971,
+   "license": null,
+   "last_activity": "2026-10-08"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use the frontend and design system roadmaps to plan what a junior designer-developer should learn next. Pick one path and finish it.",
+  "why_it_matters": "It is the most used map of skills for web roles.",
+  "notable_for": [
+   "Role-based roadmaps",
+   "AI tutor",
+   "Open source"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://roadmap.sh/ (HTTP 200, page fetched 2026-10-09), https://github.com/nilbuild/developer-roadmap (GitHub API, 368971 stars), depo.zip listing https://www.depo.zip/tools/j579qxde55bxrgygst0kyg43hx80fgwb",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "A widely used learning resource, mostly for developers."
+ },
+ {
+  "id": "depo:j57dnfee43fqx2450w0gwxbcb583vat6",
+  "slug": "history-of-software-design",
+  "url": "https://historyofsoftware.org/",
+  "name": "History of Software Design",
+  "tagline": "Project that records the designs and designers that shaped software",
+  "description": "History of Software Design celebrates the designs and designers that shaped software. It starts from the gap that few books, documentaries, or exhibitions cover the subject, and that seminal works are hard to find. The site collects that history in one place.",
+  "category": "inspiration-galleries",
+  "subcategory": "historical-archives",
+  "kinds": [
+   "reference",
+   "gallery"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "prose",
+    "images"
+   ],
+   "agent_readiness": [
+    "unknown"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to ground interface decisions in the work that came before. Cite original sources when you reuse its material.",
+  "why_it_matters": "It fills a gap in the record of interface design history.",
+  "notable_for": [
+   "Software design history",
+   "Designers and seminal works"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://historyofsoftware.org/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j57dnfee43fqx2450w0gwxbcb583vat6",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "Directly design-relevant, though the public page shows limited depth so far."
+ },
+ {
+  "id": "depo:j570cs04px96g57mdfq3t7q7pn87bpvs",
+  "slug": "hyper",
+  "url": "https://hyperjs.ai/",
+  "name": "Hyper",
+  "tagline": "HTTP framework for Bun that copies its components into your repository as source",
+  "description": "Hyper is an HTTP framework for Bun distributed as source. The CLI copies the components you want into your project as plain TypeScript, so there is no runtime dependency on the framework. It has a registry and an MCP server, in the same style as shadcn for UI.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "tool",
+   "registry"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "cli",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "mcp-server",
+    "registry-json",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/pontusab/hyper",
+  "registry_url": null,
+  "github": {
+   "stars": 195,
+   "license": "MIT",
+   "last_activity": "2026-07-13"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it if you like the shadcn copy-the-source model and want it for an API. You own the copied code, so you also own its updates.",
+  "why_it_matters": "It applies the shadcn distribution model to backend code.",
+  "notable_for": [
+   "Distributed as source",
+   "Registry and MCP",
+   "For Bun"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://hyperjs.ai/ (HTTP 200, page fetched 2026-10-09), https://github.com/pontusab/hyper (GitHub API, 195 stars), depo.zip listing https://www.depo.zip/tools/j570cs04px96g57mdfq3t7q7pn87bpvs",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A backend framework outside interface design work."
+ },
+ {
+  "id": "depo:j5766nk2dptw1pk8hwpxw8c4wn8a8dqp",
+  "slug": "openstatus",
+  "url": "https://www.openstatus.dev/",
+  "name": "openstatus",
+  "tagline": "Open-source status pages, uptime monitoring from 28 regions, and incident response",
+  "description": "openstatus is an open-source tool for status pages, global uptime monitoring, and incident response. It checks uptime from 28 regions and lets you run incidents from Slack or an AI agent. Subscribers hear about problems first, and auditors get a record. It is free to start.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium",
+    "open-source"
+   ],
+   "distribution": [
+    "saas",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "status"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://www.openstatus.dev/docs/reference/notification",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it for a status page that matches your product instead of a generic hosted one. Customize the page design to your brand.",
+  "why_it_matters": "It is an open-source option for status pages and monitoring.",
+  "notable_for": [
+   "28 regions",
+   "Status pages",
+   "Open source"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.openstatus.dev/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j5766nk2dptw1pk8hwpxw8c4wn8a8dqp",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A monitoring service outside interface design work."
+ }
+]

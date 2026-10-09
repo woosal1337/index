@@ -1,0 +1,2287 @@
+[
+ {
+  "id": "depo:j57bwstan4zt2dqzcmh2he9snd80fbrb",
+  "slug": "react-hotkeys-hook",
+  "url": "https://react-hotkeys-hook.vercel.app/",
+  "name": "React Hotkeys Hook",
+  "tagline": "React hook for keyboard shortcuts with modifier keys, key sequences, and scopes",
+  "description": "React Hotkeys Hook adds keyboard shortcuts to React components with one hook. It handles modifier keys, key sequences, and scopes, and it has documentation for each major version. It uses the MIT license and was at version 5.3.3 when checked.",
+  "category": "component-libraries",
+  "subcategory": "headless-primitives",
+  "kinds": [
+   "primitive"
+  ],
+  "facets": {
+   "framework": [
+    "react"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npm install react-hotkeys-hook",
+  "package": "react-hotkeys-hook",
+  "docs_url": "https://react-hotkeys-hook.vercel.app/docs/intro",
+  "repo_url": "https://github.com/JohannesKlauss/react-hotkeys-hook",
+  "registry_url": null,
+  "github": {
+   "stars": 3506,
+   "license": "MIT",
+   "last_activity": "2026-10-05"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to add keyboard shortcuts to a web app. Show each shortcut in the interface, and do not override browser or screen reader keys.",
+  "why_it_matters": "It is a common way to add keyboard shortcuts in React.",
+  "notable_for": [
+   "One hook",
+   "Sequences and scopes",
+   "MIT license"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://react-hotkeys-hook.vercel.app/ (HTTP 200, page fetched 2026-10-09), https://github.com/JohannesKlauss/react-hotkeys-hook (GitHub API, 3506 stars), depo.zip listing https://www.depo.zip/tools/j57bwstan4zt2dqzcmh2he9snd80fbrb",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "A useful, active interaction primitive with a narrow scope."
+ },
+ {
+  "id": "depo:j570e0rc5v6zn1vmavggt3d5ch7tregz",
+  "slug": "react-localify",
+  "url": "https://react-localify.vercel.app/",
+  "name": "React Localify",
+  "tagline": "Small React library for app localization",
+  "description": "React Localify is a small library for localizing React apps. It is on npm under the MIT license and was at version 2.0.5 in December 2025. The project site shows little detail, and the GitHub repository has few stars.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "react"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npm install react-localify",
+  "package": "react-localify",
+  "docs_url": null,
+  "repo_url": "https://github.com/pradella/react-localify",
+  "registry_url": null,
+  "github": {
+   "stars": 8,
+   "license": null,
+   "last_activity": "2025-12-23"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it for simple translations in a small React app. For a large product, compare it with mature i18n libraries first.",
+  "why_it_matters": "It is a light option for React localization.",
+  "notable_for": [
+   "React localization",
+   "MIT license"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://react-localify.vercel.app/ (HTTP 200, page fetched 2026-10-09), https://github.com/pradella/react-localify (GitHub API, 8 stars), depo.zip listing https://www.depo.zip/tools/j570e0rc5v6zn1vmavggt3d5ch7tregz",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A small library with little adoption."
+ },
+ {
+  "id": "depo:j571bc2vrnkpwp51xcwn8akjtn835zbc",
+  "slug": "react-speech-recognition",
+  "url": "https://github.com/JamesBrill/react-speech-recognition",
+  "name": "React Speech Recognition",
+  "tagline": "React hook that turns microphone speech into text for your components",
+  "description": "React Speech Recognition is a React hook that converts speech from the microphone to text and gives it to your components. It uses the browser Web Speech API, so support varies by browser. It uses the MIT license, and version 4.0.1 shipped in April 2025.",
+  "category": "component-libraries",
+  "subcategory": "headless-primitives",
+  "kinds": [
+   "primitive"
+  ],
+  "facets": {
+   "framework": [
+    "react"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "bot-blocked"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [
+   "speech-input"
+  ],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npm install react-speech-recognition",
+  "package": "react-speech-recognition",
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to add voice input to a React form or search box. Always keep a text input, because browser support varies.",
+  "why_it_matters": "It is a common way to add voice input in React.",
+  "notable_for": [
+   "Speech to text hook",
+   "Web Speech API",
+   "MIT license"
+  ],
+  "already_enriched": false,
+  "http_status": 403,
+  "verified_at": "2026-10-09",
+  "evidence": "https://github.com/JamesBrill/react-speech-recognition (HTTP 403, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j571bc2vrnkpwp51xcwn8akjtn835zbc",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "A useful input primitive with slow recent updates."
+ },
+ {
+  "id": "depo:j572m23bwwn43nckdstrx477m980e5sx",
+  "slug": "react2aws",
+  "url": "https://www.react2aws.xyz/",
+  "name": "React2AWS",
+  "tagline": "Defines AWS infrastructure as React components and generates Terraform",
+  "description": "React2AWS lets you define AWS infrastructure with JSX components and a className syntax inspired by Tailwind. It then generates Terraform code. A browser studio is available, and the source is on GitHub.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "react"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "web-app",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/mmarinovic/React2AWS",
+  "registry_url": null,
+  "github": {
+   "stars": 438,
+   "license": null,
+   "last_activity": "2026-01-24"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to sketch cloud infrastructure in a familiar component syntax. Review the generated Terraform before you apply it.",
+  "why_it_matters": "It is an unusual approach to infrastructure as code.",
+  "notable_for": [
+   "JSX infrastructure",
+   "Terraform output",
+   "Browser studio"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.react2aws.xyz/ (HTTP 200, page fetched 2026-10-09), https://github.com/mmarinovic/React2AWS (GitHub API, 438 stars), depo.zip listing https://www.depo.zip/tools/j572m23bwwn43nckdstrx477m980e5sx",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A developer tool outside interface design work."
+ },
+ {
+  "id": "depo:j576k8j3kpkcyvbxbjas0vvbx97t4qwd",
+  "slug": "refine",
+  "url": "https://refine.dev/",
+  "name": "Refine",
+  "tagline": "Open-source React framework for internal tools, admin panels, and dashboards, now with AI agents",
+  "description": "Refine is a React framework for internal tools, admin panels, dashboards, and B2B apps. The open-source core handles data, auth, and routing and works with UI libraries such as Ant Design and Material UI. The company now also sells Refine agents that turn APIs into internal apps. The core uses the MIT license and has about 36,000 GitHub stars.",
+  "category": "blocks-templates-themes",
+  "subcategory": "dashboard-kits",
+  "kinds": [
+   "template",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next",
+    "remix"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "freemium",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "cli",
+    "github-repo",
+    "saas"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "cli-installable",
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "admin-panel"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "npm create refine-app@latest",
+  "package": null,
+  "docs_url": "https://refine.dev/docs/",
+  "repo_url": "https://github.com/refinedev/refine",
+  "registry_url": null,
+  "github": {
+   "stars": 35810,
+   "license": "MIT",
+   "last_activity": "2026-09-10"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to build a data-heavy admin panel on top of an existing UI library. Design the list, form, and detail views as one system.",
+  "why_it_matters": "It removes repeated CRUD work from internal tools.",
+  "notable_for": [
+   "Admin panels and dashboards",
+   "UI library integrations",
+   "36",
+   "000 GitHub stars"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://refine.dev/ (HTTP 200, page fetched 2026-10-09), https://github.com/refinedev/refine (GitHub API, 35810 stars), depo.zip listing https://www.depo.zip/tools/j576k8j3kpkcyvbxbjas0vvbx97t4qwd",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "A popular framework for dashboard interfaces, not a design resource by itself."
+ },
+ {
+  "id": "depo:j5785b3bftbpw0az0mej16mzwn7t5b13",
+  "slug": "refokus-tools",
+  "url": "https://www.webflow-tools.refokus.com/",
+  "name": "Refokus Tools",
+  "tagline": "15 Webflow add-ons for CMS filters, sliders, masonry layouts, page transitions, and more",
+  "description": "Refokus Tools is a set of 15 tools from the Refokus agency that extend Webflow. They include CMS load more, CMS filters, a slider generator, a masonry layout, page transitions, automatic tabs, a form validator, and copy to clipboard. The site is available in English, Spanish, and German.",
+  "category": "utilities-naming",
+  "subcategory": "small-web-utilities",
+  "kinds": [
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "webflow"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "copy-paste",
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "unknown"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [
+   "carousel",
+   "tabs",
+   "pagination"
+  ],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to add common features, such as filters and load more, to a Webflow site without custom code. Test each tool on mobile.",
+  "why_it_matters": "It fills common gaps in Webflow, from a known agency.",
+  "notable_for": [
+   "15 tools",
+   "CMS",
+   "boosters",
+   "and interactions",
+   "Webflow"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.webflow-tools.refokus.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j5785b3bftbpw0az0mej16mzwn7t5b13",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "Useful add-ons for Webflow designers, some built on older libraries such as SlickJS."
+ },
+ {
+  "id": "depo:j571agtss3x1dvqv16nmkb9yth7t7zsd",
+  "slug": "replicache",
+  "url": "https://replicache.dev/",
+  "name": "Replicache",
+  "tagline": "Client-side sync framework for realtime, local-first web apps, now in maintenance mode",
+  "description": "Replicache is a client-side datastore and sync framework for realtime, collaborative web apps with instant interfaces. It works with most backend stacks. Rocicorp moved it to maintenance mode, made the code open source, and stopped charging for it. The team now focuses on Zero.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "apache-2.0"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "stable"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/rocicorp/mono",
+  "registry_url": null,
+  "github": {
+   "stars": 3406,
+   "license": "Apache-2.0",
+   "last_activity": "2026-10-08"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to learn local-first sync, or for an app that already runs on it. For new projects, check Zero first.",
+  "why_it_matters": "It shaped the local-first approach to instant interfaces.",
+  "notable_for": [
+   "Local-first sync",
+   "Free and open source",
+   "Maintenance mode"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://replicache.dev/ (HTTP 200, page fetched 2026-10-09), https://github.com/rocicorp/mono (GitHub API, 3406 stars), depo.zip listing https://www.depo.zip/tools/j571agtss3x1dvqv16nmkb9yth7t7zsd",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "Sync infrastructure in maintenance mode, outside interface design work."
+ },
+ {
+  "id": "depo:j5779xqsxep1nk5zzt8tr46akn7trazw",
+  "slug": "resend",
+  "url": "https://resend.com/",
+  "name": "Resend",
+  "tagline": "Email API for developers to send transactional and marketing email",
+  "description": "Resend is an email platform for developers. It sends transactional and marketing email at scale through an API and SDKs, with a focus on inbox delivery. The same team makes React Email, which the catalog lists separately.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium"
+   ],
+   "distribution": [
+    "saas",
+    "public-api",
+    "npm-package"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "public-api",
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://resend.com/docs",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to send product email built with React Email. Set up the domain records before launch, so mail does not land in spam.",
+  "why_it_matters": "It is a popular developer email API.",
+  "notable_for": [
+   "Transactional and marketing email",
+   "SDKs",
+   "From the React Email team"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://resend.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j5779xqsxep1nk5zzt8tr46akn7trazw",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "Email infrastructure outside interface design work."
+ },
+ {
+  "id": "depo:j577125ft6fxpn8m8p2037fh5183thty",
+  "slug": "roborev",
+  "url": "https://www.roborev.io/",
+  "name": "roborev",
+  "tagline": "Local code review daemon that reviews each agent commit in the background",
+  "description": "roborev is a local, continuous code review daemon for teams that ship with coding agents. A Git hook reviews every commit in the background with the agents you already run and keeps each finding open until it is resolved. It installs with Homebrew, uses the MIT license, and has about 1,700 GitHub stars.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "cli",
+    "github-repo"
+   ],
+   "platform": [
+    "terminal"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "cli-installable",
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "brew install kenn-io/tap/roborev",
+  "package": null,
+  "docs_url": "https://www.roborev.io/docs/",
+  "repo_url": "https://github.com/kenn-io/roborev",
+  "registry_url": null,
+  "github": {
+   "stars": 1748,
+   "license": "MIT",
+   "last_activity": "2026-10-08"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to add an automatic second review to agent-written commits. Clear its findings before you open a pull request.",
+  "why_it_matters": "It adds review to the agent loop on your own machine.",
+  "notable_for": [
+   "Local daemon",
+   "Reviews each commit",
+   "MIT license"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.roborev.io/ (HTTP 200, page fetched 2026-10-09), https://github.com/kenn-io/roborev (GitHub API, 1748 stars), depo.zip listing https://www.depo.zip/tools/j577125ft6fxpn8m8p2037fh5183thty",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A code review tool outside interface design work."
+ },
+ {
+  "id": "depo:j571054k1fy8ya6965s6qsv5rn7t4bc9",
+  "slug": "saleor-commerce",
+  "url": "https://saleor.io/",
+  "name": "Saleor",
+  "tagline": "Open-source, headless, GraphQL-first ecommerce platform",
+  "description": "Saleor is an open-source, headless ecommerce platform with a GraphQL-first API. It is composable, works with any front-end stack, and has a hosted cloud option. It uses the BSD 3-Clause license and has about 23,000 GitHub stars.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "bsd"
+   ],
+   "pricing": [
+    "freemium",
+    "open-source"
+   ],
+   "distribution": [
+    "saas",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "public-api",
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "cart-website",
+   "checkout"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://docs.saleor.io/",
+  "repo_url": "https://github.com/saleor/saleor",
+  "registry_url": null,
+  "github": {
+   "stars": 23422,
+   "license": "BSD-3-Clause",
+   "last_activity": "2026-10-08"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it as the backend for a fully custom store design. Plan the storefront and checkout screens yourself.",
+  "why_it_matters": "It is a major open-source headless commerce engine.",
+  "notable_for": [
+   "GraphQL-first",
+   "Headless",
+   "BSD license"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://saleor.io/ (HTTP 200, page fetched 2026-10-09), https://github.com/saleor/saleor (GitHub API, 23422 stars), depo.zip listing https://www.depo.zip/tools/j571054k1fy8ya6965s6qsv5rn7t4bc9",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "Commerce infrastructure outside interface design work."
+ },
+ {
+  "id": "depo:j5799zhhz0tjdn5dqvye0zhbkd7t8hwc",
+  "slug": "sanity",
+  "url": "https://www.sanity.io/",
+  "name": "Sanity",
+  "tagline": "Content operating system with a customizable studio, content APIs, and agent tools",
+  "description": "Sanity is a content backend that teams customize in code. It includes Sanity Studio for editors, content APIs, a media library, content releases, and an agent API and toolkit for AI content work. It powers web, mobile, and agent apps.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "react"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium"
+   ],
+   "distribution": [
+    "saas",
+    "npm-package",
+    "cli"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "public-api",
+    "cli-installable",
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npm create sanity@latest",
+  "package": null,
+  "docs_url": "https://www.sanity.io/docs",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it when editors need a custom editing interface for structured content. Design the content model with the front end in mind.",
+  "why_it_matters": "It is a leading customizable headless CMS.",
+  "notable_for": [
+   "Customizable studio",
+   "Content APIs",
+   "Agent toolkit"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.sanity.io/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j5799zhhz0tjdn5dqvye0zhbkd7t8hwc",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "Content infrastructure outside interface design work."
+ },
+ {
+  "id": "depo:j571v2tcfkrmv23vsxnyqyktjs89ka5k",
+  "slug": "securityheaders",
+  "url": "https://securityheaders.com/",
+  "name": "Security Headers",
+  "tagline": "Free scanner that grades the HTTP security response headers of a site",
+  "description": "Security Headers scans the HTTP response headers of a site and grades its security setup. It shows which headers are missing, such as Content-Security-Policy. The automated check met a bot wall (HTTP 403), so this record uses the listing.",
+  "category": "utilities-naming",
+  "subcategory": "small-web-utilities",
+  "kinds": [
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "bot-blocked"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to check the security headers of a site before launch. Test Content-Security-Policy changes on staging, because they can block fonts and scripts.",
+  "why_it_matters": "It is the common quick check for security headers.",
+  "notable_for": [
+   "Header grades",
+   "Free scan"
+  ],
+  "already_enriched": false,
+  "http_status": 403,
+  "verified_at": "2026-10-09",
+  "evidence": "https://securityheaders.com/ (HTTP 403, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j571v2tcfkrmv23vsxnyqyktjs89ka5k",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A security utility outside interface design work."
+ },
+ {
+  "id": "depo:j575mefwgsgbbe333p12qc63cd8a9e20",
+  "slug": "sevalla",
+  "url": "https://sevalla.com/",
+  "name": "Sevalla",
+  "tagline": "Hosting platform for apps, databases, storage, and static sites, with an MCP server for agents",
+  "description": "Sevalla runs applications, databases, object storage, and static sites on one platform, so teams ship without infrastructure work. It offers an MCP server for agent-driven hosting and quick starts for coding agents.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "saas",
+    "mcp-server"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "mcp-server",
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://docs.sevalla.com/quick-starts/coding-agents/overview",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to host an app and its database in one place. It has no role in interface design work.",
+  "why_it_matters": "It is a simple hosting option with agent support.",
+  "notable_for": [
+   "Apps",
+   "databases",
+   "and static sites",
+   "MCP server"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://sevalla.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j575mefwgsgbbe333p12qc63cd8a9e20",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "Hosting infrastructure outside interface design work."
+ },
+ {
+  "id": "depo:j57brvh289mkeakmbtwjdpz3v181vty4",
+  "slug": "shoo",
+  "url": "https://shoo.dev/",
+  "name": "Shoo",
+  "tagline": "Experimental auth tool that promises sign-in in two lines of code",
+  "description": "Shoo promises authentication in two lines of code. The site marks it as a very early work in progress, for use at your own risk. Documentation is on a separate docs site.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "unknown"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "structured-docs"
+   ],
+   "maturity": "experimental"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://docs.shoo.dev/",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it only in experiments, because the site marks it unsafe for production. Use a mature auth service for real users.",
+  "why_it_matters": "It shows a minimal approach to auth setup.",
+  "notable_for": [
+   "Two-line auth",
+   "Early work in progress"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://shoo.dev/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j57brvh289mkeakmbtwjdpz3v181vty4",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "An experimental auth tool outside interface design work."
+ },
+ {
+  "id": "depo:j570ahkqr7y1pfgzhz2a35gp517ts69q",
+  "slug": "soketi",
+  "url": "https://soketi.app/",
+  "name": "soketi",
+  "tagline": "Open-source, Pusher-compatible WebSockets server",
+  "description": "soketi is an open-source WebSockets server that is compatible with the Pusher protocol, so existing Pusher clients work with it. It uses the AGPL-3.0 license and has about 5,600 GitHub stars. The last push to the repository was in March 2025. The automated check failed, but a manual request on 2026-10-09 returned HTTP 200.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "agpl"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo"
+   ],
+   "platform": [
+    "cross-platform"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code"
+   ],
+   "maturity": "stable"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/soketi/soketi",
+  "registry_url": null,
+  "github": {
+   "stars": 5635,
+   "license": "AGPL-3.0",
+   "last_activity": "2025-03-03"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to self-host realtime features that use the Pusher protocol. Check the update pace before you rely on it.",
+  "why_it_matters": "It is a self-hosted alternative to Pusher.",
+  "notable_for": [
+   "Pusher-compatible",
+   "Self-hosted",
+   "AGPL-3.0"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://soketi.app/ (HTTP 200, page fetched 2026-10-09), https://github.com/soketi/soketi (GitHub API, 5635 stars), depo.zip listing https://www.depo.zip/tools/j570ahkqr7y1pfgzhz2a35gp517ts69q",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "Realtime infrastructure with slow recent updates, outside interface design work."
+ },
+ {
+  "id": "depo:j57c45c559rapcmxpr3he9awnn7trk0t",
+  "slug": "solito",
+  "url": "https://solito.dev/",
+  "name": "Solito",
+  "tagline": "Shares navigation and code between React Native and Next.js apps",
+  "description": "Solito, by Fernando Rojo, connects React Native and Next.js so one codebase serves both platforms. It gives cross-platform navigation hooks and components such as Link, TextLink, MotiLink, and SolitoImage. It supports gradual adoption and has starters. It uses the MIT license and has about 4,100 GitHub stars.",
+  "category": "component-libraries",
+  "subcategory": "cross-framework-and-native",
+  "kinds": [
+   "primitive"
+  ],
+  "facets": {
+   "framework": [
+    "react-native",
+    "next",
+    "react"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo"
+   ],
+   "platform": [
+    "ios",
+    "android",
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/nandorojo/solito",
+  "registry_url": null,
+  "github": {
+   "stars": 4095,
+   "license": "MIT",
+   "last_activity": "2026-09-10"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to share screens between a web app and a native app. Design platform-specific details, such as gestures and headers, separately.",
+  "why_it_matters": "It is a common bridge between React Native and Next.js.",
+  "notable_for": [
+   "Shared navigation",
+   "Cross-platform components",
+   "MIT license"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://solito.dev/ (HTTP 200, page fetched 2026-10-09), https://github.com/nandorojo/solito (GitHub API, 4095 stars), depo.zip listing https://www.depo.zip/tools/j57c45c559rapcmxpr3he9awnn7trk0t",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "A useful cross-platform layer, with few visual components."
+ },
+ {
+  "id": "depo:j578498tk95enf1qxkxebay84581tbf1",
+  "slug": "spacetimedb",
+  "url": "https://spacetimedb.com/",
+  "name": "SpacetimeDB",
+  "tagline": "Realtime backend and database for apps and games with automatic client sync",
+  "description": "SpacetimeDB is a realtime backend framework and database for apps and games. You write server logic in TypeScript, C#, C++, or Rust, and clients stay in sync automatically. It uses the Business Source License 1.1 and has about 25,000 GitHub stars. The site now uses the name Spacetime.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "tool",
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "source-available"
+   ],
+   "pricing": [
+    "freemium"
+   ],
+   "distribution": [
+    "cli",
+    "saas",
+    "github-repo"
+   ],
+   "platform": [
+    "cross-platform"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://spacetimedb.com/docs",
+  "repo_url": "https://github.com/clockworklabs/SpacetimeDB",
+  "registry_url": null,
+  "github": {
+   "stars": 25265,
+   "license": null,
+   "last_activity": "2026-10-08"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it for multiplayer or collaborative apps that need instant shared state. Design clear states for sync conflicts.",
+  "why_it_matters": "It merges the server and the database for realtime apps.",
+  "notable_for": [
+   "Realtime sync",
+   "Many server languages",
+   "25",
+   "000 GitHub stars"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://spacetimedb.com/ (HTTP 200, page fetched 2026-10-09), https://github.com/clockworklabs/SpacetimeDB (GitHub API, 25265 stars), depo.zip listing https://www.depo.zip/tools/j578498tk95enf1qxkxebay84581tbf1",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "Backend infrastructure outside interface design work."
+ },
+ {
+  "id": "depo:j57ezvbx0pqnekw2qv1nxvd2ad82rmaa",
+  "slug": "sprout",
+  "url": "https://www.sprout.store/",
+  "name": "Sprout",
+  "tagline": "Next.js, Sanity, and Tailwind boilerplate for headless Shopify stores and marketing sites",
+  "description": "Sprout is a paid boilerplate for headless Shopify stores and marketing websites. It uses Next.js, Sanity, and Tailwind and includes a visual page builder, page transitions, and CMS-driven SEO. It sells for a one-time fee, and the site names clients such as Cards Against Humanity.",
+  "category": "blocks-templates-themes",
+  "subcategory": "templates-and-starters",
+  "kinds": [
+   "template"
+  ],
+  "facets": {
+   "framework": [
+    "next",
+    "react"
+   ],
+   "styling": [
+    "tailwind-any"
+   ],
+   "license": [
+    "commercial"
+   ],
+   "pricing": [
+    "one-time"
+   ],
+   "distribution": [
+    "download"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "unknown"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "cart-website"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to start a client store on a tested headless setup. Replace the default design, because other studios use the same base.",
+  "why_it_matters": "It is a studio-grade base for headless Shopify sites.",
+  "notable_for": [
+   "Next.js",
+   "Sanity",
+   "and Tailwind",
+   "Visual page builder",
+   "One-time fee"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.sprout.store/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j57ezvbx0pqnekw2qv1nxvd2ad82rmaa",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "A useful, paid starter for designed commerce sites."
+ },
+ {
+  "id": "depo:j57661w5gkpshm10pmwfgzf8vd7xc4fd",
+  "slug": "stainless",
+  "url": "https://www.stainless.com/",
+  "name": "Stainless",
+  "tagline": "Generates SDKs, API docs, and token-efficient MCP servers for an API",
+  "description": "Stainless helps API companies ship idiomatic SDKs, documentation that stays current with the API, and token-efficient MCP servers. It targets interfaces for both developers and agents.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "saas"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "mcp-server",
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://www.stainless.com/products/docs/",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to give an API typed SDKs and an MCP server without hand-written code. It has no role in interface design.",
+  "why_it_matters": "It is a leading SDK generator for API companies.",
+  "notable_for": [
+   "SDK generation",
+   "API docs",
+   "MCP servers"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.stainless.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j57661w5gkpshm10pmwfgzf8vd7xc4fd",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "API tooling outside interface design work."
+ },
+ {
+  "id": "depo:j57d9qf43gy6d9qsr8ks25tw898454qr",
+  "slug": "statsig",
+  "url": "https://www.statsig.com/",
+  "name": "Statsig",
+  "tagline": "Product development platform for experiments, feature flags, analytics, and session replay",
+  "description": "Statsig combines experimentation, feature management, product analytics, session replay, and web analytics in one platform. Users range from OpenAI to early-stage startups. A setup wizard and SDKs for many platforms connect it to an app.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium"
+   ],
+   "distribution": [
+    "saas",
+    "npm-package"
+   ],
+   "platform": [
+    "web",
+    "ios",
+    "android"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "analytics"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "npx @statsig/wizard@latest",
+  "package": null,
+  "docs_url": "https://docs.statsig.com/",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to test whether a design change improves a key metric. Decide the success metric before the experiment starts.",
+  "why_it_matters": "It puts experiments and analytics into one tool.",
+  "notable_for": [
+   "Experiments and flags",
+   "Analytics and replay"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.statsig.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j57d9qf43gy6d9qsr8ks25tw898454qr",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "An analytics platform, useful for testing designs but not a design resource."
+ },
+ {
+  "id": "depo:j575vyedt0ztrakyxc4mzmgjd57t5sj5",
+  "slug": "storyblok",
+  "url": "https://www.storyblok.com/",
+  "name": "Storyblok",
+  "tagline": "Headless CMS with a visual editor for developers and content teams",
+  "description": "Storyblok is a headless CMS with a visual editor. Developers build components, and content teams edit pages visually for any digital channel. It has documentation and paid plans.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next",
+    "vue",
+    "nuxt",
+    "svelte",
+    "astro"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "saas",
+    "public-api"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "public-api",
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://www.storyblok.com/docs",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it when editors must build pages from your component library in a visual editor. Limit the component options to keep pages consistent.",
+  "why_it_matters": "It gives content teams visual editing on a headless setup.",
+  "notable_for": [
+   "Visual editor",
+   "Component-based content"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.storyblok.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j575vyedt0ztrakyxc4mzmgjd57t5sj5",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "Content infrastructure outside interface design work."
+ },
+ {
+  "id": "depo:j579het9k015rv78bfyeb5xk3s7t4pka",
+  "slug": "stripe",
+  "url": "https://stripe.com/",
+  "name": "Stripe",
+  "tagline": "Financial infrastructure for payments, billing, and money movement",
+  "description": "Stripe is a financial services platform with APIs for online payments, flexible billing models, and money movement. Businesses of all sizes use it to accept payments and run subscriptions. The catalog lists Stripe Press separately.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "usage-based"
+   ],
+   "distribution": [
+    "saas",
+    "public-api",
+    "npm-package",
+    "cli",
+    "mcp-server"
+   ],
+   "platform": [
+    "web",
+    "ios",
+    "android"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "public-api",
+    "mcp-server",
+    "agent-skill",
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "checkout",
+   "making-a-card-payment",
+   "billing-web-app"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://docs.stripe.com/",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use Stripe Checkout or Elements for payment screens, not custom card forms. Match the colors and fonts to your design system.",
+  "why_it_matters": "It is the standard payments platform for internet products.",
+  "notable_for": [
+   "Payments and billing",
+   "Checkout and Elements",
+   "MCP"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://stripe.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j579het9k015rv78bfyeb5xk3s7t4pka",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "Payments infrastructure, with design-relevant checkout parts."
+ },
+ {
+  "id": "depo:j570mmxngdp0q60h1z012ex2zn83vprx",
+  "slug": "stripe-projects",
+  "url": "https://projects.dev/",
+  "name": "Stripe Projects",
+  "tagline": "Stripe CLI plugin that adds hosting, databases, auth, and AI services to an app in one command",
+  "description": "Stripe Projects lets you and your AI agents add services such as hosting, databases, auth, and AI to an app from the CLI. It generates credentials and manages usage and billing in one place, with no dashboards or config files. It runs as a Stripe CLI plugin and has an agent skill.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "cli",
+    "agent-skill"
+   ],
+   "platform": [
+    "terminal"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "cli-installable",
+    "agent-skill",
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npm install -g @stripe/cli@latest && stripe plugin install projects",
+  "package": null,
+  "docs_url": "https://docs.stripe.com/projects",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it so an agent provisions the services for a prototype. Review the costs of each service that it adds.",
+  "why_it_matters": "It turns service setup into one command for agents.",
+  "notable_for": [
+   "One command per service",
+   "Unified billing",
+   "Agent skill"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://projects.dev/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j570mmxngdp0q60h1z012ex2zn83vprx",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "Developer infrastructure outside interface design work."
+ },
+ {
+  "id": "depo:j577y5n4y5rpsj5mgbecx8h55x83p3zh",
+  "slug": "strudel-repl",
+  "url": "https://strudel.cc/",
+  "name": "Strudel",
+  "tagline": "Browser music live coding environment that ports TidalCycles patterns to JavaScript",
+  "description": "Strudel is a live coding environment for music in the browser. It ports the TidalCycles pattern language to JavaScript, so you write and change patterns while they play. Development moved from GitHub to Codeberg, where it is active. It uses the AGPL-3.0 license.",
+  "category": "textures-assets",
+  "subcategory": "creative-coding-environments",
+  "kinds": [
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "vanilla"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "agpl"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "audio",
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to make generative sound for a demo, installation, or performance. Pair it with a visual live coding tool for audiovisual work.",
+  "why_it_matters": "It is the main browser tool for pattern-based music live coding.",
+  "notable_for": [
+   "Live coding music",
+   "Browser-based",
+   "TidalCycles patterns"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://strudel.cc/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j577y5n4y5rpsj5mgbecx8h55x83p3zh",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "A respected creative coding environment, for sound rather than visuals."
+ },
+ {
+  "id": "depo:j571371828rznhbegdqdnxjct17t5whc",
+  "slug": "supabase",
+  "url": "https://supabase.com/",
+  "name": "Supabase",
+  "tagline": "Open-source Postgres platform with auth, instant APIs, realtime, storage, and vectors",
+  "description": "Supabase is a Postgres development platform and an open-source alternative to Firebase. It includes a database, authentication, instant APIs, realtime, edge functions, storage, and vector embeddings. It uses the Apache 2.0 license and has about 111,000 GitHub stars. The catalog lists the Supabase UI Library separately.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "apache-2.0"
+   ],
+   "pricing": [
+    "freemium",
+    "open-source"
+   ],
+   "distribution": [
+    "saas",
+    "cli",
+    "npm-package",
+    "mcp-server",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "mcp-server",
+    "cli-installable",
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://supabase.com/docs",
+  "repo_url": "https://github.com/supabase/supabase",
+  "registry_url": null,
+  "github": {
+   "stars": 111243,
+   "license": "Apache-2.0",
+   "last_activity": "2026-10-08"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to give a prototype real auth and data quickly. Pair it with the Supabase UI Library for ready auth screens.",
+  "why_it_matters": "It is a common backend for new web apps.",
+  "notable_for": [
+   "Postgres platform",
+   "Auth and realtime",
+   "111",
+   "000 GitHub stars"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://supabase.com/ (HTTP 200, page fetched 2026-10-09), https://github.com/supabase/supabase (GitHub API, 111243 stars), depo.zip listing https://www.depo.zip/tools/j571371828rznhbegdqdnxjct17t5whc",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "Backend infrastructure outside interface design work."
+ },
+ {
+  "id": "depo:j57amxjtxmeaajz4rw8ez6rkbs7t5y97",
+  "slug": "swell",
+  "url": "https://www.swell.is/",
+  "name": "Swell",
+  "tagline": "Ecommerce platform with merchandising, operations, and a developer platform for custom storefronts",
+  "description": "Swell is an ecommerce platform for building, selling, and scaling online stores. It offers merchandising and operations tools, a developer platform for custom storefronts, integrations, and AI features. You try it for free.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free-trial"
+   ],
+   "distribution": [
+    "saas",
+    "public-api"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "public-api"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it for a custom-designed store when theme-based store builders are too limited. Design the storefront and checkout yourself.",
+  "why_it_matters": "It is a flexible alternative to mainstream store builders.",
+  "notable_for": [
+   "Headless commerce",
+   "Developer platform",
+   "Free trial"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.swell.is/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j57amxjtxmeaajz4rw8ez6rkbs7t5y97",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "Commerce infrastructure outside interface design work."
+ },
+ {
+  "id": "depo:j5753t0exkz5e7q7z86jnq66057t4cc6",
+  "slug": "swiper",
+  "url": "https://swiperjs.com/",
+  "name": "Swiper",
+  "tagline": "Free touch slider with hardware-accelerated transitions for vanilla JS, web components, React, and Vue",
+  "description": "Swiper is a free, open-source touch slider with hardware-accelerated transitions and native behavior on mobile. It has a core API, Swiper Element web components, React and Vue versions, a playground, and an MCP server. It uses the MIT license, has about 42,000 GitHub stars, and was at version 14.3.0 when checked.",
+  "category": "component-libraries",
+  "subcategory": "cross-framework-and-native",
+  "kinds": [
+   "component-library"
+  ],
+  "facets": {
+   "framework": [
+    "vanilla",
+    "web-components",
+    "react",
+    "vue"
+   ],
+   "styling": [
+    "vanilla-css",
+    "css-variables"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "mcp-server",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "mcp-server",
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "carousel"
+  ],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npm install swiper",
+  "package": "swiper",
+  "docs_url": null,
+  "repo_url": "https://github.com/nolimits4web/swiper",
+  "registry_url": null,
+  "github": {
+   "stars": 41905,
+   "license": "MIT",
+   "last_activity": "2026-10-06"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it for touch carousels on the mobile web. Add visible controls and pause autoplay, because carousels often hide content.",
+  "why_it_matters": "It is a widely used touch slider for the web.",
+  "notable_for": [
+   "Touch slider",
+   "Web components",
+   "React",
+   "and Vue",
+   "42",
+   "000 GitHub stars"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://swiperjs.com/ (HTTP 200, page fetched 2026-10-09), https://github.com/nolimits4web/swiper (GitHub API, 41905 stars), depo.zip listing https://www.depo.zip/tools/j5753t0exkz5e7q7z86jnq66057t4cc6",
+  "source": "depo",
+  "quality_tier": "A",
+  "tier_reason": "A widely used, active UI primitive for carousels."
+ }
+]

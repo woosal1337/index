@@ -1,0 +1,2240 @@
+[
+ {
+  "id": "depo:j57es7vbmvhc76z2mh3vk7mpqn841gmy",
+  "slug": "roro",
+  "url": "https://www.tryroro.com/",
+  "name": "roro",
+  "tagline": "Free Mac canvas that puts terminal agents, projects, and an agent calendar in one place",
+  "description": "roro puts terminal agents and projects on one large canvas on the Mac. An agent calendar schedules tasks, for example overnight runs. It supports several workspaces, and the download is free.",
+  "category": "agent-design-tooling",
+  "subcategory": "coding-agents-and-editors",
+  "kinds": [
+   "app",
+   "ai-tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "desktop-app"
+   ],
+   "platform": [
+    "macos"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "unknown"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to schedule agent work for the night and review it on a canvas in the morning. Check what each scheduled task can access first.",
+  "why_it_matters": "It adds a calendar to agent work.",
+  "notable_for": [
+   "Agent calendar",
+   "Canvas of terminals",
+   "Free"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.tryroro.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j57es7vbmvhc76z2mh3vk7mpqn841gmy",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A coding-agent canvas outside interface design work."
+ },
+ {
+  "id": "depo:j574pa0t27dkv22sca1qxk0k3x82yngj",
+  "slug": "solo",
+  "url": "https://soloterm.com/",
+  "name": "Solo",
+  "tagline": "Native control plane that runs coding agents next to your dev servers, workers, and shells",
+  "description": "Solo is a meta-harness for coding agents. Claude, Codex, OpenCode, Pi, custom agents, and your local dev stack work together through MCP, HTTP, and a CLI. One agent can spawn others, split the work, and share context. The listing describes a 25 MB native app with built-in terminals, auto-restart, and shell integration.",
+  "category": "agent-design-tooling",
+  "subcategory": "coding-agents-and-editors",
+  "kinds": [
+   "app",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "desktop-app",
+    "cli"
+   ],
+   "platform": [
+    "macos"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "mcp-server",
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://soloterm.com/docs",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it when agents must start and watch your dev servers and workers as well as code. Check the pricing page for team use.",
+  "why_it_matters": "It joins agent orchestration with local process management.",
+  "notable_for": [
+   "Agents spawn agents",
+   "MCP",
+   "HTTP",
+   "and CLI control",
+   "Small native app"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://soloterm.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j574pa0t27dkv22sca1qxk0k3x82yngj",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A coding-agent tool outside interface design work."
+ },
+ {
+  "id": "depo:j572b1b51mngbrb9rabxjkawvs84khrv",
+  "slug": "superconductor",
+  "url": "https://super.engineering/",
+  "name": "Superconductor",
+  "tagline": "Native Rust agent control plane for macOS, rendered with Metal on the GPU",
+  "description": "Superconductor, at super.engineering, is a native control plane for a fleet of coding agents on macOS. It is written fully in Rust and renders with Metal on the GPU, with no Electron or embedded browser. The site states a cold start under half a second.",
+  "category": "agent-design-tooling",
+  "subcategory": "coding-agents-and-editors",
+  "kinds": [
+   "app",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "desktop-app"
+   ],
+   "platform": [
+    "macos"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://super.engineering/docs",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it if Electron agent apps feel slow on your Mac. Confirm the agents it supports in the docs first.",
+  "why_it_matters": "It shows the performance gap between native and web-based agent apps.",
+  "notable_for": [
+   "100% Rust",
+   "Metal rendering",
+   "Fast cold start"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://super.engineering/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j572b1b51mngbrb9rabxjkawvs84khrv",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A coding-agent app outside interface design work."
+ },
+ {
+  "id": "depo:j57dqxjy066sgtxdcqy6fn3a3x84r3cx",
+  "slug": "superhq",
+  "url": "https://superhq.ai/",
+  "name": "SuperHQ",
+  "tagline": "Runs Claude Code, Codex, and Pi agents inside isolated microVMs on Apple Silicon",
+  "description": "SuperHQ runs coding agents such as Claude Code, OpenAI Codex, and Pi inside isolated microVMs. A secure auth gateway keeps your API keys out of the sandbox. You see what each agent works on, then review and merge its changes. It needs macOS 14 or later on Apple Silicon and installs with Homebrew.",
+  "category": "agent-design-tooling",
+  "subcategory": "coding-agents-and-editors",
+  "kinds": [
+   "app",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "agpl"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "desktop-app",
+    "github-repo"
+   ],
+   "platform": [
+    "macos"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "brew install --cask superhq-ai/tap/superhq",
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/superhq-ai/superhq",
+  "registry_url": null,
+  "github": {
+   "stars": 291,
+   "license": "AGPL-3.0",
+   "last_activity": "2026-04-23"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it when agents must run untrusted code away from your main system and your keys. It needs Apple Silicon.",
+  "why_it_matters": "It applies real VM isolation to coding agents.",
+  "notable_for": [
+   "MicroVM per agent",
+   "Keys stay outside the sandbox",
+   "Phone control"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://superhq.ai/ (HTTP 200, page fetched 2026-10-09), https://github.com/superhq-ai/superhq (GitHub API, 291 stars), depo.zip listing https://www.depo.zip/tools/j57dqxjy066sgtxdcqy6fn3a3x84r3cx",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A coding-agent sandbox outside interface design work."
+ },
+ {
+  "id": "depo:j57a7p70gdhdyn1v3rzx5hpr01803arv",
+  "slug": "superset",
+  "url": "https://superset.sh/",
+  "name": "Superset",
+  "tagline": "Workspace that runs 10+ coding agents in parallel with isolated changes and one review view",
+  "description": "Superset brings Claude Code, Codex, OpenCode, or any coding agent into one workspace. It runs tasks in parallel, isolates the changes, and shows everything for review in one place. It also has automation, remote access, and a mobile app. It is free to start and installs with Homebrew.",
+  "category": "agent-design-tooling",
+  "subcategory": "coding-agents-and-editors",
+  "kinds": [
+   "app",
+   "ai-tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium"
+   ],
+   "distribution": [
+    "desktop-app",
+    "mobile-app",
+    "github-repo"
+   ],
+   "platform": [
+    "macos"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "brew install superset-sh/tap/superset",
+  "package": null,
+  "docs_url": "https://docs.superset.sh/",
+  "repo_url": "https://github.com/superset-sh/superset",
+  "registry_url": null,
+  "github": {
+   "stars": 15006,
+   "license": null,
+   "last_activity": "2026-10-08"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to start new agent tasks while others run, then review them together. Check the paid plan limits before team use.",
+  "why_it_matters": "It is a widely used parallel agent workspace.",
+  "notable_for": [
+   "10+ parallel agents",
+   "Any coding agent",
+   "Mobile app"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://superset.sh/ (HTTP 200, page fetched 2026-10-09), https://github.com/superset-sh/superset (GitHub API, 15006 stars), depo.zip listing https://www.depo.zip/tools/j57a7p70gdhdyn1v3rzx5hpr01803arv",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A popular coding-agent workspace outside interface design work."
+ },
+ {
+  "id": "depo:j5702bs8pj0xk9r4efjgh3x37182we36",
+  "slug": "t3-code",
+  "url": "https://t3.codes/",
+  "name": "T3 Code",
+  "tagline": "Open-source control plane for Claude Code, Codex, OpenCode, Cursor, and other agents",
+  "description": "T3 Code is an open-source control plane for coding agents. It orchestrates Claude Code, Codex, Antigravity, OpenCode, Cursor, and Grok from one surface with your own subscriptions. It runs on macOS, with companion apps for iOS and Android. The repository has more than 24,000 GitHub stars.",
+  "category": "agent-design-tooling",
+  "subcategory": "coding-agents-and-editors",
+  "kinds": [
+   "app",
+   "ai-tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "desktop-app",
+    "mobile-app",
+    "github-repo"
+   ],
+   "platform": [
+    "macos",
+    "ios",
+    "android"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/pingdotgg/t3code",
+  "registry_url": null,
+  "github": {
+   "stars": 26398,
+   "license": "MIT",
+   "last_activity": "2026-10-08"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to drive several agent subscriptions from one open-source interface. Fork it if you need custom behavior.",
+  "why_it_matters": "It is an open-source control plane from a well-known developer team.",
+  "notable_for": [
+   "Bring your own subscription",
+   "Open source",
+   "iOS and Android"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://t3.codes/ (HTTP 200, page fetched 2026-10-09), https://github.com/pingdotgg/t3code (GitHub API, 26398 stars), depo.zip listing https://www.depo.zip/tools/j5702bs8pj0xk9r4efjgh3x37182we36",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A popular coding-agent client outside interface design work."
+ },
+ {
+  "id": "depo:j571e5v3je686tx93n466svv31840y53",
+  "slug": "zodex",
+  "url": "https://zodex.dev/",
+  "name": "Zodex",
+  "tagline": "AI IDE that keeps editor, terminal, browser, GitHub, Linear, and notes beside the agent chat",
+  "description": "Zodex is an AI integrated development environment. It puts the editor, terminal, browser, GitHub, a design studio, notes, and Linear in one window next to the agent conversations. It runs on macOS, Windows, and Linux, and the site has a pricing page.",
+  "category": "agent-design-tooling",
+  "subcategory": "coding-agents-and-editors",
+  "kinds": [
+   "app",
+   "ai-tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "desktop-app"
+   ],
+   "platform": [
+    "macos",
+    "windows",
+    "linux"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "unknown"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it if you want your agent chat, tools, and tickets in one window. Check the pricing and model access before you switch editors.",
+  "why_it_matters": "It replaces several windows with one agent-centered IDE.",
+  "notable_for": [
+   "Editor",
+   "terminal",
+   "and browser",
+   "Linear and GitHub inside",
+   "Three desktop platforms"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://zodex.dev/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j571e5v3je686tx93n466svv31840y53",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A coding IDE outside interface design work."
+ },
+ {
+  "id": "depo:j57dhtp8qa8wjga9w4ph58tqv17t5tm4",
+  "slug": "10web",
+  "url": "https://10web.io/",
+  "name": "10Web",
+  "tagline": "AI website builder with managed WordPress hosting, speed tools, and a white-label option",
+  "description": "10Web offers an AI website builder, an AI builder for ecommerce and WordPress, managed WordPress hosting, and a PageSpeed booster for Core Web Vitals. Agencies get white-label solutions. Smaller AI tools include a logo maker and a business name generator. It has API documentation and paid plans.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "paid"
+   ],
+   "distribution": [
+    "saas",
+    "public-api"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "public-api"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://apidocs.10web.io/",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to launch a WordPress site fast with hosting included. Expect a template look from the AI builder, and plan design work on top.",
+  "why_it_matters": "It bundles site generation and hosting for WordPress.",
+  "notable_for": [
+   "AI WordPress builder",
+   "Managed hosting",
+   "White label"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://10web.io/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j57dhtp8qa8wjga9w4ph58tqv17t5tm4",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A site-hosting service outside interface design work."
+ },
+ {
+  "id": "depo:j571je3j95jvjkr0ds5v5h1yh5859wqj",
+  "slug": "40mcp",
+  "url": "https://github.com/40verse/40mcp",
+  "name": "40mcp",
+  "tagline": "Beta bridge that exposes any API or MCP server over stdio or SSE, in any direction",
+  "description": "40mcp is a universal API-to-MCP bridge from the 40verse project. It connects any API or MCP server over stdio or SSE in either direction, and it is token- and policy-aware. Community configs, a specification, and an API reference live in the repository. It is in beta and uses the MIT license.",
+  "category": "agent-design-tooling",
+  "subcategory": "mcp-and-registries",
+  "kinds": [
+   "mcp-server"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "mcp-server",
+    "github-repo"
+   ],
+   "platform": [
+    "cross-platform"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "mcp-server",
+    "cli-installable",
+    "open-source-code"
+   ],
+   "maturity": "beta"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npx 40mcp@beta",
+  "package": "40mcp",
+  "docs_url": null,
+  "repo_url": "https://github.com/40verse/40mcp",
+  "registry_url": null,
+  "github": {
+   "stars": 1,
+   "license": "MIT",
+   "last_activity": "2026-08-04"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it when a basic OpenAPI-to-MCP converter lacks the policy or token controls you need. It is a one-star beta project, so test it carefully.",
+  "why_it_matters": "It addresses token and policy limits that simple MCP bridges ignore.",
+  "notable_for": [
+   "Any API to MCP",
+   "Token-aware",
+   "MIT license"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://github.com/40verse/40mcp (HTTP 200, page fetched 2026-10-09), https://github.com/40verse/40mcp (GitHub API, 1 stars), depo.zip listing https://www.depo.zip/tools/j571je3j95jvjkr0ds5v5h1yh5859wqj",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A very small beta project outside interface design work."
+ },
+ {
+  "id": "depo:j572ez099hmdwbw6er53zhaxs5803k8x",
+  "slug": "agent-browser",
+  "url": "https://github.com/vercel-labs/agent-browser",
+  "name": "agent-browser",
+  "tagline": "Fast Rust CLI from Vercel Labs that lets AI agents drive and inspect a browser",
+  "description": "agent-browser is a browser automation CLI for AI agents from Vercel Labs. It is a native Rust binary that installs from npm or Homebrew and downloads Chrome for Testing on first run. Agents use it to open pages, act on them, and read the results. It uses the Apache 2.0 license and has more than 43,000 GitHub stars.",
+  "category": "agent-design-tooling",
+  "subcategory": "coding-agents-and-editors",
+  "kinds": [
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "apache-2.0"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "cli",
+    "npm-package",
+    "github-repo"
+   ],
+   "platform": [
+    "cross-platform"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "cli-installable",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npm install -g agent-browser",
+  "package": "agent-browser",
+  "docs_url": null,
+  "repo_url": "https://github.com/vercel-labs/agent-browser",
+  "registry_url": null,
+  "github": {
+   "stars": 43681,
+   "license": "Apache-2.0",
+   "last_activity": "2026-10-08"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it when an agent must check the interface it builds in a real browser. Give the agent screenshots and accessibility snapshots, not only page text.",
+  "why_it_matters": "It closes the loop between agent-written UI and what a browser shows.",
+  "notable_for": [
+   "Native Rust CLI",
+   "From Vercel Labs",
+   "43",
+   "000+ GitHub stars"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://github.com/vercel-labs/agent-browser (HTTP 200, page fetched 2026-10-09), https://github.com/vercel-labs/agent-browser (GitHub API, 43681 stars), depo.zip listing https://www.depo.zip/tools/j572ez099hmdwbw6er53zhaxs5803k8x",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "Widely used and directly useful for agent UI checks."
+ },
+ {
+  "id": "depo:j570ra1n439047ndfxdpcep0ax89k0b6",
+  "slug": "agentos",
+  "url": "https://rivet.dev/agentos/",
+  "name": "agentOS",
+  "tagline": "Open-source virtual operating system for agents with files, processes, shell, and networking",
+  "description": "agentOS, from Rivet, is a portable open-source operating system for agents. One lightweight library gives an agent files, processes, a shell, and networking, with a stateful runtime and secure code execution. It targets coding agents, agent app builders, and personal agents. It installs from npm.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package"
+   ],
+   "platform": [
+    "cross-platform"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npm install @rivet-dev/agentos",
+  "package": "@rivet-dev/agentos",
+  "docs_url": "https://rivet.dev/docs/",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to give each agent session its own sandbox and memory without a full VM. Check the hosting costs if you use Rivet Cloud.",
+  "why_it_matters": "It packages a sandboxed computer for each agent as a library.",
+  "notable_for": [
+   "From Rivet",
+   "Files",
+   "processes",
+   "and shell",
+   "One SDK"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://rivet.dev/agentos/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j570ra1n439047ndfxdpcep0ax89k0b6",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "Agent infrastructure outside interface design work."
+ },
+ {
+  "id": "depo:j579d51gbdkvfarc4aa5wszy557t5z3w",
+  "slug": "agno",
+  "url": "https://www.agno.com/",
+  "name": "Agno",
+  "tagline": "Agent platform, formerly Phidata, that runs customer-facing and internal agents in your cloud",
+  "description": "Agno, formerly Phidata, is an agent platform that runs in your own cloud. It includes the Agno SDK, AgentOS, and a control plane to build, deploy, and improve customer-facing and internal agents. The site has docs, customer stories, and a pricing page.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "saas",
+    "github-repo"
+   ],
+   "platform": [
+    "cross-platform"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://docs.agno.com/",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it when agents must run inside your own infrastructure for data reasons. Compare the SDK with lighter frameworks before you commit.",
+  "why_it_matters": "It is an established agent framework with a self-hosted platform.",
+  "notable_for": [
+   "Formerly Phidata",
+   "Runs in your cloud",
+   "SDK and control plane"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.agno.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j579d51gbdkvfarc4aa5wszy557t5z3w",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "Agent infrastructure outside interface design work."
+ },
+ {
+  "id": "depo:j577wx2dc8kvr3fa51p2wcnwn17t792b",
+  "slug": "ai-code-review",
+  "url": "https://www.greptile.com/",
+  "name": "Greptile",
+  "tagline": "AI code review service that reads the whole codebase to review pull requests",
+  "description": "Greptile reviews pull requests with AI that understands the entire codebase. It automates reviews, catches bugs, and learns custom context from a team. It also offers a security review, a CLI, and new Plus and Apex plans. A free trial is available.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free-trial",
+    "subscription"
+   ],
+   "distribution": [
+    "saas",
+    "cli"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://www.greptile.com/docs/introduction",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to add a second reviewer to pull requests from agents and people. Tune the rules, or the comments become noise.",
+  "why_it_matters": "It is one of the main AI code review services.",
+  "notable_for": [
+   "Full-codebase context",
+   "Security review",
+   "CLI"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.greptile.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j577wx2dc8kvr3fa51p2wcnwn17t792b",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A code review service outside interface design work."
+ },
+ {
+  "id": "depo:j57evaye8yh3eg5yfqyap4945h84n0jr",
+  "slug": "ai-code-review-system",
+  "url": "https://github.com/Mihir2423/ai-code-review-system",
+  "name": "AI Code Review System",
+  "tagline": "Open-source monorepo for a GitHub code review bot with repository indexing",
+  "description": "AI Code Review System is an open-source monorepo for an automated code review bot. A user installs the bot on a repository, a webhook service receives events, and an indexing job prepares the code for review. The README documents the data flows with diagrams. It uses the AGPL-3.0 license.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "agpl"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/Mihir2423/ai-code-review-system",
+  "registry_url": null,
+  "github": {
+   "stars": 41,
+   "license": "AGPL-3.0",
+   "last_activity": "2026-04-19"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to study how a self-hosted review bot indexes and reviews code. The AGPL license affects hosted reuse.",
+  "why_it_matters": "It shows the architecture of a review bot in readable diagrams.",
+  "notable_for": [
+   "Self-hosted review bot",
+   "Documented data flows",
+   "AGPL-3.0"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://github.com/Mihir2423/ai-code-review-system (HTTP 200, page fetched 2026-10-09), https://github.com/Mihir2423/ai-code-review-system (GitHub API, 41 stars), depo.zip listing https://www.depo.zip/tools/j57evaye8yh3eg5yfqyap4945h84n0jr",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A small learning-scale project outside interface design work."
+ },
+ {
+  "id": "depo:j57b6fv02bn062r9j49dqp7q218cfe0p",
+  "slug": "ai-hero",
+  "url": "https://www.aihero.dev/",
+  "name": "AI Hero",
+  "tagline": "Matt Pocock's courses and newsletter on engineering with coding agents",
+  "description": "AI Hero, by Matt Pocock, teaches an engineering process for work with coding agents, from idea to shipped and reviewed code. It offers a free email course, paid courses, cohorts, a newsletter, and a set of skills. The site reports more than 127,000 developers learning and more than 8,500 trained in cohorts.",
+  "category": "essays-guides-courses",
+  "subcategory": "ai-workflow-guides",
+  "kinds": [
+   "course"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium"
+   ],
+   "distribution": [
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "prose",
+    "video"
+   ],
+   "agent_readiness": [
+    "agent-skill"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to learn a disciplined workflow for agent coding. Start with the free email course before you buy a cohort.",
+  "why_it_matters": "It teaches engineering fundamentals for agent work from a respected TypeScript educator.",
+  "notable_for": [
+   "By Matt Pocock",
+   "Free email course",
+   "Cohorts and skills"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.aihero.dev/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j57b6fv02bn062r9j49dqp7q218cfe0p",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "A respected, active course source, focused on engineering rather than design."
+ },
+ {
+  "id": "depo:j570s5gjp1g1t9hjv39mpnczz98a9w3h",
+  "slug": "ai-native-project-management",
+  "url": "https://plane.so/",
+  "name": "Plane",
+  "tagline": "Open-source project management for teams and agents, on cloud, self-hosted, or air-gapped",
+  "description": "Plane is an open-source project management tool for teams and AI agents. It combines projects, a wiki, and AI workflows in one workspace. It runs in the cloud, self-hosted, or air-gapped, and it has a free start and paid plans.",
+  "category": "utilities-naming",
+  "subcategory": "apps-and-references",
+  "kinds": [
+   "app"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "agpl"
+   ],
+   "pricing": [
+    "freemium",
+    "open-source"
+   ],
+   "distribution": [
+    "saas",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://plane.so/docs",
+  "repo_url": "https://github.com/makeplane/plane",
+  "registry_url": null,
+  "github": {
+   "stars": 60547,
+   "license": "AGPL-3.0",
+   "last_activity": "2026-10-08"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it as a self-hostable alternative to Linear or Jira. Check that its agent features match your workflow before you migrate.",
+  "why_it_matters": "It is a major open-source option for project management.",
+  "notable_for": [
+   "Open source",
+   "Self-hosted or air-gapped",
+   "Projects and wiki"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://plane.so/ (HTTP 200, page fetched 2026-10-09), https://github.com/makeplane/plane (GitHub API, 60547 stars), depo.zip listing https://www.depo.zip/tools/j570s5gjp1g1t9hjv39mpnczz98a9w3h",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A project management app outside interface design work."
+ },
+ {
+  "id": "depo:j575nsrxttxjgrwpapbe5ev7cx81scez",
+  "slug": "ai-sdk",
+  "url": "https://ai-sdk.dev/",
+  "name": "AI SDK",
+  "tagline": "Vercel's TypeScript toolkit for AI apps with streaming, fallbacks, and multi-model support",
+  "description": "AI SDK is a unified TypeScript SDK from Vercel for building AI apps. It covers streaming, fallbacks, tool calls, and many model providers behind one API. It works with Next.js, Svelte, Nuxt, and Nitro, and the site has recipes, templates, a provider list, and a playground. AI Elements, which the catalog lists, builds its UI on this SDK.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next",
+    "svelte",
+    "nuxt"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "llms-txt",
+    "structured-docs",
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npm install ai",
+  "package": "ai",
+  "docs_url": "https://ai-sdk.dev/docs",
+  "repo_url": "https://github.com/vercel/ai",
+  "registry_url": null,
+  "github": {
+   "stars": 27185,
+   "license": null,
+   "last_activity": "2026-10-08"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it as the data layer under any chat or agent interface in TypeScript. Pair it with AI Elements when you also need the UI components.",
+  "why_it_matters": "It is the most common TypeScript layer under AI chat interfaces.",
+  "notable_for": [
+   "From Vercel",
+   "Streaming and tool calls",
+   "Many providers"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://ai-sdk.dev/ (HTTP 200, page fetched 2026-10-09), https://github.com/vercel/ai (GitHub API, 27185 stars), depo.zip listing https://www.depo.zip/tools/j575nsrxttxjgrwpapbe5ev7cx81scez",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "Widely adopted and directly tied to AI interface work."
+ },
+ {
+  "id": "depo:j57bhnrra0c3y58swyt83k6zkx7tsf1a",
+  "slug": "ai-work",
+  "url": "https://www.ai.work/",
+  "name": "ai.work",
+  "tagline": "AI worker for IT teams that handles repetitive tickets across connected systems",
+  "description": "ai.work makes AI workers for company IT teams. Its first worker, Henry, works ticket queues and automates repetitive IT tasks across connected systems such as Okta, ServiceNow, Slack, and Google Workspace. The company claims five times faster teams within weeks.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "saas"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "unknown"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to evaluate automation of IT tickets. Check the access rights it needs across your identity and service systems.",
+  "why_it_matters": "It is an example of an AI worker sold for one department.",
+  "notable_for": [
+   "AI worker for IT",
+   "Many connectors"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.ai.work/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j57bhnrra0c3y58swyt83k6zkx7tsf1a",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "An IT automation service outside interface design work."
+ },
+ {
+  "id": "depo:j570c8qz8719hvdf9zjt3kaqa97t4y8t",
+  "slug": "algolia",
+  "url": "https://www.algolia.com/",
+  "name": "Algolia",
+  "tagline": "AI search and retrieval platform for site and app search, used by 18,000+ organizations",
+  "description": "Algolia is a search and retrieval platform for websites and apps. It covers classic search, AI search, and retrieval for generative and agent features. The company states that more than 18,000 organizations use it. It has extensive documentation and a pricing page.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium"
+   ],
+   "distribution": [
+    "saas",
+    "public-api"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "public-api",
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://www.algolia.com/doc",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it when site search must be fast and tunable without your own search cluster. Watch the usage pricing as traffic grows.",
+  "why_it_matters": "It powers the search interfaces of many design and docs sites.",
+  "notable_for": [
+   "Search and retrieval",
+   "Large customer base",
+   "Extensive docs"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.algolia.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j570c8qz8719hvdf9zjt3kaqa97t4y8t",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A search service outside interface design work."
+ },
+ {
+  "id": "depo:j5778gsczqh1ewpexg4bm7aza97tmvam",
+  "slug": "amp",
+  "url": "https://ampcode.com/",
+  "name": "Amp",
+  "tagline": "Coding agent from Sourcegraph for autonomous reasoning and large code edits",
+  "description": "Amp is a coding agent built to get the most from current frontier models. According to its listing, it handles autonomous reasoning, broad code edits, and complex multi-step tasks. The automated check failed, but a manual request on 2026-10-09 returned HTTP 200.",
+  "category": "agent-design-tooling",
+  "subcategory": "coding-agents-and-editors",
+  "kinds": [
+   "ai-tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "cli",
+    "saas"
+   ],
+   "platform": [
+    "cross-platform"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "unknown"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it for long, multi-step coding tasks where you want the agent to plan on its own. Check the usage pricing before team adoption.",
+  "why_it_matters": "It is one of the frontier commercial coding agents.",
+  "notable_for": [
+   "Autonomous coding agent",
+   "Frontier models"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://ampcode.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j5778gsczqh1ewpexg4bm7aza97tmvam",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A coding agent outside interface design work."
+ },
+ {
+  "id": "depo:j57368f2rajdc9kbs6w81g1sp589wyrv",
+  "slug": "aside-aside",
+  "url": "https://aside.com/",
+  "name": "Aside (browser)",
+  "tagline": "AI browser from a Y Combinator startup that does work across your sites, accounts, and history",
+  "description": "Aside is a browser with a built-in AI assistant that completes complex work across your websites, accounts, and history. Agent tabs run tasks in the background while you browse. The company is backed by Y Combinator, and the site has a pricing page.",
+  "category": "utilities-naming",
+  "subcategory": "apps-and-references",
+  "kinds": [
+   "app",
+   "ai-tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "desktop-app"
+   ],
+   "platform": [
+    "desktop"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://docs.aside.com/changelog/components",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to automate repeated browser work such as research or form tasks. Review what it can do in your signed-in accounts before you use it.",
+  "why_it_matters": "It is an example of an agent built into the browser itself.",
+  "notable_for": [
+   "Agent tabs",
+   "Backed by Y Combinator"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://aside.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j57368f2rajdc9kbs6w81g1sp589wyrv",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "An AI browser outside interface design work."
+ },
+ {
+  "id": "depo:j573g7bqk40z93c8evnzhzp4w184krh8",
+  "slug": "better-agent",
+  "url": "https://www.better-agent.com/",
+  "name": "Better Agent",
+  "tagline": "TypeScript framework for typed, event-driven, framework-agnostic agent apps",
+  "description": "Better Agent is a TypeScript framework for building agent apps. It focuses on types, an event-driven design, and independence from any one web framework. Agents compose into larger agents, and the type checker catches missing context on the server and the client. A create command starts a new project.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "bun create better-agent",
+  "package": null,
+  "docs_url": "https://www.better-agent.com/docs",
+  "repo_url": "https://github.com/better-agent/better-agent",
+  "registry_url": null,
+  "github": {
+   "stars": 118,
+   "license": "MIT",
+   "last_activity": "2026-06-01"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it when you want type errors for missing agent context at compile time. Compare it with AI SDK before you choose a base layer.",
+  "why_it_matters": "It brings strict typing to agent composition.",
+  "notable_for": [
+   "Typed agent context",
+   "Composable agents",
+   "Framework-agnostic"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.better-agent.com/ (HTTP 200, page fetched 2026-10-09), https://github.com/better-agent/better-agent (GitHub API, 118 stars), depo.zip listing https://www.depo.zip/tools/j573g7bqk40z93c8evnzhzp4w184krh8",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A young agent framework outside interface design work."
+ },
+ {
+  "id": "depo:j576e0xbjs8qfgadeaqj38vemh8daz44",
+  "slug": "bezalel",
+  "url": "https://bezalel.sh/",
+  "name": "Bezalel",
+  "tagline": "Beta capability service that gives personal agents memory, email, money, and texting through one MCP URL",
+  "description": "Bezalel is a capability plane for personal agents. Memory, email, money, texting, a computer, sandboxes, and hundreds of connectors sit behind one MCP URL and one token. It works with Claude Code, Codex CLI, Cursor, and other agents. It is in beta and has a pricing page.",
+  "category": "agent-design-tooling",
+  "subcategory": "mcp-and-registries",
+  "kinds": [
+   "mcp-server",
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "mcp-server",
+    "saas"
+   ],
+   "platform": [
+    "cross-platform"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "mcp-server",
+    "auth-required",
+    "structured-docs"
+   ],
+   "maturity": "beta"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://bezalel.sh/docs",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to give a personal agent real-world actions through one connection. Set strict limits on money and messaging before you connect accounts.",
+  "why_it_matters": "It bundles many agent capabilities behind a single MCP endpoint.",
+  "notable_for": [
+   "One MCP URL",
+   "Email",
+   "money",
+   "and texting",
+   "Beta"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://bezalel.sh/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j576e0xbjs8qfgadeaqj38vemh8daz44",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A beta agent service outside interface design work."
+ },
+ {
+  "id": "depo:j574e37y7n8rn1dyce0bke30x98ceg26",
+  "slug": "box-cheapest-most-powerful-sandboxes-for-agents",
+  "url": "https://boat.dev/",
+  "name": "boat",
+  "tagline": "Persistent Linux VMs for AI agents with SSH, Docker, and fast fork, billed per second",
+  "description": "boat, formerly Box from ASCII, offers persistent Linux virtual machines for AI agents. Each machine has SSH, Docker inside, an IPv4 address, and fast fork. Billing runs per second and stops when a machine is off. A 7-day trial with 25 compute hours precedes plans from $20 a month.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free-trial",
+    "subscription",
+    "usage-based"
+   ],
+   "distribution": [
+    "saas",
+    "cli",
+    "public-api"
+   ],
+   "platform": [
+    "linux"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "public-api",
+    "cli-installable",
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://docs.boat.dev/api/v1",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": "7-day free trial with 25 compute hours, then plans from $20 a month.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to host long-running agents on cheap persistent machines. Stop idle machines, because billing runs while they are on.",
+  "why_it_matters": "It offers low-cost persistent compute for agent services.",
+  "notable_for": [
+   "Per-second billing",
+   "Docker and SSH",
+   "Fast fork"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://boat.dev/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j574e37y7n8rn1dyce0bke30x98ceg26",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "Agent hosting outside interface design work."
+ },
+ {
+  "id": "depo:j57bkmmxckmnq1qb3epx3fygpd84h4xh",
+  "slug": "braintrust",
+  "url": "https://www.braintrust.dev/",
+  "name": "Braintrust",
+  "tagline": "Observability platform for AI agents with production tracing, evals, and regression checks",
+  "description": "Braintrust is an observability platform for AI products and agents. It traces production traffic, runs evaluations, and catches regressions before they reach users. The site also offers workshops, eval research, and a learning academy.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium"
+   ],
+   "distribution": [
+    "saas"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://www.braintrust.dev/docs",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to measure whether a prompt or model change makes an AI feature better or worse. Set up evals before you ship big changes.",
+  "why_it_matters": "It is a leading tool for evaluating AI product quality.",
+  "notable_for": [
+   "Tracing",
+   "Evals",
+   "Regression checks"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.braintrust.dev/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j57bkmmxckmnq1qb3epx3fygpd84h4xh",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "An AI ops service outside interface design work."
+ },
+ {
+  "id": "depo:j57e1bm903ykjx0055chaesx397t5ep5",
+  "slug": "bring-agents-and-creative-to-life-with-our-ai-voice-generato",
+  "url": "https://elevenlabs.io/",
+  "name": "ElevenLabs",
+  "tagline": "Voice AI platform with 5,000+ voices in 90+ languages, voice agents, and APIs",
+  "description": "ElevenLabs is a voice AI platform for speech generation and voice agents. It offers more than 5,000 voices in more than 90 languages, a voice designer, and secure APIs and SDKs. Its newest model at the time of the check was Eleven v4. The catalog already lists ElevenLabs UI, the company's agent interface kit.",
+  "category": "generative-media-tools",
+  "subcategory": "video-and-render",
+  "kinds": [
+   "ai-tool",
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium"
+   ],
+   "distribution": [
+    "saas",
+    "public-api"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "audio"
+   ],
+   "agent_readiness": [
+    "public-api",
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://elevenlabs.io/docs/overview/intro",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it for voiceovers in product videos or for a voice layer in an agent. Check the commercial terms of your plan before you publish generated voices.",
+  "why_it_matters": "It is the leading source of generated voice for product media.",
+  "notable_for": [
+   "5",
+   "000+ voices",
+   "90+ languages",
+   "Voice agents"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://elevenlabs.io/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j57e1bm903ykjx0055chaesx397t5ep5",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "A leading media tool, useful for product video and voice interfaces."
+ },
+ {
+  "id": "depo:j57843cq6gggb7xjzfkjpk2sex84px5z",
+  "slug": "broodnet",
+  "url": "https://broodnet.com/",
+  "name": "Broodnet",
+  "tagline": "Email infrastructure that gives each AI agent a real inbox with restricted outbound mail",
+  "description": "Broodnet provisions real email inboxes for AI agents. Agents receive verification codes, notifications, and messages from other agents. Inbound mail arrives from anywhere, and outbound mail is restricted by default. The site has docs, a roadmap, and pricing.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "saas",
+    "public-api"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "public-api",
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://docs.broodnet.com/",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it when an agent must sign up for services or read verification codes. Keep the default outbound restriction to limit abuse.",
+  "why_it_matters": "It solves the email step that blocks many agent sign-up flows.",
+  "notable_for": [
+   "Real inboxes for agents",
+   "Outbound restricted by default"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://broodnet.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j57843cq6gggb7xjzfkjpk2sex84px5z",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "Agent infrastructure outside interface design work."
+ }
+]

@@ -1,0 +1,1703 @@
+[
+ {
+  "id": "depo:j574d33xzm7bvze88mpyxvadxn8cepae",
+  "slug": "tailscale",
+  "url": "https://tailscale.com/",
+  "name": "Tailscale",
+  "tagline": "WireGuard-based private network that connects devices, servers, and services with identity-based access",
+  "description": "Tailscale connects devices, servers, and cloud resources in a private network built on WireGuard. Access follows identity and Zero Trust rules, and setup takes minutes. A free Personal plan covers individual use.",
+  "category": "utilities-naming",
+  "subcategory": "apps-and-references",
+  "kinds": [
+   "app",
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium"
+   ],
+   "distribution": [
+    "desktop-app",
+    "mobile-app",
+    "cli",
+    "saas"
+   ],
+   "platform": [
+    "macos",
+    "windows",
+    "linux",
+    "ios",
+    "android"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "cli-installable",
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://tailscale.com/docs",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to reach a home server or GPU machine from anywhere without open ports. It has no role in interface design work.",
+  "why_it_matters": "It makes private networks simple for small teams.",
+  "notable_for": [
+   "WireGuard-based",
+   "Identity-based access",
+   "Free Personal plan"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://tailscale.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j574d33xzm7bvze88mpyxvadxn8cepae",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "Network infrastructure outside interface design work."
+ },
+ {
+  "id": "depo:j5779zxnj3ca58vpxr4xz7k40989kv9f",
+  "slug": "the-content-architecture",
+  "url": "https://www.contentarchitecture.dev/",
+  "name": "The Content Architecture",
+  "tagline": "Paid, agent-ready Sanity kit for Next.js and Astro with a page builder, SEO, and agent files",
+  "description": "The Content Architecture is a paid full-stack kit for Next.js and Astro on Sanity. It packages six years of client-work decisions: a page builder, draft mode, SEO, a fetch layer, AGENTS.md, skills, MCP server setup, and llms.txt. A commercial license allows unlimited client projects but no resale of the kit.",
+  "category": "blocks-templates-themes",
+  "subcategory": "templates-and-starters",
+  "kinds": [
+   "template"
+  ],
+  "facets": {
+   "framework": [
+    "next",
+    "astro",
+    "react"
+   ],
+   "styling": [
+    "tailwind-any"
+   ],
+   "license": [
+    "commercial"
+   ],
+   "pricing": [
+    "one-time"
+   ],
+   "distribution": [
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "agent-skill",
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to start a Sanity site with the editor and agent setup already done. Review the page builder blocks against your design system.",
+  "why_it_matters": "It packages years of Sanity client-work decisions.",
+  "notable_for": [
+   "Next.js and Astro",
+   "Page builder and SEO",
+   "Agent-ready files"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.contentarchitecture.dev/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j5779zxnj3ca58vpxr4xz7k40989kv9f",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "A useful, paid starter with a complete agent setup."
+ },
+ {
+  "id": "depo:j578g4cffze7hn2kr3244jrw1980f3v3",
+  "slug": "the-developer-first-consent-banner",
+  "url": "https://c15t.com/",
+  "name": "c15t",
+  "tagline": "Open-source consent banner and consent management for React, Next.js, and JavaScript apps",
+  "description": "c15t is an open-source consent management framework for React, Next.js, and other JavaScript apps. It gives consent UI, consent-aware loading for many analytics and marketing scripts, and self-hosted or managed deployment. Version 2.3 added IAB TCF 2.4. It uses the Apache 2.0 license. The hosted service Inth builds on it, and the catalog lists Inth separately.",
+  "category": "component-libraries",
+  "subcategory": "integration-components",
+  "kinds": [
+   "component-library"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next",
+    "vanilla"
+   ],
+   "styling": [
+    "unknown"
+   ],
+   "license": [
+    "apache-2.0"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "cookie-consent"
+  ],
+  "component_count": null,
+  "surfaces": [
+   "cookie-consent"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://c15t.com/docs/frameworks/next/quickstart",
+  "repo_url": "https://github.com/c15t/c15t",
+  "registry_url": null,
+  "github": {
+   "stars": 1935,
+   "license": "Apache-2.0",
+   "last_activity": "2026-10-08"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to build a consent banner that matches your product. Make the reject option as easy to use as the accept option.",
+  "why_it_matters": "It is an open-source base for consent UI.",
+  "notable_for": [
+   "Consent UI",
+   "Script loading by consent",
+   "Apache 2.0"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://c15t.com/ (HTTP 200, page fetched 2026-10-09), https://github.com/c15t/c15t (GitHub API, 1935 stars), depo.zip listing https://www.depo.zip/tools/j578g4cffze7hn2kr3244jrw1980f3v3",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "A useful, active consent component with an open-source core."
+ },
+ {
+  "id": "depo:j5739gx2cc96e3fewpd54t0wkh80f5tj",
+  "slug": "the-fastest-way-to-run-github-actions",
+  "url": "https://www.blacksmith.sh/",
+  "name": "Blacksmith",
+  "tagline": "Faster runners for GitHub Actions with quicker cache downloads and Docker builds",
+  "description": "Blacksmith runs GitHub Actions jobs on its own hardware. The company states that CI runs 2 times faster, caches download 4 times faster, and Docker images build 40 times faster, with no queue times. You start for free, and sandboxes are coming soon.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium"
+   ],
+   "distribution": [
+    "saas"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://docs.blacksmith.sh/",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it when slow CI delays design previews. It has no role in interface design itself.",
+  "why_it_matters": "It shortens CI waits for GitHub teams.",
+  "notable_for": [
+   "Faster runners",
+   "Docker build cache",
+   "Free start"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.blacksmith.sh/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j5739gx2cc96e3fewpd54t0wkh80f5tj",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "CI infrastructure outside interface design work."
+ },
+ {
+  "id": "depo:j576mr3sjgfp42dtzxhf3b7v7d7t47yn",
+  "slug": "the-git-based-cms-for-nuxt",
+  "url": "https://nuxt.studio/",
+  "name": "Nuxt Studio",
+  "tagline": "Self-hosted, open-source CMS to edit Nuxt Content sites visually and publish to Git",
+  "description": "Nuxt Studio is a self-hosted, open-source CMS for Nuxt Content websites. Editors change content visually and manage media on the production site, and changes publish directly to Git. It installs as a Nuxt module and uses the MIT license.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "nuxt",
+    "vue"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "cli-installable",
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npx nuxi module add nuxt-studio",
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/nuxt-content/nuxt-studio",
+  "registry_url": null,
+  "github": {
+   "stars": 734,
+   "license": "MIT",
+   "last_activity": "2026-09-14"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to let non-developers edit a Nuxt Content site without a separate CMS. Review the commits it makes before release.",
+  "why_it_matters": "It adds visual editing to Git-based Nuxt sites.",
+  "notable_for": [
+   "Visual editing",
+   "Publishes to Git",
+   "MIT license"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://nuxt.studio/ (HTTP 200, page fetched 2026-10-09), https://github.com/nuxt-content/nuxt-studio (GitHub API, 734 stars), depo.zip listing https://www.depo.zip/tools/j576mr3sjgfp42dtzxhf3b7v7d7t47yn",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A CMS tool outside interface design work."
+ },
+ {
+  "id": "depo:j572tkjag32xp9q5x36t37xxq17t4amm",
+  "slug": "tiptap-editor",
+  "url": "https://tiptap.dev/",
+  "name": "Tiptap",
+  "tagline": "Headless rich text editor framework with collaboration, AI, and document tools",
+  "description": "Tiptap is a headless rich text editor framework. The open-source editor gives you full control of the editing interface, and the paid platform adds real-time collaboration, track changes, an AI toolkit, and a document layer. Teams use it to build editors like Notion. The editor uses the MIT license and has about 39,000 GitHub stars.",
+  "category": "component-libraries",
+  "subcategory": "headless-primitives",
+  "kinds": [
+   "primitive",
+   "component-library"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "vue",
+    "svelte",
+    "vanilla"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "freemium",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo",
+    "saas"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [
+   "rich-text-editor"
+  ],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://tiptap.dev/docs",
+  "repo_url": "https://github.com/ueberdosis/tiptap",
+  "registry_url": null,
+  "github": {
+   "stars": 38662,
+   "license": "MIT",
+   "last_activity": "2026-10-08"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to build a custom writing interface with your own toolbar and menus. Design keyboard shortcuts and empty states early.",
+  "why_it_matters": "It is a leading base for custom editors.",
+  "notable_for": [
+   "Headless editor",
+   "Collaboration and AI",
+   "39",
+   "000 GitHub stars"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://tiptap.dev/ (HTTP 200, page fetched 2026-10-09), https://github.com/ueberdosis/tiptap (GitHub API, 38662 stars), depo.zip listing https://www.depo.zip/tools/j572tkjag32xp9q5x36t37xxq17t4amm",
+  "source": "depo",
+  "quality_tier": "A",
+  "tier_reason": "A widely used, active primitive for editor interfaces."
+ },
+ {
+  "id": "depo:j573p3yw8enakgwapm8dwfs6r57t58nn",
+  "slug": "todesktop",
+  "url": "https://www.todesktop.com/",
+  "name": "ToDesktop",
+  "tagline": "Turns a web app into a desktop app and handles Electron builds, security, and auto-updates",
+  "description": "ToDesktop turns a web app into a desktop app for macOS, Windows, and Linux. ToDesktop for Electron builds, secures, and releases Electron apps, with auto-updates. It has documentation for Electron teams.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "saas"
+   ],
+   "platform": [
+    "macos",
+    "windows",
+    "linux"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://www.todesktop.com/electron/docs",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to ship a desktop version of a web app without your own release pipeline. Design native menus and window states for each platform.",
+  "why_it_matters": "It removes release work from Electron apps.",
+  "notable_for": [
+   "Web to desktop",
+   "Electron releases",
+   "Auto-updates"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.todesktop.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j573p3yw8enakgwapm8dwfs6r57t58nn",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "Developer infrastructure outside interface design work."
+ },
+ {
+  "id": "depo:j57dbzskpd02tj9jhkap9nba357t53zm",
+  "slug": "typeform",
+  "url": "https://www.typeform.com/",
+  "name": "Typeform",
+  "tagline": "Form builder for interactive, one-question-at-a-time forms with AI and workflow automation",
+  "description": "Typeform builds interactive forms, quizzes, and surveys without code, with templates for research, feedback, and lead generation. It now adds AI, workflow automation, and a Typeform MCP to use forms from AI tools. You start for free.",
+  "category": "utilities-naming",
+  "subcategory": "apps-and-references",
+  "kinds": [
+   "app",
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium"
+   ],
+   "distribution": [
+    "saas",
+    "mcp-server"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "mcp-server"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "multi-step-form",
+   "feedback-survey"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to run a user survey or research screener quickly. Study its one-question flow as a reference for long forms.",
+  "why_it_matters": "It is a well-known reference for conversational form design.",
+  "notable_for": [
+   "Interactive forms",
+   "Templates",
+   "Typeform MCP"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.typeform.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j57dbzskpd02tj9jhkap9nba357t53zm",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "A design-adjacent tool and a common reference for form UX."
+ },
+ {
+  "id": "depo:j5793937s1jtznv4rcy28xasfs7t5wqw",
+  "slug": "uploadthing",
+  "url": "https://uploadthing.com/",
+  "name": "UploadThing",
+  "tagline": "File uploads for web apps, from the upload button to the server",
+  "description": "UploadThing handles file uploads for developers, from the upload button to the server, as a simpler and safer option than raw S3. It gives typed server routes and React components such as an upload button and a dropzone. It uses the MIT license and has about 5,300 GitHub stars. The site still shows a beta label.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "next",
+    "vue",
+    "svelte",
+    "solid"
+   ],
+   "styling": [
+    "tailwind-any"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "freemium",
+    "open-source"
+   ],
+   "distribution": [
+    "saas",
+    "npm-package",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "beta"
+  },
+  "components": [
+   "file-upload",
+   "drag-and-drop"
+  ],
+  "component_count": null,
+  "surfaces": [
+   "uploading-media"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://docs.uploadthing.com/",
+  "repo_url": "https://github.com/pingdotgg/uploadthing",
+  "registry_url": null,
+  "github": {
+   "stars": 5343,
+   "license": "MIT",
+   "last_activity": "2026-09-30"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to add file uploads with ready upload buttons and dropzones. Restyle them, and design clear progress and error states.",
+  "why_it_matters": "It makes file uploads simple in TypeScript apps.",
+  "notable_for": [
+   "Upload button and dropzone",
+   "Typed routes",
+   "MIT license"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://uploadthing.com/ (HTTP 200, page fetched 2026-10-09), https://github.com/pingdotgg/uploadthing (GitHub API, 5343 stars), depo.zip listing https://www.depo.zip/tools/j5793937s1jtznv4rcy28xasfs7t5wqw",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "Upload infrastructure with small UI parts, outside core design work."
+ },
+ {
+  "id": "depo:j57dsfhbyj274wsqwzvrx2pz8h7t4gga",
+  "slug": "upstash",
+  "url": "https://upstash.com/",
+  "name": "Upstash",
+  "tagline": "Serverless Redis, vector, and search databases with pay-as-you-go pricing",
+  "description": "Upstash is a serverless data platform with Redis, vector, and search databases. It has low latency, pay-as-you-go pricing, and databases that start in seconds. A remote MCP server connects coding agents to your account.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium",
+    "usage-based"
+   ],
+   "distribution": [
+    "saas",
+    "cli",
+    "mcp-server"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "mcp-server",
+    "agent-skill",
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://upstash.com/docs",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it for rate limits, caches, or vector search in a serverless app. It has no role in interface design work.",
+  "why_it_matters": "It is a common data layer for serverless apps.",
+  "notable_for": [
+   "Serverless Redis",
+   "Vector and search",
+   "Remote MCP"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://upstash.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j57dsfhbyj274wsqwzvrx2pz8h7t4gga",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "Data infrastructure outside interface design work."
+ },
+ {
+  "id": "depo:j574syr3z1ybn57x74pgq0cjmn80et5t",
+  "slug": "utm",
+  "url": "https://mac.getutm.app/",
+  "name": "UTM",
+  "tagline": "Free, open-source virtual machines for Mac with Apple Hypervisor and emulation",
+  "description": "UTM runs Windows, Linux, and other operating systems on a Mac. It uses the Apple Hypervisor framework to run ARM64 systems at near-native speed on Apple Silicon, and emulation for other architectures. It is a free download, also in the Mac App Store, uses the Apache 2.0 license, and has about 36,000 GitHub stars.",
+  "category": "utilities-naming",
+  "subcategory": "apps-and-references",
+  "kinds": [
+   "app"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "apache-2.0"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "desktop-app",
+    "download",
+    "github-repo"
+   ],
+   "platform": [
+    "macos"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/utmapp/UTM",
+  "registry_url": null,
+  "github": {
+   "stars": 35781,
+   "license": "Apache-2.0",
+   "last_activity": "2026-09-25"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to test a design in Windows or Linux browsers from a Mac. Take a snapshot of the virtual machine before you change it.",
+  "why_it_matters": "It is the common free virtual machine app for Apple Silicon.",
+  "notable_for": [
+   "Windows and Linux on Mac",
+   "Free",
+   "36",
+   "000 GitHub stars"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://mac.getutm.app/ (HTTP 200, page fetched 2026-10-09), https://github.com/utmapp/UTM (GitHub API, 35781 stars), depo.zip listing https://www.depo.zip/tools/j574syr3z1ybn57x74pgq0cjmn80et5t",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A system utility, useful for cross-platform testing only."
+ },
+ {
+  "id": "depo:j574xv5xr946rd68h0c17vny0x7t57x5",
+  "slug": "velite",
+  "url": "https://velite.js.org/",
+  "name": "Velite",
+  "tagline": "Turns Markdown, MDX, YAML, and JSON into a type-safe app data layer with Zod",
+  "description": "Velite turns Markdown, MDX, YAML, JSON, and other files into a type-safe data layer for an app, with Zod schemas. It is a content tool for content-first sites. It uses the MIT license.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/zce/velite",
+  "registry_url": null,
+  "github": {
+   "stars": 821,
+   "license": "MIT",
+   "last_activity": "2026-10-05"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to keep blog or docs content typed in a static site. Define the schema together with the content designer.",
+  "why_it_matters": "It brings type safety to file-based content.",
+  "notable_for": [
+   "Zod schemas",
+   "Markdown and MDX",
+   "MIT license"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://velite.js.org/ (HTTP 200, page fetched 2026-10-09), https://github.com/zce/velite (GitHub API, 821 stars), depo.zip listing https://www.depo.zip/tools/j574xv5xr946rd68h0c17vny0x7t57x5",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A content tool outside interface design work."
+ },
+ {
+  "id": "depo:j57cm5b31nbshwfjfrk5wqfn7s7t50x3",
+  "slug": "video-sdk",
+  "url": "https://www.videosdk.live/",
+  "name": "VideoSDK",
+  "tagline": "APIs and SDKs for realtime voice, video calls, live streaming, and AI voice agents",
+  "description": "VideoSDK gives developers APIs and SDKs for audio and video calls, interactive live streaming, and AI voice agents. It works on many platforms and has a free start.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium"
+   ],
+   "distribution": [
+    "saas",
+    "npm-package",
+    "public-api"
+   ],
+   "platform": [
+    "web",
+    "ios",
+    "android"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "video"
+   ],
+   "agent_readiness": [
+    "public-api",
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://docs.videosdk.live/",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to add video calls or a voice agent to a product. Design clear states for permissions, poor networks, and muted devices.",
+  "why_it_matters": "It covers voice, video, and agent calls in one SDK.",
+  "notable_for": [
+   "Video and voice calls",
+   "Live streaming",
+   "AI voice agents"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.videosdk.live/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j57cm5b31nbshwfjfrk5wqfn7s7t50x3",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "Realtime media infrastructure outside interface design work."
+ },
+ {
+  "id": "depo:j57ayd2f9177qnr7tw1e4me2a98254jk",
+  "slug": "webhaptics",
+  "url": "https://haptics.lochie.me/",
+  "name": "WebHaptics",
+  "tagline": "Haptic feedback for the mobile web with hooks for React, Vue, and Svelte",
+  "description": "WebHaptics adds haptic feedback to mobile web apps. You call a trigger, such as success, from a button, and it supports React, Vue, Svelte, and vanilla JavaScript. It uses the MIT license, has about 2,800 GitHub stars, and was at version 0.0.6 when checked.",
+  "category": "motion-interaction",
+  "subcategory": "micro-interactions-and-loaders",
+  "kinds": [
+   "primitive"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "vue",
+    "svelte",
+    "vanilla"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "npm i web-haptics",
+  "package": "web-haptics",
+  "docs_url": null,
+  "repo_url": "https://github.com/lochie/web-haptics",
+  "registry_url": null,
+  "github": {
+   "stars": 2805,
+   "license": "MIT",
+   "last_activity": "2026-09-02"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to confirm key actions with a short vibration on phones. Keep haptics rare, and never use them as the only feedback.",
+  "why_it_matters": "It brings native-style haptics to web interfaces.",
+  "notable_for": [
+   "Mobile web haptics",
+   "React",
+   "Vue",
+   "and Svelte",
+   "MIT license"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://haptics.lochie.me/ (HTTP 200, page fetched 2026-10-09), https://github.com/lochie/web-haptics (GitHub API, 2805 stars), depo.zip listing https://www.depo.zip/tools/j57ayd2f9177qnr7tw1e4me2a98254jk",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "A focused interaction primitive, still early at version 0.0.6."
+ },
+ {
+  "id": "depo:j578d787xy5b27gb54kmyyb07n7t40h1",
+  "slug": "webstudio",
+  "url": "https://webstudio.is/",
+  "name": "Webstudio",
+  "tagline": "Open-source visual website builder and Webflow alternative with full CSS control",
+  "description": "Webstudio is an open-source visual website builder and an alternative to Webflow. It supports all CSS properties without hiding them, connects to any headless CMS, and hosts anywhere, including on Webstudio. It uses the AGPL-3.0 license and has about 9,000 GitHub stars. The automated check met a bot wall (HTTP 403), so this record uses the listing and the repository.",
+  "category": "utilities-naming",
+  "subcategory": "apps-and-references",
+  "kinds": [
+   "app",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "vanilla-css"
+   ],
+   "license": [
+    "agpl"
+   ],
+   "pricing": [
+    "freemium",
+    "open-source"
+   ],
+   "distribution": [
+    "web-app",
+    "saas",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "bot-blocked"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": "https://github.com/webstudio-is/webstudio",
+  "registry_url": null,
+  "github": {
+   "stars": 9041,
+   "license": "AGPL-3.0",
+   "last_activity": "2026-10-08"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to build sites visually while you keep full CSS control. Check the AGPL terms before you self-host it for clients.",
+  "why_it_matters": "It is an open alternative to Webflow for designers.",
+  "notable_for": [
+   "Visual builder",
+   "Full CSS control",
+   "Open source"
+  ],
+  "already_enriched": false,
+  "http_status": 403,
+  "verified_at": "2026-10-09",
+  "evidence": "https://webstudio.is/ (HTTP 403, page fetched 2026-10-09), https://github.com/webstudio-is/webstudio (GitHub API, 9041 stars), depo.zip listing https://www.depo.zip/tools/j578d787xy5b27gb54kmyyb07n7t40h1",
+  "source": "depo",
+  "quality_tier": "B",
+  "tier_reason": "A design tool with real CSS output, behind a bot wall during the check."
+ },
+ {
+  "id": "depo:j571zdksgpsbnhz8c75hhzezjn7t4wse",
+  "slug": "wope",
+  "url": "https://wope.com/",
+  "name": "Wope",
+  "tagline": "SEO research and rank tracking with keyword tagging and traffic estimates",
+  "description": "Wope is an SEO research tool for rank tracking. It finds which keywords bring the most search traffic, with automated keyword tagging, keyword suggestions, and traffic estimates. It has plans for startups and agencies and a 14-day trial.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "free-trial",
+    "subscription"
+   ],
+   "distribution": [
+    "saas"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "unknown"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to see which pages bring search traffic before a site redesign. Keep high-traffic URLs stable during the redesign.",
+  "why_it_matters": "It ties SEO data to site redesign decisions.",
+  "notable_for": [
+   "Rank tracking",
+   "Keyword tagging",
+   "14-day trial"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://wope.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j571zdksgpsbnhz8c75hhzezjn7t4wse",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A marketing tool outside interface design work."
+ },
+ {
+  "id": "depo:j577qhsd1ghmtqbw2hjfjxey2h7t4v1b",
+  "slug": "xata",
+  "url": "https://xata.io/",
+  "name": "Xata",
+  "tagline": "Branch-native Postgres platform with copy-on-write branches and scale to zero",
+  "description": "Xata is a Postgres platform with copy-on-write branching. You start fresh or branch an existing Postgres database in seconds, give each coding agent its own branch of production, and scale to zero when idle. It is open source under the Apache 2.0 license.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "apache-2.0"
+   ],
+   "pricing": [
+    "freemium",
+    "open-source"
+   ],
+   "distribution": [
+    "saas",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://xata.io/docs/overview",
+  "repo_url": "https://github.com/xataio/xata",
+  "registry_url": null,
+  "github": {
+   "stars": 1083,
+   "license": "Apache-2.0",
+   "last_activity": "2026-10-08"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to give each preview or agent its own copy of production data. Mask personal data in branches.",
+  "why_it_matters": "It makes database branches cheap for agents.",
+  "notable_for": [
+   "Copy-on-write branches",
+   "Scale to zero",
+   "Open source"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://xata.io/ (HTTP 200, page fetched 2026-10-09), https://github.com/xataio/xata (GitHub API, 1083 stars), depo.zip listing https://www.depo.zip/tools/j577qhsd1ghmtqbw2hjfjxey2h7t4v1b",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "Database infrastructure outside interface design work."
+ },
+ {
+  "id": "depo:j57fp9wefz0qj1vftk0v56ey6x7xdp4x",
+  "slug": "zenblog",
+  "url": "https://www.zenblog.com/",
+  "name": "Zenblog",
+  "tagline": "Small headless blogging CMS with a Notion-style editor and a typed API",
+  "description": "Zenblog is a small headless CMS for blogs. It has a Notion-style editor, hosted image and video uploads, and a type-safe API client on npm. An official Next.js template is on GitHub.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "saas",
+    "npm-package"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "structured-docs"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "blog",
+   "blog-post"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": "npm i zenblog",
+  "package": "zenblog",
+  "docs_url": "https://www.zenblog.com/docs",
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to add a blog to a designed site without a full CMS. Design the post template yourself, because Zenblog is headless.",
+  "why_it_matters": "It keeps blogging simple for developers.",
+  "notable_for": [
+   "Notion-style editor",
+   "Headless API",
+   "Next.js template"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.zenblog.com/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j57fp9wefz0qj1vftk0v56ey6x7xdp4x",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "A CMS service outside interface design work."
+ },
+ {
+  "id": "depo:j57dqksz3kdwf4z3kq6dr6j1yx81qzk3",
+  "slug": "zenith",
+  "url": "https://www.usezenith.app/",
+  "name": "Zenith",
+  "tagline": "Privacy-friendly, real-time website analytics with a light tracking script",
+  "description": "Zenith is a simple, privacy-friendly analytics service for websites. It shows real-time insights from a light tracking script. The site renders with JavaScript, so this record uses its metadata.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "unknown"
+   ],
+   "distribution": [
+    "saas"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "unknown"
+   ],
+   "agent_readiness": [
+    "js-only-shell"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "analytics"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": {
+   "stars": null,
+   "license": null,
+   "last_activity": null
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it for basic, privacy-friendly traffic numbers. It has no role in interface design work.",
+  "why_it_matters": "It is a light option for site analytics.",
+  "notable_for": [
+   "Real-time",
+   "Privacy-friendly",
+   "Light script"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://www.usezenith.app/ (HTTP 200, page fetched 2026-10-09), depo.zip listing https://www.depo.zip/tools/j57dqksz3kdwf4z3kq6dr6j1yx81qzk3",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "An analytics service outside interface design work."
+ },
+ {
+  "id": "depo:j571yw09jse34mpmpfc53951dh7t6g5x",
+  "slug": "zero-docs",
+  "url": "https://zero.rocicorp.dev/",
+  "name": "Zero",
+  "tagline": "Rocicorp sync engine for instant queries in web apps, with docs and llms.txt for agents",
+  "description": "Zero, by Rocicorp, is a general-purpose sync engine for the web that makes queries instant by default. The listing points to its official documentation, which covers the ZQL query language and gives an llms.txt file for AI assistants. The Replicache team now focuses on it.",
+  "category": "utilities-naming",
+  "subcategory": "apis-and-services",
+  "kinds": [
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "apache-2.0"
+   ],
+   "pricing": [
+    "open-source"
+   ],
+   "distribution": [
+    "npm-package",
+    "github-repo"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "code",
+    "prose"
+   ],
+   "agent_readiness": [
+    "llms-txt",
+    "open-source-code",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://zero.rocicorp.dev/docs/zql",
+  "repo_url": "https://github.com/rocicorp/mono",
+  "registry_url": null,
+  "github": {
+   "stars": 3406,
+   "license": "Apache-2.0",
+   "last_activity": "2026-10-08"
+  },
+  "pricing_detail": null,
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use it to make app interactions feel instant with local-first sync. Point coding agents to its llms.txt before they write queries.",
+  "why_it_matters": "It makes instant interfaces the default.",
+  "notable_for": [
+   "Instant queries",
+   "Sync engine",
+   "llms.txt"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-10-09",
+  "evidence": "https://zero.rocicorp.dev/ (HTTP 200, page fetched 2026-10-09), https://github.com/rocicorp/mono (GitHub API, 3406 stars), depo.zip listing https://www.depo.zip/tools/j571yw09jse34mpmpfc53951dh7t6g5x",
+  "source": "depo",
+  "quality_tier": "C",
+  "tier_reason": "Sync infrastructure outside interface design work."
+ }
+]
