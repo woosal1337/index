@@ -486,31 +486,6 @@
    ]
   },
   {
-   "slug": "house-brand-assets",
-   "name": "House Brand Assets",
-   "description": "The owner's own Clinora brand files — logo and icon SVGs, favicon and app icon, web fonts, noise texture, and the PWA manifest.",
-   "agent_hint": "Look here first whenever you must apply the owner's own brand: pull the exact logo variant, favicon, webfont, texture, or manifest instead of generating a substitute.",
-   "icon_hint": "badge-check",
-   "estimated_count": 12,
-   "subcategories": [
-    {
-     "slug": "marks-and-icons",
-     "name": "Marks & Icons",
-     "description": "Logo and icon SVGs in default and white variants, plus favicon and Apple touch icon."
-    },
-    {
-     "slug": "webfonts",
-     "name": "Webfonts",
-     "description": "The hashed WOFF2 files the site loads."
-    },
-    {
-     "slug": "textures-and-config",
-     "name": "Textures & Config",
-     "description": "Supporting brand files such as the noise texture and the web app manifest."
-    }
-   ]
-  },
-  {
    "slug": "utilities-naming",
    "name": "Utilities & Naming",
    "description": "Small sharp tools around the edges of design work — domain and username checks, etymology, privacy-first web utilities, and the services and apps kept as craft references.",
@@ -965,5 +940,5 @@
    ]
   }
  ],
- "assignment_notes": "Every entry gets exactly one primary category; anything else it touches becomes a secondary tag, never a second primary. Apply these tests in order. (1) Owner-first: any file served from clinora.ai is house-brand-assets, whatever it depicts. (2) Shape-first for editorial: if the entry is an article, X thread, review, course, or tutorial video, it goes to essays-guides-courses and carries the sibling category as a topic tag — this is what keeps the five Fontshare reviews and the six Seedance guides out of typography and generative-media-tools. Exception: an interview or write-up about one artist stays with that artist in artists-creators, and a machine-readable analysis file such as a DESIGN.md entry is a resource, not an essay. (3) Specific design axis beats generic code: a package whose selling point is motion, agent-chat UI, or icons goes to motion-interaction, ai-interface-kits, or icons-logos before component-libraries. Precedence order among code categories is icons-logos > ai-interface-kits > motion-interaction > blocks-templates-themes > component-libraries. (4) Style versus catalog: if the pitch is a look (retro, neobrutalist, glass, terminal, Tron) the entry is a theme pack in blocks-templates-themes; if the pitch is coverage and quality of components, it is component-libraries. (5) Page unit versus component unit: heroes, pricing sections, dashboards, and starters are blocks-templates-themes; single elements are component-libraries. (6) Pixels versus code: a tool that outputs an image, pattern, gradient, or shader is textures-assets; a tool that outputs tokens, CSS, or components is blocks-templates-themes. (7) Model output target: an AI tool aimed at coding agents, design specs, or agent workflow is agent-design-tooling; an AI tool that produces media files is generative-media-tools. (8) Shows designs versus indexes resources: a gallery of shipped work is inspiration-galleries/site-galleries or /app-screens; an index of tools, skills, or links is inspiration-galleries/directories-and-meta-indexes — unless it indexes installable registries, which stays in component-libraries/shadcn-registries. (9) People: a company selling design services is studios-portfolios; an individual selling design services is studios-portfolios/designer-portfolios; an artist, and every social or platform page belonging to them, is artists-creators. A social account that belongs to a product rather than a person takes the product's category. (10) Mirrors: a GitHub repo and its marketing site are two entries in the same category; mark one canonical and the other a mirror, and never split them across categories. (11) Real brand manuals and IP rules are design-systems-brand even when hosted on a gallery domain such as deck.gallery, because the artifact is the manual, not the gallery. (12) Last resort: choose the category a human would open first for this entry, then record the runner-up as a secondary tag so retrieval still finds it. Category slugs are the controlled vocabulary — no free-text categories, no singular/plural variants, and any new term needs a new slug plus an alias entry, so the No-code / No Code drift that broke depo.zip cannot happen here."
+ "assignment_notes": "Every entry gets exactly one primary category; anything else it touches becomes a secondary tag, never a second primary. Apply these tests in order. (1) Shape-first for editorial: if the entry is an article, X thread, review, course, or tutorial video, it goes to essays-guides-courses and carries the sibling category as a topic tag — this is what keeps the five Fontshare reviews and the six Seedance guides out of typography and generative-media-tools. Exception: an interview or write-up about one artist stays with that artist in artists-creators, and a machine-readable analysis file such as a DESIGN.md entry is a resource, not an essay. (2) Specific design axis beats generic code: a package whose selling point is motion, agent-chat UI, or icons goes to motion-interaction, ai-interface-kits, or icons-logos before component-libraries. Precedence order among code categories is icons-logos > ai-interface-kits > motion-interaction > blocks-templates-themes > component-libraries. (3) Style versus catalog: if the pitch is a look (retro, neobrutalist, glass, terminal, Tron) the entry is a theme pack in blocks-templates-themes; if the pitch is coverage and quality of components, it is component-libraries. (4) Page unit versus component unit: heroes, pricing sections, dashboards, and starters are blocks-templates-themes; single elements are component-libraries. (5) Pixels versus code: a tool that outputs an image, pattern, gradient, or shader is textures-assets; a tool that outputs tokens, CSS, or components is blocks-templates-themes. (6) Model output target: an AI tool aimed at coding agents, design specs, or agent workflow is agent-design-tooling; an AI tool that produces media files is generative-media-tools. (7) Shows designs versus indexes resources: a gallery of shipped work is inspiration-galleries/site-galleries or /app-screens; an index of tools, skills, or links is inspiration-galleries/directories-and-meta-indexes — unless it indexes installable registries, which stays in component-libraries/shadcn-registries. (8) People: a company selling design services is studios-portfolios; an individual selling design services is studios-portfolios/designer-portfolios; an artist, and every social or platform page belonging to them, is artists-creators. A social account that belongs to a product rather than a person takes the product's category. (9) Mirrors: a GitHub repo and its marketing site are two entries in the same category; mark one canonical and the other a mirror, and never split them across categories. (10) Real brand manuals and IP rules are design-systems-brand even when hosted on a gallery domain such as deck.gallery, because the artifact is the manual, not the gallery. (11) Last resort: choose the category a human would open first for this entry, then record the runner-up as a secondary tag so retrieval still finds it. Category slugs are the controlled vocabulary — no free-text categories, no singular/plural variants, and any new term needs a new slug plus an alias entry, so the No-code / No Code drift that broke depo.zip cannot happen here."
 }
