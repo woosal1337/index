@@ -4,6 +4,7 @@ import Link from "next/link";
 import { m } from "motion/react";
 import type { Tier } from "../lib/types";
 import { labelize, monogram, tierLabel } from "../lib/text";
+import { ogImageUrl } from "../lib/media";
 import { catStyle } from "./primitives";
 import { ComponentIcon, StarIcon } from "./icons";
 
@@ -22,7 +23,7 @@ export type CardItem = {
 };
 
 export function cardImage(r: CardItem): string | null {
-  return r.img ?? (r.hasImage && r.imageKey ? `/og/${r.imageKey}.webp` : null);
+  return r.img ?? (r.hasImage && r.imageKey ? ogImageUrl(r.imageKey) : null);
 }
 
 export default function ResourceCard({ item, categoryName }: { item: CardItem; categoryName?: string }) {

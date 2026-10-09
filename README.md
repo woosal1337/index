@@ -44,7 +44,7 @@ Use [catalog statistics](https://index.chele.bi/api/stats.json) for current coun
 
 ## Built as a static site
 
-Index uses Next.js, React, TypeScript, and Tailwind CSS. Vercel serves the static HTML and JSON, with no application database or account system. The catalog data and taxonomy live in this repository. Preview media stays outside Git and is served from a read-only Igris origin through Cloudflare.
+Index uses Next.js, React, TypeScript, and Tailwind CSS. Vercel serves the static HTML and JSON, with no application database or account system. The catalog data and taxonomy live in this repository. Preview media stays outside Git and is served from a read-only Igris origin through Cloudflare. Preview URLs carry the `MEDIA_VERSION` value from `app/lib/media.ts`. Browsers keep each preview for 30 days, so raise the value when you replace an existing preview file.
 
 ## License and sources
 

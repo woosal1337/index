@@ -1,4 +1,5 @@
 import type { Resource, Tier } from "./types";
+import { ogImageUrl } from "./media";
 
 export type Row = {
   slug: string;
@@ -38,7 +39,7 @@ export function toRow(r: Resource): Row {
     source: r.source,
     savedAt: r.verifiedAt ? r.verifiedAt.slice(0, 10) : null,
     componentCount: r.componentCount,
-    img: r.hasImage ? `/og/${r.imageKey}.webp` : null,
+    img: r.hasImage ? ogImageUrl(r.imageKey) : null,
     kinds: r.kinds,
     components: r.components,
     facets,
@@ -75,7 +76,7 @@ export type Preview = {
 };
 
 export function previewOf(r: RowLite): Preview | null {
-  const img = r.img ?? (r.hasImage && r.imageKey ? `/og/${r.imageKey}.webp` : null);
+  const img = r.img ?? (r.hasImage && r.imageKey ? ogImageUrl(r.imageKey) : null);
   const components = r.components ?? [];
   const tags = components.slice(0, PREVIEW_TAGS);
   const total = r.componentCount ?? components.length;

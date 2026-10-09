@@ -17,6 +17,7 @@ import {
   tierLabel,
 } from "../../lib/data";
 import { monogram } from "../../lib/text";
+import { ogImageUrl } from "../../lib/media";
 import { byTierThenName } from "../../lib/rows";
 import { pageMetadata } from "../../lib/site";
 
@@ -121,7 +122,7 @@ export default async function ResourcePage({ params }: { params: Promise<{ slug:
             </Link>
             <div className="detail-media">
               {r.hasImage ? (
-                <img src={`/og/${r.imageKey}.webp`} alt="" decoding="async" width={1200} height={630} />
+                <img src={ogImageUrl(r.imageKey)} alt="" decoding="async" width={1200} height={630} />
               ) : (
                 <span className="frame-mono" aria-hidden>
                   {monogram(r.name)}

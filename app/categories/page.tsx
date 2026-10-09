@@ -6,6 +6,7 @@ import { TagIcon } from "../_components/icons";
 import { getCategories, getIndexes, getResources } from "../lib/data";
 import { byTierThenName } from "../lib/rows";
 import { monogram } from "../lib/text";
+import { ogImageUrl } from "../lib/media";
 import { pageMetadata } from "../lib/site";
 
 export function generateMetadata() {
@@ -51,7 +52,7 @@ export default function CategoriesPage() {
                     return (
                       <span key={k} className="fan-card">
                         {shot ? (
-                          <img src={`/og/${shot.key}.webp`} alt="" loading="lazy" decoding="async" />
+                          <img src={ogImageUrl(shot.key)} alt="" loading="lazy" decoding="async" />
                         ) : (
                           <span className="frame-mono">{monogram(c.name)}</span>
                         )}
