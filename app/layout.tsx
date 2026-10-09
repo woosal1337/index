@@ -13,20 +13,21 @@ export function generateMetadata(): Metadata {
   };
 }
 
-const themeScript = `(function(){try{if(localStorage.getItem("di-theme")==="light"){document.documentElement.setAttribute("data-theme","light")}}catch(e){}})()`;
+const themeScript = `(function(){try{var t=localStorage.getItem("di-theme");if(t!=="dark"&&t!=="light"){t=window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}document.documentElement.setAttribute("data-theme",t)}catch(e){}})()`;
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
-        <meta name="theme-color" content="#09090b" />
+        <meta name="theme-color" content="#fafafa" media="(prefers-color-scheme: light)" />
+        <meta name="theme-color" content="#111111" media="(prefers-color-scheme: dark)" />
         <link rel="alternate" type="application/json" href="/api/resources.json" />
       </head>
       <body>
         <a
           href="#main"
-          className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:bg-fg focus:px-4 focus:py-2 focus:text-page"
+          className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-md focus:bg-fg focus:px-4 focus:py-2 focus:text-page"
         >
           Skip to content
         </a>

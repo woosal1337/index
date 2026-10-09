@@ -1,9 +1,8 @@
 import { notFound } from "next/navigation";
-import type { CSSProperties } from "react";
 import Shell from "../../_components/Shell";
 import Browser from "../../_components/Browser";
-import { Breadcrumb } from "../../_components/primitives";
-import { getCategories, getFacetNames, getResources } from "../../lib/data";
+import { Breadcrumb, catStyle, PageHead, Tag } from "../../_components/primitives";
+import { getCategories, getCategoryNames, getFacetNames, getResources } from "../../lib/data";
 import { toRow } from "../../lib/rows";
 import { pageMetadata } from "../../lib/site";
 
@@ -27,38 +26,32 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
   const inCat = all.filter((r) => r.category === slug);
   const subCounts = cat.subcategories
     .map((s) => ({ ...s, n: inCat.filter((r) => r.subcategory === s.slug).length }))
-    .filter((s) => s.n > 0);
+    .filter((s) => s.n > 0)
+    .sort((a, b) => b.n - a.n);
 
   return (
-    <Shell title={cat.name}>
+    <Shell>
       <Breadcrumb trail={[{ href: "/categories", label: "Categories" }]} current={cat.name} />
 
-      <header className="mb-9" style={{ "--dot": `var(--cat-${cat.slug}, var(--fg))` } as CSSProperties}>
-        <h1 className="title flex items-center gap-3">
-          <span aria-hidden className="inline-block h-2 w-2 shrink-0 rounded-full bg-[var(--dot)]" />
-          {cat.name}
-        </h1>
-        <p className="prose mt-3 text-[15px] text-fg-3">{cat.description}</p>
-        {cat.agent_hint && (
-          <p className="prose mt-3 text-[15px] text-fg-3">
-            <span className="text-fg">For an agent. </span>
-            {cat.agent_hint}
-          </p>
-        )}
-        <p className="label mt-4">
-          <span className="tnum">{inCat.length}</span> resources
+      <PageHead
+        icon={<span className="dot" style={catStyle(cat.slug)} />}
+        title={cat.name}
+        meta={`${inCat.length.toLocaleString()} resources${subCounts.length ? ` · ${subCounts.length} subcategories` : ""}`}
+        intro={cat.description}
+      >
+        {subCounts.map((s) => (
+          <Tag key={s.slug} n={s.n} title={s.description} muted>
+            {s.name}
+          </Tag>
+        ))}
+      </PageHead>
+
+      {cat.agent_hint && (
+        <p className="prose -mt-2 text-[13.5px] text-fg-3">
+          <span className="font-medium text-fg">For an agent. </span>
+          {cat.agent_hint}
         </p>
-        {subCounts.length > 0 && (
-          <ul className="mt-4 flex flex-wrap gap-x-4 gap-y-1 text-[13px] text-fg-3">
-            {subCounts.map((s) => (
-              <li key={s.slug} title={s.description} className="flex items-baseline gap-1.5">
-                {s.name}
-                <span className="label">{s.n}</span>
-              </li>
-            ))}
-          </ul>
-        )}
-      </header>
+      )}
 
       <Browser
         rows={inCat.map(toRow)}
@@ -66,6 +59,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
         initialCategory={slug}
         showCategories={false}
         facetNames={getFacetNames()}
+        categoryNames={getCategoryNames()}
       />
     </Shell>
   );

@@ -8,7 +8,7 @@ import test from "node:test";
 function fixture(t) {
   const root = mkdtempSync(join(tmpdir(), "index-source-tracking-test-"));
   t.after(() => rmSync(root, { recursive: true, force: true }));
-  for (const file of ["scripts/check-release.mjs", "scripts/lib/code-comments.mjs", "LICENSE", "THIRD_PARTY.md", "public/fonts/OFL-Oswald.txt", "public/fonts/OFL-SpaceMono.txt", "public/fonts/OFL-Geist.txt", "public/fonts/OFL-Silkscreen.txt"]) {
+  for (const file of ["scripts/check-release.mjs", "scripts/lib/code-comments.mjs", "LICENSE", "THIRD_PARTY.md", "public/fonts/OFL-InstrumentSans.txt", "public/fonts/OFL-IBMPlexMono.txt"]) {
     mkdirSync(dirname(join(root, file)), { recursive: true });
     cpSync(file, join(root, file));
   }

@@ -5,7 +5,6 @@ export const OA_EVENTS = {
   resourceOpen: "resource_open",
   outbound: "outbound_click",
   apiOpen: "api_open",
-  windowOpen: "window_open",
   searchOpen: "search_open",
   searchSelect: "search_select",
   promptCopy: "prompt_copy",

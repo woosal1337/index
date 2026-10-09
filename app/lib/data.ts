@@ -39,6 +39,9 @@ export const getStats = (): Stats =>
 export const getCategories = (): Category[] =>
   load<{ categories: Category[] }>("taxonomy/categories.json", { categories: [] }).categories;
 
+export const getCategoryNames = (): Record<string, string> =>
+  Object.fromEntries(getCategories().map((c) => [c.slug, c.name]));
+
 export const getKinds = () =>
   load<{ kinds: { slug: string; name: string; definition: string }[] }>(
     "taxonomy/categories.json",

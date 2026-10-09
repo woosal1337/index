@@ -1,8 +1,9 @@
 import { notFound } from "next/navigation";
 import Shell from "../../_components/Shell";
 import ResourceList from "../../_components/ResourceList";
-import { Breadcrumb, Empty, SectionHead } from "../../_components/primitives";
-import { getIndexes, getResources, getSurfaceVocab } from "../../lib/data";
+import { Breadcrumb, Empty, PageHead } from "../../_components/primitives";
+import { LayersIcon } from "../../_components/icons";
+import { getCategoryNames, getIndexes, getResources, getSurfaceVocab } from "../../lib/data";
 import { pageMetadata } from "../../lib/site";
 
 export function generateStaticParams() {
@@ -31,44 +32,46 @@ export default async function SurfacePage({ params }: { params: Promise<{ slug: 
   const checks = surface.checklist || [];
 
   return (
-    <Shell title={surface.name}>
+    <Shell>
       <Breadcrumb trail={[{ href: "/surfaces", label: "Surfaces" }]} current={surface.name} />
 
-      <header className="mb-9">
-        <h1 className="title">{surface.name}</h1>
-        <p className="prose mt-3 text-[15px] text-fg-3">{surface.description}</p>
-        <p className="label mt-4">
-          {group?.name} · <span className="tnum">{checks.length}</span> checks ·{" "}
-          <span className="tnum">{helpers.length}</span> {helpers.length === 1 ? "resource" : "resources"}
-        </p>
-      </header>
+      <PageHead
+        icon={<LayersIcon />}
+        title={surface.name}
+        meta={`${group?.name ?? "Surface"} · ${checks.length} checks · ${helpers.length} ${helpers.length === 1 ? "resource" : "resources"}`}
+        intro={surface.description}
+      />
 
-      <div className="space-y-12">
-        <section>
-          <SectionHead label="Before you ship" meta={`${checks.length}`} />
-          {checks.length === 0 ? (
-            <Empty>No checklist for this surface yet.</Empty>
-          ) : (
-            <ol className="space-y-1.5">
-              {checks.map((c, i) => (
-                <li key={i} className="flex gap-3 text-[15px] text-fg-2">
-                  <span className="label mt-1 w-5 shrink-0">{String(i + 1).padStart(2, "0")}</span>
-                  <span>{c}</span>
-                </li>
-              ))}
-            </ol>
-          )}
-        </section>
+      <section className="section">
+        <div className="section-title">
+          Before you ship
+          <span className="meta">{checks.length} checks</span>
+        </div>
+        {checks.length === 0 ? (
+          <Empty>No checklist for this surface yet.</Empty>
+        ) : (
+          <ol className="checklist">
+            {checks.map((c, i) => (
+              <li key={i}>
+                <span className="num">{String(i + 1).padStart(2, "0")}</span>
+                <span>{c}</span>
+              </li>
+            ))}
+          </ol>
+        )}
+      </section>
 
-        <section>
-          <SectionHead label="Resources that help you build this" meta={`${helpers.length}`} />
-          {helpers.length === 0 ? (
-            <Empty>Nothing in the index is tagged for this surface yet.</Empty>
-          ) : (
-            <ResourceList rows={helpers} />
-          )}
-        </section>
-      </div>
+      <section className="section">
+        <div className="section-title">
+          Resources that help you build this
+          <span className="meta">{helpers.length}</span>
+        </div>
+        {helpers.length === 0 ? (
+          <Empty>Nothing in the index is tagged for this surface yet.</Empty>
+        ) : (
+          <ResourceList rows={helpers} categoryNames={getCategoryNames()} />
+        )}
+      </section>
     </Shell>
   );
 }

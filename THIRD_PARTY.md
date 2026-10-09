@@ -7,13 +7,11 @@ It does not grant rights to third-party text, artwork, logos, screenshots, or fo
 
 | Files | Source | License |
 | --- | --- | --- |
-| `oswald-*.woff2` | [Oswald](https://github.com/googlefonts/OswaldFont) | [SIL OFL 1.1](public/fonts/OFL-Oswald.txt) |
-| `spacemono-*.woff2` | [Space Mono](https://github.com/googlefonts/spacemono) | [SIL OFL 1.1](public/fonts/OFL-SpaceMono.txt) |
-| `silkscreen-*.woff2` | [Silkscreen](https://github.com/google/fonts/tree/main/ofl/silkscreen) | [SIL OFL 1.1](public/fonts/OFL-Silkscreen.txt) |
-| `geist-pixel-square-index.woff2` | [Geist](https://github.com/vercel/geist-font) | [SIL OFL 1.1](public/fonts/OFL-Geist.txt) |
+| `instrument-sans-*.woff2` | [Instrument Sans](https://github.com/Instrument/instrument-sans) | [SIL OFL 1.1](public/fonts/OFL-InstrumentSans.txt) |
+| `ibm-plex-mono-*.woff2` | [IBM Plex Mono](https://github.com/IBM/plex) | [SIL OFL 1.1](public/fonts/OFL-IBMPlexMono.txt) |
 
-The Geist file is a subset for the Index wordmark. Keep the bundled license
-notices with all copies of these fonts.
+The font files are the latin subsets that Google Fonts serves. Keep the bundled
+license notices with all copies of these fonts.
 
 ## Catalog sources
 

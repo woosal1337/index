@@ -21,7 +21,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     url("/surfaces", 0.8),
     url("/templates", 0.8),
     url("/learn", 0.9),
-    url("/agents", 0.9),
     ...getCategories().map((c) => url(`/categories/${c.slug}`, 0.7)),
     ...getResources().map((r) => url(`/r/${r.slug}`, 0.6)),
     ...Object.keys(byComponent).map((c) => url(`/components/${c}`, 0.5)),

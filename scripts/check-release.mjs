@@ -60,7 +60,7 @@ if (existsSync(".git")) {
   else if (tracked.stdout) failures.push("data/enriched: remove raw source files from Git tracking.");
 }
 walk();
-for (const file of ["LICENSE", "THIRD_PARTY.md", "public/fonts/OFL-Oswald.txt", "public/fonts/OFL-SpaceMono.txt", "public/fonts/OFL-Geist.txt", "public/fonts/OFL-Silkscreen.txt"]) {
+for (const file of ["LICENSE", "THIRD_PARTY.md", "public/fonts/OFL-InstrumentSans.txt", "public/fonts/OFL-IBMPlexMono.txt"]) {
   if (!existsSync(file)) failures.push(`${file}: add the license notice.`);
 }
 if (failures.length) {

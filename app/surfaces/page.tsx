@@ -1,6 +1,8 @@
 import Link from "next/link";
 import Shell from "../_components/Shell";
-import { PageHead, SectionHead } from "../_components/primitives";
+import { PageHead } from "../_components/primitives";
+import { Reveal } from "../_components/motion";
+import { LayersIcon } from "../_components/icons";
 import { getIndexes, getSurfaceVocab } from "../lib/data";
 import { pageMetadata } from "../lib/site";
 
@@ -15,32 +17,26 @@ export default function SurfacesPage() {
   const totalItems = groups.reduce((s, g) => s + g.surfaces.reduce((n, x) => n + (x.checklist?.length || 0), 0), 0);
 
   return (
-    <Shell title="Surfaces">
+    <Shell>
       <PageHead
-        title={
-          <>
-            Surfaces
-          </>
-        }
+        icon={<LayersIcon />}
+        title="Surfaces"
+        meta={`${total} surfaces · ${totalItems.toLocaleString()} checks`}
         intro={
           <>
-            A component vocabulary tells you what to build things <em>from</em>. This tells you what to build:{" "}
-            <span className="tnum">{total}</span> screens and flows drawn from checklist.design and extended for
-            modern products, each with the concrete requirements it must satisfy.
-          </>
-        }
-        meta={
-          <>
-            <span className="tnum">{total}</span> surfaces · <span className="tnum">{totalItems.toLocaleString()}</span>{" "}
-            checks
+            A component vocabulary tells you what to build things <em>from</em>. A surface tells you what to build. Each
+            screen or flow lists the requirements it must satisfy and the resources that help.
           </>
         }
       />
 
-      <div className="space-y-10">
+      <div className="grid gap-4">
         {groups.map((g) => (
-          <section key={g.slug}>
-            <SectionHead label={g.name} meta={`${g.surfaces.length}`} />
+          <Reveal key={g.slug} className="section">
+            <div className="section-title">
+              {g.name}
+              <span className="meta">{g.surfaces.length}</span>
+            </div>
             <ul className="rows">
               {g.surfaces.map((s) => {
                 const n = (bySurface[s.slug] || []).length;
@@ -48,11 +44,10 @@ export default function SurfacesPage() {
                 return (
                   <li key={s.slug}>
                     <Link href={`/surfaces/${s.slug}`} className="row" title={s.description}>
-                      <span className="main text-[15px]">
+                      <span className="main">
                         {s.name}
                         {s.description && <span className="desc"> · {s.description}</span>}
                       </span>
-                      <span className="leader" aria-hidden />
                       <span className="meta">
                         {n > 0 && (
                           <>
@@ -66,7 +61,7 @@ export default function SurfacesPage() {
                 );
               })}
             </ul>
-          </section>
+          </Reveal>
         ))}
       </div>
     </Shell>

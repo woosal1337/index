@@ -4,7 +4,7 @@ A design corpus your agent can read.
 
 Index is a searchable catalog of design resources for designers, developers, and coding agents. Find a library, template, or reference through the interface, or query the same records through the public API.
 
-[Browse Index](https://index.chele.bi) · [Explore the catalog API](https://index.chele.bi/agents/) · [MIT license](LICENSE)
+[Browse Index](https://index.chele.bi) · [Catalog JSON](https://index.chele.bi/api/resources.json) · [MIT license](LICENSE)
 
 ## What is inside
 
@@ -22,7 +22,7 @@ Use the grid for visual previews or the list for a compact overview. Filter by c
 
 Resource pages combine source links with component coverage, pricing, license details, and evidence. Some pages also offer a structured prompt that you can copy into a coding agent. Unknown fields remain explicit instead of implying support.
 
-The desktop-style interface includes movable windows, hover previews, a keyboard search palette, and light and dark themes.
+The interface has a sidebar, a grid view with infinite loading, a pannable canvas view, hover previews, a keyboard search palette, and light and dark themes.
 
 ## Public data
 
@@ -40,7 +40,7 @@ The website and API use the same catalog. The endpoints are static, readable wit
 | [llms.txt](https://index.chele.bi/llms.txt) | Catalog context for language models |
 | [sitemap.xml](https://index.chele.bi/sitemap.xml) | Public page URLs |
 
-The [API page](https://index.chele.bi/agents/) includes query examples and the resource record shape. Use [catalog statistics](https://index.chele.bi/api/stats.json) for current counts.
+Use [catalog statistics](https://index.chele.bi/api/stats.json) for current counts.
 
 ## Built as a static site
 

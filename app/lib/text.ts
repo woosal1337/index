@@ -14,3 +14,7 @@ export function labelize(slug: string): string {
 export function tierLabel(t: string): string {
   return { S: "Best in class", A: "Strong", B: "Useful", C: "Weak" }[t] ?? t;
 }
+
+export function monogram(s: string): string {
+  return (s || "??").replace(/[^A-Za-z0-9]/g, "").slice(0, 2).toUpperCase() || "··";
+}

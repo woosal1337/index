@@ -1,10 +1,13 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState, type CSSProperties } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import { useRouter } from "next/navigation";
 import { labelize } from "../lib/text";
+import type { Tier } from "../lib/types";
 import { OA_EVENTS, track } from "../lib/analytics";
+import { catStyle, TierBadge } from "./primitives";
+import { SearchIcon } from "./icons";
 
 type Item = {
   s: string;
@@ -40,7 +43,7 @@ function loadIndex(): Promise<Item[]> {
   return pending;
 }
 
-export default function CommandPalette() {
+export default function CommandPalette({ categoryNames = {} }: { categoryNames?: Record<string, string> }) {
   const router = useRouter();
   const [open, setOpen] = useState(false);
   const [items, setItems] = useState<Item[] | null>(cached);
@@ -107,7 +110,6 @@ export default function CommandPalette() {
       else if ((it.t || "").toLowerCase().includes(needle)) s = 100;
       else if (it.c.includes(needle)) s = 60;
       else if ((it.h || "").includes(needle)) s = 40;
-
       else if (words.length > 1 && words.every((w) => (it.h || "").includes(w))) s = 20;
       if (s >= 0) scored.push({ it, s });
     }
@@ -131,17 +133,20 @@ export default function CommandPalette() {
   return createPortal(
     <dialog
       ref={dialogRef}
-      className="fixed inset-0 z-[100] m-0 flex h-dvh max-h-none w-screen max-w-none items-start justify-center overscroll-contain border-0 bg-[var(--scrim)] p-4 pt-[14vh] text-fg backdrop-blur-[4px] backdrop:bg-transparent"
+      className="palette"
       onClick={() => setOpen(false)}
-      onCancel={(e) => { e.preventDefault(); setOpen(false); }}
+      onCancel={(e) => {
+        e.preventDefault();
+        setOpen(false);
+      }}
       aria-label="Search resources"
     >
-      <div
-        className="overlay-surface w-full max-w-[600px] overflow-hidden"
-        onClick={(e) => e.stopPropagation()}
-      >
-        <div className="flex items-center gap-3 border-b border-line px-4 transition-colors focus-within:border-line-hard">
-          <label htmlFor="cmdk-search" className="sr-only">Search resources</label>
+      <div className="overlay-surface palette-box" onClick={(e) => e.stopPropagation()}>
+        <div className="palette-input-row">
+          <SearchIcon />
+          <label htmlFor="cmdk-search" className="sr-only">
+            Search resources
+          </label>
           <input
             id="cmdk-search"
             ref={inputRef}
@@ -161,24 +166,30 @@ export default function CommandPalette() {
                 go(results[active].s);
               }
             }}
-            placeholder="Search resources, components, domains…"
-            className="h-12 min-w-0 flex-1 bg-transparent text-[16px] placeholder:text-fg-4"
+            placeholder="Search resources, components, or domains"
+            className="palette-input"
             role="combobox"
             aria-autocomplete="list"
             aria-expanded={open}
             aria-controls="cmdk-list"
             aria-activedescendant={results[active] ? `cmdk-${active}` : undefined}
           />
-          <button type="button" onClick={() => setOpen(false)} aria-label="Close search (Escape)" className="min-h-10 min-w-10">
+          <button type="button" onClick={() => setOpen(false)} aria-label="Close search" className="btn-icon">
             <kbd>esc</kbd>
           </button>
         </div>
 
-        <div id="cmdk-list" ref={listRef} role="listbox" aria-label="Search results" className="scroll-area max-h-[52vh] overflow-y-auto overscroll-contain py-1.5">
+        <div
+          id="cmdk-list"
+          ref={listRef}
+          role="listbox"
+          aria-label="Search results"
+          className="palette-list scroll-area"
+        >
           {items === null ? (
-            <p className="px-4 py-6 text-[13px] text-fg-4">Loading the index…</p>
+            <p className="palette-empty">Loading the index…</p>
           ) : results.length === 0 ? (
-            <p className="px-4 py-6 text-[13px] text-fg-4">No matches.</p>
+            <p className="palette-empty">No matches.</p>
           ) : (
             results.map((it, i) => (
               <button
@@ -191,21 +202,31 @@ export default function CommandPalette() {
                 aria-selected={i === active}
                 onMouseEnter={() => setActive(i)}
                 onClick={() => go(it.s)}
-                style={{ "--dot": `var(--cat-${it.c}, var(--fg))` } as CSSProperties}
-                className="command-row row w-full px-4 text-left"
+                style={catStyle(it.c)}
+                className="command-row row"
               >
                 <span className="dot" aria-hidden />
-                <span className="main text-[14px]">
+                <span className="main">
                   {it.n}
                   {it.t && <span className="desc"> · {it.t}</span>}
                 </span>
-                <span className="leader" aria-hidden />
-                <span className="meta" title={labelize(it.c)}>
-                  {it.tr === "S" || it.tr === "A" ? <b>{it.tr}</b> : it.tr}
-                </span>
+                <span className="cat">{categoryNames[it.c] ?? labelize(it.c)}</span>
+                <TierBadge tier={it.tr as Tier} />
               </button>
             ))
           )}
+        </div>
+
+        <div className="palette-foot">
+          <span>
+            <kbd>↑</kbd> <kbd>↓</kbd> to move
+          </span>
+          <span>
+            <kbd>↵</kbd> to open
+          </span>
+          <span>
+            <kbd>esc</kbd> to close
+          </span>
         </div>
       </div>
     </dialog>,

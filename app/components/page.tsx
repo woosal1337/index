@@ -1,6 +1,8 @@
 import Link from "next/link";
 import Shell from "../_components/Shell";
-import { Empty, PageHead, SectionHead } from "../_components/primitives";
+import { Empty, PageHead } from "../_components/primitives";
+import { Reveal } from "../_components/motion";
+import { PuzzleIcon } from "../_components/icons";
 import { getComponentVocab, getIndexes } from "../lib/data";
 import { pageMetadata } from "../lib/site";
 
@@ -14,54 +16,48 @@ export default function ComponentsPage() {
   const vocab = groups.reduce((s, g) => s + g.components.length, 0);
 
   return (
-    <Shell title="Components">
+    <Shell>
       <PageHead
-        title={
-          <>
-            Who ships what
-          </>
-        }
-        intro={
-          <>
-            The question an agent asks is not &ldquo;show me component libraries&rdquo;. It is &ldquo;which of
-            these ships a Gantt?&rdquo;. Every component below links to the resources in this index that provide
-            it, ranked by quality tier.
-          </>
-        }
-        meta={
-          <>
-            <span className="tnum">{covered}</span> of <span className="tnum">{vocab}</span> canonical components
-            are provided by something in the index
-          </>
-        }
+        icon={<PuzzleIcon />}
+        title="Components"
+        meta={`${covered} of ${vocab} canonical components have a provider`}
+        intro="An agent rarely asks for a component library. It asks which library ships a Gantt chart. Each component links to the resources that provide it, best tier first."
       />
 
       {covered === 0 ? (
         <Empty>
-          No component tags yet. Run <code className="font-mono text-[0.9em]">npm run data</code> after enrichment.
+          No component tags yet. Run <code className="mono">npm run data</code> after enrichment.
         </Empty>
       ) : (
-        <div className="space-y-10">
+        <div className="grid gap-4">
           {groups.map((g) => {
             const provided = g.components
               .filter((c) => (byComponent[c.slug] || []).length > 0)
               .sort((a, b) => (byComponent[b.slug]?.length ?? 0) - (byComponent[a.slug]?.length ?? 0));
             if (!provided.length) return null;
             return (
-              <section key={g.slug}>
-                <SectionHead label={g.name} meta={`${provided.length} available`} />
-                <ul className="rows grid grid-cols-1 gap-x-8 sm:grid-cols-2 lg:grid-cols-3">
+              <Reveal key={g.slug} className="section">
+                <div className="section-title">
+                  {g.name}
+                  <span className="meta">{provided.length} available</span>
+                </div>
+                <ul className="rows cols">
                   {provided.map((c) => (
                     <li key={c.slug}>
-                      <Link href={`/components/${c.slug}`} className="row" title={`${byComponent[c.slug].length} resources ship ${c.name}`}>
-                        <span className="main text-[15px]">{c.name}</span>
-                        <span className="leader" aria-hidden />
-                        <span className="meta">{byComponent[c.slug].length}</span>
+                      <Link
+                        href={`/components/${c.slug}`}
+                        className="row"
+                        title={`${byComponent[c.slug].length} resources ship ${c.name}`}
+                      >
+                        <span className="main">{c.name}</span>
+                        <span className="meta">
+                          <b>{byComponent[c.slug].length}</b>
+                        </span>
                       </Link>
                     </li>
                   ))}
                 </ul>
-              </section>
+              </Reveal>
             );
           })}
         </div>

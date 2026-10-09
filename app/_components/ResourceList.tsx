@@ -1,7 +1,7 @@
 import Link from "next/link";
-import type { CSSProperties } from "react";
 import { previewOf, type RowLite } from "../lib/rows";
-import { tierLabel } from "../lib/text";
+import { labelize } from "../lib/text";
+import { catStyle, TierBadge } from "./primitives";
 
 const F = "|";
 const L = ",";
@@ -10,24 +10,25 @@ export default function ResourceList({
   rows,
   className = "",
   emptyText = "Nothing matches.",
+  categoryNames = {},
 }: {
   rows: RowLite[];
   className?: string;
   emptyText?: string;
+  categoryNames?: Record<string, string>;
 }) {
   if (!rows.length) {
-    return <p className={`py-8 text-[15px] text-fg-3 ${className}`}>{emptyText}</p>;
+    return <p className={`py-10 text-center text-[14px] text-fg-3 ${className}`}>{emptyText}</p>;
   }
   return (
-    <ul className={`rows ${className}`}>
+    <ul className={`rows ${className}`.trim()}>
       {rows.map((r) => {
         const p = previewOf(r);
-
         const packed = p
           ? [p.img ?? "", p.tags.join(L), String(p.more), p.facts.join(L)].join(F)
           : undefined;
         return (
-          <li key={r.slug} style={{ "--dot": `var(--cat-${r.category}, var(--fg))` } as CSSProperties}>
+          <li key={r.slug} style={catStyle(r.category)}>
             <Link
               href={`/r/${r.slug}`}
               className="row"
@@ -39,10 +40,8 @@ export default function ResourceList({
                 {r.name}
                 {r.tagline && <span className="desc"> · {r.tagline}</span>}
               </span>
-              <span className="leader" aria-hidden />
-              <span className="meta" title={`Quality tier ${r.tier}: ${tierLabel(r.tier)}`}>
-                {r.tier === "S" || r.tier === "A" ? <b>{r.tier}</b> : r.tier}
-              </span>
+              <span className="cat">{categoryNames[r.category] ?? labelize(r.category)}</span>
+              <TierBadge tier={r.tier} />
             </Link>
           </li>
         );
