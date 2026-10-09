@@ -24,6 +24,14 @@ test("metadata uses current counts and each route's URL", () => {
   assert.equal(metadata.openGraph.description, description);
   assert.equal(metadata.twitter.description, description);
   assert.equal(metadata.twitter.title, "Kibo UI · Index");
+  const image = metadata.openGraph.images[0];
+  assert.match(image.url, /^\/og\/share\/r\/kibo-ui\.jpg\?v=\w+$/);
+  assert.equal(image.width, 1200);
+  assert.equal(image.height, 630);
+  assert.equal(metadata.twitter.card, "summary_large_image");
+  assert.equal(metadata.twitter.images[0].url, image.url);
+  const fallback = pageMetadata("/r/not-in-the-share-set", "Missing", description);
+  assert.match(fallback.openGraph.images[0].url, /^\/og\/share\/site\.jpg\?v=\w+$/);
 });
 
 test("the data build keeps references but excludes full source text", (t) => {

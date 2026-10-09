@@ -8,6 +8,9 @@ const manifestFile = resolve("data/media-manifest.json");
 const mediaPaths = existsSync(manifestFile)
   ? new Set(Object.keys(JSON.parse(readFileSync(manifestFile, "utf8"))))
   : new Set();
+const shareFile = resolve("data/share-manifest.json");
+const shareKeys = new Set(existsSync(shareFile) ? JSON.parse(readFileSync(shareFile, "utf8")).keys : []);
+const card = shareKeys.size ? "summary_large_image" : "summary";
 let pages = 0;
 
 function walk(dir) {
@@ -25,8 +28,17 @@ function walk(dir) {
           failures.add(`Canonical URL does not match: ${route}`);
         }
         if (!html.includes(`<meta property="og:url" content="${expected}"`)
-          || !html.includes('<meta name="twitter:card" content="summary"')) {
+          || !html.includes(`<meta name="twitter:card" content="${card}"`)) {
           failures.add(`Social metadata is missing: ${route}`);
+        }
+        if (shareKeys.size) {
+          const image = html.match(/<meta property="og:image" content="([^"]+)"/);
+          const twitterImage = html.match(/<meta name="twitter:image" content="([^"]+)"/);
+          const key = image ? new URL(image[1]).pathname.replace(/^\/og\/share\//, "").replace(/\.jpg$/, "") : "";
+          if (!image || !image[1].startsWith(`${siteOrigin()}/og/share/`) || !shareKeys.has(key)
+            || !twitterImage || twitterImage[1] !== image[1]) {
+            failures.add(`Share image is missing: ${route}`);
+          }
         }
       }
       for (const match of html.matchAll(/(?:href|src)="(\/[^"?#]*)(?:[^"\s]*)?"/g)) {

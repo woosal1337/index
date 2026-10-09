@@ -46,6 +46,8 @@ Use [catalog statistics](https://index.chele.bi/api/stats.json) for current coun
 
 Index uses Next.js, React, TypeScript, and Tailwind CSS. Vercel serves the static HTML and JSON, with no application database or account system. The catalog data and taxonomy live in this repository. Preview media stays outside Git and is served from a read-only Igris origin through Cloudflare. Preview URLs carry the `MEDIA_VERSION` value from `app/lib/media.ts`. Browsers keep each preview for 30 days, so raise the value when you replace an existing preview file.
 
+Each page has a 1200 by 630 share image for social previews. `npm run share:images` renders the images into `public/og/share` and writes `data/share-manifest.json`. The script needs Playwright. Run `npm install --no-save playwright` and `npx playwright install chromium` one time. Upload the new images to the media origin before you push the manifest. A page without its own image uses the site image.
+
 ## License and sources
 
 The [MIT license](LICENSE) covers the original code and documentation. Third-party fonts, images, and source material retain their own terms. A resource's license field describes that resource, not every item in the catalog.

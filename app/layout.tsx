@@ -3,13 +3,17 @@ import "./globals.css";
 import LayoutDebug from "./_components/LayoutDebug";
 import Analytics from "./_components/Analytics";
 import { getStats } from "./lib/data";
-import { catalogDescription, SITE_TITLE, siteOrigin } from "./lib/site";
+import { catalogDescription, shareImage, SITE_TITLE, siteOrigin, socialMetadata } from "./lib/site";
 
 export function generateMetadata(): Metadata {
+  const description = catalogDescription(getStats());
   return {
     metadataBase: new URL(siteOrigin()),
     title: { default: SITE_TITLE, template: "%s · Index" },
-    description: catalogDescription(getStats()),
+    description,
+    applicationName: "Index",
+    appleWebApp: { title: "Index" },
+    ...socialMetadata(SITE_TITLE, description, shareImage("/", SITE_TITLE)),
   };
 }
 

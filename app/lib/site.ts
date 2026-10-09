@@ -1,7 +1,59 @@
+import { existsSync, readFileSync } from "node:fs";
+import { join } from "node:path";
 import type { Metadata } from "next";
 import type { Stats } from "./types";
 
 export const SITE_TITLE = "Index: a design corpus your agent can read";
+
+type ShareManifest = { version: string; width: number; height: number; keys: string[] };
+type ShareImage = { url: string; width: number; height: number; alt: string; type: string };
+
+let shareCache: { manifest: ShareManifest; keys: Set<string> } | null = null;
+
+function shareManifest() {
+  if (!shareCache) {
+    const file = join(process.cwd(), "data/share-manifest.json");
+    const manifest: ShareManifest = existsSync(file)
+      ? JSON.parse(readFileSync(file, "utf8"))
+      : { version: "", width: 1200, height: 630, keys: [] };
+    shareCache = { manifest, keys: new Set(manifest.keys) };
+  }
+  return shareCache;
+}
+
+export function shareImage(path: string, alt: string): ShareImage | null {
+  const { manifest, keys } = shareManifest();
+  const key = path === "/" ? "site" : path.replace(/^\/+|\/+$/g, "");
+  const pick = keys.has(key) ? key : keys.has("site") ? "site" : null;
+  if (!pick) return null;
+  return {
+    url: `/og/share/${pick}.jpg?v=${manifest.version}`,
+    width: manifest.width,
+    height: manifest.height,
+    alt,
+    type: "image/jpeg",
+  };
+}
+
+export function socialMetadata(title: string, description: string | undefined, image: ShareImage | null, url?: string): Pick<Metadata, "openGraph" | "twitter"> {
+  return {
+    openGraph: {
+      type: "website",
+      siteName: "Index",
+      locale: "en_US",
+      title,
+      description,
+      ...(url ? { url } : {}),
+      ...(image ? { images: [image] } : {}),
+    },
+    twitter: {
+      card: image ? "summary_large_image" : "summary",
+      title,
+      description,
+      ...(image ? { images: [{ url: image.url, alt: image.alt }] } : {}),
+    },
+  };
+}
 
 export function siteOrigin(value = process.env.NEXT_PUBLIC_SITE_URL): string {
   const url = new URL(value?.trim() || "https://index.chele.bi");
@@ -27,7 +79,6 @@ export function pageMetadata(path: string, title: string, description?: string):
     title,
     description,
     alternates: { canonical: url },
-    openGraph: { type: "website", siteName: "Index", title: socialTitle, description, url },
-    twitter: { card: "summary", title: socialTitle, description },
+    ...socialMetadata(socialTitle, description, shareImage(path, socialTitle), url),
   };
 }
