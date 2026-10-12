@@ -703,10 +703,10 @@
  {
   "id": "61262e05-e9b6-4eb2-b40b-1b03cd723ad6",
   "slug": "ascii-magic",
-  "url": "http://ascii-magic.com",
+  "url": "https://www.ascii-magic.com",
   "name": "ASCII Magic",
-  "tagline": "Client-side image and video stylizer: 15 art styles, 4x export, no signup",
-  "description": "ASCII Magic turns any photo or video into one of 15 render styles — Characters, Block, Dots, Lines, Diagonal, Cross, Diamond, Mixed, Pixel Art, LEGO, Mosaic, Voxel Cubes, Disco, Dither and Glitch, plus a Braille renderer — with 15 stackable post-effects (CRT curve, scanlines, chromatic aberration, bloom, character glow, film grain, film dust, halftone, RGB split, vignette and more). Everything renders locally on HTML5 Canvas, so nothing uploads; input accepts JPG/PNG/WebP/GIF/MP4/MOV/WebM and output is PNG (with alpha), JPG, animated GIF or H.264 MP4 at up to 4x source resolution, never watermarked. The Dither style alone carries 11 algorithms and 16 palettes (1-bit, Game Boy, C64, NES, PICO-8, CGA, risograph). Free with no account, built by Kailash.",
+  "tagline": "Browser image and video effects studio with 100+ styles, a free core plan, and AI renders on Pro",
+  "description": "ASCII Magic turns any photo or video into one of 15 render styles — Characters, Block, Dots, Lines, Diagonal, Cross, Diamond, Mixed, Pixel Art, LEGO, Mosaic, Voxel Cubes, Disco, Dither and Glitch, plus a Braille renderer — with 15 stackable post-effects (CRT curve, scanlines, chromatic aberration, bloom, character glow, film grain, film dust, halftone, RGB split, vignette and more). Everything renders locally on HTML5 Canvas, so nothing uploads; input accepts JPG/PNG/WebP/GIF/MP4/MOV/WebM and output is PNG (with alpha), JPG, animated GIF or H.264 MP4 at up to 4x source resolution, never watermarked. The Dither style alone carries 11 algorithms and 16 palettes (1-bit, Game Boy, C64, NES, PICO-8, CGA, risograph). Free with no account, built by Kailash.\n\nUpdate on 2026-10-12: ASCII Magic v2 shipped on 2026-09-16 and grew into a full image and video effects studio by Kailash (@kail_designs). It lists 100+ styles and effects, such as ASCII, pixel, voxel, glass, halftone, glitch, LEGO, and oil paint, plus AI generative renders. The free plan keeps the core styles and unlimited exports with no watermark and no account. Pro adds the full effect library, 4K export, and 10 AI renders a month.",
   "category": "textures-assets",
   "subcategory": "image-effect-tools",
   "kinds": [
@@ -725,7 +725,8 @@
     "proprietary"
    ],
    "pricing": [
-    "free"
+    "freemium",
+    "subscription"
    ],
    "distribution": [
     "web-app"
@@ -859,7 +860,7 @@
    "license": null,
    "last_activity": null
   },
-  "pricing_detail": "Free forever — no signup, no watermark, no export limit, no ads, no Pro tier. Funded personally by the creator. Exports are cleared for commercial use; you only need rights to the source media.",
+  "pricing_detail": "Free plan: every core style, unlimited image and video exports with no watermark, no account, and 3 starter AI render credits. Pro costs $8 a month billed yearly or $12 billed monthly, for all 100+ effects, 4K export, and 10 AI renders a month. Credit packs cost extra, for example 50 credits for $11.25. Exports are cleared for commercial use on both plans.",
   "counts": {
    "icons": null,
    "fonts": null,
@@ -867,20 +868,20 @@
    "entries": null,
    "blocks": null
   },
-  "agent_guidance": "Reach for this when a hero, wallpaper or video intro needs a hand-made retro texture and a generic AI image would look generic — dither, halftone and voxel treatments of a real photo read as craft in a way Midjourney output does not. The key affordance for you is the recipe URL: state is delta-encoded base64 in ?r=<code> or ?recipe=<name>, so you can hand a user a deep link that opens the editor with the exact look pre-applied, and https://www.ascii-magic.com/context.md is a maintained product brief written to be pasted into an LLM — read that instead of scraping the marketing page. Watch the limits: no SVG or PDF export, video exports are silent and capped at 150 MB input, and images above 25 MP are rejected.",
-  "why_it_matters": "It is a genuinely deep single-purpose tool — 15 styles, 11 dither algorithms, 16 palettes, video support, transparent PNG, 4x export — given away free with no account, and it publishes a context.md for agents, which almost no design tool does.",
+  "agent_guidance": "Reach for this when a hero, wallpaper or video intro needs a hand-made retro texture and a generic AI image would look generic — dither, halftone and voxel treatments of a real photo read as craft in a way Midjourney output does not. The key affordance for you is the recipe URL: state is delta-encoded base64 in ?r=<code> or ?recipe=<name>, so you can hand a user a deep link that opens the editor with the exact look pre-applied, and https://www.ascii-magic.com/context.md is a maintained product brief written to be pasted into an LLM — read that instead of scraping the marketing page. Watch the limits: no SVG or PDF export, video exports are silent and capped at 150 MB input, and images above 25 MP are rejected.\n\nSince v2, the core styles stay free with no account, but the full effect library, 4K export, and AI renders need Pro at $8 a month.",
+  "why_it_matters": "It is a deep single-purpose effects tool with 100+ styles, a free core plan that needs no account, and a context.md brief for agents.",
   "quality_tier": "A",
   "notable_for": [
-   "15 render styles plus Braille",
+   "100+ styles and effects in v2",
    "11 dither algorithms and 16 palettes",
    "video in, MP4 or GIF out",
    "ships a context.md for LLMs",
-   "fully client-side, nothing uploads"
+   "free core plan, Pro at $8 a month"
   ],
   "already_enriched": false,
   "http_status": 200,
-  "verified_at": "2026-08-15",
-  "evidence": "https://www.ascii-magic.com (WebFetch + raw HTML, full style/effect/recipe lists), https://www.ascii-magic.com/context.md (complete 8.9KB product brief — styles, exports, formats, limits, licensing, tech notes)"
+  "verified_at": "2026-10-12",
+  "evidence": "https://www.ascii-magic.com (WebFetch + raw HTML, full style/effect/recipe lists), https://www.ascii-magic.com/context.md (complete 8.9KB product brief — styles, exports, formats, limits, licensing, tech notes). On 2026-10-12, https://www.ascii-magic.com, /pricing, and /changelog in Chromium showed v2 from 2026-09-16, 100+ styles and effects, the free plan, Pro at $8 a month billed yearly, and commercial use on both plans. The footer reads Project by Kailash, and Kailash shared the tool in https://x.com/kail_designs/status/2109275933400260726."
  },
  {
   "id": "b739b7fc-3293-4dc1-8711-2f27930af906",
