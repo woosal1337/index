@@ -1,0 +1,105 @@
+[
+  {
+    "id": "user:04bae1d5f3e02541",
+    "slug": "jiro",
+    "url": "https://jiro.build",
+    "name": "Jiro",
+    "tagline": "1,329 website sections and templates as copy-ready prompts for Bolt, Lovable, v0, and other AI builders",
+    "description": "Jiro is a design prompt library run by JIRO BUILD LLC. It holds 1,329 website sections and full-page templates, and its sitemap lists 1,233 component pages and 133 template pages. Each item has a live preview and one prompt with code and design instructions. You paste the prompt into Bolt, Lovable, Replit, v0, or another AI builder to rebuild the design.\n\nSections cover headers, features, stats, testimonials, pricing, FAQ, calls to action, and footers. A Chrome extension adds the library inside AI builders, and a paid MCP server brings it into Claude Code, Codex, Cursor, and VS Code after a browser sign-in. The free plan allows browsing and manual copies. The terms allow client work but forbid resale.",
+    "category": "agent-design-tooling",
+    "subcategory": "prompts-and-feedback",
+    "kinds": [
+      "prompt-pack",
+      "block-collection",
+      "template",
+      "mcp-server"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "commercial"
+      ],
+      "pricing": [
+        "freemium",
+        "subscription",
+        "one-time"
+      ],
+      "distribution": [
+        "gallery",
+        "copy-paste",
+        "browser-extension",
+        "mcp-server"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "prompts",
+        "code"
+      ],
+      "agent_readiness": [
+        "copy-prompt",
+        "mcp-server",
+        "agent-paywalled",
+        "auth-required",
+        "machine-index"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "navbar",
+      "footer",
+      "pricing-table",
+      "accordion",
+      "carousel"
+    ],
+    "component_count": 1233,
+    "surfaces": [
+      "homepage",
+      "pricing-website",
+      "about",
+      "blog",
+      "contact-us"
+    ],
+    "templates": [],
+    "template_count": 133,
+    "install": "claude mcp add --transport http jiro https://mcp.jiro.build",
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": "https://mcp.jiro.build",
+    "github": null,
+    "pricing_detail": "Free: browse the library and copy items by hand. 3 Month costs $48 per 3 months, with 10 section copies and 3 template copies a day. Yearly costs $99 a year for unlimited copies, source code, and the MCP server. Lifetime cost $179 once on 2026-10-12, against a $384 list price.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 1329,
+      "blocks": 1233
+    },
+    "agent_guidance": "Use it when an AI builder needs a concrete design brief for a landing page or one section. Pick the item in a browser, copy its prompt, and give it to the builder as the brief. Then replace the demo copy, images, and links.\n\nWith Yearly or Lifetime, connect the MCP server with claude mcp add --transport http jiro https://mcp.jiro.build and approve the browser sign-in. Run get_usage first to see the plan and the daily limit. Do not publish the prompts, because the terms forbid resale and redistribution.",
+    "why_it_matters": "It turns a large set of current landing page designs into prompts and an MCP feed that AI builders can rebuild directly.",
+    "quality_tier": "B",
+    "tier_reason": "A large, active catalog with live previews, an extension, and an MCP server. Prompts replace tested code for most users, and the MCP needs a paid plan.",
+    "notable_for": [
+      "1,329 sections and templates",
+      "prompts for Bolt, Lovable, Replit, and v0",
+      "MCP server for Claude Code, Codex, and Cursor",
+      "Chrome extension for AI builders",
+      "client work allowed, resale forbidden"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-12",
+    "source": "user",
+    "evidence": "Checked https://jiro.build/, /pricing, /mcp, /terms-conditions/, /robots.txt, and /sitemap.xml in curl and Chromium on 2026-10-12. The home and MCP pages report 1,329 sections and templates, and the sitemap lists 1,233 component pages and 133 template pages. The MCP FAQ states that the MCP is a paid feature. The pricing page lists 3 Month at $48, Yearly at $99, and Lifetime at $179 against $384. The terms name JIRO BUILD LLC of Missouri and allow client work. The owner shared http://jiro.build on 2026-10-12."
+  }
+]
