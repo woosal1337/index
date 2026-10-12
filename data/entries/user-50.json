@@ -1,0 +1,108 @@
+[
+  {
+    "id": "user:396c4e27f4645a88",
+    "slug": "audiocn",
+    "url": "https://www.audiocn.dev",
+    "name": "audiocn",
+    "tagline": "Audio components for React and shadcn/ui: meters, faders, knobs, waveforms, players, and a full mixer",
+    "description": "audiocn is a shadcn/ui registry of audio components for React by fortysevenfx and OrcDev, the author of 8bitcn. It has 23 components, 6 blocks, and 18 hooks. The components cover level meters, faders, knobs, pan controls, waveforms, spectrum analyzers, an audio player, sound pads, and a full mixer with channel strips.\n\nThe hooks connect the components to the Web Audio API: microphone and system audio capture, device lists, gain nodes, analyzers, and a mixer graph with ducking. The components build on Base UI, use Tailwind CSS v4, and follow the shadcn theme variables. Meters and visualizers paint on the animation frame without React renders. Everything uses the MIT license. The docs give an llms.txt file, a full docs file, and a Markdown version of each page for agents.",
+    "category": "component-libraries",
+    "subcategory": "integration-components",
+    "kinds": [
+      "registry",
+      "component-library",
+      "block-collection"
+    ],
+    "facets": {
+      "framework": [
+        "react"
+      ],
+      "styling": [
+        "tailwind-v4",
+        "css-variables"
+      ],
+      "license": [
+        "mit"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "shadcn-registry",
+        "cli",
+        "copy-paste",
+        "github-repo"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "keyboard-navigable",
+        "reduced-motion",
+        "built-on-accessible-primitives",
+        "claimed-accessible"
+      ],
+      "content_type": [
+        "code"
+      ],
+      "agent_readiness": [
+        "registry-json",
+        "llms-txt",
+        "machine-index",
+        "structured-docs",
+        "cli-installable",
+        "copy-paste-ready",
+        "open-source-code"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "audio-player",
+      "waveform",
+      "slider",
+      "meter",
+      "toggle-button",
+      "select",
+      "permission-prompt"
+    ],
+    "component_count": 23,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": "npx shadcn@latest add @audiocn/mixer",
+    "package": null,
+    "docs_url": "https://audiocn.dev/llms.txt",
+    "repo_url": "https://github.com/audiocn/ui",
+    "registry_url": "https://www.audiocn.dev/r/registry.json",
+    "github": {
+      "stars": 243,
+      "license": "MIT",
+      "last_activity": "2026-10-11"
+    },
+    "pricing_detail": "Free. The components, blocks, and hooks use the MIT license. One Warcraft III sound on the home page is not part of the registry or the license.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": 6
+    },
+    "agent_guidance": "Read https://audiocn.dev/llms.txt first, and add .md to a docs URL to get its Markdown version. Install a component with npx shadcn@latest add @audiocn/<name>, for example @audiocn/level-meter.\n\nFeed meters and visualizers from the provided hooks, such as useMicrophone and useAudioAnalyser, or from your own engine through a frame source. Give each meter an aria-label. Start audio only after a user gesture, because browsers keep an AudioContext suspended until one.",
+    "why_it_matters": "It gives audio and voice products accessible meters, faders, waveforms, and a mixer that follow the shadcn theme, with Web Audio hooks.",
+    "quality_tier": "A",
+    "tier_reason": "MIT, well documented, and accessible by design, with working Web Audio hooks. The project started on 2026-09-30.",
+    "notable_for": [
+      "23 components, 6 blocks, and 18 hooks",
+      "full mixer with channel strips",
+      "Web Audio hooks for microphone and system audio",
+      "MIT and listed in the shadcn registry index",
+      "llms.txt and Markdown docs"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-12",
+    "source": "user",
+    "evidence": "Checked https://www.audiocn.dev/, /llms.txt, /llms-full.txt, /r/registry.json, /docs/concepts/accessibility.md, the shadcn registry index, and the GitHub repository on 2026-10-12. The registry lists 49 items: 23 components, 6 blocks, 18 hooks, and 2 core libraries. license.md holds the MIT text with copyright OrcDev, while the GitHub API reports NOASSERTION. The GitHub API reports 243 stars, creation on 2026-09-30, and a last push on 2026-10-11. The shadcn registry index lists @audiocn. Source tweet: https://x.com/noahelhadedy/status/2109526653332582536."
+  }
+]

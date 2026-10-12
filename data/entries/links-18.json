@@ -301,7 +301,7 @@
   {
     "id": "d6d46d24-2b20-4805-b5a1-8675de6d27b0",
     "slug": "termcn",
-    "url": "https://termcn.vercel.app",
+    "url": "https://www.termcn.dev",
     "name": "termcn",
     "tagline": "Terminal UI components for React, installed with the shadcn CLI, on Ink and OpenTUI",
     "description": "termcn applies the shadcn copy-paste model to terminal user interfaces: 123 components published twice, once for Ink and once for OpenTUI, plus hooks, providers and 40+ terminal color themes, totalling 342 registry items. The catalog goes far past text and boxes — dithered charts, data grids, diff views, git status, embedded terminals, command palettes, wizards, plus a full agent-CLI set (chat thread, streaming text, thinking block, tool call, tool approval, token usage, model selector). Items are namespaced by base (ink/ or opentui/) and pulled with `npx shadcn@latest add`, so you own the source. Built for anyone shipping a serious CLI or coding-agent TUI in TypeScript.",
@@ -498,7 +498,8 @@
     "already_enriched": false,
     "http_status": 200,
     "verified_at": "2026-08-15",
-    "evidence": "https://termcn.vercel.app (307 -> https://www.termcn.dev/), https://www.termcn.dev/docs.md, https://www.termcn.dev/r/registry.json, https://api.github.com/search/repositories?q=termcn"
+    "evidence": "https://termcn.vercel.app (307 -> https://www.termcn.dev/), https://www.termcn.dev/docs.md, https://www.termcn.dev/r/registry.json, https://api.github.com/search/repositories?q=termcn. On 2026-10-12, termcn.vercel.app still redirected to https://www.termcn.dev, so the record uses the new domain.",
+    "domain": "termcn.dev"
   },
   {
     "id": "a009af2a-93d1-4471-ba3d-6cc2a2fc736c",
