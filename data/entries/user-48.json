@@ -1,0 +1,161 @@
+[
+  {
+    "id": "user:bde1f2e1166912ea",
+    "slug": "affectui",
+    "url": "https://www.affectui.com",
+    "name": "affectUI",
+    "tagline": "93 React components, screens, and blocks for AI products, each one dependency-free file",
+    "description": "affectUI is a React UI library for AI products and SaaS by Florian Höller. It has 93 items: 41 components, 12 app screens, 10 blocks, 22 illustrations, and 8 motion effects. The components cover agent work, such as an agent plan, an approval card, a tool call card, an inline diff, and thinking states. They also cover inputs, charts, a data table, toasts, and navigation.\n\nEach item is one .tsx file for React 19 with its styles inside, so it needs no Tailwind and no animation library. Colors come from CSS variables with a short prefix for each component. 85 items switch to dark mode on a dark class or data-theme attribute, and all motion respects reduced motion settings. 39 items are free under the MIT license and install with the shadcn CLI. The other 54, including all 12 screens, need a Pro license that you buy one time. An llms.txt file, a full docs file, and an MCP server give agents the whole catalog.",
+    "category": "ai-interface-kits",
+    "subcategory": "chat-and-agent-components",
+    "kinds": [
+      "component-library",
+      "registry",
+      "block-collection"
+    ],
+    "facets": {
+      "framework": [
+        "react"
+      ],
+      "styling": [
+        "vanilla-css",
+        "css-variables"
+      ],
+      "license": [
+        "mit",
+        "commercial"
+      ],
+      "pricing": [
+        "freemium",
+        "one-time"
+      ],
+      "distribution": [
+        "shadcn-registry",
+        "cli",
+        "copy-paste",
+        "github-repo",
+        "mcp-server"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "semantic-html",
+        "keyboard-navigable",
+        "reduced-motion",
+        "claimed-accessible"
+      ],
+      "content_type": [
+        "code"
+      ],
+      "agent_readiness": [
+        "mcp-server",
+        "llms-txt",
+        "registry-json",
+        "machine-index",
+        "cli-installable",
+        "structured-docs",
+        "copy-paste-ready",
+        "open-source-code",
+        "auth-required"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "button",
+      "prompt-input",
+      "message",
+      "streaming-text",
+      "tool-call",
+      "approval-request",
+      "diff-proposal",
+      "comment",
+      "command-palette",
+      "combobox",
+      "date-range-picker",
+      "file-upload",
+      "drag-and-drop",
+      "otp-input",
+      "segmented-control",
+      "toast",
+      "progress-stepper",
+      "onboarding-flow",
+      "kanban-board",
+      "pricing-table",
+      "billing-period-toggle",
+      "invoice",
+      "marquee",
+      "shimmer",
+      "skeleton",
+      "text-effect",
+      "gradient-background",
+      "carousel",
+      "account-menu",
+      "filter-panel",
+      "usage-meter",
+      "data-grid",
+      "bar-chart",
+      "line-chart",
+      "app-shell",
+      "sidebar",
+      "illustration",
+      "spinner",
+      "empty-state"
+    ],
+    "component_count": 41,
+    "surfaces": [
+      "ai-chat-panel",
+      "chat-web-app",
+      "ai-action-approval",
+      "agent-run-history",
+      "analytics",
+      "settings-web-app",
+      "billing-web-app",
+      "usage-and-limits",
+      "integrations",
+      "onboarding-web-app",
+      "onboarding-checklist",
+      "kanban-board",
+      "pricing-website",
+      "command-palette",
+      "empty-state",
+      "homepage"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": "npx shadcn@latest add https://www.affectui.com/r/button.json",
+    "package": null,
+    "docs_url": "https://www.affectui.com/llms.txt",
+    "repo_url": "https://github.com/flohoeller/affectui",
+    "registry_url": "https://www.affectui.com/r/registry.json",
+    "github": {
+      "stars": 19,
+      "license": "MIT",
+      "last_activity": "2026-10-11"
+    },
+    "pricing_detail": "39 items are free under the MIT license. Pro is a one-time purchase with lifetime updates: $99 for the first 25 Individual licenses, then $199. On 2026-10-12, 15 founder licenses were left. Team costs $499 one time for 10 seats. Pro items install with the buyer's access key.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": 10
+    },
+    "agent_guidance": "Read https://www.affectui.com/llms.txt first. It lists all 93 items with a Free or Pro label and the install command.\n\nInstall a free item with npx shadcn@latest add https://www.affectui.com/r/<slug>.json. The file lands in components/ui. Keep its own styles and motion, and restyle it through its prefixed CSS variables. Pro items need the buyer's access key as a Bearer header, so do not try to install them without one. Connect the MCP server at https://www.affectui.com/api/mcp to search items and read their source.",
+    "why_it_matters": "It gives AI products ready agent surfaces, such as approvals, tool calls, and inline diffs, as single React files with no dependencies.",
+    "quality_tier": "A",
+    "tier_reason": "Careful, accessible, dependency-free items with full agent access. The project started on 2026-10-03, and 54 of its 93 items need Pro.",
+    "notable_for": [
+      "93 items, 39 free under MIT",
+      "one .tsx file each, no dependencies",
+      "agent plan, approval, tool call, and inline diff components",
+      "llms.txt, shadcn registry, and MCP server",
+      "one-time Pro license"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-12",
+    "source": "user",
+    "evidence": "Checked https://www.affectui.com/, /llms.txt, /llms-full.txt, /r/registry.json, /r/button.json, /pricing, /license, /terms, /docs/introduction, /docs/accessibility, and /docs/theming on 2026-10-12. llms.txt lists 93 items: 41 components, 12 screens, 10 blocks, 22 illustrations, and 8 motion effects. The registry serves the 39 free items. button.json is one file with no dependencies, and it checks prefers-reduced-motion. The MCP server at /api/mcp answered initialize as affectui 1.0.0 and listed four tools. The GitHub API reports flohoeller/affectui under MIT with 19 stars, created on 2026-10-03, with a last push on 2026-10-11. The pricing page showed Pro at $99 for founders, then $199, and Team at $499. Source tweet: https://x.com/neropursue/status/2109514246853677192."
+  }
+]
