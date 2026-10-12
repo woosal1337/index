@@ -65,7 +65,7 @@
    "license": null,
    "last_activity": null
   },
-  "pricing_detail": "$49 one-time payment for Unlimited Access, described as lifetime with future collections included. No refunds (digital goods). Free sample set at https://www.backgrounds.supply/freebies.",
+  "pricing_detail": "$49 one-time payment for Unlimited Access, described as lifetime with future collections included. No refunds (digital goods). Free sample set at https://backgrounds.supply/freebies.",
   "counts": {
    "icons": null,
    "fonts": null,
@@ -85,7 +85,7 @@
   "already_enriched": false,
   "http_status": 200,
   "verified_at": "2026-08-15",
-  "evidence": "https://www.backgrounds.supply (fetched twice — once for pricing/licence/FAQ, once for the per-collection asset counts and freebies link)",
+  "evidence": "https://www.backgrounds.supply (fetched twice — once for pricing/licence/FAQ, once for the per-collection asset counts and freebies link). On 2026-10-12, https://www.backgrounds.supply/freebies returned 404 in curl and Chromium, and https://backgrounds.supply/freebies returned 200, so the record links the bare domain. The site also runs Gradient Lab, a free gradient generator with its own Index record.",
   "quality_tier": "B",
   "tier_reason": "A single paywalled image pack with no formats or resolutions stated and two conflicting asset counts on its own page, so an agent can only use it after a human buys and hands over the files."
  },

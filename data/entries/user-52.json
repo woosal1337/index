@@ -1,0 +1,86 @@
+[
+  {
+    "id": "user:bded411cfb87b2b0",
+    "slug": "gradient-lab",
+    "url": "https://backgrounds.supply/gradient-lab",
+    "name": "Gradient Lab",
+    "tagline": "Free browser generator for animated gradient backgrounds, with PNG, 4K video, and live embed export",
+    "description": "Gradient Lab is a free gradient background generator from Backgrounds Supply. It runs in the browser with no account. The mode panel lists 43 animated shader modes, such as Flow Mesh, Light Beam, Aurora, Halftone, and Plasma, plus presets. You set the colors, the gradient map blend, the speed, and the aspect ratio, and the canvas renders live as you edit.\n\nExports are a still PNG, or an MP4 or WebM video at 480p to 4K for up to 30 seconds, with no watermark. An embed code puts the live gradient on a site as an iframe, and the page URL keeps the settings for sharing. The FAQ allows personal and commercial use with no attribution. The tool is in beta. Index lists the paid Backgrounds Supply library as its own record.",
+    "category": "textures-assets",
+    "subcategory": "shaders-and-effects",
+    "kinds": [
+      "generator",
+      "tool"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "shader-glsl"
+      ],
+      "license": [
+        "commercial"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "web-app"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "images",
+        "video"
+      ],
+      "agent_readiness": [
+        "js-only-shell"
+      ],
+      "maturity": "beta"
+    },
+    "components": [
+      "gradient-background"
+    ],
+    "component_count": null,
+    "surfaces": [
+      "homepage"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": "Free, with no account. Exports carry no watermark, and the FAQ allows personal and commercial use with no attribution. The paid Backgrounds Supply library costs $49 one time.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Use it to make an animated gradient hero or video backdrop without design software. Pick a mode, set the brand colors, and export a 1080p or 4K MP4 for video or a PNG for a static hero.\n\nFor a web page, prefer a short looping video or the iframe embed, and check the file size and the effect on page speed. Respect reduced motion settings with a static PNG fallback. The tool needs a browser, so an agent cannot drive it. Ask the user for the exported file or the share link.",
+    "why_it_matters": "It gives a free, no-account way to make animated gradient backgrounds as PNG, 4K video, or a live embed.",
+    "quality_tier": "B",
+    "tier_reason": "A capable free tool with 4K export and commercial use. It is in beta, and it works only in a browser.",
+    "notable_for": [
+      "free with no account",
+      "43 animated shader modes",
+      "PNG and 4K MP4 or WebM export",
+      "no watermark, commercial use allowed",
+      "live iframe embed and share links"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-12",
+    "source": "user",
+    "evidence": "Checked https://backgrounds.supply/gradient-lab in curl and Chromium on 2026-10-12. The www host returns 404 for this path. The page meta claims 20+ animated shader modes, and the mode panel lists 43: 11 new, 12 classic, and 20 more. The FAQ states free use with no account, PNG export, MP4 or WebM export at 480p to 4K for up to 30 seconds, no watermark, an iframe embed, share links, and personal and commercial use with no attribution. The preview is a screenshot of the tool in the Flow Mesh mode. The owner shared https://www.backgrounds.supply on 2026-10-12."
+  }
+]
