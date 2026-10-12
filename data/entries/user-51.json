@@ -1,0 +1,202 @@
+[
+  {
+    "id": "user:2d1f22bcfa12a2b2",
+    "slug": "landing-gallery",
+    "url": "https://www.landing.gallery",
+    "name": "Landing.Gallery",
+    "tagline": "1,800+ reviewed landing pages, tagged by page type, builder, and framework, with a public MCP server",
+    "description": "Landing.Gallery is a library of more than 1,800 real landing pages from brands and startups, and its sitemap lists 1,969 site pages. Each site goes through a manual review and gets full-page screenshots and tags for page type, site builder, and framework. You filter by builders such as Framer, Webflow, and Shopify, by frameworks such as Next.js, and by pages such as pricing, about, careers, and 404.\n\nA public, read-only MCP server needs no account. Its search_inspiration tool returns the four newest matches with screenshots, and get_website returns one site with its current desktop and mobile screenshots. The site is free, shows ads, and also collects Open Graph image examples.",
+    "category": "inspiration-galleries",
+    "subcategory": "site-galleries",
+    "kinds": [
+      "gallery",
+      "directory",
+      "mcp-server"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "gallery",
+        "mcp-server",
+        "web-app"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "screenshots"
+      ],
+      "agent_readiness": [
+        "mcp-server",
+        "llms-txt",
+        "structured-docs",
+        "machine-index"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [
+      "homepage",
+      "pricing-website",
+      "about",
+      "careers",
+      "contact-us",
+      "404"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": "claude mcp add --transport http landing-gallery https://www.landing.gallery/api/mcp",
+    "package": null,
+    "docs_url": "https://www.landing.gallery/llms.txt",
+    "repo_url": null,
+    "registry_url": "https://www.landing.gallery/api/mcp",
+    "github": null,
+    "pricing_detail": "Free and ad-supported. The MCP server needs no account or token.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 1816,
+      "blocks": null
+    },
+    "agent_guidance": "Connect the public MCP server at https://www.landing.gallery/api/mcp. It needs no key. Call search_inspiration with a page type, device, builder, or framework, and call get_website for one site.\n\nEach search returns at most four matches and each preview stays under 256 KB, so search narrowly. Use the screenshots as layout references only, because each page belongs to its owner.",
+    "why_it_matters": "It gives designers and agents current landing page references, filtered by page type and build stack, through a public MCP server.",
+    "quality_tier": "A",
+    "tier_reason": "A large, manually reviewed, and current gallery with a free public MCP server. The site shows ads, and each MCP search returns at most four matches.",
+    "notable_for": [
+      "1,800+ landing pages",
+      "tags for page type, builder, and framework",
+      "desktop and mobile screenshots",
+      "public MCP server with no account",
+      "Open Graph image examples"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-12",
+    "source": "user",
+    "evidence": "Checked https://www.landing.gallery/, /about, /mcp, /llms.txt, /robots.txt, and /sitemap.xml on 2026-10-12. The home page and the about page report 1,816+ landing pages and describe the manual review. The sitemap lists 1,969 site pages, 41 framework pages, and 34 builder pages. The MCP server at /api/mcp answered initialize as landing-gallery 1.0.0 and listed search_inspiration and get_website. The MCP page caps previews at 256 KB and searches at four results. robots.txt names @itschrisjayden on X. Source tweet: https://x.com/csaba_kissi/status/2109541778328272900."
+  },
+  {
+    "id": "user:14affbeb7573ca3d",
+    "slug": "m3e-canvas",
+    "url": "https://lnkiai.github.io/m3e-canvas/",
+    "name": "M3E Canvas",
+    "tagline": "Browser canvas that turns Material 3 Expressive screen sketches into prompts for AI coding tools",
+    "description": "M3E Canvas is a free browser editor for Material 3 Expressive screens by inori (lnkiai). You drag in parts such as buttons, FABs, app bars, navigation bars, cards, lists, dialogs, and text fields. Then you link screens with tap and swipe transitions and test them in a preview. A theme panel covers the four Material 3 Expressive axes: color, shape, type, and motion.\n\nThe output is a short prompt in English, Japanese, Chinese, or Korean for Android or the web. You paste it into Claude Code, Codex, Gemini CLI, or Cursor. An agent.md file lets a coding agent write a design and reply with a share link. The app has no backend and saves to localStorage. It uses the MIT license and has about 9,200 GitHub stars.",
+    "category": "agent-design-tooling",
+    "subcategory": "ai-design-apps",
+    "kinds": [
+      "tool",
+      "app"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "mit"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "web-app",
+        "github-repo"
+      ],
+      "platform": [
+        "web",
+        "android"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "prompts"
+      ],
+      "agent_readiness": [
+        "copy-prompt",
+        "structured-docs",
+        "open-source-code"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "button",
+      "icon-button",
+      "floating-action-button",
+      "split-button",
+      "chip",
+      "navbar",
+      "tab-bar",
+      "toolbar",
+      "tabs",
+      "search-input",
+      "card",
+      "list",
+      "dialog",
+      "toast",
+      "text-input",
+      "dropdown-menu",
+      "switch",
+      "spinner",
+      "progress-bar"
+    ],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": "https://lnkiai.github.io/m3e-canvas/agent.md",
+    "repo_url": "https://github.com/lnkiai/m3e-canvas",
+    "registry_url": null,
+    "github": {
+      "stars": 9211,
+      "license": "MIT",
+      "last_activity": "2026-10-08"
+    },
+    "pricing_detail": "Free and MIT-licensed. The optional AI helper uses your own OpenAI, Claude, Gemini, or DeepSeek key, and the key stays in the browser.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Use it to sketch an Android or web app in Material 3 Expressive before you give the build to a coding agent. Link the screens and add a note to each part, because the notes go into the prompt.\n\nTo let an agent draft a design, point it at https://lnkiai.github.io/m3e-canvas/agent.md. The agent writes the design as a JSON document and replies with a share link that opens on the canvas. Read the generated prompt before you paste it, and edit it if needed.",
+    "why_it_matters": "It turns a quick visual sketch into an exact build prompt, so a coding agent gets the layout, flow, and theme instead of a vague description.",
+    "quality_tier": "A",
+    "tier_reason": "Free, MIT, widely used, and thorough in its Material 3 Expressive coverage. It covers only Material 3 Expressive, and agent drafts are in beta.",
+    "notable_for": [
+      "Material 3 Expressive parts and themes",
+      "tap and swipe links between screens",
+      "prompts in four languages",
+      "agent.md for agent drafts",
+      "9,200+ GitHub stars"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-12",
+    "source": "user",
+    "evidence": "Checked https://lnkiai.github.io/m3e-canvas/, /agent.md, the README, the NOTICE file, and the GitHub API on 2026-10-12. The GitHub API reports the MIT license, 9,211 stars, creation on 2026-09-02, and a last push on 2026-10-08. The README lists the parts, the theme axes, the prompt languages, and the Android or web targets. The NOTICE credits Apache 2.0 code ported from material-components-android for the loading indicator. The preview is a screenshot of the app in English. Source tweet: https://x.com/csaba_kissi/status/2109541778328272900."
+  }
+]
