@@ -1,0 +1,399 @@
+[
+  {
+    "id": "user:43d8a04c33523e60",
+    "slug": "inspira-ui",
+    "url": "https://inspira-ui.com",
+    "name": "Inspira UI",
+    "tagline": "MIT animated components for Vue and Nuxt in the style of Aceternity UI and Magic UI",
+    "description": "Inspira UI is an MIT library of animated components for Vue and Nuxt by Rahul Vashishtha. The unovue organization, which also hosts shadcn-vue, publishes it. It brings the look of Aceternity UI and Magic UI to Vue. Its llms.txt file lists 115 component pages, and the home page claims 150+. The groups cover backgrounds, special effects, cards, text animations, cursors, buttons, inputs, testimonials, and device mockups.\n\nComponents install with the shadcn-vue CLI from registry.inspira-ui.com. Version 2 needs Tailwind CSS v4, motion-v, and @vueuse/core, and version 1 at v1.inspira-ui.com serves Tailwind CSS v3 projects. Every component page has a Markdown version, and llms-full.txt holds the full docs. Inspira UI Pro sells Nuxt templates as a separate paid product.",
+    "category": "motion-interaction",
+    "subcategory": "animated-components",
+    "kinds": [
+      "component-library",
+      "animation-library",
+      "registry"
+    ],
+    "facets": {
+      "framework": [
+        "vue",
+        "nuxt"
+      ],
+      "styling": [
+        "tailwind-v4"
+      ],
+      "license": [
+        "mit",
+        "commercial"
+      ],
+      "pricing": [
+        "free",
+        "open-source",
+        "freemium",
+        "one-time"
+      ],
+      "distribution": [
+        "shadcn-registry",
+        "cli",
+        "copy-paste",
+        "github-repo"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "code"
+      ],
+      "agent_readiness": [
+        "llms-txt",
+        "registry-json",
+        "structured-docs",
+        "cli-installable",
+        "copy-paste-ready",
+        "open-source-code"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "animation",
+      "particle-background",
+      "gradient-background",
+      "text-effect",
+      "card",
+      "carousel",
+      "hover-effect",
+      "button",
+      "shimmer",
+      "marquee",
+      "dock",
+      "parallax",
+      "custom-cursor",
+      "device-frame",
+      "text-input",
+      "file-upload",
+      "color-picker",
+      "slider"
+    ],
+    "component_count": 115,
+    "surfaces": [
+      "homepage",
+      "features"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": "npx shadcn-vue@latest add \"https://registry.inspira-ui.com/aurora-background.json\"",
+    "package": null,
+    "docs_url": "https://inspira-ui.com/llms.txt",
+    "repo_url": "https://github.com/unovue/inspira-ui",
+    "registry_url": "https://registry.inspira-ui.com/{name}.json",
+    "github": {
+      "stars": 5049,
+      "license": "MIT",
+      "last_activity": "2026-09-18"
+    },
+    "pricing_detail": "The components are free under MIT. Inspira UI Pro at pro.inspira-ui.com sells Nuxt templates for $29 to $79 each. On 2026-10-12, its All Access Pack cost $249 one time, against a $499 list price.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Read https://inspira-ui.com/llms.txt first. Each component page has a Markdown version under /raw/en/components/, so an agent reads one component instead of the full docs.\n\nInstall @vueuse/core, motion-v, tw-animate-css, and @inspira-ui/plugins first. Then add a component with npx shadcn-vue@latest add and its registry URL, for example https://registry.inspira-ui.com/aurora-background.json. Use v1.inspira-ui.com for a Tailwind CSS v3 project. Give the heavy WebGL backgrounds a static fallback for reduced motion settings.",
+    "why_it_matters": "It gives Vue and Nuxt projects the animated component style that Aceternity UI and Magic UI give React, as installable source.",
+    "quality_tier": "A",
+    "tier_reason": "MIT, active, widely used, and documented for agents, with 115 component pages. It follows the React originals and makes no accessibility claims.",
+    "notable_for": [
+      "115 documented components",
+      "Vue and Nuxt take on Aceternity UI and Magic UI",
+      "shadcn-vue registry install",
+      "llms.txt with Markdown component pages",
+      "5,000+ GitHub stars"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-12",
+    "source": "user",
+    "evidence": "Checked https://inspira-ui.com/, /llms.txt, /llms-full.txt, https://registry.inspira-ui.com/aurora-background.json, https://pro.inspira-ui.com/, and the GitHub API on 2026-10-12. llms.txt lists 115 component pages in 11 groups. The registry JSON returned HTTP 200. The GitHub API reports MIT, 5,049 stars, creation on 2024-08-30, a last push on 2026-09-18, and rahul-vashishtha as the top contributor with 714 commits. The installation docs list the dependencies and the Tailwind CSS v4 requirement. Source tweet: https://x.com/Abmankendrick/status/2109221529946816973."
+  },
+  {
+    "id": "user:e390534ac3c69817",
+    "slug": "motionin",
+    "url": "https://www.motionin.design",
+    "name": "Motionin",
+    "tagline": "53 physics-based, cursor-responsive web sections, each delivered as a build prompt for an AI coding tool",
+    "description": "Motionin, branded Motion on its own site, is a gallery of 53 interactive web sections by Bardhyl Bytyqi and Nuhi Ademaj. The sections fall into five groups: Portfolio, Hero, Interactive, Product Showcase, and Immersive. Each one reacts to physics or to the cursor, such as a photo wall that moves away from the pointer.\n\nYou do not get code. You copy a detailed prompt, which the site calls a spec, and paste it into an AI coding tool to build the section. The specs name the technique, such as one requestAnimationFrame loop with GSAP for the entrance. At least one spec states that its section honors reduced motion settings. The gallery has a Free filter, and paid plans unlock the other sections.",
+    "category": "agent-design-tooling",
+    "subcategory": "prompts-and-feedback",
+    "kinds": [
+      "prompt-pack",
+      "block-collection"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "commercial"
+      ],
+      "pricing": [
+        "freemium",
+        "subscription",
+        "one-time"
+      ],
+      "distribution": [
+        "gallery",
+        "copy-paste"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "prompts"
+      ],
+      "agent_readiness": [
+        "copy-prompt",
+        "auth-required"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "animation",
+      "scroll-driven-animation",
+      "hover-effect",
+      "parallax",
+      "carousel",
+      "image-gallery"
+    ],
+    "component_count": null,
+    "surfaces": [
+      "homepage",
+      "features"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": "Some sections are free. Monthly costs $9 a month and unlocks 3 sections a month, which you keep. Lifetime costs $99 once at the founding rate until 2026-10-18, then $149. Studio costs $249 once for up to 10 people. Every plan allows commercial and client work, but not resale or sharing of the specs.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 53,
+      "blocks": null
+    },
+    "agent_guidance": "Use it when a page needs one standout interactive section, such as a hero or a product showcase. Pick a section in a browser, unlock it, and give the copied spec to the coding agent as the brief.\n\nRead the spec before you paste it, and keep its performance notes, such as one animation loop and cached layers. Check the result for reduced motion support and for scroll on touch screens. The license does not allow you to share the specs, so keep them out of public repositories.",
+    "why_it_matters": "It turns complex scroll and cursor interactions into detailed briefs that an AI coding tool can build, with performance notes in each brief.",
+    "quality_tier": "B",
+    "tier_reason": "Detailed, technique-level specs with a clear commercial license. The sections arrive as prompts instead of tested code, and the paid sections need a plan.",
+    "notable_for": [
+      "53 interactive web sections",
+      "specs for AI coding tools",
+      "five groups from hero to immersive",
+      "commercial and client use",
+      "$99 lifetime founding rate"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-12",
+    "source": "user",
+    "evidence": "Checked https://www.motionin.design/, /pricing, /terms, and /sitemap.xml in curl and Chromium on 2026-10-12. The sitemap lists 53 gallery pages. The home page lists the five groups and the Free and Paid filters. The pricing page lists Monthly at $9, Lifetime at $99 until 2026-10-18 and then $149, and Studio at $249. The terms allow commercial and client work and forbid resale or sharing of the specs. The footer links the X accounts @BardhylBytyqi and @NuhiAdemaj. Source tweet: https://x.com/Abmankendrick/status/2109221529946816973."
+  },
+  {
+    "id": "user:ee133b06e8b372a7",
+    "slug": "metalforge",
+    "url": "https://metalforge.xyz",
+    "name": "MetalForge",
+    "tagline": "400+ shader effects for SwiftUI, React Native, and the web, tuned with sliders and exported as code",
+    "description": "MetalForge is a gallery of 400+ shader effects and animations by Youssef (@sucodeee). You tune each effect with sliders and preview it live. Then you take the code as a Metal file for SwiftUI, a Skia shader for React Native, or a web component. On 2026-10-12, the gallery held 406 effects: 374 for SwiftUI, 332 for React Native, and 395 for the web.\n\nThe groups include 3D, glass, backgrounds, orbs, logo and photo effects, components, buttons, loaders, and text effects. Every effect is free to preview and share by link, and the gallery has a Free filter with 20 effects. Pro unlocks the code for every effect and an MCP server in beta that adds effects to a project from an AI tool. The FAQ states that exports are yours to use in any project, including paid apps. MetalForge itself is not open source.",
+    "category": "textures-assets",
+    "subcategory": "shaders-and-effects",
+    "kinds": [
+      "shader-pack",
+      "generator",
+      "tool",
+      "mcp-server"
+    ],
+    "facets": {
+      "framework": [
+        "swiftui",
+        "react-native",
+        "web-components"
+      ],
+      "styling": [
+        "shader-glsl",
+        "native-styles"
+      ],
+      "license": [
+        "commercial"
+      ],
+      "pricing": [
+        "freemium",
+        "subscription"
+      ],
+      "distribution": [
+        "web-app",
+        "saas",
+        "download",
+        "mcp-server"
+      ],
+      "platform": [
+        "ios",
+        "android",
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "code"
+      ],
+      "agent_readiness": [
+        "mcp-server",
+        "agent-paywalled",
+        "auth-required"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "animation",
+      "gradient-background",
+      "particle-background",
+      "button",
+      "card",
+      "spinner",
+      "progress-bar",
+      "carousel",
+      "text-effect"
+    ],
+    "component_count": null,
+    "surfaces": [
+      "homepage",
+      "splash-screen"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": "Free: every effect in live preview, plus share links. Pro costs €9.99 a month or €80 a year, VAT included, for the code of every effect, unlimited downloads, and the MCP server in beta.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 406,
+      "blocks": null
+    },
+    "agent_guidance": "Use it to add a native shader effect to a SwiftUI or React Native app, or a web component effect to a site, without shader code. Tune the effect in the browser, then export the code for the target platform.\n\nWith Pro, connect the MCP server so an AI tool can add an effect by name. Test the GPU cost on older phones, and give a static fallback for reduced motion settings.",
+    "why_it_matters": "It ships one shader look for three targets: SwiftUI Metal code, a React Native Skia shader, and a web component.",
+    "quality_tier": "B",
+    "tier_reason": "A large cross-platform effect gallery with a clear license for exports. Code export and the MCP server need a paid plan, and the code is closed source.",
+    "notable_for": [
+      "400+ shader effects",
+      "SwiftUI Metal, React Native Skia, and web output",
+      "slider tuning with live preview",
+      "MCP server in beta for Pro",
+      "exports allowed in paid apps"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-12",
+    "source": "user",
+    "evidence": "Checked https://metalforge.xyz/, /pricing, and /licenses in curl and Chromium on 2026-10-12. The gallery reported 406 effects: 374 for SwiftUI, 332 for React Native, and 395 for the web. The pricing page lists Free, Monthly at €9.99, and Yearly at €80, and its FAQ allows exports in paid apps. The licenses page states that MetalForge's own code is not open source. The page credits Youssef (@sucodeee). The preview is a gallery screenshot, because the Open Graph image is a text card. The owner shared https://metalforge.xyz/ on 2026-10-12."
+  },
+  {
+    "id": "user:689791d281915b36",
+    "slug": "looogos",
+    "url": "https://looogos.com",
+    "name": "Looogos",
+    "tagline": "29 hand-picked logos of startups and brands, curated by MAZE, with a shuffle view",
+    "description": "Looogos is a small logo inspiration gallery curated by MAZE, the design engineer behind Moodist. It shows 29 logos found in the wild, such as Raycast, Linktree, Harvey, and Webflow, each with the brand name and domain. A Shuffle button reorders the grid. The site states that each logo belongs to its owner and appears only for non-commercial inspiration. Index also lists the personal site of MAZE.",
+    "category": "inspiration-galleries",
+    "subcategory": "single-element-galleries",
+    "kinds": [
+      "gallery"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "trademark-restricted"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "gallery"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "images"
+      ],
+      "agent_readiness": [
+        "image-only"
+      ],
+      "maturity": "unknown"
+    },
+    "components": [
+      "logo"
+    ],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": "Free. Each logo belongs to its owner.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 29,
+      "blocks": null
+    },
+    "agent_guidance": "Use it for a quick look at current startup wordmarks and symbols. The page lists each brand name and domain as text, so an agent can read the list, but the logos are images.\n\nDo not copy a logo. Each one is a trademark of its owner, and the site allows only non-commercial reference.",
+    "why_it_matters": "It is a short, current set of startup logos for a quick reference on wordmark and symbol trends.",
+    "quality_tier": "C",
+    "tier_reason": "Only 29 logos, with no search, filters, or designer credits.",
+    "notable_for": [
+      "29 curated logos",
+      "brand name and domain for each logo",
+      "curated by MAZE",
+      "shuffle view",
+      "non-commercial reference only"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-12",
+    "source": "user",
+    "evidence": "Checked https://looogos.com/ in curl and Chromium on 2026-10-12. The page lists 29 logos with names and domains, and eight clicks on Shuffle showed the same 29. /sitemap.xml returns the home page. The footer credits Maze and links https://x.com/remvze, the handle of the MAZE record at remvze.com. The preview is a page screenshot, because the Open Graph image shows only the site mark. The owner shared https://looogos.com/ on 2026-10-12."
+  }
+]
