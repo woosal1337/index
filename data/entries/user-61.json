@@ -1,0 +1,1174 @@
+[
+  {
+    "id": "user:f889383cc27f88d3",
+    "slug": "wedoflow",
+    "url": "https://www.wedoflow.com/",
+    "name": "Wedoflow",
+    "tagline": "Premium Webflow templates, with 216 templates listed and prices on the cards",
+    "description": "Wedoflow sells Webflow templates. The homepage says there are 216 templates and 1,300+ unique pages, in categories such as portfolio, agency, SaaS, and business. Template cards on the fetched page show prices of $39, $59, $79, $99, $129, and $169 USD, and a control labeled Subscribe to Download.\n\nA banner says 95% off all templates, one free template on every two purchases, and an all-access pass for the full library at the price of one template. The dollar amount of that discounted all-access pass was not in the fetched text. https://www.wedoflow.com/all-access returned 404. A license for the templates was not on the homepage.",
+    "category": "blocks-templates-themes",
+    "subcategory": "templates-and-starters",
+    "kinds": [
+      "template",
+      "marketplace"
+    ],
+    "facets": {
+      "framework": [
+        "webflow"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "paid"
+      ],
+      "distribution": [
+        "marketplace",
+        "web-app"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "code"
+      ],
+      "agent_readiness": [
+        "none"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": "Homepage cards show $39, $59, $79, $99, $129, and $169 USD. A banner offers 95% off and an all-access pass at the price of one template. That pass's dollar amount was not in the fetched HTML. /all-access returned 404.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 216,
+      "blocks": null
+    },
+    "agent_guidance": "Use Wedoflow when the project is a Webflow site and a paid template is acceptable. Prices on the homepage run from $39 to $169 USD. The all-access banner says the library costs the price of one template during a 95% off offer. The resulting dollar amount was not in the HTML.\n\nThese are Webflow templates, not React code. The card label Subscribe to Download was not opened, so this record does not say whether that is a subscription.",
+    "why_it_matters": "It is a large paid Webflow template shop with the per-template prices printed on the cards.",
+    "quality_tier": "B",
+    "tier_reason": "Counts and several prices are on the homepage. The all-access price and the template license were not.",
+    "notable_for": [
+      "216 Webflow templates",
+      "1,300+ pages claimed",
+      "cards from $39 to $169",
+      "all-access dollar amount not in the HTML"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked https://www.wedoflow.com/ on 2026-10-25. The page states 216 templates, 1,300+ unique pages, the 95% off banner, and card prices including $39, $59, $79, $99, $129, and $169 USD. https://www.wedoflow.com/all-access returned 404. Source tweet: https://x.com/VullnetAdemaj/status/2109651361478439406."
+  },
+  {
+    "id": "user:210da30e011bb8f8",
+    "slug": "slopcheck",
+    "url": "https://ai-slop-checker.vercel.app",
+    "name": "slopcheck",
+    "tagline": "Paste a URL or a screenshot to flag AI-generated design patterns",
+    "description": "slopcheck is a web tool that looks for AI-generated design patterns. The page says you paste a link or drop a screenshot, and it reads the markup and the pixels. It says screenshots never leave the browser, with a limit of PNG, JPG, or WebP up to 12 MB. It says links are read through r.jina.ai and photographed by microlink, and that a second opinion is written by an AI through OpenRouter. It says nothing is stored.\n\nNo account, price, or license was on the page. The page calls the result \"Not science.\"",
+    "category": "agent-design-tooling",
+    "subcategory": "prompts-and-feedback",
+    "kinds": [
+      "ai-tool",
+      "tool"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "web-app"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "images",
+        "prose"
+      ],
+      "agent_readiness": [
+        "none"
+      ],
+      "maturity": "unknown"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": "No price or account was on the page.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Use slopcheck as a second pair of eyes on a page that might be using stock AI layout patterns. Paste a URL, or drop a screenshot if the page should stay on the machine. The site says screenshots stay in the browser and that links are fetched through r.jina.ai and microlink.\n\nThe page says the result is not science, and that the written roast comes from a model through OpenRouter. Do not treat the output as an audit. No license was stated.",
+    "why_it_matters": "It names the visual tells of generated marketing pages, which is a review step most galleries do not do.",
+    "quality_tier": "B",
+    "tier_reason": "The inputs, the privacy claim, and the model path are on the page. License and a method are not.",
+    "notable_for": [
+      "URL or screenshot input",
+      "screenshots stay in the browser",
+      "uses r.jina.ai, microlink, and OpenRouter",
+      "says it stores nothing"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked https://ai-slop-checker.vercel.app/ on 2026-10-25. The page states the inputs, the 12 MB limit, the third-party readers, the OpenRouter line, and that nothing is stored. No price or license was on the page. Source tweet: https://x.com/buildwithsid/status/2108552341939266028."
+  },
+  {
+    "id": "user:293f6d63a949ca47",
+    "slug": "jason-yuan",
+    "url": "https://jasonyuan.design",
+    "name": "Jason Yuan",
+    "tagline": "Designer portfolio that asks for JavaScript before it renders",
+    "description": "jasonyuan.design is a personal site. The HTML title is Jason Yuan and the meta description is Designer and Entrepreneur.\n\nThe fetched body says \"Please enable JavaScript to run this app.\" No projects, location, or contact details were in that response.",
+    "category": "studios-portfolios",
+    "subcategory": "designer-portfolios",
+    "kinds": [
+      "portfolio"
+    ],
+    "facets": {
+      "framework": [
+        "unknown"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "not-applicable"
+      ],
+      "pricing": [
+        "not-applicable"
+      ],
+      "distribution": [
+        "gallery"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "profile"
+      ],
+      "agent_readiness": [
+        "js-only-shell"
+      ],
+      "maturity": "unknown"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [
+      "homepage"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Open the site in a browser if you want to see the work. The fetched HTML only identifies Jason Yuan as a designer and entrepreneur.\n\nDo not describe projects from this record. None were in the response.",
+    "why_it_matters": "It is a designer portfolio kept as a visual reference, and the fetched page did not include the work.",
+    "quality_tier": "C",
+    "tier_reason": "The name and the one-line description are verified. The portfolio itself did not render.",
+    "notable_for": [
+      "designer portfolio",
+      "JavaScript required to render"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked https://jasonyuan.design/ on 2026-10-25. HTTP 200. Title Jason Yuan. Meta description Designer and Entrepreneur. Body text: Please enable JavaScript to run this app. Source tweet: https://x.com/remvze/status/2105757172768374878."
+  },
+  {
+    "id": "user:df3800297f368c4e",
+    "slug": "bobby-giangeruso",
+    "url": "https://www.bobby.so/",
+    "name": "Bobby Giangeruso",
+    "tagline": "Designer portfolio, Los Angeles, co-founder of beside and jour",
+    "description": "bobby.so is the site of Bobby Giangeruso. The page says he is a designer from New Jersey, born in 1997, now in Los Angeles. It says he co-founded beside and jour, previously designed at Locket and Sunrise, and is currently building beside. It also mentions a motion camera and identity work for the Hollywood Heights neighborhood.\n\nThe page lists dated notes, including creative direction for Hollywood Heights in 2026, beside's fundraise in 2025, and jour's acquisition. Those are the site's own statements. No client rate was published.",
+    "category": "studios-portfolios",
+    "subcategory": "designer-portfolios",
+    "kinds": [
+      "portfolio"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "not-applicable"
+      ],
+      "pricing": [
+        "not-applicable"
+      ],
+      "distribution": [
+        "gallery"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "profile",
+        "images"
+      ],
+      "agent_readiness": [
+        "image-only"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [
+      "homepage"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Use the site as a reference for a short, personal designer portfolio. The page names the products and the places. It does not publish a service price or a case-study writeup an agent can extract as a template.\n\nRead it in a browser. The work is visual.",
+    "why_it_matters": "It shows how a product designer presents a career as a short timeline rather than a case-study grid.",
+    "quality_tier": "B",
+    "tier_reason": "The bio and the timeline are in the HTML. The work samples are visual, and no rates are published.",
+    "notable_for": [
+      "Los Angeles designer",
+      "co-founded beside and jour",
+      "timeline instead of long case studies"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked https://www.bobby.so/ on 2026-10-25. The HTML includes the bio, the New Jersey and Los Angeles lines, the beside and jour credits, and the dated notes. Source tweet: https://x.com/remvze/status/2105757172768374878."
+  },
+  {
+    "id": "user:1c3ef91746867c42",
+    "slug": "julien-audiger",
+    "url": "https://julienaudiger.com",
+    "name": "Julien Audiger",
+    "tagline": "Designer portfolio in France, covering brand, web, and motion",
+    "description": "julienaudiger.com is the site of Julien Audiger. The page says he is a designer based in France, working on brand, web, and motion, and helping companies with visual identity and digital experience. It links email, LinkedIn, and Twitter.\n\nNo project case studies, prices, or client names were in the fetched text.",
+    "category": "studios-portfolios",
+    "subcategory": "designer-portfolios",
+    "kinds": [
+      "portfolio"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "not-applicable"
+      ],
+      "pricing": [
+        "not-applicable"
+      ],
+      "distribution": [
+        "gallery"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "profile"
+      ],
+      "agent_readiness": [
+        "image-only"
+      ],
+      "maturity": "unknown"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [
+      "homepage"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Use the site as a minimal portfolio reference for a designer who states brand, web, and motion as the practice. The fetched page does not include project writeups or prices.\n\nOpen it in a browser for the visual work.",
+    "why_it_matters": "It is a very short designer site: location, discipline, and contact, with the work left visual.",
+    "quality_tier": "B",
+    "tier_reason": "The bio is in the HTML. Projects and prices are not.",
+    "notable_for": [
+      "designer based in France",
+      "brand, web, and motion",
+      "email and LinkedIn on the page"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked https://julienaudiger.com/ on 2026-10-25. The HTML states the location, the disciplines, and the contact links. No prices or case studies were in the text. Source tweet: https://x.com/remvze/status/2105757172768374878."
+  },
+  {
+    "id": "user:6df08b775d905c32",
+    "slug": "jack-hillery",
+    "url": "https://www.jackhillery.com/",
+    "name": "Jack Hillery",
+    "tagline": "Creative-direction portfolio whose page body did not render in this fetch",
+    "description": "jackhillery.com is a personal site. The title is jack Hillery. The meta description says Jack Hillery works in creative direction, AI image-making, and visual exploration, and calls the site an independent collection of work and ideas.\n\nThe fetched body text was only \"jack Hillery\". Projects, location, and prices were not in the response.",
+    "category": "studios-portfolios",
+    "subcategory": "designer-portfolios",
+    "kinds": [
+      "portfolio"
+    ],
+    "facets": {
+      "framework": [
+        "unknown"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "not-applicable"
+      ],
+      "pricing": [
+        "not-applicable"
+      ],
+      "distribution": [
+        "gallery"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "profile"
+      ],
+      "agent_readiness": [
+        "js-only-shell"
+      ],
+      "maturity": "unknown"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [
+      "homepage"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Open the site in a browser to see the work. This record only has the meta description: creative direction, AI image-making, and visual exploration.\n\nDo not invent projects or a location. They were not in the fetched HTML.",
+    "why_it_matters": "The meta description places the site in creative direction and AI image-making. The work itself did not render here.",
+    "quality_tier": "C",
+    "tier_reason": "Title and meta description are verified. The portfolio body did not render.",
+    "notable_for": [
+      "creative direction",
+      "AI image-making",
+      "page body did not render"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked https://www.jackhillery.com/ on 2026-10-25. HTTP 200. The meta description states creative direction, AI image-making, and visual exploration. The visible text was \"jack Hillery\". Source tweet: https://x.com/remvze/status/2099073114583810101."
+  },
+  {
+    "id": "user:d991ba579d559bb1",
+    "slug": "cleon-wong",
+    "url": "https://www.cleonwong.com/",
+    "name": "Cleon Wong",
+    "tagline": "Designer portfolio, senior designer at Mobbin, with product and brand projects",
+    "description": "cleonwong.com is the portfolio of Cleon Wong. The page says he is a senior designer at Mobbin. Projects in the fetched text include Sanctum's mobile app, Sanctum's web brand and design system, Focus Island, a macOS app at version 0.2.1, Gateway, a freelance redesign of Elfa.ai, and a freelance iOS redesign for AYANA.\n\nThe page links X, email, GitHub, and LinkedIn. The GitHub profile URL was not captured as a resolved link. No rates were published.",
+    "category": "studios-portfolios",
+    "subcategory": "designer-portfolios",
+    "kinds": [
+      "portfolio"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "not-applicable"
+      ],
+      "pricing": [
+        "not-applicable"
+      ],
+      "distribution": [
+        "gallery"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "profile",
+        "images"
+      ],
+      "agent_readiness": [
+        "image-only"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [
+      "homepage"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Read the project list when you want a product-designer portfolio that names the product and the scope in a few lines. Sanctum, Focus Island, Gateway, Elfa.ai, and AYANA are the projects in the HTML.\n\nThe site is a reference, not a component kit. No prices are published. Focus Island's download note says desktop only, version 0.2.1.",
+    "why_it_matters": "It shows a working designer's site with named product projects and a current role, without a rate card.",
+    "quality_tier": "B",
+    "tier_reason": "The role and the project list are in the HTML. The work is visual, and rates are absent.",
+    "notable_for": [
+      "senior designer at Mobbin",
+      "Sanctum, Gateway, Elfa.ai, AYANA",
+      "Focus Island macOS app v0.2.1"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked https://www.cleonwong.com/ on 2026-10-25. The HTML states the Mobbin role and the projects named in this record, including Focus Island v0.2.1. Source tweet: https://x.com/remvze/status/2099073114583810101."
+  },
+  {
+    "id": "user:c7cee02f47face49",
+    "slug": "imran-ashraf",
+    "url": "https://www.imran.studio/",
+    "name": "Imran Ashraf",
+    "tagline": "London designer for AI and early-stage products, with a published monthly fee",
+    "description": "imran.studio is the site of Imran Ashraf, a designer in London. The page says he designs mobile apps, web apps, and marketing sites for AI, Web3, and productivity startups, and that he builds marketing sites in Webflow when needed. Recent work named on the page includes Sojourn, Xare, Cherish, and motion experiments.\n\nA section titled The Setup states a flat fee of $9,718 per month. A book-a-call link is on the page. No package license applies. This is a services site.",
+    "category": "studios-portfolios",
+    "subcategory": "designer-portfolios",
+    "kinds": [
+      "portfolio"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "not-applicable"
+      ],
+      "pricing": [
+        "paid"
+      ],
+      "distribution": [
+        "gallery"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "profile",
+        "images"
+      ],
+      "agent_readiness": [
+        "image-only"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [
+      "homepage"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": "The page states a flat fee of $9,718 per month under The Setup. No other rates were in the fetched text.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Use the site as a reference for a solo product designer who publishes a monthly fee. The page says $9,718 per month for product and web work, and names Webflow for marketing sites.\n\nThe projects are visual. Do not treat the fee as a quote for a different scope. The page presents it as the setup for working with him.",
+    "why_it_matters": "It is one of the few solo design sites in this set that prints a monthly fee next to the work.",
+    "quality_tier": "B",
+    "tier_reason": "The practice, the city, the projects, and the fee are on the page. Engagement terms beyond that fee were not copied here.",
+    "notable_for": [
+      "London product designer",
+      "$9,718 per month",
+      "Webflow marketing sites",
+      "AI and early-stage products"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked https://www.imran.studio/ on 2026-10-25. The HTML states the London credit, the kinds of work, the named projects, and The Setup at $9,718 per month. Source tweet: https://x.com/remvze/status/2099073114583810101."
+  },
+  {
+    "id": "user:286b77f09e48099e",
+    "slug": "dogancan-mavideniz",
+    "url": "https://www.dogancan.dev/",
+    "name": "Dogancan Mavideniz",
+    "tagline": "iOS engineer portfolio in Bursa, currently on Trendyol's product-detail team",
+    "description": "dogancan.dev is the site of Dogancan Mavideniz. The page calls him an iOS engineer based in Bursa, Türkiye, focused on mobile apps. It says he is on the Product Detail Page Mobile team at Trendyol, Türkiye's largest e-commerce platform, has written Swift since 2021, and previously built consumer apps at Appcent. It links writing, including posts on iOS UI tests and VS Code.\n\nThe page offers email and a book-a-call link. It does not publish design case studies or rates.",
+    "category": "studios-portfolios",
+    "subcategory": "designer-portfolios",
+    "kinds": [
+      "portfolio"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "not-applicable"
+      ],
+      "pricing": [
+        "not-applicable"
+      ],
+      "distribution": [
+        "gallery"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "profile",
+        "prose"
+      ],
+      "agent_readiness": [
+        "none"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [
+      "homepage"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Read this site for an iOS engineer's own positioning, not for UI components. The page names Trendyol, Appcent, Swift since 2021, and Bursa.\n\nThe page does not show SwiftUI source, and it does not say the site itself is a SwiftUI showcase.",
+    "why_it_matters": "It is a mobile-app portfolio in a set of minimal personal sites, written as an engineering bio rather than a case-study grid.",
+    "quality_tier": "B",
+    "tier_reason": "The role, the employers, and the city are in the HTML. It is an engineering portfolio, and it publishes no rates.",
+    "notable_for": [
+      "iOS engineer in Bursa",
+      "Trendyol product-detail team",
+      "Swift since 2021",
+      "previously at Appcent"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked https://www.dogancan.dev/ on 2026-10-25. The HTML states the iOS engineer title, Bursa, Trendyol, Appcent, and Swift since 2021. Source tweet: https://x.com/remvze/status/2099073114583810101."
+  },
+  {
+    "id": "user:ad85bc4da21c8f9c",
+    "slug": "jason-bergh",
+    "url": "https://www.jasonbergh.com/",
+    "name": "Jason Bergh",
+    "tagline": "Director, cinematographer, and producer portfolio",
+    "description": "jasonbergh.com is the site of Jason Bergh. The title calls him a director, cinematographer, and producer. The meta description says he is an Emmy-winning producer, director, and cinematographer, and names Halftime on Netflix, The Greatest Love Story Never Told on Amazon, and celebrity editorials and commercials.\n\nThe fetched page is a visual menu with Work, reportage, About, Archive, and Contact. Project stills and a rate were not in the text. The credits line names BL/S, Artycoders, and serhii polyvanyi.",
+    "category": "studios-portfolios",
+    "subcategory": "designer-portfolios",
+    "kinds": [
+      "portfolio"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "not-applicable"
+      ],
+      "pricing": [
+        "not-applicable"
+      ],
+      "distribution": [
+        "gallery"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "profile",
+        "images"
+      ],
+      "agent_readiness": [
+        "image-only"
+      ],
+      "maturity": "unknown"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [
+      "homepage"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Use the site as a moving-image reference, not as a UI kit. The meta description is the verified bio. The work itself is visual and did not come through as text.\n\nDo not treat the Emmy and title credits as something this check confirmed beyond the page's own description.",
+    "why_it_matters": "It is a film portfolio kept for visual tone, next to the designer sites from the same bookmark set.",
+    "quality_tier": "B",
+    "tier_reason": "The bio is in the meta description and the section names are in the HTML. The films themselves were not reviewed.",
+    "notable_for": [
+      "director and cinematographer",
+      "Emmy credit in the meta description",
+      "Work, reportage, Archive"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked https://www.jasonbergh.com/ on 2026-10-25. The title and meta description state the roles and name Halftime and The Greatest Love Story Never Told. The HTML includes the section labels and the site credits. Source tweet: https://x.com/remvze/status/2093740127612780749."
+  },
+  {
+    "id": "user:31e285dcf8a040ea",
+    "slug": "design-manifestos",
+    "url": "https://designmanifestos.org/",
+    "name": "Design Manifestos",
+    "tagline": "Collection of design manifestos, indexed from the page and searchable in the browser",
+    "description": "Design Manifestos is a collection of design manifestos. The page says Dieter Rams's Ten Principles for Good Design inspired the collection, and that you can search with the browser's find command. The index includes entries such as the Ahmedabad Declaration on Industrial Design for Development (1979), Otl Aicher's guide to good grip, Apple's Think Different (1997), the UK Architects Declare statement (2021), and Archizoom / Superstudio's Superarchitettura (1966).\n\nhttp://designmanifestos.org/ timed out. https://designmanifestos.org/ returned the index. https://designmanifestos.org/about returned 404. A manifesto count and a license for the collected texts were not stated.",
+    "category": "essays-guides-courses",
+    "subcategory": "craft-essays",
+    "kinds": [
+      "reference",
+      "article"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "article"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "prose"
+      ],
+      "agent_readiness": [
+        "structured-docs"
+      ],
+      "maturity": "unknown"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Search the index when you need the text of a named design manifesto. The page is a collection of other people's writing. Read the manifesto page for authorship before you quote it.\n\nNo site license was stated. Do not assume the collected texts are free to republish.",
+    "why_it_matters": "It gathers design manifestos in one alphabetical index, which is hard to reconstruct from search alone.",
+    "quality_tier": "B",
+    "tier_reason": "The index and several named texts are on the page. Count and reuse terms are not.",
+    "notable_for": [
+      "alphabetical manifesto index",
+      "credits Dieter Rams as the inspiration",
+      "browser find is the search"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked https://designmanifestos.org/ on 2026-10-25 after http://designmanifestos.org/ timed out. The HTML is the manifesto index and names Dieter Rams as the inspiration. /about returned 404. No count or license was stated. Source tweet: https://x.com/clarejtbirch/status/2104066028775022696."
+  },
+  {
+    "id": "user:34d472abb7f97987",
+    "slug": "hana-interface",
+    "url": "https://hana-interface.vercel.app/",
+    "name": "Hana Interface",
+    "tagline": "Announced web UI library with SwiftUI-like primitives, marked coming soon",
+    "description": "Hana Interface presents a web UI library whose APIs are inspired by SwiftUI. The homepage says it is coming soon. A sample on the page imports Toolbar, ScrollView, Frame, VStack, HStack, Text, Symbol, Color, Material, and Shape from @hana-ui/react, and modifier functions from the same package.\n\nNo install command, license, price, or repository link was on the page. The sample is displayed source. This check did not find a published package.",
+    "category": "component-libraries",
+    "subcategory": "react-component-libraries",
+    "kinds": [
+      "component-library"
+    ],
+    "facets": {
+      "framework": [
+        "react"
+      ],
+      "styling": [
+        "unknown"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "unknown"
+      ],
+      "distribution": [
+        "unknown"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "code"
+      ],
+      "agent_readiness": [
+        "none"
+      ],
+      "maturity": "announced"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Do not install Hana yet. The homepage says coming soon, and it does not give an install command or a license. The sample imports @hana-ui/react. That import was not confirmed as a published package.\n\nThe APIs resemble SwiftUI. The sample is React, not a Swift package.",
+    "why_it_matters": "It shows a SwiftUI-shaped API for web layout, and it says the library is not ready.",
+    "quality_tier": "C",
+    "tier_reason": "The preview and the coming-soon line are real. Nothing is installable from the checked page.",
+    "notable_for": [
+      "coming soon",
+      "sample imports @hana-ui/react",
+      "SwiftUI-like layout primitives"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked https://hana-interface.vercel.app/ on 2026-10-25. The page says coming soon and shows the React sample named in this record. No GitHub link, license, or install command was in the HTML. Source tweet: https://x.com/absolute__tk/status/2101151091559997570."
+  },
+  {
+    "id": "user:e7964f2629b7c488",
+    "slug": "design-md-store",
+    "url": "https://designmd-store.com",
+    "name": "Design.md Store",
+    "tagline": "Downloadable DESIGN.md files, 51+ packs, free on the homepage",
+    "description": "Design.md Store is a library of DESIGN.md files for coding agents. The homepage calls them structured design-system specs for Claude, Cursor, and GitHub Copilot, and says 51+ systems are free to download. Packs on the page are named for brands, including Stripe, Slack, Vodafone, Claude, Apple, Amazon, IKEA, Dropbox, Nike, Notion, and Coinbase. The page does not say those companies published the files.\n\nA sample snippet on the homepage is a checkout-flow spec with a goal and states. A license for the downloaded files was not stated.",
+    "category": "agent-design-tooling",
+    "subcategory": "design-md-and-specs",
+    "kinds": [
+      "design-md"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "download",
+        "web-app"
+      ],
+      "platform": [
+        "platform-agnostic"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "prose"
+      ],
+      "agent_readiness": [
+        "unknown"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": "The homepage says the packs are free to download. No paid tier was shown.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Download a DESIGN.md from the store only as a starting spec, and read it before you drop it into a repo. The homepage says the packs are free. It does not say the brand-named files are official documents from those companies.\n\nNo license for reuse of the files was on the page. Do not assume you can republish a pack.",
+    "why_it_matters": "It is a folder of agent-readable design specs you can download, rather than a component registry.",
+    "quality_tier": "B",
+    "tier_reason": "The free price and the 51+ count are on the homepage. The files' license and whether the brands authorized them were not.",
+    "notable_for": [
+      "51+ DESIGN.md packs",
+      "free to download",
+      "brand-named files, authorship not stated"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked https://designmd-store.com/ on 2026-10-25. The homepage says 51+ systems are free to download and lists the brand-named packs in this record. It does not state a license or that the brands published the files. Source tweet: https://x.com/noahelhadedy/status/2099015197302071364."
+  },
+  {
+    "id": "user:a9041c880318325d",
+    "slug": "brand-guidelines",
+    "url": "https://www.brandguidelines.net/",
+    "name": "Brand Guidelines",
+    "tagline": "Directory of brand style-guide documents, curated by 1042 Studio",
+    "description": "Brand Guidelines, at brandguidelines.net, is a directory of brand style-guide documents. The homepage calls it a handpicked collection and shows guides for brands including Adobe, Spotify, Herman Miller, eBay, Audi, Duolingo, IBM, Dropbox, and Starbucks, some marked In-house and some credited to a design studio. The about page says Lee Black of 1042 Studio founded it, and that people can submit a PDF, a web link, or a Figma presentation.\n\nSome entries on the homepage are paid products, with prices such as $19, $20, and $30. Those prices belong to the listed products, not to a subscription for the directory. A license to reuse the linked brand documents was not stated.",
+    "category": "design-systems-brand",
+    "subcategory": "brand-guideline-archives",
+    "kinds": [
+      "directory"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "free",
+        "paid"
+      ],
+      "distribution": [
+        "gallery"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "pdf",
+        "images"
+      ],
+      "agent_readiness": [
+        "image-only"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": "Browsing the directory showed no membership price. Individual listed products show prices such as $19, $20, and $30.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Browse the directory to find a public brand guide, then open the linked PDF or site. The directory is not the brand's own license. A guide marked In-house is still that company's document.\n\nPrices such as $19, $20, and $30 on the homepage are for individual products from studios and marketplaces. Do not treat them as the cost of the directory.",
+    "why_it_matters": "It collects real brand manuals in one index, which is the document an agent cannot invent.",
+    "quality_tier": "B",
+    "tier_reason": "The directory, the founder, and the submission rules are on the site. A total count and a reuse license for the guides were not.",
+    "notable_for": [
+      "directory of brand guides",
+      "founded by Lee Black, 1042 Studio",
+      "PDF, web, or Figma submissions",
+      "some linked items are paid"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked https://www.brandguidelines.net/ and https://www.brandguidelines.net/about on 2026-10-25. The about page names Lee Black and 1042 Studio and describes submissions. The homepage lists the brand guides and shows item prices of $19, $20, and $30. No directory-wide license was stated. Source tweet: https://x.com/yahyavision/status/2097372140462838033."
+  },
+  {
+    "id": "user:cd4bda3cc401d59b",
+    "slug": "design-reviewed",
+    "url": "https://designreviewed.com",
+    "name": "Design Reviewed",
+    "tagline": "Graphic-design archive URL that returned HTTP 403",
+    "description": "https://designreviewed.com/ returned HTTP 403 on 2026-10-25. The response was a Cloudflare forbidden page. No archive, scan count, or license was visible.\n\nThis record keeps the URL. It does not repeat an unverified description of the collection.",
+    "category": "inspiration-galleries",
+    "subcategory": "historical-archives",
+    "kinds": [
+      "gallery"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "unknown"
+      ],
+      "distribution": [
+        "gallery"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "unknown"
+      ],
+      "agent_readiness": [
+        "bot-blocked"
+      ],
+      "maturity": "unknown"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": "Not checked. The page returned HTTP 403.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Do not describe Design Reviewed's collection from this record. The checked request returned HTTP 403 from Cloudflare.\n\nOpen the URL in a browser before you cite a scan count or a reuse right.",
+    "why_it_matters": "The bookmark points at a design-history archive that blocked this fetch, so the entry is only a verified URL.",
+    "quality_tier": "C",
+    "tier_reason": "The URL was checked and blocked. The collection was not verified.",
+    "notable_for": [
+      "HTTP 403 from Cloudflare",
+      "collection not verified"
+    ],
+    "already_enriched": true,
+    "http_status": 403,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked https://designreviewed.com/ on 2026-10-25 with a browser user agent. The response was HTTP 403, a Cloudflare forbidden page. Source tweet: https://x.com/DesignReviewed/status/2097205127912301000."
+  }
+]

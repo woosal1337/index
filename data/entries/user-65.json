@@ -1,0 +1,1218 @@
+[
+  {
+    "id": "user:83bc992df77194de",
+    "slug": "nng-usability-heuristics",
+    "url": "https://www.nngroup.com/articles/ten-usability-heuristics/",
+    "name": "10 Usability Heuristics",
+    "tagline": "Jakob Nielsen's 10 general principles for interaction design, first published in 1994",
+    "description": "Nielsen Norman Group publishes Jakob Nielsen's 10 usability heuristics as a free article. The page calls them broad rules of thumb, not specific usability guidelines. The byline is Jakob Nielsen, dated April 24, 1994, and marked last reviewed on January 30, 2024.\n\nThe article names ten principles: visibility of system status, match between the system and the real world, user control and freedom, consistency and standards, error prevention, recognition rather than recall, flexibility and efficiency of use, aesthetic and minimalist design, help users recognize, diagnose, and recover from errors, and help and documentation. It credits Kelley Gordon for the visuals and posters, and Kate Moran and Feifei Liu for updated names, descriptions, and examples. A reuse license for the article text was not on the checked page.",
+    "category": "essays-guides-courses",
+    "subcategory": "craft-essays",
+    "kinds": [
+      "article",
+      "reference"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "article"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "prose"
+      ],
+      "agent_readiness": [
+        "structured-docs"
+      ],
+      "maturity": "stable"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Use the ten named principles as a review list when you judge an interface. Read the article for the examples rather than inventing what each heuristic means.\n\nThe page is prose. It does not ship components, and it does not grant a license to copy the article text or the poster art.",
+    "why_it_matters": "It is the canonical short list of interaction-design heuristics, with the original date and a 2024 review still on the page.",
+    "quality_tier": "A",
+    "tier_reason": "A primary source, free to read, with a named author, a 1994 date, and a 2024 review. The article's reuse terms were not stated.",
+    "notable_for": [
+      "10 interaction-design heuristics",
+      "Jakob Nielsen, 1994",
+      "reviewed January 30, 2024",
+      "free article"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked https://www.nngroup.com/articles/ten-usability-heuristics/ on 2026-10-25. The page title, summary, byline, dates, and the ten principle names were in the HTML. A later request the same day returned HTTP 403, so this record uses the first HTTP 200 fetch. Source tweet: https://x.com/nurijanian/status/2113600826874950119."
+  },
+  {
+    "id": "user:a634386a2fc18eb5",
+    "slug": "govuk-design-system",
+    "url": "https://design-system.service.gov.uk",
+    "name": "GOV.UK Design System",
+    "tagline": "UK government styles, components, and patterns, with MIT code in govuk-frontend",
+    "description": "The GOV.UK Design System is the published guidance for building UK government services. The homepage says to design a service using GOV.UK styles, components, and patterns. The footer says all content is available under the Open Government Licence v3.0, except where otherwise stated, and marks Crown copyright.\n\nThe styles section covers page structure, layout, spacing, typography, colour, and images. The components list on the homepage includes accordion, button, checkboxes, date input, error summary, file upload, radios, select, table, tabs, task list, and text input, among others. The code package is govuk-frontend. npm version 5.14.0 and the GitHub repository both report the MIT license. Open Government Licence is not a facet slug, so the license facet records the code only.",
+    "category": "design-systems-brand",
+    "subcategory": "public-design-systems",
+    "kinds": [
+      "design-system-docs"
+    ],
+    "facets": {
+      "framework": [
+        "unknown"
+      ],
+      "styling": [
+        "unknown"
+      ],
+      "license": [
+        "mit"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "web-app",
+        "npm-package",
+        "github-repo"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "prose",
+        "code"
+      ],
+      "agent_readiness": [
+        "structured-docs",
+        "open-source-code"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": "npm install govuk-frontend",
+    "package": "govuk-frontend",
+    "docs_url": null,
+    "repo_url": "https://github.com/alphagov/govuk-frontend",
+    "registry_url": null,
+    "github": {
+      "stars": 1475,
+      "license": "MIT",
+      "last_activity": "2026-10-23"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Read the design-system page for the component or pattern you need, then install govuk-frontend when you are building a UK government service. The written guidance is Open Government Licence v3.0. The npm package govuk-frontend 5.14.0 is MIT.\n\nThe checked pages do not say the package is a React library. Confirm the current install steps in the design system before you add it to a framework project.",
+    "why_it_matters": "It is the official component and pattern source for UK government services, with a public license on both the writing and the code.",
+    "quality_tier": "A",
+    "tier_reason": "Official, maintained, and licensed. Open Government Licence covers the writing, and govuk-frontend 5.14.0 is MIT.",
+    "notable_for": [
+      "Open Government Licence v3.0",
+      "govuk-frontend 5.14.0 MIT",
+      "styles, components, and patterns",
+      "Crown copyright stated"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked https://design-system.service.gov.uk/ on 2026-10-25. The footer states the Open Government Licence v3.0 and Crown copyright. npm registry govuk-frontend 5.14.0 reports MIT. GitHub API for alphagov/govuk-frontend on 2026-10-25 reported MIT, 1,475 stars, and a push on 2026-10-23. Source tweet: https://x.com/nurijanian/status/2113600826874950119."
+  },
+  {
+    "id": "user:91b95d0cc9a44e39",
+    "slug": "apple-dimensional-drawings",
+    "url": "https://developer.apple.com/accessories/dimensional-drawings/",
+    "name": "Apple Accessory Dimensional Drawings",
+    "tagline": "Apple's downloadable dimensional drawings and technical specifications for accessories",
+    "description": "Apple's Accessories site publishes dimensional drawings and technical specifications for hardware. The page is titled Download Dimensional Drawings and offers filters for Mac, iPad, iPhone, Watch, Vision, AirPods, TV and Home, and Accessories. On the checked page, entries marked New included AirPods 5, Apple Watch Series 12 in 42 mm and 46 mm, Apple Watch Ultra 4, and iPhone 18 Pro.\n\nThe footer states Copyright 2026 Apple Inc. All rights reserved. The page did not state a license to reuse the drawings in product mockups or marketing. No price and no account wall appeared in the fetched HTML.",
+    "category": "textures-assets",
+    "subcategory": "mockups-and-asset-packs",
+    "kinds": [
+      "reference"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "proprietary",
+        "trademark-restricted"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "download"
+      ],
+      "platform": [
+        "platform-agnostic"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "unknown"
+      ],
+      "agent_readiness": [
+        "structured-docs"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Use the drawings to check the outer dimensions of an Apple product when a mockup has to match the hardware. Download the file for the specific model from the filtered list.\n\nThe page is Apple copyright with all rights reserved. Do not treat a download as permission to redistribute Apple's drawings or to use them as a general mockup pack.",
+    "why_it_matters": "It is Apple's own dimension reference for current devices, which is the measurement source a device mockup should follow.",
+    "quality_tier": "B",
+    "tier_reason": "First-party and current, but the file format and any reuse rights beyond viewing the downloads were not stated.",
+    "notable_for": [
+      "official Apple dimension downloads",
+      "filters for Mac, iPad, iPhone, Watch, Vision, AirPods",
+      "copyright Apple, all rights reserved"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked https://developer.apple.com/accessories/dimensional-drawings/ on 2026-10-25. The HTML lists the product-line filters and drawings marked New, including AirPods 5, Apple Watch Series 12, Apple Watch Ultra 4, and iPhone 18 Pro. The footer states Copyright 2026 Apple Inc. All rights reserved. A download file was not opened, so the file format is unrecorded. Source tweet: https://x.com/avstorm/status/2113545710469554310."
+  },
+  {
+    "id": "user:3df15b04d4cce5d0",
+    "slug": "hairline",
+    "url": "https://hairline.lucasmarkes.com",
+    "name": "hairline",
+    "tagline": "33 isometric SVG figures that follow the pointer, for React and plain DOM",
+    "description": "hairline is a set of isometric line figures by Lucas Marques. The homepage says there are thirty-three figures, drawn as SVG with no dependencies, for React or plain DOM. The published version on the page and on npm is 0.5.1. Install is npm i @lucasmarkes/hairline. The site also shows an shadcn registry URL and an llms.txt file.\n\nThe homepage and the GitHub LICENSE file both say MIT. The llms.txt file lists one function and one React component per figure, and names all thirty-three: Riffle, Terrain, Exploded, Phosphor, Slow, Turntable, Keyboard, Elevator, Phone, Laptop, Terminal, Cabinet, Branches, Vault, Lockers, Padlock, Patch, Dish, Router, Loupe, Sieve, Rail, Plug, Query, Drawer, Basket, Plot, Hub, Relay, Settle, Format, Rebuild, and Stack.",
+    "category": "motion-interaction",
+    "subcategory": "animated-components",
+    "kinds": [
+      "component-library",
+      "animation-library"
+    ],
+    "facets": {
+      "framework": [
+        "react",
+        "vanilla"
+      ],
+      "styling": [
+        "vanilla-css"
+      ],
+      "license": [
+        "mit"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "npm-package",
+        "shadcn-registry",
+        "github-repo",
+        "copy-paste"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "code"
+      ],
+      "agent_readiness": [
+        "llms-txt",
+        "cli-installable",
+        "copy-paste-ready",
+        "open-source-code"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "animation"
+    ],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": "npm i @lucasmarkes/hairline",
+    "package": "@lucasmarkes/hairline",
+    "docs_url": "https://hairline.lucasmarkes.com/llms.txt",
+    "repo_url": "https://github.com/lucasmarkes/hairline",
+    "registry_url": "https://hairline.lucasmarkes.com/r/hairline.json",
+    "github": {
+      "stars": 2923,
+      "license": "MIT",
+      "last_activity": "2026-10-14"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Read https://hairline.lucasmarkes.com/llms.txt before you pick a figure. Install @lucasmarkes/hairline, or add the registry file with npx shadcn@latest add https://hairline.lucasmarkes.com/r/hairline.json.\n\nThe package is MIT and has no runtime dependencies. Use a figure as a small illustration, not as a general icon system.",
+    "why_it_matters": "It gives pointer-reactive isometric drawings as an MIT package, with a text file an agent can read.",
+    "quality_tier": "A",
+    "tier_reason": "MIT, versioned on npm, documented in llms.txt, and updated on GitHub in October 2026.",
+    "notable_for": [
+      "33 isometric SVG figures",
+      "MIT, no dependencies",
+      "React and plain DOM",
+      "llms.txt and an shadcn registry URL"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked https://hairline.lucasmarkes.com/ and https://hairline.lucasmarkes.com/llms.txt on 2026-10-25. npm @lucasmarkes/hairline 0.5.1 reports MIT. The GitHub LICENSE file is the MIT license, copyright 2026 Lucas Marques. GitHub API for lucasmarkes/hairline reported 2,923 stars and a push on 2026-10-14. https://hairline.lucasmarkes.com/r/hairline.json returned HTTP 200 and a shadcn registry item. Source tweet: https://x.com/csaba_kissi/status/2112443894319489423."
+  },
+  {
+    "id": "user:8f9a9597fff597ae",
+    "slug": "pele",
+    "url": "https://pele.run",
+    "name": "Pele",
+    "tagline": "Open-source library that renders Mermaid diagrams to SVG themed with CSS variables",
+    "description": "Pele renders Mermaid diagram syntax to SVG. The homepage says it is a lightweight open-source library, themed with CSS variables, so color changes apply without a re-render. The documented install is npm install pele, and the example imports render from pele. Docs pages linked from the site cover the API, theming, compatibility, security, and examples.\n\nThe homepage claims zero direct dependencies, support for every diagram type built into Mermaid 12.1.0, a 230 kB gzip bundle against 1.6 MB for Mermaid.js, and faster render times. Those performance figures are the site's own comparison, not a measurement made for this record. npm pele 1.10.0 and the GitHub LICENSE file are MIT, copyright 2026 kepano. GitHub's license API returned NOASSERTION; the LICENSE file text is the MIT license.",
+    "category": "component-libraries",
+    "subcategory": "integration-components",
+    "kinds": [
+      "tool"
+    ],
+    "facets": {
+      "framework": [
+        "vanilla"
+      ],
+      "styling": [
+        "css-variables"
+      ],
+      "license": [
+        "mit"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "npm-package",
+        "github-repo"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "code"
+      ],
+      "agent_readiness": [
+        "structured-docs",
+        "open-source-code"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": "npm install pele",
+    "package": "pele",
+    "docs_url": "https://pele.run/api",
+    "repo_url": "https://github.com/obsidianmd/pele",
+    "registry_url": null,
+    "github": {
+      "stars": 3497,
+      "license": "MIT",
+      "last_activity": "2026-10-24"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Install pele and pass Mermaid syntax to render(). Insert the returned SVG yourself. Theme it with the --pele-* CSS variables on the homepage rather than re-rendering for a color change.\n\nRead https://pele.run/security before you render untrusted diagram text. The homepage claims Mermaid 12.1.0 coverage. Check the compatibility page when a diagram uses a newer syntax.",
+    "why_it_matters": "It turns Mermaid text into themed SVG without shipping the Mermaid.js bundle.",
+    "quality_tier": "A",
+    "tier_reason": "MIT on npm and in the LICENSE file, with API docs and a October 2026 commit. The speed and size numbers are the project's own claims.",
+    "notable_for": [
+      "Mermaid syntax to SVG",
+      "themed with CSS variables",
+      "npm package pele, MIT",
+      "homepage claims zero dependencies"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked https://pele.run/ on 2026-10-25. npm pele 1.10.0 reports MIT. The raw LICENSE file at obsidianmd/pele is the MIT license, copyright 2026 kepano. GitHub API reported 3,497 stars and a push on 2026-10-24. https://pele.run/llms.txt returned 404. Source tweet: https://x.com/noahelhadedy/status/2111868210244948169."
+  },
+  {
+    "id": "user:13db2a7d63d27cce",
+    "slug": "squints",
+    "url": "https://squints.app",
+    "name": "Squints",
+    "tagline": "Free Chrome extension that measures spacing, type, colour, grids, and animation on a live page",
+    "description": "Squints is a free Chrome extension for inspecting a live web page. The homepage says it measures a box and the gap to the next one, offers rulers and guides, a column grid remembered per site, drawing tools, a color picker with the token behind the color, font identification with metrics, and controls to slow an animation or scrub it frame by frame.\n\nThe page says it is used by 2,000+ designers and engineers and names the maker as Andreas Katzmann, a product designer and frontend engineer near Copenhagen. It says the extension is free. A software license was not stated. A privacy link is on the page. The privacy policy was not opened.",
+    "category": "utilities-naming",
+    "subcategory": "small-web-utilities",
+    "kinds": [
+      "tool"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "browser-extension"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "unknown"
+      ],
+      "agent_readiness": [
+        "none"
+      ],
+      "maturity": "unknown"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Send a person to Squints when they need to measure a live page the way they would measure a Figma frame. It is a Chrome extension, not a library you install in the repo.\n\nThe homepage says it is free and claims 2,000+ users. It does not publish a license for the extension code. Do not plan an agent workflow around it.",
+    "why_it_matters": "It puts Figma-style measuring, type, color, grid, and animation inspection on the shipped page.",
+    "quality_tier": "B",
+    "tier_reason": "The feature list and the free price are on the homepage. License, source, and a changelog were not.",
+    "notable_for": [
+      "free Chrome extension",
+      "spacing, type, colour, and grids",
+      "slow motion and frame scrubbing",
+      "made by Andreas Katzmann"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked https://squints.app/ on 2026-10-25. The homepage states the feature list, the free price, the 2,000+ user claim, and the maker credit. A license file was not found on that page. Source tweet: https://x.com/noahelhadedy/status/2111868210244948169."
+  },
+  {
+    "id": "user:7d44e289ea594818",
+    "slug": "squig",
+    "url": "https://squig.sh",
+    "name": "squig",
+    "tagline": "Infinite canvas of UI components rendered as sketchy wireframes",
+    "description": "squig describes itself as wireframes that know they are wireframes. The page title and meta description say it is an infinite canvas of real UI components that render like a sketch, so a review can argue about structure rather than corner radius.\n\nThe HTML body fetched on 2026-10-25 contained only the line \"warming up the pencils…\" after the title. No component list, price, license, or repository link was in that response.",
+    "category": "inspiration-galleries",
+    "subcategory": "section-galleries",
+    "kinds": [
+      "tool",
+      "gallery"
+    ],
+    "facets": {
+      "framework": [
+        "unknown"
+      ],
+      "styling": [
+        "unknown"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "unknown"
+      ],
+      "distribution": [
+        "web-app"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "unknown"
+      ],
+      "agent_readiness": [
+        "js-only-shell"
+      ],
+      "maturity": "unknown"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Open squig in a browser if you want a sketchy view of interface structure. The fetched HTML did not include the canvas, a component list, or a license.\n\nDo not cite a price or a reuse right for it. Neither was in the response.",
+    "why_it_matters": "The meta description promises a wireframe canvas for structure reviews, but the fetched page did not render that canvas.",
+    "quality_tier": "C",
+    "tier_reason": "The tagline is on the page. The product itself did not render in the HTML fetch, and license and price were absent.",
+    "notable_for": [
+      "sketch-style wireframe canvas",
+      "HTML fetch showed only a loading line"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked https://squig.sh/ on 2026-10-25. HTTP 200. The title and meta description describe the canvas. The visible text was \"warming up the pencils…\". No license, price, or GitHub link was in the HTML. Source tweet: https://x.com/noahelhadedy/status/2111868210244948169."
+  },
+  {
+    "id": "user:8ec652f72426adf4",
+    "slug": "iconography-encyclopedia",
+    "url": "https://encyclopedia.iconography.co",
+    "name": "The Iconography Encyclopedia",
+    "tagline": "Field guide of icon-design terms from The Iconography Company",
+    "description": "The Iconography Encyclopedia is a field guide for icon designers, published by The Iconography Company. The homepage defines terms in alphabetical sections. Entries checked on the page include abstract, accessibility, alignment, anatomy, anchor point, angle, apex, app icon, audit, balance, base, base size, and Boolean operations.\n\nThe page presents the guide as reading material. It does not offer an icon download, a package, or a stated license for the writing. No price appeared in the fetched text.",
+    "category": "design-systems-brand",
+    "subcategory": "ui-reference",
+    "kinds": [
+      "reference"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "article"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "prose"
+      ],
+      "agent_readiness": [
+        "structured-docs"
+      ],
+      "maturity": "unknown"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Look up a term here when an icon brief uses a word such as base, modifier, apex, or Boolean operation and you need the field's meaning. Quote the entry, and do not treat the guide as an icon set you can install.\n\nA reuse license for the definitions was not on the page.",
+    "why_it_matters": "It names the parts of an icon in one public glossary, which is the vocabulary an icon brief depends on.",
+    "quality_tier": "B",
+    "tier_reason": "A real glossary with named terms and a publisher. License and a term count were not stated.",
+    "notable_for": [
+      "icon-design glossary",
+      "The Iconography Company",
+      "definitions for construction terms"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked https://encyclopedia.iconography.co/ on 2026-10-25. The title calls it a field guide for the icon designer, and the HTML includes the listed definitions. No license or price was in the fetched text. Source tweet: https://x.com/noahelhadedy/status/2111868210244948169."
+  },
+  {
+    "id": "user:26c926db2fe78eef",
+    "slug": "mdxcn",
+    "url": "https://www.mdxcn.dev/",
+    "name": "mdxcn",
+    "tagline": "shadcn-style React components that turn Markdown into docs figures",
+    "description": "mdxcn is a set of React components for MDX docs. The homepage says they draw callouts, steps, terminals, timelines, tables, and charts with text, so the same figure can be a React component in MDX or a plain-text block in a README. The site says mdxcn is part of Shadcn Labs and that the license is MIT.\n\nThe installation page says there is no npm package. The shadcn CLI copies each component's source into the project and adds motion as the dependency. Commands on that page include npx shadcn@latest add @mdxcn/graph-table and npx shadcn@latest add @mdxcn/all. The homepage says each component has a screen-reader summary. llms.txt is published at https://www.mdxcn.dev/llms.txt. The GitHub LICENSE file is MIT, copyright 2026 Keshav Bagaade.",
+    "category": "component-libraries",
+    "subcategory": "shadcn-registries",
+    "kinds": [
+      "component-library",
+      "registry"
+    ],
+    "facets": {
+      "framework": [
+        "react"
+      ],
+      "styling": [
+        "unknown"
+      ],
+      "license": [
+        "mit"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "shadcn-registry",
+        "cli",
+        "copy-paste",
+        "github-repo"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "claimed-accessible"
+      ],
+      "content_type": [
+        "code"
+      ],
+      "agent_readiness": [
+        "llms-txt",
+        "cli-installable",
+        "copy-paste-ready",
+        "open-source-code",
+        "structured-docs"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "chart",
+      "terminal",
+      "timeline"
+    ],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": "npx shadcn@latest add @mdxcn/graph-table",
+    "package": null,
+    "docs_url": "https://www.mdxcn.dev/llms.txt",
+    "repo_url": "https://github.com/shadcn-labs/mdxcn",
+    "registry_url": null,
+    "github": {
+      "stars": 455,
+      "license": "MIT",
+      "last_activity": "2026-10-24"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Read https://www.mdxcn.dev/llms.txt first. Add one figure with npx shadcn@latest add @mdxcn/graph-table, or the set with npx shadcn@latest add @mdxcn/all. Register the component in MDX, then write Markdown inside the tag.\n\nThere is no npm package to install. In a README or a pull request, paste the plain-text figure from the docs instead of JSX. The homepage says each component has a screen-reader summary.",
+    "why_it_matters": "It gives docs a text figure that stays readable as Markdown and installs like a shadcn component.",
+    "quality_tier": "A",
+    "tier_reason": "MIT, a public registry command, llms.txt, and a commit the day before this check. Accessibility is claimed, not independently tested.",
+    "notable_for": [
+      "Markdown-authored figures",
+      "shadcn CLI, no npm package",
+      "MIT",
+      "llms.txt"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked https://www.mdxcn.dev/, https://www.mdxcn.dev/llms.txt, and https://www.mdxcn.dev/docs/installation on 2026-10-25. The installation page states there is no npm package and shows the shadcn commands. The GitHub LICENSE file for shadcn-labs/mdxcn is MIT. GitHub API reported 455 stars and a push on 2026-10-24. Source tweet: https://x.com/noahelhadedy/status/2111868210244948169."
+  },
+  {
+    "id": "user:07c546626bd9b2b8",
+    "slug": "gauge-ui",
+    "url": "https://www.gauge-ui.dev/",
+    "name": "Gauge UI",
+    "tagline": "Composable SVG gauge primitives for React, installed with the shadcn CLI",
+    "description": "Gauge UI is a set of composable SVG gauge primitives for React. The homepage shows speedometers, meters, clocks, and dials built from arcs, ticks, zones, and needles, and says the source lands in your project through a shadcn registry. The install command on the page is npx shadcn@latest add https://gauge-ui.dev/r/gauge.json.\n\nThe GitHub LICENSE file is MIT, copyright 2026 Thordur. The repository description calls it composable SVG gauges for React. https://www.gauge-ui.dev/llms.txt returned 404.",
+    "category": "component-libraries",
+    "subcategory": "shadcn-registries",
+    "kinds": [
+      "component-library"
+    ],
+    "facets": {
+      "framework": [
+        "react"
+      ],
+      "styling": [
+        "vanilla-css"
+      ],
+      "license": [
+        "mit"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "shadcn-registry",
+        "cli",
+        "copy-paste",
+        "github-repo"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "code"
+      ],
+      "agent_readiness": [
+        "cli-installable",
+        "copy-paste-ready",
+        "open-source-code",
+        "registry-json"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "chart"
+    ],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": "npx shadcn@latest add https://gauge-ui.dev/r/gauge.json",
+    "package": null,
+    "docs_url": null,
+    "repo_url": "https://github.com/thordursk/gauge-ui",
+    "registry_url": "https://gauge-ui.dev/r/gauge.json",
+    "github": {
+      "stars": 162,
+      "license": "MIT",
+      "last_activity": "2026-10-25"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Add the primitives with npx shadcn@latest add https://gauge-ui.dev/r/gauge.json and compose the gauge in your project. The homepage points at @/components/gauge after install.\n\nThe license is MIT. The site has no llms.txt. Read the registry file and the copied source before you change the geometry.",
+    "why_it_matters": "It turns a one-off dashboard dial into owned React source instead of a chart-library preset.",
+    "quality_tier": "A",
+    "tier_reason": "MIT, a working registry URL on the homepage, and a GitHub push on the day of this check. No accessibility notes were published.",
+    "notable_for": [
+      "SVG gauge primitives",
+      "shadcn registry install",
+      "MIT"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked https://www.gauge-ui.dev/ on 2026-10-25. The install command is on the page. https://www.gauge-ui.dev/llms.txt returned 404. The GitHub LICENSE file for thordursk/gauge-ui is MIT. GitHub API reported 162 stars and a push on 2026-10-25. https://gauge-ui.dev/r/gauge.json returned HTTP 200 and a shadcn registry item. Source tweet: https://x.com/noahelhadedy/status/2111868210244948169."
+  },
+  {
+    "id": "user:790406751d2fafff",
+    "slug": "neat-icons",
+    "url": "https://neaticons.com",
+    "name": "Neat Icons",
+    "tagline": "1,104 icons in four styles on a 24px grid, with 200 free in the React package",
+    "description": "Neat Icons is an icon set drawn on one grid in four styles: Rounded or Sharp, and Line or Solid. The homepage says there are 1,104 icons and that 200 are free. The meta description says they ship as Figma components and SVG, on a 24px grid, and include riyal and dirham symbols, a hijri calendar, and RTL icons. Category counts on the page include Core 34, Home 46, Arrows 41, Commerce 80, and Health and Food 83, among others.\n\nnpm @neaticons/react 1.1.0 describes itself as the 200 free icons. Its LICENSE.txt says the free icons may be used in personal and commercial projects, and that you may not resell or redistribute them as an icon set. The same file says the full set of 1,104 icons, a Figma file, MCP, and React is at neaticons.com. https://neaticons.com/pricing and https://neaticons.com/license both returned 404, so the paid price and the paid license were not found.",
+    "category": "icons-logos",
+    "subcategory": "icon-sets",
+    "kinds": [
+      "icon-set"
+    ],
+    "facets": {
+      "framework": [
+        "react"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "freemium"
+      ],
+      "distribution": [
+        "npm-package",
+        "figma-file",
+        "web-app"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "icons"
+      ],
+      "agent_readiness": [
+        "open-source-code"
+      ],
+      "maturity": "unknown"
+    },
+    "components": [
+      "icon"
+    ],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": "npm i @neaticons/react",
+    "package": "@neaticons/react",
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": "The homepage says 200 of 1,104 icons are free. LICENSE.txt for @neaticons/react@1.1.0 allows personal and commercial use of the free icons and forbids reselling or redistributing them as an icon set. The paid full-set price was not found. /pricing returned 404.",
+    "counts": {
+      "icons": 1104,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Use npm i @neaticons/react when the icon you need is in the free 200. The LICENSE.txt allows personal and commercial use of those icons and forbids reselling them as an icon set.\n\nThe full set is a paid download. The pricing page returned 404 on 2026-10-25, so do not guess the price. The LICENSE.txt mentions MCP for the full set. This check did not open an MCP server.",
+    "why_it_matters": "It is a four-style 24px icon system with a free React subset and a paid full set whose price was not published on a stable URL.",
+    "quality_tier": "B",
+    "tier_reason": "Counts, styles, and the free-set terms are documented. The paid price and paid license were not on a page that returned 200.",
+    "notable_for": [
+      "1,104 icons, 200 free",
+      "four styles on a 24px grid",
+      "free set allows commercial use, not resale as a set",
+      "paid price not found"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked https://neaticons.com/ on 2026-10-25. The page states 1,104 icons and 200 free. /pricing and /license returned 404. npm @neaticons/react@1.1.0 LICENSE.txt states the free-set terms and says the full set includes a Figma file, MCP, and React. The license field on npm is SEE LICENSE IN LICENSE.txt. Source tweet: https://x.com/noahelhadedy/status/2111135174515917246."
+  },
+  {
+    "id": "user:62fa8895cfc4c653",
+    "slug": "launch-videos-gallery",
+    "url": "https://launchvideos.gallery",
+    "name": "Launch Videos Gallery",
+    "tagline": "Curated gallery of product launch videos from brands and designers on X",
+    "description": "Launch Videos Gallery is a curated index of product launch videos. The homepage says the videos are hand-picked from brands and designers on X, updated daily, and meant as inspiration for a launch. The page shows category tags such as AI, Development, and Design, and a sign-in control for saved videos.\n\nThe about page was fetched and begins with the same description. A total video count, a license for the videos, and a price were not stated in the fetched text. Browsing the index did not require an account in that response.",
+    "category": "inspiration-galleries",
+    "subcategory": "single-element-galleries",
+    "kinds": [
+      "gallery"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "gallery"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "video"
+      ],
+      "agent_readiness": [
+        "image-only"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Use it to find a launch video to study, then open the source post. The gallery is a reference, not a license to reuse the video.\n\nSaving items uses the sign-in control. A price was not shown for browsing.",
+    "why_it_matters": "It collects product launch videos in one place, which is a format most site galleries do not index.",
+    "quality_tier": "B",
+    "tier_reason": "The purpose and the daily-update claim are on the site. Count, license, and price were not.",
+    "notable_for": [
+      "product launch videos",
+      "hand-picked from X",
+      "updated daily, per the homepage"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked https://launchvideos.gallery/ and https://launchvideos.gallery/about on 2026-10-25. The homepage meta description says the videos are hand-picked from brands and designers on X and updated daily. No license or price was in the fetched text. Source tweet: https://x.com/simoomdesign/status/2110641836436197762."
+  },
+  {
+    "id": "user:6894220f7ab70e9e",
+    "slug": "devault-design-md",
+    "url": "https://devault.design/design-md",
+    "name": "Devault DESIGN.md",
+    "tagline": "DESIGN.md page that returned HTTP 403 to this check",
+    "description": "https://devault.design/design-md and https://devault.design/ both returned HTTP 403 on 2026-10-25. The response was a Cloudflare block page titled Attention Required. No DESIGN.md files, prices, or license terms were visible in that response.\n\nThis record keeps the URL so the bookmark can be found. It does not describe the catalog behind the block.",
+    "category": "agent-design-tooling",
+    "subcategory": "design-md-and-specs",
+    "kinds": [
+      "design-md"
+    ],
+    "facets": {
+      "framework": [
+        "unknown"
+      ],
+      "styling": [
+        "unknown"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "unknown"
+      ],
+      "distribution": [
+        "unknown"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "unknown"
+      ],
+      "agent_readiness": [
+        "bot-blocked"
+      ],
+      "maturity": "unknown"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": "Not checked. The page returned HTTP 403.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Do not describe Devault's DESIGN.md library from this record. The only checked fact is that Cloudflare returned HTTP 403 for the URL on 2026-10-25.\n\nOpen the page in a browser before you treat it as a source of design specs.",
+    "why_it_matters": "The bookmark points at a DESIGN.md site that blocked this fetch, so the catalog entry is only a verified URL.",
+    "quality_tier": "C",
+    "tier_reason": "The URL was checked and blocked. Nothing about the contents was verified.",
+    "notable_for": [
+      "HTTP 403 from Cloudflare",
+      "contents not verified"
+    ],
+    "already_enriched": true,
+    "http_status": 403,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked https://devault.design/design-md and https://devault.design/ on 2026-10-25. Both returned HTTP 403, a Cloudflare challenge page. No product facts were readable. Source tweet: https://x.com/Skirook/status/2110600378949714396."
+  },
+  {
+    "id": "user:79ea2ae8d22ba751",
+    "slug": "mocku",
+    "url": "https://mocku.com",
+    "name": "Mocku",
+    "tagline": "Browser mockup generator for devices, books, magazines, apparel, and packaging",
+    "description": "Mocku is a browser mockup generator. The homepage says it creates mockups of devices, books, magazines, apparel, and packaging, and that no design skills are needed. The fetched page lists scenes such as iMac, MacBook Pro, apparel, packaging, print, and outdoor mockups.\n\nhttps://mocku.com/pricing returned 404. No price, account requirement, export format, or license was in the homepage text that was checked.",
+    "category": "textures-assets",
+    "subcategory": "mockups-and-asset-packs",
+    "kinds": [
+      "mockup-tool"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "unknown"
+      ],
+      "distribution": [
+        "web-app"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "images"
+      ],
+      "agent_readiness": [
+        "none"
+      ],
+      "maturity": "unknown"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": "No price was found. https://mocku.com/pricing returned 404 on 2026-10-25.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Use Mocku in the browser when you need a product scene for a device, a package, or apparel. The pricing page returned 404, so confirm the current price in the product before you depend on it.\n\nThis check did not find an API or a reuse license.",
+    "why_it_matters": "It covers packaging and apparel scenes as well as devices, in one browser generator.",
+    "quality_tier": "B",
+    "tier_reason": "The generator and the scene types are on the homepage. Price and license were not.",
+    "notable_for": [
+      "device, book, apparel, and packaging scenes",
+      "browser generator",
+      "pricing page returned 404"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked https://mocku.com/ on 2026-10-25. The title and homepage describe the generator and list scene types. https://mocku.com/pricing returned 404. No license was in the fetched homepage text. Source tweet: https://x.com/noahelhadedy/status/2110395111909511628."
+  },
+  {
+    "id": "user:6c5bf3adeccefb4b",
+    "slug": "mockup-freak",
+    "url": "https://mockupfreak.com",
+    "name": "Mockup Freak",
+    "tagline": "Browser device and poster mockups in 4K, with free scenes and paid scenes from $2",
+    "description": "Mockup Freak is a browser mockup studio for phones, laptops, tablets, and posters. The homepage says you upload a PNG, JPG, or WebP, preview it in the browser, and download a JPG. It says there is no Photoshop step. The homepage says the library has 40 scenes, that 7 scenes are free with a watermark-free JPG and no account, and that individual paid scenes start at $2. Named collections on the page, Wellness, Workspace, Travel, and Nature, are listed at $10.\n\nThe pricing page says unlimited access is $39 a month, or $29 a month billed as $87 every 3 months. It also says every mockup is $2, one time, with 4K download and commercial use, and no attribution. A $5 figure appears beside the $2 price. The page does not explain that $5. Paid scenes include a commercial license. Free scenes need no account.",
+    "category": "textures-assets",
+    "subcategory": "mockups-and-asset-packs",
+    "kinds": [
+      "mockup-tool"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "commercial"
+      ],
+      "pricing": [
+        "freemium",
+        "one-time",
+        "subscription"
+      ],
+      "distribution": [
+        "web-app"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "images"
+      ],
+      "agent_readiness": [
+        "none"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": "Free: 7 scenes, watermark-free JPG, no account. Paid scenes from $2, and the pricing page says every mockup is $2 one time with commercial use and no attribution. A $5 figure also appears beside that price and is not explained. Unlimited: $39/month, or $29/month billed $87 every 3 months. Collections listed at $10.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Start with the 7 free scenes if you only need a watermark-free JPG and no commercial paperwork. For a paid scene, the pricing page says $2 buys that mockup in 4K with a commercial license and no attribution.\n\nUnlimited use is a subscription: $39 a month, or $29 a month billed quarterly at $87. A $5 figure sits next to the $2 price and is not explained on the page. Read that line again before you quote a per-mockup price.",
+    "why_it_matters": "It sells specific 4K scenes in the browser, with a free set that does not ask for an account.",
+    "quality_tier": "B",
+    "tier_reason": "Prices and the commercial-use line are published. An unexplained $5 figure sits next to the $2 price.",
+    "notable_for": [
+      "40 scenes, 7 free",
+      "4K JPG in the browser",
+      "$2 per mockup or $39 a month",
+      "commercial license on paid scenes"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked https://mockupfreak.com/ and https://mockupfreak.com/pricing on 2026-10-25. The homepage states 40 scenes, 7 free scenes, scene prices from $2, and collections at $10. The pricing page states $39 a month, $29 a month billed as $87 quarterly, and $2 per mockup with commercial use. A $5 figure also appears next to the $2 price and is not explained. Source tweet: https://x.com/noahelhadedy/status/2110395111909511628."
+  }
+]

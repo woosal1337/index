@@ -1,0 +1,501 @@
+[
+  {
+    "id": "user:0e4a859d4545b291",
+    "slug": "kami",
+    "url": "https://github.com/tw93/Kami",
+    "name": "Kami",
+    "tagline": "MIT layout rules and templates for agents exporting PDF, PNG, and PPTX",
+    "description": "Kami is an agent skill by Tw93. The README says the name means paper, and that it gives agents layout rules and templates for PDF, PNG, and editable PowerPoint. It lists eight document templates: One-Pager, Long Doc, Letter, Portfolio, Resume, Slides, Equity Report, and Changelog, plus a landing-page system, in English, Chinese, and Korean. It also describes eighteen inline SVG diagram types, WeasyPrint for PDF, python-pptx for editable PPTX, and a zero-dependency MCP server in skills/kami/scripts/mcp_server.py.\n\nThe install line is npx skills add tw93/kami -a claude-code codex cursor -g -y. The LICENSE file is MIT, copyright 2026 Tw93. The README says large CJK fonts stay out of the package and that Windows should run Kami inside WSL.",
+    "category": "agent-design-tooling",
+    "subcategory": "agent-skills",
+    "kinds": [
+      "agent-skill",
+      "mcp-server"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "mit"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "github-repo",
+        "agent-skill",
+        "mcp-server",
+        "cli"
+      ],
+      "platform": [
+        "cross-platform"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "code",
+        "pdf"
+      ],
+      "agent_readiness": [
+        "agent-skill",
+        "mcp-server",
+        "cli-installable",
+        "open-source-code"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": "npx skills add tw93/kami -a claude-code codex cursor -g -y",
+    "package": null,
+    "docs_url": null,
+    "repo_url": "https://github.com/tw93/Kami",
+    "registry_url": null,
+    "github": {
+      "stars": 12077,
+      "license": "MIT",
+      "last_activity": "2026-10-25"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 8,
+      "blocks": null
+    },
+    "agent_guidance": "Install with npx skills add tw93/kami -a claude-code codex cursor -g -y. The README says that lands one copy in ~/.agents/skills. On Windows, use WSL. The helper scripts are Bash.\n\nThe code and templates are MIT. Default colors in the README are a parchment background #f5f4ed and ink #1B365D. Put brand overrides in ~/.config/kami/brand.md rather than editing the templates for one project.",
+    "why_it_matters": "It gives an agent a documented way to export a designed PDF or an editable deck, not only a markdown file.",
+    "quality_tier": "A",
+    "tier_reason": "MIT, a specific install command, templates named in the README, and a push on the day of this check.",
+    "notable_for": [
+      "PDF, PNG, and PPTX export",
+      "eight document templates",
+      "MIT",
+      "MCP server in the repo"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked the GitHub page, raw README, and raw LICENSE for tw93/Kami on 2026-10-25. The LICENSE file is MIT. The README states the install command, the eight templates, the MCP script path, and the Windows note. GitHub API reported 12,077 stars and a push on 2026-10-25. Source tweet: https://x.com/HiTw93/status/2094792220155285685."
+  },
+  {
+    "id": "user:1e649d23ebc1e43e",
+    "slug": "brrranding",
+    "url": "https://www.brrranding.com/",
+    "name": "BRRRANDING",
+    "tagline": "Human-curated branding projects, with 236 projects on the checked day",
+    "description": "BRRRANDING is a gallery of branding projects. The homepage says the work is curated by humans, with no algorithm and no AI, and that 4,800+ designers have joined. Counts on the page were 236 projects, 69 logos, 80 palettes, 12 jobs, and 29 resources. Filters cover industry, year, color, elements, and typography.\n\nSponsor placements are sold. The page says a sponsor spot is booked monthly. No price for browsing and no license to reuse the projects were stated.",
+    "category": "inspiration-galleries",
+    "subcategory": "site-galleries",
+    "kinds": [
+      "gallery"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "gallery"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "images"
+      ],
+      "agent_readiness": [
+        "image-only"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 236,
+      "blocks": null
+    },
+    "agent_guidance": "Browse BRRRANDING for identity work, then open the project. The counts above are from 2026-10-25 and will change. The page says the selection is human-curated.\n\nThe projects are other people's work. Do not copy marks, type, or photography from the grid.",
+    "why_it_matters": "It is a counted, filtered index of branding projects that states a person picked them.",
+    "quality_tier": "B",
+    "tier_reason": "Counts and the curation claim are on the homepage. Reuse rights for the projects are not.",
+    "notable_for": [
+      "236 projects on 2026-10-25",
+      "69 logos and 80 palettes",
+      "human-curated, per the homepage",
+      "4,800+ designers claimed"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked https://www.brrranding.com/ on 2026-10-25. The HTML states 236 projects, 69 logos, 80 palettes, 12 jobs, 29 resources, and 4,800+ designers, and says the curation is human. No project license was stated. Source tweet: https://x.com/brrranding/status/2093683837406793811."
+  },
+  {
+    "id": "user:7a00362a06d84326",
+    "slug": "mockup-maison",
+    "url": "https://mockup.maison/",
+    "name": "Mockup.Maison",
+    "tagline": "Shopify store in Zürich selling layered PSD mockups",
+    "description": "Mockup.Maison is an online store for mockups. The homepage returned HTTP 429 on 2026-10-25. The store's meta.json returned 200 and says the shop is in Zürich, Switzerland, charges USD, and describes the mockups as a way to showcase designs. A products.json sample returned a product titled Urban Poster UP-CPH-21, sold as a layered PSD with smart objects for two designs, product type Urban Poster Mockup, vendor Mockup Maison, updated 2026-10-25. The price field was truncated in the saved response, so no price is recorded.\n\nagents.md describes a Shopify storefront with a shopping MCP endpoint. It does not describe the photography. This check did not confirm a non-CGI or photographic claim.",
+    "category": "textures-assets",
+    "subcategory": "mockups-and-asset-packs",
+    "kinds": [
+      "marketplace",
+      "mockup-tool"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "paid"
+      ],
+      "distribution": [
+        "marketplace"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "images"
+      ],
+      "agent_readiness": [
+        "unknown"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": "The shop charges USD. A product price was not captured because the homepage returned HTTP 429 and the saved product JSON truncated the price.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Treat Mockup.Maison as a shop for PSD mockups. The checked product is a layered PSD with smart objects. Open the product page for the current price. This record does not have one.\n\nThe homepage was rate-limited. Do not describe the scenes as photographic. That claim was not on the endpoints that returned 200. robots.txt points agents at https://mockup.maison/agents.md for shopping.",
+    "why_it_matters": "It is a mockup shop with a machine-readable product feed, which most scene galleries do not offer.",
+    "quality_tier": "B",
+    "tier_reason": "The store identity and a PSD product are verified. The homepage was HTTP 429, and no price was captured.",
+    "notable_for": [
+      "Zürich shop, USD",
+      "layered PSD mockups",
+      "homepage returned HTTP 429",
+      "shopping notes in agents.md"
+    ],
+    "already_enriched": true,
+    "http_status": 429,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked https://mockup.maison/ on 2026-10-25 and received HTTP 429. https://mockup.maison/meta.json, https://mockup.maison/products.json?limit=5, https://mockup.maison/robots.txt, and https://mockup.maison/agents.md returned 200. meta.json names Mockup.Maison, Zürich, CH, and USD. The sample product is Urban Poster UP-CPH-21, a layered PSD. The price was truncated before it could be recorded. Source tweet: https://x.com/mangoddango/status/2093277410569699585."
+  },
+  {
+    "id": "user:747ba63e08e56083",
+    "slug": "logo-archive",
+    "url": "https://www.logo-archive.org",
+    "name": "LogoArchive",
+    "tagline": "Historical logo archive whose meta description says 5,500 curated logos",
+    "description": "LogoArchive calls itself a historical logo book. The page title says it is the world's largest historical logo book. The meta description says it features 5,500 carefully curated logos and that new logos are added daily.\n\nThe fetched HTML body was only that title. The logo grid did not render. No license, price, or download format was in the response.",
+    "category": "icons-logos",
+    "subcategory": "logo-svgs",
+    "kinds": [
+      "gallery"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "unknown"
+      ],
+      "distribution": [
+        "gallery"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "images"
+      ],
+      "agent_readiness": [
+        "js-only-shell"
+      ],
+      "maturity": "unknown"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 5500,
+      "blocks": null
+    },
+    "agent_guidance": "Open LogoArchive in a browser to look at historical marks. The 5,500 count is the meta description, not a count of rendered entries.\n\nThe fetched page did not include a download format or a license. Do not copy a logo from the archive into a product.",
+    "why_it_matters": "It is a historical logo index with a stated count, and the grid itself did not render in the fetch.",
+    "quality_tier": "C",
+    "tier_reason": "The count is a meta description. The collection, the price, and the license did not render.",
+    "notable_for": [
+      "meta description says 5,500 logos",
+      "historical logo index",
+      "grid did not render"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked https://www.logo-archive.org/ on 2026-10-25. HTTP 200. The title and meta description state a historical logo book of 5,500 curated logos, with new logos added daily. The body text was the title only. Source tweet: https://x.com/LogoArchive/status/2093384411232284931."
+  },
+  {
+    "id": "user:be0bd9b24ccc16e2",
+    "slug": "movin-design",
+    "url": "https://movin.design",
+    "name": "movin.design",
+    "tagline": "Motion-design gallery with animated components, shaders, and a linked MIT-0 component repo",
+    "description": "movin.design is a motion reference site. The homepage presents animations, animated UI components, shaders, a slideshow maker, and an easing editor. The meta description says it collects curated animations, animated UI components, WebGL background shaders, and free slideshow and easing tools. A services block on the page says landing pages start at $900 and product work is $35 an hour.\n\nThe homepage links https://github.com/raza-ahmed/movin-components. That repository's description says 88 animated UI components in React and Tailwind and in plain HTML and CSS, installed with the shadcn CLI. GitHub API reported the MIT-0 license, 0 stars, and a push on 2026-10-25. A license for the gallery images and videos was not on the homepage. MIT-0 has no facet slug, so the license facet is unknown.",
+    "category": "motion-interaction",
+    "subcategory": "animated-components",
+    "kinds": [
+      "gallery",
+      "animation-library"
+    ],
+    "facets": {
+      "framework": [
+        "react",
+        "vanilla"
+      ],
+      "styling": [
+        "tailwind-any"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "free",
+        "paid"
+      ],
+      "distribution": [
+        "gallery",
+        "github-repo",
+        "shadcn-registry"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "code",
+        "video"
+      ],
+      "agent_readiness": [
+        "open-source-code"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "animation"
+    ],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": "https://github.com/raza-ahmed/movin-components",
+    "registry_url": null,
+    "github": {
+      "stars": 0,
+      "license": "MIT-0",
+      "last_activity": "2026-10-25"
+    },
+    "pricing_detail": "No price was stated for browsing the gallery. The homepage lists design services at $900 for landing pages and $35 an hour for product work.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Use the site to study a motion example, and use the movin-components repo when you want installable React or HTML. The repo description says 88 components and the shadcn CLI. Confirm the component name in the repo before you add it. GitHub reports the license as MIT-0.\n\nThe $900 and $35 an hour figures are the studio's service rates, not a price to browse the gallery. The gallery's own license was not stated.",
+    "why_it_matters": "It puts motion reference, shaders, and a component repo on one site, with the service rates printed separately.",
+    "quality_tier": "B",
+    "tier_reason": "The gallery and the component repo were both checked. The 88 count is the repo description, and the gallery license is unstated.",
+    "notable_for": [
+      "motion gallery and shaders",
+      "slideshow and easing tools",
+      "movin-components, MIT-0",
+      "landing pages from $900"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked https://movin.design/ on 2026-10-25. The page shows animations, components, shaders, slideshow, and easings, and states landing pages from $900 and product work at $35 an hour. GitHub API for raza-ahmed/movin-components reported MIT-0, 0 stars, a push on 2026-10-25, and a description of 88 components. Source tweet: https://x.com/movindesign_/status/2093028380627124399."
+  },
+  {
+    "id": "user:c7516e89db1ac1df",
+    "slug": "handdrawn-font",
+    "url": "https://handdrawn.software",
+    "name": "HandDrawnFont",
+    "tagline": "SwiftUI package for animated hand-drawn text, Apache 2.0 with the Commons Clause",
+    "description": "HandDrawnFont is a SwiftUI package that renders text from pen strokes. The site says letters come from the original pen paths, animation keeps stroke order, and the package respects Reduce Motion. It is made by Jip van der Velde and Michel Elings at Ocho, the makers of grug. The site says grug won a 2026 Apple Design Award. Install is through Swift Package Manager from the GitHub repository, with import HandDrawnFont and a HandDrawnText view.\n\nThe LICENSE file is Apache License 2.0 subject to the Commons Clause. The clause covers selling a product or service whose value derives entirely or substantially from HandDrawnFont, including the bundled Grug Hand stroke artwork and font files. It says drawings a user makes in the font creator are excluded. GitHub's license API returns NOASSERTION.",
+    "category": "motion-interaction",
+    "subcategory": "animated-components",
+    "kinds": [
+      "animation-library",
+      "typeface"
+    ],
+    "facets": {
+      "framework": [
+        "swiftui"
+      ],
+      "styling": [
+        "native-styles"
+      ],
+      "license": [
+        "apache-2.0",
+        "source-available"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "github-repo"
+      ],
+      "platform": [
+        "ios",
+        "macos"
+      ],
+      "accessibility": [
+        "reduced-motion"
+      ],
+      "content_type": [
+        "code",
+        "fonts"
+      ],
+      "agent_readiness": [
+        "open-source-code"
+      ],
+      "maturity": "unknown"
+    },
+    "components": [
+      "text-effect",
+      "animation"
+    ],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": "https://github.com/jipvandervelde/HandDrawnFont",
+    "registry_url": null,
+    "github": {
+      "stars": 90,
+      "license": "Apache-2.0",
+      "last_activity": "2026-09-03"
+    },
+    "pricing_detail": "No price on the site. The LICENSE file is Apache 2.0 with the Commons Clause, which restricts selling a product whose value derives from the software, including the bundled Grug Hand artwork.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Add the GitHub repository in Swift Package Manager and render HandDrawnText. The site says Reduce Motion is respected. Keep that path.\n\nDo not sell a product whose value comes from this package. The LICENSE file adds the Commons Clause on top of Apache 2.0, and it includes the bundled Grug Hand artwork. A font the user draws in the creator is excluded from that clause. The last GitHub push was 2026-09-03.",
+    "why_it_matters": "It draws real pen paths in SwiftUI, with the stroke order intact, under a license that limits resale.",
+    "quality_tier": "B",
+    "tier_reason": "The package, the Reduce Motion claim, and the license text were checked. The Commons Clause means it is not a plain Apache grant, and the last push was September 2026.",
+    "notable_for": [
+      "animated pen-stroke text",
+      "SwiftUI package",
+      "Apache 2.0 plus Commons Clause",
+      "respects Reduce Motion"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked https://handdrawn.software/ and the raw README and LICENSE for jipvandervelde/HandDrawnFont on 2026-10-25. The site states Swift Package Manager, Reduce Motion, and the Ocho / grug credit. The LICENSE file is Apache 2.0 with the Commons Clause v1.0. GitHub API reported 90 stars, license NOASSERTION, and a push on 2026-09-03. Source tweet: https://x.com/grug_speak/status/2092510233830506824."
+  }
+]
