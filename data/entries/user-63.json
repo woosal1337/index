@@ -1,0 +1,1186 @@
+[
+  {
+    "id": "user:7953c16b3a8642a8",
+    "slug": "thinking-logos",
+    "url": "https://thinking-logos.ozturkenes.com",
+    "name": "Thinking Logos",
+    "tagline": "Bake an SVG into seven React agent-loading states, forked from thinking-orbs",
+    "description": "Thinking Logos turns an SVG into a dotted loading animation. The homepage meta description says it bakes any SVG into a dot cloud and plays it as seven agent loading states, with auto dark/light and no rasteriser at runtime. The README names the states thinking, solving, listening, searching, working, waiting, and generating.\n\nThe README says it is a fork of Jakub Antalik's thinking-orbs. The renderer and the orb states stay his, and ThinkingOrb is still exported. This fork adds a bake pipeline and seven logo states. Getting started says there is no package to install: open the playground, drop in an SVG, and copy the generated React file. The npm registry returned 404 for the name thinking-logos. A later README section imports bakeLogo from 'thinking-logos/bake' for a local bake. The LICENSE file is MIT, with copyright lines for Jakub Antalik on the engine and Enes Ozturk on the logo baking and logo modes.",
+    "category": "ai-interface-kits",
+    "subcategory": "agent-state-indicators",
+    "kinds": [
+      "animation-library",
+      "component-library"
+    ],
+    "facets": {
+      "framework": [
+        "react"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "mit"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "copy-paste",
+        "github-repo",
+        "web-app"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "code"
+      ],
+      "agent_readiness": [
+        "copy-paste-ready",
+        "open-source-code"
+      ],
+      "maturity": "unknown"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": "https://github.com/enesozturk/thinking-logos",
+    "registry_url": null,
+    "github": {
+      "stars": 50,
+      "license": "MIT",
+      "last_activity": null
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Copy the React file the playground generates after you drop in an SVG. The README says that file already contains the baked points, and that nothing rasterises the SVG at runtime. Do not npm install thinking-logos. The registry returned 404 for that name on this check.\n\nThe license is MIT. The README says the orb engine is still Jakub Antalik's, and that ThinkingOrb remains a drop-in. Use a logo state when the loading mark should stay recognisable. The seven names are in the README.",
+    "why_it_matters": "It is a checked way to turn a brand mark into an agent loading state without shipping a rasteriser.",
+    "quality_tier": "A",
+    "tier_reason": "MIT, a public playground, and a README that names the seven states and the fork. The GitHub API did not return a push date, and the package name in the bake example is not on npm.",
+    "notable_for": [
+      "seven logo loading states",
+      "fork of thinking-orbs",
+      "MIT",
+      "playground copy, no npm package"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked https://thinking-logos.ozturkenes.com and the raw README and LICENSE for enesozturk/thinking-logos on 2026-10-25. http://thinking-logos.ozturkenes.com timed out. The homepage meta description states the seven states, auto dark/light, and no runtime rasteriser. The LICENSE file is MIT. The GitHub page's embedded data reported 50 stars and 12 forks. The GitHub API returned HTTP 403, so no push date was read. https://registry.npmjs.org/thinking-logos returned HTTP 404. Source tweet: https://x.com/enesozturkdev/status/2091892031249625099."
+  },
+  {
+    "id": "user:c70c9b68695de2ec",
+    "slug": "textures",
+    "url": "https://texture.fayaz.workers.dev",
+    "name": "Textures",
+    "tagline": "Browser texture filters for an image, with a full-resolution PNG download",
+    "description": "Textures applies tactile filters to an image in the browser. The meta description says it adds print, glyph, paper, and painterly textures locally. The page is a texture editor: choose an image, pick a filter, and download a full-resolution PNG. The file input accepts PNG, JPEG, and WebP.\n\nThe filter toolbar lists 25 filters, including Glyphfield, Risograph, Bitgrain, Paper, Watercolor, Ink Wash, Cyanotype, and Pixel Crush. No price, account, license, or source repository was in the HTML.",
+    "category": "textures-assets",
+    "subcategory": "image-effect-tools",
+    "kinds": [
+      "tool",
+      "generator"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "unknown"
+      ],
+      "distribution": [
+        "web-app"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "images"
+      ],
+      "agent_readiness": [
+        "unknown"
+      ],
+      "maturity": "unknown"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 25,
+      "blocks": null
+    },
+    "agent_guidance": "Use it when you need a textured PNG and the processing can stay in the browser. Pick one of the 25 named filters and download the PNG from the page.\n\nNo license was in the HTML. Do not assume the filtered image, or the filter definitions, can be redistributed.",
+    "why_it_matters": "It is a local image-texture tool with the filter names in the page, and no install.",
+    "quality_tier": "B",
+    "tier_reason": "The editor and the 25 filter names are in the HTML. Price and license were not.",
+    "notable_for": [
+      "25 named texture filters",
+      "full-resolution PNG download",
+      "browser-local, per the meta description"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked https://texture.fayaz.workers.dev on 2026-10-25. The meta description says the filters run locally in the browser. The toolbar aria-labels name 25 filters, and the download control is labelled Download full-resolution PNG. The file input accepts image/png, image/jpeg, and image/webp. No price, license, or repository link was in the HTML. Source tweet: https://x.com/fayazara/status/2091424101894422613."
+  },
+  {
+    "id": "user:1b1dfc2af3b22f50",
+    "slug": "scandinavian-design",
+    "url": "https://scandinavian-design.vercel.app",
+    "name": "Scandinavian Design",
+    "tagline": "Cursor skill that restyles a site into black, white, and generous spacing",
+    "description": "Scandinavian Design is an agent skill by Eric Zakariasson. The site title is \"Scandinavian design \u2014 before and after\", and the page shows the install command npx skills add ericzakariasson/scandinavian-design. The README says the skill applies a restrained Scandinavian visual system: a black-and-white foundation, sans-serif type, generous spacing, and purposeful product imagery. It says ten sites were rewritten from before to after, and that those captures are the set the skill was tested against.\n\nThe README also documents a manual copy into ~/.cursor/skills/ and the command /scandinavian-design. The skill path is skills/scandinavian-design/. The repository has no LICENSE file, and package.json has no license field. GitHub API reported 409 stars, 21 forks, and a push on 2026-08-22.",
+    "category": "agent-design-tooling",
+    "subcategory": "agent-skills",
+    "kinds": [
+      "agent-skill"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "no-license"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "github-repo",
+        "agent-skill",
+        "web-app"
+      ],
+      "platform": [
+        "platform-agnostic"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "code",
+        "prose"
+      ],
+      "agent_readiness": [
+        "agent-skill"
+      ],
+      "maturity": "unknown"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": "npx skills add ericzakariasson/scandinavian-design",
+    "package": null,
+    "docs_url": null,
+    "repo_url": "https://github.com/ericzakariasson/scandinavian-design",
+    "registry_url": null,
+    "github": {
+      "stars": 409,
+      "license": null,
+      "last_activity": "2026-08-22"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 10,
+      "blocks": null
+    },
+    "agent_guidance": "Install with npx skills add ericzakariasson/scandinavian-design, then invoke /scandinavian-design on the surface you want restyled. The README says the skill file is skills/scandinavian-design/ and that the rest of the repo is the demo viewer.\n\nThere is no LICENSE file. Treat the skill text as all rights reserved until the author adds one. The before/after set is ten sites. Confirm you are looking at that demo, not a general component library.",
+    "why_it_matters": "It gives an agent a named visual system and a before/after set the README says the skill was corrected against.",
+    "quality_tier": "B",
+    "tier_reason": "The install command, the ten-site demo, and the GitHub stats are explicit. The repository has no license file.",
+    "notable_for": [
+      "npx skills add ericzakariasson/scandinavian-design",
+      "ten before/after sites",
+      "no LICENSE file",
+      "409 GitHub stars"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked https://scandinavian-design.vercel.app, the raw README, package.json, and the GitHub contents list for ericzakariasson/scandinavian-design on 2026-10-25. The contents list has no LICENSE file. package.json has no license field. GitHub API reported 409 stars, 21 forks, and a push on 2026-08-22. The README states the install command and the ten-site demo. Source tweet: https://x.com/ericzakariasson/status/2090831063845380516."
+  },
+  {
+    "id": "user:af621a3597a2af76",
+    "slug": "bruno-simon",
+    "url": "https://bruno-simon.com",
+    "name": "Bruno Simon",
+    "tagline": "Creative-developer portfolio built as a small world you drive through",
+    "description": "bruno-simon.com is the portfolio of Bruno Simon. The page says he is a creative developer, mostly for the web, and that you drive around the world to learn about him. A behind-the-scenes section credits Three.js, created by mr.doob, as the library that renders the world. The page also lists a WebGPU renderer option and keyboard, mouse, and gamepad controls.\n\nOn this check the circuit server was offline, and the page said scores could not be saved and whispers could not be posted. No client list, rate, or reuse license was in the HTML.",
+    "category": "studios-portfolios",
+    "subcategory": "designer-portfolios",
+    "kinds": [
+      "portfolio"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "not-applicable"
+      ],
+      "pricing": [
+        "not-applicable"
+      ],
+      "distribution": [
+        "gallery"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "profile"
+      ],
+      "agent_readiness": [
+        "unknown"
+      ],
+      "maturity": "unknown"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [
+      "homepage"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Open the site in a browser when you want a reference for a playful 3D portfolio. The HTML identifies Bruno Simon as a creative developer and names Three.js. It does not include case-study text an agent can copy as a layout.\n\nThe circuit scores and visitor whispers were offline on this check. Do not describe a scoreboard or a message wall from this record.",
+    "why_it_matters": "It is a well-known creative-developer portfolio whose page states the stack and the interaction.",
+    "quality_tier": "B",
+    "tier_reason": "The bio and the Three.js credit are in the HTML. The live world, scores, and whispers were not available to this fetch.",
+    "notable_for": [
+      "creative developer portfolio",
+      "Three.js world you drive",
+      "WebGPU renderer option"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked https://bruno-simon.com on 2026-10-25. The HTML says Bruno Simon is a creative developer and credits Three.js by mr.doob. It also says the circuit server was offline and scores could not be saved. Source tweet: https://x.com/iamdevloper/status/2090421056511111580."
+  },
+  {
+    "id": "user:152c587b776b5ba4",
+    "slug": "robb-owen",
+    "url": "https://robbowen.digital",
+    "name": "Robb Owen",
+    "tagline": "Independent creative developer in Abergavenny, with SynthWave '84 and Tornis",
+    "description": "robbowen.digital is the site of Robb Owen. The page says he is an independent creative developer from Abergavenny, South Wales, and that the work runs from interaction design and design systems to single-page apps and WebGL experiments. The meta description says he helps organisations build ambitious yet accessible web projects.\n\nThe open-source section names SynthWave '84, a VS Code colour scheme he says passed two million downloads in October 2024, Tornis, a viewport-state library, and Rekishi, a History API wrapper. The footer reads \u00a9 MMXXVI. No service price or license for the site itself was on the homepage.",
+    "category": "studios-portfolios",
+    "subcategory": "designer-portfolios",
+    "kinds": [
+      "portfolio"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "not-applicable"
+      ],
+      "pricing": [
+        "not-applicable"
+      ],
+      "distribution": [
+        "gallery"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "profile"
+      ],
+      "agent_readiness": [
+        "unknown"
+      ],
+      "maturity": "unknown"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [
+      "homepage"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Use the homepage as a reference for how a creative developer presents both client work and small open-source tools. The download figure for SynthWave '84 is his statement on the page, dated October 2024.\n\nThe page does not publish a rate. The project pages for SynthWave '84, Tornis, and Rekishi were not opened.",
+    "why_it_matters": "It pairs a creative-developer portfolio with three named open-source releases and a download claim you can check.",
+    "quality_tier": "B",
+    "tier_reason": "The bio, the location, and the three project blurbs are in the HTML. The project sites and licenses were not opened.",
+    "notable_for": [
+      "Abergavenny creative developer",
+      "SynthWave '84",
+      "Tornis and Rekishi"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked https://robbowen.digital on 2026-10-25. The HTML includes the Abergavenny line, the WebGL and design-systems line, and the SynthWave '84, Tornis, and Rekishi blurbs, including the two-million-downloads claim for October 2024. Source tweet: https://x.com/iamdevloper/status/2090421056511111580."
+  },
+  {
+    "id": "user:620e78a455f4733b",
+    "slug": "uipedia",
+    "url": "https://www.uipedia.design/",
+    "name": "UiPedia",
+    "tagline": "Directory of UI design resources and portfolios, with no count in the HTML",
+    "description": "UiPedia calls itself a Wikipedia of UI design. The title is \"UiPedia | Top Design Resources & Tools for UI/UX Designers\". The visible heading says it is a growing hub of design resources and real-world portfolios. Navigation links include Design Library, Portfolio Inspiration, Blog, About, Suggest Resources, and Request Features.\n\nThe meta description mentions illustrations, icons, and free courses. A resource count, a price, and a license were not in the fetched HTML.",
+    "category": "inspiration-galleries",
+    "subcategory": "directories-and-meta-indexes",
+    "kinds": [
+      "directory"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "unknown"
+      ],
+      "distribution": [
+        "web-app"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "prose"
+      ],
+      "agent_readiness": [
+        "unknown"
+      ],
+      "maturity": "unknown"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Open the Design Library or Portfolio Inspiration sections in a browser. This fetch only confirmed the pitch and the navigation labels. It did not confirm how many resources are listed or whether any of them are free to reuse.\n\nDo not cite a count or a license from this record.",
+    "why_it_matters": "It is a design-resource directory, and the fetched page did not include the catalog itself.",
+    "quality_tier": "C",
+    "tier_reason": "The title, the meta description, and the section labels are real. The directory contents were not in the HTML.",
+    "notable_for": [
+      "UI design resource directory",
+      "Design Library and Portfolio Inspiration",
+      "count not in the HTML"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked https://www.uipedia.design/ on 2026-10-25. HTTP 200. The title, meta description, and navigation labels are in the HTML. No resource count, price, or license was in that response. Source tweet: https://x.com/kail_designs/status/2090326052711375350."
+  },
+  {
+    "id": "user:636ca63c3f7867dc",
+    "slug": "emil-kowalski-skills",
+    "url": "https://github.com/emilkowalski/skills",
+    "name": "Emil Kowalski skills",
+    "tagline": "MIT agent skills for interface craft, including apple-design",
+    "description": "emilkowalski/skills is a set of agent skills by Emil Kowalski. The README title is \"Skills For Designers and Engineers\". It says the skills come from his work at Vercel and Linear, and that they list mistakes agents make in animation and interface design. The install command is npx skills@latest add emilkowalski/skills.\n\nThe README lists 15 skills: emil-design-eng, animate, animate-expo, review-animations, improve-animations, find-animation-opportunities, animation-performance, animation-vocabulary, apple-design, write-swift, pick-ui-library, prototype, mobile-native, break-ui, and ask-sonner. apple-design is described as Apple's interface and motion principles translated for the web. write-swift is a Swift skill, not a UI skill. The LICENSE file is MIT, copyright 2026 Emil Kowalski. GitHub API reported 49,571 stars, 2,884 forks, and a push on 2026-10-11.",
+    "category": "agent-design-tooling",
+    "subcategory": "agent-skills",
+    "kinds": [
+      "agent-skill"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "mit"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "github-repo",
+        "agent-skill",
+        "cli"
+      ],
+      "platform": [
+        "platform-agnostic"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "prose",
+        "code"
+      ],
+      "agent_readiness": [
+        "agent-skill",
+        "cli-installable",
+        "open-source-code"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": "npx skills@latest add emilkowalski/skills",
+    "package": null,
+    "docs_url": null,
+    "repo_url": "https://github.com/emilkowalski/skills",
+    "registry_url": null,
+    "github": {
+      "stars": 49571,
+      "license": "MIT",
+      "last_activity": "2026-10-11"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 15,
+      "blocks": null
+    },
+    "agent_guidance": "Install with npx skills@latest add emilkowalski/skills. Load the skill that matches the job. apple-design is the one the README describes as Apple's interface principles for the web. animate and review-animations are the motion pair. write-swift is for Swift, not for CSS.\n\nThe license is MIT. The star count below is the GitHub API figure from 2026-10-25. The skills directory listing returned HTTP 403, so the count of 15 is the README list, not a directory listing.",
+    "why_it_matters": "It puts a working designer's animation and interface rules into skill files an agent can install.",
+    "quality_tier": "A",
+    "tier_reason": "MIT, a specific install command, 15 skills named in the README, and a push on 2026-10-11. The star count is the API figure.",
+    "notable_for": [
+      "15 skills in the README",
+      "apple-design",
+      "MIT",
+      "npx skills add emilkowalski/skills"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked the GitHub API, raw README, and raw LICENSE for emilkowalski/skills on 2026-10-25. The LICENSE file is MIT. The README states the install command and lists the 15 skills named in this record. GitHub API reported 49,571 stars, 2,884 forks, and a push on 2026-10-11. The contents API for /skills returned HTTP 403. Source tweet: https://x.com/emilkowalski/status/2075188252877672732."
+  },
+  {
+    "id": "user:be406f2889b9d69e",
+    "slug": "mystyleshaus",
+    "url": "https://mystyleshaus.com",
+    "name": "MyStylesHaus",
+    "tagline": "Midjourney SREF library, 550+ codes in the meta description, from $5",
+    "description": "MyStylesHaus is a library of Midjourney style-reference codes. The page title is \"Midjourney SREF Codes Library \u2014 Premium AI Style References | MyStylesHaus\". The meta description says to browse 550+ curated Midjourney SREF codes, that free styles are available, and that prices start from $5.\n\nThe fetched body is an empty div. No style count was enumerated, and no plan table, license, or account terms were in the HTML.",
+    "category": "generative-media-tools",
+    "subcategory": "image-generation",
+    "kinds": [
+      "prompt-pack",
+      "gallery"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "freemium"
+      ],
+      "distribution": [
+        "web-app"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "prompts"
+      ],
+      "agent_readiness": [
+        "js-only-shell"
+      ],
+      "maturity": "unknown"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": "The meta description says free styles are available and prices start from $5. No plan table was in the HTML.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Treat the meta description as the only verified claim: a Midjourney --sref library, with free styles and a from-$5 line. Open the site in a browser before you quote a specific code or a plan.\n\nThe fetched HTML did not include the catalog. Do not copy a style code from this record.",
+    "why_it_matters": "It is a paid-and-free library of Midjourney style codes, and only the meta description was readable.",
+    "quality_tier": "C",
+    "tier_reason": "The title and the meta description are explicit. The catalog did not render.",
+    "notable_for": [
+      "Midjourney SREF codes",
+      "550+ in the meta description",
+      "free styles, from $5"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked https://mystyleshaus.com on 2026-10-25. HTTP 200. The title and meta description state 550+ curated Midjourney SREF codes, free styles, and prices from $5. The body is an empty root. No license or plan table was in the HTML. Source tweet: https://x.com/OVolosin82152/status/2077049956574073230."
+  },
+  {
+    "id": "user:66c39af9c347c365",
+    "slug": "master-typography-layout",
+    "url": "https://www.olivergareis.com/course",
+    "name": "Master Typography & Layout",
+    "tagline": "Oliver Gareis's 13-hour typography and layout course, \u20ac399 or two payments of \u20ac240",
+    "description": "Master Typography & Layout is an online course by Oliver Gareis. The meta description calls it a 13-hour design course on visual hierarchy, rhythm, and storytelling. The page says to join 350+ designers and shows a 4.9/5 rating. Structured data on the same page names a course workload of PT13H, a 4.9 rating with reviewCount 250, and two offers.\n\nThe offers are Full Online Course Access at \u20ac399 once, described as lifetime access, and an installment of \u20ac240 per month for 2 months. Both point at myablefy.com payment URLs. Visible lesson titles include The Complete Course Breakdown, My Design Philosophy, Inspiration, Typography, Layout & Composition, Color, Imagery, Live Design Session, and Final Words. An HTML comment says the page was last published on 10 July 2026. A reuse license for the lessons was not stated.",
+    "category": "essays-guides-courses",
+    "subcategory": "courses-and-books",
+    "kinds": [
+      "course"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "one-time"
+      ],
+      "distribution": [
+        "web-app"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "video",
+        "prose"
+      ],
+      "agent_readiness": [
+        "unknown"
+      ],
+      "maturity": "unknown"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": "JSON-LD on the course page: \u20ac399 once, named Full Online Course Access, described as lifetime access. Installment: \u20ac240 per month for 2 months. Both offers link to myablefy.com. Those payment pages were not opened.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "The readable prices are \u20ac399 once for lifetime access, or \u20ac240 per month for 2 months. Both are in the page's structured data and point at myablefy.com. The page also says 13 hours, 350+ designers, and 4.9/5. The same structured data says reviewCount 250. Those are separate figures.\n\nThe lessons were not played. Do not treat the lesson titles as a full syllabus, and do not copy the course videos.",
+    "why_it_matters": "It publishes a typography and layout course with the price and the length in the page.",
+    "quality_tier": "B",
+    "tier_reason": "The price, the 13-hour claim, and the lesson titles are on the page. The checkout and the videos were not opened, and the 350+ and 250 figures were not reconciled.",
+    "notable_for": [
+      "\u20ac399 lifetime access",
+      "\u20ac240 per month for 2 months",
+      "13-hour course",
+      "Oliver Gareis"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked https://www.olivergareis.com/course on 2026-10-25. The meta description says 13 hours. The visible page says Join 350+ designers and 4.9/5. JSON-LD on the page lists offers at 399 EUR and 240 EUR, a PT13H workload, and reviewCount 250. An HTML comment says Last Published: Fri Jul 10 2026. The myablefy.com payment pages were not opened. Source tweet: https://x.com/oliver_gareis/status/2091958284617978284."
+  },
+  {
+    "id": "user:7eed557dd117e9c1",
+    "slug": "ai-design-engineer-job",
+    "url": "https://twilson.net/writing/ai-design-engineer",
+    "name": "Is AI going to steal my job as a design engineer?",
+    "tagline": "Tim Wilson's 22 August 2026 essay on what a design engineer still does",
+    "description": "Tim Wilson's essay \"Is AI going to steal my job as a design engineer?\" is dated Aug 22, 2026. The meta description is \"What's changed, and what still matters.\" He writes that he fits the version of a design engineer who is an engineer with design taste, and that the gap between what AI can do and what he does for a living keeps getting smaller.\n\nThe opening says agents already take scaffolding and copying content into code, and that the work still left to him includes knowing what not to build, generating novel ideas, and crafting visual experiences such as gradients and animated backgrounds. A reuse license was not on the page.",
+    "category": "essays-guides-courses",
+    "subcategory": "craft-essays",
+    "kinds": [
+      "article"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "article"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "prose"
+      ],
+      "agent_readiness": [
+        "structured-docs"
+      ],
+      "maturity": "stable"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Read the essay when a brief asks what a design engineer should still do by hand. The page dates it Aug 22, 2026, and the opening names three kinds of work he says agents still do poorly: knowing what not to build, novel ideas, and crafted visuals.\n\nThe page is prose. It does not grant a license to copy the essay.",
+    "why_it_matters": "It is a dated, first-person account of which design-engineering tasks the author still keeps.",
+    "quality_tier": "B",
+    "tier_reason": "The essay is readable, dated, and signed. Reuse terms were not stated, and this check used the opening of the page.",
+    "notable_for": [
+      "Tim Wilson",
+      "22 August 2026",
+      "design engineer essay"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked https://twilson.net/writing/ai-design-engineer on 2026-10-25. The title, the byline date Aug 22, 2026, the meta description, and the opening sections named in this record are in the HTML. No license was on the page. Source tweet: https://x.com/remvze/status/2091951756636717504."
+  },
+  {
+    "id": "user:880fc69dee0697a7",
+    "slug": "you-dont-need-animations",
+    "url": "https://emilkowal.ski/ui/you-dont-need-animations",
+    "name": "You Don't Need Animations",
+    "tagline": "Emil Kowalski's essay on animating only when the motion has a purpose",
+    "description": "\"You Don't Need Animations\" is an essay on Emil Kowalski's site. The meta description is \"Why you are animating more often than you should.\" The opening says an animation needs a purpose, and that motion can make an interface feel unpredictable, slow, or annoying.\n\nThe part read here uses a Linear marketing animation for Product Intelligence, a button scale-down, Sonner's enter animation, and a morphing feedback control as examples. He writes that the morph is fine when people rarely see it, and that the same motion becomes irritating if they use it many times a day. A banner says enrollment for aiforui.dev is open with 7 days left. A reuse license was not on the page. His homepage is already a separate catalog record.",
+    "category": "essays-guides-courses",
+    "subcategory": "craft-essays",
+    "kinds": [
+      "article"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "article"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "prose"
+      ],
+      "agent_readiness": [
+        "structured-docs"
+      ],
+      "maturity": "stable"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Read this essay before you add motion. The opening test is whether the animation has a purpose. The examples on the page are a Linear product animation, a button press, Sonner's enter transition, and a morph that he says should stay rare.\n\nThe page is prose. It does not grant a license to copy the essay. His other essays stay on emilkowal.ski. This record is only this URL.",
+    "why_it_matters": "It is the specific essay other designers cite when they argue for less interface motion.",
+    "quality_tier": "B",
+    "tier_reason": "The essay is on a public URL and the opening argument is in the HTML. Reuse terms were not stated.",
+    "notable_for": [
+      "Emil Kowalski",
+      "purpose test for animation",
+      "Sonner and Linear examples"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked https://emilkowal.ski/ui/you-dont-need-animations on 2026-10-25. HTTP 200. The title, the meta description, the purpose argument, the Linear, button, Sonner, and feedback examples, and the aiforui.dev banner are in the HTML. No license was on the page. The homepage https://emilkowal.ski is already the record emil-kowalski. Source tweet: https://x.com/eptwts/status/2092298910190448727."
+  },
+  {
+    "id": "user:a38e0e3cfabdc139",
+    "slug": "on-ai-systems-taste",
+    "url": "https://shedsgns.me/taste",
+    "name": "On AI, systems, taste and the human filter",
+    "tagline": "Essay published 25 May 2026 on speed, taste, and AI-made work",
+    "description": "\"On AI, systems, taste and the human filter\" is an essay at shedsgns.me/taste. The page says it was published 25 May 2026. The opening says one person can now turn a thought into writing, a visual, an interface, or a product, and that a lot of what appears online feels unfinished even when it works.\n\nIt also says the time to understand a new tool has collapsed, and that something experimental six months ago can already be a default workflow. A reuse license was not in the portion read. The author's name was not in that portion.",
+    "category": "essays-guides-courses",
+    "subcategory": "craft-essays",
+    "kinds": [
+      "article"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "article"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "prose"
+      ],
+      "agent_readiness": [
+        "structured-docs"
+      ],
+      "maturity": "stable"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Read the essay when you need a published argument about taste as a filter on AI-made work. The page dates it 25 May 2026. This record only covers the opening: volume of output, work that feels unfinished, and the speed of new tools.\n\nNo license was stated. Do not copy the essay text into a product.",
+    "why_it_matters": "It is a dated essay on taste and speed, on the author's own site.",
+    "quality_tier": "B",
+    "tier_reason": "The title, the date, and the opening are in the HTML. The byline and the reuse terms were not in the portion read.",
+    "notable_for": [
+      "published 25 May 2026",
+      "taste and AI-made work",
+      "shedsgns.me"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked https://shedsgns.me/taste on 2026-10-25. The HTML title matches the essay, and the page says published 25 May 2026. The opening paragraphs are the ones summarized here. No author name or license was in that text. Source tweet: https://x.com/shedsgns/status/2058782684265030141."
+  },
+  {
+    "id": "user:64b409805fe5aec8",
+    "slug": "product-design-psychology",
+    "url": "https://productdesignpsychology.com",
+    "name": "Product Design Psychology",
+    "tagline": "Wouter de Bres's book on design psychology, chapters 0\u201340 readable on the site",
+    "description": "Product Design Psychology is a book by Wouter de Bres. The title and the author meta tag name him. The meta description is \"Understand the minds you design for and the mind you design with.\" The contents run from chapter 0 through chapter 40, in four sections: The Designer's Mind, Minding the Design, The User's Mind, and The Organization's Mind.\n\nChapter 1, \"Nobody Thinks Like You\", is full text on the site. Its line is that false consensus makes you design for yourself. No price and no buy link were on the contents page or on that chapter. A footer line says he has 20 years designing digital products, and that Claude helped translate his Dutch into English. A reuse license was not on the pages checked.",
+    "category": "essays-guides-courses",
+    "subcategory": "courses-and-books",
+    "kinds": [
+      "article",
+      "reference"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "article"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "prose"
+      ],
+      "agent_readiness": [
+        "structured-docs"
+      ],
+      "maturity": "stable"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 41,
+      "blocks": null
+    },
+    "agent_guidance": "Read a chapter on the site when you need a psychology argument for a product-design decision. The contents list 41 chapters, numbered 0 through 40. Chapter 1 was readable without an account on this check.\n\nNo price was on the contents page or on chapter 1. No license to copy the book was stated. Cite the chapter, and do not paste it into a product.",
+    "why_it_matters": "It is a full design-psychology book published as readable chapters, with the contents list on the homepage.",
+    "quality_tier": "B",
+    "tier_reason": "The author, the contents, and one full chapter are on the site. A price and a reuse license were not.",
+    "notable_for": [
+      "Wouter de Bres",
+      "chapters 0 through 40",
+      "chapter text on the site",
+      "no price on the pages checked"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked https://productdesignpsychology.com and https://productdesignpsychology.com/01-nobody-thinks-like-you/ on 2026-10-25. The homepage lists chapters 0 through 40. Chapter 1 returned the essay text summarized here. The author meta tag is Wouter de Bres. The chapter footer mentions 20 years of digital-product design and a Claude translation note. No price or license was on either page. Source tweet: https://x.com/WdeB/status/2068059876907946182."
+  },
+  {
+    "id": "user:a839d7b5bff894ef",
+    "slug": "ryan-stephen",
+    "url": "https://ryanstephen.co/",
+    "name": "Ryan Stephen",
+    "tagline": "Product designer and prototyper in Seattle, working at Runway",
+    "description": "ryanstephen.co is the site of Ryan Stephen. The page and the meta description say he is a product designer and prototyper with a background designing digital, spatial, and fluid interfaces, based in Seattle, WA, and working at Runway. Links on the page are Email, Twitter, and LinkedIn.\n\nNo projects, case studies, or rates were in the HTML.",
+    "category": "studios-portfolios",
+    "subcategory": "designer-portfolios",
+    "kinds": [
+      "portfolio"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "not-applicable"
+      ],
+      "pricing": [
+        "not-applicable"
+      ],
+      "distribution": [
+        "gallery"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "profile"
+      ],
+      "agent_readiness": [
+        "unknown"
+      ],
+      "maturity": "unknown"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [
+      "homepage"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Use the page as a name, a role, and a location. It says product designer and prototyper, Seattle, Runway. It does not include project writeups.\n\nDo not describe work samples from this record. None were in the HTML.",
+    "why_it_matters": "It identifies a product designer whose page states the role and the employer in one paragraph.",
+    "quality_tier": "B",
+    "tier_reason": "The bio is in the HTML. The work is not.",
+    "notable_for": [
+      "product designer and prototyper",
+      "Seattle",
+      "works at Runway"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked https://ryanstephen.co/ on 2026-10-25. The title is Ryan Stephen. The meta description and the visible paragraph state the role, Seattle, and Runway. Source tweet: https://x.com/jonaasw1/status/2069135333422166044."
+  },
+  {
+    "id": "user:9429e69b80b8520f",
+    "slug": "aileenland",
+    "url": "https://www.aileenis.online/",
+    "name": "aileenland",
+    "tagline": "Personal site of a designer at Figma, with the portfolio at thekumquatery.com",
+    "description": "aileenland is a personal site. The page says the author was born in Scarborough, cares about typography, and works at Figma, after LinkedIn, Roblox, Exa, Kino AI, and other LLM startups. It describes the site as a digital diary, Aileen's Umwelt, and says the portfolio is at thekumquatery.com. The page says it was created by aileen in 2026 and is under construction.\n\nA line reads \"License \u00a9 2025 -2026\". That is a copyright notice. No reuse terms were stated. thekumquatery.com was not opened.",
+    "category": "studios-portfolios",
+    "subcategory": "designer-portfolios",
+    "kinds": [
+      "portfolio"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "not-applicable"
+      ],
+      "pricing": [
+        "not-applicable"
+      ],
+      "distribution": [
+        "gallery"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "profile"
+      ],
+      "agent_readiness": [
+        "unknown"
+      ],
+      "maturity": "unknown"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [
+      "homepage"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Use this site as a personal diary and a pointer. The page says she works at Figma and that the portfolio is at thekumquatery.com. That portfolio was not opened.\n\nThe copyright line is not a license to reuse the writing or the images.",
+    "why_it_matters": "It is a designer's personal site that states the employer and sends the portfolio somewhere else.",
+    "quality_tier": "B",
+    "tier_reason": "The bio and the portfolio pointer are in the HTML. The portfolio site was not opened, and the page says it is under construction.",
+    "notable_for": [
+      "designer at Figma",
+      "typography",
+      "portfolio at thekumquatery.com",
+      "under construction"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-10-25",
+    "source": "user",
+    "evidence": "Checked https://www.aileenis.online/ on 2026-10-25. The HTML includes the Scarborough line, the Figma, LinkedIn, Roblox, Exa, and Kino AI credits, the Umwelt description, the thekumquatery.com link, the 2026 credit, and the copyright line. thekumquatery.com was not opened. Source tweet: https://x.com/jonaasw1/status/2069135333422166044."
+  }
+]
