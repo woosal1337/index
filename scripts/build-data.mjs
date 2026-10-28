@@ -53,6 +53,7 @@ const taxonomy = {
   facets: readJSON(p("taxonomy/facets.json")),
   components: readJSON(p("taxonomy/components.json")),
   surfaces: readJSON(p("taxonomy/surfaces.json")),
+  styles: readJSON(p("taxonomy/styles.json")),
 };
 
 const rawLinks = readJSON(p("data/links.json"));
@@ -557,7 +558,7 @@ const llms = [
   `- /api/resources.json — every record, full detail`,
   `- /api/items.json — every single shadcn registry item with its install command`,
   `- /api/indexes.json — byComponent and bySurface reverse indexes, plus facet counts`,
-  `- /api/taxonomy.json — the controlled vocabularies (categories, kinds, facets, components, surfaces)`,
+  `- /api/taxonomy.json — the controlled vocabularies (categories, kinds, facets, components, surfaces, styles)`,
   `- /api/stats.json — corpus counts`,
   ``,
   `Before generating UI in a project, read that project's DESIGN.md and match its tokens.`,

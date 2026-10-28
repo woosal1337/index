@@ -13,6 +13,7 @@ test("registry item names map onto the component and surface vocabulary", () => 
   assert.equal(match("bento-grid-01").component, "bento-grid");
   assert.equal(match("sonner").component, "toast");
   assert.equal(match("pricing-3").surface, "pricing-website");
+  assert.equal(match("404-page").surface, "404");
   assert.deepEqual(match("jingles-sax"), { component: null, surface: null });
 });
 

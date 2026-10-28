@@ -97,6 +97,7 @@
         {
           "slug": "login-website",
           "name": "Login (Website)",
+          "aliases": ["sign in", "signin", "log in"],
           "description": "The marketing-site login page, which doubles as a branded touchpoint before the user enters the product.",
           "checklist": [
             "Logo — either your complete logo or a symbol mark",
@@ -115,6 +116,7 @@
         {
           "slug": "sign-up",
           "name": "Sign up",
+          "aliases": ["signup", "registration", "create account"],
           "description": "The account creation page that converts an interested visitor into a credentialed user.",
           "checklist": [
             "Logo — either your complete logo or a symbol mark",
@@ -162,6 +164,7 @@
         {
           "slug": "two-factor-authentication",
           "name": "2FA",
+          "aliases": ["mfa", "two factor"],
           "description": "The setup and management surface for a second authentication factor on the account.",
           "checklist": [
             "Method selection — authenticator app, SMS, or email code; offer at least two, as some users lack access to one",
@@ -553,6 +556,7 @@
         {
           "slug": "public-profile",
           "name": "Public Profile",
+          "aliases": ["profile", "profile page", "user profile"],
           "description": "The outward-facing identity page other users see, distinct from private account settings.",
           "checklist": [
             "Avatar and display name — the user's photo and name shown prominently as the primary identifier",
@@ -653,6 +657,7 @@
         {
           "slug": "admin-panel",
           "name": "Admin Panel",
+          "aliases": ["admin", "admin dashboard", "back office", "backoffice"],
           "description": "The org-level control room for members, settings, usage, billing and irreversible workspace actions.",
           "checklist": [
             "Role-based access — the admin panel visible and accessible only to users with the appropriate permissions",
@@ -857,6 +862,7 @@
         {
           "slug": "analytics",
           "name": "Analytics",
+          "aliases": ["dashboard", "analytics dashboard", "metrics dashboard"],
           "description": "The metrics dashboard that answers what changed, over what period, and compared to what.",
           "checklist": [
             "Date range selector — with shortcuts for today, last 7 days, last 30 days, this month, and a custom range",
@@ -1320,6 +1326,7 @@
         {
           "slug": "404",
           "name": "404",
+          "aliases": ["404 page", "not found", "page not found", "not found page", "error 404"],
           "description": "The not-found page that explains the miss and offers a way to stay on the site.",
           "checklist": [
             "Logo — either your complete logo or a symbol mark",
@@ -1333,6 +1340,7 @@
         {
           "slug": "error-500",
           "name": "Error boundary / 500 page",
+          "aliases": ["500 page", "500 error", "server error", "error page", "error boundary"],
           "description": "The failure surface for an unexpected server or client crash, which must not lose the user's work or their trust.",
           "checklist": [
             "Plain-language statement that the failure is ours, not the user's input",
@@ -1399,6 +1407,7 @@
         {
           "slug": "homepage",
           "name": "Homepage",
+          "aliases": ["landing page", "landing", "home page", "marketing page", "marketing site"],
           "description": "The top-of-funnel page that has to state what the product is, for whom, and what to do next.",
           "checklist": [
             "Above-the-fold value proposition — one sentence naming the product category and the outcome, readable without scrolling",
@@ -1622,6 +1631,7 @@
         {
           "slug": "contact-us",
           "name": "Contact Us",
+          "aliases": ["contact page", "contact"],
           "description": "The page that routes a stranger to the right channel and the right team.",
           "checklist": [
             "Personality and branding — visual character and tone of voice aligned with your brand",
@@ -1701,6 +1711,7 @@
         {
           "slug": "help-center",
           "name": "Help Center",
+          "aliases": ["help page", "knowledge base", "support center"],
           "description": "The self-serve documentation hub that resolves questions before they become tickets.",
           "checklist": [
             "Search with suggestions — a prominent search input returning relevant articles as the user types",
@@ -1746,6 +1757,7 @@
         {
           "slug": "api-documentation",
           "name": "API documentation",
+          "aliases": ["api docs", "api reference", "developer docs", "docs site", "documentation site"],
           "description": "The developer reference that has to get someone from zero to a successful first call.",
           "checklist": [
             "Quickstart that produces a working call in under five minutes — including how to obtain a key",

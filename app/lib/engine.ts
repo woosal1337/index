@@ -1,5 +1,5 @@
 import { acceptsMap, checkFilters, FILTER_FACETS, type Accepts, type Filters } from "./search.ts";
-import { findAll, normalize, vocabMap, type Vocab, type VocabEntry } from "./vocab.ts";
+import { findAll, normalize, surfaceBase, surfaceFamily, vocabMap, type Vocab, type VocabEntry } from "./vocab.ts";
 
 type FacetValues = Record<string, string[] | string>;
 
@@ -139,6 +139,7 @@ export function createEngine({ resources, items, taxonomy, vectors }: { resource
   const catName = new Map(taxonomy.categories.flatMap((c) => [[c.slug, c.name], ...(c.subcategories || []).map((s) => [s.slug, s.name])]) as [string, string][]);
   const label = (e: VocabEntry | undefined) => (e ? [e.name || e.slug, ...(e.aliases || [])].join(" ") : "");
 
+  const family = surfaceFamily(taxonomy.surfaces);
   const maps = {
     component: vocabMap(taxonomy.components),
     surface: vocabMap(taxonomy.surfaces, (s) => [String(s.name || "").replace(/\(.*?\)/g, "")]),
@@ -243,7 +244,9 @@ export function createEngine({ resources, items, taxonomy, vectors }: { resource
     }
     const styleHits = findAll(maps.style, text);
     const kindHits = findAll(maps.kind, text);
-    const surfaces = [...new Set(findAll(maps.surface, text).map((h) => h.slug))];
+    const surfaceHits = findAll(maps.surface, text);
+    const surfaces = [...new Set(surfaceHits.flatMap((h) => family(h.slug, text)))];
+    const partOfPage = (h: { start: number; end: number; text: string }) => /\d/.test(h.text) && surfaceHits.some((s) => h.start < s.end && s.start < h.end);
     const learn = LEARN.test(norm);
     const inspire = !learn && !IMPLEMENT.test(norm) && (surfaces.length > 0 || INSPIRE.test(norm));
     return {
@@ -251,7 +254,7 @@ export function createEngine({ resources, items, taxonomy, vectors }: { resource
       parsed: {
         intent: learn ? "learn" : inspire ? "inspire" : null,
         reference: ref ? docs[ref.doc].r.slug : null,
-        components: [...new Set(findAll(maps.component, text).map((h) => h.slug))],
+        components: [...new Set(findAll(maps.component, text).filter((h) => !partOfPage(h)).map((h) => h.slug))],
         surfaces,
         kinds: [...new Set([...kindHits.map((h) => h.slug), ...(ref ? docs[ref.doc].r.kinds : [])])],
         styles: [...new Set(styleHits.map((h) => h.slug))],
@@ -275,7 +278,7 @@ export function createEngine({ resources, items, taxonomy, vectors }: { resource
   function search(query: string, filters: Filters = {}, { limit = 10, queryVector }: { limit?: number; queryVector?: ArrayLike<number> } = {}): SearchResult {
     const { parsed, text } = parse(query);
     if (filters.component) parsed.components = [...new Set([filters.component, ...parsed.components])];
-    if (filters.surface) parsed.surfaces = [...new Set([filters.surface, ...parsed.surfaces])];
+    if (filters.surface) parsed.surfaces = [...new Set([...[filters.surface].flat(), ...parsed.surfaces])];
     const words = normalize(text).split(" ").filter((w) => w && !STOPWORDS.has(w)).map(stem).map(correct);
     const singles = new Set(words);
     const qTokens = [...new Set([...words, ...words.slice(1).map((w, i) => words[i] + w)])];
@@ -296,8 +299,9 @@ export function createEngine({ resources, items, taxonomy, vectors }: { resource
     const refDoc = parsed.reference ? docs.find((d) => d.r.slug === parsed.reference)! : null;
     const refGroup = refDoc ? refDoc.r.sameAs ?? refDoc.r.slug : null;
     const candidates = new Set<number>(lex.keys());
+    const lookOnly = parsed.styles.length > 0 && !parsed.components.length && !parsed.kinds.length && !refDoc;
     docs.forEach((d, i) => {
-      if (parsed.components.some((c) => d.components.has(c)) || parsed.surfaces.some((s) => d.surfaces.has(s))) candidates.add(i);
+      if (parsed.components.some((c) => d.components.has(c)) || parsed.surfaces.some((s) => d.surfaces.has(s)) || ((lookOnly || d.r.category === filters.category) && parsed.styles.some((x) => d.r.visual?.style?.includes(x)))) candidates.add(i);
       if (refDoc && d.r.subcategory === refDoc.r.subcategory) candidates.add(i);
     });
     if (refGroup) for (const i of [...candidates]) if ((docs[i].r.sameAs ?? docs[i].r.slug) === refGroup) candidates.delete(i);
@@ -325,7 +329,7 @@ export function createEngine({ resources, items, taxonomy, vectors }: { resource
       if (parsed.components.length) s += (WEIGHTS.component * compHits.length) / parsed.components.length;
       for (const c of compHits) why.push(`component: ${c}`);
       const surfHits = parsed.surfaces.filter((x) => d.surfaces.has(x));
-      if (parsed.surfaces.length) s += (WEIGHTS.surface * surfHits.length) / parsed.surfaces.length;
+      if (parsed.surfaces.length) s += (WEIGHTS.surface * new Set(surfHits.map(surfaceBase)).size) / new Set(parsed.surfaces.map(surfaceBase)).size;
       for (const x of surfHits) why.push(`surface: ${x}`);
       const styleHits = parsed.styles.filter((x) => r.visual?.style?.includes(x));
       if (parsed.styles.length) s += (WEIGHTS.style * styleHits.length) / parsed.styles.length;

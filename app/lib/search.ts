@@ -12,7 +12,7 @@ export const FILTER_FACETS = ["framework", "styling", "license", "pricing", "pla
 export type Filters = Partial<Record<(typeof FILTER_FACETS)[number], string[]>> & {
   category?: string;
   component?: string;
-  surface?: string;
+  surface?: string | string[];
 };
 type FacetVocab = { slug: string; values: { slug: string; accepts?: string[] }[] }[];
 export type Accepts = Map<string, Map<string, Set<string>>>;

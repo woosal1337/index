@@ -3,10 +3,10 @@ import { createMcpHandler, McpServer } from "@modelcontextprotocol/server";
 import { toNodeHandler } from "@modelcontextprotocol/node";
 import { ABOUT, SEARCH_RULES } from "../app/lib/agent.ts";
 import { createEngine, WEIGHTS } from "../app/lib/engine.ts";
-import { MEDIA_VERSION } from "../app/lib/media.ts";
+import { MEDIA_VERSION, ogImageUrl } from "../app/lib/media.ts";
 import { recordFacts } from "../app/lib/prompt.ts";
 import { FILTER_FACETS } from "../app/lib/search.ts";
-import { findAll, vocabMap } from "../app/lib/vocab.ts";
+import { findAll, normalize, surfaceFamily, vocabMap } from "../app/lib/vocab.ts";
 
 export const SITE = "https://index.chele.bi";
 
@@ -20,6 +20,14 @@ export class UsageError extends Error {}
 
 export const SCREEN_WEIGHTS = { surface: 0.08, style: 0.06, mode: 0.03, perSite: 2 };
 const RESOURCE_KINDS = new Set(["resource", "preview", "template", "item"]);
+const GENERIC = new Set(["page", "screen", "view", "flow", "design", "template", "section", "website", "web", "app", "mobile", "and", "the", "for", "with"]);
+const singular = (w) => w.replace(/s$/, "");
+const lookOf = (r) => (r.visual?.style?.length ? compact({
+  styles: r.visual.style,
+  colorMode: r.visual.colorMode,
+  fonts: [...new Set([r.visual.headingFont, r.visual.bodyFont].filter(Boolean))],
+  image: r.hasImage && r.imageKey ? `${SITE}${ogImageUrl(r.imageKey)}` : undefined,
+}) : undefined);
 
 export function createApi({ resources, items, taxonomy, showcase = [] }) {
   const bySlug = new Map(resources.map((r) => [r.slug, r]));
@@ -37,11 +45,24 @@ export function createApi({ resources, items, taxonomy, showcase = [] }) {
   let dense = false;
 
   const exact = new Map([[compMap, new Set(taxonomy.components.map((x) => x.slug))], [surfMap, new Set(taxonomy.surfaces.map((x) => x.slug))]]);
-  const resolve = (map, text, what, example) => {
+  const family = surfaceFamily(taxonomy.surfaces);
+  const vocab = { component: taxonomy.components, surface: taxonomy.surfaces, category: taxonomy.categories };
+  const near = (text, what) => {
+    const want = new Set(normalize(text).split(" ").map(singular).filter((w) => w.length > 2 && !GENERIC.has(w)));
+    return [what, ...Object.keys(vocab).filter((k) => k !== what)].flatMap((kind) => vocab[kind]
+      .filter((e) => normalize(`${e.slug} ${e.name ?? ""} ${(e.aliases || []).join(" ")}`).split(" ").some((w) => want.has(singular(w))))
+      .map((e) => `${kind} "${e.slug}"`)).slice(0, 6);
+  };
+  const resolve = (map, text, what) => {
     if (!text) return undefined;
     const slug = exact.get(map).has(text) ? text : findAll(map, text, new Set())[0]?.slug;
-    if (!slug) throw new UsageError(`Index has no ${what} called "${text}". Use a common name, for example "${example}", or leave ${what} out.`);
-    return slug;
+    if (slug) return slug;
+    const close = near(text, what);
+    throw new UsageError(`Index has no ${what} called "${text}". ${close.length ? `Close names: ${close.join(", ")}. Use one, or` : "Try another name, or"} leave ${what} out and put the words in the query.`);
+  };
+  const resolveSurface = (text, query = "") => {
+    const slug = resolve(surfMap, text, "surface");
+    return slug && (slug === text ? [slug] : family(slug, normalize(`${text} ${query}`)));
   };
 
   const matched = (hit) => {
@@ -71,6 +92,7 @@ export function createApi({ resources, items, taxonomy, showcase = [] }) {
       styling: known(r.facets?.styling),
       license: known(r.facets?.license),
       pricing: known(r.facets?.pricing),
+      look: lookOf(r),
       install: r.install,
       docs: r.docsUrl,
       repo: r.repoUrl,
@@ -84,8 +106,8 @@ export function createApi({ resources, items, taxonomy, showcase = [] }) {
   const filtersOf = (args) => {
     const filters = Object.fromEntries(FILTER_FACETS.filter((f) => args[f]?.length).map((f) => [f, args[f]]));
     if (args.category) filters.category = args.category;
-    const component = resolve(compMap, args.component, "component", "date picker");
-    const surface = resolve(surfMap, args.surface, "surface", "pricing page");
+    const component = resolve(compMap, args.component, "component");
+    const surface = resolveSurface(args.surface, args.query);
     if (component) filters.component = component;
     if (surface) filters.surface = surface;
     return filters;
@@ -129,14 +151,14 @@ export function createApi({ resources, items, taxonomy, showcase = [] }) {
 
   function searchScreens(args, queryVector) {
     const { parsed } = engine.parse(args.query);
-    const surface = resolve(surfMap, args.surface, "surface", "pricing page");
-    const want = surface ? [surface] : parsed.surfaces;
+    const surface = resolveSurface(args.surface, args.query);
+    const want = surface ?? parsed.surfaces;
     const W = SCREEN_WEIGHTS;
     const vector = dense && screenRows && queryVector;
     const scored = [];
     for (const x of screens) {
       const v = x.shot.visual || {};
-      if (surface && v.pageType !== surface) continue;
+      if (surface && !surface.includes(v.pageType)) continue;
       const why = [];
       let s = 0;
       if (want.includes(v.pageType)) { s += W.surface; why.push(`page type: ${v.pageType}`); }
@@ -212,13 +234,16 @@ export function createApi({ resources, items, taxonomy, showcase = [] }) {
       .slice(0, 5)
       .map((s) => ({ id: s.slug, title: s.name, url: `${SITE}/r/${s.slug}/` }));
     const its = (itemsBy.get(r.slug) || []).filter((i) => i.install).slice(0, 25).map((i) => compact({ name: i.name, title: i.title, component: i.component, install: i.install }));
+    const look = lookOf(r);
+    const seen = look ? `\nLook, from a screenshot of the site: ${look.styles.join(", ")}${look.colorMode ? `, ${look.colorMode} mode` : ""}.` : "";
     return {
       id: r.slug,
       title: r.name,
       url: `${SITE}/r/${r.slug}/`,
-      text: `${recordFacts(r)}\n\n${r.description}`,
+      text: `${recordFacts(r)}${seen}\n\n${r.description}`,
       metadata: compact({
         source: r.url,
+        look,
         category: r.category,
         subcategory: r.subcategory,
         kinds: r.kinds,
@@ -248,7 +273,7 @@ export function createApi({ resources, items, taxonomy, showcase = [] }) {
   }
 
   function componentGuide(args, queryVector) {
-    const slug = resolve(compMap, args.component, "component", "combobox");
+    const slug = resolve(compMap, args.component, "component");
     const c = compBySlug.get(slug);
     const filters = { ...filtersOf({ ...args, component: undefined }), component: slug };
     const { res, match } = run(args.query || c.name, filters, Math.min(args.limit ?? 6, 15), queryVector);
@@ -299,7 +324,7 @@ export function schemas(taxonomy) {
   const surface = z.string().min(2).max(80).optional().describe('A page or flow type, for example "pricing page" or "onboarding".');
   return {
     search: z.object({
-      query: z.string().min(2).max(300).describe('The need in plain words, for example "date range picker with presets".'),
+      query: z.string().min(2).max(300).describe(`The need in plain words, for example "date range picker with presets". To ask for a look, name a style: ${(taxonomy.styles || []).map((s) => s.name.toLowerCase()).join(", ")}.`),
       type: z.enum(["resources", "screens"]).optional().describe("resources, the default, finds libraries, templates, tools, and references. screens finds real website screenshots by page type and look."),
       ...facets,
       category,

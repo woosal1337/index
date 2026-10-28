@@ -6,6 +6,7 @@ import { fileURLToPath } from "node:url";
 import test from "node:test";
 import { Client, StreamableHTTPClientTransport } from "@modelcontextprotocol/client";
 import { loadTaxonomy } from "../scripts/lib/catalog.mjs";
+import { MEDIA_VERSION } from "../app/lib/media.ts";
 import { callerOf, createApi, createHttpHandler, createLimiter, SITE } from "./app.mjs";
 
 const taxonomy = loadTaxonomy(join(dirname(fileURLToPath(import.meta.url)), ".."));
@@ -150,6 +151,23 @@ test("unified vectors credit a record for its matching template and rank screens
   const screens = api.search({ query: "landing hero", type: "screens" }, Float32Array.from([1, 0]));
   assert.equal(screens.mode, "hybrid");
   assert.equal(screens.results[0].id, "shot:2");
+});
+
+test("page names cover every platform, unknown names point to close ones, and the query lists the styles", async (t) => {
+  const login = { id: 4, pageUrl: "https://acme.example.com/login", local: "/shots/4.webp", fonts: [], colors: [], visual: { pageType: "login-website", style: ["minimal"] } };
+  const api = createApi({ ...catalog, showcase: [{ ...catalog.showcase[0], shots: [...catalog.showcase[0].shots, login] }] });
+  assert.deepEqual(api.search({ query: "sign in screens", surface: "login", type: "screens" }).results.map((r) => r.id), ["shot:4"]);
+  assert.deepEqual(api.search({ query: "hero", surface: "landing page", type: "screens" }).understood.surfaces, ["homepage"]);
+  assert.throws(() => api.search({ query: "studio sites", surface: "portfolio" }), /Close names: category "portfolios"/);
+  const studio = resource("bright-co", { category: "studios", hasImage: true, imageKey: "k1", visual: { style: ["vibrant"], colorMode: "light", headingFont: "Inter", bodyFont: "Inter" } });
+  const looks = createApi({ ...catalog, resources: [...catalog.resources, studio] });
+  const card = looks.search({ query: "saturated colors", category: "studios" }).results[0];
+  assert.deepEqual(card.look, { styles: ["vibrant"], colorMode: "light", fonts: ["Inter"], image: `${SITE}/og/k1.webp?v=${MEDIA_VERSION}` });
+  assert.match(looks.fetch({ id: "bright-co" }).text, /Look, from a screenshot of the site: vibrant, light mode\./);
+  const { url } = await serve(t);
+  const client = await connect(t, url, { mode: "legacy" });
+  const search = (await client.listTools()).tools.find((x) => x.name === "search");
+  assert.match(search.inputSchema.properties.query.description, /name a style: minimal, .*vibrant/);
 });
 
 test("fetch returns record facts, not instructions for the agent", async (t) => {
