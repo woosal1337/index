@@ -797,7 +797,7 @@
    "title": "Split magic-link sign-in with a framed testimonial and customer logo wall trust sidebar",
    "description": "Split passwordless login: magic-link email field plus Google, Apple, and GitHub SSO, beside a Frame trust card with a star-rated testimonial and brand logo wall. ReUI Frame; shadcn Field, Input, Button, Avatar. Login, social auth, SaaS onboarding.",
    "component": "magic-link",
-   "surface": null,
+   "surface": "login-website",
    "dependencies": [
     "cn"
    ],
@@ -835,7 +835,7 @@
    "title": "Split-screen magic-link sign-in with left image sidebar and social login buttons",
    "description": "Magic-link login page: work email field sends a secure sign-in link, plus Google, Apple, and GitHub social buttons. Two-column split with a full-cover image sidebar. ReUI Frame, shadcn Field, Input, Button, Separator.",
    "component": "social-login-buttons",
-   "surface": "login-mobile",
+   "surface": "login-website",
    "dependencies": [
     "cn"
    ],
@@ -847,7 +847,7 @@
    "title": "Split-screen workspace sign-in with animated stacked media panel and social SSO",
    "description": "Two-column workspace login page: email and password with show/hide toggle, forgot-password, and Google, Apple, GitHub SSO buttons beside an auto-cycling stacked photo panel. Uses Field, Input, InputGroup, Button, Separator.",
    "component": "panel",
-   "surface": null,
+   "surface": "login-website",
    "dependencies": [
     "cn",
     "motion"
@@ -860,7 +860,7 @@
    "title": "Centered magic-link email login with logo, social sign-in buttons, and legal footer",
    "description": "Passwordless email login that sends a magic link, plus Google, Apple, and GitHub sign-in and a terms and copyright footer. Built with shadcn InputGroup, Field, Button, Separator. For login, SSO, passwordless auth screens.",
    "component": "magic-link",
-   "surface": "login-mobile",
+   "surface": "login-website",
    "dependencies": [
     "cn"
    ],
@@ -872,7 +872,7 @@
    "title": "Full-page sign-in with app header, SSO and email-continue form, and customer logo trust strip footer",
    "description": "Single-column sign-in: app header with create-workspace link, centered Google, GitHub, and SSO buttons over one work-email Continue field, plus a footer customer logo wall. shadcn Button, Field, Input, Separator. Login, social auth, SaaS onboarding.",
    "component": "header",
-   "surface": null,
+   "surface": "login-website",
    "dependencies": [
     "cn",
     "lucide-react"
@@ -885,7 +885,7 @@
    "title": "Centered login method picker with WebAuthn passkey sign-in and email reveal step",
    "description": "Two-step sign-in: a centered method picker (Google, email, SAML SSO, passkey, backup code) that reveals an email field, with real WebAuthn passkey auth and toasts. Uses shadcn Button, Input, Field, Item and ReUI Alert. Login / auth page.",
    "component": "select",
-   "surface": "login-mobile",
+   "surface": "login-website",
    "dependencies": [
     "cn",
     "sonner"
@@ -898,7 +898,7 @@
    "title": "Split-screen sign-in with testimonial sidebar, social login, and password show/hide toggle",
    "description": "Two-column login: email or username field, password Input with show/hide toggle, Google and Apple buttons, plus a testimonial and trust-brand sidebar. Uses shadcn Field, InputGroup, Avatar, Item, Separator, Button. For login and sign-in pages.",
    "component": "accordion",
-   "surface": "login-mobile",
+   "surface": "login-website",
    "dependencies": [
     "cn",
     "motion"
@@ -911,7 +911,7 @@
    "title": "Passwordless workspace sign-in page with magic-link work email and Google plus GitHub login",
    "description": "Full-page login screen that emails a secure sign-in link to an approved work address, with Google and GitHub OAuth buttons above an or divider. Built from shadcn Card, Field, InputGroup, Separator, Button. For SSO, magic link, passwordless signin.",
    "component": "magic-link",
-   "surface": "login-mobile",
+   "surface": "login-website",
    "dependencies": [
     "cn"
    ],
@@ -937,7 +937,7 @@
    "title": "Centered sign-in card with Google and Apple buttons, password visibility toggle, and email login",
    "description": "Login page with social sign-in (Google, Apple), an email or username field, and a show or hide password toggle, plus forgot-password and create-account links. Built on shadcn Card, Field, Input, InputGroup, Button, and Separator.",
    "component": "card",
-   "surface": "login-mobile",
+   "surface": "login-website",
    "dependencies": [
     "cn"
    ],
@@ -949,7 +949,7 @@
    "title": "Split-screen magic-link sign-in with testimonial and trust-brand sidebar on a dot-grid canvas",
    "description": "Passwordless magic-link sign-in with a single work-email field and Google, Apple, GitHub buttons, beside a testimonial and trust-brand sidebar on a twinkling dot canvas. shadcn Field, Input, Button, Avatar, Separator. Login, passwordless auth.",
    "component": "magic-link",
-   "surface": null,
+   "surface": "login-website",
    "dependencies": [
     "cn"
    ],
@@ -961,7 +961,7 @@
    "title": "Framed password sign-in card with email or username, social provider row, and footer nav",
    "description": "Login on a noise-textured background: ReUI Frame card with email-or-username and password fields, show/hide toggle, full-width submit, plus a Google/Apple/GitHub row and footer nav. shadcn Field, Input, InputGroup, Button. Sign in / log in page.",
    "component": "card",
-   "surface": null,
+   "surface": "login-website",
    "dependencies": [
     "cn"
    ],
@@ -973,7 +973,7 @@
    "title": "Split-screen marketing trial signup page with animated gradient blob background and social login",
    "description": "Full-page registration with a marketing hero, OAuth buttons (Google, GitHub), email and show/hide password fields, and a brand logo trust strip over drifting gradient blobs. ReUI Frame, shadcn Button, Field, InputGroup, Separator.",
    "component": "gradient-background",
-   "surface": "login-mobile",
+   "surface": "sign-up",
    "dependencies": [
     "cn"
    ],
@@ -998,7 +998,7 @@
    "title": "Blueprint-framed passwordless sign-in card with magic-link email and customer trust logos",
    "description": "Centered dark magic-link sign-in: email field sends a sign-in link, with Google, Apple and GitHub OAuth, a dashed crosshair-cornered frame, and a customer logo trust strip. Uses Button, Field, InputGroup. For login and auth pages.",
    "component": "magic-link",
-   "surface": null,
+   "surface": "login-website",
    "dependencies": [
     "cn"
    ],
@@ -1010,7 +1010,7 @@
    "title": "Centered Frame login card over a softened photo backdrop with social provider sign-in",
    "description": "Single-card sign-in centered on a blurred Unsplash photo with noise grain: email or username and password fields, show/hide toggle, Forgot password, and Google, Apple, GitHub buttons. ReUI Frame; shadcn Field, InputGroup, Button. Login page.",
    "component": "box",
-   "surface": "login-mobile",
+   "surface": "login-website",
    "dependencies": [
     "cn"
    ],
@@ -1022,7 +1022,7 @@
    "title": "Split magic-link sign-in with an animated brand-logo grid sidebar and rotating star testimonial",
    "description": "Split passwordless login: a work-email field emails a 15-minute magic link, with Google, Apple, GitHub buttons, beside a sidebar of brand logos animating in a grid under a rotating star testimonial. shadcn Field, Input, Button, Avatar. Login, auth.",
    "component": "magic-link",
-   "surface": null,
+   "surface": "login-website",
    "dependencies": [
     "cn",
     "motion"
@@ -1443,7 +1443,7 @@
    "title": "Confirmation for successful e-ticket registration",
    "description": "Confirmation for successful e-ticket registration",
    "component": "alert-dialog",
-   "surface": null,
+   "surface": "sign-up",
    "dependencies": [],
    "url": null
   },
@@ -3446,7 +3446,7 @@
    "title": "View switcher for dashboard layouts",
    "description": "View switcher for dashboard layouts",
    "component": "button-group",
-   "surface": null,
+   "surface": "analytics",
    "dependencies": [],
    "url": null
   },
@@ -5645,7 +5645,7 @@
    "title": "Collapsible User profile",
    "description": "Collapsible User profile",
    "component": "collapsible",
-   "surface": null,
+   "surface": "public-profile",
    "dependencies": [],
    "url": null
   },
@@ -6963,7 +6963,7 @@
    "title": "User profile dropdown menu with theme toggle and status selector",
    "description": "User profile dropdown menu with theme toggle and status selector",
    "component": "dropdown-menu",
-   "surface": "status",
+   "surface": "public-profile",
    "dependencies": [
     "cn"
    ],
@@ -7085,7 +7085,7 @@
    "title": "User profile dropdown menu",
    "description": "User profile dropdown menu",
    "component": "dropdown-menu",
-   "surface": null,
+   "surface": "public-profile",
    "dependencies": [],
    "url": null
   },
@@ -9181,7 +9181,7 @@
    "title": "Contact search input with filter and actions menu",
    "description": "Contact search input with filter and actions menu",
    "component": "input-group",
-   "surface": "search-mobile",
+   "surface": "contact-us",
    "dependencies": [],
    "url": null
   },
@@ -10408,7 +10408,7 @@
    "title": "Popover with user profile details.",
    "description": "Popover with user profile details.",
    "component": "popover",
-   "surface": null,
+   "surface": "public-profile",
    "dependencies": [
     "lucide-react"
    ],
@@ -11720,7 +11720,7 @@
    "title": "Skeleton loader for a dashboard stats row",
    "description": "Skeleton loader for a dashboard stats row",
    "component": "skeleton",
-   "surface": null,
+   "surface": "analytics",
    "dependencies": [],
    "url": null
   },
@@ -11750,7 +11750,7 @@
    "title": "Skeleton loader for a full profile page",
    "description": "Skeleton loader for a full profile page",
    "component": "skeleton",
-   "surface": null,
+   "surface": "public-profile",
    "dependencies": [],
    "url": null
   },
@@ -15548,7 +15548,7 @@
    "title": "Trial conversion Sankey chart with channel signups, a drop-off node per stage and volume pulses",
    "description": "Trial journey as a Recharts Sankey: 4 channels merge into signups, then each stage splits into survivors and a drop-off node. Flows sweep in, pulses ride each link by volume, hover traces lineage. ReUI Frame, shadcn ToggleGroup. PLG onboarding.",
    "component": "chart",
-   "surface": null,
+   "surface": "sign-up",
    "dependencies": [
     "cn",
     "recharts"
@@ -15588,7 +15588,7 @@
    "title": "Channel retention slope chart with a day ruler re-ranking channels from signups to Day N retention",
    "description": "Acquisition channels ranked by signups slope to their rank by users kept, scrubbed from Day 1 to 90 through 3 lifecycle stages, with an insight footer and CSV export. ReUI Frame, Badge; shadcn Slider, ButtonGroup; Recharts. Cohort retention.",
    "component": "chart",
-   "surface": null,
+   "surface": "sign-up",
    "dependencies": [
     "cn",
     "motion",
@@ -15945,7 +15945,7 @@
    "title": "Split contact card with project intake form and abstract SVG scope panel",
    "description": "Two-column Card pairing a project intake form (Project Type and Timeline Selects, budget InputGroup with $ addon, Textarea, Button) with a gradient SVG panel of mailto and tel Item links. For agency, studio, or SaaS quote and project-brief pages.",
    "component": "card",
-   "surface": null,
+   "surface": "contact-us",
    "dependencies": [],
    "url": null
   },
@@ -15955,7 +15955,7 @@
    "title": "Frameless split contact form with topic Select and image-backed Card panel of email and phone links",
    "description": "Split contact-us section: frameless form (Name, Email, topic Select, Subject, Textarea) beside an image-backed Card of email and phone links. Field, Input, Select, Textarea, Button, Card, Item. Contact page, support form, sales inquiry, lead capture.",
    "component": "form",
-   "surface": null,
+   "surface": "contact-us",
    "dependencies": [],
    "url": null
   },
@@ -15965,7 +15965,7 @@
    "title": "Contact section with global office columns ordered west to east as a follow-the-sun timezone band",
    "description": "Form-free contact band: three office columns split by dividers, each with city, postal address, UTC offset, business hours, and a directions link, plus an email and CTA button. Uses shadcn Button and Separator. For contact us, our offices, find us.",
    "component": "section",
-   "surface": null,
+   "surface": "contact-us",
    "dependencies": [],
    "url": null
   },
@@ -15975,7 +15975,7 @@
    "title": "Two-column contact Card pairing a tinted contact-details panel with a short project inquiry form",
    "description": "Framed Card with a tinted left details panel (email, response time, studio location) beside a right project form. shadcn Card, Field, Input, Textarea, Button. For contact us, get in touch, start a project, sales inquiry, lead capture.",
    "component": "stack",
-   "surface": null,
+   "surface": "contact-us",
    "dependencies": [],
    "url": null
   },
@@ -15985,7 +15985,7 @@
    "title": "Channel-first contact section with clickable Frame panels for chat, email, and GitHub community",
    "description": "Channel-first contact section: three clickable Frame panels (Live Chat, Email Us, GitHub Community) over a muted docs and FAQ card. ReUI Frame, FramePanel; shadcn Card, Item, Button. Contact us, get in touch, support channels page.",
    "component": "section",
-   "surface": "chat-mobile",
+   "surface": "contact-us",
    "dependencies": [],
    "url": null
   },
@@ -16065,7 +16065,7 @@
    "title": "Centered newsletter signup CTA with mail-prefixed email input and avatar-stack subscriber proof",
    "description": "Centered newsletter CTA: badge eyebrow, headline, lede, a mail-prefixed email field with Subscribe button, and an overlapping avatar stack with subscriber count. ReUI Badge, shadcn InputGroup, Avatar, Button. Email capture, mailing-list opt-in.",
    "component": "button",
-   "surface": null,
+   "surface": "sign-up",
    "dependencies": [],
    "url": null
   },
@@ -16118,7 +16118,7 @@
    "title": "Dark newsletter signup banner with inline email join form and a rotating WebGL night Earth",
    "description": "Release updates signup: an @-prefixed email field and Join button swap to an aria-live confirmation on submit, over a 3px dot mesh and a blue bloom that pulses on a 12s loop. shadcn Card, Input Group, Button. Changelog, product news.",
    "component": "button",
-   "surface": null,
+   "surface": "sign-up",
    "dependencies": [],
    "url": null
   },
@@ -16243,7 +16243,7 @@
    "title": "Operations dashboard with KPI stat cards, capacity charts, and a filterable exception data grid",
    "description": "Fulfillment control center: metric cards, shift performance, capacity allocation tabs, a donut flow chart, and a searchable paginated exception queue. Uses ReUI Frame, Badge, DataGrid plus Tabs, Select, Progress, breadcrumb, and a date-range picker.",
    "component": "dashboard",
-   "surface": null,
+   "surface": "analytics",
    "dependencies": [
     "@tanstack/react-table",
     "cn",
@@ -16260,7 +16260,7 @@
    "title": "Operations Dashboard with Sparkline Metric Cards and Searchable Module Data Grid",
    "description": "Operations console: sticky navbar with team presence and invite, three area-chart metric cards, and a paginated module DataGrid with progress rings, search, sort, and status filters. ReUI DataGrid, Badge; shadcn Card, Avatar, Popover, DropdownMenu.",
    "component": "dashboard",
-   "surface": null,
+   "surface": "analytics",
    "dependencies": [
     "@tanstack/react-table",
     "cn",
@@ -16275,7 +16275,7 @@
    "title": "Project delivery dashboard with tabbed header and weekly per-person worklog timesheet grid",
    "description": "Delivery workspace: tabbed header with breadcrumb and collaborator avatars, account summary cards, a filterable weekly worklog timesheet DataGrid with week navigation, integration cards and Empty tab states. ReUI Frame, DataGrid, Badge; shadcn Tabs.",
    "component": "dashboard",
-   "surface": null,
+   "surface": "analytics",
    "dependencies": [
     "@tanstack/react-table",
     "cn",
@@ -16304,7 +16304,7 @@
    "title": "Edge Security Telemetry Dashboard with KPI Sparkline Tiles, Threat Charts and Node Load Bars",
    "description": "Security ops dashboard: 4 KPI tiles with SVG sparklines, threat-vector and network-flow charts, per-node cluster load bars, active threat progress lanes, date-range picker. ReUI Badge, shadcn Card, Chart, Breadcrumb. SOC, NOC, monitoring.",
    "component": "dashboard",
-   "surface": "security",
+   "surface": "analytics",
    "dependencies": [
     "cn",
     "date-fns",
@@ -16320,7 +16320,7 @@
    "title": "Field Workforce Coverage Dashboard with Crew Table, Action Queue, and Supply vs Forecast Chart",
    "description": "Workforce ops dashboard for shift coverage: metric tiles, a crew Table with coverage progress bars and status, an action queue, and a stacked supply vs forecast ComposedChart. Uses ReUI Frame, Badge with shadcn Table, Avatar, Item, Chart, Breadcrumb.",
    "component": "dashboard",
-   "surface": null,
+   "surface": "analytics",
    "dependencies": [
     "cn",
     "date-fns",
@@ -16336,7 +16336,7 @@
    "title": "Retail revenue dashboard with KPI sparkline cards, stacked sales charts, and a sortable order queue",
    "description": "Commerce revenue dashboard: 4 KPI cards with sparklines and trend deltas, a stacked area revenue chart, a channel-mix bar chart, and a searchable, paginated order queue with fulfillment bars. ReUI Frame, Badge, DataGrid; shadcn Chart and Calendar.",
    "component": "dashboard",
-   "surface": null,
+   "surface": "analytics",
    "dependencies": [
     "@tanstack/react-table",
     "cn",
@@ -16353,7 +16353,7 @@
    "title": "Creator royalty payout dashboard with sweep-lane payout control and a sortable ledger DataGrid",
    "description": "Creator finance desk to clear royalties: command band with claimable balance, receipts vs buffer area chart, payout buffer progress and sweep lanes, plus a searchable ledger. ReUI Frame, Badge, DataGrid; shadcn Calendar, Select, DropdownMenu, Chart.",
    "component": "dashboard",
-   "surface": null,
+   "surface": "analytics",
    "dependencies": [
     "@tanstack/react-table",
     "date-fns",
@@ -16604,7 +16604,7 @@
    "title": "CRM contacts data grid with lead score bars, weekly engagement trends, pinned rows and CRUD sheets",
    "description": "Lead scoring contacts table for sales teams: an AND and OR Filters builder, pinned rows, Hot, Warm and Cold score bars, weekly engagement with a 4-week trend, view and edit sheets, bulk status, CSV export and Undo. ReUI DataGrid, Filters, Frame.",
    "component": "data-grid",
-   "surface": null,
+   "surface": "contact-us",
    "dependencies": [
     "@tanstack/react-table",
     "cn",
@@ -17375,7 +17375,7 @@
    "title": "Duplicate contact dialog with ranked match candidates, a Link button per row and create new",
    "description": "Dedupe modal before saving a contact: candidates ranked by match score with Strong, Likely and Weak badges, matched email and company marked, a Link button per row and a Create new fallback. Dialog, Item, Avatar, Empty, ReUI Badge.",
    "component": "modal",
-   "surface": null,
+   "surface": "contact-us",
    "dependencies": [
     "cn",
     "sonner"
@@ -18363,7 +18363,7 @@
    "title": "Tabbed user profile settings form with sticky audit rail and activity heatmap",
    "description": "Admin profile editor with Profile, Organizations, Security tabs, a sticky audit rail of IDs and timestamps, completion Progress, and activity heatmap. ReUI Badge with shadcn Card, Field, Combobox, Switch. For account settings, member detail pages.",
    "component": "form",
-   "surface": "settings-web-app",
+   "surface": "public-profile",
    "dependencies": [
     "@base-ui/react",
     "cn",
@@ -19246,7 +19246,7 @@
    "title": "Admin console top navbar with centered Cmd+K command search and a notifications popover feed",
    "description": "Admin top bar: brand, centered Cmd+K command search Dialog with Kbd hint, notifications Popover feed (avatars, actions, progress, ratings) and a user DropdownMenu with theme toggle. ReUI Badge, Rating.",
    "component": "navbar",
-   "surface": "search-mobile",
+   "surface": "admin-panel",
    "dependencies": [
     "cn",
     "next-themes"
@@ -19867,7 +19867,7 @@
    "title": "Admin settings page with line tabs spanning profile, members, permissions, and integrations",
    "description": "Tabbed workspace admin settings: profile form, member DataGrid with row actions, permission checkbox matrix, notification and integration toggles. Account settings, team admin, access control. ReUI DataGrid, Badge, Alert, shadcn Tabs, Switch, Card.",
    "component": "tabs",
-   "surface": "settings-web-app",
+   "surface": "admin-panel",
    "dependencies": [
     "@base-ui/react",
     "@tanstack/react-table",
@@ -21035,7 +21035,7 @@
    "title": "AI Agent Operations Dashboard with Run Queue, Throughput Chart and Incident Timeline",
    "description": "Full-page console to monitor autonomous agent runs, approval backlogs, tool reliability and incidents. KPI cards, throughput chart, incident timeline, filterable run queue with row actions. ReUI Frame, DataGrid, Badge; shadcn Chart. Agent ops.",
    "component": "agent-card",
-   "surface": null,
+   "surface": "analytics",
    "dependencies": [
     "@tanstack/react-table",
     "cn",
@@ -21177,7 +21177,7 @@
    "title": "AI Operations Dashboard with Provider Failover Timeline and Token Activity Chart",
    "description": "Full-page LLM ops dashboard for provider health, token usage, routing rules, and safety drift: metric cards, failover timeline, token activity chart, routing grid. ReUI Frame, Timeline, DataGrid, Badge; shadcn Button, Chart. Admin panel, monitoring.",
    "component": "dashboard",
-   "surface": null,
+   "surface": "analytics",
    "dependencies": [
     "@tanstack/react-table",
     "cn",
@@ -21288,7 +21288,7 @@
    "title": "AI Ops Cost Dashboard with Spend Pace Chart and Tabbed Provider Cost Grid",
    "description": "Tracks AI model spend, token volume, and budget alerts with KPI cards, a spend-vs-budget line chart, provider mix breakdown, and a tabbed cost-event grid. ReUI Badge, Data Grid; shadcn Card, Tabs, Chart. For AI ops, cost monitoring, budgets.",
    "component": "dashboard",
-   "surface": null,
+   "surface": "analytics",
    "dependencies": [
     "@tanstack/react-table",
     "cn",
@@ -21626,7 +21626,7 @@
    "title": "Sales Pipeline CRM Dashboard with Metric Charts and Open-Deals Grid",
    "description": "Sales pipeline command center tracking pipeline value, forecast, and win rate via metric charts, plus a dense open-deals grid for search, sort, stage filters, and row actions. ReUI Badge, DataGrid; shadcn Card, Button, Avatar. CRM sales dashboard.",
    "component": "dashboard",
-   "surface": null,
+   "surface": "analytics",
    "dependencies": [
     "@tanstack/react-table",
     "cn",
@@ -21654,7 +21654,7 @@
    "title": "CRM Contacts Grid with Bulk Owner Assignment and Detail Sheet",
    "description": "Full-page contacts directory for sales teams. Sort and filter rows, multi-select for bulk owner assignment or add-to-list, open a contact detail sheet. ReUI DataGrid, Filters, Frame, Badge; shadcn Button, Avatar, Sheet, Select. CRM, leads, accounts.",
    "component": "data-grid",
-   "surface": null,
+   "surface": "contact-us",
    "dependencies": [
     "@tanstack/react-table",
     "cn",
@@ -21902,7 +21902,7 @@
    "title": "SKU Inventory Operations Dashboard with Stock-Health Bar and Tabbed SKU Grid",
    "description": "Full-page inventory ops dashboard: KPI stat tiles, stock-health status bar, velocity chart, low-stock alerts, and a tabbed, filterable SKU table. ReUI Frame, Badge, DataGrid; shadcn Button, Tabs, Chart. For warehouse, stock, and ecommerce ops.",
    "component": "dashboard",
-   "surface": null,
+   "surface": "analytics",
    "dependencies": [
     "@tanstack/react-table",
     "cn",
@@ -21983,7 +21983,7 @@
    "title": "Shop Activity Dashboard",
    "description": "Inventory dashboard: 4 KPI stat tiles + inventory velocity bar chart + top categories list + tabbed shop activity table (Products / Recent activities / Orders). Composed by adapting existing application blocks (stats-1, chart-29, list-1) into a single shop-management surface.",
    "component": "dashboard",
-   "surface": null,
+   "surface": "analytics",
    "dependencies": [
     "@tanstack/react-table",
     "cn",

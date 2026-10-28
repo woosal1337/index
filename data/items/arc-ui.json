@@ -453,7 +453,7 @@
    "title": "Contact section",
    "description": "A validated contact form that morphs into a confirmation, support channels, and office cards with local times.",
    "component": "section",
-   "surface": null,
+   "surface": "contact-us",
    "dependencies": [
     "lucide-react",
     "motion"
@@ -990,7 +990,7 @@
    "title": "Newsletter signup",
    "description": "An email signup framed by a stack of past issues; subscribing drops the next issue, addressed to you, onto the front.",
    "component": null,
-   "surface": null,
+   "surface": "sign-up",
    "dependencies": [
     "lucide-react",
     "motion"
@@ -1346,7 +1346,7 @@
    "title": "Sign in",
    "description": "A sign in card that morphs from email to a six digit code to your account.",
    "component": null,
-   "surface": null,
+   "surface": "login-website",
    "dependencies": [
     "lucide-react",
     "motion"

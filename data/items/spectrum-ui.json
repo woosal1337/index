@@ -760,7 +760,7 @@
    "title": "Contact Card Footer",
    "description": "Copyable email, phone and address rows with opening hours and local time.",
    "component": "card",
-   "surface": null,
+   "surface": "contact-us",
    "dependencies": [],
    "url": "https://ui.spectrumhq.in/r/contact-card-footer.json"
   },
@@ -2293,7 +2293,7 @@
    "title": "Page Not Found",
    "description": "A 404 that prints the path it tried and filters real destinations as you type.",
    "component": "error-page",
-   "surface": null,
+   "surface": "404",
    "dependencies": [
     "motion"
    ],

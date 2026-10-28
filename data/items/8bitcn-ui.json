@@ -283,7 +283,7 @@
    "title": "8-bit Dashboard 01",
    "description": "A complete 8-bit styled dashboard with sidebar navigation, stats cards, charts, and data table with drag-and-drop functionality.",
    "component": "dashboard",
-   "surface": null,
+   "surface": "analytics",
    "dependencies": [
     "@dnd-kit/core",
     "@dnd-kit/sortable",
@@ -768,7 +768,7 @@
    "title": "8-bit Brick Breaker 404",
    "description": "A playable brick-breaker 404 page with keyboard, pointer, and touch controls.",
    "component": "error-page",
-   "surface": null,
+   "surface": "404",
    "dependencies": [],
    "url": "https://www.8bitcn.com/r/not-found-brick-breaker.json"
   },
@@ -778,7 +778,7 @@
    "title": "8-bit Crate Pusher 404",
    "description": "A randomized crate-pushing 404 page with 20 curated, solver-verified puzzles.",
    "component": "error-page",
-   "surface": null,
+   "surface": "404",
    "dependencies": [],
    "url": "https://www.8bitcn.com/r/not-found-crate-pusher.json"
   },
@@ -787,8 +787,8 @@
    "type": "block",
    "title": "8-bit 404 Page",
    "description": "Retro 404 page with pixel art character.",
-   "component": null,
-   "surface": null,
+   "component": "error-page",
+   "surface": "404",
    "dependencies": [],
    "url": "https://www.8bitcn.com/r/not-found1.json"
   },
@@ -798,7 +798,7 @@
    "title": "8-bit 404 Dwarf",
    "description": "Retro 404 page with pixel dwarf character.",
    "component": null,
-   "surface": null,
+   "surface": "404",
    "dependencies": [],
    "url": "https://www.8bitcn.com/r/not-found2.json"
   },
@@ -808,7 +808,7 @@
    "title": "8-bit 404 Undead",
    "description": "Cursed 404 page with pixel undead character.",
    "component": null,
-   "surface": null,
+   "surface": "404",
    "dependencies": [],
    "url": "https://www.8bitcn.com/r/not-found3.json"
   },

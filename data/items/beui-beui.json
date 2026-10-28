@@ -1153,7 +1153,7 @@
    "title": "404 / Not Found Glitch",
    "description": "Digits scramble through random glyphs before resolving, with a chromatic split on hover.",
    "component": "error-page",
-   "surface": null,
+   "surface": "404",
    "dependencies": [
     "clsx",
     "motion",
@@ -1167,7 +1167,7 @@
    "title": "404 / Not Found Magnetic",
    "description": "Each digit is cursor-attracted via the Magnetic wrapper and springs back on leave.",
    "component": "error-page",
-   "surface": null,
+   "surface": "404",
    "dependencies": [
     "clsx",
     "motion",
@@ -1181,7 +1181,7 @@
    "title": "404 / Not Found Spotlight",
    "description": "A dark panel where a cursor-tracked spotlight reveals the bright code from a dim base.",
    "component": "error-page",
-   "surface": null,
+   "surface": "404",
    "dependencies": [
     "clsx",
     "motion",
@@ -1195,7 +1195,7 @@
    "title": "404 / Not Found Stacked",
    "description": "A code card over a hidden stack that fans out with a spring on hover.",
    "component": "error-page",
-   "surface": null,
+   "surface": "404",
    "dependencies": [
     "clsx",
     "motion",
@@ -1209,7 +1209,7 @@
    "title": "404 / Not Found Terminal",
    "description": "A terminal window that types a failed cd command and a 404 status, with a blinking caret.",
    "component": "error-page",
-   "surface": null,
+   "surface": "404",
    "dependencies": [
     "clsx",
     "motion",

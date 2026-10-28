@@ -503,7 +503,7 @@
    "title": "Error Boundary",
    "description": "React error boundary with graceful terminal display",
    "component": "error-page",
-   "surface": null,
+   "surface": "error-500",
    "dependencies": [
     "ink"
    ],
@@ -1963,7 +1963,7 @@
    "title": "Error Boundary",
    "description": "React error boundary with graceful terminal display",
    "component": "error-page",
-   "surface": null,
+   "surface": "error-500",
    "dependencies": [
     "@opentui/react"
    ],

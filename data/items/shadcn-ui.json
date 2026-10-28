@@ -967,7 +967,7 @@
    "title": null,
    "description": "A dashboard with sidebar, charts and data table.",
    "component": "dashboard",
-   "surface": null,
+   "surface": "analytics",
    "dependencies": [
     "@dnd-kit/core",
     "@dnd-kit/modifiers",
@@ -1589,7 +1589,7 @@
    "title": null,
    "description": "A simple signup form.",
    "component": null,
-   "surface": null,
+   "surface": "sign-up",
    "dependencies": [],
    "url": "https://ui.shadcn.com/r/styles/new-york-v4/signup-01.json"
   },
@@ -1599,7 +1599,7 @@
    "title": null,
    "description": "A two column signup page with a cover image.",
    "component": null,
-   "surface": null,
+   "surface": "sign-up",
    "dependencies": [
     "cn"
    ],
@@ -1611,7 +1611,7 @@
    "title": null,
    "description": "A signup page with a muted background color.",
    "component": null,
-   "surface": null,
+   "surface": "sign-up",
    "dependencies": [
     "cn"
    ],
@@ -1623,7 +1623,7 @@
    "title": null,
    "description": "A signup page with form and image.",
    "component": null,
-   "surface": null,
+   "surface": "sign-up",
    "dependencies": [
     "cn"
    ],
@@ -1635,7 +1635,7 @@
    "title": null,
    "description": "A simple signup form with social providers.",
    "component": null,
-   "surface": null,
+   "surface": "sign-up",
    "dependencies": [
     "cn"
    ],

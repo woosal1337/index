@@ -98,7 +98,7 @@
    "title": "Clerk Next.js Quickstart — Sign-in-or-up (App Router)",
    "description": "A minimal Clerk quickstart for Next.js App Router with a single combined sign-in-or-up page (no separate sign-up route).",
    "component": null,
-   "surface": null,
+   "surface": "login-website",
    "dependencies": [
     "@clerk/nextjs",
     "@clerk/ui",
@@ -112,7 +112,7 @@
    "title": "Clerk Next.js Sign In Page (App Router)",
    "description": "A sign in page for Next.js App Router with Clerk authentication.",
    "component": null,
-   "surface": null,
+   "surface": "login-website",
    "dependencies": [
     "@clerk/nextjs"
    ],
