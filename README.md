@@ -35,7 +35,7 @@ The website and API use the same catalog. The endpoints are static, readable wit
 | [resources.json](https://index.chele.bi/api/resources.json) | Complete resource records |
 | [search.json](https://index.chele.bi/api/search.json) | Compact search index |
 | [indexes.json](https://index.chele.bi/api/indexes.json) | Component and surface mappings, plus facet counts |
-| [taxonomy.json](https://index.chele.bi/api/taxonomy.json) | Categories, kinds, facets, components, and surfaces |
+| [taxonomy.json](https://index.chele.bi/api/taxonomy.json) | Categories, kinds, facets, components, surfaces, and styles |
 | [stats.json](https://index.chele.bi/api/stats.json) | Current catalog counts and build date |
 | [showcase.json](https://index.chele.bi/api/showcase.json) | Site references and screenshot metadata |
 | [showcase-indexes.json](https://index.chele.bi/api/showcase-indexes.json) | Typeface and color indexes across site references |
