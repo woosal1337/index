@@ -1,4 +1,5 @@
 FROM node:24-slim
+RUN apt-get update && apt-get install -y --no-install-recommends curl && rm -rf /var/lib/apt/lists/*
 WORKDIR /app
 COPY server/package.json server/package-lock.json server/
 RUN npm ci --prefix server --omit=dev --no-audit --no-fund
