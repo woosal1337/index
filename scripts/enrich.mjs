@@ -263,6 +263,7 @@ async function pageStage() {
       title: page.data?.title || undefined,
       description: page.data?.description || undefined,
       textChars: page.data?.text.length ?? 0,
+      rendered: page.data?.rendered || undefined,
       checked: checked(page),
     };
   });
