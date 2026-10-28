@@ -1,5 +1,17 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    {
+      "source": "/categories/studios-portfolios",
+      "destination": "/studios/",
+      "permanent": true
+    },
+    {
+      "source": "/categories/studios-portfolios/",
+      "destination": "/studios/",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
       "source": "/og/:path*",

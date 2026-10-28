@@ -10,7 +10,7 @@ Index is a searchable catalog of design resources for designers, developers, and
 
 - Component libraries, design systems, UI kits, and templates.
 - Typography, icons, color tools, motion, textures, and other design assets.
-- Inspiration galleries, studio portfolios, artists, and site references.
+- Inspiration galleries, design studios, designer portfolios, artists, and site references.
 - Design tools for coding agents, with installation and integration details where available.
 - Essays and learning resources with source links and concise summaries.
 
@@ -23,6 +23,8 @@ Use the grid for visual previews or the list for a compact overview. Filter by c
 Resource pages combine source links with component coverage, pricing, license details, and evidence. Some pages also offer a structured prompt that you can copy into a coding agent. Unknown fields remain explicit instead of implying support.
 
 The interface has a sidebar, a grid view with infinite loading, a pannable canvas view, hover previews, a keyboard search palette, and light and dark themes.
+
+The Studios section lists design studios and agencies by discipline, and the Portfolios section lists personal designer sites. Both sections show the highest quality tier first. To add a studio, file its record in the `studios` category. To add a portfolio, file it in the `portfolios` category. A new subcategory in either category shows as a new group with no code change.
 
 ## Public data
 

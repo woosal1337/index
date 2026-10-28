@@ -75,6 +75,26 @@ export function TemplateIcon(props: Props) {
   );
 }
 
+export function StudioIcon(props: Props) {
+  return (
+    <Svg {...props}>
+      <path d="M4 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16" />
+      <path d="M16 9h2a2 2 0 0 1 2 2v10" />
+      <path d="M3 21h18M8 7h4M8 11h4M8 15h4" />
+    </Svg>
+  );
+}
+
+export function PortfolioIcon(props: Props) {
+  return (
+    <Svg {...props}>
+      <rect x="3" y="4" width="18" height="16" rx="2" />
+      <circle cx="9" cy="11" r="2.5" />
+      <path d="M5.5 17a3.5 3.5 0 0 1 7 0M15 9h3M15 13h3" />
+    </Svg>
+  );
+}
+
 export function BookIcon(props: Props) {
   return (
     <Svg {...props}>

@@ -15,8 +15,10 @@ import {
   GridDotsIcon,
   LayersIcon,
   LogoIcon,
+  PortfolioIcon,
   PuzzleIcon,
   SearchIcon,
+  StudioIcon,
   TagIcon,
   TemplateIcon,
 } from "./icons";
@@ -27,6 +29,8 @@ const NAV = [
   { href: "/components", label: "Components", Icon: PuzzleIcon, toggle: false },
   { href: "/surfaces", label: "Surfaces", Icon: LayersIcon, toggle: false },
   { href: "/templates", label: "Templates", Icon: TemplateIcon, toggle: false },
+  { href: "/studios", label: "Studios", Icon: StudioIcon, toggle: false },
+  { href: "/portfolios", label: "Portfolios", Icon: PortfolioIcon, toggle: false },
   { href: "/learn", label: "Learn", Icon: BookIcon, toggle: false },
 ];
 

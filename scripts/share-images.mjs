@@ -5,6 +5,7 @@ import { existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from "node
 import { tmpdir } from "node:os";
 import { dirname, join } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
+import { rankedGroups } from "../app/lib/ranked.ts";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const OUT = join(ROOT, "public/og/share");
@@ -80,6 +81,15 @@ const sections = [
   { key: "components", title: "Components", text: "Browse UI components and the libraries in Index that include them.", meta: `${count(stats.vocabComponents, "component", "components")} · ${count(stats.componentsTagged, "with resources", "with resources")}`, images: topImages(resources.filter((r) => r.category === "component-libraries"), 15) },
   { key: "surfaces", title: "Surfaces", text: "Browse app screens and flows, with checklists and resources to help you build them.", meta: `${count(stats.vocabSurfaces, "surface", "surfaces")} · ${count(stats.surfacesTagged, "with resources", "with resources")}`, images: topImages(resources.filter((r) => (r.surfaces || []).length), 15) },
   { key: "templates", title: "Templates", text: `${stats.templates.toLocaleString("en-US")} templates from design galleries and starter kits. Browse references and visit each source.`, meta: count(stats.templates, "template", "templates"), images: topImages(resources.filter((r) => r.category === "blocks-templates-themes" || r.category === "inspiration-galleries"), 15) },
+  (() => {
+    const groups = rankedGroups(resources, categories, "studios");
+    const studios = groups.flatMap((g) => g.items);
+    return { key: "studios", title: "Studios", text: "Design studios and agencies, grouped by discipline and ranked by quality tier, as benchmarks for craft and positioning.", meta: `${count(studios.length, "studio", "studios")} · ${count(groups.length, "discipline", "disciplines")}`, images: topImages(studios, 15) };
+  })(),
+  (() => {
+    const portfolios = rankedGroups(resources, categories, "portfolios").flatMap((g) => g.items);
+    return { key: "portfolios", title: "Portfolios", text: "Personal sites of individual designers, ranked by quality tier, as references for case studies, interaction work, and visual voice.", meta: count(portfolios.length, "portfolio", "portfolios"), images: topImages(portfolios, 15) };
+  })(),
   { key: "learn", title: "Learn", text: "Curated reading paths for design practice, with source links, key lessons, and guidance for applying each resource.", meta: count(resources.filter((r) => r.category === "essays-guides-courses").length, "reading resource", "reading resources"), images: topImages(resources.filter((r) => r.category === "essays-guides-courses"), 15) },
 ];
 for (const s of sections) specs.push({ ...s, layout: "section", images: fill(s.images, 15) });
