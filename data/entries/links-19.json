@@ -3,6 +3,7 @@
     "id": "689fde4c-e94e-4bd8-993b-5658bdfd0e67",
     "slug": "spell-ui-repo",
     "url": "https://github.com/xxtomm/spell-ui",
+    "same_as": "7863a6b2-a81c-4e66-8e38-331da11a3741",
     "name": "Spell UI (source repo)",
     "tagline": "MIT source for Spell UI: 33 React/Tailwind components served as a shadcn registry",
     "description": "The GitHub monorepo behind spell.sh. It holds the component source under registry/spell-ui plus the registry.json that the shadcn CLI resolves, so you can read the real implementation before you install it or vendor the files directly. The catalog is small and skewed toward motion: text reveals, animated buttons, WebGL backgrounds, and a handful of embeds (Tweet, Spotify card, QR code). MIT, 1,051 stars, and actively pushed as of August 2026.",
@@ -116,6 +117,7 @@
     "id": "fd00f98c-7787-45bb-a92a-239b1ecb491c",
     "slug": "spell-ui",
     "url": "https://spell.sh/docs/components",
+    "same_as": "7863a6b2-a81c-4e66-8e38-331da11a3741",
     "name": "Spell UI",
     "tagline": "33 animated React components — text reveals, WebGL backgrounds, embeds — via shadcn CLI",
     "description": "Spell UI is a copy-paste React and Tailwind collection built around motion rather than structure. The component index groups its 33 items into seven sections: Components, Text Animations, Buttons, Inputs, Feedback, Backgrounds, and Interactive. Most items are one self-contained file that depends on motion; a few reach further (three for Light Rays, opentype.js for Signature, react-tweet for Tweet). It installs through the shadcn CLI or through the shadcn MCP server using the @spell namespace.",
@@ -232,6 +234,7 @@
     "id": "3fb4976d-da7b-4d0a-b7a9-95bdcad8c9ee",
     "slug": "aceternity-ui-on-21st",
     "url": "https://21st.dev/community/aceternity",
+    "same_as": "9871b26b-a9e3-4c67-a768-b3ff3d7448a4",
     "name": "Aceternity UI on 21st.dev",
     "tagline": "All 84 Aceternity components browsable side by side with copy-prompt and CLI install",
     "description": "The 21st.dev mirror of Manu Arora's Aceternity UI — 84 animated React and Tailwind components built on Motion, with 15.7M views and 66.4K bookmarks on this profile. 21st.dev wraps them in a comparison grid, a copy-the-TSX button, an AI-ready prompt for Cursor/Claude Code, and shadcn CLI install, so you can evaluate several visual treatments before committing to one. The catalog is landing-page heavy: hero effects, backgrounds, card treatments, text animations, and scroll choreography.",
@@ -370,6 +373,7 @@
     "id": "fcb624e2-80fb-48c1-98ff-cc58c3c38864",
     "slug": "shadcn-registry-directory",
     "url": "https://ui.shadcn.com/docs/directory",
+    "part_of": "ef2e1912-407e-4402-8a6d-78669e0b0246",
     "name": "shadcn Registry Directory",
     "tagline": "277 community shadcn registries, machine-readable at /r/registries.json",
     "description": "The official index of third-party shadcn registries. Every listed registry is built into the CLI with no configuration, so `npx shadcn add @<registry>/<component>` resolves straight away — @aceternity, @magicui, @cult-ui, @kokonutui, @neobrutalism, @kibo-ui, @shadcnblocks, @ai-elements, @spell, @8bitcn and 267 more. The rendered page is a client-side grid, but the same data is served as a flat JSON array at https://ui.shadcn.com/r/registries.json with name, homepage, URL template, and description per entry. The page also links the docs for running your own registry, namespaces, authentication, and the shadcn MCP server.",
@@ -437,7 +441,13 @@
     "package": "shadcn",
     "docs_url": "https://ui.shadcn.com/docs/directory",
     "repo_url": "https://github.com/shadcn-ui/ui",
-    "registry_url": "https://ui.shadcn.com/r/registries.json",
+    "registry_url": null,
+    "machine_urls": [
+      {
+        "kind": "catalog",
+        "url": "https://ui.shadcn.com/r/registries.json"
+      }
+    ],
     "github": {
       "stars": 121000,
       "license": "MIT",
@@ -487,7 +497,7 @@
         "tailwind-any"
       ],
       "license": [
-        "unknown"
+        "not-applicable"
       ],
       "pricing": [
         "free"
@@ -566,8 +576,8 @@
         "next"
       ],
       "styling": [
-        "tailwind-any",
-        "css-variables"
+        "css-variables",
+        "tailwind-v4"
       ],
       "license": [
         "mit"

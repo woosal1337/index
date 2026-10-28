@@ -6,18 +6,9 @@ import { useRouter } from "next/navigation";
 import { labelize } from "../lib/text";
 import type { Tier } from "../lib/types";
 import { OA_EVENTS, track } from "../lib/analytics";
+import { rankPalette, type SearchItem as Item } from "../lib/search";
 import { catStyle, TierBadge } from "./primitives";
 import { SearchIcon } from "./icons";
-
-type Item = {
-  s: string;
-  n: string;
-  t: string;
-  c: string;
-  tr: string;
-  d: string;
-  h: string;
-};
 
 const OPEN = "di:open-palette";
 export function openPalette() {
@@ -94,27 +85,7 @@ export default function CommandPalette({ categoryNames = {} }: { categoryNames?:
     };
   }, [open]);
 
-  const results = useMemo(() => {
-    const list = items ?? [];
-    const needle = q.trim().toLowerCase();
-    if (!needle) return list.slice(0, 12);
-    const words = needle.split(/\s+/).filter(Boolean);
-    const scored: { it: Item; s: number }[] = [];
-    for (const it of list) {
-      const n = it.n.toLowerCase();
-      let s = -1;
-      if (n === needle) s = 1000;
-      else if (n.startsWith(needle)) s = 500;
-      else if (n.includes(needle)) s = 300;
-      else if (it.d.includes(needle)) s = 200;
-      else if ((it.t || "").toLowerCase().includes(needle)) s = 100;
-      else if (it.c.includes(needle)) s = 60;
-      else if ((it.h || "").includes(needle)) s = 40;
-      else if (words.length > 1 && words.every((w) => (it.h || "").includes(w))) s = 20;
-      if (s >= 0) scored.push({ it, s });
-    }
-    return scored.sort((a, b) => b.s - a.s).slice(0, 20).map((x) => x.it);
-  }, [q, items]);
+  const results = useMemo(() => rankPalette(items ?? [], q), [q, items]);
 
   useEffect(() => setActive(0), [q]);
 

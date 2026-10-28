@@ -1,0 +1,115 @@
+{
+ "resource_id": "b317ac08-d45c-474f-9e60-f282b4a7597b",
+ "registry_url": "https://www.mapcn.dev/r/registry.json",
+ "install_verified": true,
+ "checked": "2026-10-23",
+ "items": [
+  {
+   "name": "analytics-card",
+   "type": "block",
+   "title": "Analytics Card",
+   "description": "Compact analytics card with a headline metric over a world map.",
+   "component": "card",
+   "surface": "analytics",
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://www.mapcn.dev/r/analytics-card.json"
+  },
+  {
+   "name": "analytics-map",
+   "type": "block",
+   "title": "Analytics Map",
+   "description": "Real-time analytics overview with a world map, breakdown cards, and device stats.",
+   "component": "map",
+   "surface": "analytics",
+   "dependencies": [
+    "recharts",
+    "lucide-react"
+   ],
+   "url": "https://www.mapcn.dev/r/analytics-map.json"
+  },
+  {
+   "name": "choropleth",
+   "type": "block",
+   "title": "Choropleth",
+   "description": "World choropleth map shading countries by a metric, with a hover tooltip and legend.",
+   "component": "choropleth",
+   "surface": null,
+   "dependencies": [
+    "next-themes"
+   ],
+   "url": "https://www.mapcn.dev/r/choropleth.json"
+  },
+  {
+   "name": "delivery-tracker",
+   "type": "block",
+   "title": "Delivery Tracker",
+   "description": "Live order tracking with route progress, courier position, and order details.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "next-themes"
+   ],
+   "url": "https://www.mapcn.dev/r/delivery-tracker.json"
+  },
+  {
+   "name": "heatmap",
+   "type": "block",
+   "title": "Heatmap",
+   "description": "Globe-projected heatmap visualizing earthquake density with zoom-dependent styling.",
+   "component": "heatmap",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.mapcn.dev/r/heatmap.json"
+  },
+  {
+   "name": "logistics-network",
+   "type": "block",
+   "title": "Logistics Network",
+   "description": "Domestic logistics map with a sidebar of stats.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://www.mapcn.dev/r/logistics-network.json"
+  },
+  {
+   "name": "map",
+   "type": "ui",
+   "title": "Map",
+   "description": "A MapLibre-powered map component with markers, popups, tooltips, routes, and controls.",
+   "component": "map",
+   "surface": null,
+   "dependencies": [
+    "maplibre-gl@^6",
+    "lucide-react"
+   ],
+   "url": "https://www.mapcn.dev/r/map.json"
+  },
+  {
+   "name": "store-locator",
+   "type": "block",
+   "title": "Store Locator",
+   "description": "Searchable store list synced with map markers.",
+   "component": "store-locator",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://www.mapcn.dev/r/store-locator.json"
+  },
+  {
+   "name": "uptime-monitor",
+   "type": "block",
+   "title": "Uptime Monitor",
+   "description": "Status-page style map of edge network locations with live health, latency, and uptime.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.mapcn.dev/r/uptime-monitor.json"
+  }
+ ]
+}

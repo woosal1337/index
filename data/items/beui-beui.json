@@ -1,0 +1,2125 @@
+{
+ "resource_id": "45ebcb39-e253-4125-aaba-1dfa43cc1e3f",
+ "registry_url": "https://beui.dev/r/registry.json",
+ "install_verified": true,
+ "checked": "2026-10-23",
+ "items": [
+  {
+   "name": "action-swap-blur",
+   "type": "component",
+   "title": "Action Swap Blur",
+   "description": "Copy-button style swap with blur, opacity and scale.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/action-swap-blur.json"
+  },
+  {
+   "name": "action-swap-cascade",
+   "type": "component",
+   "title": "Action Swap Cascade",
+   "description": "Letter-by-letter slot roll — the old label's letters drop away as the new ones land, left to right.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/action-swap-cascade.json"
+  },
+  {
+   "name": "action-swap-roll",
+   "type": "component",
+   "title": "Action Swap Roll",
+   "description": "The next text or icon rolls in from below with blur.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/action-swap-roll.json"
+  },
+  {
+   "name": "adaptive-stepper",
+   "type": "component",
+   "title": "Adaptive Stepper",
+   "description": "Composable numeric stepper whose fixed footprint adapts at its minimum and maximum while the value rolls between steps.",
+   "component": "quantity-stepper",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/adaptive-stepper.json"
+  },
+  {
+   "name": "agent-activity",
+   "type": "component",
+   "title": "Agent Activity",
+   "description": "One adaptive activity stream for reasoning, searches, tool calls, structured execution traces, or a chronological mix.",
+   "component": "agent-card",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/agent-activity.json"
+  },
+  {
+   "name": "agent-progress",
+   "type": "component",
+   "title": "Agent Loading States Agent Progress",
+   "description": "A compact activity glyph, action verb, and live tabular timer for longer-running agent work.",
+   "component": "agent-card",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/agent-progress.json"
+  },
+  {
+   "name": "ai-sidebar",
+   "type": "component",
+   "title": "AI Sidebar",
+   "description": "A collapsible AI workspace sidebar for folders, projects, files, and bookmarks with keyboard navigation, optimistic moves, inline rename, and overflow-aware labels.",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/ai-sidebar.json"
+  },
+  {
+   "name": "alert",
+   "type": "component",
+   "title": "Animated Alert",
+   "description": "Composable feedback with smooth transitions.",
+   "component": "alert",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/alert.json"
+  },
+  {
+   "name": "animated-badge",
+   "type": "component",
+   "title": "Animated Badge",
+   "description": "Status badge with animated state icons, pulse feedback and compact size variants.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/animated-badge.json"
+  },
+  {
+   "name": "animated-number",
+   "type": "component",
+   "title": "Number Animation Animated Number",
+   "description": "Spring-driven count-up triggered when in view.",
+   "component": "animation",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/animated-number.json"
+  },
+  {
+   "name": "animated-sidebar",
+   "type": "component",
+   "title": "Animated Sidebar",
+   "description": "A composable application sidebar with morphing nested navigation that folds into an animated icon rail on desktop and becomes a focus-managed sheet on mobile.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/animated-sidebar.json"
+  },
+  {
+   "name": "animated-toast-stack",
+   "type": "component",
+   "title": "Animated Toast Stack",
+   "description": "Stacked toasts with status morphs, swipe dismissal, actions and layout-aware motion.",
+   "component": "toast",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/animated-toast-stack.json"
+  },
+  {
+   "name": "approval-card",
+   "type": "component",
+   "title": "Approval Card",
+   "description": "A human-in-the-loop decision surface for approvals, single or multiple-choice questions, custom responses, and multi-step review flows.",
+   "component": "card",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/approval-card.json"
+  },
+  {
+   "name": "arc-picker",
+   "type": "component",
+   "title": "Arc Picker",
+   "description": "Radial text picker with top, bottom, left or right curves, smooth wheel movement and live selection on each scroll step. One persistent bracket frame grows and squeezes around each label. Supports drag momentum, keyboard input, disabled choices, controlled or uncontrolled values, forms and reduced motion.",
+   "component": "select",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/arc-picker.json"
+  },
+  {
+   "name": "aspect-ratio",
+   "type": "component",
+   "title": "Aspect Ratio",
+   "description": "Responsive media with smooth aspect ratio transitions.",
+   "component": "aspect-ratio",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/aspect-ratio.json"
+  },
+  {
+   "name": "attachment-upload",
+   "type": "block",
+   "title": "File Upload Attachment Upload",
+   "description": "A mixed attachment workspace with a dropzone, staggered file and image rows, animated upload, success, failure, retry and removal feedback, shared-layout image previews, and an audio waveform.",
+   "component": "file-upload",
+   "surface": null,
+   "dependencies": [
+    "@floating-ui/dom",
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/attachment-upload.json"
+  },
+  {
+   "name": "availability-scheduler",
+   "type": "block",
+   "title": "Availability Scheduler",
+   "description": "Weekly availability editor where each day springs between available and unavailable, time ranges add and remove with blur-slide motion, times pick from a scrollable dropdown, and a copy menu clones hours to other days.",
+   "component": "stock-indicator",
+   "surface": null,
+   "dependencies": [
+    "@floating-ui/dom",
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/availability-scheduler.json"
+  },
+  {
+   "name": "bloom-menu",
+   "type": "block",
+   "title": "Bloom Menu",
+   "description": "A button that morphs open into a menu and blooms iris-out from the center, the grid revealing in every direction with radially staggered items.",
+   "component": "dropdown-menu",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/bloom-menu.json"
+  },
+  {
+   "name": "bottom-sheet",
+   "type": "component",
+   "title": "Bottom Sheet",
+   "description": "Vaul-inspired draggable bottom sheet with snap points, inertia and glass surface.",
+   "component": "sheet",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/bottom-sheet.json"
+  },
+  {
+   "name": "bounce-sidebar",
+   "type": "component",
+   "title": "Bounce Sidebar",
+   "description": "A vertical sidebar whose active dot jumps between destinations on a curved, spring-loaded path.",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/bounce-sidebar.json"
+  },
+  {
+   "name": "bouncy-accordion",
+   "type": "component",
+   "title": "Bouncy Accordion",
+   "description": "Single-open accordion with weighted spring layout, icon rows and reduced-motion-safe content reveals.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/bouncy-accordion.json"
+  },
+  {
+   "name": "breadcrumb",
+   "type": "component",
+   "title": "Animated Breadcrumb",
+   "description": "Composable breadcrumb navigation with soft path transitions, a hoverable overflow dropdown for long trails, custom separators, and router-link support.",
+   "component": "breadcrumbs",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/breadcrumb.json"
+  },
+  {
+   "name": "bump-chart",
+   "type": "component",
+   "title": "Bump Chart",
+   "description": "Animated rankings with curved paths, interactive rank dots, and tooltips.",
+   "component": "chart",
+   "surface": null,
+   "dependencies": [
+    "@floating-ui/dom",
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/bump-chart.json"
+  },
+  {
+   "name": "button-base",
+   "type": "component",
+   "title": "Button Button",
+   "description": "Press scale, hover lift, variants and sizes.",
+   "component": "button",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/button-base.json"
+  },
+  {
+   "name": "button-magnetic",
+   "type": "component",
+   "title": "Button Magnetic Button",
+   "description": "Button composed with the Magnetic wrapper for cursor-attracted pull.",
+   "component": "button",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/button-magnetic.json"
+  },
+  {
+   "name": "button-metallic",
+   "type": "component",
+   "title": "Button Metallic Button",
+   "description": "A neutral button surface framed by a pronounced chrome rim with a straight traveling reflection.",
+   "component": "button",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/button-metallic.json"
+  },
+  {
+   "name": "button-stateful",
+   "type": "component",
+   "title": "Button Stateful Button",
+   "description": "Idle → loading → success / error with blur-swap slots and morphing width.",
+   "component": "button",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/button-stateful.json"
+  },
+  {
+   "name": "candlestick-chart",
+   "type": "component",
+   "title": "Candlestick Chart",
+   "description": "Live OHLC candles with volume, a last-price line, and a crosshair readout.",
+   "component": "candlestick-chart",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/candlestick-chart.json"
+  },
+  {
+   "name": "card",
+   "type": "component",
+   "title": "Card",
+   "description": "Composable card with header, title, description, action, content and footer parts. Outlined or muted surfaces, standard or compact spacing, and an opt-in selectable state with press feedback that composes with Checkbox, Radio and Button.",
+   "component": "card",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/card.json"
+  },
+  {
+   "name": "card-folder",
+   "type": "block",
+   "title": "Card Folder",
+   "description": "A landscape card tucked into a stitched purse pocket that lifts forward as the purse compresses into its bottom seam, with controlled open and card-detail visibility plus a separate overflow action.",
+   "component": "card",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/card-folder.json"
+  },
+  {
+   "name": "center-morph-modal",
+   "type": "component",
+   "title": "Center Morph Modal",
+   "description": "A composable modal whose full-size surface unfolds from its exact center toward every edge, then folds back the same way with an inset close control.",
+   "component": "center",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/center-morph-modal.json"
+  },
+  {
+   "name": "chat-app",
+   "type": "component",
+   "title": "Chat App",
+   "description": "A complete agent conversation workspace composing navigation, messages, streaming, planning, approvals, tools, code, diffs, generated media, sources, and prompt input.",
+   "component": "conversation",
+   "surface": "chat-mobile",
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "shiki",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/chat-app.json"
+  },
+  {
+   "name": "checkbox",
+   "type": "component",
+   "title": "Checkbox",
+   "description": "Form choice control with a draw-on checkmark, spring press feedback and indeterminate state support.",
+   "component": "checkbox",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/checkbox.json"
+  },
+  {
+   "name": "chromatic-text-reveal",
+   "type": "component",
+   "title": "Text Animation Dia Text Animation",
+   "description": "A Dia-inspired text effect with a fixed sentence prefix and a cycling final word revealed by a colorful sweep.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/chromatic-text-reveal.json"
+  },
+  {
+   "name": "citations",
+   "type": "component",
+   "title": "Citations",
+   "description": "Inline citation markers paired with a collapsible, progressively rendered reference collection for grounded agent responses.",
+   "component": "sources",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/citations.json"
+  },
+  {
+   "name": "code-block",
+   "type": "component",
+   "title": "Code Block",
+   "description": "A syntax-highlighted code surface with stable streaming updates, line numbers, focused lines, smooth following, and copy feedback.",
+   "component": "code-block",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "shiki",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/code-block.json"
+  },
+  {
+   "name": "collapsible",
+   "type": "component",
+   "title": "Animated Collapsible",
+   "description": "Expandable content with a smooth reveal.",
+   "component": "collapsible",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/collapsible.json"
+  },
+  {
+   "name": "color-picker",
+   "type": "component",
+   "title": "Color Picker",
+   "description": "Composable color picker whose trigger chip morphs into the saturation and brightness area. A loupe lifts off each thumb while you drag. Includes hue and opacity sliders, hex, RGB and HSL fields, an eye dropper, presets, full keyboard control, and a controlled or uncontrolled value.",
+   "component": "color-picker",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/color-picker.json"
+  },
+  {
+   "name": "color-selector",
+   "type": "component",
+   "title": "Animated Color Selector",
+   "description": "Composable color swatches with a spring-gliding selection ring, press feedback, native radio keyboard navigation, and controlled or uncontrolled state.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/color-selector.json"
+  },
+  {
+   "name": "combobox",
+   "type": "component",
+   "title": "Combobox",
+   "description": "Searchable combobox with a morphing portal, grouped filtering, keyboard navigation, and controlled or uncontrolled state.",
+   "component": "combobox",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/combobox.json"
+  },
+  {
+   "name": "command-palette",
+   "type": "block",
+   "title": "Command Palette",
+   "description": "⌘K palette with fuzzy filter, spring-animated active row and glass surface.",
+   "component": "command-palette",
+   "surface": "command-palette",
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/command-palette.json"
+  },
+  {
+   "name": "composition-chart",
+   "type": "component",
+   "title": "Composition Chart",
+   "description": "Stacked bar and area shares with period tooltips and a compact interactive legend.",
+   "component": "chart",
+   "surface": null,
+   "dependencies": [
+    "@floating-ui/dom",
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/composition-chart.json"
+  },
+  {
+   "name": "context-menu",
+   "type": "component",
+   "title": "Animated Context Menu",
+   "description": "Composable context-menu primitives with a pointer-origin clip morph, a gliding active row, checkbox and radio choices, keyboard navigation, typeahead, and long-press support.",
+   "component": "context-menu",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/context-menu.json"
+  },
+  {
+   "name": "cylinder-carousel",
+   "type": "component",
+   "title": "Cylinder Carousel",
+   "description": "A carousel whose items line the inside of a cylinder, receding into the center and growing toward the edges. Drag, scroll or arrow-key to roll it, with a springy glide and snap. Reduced-motion drops the glide.",
+   "component": "carousel",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/cylinder-carousel.json"
+  },
+  {
+   "name": "date-range-picker",
+   "type": "component",
+   "title": "Date Range Picker",
+   "description": "Composable date range picker with root, trigger, popover content, calendar, header, grid, summary, footer, clear and preset parts, plus a shared state hook. Compact inline and dropdown compositions, direct month and year selection, and full keyboard navigation.",
+   "component": "date-range-picker",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/date-range-picker.json"
+  },
+  {
+   "name": "digit-swap",
+   "type": "component",
+   "title": "Number Animation Digit Swap",
+   "description": "Fixed-slot digits and mask glyphs that roll on change with controllable direction, stagger, replay, and suffix emphasis.",
+   "component": "animation",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/digit-swap.json"
+  },
+  {
+   "name": "dock",
+   "type": "component",
+   "title": "Dock",
+   "description": "macOS-style dock with grouped actions and a gliding active pill.",
+   "component": "dock",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/dock.json"
+  },
+  {
+   "name": "donut-chart",
+   "type": "component",
+   "title": "Donut Chart",
+   "description": "Rounded share segments with a linked center readout and legend.",
+   "component": "pie-chart",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/donut-chart.json"
+  },
+  {
+   "name": "drawer",
+   "type": "component",
+   "title": "Drawer",
+   "description": "Side panel that slides in from the left or right with a spring, backdrop blur, body scroll lock and esc-to-close.",
+   "component": "drawer",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/drawer.json"
+  },
+  {
+   "name": "dynamic-island",
+   "type": "block",
+   "title": "Dynamic Island",
+   "description": "iOS-style island pill that morphs between live activity views with bouncy shell resize and blur crossfades.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/dynamic-island.json"
+  },
+  {
+   "name": "expandable-action-bar",
+   "type": "block",
+   "title": "Expandable Action Bar",
+   "description": "Compact icon actions that expand into labeled controls on hover or focus with shared layout motion.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/expandable-action-bar.json"
+  },
+  {
+   "name": "expandable-control",
+   "type": "component",
+   "title": "Expandable Control",
+   "description": "Click-to-expand button and chip controls that reveal a label or trailing action through spring layout continuity.",
+   "component": "accordion",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/expandable-control.json"
+  },
+  {
+   "name": "expandable-tabs",
+   "type": "block",
+   "title": "Expandable Tabs",
+   "description": "Icon tab bar where the active tab expands to a labelled pill, with a panel above that morphs height and slides content direction-aware on switch.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/expandable-tabs.json"
+  },
+  {
+   "name": "expanding-arrow-button",
+   "type": "component",
+   "title": "Animated CTA Buttons Expanding Arrow Button",
+   "description": "An accent tile that expands into a dotted-arrow trail on hover or focus.",
+   "component": "button",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/expanding-arrow-button.json"
+  },
+  {
+   "name": "feedback-widget",
+   "type": "block",
+   "title": "Feedback Widget",
+   "description": "Corner trigger that morphs open into a feedback popup with message entry and animated sending, success and retry states.",
+   "component": "survey",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/feedback-widget.json"
+  },
+  {
+   "name": "file-diff",
+   "type": "component",
+   "title": "File Diff",
+   "description": "A syntax-highlighted file change disclosure with progressive rows, line numbers, live change counts, smooth following, and completion collapse.",
+   "component": "file-card",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "shiki",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/file-diff.json"
+  },
+  {
+   "name": "file-tree",
+   "type": "component",
+   "title": "File Tree",
+   "description": "Composable file and folder primitives with springing branches, a gliding selection, and complete keyboard navigation.",
+   "component": "file-tree",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/file-tree.json"
+  },
+  {
+   "name": "file-upload",
+   "type": "block",
+   "title": "File Upload Upload Queue",
+   "description": "A drag-and-drop upload queue with progress rows, upload states, retry, and removal.",
+   "component": "file-upload",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/file-upload.json"
+  },
+  {
+   "name": "funnel-chart",
+   "type": "component",
+   "title": "Funnel Chart",
+   "description": "Vertical and horizontal funnels with curved stages and animated number tooltips.",
+   "component": "funnel-chart",
+   "surface": null,
+   "dependencies": [
+    "@floating-ui/dom",
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/funnel-chart.json"
+  },
+  {
+   "name": "heat-calendar",
+   "type": "component",
+   "title": "Heat Calendar",
+   "description": "Composable activity calendar with Grid, Legend, and Tooltip parts, controlled range selection, and UTC calendar dates. Supply weekly intensities to visualize activity and total a selected span.",
+   "component": "calendar",
+   "surface": null,
+   "dependencies": [
+    "@floating-ui/dom",
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/heat-calendar.json"
+  },
+  {
+   "name": "hold-action-button",
+   "type": "component",
+   "title": "Animated CTA Buttons Hold Action Button",
+   "description": "Hold to complete with a vertical or horizontal liquid fill; release early to cancel.",
+   "component": "floating-action-button",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/hold-action-button.json"
+  },
+  {
+   "name": "image-generation",
+   "type": "component",
+   "title": "Image Generation",
+   "description": "A stable generated-image surface that moves from queued work through progressive refinement to a completed result without layout shift.",
+   "component": "image",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/image-generation.json"
+  },
+  {
+   "name": "infinite-masonry",
+   "type": "block",
+   "title": "Infinite Masonry",
+   "description": "Responsive virtualized masonry that measures variable-height cards and loads more data as the user nears the end.",
+   "component": "masonry",
+   "surface": null,
+   "dependencies": [
+    "@tanstack/react-virtual",
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/infinite-masonry.json"
+  },
+  {
+   "name": "input",
+   "type": "component",
+   "title": "Input",
+   "description": "Text input with label, left/right icons, optional stable error row, error shake and success check draw.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/input.json"
+  },
+  {
+   "name": "knockout-bracket",
+   "type": "block",
+   "title": "Fixtures Knockout Bracket",
+   "description": "Pages one round at a time. The leftmost round stacks at a fixed rhythm, each later round centers between its two feeder matches, and cards, elbow connectors, headers and stage height animate into every new layout. A third place play-off sits below the tree under its own rule. Round names, team artwork, dates and result chips all come from the data you pass.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/knockout-bracket.json"
+  },
+  {
+   "name": "knockout-wheel",
+   "type": "block",
+   "title": "Fixtures Knockout Wheel",
+   "description": "The tournament drawn radially. The champion holds the hub, each round is a ring further out, and the teams themselves form the rim. Nodes spring in ring by ring, and hovering one isolates that team while the rest recede. Teams show a flag, a logo or their initials, and a deeper draw grows another ring.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@floating-ui/dom",
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/knockout-wheel.json"
+  },
+  {
+   "name": "liquidity-heatmap",
+   "type": "component",
+   "title": "Liquidity Heatmap",
+   "description": "Animated liquidity bands across price and time, with a price trace and depth tooltips.",
+   "component": "heatmap",
+   "surface": null,
+   "dependencies": [
+    "@floating-ui/dom",
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/liquidity-heatmap.json"
+  },
+  {
+   "name": "loader",
+   "type": "component",
+   "title": "Loader",
+   "description": "Loading indicator with seventeen variants: spinner, dots, bars, dot-matrix, dither, morph, comet, scramble, metaballs, newton, helix, percent, and five terminal-style ascii spinners. Scales from one size prop, uses currentColor, and reduced-motion swaps every transform for a calm opacity pulse.",
+   "component": "spinner",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/loader.json"
+  },
+  {
+   "name": "marquee",
+   "type": "component",
+   "title": "Marquee",
+   "description": "Infinite horizontal or vertical scroll with pause-on-hover.",
+   "component": "marquee",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/marquee.json"
+  },
+  {
+   "name": "message",
+   "type": "component",
+   "title": "Message",
+   "description": "Composable conversation primitives for message rows, grouped bubbles, avatars, metadata, live markers, and a mount-only trailing-edge pop-up for newly sent rows.",
+   "component": "alert",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/message.json"
+  },
+  {
+   "name": "message-bubble",
+   "type": "component",
+   "title": "Message Bubble",
+   "description": "A focused conversational surface with visual tones, independent alignment, grouped messages, expandable content, and interactive link or button support.",
+   "component": "message",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/message-bubble.json"
+  },
+  {
+   "name": "message-scroller",
+   "type": "component",
+   "title": "Message Scroller",
+   "description": "A reader-aware conversation viewport that follows streamed output at the live edge and releases control when the reader moves away.",
+   "component": "message-scroller",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/message-scroller.json"
+  },
+  {
+   "name": "morphing-lightbox",
+   "type": "component",
+   "title": "Image Viewer Morphing",
+   "description": "A thumbnail-connected image viewer with composable gallery, thumbnail, content, caption and navigation parts, plus a shared state hook. Expand into the full-size image and return to the thumbnail on close, with swipe navigation, zoom and pan.",
+   "component": "lightbox",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/morphing-lightbox.json"
+  },
+  {
+   "name": "morphing-modal",
+   "type": "component",
+   "title": "Morphing Modal",
+   "description": "Family-app-style modal. A single panel that morphs its height as you navigate between inner views, with blur cross-fade on content.",
+   "component": "modal",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/morphing-modal.json"
+  },
+  {
+   "name": "morphing-search",
+   "type": "block",
+   "title": "Morphing Search Morphing Search",
+   "description": "Search field or compact icon that morphs into a glass results surface, whether opened by click or keyboard shortcut.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/morphing-search.json"
+  },
+  {
+   "name": "morphing-search-chips",
+   "type": "block",
+   "title": "Morphing Search Chip Search",
+   "description": "Docked search bar that springs wider on focus and unfolds a recent-searches panel out of its own edge. Terms become removable chips, the bar grows with them, and suggestions filter as you type.",
+   "component": "search-input",
+   "surface": "search-mobile",
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/morphing-search-chips.json"
+  },
+  {
+   "name": "morphing-tabs",
+   "type": "block",
+   "title": "Morphing Tabs",
+   "description": "Reorderable tabs whose selected item grows into a white content surface, with the active shape gliding as tabs move and a shared morph between rooms.",
+   "component": "tabs",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/morphing-tabs.json"
+  },
+  {
+   "name": "multi-select",
+   "type": "component",
+   "title": "Multi Select",
+   "description": "Composable multi-select primitives with searchable options, removable animated tokens, and a morphing collision-aware panel.",
+   "component": "multi-select",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/multi-select.json"
+  },
+  {
+   "name": "not-found-glitch",
+   "type": "block",
+   "title": "404 / Not Found Glitch",
+   "description": "Digits scramble through random glyphs before resolving, with a chromatic split on hover.",
+   "component": "error-page",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/not-found-glitch.json"
+  },
+  {
+   "name": "not-found-magnetic",
+   "type": "block",
+   "title": "404 / Not Found Magnetic",
+   "description": "Each digit is cursor-attracted via the Magnetic wrapper and springs back on leave.",
+   "component": "error-page",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/not-found-magnetic.json"
+  },
+  {
+   "name": "not-found-spotlight",
+   "type": "block",
+   "title": "404 / Not Found Spotlight",
+   "description": "A dark panel where a cursor-tracked spotlight reveals the bright code from a dim base.",
+   "component": "error-page",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/not-found-spotlight.json"
+  },
+  {
+   "name": "not-found-stacked",
+   "type": "block",
+   "title": "404 / Not Found Stacked",
+   "description": "A code card over a hidden stack that fans out with a spring on hover.",
+   "component": "error-page",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/not-found-stacked.json"
+  },
+  {
+   "name": "not-found-terminal",
+   "type": "block",
+   "title": "404 / Not Found Terminal",
+   "description": "A terminal window that types a failed cd command and a 404 status, with a blinking caret.",
+   "component": "error-page",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/not-found-terminal.json"
+  },
+  {
+   "name": "notification-stack",
+   "type": "block",
+   "title": "Notification Stack",
+   "description": "Compact notification cards that spring from a stacked summary into a readable list on hover, focus or tap.",
+   "component": "stack",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/notification-stack.json"
+  },
+  {
+   "name": "number-ticker",
+   "type": "component",
+   "title": "Number Animation Number Ticker",
+   "description": "Slot-machine rolling digits with staggered entry.",
+   "component": "count-up",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/number-ticker.json"
+  },
+  {
+   "name": "order-book",
+   "type": "component",
+   "title": "Order Book",
+   "description": "Animated order book with bid and ask depth, spread, and volume balance.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/order-book.json"
+  },
+  {
+   "name": "otp-input",
+   "type": "block",
+   "title": "OTP Input",
+   "description": "One-time-code input with a gliding focus ring, digits that roll in per slot, error shake and a success check draw.",
+   "component": "otp-input",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/otp-input.json"
+  },
+  {
+   "name": "overflow-actions",
+   "type": "block",
+   "title": "Overflow Actions",
+   "description": "Connected pill rail for primary actions that springs open to reveal extra controls.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/overflow-actions.json"
+  },
+  {
+   "name": "parallax",
+   "type": "component",
+   "title": "Scroll Animation Parallax",
+   "description": "Wrapper that drifts its children at a speed factor as they cross the viewport, on either axis. Reduced-motion safe.",
+   "component": "parallax",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/parallax.json"
+  },
+  {
+   "name": "popover",
+   "type": "component",
+   "title": "Popover Gooey Popover",
+   "description": "Composable Popover, PopoverTrigger, PopoverContent; the panel oozes out of the trigger through an SVG goo filter with a liquid neck, crisp content fading in on top. Click or hover, controlled or uncontrolled.",
+   "component": "popover",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/popover.json"
+  },
+  {
+   "name": "popover-morph",
+   "type": "component",
+   "title": "Popover Morph Popover",
+   "description": "Composable MorphPopover, MorphPopoverTrigger, MorphPopoverContent. The full-size panel reveals from the corner nearest the trigger on one synchronized spring clip, keeping content and borders unscaled, then retraces the clip on close. Clip-path and its drop-shadow may paint. Side/align aware, controlled or uncontrolled.",
+   "component": "popover",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/popover-morph.json"
+  },
+  {
+   "name": "prediction-market",
+   "type": "block",
+   "title": "Prediction Market Trade Ticket",
+   "description": "Buy and sell outcomes with rolling amount entry, quick add chips and trade states.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/prediction-market.json"
+  },
+  {
+   "name": "prediction-market-card",
+   "type": "block",
+   "title": "Prediction Market Market Cards",
+   "description": "Compact market listings with consistent outcome rows, animated odds CTAs, payout multipliers and bookmarks. Odds CTAs use green/red backgrounds and roll into Yes/No labels on hover or keyboard focus. Use Update odds to preview animated price changes.",
+   "component": "card",
+   "surface": null,
+   "dependencies": [
+    "@floating-ui/dom",
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/prediction-market-card.json"
+  },
+  {
+   "name": "preview-rail",
+   "type": "component",
+   "title": "Preview Rail",
+   "description": "Codex app-inspired navigation rail with compact ticks that form a hover pyramid and reveal a floating destination preview.",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/preview-rail.json"
+  },
+  {
+   "name": "price-target-fan",
+   "type": "component",
+   "title": "Price Target Fan",
+   "description": "Composable price target chart with Header, Plot, SVG, Axes, History, Targets, Now, Cursor, and Tooltip parts. Supply dated price history and targets; scrub with a pointer or keyboard and customize the active readout.",
+   "component": "price",
+   "surface": null,
+   "dependencies": [
+    "@floating-ui/dom",
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/price-target-fan.json"
+  },
+  {
+   "name": "project-folder",
+   "type": "block",
+   "title": "Project Folder",
+   "description": "An interactive project folder that opens its file fan on hover or focus, expands into a focus-managed overlay, then retraces the complete path when closed.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/project-folder.json"
+  },
+  {
+   "name": "prompt-input",
+   "type": "component",
+   "title": "Prompt Input",
+   "description": "An auto-growing agent composer with prompt actions, model selection, keyboard submission, and animated send and stop states.",
+   "component": "prompt-input",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/prompt-input.json"
+  },
+  {
+   "name": "pull-to-refresh",
+   "type": "component",
+   "title": "Pull to Refresh",
+   "description": "Native-feeling pull-to-refresh container with drag resistance, threshold feedback and async refresh handling.",
+   "component": "gesture",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/pull-to-refresh.json"
+  },
+  {
+   "name": "radio",
+   "type": "component",
+   "title": "Radio Group",
+   "description": "Single-select choice control with a gliding layoutId indicator dot and spring press feedback.",
+   "component": "radio-button",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/radio.json"
+  },
+  {
+   "name": "range-slider",
+   "type": "component",
+   "title": "Range Slider Range Slider",
+   "description": "Tick dots, and a vertical-bar thumb that bounces as it lands on each step.",
+   "component": "range-slider",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/range-slider.json"
+  },
+  {
+   "name": "range-slider-bubble",
+   "type": "component",
+   "title": "Range Slider Bubble Slider",
+   "description": "Grab the thumb and a value bubble pops out of it. The bubble tilts and squashes with how fast you drag, then settles upright.",
+   "component": "range-slider",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/range-slider-bubble.json"
+  },
+  {
+   "name": "range-slider-fluid",
+   "type": "component",
+   "title": "Range Slider Fluid Slider",
+   "description": "No thumb. The fill slides behind a rounded liquid cap, and the label flips color wherever the fill covers it.",
+   "component": "range-slider",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/range-slider-fluid.json"
+  },
+  {
+   "name": "range-slider-inline",
+   "type": "component",
+   "title": "Range Slider Inline Slider",
+   "description": "An inset fill and inline label and value. Ten evenly spaced stops span the track; markers under text stay hidden but remain interactive, and the thumb parts around either label as it passes.",
+   "component": "range-slider",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/range-slider-inline.json"
+  },
+  {
+   "name": "range-slider-ruler",
+   "type": "component",
+   "title": "Range Slider Ruler Slider",
+   "description": "The needle stays put and the scale scrolls under it. A flick keeps going and settles on the nearest tick. Fractional steps read at the step's own precision.",
+   "component": "range-slider",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/range-slider-ruler.json"
+  },
+  {
+   "name": "range-slider-wave",
+   "type": "component",
+   "title": "Range Slider Wave Slider",
+   "description": "Equalizer bars peak around the handle and drop back once it passes, so the value moves down the track as a wave.",
+   "component": "range-slider",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/range-slider-wave.json"
+  },
+  {
+   "name": "reasoning-text",
+   "type": "component",
+   "title": "Agent Loading States Reasoning Text",
+   "description": "Shimmering reasoning copy with an ASCII loader and cascade, phrase-swap, or per-letter scramble transitions.",
+   "component": "reasoning",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/reasoning-text.json"
+  },
+  {
+   "name": "returns-calendar",
+   "type": "component",
+   "title": "Returns Calendar",
+   "description": "Composable monthly returns calendar with Grid and Tooltip parts, controlled month or year selections, and compounded totals. Supply your own years and monthly percentages.",
+   "component": "calendar",
+   "surface": null,
+   "dependencies": [
+    "@floating-ui/dom",
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/returns-calendar.json"
+  },
+  {
+   "name": "sankey-chart",
+   "type": "component",
+   "title": "Sankey Chart",
+   "description": "Weighted flows between stages that draw in and morph with your data.",
+   "component": "chart",
+   "surface": null,
+   "dependencies": [
+    "@floating-ui/dom",
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/sankey-chart.json"
+  },
+  {
+   "name": "scroll-progress",
+   "type": "component",
+   "title": "Scroll Animation Scroll Progress",
+   "description": "Reading-progress indicator — fixed bar or circular ring — driven by scroll position via useSmoothScroll, with spring smoothing.",
+   "component": "scroll-driven-animation",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lenis",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/scroll-progress.json"
+  },
+  {
+   "name": "scroll-reveal",
+   "type": "component",
+   "title": "Scroll Animation Scroll Reveal",
+   "description": "Reveals its children with a spring slide and blur as they enter the viewport, once or every time. Reduced-motion keeps a fade.",
+   "component": "scroll-reveal",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/scroll-reveal.json"
+  },
+  {
+   "name": "scroll-to",
+   "type": "component",
+   "title": "Scroll Animation Scroll To",
+   "description": "Button that smooth-scrolls to a target (offset, selector or element) via the active SmoothScroll provider; reduced-motion jumps instantly.",
+   "component": "animation",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lenis",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/scroll-to.json"
+  },
+  {
+   "name": "select",
+   "type": "component",
+   "title": "Select Select",
+   "description": "Composable primitives (Select, SelectTrigger, SelectValue, SelectContent, SelectItem); the panel pinches off the trigger and separates, with a short, shared row reveal. Position-aware (opens upward when needed).",
+   "component": "select",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/select.json"
+  },
+  {
+   "name": "select-morph",
+   "type": "component",
+   "title": "Select Morph Select",
+   "description": "Composable primitives (MorphSelect, MorphSelectTrigger, MorphSelectValue, MorphSelectContent, MorphSelectItem) where the trigger morphs into the panel via a shared layoutId — one continuous surface that grows open and shrinks back, never detaching.",
+   "component": "select",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/select-morph.json"
+  },
+  {
+   "name": "shader-background",
+   "type": "component",
+   "title": "Shader Background",
+   "description": "Canvas shader backgrounds (mesh gradient, grain, warp, waves, voronoi, dot orbit and more) with a single typed variant prop. Reduced-motion freezes animated variants.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@paper-design/shaders-react",
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/shader-background.json"
+  },
+  {
+   "name": "shared-layout-bg",
+   "type": "component",
+   "title": "Shared Layout Background",
+   "description": "A pill that glides between hovered items via motion's shared layout, with blur enter/exit.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/shared-layout-bg.json"
+  },
+  {
+   "name": "signup-form",
+   "type": "block",
+   "title": "Sign Up Form",
+   "description": "Composed sign-up form that flags a field only once it is left, then clears the moment it is fixed, with a length-weighted strength meter, password reveal and an animated submit lifecycle.",
+   "component": "signup-form",
+   "surface": "sign-up",
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/signup-form.json"
+  },
+  {
+   "name": "slide-action-button",
+   "type": "component",
+   "title": "Animated CTA Buttons Slide Action Button",
+   "description": "Drag the thumb to the end to confirm an action; release early to spring back.",
+   "component": "floating-action-button",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/slide-action-button.json"
+  },
+  {
+   "name": "smooth-scroll",
+   "type": "component",
+   "title": "Scroll Animation Smooth Scroll",
+   "description": "Smooth-scroll provider over Lenis with a useSmoothScroll hook exposing scroll offset, progress and velocity. Reduced-motion safe.",
+   "component": "animation",
+   "surface": null,
+   "dependencies": [
+    "lenis",
+    "motion"
+   ],
+   "url": "https://beui.dev/r/smooth-scroll.json"
+  },
+  {
+   "name": "sortable-stack",
+   "type": "component",
+   "title": "Sortable List",
+   "description": "Composable sortable list with group, item, drag handle, content and undo parts, plus a shared state hook. Spring layout, keyboard reordering, accessible position announcements, and controlled or uncontrolled items.",
+   "component": "drag-and-drop",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/sortable-stack.json"
+  },
+  {
+   "name": "status-bar",
+   "type": "component",
+   "title": "Status Bar",
+   "description": "Animated status history with rounded bars and period tooltips.",
+   "component": null,
+   "surface": "status",
+   "dependencies": [
+    "@floating-ui/dom",
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/status-bar.json"
+  },
+  {
+   "name": "streaming-response",
+   "type": "component",
+   "title": "Streaming Response",
+   "description": "A stable response surface with completion actions, rendered content, and an expandable source summary.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/streaming-response.json"
+  },
+  {
+   "name": "swap",
+   "type": "block",
+   "title": "Multi-chain Swap",
+   "description": "Cross-chain swap widget with chain + token selectors, morphing views, animated flip and quote.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/swap.json"
+  },
+  {
+   "name": "swipeable-list",
+   "type": "block",
+   "title": "Swipeable List",
+   "description": "Mobile-style list rows that swipe left or right to reveal contextual action buttons.",
+   "component": "list",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/swipeable-list.json"
+  },
+  {
+   "name": "switch",
+   "type": "component",
+   "title": "Switch",
+   "description": "Toggle with a spring-driven thumb and press feedback.",
+   "component": "switch",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/switch.json"
+  },
+  {
+   "name": "table",
+   "type": "component",
+   "title": "Table Data Table",
+   "description": "10k virtualized rows with sortable headers, row selection, column resize and reorder.",
+   "component": "table",
+   "surface": null,
+   "dependencies": [
+    "@tanstack/react-virtual",
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/table.json"
+  },
+  {
+   "name": "table-async",
+   "type": "component",
+   "title": "Table Async Table",
+   "description": "Loads pages on demand — skeleton rows on first load, then infinite scroll via onEndReached as the virtualized list nears the bottom.",
+   "component": "table",
+   "surface": null,
+   "dependencies": [
+    "@tanstack/react-virtual",
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/table-async.json"
+  },
+  {
+   "name": "table-editable",
+   "type": "component",
+   "title": "Table Editable Table",
+   "description": "Edit cells inline and insert or delete rows and columns via border handles; the table re-renders from the updated data and column defs.",
+   "component": "table",
+   "surface": null,
+   "dependencies": [
+    "@tanstack/react-virtual",
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/table-editable.json"
+  },
+  {
+   "name": "tabs",
+   "type": "component",
+   "title": "Tabs",
+   "description": "Pill, segment or underline tabs with a spring layoutId indicator and optional icons.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/tabs.json"
+  },
+  {
+   "name": "text-cascade",
+   "type": "component",
+   "title": "Text Animation Text Cascade",
+   "description": "Letter-by-letter slot roll for standalone text — old letters drop away as new ones land, left to right.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/text-cascade.json"
+  },
+  {
+   "name": "text-reveal",
+   "type": "component",
+   "title": "Text Animation Text Reveal",
+   "description": "Word or character reveal with spring slide-up and blur.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/text-reveal.json"
+  },
+  {
+   "name": "text-scramble",
+   "type": "component",
+   "title": "Text Animation Text Scramble",
+   "description": "A controlled character scramble that resolves changed text while keeping its final value accessible.",
+   "component": "typewriter-text",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/text-scramble.json"
+  },
+  {
+   "name": "text-shimmer",
+   "type": "component",
+   "title": "Text Animation Text Shimmer",
+   "description": "Gradient sweep across text for loading or emphasis.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/text-shimmer.json"
+  },
+  {
+   "name": "theme-toggle",
+   "type": "component",
+   "title": "Theme Toggle",
+   "description": "Theme toggle button that repaints the whole page through the View Transition API — a rectangle or circle clip-path reveal, or slats that open across the screen like a shutter.",
+   "component": "theme-provider",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "next-themes",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/theme-toggle.json"
+  },
+  {
+   "name": "thinking-shimmer",
+   "type": "component",
+   "title": "Agent Loading States Thinking Shimmer",
+   "description": "A quiet shimmer that keeps the agent's current status readable while work continues.",
+   "component": "skeleton",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/thinking-shimmer.json"
+  },
+  {
+   "name": "tilt-card",
+   "type": "component",
+   "title": "Tilt Card",
+   "description": "3D perspective tilt on hover with cursor-tracked glare.",
+   "component": "hover-effect",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/tilt-card.json"
+  },
+  {
+   "name": "timeline",
+   "type": "component",
+   "title": "Timeline",
+   "description": "A draggable timeline of dated events around a focused card.",
+   "component": "timeline",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/timeline.json"
+  },
+  {
+   "name": "todo-list",
+   "type": "component",
+   "title": "Todo List",
+   "description": "A collapsible agent task plan with morphing status marks, a completion count, compact metadata, and smooth list updates.",
+   "component": "plan",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/todo-list.json"
+  },
+  {
+   "name": "tool-approval",
+   "type": "component",
+   "title": "Tool Approval",
+   "description": "A human-in-the-loop permission card for reviewing tool details, allowing once, remembering access, or denying execution.",
+   "component": "approval-request",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "shiki",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/tool-approval.json"
+  },
+  {
+   "name": "tool-result",
+   "type": "component",
+   "title": "Tool Result",
+   "description": "A lightweight execution disclosure for syntax-highlighted terminal output and request responses that collapses into a compact completed state.",
+   "component": "tool-call",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "shiki",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/tool-result.json"
+  },
+  {
+   "name": "tooltip",
+   "type": "component",
+   "title": "Tooltip",
+   "description": "Composable hover, focus and tap tooltip with a subtle scale and fade, collision-aware side and alignment, an optional arrow, a pointer corridor onto hoverable content, one label at a time, keyboard-only focus reveal and optional cursor tracking.",
+   "component": "tooltip",
+   "surface": null,
+   "dependencies": [
+    "@floating-ui/dom",
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/tooltip.json"
+  },
+  {
+   "name": "treemap",
+   "type": "component",
+   "title": "Treemap",
+   "description": "Proportional tiles that morph with your data, with value and share tooltips.",
+   "component": "treemap",
+   "surface": null,
+   "dependencies": [
+    "@floating-ui/dom",
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/treemap.json"
+  },
+  {
+   "name": "voice-orb",
+   "type": "component",
+   "title": "Voice Orb",
+   "description": "Breathing liquid voice visualization with flowing highlights, custom pigments and a soft, voice-reactive silhouette. Accepts a normalized level, MotionValue or caller-owned audio analyser, pauses offscreen and supports reduced motion.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/voice-orb.json"
+  },
+  {
+   "name": "volume-profile",
+   "type": "component",
+   "title": "Volume Profile",
+   "description": "Animated volume by price, with point of control and value area highlights.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@floating-ui/dom",
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/volume-profile.json"
+  },
+  {
+   "name": "wallet-card",
+   "type": "block",
+   "title": "Wallet Card",
+   "description": "Wallet overview card with an account switcher and search that morph open from their triggers, a cascading balance with a live change pill and privacy toggle, copy-address, and Send / Deposit / Swap / Buy actions.",
+   "component": "card",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lucide-react",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/wallet-card.json"
+  },
+  {
+   "name": "wheel-picker",
+   "type": "component",
+   "title": "Wheel Picker",
+   "description": "iOS-style picker wheel: a 3D drum on native momentum scroll that snaps to the nearest notch, with wheel, drag and keyboard control. Composes side by side for date and time pickers, reduced-motion safe.",
+   "component": "select",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "tailwind-merge"
+   ],
+   "url": "https://beui.dev/r/wheel-picker.json"
+  }
+ ]
+}

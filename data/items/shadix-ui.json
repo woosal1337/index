@@ -1,0 +1,183 @@
+{
+ "resource_id": "94444d99-fe2c-4411-bc77-f8d739bf3bd4",
+ "registry_url": "https://shadix-ui.vercel.app/r/registry.json",
+ "install_verified": true,
+ "checked": "2026-10-23",
+ "items": [
+  {
+   "name": "action-button",
+   "type": "component",
+   "title": null,
+   "description": "A button that displays a popup when clicked",
+   "component": "floating-action-button",
+   "surface": null,
+   "dependencies": [
+    "class-variance-authority",
+    "motion"
+   ],
+   "url": "https://shadix-ui.vercel.app/r/action-button.json"
+  },
+  {
+   "name": "animated-tabs",
+   "type": "component",
+   "title": null,
+   "description": "Tabs with animated indicator and content transitions (underline, pill, slide)",
+   "component": "tabs",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://shadix-ui.vercel.app/r/animated-tabs.json"
+  },
+  {
+   "name": "datetimepicker",
+   "type": "component",
+   "title": null,
+   "description": "A datetime picker component",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "date-fns",
+    "motion"
+   ],
+   "url": "https://shadix-ui.vercel.app/r/datetimepicker.json"
+  },
+  {
+   "name": "datetimepicker-input",
+   "type": "component",
+   "title": null,
+   "description": "A datetime picker input component",
+   "component": "text-input",
+   "surface": null,
+   "dependencies": [
+    "date-fns",
+    "motion"
+   ],
+   "url": "https://shadix-ui.vercel.app/r/datetimepicker-input.json"
+  },
+  {
+   "name": "expandable-card",
+   "type": "component",
+   "title": null,
+   "description": "A card component with an expandable content",
+   "component": "accordion",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://shadix-ui.vercel.app/r/expandable-card.json"
+  },
+  {
+   "name": "image-gallery",
+   "type": "component",
+   "title": null,
+   "description": "A image gallery component for shadcn/ui. Easily create a image gallery with a list of images",
+   "component": "image-gallery",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://shadix-ui.vercel.app/r/image-gallery.json"
+  },
+  {
+   "name": "loader",
+   "type": "component",
+   "title": null,
+   "description": "A loader component with various variants",
+   "component": "spinner",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "class-variance-authority"
+   ],
+   "url": "https://shadix-ui.vercel.app/r/loader.json"
+  },
+  {
+   "name": "morph-image",
+   "type": "component",
+   "title": null,
+   "description": "A morph image component for shadcn/ui. Easily create a morph image with a thumbnail and a modal",
+   "component": "image",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://shadix-ui.vercel.app/r/morph-image.json"
+  },
+  {
+   "name": "motion-dialog",
+   "type": "component",
+   "title": null,
+   "description": "A dialog with modern motion animations",
+   "component": "animation",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://shadix-ui.vercel.app/r/motion-dialog.json"
+  },
+  {
+   "name": "reorder-list",
+   "type": "component",
+   "title": null,
+   "description": "A list component with reordering functionality",
+   "component": "drag-and-drop",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://shadix-ui.vercel.app/r/reorder-list.json"
+  },
+  {
+   "name": "segment-layout",
+   "type": "component",
+   "title": null,
+   "description": "A segment layout component for shadcn/ui. Easily create a segment layout with left and right items and a content area",
+   "component": "box",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "clsx"
+   ],
+   "url": "https://shadix-ui.vercel.app/r/segment-layout.json"
+  },
+  {
+   "name": "signature-pad",
+   "type": "component",
+   "title": null,
+   "description": "A signature pad component for capturing signatures",
+   "component": "signature-pad",
+   "surface": null,
+   "dependencies": [
+    "class-variance-authority",
+    "lucide-react"
+   ],
+   "url": "https://shadix-ui.vercel.app/r/signature-pad.json"
+  },
+  {
+   "name": "smooth-scroll-area",
+   "type": "ui",
+   "title": null,
+   "description": "A smooth scroll area component for shadcn/ui. Easily create a smooth scroll area with a scrollbar.",
+   "component": "scroll-area",
+   "surface": null,
+   "dependencies": [
+    "lenis"
+   ],
+   "url": "https://shadix-ui.vercel.app/r/smooth-scroll-area.json"
+  },
+  {
+   "name": "video-player",
+   "type": "component",
+   "title": null,
+   "description": "A video player component for shadcn/ui. Easily create a video player with a progress bar, volume control, and fullscreen toggle.",
+   "component": "video-player",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "lucide-react"
+   ],
+   "url": "https://shadix-ui.vercel.app/r/video-player.json"
+  }
+ ]
+}

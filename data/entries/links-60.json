@@ -3,6 +3,7 @@
     "id": "53bd15aa-2787-4e73-a7ff-8e40c2e44066",
     "slug": "liquid-gooey",
     "url": "https://gooey.jakubantalik.com/",
+    "part_of": "bf7fa93c-1cef-43ac-a704-cba22e082260",
     "name": "Liquid Gooey",
     "tagline": "React gooey-merge and liquid-trail effects that keep text, icons and shadows crisp",
     "description": "liquid-gooey is a zero-dependency React library that adds metaball 'goo' physics to real UI. It ships two wrapper components, <Liquid> and <Liquid.Item>, plus two effects: Morph (touching pieces bridge, merge and change shape like jelly) and Move (the surface trails a moving element with a droplet tail), and a `dissolve` modifier that melts imagery at the contact point via SVG displacement. Unlike the classic blur+alpha-contrast gooey hack, it splits rendering into an SVG silhouette layer that carries the goo and the shadow, and a content layer of untouched live DOM, so text stays sharp, box-shadow survives the merge, and Safari renders it correctly. For React engineers who want plus-menus, tab indicators, sliders and avatar chips to feel liquid without giving up real hit targets, ARIA or focus rings.",

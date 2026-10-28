@@ -3,6 +3,7 @@
   "id": "0942c9b4-4107-4432-b1a3-4bcefc77d507",
   "slug": "mobbin-mcp",
   "url": "https://mobbin.com/mcp",
+  "part_of": "97793c47-04e0-4f02-ba0a-318630ac1f11",
   "name": "Mobbin MCP",
   "tagline": "MCP server that gives coding agents 621,500+ real shipped app screens",
   "description": "Mobbin MCP is a hosted, OAuth-authenticated Model Context Protocol server that exposes Mobbin's screenshot library — 621,500+ screens captured from shipped iOS, Android and web products — to AI agents. An agent can search screens, pull flows (paywalls, KYC, onboarding, checkout, permission prompts), and compare how named apps such as Revolut, Duolingo, Uber, Airbnb and Booking.com solve a pattern, then design against that evidence instead of guessing. It is a design-reference source, not a code source: it returns screens and pattern notes, not components. Intended for designers and engineers who already pay for Mobbin and want the same library inside Claude Code, Cursor, Codex or v0.",
@@ -79,7 +80,13 @@
   "package": null,
   "docs_url": "https://mobbin.com/mcp",
   "repo_url": null,
-  "registry_url": "https://api.mobbin.com/mcp",
+  "registry_url": null,
+  "machine_urls": [
+   {
+    "kind": "mcp",
+    "url": "https://api.mobbin.com/mcp"
+   }
+  ],
   "github": {
    "stars": null,
    "license": null,
@@ -434,7 +441,13 @@
   "package": "originkit",
   "docs_url": "https://www.originkit.dev/intro",
   "repo_url": null,
-  "registry_url": "https://mcp.originkit.dev/mcp",
+  "registry_url": null,
+  "machine_urls": [
+   {
+    "kind": "mcp",
+    "url": "https://mcp.originkit.dev/mcp"
+   }
+  ],
   "github": {
    "stars": null,
    "license": null,

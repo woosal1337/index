@@ -52,8 +52,7 @@
    "pricing": [
     "freemium",
     "open-source",
-    "subscription",
-    "account-required"
+    "subscription"
    ],
    "distribution": [
     "web-app",
@@ -195,7 +194,13 @@
   "package": null,
   "docs_url": "https://www.are.na/developers/all.md",
   "repo_url": null,
-  "registry_url": "https://api.are.na/v3/openapi.json",
+  "registry_url": null,
+  "machine_urls": [
+   {
+    "kind": "api",
+    "url": "https://api.are.na/v3/openapi.json"
+   }
+  ],
   "github": {
    "stars": null,
    "license": null,
@@ -257,7 +262,7 @@
     "ios"
    ],
    "accessibility": [
-    "unknown"
+    "not-applicable"
    ],
    "content_type": [
     "images",
@@ -343,7 +348,8 @@
     "vanilla-css"
    ],
    "license": [
-    "source-available"
+    "source-available",
+    "commercial"
    ],
    "pricing": [
     "freemium",
@@ -444,7 +450,8 @@
    "pricing": [
     "free",
     "open-source",
-    "freemium"
+    "freemium",
+    "free-trial"
    ],
    "distribution": [
     "npm-package",

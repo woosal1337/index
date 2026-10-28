@@ -165,7 +165,13 @@
   "package": "typeui.sh",
   "docs_url": "https://www.typeui.sh/docs",
   "repo_url": "https://github.com/bergside/typeui",
-  "registry_url": "https://www.typeui.sh/design-skills",
+  "registry_url": null,
+  "machine_urls": [
+   {
+    "kind": "catalog",
+    "url": "https://www.typeui.sh/design-skills"
+   }
+  ],
   "github": {
    "stars": 1800,
    "license": "MIT",
@@ -443,7 +449,7 @@
     "web"
    ],
    "accessibility": [
-    "unknown"
+    "not-applicable"
    ],
    "content_type": [
     "screenshots",

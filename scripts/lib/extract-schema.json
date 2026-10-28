@@ -1,0 +1,99 @@
+{
+  "version": 2,
+  "sources": ["record", "facts", "items", "page", "readme"],
+  "facets": ["framework", "styling", "license", "pricing"],
+  "built_on": ["radix", "base-ui", "react-aria", "ark-ui", "headless-ui", "motion", "gsap", "three", "lottie", "rive", "tailwind", "shadcn"],
+  "scope": ["core-design", "adjacent", "general-tool"],
+  "limits": { "summary_words": 45, "use_cases": [3, 8], "not_for": [1, 3], "queries": [8, 12], "query_words": 15, "aliases": 8, "quote_min_chars": 6 },
+  "profile_groups": {
+    "code-ui": {
+      "categories": ["component-libraries", "blocks-templates-themes", "ai-interface-kits", "design-systems-brand"],
+      "fields": {
+        "theming": { "multi": true, "values": ["css-variables", "dark-mode", "multiple-themes", "design-tokens"] },
+        "typescript": { "type": "boolean" },
+        "server_components": { "type": "boolean" },
+        "paid_items": { "type": "boolean" }
+      }
+    },
+    "motion": {
+      "categories": ["motion-interaction"],
+      "fields": {
+        "techniques": { "multi": true, "values": ["spring", "layout", "scroll", "svg", "shader", "text", "page-transition", "gesture", "3d", "particles"] },
+        "engine": { "multi": true, "values": ["motion", "gsap", "css", "lottie", "rive", "three", "canvas", "custom"] },
+        "reduced_motion": { "type": "boolean" }
+      }
+    },
+    "typography": {
+      "categories": ["typography"],
+      "fields": {
+        "classification": { "multi": true, "values": ["serif", "sans", "slab", "mono", "script", "display", "blackletter"] },
+        "variable": { "type": "boolean" },
+        "weights": { "type": "integer" },
+        "scripts": { "multi": true, "values": ["latin", "latin-extended", "cyrillic", "greek", "arabic", "hebrew", "devanagari", "cjk", "thai", "vietnamese"] },
+        "license_scope": { "multi": true, "values": ["desktop", "web", "app", "commercial"] }
+      }
+    },
+    "icons": {
+      "categories": ["icons-logos"],
+      "fields": {
+        "icon_count": { "type": "integer" },
+        "styles": { "multi": true, "values": ["outline", "solid", "duotone", "animated", "color", "brand", "3d"] },
+        "formats": { "multi": true, "values": ["svg", "react", "vue", "svelte", "figma", "font", "png", "web-component"] },
+        "grid": { "type": "integer" }
+      }
+    },
+    "color": {
+      "categories": ["color"],
+      "fields": {
+        "tool_type": { "multi": true, "values": ["generator", "palette-library", "contrast-checker", "scale-builder", "converter", "picker"] },
+        "outputs": { "multi": true, "values": ["css-variables", "tailwind", "oklch", "hex", "figma", "json", "image"] }
+      }
+    },
+    "assets": {
+      "categories": ["textures-assets", "generative-media-tools"],
+      "fields": {
+        "asset_types": { "multi": true, "values": ["texture", "gradient", "pattern", "shader", "3d-model", "mockup", "illustration", "photo", "video", "image-generation", "upscaling"] },
+        "formats": { "multi": true, "values": ["svg", "png", "jpg", "webp", "video", "glsl", "react", "figma", "blend", "gltf"] }
+      }
+    },
+    "galleries": {
+      "categories": ["inspiration-galleries"],
+      "fields": {
+        "indexes": { "multi": true, "values": ["sites", "sections", "screens", "flows", "elements", "apps", "emails", "decks", "brands"] },
+        "platforms": { "multi": true, "values": ["web", "ios", "android", "desktop"] },
+        "entry_count": { "type": "integer" },
+        "has_api": { "type": "boolean" }
+      }
+    },
+    "agent-tooling": {
+      "categories": ["agent-design-tooling"],
+      "fields": {
+        "protocol": { "multi": true, "values": ["mcp", "agent-skill", "cli", "api", "editor-extension", "desktop-app", "web-app", "prompt-pack", "design-md"] },
+        "clients": { "multi": true, "values": ["claude-code", "claude-desktop", "cursor", "codex", "vscode", "windsurf", "chatgpt", "gemini-cli", "any-mcp-client"] },
+        "auth_required": { "type": "boolean" }
+      }
+    },
+    "people": {
+      "categories": ["studios", "portfolios", "artists-creators"],
+      "fields": {
+        "disciplines": { "multi": true, "values": ["brand", "product", "web", "motion", "3d", "type", "illustration", "ux", "engineering", "photography", "art-direction"] },
+        "industries": { "type": "words" },
+        "location": { "type": "text" }
+      }
+    },
+    "learning": {
+      "categories": ["essays-guides-courses"],
+      "fields": {
+        "format": { "multi": true, "values": ["article", "thread", "course", "book", "video", "guide", "checklist"] },
+        "audience": { "multi": true, "values": ["beginner", "intermediate", "advanced"] },
+        "topics": { "type": "words" }
+      }
+    },
+    "other": {
+      "categories": ["utilities-naming"],
+      "fields": {
+        "function": { "type": "words" }
+      }
+    }
+  }
+}

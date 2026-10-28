@@ -1,0 +1,531 @@
+{
+ "resource_id": "21280947-accd-466a-8ba7-3e36eeaa05cb",
+ "registry_url": "https://www.kibo-ui.com/r/registry.json",
+ "install_verified": true,
+ "checked": "2026-10-23",
+ "items": [
+  {
+   "name": "announcement",
+   "type": "ui",
+   "title": "announcement",
+   "description": "A compound badge designed to display an announcement.",
+   "component": "live-region",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.kibo-ui.com/r/announcement.json"
+  },
+  {
+   "name": "avatar-stack",
+   "type": "ui",
+   "title": "avatar-stack",
+   "description": "Avatar Stack is a component that allows you to stack and overlap avatars.",
+   "component": "avatar-group",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.kibo-ui.com/r/avatar-stack.json"
+  },
+  {
+   "name": "banner",
+   "type": "ui",
+   "title": "banner",
+   "description": "A banner is a full-width component that can be used to show a message and action to the user.",
+   "component": "banner",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-use-controllable-state",
+    "lucide-react"
+   ],
+   "url": "https://www.kibo-ui.com/r/banner.json"
+  },
+  {
+   "name": "calendar",
+   "type": "ui",
+   "title": "calendar",
+   "description": "The calendar view displays features on a grid calendar. Specifically it shows the end date of each feature, and groups features by day.",
+   "component": "calendar",
+   "surface": null,
+   "dependencies": [
+    "date-fns",
+    "jotai",
+    "lucide-react"
+   ],
+   "url": "https://www.kibo-ui.com/r/calendar.json"
+  },
+  {
+   "name": "choicebox",
+   "type": "ui",
+   "title": "choicebox",
+   "description": "Choiceboxes are a great way to show radio or checkbox options with a card style.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "radix-ui"
+   ],
+   "url": "https://www.kibo-ui.com/r/choicebox.json"
+  },
+  {
+   "name": "code-block",
+   "type": "ui",
+   "title": "code-block",
+   "description": "Provides syntax highlighting, line numbers, and copy to clipboard functionality for code blocks.",
+   "component": "code-block",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-use-controllable-state",
+    "@shikijs/transformers",
+    "lucide-react",
+    "react-icons",
+    "shiki"
+   ],
+   "url": "https://www.kibo-ui.com/r/code-block.json"
+  },
+  {
+   "name": "color-picker",
+   "type": "ui",
+   "title": "color-picker",
+   "description": "Allows users to select a color. Modeled after the color picker in Figma.",
+   "component": "color-picker",
+   "surface": null,
+   "dependencies": [
+    "color",
+    "lucide-react",
+    "radix-ui"
+   ],
+   "url": "https://www.kibo-ui.com/r/color-picker.json"
+  },
+  {
+   "name": "combobox",
+   "type": "ui",
+   "title": "combobox",
+   "description": "Autocomplete input and command palette with a list of suggestions.",
+   "component": "combobox",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-use-controllable-state",
+    "lucide-react"
+   ],
+   "url": "https://www.kibo-ui.com/r/combobox.json"
+  },
+  {
+   "name": "comparison",
+   "type": "ui",
+   "title": "comparison",
+   "description": "A slider-based component for comparing two items in an overlay.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://www.kibo-ui.com/r/comparison.json"
+  },
+  {
+   "name": "contribution-graph",
+   "type": "ui",
+   "title": "contribution-graph",
+   "description": "A GitHub-style contribution graph component that displays activity levels over time.",
+   "component": "heatmap",
+   "surface": null,
+   "dependencies": [
+    "date-fns"
+   ],
+   "url": "https://www.kibo-ui.com/r/contribution-graph.json"
+  },
+  {
+   "name": "credit-card",
+   "type": "ui",
+   "title": "credit-card",
+   "description": "Credit card components for displaying and validating credit card information.",
+   "component": "card",
+   "surface": null,
+   "dependencies": [
+    "react-svg-credit-card-payment-icons"
+   ],
+   "url": "https://www.kibo-ui.com/r/credit-card.json"
+  },
+  {
+   "name": "cursor",
+   "type": "ui",
+   "title": "cursor",
+   "description": "A cursor component, great for realtime interactive applications.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.kibo-ui.com/r/cursor.json"
+  },
+  {
+   "name": "deck",
+   "type": "ui",
+   "title": "deck",
+   "description": "A Tinder-like swipeable card stack component with smooth animations.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-use-controllable-state",
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://www.kibo-ui.com/r/deck.json"
+  },
+  {
+   "name": "dialog-stack",
+   "type": "ui",
+   "title": "dialog-stack",
+   "description": "Composable stacked dialogs, useful for creating a wizard, nested form or multi-step process. It provides a consistent layout and styling for each dialog, and includes navigation component.",
+   "component": "modal",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-use-controllable-state",
+    "radix-ui"
+   ],
+   "url": "https://www.kibo-ui.com/r/dialog-stack.json"
+  },
+  {
+   "name": "dropzone",
+   "type": "ui",
+   "title": "dropzone",
+   "description": "Allows users to drag-and-drop files into a container to upload or process them.",
+   "component": "file-upload",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "react-dropzone"
+   ],
+   "url": "https://www.kibo-ui.com/r/dropzone.json"
+  },
+  {
+   "name": "editor",
+   "type": "ui",
+   "title": "editor",
+   "description": "The Editor component is a powerful and flexible text editor that allows you to create and edit rich text content.",
+   "component": "code-editor",
+   "surface": null,
+   "dependencies": [
+    "@floating-ui/dom",
+    "@tiptap/core",
+    "@tiptap/extension-code-block-lowlight",
+    "@tiptap/extension-list",
+    "@tiptap/extension-subscript",
+    "@tiptap/extension-superscript",
+    "@tiptap/extension-table",
+    "@tiptap/extension-text-style",
+    "@tiptap/extension-typography",
+    "@tiptap/extensions",
+    "@tiptap/pm",
+    "@tiptap/react",
+    "@tiptap/starter-kit",
+    "@tiptap/suggestion",
+    "fuse.js",
+    "lowlight",
+    "lucide-react",
+    "tippy.js"
+   ],
+   "url": "https://www.kibo-ui.com/r/editor.json"
+  },
+  {
+   "name": "gantt",
+   "type": "ui",
+   "title": "gantt",
+   "description": "The Gantt chart is a powerful tool for visualizing project schedules and tracking the progress of tasks. It provides a clear, hierarchical view of tasks, allowing you to easily identify manage project timelines.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@dnd-kit/core",
+    "@dnd-kit/modifiers",
+    "@uidotdev/usehooks",
+    "date-fns",
+    "jotai",
+    "lodash.throttle",
+    "lucide-react"
+   ],
+   "url": "https://www.kibo-ui.com/r/gantt.json"
+  },
+  {
+   "name": "glimpse",
+   "type": "ui",
+   "title": "glimpse",
+   "description": "A component that shows a preview of a URL when hovering over a link.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.kibo-ui.com/r/glimpse.json"
+  },
+  {
+   "name": "image-crop",
+   "type": "ui",
+   "title": "image-crop",
+   "description": "Helps you crop images to a specific size or aspect ratio.",
+   "component": "image",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "radix-ui",
+    "react-image-crop"
+   ],
+   "url": "https://www.kibo-ui.com/r/image-crop.json"
+  },
+  {
+   "name": "image-zoom",
+   "type": "ui",
+   "title": "image-zoom",
+   "description": "Image zoom is a component that allows you to zoom in on an image.",
+   "component": "image",
+   "surface": null,
+   "dependencies": [
+    "react-medium-image-zoom"
+   ],
+   "url": "https://www.kibo-ui.com/r/image-zoom.json"
+  },
+  {
+   "name": "kanban",
+   "type": "ui",
+   "title": "kanban",
+   "description": "A kanban board is a visual tool that helps you manage and visualize your work. It is a board with columns, and each column represents a status, e.g. \"Backlog\", \"In Progress\", \"Done\".",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@dnd-kit/core",
+    "@dnd-kit/sortable",
+    "@dnd-kit/utilities",
+    "tunnel-rat"
+   ],
+   "url": "https://www.kibo-ui.com/r/kanban.json"
+  },
+  {
+   "name": "list",
+   "type": "ui",
+   "title": "list",
+   "description": "List views are a great way to show a list of tasks grouped by status and ranked by priority.",
+   "component": "list",
+   "surface": null,
+   "dependencies": [
+    "@dnd-kit/core",
+    "@dnd-kit/modifiers"
+   ],
+   "url": "https://www.kibo-ui.com/r/list.json"
+  },
+  {
+   "name": "marquee",
+   "type": "ui",
+   "title": "marquee",
+   "description": "Marquees are a great way to show a list of items in a horizontal scrolling motion.",
+   "component": "marquee",
+   "surface": null,
+   "dependencies": [
+    "react-fast-marquee"
+   ],
+   "url": "https://www.kibo-ui.com/r/marquee.json"
+  },
+  {
+   "name": "mini-calendar",
+   "type": "ui",
+   "title": "mini-calendar",
+   "description": "A composable mini calendar component for picking dates close to today.",
+   "component": "calendar",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-use-controllable-state",
+    "date-fns",
+    "lucide-react",
+    "radix-ui"
+   ],
+   "url": "https://www.kibo-ui.com/r/mini-calendar.json"
+  },
+  {
+   "name": "pill",
+   "type": "ui",
+   "title": "pill",
+   "description": "A flexible badge component designed for a variety of use cases.",
+   "component": "chip",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://www.kibo-ui.com/r/pill.json"
+  },
+  {
+   "name": "qr-code",
+   "type": "ui",
+   "title": "qr-code",
+   "description": "QR Code is a component that generates a QR code from a string.",
+   "component": "qr-code",
+   "surface": null,
+   "dependencies": [
+    "culori",
+    "qrcode"
+   ],
+   "url": "https://www.kibo-ui.com/r/qr-code.json"
+  },
+  {
+   "name": "rating",
+   "type": "ui",
+   "title": "rating",
+   "description": "A star rating component with keyboard navigation and hover effects.",
+   "component": "rating",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-use-controllable-state",
+    "lucide-react"
+   ],
+   "url": "https://www.kibo-ui.com/r/rating.json"
+  },
+  {
+   "name": "reel",
+   "type": "ui",
+   "title": "reel",
+   "description": "A composable Reel component that looks like Instagram Stories - a full-height, 9:16 aspect ratio container with video playback and progress indicators.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-use-controllable-state",
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://www.kibo-ui.com/r/reel.json"
+  },
+  {
+   "name": "relative-time",
+   "type": "ui",
+   "title": "relative-time",
+   "description": "A component that displays time in various timezones.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-use-controllable-state"
+   ],
+   "url": "https://www.kibo-ui.com/r/relative-time.json"
+  },
+  {
+   "name": "sandbox",
+   "type": "ui",
+   "title": "sandbox",
+   "description": "The sandbox component allows you to preview and test components in a sandboxed environment.",
+   "component": "web-preview",
+   "surface": null,
+   "dependencies": [
+    "@codesandbox/sandpack-react"
+   ],
+   "url": "https://www.kibo-ui.com/r/sandbox.json"
+  },
+  {
+   "name": "snippet",
+   "type": "ui",
+   "title": "snippet",
+   "description": "Snippet is a component that allows you to display and copy code in a tabbed interface.",
+   "component": "code-block",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://www.kibo-ui.com/r/snippet.json"
+  },
+  {
+   "name": "spinner",
+   "type": "ui",
+   "title": "spinner",
+   "description": "A spinner is a visual indicator that shows progress or activity.",
+   "component": "spinner",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://www.kibo-ui.com/r/spinner.json"
+  },
+  {
+   "name": "status",
+   "type": "ui",
+   "title": "status",
+   "description": "Status components are used to display the uptime of a service.",
+   "component": null,
+   "surface": "status",
+   "dependencies": [],
+   "url": "https://www.kibo-ui.com/r/status.json"
+  },
+  {
+   "name": "stories",
+   "type": "ui",
+   "title": "stories",
+   "description": "A composable Stories component - a carousel of individual video cards like you'd see on Facebook.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.kibo-ui.com/r/stories.json"
+  },
+  {
+   "name": "table",
+   "type": "ui",
+   "title": "table",
+   "description": "Table views are used to display data in a tabular format. They are useful for displaying large amounts of data in a structured way.",
+   "component": "table",
+   "surface": null,
+   "dependencies": [
+    "@tanstack/react-table",
+    "jotai",
+    "lucide-react"
+   ],
+   "url": "https://www.kibo-ui.com/r/table.json"
+  },
+  {
+   "name": "tags",
+   "type": "ui",
+   "title": "tags",
+   "description": "Tags are a way to apply multiple labels to an item.",
+   "component": "tag",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://www.kibo-ui.com/r/tags.json"
+  },
+  {
+   "name": "theme-switcher",
+   "type": "ui",
+   "title": "theme-switcher",
+   "description": "A component to switch between light, dark and system theme.",
+   "component": "theme-provider",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-use-controllable-state",
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://www.kibo-ui.com/r/theme-switcher.json"
+  },
+  {
+   "name": "ticker",
+   "type": "ui",
+   "title": "ticker",
+   "description": "A composable finance ticker for displaying symbols, prices and changes.",
+   "component": "ticker",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.kibo-ui.com/r/ticker.json"
+  },
+  {
+   "name": "tree",
+   "type": "ui",
+   "title": "tree",
+   "description": "A composable tree component with animated expand/collapse and customizable nodes.",
+   "component": "tree-view",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "lucide-react"
+   ],
+   "url": "https://www.kibo-ui.com/r/tree.json"
+  },
+  {
+   "name": "video-player",
+   "type": "ui",
+   "title": "video-player",
+   "description": "A composable, shadcn/ui styled video player component that uses the media-chrome library.",
+   "component": "video-player",
+   "surface": null,
+   "dependencies": [
+    "media-chrome"
+   ],
+   "url": "https://www.kibo-ui.com/r/video-player.json"
+  }
+ ]
+}

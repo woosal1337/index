@@ -3,6 +3,15 @@ const UPPER = new Set([
   "mit", "bsd", "isc", "ofl", "cc0", "agpl", "gpl", "lgpl", "mpl", "npm", "cdn", "json", "saas", "llm",
 ]);
 
+export const MACHINE_URL_KINDS = {
+  mcp: "MCP server",
+  api: "API",
+  "llms-txt": "llms.txt",
+  sitemap: "Sitemap",
+  feed: "Feed",
+  catalog: "Catalog",
+} as const;
+
 export function labelize(slug: string): string {
   return slug
     .split(/[-_]/)

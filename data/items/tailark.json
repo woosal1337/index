@@ -1,0 +1,5009 @@
+{
+ "resource_id": "1ad904c0-ed3e-4a34-89e0-c517ccbcc00b",
+ "registry_url": "https://tailark.com/r/registry.json",
+ "install_verified": true,
+ "checked": "2026-10-23",
+ "items": [
+  {
+   "name": "accordion",
+   "type": "ui",
+   "title": "Accordion",
+   "description": "Tailark Base UI Accordion component",
+   "component": "accordion",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react"
+   ],
+   "url": "https://tailark.com/r/accordion.json"
+  },
+  {
+   "name": "actionnable",
+   "type": "component",
+   "title": "Actionnable Illustration",
+   "description": "Tailark actionnable illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/actionnable.json"
+  },
+  {
+   "name": "add-comment",
+   "type": "component",
+   "title": "Comment Illustration",
+   "description": "Tailark add comment illustration",
+   "component": "comment",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/add-comment.json"
+  },
+  {
+   "name": "agent-feedback",
+   "type": "component",
+   "title": "Agent Illustration",
+   "description": "Tailark feedback agent illustration",
+   "component": "agent-card",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/agent-feedback.json"
+  },
+  {
+   "name": "agent-task-planning",
+   "type": "component",
+   "title": "Agent Illustration",
+   "description": "Tailark task-planning agent illustration",
+   "component": "task",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/agent-task-planning.json"
+  },
+  {
+   "name": "agent-tasks",
+   "type": "component",
+   "title": "Agent Illustration",
+   "description": "Tailark tasks agent illustration",
+   "component": "task",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/agent-tasks.json"
+  },
+  {
+   "name": "agent-workflow",
+   "type": "component",
+   "title": "Agent Illustration",
+   "description": "Tailark workflow agent illustration",
+   "component": "agent-card",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/agent-workflow.json"
+  },
+  {
+   "name": "ai-1",
+   "type": "component",
+   "title": "Ai Illustration",
+   "description": "Tailark 1 ai illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/ai-1.json"
+  },
+  {
+   "name": "ai-2",
+   "type": "component",
+   "title": "Ai Illustration",
+   "description": "Tailark 2 ai illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/ai-2.json"
+  },
+  {
+   "name": "ai-3",
+   "type": "component",
+   "title": "Ai Illustration",
+   "description": "Tailark 3 ai illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/ai-3.json"
+  },
+  {
+   "name": "ai-autocomplete",
+   "type": "component",
+   "title": "Ai Autocomplete Illustration",
+   "description": "Tailark ai-autocomplete illustration",
+   "component": "autocomplete",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/ai-autocomplete.json"
+  },
+  {
+   "name": "ai-chat-interface",
+   "type": "component",
+   "title": "Ai Chat Interface Illustration",
+   "description": "Tailark ai-chat-interface illustration",
+   "component": "conversation",
+   "surface": "chat-mobile",
+   "dependencies": [],
+   "url": "https://tailark.com/r/ai-chat-interface.json"
+  },
+  {
+   "name": "ai-memory",
+   "type": "component",
+   "title": "Ai Memory Illustration",
+   "description": "Tailark ai-memory illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/ai-memory.json"
+  },
+  {
+   "name": "ai-mentions",
+   "type": "component",
+   "title": "Ai Mentions Illustration",
+   "description": "Tailark ai-mentions illustration",
+   "component": "mentions",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/ai-mentions.json"
+  },
+  {
+   "name": "ai-search",
+   "type": "component",
+   "title": "Ai Search Illustration",
+   "description": "Tailark ai-search illustration",
+   "component": "search-input",
+   "surface": "search-mobile",
+   "dependencies": [],
+   "url": "https://tailark.com/r/ai-search.json"
+  },
+  {
+   "name": "ai-search-2",
+   "type": "component",
+   "title": "Ai Search Illustration",
+   "description": "Tailark 2 ai-search illustration",
+   "component": "search-input",
+   "surface": "search-mobile",
+   "dependencies": [],
+   "url": "https://tailark.com/r/ai-search-2.json"
+  },
+  {
+   "name": "ai-suggestion",
+   "type": "component",
+   "title": "Ai Suggestion Illustration",
+   "description": "Tailark ai-suggestion illustration",
+   "component": "suggestion",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/ai-suggestion.json"
+  },
+  {
+   "name": "ai-summarization",
+   "type": "component",
+   "title": "Ai Summarization Illustration",
+   "description": "Tailark ai-summarization illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/ai-summarization.json"
+  },
+  {
+   "name": "aspect-ratio",
+   "type": "ui",
+   "title": "Aspect Ratio",
+   "description": "Tailark Base UI Aspect Ratio component",
+   "component": "aspect-ratio",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-aspect-ratio"
+   ],
+   "url": "https://tailark.com/r/aspect-ratio.json"
+  },
+  {
+   "name": "avatar",
+   "type": "ui",
+   "title": "Avatar",
+   "description": "Tailark Base UI Avatar component",
+   "component": "avatar",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react"
+   ],
+   "url": "https://tailark.com/r/avatar.json"
+  },
+  {
+   "name": "bank-stats",
+   "type": "component",
+   "title": "Bank Stats Illustration",
+   "description": "Tailark bank-stats illustration",
+   "component": "stat",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/bank-stats.json"
+  },
+  {
+   "name": "bento-1",
+   "type": "block",
+   "title": "Bento 1",
+   "description": "Tailark bento variant 1 block",
+   "component": "bento-grid",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/bento-1.json"
+  },
+  {
+   "name": "bento-10",
+   "type": "block",
+   "title": "Bento 10",
+   "description": "Tailark bento variant 10 block",
+   "component": "bento-grid",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/bento-10.json"
+  },
+  {
+   "name": "bento-11",
+   "type": "block",
+   "title": "Bento 11",
+   "description": "Tailark bento variant 11 block",
+   "component": "bento-grid",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/bento-11.json"
+  },
+  {
+   "name": "bento-12",
+   "type": "block",
+   "title": "Bento 12",
+   "description": "Tailark bento variant 12 block",
+   "component": "bento-grid",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/bento-12.json"
+  },
+  {
+   "name": "bento-13",
+   "type": "block",
+   "title": "Bento 13",
+   "description": "Tailark bento variant 13 block",
+   "component": "bento-grid",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/bento-13.json"
+  },
+  {
+   "name": "bento-14",
+   "type": "block",
+   "title": "Bento 14",
+   "description": "Tailark bento variant 14 block",
+   "component": "bento-grid",
+   "surface": null,
+   "dependencies": [
+    "dotted-map"
+   ],
+   "url": "https://tailark.com/r/bento-14.json"
+  },
+  {
+   "name": "bento-2",
+   "type": "block",
+   "title": "Bento 2",
+   "description": "Tailark bento variant 2 block",
+   "component": "bento-grid",
+   "surface": null,
+   "dependencies": [
+    "dotted-map"
+   ],
+   "url": "https://tailark.com/r/bento-2.json"
+  },
+  {
+   "name": "bento-3",
+   "type": "block",
+   "title": "Bento 3",
+   "description": "Tailark bento variant 3 block",
+   "component": "bento-grid",
+   "surface": null,
+   "dependencies": [
+    "@tsparticles/engine",
+    "@tsparticles/react",
+    "@tsparticles/slim",
+    "motion"
+   ],
+   "url": "https://tailark.com/r/bento-3.json"
+  },
+  {
+   "name": "bento-4",
+   "type": "block",
+   "title": "Bento 4",
+   "description": "Tailark bento variant 4 block",
+   "component": "bento-grid",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/bento-4.json"
+  },
+  {
+   "name": "bento-5",
+   "type": "block",
+   "title": "Bento 5",
+   "description": "Tailark bento variant 5 block",
+   "component": "bento-grid",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/bento-5.json"
+  },
+  {
+   "name": "bento-6",
+   "type": "block",
+   "title": "Bento 6",
+   "description": "Tailark bento variant 6 block",
+   "component": "bento-grid",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/bento-6.json"
+  },
+  {
+   "name": "bento-7",
+   "type": "block",
+   "title": "Bento 7",
+   "description": "Tailark bento variant 7 block",
+   "component": "bento-grid",
+   "surface": null,
+   "dependencies": [
+    "dotted-map"
+   ],
+   "url": "https://tailark.com/r/bento-7.json"
+  },
+  {
+   "name": "bento-8",
+   "type": "block",
+   "title": "Bento 8",
+   "description": "Tailark bento variant 8 block",
+   "component": "bento-grid",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/bento-8.json"
+  },
+  {
+   "name": "bento-9",
+   "type": "block",
+   "title": "Bento 9",
+   "description": "Tailark bento variant 9 block",
+   "component": "bento-grid",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/bento-9.json"
+  },
+  {
+   "name": "blog-blocks-1",
+   "type": "block",
+   "title": "Blog Blocks 1",
+   "description": "Tailark blog-blocks variant 1 block",
+   "component": null,
+   "surface": "blog",
+   "dependencies": [],
+   "url": "https://tailark.com/r/blog-blocks-1.json"
+  },
+  {
+   "name": "blog-blocks-2",
+   "type": "block",
+   "title": "Blog Blocks 2",
+   "description": "Tailark blog-blocks variant 2 block",
+   "component": null,
+   "surface": "blog",
+   "dependencies": [],
+   "url": "https://tailark.com/r/blog-blocks-2.json"
+  },
+  {
+   "name": "blog-blocks-3",
+   "type": "block",
+   "title": "Blog Blocks 3",
+   "description": "Tailark blog-blocks variant 3 block",
+   "component": null,
+   "surface": "blog",
+   "dependencies": [],
+   "url": "https://tailark.com/r/blog-blocks-3.json"
+  },
+  {
+   "name": "blog-blocks-4",
+   "type": "block",
+   "title": "Blog Blocks 4",
+   "description": "Tailark blog-blocks variant 4 block",
+   "component": null,
+   "surface": "blog",
+   "dependencies": [],
+   "url": "https://tailark.com/r/blog-blocks-4.json"
+  },
+  {
+   "name": "blog-blocks-5",
+   "type": "block",
+   "title": "Blog Blocks 5",
+   "description": "Tailark blog-blocks variant 5 block",
+   "component": null,
+   "surface": "blog",
+   "dependencies": [],
+   "url": "https://tailark.com/r/blog-blocks-5.json"
+  },
+  {
+   "name": "blog-blocks-6",
+   "type": "block",
+   "title": "Blog Blocks 6",
+   "description": "Tailark blog-blocks variant 6 block",
+   "component": null,
+   "surface": "blog",
+   "dependencies": [],
+   "url": "https://tailark.com/r/blog-blocks-6.json"
+  },
+  {
+   "name": "blog-blocks-7",
+   "type": "block",
+   "title": "Blog Blocks 7",
+   "description": "Tailark blog-blocks variant 7 block",
+   "component": null,
+   "surface": "blog",
+   "dependencies": [],
+   "url": "https://tailark.com/r/blog-blocks-7.json"
+  },
+  {
+   "name": "button",
+   "type": "ui",
+   "title": "Button",
+   "description": "Tailark Base UI Button component",
+   "component": "button",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react",
+    "class-variance-authority"
+   ],
+   "url": "https://tailark.com/r/button.json"
+  },
+  {
+   "name": "calendar",
+   "type": "component",
+   "title": "Calendar Illustration",
+   "description": "Tailark calendar illustration",
+   "component": "calendar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/calendar.json"
+  },
+  {
+   "name": "calendar-10",
+   "type": "component",
+   "title": "Calendar Illustration",
+   "description": "Tailark 10 calendar illustration",
+   "component": "calendar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/calendar-10.json"
+  },
+  {
+   "name": "calendar-11",
+   "type": "component",
+   "title": "Calendar Illustration",
+   "description": "Tailark 11 calendar illustration",
+   "component": "calendar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/calendar-11.json"
+  },
+  {
+   "name": "calendar-2",
+   "type": "component",
+   "title": "Calendar Illustration",
+   "description": "Tailark 2 calendar illustration",
+   "component": "calendar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/calendar-2.json"
+  },
+  {
+   "name": "calendar-3",
+   "type": "component",
+   "title": "Calendar Illustration",
+   "description": "Tailark 3 calendar illustration",
+   "component": "calendar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/calendar-3.json"
+  },
+  {
+   "name": "calendar-4",
+   "type": "component",
+   "title": "Calendar Illustration",
+   "description": "Tailark 4 calendar illustration",
+   "component": "calendar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/calendar-4.json"
+  },
+  {
+   "name": "calendar-5",
+   "type": "component",
+   "title": "Calendar Illustration",
+   "description": "Tailark 5 calendar illustration",
+   "component": "calendar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/calendar-5.json"
+  },
+  {
+   "name": "calendar-6",
+   "type": "component",
+   "title": "Calendar Illustration",
+   "description": "Tailark 6 calendar illustration",
+   "component": "calendar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/calendar-6.json"
+  },
+  {
+   "name": "calendar-7",
+   "type": "component",
+   "title": "Calendar Illustration",
+   "description": "Tailark 7 calendar illustration",
+   "component": "calendar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/calendar-7.json"
+  },
+  {
+   "name": "calendar-8",
+   "type": "component",
+   "title": "Calendar Illustration",
+   "description": "Tailark 8 calendar illustration",
+   "component": "calendar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/calendar-8.json"
+  },
+  {
+   "name": "call-to-action-1",
+   "type": "block",
+   "title": "Call To Action 1",
+   "description": "Tailark call-to-action variant 1 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/call-to-action-1.json"
+  },
+  {
+   "name": "call-to-action-2",
+   "type": "block",
+   "title": "Call To Action 2",
+   "description": "Tailark call-to-action variant 2 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/call-to-action-2.json"
+  },
+  {
+   "name": "call-to-action-3",
+   "type": "block",
+   "title": "Call To Action 3",
+   "description": "Tailark call-to-action variant 3 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/call-to-action-3.json"
+  },
+  {
+   "name": "campaign",
+   "type": "component",
+   "title": "Campaign Illustration",
+   "description": "Tailark campaign illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/campaign.json"
+  },
+  {
+   "name": "campaign-2",
+   "type": "component",
+   "title": "Campaign Illustration",
+   "description": "Tailark 2 campaign illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/campaign-2.json"
+  },
+  {
+   "name": "card",
+   "type": "ui",
+   "title": "Card",
+   "description": "Tailark Base UI Card component",
+   "component": "card",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/card.json"
+  },
+  {
+   "name": "carousel",
+   "type": "ui",
+   "title": "Carousel",
+   "description": "Tailark Base UI Carousel component",
+   "component": "carousel",
+   "surface": null,
+   "dependencies": [
+    "embla-carousel-react"
+   ],
+   "url": "https://tailark.com/r/carousel.json"
+  },
+  {
+   "name": "chart",
+   "type": "ui",
+   "title": "Chart",
+   "description": "Tailark Base UI Chart component",
+   "component": "chart",
+   "surface": null,
+   "dependencies": [
+    "recharts"
+   ],
+   "url": "https://tailark.com/r/chart.json"
+  },
+  {
+   "name": "chat",
+   "type": "component",
+   "title": "Chat Illustration",
+   "description": "Tailark chat illustration",
+   "component": "conversation",
+   "surface": "chat-mobile",
+   "dependencies": [],
+   "url": "https://tailark.com/r/chat.json"
+  },
+  {
+   "name": "code-demo-1",
+   "type": "block",
+   "title": "Code Demo 1",
+   "description": "Tailark code-demo variant 1 block",
+   "component": "code-block",
+   "surface": null,
+   "dependencies": [
+    "hast-util-to-jsx-runtime",
+    "motion",
+    "shiki"
+   ],
+   "url": "https://tailark.com/r/code-demo-1.json"
+  },
+  {
+   "name": "code-demo-2",
+   "type": "block",
+   "title": "Code Demo 2",
+   "description": "Tailark code-demo variant 2 block",
+   "component": "code-block",
+   "surface": null,
+   "dependencies": [
+    "hast-util-to-jsx-runtime",
+    "shiki"
+   ],
+   "url": "https://tailark.com/r/code-demo-2.json"
+  },
+  {
+   "name": "code-demo-3",
+   "type": "block",
+   "title": "Code Demo 3",
+   "description": "Tailark code-demo variant 3 block",
+   "component": "code-block",
+   "surface": null,
+   "dependencies": [
+    "hast-util-to-jsx-runtime",
+    "shiki"
+   ],
+   "url": "https://tailark.com/r/code-demo-3.json"
+  },
+  {
+   "name": "code-demo-4",
+   "type": "block",
+   "title": "Code Demo 4",
+   "description": "Tailark code-demo variant 4 block",
+   "component": "code-block",
+   "surface": null,
+   "dependencies": [
+    "hast-util-to-jsx-runtime",
+    "shiki"
+   ],
+   "url": "https://tailark.com/r/code-demo-4.json"
+  },
+  {
+   "name": "collaboration",
+   "type": "component",
+   "title": "Collaboration Illustration",
+   "description": "Tailark collaboration illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/collaboration.json"
+  },
+  {
+   "name": "collaboration-comment",
+   "type": "component",
+   "title": "Collaboration Illustration",
+   "description": "Tailark comment collaboration illustration",
+   "component": "comment",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/collaboration-comment.json"
+  },
+  {
+   "name": "comment",
+   "type": "component",
+   "title": "Comment Illustration",
+   "description": "Tailark comment illustration",
+   "component": "comment",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/comment.json"
+  },
+  {
+   "name": "comparator-1",
+   "type": "block",
+   "title": "Comparator 1",
+   "description": "Tailark comparator variant 1 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/comparator-1.json"
+  },
+  {
+   "name": "comparator-2",
+   "type": "block",
+   "title": "Comparator 2",
+   "description": "Tailark comparator variant 2 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/comparator-2.json"
+  },
+  {
+   "name": "comparator-3",
+   "type": "block",
+   "title": "Comparator 3",
+   "description": "Tailark comparator variant 3 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/comparator-3.json"
+  },
+  {
+   "name": "comparator-4",
+   "type": "block",
+   "title": "Comparator 4",
+   "description": "Tailark comparator variant 4 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/comparator-4.json"
+  },
+  {
+   "name": "comparator-5",
+   "type": "block",
+   "title": "Comparator 5",
+   "description": "Tailark comparator variant 5 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/comparator-5.json"
+  },
+  {
+   "name": "comparator-6",
+   "type": "block",
+   "title": "Comparator 6",
+   "description": "Tailark comparator variant 6 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/comparator-6.json"
+  },
+  {
+   "name": "comparator-7",
+   "type": "block",
+   "title": "Comparator 7",
+   "description": "Tailark comparator variant 7 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/comparator-7.json"
+  },
+  {
+   "name": "contact-1",
+   "type": "block",
+   "title": "Contact 1",
+   "description": "Tailark contact variant 1 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/contact-1.json"
+  },
+  {
+   "name": "contact-10",
+   "type": "block",
+   "title": "Contact 10",
+   "description": "Tailark contact variant 10 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/contact-10.json"
+  },
+  {
+   "name": "contact-2",
+   "type": "block",
+   "title": "Contact 2",
+   "description": "Tailark contact variant 2 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/contact-2.json"
+  },
+  {
+   "name": "contact-3",
+   "type": "block",
+   "title": "Contact 3",
+   "description": "Tailark contact variant 3 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/contact-3.json"
+  },
+  {
+   "name": "contact-4",
+   "type": "block",
+   "title": "Contact 4",
+   "description": "Tailark contact variant 4 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/contact-4.json"
+  },
+  {
+   "name": "contact-5",
+   "type": "block",
+   "title": "Contact 5",
+   "description": "Tailark contact variant 5 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/contact-5.json"
+  },
+  {
+   "name": "contact-6",
+   "type": "block",
+   "title": "Contact 6",
+   "description": "Tailark contact variant 6 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/contact-6.json"
+  },
+  {
+   "name": "contact-7",
+   "type": "block",
+   "title": "Contact 7",
+   "description": "Tailark contact variant 7 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/contact-7.json"
+  },
+  {
+   "name": "contact-8",
+   "type": "block",
+   "title": "Contact 8",
+   "description": "Tailark contact variant 8 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/contact-8.json"
+  },
+  {
+   "name": "contact-9",
+   "type": "block",
+   "title": "Contact 9",
+   "description": "Tailark contact variant 9 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/contact-9.json"
+  },
+  {
+   "name": "content-1",
+   "type": "block",
+   "title": "Content 1",
+   "description": "Tailark content variant 1 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/content-1.json"
+  },
+  {
+   "name": "content-2",
+   "type": "block",
+   "title": "Content 2",
+   "description": "Tailark content variant 2 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/content-2.json"
+  },
+  {
+   "name": "content-3",
+   "type": "block",
+   "title": "Content 3",
+   "description": "Tailark content variant 3 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/content-3.json"
+  },
+  {
+   "name": "content-4",
+   "type": "block",
+   "title": "Content 4",
+   "description": "Tailark content variant 4 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/content-4.json"
+  },
+  {
+   "name": "content-5",
+   "type": "block",
+   "title": "Content 5",
+   "description": "Tailark content variant 5 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/content-5.json"
+  },
+  {
+   "name": "content-6",
+   "type": "block",
+   "title": "Content 6",
+   "description": "Tailark content variant 6 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/content-6.json"
+  },
+  {
+   "name": "content-7",
+   "type": "block",
+   "title": "Content 7",
+   "description": "Tailark content variant 7 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/content-7.json"
+  },
+  {
+   "name": "context-menu",
+   "type": "ui",
+   "title": "Context Menu",
+   "description": "Tailark Base UI Context Menu component",
+   "component": "context-menu",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-context-menu"
+   ],
+   "url": "https://tailark.com/r/context-menu.json"
+  },
+  {
+   "name": "core-accel",
+   "type": "ui",
+   "title": "Accel logo",
+   "description": "Tailark core accel svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-accel.json"
+  },
+  {
+   "name": "core-antigravity",
+   "type": "ui",
+   "title": "Antigravity logo",
+   "description": "Tailark core antigravity svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-antigravity.json"
+  },
+  {
+   "name": "core-beacon",
+   "type": "ui",
+   "title": "Beacon logo",
+   "description": "Tailark core beacon svg logo",
+   "component": "coachmark",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-beacon.json"
+  },
+  {
+   "name": "core-bolt",
+   "type": "ui",
+   "title": "Bolt logo",
+   "description": "Tailark core bolt svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-bolt.json"
+  },
+  {
+   "name": "core-cisco",
+   "type": "ui",
+   "title": "Cisco logo",
+   "description": "Tailark core cisco svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-cisco.json"
+  },
+  {
+   "name": "core-claude",
+   "type": "ui",
+   "title": "Claude logo",
+   "description": "Tailark core claude svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-claude.json"
+  },
+  {
+   "name": "core-clerk",
+   "type": "ui",
+   "title": "Clerk logo",
+   "description": "Tailark core clerk svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-clerk.json"
+  },
+  {
+   "name": "core-cloudflare",
+   "type": "ui",
+   "title": "Cloudflare logo",
+   "description": "Tailark core cloudflare svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-cloudflare.json"
+  },
+  {
+   "name": "core-cohere",
+   "type": "ui",
+   "title": "Cohere logo",
+   "description": "Tailark core cohere svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-cohere.json"
+  },
+  {
+   "name": "core-copyright-year",
+   "type": "ui",
+   "title": "Copyright Year",
+   "description": "Cached current year for copyright footers",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-copyright-year.json"
+  },
+  {
+   "name": "core-cursor",
+   "type": "ui",
+   "title": "Cursor logo",
+   "description": "Tailark core cursor svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-cursor.json"
+  },
+  {
+   "name": "core-deepseek",
+   "type": "ui",
+   "title": "Deepseek logo",
+   "description": "Tailark core deepseek svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-deepseek.json"
+  },
+  {
+   "name": "core-drive",
+   "type": "ui",
+   "title": "Drive logo",
+   "description": "Tailark core drive svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-drive.json"
+  },
+  {
+   "name": "core-figma",
+   "type": "ui",
+   "title": "Figma logo",
+   "description": "Tailark core figma svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-figma.json"
+  },
+  {
+   "name": "core-firebase",
+   "type": "ui",
+   "title": "Firebase logo",
+   "description": "Tailark core firebase svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-firebase.json"
+  },
+  {
+   "name": "core-gemini",
+   "type": "ui",
+   "title": "Gemini logo",
+   "description": "Tailark core gemini svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-gemini.json"
+  },
+  {
+   "name": "core-gmail",
+   "type": "ui",
+   "title": "Gmail logo",
+   "description": "Tailark core gmail svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-gmail.json"
+  },
+  {
+   "name": "core-google-palm",
+   "type": "ui",
+   "title": "Google PaLM logo",
+   "description": "Tailark core google-palm svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-google-palm.json"
+  },
+  {
+   "name": "core-hulu",
+   "type": "ui",
+   "title": "Hulu logo",
+   "description": "Tailark core hulu svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-hulu.json"
+  },
+  {
+   "name": "core-intellij",
+   "type": "ui",
+   "title": "Intellij logo",
+   "description": "Tailark core intellij svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-intellij.json"
+  },
+  {
+   "name": "core-leap-wallet",
+   "type": "ui",
+   "title": "Leap Wallet logo",
+   "description": "Tailark core leap-wallet svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-leap-wallet.json"
+  },
+  {
+   "name": "core-linear",
+   "type": "ui",
+   "title": "Linear logo",
+   "description": "Tailark core linear svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-linear.json"
+  },
+  {
+   "name": "core-logo",
+   "type": "ui",
+   "title": "Logo",
+   "description": "Tailark core logo component",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-logo.json"
+  },
+  {
+   "name": "core-magicui",
+   "type": "ui",
+   "title": "Magic UI logo",
+   "description": "Tailark core magicui svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-magicui.json"
+  },
+  {
+   "name": "core-media-wiki",
+   "type": "ui",
+   "title": "MediaWiki logo",
+   "description": "Tailark core media-wiki svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-media-wiki.json"
+  },
+  {
+   "name": "core-mediawiki",
+   "type": "ui",
+   "title": "MediaWiki logo",
+   "description": "Tailark core mediawiki svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-mediawiki.json"
+  },
+  {
+   "name": "core-microsoft-excel",
+   "type": "ui",
+   "title": "Microsoft Excel logo",
+   "description": "Tailark core microsoft-excel svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-microsoft-excel.json"
+  },
+  {
+   "name": "core-microsoft-word",
+   "type": "ui",
+   "title": "Microsoft Word logo",
+   "description": "Tailark core microsoft-word svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-microsoft-word.json"
+  },
+  {
+   "name": "core-mistral-ai",
+   "type": "ui",
+   "title": "Mistral AI logo",
+   "description": "Tailark core mistral-ai svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-mistral-ai.json"
+  },
+  {
+   "name": "core-neon",
+   "type": "ui",
+   "title": "Neon logo",
+   "description": "Tailark core neon svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-neon.json"
+  },
+  {
+   "name": "core-open-ai",
+   "type": "ui",
+   "title": "OpenAI logo",
+   "description": "Tailark core open-ai svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-open-ai.json"
+  },
+  {
+   "name": "core-openai",
+   "type": "ui",
+   "title": "OpenAI logo",
+   "description": "Tailark core openai svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-openai.json"
+  },
+  {
+   "name": "core-particles",
+   "type": "ui",
+   "title": "Particles",
+   "description": "Tailark core particles component",
+   "component": "confetti",
+   "surface": null,
+   "dependencies": [
+    "@tsparticles/engine",
+    "@tsparticles/react",
+    "@tsparticles/slim"
+   ],
+   "url": "https://tailark.com/r/core-particles.json"
+  },
+  {
+   "name": "core-paypal",
+   "type": "ui",
+   "title": "Paypal logo",
+   "description": "Tailark core paypal svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-paypal.json"
+  },
+  {
+   "name": "core-pdf",
+   "type": "ui",
+   "title": "PDF logo",
+   "description": "Tailark core pdf svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-pdf.json"
+  },
+  {
+   "name": "core-perplexity-ai",
+   "type": "ui",
+   "title": "Perplexity AI logo",
+   "description": "Tailark core perplexity-ai svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-perplexity-ai.json"
+  },
+  {
+   "name": "core-polar",
+   "type": "ui",
+   "title": "Polar logo",
+   "description": "Tailark core polar svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-polar.json"
+  },
+  {
+   "name": "core-polars",
+   "type": "ui",
+   "title": "Polars logo",
+   "description": "Tailark core polars svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-polars.json"
+  },
+  {
+   "name": "core-prime",
+   "type": "ui",
+   "title": "Prime logo",
+   "description": "Tailark core prime svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-prime.json"
+  },
+  {
+   "name": "core-prompt-input",
+   "type": "component",
+   "title": "Prompt Input",
+   "description": "Tailark core prompt input component",
+   "component": "prompt-input",
+   "surface": null,
+   "dependencies": [
+    "ai",
+    "lucide-react"
+   ],
+   "url": "https://tailark.com/r/core-prompt-input.json"
+  },
+  {
+   "name": "core-qwen",
+   "type": "ui",
+   "title": "Qwen logo",
+   "description": "Tailark core qwen svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-qwen.json"
+  },
+  {
+   "name": "core-replit",
+   "type": "ui",
+   "title": "Replit logo",
+   "description": "Tailark core replit svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-replit.json"
+  },
+  {
+   "name": "core-response-stream",
+   "type": "ui",
+   "title": "Response Stream",
+   "description": "Tailark core response stream component",
+   "component": "feed",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-response-stream.json"
+  },
+  {
+   "name": "core-salesforce",
+   "type": "ui",
+   "title": "Salesforce logo",
+   "description": "Tailark core salesforce svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-salesforce.json"
+  },
+  {
+   "name": "core-sequoia",
+   "type": "ui",
+   "title": "Sequoia logo",
+   "description": "Tailark core sequoia svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-sequoia.json"
+  },
+  {
+   "name": "core-shopify",
+   "type": "ui",
+   "title": "Shopify logo",
+   "description": "Tailark core shopify svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-shopify.json"
+  },
+  {
+   "name": "core-slack",
+   "type": "ui",
+   "title": "Slack logo",
+   "description": "Tailark core slack svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-slack.json"
+  },
+  {
+   "name": "core-spotify",
+   "type": "ui",
+   "title": "Spotify logo",
+   "description": "Tailark core spotify svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-spotify.json"
+  },
+  {
+   "name": "core-stripe",
+   "type": "ui",
+   "title": "Stripe logo",
+   "description": "Tailark core stripe svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-stripe.json"
+  },
+  {
+   "name": "core-suggestion",
+   "type": "component",
+   "title": "Suggestion",
+   "description": "Tailark core suggestion component",
+   "component": "suggestion",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-suggestion.json"
+  },
+  {
+   "name": "core-supabase",
+   "type": "ui",
+   "title": "Supabase logo",
+   "description": "Tailark core supabase svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-supabase.json"
+  },
+  {
+   "name": "core-sva",
+   "type": "ui",
+   "title": "Sva logo",
+   "description": "Tailark core sva svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-sva.json"
+  },
+  {
+   "name": "core-tailwindcss",
+   "type": "ui",
+   "title": "Tailwind CSS logo",
+   "description": "Tailark core tailwindcss svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-tailwindcss.json"
+  },
+  {
+   "name": "core-twilio",
+   "type": "ui",
+   "title": "Twilio logo",
+   "description": "Tailark core twilio svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-twilio.json"
+  },
+  {
+   "name": "core-vercel",
+   "type": "ui",
+   "title": "Vercel logo",
+   "description": "Tailark core vercel svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-vercel.json"
+  },
+  {
+   "name": "core-vs-code",
+   "type": "ui",
+   "title": "VS Code logo",
+   "description": "Tailark core vs-code svg logo",
+   "component": "code-block",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-vs-code.json"
+  },
+  {
+   "name": "core-vs-codium",
+   "type": "ui",
+   "title": "VSCodium logo",
+   "description": "Tailark core vs-codium svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-vs-codium.json"
+  },
+  {
+   "name": "core-windsurf",
+   "type": "ui",
+   "title": "Windsurf logo",
+   "description": "Tailark core windsurf svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-windsurf.json"
+  },
+  {
+   "name": "core-y-combinator",
+   "type": "ui",
+   "title": "Y Combinator logo",
+   "description": "Tailark core y-combinator svg logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/core-y-combinator.json"
+  },
+  {
+   "name": "currency",
+   "type": "component",
+   "title": "Currency Illustration",
+   "description": "Tailark currency illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/currency.json"
+  },
+  {
+   "name": "description-list-1",
+   "type": "block",
+   "title": "Description List 1",
+   "description": "Tailark description-list variant 1 block",
+   "component": "description-list",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/description-list-1.json"
+  },
+  {
+   "name": "description-list-2",
+   "type": "block",
+   "title": "Description List 2",
+   "description": "Tailark description-list variant 2 block",
+   "component": "description-list",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/description-list-2.json"
+  },
+  {
+   "name": "description-list-3",
+   "type": "block",
+   "title": "Description List 3",
+   "description": "Tailark description-list variant 3 block",
+   "component": "description-list",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/description-list-3.json"
+  },
+  {
+   "name": "description-list-4",
+   "type": "block",
+   "title": "Description List 4",
+   "description": "Tailark description-list variant 4 block",
+   "component": "description-list",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/description-list-4.json"
+  },
+  {
+   "name": "description-list-5",
+   "type": "block",
+   "title": "Description List 5",
+   "description": "Tailark description-list variant 5 block",
+   "component": "description-list",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/description-list-5.json"
+  },
+  {
+   "name": "description-list-6",
+   "type": "block",
+   "title": "Description List 6",
+   "description": "Tailark description-list variant 6 block",
+   "component": "description-list",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/description-list-6.json"
+  },
+  {
+   "name": "description-list-7",
+   "type": "block",
+   "title": "Description List 7",
+   "description": "Tailark description-list variant 7 block",
+   "component": "description-list",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/description-list-7.json"
+  },
+  {
+   "name": "description-list-8",
+   "type": "block",
+   "title": "Description List 8",
+   "description": "Tailark description-list variant 8 block",
+   "component": "description-list",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/description-list-8.json"
+  },
+  {
+   "name": "dialog",
+   "type": "ui",
+   "title": "Dialog",
+   "description": "Tailark Base UI Dialog component",
+   "component": "modal",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react"
+   ],
+   "url": "https://tailark.com/r/dialog.json"
+  },
+  {
+   "name": "document",
+   "type": "component",
+   "title": "Document Illustration",
+   "description": "Tailark document illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/document.json"
+  },
+  {
+   "name": "document-analysis",
+   "type": "component",
+   "title": "Document Illustration",
+   "description": "Tailark analysis document illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/document-analysis.json"
+  },
+  {
+   "name": "document-csv",
+   "type": "component",
+   "title": "Document Illustration",
+   "description": "Tailark csv document illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/document-csv.json"
+  },
+  {
+   "name": "document-docx",
+   "type": "component",
+   "title": "Document Illustration",
+   "description": "Tailark docx document illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/document-docx.json"
+  },
+  {
+   "name": "document-html",
+   "type": "component",
+   "title": "Document Illustration",
+   "description": "Tailark html document illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/document-html.json"
+  },
+  {
+   "name": "document-img",
+   "type": "component",
+   "title": "Document Illustration",
+   "description": "Tailark img document illustration",
+   "component": "image",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/document-img.json"
+  },
+  {
+   "name": "document-json",
+   "type": "component",
+   "title": "Document Illustration",
+   "description": "Tailark json document illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/document-json.json"
+  },
+  {
+   "name": "document-md",
+   "type": "component",
+   "title": "Document Illustration",
+   "description": "Tailark md document illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/document-md.json"
+  },
+  {
+   "name": "document-pdf",
+   "type": "component",
+   "title": "Document Illustration",
+   "description": "Tailark pdf document illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/document-pdf.json"
+  },
+  {
+   "name": "document-pptx",
+   "type": "component",
+   "title": "Document Illustration",
+   "description": "Tailark pptx document illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/document-pptx.json"
+  },
+  {
+   "name": "document-txt",
+   "type": "component",
+   "title": "Document Illustration",
+   "description": "Tailark txt document illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/document-txt.json"
+  },
+  {
+   "name": "document-xlx",
+   "type": "component",
+   "title": "Document Illustration",
+   "description": "Tailark xlx document illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/document-xlx.json"
+  },
+  {
+   "name": "document-zip",
+   "type": "component",
+   "title": "Document Illustration",
+   "description": "Tailark zip document illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/document-zip.json"
+  },
+  {
+   "name": "email",
+   "type": "component",
+   "title": "Email Illustration",
+   "description": "Tailark email illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/email.json"
+  },
+  {
+   "name": "expandable-features-1",
+   "type": "block",
+   "title": "Expandable Features 1",
+   "description": "Tailark expandable-features variant 1 block",
+   "component": "accordion",
+   "surface": "features",
+   "dependencies": [
+    "dotted-map"
+   ],
+   "url": "https://tailark.com/r/expandable-features-1.json"
+  },
+  {
+   "name": "expandable-features-10",
+   "type": "block",
+   "title": "Expandable Features 10",
+   "description": "Tailark expandable-features variant 10 block",
+   "component": "accordion",
+   "surface": "features",
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/expandable-features-10.json"
+  },
+  {
+   "name": "expandable-features-11",
+   "type": "block",
+   "title": "Expandable Features 11",
+   "description": "Tailark expandable-features variant 11 block",
+   "component": "accordion",
+   "surface": "features",
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/expandable-features-11.json"
+  },
+  {
+   "name": "expandable-features-12",
+   "type": "block",
+   "title": "Expandable Features 12",
+   "description": "Tailark expandable-features variant 12 block",
+   "component": "accordion",
+   "surface": "features",
+   "dependencies": [],
+   "url": "https://tailark.com/r/expandable-features-12.json"
+  },
+  {
+   "name": "expandable-features-13",
+   "type": "block",
+   "title": "Expandable Features 13",
+   "description": "Tailark expandable-features variant 13 block",
+   "component": "accordion",
+   "surface": "features",
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/expandable-features-13.json"
+  },
+  {
+   "name": "expandable-features-14",
+   "type": "block",
+   "title": "Expandable Features 14",
+   "description": "Tailark expandable-features variant 14 block",
+   "component": "accordion",
+   "surface": "features",
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/expandable-features-14.json"
+  },
+  {
+   "name": "expandable-features-15",
+   "type": "block",
+   "title": "Expandable Features 15",
+   "description": "Tailark expandable-features variant 15 block",
+   "component": "accordion",
+   "surface": "features",
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/expandable-features-15.json"
+  },
+  {
+   "name": "expandable-features-16",
+   "type": "block",
+   "title": "Expandable Features 16",
+   "description": "Tailark expandable-features variant 16 block",
+   "component": "accordion",
+   "surface": "features",
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/expandable-features-16.json"
+  },
+  {
+   "name": "expandable-features-17",
+   "type": "block",
+   "title": "Expandable Features 17",
+   "description": "Tailark expandable-features variant 17 block",
+   "component": "accordion",
+   "surface": "features",
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/expandable-features-17.json"
+  },
+  {
+   "name": "expandable-features-18",
+   "type": "block",
+   "title": "Expandable Features 18",
+   "description": "Tailark expandable-features variant 18 block",
+   "component": "accordion",
+   "surface": "features",
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/expandable-features-18.json"
+  },
+  {
+   "name": "expandable-features-19",
+   "type": "block",
+   "title": "Expandable Features 19",
+   "description": "Tailark expandable-features variant 19 block",
+   "component": "accordion",
+   "surface": "features",
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/expandable-features-19.json"
+  },
+  {
+   "name": "expandable-features-2",
+   "type": "block",
+   "title": "Expandable Features 2",
+   "description": "Tailark expandable-features variant 2 block",
+   "component": "accordion",
+   "surface": "features",
+   "dependencies": [
+    "dotted-map"
+   ],
+   "url": "https://tailark.com/r/expandable-features-2.json"
+  },
+  {
+   "name": "expandable-features-20",
+   "type": "block",
+   "title": "Expandable Features 20",
+   "description": "Tailark expandable-features variant 20 block",
+   "component": "accordion",
+   "surface": "features",
+   "dependencies": [],
+   "url": "https://tailark.com/r/expandable-features-20.json"
+  },
+  {
+   "name": "expandable-features-21",
+   "type": "block",
+   "title": "Expandable Features 21",
+   "description": "Tailark expandable-features variant 21 block",
+   "component": "accordion",
+   "surface": "features",
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/expandable-features-21.json"
+  },
+  {
+   "name": "expandable-features-22",
+   "type": "block",
+   "title": "Expandable Features 22",
+   "description": "Tailark expandable-features variant 22 block",
+   "component": "accordion",
+   "surface": "features",
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/expandable-features-22.json"
+  },
+  {
+   "name": "expandable-features-3",
+   "type": "block",
+   "title": "Expandable Features 3",
+   "description": "Tailark expandable-features variant 3 block",
+   "component": "accordion",
+   "surface": "features",
+   "dependencies": [
+    "dotted-map"
+   ],
+   "url": "https://tailark.com/r/expandable-features-3.json"
+  },
+  {
+   "name": "expandable-features-4",
+   "type": "block",
+   "title": "Expandable Features 4",
+   "description": "Tailark expandable-features variant 4 block",
+   "component": "accordion",
+   "surface": "features",
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/expandable-features-4.json"
+  },
+  {
+   "name": "expandable-features-5",
+   "type": "block",
+   "title": "Expandable Features 5",
+   "description": "Tailark expandable-features variant 5 block",
+   "component": "accordion",
+   "surface": "features",
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/expandable-features-5.json"
+  },
+  {
+   "name": "expandable-features-6",
+   "type": "block",
+   "title": "Expandable Features 6",
+   "description": "Tailark expandable-features variant 6 block",
+   "component": "accordion",
+   "surface": "features",
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/expandable-features-6.json"
+  },
+  {
+   "name": "expandable-features-7",
+   "type": "block",
+   "title": "Expandable Features 7",
+   "description": "Tailark expandable-features variant 7 block",
+   "component": "accordion",
+   "surface": "features",
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/expandable-features-7.json"
+  },
+  {
+   "name": "expandable-features-8",
+   "type": "block",
+   "title": "Expandable Features 8",
+   "description": "Tailark expandable-features variant 8 block",
+   "component": "accordion",
+   "surface": "features",
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/expandable-features-8.json"
+  },
+  {
+   "name": "expandable-features-9",
+   "type": "block",
+   "title": "Expandable Features 9",
+   "description": "Tailark expandable-features variant 9 block",
+   "component": "accordion",
+   "surface": "features",
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/expandable-features-9.json"
+  },
+  {
+   "name": "face-scan",
+   "type": "component",
+   "title": "Face Scan Illustration",
+   "description": "Tailark face-scan illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/face-scan.json"
+  },
+  {
+   "name": "face-scan-2",
+   "type": "component",
+   "title": "Face Scan Illustration",
+   "description": "Tailark 2 face-scan illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/face-scan-2.json"
+  },
+  {
+   "name": "faqs-1",
+   "type": "block",
+   "title": "Faqs 1",
+   "description": "Tailark faqs variant 1 block",
+   "component": null,
+   "surface": "faq",
+   "dependencies": [],
+   "url": "https://tailark.com/r/faqs-1.json"
+  },
+  {
+   "name": "faqs-2",
+   "type": "block",
+   "title": "Faqs 2",
+   "description": "Tailark faqs variant 2 block",
+   "component": null,
+   "surface": "faq",
+   "dependencies": [],
+   "url": "https://tailark.com/r/faqs-2.json"
+  },
+  {
+   "name": "faqs-3",
+   "type": "block",
+   "title": "Faqs 3",
+   "description": "Tailark faqs variant 3 block",
+   "component": null,
+   "surface": "faq",
+   "dependencies": [],
+   "url": "https://tailark.com/r/faqs-3.json"
+  },
+  {
+   "name": "faqs-4",
+   "type": "block",
+   "title": "Faqs 4",
+   "description": "Tailark faqs variant 4 block",
+   "component": null,
+   "surface": "faq",
+   "dependencies": [],
+   "url": "https://tailark.com/r/faqs-4.json"
+  },
+  {
+   "name": "faqs-5",
+   "type": "block",
+   "title": "Faqs 5",
+   "description": "Tailark faqs variant 5 block",
+   "component": null,
+   "surface": "faq",
+   "dependencies": [],
+   "url": "https://tailark.com/r/faqs-5.json"
+  },
+  {
+   "name": "features-1",
+   "type": "block",
+   "title": "Features 1",
+   "description": "Tailark features variant 1 block",
+   "component": null,
+   "surface": "features",
+   "dependencies": [],
+   "url": "https://tailark.com/r/features-1.json"
+  },
+  {
+   "name": "features-10",
+   "type": "block",
+   "title": "Features 10",
+   "description": "Tailark features variant 10 block",
+   "component": null,
+   "surface": "features",
+   "dependencies": [],
+   "url": "https://tailark.com/r/features-10.json"
+  },
+  {
+   "name": "features-11",
+   "type": "block",
+   "title": "Features 11",
+   "description": "Tailark features variant 11 block",
+   "component": null,
+   "surface": "features",
+   "dependencies": [],
+   "url": "https://tailark.com/r/features-11.json"
+  },
+  {
+   "name": "features-12",
+   "type": "block",
+   "title": "Features 12",
+   "description": "Tailark features variant 12 block",
+   "component": null,
+   "surface": "features",
+   "dependencies": [],
+   "url": "https://tailark.com/r/features-12.json"
+  },
+  {
+   "name": "features-13",
+   "type": "block",
+   "title": "Features 13",
+   "description": "Tailark features variant 13 block",
+   "component": null,
+   "surface": "features",
+   "dependencies": [
+    "dotted-map"
+   ],
+   "url": "https://tailark.com/r/features-13.json"
+  },
+  {
+   "name": "features-14",
+   "type": "block",
+   "title": "Features 14",
+   "description": "Tailark features variant 14 block",
+   "component": null,
+   "surface": "features",
+   "dependencies": [],
+   "url": "https://tailark.com/r/features-14.json"
+  },
+  {
+   "name": "features-15",
+   "type": "block",
+   "title": "Features 15",
+   "description": "Tailark features variant 15 block",
+   "component": null,
+   "surface": "features",
+   "dependencies": [],
+   "url": "https://tailark.com/r/features-15.json"
+  },
+  {
+   "name": "features-16",
+   "type": "block",
+   "title": "Features 16",
+   "description": "Tailark features variant 16 block",
+   "component": null,
+   "surface": "features",
+   "dependencies": [],
+   "url": "https://tailark.com/r/features-16.json"
+  },
+  {
+   "name": "features-2",
+   "type": "block",
+   "title": "Features 2",
+   "description": "Tailark features variant 2 block",
+   "component": null,
+   "surface": "features",
+   "dependencies": [],
+   "url": "https://tailark.com/r/features-2.json"
+  },
+  {
+   "name": "features-3",
+   "type": "block",
+   "title": "Features 3",
+   "description": "Tailark features variant 3 block",
+   "component": null,
+   "surface": "features",
+   "dependencies": [],
+   "url": "https://tailark.com/r/features-3.json"
+  },
+  {
+   "name": "features-4",
+   "type": "block",
+   "title": "Features 4",
+   "description": "Tailark features variant 4 block",
+   "component": null,
+   "surface": "features",
+   "dependencies": [],
+   "url": "https://tailark.com/r/features-4.json"
+  },
+  {
+   "name": "features-5",
+   "type": "block",
+   "title": "Features 5",
+   "description": "Tailark features variant 5 block",
+   "component": null,
+   "surface": "features",
+   "dependencies": [],
+   "url": "https://tailark.com/r/features-5.json"
+  },
+  {
+   "name": "features-6",
+   "type": "block",
+   "title": "Features 6",
+   "description": "Tailark features variant 6 block",
+   "component": null,
+   "surface": "features",
+   "dependencies": [
+    "hast-util-to-jsx-runtime",
+    "motion",
+    "shiki"
+   ],
+   "url": "https://tailark.com/r/features-6.json"
+  },
+  {
+   "name": "features-7",
+   "type": "block",
+   "title": "Features 7",
+   "description": "Tailark features variant 7 block",
+   "component": null,
+   "surface": "features",
+   "dependencies": [
+    "hast-util-to-jsx-runtime",
+    "motion",
+    "shiki"
+   ],
+   "url": "https://tailark.com/r/features-7.json"
+  },
+  {
+   "name": "features-8",
+   "type": "block",
+   "title": "Features 8",
+   "description": "Tailark features variant 8 block",
+   "component": null,
+   "surface": "features",
+   "dependencies": [
+    "hast-util-to-jsx-runtime",
+    "motion",
+    "shiki"
+   ],
+   "url": "https://tailark.com/r/features-8.json"
+  },
+  {
+   "name": "features-9",
+   "type": "block",
+   "title": "Features 9",
+   "description": "Tailark features variant 9 block",
+   "component": null,
+   "surface": "features",
+   "dependencies": [],
+   "url": "https://tailark.com/r/features-9.json"
+  },
+  {
+   "name": "features-carousel-1",
+   "type": "block",
+   "title": "Features Carousel 1",
+   "description": "Tailark features-carousel variant 1 block",
+   "component": "carousel",
+   "surface": "features",
+   "dependencies": [],
+   "url": "https://tailark.com/r/features-carousel-1.json"
+  },
+  {
+   "name": "features-carousel-2",
+   "type": "block",
+   "title": "Features Carousel 2",
+   "description": "Tailark features-carousel variant 2 block",
+   "component": "carousel",
+   "surface": "features",
+   "dependencies": [],
+   "url": "https://tailark.com/r/features-carousel-2.json"
+  },
+  {
+   "name": "features-carousel-3",
+   "type": "block",
+   "title": "Features Carousel 3",
+   "description": "Tailark features-carousel variant 3 block",
+   "component": "carousel",
+   "surface": "features",
+   "dependencies": [],
+   "url": "https://tailark.com/r/features-carousel-3.json"
+  },
+  {
+   "name": "features-carousel-4",
+   "type": "block",
+   "title": "Features Carousel 4",
+   "description": "Tailark features-carousel variant 4 block",
+   "component": "carousel",
+   "surface": "features",
+   "dependencies": [],
+   "url": "https://tailark.com/r/features-carousel-4.json"
+  },
+  {
+   "name": "features-carousel-5",
+   "type": "block",
+   "title": "Features Carousel 5",
+   "description": "Tailark features-carousel variant 5 block",
+   "component": "carousel",
+   "surface": "features",
+   "dependencies": [
+    "dotted-map"
+   ],
+   "url": "https://tailark.com/r/features-carousel-5.json"
+  },
+  {
+   "name": "file-upload",
+   "type": "component",
+   "title": "File Upload Illustration",
+   "description": "Tailark file-upload illustration",
+   "component": "file-upload",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/file-upload.json"
+  },
+  {
+   "name": "fingerprint",
+   "type": "component",
+   "title": "Fingerprint Illustration",
+   "description": "Tailark fingerprint illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/fingerprint.json"
+  },
+  {
+   "name": "fingerprint-scan",
+   "type": "component",
+   "title": "Fingerprint Illustration",
+   "description": "Tailark scan fingerprint illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/fingerprint-scan.json"
+  },
+  {
+   "name": "flow",
+   "type": "component",
+   "title": "Flow Illustration",
+   "description": "Tailark flow illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/flow.json"
+  },
+  {
+   "name": "flow-10",
+   "type": "component",
+   "title": "Flow Illustration",
+   "description": "Tailark 10 flow illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/flow-10.json"
+  },
+  {
+   "name": "flow-11",
+   "type": "component",
+   "title": "Flow Illustration",
+   "description": "Tailark 11 flow illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/flow-11.json"
+  },
+  {
+   "name": "flow-12",
+   "type": "component",
+   "title": "Flow Illustration",
+   "description": "Tailark 12 flow illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/flow-12.json"
+  },
+  {
+   "name": "flow-13",
+   "type": "component",
+   "title": "Flow Illustration",
+   "description": "Tailark 13 flow illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/flow-13.json"
+  },
+  {
+   "name": "flow-2",
+   "type": "component",
+   "title": "Flow Illustration",
+   "description": "Tailark 2 flow illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/flow-2.json"
+  },
+  {
+   "name": "flow-3",
+   "type": "component",
+   "title": "Flow Illustration",
+   "description": "Tailark 3 flow illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/flow-3.json"
+  },
+  {
+   "name": "flow-4",
+   "type": "component",
+   "title": "Flow Illustration",
+   "description": "Tailark 4 flow illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/flow-4.json"
+  },
+  {
+   "name": "flow-5",
+   "type": "component",
+   "title": "Flow Illustration",
+   "description": "Tailark 5 flow illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/flow-5.json"
+  },
+  {
+   "name": "flow-6",
+   "type": "component",
+   "title": "Flow Illustration",
+   "description": "Tailark 6 flow illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/flow-6.json"
+  },
+  {
+   "name": "flow-7",
+   "type": "component",
+   "title": "Flow Illustration",
+   "description": "Tailark 7 flow illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/flow-7.json"
+  },
+  {
+   "name": "flow-8",
+   "type": "component",
+   "title": "Flow Illustration",
+   "description": "Tailark 8 flow illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/flow-8.json"
+  },
+  {
+   "name": "flow-9",
+   "type": "component",
+   "title": "Flow Illustration",
+   "description": "Tailark 9 flow illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/flow-9.json"
+  },
+  {
+   "name": "food-delivery",
+   "type": "component",
+   "title": "Food Delivery Illustration",
+   "description": "Tailark food-delivery illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/food-delivery.json"
+  },
+  {
+   "name": "footer-1",
+   "type": "block",
+   "title": "Footer 1",
+   "description": "Tailark footer variant 1 block",
+   "component": "footer",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/footer-1.json"
+  },
+  {
+   "name": "footer-2",
+   "type": "block",
+   "title": "Footer 2",
+   "description": "Tailark footer variant 2 block",
+   "component": "footer",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/footer-2.json"
+  },
+  {
+   "name": "footer-3",
+   "type": "block",
+   "title": "Footer 3",
+   "description": "Tailark footer variant 3 block",
+   "component": "footer",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/footer-3.json"
+  },
+  {
+   "name": "footer-4",
+   "type": "block",
+   "title": "Footer 4",
+   "description": "Tailark footer variant 4 block",
+   "component": "footer",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/footer-4.json"
+  },
+  {
+   "name": "footer-5",
+   "type": "block",
+   "title": "Footer 5",
+   "description": "Tailark footer variant 5 block",
+   "component": "footer",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/footer-5.json"
+  },
+  {
+   "name": "forgot-password-1",
+   "type": "block",
+   "title": "Forgot Password 1",
+   "description": "Tailark forgot-password variant 1 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/forgot-password-1.json"
+  },
+  {
+   "name": "forgot-password-2",
+   "type": "block",
+   "title": "Forgot Password 2",
+   "description": "Tailark forgot-password variant 2 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/forgot-password-2.json"
+  },
+  {
+   "name": "forgot-password-3",
+   "type": "block",
+   "title": "Forgot Password 3",
+   "description": "Tailark forgot-password variant 3 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/forgot-password-3.json"
+  },
+  {
+   "name": "forgot-password-4",
+   "type": "block",
+   "title": "Forgot Password 4",
+   "description": "Tailark forgot-password variant 4 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/forgot-password-4.json"
+  },
+  {
+   "name": "forgot-password-5",
+   "type": "block",
+   "title": "Forgot Password 5",
+   "description": "Tailark forgot-password variant 5 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/forgot-password-5.json"
+  },
+  {
+   "name": "gantt",
+   "type": "ui",
+   "title": "Gantt",
+   "description": "Tailark Base UI Gantt component",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@dnd-kit/core",
+    "@dnd-kit/modifiers",
+    "@uidotdev/usehooks",
+    "date-fns",
+    "jotai",
+    "lodash.throttle"
+   ],
+   "url": "https://tailark.com/r/gantt.json"
+  },
+  {
+   "name": "header-1",
+   "type": "block",
+   "title": "Header 1",
+   "description": "Tailark header variant 1 block",
+   "component": "header",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/header-1.json"
+  },
+  {
+   "name": "header-2",
+   "type": "block",
+   "title": "Header 2",
+   "description": "Tailark header variant 2 block",
+   "component": "header",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/header-2.json"
+  },
+  {
+   "name": "header-3",
+   "type": "block",
+   "title": "Header 3",
+   "description": "Tailark header variant 3 block",
+   "component": "header",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/header-3.json"
+  },
+  {
+   "name": "header-4",
+   "type": "block",
+   "title": "Header 4",
+   "description": "Tailark header variant 4 block",
+   "component": "header",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/header-4.json"
+  },
+  {
+   "name": "header-5",
+   "type": "block",
+   "title": "Header 5",
+   "description": "Tailark header variant 5 block",
+   "component": "header",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/header-5.json"
+  },
+  {
+   "name": "header-6",
+   "type": "block",
+   "title": "Header 6",
+   "description": "Tailark header variant 6 block",
+   "component": "header",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/header-6.json"
+  },
+  {
+   "name": "header-7",
+   "type": "block",
+   "title": "Header 7",
+   "description": "Tailark header variant 7 block",
+   "component": "header",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/header-7.json"
+  },
+  {
+   "name": "header-8",
+   "type": "block",
+   "title": "Header 8",
+   "description": "Tailark header variant 8 block",
+   "component": "header",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/header-8.json"
+  },
+  {
+   "name": "hero-section-1",
+   "type": "block",
+   "title": "Hero Section 1",
+   "description": "Tailark hero-section variant 1 block",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/hero-section-1.json"
+  },
+  {
+   "name": "hero-section-10",
+   "type": "block",
+   "title": "Hero Section 10",
+   "description": "Tailark hero-section variant 10 block",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/hero-section-10.json"
+  },
+  {
+   "name": "hero-section-11",
+   "type": "block",
+   "title": "Hero Section 11",
+   "description": "Tailark hero-section variant 11 block",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/hero-section-11.json"
+  },
+  {
+   "name": "hero-section-12",
+   "type": "block",
+   "title": "Hero Section 12",
+   "description": "Tailark hero-section variant 12 block",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/hero-section-12.json"
+  },
+  {
+   "name": "hero-section-13",
+   "type": "block",
+   "title": "Hero Section 13",
+   "description": "Tailark hero-section variant 13 block",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/hero-section-13.json"
+  },
+  {
+   "name": "hero-section-14",
+   "type": "block",
+   "title": "Hero Section 14",
+   "description": "Tailark hero-section variant 14 block",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/hero-section-14.json"
+  },
+  {
+   "name": "hero-section-15",
+   "type": "block",
+   "title": "Hero Section 15",
+   "description": "Tailark hero-section variant 15 block",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/hero-section-15.json"
+  },
+  {
+   "name": "hero-section-16",
+   "type": "block",
+   "title": "Hero Section 16",
+   "description": "Tailark hero-section variant 16 block",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [
+    "hast-util-to-jsx-runtime",
+    "motion",
+    "shiki"
+   ],
+   "url": "https://tailark.com/r/hero-section-16.json"
+  },
+  {
+   "name": "hero-section-17",
+   "type": "block",
+   "title": "Hero Section 17",
+   "description": "Tailark hero-section variant 17 block",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/hero-section-17.json"
+  },
+  {
+   "name": "hero-section-18",
+   "type": "block",
+   "title": "Hero Section 18",
+   "description": "Tailark hero-section variant 18 block",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/hero-section-18.json"
+  },
+  {
+   "name": "hero-section-19",
+   "type": "block",
+   "title": "Hero Section 19",
+   "description": "Tailark hero-section variant 19 block",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/hero-section-19.json"
+  },
+  {
+   "name": "hero-section-2",
+   "type": "block",
+   "title": "Hero Section 2",
+   "description": "Tailark hero-section variant 2 block",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/hero-section-2.json"
+  },
+  {
+   "name": "hero-section-20",
+   "type": "block",
+   "title": "Hero Section 20",
+   "description": "Tailark hero-section variant 20 block",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/hero-section-20.json"
+  },
+  {
+   "name": "hero-section-3",
+   "type": "block",
+   "title": "Hero Section 3",
+   "description": "Tailark hero-section variant 3 block",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/hero-section-3.json"
+  },
+  {
+   "name": "hero-section-4",
+   "type": "block",
+   "title": "Hero Section 4",
+   "description": "Tailark hero-section variant 4 block",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/hero-section-4.json"
+  },
+  {
+   "name": "hero-section-5",
+   "type": "block",
+   "title": "Hero Section 5",
+   "description": "Tailark hero-section variant 5 block",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/hero-section-5.json"
+  },
+  {
+   "name": "hero-section-6",
+   "type": "block",
+   "title": "Hero Section 6",
+   "description": "Tailark hero-section variant 6 block",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/hero-section-6.json"
+  },
+  {
+   "name": "hero-section-7",
+   "type": "block",
+   "title": "Hero Section 7",
+   "description": "Tailark hero-section variant 7 block",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/hero-section-7.json"
+  },
+  {
+   "name": "hero-section-8",
+   "type": "block",
+   "title": "Hero Section 8",
+   "description": "Tailark hero-section variant 8 block",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/hero-section-8.json"
+  },
+  {
+   "name": "hero-section-9",
+   "type": "block",
+   "title": "Hero Section 9",
+   "description": "Tailark hero-section variant 9 block",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/hero-section-9.json"
+  },
+  {
+   "name": "hover-card",
+   "type": "ui",
+   "title": "Hover Card",
+   "description": "Tailark Base UI Hover Card component",
+   "component": "hover-card",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react"
+   ],
+   "url": "https://tailark.com/r/hover-card.json"
+  },
+  {
+   "name": "how-it-works-1",
+   "type": "block",
+   "title": "How It Works 1",
+   "description": "Tailark how-it-works variant 1 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/how-it-works-1.json"
+  },
+  {
+   "name": "how-it-works-2",
+   "type": "block",
+   "title": "How It Works 2",
+   "description": "Tailark how-it-works variant 2 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "date-fns"
+   ],
+   "url": "https://tailark.com/r/how-it-works-2.json"
+  },
+  {
+   "name": "how-it-works-3",
+   "type": "block",
+   "title": "How It Works 3",
+   "description": "Tailark how-it-works variant 3 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@tsparticles/engine",
+    "@tsparticles/react",
+    "@tsparticles/slim",
+    "hast-util-to-jsx-runtime",
+    "motion",
+    "shiki"
+   ],
+   "url": "https://tailark.com/r/how-it-works-3.json"
+  },
+  {
+   "name": "how-it-works-4",
+   "type": "block",
+   "title": "How It Works 4",
+   "description": "Tailark how-it-works variant 4 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/how-it-works-4.json"
+  },
+  {
+   "name": "how-it-works-5",
+   "type": "block",
+   "title": "How It Works 5",
+   "description": "Tailark how-it-works variant 5 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/how-it-works-5.json"
+  },
+  {
+   "name": "how-it-works-6",
+   "type": "block",
+   "title": "How It Works 6",
+   "description": "Tailark how-it-works variant 6 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/how-it-works-6.json"
+  },
+  {
+   "name": "how-it-works-7",
+   "type": "block",
+   "title": "How It Works 7",
+   "description": "Tailark how-it-works variant 7 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/how-it-works-7.json"
+  },
+  {
+   "name": "id-check",
+   "type": "component",
+   "title": "Id Check Illustration",
+   "description": "Tailark id-check illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/id-check.json"
+  },
+  {
+   "name": "input",
+   "type": "ui",
+   "title": "Input",
+   "description": "Tailark Base UI Input component",
+   "component": "text-input",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/input.json"
+  },
+  {
+   "name": "integrations",
+   "type": "component",
+   "title": "Integrations Illustration",
+   "description": "Tailark integrations illustration",
+   "component": "illustration",
+   "surface": "integrations",
+   "dependencies": [],
+   "url": "https://tailark.com/r/integrations.json"
+  },
+  {
+   "name": "integrations-1",
+   "type": "block",
+   "title": "Integrations 1",
+   "description": "Tailark integrations variant 1 block",
+   "component": null,
+   "surface": "integrations",
+   "dependencies": [],
+   "url": "https://tailark.com/r/integrations-1.json"
+  },
+  {
+   "name": "integrations-10",
+   "type": "block",
+   "title": "Integrations 10",
+   "description": "Tailark integrations variant 10 block",
+   "component": null,
+   "surface": "integrations",
+   "dependencies": [],
+   "url": "https://tailark.com/r/integrations-10.json"
+  },
+  {
+   "name": "integrations-11",
+   "type": "block",
+   "title": "Integrations 11",
+   "description": "Tailark integrations variant 11 block",
+   "component": null,
+   "surface": "integrations",
+   "dependencies": [],
+   "url": "https://tailark.com/r/integrations-11.json"
+  },
+  {
+   "name": "integrations-2",
+   "type": "block",
+   "title": "Integrations 2",
+   "description": "Tailark integrations variant 2 block",
+   "component": null,
+   "surface": "integrations",
+   "dependencies": [],
+   "url": "https://tailark.com/r/integrations-2.json"
+  },
+  {
+   "name": "integrations-5",
+   "type": "block",
+   "title": "Integrations 5",
+   "description": "Tailark integrations variant 5 block",
+   "component": null,
+   "surface": "integrations",
+   "dependencies": [],
+   "url": "https://tailark.com/r/integrations-5.json"
+  },
+  {
+   "name": "integrations-6",
+   "type": "block",
+   "title": "Integrations 6",
+   "description": "Tailark integrations variant 6 block",
+   "component": null,
+   "surface": "integrations",
+   "dependencies": [],
+   "url": "https://tailark.com/r/integrations-6.json"
+  },
+  {
+   "name": "integrations-7",
+   "type": "block",
+   "title": "Integrations 7",
+   "description": "Tailark integrations variant 7 block",
+   "component": null,
+   "surface": "integrations",
+   "dependencies": [],
+   "url": "https://tailark.com/r/integrations-7.json"
+  },
+  {
+   "name": "integrations-9",
+   "type": "block",
+   "title": "Integrations 9",
+   "description": "Tailark integrations variant 9 block",
+   "component": null,
+   "surface": "integrations",
+   "dependencies": [],
+   "url": "https://tailark.com/r/integrations-9.json"
+  },
+  {
+   "name": "investors-1",
+   "type": "block",
+   "title": "Investors 1",
+   "description": "Tailark investors variant 1 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/investors-1.json"
+  },
+  {
+   "name": "investors-2",
+   "type": "block",
+   "title": "Investors 2",
+   "description": "Tailark investors variant 2 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/investors-2.json"
+  },
+  {
+   "name": "investors-3",
+   "type": "block",
+   "title": "Investors 3",
+   "description": "Tailark investors variant 3 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/investors-3.json"
+  },
+  {
+   "name": "investors-4",
+   "type": "block",
+   "title": "Investors 4",
+   "description": "Tailark investors variant 4 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/investors-4.json"
+  },
+  {
+   "name": "investors-5",
+   "type": "block",
+   "title": "Investors 5",
+   "description": "Tailark investors variant 5 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/investors-5.json"
+  },
+  {
+   "name": "investors-6",
+   "type": "block",
+   "title": "Investors 6",
+   "description": "Tailark investors variant 6 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/investors-6.json"
+  },
+  {
+   "name": "investors-7",
+   "type": "block",
+   "title": "Investors 7",
+   "description": "Tailark investors variant 7 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/investors-7.json"
+  },
+  {
+   "name": "invoice",
+   "type": "component",
+   "title": "Invoice Illustration",
+   "description": "Tailark invoice illustration",
+   "component": "invoice",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/invoice.json"
+  },
+  {
+   "name": "invoice-signing",
+   "type": "component",
+   "title": "Invoice Illustration",
+   "description": "Tailark signing invoice illustration",
+   "component": "invoice",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/invoice-signing.json"
+  },
+  {
+   "name": "kanban",
+   "type": "component",
+   "title": "Kanban Illustration",
+   "description": "Tailark kanban illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/kanban.json"
+  },
+  {
+   "name": "kanban-2",
+   "type": "component",
+   "title": "Kanban Illustration",
+   "description": "Tailark 2 kanban illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/kanban-2.json"
+  },
+  {
+   "name": "kanban-3",
+   "type": "component",
+   "title": "Kanban Illustration",
+   "description": "Tailark 3 kanban illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/kanban-3.json"
+  },
+  {
+   "name": "keys",
+   "type": "component",
+   "title": "Keys Illustration",
+   "description": "Tailark keys illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/keys.json"
+  },
+  {
+   "name": "label",
+   "type": "ui",
+   "title": "Label",
+   "description": "Tailark Base UI Label component",
+   "component": "label",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-label"
+   ],
+   "url": "https://tailark.com/r/label.json"
+  },
+  {
+   "name": "loader",
+   "type": "ui",
+   "title": "Loader",
+   "description": "Tailark Base UI Loader component",
+   "component": "spinner",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/loader.json"
+  },
+  {
+   "name": "login-blocks-1",
+   "type": "block",
+   "title": "Login Blocks 1",
+   "description": "Tailark login-blocks variant 1 block",
+   "component": null,
+   "surface": "login-mobile",
+   "dependencies": [],
+   "url": "https://tailark.com/r/login-blocks-1.json"
+  },
+  {
+   "name": "login-blocks-10",
+   "type": "block",
+   "title": "Login Blocks 10",
+   "description": "Tailark login-blocks variant 10 block",
+   "component": null,
+   "surface": "login-mobile",
+   "dependencies": [],
+   "url": "https://tailark.com/r/login-blocks-10.json"
+  },
+  {
+   "name": "login-blocks-11",
+   "type": "block",
+   "title": "Login Blocks 11",
+   "description": "Tailark login-blocks variant 11 block",
+   "component": null,
+   "surface": "login-mobile",
+   "dependencies": [],
+   "url": "https://tailark.com/r/login-blocks-11.json"
+  },
+  {
+   "name": "login-blocks-2",
+   "type": "block",
+   "title": "Login Blocks 2",
+   "description": "Tailark login-blocks variant 2 block",
+   "component": null,
+   "surface": "login-mobile",
+   "dependencies": [],
+   "url": "https://tailark.com/r/login-blocks-2.json"
+  },
+  {
+   "name": "login-blocks-3",
+   "type": "block",
+   "title": "Login Blocks 3",
+   "description": "Tailark login-blocks variant 3 block",
+   "component": null,
+   "surface": "login-mobile",
+   "dependencies": [],
+   "url": "https://tailark.com/r/login-blocks-3.json"
+  },
+  {
+   "name": "login-blocks-4",
+   "type": "block",
+   "title": "Login Blocks 4",
+   "description": "Tailark login-blocks variant 4 block",
+   "component": null,
+   "surface": "login-mobile",
+   "dependencies": [],
+   "url": "https://tailark.com/r/login-blocks-4.json"
+  },
+  {
+   "name": "login-blocks-5",
+   "type": "block",
+   "title": "Login Blocks 5",
+   "description": "Tailark login-blocks variant 5 block",
+   "component": null,
+   "surface": "login-mobile",
+   "dependencies": [],
+   "url": "https://tailark.com/r/login-blocks-5.json"
+  },
+  {
+   "name": "login-blocks-6",
+   "type": "block",
+   "title": "Login Blocks 6",
+   "description": "Tailark login-blocks variant 6 block",
+   "component": null,
+   "surface": "login-mobile",
+   "dependencies": [],
+   "url": "https://tailark.com/r/login-blocks-6.json"
+  },
+  {
+   "name": "login-blocks-7",
+   "type": "block",
+   "title": "Login Blocks 7",
+   "description": "Tailark login-blocks variant 7 block",
+   "component": null,
+   "surface": "login-mobile",
+   "dependencies": [],
+   "url": "https://tailark.com/r/login-blocks-7.json"
+  },
+  {
+   "name": "login-blocks-8",
+   "type": "block",
+   "title": "Login Blocks 8",
+   "description": "Tailark login-blocks variant 8 block",
+   "component": null,
+   "surface": "login-mobile",
+   "dependencies": [],
+   "url": "https://tailark.com/r/login-blocks-8.json"
+  },
+  {
+   "name": "login-blocks-9",
+   "type": "block",
+   "title": "Login Blocks 9",
+   "description": "Tailark login-blocks variant 9 block",
+   "component": null,
+   "surface": "login-mobile",
+   "dependencies": [],
+   "url": "https://tailark.com/r/login-blocks-9.json"
+  },
+  {
+   "name": "logo-cloud-1",
+   "type": "block",
+   "title": "Logo Cloud 1",
+   "description": "Tailark logo-cloud variant 1 block",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/logo-cloud-1.json"
+  },
+  {
+   "name": "logo-cloud-10",
+   "type": "block",
+   "title": "Logo Cloud 10",
+   "description": "Tailark logo-cloud variant 10 block",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/logo-cloud-10.json"
+  },
+  {
+   "name": "logo-cloud-2",
+   "type": "block",
+   "title": "Logo Cloud 2",
+   "description": "Tailark logo-cloud variant 2 block",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/logo-cloud-2.json"
+  },
+  {
+   "name": "logo-cloud-3",
+   "type": "block",
+   "title": "Logo Cloud 3",
+   "description": "Tailark logo-cloud variant 3 block",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/logo-cloud-3.json"
+  },
+  {
+   "name": "logo-cloud-4",
+   "type": "block",
+   "title": "Logo Cloud 4",
+   "description": "Tailark logo-cloud variant 4 block",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/logo-cloud-4.json"
+  },
+  {
+   "name": "logo-cloud-5",
+   "type": "block",
+   "title": "Logo Cloud 5",
+   "description": "Tailark logo-cloud variant 5 block",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/logo-cloud-5.json"
+  },
+  {
+   "name": "logo-cloud-6",
+   "type": "block",
+   "title": "Logo Cloud 6",
+   "description": "Tailark logo-cloud variant 6 block",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/logo-cloud-6.json"
+  },
+  {
+   "name": "logo-cloud-7",
+   "type": "block",
+   "title": "Logo Cloud 7",
+   "description": "Tailark logo-cloud variant 7 block",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/logo-cloud-7.json"
+  },
+  {
+   "name": "logo-cloud-8",
+   "type": "block",
+   "title": "Logo Cloud 8",
+   "description": "Tailark logo-cloud variant 8 block",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/logo-cloud-8.json"
+  },
+  {
+   "name": "logo-cloud-9",
+   "type": "block",
+   "title": "Logo Cloud 9",
+   "description": "Tailark logo-cloud variant 9 block",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/logo-cloud-9.json"
+  },
+  {
+   "name": "map",
+   "type": "component",
+   "title": "Map Illustration",
+   "description": "Tailark map illustration",
+   "component": "map",
+   "surface": null,
+   "dependencies": [
+    "dotted-map"
+   ],
+   "url": "https://tailark.com/r/map.json"
+  },
+  {
+   "name": "map-2",
+   "type": "component",
+   "title": "Map Illustration",
+   "description": "Tailark 2 map illustration",
+   "component": "map",
+   "surface": null,
+   "dependencies": [
+    "dotted-map"
+   ],
+   "url": "https://tailark.com/r/map-2.json"
+  },
+  {
+   "name": "meeting",
+   "type": "component",
+   "title": "Meeting Illustration",
+   "description": "Tailark meeting illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/meeting.json"
+  },
+  {
+   "name": "meeting-2",
+   "type": "component",
+   "title": "Meeting Illustration",
+   "description": "Tailark 2 meeting illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/meeting-2.json"
+  },
+  {
+   "name": "meeting-3",
+   "type": "component",
+   "title": "Meeting Illustration",
+   "description": "Tailark 3 meeting illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/meeting-3.json"
+  },
+  {
+   "name": "meeting-4",
+   "type": "component",
+   "title": "Meeting Illustration",
+   "description": "Tailark 4 meeting illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/meeting-4.json"
+  },
+  {
+   "name": "memory-usage",
+   "type": "component",
+   "title": "Memory Usage Illustration",
+   "description": "Tailark memory-usage illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/memory-usage.json"
+  },
+  {
+   "name": "message",
+   "type": "component",
+   "title": "Message Illustration",
+   "description": "Tailark message illustration",
+   "component": "alert",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/message.json"
+  },
+  {
+   "name": "message-2",
+   "type": "component",
+   "title": "Message Illustration",
+   "description": "Tailark 2 message illustration",
+   "component": "alert",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/message-2.json"
+  },
+  {
+   "name": "metrics",
+   "type": "component",
+   "title": "Metrics Illustration",
+   "description": "Tailark metrics illustration",
+   "component": "stat",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/metrics.json"
+  },
+  {
+   "name": "mobile-ai-assistant",
+   "type": "component",
+   "title": "Mobile Illustration",
+   "description": "Tailark ai-assistant mobile illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/mobile-ai-assistant.json"
+  },
+  {
+   "name": "mobile-ai-suggestion",
+   "type": "component",
+   "title": "Mobile Illustration",
+   "description": "Tailark ai-suggestion mobile illustration",
+   "component": "suggestion",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/mobile-ai-suggestion.json"
+  },
+  {
+   "name": "mobile-card-form",
+   "type": "component",
+   "title": "Mobile Illustration",
+   "description": "Tailark card-form mobile illustration",
+   "component": "payment-form",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/mobile-card-form.json"
+  },
+  {
+   "name": "mobile-email",
+   "type": "component",
+   "title": "Mobile Illustration",
+   "description": "Tailark email mobile illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/mobile-email.json"
+  },
+  {
+   "name": "mobile-note",
+   "type": "component",
+   "title": "Mobile Illustration",
+   "description": "Tailark note mobile illustration",
+   "component": "alert",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/mobile-note.json"
+  },
+  {
+   "name": "mobile-note-2",
+   "type": "component",
+   "title": "Mobile Illustration",
+   "description": "Tailark note-2 mobile illustration",
+   "component": "alert",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/mobile-note-2.json"
+  },
+  {
+   "name": "mobile-wallet",
+   "type": "component",
+   "title": "Mobile Illustration",
+   "description": "Tailark wallet mobile illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/mobile-wallet.json"
+  },
+  {
+   "name": "mobile-wallet-area",
+   "type": "component",
+   "title": "Mobile Illustration",
+   "description": "Tailark wallet-area mobile illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/mobile-wallet-area.json"
+  },
+  {
+   "name": "mobile-wallet-line",
+   "type": "component",
+   "title": "Mobile Illustration",
+   "description": "Tailark wallet-line mobile illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/mobile-wallet-line.json"
+  },
+  {
+   "name": "model-selector",
+   "type": "component",
+   "title": "Model Selector Illustration",
+   "description": "Tailark model-selector illustration",
+   "component": "model-selector",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/model-selector.json"
+  },
+  {
+   "name": "model-training",
+   "type": "component",
+   "title": "Model Training Illustration",
+   "description": "Tailark model-training illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/model-training.json"
+  },
+  {
+   "name": "models",
+   "type": "component",
+   "title": "Models Illustration",
+   "description": "Tailark models illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/models.json"
+  },
+  {
+   "name": "models-2",
+   "type": "component",
+   "title": "Models Illustration",
+   "description": "Tailark 2 models illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/models-2.json"
+  },
+  {
+   "name": "models-3",
+   "type": "component",
+   "title": "Models Illustration",
+   "description": "Tailark 3 models illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/models-3.json"
+  },
+  {
+   "name": "models-4",
+   "type": "component",
+   "title": "Models Illustration",
+   "description": "Tailark 4 models illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/models-4.json"
+  },
+  {
+   "name": "motion-primitives-animated-group",
+   "type": "component",
+   "title": "Animated Group",
+   "description": "Tailark motion primitives animated-group component",
+   "component": "animation",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/motion-primitives-animated-group.json"
+  },
+  {
+   "name": "motion-primitives-infinite-slider",
+   "type": "component",
+   "title": "Infinite Slider",
+   "description": "Tailark motion primitives infinite-slider component",
+   "component": "animation",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "react-use-measure"
+   ],
+   "url": "https://tailark.com/r/motion-primitives-infinite-slider.json"
+  },
+  {
+   "name": "motion-primitives-progressive-blur",
+   "type": "component",
+   "title": "Progressive Blur",
+   "description": "Tailark motion primitives progressive-blur component",
+   "component": "animation",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/motion-primitives-progressive-blur.json"
+  },
+  {
+   "name": "motion-primitives-text-effect",
+   "type": "component",
+   "title": "Text Effect",
+   "description": "Tailark motion primitives text-effect component",
+   "component": "text-effect",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/motion-primitives-text-effect.json"
+  },
+  {
+   "name": "motion-primitives-text-scramble",
+   "type": "component",
+   "title": "Text Scramble",
+   "description": "Tailark motion primitives text-scramble component",
+   "component": "typewriter-text",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/motion-primitives-text-scramble.json"
+  },
+  {
+   "name": "motion-primitives-text-shimmer",
+   "type": "component",
+   "title": "Text Shimmer",
+   "description": "Tailark motion primitives text-shimmer component",
+   "component": "animation",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/motion-primitives-text-shimmer.json"
+  },
+  {
+   "name": "navigation-menu",
+   "type": "ui",
+   "title": "Navigation Menu",
+   "description": "Tailark Base UI Navigation Menu component",
+   "component": "navigation-menu",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react",
+    "class-variance-authority"
+   ],
+   "url": "https://tailark.com/r/navigation-menu.json"
+  },
+  {
+   "name": "notes",
+   "type": "component",
+   "title": "Notes Illustration",
+   "description": "Tailark notes illustration",
+   "component": "alert",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/notes.json"
+  },
+  {
+   "name": "notes-2",
+   "type": "component",
+   "title": "Notes Illustration",
+   "description": "Tailark 2 notes illustration",
+   "component": "alert",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/notes-2.json"
+  },
+  {
+   "name": "notes-3",
+   "type": "component",
+   "title": "Notes Illustration",
+   "description": "Tailark 3 notes illustration",
+   "component": "alert",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/notes-3.json"
+  },
+  {
+   "name": "open-roles-1",
+   "type": "block",
+   "title": "Open Roles 1",
+   "description": "Tailark open-roles variant 1 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/open-roles-1.json"
+  },
+  {
+   "name": "open-roles-2",
+   "type": "block",
+   "title": "Open Roles 2",
+   "description": "Tailark open-roles variant 2 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/open-roles-2.json"
+  },
+  {
+   "name": "open-roles-3",
+   "type": "block",
+   "title": "Open Roles 3",
+   "description": "Tailark open-roles variant 3 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/open-roles-3.json"
+  },
+  {
+   "name": "open-roles-4",
+   "type": "block",
+   "title": "Open Roles 4",
+   "description": "Tailark open-roles variant 4 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/open-roles-4.json"
+  },
+  {
+   "name": "open-roles-5",
+   "type": "block",
+   "title": "Open Roles 5",
+   "description": "Tailark open-roles variant 5 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/open-roles-5.json"
+  },
+  {
+   "name": "open-roles-6",
+   "type": "block",
+   "title": "Open Roles 6",
+   "description": "Tailark open-roles variant 6 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/open-roles-6.json"
+  },
+  {
+   "name": "open-roles-7",
+   "type": "block",
+   "title": "Open Roles 7",
+   "description": "Tailark open-roles variant 7 block",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/open-roles-7.json"
+  },
+  {
+   "name": "payment",
+   "type": "component",
+   "title": "Payment Illustration",
+   "description": "Tailark payment illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/payment.json"
+  },
+  {
+   "name": "poll",
+   "type": "component",
+   "title": "Poll Illustration",
+   "description": "Tailark poll illustration",
+   "component": "survey",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/poll.json"
+  },
+  {
+   "name": "poll-2",
+   "type": "component",
+   "title": "Poll Illustration",
+   "description": "Tailark 2 poll illustration",
+   "component": "survey",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/poll-2.json"
+  },
+  {
+   "name": "pricing-1",
+   "type": "block",
+   "title": "Pricing 1",
+   "description": "Tailark pricing variant 1 block",
+   "component": null,
+   "surface": "pricing-website",
+   "dependencies": [
+    "@number-flow/react"
+   ],
+   "url": "https://tailark.com/r/pricing-1.json"
+  },
+  {
+   "name": "pricing-2",
+   "type": "block",
+   "title": "Pricing 2",
+   "description": "Tailark pricing variant 2 block",
+   "component": null,
+   "surface": "pricing-website",
+   "dependencies": [
+    "@number-flow/react"
+   ],
+   "url": "https://tailark.com/r/pricing-2.json"
+  },
+  {
+   "name": "pricing-3",
+   "type": "block",
+   "title": "Pricing 3",
+   "description": "Tailark pricing variant 3 block",
+   "component": null,
+   "surface": "pricing-website",
+   "dependencies": [
+    "@number-flow/react"
+   ],
+   "url": "https://tailark.com/r/pricing-3.json"
+  },
+  {
+   "name": "pricing-4",
+   "type": "block",
+   "title": "Pricing 4",
+   "description": "Tailark pricing variant 4 block",
+   "component": null,
+   "surface": "pricing-website",
+   "dependencies": [
+    "@number-flow/react"
+   ],
+   "url": "https://tailark.com/r/pricing-4.json"
+  },
+  {
+   "name": "pricing-5",
+   "type": "block",
+   "title": "Pricing 5",
+   "description": "Tailark pricing variant 5 block",
+   "component": null,
+   "surface": "pricing-website",
+   "dependencies": [
+    "@number-flow/react"
+   ],
+   "url": "https://tailark.com/r/pricing-5.json"
+  },
+  {
+   "name": "reply",
+   "type": "component",
+   "title": "Reply Illustration",
+   "description": "Tailark reply illustration",
+   "component": "comment",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/reply.json"
+  },
+  {
+   "name": "ride-sharing",
+   "type": "component",
+   "title": "Ride Sharing Illustration",
+   "description": "Tailark ride-sharing illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/ride-sharing.json"
+  },
+  {
+   "name": "running-visualization",
+   "type": "component",
+   "title": "Health Illustration",
+   "description": "Tailark running-visualization health illustration",
+   "component": "chart",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/running-visualization.json"
+  },
+  {
+   "name": "schedule",
+   "type": "component",
+   "title": "Schedule Illustration",
+   "description": "Tailark schedule illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/schedule.json"
+  },
+  {
+   "name": "scroll-area",
+   "type": "ui",
+   "title": "Scroll Area",
+   "description": "Tailark Base UI Scroll Area component",
+   "component": "scroll-area",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react"
+   ],
+   "url": "https://tailark.com/r/scroll-area.json"
+  },
+  {
+   "name": "secondary-hero-1",
+   "type": "block",
+   "title": "Secondary Hero 1",
+   "description": "Tailark secondary-hero variant 1 block",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/secondary-hero-1.json"
+  },
+  {
+   "name": "secondary-hero-10",
+   "type": "block",
+   "title": "Secondary Hero 10",
+   "description": "Tailark secondary-hero variant 10 block",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/secondary-hero-10.json"
+  },
+  {
+   "name": "secondary-hero-11",
+   "type": "block",
+   "title": "Secondary Hero 11",
+   "description": "Tailark secondary-hero variant 11 block",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/secondary-hero-11.json"
+  },
+  {
+   "name": "secondary-hero-12",
+   "type": "block",
+   "title": "Secondary Hero 12",
+   "description": "Tailark secondary-hero variant 12 block",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/secondary-hero-12.json"
+  },
+  {
+   "name": "secondary-hero-13",
+   "type": "block",
+   "title": "Secondary Hero 13",
+   "description": "Tailark secondary-hero variant 13 block",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/secondary-hero-13.json"
+  },
+  {
+   "name": "secondary-hero-14",
+   "type": "block",
+   "title": "Secondary Hero 14",
+   "description": "Tailark secondary-hero variant 14 block",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/secondary-hero-14.json"
+  },
+  {
+   "name": "secondary-hero-15",
+   "type": "block",
+   "title": "Secondary Hero 15",
+   "description": "Tailark secondary-hero variant 15 block",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/secondary-hero-15.json"
+  },
+  {
+   "name": "secondary-hero-16",
+   "type": "block",
+   "title": "Secondary Hero 16",
+   "description": "Tailark secondary-hero variant 16 block",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/secondary-hero-16.json"
+  },
+  {
+   "name": "secondary-hero-17",
+   "type": "block",
+   "title": "Secondary Hero 17",
+   "description": "Tailark secondary-hero variant 17 block",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/secondary-hero-17.json"
+  },
+  {
+   "name": "secondary-hero-18",
+   "type": "block",
+   "title": "Secondary Hero 18",
+   "description": "Tailark secondary-hero variant 18 block",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/secondary-hero-18.json"
+  },
+  {
+   "name": "secondary-hero-19",
+   "type": "block",
+   "title": "Secondary Hero 19",
+   "description": "Tailark secondary-hero variant 19 block",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/secondary-hero-19.json"
+  },
+  {
+   "name": "secondary-hero-2",
+   "type": "block",
+   "title": "Secondary Hero 2",
+   "description": "Tailark secondary-hero variant 2 block",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/secondary-hero-2.json"
+  },
+  {
+   "name": "secondary-hero-20",
+   "type": "block",
+   "title": "Secondary Hero 20",
+   "description": "Tailark secondary-hero variant 20 block",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/secondary-hero-20.json"
+  },
+  {
+   "name": "secondary-hero-3",
+   "type": "block",
+   "title": "Secondary Hero 3",
+   "description": "Tailark secondary-hero variant 3 block",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/secondary-hero-3.json"
+  },
+  {
+   "name": "secondary-hero-4",
+   "type": "block",
+   "title": "Secondary Hero 4",
+   "description": "Tailark secondary-hero variant 4 block",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/secondary-hero-4.json"
+  },
+  {
+   "name": "secondary-hero-5",
+   "type": "block",
+   "title": "Secondary Hero 5",
+   "description": "Tailark secondary-hero variant 5 block",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/secondary-hero-5.json"
+  },
+  {
+   "name": "secondary-hero-6",
+   "type": "block",
+   "title": "Secondary Hero 6",
+   "description": "Tailark secondary-hero variant 6 block",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/secondary-hero-6.json"
+  },
+  {
+   "name": "secondary-hero-7",
+   "type": "block",
+   "title": "Secondary Hero 7",
+   "description": "Tailark secondary-hero variant 7 block",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/secondary-hero-7.json"
+  },
+  {
+   "name": "secondary-hero-8",
+   "type": "block",
+   "title": "Secondary Hero 8",
+   "description": "Tailark secondary-hero variant 8 block",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/secondary-hero-8.json"
+  },
+  {
+   "name": "secondary-hero-9",
+   "type": "block",
+   "title": "Secondary Hero 9",
+   "description": "Tailark secondary-hero variant 9 block",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/secondary-hero-9.json"
+  },
+  {
+   "name": "select",
+   "type": "ui",
+   "title": "Select",
+   "description": "Tailark Base UI Select component",
+   "component": "select",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react"
+   ],
+   "url": "https://tailark.com/r/select.json"
+  },
+  {
+   "name": "shopping-cart",
+   "type": "component",
+   "title": "Shopping Cart Illustration",
+   "description": "Tailark shopping-cart illustration",
+   "component": "cart",
+   "surface": "cart-website",
+   "dependencies": [],
+   "url": "https://tailark.com/r/shopping-cart.json"
+  },
+  {
+   "name": "sign-up-1",
+   "type": "block",
+   "title": "Sign Up 1",
+   "description": "Tailark sign-up variant 1 block",
+   "component": null,
+   "surface": "sign-up",
+   "dependencies": [],
+   "url": "https://tailark.com/r/sign-up-1.json"
+  },
+  {
+   "name": "sign-up-10",
+   "type": "block",
+   "title": "Sign Up 10",
+   "description": "Tailark sign-up variant 10 block",
+   "component": null,
+   "surface": "sign-up",
+   "dependencies": [],
+   "url": "https://tailark.com/r/sign-up-10.json"
+  },
+  {
+   "name": "sign-up-11",
+   "type": "block",
+   "title": "Sign Up 11",
+   "description": "Tailark sign-up variant 11 block",
+   "component": null,
+   "surface": "sign-up",
+   "dependencies": [],
+   "url": "https://tailark.com/r/sign-up-11.json"
+  },
+  {
+   "name": "sign-up-2",
+   "type": "block",
+   "title": "Sign Up 2",
+   "description": "Tailark sign-up variant 2 block",
+   "component": null,
+   "surface": "sign-up",
+   "dependencies": [],
+   "url": "https://tailark.com/r/sign-up-2.json"
+  },
+  {
+   "name": "sign-up-3",
+   "type": "block",
+   "title": "Sign Up 3",
+   "description": "Tailark sign-up variant 3 block",
+   "component": null,
+   "surface": "sign-up",
+   "dependencies": [],
+   "url": "https://tailark.com/r/sign-up-3.json"
+  },
+  {
+   "name": "sign-up-4",
+   "type": "block",
+   "title": "Sign Up 4",
+   "description": "Tailark sign-up variant 4 block",
+   "component": null,
+   "surface": "sign-up",
+   "dependencies": [],
+   "url": "https://tailark.com/r/sign-up-4.json"
+  },
+  {
+   "name": "sign-up-5",
+   "type": "block",
+   "title": "Sign Up 5",
+   "description": "Tailark sign-up variant 5 block",
+   "component": null,
+   "surface": "sign-up",
+   "dependencies": [],
+   "url": "https://tailark.com/r/sign-up-5.json"
+  },
+  {
+   "name": "sign-up-6",
+   "type": "block",
+   "title": "Sign Up 6",
+   "description": "Tailark sign-up variant 6 block",
+   "component": null,
+   "surface": "sign-up",
+   "dependencies": [],
+   "url": "https://tailark.com/r/sign-up-6.json"
+  },
+  {
+   "name": "sign-up-7",
+   "type": "block",
+   "title": "Sign Up 7",
+   "description": "Tailark sign-up variant 7 block",
+   "component": null,
+   "surface": "sign-up",
+   "dependencies": [],
+   "url": "https://tailark.com/r/sign-up-7.json"
+  },
+  {
+   "name": "sign-up-8",
+   "type": "block",
+   "title": "Sign Up 8",
+   "description": "Tailark sign-up variant 8 block",
+   "component": null,
+   "surface": "sign-up",
+   "dependencies": [],
+   "url": "https://tailark.com/r/sign-up-8.json"
+  },
+  {
+   "name": "sign-up-9",
+   "type": "block",
+   "title": "Sign Up 9",
+   "description": "Tailark sign-up variant 9 block",
+   "component": null,
+   "surface": "sign-up",
+   "dependencies": [],
+   "url": "https://tailark.com/r/sign-up-9.json"
+  },
+  {
+   "name": "sleep-tracker",
+   "type": "component",
+   "title": "Health Illustration",
+   "description": "Tailark sleep-tracker health illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/sleep-tracker.json"
+  },
+  {
+   "name": "sleep-visualization",
+   "type": "component",
+   "title": "Health Illustration",
+   "description": "Tailark sleep-visualization health illustration",
+   "component": "chart",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/sleep-visualization.json"
+  },
+  {
+   "name": "sources",
+   "type": "ui",
+   "title": "Sources",
+   "description": "Tailark Base UI Sources component",
+   "component": "sources",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/sources.json"
+  },
+  {
+   "name": "stats-1",
+   "type": "block",
+   "title": "Stats 1",
+   "description": "Tailark stats variant 1 block",
+   "component": "stat",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/stats-1.json"
+  },
+  {
+   "name": "stats-2",
+   "type": "block",
+   "title": "Stats 2",
+   "description": "Tailark stats variant 2 block",
+   "component": "stat",
+   "surface": null,
+   "dependencies": [
+    "dotted-map"
+   ],
+   "url": "https://tailark.com/r/stats-2.json"
+  },
+  {
+   "name": "stats-3",
+   "type": "block",
+   "title": "Stats 3",
+   "description": "Tailark stats variant 3 block",
+   "component": "stat",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/stats-3.json"
+  },
+  {
+   "name": "stats-4",
+   "type": "block",
+   "title": "Stats 4",
+   "description": "Tailark stats variant 4 block",
+   "component": "stat",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/stats-4.json"
+  },
+  {
+   "name": "stats-5",
+   "type": "block",
+   "title": "Stats 5",
+   "description": "Tailark stats variant 5 block",
+   "component": "stat",
+   "surface": null,
+   "dependencies": [
+    "@number-flow/react"
+   ],
+   "url": "https://tailark.com/r/stats-5.json"
+  },
+  {
+   "name": "stats-6",
+   "type": "block",
+   "title": "Stats 6",
+   "description": "Tailark stats variant 6 block",
+   "component": "stat",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/stats-6.json"
+  },
+  {
+   "name": "stats-7",
+   "type": "block",
+   "title": "Stats 7",
+   "description": "Tailark stats variant 7 block",
+   "component": "stat",
+   "surface": null,
+   "dependencies": [
+    "dotted-map"
+   ],
+   "url": "https://tailark.com/r/stats-7.json"
+  },
+  {
+   "name": "stats-8",
+   "type": "block",
+   "title": "Stats 8",
+   "description": "Tailark stats variant 8 block",
+   "component": "stat",
+   "surface": null,
+   "dependencies": [
+    "dotted-map"
+   ],
+   "url": "https://tailark.com/r/stats-8.json"
+  },
+  {
+   "name": "team-1",
+   "type": "block",
+   "title": "Team 1",
+   "description": "Tailark team variant 1 block",
+   "component": null,
+   "surface": "team",
+   "dependencies": [],
+   "url": "https://tailark.com/r/team-1.json"
+  },
+  {
+   "name": "team-10",
+   "type": "block",
+   "title": "Team 10",
+   "description": "Tailark team variant 10 block",
+   "component": null,
+   "surface": "team",
+   "dependencies": [],
+   "url": "https://tailark.com/r/team-10.json"
+  },
+  {
+   "name": "team-11",
+   "type": "block",
+   "title": "Team 11",
+   "description": "Tailark team variant 11 block",
+   "component": null,
+   "surface": "team",
+   "dependencies": [],
+   "url": "https://tailark.com/r/team-11.json"
+  },
+  {
+   "name": "team-12",
+   "type": "block",
+   "title": "Team 12",
+   "description": "Tailark team variant 12 block",
+   "component": null,
+   "surface": "team",
+   "dependencies": [],
+   "url": "https://tailark.com/r/team-12.json"
+  },
+  {
+   "name": "team-13",
+   "type": "block",
+   "title": "Team 13",
+   "description": "Tailark team variant 13 block",
+   "component": null,
+   "surface": "team",
+   "dependencies": [],
+   "url": "https://tailark.com/r/team-13.json"
+  },
+  {
+   "name": "team-14",
+   "type": "block",
+   "title": "Team 14",
+   "description": "Tailark team variant 14 block",
+   "component": null,
+   "surface": "team",
+   "dependencies": [],
+   "url": "https://tailark.com/r/team-14.json"
+  },
+  {
+   "name": "team-15",
+   "type": "block",
+   "title": "Team 15",
+   "description": "Tailark team variant 15 block",
+   "component": null,
+   "surface": "team",
+   "dependencies": [],
+   "url": "https://tailark.com/r/team-15.json"
+  },
+  {
+   "name": "team-16",
+   "type": "block",
+   "title": "Team 16",
+   "description": "Tailark team variant 16 block",
+   "component": null,
+   "surface": "team",
+   "dependencies": [],
+   "url": "https://tailark.com/r/team-16.json"
+  },
+  {
+   "name": "team-2",
+   "type": "block",
+   "title": "Team 2",
+   "description": "Tailark team variant 2 block",
+   "component": null,
+   "surface": "team",
+   "dependencies": [],
+   "url": "https://tailark.com/r/team-2.json"
+  },
+  {
+   "name": "team-3",
+   "type": "block",
+   "title": "Team 3",
+   "description": "Tailark team variant 3 block",
+   "component": null,
+   "surface": "team",
+   "dependencies": [],
+   "url": "https://tailark.com/r/team-3.json"
+  },
+  {
+   "name": "team-4",
+   "type": "block",
+   "title": "Team 4",
+   "description": "Tailark team variant 4 block",
+   "component": null,
+   "surface": "team",
+   "dependencies": [],
+   "url": "https://tailark.com/r/team-4.json"
+  },
+  {
+   "name": "team-5",
+   "type": "block",
+   "title": "Team 5",
+   "description": "Tailark team variant 5 block",
+   "component": null,
+   "surface": "team",
+   "dependencies": [],
+   "url": "https://tailark.com/r/team-5.json"
+  },
+  {
+   "name": "team-6",
+   "type": "block",
+   "title": "Team 6",
+   "description": "Tailark team variant 6 block",
+   "component": null,
+   "surface": "team",
+   "dependencies": [],
+   "url": "https://tailark.com/r/team-6.json"
+  },
+  {
+   "name": "team-7",
+   "type": "block",
+   "title": "Team 7",
+   "description": "Tailark team variant 7 block",
+   "component": null,
+   "surface": "team",
+   "dependencies": [],
+   "url": "https://tailark.com/r/team-7.json"
+  },
+  {
+   "name": "team-8",
+   "type": "block",
+   "title": "Team 8",
+   "description": "Tailark team variant 8 block",
+   "component": null,
+   "surface": "team",
+   "dependencies": [],
+   "url": "https://tailark.com/r/team-8.json"
+  },
+  {
+   "name": "team-9",
+   "type": "block",
+   "title": "Team 9",
+   "description": "Tailark team variant 9 block",
+   "component": null,
+   "surface": "team",
+   "dependencies": [],
+   "url": "https://tailark.com/r/team-9.json"
+  },
+  {
+   "name": "testimonials-1",
+   "type": "block",
+   "title": "Testimonials 1",
+   "description": "Tailark testimonials variant 1 block",
+   "component": "quote",
+   "surface": "testimonials",
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/testimonials-1.json"
+  },
+  {
+   "name": "testimonials-2",
+   "type": "block",
+   "title": "Testimonials 2",
+   "description": "Tailark testimonials variant 2 block",
+   "component": "quote",
+   "surface": "testimonials",
+   "dependencies": [],
+   "url": "https://tailark.com/r/testimonials-2.json"
+  },
+  {
+   "name": "testimonials-3",
+   "type": "block",
+   "title": "Testimonials 3",
+   "description": "Tailark testimonials variant 3 block",
+   "component": "quote",
+   "surface": "testimonials",
+   "dependencies": [],
+   "url": "https://tailark.com/r/testimonials-3.json"
+  },
+  {
+   "name": "testimonials-4",
+   "type": "block",
+   "title": "Testimonials 4",
+   "description": "Tailark testimonials variant 4 block",
+   "component": "quote",
+   "surface": "testimonials",
+   "dependencies": [],
+   "url": "https://tailark.com/r/testimonials-4.json"
+  },
+  {
+   "name": "testimonials-5",
+   "type": "block",
+   "title": "Testimonials 5",
+   "description": "Tailark testimonials variant 5 block",
+   "component": "quote",
+   "surface": "testimonials",
+   "dependencies": [
+    "@radix-ui/react-tabs",
+    "motion"
+   ],
+   "url": "https://tailark.com/r/testimonials-5.json"
+  },
+  {
+   "name": "testimonials-6",
+   "type": "block",
+   "title": "Testimonials 6",
+   "description": "Tailark testimonials variant 6 block",
+   "component": "quote",
+   "surface": "testimonials",
+   "dependencies": [],
+   "url": "https://tailark.com/r/testimonials-6.json"
+  },
+  {
+   "name": "testimonials-7",
+   "type": "block",
+   "title": "Testimonials 7",
+   "description": "Tailark testimonials variant 7 block",
+   "component": "quote",
+   "surface": "testimonials",
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://tailark.com/r/testimonials-7.json"
+  },
+  {
+   "name": "testimonials-8",
+   "type": "block",
+   "title": "Testimonials 8",
+   "description": "Tailark testimonials variant 8 block",
+   "component": "quote",
+   "surface": "testimonials",
+   "dependencies": [],
+   "url": "https://tailark.com/r/testimonials-8.json"
+  },
+  {
+   "name": "text-to-speech",
+   "type": "component",
+   "title": "Text To Speech Illustration",
+   "description": "Tailark text-to-speech illustration",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/text-to-speech.json"
+  },
+  {
+   "name": "textarea",
+   "type": "ui",
+   "title": "Textarea",
+   "description": "Tailark Base UI Textarea component",
+   "component": "textarea",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/textarea.json"
+  },
+  {
+   "name": "todo-app",
+   "type": "component",
+   "title": "Todo App Illustration",
+   "description": "Tailark todo-app illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/todo-app.json"
+  },
+  {
+   "name": "toggle",
+   "type": "ui",
+   "title": "Toggle",
+   "description": "Tailark Base UI Toggle component",
+   "component": "toggle-button",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react",
+    "class-variance-authority"
+   ],
+   "url": "https://tailark.com/r/toggle.json"
+  },
+  {
+   "name": "toggle-group",
+   "type": "ui",
+   "title": "Toggle Group",
+   "description": "Tailark Base UI Toggle Group component",
+   "component": "toggle-group",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react",
+    "class-variance-authority"
+   ],
+   "url": "https://tailark.com/r/toggle-group.json"
+  },
+  {
+   "name": "token-counter",
+   "type": "component",
+   "title": "Token Counter Illustration",
+   "description": "Tailark token-counter illustration",
+   "component": "chip",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/token-counter.json"
+  },
+  {
+   "name": "tooltip",
+   "type": "ui",
+   "title": "Tooltip",
+   "description": "Tailark Base UI Tooltip component",
+   "component": "tooltip",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react"
+   ],
+   "url": "https://tailark.com/r/tooltip.json"
+  },
+  {
+   "name": "translation-interface",
+   "type": "component",
+   "title": "Translation Illustration",
+   "description": "Tailark translation illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/translation-interface.json"
+  },
+  {
+   "name": "uptime",
+   "type": "component",
+   "title": "Uptime Illustration",
+   "description": "Tailark uptime illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/uptime.json"
+  },
+  {
+   "name": "user",
+   "type": "component",
+   "title": "User Illustration",
+   "description": "Tailark user illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/user.json"
+  },
+  {
+   "name": "users",
+   "type": "component",
+   "title": "User Illustration",
+   "description": "Tailark multiple user illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/users.json"
+  },
+  {
+   "name": "visualization",
+   "type": "component",
+   "title": "Visualization Illustration",
+   "description": "Tailark visualization illustration",
+   "component": "chart",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/visualization.json"
+  },
+  {
+   "name": "workflow",
+   "type": "component",
+   "title": "Workflow Illustration",
+   "description": "Tailark workflow illustration",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://tailark.com/r/workflow.json"
+  }
+ ]
+}

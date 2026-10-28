@@ -1,0 +1,1273 @@
+{
+ "resource_id": "1f2b1b68-6881-4c22-bb03-e76a545eb369",
+ "registry_url": "https://cobanov.github.io/soft-club-ui/registry.json",
+ "install_verified": false,
+ "checked": "2026-10-23",
+ "items": [
+  {
+   "name": "accordion",
+   "type": "ui",
+   "title": "Accordion",
+   "description": "Disclosure list for compact support content and specs.",
+   "component": "accordion",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "accretion-cluster",
+   "type": "ui",
+   "title": "AccretionCluster",
+   "description": "Diffusion-limited aggregation. The strata bands in the crust record arrival order.",
+   "component": "stack",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "alert",
+   "type": "ui",
+   "title": "Alert",
+   "description": "Inline status message with variants and an optional leading icon.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "class-variance-authority@^0.7.1"
+   ],
+   "url": null
+  },
+  {
+   "name": "alert-dialog",
+   "type": "ui",
+   "title": "AlertDialog",
+   "description": "Confirmation modal that requires an explicit choice before closing.",
+   "component": "alert-dialog",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-dialog@^1.1.6"
+   ],
+   "url": null
+  },
+  {
+   "name": "announcement-bar",
+   "type": "ui",
+   "title": "AnnouncementBar",
+   "description": "Dismissible top strip with an animated gradient sweep, tag, message, and action.",
+   "component": "announcement-bar",
+   "surface": null,
+   "dependencies": [
+    "lucide-react@^1.17.0"
+   ],
+   "url": null
+  },
+  {
+   "name": "ascii-backdrop",
+   "type": "ui",
+   "title": "AsciiBackdrop",
+   "description": "Deterministic PRNG so a given seed always renders the same field.",
+   "component": "backdrop",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "ascii-donut",
+   "type": "ui",
+   "title": "AsciiDonut",
+   "description": "Soft Club AsciiDonut component.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "ascii-fire",
+   "type": "ui",
+   "title": "AsciiFire",
+   "description": "Soft Club AsciiFire component.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "ascii-flow",
+   "type": "ui",
+   "title": "AsciiFlow",
+   "description": "Soft Club AsciiFlow component.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "ascii-hero",
+   "type": "ui",
+   "title": "AsciiHero",
+   "description": "Reactive ASCII canvas adapted into the green glass surface.",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "ascii-image",
+   "type": "ui",
+   "title": "AsciiImage",
+   "description": "Renders an image or procedural subject as a live, theme-tinted field of ASCII glyphs.",
+   "component": "image",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "ascii-life",
+   "type": "ui",
+   "title": "AsciiLife",
+   "description": "Soft Club AsciiLife component.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "ascii-plasma",
+   "type": "ui",
+   "title": "AsciiPlasma",
+   "description": "Soft Club AsciiPlasma component.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "ascii-snapshot",
+   "type": "ui",
+   "title": "AsciiSnapshot",
+   "description": "Framed share card: an animated ASCII portrait over a headline, copy, range toggle, and share actions.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "ascii-stars",
+   "type": "ui",
+   "title": "AsciiStars",
+   "description": "Soft Club AsciiStars component.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "ascii-tunnel",
+   "type": "ui",
+   "title": "AsciiTunnel",
+   "description": "Soft Club AsciiTunnel component.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "aspect-ratio",
+   "type": "ui",
+   "title": "AspectRatio",
+   "description": "Locks content to a fixed width-to-height ratio.",
+   "component": "aspect-ratio",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "aurora-field",
+   "type": "ui",
+   "title": "AuroraField",
+   "description": "Soft ambient field used inside grid and hero surfaces.",
+   "component": "gradient-background",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "avatar",
+   "type": "ui",
+   "title": "Avatar",
+   "description": "Image avatar with monogram fallback, tones, and stacked groups.",
+   "component": "avatar",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "badge",
+   "type": "ui",
+   "title": "Badge",
+   "description": "Icy transport glass and cyan scan lines.",
+   "component": "badge",
+   "surface": null,
+   "dependencies": [
+    "class-variance-authority@^0.7.1"
+   ],
+   "url": null
+  },
+  {
+   "name": "base",
+   "type": "ui",
+   "title": "Soft Club Base",
+   "description": "Design tokens, the shared Soft Club stylesheet (all four themes), and the cx class helper. Every Soft Club component depends on this item.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "clsx@^2.1.1"
+   ],
+   "url": null
+  },
+  {
+   "name": "before-after",
+   "type": "ui",
+   "title": "BeforeAfter",
+   "description": "Split surface for comparing copy, states, or design passes.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "breadcrumb",
+   "type": "ui",
+   "title": "Breadcrumb",
+   "description": "Hierarchy trail with links, current page, and chevron separators.",
+   "component": "breadcrumbs",
+   "surface": null,
+   "dependencies": [
+    "lucide-react@^1.17.0"
+   ],
+   "url": null
+  },
+  {
+   "name": "button",
+   "type": "ui",
+   "title": "Button",
+   "description": "Primary command surface with secondary, outline, ghost, and danger variants.",
+   "component": "button",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-slot@^1.1.2",
+    "class-variance-authority@^0.7.1"
+   ],
+   "url": null
+  },
+  {
+   "name": "button-group",
+   "type": "ui",
+   "title": "ButtonGroup",
+   "description": "Joins related buttons into one seamless segmented control.",
+   "component": "button-group",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "calendar",
+   "type": "ui",
+   "title": "Calendar",
+   "description": "Month-grid calendar with keyboard navigation and single-date selection.",
+   "component": "calendar",
+   "surface": null,
+   "dependencies": [
+    "lucide-react@^1.17.0"
+   ],
+   "url": null
+  },
+  {
+   "name": "card",
+   "type": "ui",
+   "title": "Card",
+   "description": "Base content container with header, body, and footer slots.",
+   "component": "card",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "carousel",
+   "type": "ui",
+   "title": "Carousel",
+   "description": "Slide container with overlay arrows and dot navigation.",
+   "component": "carousel",
+   "surface": null,
+   "dependencies": [
+    "lucide-react@^1.17.0"
+   ],
+   "url": null
+  },
+  {
+   "name": "chat-bubble",
+   "type": "ui",
+   "title": "ChatBubble",
+   "description": "Message bubble with an agent name and a thinking pill that streams a reply.",
+   "component": "conversation",
+   "surface": "chat-mobile",
+   "dependencies": [
+    "lucide-react@^1.17.0"
+   ],
+   "url": null
+  },
+  {
+   "name": "chat-dock",
+   "type": "ui",
+   "title": "ChatDock",
+   "description": "Conversation surface with bubbles and prompt controls.",
+   "component": "conversation",
+   "surface": "chat-mobile",
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "checkbox",
+   "type": "ui",
+   "title": "Checkbox",
+   "description": "Native checkbox with a single clickable label target.",
+   "component": "checkbox",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "chladni-plate",
+   "type": "ui",
+   "title": "ChladniPlate",
+   "description": "Sand settling on the nodal lines of a standing wave. The pointer retunes the chord.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "clifford-smoke",
+   "type": "ui",
+   "title": "CliffordSmoke",
+   "description": "A Clifford attractor accumulated as smoke. Drag to bend the constants.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "collapsible",
+   "type": "ui",
+   "title": "Collapsible",
+   "description": "Single disclosure that animates open height with a grid transition.",
+   "component": "collapsible",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "combobox",
+   "type": "ui",
+   "title": "Combobox",
+   "description": "Searchable single-select with arrow-key navigation, on the Popover surface.",
+   "component": "combobox",
+   "surface": null,
+   "dependencies": [
+    "lucide-react@^1.17.0"
+   ],
+   "url": null
+  },
+  {
+   "name": "command",
+   "type": "ui",
+   "title": "Command",
+   "description": "Command palette with live substring filtering and grouped items.",
+   "component": "command-palette",
+   "surface": null,
+   "dependencies": [
+    "lucide-react@^1.17.0"
+   ],
+   "url": null
+  },
+  {
+   "name": "community-badge",
+   "type": "ui",
+   "title": "CommunityBadge",
+   "description": "Social-proof tile with surface, outline, ghost, and solid variants across tones.",
+   "component": "badge",
+   "surface": null,
+   "dependencies": [
+    "class-variance-authority@^0.7.1"
+   ],
+   "url": null
+  },
+  {
+   "name": "context-menu",
+   "type": "ui",
+   "title": "ContextMenu",
+   "description": "Right-click menu anchored to its trigger region.",
+   "component": "context-menu",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-context-menu@^2.2.6",
+    "lucide-react@^1.17.0"
+   ],
+   "url": null
+  },
+  {
+   "name": "curl-field",
+   "type": "ui",
+   "title": "CurlField",
+   "description": "Divergence-free wind from a drifting stream function. Drag to file a storm report.",
+   "component": "fieldset",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "date-input",
+   "type": "ui",
+   "title": "DateInput",
+   "description": "Styled native date field with the browser's date picker.",
+   "component": "date-input",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "date-picker",
+   "type": "ui",
+   "title": "DatePicker",
+   "description": "Button-triggered calendar in a popover that shows the chosen date.",
+   "component": "date-picker",
+   "surface": null,
+   "dependencies": [
+    "lucide-react@^1.17.0"
+   ],
+   "url": null
+  },
+  {
+   "name": "dialog",
+   "type": "ui",
+   "title": "Dialog",
+   "description": "Modal surface for confirmations and focused tasks.",
+   "component": "modal",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-dialog@^1.1.6",
+    "lucide-react@^1.17.0"
+   ],
+   "url": null
+  },
+  {
+   "name": "dither-image",
+   "type": "ui",
+   "title": "DitherImage",
+   "description": "Prints an image as a scrolling diagonal line-screen, ordered-dithered over a saturated theme field.",
+   "component": "image",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "drawer",
+   "type": "ui",
+   "title": "Drawer",
+   "description": "Bottom-anchored drawer with a grab handle for mobile-style flows.",
+   "component": "drawer",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-dialog@^1.1.6"
+   ],
+   "url": null
+  },
+  {
+   "name": "dropdown-menu",
+   "type": "ui",
+   "title": "DropdownMenu",
+   "description": "Menu primitive for command lists and compact actions.",
+   "component": "dropdown-menu",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-dropdown-menu@^2.1.6"
+   ],
+   "url": null
+  },
+  {
+   "name": "duotone-card",
+   "type": "ui",
+   "title": "DuotoneCard",
+   "description": "Image-backed plan card: a duotone picture under a readable content scrim.",
+   "component": "card",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "duotone-image",
+   "type": "ui",
+   "title": "DuotoneImage",
+   "description": "Recolors any image into a single-hue duotone via CSS blends.",
+   "component": "image",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "epicycle-orrery",
+   "type": "ui",
+   "title": "EpicycleOrrery",
+   "description": "Deferent and epicycles tracing a heaven that never existed. The pointer retunes the court.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "geodesic-choir",
+   "type": "ui",
+   "title": "GeodesicChoir",
+   "description": "Kuramoto voices on a triangulated sphere. Drag to spin; it sings in focus.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "glass-card",
+   "type": "ui",
+   "title": "GlassCard",
+   "description": "Compact glass card with icon, title, body, and link slots.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "glass-panel",
+   "type": "ui",
+   "title": "GlassPanel",
+   "description": "Composed glass container for dense display surfaces.",
+   "component": "panel",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "glitch-text",
+   "type": "ui",
+   "title": "GlitchText",
+   "description": "Phosphor glitch type with dual color channels jittering on a loop.",
+   "component": "text-effect",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "gradient-banner",
+   "type": "ui",
+   "title": "GradientBanner",
+   "description": "Animated film-graded gradient banner with eyebrow, title, copy, and action slots.",
+   "component": "banner",
+   "surface": null,
+   "dependencies": [
+    "class-variance-authority@^0.7.1"
+   ],
+   "url": null
+  },
+  {
+   "name": "gradient-text",
+   "type": "ui",
+   "title": "GradientText",
+   "description": "Token-backed gradient text for rare emphasis moments.",
+   "component": "text-effect",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "halftone-image",
+   "type": "ui",
+   "title": "HalftoneImage",
+   "description": "Reduces an image or procedural subject to theme-tinted halftone dots sized by luminance.",
+   "component": "image",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "hover-card",
+   "type": "ui",
+   "title": "HoverCard",
+   "description": "Hover- and focus-revealed card for inline context, no positioning dependency.",
+   "component": "hover-card",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "input",
+   "type": "ui",
+   "title": "Input",
+   "description": "Single-line text field with glass surface and visible focus state.",
+   "component": "text-input",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "input-otp",
+   "type": "ui",
+   "title": "InputOTP",
+   "description": "Segmented one-time-code field with auto-advance and paste support.",
+   "component": "otp-input",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "instrument",
+   "type": "ui",
+   "title": "Instrument",
+   "description": "Control-room card frame with Focus, Regen, and PNG export wired to the simulation inside.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "kbd",
+   "type": "ui",
+   "title": "Kbd",
+   "description": "Keyboard key cap for shortcut hints and command surfaces.",
+   "component": "kbd",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "label",
+   "type": "ui",
+   "title": "Label",
+   "description": "Form label with optional required marker, paired with any control.",
+   "component": "label",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "loader",
+   "type": "ui",
+   "title": "Loader",
+   "description": "Frame-based terminal loaders ported from rattles. Switch presets anywhere a spinner lives.",
+   "component": "spinner",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "logo-marquee",
+   "type": "ui",
+   "title": "LogoMarquee",
+   "description": "Scrolling logo proof strip with hover pause.",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "logo-row",
+   "type": "ui",
+   "title": "LogoRow",
+   "description": "Static, centered logo strip for backers, press, or alumni.",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "lsystem-garden",
+   "type": "ui",
+   "title": "LsystemGarden",
+   "description": "A stochastic L-system herbarium with growth replay. Click a specimen to reroll its sentence.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "matrix-rain",
+   "type": "ui",
+   "title": "MatrixRain",
+   "description": "Falling glyph rain rendered on canvas, tinted to the active theme.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "menubar",
+   "type": "ui",
+   "title": "Menubar",
+   "description": "Persistent application menu bar with keyboard navigation.",
+   "component": "menubar",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-menubar@^1.1.6",
+    "lucide-react@^1.17.0"
+   ],
+   "url": null
+  },
+  {
+   "name": "mock-console",
+   "type": "ui",
+   "title": "MockConsole",
+   "description": "Compact terminal panel for prompt and command demos.",
+   "component": "terminal",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "mock-ide",
+   "type": "ui",
+   "title": "MockIDE",
+   "description": "Animated code mock with Soft Club syntax colors and editor chrome.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "morphogen-field",
+   "type": "ui",
+   "title": "MorphogenField",
+   "description": "Gray-Scott reaction-diffusion with drifting constants. The pointer is a morphogen stylus.",
+   "component": "fieldset",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "mosaic-image",
+   "type": "ui",
+   "title": "MosaicImage",
+   "description": "Pixelates an image into posterized rounded tiles with grout the theme ground shows through.",
+   "component": "image",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "native-select",
+   "type": "ui",
+   "title": "NativeSelect",
+   "description": "Styled native select with token chrome and custom chevron.",
+   "component": "select",
+   "surface": null,
+   "dependencies": [
+    "lucide-react@^1.17.0"
+   ],
+   "url": null
+  },
+  {
+   "name": "navigation-menu",
+   "type": "ui",
+   "title": "NavigationMenu",
+   "description": "Top-level navigation with a sliding content viewport.",
+   "component": "navigation-menu",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-navigation-menu@^1.2.5",
+    "lucide-react@^1.17.0"
+   ],
+   "url": null
+  },
+  {
+   "name": "node-grid",
+   "type": "ui",
+   "title": "NodeGrid",
+   "description": "Grid surface that plots an x,y list of nodes (percent coords) with optional labels and tones.",
+   "component": "node-editor",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "number-input",
+   "type": "ui",
+   "title": "NumberInput",
+   "description": "Numeric field with clamped increment and decrement controls.",
+   "component": "number-input",
+   "surface": null,
+   "dependencies": [
+    "lucide-react@^1.17.0"
+   ],
+   "url": null
+  },
+  {
+   "name": "orbit-loader",
+   "type": "ui",
+   "title": "OrbitLoader",
+   "description": "Live three-ring orbital loader with themed satellites.",
+   "component": "spinner",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "pagination",
+   "type": "ui",
+   "title": "Pagination",
+   "description": "Page navigation with prev/next, active page, and ellipsis.",
+   "component": "pagination",
+   "surface": null,
+   "dependencies": [
+    "lucide-react@^1.17.0"
+   ],
+   "url": null
+  },
+  {
+   "name": "particle-field",
+   "type": "ui",
+   "title": "ParticleField",
+   "description": "Cursor-reactive constellation of particles linked by signal lines.",
+   "component": "fieldset",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "phyllotaxis-sequencer",
+   "type": "ui",
+   "title": "PhyllotaxisSequencer",
+   "description": "A Vogel spiral asked to write music. The radar arm is the playhead; click a seed to mute it.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "physarum-trails",
+   "type": "ui",
+   "title": "PhysarumTrails",
+   "description": "Slime-mold agents excavating routes between attractant nodes. Hover to bait the swarm.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "popover",
+   "type": "ui",
+   "title": "Popover",
+   "description": "Small floating info panel for local context.",
+   "component": "popover",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-popover@^1.1.6"
+   ],
+   "url": null
+  },
+  {
+   "name": "pricing-card",
+   "type": "ui",
+   "title": "PricingCard",
+   "description": "Composable pricing surface with feature list and action.",
+   "component": "card",
+   "surface": "pricing-website",
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "progress",
+   "type": "ui",
+   "title": "Progress",
+   "description": "Determinate progress bar with green, blue, and warning tones.",
+   "component": "progress-bar",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "prompt-box",
+   "type": "ui",
+   "title": "PromptBox",
+   "description": "Compact prompt input with attach, voice, and send controls.",
+   "component": "prompt-input",
+   "surface": null,
+   "dependencies": [
+    "lucide-react@^1.17.0"
+   ],
+   "url": null
+  },
+  {
+   "name": "prompt-hero",
+   "type": "ui",
+   "title": "PromptHero",
+   "description": "Larger prompt entry for pages where the prompt is the main action.",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "radar-sweep",
+   "type": "ui",
+   "title": "RadarSweep",
+   "description": "Rotating radar sweep over concentric rings with fading blips.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "radio-group",
+   "type": "ui",
+   "title": "RadioGroup",
+   "description": "Accessible radio group with controlled value and labelled items.",
+   "component": "radio-group",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "rating",
+   "type": "ui",
+   "title": "Rating",
+   "description": "Interactive star rating with hover preview and keyboard support.",
+   "component": "rating",
+   "surface": null,
+   "dependencies": [
+    "lucide-react@^1.17.0"
+   ],
+   "url": null
+  },
+  {
+   "name": "rotator",
+   "type": "ui",
+   "title": "Rotator",
+   "description": "Typewriter word rotation for compact interface copy.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "sandpile-basilica",
+   "type": "ui",
+   "title": "SandpileBasilica",
+   "description": "The Abelian sandpile: whoever holds four, gives four away. Click to pour a handful.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "scroll-area",
+   "type": "ui",
+   "title": "ScrollArea",
+   "description": "Scoped scroll container with themed thin scrollbars.",
+   "component": "scroll-area",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "separator",
+   "type": "ui",
+   "title": "Separator",
+   "description": "Thin divider for compact panels and form group breaks.",
+   "component": "separator",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "sheet",
+   "type": "ui",
+   "title": "Sheet",
+   "description": "Edge-anchored panel that slides in from any side of the viewport.",
+   "component": "sheet",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-dialog@^1.1.6",
+    "lucide-react@^1.17.0"
+   ],
+   "url": null
+  },
+  {
+   "name": "signal-marquee",
+   "type": "ui",
+   "title": "SignalMarquee",
+   "description": "Thin motion strip for looped signal text.",
+   "component": "marquee",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "skeleton",
+   "type": "ui",
+   "title": "Skeleton",
+   "description": "Reduced-motion aware loading placeholder.",
+   "component": "skeleton",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "slider",
+   "type": "ui",
+   "title": "Slider",
+   "description": "Native range slider with token track and themed thumb tones.",
+   "component": "slider",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "soft-footer",
+   "type": "ui",
+   "title": "SoftFooter",
+   "description": "Rich footer with a brand block, link columns, a base row, and an animated gradient rule.",
+   "component": "footer",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "soft-header",
+   "type": "ui",
+   "title": "SoftHeader",
+   "description": "Frosted site header with subway-Helvetica brand, nav, actions, and a drifting gradient rule.",
+   "component": "header",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "spinner",
+   "type": "ui",
+   "title": "Spinner",
+   "description": "Compact ring spinner for inline and button loading states.",
+   "component": "spinner",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "stat-counter",
+   "type": "ui",
+   "title": "StatCounter",
+   "description": "Animated numeric counter for small status summaries.",
+   "component": "stat",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "status-dot",
+   "type": "ui",
+   "title": "StatusDot",
+   "description": "Tiny live-state dot with optional pulse behavior.",
+   "component": "status-indicator",
+   "surface": "status",
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "status-indicator",
+   "type": "ui",
+   "title": "StatusIndicator",
+   "description": "Inline status indicator for dense rows and system labels.",
+   "component": "status-indicator",
+   "surface": "status",
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "stepper",
+   "type": "ui",
+   "title": "Stepper",
+   "description": "Numbered progress indicator for multi-step flows.",
+   "component": "quantity-stepper",
+   "surface": null,
+   "dependencies": [
+    "lucide-react@^1.17.0"
+   ],
+   "url": null
+  },
+  {
+   "name": "sticky-banner",
+   "type": "ui",
+   "title": "StickyBanner",
+   "description": "Dense inline banner for update or release notices.",
+   "component": "sticky",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "switch",
+   "type": "ui",
+   "title": "Switch",
+   "description": "Native switch control for binary settings.",
+   "component": "switch",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "table",
+   "type": "ui",
+   "title": "Table",
+   "description": "Composable data table with header, body, footer, and hover rows.",
+   "component": "table",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "tabs",
+   "type": "ui",
+   "title": "Tabs",
+   "description": "Radix-backed tabs for switching compact views.",
+   "component": "tabs",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-tabs@^1.1.3"
+   ],
+   "url": null
+  },
+  {
+   "name": "textarea",
+   "type": "ui",
+   "title": "Textarea",
+   "description": "Multi-line note field for prompts, logs, and system copy.",
+   "component": "textarea",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "timeline",
+   "type": "ui",
+   "title": "Timeline",
+   "description": "Vertical event log with status-aware nodes.",
+   "component": "timeline",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "toast",
+   "type": "ui",
+   "title": "Toast",
+   "description": "Transient feedback for syncs, saves, and route changes.",
+   "component": "toast",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-toast@^1.2.6",
+    "lucide-react@^1.17.0"
+   ],
+   "url": null
+  },
+  {
+   "name": "toggle",
+   "type": "ui",
+   "title": "Toggle",
+   "description": "Two-state pressable toggle with default and outline variants.",
+   "component": "toggle-button",
+   "surface": null,
+   "dependencies": [
+    "class-variance-authority@^0.7.1"
+   ],
+   "url": null
+  },
+  {
+   "name": "toggle-group",
+   "type": "ui",
+   "title": "ToggleGroup",
+   "description": "Single or multiple toggle set with shared selection state.",
+   "component": "toggle-group",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "token-stream",
+   "type": "ui",
+   "title": "TokenStream",
+   "description": "Token-by-token reveal with custom tokenizer and loop timing.",
+   "component": "streaming-text",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "tool-call",
+   "type": "ui",
+   "title": "ToolCall",
+   "description": "Agent tool-call indicator: a loading pill naming the called tool and its state.",
+   "component": "tool-call",
+   "surface": null,
+   "dependencies": [
+    "lucide-react@^1.17.0"
+   ],
+   "url": null
+  },
+  {
+   "name": "tooltip",
+   "type": "ui",
+   "title": "Tooltip",
+   "description": "Hover and focus hint for compact controls.",
+   "component": "tooltip",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "tree",
+   "type": "ui",
+   "title": "Tree",
+   "description": "Collapsible tree for nested data with click-to-select leaves.",
+   "component": "tree-view",
+   "surface": null,
+   "dependencies": [
+    "lucide-react@^1.17.0"
+   ],
+   "url": null
+  },
+  {
+   "name": "voronoi-territories",
+   "type": "ui",
+   "title": "VoronoiTerritories",
+   "description": "A Voronoi census with Lloyd relaxation and Kuramoto shading. Click a territory to rupture its file.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "waveform",
+   "type": "ui",
+   "title": "Waveform",
+   "description": "Always-moving audio-style bar field with gradient bars.",
+   "component": "waveform",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "word-roll",
+   "type": "ui",
+   "title": "WordRoll",
+   "description": "Small rolling word mark for labels and headers.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  }
+ ]
+}

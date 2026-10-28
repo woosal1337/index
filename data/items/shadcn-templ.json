@@ -1,0 +1,908 @@
+{
+ "resource_id": "8e078a9f-cc11-426f-ab02-d5e036632786",
+ "registry_url": "https://raw.githubusercontent.com/axadrn/shadcn-templ/main/registry.json",
+ "install_verified": false,
+ "checked": "2026-10-23",
+ "items": [
+  {
+   "name": "accordion",
+   "type": "ui",
+   "title": "Accordion",
+   "description": "Collapsible accordion component.",
+   "component": "accordion",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "alert",
+   "type": "ui",
+   "title": "Alert",
+   "description": "Alert component for messages and notifications.",
+   "component": "alert",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "alert-dialog",
+   "type": "ui",
+   "title": "Alert Dialog",
+   "description": "A modal dialog that interrupts the user with important content and expects a response.",
+   "component": "alert-dialog",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "aspect-ratio",
+   "type": "ui",
+   "title": "Aspect Ratio",
+   "description": "Container that maintains aspect ratio.",
+   "component": "aspect-ratio",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "attachment",
+   "type": "ui",
+   "title": "Attachment",
+   "description": "Displays a file or image attachment with media, metadata, upload state, and actions.",
+   "component": "file-card",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "avatar",
+   "type": "ui",
+   "title": "Avatar",
+   "description": "Avatar component for user profiles.",
+   "component": "avatar",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "badge",
+   "type": "ui",
+   "title": "Badge",
+   "description": "Badge component for labels and status indicators.",
+   "component": "badge",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "breadcrumb",
+   "type": "ui",
+   "title": "Breadcrumb",
+   "description": "Breadcrumb navigation component.",
+   "component": "breadcrumbs",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "bubble",
+   "type": "ui",
+   "title": "Bubble",
+   "description": "Displays conversational content in a message bubble. Supports variants, alignment, grouping, reactions, and collapsible content.",
+   "component": "message",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "button",
+   "type": "ui",
+   "title": "Button",
+   "description": "Button component with multiple variants.",
+   "component": "button",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "button-group",
+   "type": "ui",
+   "title": "Button Group",
+   "description": "Group related buttons together with shared borders.",
+   "component": "button-group",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "calendar",
+   "type": "ui",
+   "title": "Calendar",
+   "description": "Calendar component for date selection.",
+   "component": "calendar",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "card",
+   "type": "ui",
+   "title": "Card",
+   "description": "Card container component.",
+   "component": "card",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "carousel",
+   "type": "ui",
+   "title": "Carousel",
+   "description": "Carousel component with navigation controls.",
+   "component": "carousel",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "chart",
+   "type": "ui",
+   "title": "Chart",
+   "description": "Beautiful charts. Composable chart elements with a Recharts compatible client renderer.",
+   "component": "chart",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "checkbox",
+   "type": "ui",
+   "title": "Checkbox",
+   "description": "Checkbox input component.",
+   "component": "checkbox",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "collapsible",
+   "type": "ui",
+   "title": "Collapsible",
+   "description": "Collapsible container component.",
+   "component": "collapsible",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "combobox",
+   "type": "ui",
+   "title": "Combobox",
+   "description": "An input with a filterable list of options.",
+   "component": "combobox",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "command",
+   "type": "ui",
+   "title": "Command",
+   "description": "Fast, composable command menu.",
+   "component": "command-palette",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "context-menu",
+   "type": "ui",
+   "title": "Context Menu",
+   "description": "Menu shown at the cursor on right click, with actions and shortcuts.",
+   "component": "context-menu",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "dashboard-01",
+   "type": "block",
+   "title": null,
+   "description": "A dashboard with sidebar, charts and data table.",
+   "component": "dashboard",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "date-picker",
+   "type": "ui",
+   "title": "Date Picker",
+   "description": "A date picker pattern composed of the Calendar, Popover and Button components.",
+   "component": "date-picker",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "dialog",
+   "type": "ui",
+   "title": "Dialog",
+   "description": "Modal dialog component.",
+   "component": "modal",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "direction",
+   "type": "ui",
+   "title": "Direction",
+   "description": "A provider component that sets the text direction for your application.",
+   "component": "direction-provider",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "drawer",
+   "type": "ui",
+   "title": "Drawer",
+   "description": "A panel that slides in from the edge of the screen and can be swiped away.",
+   "component": "drawer",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "dropdown-menu",
+   "type": "ui",
+   "title": "Dropdown Menu",
+   "description": "Displays a menu of actions or options triggered by a button.",
+   "component": "dropdown-menu",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "empty",
+   "type": "ui",
+   "title": "Empty",
+   "description": "Placeholder for empty states — no results, first-run or offline screens.",
+   "component": "empty-state",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "field",
+   "type": "ui",
+   "title": "Field",
+   "description": "Compose accessible form fields with labels, descriptions and errors.",
+   "component": "fieldset",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "hover-card",
+   "type": "ui",
+   "title": "Hover Card",
+   "description": "Displays rich content in a card when hovering over a trigger. Uses Popover for the popup.",
+   "component": "hover-card",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "icon",
+   "type": "ui",
+   "title": "Icon",
+   "description": "SVG icon component library.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "input",
+   "type": "ui",
+   "title": "Input",
+   "description": "Text input component.",
+   "component": "text-input",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "input-group",
+   "type": "ui",
+   "title": "Input Group",
+   "description": "An input with leading or trailing addons — icons, text or buttons.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "input-otp",
+   "type": "ui",
+   "title": "Input OTP",
+   "description": "One-time password input component.",
+   "component": "otp-input",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "item",
+   "type": "ui",
+   "title": "Item",
+   "description": "A flexible row for lists — media, title, description and actions.",
+   "component": "list",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "kbd",
+   "type": "ui",
+   "title": "Kbd",
+   "description": "Displays a keyboard key or shortcut.",
+   "component": "kbd",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "label",
+   "type": "ui",
+   "title": "Label",
+   "description": "Form label component.",
+   "component": "label",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "login-01",
+   "type": "block",
+   "title": null,
+   "description": "A simple login form.",
+   "component": null,
+   "surface": "login-mobile",
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "login-02",
+   "type": "block",
+   "title": null,
+   "description": "A two column login page with a cover image.",
+   "component": null,
+   "surface": "login-mobile",
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "login-03",
+   "type": "block",
+   "title": null,
+   "description": "A login page with a muted background color.",
+   "component": null,
+   "surface": "login-mobile",
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "login-04",
+   "type": "block",
+   "title": null,
+   "description": "A login page with form and image.",
+   "component": null,
+   "surface": "login-mobile",
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "login-05",
+   "type": "block",
+   "title": null,
+   "description": "A simple email-only login page.",
+   "component": null,
+   "surface": "login-mobile",
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "marker",
+   "type": "ui",
+   "title": "Marker",
+   "description": "Displays an inline status, system note, bordered row, or labeled separator in a conversation.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "menubar",
+   "type": "ui",
+   "title": "Menubar",
+   "description": "A visually persistent menu common in desktop applications that provides quick access to a consistent set of commands.",
+   "component": "menubar",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "message",
+   "type": "ui",
+   "title": "Message",
+   "description": "Displays a message in a conversation, with optional avatar, header, footer, and alignment.",
+   "component": "alert",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "message-scroller",
+   "type": "ui",
+   "title": "Message Scroller",
+   "description": "A chat scroll container that anchors turns, opens saved transcripts, follows streamed responses, loads history without jumping, and jumps to any message.",
+   "component": "message-scroller",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "native-select",
+   "type": "ui",
+   "title": "Native Select",
+   "description": "A styled native HTML select element with consistent design system integration.",
+   "component": "select",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "navigation-menu",
+   "type": "ui",
+   "title": "Navigation Menu",
+   "description": "A collection of links for navigating websites.",
+   "component": "navigation-menu",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "pagination",
+   "type": "ui",
+   "title": "Pagination",
+   "description": "Pagination component for lists and tables.",
+   "component": "pagination",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "popover",
+   "type": "ui",
+   "title": "Popover",
+   "description": "Floating popover component using the browser popover API and Floating UI positioning.",
+   "component": "popover",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "progress",
+   "type": "ui",
+   "title": "Progress",
+   "description": "Progress bar component.",
+   "component": "progress-bar",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "questionnaire",
+   "type": "ui",
+   "title": "Questionnaire",
+   "description": "A multi-step questionnaire with single-choice, multiple-choice, freeform, and skippable questions.",
+   "component": "survey",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "radio-group",
+   "type": "ui",
+   "title": "Radio Group",
+   "description": "A set of checkable buttons, known as radio buttons, where no more than one of the buttons can be checked at a time.",
+   "component": "radio-group",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "resizable",
+   "type": "ui",
+   "title": "Resizable",
+   "description": "Accessible resizable panel groups and layouts with keyboard support.",
+   "component": "resizable",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "scroll-area",
+   "type": "ui",
+   "title": "Scroll Area",
+   "description": "Augments native scroll functionality for custom, cross-browser styling.",
+   "component": "scroll-area",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "select",
+   "type": "ui",
+   "title": "Select",
+   "description": "Displays a list of options for the user to pick from, triggered by a button.",
+   "component": "select",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "separator",
+   "type": "ui",
+   "title": "Separator",
+   "description": "Visual divider between content sections.",
+   "component": "separator",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "sheet",
+   "type": "ui",
+   "title": "Sheet",
+   "description": "Slide-out panel component (drawer).",
+   "component": "sheet",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "sidebar",
+   "type": "ui",
+   "title": "Sidebar",
+   "description": "Collapsible sidebar component for app layouts.",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "sidebar-01",
+   "type": "block",
+   "title": null,
+   "description": "A simple sidebar with navigation grouped by section.",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "sidebar-02",
+   "type": "block",
+   "title": null,
+   "description": "A sidebar with collapsible sections.",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "sidebar-03",
+   "type": "block",
+   "title": null,
+   "description": "A sidebar with submenus.",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "sidebar-04",
+   "type": "block",
+   "title": null,
+   "description": "A floating sidebar with submenus.",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "sidebar-05",
+   "type": "block",
+   "title": null,
+   "description": "A sidebar with collapsible submenus.",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "sidebar-06",
+   "type": "block",
+   "title": null,
+   "description": "A sidebar with submenus as dropdowns.",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "sidebar-07",
+   "type": "block",
+   "title": null,
+   "description": "A sidebar that collapses to icons.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "sidebar-08",
+   "type": "block",
+   "title": null,
+   "description": "An inset sidebar with secondary navigation.",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "sidebar-09",
+   "type": "block",
+   "title": null,
+   "description": "Collapsible nested sidebars.",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "sidebar-10",
+   "type": "block",
+   "title": null,
+   "description": "A sidebar in a popover.",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "sidebar-11",
+   "type": "block",
+   "title": null,
+   "description": "A sidebar with a collapsible file tree.",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "sidebar-12",
+   "type": "block",
+   "title": null,
+   "description": "A sidebar with a calendar.",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "sidebar-13",
+   "type": "block",
+   "title": null,
+   "description": "A sidebar in a dialog.",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "sidebar-14",
+   "type": "block",
+   "title": null,
+   "description": "A sidebar on the right.",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "sidebar-15",
+   "type": "block",
+   "title": null,
+   "description": "A left and right sidebar.",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "sidebar-16",
+   "type": "block",
+   "title": null,
+   "description": "A sidebar with a sticky site header.",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "signup-01",
+   "type": "block",
+   "title": null,
+   "description": "A simple signup form.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "signup-02",
+   "type": "block",
+   "title": null,
+   "description": "A two column signup page with a cover image.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "signup-03",
+   "type": "block",
+   "title": null,
+   "description": "A signup page with a muted background color.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "signup-04",
+   "type": "block",
+   "title": null,
+   "description": "A signup page with form and image.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "signup-05",
+   "type": "block",
+   "title": null,
+   "description": "A simple signup form with social providers.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "skeleton",
+   "type": "ui",
+   "title": "Skeleton",
+   "description": "Skeleton loading placeholder.",
+   "component": "skeleton",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "slider",
+   "type": "ui",
+   "title": "Slider",
+   "description": "Slider input component.",
+   "component": "slider",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "spinner",
+   "type": "ui",
+   "title": "Spinner",
+   "description": "Animated loading indicator built from a spinning icon.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "switch",
+   "type": "ui",
+   "title": "Switch",
+   "description": "Toggle switch component.",
+   "component": "switch",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "table",
+   "type": "ui",
+   "title": "Table",
+   "description": "Table component for displaying data.",
+   "component": "table",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "tabs",
+   "type": "ui",
+   "title": "Tabs",
+   "description": "Tabbed interface component.",
+   "component": "tabs",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "textarea",
+   "type": "ui",
+   "title": "Textarea",
+   "description": "Multi-line text input component.",
+   "component": "textarea",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "toast",
+   "type": "ui",
+   "title": "Toast",
+   "description": "A succinct message that is displayed temporarily.",
+   "component": "toast",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "toggle",
+   "type": "ui",
+   "title": "Toggle",
+   "description": "Two-state button, optionally grouped into a segmented control.",
+   "component": "toggle-button",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "toggle-group",
+   "type": "ui",
+   "title": "Toggle Group",
+   "description": "A set of toggles grouped into a segmented control with single or multiple selection.",
+   "component": "toggle-group",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "tooltip",
+   "type": "ui",
+   "title": "Tooltip",
+   "description": "Tooltip component for additional context.",
+   "component": "tooltip",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  }
+ ]
+}

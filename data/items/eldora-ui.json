@@ -1,0 +1,704 @@
+{
+ "resource_id": "4fa725e7-c899-447b-bc38-25ecf85ceef4",
+ "registry_url": "https://www.eldoraui.site/r/registry.json",
+ "install_verified": true,
+ "checked": "2026-10-23",
+ "items": [
+  {
+   "name": "animated-badge",
+   "type": "ui",
+   "title": "animated-badge",
+   "description": "An animated badge component.",
+   "component": "badge",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "lucide-react"
+   ],
+   "url": "https://www.eldoraui.site/r/animated-badge.json"
+  },
+  {
+   "name": "animated-frameworks",
+   "type": "ui",
+   "title": "animated-frameworks",
+   "description": "An animated frameworks component.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "react"
+   ],
+   "url": "https://www.eldoraui.site/r/animated-frameworks.json"
+  },
+  {
+   "name": "animated-grid-pattern",
+   "type": "ui",
+   "title": "animated-grid-pattern",
+   "description": "An animated grid pattern component.",
+   "component": "data-grid",
+   "surface": null,
+   "dependencies": [
+    "react",
+    "three",
+    "react-three-fiber"
+   ],
+   "url": "https://www.eldoraui.site/r/animated-grid-pattern.json"
+  },
+  {
+   "name": "animated-list",
+   "type": "ui",
+   "title": "animated-list",
+   "description": "An animated list component.",
+   "component": "list",
+   "surface": null,
+   "dependencies": [
+    "react"
+   ],
+   "url": "https://www.eldoraui.site/r/animated-list.json"
+  },
+  {
+   "name": "animated-shiny-button",
+   "type": "ui",
+   "title": "animated-shiny-button",
+   "description": "An animated shiny button component.",
+   "component": "button",
+   "surface": null,
+   "dependencies": [
+    "react"
+   ],
+   "url": "https://www.eldoraui.site/r/animated-shiny-button.json"
+  },
+  {
+   "name": "blur-in-text",
+   "type": "ui",
+   "title": "blur-in-text",
+   "description": "A blur in text component.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "react",
+    "clsx"
+   ],
+   "url": "https://www.eldoraui.site/r/blur-in-text.json"
+  },
+  {
+   "name": "browser",
+   "type": "ui",
+   "title": "browser",
+   "description": "A browser SVG component.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "react",
+    "lucide-react"
+   ],
+   "url": "https://www.eldoraui.site/r/browser.json"
+  },
+  {
+   "name": "card-flip-hover",
+   "type": "ui",
+   "title": "card-flip-hover",
+   "description": "A card flip hover component.",
+   "component": "card",
+   "surface": null,
+   "dependencies": [
+    "react"
+   ],
+   "url": "https://www.eldoraui.site/r/card-flip-hover.json"
+  },
+  {
+   "name": "clerk-otp",
+   "type": "ui",
+   "title": "clerk-otp",
+   "description": "A clerk OTP component.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "react",
+    "motion"
+   ],
+   "url": "https://www.eldoraui.site/r/clerk-otp.json"
+  },
+  {
+   "name": "cobe-globe",
+   "type": "ui",
+   "title": "cobe-globe",
+   "description": "A cobe globe component.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "react-spring",
+    "cobe",
+    "react"
+   ],
+   "url": "https://www.eldoraui.site/r/cobe-globe.json"
+  },
+  {
+   "name": "cta-01",
+   "type": "block",
+   "title": null,
+   "description": "CTA with heading, grid background, and animated side lines.",
+   "component": "button",
+   "surface": null,
+   "dependencies": [
+    "motion/react",
+    "next-themes"
+   ],
+   "url": "https://www.eldoraui.site/r/cta-01.json"
+  },
+  {
+   "name": "cta-02",
+   "type": "block",
+   "title": null,
+   "description": "CTA with heading, button, and orbiting app icons.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "motion/react",
+    "next-themes"
+   ],
+   "url": "https://www.eldoraui.site/r/cta-02.json"
+  },
+  {
+   "name": "cta-03",
+   "type": "block",
+   "title": null,
+   "description": "CTA with heading, button, and ripple background.",
+   "component": "button",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://www.eldoraui.site/r/cta-03.json"
+  },
+  {
+   "name": "dock-text",
+   "type": "ui",
+   "title": "dock-text",
+   "description": "A dock text component with interactive hover effects.",
+   "component": "dock",
+   "surface": null,
+   "dependencies": [
+    "react",
+    "motion"
+   ],
+   "url": "https://www.eldoraui.site/r/dock-text.json"
+  },
+  {
+   "name": "fade-text",
+   "type": "ui",
+   "title": "fade-text",
+   "description": "A combined fade text component with support for in, up, and down directions.",
+   "component": "transition",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "react",
+    "clsx"
+   ],
+   "url": "https://www.eldoraui.site/r/fade-text.json"
+  },
+  {
+   "name": "features-01",
+   "type": "block",
+   "title": null,
+   "description": "Features section with accordion and image carousel.",
+   "component": null,
+   "surface": "features",
+   "dependencies": [
+    "motion/react",
+    "@radix-ui/react-accordion",
+    "lucide-react"
+   ],
+   "url": "https://www.eldoraui.site/r/features-01.json"
+  },
+  {
+   "name": "font-weight-text",
+   "type": "ui",
+   "title": "font-weight-text",
+   "description": "A font weight text component.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "react"
+   ],
+   "url": "https://www.eldoraui.site/r/font-weight-text.json"
+  },
+  {
+   "name": "footer-01",
+   "type": "block",
+   "title": null,
+   "description": "A footer.",
+   "component": "footer",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://www.eldoraui.site/r/footer-01.json"
+  },
+  {
+   "name": "github-inline-comments",
+   "type": "ui",
+   "title": "github-inline-comments",
+   "description": "A github inline comments component.",
+   "component": "comment",
+   "surface": "comments",
+   "dependencies": [
+    "react",
+    "lucide-react"
+   ],
+   "url": "https://www.eldoraui.site/r/github-inline-comments.json"
+  },
+  {
+   "name": "gradual-spacing-text",
+   "type": "ui",
+   "title": "gradual-spacing-text",
+   "description": "A gradual spacing text component.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "react",
+    "clsx"
+   ],
+   "url": "https://www.eldoraui.site/r/gradual-spacing-text.json"
+  },
+  {
+   "name": "grid",
+   "type": "ui",
+   "title": "grid",
+   "description": "A grid component.",
+   "component": "data-grid",
+   "surface": null,
+   "dependencies": [
+    "react"
+   ],
+   "url": "https://www.eldoraui.site/r/grid.json"
+  },
+  {
+   "name": "hacker-background",
+   "type": "ui",
+   "title": "hacker-background",
+   "description": "A hacker background component.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "react"
+   ],
+   "url": "https://www.eldoraui.site/r/hacker-background.json"
+  },
+  {
+   "name": "header-01",
+   "type": "block",
+   "title": null,
+   "description": "A simple header.",
+   "component": "header",
+   "surface": null,
+   "dependencies": [
+    "motion/react",
+    "lucide-react",
+    "next-themes"
+   ],
+   "url": "https://www.eldoraui.site/r/header-01.json"
+  },
+  {
+   "name": "header-02",
+   "type": "block",
+   "title": null,
+   "description": "A simple header.",
+   "component": "header",
+   "surface": null,
+   "dependencies": [
+    "motion/react",
+    "lucide-react",
+    "next-themes"
+   ],
+   "url": "https://www.eldoraui.site/r/header-02.json"
+  },
+  {
+   "name": "holographic-card",
+   "type": "ui",
+   "title": "holographic-card",
+   "description": "An interactive card with a holographic gradient and mouse‑reactive tilt effect.",
+   "component": "card",
+   "surface": null,
+   "dependencies": [
+    "react",
+    "motion"
+   ],
+   "url": "https://www.eldoraui.site/r/holographic-card.json"
+  },
+  {
+   "name": "integrations",
+   "type": "ui",
+   "title": "integrations",
+   "description": "An integrations component.",
+   "component": null,
+   "surface": "integrations",
+   "dependencies": [
+    "react",
+    "motion",
+    "lucide-react"
+   ],
+   "url": "https://www.eldoraui.site/r/integrations.json"
+  },
+  {
+   "name": "ipad",
+   "type": "ui",
+   "title": "ipad",
+   "description": "An iPad SVG component.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "react"
+   ],
+   "url": "https://www.eldoraui.site/r/ipad.json"
+  },
+  {
+   "name": "iphone-17-pro",
+   "type": "ui",
+   "title": "iphone-17-pro",
+   "description": "An iPhone 17 Pro SVG component.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "react"
+   ],
+   "url": "https://www.eldoraui.site/r/iphone-17-pro.json"
+  },
+  {
+   "name": "letter-pull-up-text",
+   "type": "ui",
+   "title": "letter-pull-up-text",
+   "description": "A letter pull up text component.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "react",
+    "clsx"
+   ],
+   "url": "https://www.eldoraui.site/r/letter-pull-up-text.json"
+  },
+  {
+   "name": "live-button",
+   "type": "ui",
+   "title": "live-button",
+   "description": "A live button component.",
+   "component": "button",
+   "surface": null,
+   "dependencies": [
+    "react"
+   ],
+   "url": "https://www.eldoraui.site/r/live-button.json"
+  },
+  {
+   "name": "logo-cloud-01",
+   "type": "block",
+   "title": null,
+   "description": "A simple logo cloud.",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://www.eldoraui.site/r/logo-cloud-01.json"
+  },
+  {
+   "name": "logo-cloud-02",
+   "type": "block",
+   "title": null,
+   "description": "A logo cloud with flex wrap layout.",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.eldoraui.site/r/logo-cloud-02.json"
+  },
+  {
+   "name": "logo-cloud-03",
+   "type": "block",
+   "title": null,
+   "description": "A logo cloud with marquee effect.",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.eldoraui.site/r/logo-cloud-03.json"
+  },
+  {
+   "name": "logo-cloud-04",
+   "type": "block",
+   "title": null,
+   "description": "A logo cloud with motion.",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [
+    "motion/react"
+   ],
+   "url": "https://www.eldoraui.site/r/logo-cloud-04.json"
+  },
+  {
+   "name": "logo-timeline",
+   "type": "ui",
+   "title": "logo-timeline",
+   "description": "An animated logo timeline component with horizontal scrolling logos.",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [
+    "react",
+    "motion"
+   ],
+   "url": "https://www.eldoraui.site/r/logo-timeline.json"
+  },
+  {
+   "name": "macbook-pro",
+   "type": "ui",
+   "title": "macbook-pro",
+   "description": "A MacBook Pro SVG component.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "react"
+   ],
+   "url": "https://www.eldoraui.site/r/macbook-pro.json"
+  },
+  {
+   "name": "map",
+   "type": "ui",
+   "title": "map",
+   "description": "An animated map component with location markers.",
+   "component": "map",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.eldoraui.site/r/map.json"
+  },
+  {
+   "name": "marquee",
+   "type": "ui",
+   "title": "marquee",
+   "description": "A performant, customizable marquee (scrolling text/content) component.",
+   "component": "marquee",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.eldoraui.site/r/marquee.json"
+  },
+  {
+   "name": "multi-direction-slide-text",
+   "type": "ui",
+   "title": "multi-direction-slide-text",
+   "description": "A multi direction slide text component.",
+   "component": "direction-provider",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "react",
+    "clsx"
+   ],
+   "url": "https://www.eldoraui.site/r/multi-direction-slide-text.json"
+  },
+  {
+   "name": "novatrix-background",
+   "type": "ui",
+   "title": "novatrix-background",
+   "description": "A novatrix background component.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "react",
+    "ogl"
+   ],
+   "url": "https://www.eldoraui.site/r/novatrix-background.json"
+  },
+  {
+   "name": "orbit-rotation",
+   "type": "ui",
+   "title": "orbit-rotation",
+   "description": "An orbit rotation component with customizable icons.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "react",
+    "react-icons"
+   ],
+   "url": "https://www.eldoraui.site/r/orbit-rotation.json"
+  },
+  {
+   "name": "photon-beam",
+   "type": "ui",
+   "title": "photon-beam",
+   "description": "A photon beam background component with animated light trails.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "react",
+    "three"
+   ],
+   "url": "https://www.eldoraui.site/r/photon-beam.json"
+  },
+  {
+   "name": "pricing-01",
+   "type": "block",
+   "title": null,
+   "description": "A pricing section.",
+   "component": null,
+   "surface": "pricing-website",
+   "dependencies": [
+    "motion/react"
+   ],
+   "url": "https://www.eldoraui.site/r/pricing-01.json"
+  },
+  {
+   "name": "pricing-02",
+   "type": "block",
+   "title": null,
+   "description": "A pricing table with a dropdown menu.",
+   "component": null,
+   "surface": "pricing-website",
+   "dependencies": [
+    "motion/react"
+   ],
+   "url": "https://www.eldoraui.site/r/pricing-02.json"
+  },
+  {
+   "name": "safari-browser",
+   "type": "ui",
+   "title": "safari-browser",
+   "description": "A safari browser component.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "react"
+   ],
+   "url": "https://www.eldoraui.site/r/safari-browser.json"
+  },
+  {
+   "name": "scale-letter-text",
+   "type": "ui",
+   "title": "scale-letter-text",
+   "description": "A scale letter text component.",
+   "component": "chart-axis",
+   "surface": null,
+   "dependencies": [
+    "react"
+   ],
+   "url": "https://www.eldoraui.site/r/scale-letter-text.json"
+  },
+  {
+   "name": "seperate-away-text",
+   "type": "ui",
+   "title": "seperate-away-text",
+   "description": "A seperate away text component.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "react",
+    "clsx"
+   ],
+   "url": "https://www.eldoraui.site/r/seperate-away-text.json"
+  },
+  {
+   "name": "svg-ripple-effect",
+   "type": "ui",
+   "title": "svg-ripple-effect",
+   "description": "An SVG ripple effect component.",
+   "component": "ripple",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.eldoraui.site/r/svg-ripple-effect.json"
+  },
+  {
+   "name": "terminal",
+   "type": "ui",
+   "title": "terminal",
+   "description": "A terminal component.",
+   "component": "terminal",
+   "surface": null,
+   "dependencies": [
+    "react",
+    "lucide-react",
+    "react-icons/go"
+   ],
+   "url": "https://www.eldoraui.site/r/terminal.json"
+  },
+  {
+   "name": "testimonal-01",
+   "type": "block",
+   "title": null,
+   "description": "A testimonial slider.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "react-icons/md"
+   ],
+   "url": "https://www.eldoraui.site/r/testimonal-01.json"
+  },
+  {
+   "name": "testimonal-02",
+   "type": "block",
+   "title": null,
+   "description": "A testimonial marquee.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion/react"
+   ],
+   "url": "https://www.eldoraui.site/r/testimonal-02.json"
+  },
+  {
+   "name": "testimonal-03",
+   "type": "block",
+   "title": null,
+   "description": "A testimonial card grid.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.eldoraui.site/r/testimonal-03.json"
+  },
+  {
+   "name": "testimonal-slider",
+   "type": "ui",
+   "title": "testimonal-slider",
+   "description": "A testimonial slider component.",
+   "component": "slider",
+   "surface": null,
+   "dependencies": [
+    "react",
+    "@headlessui/react"
+   ],
+   "url": "https://www.eldoraui.site/r/testimonal-slider.json"
+  },
+  {
+   "name": "wavy-text",
+   "type": "ui",
+   "title": "wavy-text",
+   "description": "A wavy text component.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "react",
+    "clsx"
+   ],
+   "url": "https://www.eldoraui.site/r/wavy-text.json"
+  },
+  {
+   "name": "word-pull-up-text",
+   "type": "ui",
+   "title": "word-pull-up-text",
+   "description": "A word pull up text component.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "react",
+    "clsx"
+   ],
+   "url": "https://www.eldoraui.site/r/word-pull-up-text.json"
+  }
+ ]
+}

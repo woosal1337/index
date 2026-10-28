@@ -211,7 +211,9 @@
         "vue",
         "svelte",
         "astro",
-        "vanilla"
+        "vanilla",
+        "solid",
+        "react-native"
       ],
       "styling": [
         "not-applicable"
@@ -225,7 +227,8 @@
       ],
       "pricing": [
         "free",
-        "freemium"
+        "freemium",
+        "one-time"
       ],
       "distribution": [
         "web-app",
@@ -263,7 +266,13 @@
     "package": null,
     "docs_url": "https://allsvgicons.com/llms.txt",
     "repo_url": null,
-    "registry_url": "https://i.allsvgicons.com/mcp",
+    "registry_url": null,
+    "machine_urls": [
+      {
+        "kind": "mcp",
+        "url": "https://i.allsvgicons.com/mcp"
+      }
+    ],
     "github": null,
     "pricing_detail": "The site and its tools are free with no sign-up. The MCP server allows 20 free calls a day after a Google or GitHub sign-in. MCP Pro costs $29 one time for the first 50 buyers, then $49 for the next 50, and later $9 a month or $79 a year.",
     "counts": {
@@ -472,7 +481,13 @@
     "package": null,
     "docs_url": "https://www.svgator.com/help",
     "repo_url": null,
-    "registry_url": "https://www.svgator.com/mcp-for-ai-animations",
+    "registry_url": null,
+    "machine_urls": [
+      {
+        "kind": "mcp",
+        "url": "https://www.svgator.com/mcp-for-ai-animations"
+      }
+    ],
     "github": null,
     "pricing_detail": "Free: the full editor and unlimited static SVG exports. Starter: $20 a month billed yearly for animated SVG, Lottie, React Native, and Flutter export and the Player API. Pro: $24 a month billed yearly for unlimited animations and video and GIF export. Team: $27 per seat a month billed yearly, from 3 seats.",
     "counts": {

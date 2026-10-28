@@ -1,0 +1,352 @@
+{
+ "resource_id": "user:396c4e27f4645a88",
+ "registry_url": "https://www.audiocn.dev/r/registry.json",
+ "install_verified": true,
+ "checked": "2026-10-23",
+ "items": [
+  {
+   "name": "audio-device-select",
+   "type": "ui",
+   "title": "Audio Device Select",
+   "description": "A microphone, speaker or source picker with loading, permission, None and disconnected-device states, and a slot for a live preview.",
+   "component": "audio-player",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.audiocn.dev/r/audio-device-select.json"
+  },
+  {
+   "name": "audio-player",
+   "type": "ui",
+   "title": "Audio Player",
+   "description": "A composable audio player: transport, seek bar with buffering, time, volume, playback rate, loop and keyboard shortcuts.",
+   "component": "audio-player",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react"
+   ],
+   "url": "https://www.audiocn.dev/r/audio-player.json"
+  },
+  {
+   "name": "bar-visualizer",
+   "type": "ui",
+   "title": "Bar Visualizer",
+   "description": "A row of bars driven by frequency bands, with idle, loading and mirrored modes. Bars paint without re-rendering React.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.audiocn.dev/r/bar-visualizer.json"
+  },
+  {
+   "name": "channel-strip",
+   "type": "ui",
+   "title": "Channel Strip",
+   "description": "One channel of a mixer: header, status, meter, fader, value, controls and a notice, as a row or a console strip. The master strip is a variant.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react",
+    "class-variance-authority"
+   ],
+   "url": "https://www.audiocn.dev/r/channel-strip.json"
+  },
+  {
+   "name": "channel-toggle",
+   "type": "ui",
+   "title": "Channel Toggle",
+   "description": "Mute, solo and monitor toggle buttons with their own pressed colours.",
+   "component": "toggle-button",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react",
+    "class-variance-authority"
+   ],
+   "url": "https://www.audiocn.dev/r/channel-toggle.json"
+  },
+  {
+   "name": "clip-indicator",
+   "type": "ui",
+   "title": "Clip Indicator",
+   "description": "A clip light that holds after the signal clips, with an optional count and click to reset.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react"
+   ],
+   "url": "https://www.audiocn.dev/r/clip-indicator.json"
+  },
+  {
+   "name": "db-readout",
+   "type": "ui",
+   "title": "dB Readout",
+   "description": "A numeric level label that updates at a readable rate, with a reserved width so the layout never shifts.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.audiocn.dev/r/db-readout.json"
+  },
+  {
+   "name": "db-scale",
+   "type": "ui",
+   "title": "dB Scale",
+   "description": "Tick marks and labels for a decibel range, shared by meters and faders.",
+   "component": "chart-axis",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.audiocn.dev/r/db-scale.json"
+  },
+  {
+   "name": "electric-bar-visualizer",
+   "type": "ui",
+   "title": "Electric Bar Visualizer",
+   "description": "Frequency-band bars drawn as crackling filaments, with arcs between loud neighbours and sparks on sudden rises. Takes its colour from the theme.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.audiocn.dev/r/electric-bar-visualizer.json"
+  },
+  {
+   "name": "electric-waveform",
+   "type": "ui",
+   "title": "Electric Waveform",
+   "description": "One electric line across the width: a crackling, white-hot trace with a tall glow, forks off the peaks and sparks. Follows the frequency bands as a smooth wave, or the signal itself like an oscilloscope.",
+   "component": "waveform",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.audiocn.dev/r/electric-waveform.json"
+  },
+  {
+   "name": "fader",
+   "type": "ui",
+   "title": "Fader",
+   "description": "A volume fader in decibels: linear or console taper, detents, a scale, reset, an editable value, silence at the bottom, horizontal or vertical.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react",
+    "class-variance-authority"
+   ],
+   "url": "https://www.audiocn.dev/r/fader.json"
+  },
+  {
+   "name": "knob",
+   "type": "ui",
+   "title": "Knob",
+   "description": "A rotary control drawn in SVG, with vertical, horizontal or circular dragging, fine adjustment, reset, a bipolar origin, an optional click sound and a volume dial skin with a numbered scale and an aluminium cap, and a mini aluminium cap for small knobs.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "class-variance-authority"
+   ],
+   "url": "https://www.audiocn.dev/r/knob.json"
+  },
+  {
+   "name": "lcd-display",
+   "type": "ui",
+   "title": "LCD Display",
+   "description": "A dot-matrix screen in a bezel, backlit in the light theme and glowing in the dark one: rows of dim labels and bright values in the theme colour or amber, green, cyan or red, dotted separators, a blinking status pixel and dropdown values built on Base UI's Select.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react",
+    "class-variance-authority"
+   ],
+   "url": "https://www.audiocn.dev/r/lcd-display.json"
+  },
+  {
+   "name": "level-meter",
+   "type": "ui",
+   "title": "Level Meter",
+   "description": "A peak and RMS level meter: mono or stereo, horizontal or vertical, solid, segmented or gradient, with zones, peak hold, a scale, a readout and a clip light.",
+   "component": "meter",
+   "surface": null,
+   "dependencies": [
+    "class-variance-authority"
+   ],
+   "url": "https://www.audiocn.dev/r/level-meter.json"
+  },
+  {
+   "name": "live-waveform",
+   "type": "ui",
+   "title": "Live Waveform",
+   "description": "A canvas waveform of a live signal: scrolling level history or the current frame, as bars, a mirrored shape or a line.",
+   "component": "waveform",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.audiocn.dev/r/live-waveform.json"
+  },
+  {
+   "name": "mic-setup",
+   "type": "block",
+   "title": "Microphone Setup",
+   "description": "Choose and check a microphone: device select with a live preview, a level meter, gain, mute and a level check that says whether you sound right.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@phosphor-icons/react"
+   ],
+   "url": "https://www.audiocn.dev/r/mic-setup.json"
+  },
+  {
+   "name": "mixer",
+   "type": "ui",
+   "title": "Mixer",
+   "description": "The container for channel strips: shared meter settings, keyboard navigation between strips, a master area and an empty state.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.audiocn.dev/r/mixer.json"
+  },
+  {
+   "name": "music-player",
+   "type": "block",
+   "title": "Music Player",
+   "description": "A playlist player with a waveform seek bar, shuffle, repeat, volume and optional ducking under the microphone.",
+   "component": "audio-player",
+   "surface": null,
+   "dependencies": [
+    "@phosphor-icons/react"
+   ],
+   "url": "https://www.audiocn.dev/r/music-player.json"
+  },
+  {
+   "name": "pan-control",
+   "type": "ui",
+   "title": "Pan Control",
+   "description": "Left and right balance with a fill from the centre, a centre detent and reset.",
+   "component": "quick-action",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react",
+    "class-variance-authority"
+   ],
+   "url": "https://www.audiocn.dev/r/pan-control.json"
+  },
+  {
+   "name": "parameter-slider",
+   "type": "ui",
+   "title": "Parameter Slider",
+   "description": "A labelled slider with a numeric input, unit, marks, reset and a linear or log scale, for gain trims, delays, thresholds and frequencies.",
+   "component": "slider",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react"
+   ],
+   "url": "https://www.audiocn.dev/r/parameter-slider.json"
+  },
+  {
+   "name": "quick-audio-popover",
+   "type": "block",
+   "title": "Quick Audio Popover",
+   "description": "Compact microphone and system audio controls behind one toolbar button that shows a live level.",
+   "component": "audio-player",
+   "surface": null,
+   "dependencies": [
+    "@phosphor-icons/react"
+   ],
+   "url": "https://www.audiocn.dev/r/quick-audio-popover.json"
+  },
+  {
+   "name": "smooth-waveform",
+   "type": "ui",
+   "title": "Smooth Waveform",
+   "description": "One clean line across the width that follows the sound, as a smooth wave shaped by the frequency bands or a triggered oscilloscope trace.",
+   "component": "waveform",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.audiocn.dev/r/smooth-waveform.json"
+  },
+  {
+   "name": "sound-pad",
+   "type": "ui",
+   "title": "Sound Pad",
+   "description": "A trigger pad with one-shot, toggle, hold and loop modes, a hotkey, playback progress and an accent colour, plus a grid with hotkeys and arrow navigation.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "class-variance-authority"
+   ],
+   "url": "https://www.audiocn.dev/r/sound-pad.json"
+  },
+  {
+   "name": "soundboard",
+   "type": "block",
+   "title": "Soundboard",
+   "description": "A grid of sound pads with global hotkeys, per-pad mode and volume in a context menu, master volume, stop all, and drag-and-drop to add sounds.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@phosphor-icons/react"
+   ],
+   "url": "https://www.audiocn.dev/r/soundboard.json"
+  },
+  {
+   "name": "spectrum",
+   "type": "ui",
+   "title": "Spectrum",
+   "description": "A frequency spectrum analyser drawn on canvas as bars, a line or an area, with peak hold, a grid and frequency and level axes.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.audiocn.dev/r/spectrum.json"
+  },
+  {
+   "name": "system-audio-mixer",
+   "type": "block",
+   "title": "System Audio Mixer",
+   "description": "The complete mixer: microphone, system audio, music and sound pads with meters, faders, mute, solo, monitor and ducking, a limited master and a mixed output stream, all running on Web Audio.",
+   "component": "audio-player",
+   "surface": null,
+   "dependencies": [
+    "@phosphor-icons/react"
+   ],
+   "url": "https://www.audiocn.dev/r/system-audio-mixer.json"
+  },
+  {
+   "name": "system-audio-settings",
+   "type": "block",
+   "title": "System Audio Settings",
+   "description": "Turn system audio capture on, set its level, watch its meter and explain what the browser will capture.",
+   "component": "audio-player",
+   "surface": "settings-web-app",
+   "dependencies": [
+    "@phosphor-icons/react"
+   ],
+   "url": "https://www.audiocn.dev/r/system-audio-settings.json"
+  },
+  {
+   "name": "track-list",
+   "type": "ui",
+   "title": "Track List",
+   "description": "A list of tracks with active and playing states, arrow-key navigation and slots for artwork, duration and actions.",
+   "component": "list",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react",
+    "class-variance-authority"
+   ],
+   "url": "https://www.audiocn.dev/r/track-list.json"
+  },
+  {
+   "name": "volume-control",
+   "type": "ui",
+   "title": "Volume Control",
+   "description": "A 0..1 volume slider with a mute button and a perceptual curve, for players.",
+   "component": "quick-action",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react"
+   ],
+   "url": "https://www.audiocn.dev/r/volume-control.json"
+  },
+  {
+   "name": "waveform",
+   "type": "ui",
+   "title": "Waveform",
+   "description": "A static waveform of a clip with a smooth playhead, seeking by pointer and keyboard, hover time, draggable regions and markers.",
+   "component": "waveform",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.audiocn.dev/r/waveform.json"
+  }
+ ]
+}

@@ -88,6 +88,7 @@
   "id": "949e9fec-bf29-4e69-a141-9ffd536b049c",
   "slug": "aicss-aicss",
   "url": "https://www.aicss.dev/components/orbs",
+  "same_as": "09e65fef-ade3-4cae-a92b-43518fccd19a",
   "name": "AIcss",
   "tagline": "14 copy-paste AI-conversation UI components in React, Vue and Svelte, plain CSS",
   "description": "AIcss is a small library of the UI states an AI agent shows mid-conversation: thinking and reasoning blocks, orb activity indicators, web-search and file-diff tool states, streaming text, inline citations, code blocks, to-do lists and a composer input. Every component ships React, Vue and Svelte source with plain CSS custom properties - no Tailwind and no UI dependencies. Nine of the fourteen are free; the rest need a one-time lifetime licence. The linked page is the Orbs component - compact animated DOM/CSS activity dots for agent status.",
@@ -105,7 +106,8 @@
    ],
    "styling": [
     "vanilla-css",
-    "css-variables"
+    "css-variables",
+    "css-modules"
    ],
    "license": [
     "commercial",
@@ -171,7 +173,13 @@
   "package": null,
   "docs_url": "https://www.aicss.dev/llms.txt",
   "repo_url": null,
-  "registry_url": "https://www.aicss.dev/r",
+  "registry_url": null,
+  "machine_urls": [
+   {
+    "kind": "api",
+    "url": "https://www.aicss.dev/r"
+   }
+  ],
   "github": {
    "stars": null,
    "license": null,
@@ -824,7 +832,8 @@
    "pricing": [
     "one-time",
     "paid",
-    "account-required"
+    "account-required",
+    "subscription"
    ],
    "distribution": [
     "download",

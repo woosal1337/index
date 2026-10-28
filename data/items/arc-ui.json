@@ -1,0 +1,1811 @@
+{
+ "resource_id": "user:7f7bb574e174813b",
+ "registry_url": "https://uiarc.dev/r/registry.json",
+ "install_verified": true,
+ "checked": "2026-10-23",
+ "items": [
+  {
+   "name": "accordion",
+   "type": "ui",
+   "title": "Accordion",
+   "description": "Progressively reveal supporting information in place.",
+   "component": "accordion",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-accordion",
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/accordion.json"
+  },
+  {
+   "name": "action-button",
+   "type": "ui",
+   "title": "Action button",
+   "description": "A compact button for frequent toolbar actions.",
+   "component": "floating-action-button",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/action-button.json"
+  },
+  {
+   "name": "action-swap",
+   "type": "ui",
+   "title": "Action swap",
+   "description": "Swap an action label while preserving its place and intent.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/action-swap.json"
+  },
+  {
+   "name": "activity-heatmap",
+   "type": "ui",
+   "title": "Activity heatmap",
+   "description": "See a year of activity at a glance, one square per day.",
+   "component": "heatmap",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/activity-heatmap.json"
+  },
+  {
+   "name": "alert",
+   "type": "ui",
+   "title": "Alert",
+   "description": "A persistent message that helps people recover or continue.",
+   "component": "alert",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/alert.json"
+  },
+  {
+   "name": "animated-counter",
+   "type": "ui",
+   "title": "Animated counter",
+   "description": "Give changing totals a clear sense of movement.",
+   "component": "count-up",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/animated-counter.json"
+  },
+  {
+   "name": "announcement-bar",
+   "type": "ui",
+   "title": "Announcement bar",
+   "description": "A top banner that rotates messages, counts down, and collapses smoothly when dismissed.",
+   "component": "announcement-bar",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/announcement-bar.json"
+  },
+  {
+   "name": "arc-foundation",
+   "type": "item",
+   "title": "Arc foundation",
+   "description": "Arc design tokens (color, surface, radius, shadow, accent, focus, light and dark themes), plus the shared motion presets. Install once per app.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://uiarc.dev/r/arc-foundation.json"
+  },
+  {
+   "name": "arc-motion-tokens",
+   "type": "item",
+   "title": "Arc motion tokens",
+   "description": "The shared motion presets (durations, easings, springs, staggers) Arc components import. Installed automatically with any item that uses them.",
+   "component": "animation",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://uiarc.dev/r/arc-motion-tokens.json"
+  },
+  {
+   "name": "avatar",
+   "type": "ui",
+   "title": "Avatar",
+   "description": "A compact identity marker for people and accounts.",
+   "component": "avatar",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/avatar.json"
+  },
+  {
+   "name": "avatar-group",
+   "type": "ui",
+   "title": "Avatar group",
+   "description": "Show a team or set of contributors in a small space.",
+   "component": "avatar-group",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/avatar-group.json"
+  },
+  {
+   "name": "badge",
+   "type": "ui",
+   "title": "Badge",
+   "description": "A small label for status, category, or metadata.",
+   "component": "badge",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/badge.json"
+  },
+  {
+   "name": "bar-chart",
+   "type": "ui",
+   "title": "Bar chart",
+   "description": "Compare one measure across days and scrub any bar for its value.",
+   "component": "bar-chart",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/bar-chart.json"
+  },
+  {
+   "name": "billing-toggle",
+   "type": "ui",
+   "title": "Billing toggle",
+   "description": "A monthly and yearly switch with a savings badge and prices that roll to the new amount.",
+   "component": "toggle-button",
+   "surface": "billing-web-app",
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/billing-toggle.json"
+  },
+  {
+   "name": "blog-grid",
+   "type": "block",
+   "title": "Blog grid",
+   "description": "A blog index with a featured post, category filter, post cards, pagination and an in-place reader.",
+   "component": "data-grid",
+   "surface": "blog",
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/blog-grid.json"
+  },
+  {
+   "name": "bottom-sheet",
+   "type": "ui",
+   "title": "Bottom sheet",
+   "description": "A sheet that rests at a peek or full height and follows your finger.",
+   "component": "sheet",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-dialog",
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/bottom-sheet.json"
+  },
+  {
+   "name": "breadcrumb",
+   "type": "ui",
+   "title": "Breadcrumb",
+   "description": "Show where a page sits in a hierarchy.",
+   "component": "breadcrumbs",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/breadcrumb.json"
+  },
+  {
+   "name": "brush-chart",
+   "type": "ui",
+   "title": "Brush chart",
+   "description": "A dense time series with an overview strip: drag a window to zoom, resize it by its handles, and read events in place.",
+   "component": "chart",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/brush-chart.json"
+  },
+  {
+   "name": "button",
+   "type": "ui",
+   "title": "Button",
+   "description": "A clear, responsive action with quiet secondary states.",
+   "component": "button",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/button.json"
+  },
+  {
+   "name": "button-group",
+   "type": "ui",
+   "title": "Button group",
+   "description": "Related actions joined into one surface with hairline dividers: a hover highlight glides between segments, the pressed one answers in place, and an attached menu can close the row.",
+   "component": "button-group",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-dropdown-menu",
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/button-group.json"
+  },
+  {
+   "name": "calendar",
+   "type": "ui",
+   "title": "Calendar",
+   "description": "Browse dates in a clear, compact month view.",
+   "component": "calendar",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/calendar.json"
+  },
+  {
+   "name": "card",
+   "type": "ui",
+   "title": "Card",
+   "description": "A contained group of related content and actions.",
+   "component": "card",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-dialog",
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/card.json"
+  },
+  {
+   "name": "card-stack",
+   "type": "ui",
+   "title": "Card stack",
+   "description": "Review a deck one card at a time, with a throw and an undo.",
+   "component": "card",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/card-stack.json"
+  },
+  {
+   "name": "carousel",
+   "type": "ui",
+   "title": "Carousel",
+   "description": "Browse a row of slides by dragging, flicking, or arrowing through them.",
+   "component": "carousel",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/carousel.json"
+  },
+  {
+   "name": "changelog-feed",
+   "type": "block",
+   "title": "Changelog feed",
+   "description": "Release notes you can filter, open in place, and scroll through month by month.",
+   "component": "timeline",
+   "surface": "changelog",
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/changelog-feed.json"
+  },
+  {
+   "name": "chat-thread",
+   "type": "ui",
+   "title": "Chat thread",
+   "description": "A chat thread with grouped messages, reactions, read receipts, typing, and a composer with attachments.",
+   "component": "conversation",
+   "surface": "chat-mobile",
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/chat-thread.json"
+  },
+  {
+   "name": "checkbox",
+   "type": "ui",
+   "title": "Checkbox",
+   "description": "A binary choice with a precise, legible state.",
+   "component": "checkbox",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-checkbox",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/checkbox.json"
+  },
+  {
+   "name": "chip-group",
+   "type": "ui",
+   "title": "Chip group",
+   "description": "Filter by a few facets with chips that morph as you pick them.",
+   "component": "chip",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/chip-group.json"
+  },
+  {
+   "name": "code-block",
+   "type": "ui",
+   "title": "Code block",
+   "description": "Present code with legible hierarchy and copy access.",
+   "component": "code-block",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/code-block.json"
+  },
+  {
+   "name": "color-picker",
+   "type": "ui",
+   "title": "Color picker",
+   "description": "A swatch that grows into a picker with format morphing, eyedropper, saved swatches, and contrast readout.",
+   "component": "color-picker",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/color-picker.json"
+  },
+  {
+   "name": "combobox",
+   "type": "ui",
+   "title": "Combobox",
+   "description": "Search and select from a list without leaving the field.",
+   "component": "combobox",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/combobox.json"
+  },
+  {
+   "name": "command-palette",
+   "type": "block",
+   "title": "Command palette",
+   "description": "A complete keyboard driven action surface with search, grouped results, and shortcuts.",
+   "component": "command-palette",
+   "surface": "command-palette",
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/command-palette.json"
+  },
+  {
+   "name": "comment-thread",
+   "type": "ui",
+   "title": "Comment thread",
+   "description": "Threaded comments with replies, reactions, mentions, inline edit, and resolve.",
+   "component": "comment",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/comment-thread.json"
+  },
+  {
+   "name": "comparison-table",
+   "type": "block",
+   "title": "Comparison table",
+   "description": "An us versus them table with a sticky header, a highlighted column, and a stacked phone view.",
+   "component": "comparison-table",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/comparison-table.json"
+  },
+  {
+   "name": "confirm-morph",
+   "type": "ui",
+   "title": "Confirm morph",
+   "description": "A destructive button that morphs into an inline confirmation, a spinner, and a result with undo.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/confirm-morph.json"
+  },
+  {
+   "name": "contact-section",
+   "type": "block",
+   "title": "Contact section",
+   "description": "A validated contact form that morphs into a confirmation, support channels, and office cards with local times.",
+   "component": "section",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/contact-section.json"
+  },
+  {
+   "name": "context-menu",
+   "type": "ui",
+   "title": "Context menu",
+   "description": "Secondary actions kept close to the selected object.",
+   "component": "context-menu",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/context-menu.json"
+  },
+  {
+   "name": "cookie-consent",
+   "type": "ui",
+   "title": "Cookie consent",
+   "description": "A consent bar that morphs into preferences and folds into a reopen button.",
+   "component": "cookie-consent",
+   "surface": "cookie-consent",
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/cookie-consent.json"
+  },
+  {
+   "name": "copy-button",
+   "type": "ui",
+   "title": "Copy button",
+   "description": "Copy a value with immediate confirmation.",
+   "component": "copy-button",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/copy-button.json"
+  },
+  {
+   "name": "countdown",
+   "type": "ui",
+   "title": "Countdown",
+   "description": "A launch countdown with rolling digits that morphs into a live state at zero.",
+   "component": "countdown",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/countdown.json"
+  },
+  {
+   "name": "cta-section",
+   "type": "block",
+   "title": "CTA section",
+   "description": "A call to action as a centered closing section, a split beside a setup card that completes itself, or a dismissible banner.",
+   "component": "button",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/cta-section.json"
+  },
+  {
+   "name": "date-picker",
+   "type": "ui",
+   "title": "Date picker",
+   "description": "Choose a date without losing context.",
+   "component": "date-picker",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/date-picker.json"
+  },
+  {
+   "name": "date-range-picker",
+   "type": "ui",
+   "title": "Date range picker",
+   "description": "A range picker that grows from its trigger into two months with presets and a stretching range highlight.",
+   "component": "date-range-picker",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/date-range-picker.json"
+  },
+  {
+   "name": "dialog",
+   "type": "ui",
+   "title": "Dialog",
+   "description": "A focused surface for decisions that need attention.",
+   "component": "modal",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-dialog",
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/dialog.json"
+  },
+  {
+   "name": "donut-chart",
+   "type": "ui",
+   "title": "Donut chart",
+   "description": "A donut whose arcs morph between datasets, with the active value rolling into the center.",
+   "component": "pie-chart",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/donut-chart.json"
+  },
+  {
+   "name": "drawer",
+   "type": "ui",
+   "title": "Drawer",
+   "description": "A temporary side surface for focused work.",
+   "component": "drawer",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-dialog",
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/drawer.json"
+  },
+  {
+   "name": "dropdown-menu",
+   "type": "ui",
+   "title": "Dropdown menu",
+   "description": "A focused list of actions anchored to a trigger.",
+   "component": "dropdown-menu",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-dropdown-menu",
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/dropdown-menu.json"
+  },
+  {
+   "name": "elastic-slider",
+   "type": "ui",
+   "title": "Elastic slider",
+   "description": "A slider that stretches like rubber past its ends, with a swaying value tag and detents the thumb clicks into.",
+   "component": "slider",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/elastic-slider.json"
+  },
+  {
+   "name": "empty-state",
+   "type": "ui",
+   "title": "Empty state",
+   "description": "A useful next step when there is nothing to show yet.",
+   "component": "empty-state",
+   "surface": "empty-state",
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/empty-state.json"
+  },
+  {
+   "name": "empty-states",
+   "type": "block",
+   "title": "Empty states",
+   "description": "Four empty states in one illustration whose shapes morph between scenes as you switch tabs.",
+   "component": "empty-state",
+   "surface": "empty-state",
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/empty-states.json"
+  },
+  {
+   "name": "expandable-card",
+   "type": "ui",
+   "title": "Expandable card",
+   "description": "Give a dense card more room when requested.",
+   "component": "accordion",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/expandable-card.json"
+  },
+  {
+   "name": "expandable-text",
+   "type": "ui",
+   "title": "Expandable text",
+   "description": "Long text clamped to a few lines with a soft fade that glides open with Read more and closes with Show less, shown only when the text overflows.",
+   "component": "accordion",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/expandable-text.json"
+  },
+  {
+   "name": "expanding-button-group",
+   "type": "ui",
+   "title": "Expanding button group",
+   "description": "Icon buttons in a compact group: the one you point at or focus grows to reveal its label while its neighbours slide aside, and an action confirms in place.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/expanding-button-group.json"
+  },
+  {
+   "name": "expanding-search",
+   "type": "ui",
+   "title": "Expanding search",
+   "description": "An icon that morphs into a search field with results beneath it.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/expanding-search.json"
+  },
+  {
+   "name": "faq-section",
+   "type": "block",
+   "title": "FAQ section",
+   "description": "FAQs as an accordion, a topic rail, or a searchable list that highlights matches.",
+   "component": "section",
+   "surface": "faq",
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/faq-section.json"
+  },
+  {
+   "name": "file-dropzone",
+   "type": "ui",
+   "title": "File dropzone",
+   "description": "A generous target for dropping one or more files.",
+   "component": "file-card",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/file-dropzone.json"
+  },
+  {
+   "name": "file-upload",
+   "type": "block",
+   "title": "File upload",
+   "description": "A complete file selection flow with constraints, progress, and error feedback.",
+   "component": "file-upload",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/file-upload.json"
+  },
+  {
+   "name": "filter-toolbar",
+   "type": "ui",
+   "title": "Filter toolbar",
+   "description": "Keep collection filters close and easy to reset.",
+   "component": "toolbar",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/filter-toolbar.json"
+  },
+  {
+   "name": "floating-button-group",
+   "type": "ui",
+   "title": "Floating button group",
+   "description": "Separate soft buttons in a quiet tray, with one shared highlight that morphs from button to button as you move, and a pressed state that settles in place.",
+   "component": "floating-action-button",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-tooltip",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/floating-button-group.json"
+  },
+  {
+   "name": "gauge",
+   "type": "ui",
+   "title": "Gauge",
+   "description": "Show a value against a known range.",
+   "component": "meter",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/gauge.json"
+  },
+  {
+   "name": "hero-section",
+   "type": "block",
+   "title": "Hero section",
+   "description": "Three full screen SaaS heroes: a live dashboard rising from the bottom edge over a drifting mesh, a workflow graph that routes sample events node by node, and editorial type over a mesh gradient.",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/hero-section.json"
+  },
+  {
+   "name": "hold-to-confirm",
+   "type": "ui",
+   "title": "Hold to confirm",
+   "description": "Confirm a destructive action by holding, not tapping.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/hold-to-confirm.json"
+  },
+  {
+   "name": "hover-card",
+   "type": "ui",
+   "title": "Hover card",
+   "description": "Preview a person or link on hover or focus without leaving the page.",
+   "component": "hover-card",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-popover",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/hover-card.json"
+  },
+  {
+   "name": "icon-morph",
+   "type": "ui",
+   "title": "Icon morph",
+   "description": "Icons that morph between states: menu to close, play to pause, copy to check, and more.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/icon-morph.json"
+  },
+  {
+   "name": "image-compare",
+   "type": "ui",
+   "title": "Image compare",
+   "description": "Drag a divider across two images to see what changed.",
+   "component": "image",
+   "surface": "compare",
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/image-compare.json"
+  },
+  {
+   "name": "in-view-title",
+   "type": "ui",
+   "title": "In-view title",
+   "description": "Bring a section title in as it scrolls into view.",
+   "component": "box",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/in-view-title.json"
+  },
+  {
+   "name": "inline-edit",
+   "type": "ui",
+   "title": "Inline edit",
+   "description": "Rename in place: the text becomes a field without moving.",
+   "component": "inline-edit",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/inline-edit.json"
+  },
+  {
+   "name": "input",
+   "type": "ui",
+   "title": "Input",
+   "description": "A single line field with clear labels and useful states.",
+   "component": "text-input",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/input.json"
+  },
+  {
+   "name": "json-viewer",
+   "type": "ui",
+   "title": "JSON viewer",
+   "description": "A collapsible JSON tree with search, paging for long arrays, and copy value or path.",
+   "component": "json-viewer",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/json-viewer.json"
+  },
+  {
+   "name": "line-chart",
+   "type": "ui",
+   "title": "Line chart",
+   "description": "A multi-series line chart with a gliding crosshair, legend toggles, and paths that morph between ranges.",
+   "component": "line-chart",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/line-chart.json"
+  },
+  {
+   "name": "login-centered",
+   "type": "block",
+   "title": "Centered login",
+   "description": "A passkey-first login card on a quiet ring backdrop that morphs through email and code.",
+   "component": null,
+   "surface": "login-mobile",
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/login-centered.json"
+  },
+  {
+   "name": "logo-marquee",
+   "type": "block",
+   "title": "Logo marquee",
+   "description": "A quiet, continuously moving row of brand marks with a pause control.",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://uiarc.dev/r/logo-marquee.json"
+  },
+  {
+   "name": "mention-input",
+   "type": "ui",
+   "title": "Mention input",
+   "description": "A textarea with @people and #channel mentions that act as single tokens, with suggestions at the caret.",
+   "component": "mentions",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/mention-input.json"
+  },
+  {
+   "name": "metric-card",
+   "type": "ui",
+   "title": "Metric card",
+   "description": "A compact summary for a number that needs context.",
+   "component": "stat",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/metric-card.json"
+  },
+  {
+   "name": "money-input",
+   "type": "ui",
+   "title": "Money input",
+   "description": "A currency field with live grouping, stable width, rolling digits, and minor-unit output.",
+   "component": "currency-input",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/money-input.json"
+  },
+  {
+   "name": "morph-select",
+   "type": "ui",
+   "title": "Morph select",
+   "description": "A select whose trigger grows into the list, with a gliding highlight and type-ahead.",
+   "component": "select",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/morph-select.json"
+  },
+  {
+   "name": "multi-select",
+   "type": "ui",
+   "title": "Multi-select",
+   "description": "Select several values while keeping the field readable.",
+   "component": "multi-select",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/multi-select.json"
+  },
+  {
+   "name": "newsletter-signup",
+   "type": "block",
+   "title": "Newsletter signup",
+   "description": "An email signup framed by a stack of past issues; subscribing drops the next issue, addressed to you, onto the front.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/newsletter-signup.json"
+  },
+  {
+   "name": "notification-center",
+   "type": "block",
+   "title": "Notification center",
+   "description": "A home for updates with read state, grouped information, and animated disclosure.",
+   "component": "notification-center",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-popover",
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/notification-center.json"
+  },
+  {
+   "name": "number-field",
+   "type": "ui",
+   "title": "Number field",
+   "description": "Enter a bounded number with clear increment controls.",
+   "component": "number-input",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/number-field.json"
+  },
+  {
+   "name": "onboarding-checklist",
+   "type": "ui",
+   "title": "Onboarding checklist",
+   "description": "Guide a new workspace through setup, one step at a time.",
+   "component": "checkbox-group",
+   "surface": "onboarding-checklist",
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/onboarding-checklist.json"
+  },
+  {
+   "name": "otp-input",
+   "type": "block",
+   "title": "OTP input",
+   "description": "A six digit verification flow with paste support and keyboard navigation.",
+   "component": "otp-input",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/otp-input.json"
+  },
+  {
+   "name": "page-header",
+   "type": "block",
+   "title": "Page header",
+   "description": "A project page header that folds into a compact bar as you scroll, with tabs whose counts roll.",
+   "component": "header",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-dropdown-menu",
+    "@radix-ui/react-tabs",
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/page-header.json"
+  },
+  {
+   "name": "pagination",
+   "type": "ui",
+   "title": "Pagination",
+   "description": "Move through a long collection with clear bounds.",
+   "component": "pagination",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/pagination.json"
+  },
+  {
+   "name": "password-field",
+   "type": "ui",
+   "title": "Password field",
+   "description": "Capture sensitive text with a visible reveal control.",
+   "component": "password-input",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/password-field.json"
+  },
+  {
+   "name": "password-strength",
+   "type": "ui",
+   "title": "Password strength",
+   "description": "Show how strong a new password is while it is typed.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/password-strength.json"
+  },
+  {
+   "name": "phone-input",
+   "type": "ui",
+   "title": "Phone input",
+   "description": "A phone field with a country picker, formatting as you type, and E.164 output.",
+   "component": "phone-input",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/phone-input.json"
+  },
+  {
+   "name": "plan-comparison",
+   "type": "block",
+   "title": "Plan comparison",
+   "description": "Compare meaningful differences between plans and billing periods.",
+   "component": "pricing-table",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/plan-comparison.json"
+  },
+  {
+   "name": "popover",
+   "type": "ui",
+   "title": "Popover",
+   "description": "A small anchored surface for contextual information.",
+   "component": "popover",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-popover"
+   ],
+   "url": "https://uiarc.dev/r/popover.json"
+  },
+  {
+   "name": "progress",
+   "type": "ui",
+   "title": "Progress",
+   "description": "Show how much of a known task is complete.",
+   "component": "progress-bar",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/progress.json"
+  },
+  {
+   "name": "radio-cards",
+   "type": "ui",
+   "title": "Radio cards",
+   "description": "Selectable option cards with a sliding selection ring, price and description slots, and radio keyboard behavior.",
+   "component": "radio-button",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/radio-cards.json"
+  },
+  {
+   "name": "radio-group",
+   "type": "ui",
+   "title": "Radio group",
+   "description": "Choose one option from a visible set.",
+   "component": "radio-group",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/radio-group.json"
+  },
+  {
+   "name": "range-histogram-slider",
+   "type": "ui",
+   "title": "Range histogram slider",
+   "description": "A price range over a live histogram of the data, lighting the bars inside the range and settling on bar edges.",
+   "component": "histogram",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/range-histogram-slider.json"
+  },
+  {
+   "name": "rating",
+   "type": "ui",
+   "title": "Rating",
+   "description": "A simple, accessible way to capture a numeric opinion.",
+   "component": "rating",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/rating.json"
+  },
+  {
+   "name": "reactions",
+   "type": "ui",
+   "title": "Reactions",
+   "description": "Acknowledge a post in one tap, with counts that roll.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-popover",
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/reactions.json"
+  },
+  {
+   "name": "reorderable-list",
+   "type": "ui",
+   "title": "Reorderable list",
+   "description": "Organize items with direct drag and drop.",
+   "component": "drag-and-drop",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/reorderable-list.json"
+  },
+  {
+   "name": "resizable-panels",
+   "type": "ui",
+   "title": "Resizable panels",
+   "description": "Trade space between panes by dragging the divider between them.",
+   "component": "split-view",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/resizable-panels.json"
+  },
+  {
+   "name": "rich-text-editor",
+   "type": "ui",
+   "title": "Rich text editor",
+   "description": "A lightweight editor with markdown shortcuts, a floating toolbar, a slash menu, and HTML and markdown output.",
+   "component": "rich-text-editor",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/rich-text-editor.json"
+  },
+  {
+   "name": "ridgeline",
+   "type": "ui",
+   "title": "Ridgeline",
+   "description": "Overlapping distributions, one ridge per group: hover to lift a ridge and read its quartiles, switch datasets and every curve morphs.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/ridgeline.json"
+  },
+  {
+   "name": "scroll-area",
+   "type": "ui",
+   "title": "Scroll area",
+   "description": "A native scroll container with thin overlay scrollbars and edge fades that appear only when content overflows.",
+   "component": "scroll-area",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://uiarc.dev/r/scroll-area.json"
+  },
+  {
+   "name": "scrub-input",
+   "type": "ui",
+   "title": "Scrub input",
+   "description": "A Figma-style number field: drag the label to scrub, or type values, units, and arithmetic.",
+   "component": "text-input",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/scrub-input.json"
+  },
+  {
+   "name": "search-field",
+   "type": "ui",
+   "title": "Search field",
+   "description": "A recognizable search entry point with clear affordances.",
+   "component": "search-input",
+   "surface": "search-mobile",
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/search-field.json"
+  },
+  {
+   "name": "segmented-control",
+   "type": "ui",
+   "title": "Segmented control",
+   "description": "Switch between a small set of related views.",
+   "component": "segmented-control",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/segmented-control.json"
+  },
+  {
+   "name": "select",
+   "type": "ui",
+   "title": "Select",
+   "description": "A compact choice field with a keyboard friendly menu.",
+   "component": "select",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-select",
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/select.json"
+  },
+  {
+   "name": "shortcut-recorder",
+   "type": "ui",
+   "title": "Shortcut recorder",
+   "description": "Record key combinations into key caps, with conflict warnings, Kbd, and a searchable cheatsheet.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/shortcut-recorder.json"
+  },
+  {
+   "name": "sign-in",
+   "type": "block",
+   "title": "Sign in",
+   "description": "A sign in card that morphs from email to a six digit code to your account.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/sign-in.json"
+  },
+  {
+   "name": "signature-pad",
+   "type": "ui",
+   "title": "Signature pad",
+   "description": "Smooth ink that thins with speed, with undo, replay, and PNG or SVG export.",
+   "component": "signature-pad",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/signature-pad.json"
+  },
+  {
+   "name": "signup-form",
+   "type": "block",
+   "title": "Sign up form",
+   "description": "An account creation flow with field validation, password strength, and a clear completion state.",
+   "component": "signup-form",
+   "surface": "sign-up",
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/signup-form.json"
+  },
+  {
+   "name": "site-footer",
+   "type": "block",
+   "title": "Site footer",
+   "description": "A website footer with link columns and newsletter, a minimal layout, and a large fading Arc mark.",
+   "component": "footer",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/site-footer.json"
+  },
+  {
+   "name": "site-header",
+   "type": "block",
+   "title": "Site header",
+   "description": "A sticky website header that turns solid on scroll, with a gliding active link, mega menu panels, and a mobile sheet.",
+   "component": "header",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/site-header.json"
+  },
+  {
+   "name": "skeleton",
+   "type": "ui",
+   "title": "Skeleton",
+   "description": "Reserve space while content is still loading.",
+   "component": "skeleton",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/skeleton.json"
+  },
+  {
+   "name": "slider",
+   "type": "ui",
+   "title": "Slider",
+   "description": "Pick a value or a range on a track that follows your finger.",
+   "component": "slider",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/slider.json"
+  },
+  {
+   "name": "slope-chart",
+   "type": "ui",
+   "title": "Slope chart",
+   "description": "Before and after on two axes: lines draw in, rank moves sit beside each value, and switching datasets slides every line to its new slope.",
+   "component": "chart",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/slope-chart.json"
+  },
+  {
+   "name": "slot-text",
+   "type": "ui",
+   "title": "Slot text",
+   "description": "Text and numbers that spin into their new value on staggered slot machine reels.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/slot-text.json"
+  },
+  {
+   "name": "sortable-data-table",
+   "type": "ui",
+   "title": "Sortable data table",
+   "description": "Compare structured records with sortable columns.",
+   "component": "table",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/sortable-data-table.json"
+  },
+  {
+   "name": "sparkline",
+   "type": "ui",
+   "title": "Sparkline",
+   "description": "Show a compact trend beside a value.",
+   "component": "sparkline",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/sparkline.json"
+  },
+  {
+   "name": "split-button",
+   "type": "ui",
+   "title": "Split button",
+   "description": "A primary action with a menu of nearby alternatives.",
+   "component": "split-button",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-dropdown-menu",
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/split-button.json"
+  },
+  {
+   "name": "stats-band",
+   "type": "block",
+   "title": "Stats band",
+   "description": "Headline numbers that count up in view, each with a tiny visual that proves it and a context line on hover, plain or in a hairline grid.",
+   "component": "stat",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/stats-band.json"
+  },
+  {
+   "name": "stepper",
+   "type": "ui",
+   "title": "Stepper",
+   "description": "Show where a person is in a multi-step flow and what is done.",
+   "component": "quantity-stepper",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/stepper.json"
+  },
+  {
+   "name": "streamgraph",
+   "type": "ui",
+   "title": "Streamgraph",
+   "description": "Layered streams on a wiggle baseline that morph between ranges, with a layer you can isolate and read week by week.",
+   "component": "area-chart",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/streamgraph.json"
+  },
+  {
+   "name": "swipe-actions",
+   "type": "ui",
+   "title": "Swipe actions",
+   "description": "Reveal row actions with a swipe, or from the same actions in a menu.",
+   "component": "gesture",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-dropdown-menu",
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/swipe-actions.json"
+  },
+  {
+   "name": "switch",
+   "type": "ui",
+   "title": "Switch",
+   "description": "A tactile toggle for settings that take effect immediately.",
+   "component": "switch",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-switch",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/switch.json"
+  },
+  {
+   "name": "tabs",
+   "type": "ui",
+   "title": "Tabs",
+   "description": "Switch between related content in the same context.",
+   "component": "tabs",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-tabs",
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/tabs.json"
+  },
+  {
+   "name": "tag-input",
+   "type": "ui",
+   "title": "Tag input",
+   "description": "Turn short text values into removable tags.",
+   "component": "tag-input",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/tag-input.json"
+  },
+  {
+   "name": "text-morph",
+   "type": "ui",
+   "title": "Text morph",
+   "description": "Morph a label into its next state, letter by letter.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/text-morph.json"
+  },
+  {
+   "name": "text-reveal",
+   "type": "ui",
+   "title": "Text reveal",
+   "description": "Reveal a short piece of content with restrained motion.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://uiarc.dev/r/text-reveal.json"
+  },
+  {
+   "name": "text-shimmer",
+   "type": "ui",
+   "title": "Text shimmer",
+   "description": "Show ongoing work with a calm light across the words.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/text-shimmer.json"
+  },
+  {
+   "name": "textarea",
+   "type": "ui",
+   "title": "Textarea",
+   "description": "A multiline field for notes, descriptions, and longer text.",
+   "component": "textarea",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/textarea.json"
+  },
+  {
+   "name": "theme-switch",
+   "type": "ui",
+   "title": "Theme switcher",
+   "description": "Four smooth ways to move between light and dark appearance.",
+   "component": "theme-provider",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/theme-switch.json"
+  },
+  {
+   "name": "theme-switch-eclipse",
+   "type": "ui",
+   "title": "Eclipse",
+   "description": "The next appearance crosses the page like an eclipse.",
+   "component": "theme-provider",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/theme-switch-eclipse.json"
+  },
+  {
+   "name": "theme-switch-rise",
+   "type": "ui",
+   "title": "Rise",
+   "description": "The next appearance rises into place.",
+   "component": "theme-provider",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/theme-switch-rise.json"
+  },
+  {
+   "name": "theme-switch-split",
+   "type": "ui",
+   "title": "Split",
+   "description": "The next appearance opens from a slim center seam.",
+   "component": "theme-provider",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/theme-switch-split.json"
+  },
+  {
+   "name": "time-picker",
+   "type": "ui",
+   "title": "Time picker",
+   "description": "Choose a time with sensible keyboard behavior.",
+   "component": "time-picker",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/time-picker.json"
+  },
+  {
+   "name": "timeline",
+   "type": "ui",
+   "title": "Timeline",
+   "description": "Follow what happened, newest first, grouped by day.",
+   "component": "timeline",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/timeline.json"
+  },
+  {
+   "name": "toast",
+   "type": "ui",
+   "title": "Toast",
+   "description": "Brief confirmation for a completed background action.",
+   "component": "toast",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/toast.json"
+  },
+  {
+   "name": "toast-stack",
+   "type": "ui",
+   "title": "Toast stack",
+   "description": "Stack short results at the edge until you reach for them.",
+   "component": "toast",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/toast-stack.json"
+  },
+  {
+   "name": "tooltip",
+   "type": "ui",
+   "title": "Tooltip",
+   "description": "Short supporting text for unfamiliar controls.",
+   "component": "tooltip",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-tooltip",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/tooltip.json"
+  },
+  {
+   "name": "tree-view",
+   "type": "ui",
+   "title": "Tree view",
+   "description": "Navigate nested folders and structured content.",
+   "component": "tree-view",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/tree-view.json"
+  },
+  {
+   "name": "treemap",
+   "type": "ui",
+   "title": "Treemap",
+   "description": "A squarified treemap: click to drill and the tiles grow to fill the view, with a breadcrumb back and metrics that morph every tile.",
+   "component": "treemap",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/treemap.json"
+  },
+  {
+   "name": "usage-meter",
+   "type": "ui",
+   "title": "Usage meter",
+   "description": "Show what fills an allowance and how close it is to the limit.",
+   "component": "usage-meter",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/usage-meter.json"
+  },
+  {
+   "name": "user-menu",
+   "type": "ui",
+   "title": "User menu",
+   "description": "Your account, settings, theme, and sign out behind the avatar. Opens as a bottom sheet on phones.",
+   "component": "account-menu",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/user-menu.json"
+  },
+  {
+   "name": "waffle-chart",
+   "type": "ui",
+   "title": "Waffle chart",
+   "description": "A ten by ten unit chart where every cell is one percent, and cells fly to their new group when the data changes.",
+   "component": "chart",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://uiarc.dev/r/waffle-chart.json"
+  }
+ ]
+}

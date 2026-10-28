@@ -22,7 +22,8 @@
       ],
       "license": [
         "source-available",
-        "commercial"
+        "commercial",
+        "mit"
       ],
       "pricing": [
         "freemium",
@@ -77,15 +78,51 @@
       "splash-screen"
     ],
     "templates": [
-      "Anthra A-40",
-      "MK·78 Keyboard",
-      "Mara Voss",
-      "Aurello",
-      "Echo Vale",
-      "RenderLab",
-      "Volta Atelier",
-      "Kairo",
-      "Inkbound River Story"
+      {
+        "name": "Anthra A-40",
+        "url": "https://threeui.com/landing-pages/anthra-a40-landing-page",
+        "purpose": "Three.js landing page template"
+      },
+      {
+        "name": "MK·78 Keyboard",
+        "url": "https://threeui.com/landing-pages/mk78-keyboard-landing-page",
+        "purpose": "Three.js landing page template"
+      },
+      {
+        "name": "Mara Voss",
+        "url": "https://threeui.com/landing-pages/mara-voss-landing-page",
+        "purpose": "Three.js landing page template"
+      },
+      {
+        "name": "Aurello",
+        "url": "https://threeui.com/landing-pages/aurello-landing-page",
+        "purpose": "Three.js landing page template"
+      },
+      {
+        "name": "Echo Vale",
+        "url": "https://threeui.com/landing-pages/echo-vale-landing-page",
+        "purpose": "Three.js landing page template"
+      },
+      {
+        "name": "RenderLab",
+        "url": "https://threeui.com/landing-pages/renderlab-landing-page",
+        "purpose": "Three.js landing page template"
+      },
+      {
+        "name": "Volta Atelier",
+        "url": "https://threeui.com/landing-pages/volta-atelier-landing-page",
+        "purpose": "Three.js landing page template"
+      },
+      {
+        "name": "Kairo",
+        "url": "https://threeui.com/landing-pages/kairo-landing-page",
+        "purpose": "Three.js landing page template"
+      },
+      {
+        "name": "Inkbound River Story",
+        "url": "https://threeui.com/landing-pages/inkbound-river-story",
+        "purpose": "Three.js landing page template"
+      }
     ],
     "template_count": 11,
     "install": "npm install @designcodeio/threeui",

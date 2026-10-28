@@ -1,0 +1,334 @@
+{
+ "resource_id": "7adf2111-b43f-4a5a-a0c6-56c29cfa7a8f",
+ "registry_url": "https://ui.elevenlabs.io/r/registry.json",
+ "install_verified": true,
+ "checked": "2026-10-18",
+ "items": [
+  {
+   "name": "audio-player",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "audio-player",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-slider",
+    "@radix-ui/react-dropdown-menu"
+   ],
+   "url": "https://ui.elevenlabs.io/r/audio-player.json"
+  },
+  {
+   "name": "bar-visualizer",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.elevenlabs.io/r/bar-visualizer.json"
+  },
+  {
+   "name": "conversation",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "conversation",
+   "surface": null,
+   "dependencies": [
+    "use-stick-to-bottom"
+   ],
+   "url": "https://ui.elevenlabs.io/r/conversation.json"
+  },
+  {
+   "name": "conversation-bar",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "conversation",
+   "surface": null,
+   "dependencies": [
+    "@elevenlabs/react"
+   ],
+   "url": "https://ui.elevenlabs.io/r/conversation-bar.json"
+  },
+  {
+   "name": "live-waveform",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "waveform",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.elevenlabs.io/r/live-waveform.json"
+  },
+  {
+   "name": "matrix",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.elevenlabs.io/r/matrix.json"
+  },
+  {
+   "name": "message",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "alert",
+   "surface": null,
+   "dependencies": [
+    "class-variance-authority"
+   ],
+   "url": "https://ui.elevenlabs.io/r/message.json"
+  },
+  {
+   "name": "mic-selector",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "speech-input",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.elevenlabs.io/r/mic-selector.json"
+  },
+  {
+   "name": "music-player-01",
+   "type": "block",
+   "title": null,
+   "description": "Music player with playlist",
+   "component": "audio-player",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.elevenlabs.io/r/music-player-01.json"
+  },
+  {
+   "name": "music-player-02",
+   "type": "block",
+   "title": null,
+   "description": "Simple music player",
+   "component": "audio-player",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.elevenlabs.io/r/music-player-02.json"
+  },
+  {
+   "name": "orb",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@react-three/drei",
+    "@react-three/fiber",
+    "three",
+    "@types/three"
+   ],
+   "url": "https://ui.elevenlabs.io/r/orb.json"
+  },
+  {
+   "name": "pong-01",
+   "type": "block",
+   "title": null,
+   "description": "Retro Pong game with Matrix display",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@upstash/redis"
+   ],
+   "url": "https://ui.elevenlabs.io/r/pong-01.json"
+  },
+  {
+   "name": "realtime-transcriber-01",
+   "type": "block",
+   "title": null,
+   "description": "Scribe V2 Realtime Transcriber",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@elevenlabs/react",
+    "framer-motion"
+   ],
+   "url": "https://ui.elevenlabs.io/r/realtime-transcriber-01.json"
+  },
+  {
+   "name": "response",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "streamdown"
+   ],
+   "url": "https://ui.elevenlabs.io/r/response.json"
+  },
+  {
+   "name": "scrub-bar",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.elevenlabs.io/r/scrub-bar.json"
+  },
+  {
+   "name": "shimmering-text",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://ui.elevenlabs.io/r/shimmering-text.json"
+  },
+  {
+   "name": "speaker-01",
+   "type": "block",
+   "title": null,
+   "description": "EL-01 Speaker",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.elevenlabs.io/r/speaker-01.json"
+  },
+  {
+   "name": "speech-input",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "speech-input",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "lucide-react"
+   ],
+   "url": "https://ui.elevenlabs.io/r/speech-input.json"
+  },
+  {
+   "name": "transcriber-01",
+   "type": "block",
+   "title": null,
+   "description": "Transcriber",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@elevenlabs/elevenlabs-js",
+    "streamdown"
+   ],
+   "url": "https://ui.elevenlabs.io/r/transcriber-01.json"
+  },
+  {
+   "name": "transcript-viewer",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "transcript",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.elevenlabs.io/r/transcript-viewer.json"
+  },
+  {
+   "name": "voice-button",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "button",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.elevenlabs.io/r/voice-button.json"
+  },
+  {
+   "name": "voice-chat-01",
+   "type": "block",
+   "title": null,
+   "description": "Voice chat 1",
+   "component": "conversation",
+   "surface": "chat-mobile",
+   "dependencies": [
+    "@elevenlabs/react"
+   ],
+   "url": "https://ui.elevenlabs.io/r/voice-chat-01.json"
+  },
+  {
+   "name": "voice-chat-02",
+   "type": "block",
+   "title": null,
+   "description": "Voice chat 2",
+   "component": "conversation",
+   "surface": "chat-mobile",
+   "dependencies": [
+    "@elevenlabs/react",
+    "framer-motion"
+   ],
+   "url": "https://ui.elevenlabs.io/r/voice-chat-02.json"
+  },
+  {
+   "name": "voice-chat-03",
+   "type": "block",
+   "title": null,
+   "description": "Voice chat 3",
+   "component": "conversation",
+   "surface": "chat-mobile",
+   "dependencies": [
+    "@elevenlabs/react"
+   ],
+   "url": "https://ui.elevenlabs.io/r/voice-chat-03.json"
+  },
+  {
+   "name": "voice-form-01",
+   "type": "block",
+   "title": null,
+   "description": "Voice-fill form",
+   "component": "form",
+   "surface": null,
+   "dependencies": [
+    "@elevenlabs/elevenlabs-js",
+    "ai",
+    "zod"
+   ],
+   "url": "https://ui.elevenlabs.io/r/voice-form-01.json"
+  },
+  {
+   "name": "voice-nav-01",
+   "type": "block",
+   "title": null,
+   "description": "Voice-nav site navigation",
+   "component": "navigation-menu",
+   "surface": null,
+   "dependencies": [
+    "@elevenlabs/elevenlabs-js",
+    "ai",
+    "zod"
+   ],
+   "url": "https://ui.elevenlabs.io/r/voice-nav-01.json"
+  },
+  {
+   "name": "voice-picker",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "select",
+   "surface": null,
+   "dependencies": [
+    "@elevenlabs/elevenlabs-js"
+   ],
+   "url": "https://ui.elevenlabs.io/r/voice-picker.json"
+  },
+  {
+   "name": "waveform",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "waveform",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.elevenlabs.io/r/waveform.json"
+  }
+ ]
+}

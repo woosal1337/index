@@ -1,0 +1,578 @@
+{
+ "resource_id": "user:bde1f2e1166912ea",
+ "registry_url": "https://www.affectui.com/r/registry.json",
+ "install_verified": true,
+ "checked": "2026-10-23",
+ "items": [
+  {
+   "name": "agent-team",
+   "type": "block",
+   "title": "Agent Team",
+   "description": "A prompt types itself and branches out into three agents, each with a role and overlapping tool logos",
+   "component": "agent-card",
+   "surface": "team",
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/agent-team.json"
+  },
+  {
+   "name": "button",
+   "type": "ui",
+   "title": "Button",
+   "description": "Primary, secondary, ghost and destructive buttons with icons, sizes and a shimmering loading state",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/button.json"
+  },
+  {
+   "name": "button-clean",
+   "type": "ui",
+   "title": "Button (Clean)",
+   "description": "Primary, secondary, ghost and destructive buttons with icons, sizes and a shimmering loading state",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/button-clean.json"
+  },
+  {
+   "name": "change-summary",
+   "type": "ui",
+   "title": "Change Summary",
+   "description": "What moved since last time – one metric per row with a colored trend",
+   "component": "collapsible",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/change-summary.json"
+  },
+  {
+   "name": "change-summary-clean",
+   "type": "ui",
+   "title": "Change Summary (Clean)",
+   "description": "What moved since last time – one metric per row with a colored trend",
+   "component": "collapsible",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/change-summary-clean.json"
+  },
+  {
+   "name": "comment-thread",
+   "type": "ui",
+   "title": "Comment Thread",
+   "description": "One comment with replies – an assistant reports what it did, folds open details and answers @mentions",
+   "component": "comment",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/comment-thread.json"
+  },
+  {
+   "name": "comment-thread-clean",
+   "type": "ui",
+   "title": "Comment Thread (Clean)",
+   "description": "One comment with replies – an assistant reports what it did, folds open details and answers @mentions",
+   "component": "comment",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/comment-thread-clean.json"
+  },
+  {
+   "name": "cover-flow",
+   "type": "block",
+   "title": "Cover Flow",
+   "description": "Browse covers in 3D – drag, flick or scrub the row, it springs to the nearest cover; images drift in their frames over a soft reflection",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/cover-flow.json"
+  },
+  {
+   "name": "decision-inbox",
+   "type": "ui",
+   "title": "Decision Inbox",
+   "description": "Open decisions with two quick answers each – answered ones confirm and fold away",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/decision-inbox.json"
+  },
+  {
+   "name": "decision-inbox-clean",
+   "type": "ui",
+   "title": "Decision Inbox (Clean)",
+   "description": "Open decisions with two quick answers each – answered ones confirm and fold away",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/decision-inbox-clean.json"
+  },
+  {
+   "name": "email-draft",
+   "type": "ui",
+   "title": "Email Draft",
+   "description": "Agent-written email for review – switch recipient and tone, edit inline, remove the attachment, send or discard with undo",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/email-draft.json"
+  },
+  {
+   "name": "email-draft-clean",
+   "type": "ui",
+   "title": "Email Draft (Clean)",
+   "description": "Agent-written email for review – switch recipient and tone, edit inline, remove the attachment, send or discard with undo",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/email-draft-clean.json"
+  },
+  {
+   "name": "empty-calendar",
+   "type": "block",
+   "title": "Empty Calendar",
+   "description": "Stack of calendar cards marked empty, fanning out on hover",
+   "component": "empty-state",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/empty-calendar.json"
+  },
+  {
+   "name": "enrichment-orbit",
+   "type": "block",
+   "title": "Enrichment Orbit",
+   "description": "Grok tile inside two rings with comets and data nodes orbiting around it",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/enrichment-orbit.json"
+  },
+  {
+   "name": "filter-menu",
+   "type": "ui",
+   "title": "Filter Menu",
+   "description": "Grouped filters with removable chips, collapsible checkbox groups, Clear all and full keyboard control",
+   "component": "dropdown-menu",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/filter-menu.json"
+  },
+  {
+   "name": "filter-menu-clean",
+   "type": "ui",
+   "title": "Filter Menu (Clean)",
+   "description": "Grouped filters with removable chips, collapsible checkbox groups, Clear all and full keyboard control",
+   "component": "dropdown-menu",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/filter-menu-clean.json"
+  },
+  {
+   "name": "frost-cloud",
+   "type": "block",
+   "title": "Frost Cloud",
+   "description": "A frosted white cloud with eyes cut out of it, on a red-orange or blue sky – it floats, turns to look around, blinks, follows the pointer and bounces with a wink when clicked",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/frost-cloud.json"
+  },
+  {
+   "name": "ghosted-chat",
+   "type": "block",
+   "title": "Ghosted Chat",
+   "description": "Unanswered chat messages marked as read, with a thumbs-down reply on hover",
+   "component": "conversation",
+   "surface": "chat-mobile",
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/ghosted-chat.json"
+  },
+  {
+   "name": "glow-cloud",
+   "type": "block",
+   "title": "Glow Cloud",
+   "description": "A glowing cloud with eyes in blue or red-orange – it floats, turns to look around, blinks, follows the pointer and bounces with a wink when clicked",
+   "component": "hover-effect",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/glow-cloud.json"
+  },
+  {
+   "name": "grid-background",
+   "type": "ui",
+   "title": "Grid Background",
+   "description": "A fine line grid that drifts slowly behind your content and fades out towards the edges",
+   "component": "particle-background",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/grid-background.json"
+  },
+  {
+   "name": "integration-beam",
+   "type": "block",
+   "title": "Integration Beam",
+   "description": "Your product between the tools it connects – light pulses flow along curved beams, hover to focus a tool, click to pause it",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/integration-beam.json"
+  },
+  {
+   "name": "integration-grid",
+   "type": "block",
+   "title": "Integration Grid",
+   "description": "Honeycomb-like wall of integration logos around a bright centre tile with your product mark, fading out toward the edges",
+   "component": "data-grid",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/integration-grid.json"
+  },
+  {
+   "name": "layer-stack",
+   "type": "block",
+   "title": "Layer Stack",
+   "description": "Isometric stack of five layers with a list beside it – the chosen entry lifts its layer out in color",
+   "component": "portal",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/layer-stack.json"
+  },
+  {
+   "name": "lead-sourcing",
+   "type": "block",
+   "title": "Lead Sourcing",
+   "description": "ChatGPT tile linked to Gmail and Grok, with a shine running along the connection",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/lead-sourcing.json"
+  },
+  {
+   "name": "logo-cluster",
+   "type": "block",
+   "title": "Logo Cluster",
+   "description": "Your mark on a white disc in the middle – company logos bounce out of it and settle around it",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/logo-cluster.json"
+  },
+  {
+   "name": "logo-marquee",
+   "type": "block",
+   "title": "Logo Marquee",
+   "description": "The endless “Trusted by” strip – a seamless loop that eases to a stop on hover, scrubs with inertia and lifts the hovered logo to colour",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/logo-marquee.json"
+  },
+  {
+   "name": "message-actions",
+   "type": "ui",
+   "title": "Message Actions",
+   "description": "The quiet bar under an AI message – copy turns into a check, regenerate spins and unfolds a version switcher, thumbs pop and ask why, read aloud becomes a tiny equalizer",
+   "component": "message-actions",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/message-actions.json"
+  },
+  {
+   "name": "message-actions-clean",
+   "type": "ui",
+   "title": "Message Actions (Clean)",
+   "description": "The quiet bar under an AI message – copy turns into a check, regenerate spins and unfolds a version switcher, thumbs pop and ask why, read aloud becomes a tiny equalizer",
+   "component": "message-actions",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/message-actions-clean.json"
+  },
+  {
+   "name": "model-wheel",
+   "type": "block",
+   "title": "Model Wheel",
+   "description": "AI model names on a turning drum – the rows bend away at the edges and each model lands on a soft gray fill",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/model-wheel.json"
+  },
+  {
+   "name": "notification-stack",
+   "type": "ui",
+   "title": "Notification Stack",
+   "description": "Notice cards stacked behind each other – dismiss the front one to reveal the next",
+   "component": "stack",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/notification-stack.json"
+  },
+  {
+   "name": "notification-stack-clean",
+   "type": "ui",
+   "title": "Notification Stack (Clean)",
+   "description": "Notice cards stacked behind each other – dismiss the front one to reveal the next",
+   "component": "stack",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/notification-stack-clean.json"
+  },
+  {
+   "name": "number-ticker",
+   "type": "ui",
+   "title": "Number Ticker",
+   "description": "Odometer-style numbers – every digit rolls to its new value and counts in from zero when it scrolls into view",
+   "component": "count-up",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/number-ticker.json"
+  },
+  {
+   "name": "otp-input",
+   "type": "ui",
+   "title": "OTP Input",
+   "description": "The verification code field done right – a gliding focus ring, paste and SMS autofill, a calm shake on errors and a morph into Verified",
+   "component": "otp-input",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/otp-input.json"
+  },
+  {
+   "name": "otp-input-clean",
+   "type": "ui",
+   "title": "OTP Input (Clean)",
+   "description": "The verification code field done right – a gliding focus ring, paste and SMS autofill, a calm shake on errors and a morph into Verified",
+   "component": "otp-input",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/otp-input-clean.json"
+  },
+  {
+   "name": "profile-menu",
+   "type": "ui",
+   "title": "Profile Menu",
+   "description": "Account card with the signed-in user, menu actions and profile setup progress",
+   "component": "dropdown-menu",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/profile-menu.json"
+  },
+  {
+   "name": "profile-menu-clean",
+   "type": "ui",
+   "title": "Profile Menu (Clean)",
+   "description": "Account card with the signed-in user, menu actions and profile setup progress",
+   "component": "dropdown-menu",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/profile-menu-clean.json"
+  },
+  {
+   "name": "progress-tracker",
+   "type": "ui",
+   "title": "Progress Tracker",
+   "description": "Onboarding checklist with an animated progress bar, ticks that draw themselves and auto play",
+   "component": "progress-stepper",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/progress-tracker.json"
+  },
+  {
+   "name": "progress-tracker-clean",
+   "type": "ui",
+   "title": "Progress Tracker (Clean)",
+   "description": "Onboarding checklist with an animated progress bar, ticks that draw themselves and auto play",
+   "component": "progress-stepper",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/progress-tracker-clean.json"
+  },
+  {
+   "name": "reaction-bar",
+   "type": "ui",
+   "title": "Reaction Bar",
+   "description": "Like, comment, repost and share in one pill – icons pop and fill, counts roll in digit by digit",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/reaction-bar.json"
+  },
+  {
+   "name": "reaction-bar-clean",
+   "type": "ui",
+   "title": "Reaction Bar (Clean)",
+   "description": "Like, comment, repost and share in one pill – icons pop and fill, counts roll in digit by digit",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/reaction-bar-clean.json"
+  },
+  {
+   "name": "region-dach",
+   "type": "block",
+   "title": "DACH Region",
+   "description": "DACH map with fading neighbours and a pastel band along the border, switchable to the US, China, India, Brazil or Japan",
+   "component": "section",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/region-dach.json"
+  },
+  {
+   "name": "segmented-control",
+   "type": "ui",
+   "title": "Segmented Control",
+   "description": "Switch between two to six options – a raised pill or underline that glides, stretches a little and can be dragged across, with icons, counts and badges",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/segmented-control.json"
+  },
+  {
+   "name": "segmented-control-clean",
+   "type": "ui",
+   "title": "Segmented Control (Clean)",
+   "description": "Switch between two to six options – a raised pill or underline that glides, stretches a little and can be dragged across, with icons, counts and badges",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/segmented-control-clean.json"
+  },
+  {
+   "name": "shimmer-loader",
+   "type": "ui",
+   "title": "Shimmer Loader",
+   "description": "Skeleton blocks that share one soft light sweep, plus shimmering text for “Thinking…” states",
+   "component": "skeleton",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/shimmer-loader.json"
+  },
+  {
+   "name": "side-folder",
+   "type": "block",
+   "title": "Side Folder",
+   "description": "Glassy blue folder on its side, documents sliding out to the right as the pocket swings open on hover",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/side-folder.json"
+  },
+  {
+   "name": "smart-recommendation",
+   "type": "ui",
+   "title": "Smart Recommendation",
+   "description": "Suggestion card with a confidence signal, alternatives to switch to and accept with undo",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/smart-recommendation.json"
+  },
+  {
+   "name": "smart-recommendation-clean",
+   "type": "ui",
+   "title": "Smart Recommendation (Clean)",
+   "description": "Suggestion card with a confidence signal, alternatives to switch to and accept with undo",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/smart-recommendation-clean.json"
+  },
+  {
+   "name": "tab-overload",
+   "type": "block",
+   "title": "Tab Overload",
+   "description": "Overlapping browser windows where the highlight follows the hovered tab",
+   "component": "tabs",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/tab-overload.json"
+  },
+  {
+   "name": "team-invite",
+   "type": "block",
+   "title": "Team Invite",
+   "description": "Connected teammates – a cursor drags a new one into the empty slot, the line turns solid and they go online",
+   "component": "team-invite",
+   "surface": "team",
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/team-invite.json"
+  },
+  {
+   "name": "testimonial-wall",
+   "type": "block",
+   "title": "Testimonial Wall",
+   "description": "The landing-page wall of quotes – columns that scroll endlessly in opposite directions, ease to a stop on hover and scrub with inertia",
+   "component": "quote",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/testimonial-wall.json"
+  },
+  {
+   "name": "text-reveal",
+   "type": "ui",
+   "title": "Text Reveal",
+   "description": "Text that arrives word by word or letter by letter – each piece rises out of a soft blur as it scrolls into view",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/text-reveal.json"
+  },
+  {
+   "name": "thinking-loader",
+   "type": "ui",
+   "title": "Thinking Loader",
+   "description": "A small working pill for AI replies – an eight-ray spinner and a shimmering label that rolls through phases and settles on a check",
+   "component": "spinner",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/thinking-loader.json"
+  },
+  {
+   "name": "thinking-loader-clean",
+   "type": "ui",
+   "title": "Thinking Loader (Clean)",
+   "description": "A small working pill for AI replies – an eight-ray spinner and a shimmering label that rolls through phases and settles on a check",
+   "component": "spinner",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/thinking-loader-clean.json"
+  },
+  {
+   "name": "tips-panel",
+   "type": "ui",
+   "title": "Tips Panel",
+   "description": "Grid of short tips with one action each – taken tips turn into a done state",
+   "component": "panel",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/tips-panel.json"
+  },
+  {
+   "name": "tips-panel-clean",
+   "type": "ui",
+   "title": "Tips Panel (Clean)",
+   "description": "Grid of short tips with one action each – taken tips turn into a done state",
+   "component": "panel",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/tips-panel-clean.json"
+  },
+  {
+   "name": "tool-call-card",
+   "type": "ui",
+   "title": "Tool Call Card",
+   "description": "An agent's tool call in one line – live timer, status and summary, folds open to highlighted arguments and result with copy, retry on errors and a group that sums them up",
+   "component": "tool-call",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/tool-call-card.json"
+  },
+  {
+   "name": "tool-call-card-clean",
+   "type": "ui",
+   "title": "Tool Call Card (Clean)",
+   "description": "An agent's tool call in one line – live timer, status and summary, folds open to highlighted arguments and result with copy, retry on errors and a group that sums them up",
+   "component": "tool-call",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.affectui.com/r/tool-call-card-clean.json"
+  }
+ ]
+}

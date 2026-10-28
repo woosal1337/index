@@ -3,6 +3,7 @@
   "id": "dea11d28-a383-4dc7-b410-d4fe36a68c39",
   "slug": "kibo-ui-github",
   "url": "https://github.com/shadcnblocks/kibo",
+  "same_as": "21280947-accd-466a-8ba7-3e36eeaa05cb",
   "name": "Kibo UI",
   "tagline": "shadcn registry of 41 complex components: Gantt, Kanban, editor, sandbox, cropper",
   "description": "Kibo UI is a free shadcn/ui-compatible registry that ships the components shadcn/ui deliberately leaves out - Gantt charts, Kanban boards, a TanStack-backed table, a Sandpack code sandbox, a Tiptap editor, image crop and zoom, a QR code, a contribution graph and more. It wraps headless libraries (Radix, TanStack, dnd-kit, Tiptap) into composable parts that use your existing shadcn CSS variables, so nothing looks bolted on. Installed with its own CLI or the shadcn CLI, and it exposes an MCP server so an AI editor can read its docs directly. Maintained by the shadcnblocks team; the docs site also lists 28 blocks and 110 patterns.",
@@ -339,6 +340,7 @@
   "id": "e5279f5f-94cf-44ab-a6f9-341ab41ca1e7",
   "slug": "mvpblocks-repo",
   "url": "https://github.com/subhadeeproy3902/mvpblocks",
+  "same_as": "9814ebe1-a74f-4b8e-972a-edd8246119e0",
   "name": "MVPBlocks (source repo)",
   "tagline": "BSD-3 source for the MVPBlocks block library and its Next.js docs site",
   "description": "This is the GitHub source for MVPBlocks, the copy-paste block library documented at blocks.mvp-subha.me. The repo holds every block component, the Next.js docs/preview site and the CLI that powers npx mvpblocks add. It is BSD-3-Clause, community-contributed with per-block author attribution, and is the place to read a block's real implementation before pasting it. Use the repo when you want to vendor blocks directly or check what a block actually imports.",
@@ -1020,6 +1022,7 @@
   "id": "58f85827-961f-48b9-90ab-d88279c0c4fa",
   "slug": "radiant-shaders",
   "url": "https://github.com/pbakaus/radiant",
+  "same_as": "c2a18ff8-cec3-47b8-bc58-becf334ea84e",
   "name": "Radiant",
   "tagline": "Zero-dependency generative shaders as single HTML files, embedded by iframe",
   "description": "Radiant is Paul Bakaus's MIT-licensed collection of generative shader art for the web. Each effect is one self-contained HTML file with no dependencies and no build step, mixing WebGL and Canvas 2D; you drop it in as a full-bleed iframe and change its parameters at runtime through postMessage. Effects handle mouse and touch input, pause when off-screen, and render device-pixel-ratio aware capped at 2x. The README advertises 94 shaders and the live gallery currently lists 87. There is no npm package - you copy the file.",
@@ -1145,7 +1148,7 @@
     "freemium",
     "free",
     "subscription",
-    "account-required"
+    "open-source"
    ],
    "distribution": [
     "web-app",

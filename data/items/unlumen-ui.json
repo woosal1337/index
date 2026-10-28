@@ -1,0 +1,1794 @@
+{
+ "resource_id": "depo:j57ervyjp3pfwh5x4qagrq75gs8a0s69",
+ "registry_url": "https://ui.unlumen.com/r/registry.json",
+ "install_verified": false,
+ "checked": "2026-10-23",
+ "items": [
+  {
+   "name": "ai-chat",
+   "type": "ui",
+   "title": "AI Chat",
+   "description": "A chat component that allows you to chat with an AI.",
+   "component": "conversation",
+   "surface": "chat-mobile",
+   "dependencies": [
+    "motion",
+    "lucide-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "animate-count",
+   "type": "ui",
+   "title": "Vercel Animate Count",
+   "description": "A number display that animates the transition between values with a blur + slide effect, with a hook to throttle rapid updates.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "animate-digits",
+   "type": "ui",
+   "title": "Animate Digits",
+   "description": "Per-digit blur-slide animation — only the digits that change animate.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "animate-text-input-typing",
+   "type": "ui",
+   "title": "Animated Input",
+   "description": "An animated text input with per-character motion and a cursor that springs between typing and selection states.",
+   "component": "text-input",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "animated-list",
+   "type": "ui",
+   "title": "Animated List",
+   "description": "A real-time push feed where new items animate in from the top with spring physics — Stripe Radar style.",
+   "component": "list",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "apple-switch",
+   "type": "ui",
+   "title": "Apple Switch",
+   "description": "Animated toggle switch with separate track/thumb sizing, spring feedback, optional label text, and tone variants.",
+   "component": "switch",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "aurora-bars",
+   "type": "ui",
+   "title": "Aurora Bars",
+   "description": "Animated bars with aurora-inspired gradient effects and smooth transitions.",
+   "component": "gradient-background",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "aurora-blur",
+   "type": "ui",
+   "title": "Aurora Blur",
+   "description": "Aurora blur shader layer used by Aurora Card.",
+   "component": "gradient-background",
+   "surface": null,
+   "dependencies": [
+    "@react-three/fiber",
+    "three"
+   ],
+   "url": null
+  },
+  {
+   "name": "aurora-card",
+   "type": "ui",
+   "title": "Aurora Card",
+   "description": "Aurora-blur pricing card with a configurable hero area, layout hooks, and customizable shader controls.",
+   "component": "gradient-background",
+   "surface": null,
+   "dependencies": [
+    "@react-three/fiber",
+    "three"
+   ],
+   "url": null
+  },
+  {
+   "name": "blob-card",
+   "type": "ui",
+   "title": "Blob Card",
+   "description": "Animated card with fluid blob header, animated glow border, and configurable colors.",
+   "component": "card",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "button",
+   "type": "ui",
+   "title": "Button",
+   "description": "A simple button that animates on hover and tap.",
+   "component": "button",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "cards-view-icon",
+   "type": "ui",
+   "title": "Cards View Icon",
+   "description": "Animated icon where four square dots reorder in a 2×2 grid via Motion layout animation when active, signaling a card view mode.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "clipped-circle",
+   "type": "ui",
+   "title": "Clipped Circle",
+   "description": "A cursor-following spotlight effect that reveals a soft glowing circle wherever the user moves their mouse inside the container.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "command-menu",
+   "type": "ui",
+   "title": "Command Menu",
+   "description": "A composable ⌘K command palette with fuzzy search, custom groups, built-in theme switcher, and animated content reveal.",
+   "component": "command-palette",
+   "surface": null,
+   "dependencies": [
+    "next",
+    "next-themes",
+    "lucide-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "compact-view-icon",
+   "type": "ui",
+   "title": "Compact View Icon",
+   "description": "Animated icon where a 3×2 grid of dots reorder themselves via Motion layout animation when active.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "copy",
+   "type": "ui",
+   "title": "Copy Button",
+   "description": "A copy button component with a variety of styles and animations.",
+   "component": "copy-button",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "lucide-react",
+    "class-variance-authority"
+   ],
+   "url": null
+  },
+  {
+   "name": "count-up",
+   "type": "ui",
+   "title": "Count Up",
+   "description": "An animated number counter that springs to its target value when it enters the viewport, with support for decimals, separators, and direction.",
+   "component": "count-up",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "react-use-measure"
+   ],
+   "url": null
+  },
+  {
+   "name": "cursor",
+   "type": "ui",
+   "title": "Cursor",
+   "description": "An animated cursor component that allows you to customize both the cursor and cursor follow elements with smooth animations.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "cursor-image-trail",
+   "type": "ui",
+   "title": "Cursor Image Trail",
+   "description": "A trail of images that follows the cursor with spring-physics fade and rotation.",
+   "component": "image",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "cursor-primitive",
+   "type": "ui",
+   "title": "Cursor",
+   "description": "An animated cursor component that allows you to customize both the cursor and cursor follow elements with smooth animations.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "demo-blob-card",
+   "type": "ui",
+   "title": "Blob Card Demo",
+   "description": "Demo showing the Blob Card component.",
+   "component": "card",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "demo-copy",
+   "type": "ui",
+   "title": "Copy Button Demo",
+   "description": "Demo showing a copy button.",
+   "component": "copy-button",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "demo-cursor",
+   "type": "ui",
+   "title": "Cursor Demo",
+   "description": "Demo showing a cursor.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "demo-gravity-stars",
+   "type": "ui",
+   "title": "Gravity Stars Background Demo",
+   "description": "Demo showing a gravity stars background.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "demo-horizontal-depth-fade",
+   "type": "ui",
+   "title": "Horizontal Depth Fade Demo",
+   "description": "Demo showing the Horizontal Depth Fade component.",
+   "component": "elevation",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "demo-orbital-image-wheel",
+   "type": "ui",
+   "title": "Orbital Image Wheel Demo",
+   "description": "Demo showing the Orbital Image Wheel component.",
+   "component": "image",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "demo-perspective-flow",
+   "type": "ui",
+   "title": "Perspective Flow Demo",
+   "description": "Demo showing the Perspective Flow component.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "demo-pixel",
+   "type": "ui",
+   "title": "Pixel Background Demo",
+   "description": "Demo showing a pixel background.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "demo-pixel-grid",
+   "type": "ui",
+   "title": "Pixel Background Grid Demo",
+   "description": "Demo showing three pixel backgrounds side by side with different color palettes.",
+   "component": "data-grid",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "demo-pixel-liquid-bg",
+   "type": "ui",
+   "title": "Pixel Liquid Background Demo",
+   "description": "Demo showing the Pixel Liquid Background component.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "demo-square-pattern",
+   "type": "ui",
+   "title": "Square Pattern Background Demo",
+   "description": "Demo showing the Square Pattern Background component.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "demo-wave-background",
+   "type": "ui",
+   "title": "Wave Background Demo",
+   "description": "Demo showcasing scroll-driven and ambient wave dividers — as a page section divider, inside a card, and in both directions.",
+   "component": "particle-background",
+   "surface": null,
+   "dependencies": [
+    "lenis"
+   ],
+   "url": null
+  },
+  {
+   "name": "dia-text-reveal",
+   "type": "ui",
+   "title": "Dia Text Reveal",
+   "description": "Animated text reveal with a colorful gradient sweep effect, inspired by the Dia app.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "dock",
+   "type": "ui",
+   "title": "Dock",
+   "description": "Animated dock with Gaussian magnification, spring physics, separators, and tooltip carets.",
+   "component": "dock",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "expand-menu",
+   "type": "ui",
+   "title": "Expand Menu",
+   "description": "An animated expanding menu that reveals items from a trigger button, with configurable direction, layout, and alignment.",
+   "component": "dropdown-menu",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "expandable-navbar",
+   "type": "ui",
+   "title": "Expandable Navbar",
+   "description": "A full-width fixed header with velocity-highlight hover, expanding inline dropdown, scroll hide/show, and a mobile circle-reveal overlay.",
+   "component": "accordion",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "next",
+    "next-themes",
+    "lucide-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "favicon-search",
+   "type": "ui",
+   "title": "Favicon Search",
+   "description": "A search input that fetches and smoothly animates the site favicon into the search bar as you type a URL.",
+   "component": "search-input",
+   "surface": "search-mobile",
+   "dependencies": [
+    "motion",
+    "lucide-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "file-tree",
+   "type": "component",
+   "title": "File Tree",
+   "description": "Animated file-tree component with animated hover highlight, spring folder expand/collapse, and automatic file-type icons.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "lucide-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "floating-navbar",
+   "type": "ui",
+   "title": "Floating Navbar",
+   "description": "A sticky floating pill navbar with scroll-velocity spring physics, velocity-highlight hover effect, dropdown menus, mobile overlay, and optional theme toggle.",
+   "component": "navbar",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "next",
+    "next-themes",
+    "lucide-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "floating-tooltip",
+   "type": "ui",
+   "title": "Floating Tooltip",
+   "description": "A floating tooltip component.",
+   "component": "tooltip",
+   "surface": null,
+   "dependencies": [
+    "class-variance-authority",
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "github-graph",
+   "type": "component",
+   "title": "GitHub Graph",
+   "description": "A polished, animated GitHub contribution graph for portfolio sites.",
+   "component": "chart",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "glow",
+   "type": "ui",
+   "title": "Glow Button",
+   "description": "A button with an animated conic-gradient glow layer behind it. Supports rotate, pulse, breathe, colorShift, flowHorizontal and static modes.",
+   "component": "hover-effect",
+   "surface": null,
+   "dependencies": [
+    "class-variance-authority",
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "glowing-badge",
+   "type": "ui",
+   "title": "Glowing Badge",
+   "description": "Badge with an animated pulsing glow dot. Supports status variants: default, success, warning, error, info.",
+   "component": "badge",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "gooey-navbar-menu",
+   "type": "component",
+   "title": "Gooey Navbar Menu",
+   "description": "A spring-animated navbar menu with a gooey SVG-filtered background that connects the active trigger and dropdown panel.",
+   "component": "navbar",
+   "surface": null,
+   "dependencies": [
+    "framer-motion",
+    "lucide-react",
+    "class-variance-authority"
+   ],
+   "url": null
+  },
+  {
+   "name": "gooey-svg-filter",
+   "type": "ui",
+   "title": "Gooey SVG Filter",
+   "description": "An SVG filter that creates a gooey, fluid merging effect on adjacent elements using Gaussian blur and alpha-channel color matrix manipulation.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "gravity-stars",
+   "type": "ui",
+   "title": "Gravity Stars Background",
+   "description": "A background component featuring a subtle yet engaging animated gravity stars effect.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "highlight",
+   "type": "ui",
+   "title": "Highlight",
+   "description": "An animated highlight component that tracks elements with smooth spring animations.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "horizontal-depth-fade",
+   "type": "ui",
+   "title": "Horizontal Depth Fade",
+   "description": "Scroll-driven horizontal image strip on a single line with cinematic blur and brightness focus. GSAP ScrollTrigger implementation.",
+   "component": "elevation",
+   "surface": null,
+   "dependencies": [
+    "gsap"
+   ],
+   "url": null
+  },
+  {
+   "name": "hover-expand",
+   "type": "ui",
+   "title": "Hover Expand",
+   "description": "A vertical list of rows that expand on hover to reveal a full-width image, animated with Motion springs.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "hover-feature-cards",
+   "type": "ui",
+   "title": "Hover Feature Cards",
+   "description": "A responsive grid of feature cards where a description panel slides in from below on hover, with spring animation and optional image support.",
+   "component": "card",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "hover-image-list",
+   "type": "ui",
+   "title": "Hover Image List",
+   "description": "A list of large headings that reveal an image on the left and shift right on hover, animated with Motion.",
+   "component": "image-gallery",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "inline-testimonials",
+   "type": "ui",
+   "title": "Inline Testimonials",
+   "description": "Testimonials rendered as inline flowing text with circular avatars. Hover to blur others and reveal the author's name and role.",
+   "component": "quote",
+   "surface": "testimonials",
+   "dependencies": [
+    "motion",
+    "next"
+   ],
+   "url": null
+  },
+  {
+   "name": "kbd",
+   "type": "ui",
+   "title": "Kbd",
+   "description": "Keyboard key and shortcut display component with a soft, minimal key style.",
+   "component": "kbd",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "list-view-icon",
+   "type": "ui",
+   "title": "List View Icon",
+   "description": "Animated icon where three horizontal lines shuffle vertically when active, signaling a list view mode.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "magnetic-button",
+   "type": "ui",
+   "title": "Magnetic Button",
+   "description": "A button that magnetically follows cursor proximity with spring physics. Smoothly snaps back when the cursor leaves.",
+   "component": "hover-effect",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "class-variance-authority"
+   ],
+   "url": null
+  },
+  {
+   "name": "math-graph",
+   "type": "ui",
+   "title": "Math Graph",
+   "description": "A real-time visual math function builder with animated SVG curves, a pan/zoom canvas, crosshair tooltip, and support for multiple expressions simultaneously.",
+   "component": "chart",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "react-use-measure"
+   ],
+   "url": null
+  },
+  {
+   "name": "matrix",
+   "type": "ui",
+   "title": "Matrix",
+   "description": "An LED dot matrix display component with SVG pixels, radial glow, built-in digit/animation presets, and a VU meter mode.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "matrix-image",
+   "type": "ui",
+   "title": "Matrix Image",
+   "description": "An animated image component that simulates the iconic Matrix digital rain effect.",
+   "component": "image",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "motion-faqs-accordion",
+   "type": "ui",
+   "title": "Motion FAQs Accordion",
+   "description": "A clean Motion-powered FAQ accordion with spring-animated content reveal.",
+   "component": "animation",
+   "surface": "faq",
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "motion-navigation-menu",
+   "type": "component",
+   "title": "Motion Navigation Menu",
+   "description": "A spring-animated navigation menu with a single morphing container, layout-animated active pill, and direction-aware content transitions.",
+   "component": "navigation-menu",
+   "surface": null,
+   "dependencies": [
+    "framer-motion",
+    "lucide-react",
+    "class-variance-authority"
+   ],
+   "url": null
+  },
+  {
+   "name": "motion-slide-menu",
+   "type": "component",
+   "title": "Motion Slide Menu",
+   "description": "An animated React multi-level slide menu with recursive nested navigation, morphing category headers, and direction-aware transitions.",
+   "component": "animation",
+   "surface": null,
+   "dependencies": [
+    "framer-motion",
+    "lucide-react",
+    "react-use-measure"
+   ],
+   "url": null
+  },
+  {
+   "name": "motion-subtitle",
+   "type": "component",
+   "title": "Motion Subtitle",
+   "description": "Animated subtitle text with per-character reveal, blur transition, speed control, and top/bottom direction.",
+   "component": "animation",
+   "surface": null,
+   "dependencies": [
+    "framer-motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "motion-tabs-menu",
+   "type": "component",
+   "title": "Motion Tabs Menu",
+   "description": "A floating bottom tab bar that expands upward with spring animations to reveal tab-specific content, with direction-aware slide transitions.",
+   "component": "animation",
+   "surface": null,
+   "dependencies": [
+    "framer-motion",
+    "react-use-measure",
+    "lucide-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "nextjs-ship",
+   "type": "ui",
+   "title": "Next.js Ship",
+   "description": "Animated chip/CPU circuit board visualization with gradient pulse traces traveling along PCB-style paths.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "notion-floating-action-menu",
+   "type": "component",
+   "title": "Notion Floating Action Menu",
+   "description": "A faithful Notion-inspired quick-create menu with a compact action panel and an animated compose-to-close interaction.",
+   "component": "dropdown-menu",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "notion-mention-link",
+   "type": "ui",
+   "title": "Notion Mention Link",
+   "description": "A Notion-inspired rich link mention with a securely fetched preview card on hover.",
+   "component": "mentions",
+   "surface": null,
+   "dependencies": [
+    "next"
+   ],
+   "url": null
+  },
+  {
+   "name": "orbital-image-wheel",
+   "type": "ui",
+   "title": "Orbital Image Wheel",
+   "description": "Scroll-driven half-wheel image layout powered by GSAP ScrollTrigger, with cinematic blur/saturation/brightness focus and centered captions.",
+   "component": "image",
+   "surface": null,
+   "dependencies": [
+    "gsap"
+   ],
+   "url": null
+  },
+  {
+   "name": "orbiting-skills",
+   "type": "ui",
+   "title": "Orbiting Skills",
+   "description": "Animated skill badges that orbit a center element. On desktop the ring follows the cursor on hover; on mobile the ring is always visible.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "page-transition",
+   "type": "ui",
+   "title": "Page Transition",
+   "description": "GSAP-powered Next.js App Router page transition provider. Wraps your layout to animate between pages with a curtain reveal or slide push — ported from the Codrops async transition demo.",
+   "component": "page-transition",
+   "surface": null,
+   "dependencies": [
+    "gsap",
+    "next"
+   ],
+   "url": null
+  },
+  {
+   "name": "perspective-flow",
+   "type": "ui",
+   "title": "Perspective Flow",
+   "description": "Scroll-driven 3D image grid with perspective rotations, blur, brightness, and inner parallax — supports both GSAP ScrollTrigger and Framer Motion engines.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "framer-motion",
+    "gsap"
+   ],
+   "url": null
+  },
+  {
+   "name": "pinned-list",
+   "type": "ui",
+   "title": "Pinned List",
+   "description": "A list of items that animate smoothly to a pinned section using Framer Motion layout animations.",
+   "component": "list",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "lucide-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "pixel",
+   "type": "ui",
+   "title": "Pixel Background",
+   "description": "An interactive background featuring tiny pixel particles that ripple outward from the center on hover, then fade away.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "next-themes"
+   ],
+   "url": null
+  },
+  {
+   "name": "pixel-liquid-bg",
+   "type": "ui",
+   "title": "Pixel Liquid Background",
+   "description": "A full Navier-Stokes fluid simulation background with pixelation, Bayer dithering, film-grain noise, and auto-demo mode. Reacts to cursor movement.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "three"
+   ],
+   "url": null
+  },
+  {
+   "name": "pixel-scroll-transition",
+   "type": "ui",
+   "title": "Pixel Scroll Transition",
+   "description": "Canvas-based scroll transition that wipes between two colors with a configurable pixel grid, directional patterns, easing, and accent-color bands.",
+   "component": "transition",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "primitives-animate-avatar-group",
+   "type": "ui",
+   "title": "Avatar Group",
+   "description": "An animated avatar group that displays overlapping user images and smoothly shifts each avatar forward on hover to highlight it.",
+   "component": "avatar-group",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "primitives-animate-code-block",
+   "type": "ui",
+   "title": "Code Block",
+   "description": "A code block component that animates the code as it is written.",
+   "component": "code-block",
+   "surface": null,
+   "dependencies": [
+    "shiki"
+   ],
+   "url": null
+  },
+  {
+   "name": "primitives-animate-cursor",
+   "type": "ui",
+   "title": "Cursor",
+   "description": "An animated cursor component that allows you to customize both the cursor and cursor follow elements with smooth animations.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "primitives-animate-files",
+   "type": "ui",
+   "title": "Files",
+   "description": "Animated file-tree primitives with motion hover highlight, spring folder expand/collapse, and animated folder icon swap.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "primitives-animate-github-stars",
+   "type": "ui",
+   "title": "Github Stars",
+   "description": "A component that animates a number of stars, smoothly animating number transitions using the SlidingNumber component.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "primitives-animate-motion-grid",
+   "type": "ui",
+   "title": "Motion Grid",
+   "description": "A grid that displays animations in a grid.",
+   "component": "animation",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "primitives-animate-pinned-list",
+   "type": "ui",
+   "title": "Pin List",
+   "description": "A pin list component that allows you to pin items to the top of the list.",
+   "component": "list",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "primitives-animate-scroll-progress",
+   "type": "ui",
+   "title": "Scroll Progress",
+   "description": "A scroll progress component that allows you to track the progress of a scrollable element.",
+   "component": "scroll-driven-animation",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "primitives-animate-slot",
+   "type": "ui",
+   "title": "Animate Slot",
+   "description": "A slot component that allows you to use motion components with any element.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "primitives-animate-spring",
+   "type": "ui",
+   "title": "Spring",
+   "description": "A flexible, animated spring component that attaches a draggable element to its origin with a spring line.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "primitives-animate-tabs",
+   "type": "ui",
+   "title": "Tabs",
+   "description": "A set of layered sections of content—known as tab panels—that are displayed one at a time.",
+   "component": "tabs",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "primitives-animate-tooltip",
+   "type": "ui",
+   "title": "Tooltip",
+   "description": "An animated tooltip that shows contextual info on hover or focus and smoothly glides to the next element without disappearing between transitions.",
+   "component": "tooltip",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@floating-ui/react"
+   ],
+   "url": null
+  },
+  {
+   "name": "primitives-buttons-button",
+   "type": "ui",
+   "title": "Button",
+   "description": "A simple button that animates on hover and tap.",
+   "component": "button",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "primitives-buttons-flip",
+   "type": "ui",
+   "title": "Flip Button",
+   "description": "A button that flips between two states on hover.",
+   "component": "button",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "primitives-buttons-liquid",
+   "type": "ui",
+   "title": "Liquid Button",
+   "description": "A button that fills on hover.",
+   "component": "button",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "primitives-buttons-ripple",
+   "type": "ui",
+   "title": "Ripple Button",
+   "description": "A button that animates on tap with a ripple effect.",
+   "component": "button",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "primitives-effects-auto-height",
+   "type": "ui",
+   "title": "Auto Height",
+   "description": "An effect that automatically adjusts the height of an element based on its content.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "primitives-effects-blur",
+   "type": "ui",
+   "title": "Blur",
+   "description": "An effect that allows you to animate elements with a blur effect on first view or load.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "primitives-effects-click",
+   "type": "ui",
+   "title": "Click",
+   "description": "An effect that creates animated effects at the click position, adding interactive feedback to user actions.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "primitives-effects-effect",
+   "type": "ui",
+   "title": "Effect",
+   "description": "An effect that allows you to animate elements on first view or load.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "primitives-effects-fade",
+   "type": "ui",
+   "title": "Fade",
+   "description": "An effect that allows you to animate elements with a fade effect on first view or load.",
+   "component": "transition",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "primitives-effects-highlight-nav-menu",
+   "type": "ui",
+   "title": "Highlight Nav Menu",
+   "description": "A Radix UI NavigationMenu with animated highlight hover effects built in.",
+   "component": "navigation-menu",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-navigation-menu",
+    "class-variance-authority",
+    "lucide-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "primitives-effects-image-zoom",
+   "type": "ui",
+   "title": "Image Zoom",
+   "description": "An effect that allows you to zoom in on an image on hover.",
+   "component": "image",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "primitives-effects-magnetic",
+   "type": "ui",
+   "title": "Magnetic",
+   "description": "A magnetic effect that clings to the cursor, creating a magnetic attraction effect.",
+   "component": "hover-effect",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "primitives-effects-particles",
+   "type": "ui",
+   "title": "Particles",
+   "description": "A particles effect that creates a particle system.",
+   "component": "confetti",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "primitives-effects-shine",
+   "type": "ui",
+   "title": "Shine",
+   "description": "An animated light sweep effect with configurable timing, colors, and triggers (hover, tap, or continuous).",
+   "component": "hover-effect",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "primitives-effects-slide",
+   "type": "ui",
+   "title": "Slide",
+   "description": "An effect that allows you to animate elements with a slide effect on first view or load.",
+   "component": "transition",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "primitives-effects-theme-toggler",
+   "type": "ui",
+   "title": "Theme Toggler",
+   "description": "An effect that allows you to toggle the theme gradually.",
+   "component": "theme-provider",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "primitives-effects-tilt",
+   "type": "ui",
+   "title": "Tilt",
+   "description": "An effect that allows you to animate elements with a tilt effect on mouse hover.",
+   "component": "hover-effect",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "primitives-effects-velocity-highlight",
+   "type": "ui",
+   "title": "Velocity Highlight",
+   "description": "A highlight effect with smooth spring physics that tracks the active element across hover or click interactions.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "primitives-effects-zoom",
+   "type": "ui",
+   "title": "Zoom",
+   "description": "An effect that allows you to animate elements with a zoom effect on first view or load.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "primitives-texts-counting-number",
+   "type": "ui",
+   "title": "Counting Number",
+   "description": "A counting number animation.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "primitives-texts-gradient",
+   "type": "ui",
+   "title": "Gradient Text",
+   "description": "A gradient text animation.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "primitives-texts-highlight",
+   "type": "ui",
+   "title": "Highlight Text",
+   "description": "A highlight text animation.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "primitives-texts-morphing",
+   "type": "ui",
+   "title": "Morphing Text",
+   "description": "A text component that smoothly morphs characters to transition between strings.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "primitives-texts-rolling",
+   "type": "ui",
+   "title": "Rolling Text",
+   "description": "A rolling text animation.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "primitives-texts-rotating",
+   "type": "ui",
+   "title": "Rotating Text",
+   "description": "A rotating text animation.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "primitives-texts-scrolling-number",
+   "type": "ui",
+   "title": "Scrolling Number",
+   "description": "A scrolling number animation.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "primitives-texts-shimmering",
+   "type": "ui",
+   "title": "Shimmering Text",
+   "description": "A shimmering text animation.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "primitives-texts-sliding-number",
+   "type": "ui",
+   "title": "Sliding Number",
+   "description": "A sliding number animation.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "react-use-measure"
+   ],
+   "url": null
+  },
+  {
+   "name": "primitives-texts-splitting",
+   "type": "ui",
+   "title": "Splitting Text",
+   "description": "A splitting text animation.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "primitives-texts-typing",
+   "type": "ui",
+   "title": "Typing Text",
+   "description": "A typing text animation.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "progressive-blur",
+   "type": "ui",
+   "title": "Progressive Blur",
+   "description": "Top and bottom progressive blur overlays that stack multiple backdrop-filter layers to produce a smooth edge-to-transparent blur effect.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "questionnaire",
+   "type": "component",
+   "title": "Questionnaire",
+   "description": "A motion-enhanced multi-step questionnaire with animated checkpoints, direction-aware blur transitions, validation, and keyboard shortcuts.",
+   "component": "survey",
+   "surface": null,
+   "dependencies": [
+    "@shadcn/react",
+    "hugeicons-react",
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "refresh",
+   "type": "ui",
+   "title": "Refresh Button",
+   "description": "An icon button that spins on click and supports async refresh callbacks — ideal for reloading component previews or live data.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "class-variance-authority",
+    "motion",
+    "lucide-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "scramble-text",
+   "type": "ui",
+   "title": "Scramble Text",
+   "description": "A text animation component that reveals characters with a scramble/glitch effect, with imperative controls for manual triggering.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "scroll-reveal-image",
+   "type": "ui",
+   "title": "Scroll Reveal Image",
+   "description": "Scroll-driven image reveal with spring-physics width expansion, zoom-out, and border radius animation.",
+   "component": "scroll-reveal",
+   "surface": null,
+   "dependencies": [
+    "framer-motion",
+    "next"
+   ],
+   "url": null
+  },
+  {
+   "name": "shimmer-skeleton",
+   "type": "ui",
+   "title": "Shimmer Skeleton",
+   "description": "Lightweight loading skeleton with a smooth shimmer sweep animation.",
+   "component": "skeleton",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "shimmering-text",
+   "type": "ui",
+   "title": "Shimmering Text",
+   "description": "Animated gradient shimmer text with viewport-triggered and repeating animation support.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "side-by-side-slide",
+   "type": "ui",
+   "title": "Side By Side Slide",
+   "description": "An image comparison slider with a spring-animated divider that follows the cursor on hover, revealing before/after images.",
+   "component": "transition",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "sidebar-001",
+   "type": "ui",
+   "title": "Sidebar 001",
+   "description": "Animated vertical sidebar with spring hover highlight, active indicator bar, and per-item dash pattern.",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "lucide-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "sidebar-002",
+   "type": "ui",
+   "title": "Sidebar 002",
+   "description": "Slide-in overlay sidebar with spring animation, animated dash items, and cursor-following video preview.",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "sidebar-toggle-icon",
+   "type": "ui",
+   "title": "Sidebar Toggle Icon",
+   "description": "Animated SVG icon that morphs between open and closed sidebar panel states using Motion path interpolation.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "slider",
+   "type": "ui",
+   "title": "Slider",
+   "description": "Animated slider with spring-snapped thumb, step dots, range mode, and click-to-edit value display. Built on Radix UI Slider.",
+   "component": "slider",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@radix-ui/react-slider"
+   ],
+   "url": null
+  },
+  {
+   "name": "slot",
+   "type": "ui",
+   "title": "Animate Slot",
+   "description": "A slot component that allows you to use motion components with any element.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "smart-animate-text",
+   "type": "ui",
+   "title": "Smart Animate Text",
+   "description": "Per-character blur-slide animation with direct value changes and no animation queue.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "social-hover-cards",
+   "type": "component",
+   "title": "Social Hover Cards",
+   "description": "A row of social links with a shared morphing preview card and direction-aware content transitions.",
+   "component": "hover-card",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "square-pattern",
+   "type": "ui",
+   "title": "Square Pattern Background",
+   "description": "An interactive grid background where squares randomly light up with colors and react to hover.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "stacked-feature-cards",
+   "type": "ui",
+   "title": "Stacked Feature Cards",
+   "description": "A two-column section with a sticky animated hero card on the left and a stack of rotating feature cards on the right.",
+   "component": "card",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "lucide-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "switch",
+   "type": "ui",
+   "title": "Switch",
+   "description": "Animated toggle switch with a spring-driven thumb, smooth fill transition, and optional label.",
+   "component": "switch",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@radix-ui/react-switch"
+   ],
+   "url": null
+  },
+  {
+   "name": "tabs",
+   "type": "ui",
+   "title": "Tabs",
+   "description": "A set of layered sections of content—known as tab panels—that are displayed one at a time.",
+   "component": "tabs",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "tag",
+   "type": "component",
+   "title": "Tag",
+   "description": "Rounded outlined tags with six built-in pastel variants and an optional stacked group layout.",
+   "component": "tag",
+   "surface": null,
+   "dependencies": [
+    "nucleo-arcade",
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "team-stack",
+   "type": "component",
+   "title": "Team Stack",
+   "description": "A stacked deck of team member cards that fans out on hover (desktop) or tap (mobile), each with an animated CTA pill and spring physics.",
+   "component": "stack",
+   "surface": "team",
+   "dependencies": [
+    "motion",
+    "lucide-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "text-reveal",
+   "type": "ui",
+   "title": "Text Reveal",
+   "description": "Scroll-driven word-by-word or character-by-character text reveal using Motion's useScroll and useTransform.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "theme-switch",
+   "type": "ui",
+   "title": "Theme Switch",
+   "description": "Animated dark / light mode toggle button with a spring-driven sun ↔ moon icon swap and optional View Transition reveal.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "next-themes",
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "tilt",
+   "type": "ui",
+   "title": "Tilt",
+   "description": "A spring-animated 3D tilt wrapper that tracks the cursor inside the element.",
+   "component": "hover-effect",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "tilt-card",
+   "type": "ui",
+   "title": "Tilt Card",
+   "description": "A card with 3D spring tilt, optional floating image, badge and radial shine on hover.",
+   "component": "hover-effect",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "tooltip-preview",
+   "type": "ui",
+   "title": "Tooltip Preview",
+   "description": "Link tooltip that reveals a website preview card with title, description, image and favicon.",
+   "component": "tooltip",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "velocity-highlight",
+   "type": "ui",
+   "title": "Velocity Highlight",
+   "description": "A highlight effect with smooth spring physics that tracks the active element across hover or click interactions.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "vercel-snap-text",
+   "type": "ui",
+   "title": "Vercel Snap Text",
+   "description": "A scroll-driven text list that snaps exactly to each item. The active item scales up with an optional prefix, others fade and indent — all animated with Motion springs.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "vertical-marquee",
+   "type": "ui",
+   "title": "Vertical Marquee",
+   "description": "Two columns of tweet cards scrolling vertically in opposite directions with progressive fade at the edges.",
+   "component": "marquee",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "react-tweet"
+   ],
+   "url": null
+  },
+  {
+   "name": "video-ambient",
+   "type": "ui",
+   "title": "Video Ambient",
+   "description": "A video card with ambient blurred reflections and optional overlay styling.",
+   "component": "video-player",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "video-slider",
+   "type": "ui",
+   "title": "Video Slider",
+   "description": "A video carousel with animated slide transitions and playback controls.",
+   "component": "video-player",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "lucide-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "wave-background",
+   "type": "ui",
+   "title": "Wave Background",
+   "description": "A morphing SVG wave divider that transitions between sections. Supports scroll-driven morphing and ambient looping animation modes.",
+   "component": "particle-background",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  }
+ ]
+}

@@ -152,7 +152,8 @@
     "svelte",
     "astro",
     "react-native",
-    "web-components"
+    "web-components",
+    "vanilla"
    ],
    "styling": [
     "not-applicable"
@@ -254,7 +255,8 @@
    "pricing": [
     "freemium",
     "subscription",
-    "account-required"
+    "account-required",
+    "one-time"
    ],
    "distribution": [
     "download",
@@ -340,7 +342,7 @@
     "not-applicable"
    ],
    "license": [
-    "unknown"
+    "not-applicable"
    ],
    "pricing": [
     "free",
@@ -353,7 +355,7 @@
     "web"
    ],
    "accessibility": [
-    "unknown"
+    "not-applicable"
    ],
    "content_type": [
     "prose",
@@ -436,7 +438,8 @@
     "tailwind-any"
    ],
    "license": [
-    "mit"
+    "mit",
+    "source-available"
    ],
    "pricing": [
     "free",
@@ -540,7 +543,7 @@
     "web"
    ],
    "accessibility": [
-    "unknown"
+    "not-applicable"
    ],
    "content_type": [
     "screenshots",
@@ -574,7 +577,13 @@
   "package": null,
   "docs_url": "https://www.a1.gallery/mcp.md",
   "repo_url": null,
-  "registry_url": "https://www.a1.gallery/api/mcp",
+  "registry_url": null,
+  "machine_urls": [
+   {
+    "kind": "mcp",
+    "url": "https://www.a1.gallery/api/mcp"
+   }
+  ],
   "github": {
    "stars": null,
    "license": null,
@@ -619,7 +628,8 @@
    "pricing": [
     "freemium",
     "subscription",
-    "account-required"
+    "account-required",
+    "sponsor-supported"
    ],
    "distribution": [
     "gallery",
@@ -631,7 +641,7 @@
     "web"
    ],
    "accessibility": [
-    "unknown"
+    "not-applicable"
    ],
    "content_type": [
     "screenshots",
@@ -732,7 +742,7 @@
     "web"
    ],
    "accessibility": [
-    "unknown"
+    "not-applicable"
    ],
    "content_type": [
     "screenshots"

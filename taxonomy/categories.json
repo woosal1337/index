@@ -530,6 +530,12 @@
   {
    "slug": "component-library",
    "name": "Component Library",
+   "aliases": [
+    "component library",
+    "ui kit",
+    "ui library",
+    "ui components"
+   ],
    "definition": "A maintained set of reusable interface components you install or copy into a codebase.",
    "expects_fields": [
     "components",
@@ -563,6 +569,11 @@
   {
    "slug": "animation-library",
    "name": "Animation Library",
+   "aliases": [
+    "animation library",
+    "motion library",
+    "animations"
+   ],
    "definition": "A runtime that drives animation, or a component set whose defining feature is motion.",
    "expects_fields": [
     "package",
@@ -574,6 +585,12 @@
   {
    "slug": "block-collection",
    "name": "Block Collection",
+   "aliases": [
+    "blocks",
+    "sections",
+    "page blocks",
+    "ui blocks"
+   ],
    "definition": "Page-level sections — hero, pricing, features, footer — supplied as ready code.",
    "expects_fields": [
     "blocks",
@@ -585,6 +602,13 @@
   {
    "slug": "template",
    "name": "Template",
+   "aliases": [
+    "starter",
+    "starter kit",
+    "boilerplate",
+    "templates",
+    "starters"
+   ],
    "definition": "A complete site, app, or project starter you clone and adapt.",
    "expects_fields": [
     "stack",
@@ -607,6 +631,10 @@
   {
    "slug": "design-system-docs",
    "name": "Design System Docs",
+   "aliases": [
+    "design system",
+    "design systems"
+   ],
    "definition": "The published documentation of a real design system, or a gallery of such systems.",
    "expects_fields": [
     "owner",
@@ -618,6 +646,11 @@
   {
    "slug": "brand-guidelines",
    "name": "Brand Guidelines",
+   "aliases": [
+    "brand guidelines",
+    "brand book",
+    "brand guide"
+   ],
    "definition": "An organisation's identity manual, brand deck, or IP usage rules.",
    "expects_fields": [
     "owner",
@@ -649,6 +682,12 @@
   {
    "slug": "icon-set",
    "name": "Icon Set",
+   "aliases": [
+    "icons",
+    "icon pack",
+    "icon library",
+    "icon set"
+   ],
    "definition": "A family of icons distributed as SVG or framework components.",
    "expects_fields": [
     "icon_count",
@@ -660,6 +699,11 @@
   {
    "slug": "typeface",
    "name": "Typeface",
+   "aliases": [
+    "font",
+    "fonts",
+    "typefaces"
+   ],
    "definition": "A single font family with its own weights, styles, and licence.",
    "expects_fields": [
     "family_name",
@@ -682,6 +726,12 @@
   {
    "slug": "color-tool",
    "name": "Color Tool",
+   "aliases": [
+    "palette",
+    "palettes",
+    "color palette",
+    "palette generator"
+   ],
    "definition": "A generator, picker, or palette collection that outputs color values or scales.",
    "expects_fields": [
     "output_formats",
@@ -702,6 +752,10 @@
   {
    "slug": "shader-pack",
    "name": "Shader Pack",
+   "aliases": [
+    "shader",
+    "shaders"
+   ],
    "definition": "Real-time GPU effects supplied as components or GLSL source.",
    "expects_fields": [
     "shaders",
@@ -724,6 +778,11 @@
   {
    "slug": "mockup-tool",
    "name": "Mockup Tool",
+   "aliases": [
+    "mockup",
+    "mockups",
+    "device mockup"
+   ],
    "definition": "An editor that composes 3D scenes, device mockups, or key visuals in the browser.",
    "expects_fields": [
     "asset_types",
@@ -745,6 +804,14 @@
   {
    "slug": "gallery",
    "name": "Gallery",
+   "aliases": [
+    "inspiration",
+    "examples",
+    "showcase",
+    "galleries",
+    "references",
+    "screens"
+   ],
    "definition": "A curated visual index of shipped work — sites, screens, sections, or single elements.",
    "expects_fields": [
     "item_count",
@@ -766,6 +833,17 @@
   {
    "slug": "article",
    "name": "Article",
+   "aliases": [
+    "guide",
+    "guides",
+    "essay",
+    "tutorial",
+    "best practices",
+    "how to",
+    "explained",
+    "article",
+    "articles"
+   ],
    "definition": "A published piece of prose on a blog, magazine, or content site.",
    "expects_fields": [
     "author",
@@ -788,6 +866,12 @@
   {
    "slug": "course",
    "name": "Course",
+   "aliases": [
+    "course",
+    "courses",
+    "class",
+    "lessons"
+   ],
    "definition": "Structured paid or free teaching, delivered as lessons or a masterclass.",
    "expects_fields": [
     "instructor",
@@ -832,6 +916,11 @@
   {
    "slug": "portfolio",
    "name": "Portfolio",
+   "aliases": [
+    "portfolio",
+    "portfolios",
+    "personal site"
+   ],
    "definition": "An individual's own site showing their work.",
    "expects_fields": [
     "person",
@@ -843,6 +932,12 @@
   {
    "slug": "studio",
    "name": "Studio",
+   "aliases": [
+    "studio",
+    "studios",
+    "agency",
+    "design agency"
+   ],
    "definition": "A design or branding company site presenting services and clients.",
    "expects_fields": [
     "name",
@@ -876,6 +971,12 @@
   {
    "slug": "agent-skill",
    "name": "Agent Skill",
+   "aliases": [
+    "skill",
+    "skills",
+    "agent skill",
+    "claude skill"
+   ],
    "definition": "An installable skill, command set, or rule pack for a coding agent.",
    "expects_fields": [
     "install",
@@ -887,6 +988,11 @@
   {
    "slug": "mcp-server",
    "name": "MCP Server",
+   "aliases": [
+    "mcp",
+    "mcp server",
+    "mcp servers"
+   ],
    "definition": "An endpoint a coding agent connects to for design context or asset delivery.",
    "expects_fields": [
     "endpoint",
@@ -898,6 +1004,10 @@
   {
    "slug": "design-md",
    "name": "DESIGN.md",
+   "aliases": [
+    "design.md",
+    "design md"
+   ],
    "definition": "A machine-readable design specification for one site or brand, or a catalog of such files.",
    "expects_fields": [
     "subject_site",
@@ -909,6 +1019,11 @@
   {
    "slug": "prompt-pack",
    "name": "Prompt Pack",
+   "aliases": [
+    "prompts",
+    "prompt library",
+    "prompt pack"
+   ],
    "definition": "A curated set of prompts aimed at a specific generation tool.",
    "expects_fields": [
     "prompt_count",

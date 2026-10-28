@@ -167,6 +167,7 @@
   "id": "4da50322-1c65-490c-839d-1e6f69cfb8fa",
   "slug": "ai-elements",
   "url": "https://ai-sdk.dev/elements/overview",
+  "part_of": "depo:j575nsrxttxjgrwpapbe5ev7cx81scez",
   "name": "AI Elements",
   "tagline": "Vercel's 47-component shadcn registry for chat, agent, voice and workflow UIs",
   "description": "AI Elements is Vercel's component library and custom shadcn registry for AI-native app UIs, split into Chatbot, Code, Voice, Workflow and Utilities groups. It covers the parts that are tedious to hand-roll: streaming messages, reasoning and chain-of-thought panels, tool calls, approval confirmations, citations and sources, sandboxes, file trees, stack traces, voice transcription, and a node/edge agent canvas. Components install into your own tree via `ai-elements` or the shadcn CLI and are wired to the Vercel AI SDK for streaming and type safety. It is the default starting point if you are already on the AI SDK.",
@@ -182,7 +183,8 @@
     "next"
    ],
    "styling": [
-    "tailwind-v4"
+    "tailwind-v4",
+    "css-variables"
    ],
    "license": [
     "unknown"
@@ -481,7 +483,13 @@
   "package": null,
   "docs_url": "https://lucide-animated.com/llms.txt",
   "repo_url": "https://github.com/pqoqubbw/icons",
-  "registry_url": "https://lucide-animated.com/mcp",
+  "registry_url": null,
+  "machine_urls": [
+   {
+    "kind": "mcp",
+    "url": "https://lucide-animated.com/mcp"
+   }
+  ],
   "github": {
    "stars": 7997,
    "license": "MIT",
@@ -533,7 +541,8 @@
     "astro"
    ],
    "styling": [
-    "tailwind-any"
+    "tailwind-any",
+    "css-variables"
    ],
    "license": [
     "commercial",
@@ -881,7 +890,7 @@
   "package": null,
   "docs_url": "https://ui.manifest.build/blocks",
   "repo_url": "https://github.com/mnfst/manifest-ui",
-  "registry_url": "https://ui.manifest.build",
+  "registry_url": "https://ui.manifest.build/r/registry.json",
   "github": {
    "stars": 34,
    "license": "MIT",

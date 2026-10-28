@@ -1,0 +1,3577 @@
+{
+ "resource_id": "9871b26b-a9e3-4c67-a768-b3ff3d7448a4",
+ "registry_url": "https://ui.aceternity.com/registry.json",
+ "install_verified": false,
+ "checked": "2026-10-23",
+ "items": [
+  {
+   "name": "3d-card",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "card",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "3d-globe",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "three",
+    "@react-three/fiber",
+    "@react-three/drei"
+   ],
+   "url": null
+  },
+  {
+   "name": "3d-marquee",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "marquee",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "3d-pin",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "about-us-section-with-cards",
+   "type": "block",
+   "title": null,
+   "description": "About us section with a fan of draggable photo cards",
+   "component": "section",
+   "surface": "about",
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "animated-beam-path-illustration",
+   "type": "block",
+   "title": null,
+   "description": "Animated beam path illustration with glowing SVG animation following a dotted path",
+   "component": "breadcrumbs",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "animated-modal",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "modal",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "animated-testimonials",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "quote",
+   "surface": "testimonials",
+   "dependencies": [
+    "@tabler/icons-react",
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "animated-tooltip",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "tooltip",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "apple-cards-carousel",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "card",
+   "surface": null,
+   "dependencies": [
+    "@tabler/icons-react",
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "ascii-art",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "aurora-background",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "gradient-background",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "background-beams",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "background-beams-with-collision",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "background-boxes",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "mini-svg-data-uri",
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "background-cubes-grid",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "data-grid",
+   "surface": null,
+   "dependencies": [
+    "three",
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "background-dots",
+   "type": "block",
+   "title": null,
+   "description": "Background Dots",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "background-dots-masked",
+   "type": "block",
+   "title": null,
+   "description": "Background Dots Masked",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "background-dots-masked-vertical",
+   "type": "block",
+   "title": null,
+   "description": "Background Dots Masked Vertical",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "background-gradient",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "background-gradient-animation",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "animation",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "background-grid-with-dots",
+   "type": "block",
+   "title": null,
+   "description": "Background Grid with Dots",
+   "component": "data-grid",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "background-grid-with-dots-and-animations",
+   "type": "block",
+   "title": null,
+   "description": "Background Grid with Dots and Animations",
+   "component": "data-grid",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "background-lines",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "background-lines",
+   "type": "block",
+   "title": null,
+   "description": "Background Lines",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "background-noise-grid",
+   "type": "block",
+   "title": null,
+   "description": "Background Noise Grid",
+   "component": "gradient-background",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "background-ripple-effect",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "ripple",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "background-with-full-video",
+   "type": "block",
+   "title": null,
+   "description": "Background With Full Video",
+   "component": "video-player",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "background-with-shooting-stars",
+   "type": "block",
+   "title": null,
+   "description": "Background With Shooting Stars",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "background-with-skewed-lines",
+   "type": "block",
+   "title": null,
+   "description": "Background With Skewed Lines",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "background-with-skewed-rectangles",
+   "type": "block",
+   "title": null,
+   "description": "Background With Skewed Rectangles",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "bento-grid",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "bento-grid",
+   "surface": null,
+   "dependencies": [
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "bento-grid-example-three",
+   "type": "block",
+   "title": null,
+   "description": "Bento Grid Example Three",
+   "component": "bento-grid",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "cobe"
+   ],
+   "url": null
+  },
+  {
+   "name": "bento-grid-illustrations",
+   "type": "block",
+   "title": null,
+   "description": "Bento grid showcasing MacBook, iPhone, iPad, and Dynamic Island illustrations",
+   "component": "bento-grid",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "bento-grid-with-skeletons",
+   "type": "block",
+   "title": null,
+   "description": "A grid of 6 with skeletons, title and descriptions. Skeletons are modern and designed to be minimal. With chat like interfaces for skeletons, perfect for showcasing features or demos of product.",
+   "component": "bento-grid",
+   "surface": null,
+   "dependencies": [
+    "@tabler/icons-react",
+    "react-fast-marquee"
+   ],
+   "url": null
+  },
+  {
+   "name": "blog-content-centered",
+   "type": "block",
+   "title": null,
+   "description": "Blog Content Centered",
+   "component": null,
+   "surface": "blog",
+   "dependencies": [
+    "react-markdown",
+    "date-fns"
+   ],
+   "url": null
+  },
+  {
+   "name": "blog-content-with-toc",
+   "type": "block",
+   "title": null,
+   "description": "Blog Content With Toc",
+   "component": "in-page-navigation",
+   "surface": "blog",
+   "dependencies": [
+    "motion",
+    "react-markdown",
+    "date-fns",
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "blog-with-categories",
+   "type": "block",
+   "title": null,
+   "description": "Blog listing with three featured cards and a denser four-column grid below, category labels on each post",
+   "component": null,
+   "surface": "blog",
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "blog-with-search",
+   "type": "block",
+   "title": null,
+   "description": "Blog With Search",
+   "component": "search-input",
+   "surface": "blog",
+   "dependencies": [
+    "fuzzy-search",
+    "date-fns"
+   ],
+   "url": null
+  },
+  {
+   "name": "blog-with-search-magazine",
+   "type": "block",
+   "title": null,
+   "description": "Blog With Search — magazine layout with cover story and card grid",
+   "component": "search-input",
+   "surface": "blog",
+   "dependencies": [
+    "fuzzy-search",
+    "date-fns"
+   ],
+   "url": null
+  },
+  {
+   "name": "box-illustration",
+   "type": "block",
+   "title": null,
+   "description": "Interactive box illustration with popout cards on hover",
+   "component": "box",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "canvas-reveal-effect",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "node-editor",
+   "surface": null,
+   "dependencies": [
+    "three",
+    "@react-three/fiber"
+   ],
+   "url": null
+  },
+  {
+   "name": "canvas-text",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "node-editor",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "card-hover-effect",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "hover-effect",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "card-spotlight",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "card",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "card-stack",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "card",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "cards-demo-1",
+   "type": "block",
+   "title": null,
+   "description": "Background Overlay Card",
+   "component": "card",
+   "surface": null,
+   "dependencies": [
+    "react-icons"
+   ],
+   "url": null
+  },
+  {
+   "name": "cards-demo-2",
+   "type": "block",
+   "title": null,
+   "description": "Content Card",
+   "component": "card",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "cards-demo-3",
+   "type": "block",
+   "title": null,
+   "description": "Feature Block Animated Card",
+   "component": "card",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "react-icons"
+   ],
+   "url": null
+  },
+  {
+   "name": "carousel",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "carousel",
+   "surface": null,
+   "dependencies": [
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "centered-around-testimonials",
+   "type": "block",
+   "title": null,
+   "description": "Centered Around Testimonials",
+   "component": "quote",
+   "surface": "testimonials",
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "centered-with-logo",
+   "type": "block",
+   "title": null,
+   "description": "Centered With Logo",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "chat-conversation",
+   "type": "block",
+   "title": null,
+   "description": "Chat Conversation",
+   "component": "conversation",
+   "surface": "chat-mobile",
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "chromatic-image",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "image",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "cloud-shader",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "code-block",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "code-block",
+   "surface": null,
+   "dependencies": [
+    "@tabler/icons-react",
+    "react-syntax-highlighter"
+   ],
+   "url": null
+  },
+  {
+   "name": "collaborative-cursors",
+   "type": "block",
+   "title": null,
+   "description": "Collaborative Cursors",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "collapsible-sidebar",
+   "type": "block",
+   "title": null,
+   "description": "Collapsible Sidebar",
+   "component": "collapsible",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "colourful-text",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "typography",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "comet-card",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "card",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "compare",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": "compare",
+   "dependencies": [
+    "@tabler/icons-react",
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "contact-form-grid-with-details",
+   "type": "block",
+   "title": null,
+   "description": "Contact Form Grid With Details",
+   "component": "form",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "contact-section-with-shader",
+   "type": "block",
+   "title": null,
+   "description": "Contact Section With Shader Background and Rotating Testimonials",
+   "component": "section",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "contact-with-dither-image",
+   "type": "block",
+   "title": null,
+   "description": "Contact section with dithered landscape background, testimonial card, and split form",
+   "component": "image",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "container-scroll-animation",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "container",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "container-text-flip",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "container",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "cover",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "cta-centered-masonry-gallery",
+   "type": "block",
+   "title": null,
+   "description": "CTA Centered Masonry Gallery",
+   "component": "image-gallery",
+   "surface": null,
+   "dependencies": [
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "cta-with-background-noise",
+   "type": "block",
+   "title": null,
+   "description": "CTA With Background Noise",
+   "component": "button",
+   "surface": null,
+   "dependencies": [
+    "react-icons"
+   ],
+   "url": null
+  },
+  {
+   "name": "cta-with-centered-text",
+   "type": "block",
+   "title": null,
+   "description": "CTA With Centered Text",
+   "component": "button",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "cta-with-dashed-grid-lines",
+   "type": "block",
+   "title": null,
+   "description": "CTA With Dashed Grid Lines",
+   "component": "button",
+   "surface": null,
+   "dependencies": [
+    "react-icons",
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "cta-with-masonry-images",
+   "type": "block",
+   "title": null,
+   "description": "CTA With Masonry Images",
+   "component": "button",
+   "surface": null,
+   "dependencies": [
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "cta-with-right-gradient-and-animation",
+   "type": "block",
+   "title": null,
+   "description": "CTA With Right Gradient And Animation",
+   "component": "button",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "direction-aware-hover",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "direction-provider",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "dither-features",
+   "type": "block",
+   "title": null,
+   "description": "Feature section with dithered image backdrop, tabbed content cards, and chat conversation skeletons",
+   "component": null,
+   "surface": "features",
+   "dependencies": [
+    "motion",
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "dither-shader",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "dot-distortion-shader",
+   "type": "block",
+   "title": null,
+   "description": "A dot distortion shader for creating dynamic background effects.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "dotted-glow-background",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "hover-effect",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "draggable-card",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "drag-and-drop",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "draggable-cards",
+   "type": "block",
+   "title": null,
+   "description": "Swipeable stack of profile cards with spring physics; flick cards off the deck and they cycle to the back",
+   "component": "drag-and-drop",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "dynamic-island",
+   "type": "block",
+   "title": null,
+   "description": "Animated Dynamic Island with customizable idle, loading, and processed states",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "empty-state-vertical-grid",
+   "type": "block",
+   "title": null,
+   "description": "Full-height empty state on a dotted canvas with three image cards for choosing how to start",
+   "component": "empty-state",
+   "surface": "empty-state",
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "empty-state-with-cards",
+   "type": "block",
+   "title": null,
+   "description": "Empty project state with corner grid lines, CTAs, and fanned template thumbnails",
+   "component": "empty-state",
+   "surface": "empty-state",
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "empty-state-with-draggable-cards",
+   "type": "block",
+   "title": null,
+   "description": "Empty hiring-style layout with a swipeable card deck above primary actions",
+   "component": "empty-state",
+   "surface": "empty-state",
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "empty-state-with-pictures",
+   "type": "block",
+   "title": null,
+   "description": "Centered empty state with stacked photo frames and gentle motion",
+   "component": "empty-state",
+   "surface": "empty-state",
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "empty-state-with-stacked-cards",
+   "type": "block",
+   "title": null,
+   "description": "Soft panel empty state with overlapping template previews and doc link",
+   "component": "empty-state",
+   "surface": "empty-state",
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "encrypted-text",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "evervault-card",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "card",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "expandable-card-on-click",
+   "type": "block",
+   "title": null,
+   "description": "Expandable Card On Click",
+   "component": "accordion",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "faqs-with-dashed-lines",
+   "type": "block",
+   "title": null,
+   "description": "FAQs With Dashed Lines and Accordion",
+   "component": null,
+   "surface": "faq",
+   "dependencies": [
+    "motion",
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "faqs-with-grid",
+   "type": "block",
+   "title": null,
+   "description": "Faqs With Grid",
+   "component": "data-grid",
+   "surface": "faq",
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "feature-grid-with-illustrations-and-bento",
+   "type": "block",
+   "title": null,
+   "description": "Six-card bento grid with detailed animated illustrations",
+   "component": "bento-grid",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "feature-grid-with-minimal-illustrations",
+   "type": "block",
+   "title": null,
+   "description": "Three-column feature grid with laptop, phone, and tablet illustrations",
+   "component": "bento-grid",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "feature-grid-with-motion-and-tabs",
+   "type": "block",
+   "title": null,
+   "description": "Three-step feature grid with auto-advancing tabs and animated visuals",
+   "component": "bento-grid",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "feature-section-bento-skeletons",
+   "type": "block",
+   "title": null,
+   "description": "Bento Grid Feature Section With Animated Skeletons",
+   "component": "section",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "feature-section-with-centered-skeleton",
+   "type": "block",
+   "title": null,
+   "description": "Three-column feature section with icon-led copy on the sides and a centered showcase area (image backdrop plus animated reveal)",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "lucide-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "feature-section-with-horizontal-skeletons",
+   "type": "block",
+   "title": null,
+   "description": "Feature section with horizontal device skeletons (iPhone, MacBook, iPad) with animated beams, Dynamic Island interactions, and compliance/security cards",
+   "component": "section",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "svg-dotted-map",
+    "lucide-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "feature-section-with-terminal",
+   "type": "block",
+   "title": null,
+   "description": "Feature section with animated terminal and expandable feature tabs",
+   "component": "section",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "feature-section-with-vertical-grids",
+   "type": "block",
+   "title": null,
+   "description": "Feature section with vertical grid layout, animated skeletons including login form, world map, chat conversation, and keyboard",
+   "component": "section",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "svg-dotted-map",
+    "lucide-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "feature-with-inline-icons",
+   "type": "block",
+   "title": null,
+   "description": "Minimal feature grid with inline icons and responsive separators",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "features-grid-with-large-skeletons",
+   "type": "block",
+   "title": null,
+   "description": "A grid of 3 with micro-interactions and animations. Title and descriptions are flex row aligned on desktop screens and column on mobile screens. There are skeleton items with perspective designs, adding depth into the design. Cards have title, description, badge, and tags.",
+   "component": "data-grid",
+   "surface": "features",
+   "dependencies": [
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "features-section-demo-1",
+   "type": "block",
+   "title": null,
+   "description": "Simple with card gradient",
+   "component": "section",
+   "surface": "features",
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "features-section-demo-2",
+   "type": "block",
+   "title": null,
+   "description": "Simple with hover effects",
+   "component": "section",
+   "surface": "features",
+   "dependencies": [
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "features-section-demo-3",
+   "type": "block",
+   "title": null,
+   "description": "Bento Grid",
+   "component": "section",
+   "surface": "features",
+   "dependencies": [
+    "@tabler/icons-react",
+    "cobe",
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "features-section-with-skeletons",
+   "type": "block",
+   "title": null,
+   "description": "Features Section With Skeletons",
+   "component": "section",
+   "surface": "features",
+   "dependencies": [
+    "motion",
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "features-with-accordion-and-image",
+   "type": "block",
+   "title": null,
+   "description": "Feature section with accordion list, CTAs, and a cinematic image preview with floating assistant UI",
+   "component": "accordion",
+   "surface": "features",
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "features-with-hover-and-text-animation",
+   "type": "block",
+   "title": null,
+   "description": "Feature grid with hover-driven headline and Motion text swap, responsive cell dividers",
+   "component": "typography",
+   "surface": "features",
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "features-with-isometric-blocks",
+   "type": "block",
+   "title": null,
+   "description": "Feature cards with animated isometric box illustrations",
+   "component": null,
+   "surface": "features",
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "features-with-square-edges",
+   "type": "block",
+   "title": null,
+   "description": "Three-column feature section with square-edged cards, corner marks, and AI note-taking UI mockups",
+   "component": "node-editor",
+   "surface": "features",
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "features-with-stacked-isometric-boxes",
+   "type": "block",
+   "title": null,
+   "description": "Feature section with stacked isometric boxes and autoplay animation",
+   "component": null,
+   "surface": "features",
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "features-with-sticky-scroll",
+   "type": "block",
+   "title": null,
+   "description": "Features with sticky scroll",
+   "component": "scroll-driven-animation",
+   "surface": "features",
+   "dependencies": [
+    "motion",
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "file-upload",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "file-upload",
+   "surface": null,
+   "dependencies": [
+    "@tabler/icons-react",
+    "react-dropzone",
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "flip-words",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "flipping-images-with-bar",
+   "type": "block",
+   "title": null,
+   "description": "Animated Image Carousel with Scanning Bar Reveal and Sparkle Effects",
+   "component": "image",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "floating-dock",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "dock",
+   "surface": null,
+   "dependencies": [
+    "@tabler/icons-react",
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "floating-navbar",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "navbar",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "focus-cards",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "card",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "folder-with-files",
+   "type": "block",
+   "title": null,
+   "description": "Folder With Files",
+   "component": "file-card",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "following-pointer",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "footer-with-big-text",
+   "type": "block",
+   "title": null,
+   "description": "Footer With Big Text",
+   "component": "footer",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "footer-with-grid",
+   "type": "block",
+   "title": null,
+   "description": "Footer With Grid",
+   "component": "footer",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "frequently-asked-questions-accordion",
+   "type": "block",
+   "title": null,
+   "description": "Frequently Asked Questions Accordion",
+   "component": "accordion",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "full-background-image-with-text",
+   "type": "block",
+   "title": null,
+   "description": "Full Background Image With Text",
+   "component": "image",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "glare-card",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "card",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "globe",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "three",
+    "three-globe",
+    "@react-three/fiber@alpha",
+    "@react-three/drei"
+   ],
+   "url": null
+  },
+  {
+   "name": "glowing-effect",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "glowing-stars",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "gooey-input",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "text-input",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "google-gemini-effect",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "grid",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "data-grid",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "grouped-sidebar",
+   "type": "block",
+   "title": null,
+   "description": "Grouped Sidebar with Collapsible Groups and Persistent State",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "hero-highlight",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "hero",
+   "surface": null,
+   "dependencies": [
+    "mini-svg-data-uri",
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "hero-parallax",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "hero",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "hero-section-with-beams-and-grid",
+   "type": "block",
+   "title": null,
+   "description": "Hero Section With Beams and Grid",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [
+    "react-wrap-balancer",
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "hero-section-with-dither-background",
+   "type": "block",
+   "title": null,
+   "description": "Hero Section With Dither Background",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [
+    "@tabler/icons-react",
+    "react-fast-marquee"
+   ],
+   "url": null
+  },
+  {
+   "name": "hero-section-with-flickering-lights",
+   "type": "block",
+   "title": null,
+   "description": "Hero Section With Flickering Lights",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "hero-section-with-hub",
+   "type": "block",
+   "title": null,
+   "description": "Centered SaaS hero with pill CTAs and a hub-and-spoke tool diagram",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "hero-section-with-images-grid-and-navbar",
+   "type": "block",
+   "title": null,
+   "description": "Hero Section With Images Grid and Navbar",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "react-fast-marquee",
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "hero-section-with-infinite-scroll-cards",
+   "type": "block",
+   "title": null,
+   "description": "Hero Section With Infinite Scroll Cards",
+   "component": "infinite-scroll",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "hero-section-with-mesh-gradient",
+   "type": "block",
+   "title": null,
+   "description": "Hero Section With Mesh Gradient",
+   "component": "gradient-background",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "hero-section-with-mousemove",
+   "type": "block",
+   "title": null,
+   "description": "Hero section with hover highlight showing element dimensions and sliding number animation",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "react-use-measure"
+   ],
+   "url": null
+  },
+  {
+   "name": "hero-section-with-multi-color-background",
+   "type": "block",
+   "title": null,
+   "description": "Hero Section With Multi Color Background",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "hero-section-with-noise-background",
+   "type": "block",
+   "title": null,
+   "description": "Hero Section With Noise Background",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "hero-section-with-shadow-and-scales",
+   "type": "block",
+   "title": null,
+   "description": "Hero Section With Shadow and Scales",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "hero-section-with-tabs",
+   "type": "block",
+   "title": null,
+   "description": "Hero Section With Tabs",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "hero-with-background-and-navbar",
+   "type": "block",
+   "title": null,
+   "description": "Hero With Background And Navbar",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "hero-with-centered-image",
+   "type": "block",
+   "title": null,
+   "description": "Hero With Centered Image",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "react-icons"
+   ],
+   "url": null
+  },
+  {
+   "name": "hero-with-chat-input",
+   "type": "block",
+   "title": null,
+   "description": "Hero with navbar, large chat-style prompt textarea, action bar, and sample work grid",
+   "component": "prompt-input",
+   "surface": "chat-mobile",
+   "dependencies": [
+    "framer-motion",
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "hero-with-dither-shader",
+   "type": "block",
+   "title": null,
+   "description": "Hero with animated dither shader background, scale bands, product screenshot, and logo rail",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "hero-with-fluid-gradient-and-planner",
+   "type": "block",
+   "title": null,
+   "description": "Hero with a drifting fluid gradient, navbar, mode toggle, trip prompt input, and a partner logo marquee",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "lucide-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "hero-with-framed-image-and-logos",
+   "type": "block",
+   "title": null,
+   "description": "Hero with hatch scale bands, corner frames, split copy and image, and a logo rail",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "hero-with-image-and-scales",
+   "type": "block",
+   "title": null,
+   "description": "A modern hero section with image and scales. Incorporates tailwind's blue 500 variant of color. A beautiful hero section with title, description, 2 CTA buttons and an Image. Image has a mouse move event that shows the scales behind the image. Perfect for hero sections that require a  modern look.",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "hero-with-logo-ticker-and-workspace",
+   "type": "block",
+   "title": null,
+   "description": "Dark and light hero with a split headline and logo ticker, above a three-panel app workspace with a crossfading clip player, sidebar, and assistant log",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "hover-border-gradient",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "image-generation-loader",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "image",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "images-badge",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "image",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "images-slider",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "image",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "inference-landing-page",
+   "type": "block",
+   "title": null,
+   "description": "Dark landing page for Kestrel, a global AI inference platform, with a dashboard hero, feature tabs, a draggable workflow canvas, a live network map, a code demo, a model catalog, pricing, a dithered CTA and footer",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@tabler/icons-react",
+    "class-variance-authority",
+    "liveline"
+   ],
+   "url": null
+  },
+  {
+   "name": "infinite-moving-cards",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "card",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "inline-icon-illustration",
+   "type": "block",
+   "title": null,
+   "description": "Headline with inline logo badge, periodic wiggle, and dashed connector to icon callouts",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "input",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "text-input",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "ipad-illustration",
+   "type": "block",
+   "title": null,
+   "description": "Interactive iPad illustration with Dynamic Island animation",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "iphone-illustration",
+   "type": "block",
+   "title": null,
+   "description": "Interactive iPhone illustration with Dynamic Island animation",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "isometric-box",
+   "type": "block",
+   "title": null,
+   "description": "Minimal Isometric Box Illustration with Hover Animation",
+   "component": "box",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "keyboard",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@tabler/icons-react",
+    "motion/react"
+   ],
+   "url": null
+  },
+  {
+   "name": "keyboard-illustration",
+   "type": "block",
+   "title": null,
+   "description": "Mini Mac keyboard illustration with blue hover glow and size variants",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "label",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "label",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-label"
+   ],
+   "url": null
+  },
+  {
+   "name": "lamp",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "layout-grid",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "grid",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "layout-text-flip",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "lens",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "lines-gradient-shader",
+   "type": "block",
+   "title": null,
+   "description": "A lines gradient shader for creating animated gradient backgrounds.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "link-preview",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "hover-card",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-hover-card",
+    "qss",
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "liquid-glass",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "glassmorphism",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "loader",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "spinner",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "login-form-with-gradient",
+   "type": "block",
+   "title": null,
+   "description": "Login Form With Gradient",
+   "component": "login-form",
+   "surface": "login-mobile",
+   "dependencies": [
+    "motion",
+    "@radix-ui/react-label"
+   ],
+   "url": null
+  },
+  {
+   "name": "login-signup-minimal",
+   "type": "block",
+   "title": null,
+   "description": "Login Signup Minimal",
+   "component": null,
+   "surface": "login-mobile",
+   "dependencies": [
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "login-with-socials-and-email",
+   "type": "block",
+   "title": null,
+   "description": "Login With Socials And Email",
+   "component": null,
+   "surface": "login-mobile",
+   "dependencies": [
+    "motion",
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "logo-cloud-marquee",
+   "type": "block",
+   "title": null,
+   "description": "Logo Cloud Marquee",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [
+    "react-fast-marquee"
+   ],
+   "url": null
+  },
+  {
+   "name": "logo-cloud-multiple-rows",
+   "type": "block",
+   "title": null,
+   "description": "A four-row logo cloud with mixed filled and empty tiles that scroll in opposite directions.",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "logo-cloud-with-blur-animation",
+   "type": "block",
+   "title": null,
+   "description": "A collection of 6 logos of modern companies, animation is staggered and logos are aligned in a grid of 3. Perfect for logo clouds that require a modern look.",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "logo-cloud-with-swap-animation",
+   "type": "block",
+   "title": null,
+   "description": "A logo cloud with 10 logos in a 5x2 grid that swap every 3 seconds. Logos animate horizontally with blur effect and staggered timing for a smooth transition.",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "logos-with-blur-flip",
+   "type": "block",
+   "title": null,
+   "description": "Logos With Blur Flip",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "macbook-illustration",
+   "type": "block",
+   "title": null,
+   "description": "Interactive MacBook illustration with lid animation and Dynamic Island",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "macbook-illustration-with-icons",
+   "type": "block",
+   "title": null,
+   "description": "MacBook illustration with floating icon cards on hover",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "macbook-scroll",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@tabler/icons-react",
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "magnetic-button",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "hover-effect",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "masonry-bento-grid-with-images",
+   "type": "block",
+   "title": null,
+   "description": "Masonry Bento Grid With Images, useful for showcasing brands or products",
+   "component": "bento-grid",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "meeting-illustration",
+   "type": "block",
+   "title": null,
+   "description": "Meeting confirmation card with highlighted time, avatar, and join or reschedule actions",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "meeting-notes-landing-page",
+   "type": "block",
+   "title": null,
+   "description": "Landing page for Parley, an on-device meeting notes app for Mac, with a tabbed app-window hero, animated features, how it works, devices, team, CTA, logo wall and footer",
+   "component": "alert",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "meteors",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "minimal-hero-section-with-parallax-images",
+   "type": "block",
+   "title": null,
+   "description": "Minimal Hero Section With Parallax Images, images are displayed on top of each other with animation. Simple hero section with Title, description, CTA Buttons and images.",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "minimal-hero-with-huge-interactions",
+   "type": "block",
+   "title": null,
+   "description": "Minimal hero with navbar, CTAs, and a large tabbed product window",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "modern-hero-with-gradients",
+   "type": "block",
+   "title": null,
+   "description": "Modern Hero With Gradients",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "morphing-hero-section",
+   "type": "block",
+   "title": null,
+   "description": "Hero with pop-in platform pills, a navbar that morphs into a floating pill on scroll, and a live streaming studio mockup with morphing layouts and chat",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "moving-border",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "moving-line",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "multi-illustration-bento",
+   "type": "block",
+   "title": null,
+   "description": "Multi-illustration bento grid with world map, keyboard, and login skeletons",
+   "component": "illustration",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "svg-dotted-map"
+   ],
+   "url": null
+  },
+  {
+   "name": "multi-level-features-with-illustrations",
+   "type": "block",
+   "title": null,
+   "description": "Feature section with sticky nav, scroll-spy feature levels, and landscape illustration panels",
+   "component": "illustration",
+   "surface": "features",
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "multi-step-loader",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "task",
+   "surface": null,
+   "dependencies": [
+    "@tabler/icons-react",
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "multicolored-features",
+   "type": "block",
+   "title": null,
+   "description": "Feature section with YouTube creator highlights, multicolor gradient rows, thumbnails, and embedded video modal",
+   "component": null,
+   "surface": "features",
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "navbar-classic",
+   "type": "block",
+   "title": null,
+   "description": "Classic navbar with search",
+   "component": "navbar",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "navbar-dark-shadow",
+   "type": "block",
+   "title": null,
+   "description": "Dark navbar with ridge shadows, dropdown mega menu with blog panel, and light/dark mode",
+   "component": "navbar",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "navbar-mega",
+   "type": "block",
+   "title": null,
+   "description": "Navbar with Mega Menu and Hover Effects",
+   "component": "navbar",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "navbar-menu",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "navbar",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "navbar-pill",
+   "type": "block",
+   "title": null,
+   "description": "Navbar with Pills and tabs",
+   "component": "navbar",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "navbar-underline",
+   "type": "block",
+   "title": null,
+   "description": "Navbar with Underline and hover effects",
+   "component": "navbar",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "navbar-with-children",
+   "type": "block",
+   "title": null,
+   "description": "Navbar With Children",
+   "component": "navbar",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "noise-background",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "gradient-background",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "notch",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "parallax-hero-images",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "parallax",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "parallax-scroll",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "parallax",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "parallax-scroll-2",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "parallax",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "pixelated-canvas",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "node-editor",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "placeholders-and-vanish-input",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "text-input",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "playful-hero-section",
+   "type": "block",
+   "title": null,
+   "description": "Playful Hero Section",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [
+    "react-rough-notation",
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "pointer-highlight",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "premium-auth-split",
+   "type": "block",
+   "title": null,
+   "description": "Premium Auth Split with WebGL Shader",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "pricing-minimal",
+   "type": "block",
+   "title": null,
+   "description": "Minimal Pricing with Enterprise Section",
+   "component": null,
+   "surface": "pricing-website",
+   "dependencies": [
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "pricing-page-with-featured-and-enterprise",
+   "type": "block",
+   "title": null,
+   "description": "Pricing Page With Featured And Enterprise. This pricing page is designed to showcase the features of the product and the enterprise plan. It includes a featured plan with a discount, a regular plan, a bigger plan and an enterprise plan. Featured plan has an immersive shadow to make it stand out.",
+   "component": null,
+   "surface": "pricing-website",
+   "dependencies": [
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "pricing-with-header-and-icons",
+   "type": "block",
+   "title": null,
+   "description": "Data-driven pricing cards with featured plan styling and dark mode support",
+   "component": "header",
+   "surface": "pricing-website",
+   "dependencies": [
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "pricing-with-icons",
+   "type": "block",
+   "title": null,
+   "description": "Three-tier pricing cards with colorful icons on each limit row",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "pricing-with-switch",
+   "type": "block",
+   "title": null,
+   "description": "Pricing With Switch",
+   "component": "switch",
+   "surface": "pricing-website",
+   "dependencies": [
+    "motion",
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "pricing-with-switch-and-add-on",
+   "type": "block",
+   "title": null,
+   "description": "Pricing With Switch And Add On",
+   "component": "switch",
+   "surface": "pricing-website",
+   "dependencies": [
+    "motion",
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "product-landing-page",
+   "type": "block",
+   "title": null,
+   "description": "Landing page for Marquee, a design tool that runs on your codebase, with a live canvas hero, interactive feature art, handoff, review comments, pricing, sign-up and tour modals, an ASCII CTA and footer, in light and dark",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@tabler/icons-react",
+    "@radix-ui/react-dialog"
+   ],
+   "url": null
+  },
+  {
+   "name": "registration-form-with-images",
+   "type": "block",
+   "title": null,
+   "description": "Registration Form With Images",
+   "component": "signup-form",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "resizable-navbar",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "resizable",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "ribbon-gradient-shader",
+   "type": "block",
+   "title": null,
+   "description": "Hero with an animated WebGL ribbon gradient sweeping behind a grouped issue table",
+   "component": "toolbar",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "rotating-tabs-with-text",
+   "type": "block",
+   "title": null,
+   "description": "Rotating Notification Cards with Stacked Animation",
+   "component": "tabs",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "saas-landing-page",
+   "type": "block",
+   "title": null,
+   "description": "SaaS landing page for Folio, a research repository, with a hub hero, features, how it works, testimonials, pricing, FAQ, CTA and footer",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@tabler/icons-react",
+    "react-icons"
+   ],
+   "url": null
+  },
+  {
+   "name": "scales",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "chart-axis",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "shooting-stars",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "sidebar",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [
+    "@tabler/icons-react",
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "signup-with-guide-lines",
+   "type": "block",
+   "title": null,
+   "description": "Signup form in a card between full-width guide lines, with GitHub sign up, email and password fields, and a verify-email step",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "simple-blog-with-grid",
+   "type": "block",
+   "title": null,
+   "description": "Simple Blog With Grid",
+   "component": "data-grid",
+   "surface": "blog",
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "simple-centered-contact-form",
+   "type": "block",
+   "title": null,
+   "description": "Simple Centered Contact Form",
+   "component": "form",
+   "surface": null,
+   "dependencies": [
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "simple-cta-with-images",
+   "type": "block",
+   "title": null,
+   "description": "Simple CTA With Images",
+   "component": "button",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "react-icons"
+   ],
+   "url": null
+  },
+  {
+   "name": "simple-faqs-with-background",
+   "type": "block",
+   "title": null,
+   "description": "Simple FAQs With Background",
+   "component": null,
+   "surface": "faq",
+   "dependencies": [
+    "motion",
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "simple-footer-with-four-grids",
+   "type": "block",
+   "title": null,
+   "description": "Simple Footer With Four Grids",
+   "component": "footer",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "simple-login-with-grid-lines",
+   "type": "block",
+   "title": null,
+   "description": "Simple login form with dashed grid lines border decoration",
+   "component": "data-grid",
+   "surface": "login-mobile",
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "simple-navbar-with-hover-effects",
+   "type": "block",
+   "title": null,
+   "description": "Simple Navbar With Hover Effects",
+   "component": "hover-effect",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "simple-pricing-with-three-tiers",
+   "type": "block",
+   "title": null,
+   "description": "Simple Pricing With Three Tiers",
+   "component": null,
+   "surface": "pricing-website",
+   "dependencies": [
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "simple-sidebar-with-hover",
+   "type": "block",
+   "title": null,
+   "description": "Simple Sidebar With Hover",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "single-row-logo-cloud",
+   "type": "block",
+   "title": null,
+   "description": "A single row logo cloud with 5 logos that flips in an interval.",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "slider-illustration",
+   "type": "block",
+   "title": null,
+   "description": "Pricing copy with inline badge, text highlights, and draggable slider with floating segment preview",
+   "component": "slider",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "sparkles",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@tsparticles/react",
+    "@tsparticles/engine",
+    "@tsparticles/slim",
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "spotlight",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "command-palette",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "spotlight-logo-cloud",
+   "type": "block",
+   "title": null,
+   "description": "Spotlight Logo Cloud",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "spotlight-new",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "command-palette",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "spotlight-shader",
+   "type": "block",
+   "title": null,
+   "description": "A spotlight shader for creating dynamic spotlight background effects with customizable positions and animations.",
+   "component": "command-palette",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "squiggly-text",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "typography",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "stars-background",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "stateful-button",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "button",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "stats-for-changelog",
+   "type": "block",
+   "title": null,
+   "description": "Stats For Changelog",
+   "component": "stat",
+   "surface": "changelog",
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "stats-with-gradient",
+   "type": "block",
+   "title": null,
+   "description": "Stats With Gradient",
+   "component": "stat",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "stats-with-grid-background",
+   "type": "block",
+   "title": null,
+   "description": "Stats With Grid Background",
+   "component": "particle-background",
+   "surface": null,
+   "dependencies": [
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "stats-with-number-ticker",
+   "type": "block",
+   "title": null,
+   "description": "Stats With Number Ticker",
+   "component": "count-up",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "sticky-banner",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "sticky",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "sticky-scroll-reveal",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "scroll-driven-animation",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "svg-mask-effect",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "backdrop",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "tabs",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "tabs",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-tabs"
+   ],
+   "url": null
+  },
+  {
+   "name": "tailwindcss-buttons",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "button",
+   "surface": null,
+   "dependencies": [
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "team-section-with-light-background",
+   "type": "block",
+   "title": null,
+   "description": "Team Section With Light Background",
+   "component": "section",
+   "surface": "team",
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "team-section-with-scales",
+   "type": "block",
+   "title": null,
+   "description": "Team Section With Scales",
+   "component": "section",
+   "surface": "team",
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "team-section-with-small-avatars",
+   "type": "block",
+   "title": null,
+   "description": "Team Section With Small Avatars",
+   "component": "section",
+   "surface": "team",
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "team-section-with-timeline-cards",
+   "type": "block",
+   "title": null,
+   "description": "Team Section With Timeline Cards",
+   "component": "section",
+   "surface": "team",
+   "dependencies": [
+    "motion",
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "terminal",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "terminal",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "testimonials-background-with-drag",
+   "type": "block",
+   "title": null,
+   "description": "Testimonials Background With Drag",
+   "component": "quote",
+   "surface": "testimonials",
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "testimonials-grid-with-centered-carousel",
+   "type": "block",
+   "title": null,
+   "description": "Testimonials Grid With Centered Carousel",
+   "component": "quote",
+   "surface": "testimonials",
+   "dependencies": [
+    "@headlessui/react"
+   ],
+   "url": null
+  },
+  {
+   "name": "testimonials-hover-illustration",
+   "type": "block",
+   "title": null,
+   "description": "Testimonials Hover Illustration",
+   "component": "quote",
+   "surface": "testimonials",
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "testimonials-marquee-grid",
+   "type": "block",
+   "title": null,
+   "description": "Testimonials Marquee Grid",
+   "component": "quote",
+   "surface": "testimonials",
+   "dependencies": [
+    "react-fast-marquee"
+   ],
+   "url": null
+  },
+  {
+   "name": "testimonials-marquee-grid-boxed",
+   "type": "block",
+   "title": null,
+   "description": "Two-row testimonial marquee with framed section and bordered cards",
+   "component": "quote",
+   "surface": "testimonials",
+   "dependencies": [
+    "react-fast-marquee"
+   ],
+   "url": null
+  },
+  {
+   "name": "testimonials-masonry-grid",
+   "type": "block",
+   "title": null,
+   "description": "Testimonials Masonry Grid",
+   "component": "quote",
+   "surface": "testimonials",
+   "dependencies": [
+    "react-icons"
+   ],
+   "url": null
+  },
+  {
+   "name": "testimonials-photo-carousel",
+   "type": "block",
+   "title": null,
+   "description": "Full-bleed portrait testimonial carousel with hover-expand quotes",
+   "component": "quote",
+   "surface": "testimonials",
+   "dependencies": [
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "testimonials-photo-carousel-tall",
+   "type": "block",
+   "title": null,
+   "description": "Equal-width portrait testimonial carousel where the active card grows in height",
+   "component": "quote",
+   "surface": "testimonials",
+   "dependencies": [
+    "motion",
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "testimonials-with-carousel",
+   "type": "block",
+   "title": null,
+   "description": "Testimonials With Carousel",
+   "component": "quote",
+   "surface": "testimonials",
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "testimonials-with-centered-highlight",
+   "type": "block",
+   "title": null,
+   "description": "Testimonials grid with title, subtitle, and optional centered highlight card",
+   "component": "quote",
+   "surface": "testimonials",
+   "dependencies": [
+    "react-icons"
+   ],
+   "url": null
+  },
+  {
+   "name": "text-animation-blur-fade-in-demo",
+   "type": "block",
+   "title": null,
+   "description": "Text Animation Blur Fade In Demo",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "text-animation-flipping-words-demo",
+   "type": "block",
+   "title": null,
+   "description": "Text Animation Flipping Words Demo",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "text-animation-typewriter-effect-demo",
+   "type": "block",
+   "title": null,
+   "description": "Text Animation Typewriter Effect Demo",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "text-flipping-board",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "text-generate-effect",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "text-generate-typewriter",
+   "type": "block",
+   "title": null,
+   "description": "Text Generate Typewriter with Keyboard Sounds",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "text-highlight-illustration",
+   "type": "block",
+   "title": null,
+   "description": "Story text with animated highlight reveal and floating formatting toolbar",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "text-hover-effect",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "hover-effect",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "text-reveal-card",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "three-column-bento-grid",
+   "type": "block",
+   "title": null,
+   "description": "Three Column Bento Grid",
+   "component": "bento-grid",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@tabler/icons-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "three-column-features-with-image",
+   "type": "block",
+   "title": null,
+   "description": "Three-column feature section with pipeline UI, lifestyle image, and CRM activity timeline",
+   "component": "stack",
+   "surface": "features",
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "three-columns-with-images",
+   "type": "block",
+   "title": null,
+   "description": "Three Columns With Images",
+   "component": "grid",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "timeline",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "timeline",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "tooltip-card",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "tooltip",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "tracing-beam",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "two-column-with-image",
+   "type": "block",
+   "title": null,
+   "description": "Two Column With Image",
+   "component": "stack",
+   "surface": null,
+   "dependencies": [
+    "react-icons",
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "typewriter-effect",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "uptime-status-illustration",
+   "type": "block",
+   "title": null,
+   "description": "Interactive Uptime Status Illustration",
+   "component": "illustration",
+   "surface": "status",
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "vortex",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "simplex-noise",
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "wavy-background",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "simplex-noise"
+   ],
+   "url": null
+  },
+  {
+   "name": "webcam-pixel-grid",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "data-grid",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "wobble-card",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "card",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "world-map",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "map",
+   "surface": null,
+   "dependencies": [
+    "dotted-map",
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "world-map-illustration",
+   "type": "block",
+   "title": null,
+   "description": "Interactive world map with dotted continents and customizable location pins with avatars",
+   "component": "map",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "svg-dotted-map"
+   ],
+   "url": null
+  }
+ ]
+}

@@ -1,0 +1,1525 @@
+{
+ "resource_id": "5e2e2f7f-fa26-47d4-8b77-f2358c91c317",
+ "registry_url": "https://thegridcn.com/r/registry.json",
+ "install_verified": true,
+ "checked": "2026-10-23",
+ "items": [
+  {
+   "name": "accordion",
+   "type": "component",
+   "title": "Accordion",
+   "description": null,
+   "component": "accordion",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-accordion",
+    "lucide-react"
+   ],
+   "url": "https://thegridcn.com/r/accordion.json"
+  },
+  {
+   "name": "agent-avatar",
+   "type": "component",
+   "title": "Agent Avatar",
+   "description": null,
+   "component": "agent-card",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/agent-avatar.json"
+  },
+  {
+   "name": "alert",
+   "type": "component",
+   "title": "Alert",
+   "description": null,
+   "component": "alert",
+   "surface": null,
+   "dependencies": [
+    "class-variance-authority"
+   ],
+   "url": "https://thegridcn.com/r/alert.json"
+  },
+  {
+   "name": "alert-dialog",
+   "type": "component",
+   "title": "Alert Dialog",
+   "description": null,
+   "component": "alert-dialog",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-alert-dialog"
+   ],
+   "url": "https://thegridcn.com/r/alert-dialog.json"
+  },
+  {
+   "name": "announcement-bar",
+   "type": "component",
+   "title": "Announcement Bar",
+   "description": null,
+   "component": "announcement-bar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/announcement-bar.json"
+  },
+  {
+   "name": "anomaly-banner",
+   "type": "component",
+   "title": "Anomaly Banner",
+   "description": null,
+   "component": "banner",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/anomaly-banner.json"
+  },
+  {
+   "name": "arrival-panel",
+   "type": "component",
+   "title": "Arrival Panel",
+   "description": null,
+   "component": "panel",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/arrival-panel.json"
+  },
+  {
+   "name": "aspect-ratio",
+   "type": "component",
+   "title": "Aspect Ratio",
+   "description": null,
+   "component": "aspect-ratio",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-aspect-ratio"
+   ],
+   "url": "https://thegridcn.com/r/aspect-ratio.json"
+  },
+  {
+   "name": "avatar",
+   "type": "component",
+   "title": "Avatar",
+   "description": null,
+   "component": "avatar",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-avatar"
+   ],
+   "url": "https://thegridcn.com/r/avatar.json"
+  },
+  {
+   "name": "avatar-group",
+   "type": "component",
+   "title": "Avatar Group",
+   "description": null,
+   "component": "avatar-group",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/avatar-group.json"
+  },
+  {
+   "name": "badge",
+   "type": "component",
+   "title": "Badge",
+   "description": null,
+   "component": "badge",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-slot",
+    "class-variance-authority"
+   ],
+   "url": "https://thegridcn.com/r/badge.json"
+  },
+  {
+   "name": "beam-marker",
+   "type": "component",
+   "title": "Beam Marker",
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/beam-marker.json"
+  },
+  {
+   "name": "bento-grid",
+   "type": "component",
+   "title": "Bento Grid",
+   "description": null,
+   "component": "bento-grid",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/bento-grid.json"
+  },
+  {
+   "name": "boot-sequence",
+   "type": "component",
+   "title": "Boot Sequence",
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/boot-sequence.json"
+  },
+  {
+   "name": "breadcrumb",
+   "type": "component",
+   "title": "Breadcrumb",
+   "description": null,
+   "component": "breadcrumbs",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-slot",
+    "lucide-react"
+   ],
+   "url": "https://thegridcn.com/r/breadcrumb.json"
+  },
+  {
+   "name": "breadcrumb-nav",
+   "type": "component",
+   "title": "Breadcrumb Nav",
+   "description": null,
+   "component": "breadcrumbs",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/breadcrumb-nav.json"
+  },
+  {
+   "name": "button",
+   "type": "component",
+   "title": "Button",
+   "description": null,
+   "component": "button",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-slot",
+    "class-variance-authority"
+   ],
+   "url": "https://thegridcn.com/r/button.json"
+  },
+  {
+   "name": "button-group",
+   "type": "component",
+   "title": "Button Group",
+   "description": null,
+   "component": "button-group",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-slot",
+    "class-variance-authority"
+   ],
+   "url": "https://thegridcn.com/r/button-group.json"
+  },
+  {
+   "name": "calendar",
+   "type": "component",
+   "title": "Calendar",
+   "description": null,
+   "component": "calendar",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "react-day-picker"
+   ],
+   "url": "https://thegridcn.com/r/calendar.json"
+  },
+  {
+   "name": "card",
+   "type": "component",
+   "title": "Card",
+   "description": null,
+   "component": "card",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/card.json"
+  },
+  {
+   "name": "carousel",
+   "type": "component",
+   "title": "Carousel",
+   "description": null,
+   "component": "carousel",
+   "surface": null,
+   "dependencies": [
+    "embla-carousel-react",
+    "lucide-react"
+   ],
+   "url": "https://thegridcn.com/r/carousel.json"
+  },
+  {
+   "name": "changelog",
+   "type": "component",
+   "title": "Changelog",
+   "description": null,
+   "component": "timeline",
+   "surface": "changelog",
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/changelog.json"
+  },
+  {
+   "name": "chart",
+   "type": "component",
+   "title": "Chart",
+   "description": "Helper to extract item config from a payload.",
+   "component": "chart",
+   "surface": null,
+   "dependencies": [
+    "recharts"
+   ],
+   "url": "https://thegridcn.com/r/chart.json"
+  },
+  {
+   "name": "checkbox",
+   "type": "component",
+   "title": "Checkbox",
+   "description": null,
+   "component": "checkbox",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-checkbox",
+    "lucide-react"
+   ],
+   "url": "https://thegridcn.com/r/checkbox.json"
+  },
+  {
+   "name": "chip",
+   "type": "component",
+   "title": "Chip",
+   "description": null,
+   "component": "chip",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/chip.json"
+  },
+  {
+   "name": "circuit-background",
+   "type": "component",
+   "title": "Circuit Background",
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/circuit-background.json"
+  },
+  {
+   "name": "collapsible",
+   "type": "component",
+   "title": "Collapsible",
+   "description": null,
+   "component": "collapsible",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-collapsible"
+   ],
+   "url": "https://thegridcn.com/r/collapsible.json"
+  },
+  {
+   "name": "command",
+   "type": "component",
+   "title": "Command",
+   "description": null,
+   "component": "command-palette",
+   "surface": null,
+   "dependencies": [
+    "cmdk",
+    "lucide-react"
+   ],
+   "url": "https://thegridcn.com/r/command.json"
+  },
+  {
+   "name": "command-menu",
+   "type": "component",
+   "title": "Command Menu",
+   "description": null,
+   "component": "command-palette",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/command-menu.json"
+  },
+  {
+   "name": "comparison-table",
+   "type": "component",
+   "title": "Comparison Table",
+   "description": null,
+   "component": "comparison-table",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/comparison-table.json"
+  },
+  {
+   "name": "context-menu",
+   "type": "component",
+   "title": "Context Menu",
+   "description": null,
+   "component": "context-menu",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-context-menu",
+    "lucide-react"
+   ],
+   "url": "https://thegridcn.com/r/context-menu.json"
+  },
+  {
+   "name": "coordinate-display",
+   "type": "component",
+   "title": "Coordinate Display",
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/coordinate-display.json"
+  },
+  {
+   "name": "countdown",
+   "type": "component",
+   "title": "Countdown",
+   "description": null,
+   "component": "countdown",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/countdown.json"
+  },
+  {
+   "name": "crt-effect",
+   "type": "component",
+   "title": "Crt Effect",
+   "description": "CRT monitor effect with scanlines, vignette, flicker, and scan sweep animation.\n * Wrap any content to give it a retro CRT monitor appearance.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/crt-effect.json"
+  },
+  {
+   "name": "cta-banner",
+   "type": "component",
+   "title": "CTA Banner",
+   "description": null,
+   "component": "button",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/cta-banner.json"
+  },
+  {
+   "name": "data-card",
+   "type": "component",
+   "title": "Data Card",
+   "description": null,
+   "component": "card",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/data-card.json"
+  },
+  {
+   "name": "data-stream",
+   "type": "component",
+   "title": "Data Stream",
+   "description": null,
+   "component": "feed",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/data-stream.json"
+  },
+  {
+   "name": "data-table",
+   "type": "component",
+   "title": "Data Table",
+   "description": null,
+   "component": "table",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/data-table.json"
+  },
+  {
+   "name": "derez-timer",
+   "type": "component",
+   "title": "Derez Timer",
+   "description": null,
+   "component": "countdown",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/derez-timer.json"
+  },
+  {
+   "name": "diagnostics-panel",
+   "type": "component",
+   "title": "Diagnostics Panel",
+   "description": null,
+   "component": "panel",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/diagnostics-panel.json"
+  },
+  {
+   "name": "dialog",
+   "type": "component",
+   "title": "Dialog",
+   "description": null,
+   "component": "modal",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-dialog",
+    "lucide-react"
+   ],
+   "url": "https://thegridcn.com/r/dialog.json"
+  },
+  {
+   "name": "divider",
+   "type": "component",
+   "title": "Divider",
+   "description": null,
+   "component": "separator",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/divider.json"
+  },
+  {
+   "name": "drawer",
+   "type": "component",
+   "title": "Drawer",
+   "description": null,
+   "component": "drawer",
+   "surface": null,
+   "dependencies": [
+    "vaul"
+   ],
+   "url": "https://thegridcn.com/r/drawer.json"
+  },
+  {
+   "name": "dropdown",
+   "type": "component",
+   "title": "Dropdown",
+   "description": null,
+   "component": "select",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/dropdown.json"
+  },
+  {
+   "name": "dropdown-menu",
+   "type": "component",
+   "title": "Dropdown Menu",
+   "description": null,
+   "component": "dropdown-menu",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-dropdown-menu",
+    "lucide-react"
+   ],
+   "url": "https://thegridcn.com/r/dropdown-menu.json"
+  },
+  {
+   "name": "empty",
+   "type": "component",
+   "title": "Empty",
+   "description": null,
+   "component": "empty-state",
+   "surface": null,
+   "dependencies": [
+    "class-variance-authority"
+   ],
+   "url": "https://thegridcn.com/r/empty.json"
+  },
+  {
+   "name": "empty-state",
+   "type": "component",
+   "title": "Empty State",
+   "description": null,
+   "component": "empty-state",
+   "surface": "empty-state",
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/empty-state.json"
+  },
+  {
+   "name": "energy-meter",
+   "type": "component",
+   "title": "Energy Meter",
+   "description": null,
+   "component": "meter",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/energy-meter.json"
+  },
+  {
+   "name": "faq",
+   "type": "component",
+   "title": "FAQ",
+   "description": null,
+   "component": null,
+   "surface": "faq",
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/faq.json"
+  },
+  {
+   "name": "feature-card",
+   "type": "component",
+   "title": "Feature Card",
+   "description": null,
+   "component": "card",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/feature-card.json"
+  },
+  {
+   "name": "field",
+   "type": "component",
+   "title": "Field",
+   "description": null,
+   "component": "fieldset",
+   "surface": null,
+   "dependencies": [
+    "class-variance-authority"
+   ],
+   "url": "https://thegridcn.com/r/field.json"
+  },
+  {
+   "name": "file-upload",
+   "type": "component",
+   "title": "File Upload",
+   "description": null,
+   "component": "file-upload",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/file-upload.json"
+  },
+  {
+   "name": "floating-panel",
+   "type": "component",
+   "title": "Floating Panel",
+   "description": null,
+   "component": "popover",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/floating-panel.json"
+  },
+  {
+   "name": "form",
+   "type": "component",
+   "title": "Form",
+   "description": null,
+   "component": "form",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-label",
+    "@radix-ui/react-slot",
+    "react-hook-form"
+   ],
+   "url": "https://thegridcn.com/r/form.json"
+  },
+  {
+   "name": "gauge",
+   "type": "component",
+   "title": "Gauge",
+   "description": null,
+   "component": "meter",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/gauge.json"
+  },
+  {
+   "name": "glow-container",
+   "type": "component",
+   "title": "Glow Container",
+   "description": null,
+   "component": "hover-effect",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/glow-container.json"
+  },
+  {
+   "name": "grid",
+   "type": "component",
+   "title": "Grid",
+   "description": "Convert hex to THREE.Color",
+   "component": "data-grid",
+   "surface": null,
+   "dependencies": [
+    "@react-three/fiber",
+    "three"
+   ],
+   "url": "https://thegridcn.com/r/grid.json"
+  },
+  {
+   "name": "grid-floor",
+   "type": "component",
+   "title": "Grid Floor",
+   "description": null,
+   "component": "data-grid",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/grid-floor.json"
+  },
+  {
+   "name": "grid-scan-overlay",
+   "type": "component",
+   "title": "Grid Scan Overlay",
+   "description": null,
+   "component": "data-grid",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/grid-scan-overlay.json"
+  },
+  {
+   "name": "heatmap",
+   "type": "component",
+   "title": "Heatmap",
+   "description": null,
+   "component": "heatmap",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/heatmap.json"
+  },
+  {
+   "name": "hover-card",
+   "type": "component",
+   "title": "Hover Card",
+   "description": null,
+   "component": "hover-card",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-hover-card"
+   ],
+   "url": "https://thegridcn.com/r/hover-card.json"
+  },
+  {
+   "name": "hud",
+   "type": "component",
+   "title": "Hud",
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/hud.json"
+  },
+  {
+   "name": "hud-corner-frame",
+   "type": "component",
+   "title": "Hud Corner Frame",
+   "description": null,
+   "component": "box",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/hud-corner-frame.json"
+  },
+  {
+   "name": "hud-frame",
+   "type": "component",
+   "title": "HUD Frame",
+   "description": null,
+   "component": "box",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/hud-frame.json"
+  },
+  {
+   "name": "identity-disc",
+   "type": "component",
+   "title": "Identity Disc",
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/identity-disc.json"
+  },
+  {
+   "name": "input",
+   "type": "component",
+   "title": "Input",
+   "description": null,
+   "component": "text-input",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/input.json"
+  },
+  {
+   "name": "input-group",
+   "type": "component",
+   "title": "Input Group",
+   "description": null,
+   "component": "input-group",
+   "surface": null,
+   "dependencies": [
+    "class-variance-authority"
+   ],
+   "url": "https://thegridcn.com/r/input-group.json"
+  },
+  {
+   "name": "input-otp",
+   "type": "component",
+   "title": "Input Otp",
+   "description": null,
+   "component": "otp-input",
+   "surface": null,
+   "dependencies": [
+    "input-otp",
+    "lucide-react"
+   ],
+   "url": "https://thegridcn.com/r/input-otp.json"
+  },
+  {
+   "name": "item",
+   "type": "component",
+   "title": "Item",
+   "description": null,
+   "component": "list",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-slot",
+    "class-variance-authority"
+   ],
+   "url": "https://thegridcn.com/r/item.json"
+  },
+  {
+   "name": "kanban-board",
+   "type": "component",
+   "title": "Kanban Board",
+   "description": null,
+   "component": "kanban-board",
+   "surface": "kanban-board",
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/kanban-board.json"
+  },
+  {
+   "name": "kbd",
+   "type": "component",
+   "title": "Kbd",
+   "description": null,
+   "component": "kbd",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/kbd.json"
+  },
+  {
+   "name": "label",
+   "type": "component",
+   "title": "Label",
+   "description": null,
+   "component": "label",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-label"
+   ],
+   "url": "https://thegridcn.com/r/label.json"
+  },
+  {
+   "name": "location-display",
+   "type": "component",
+   "title": "Location Display",
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/location-display.json"
+  },
+  {
+   "name": "logo-cloud",
+   "type": "component",
+   "title": "Logo Cloud",
+   "description": null,
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/logo-cloud.json"
+  },
+  {
+   "name": "map",
+   "type": "component",
+   "title": "Map",
+   "description": null,
+   "component": "map",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/map.json"
+  },
+  {
+   "name": "map-marker",
+   "type": "component",
+   "title": "Map Marker",
+   "description": null,
+   "component": "map",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/map-marker.json"
+  },
+  {
+   "name": "marquee",
+   "type": "component",
+   "title": "Marquee",
+   "description": null,
+   "component": "marquee",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/marquee.json"
+  },
+  {
+   "name": "menubar",
+   "type": "component",
+   "title": "Menubar",
+   "description": null,
+   "component": "menubar",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-menubar",
+    "lucide-react"
+   ],
+   "url": "https://thegridcn.com/r/menubar.json"
+  },
+  {
+   "name": "modal",
+   "type": "component",
+   "title": "Modal",
+   "description": null,
+   "component": "modal",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/modal.json"
+  },
+  {
+   "name": "navigation-menu",
+   "type": "component",
+   "title": "Navigation Menu",
+   "description": null,
+   "component": "navigation-menu",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-navigation-menu",
+    "class-variance-authority",
+    "lucide-react"
+   ],
+   "url": "https://thegridcn.com/r/navigation-menu.json"
+  },
+  {
+   "name": "notification",
+   "type": "component",
+   "title": "Notification",
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/notification.json"
+  },
+  {
+   "name": "number-input",
+   "type": "component",
+   "title": "Number Input",
+   "description": null,
+   "component": "number-input",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/number-input.json"
+  },
+  {
+   "name": "pagination",
+   "type": "component",
+   "title": "Pagination",
+   "description": null,
+   "component": "pagination",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://thegridcn.com/r/pagination.json"
+  },
+  {
+   "name": "popover",
+   "type": "component",
+   "title": "Popover",
+   "description": null,
+   "component": "popover",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-popover"
+   ],
+   "url": "https://thegridcn.com/r/popover.json"
+  },
+  {
+   "name": "pricing-card",
+   "type": "component",
+   "title": "Pricing Card",
+   "description": null,
+   "component": "card",
+   "surface": "pricing-website",
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/pricing-card.json"
+  },
+  {
+   "name": "progress",
+   "type": "component",
+   "title": "Progress",
+   "description": null,
+   "component": "progress-bar",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-progress"
+   ],
+   "url": "https://thegridcn.com/r/progress.json"
+  },
+  {
+   "name": "progress-bar",
+   "type": "component",
+   "title": "Progress Bar",
+   "description": null,
+   "component": "progress-bar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/progress-bar.json"
+  },
+  {
+   "name": "progress-ring",
+   "type": "component",
+   "title": "Progress Ring",
+   "description": null,
+   "component": "meter",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/progress-ring.json"
+  },
+  {
+   "name": "radar",
+   "type": "component",
+   "title": "Radar",
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/radar.json"
+  },
+  {
+   "name": "radio-group",
+   "type": "component",
+   "title": "Radio Group",
+   "description": null,
+   "component": "radio-group",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-radio-group",
+    "lucide-react"
+   ],
+   "url": "https://thegridcn.com/r/radio-group.json"
+  },
+  {
+   "name": "rating",
+   "type": "component",
+   "title": "Rating",
+   "description": null,
+   "component": "rating",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/rating.json"
+  },
+  {
+   "name": "regen-indicator",
+   "type": "component",
+   "title": "Regen Indicator",
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/regen-indicator.json"
+  },
+  {
+   "name": "reticle",
+   "type": "component",
+   "title": "Reticle",
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/reticle.json"
+  },
+  {
+   "name": "scroll-area",
+   "type": "component",
+   "title": "Scroll Area",
+   "description": null,
+   "component": "scroll-area",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-scroll-area"
+   ],
+   "url": "https://thegridcn.com/r/scroll-area.json"
+  },
+  {
+   "name": "select",
+   "type": "component",
+   "title": "Select",
+   "description": null,
+   "component": "select",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-select",
+    "lucide-react"
+   ],
+   "url": "https://thegridcn.com/r/select.json"
+  },
+  {
+   "name": "separator",
+   "type": "component",
+   "title": "Separator",
+   "description": null,
+   "component": "separator",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-separator"
+   ],
+   "url": "https://thegridcn.com/r/separator.json"
+  },
+  {
+   "name": "sheet",
+   "type": "component",
+   "title": "Sheet",
+   "description": null,
+   "component": "sheet",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-dialog",
+    "lucide-react"
+   ],
+   "url": "https://thegridcn.com/r/sheet.json"
+  },
+  {
+   "name": "sidebar",
+   "type": "component",
+   "title": "Sidebar",
+   "description": null,
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-slot",
+    "class-variance-authority",
+    "lucide-react"
+   ],
+   "url": "https://thegridcn.com/r/sidebar.json"
+  },
+  {
+   "name": "signal-indicator",
+   "type": "component",
+   "title": "Signal Indicator",
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/signal-indicator.json"
+  },
+  {
+   "name": "skeleton",
+   "type": "component",
+   "title": "Skeleton",
+   "description": null,
+   "component": "skeleton",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/skeleton.json"
+  },
+  {
+   "name": "slider",
+   "type": "component",
+   "title": "Slider",
+   "description": null,
+   "component": "slider",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-slider"
+   ],
+   "url": "https://thegridcn.com/r/slider.json"
+  },
+  {
+   "name": "sonner",
+   "type": "component",
+   "title": "Sonner",
+   "description": null,
+   "component": "toast",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "sonner"
+   ],
+   "url": "https://thegridcn.com/r/sonner.json"
+  },
+  {
+   "name": "sparkline",
+   "type": "component",
+   "title": "Sparkline",
+   "description": null,
+   "component": "sparkline",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/sparkline.json"
+  },
+  {
+   "name": "speed-indicator",
+   "type": "component",
+   "title": "Speed Indicator",
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/speed-indicator.json"
+  },
+  {
+   "name": "spinner",
+   "type": "component",
+   "title": "Spinner",
+   "description": null,
+   "component": "spinner",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://thegridcn.com/r/spinner.json"
+  },
+  {
+   "name": "stat",
+   "type": "component",
+   "title": "Stat",
+   "description": null,
+   "component": "stat",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/stat.json"
+  },
+  {
+   "name": "stat-card",
+   "type": "component",
+   "title": "Stat Card",
+   "description": null,
+   "component": "stat",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/stat-card.json"
+  },
+  {
+   "name": "stats-counter",
+   "type": "component",
+   "title": "Stats Counter",
+   "description": null,
+   "component": "stat",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/stats-counter.json"
+  },
+  {
+   "name": "status-bar",
+   "type": "component",
+   "title": "Status Bar",
+   "description": null,
+   "component": null,
+   "surface": "status",
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/status-bar.json"
+  },
+  {
+   "name": "stepper",
+   "type": "component",
+   "title": "Stepper",
+   "description": null,
+   "component": "quantity-stepper",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/stepper.json"
+  },
+  {
+   "name": "switch",
+   "type": "component",
+   "title": "Switch",
+   "description": null,
+   "component": "switch",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-switch"
+   ],
+   "url": "https://thegridcn.com/r/switch.json"
+  },
+  {
+   "name": "table",
+   "type": "component",
+   "title": "Table",
+   "description": null,
+   "component": "table",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/table.json"
+  },
+  {
+   "name": "tabs",
+   "type": "component",
+   "title": "Tabs",
+   "description": null,
+   "component": "tabs",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-tabs"
+   ],
+   "url": "https://thegridcn.com/r/tabs.json"
+  },
+  {
+   "name": "tag",
+   "type": "component",
+   "title": "Tag",
+   "description": null,
+   "component": "tag",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/tag.json"
+  },
+  {
+   "name": "terminal",
+   "type": "component",
+   "title": "Terminal",
+   "description": null,
+   "component": "terminal",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/terminal.json"
+  },
+  {
+   "name": "testimonial-card",
+   "type": "component",
+   "title": "Testimonial Card",
+   "description": null,
+   "component": "quote",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/testimonial-card.json"
+  },
+  {
+   "name": "text-input",
+   "type": "component",
+   "title": "Text Input",
+   "description": null,
+   "component": "text-input",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/text-input.json"
+  },
+  {
+   "name": "textarea",
+   "type": "component",
+   "title": "Textarea",
+   "description": null,
+   "component": "textarea",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/textarea.json"
+  },
+  {
+   "name": "thegridcn-alert",
+   "type": "component",
+   "title": "Tron Alert",
+   "description": null,
+   "component": "alert",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/thegridcn-alert.json"
+  },
+  {
+   "name": "thegridcn-badge",
+   "type": "component",
+   "title": "Badge",
+   "description": null,
+   "component": "badge",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/thegridcn-badge.json"
+  },
+  {
+   "name": "thegridcn-pagination",
+   "type": "component",
+   "title": "Pagination",
+   "description": null,
+   "component": "pagination",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/thegridcn-pagination.json"
+  },
+  {
+   "name": "thegridcn-select",
+   "type": "component",
+   "title": "Select",
+   "description": null,
+   "component": "select",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/thegridcn-select.json"
+  },
+  {
+   "name": "thegridcn-skeleton",
+   "type": "component",
+   "title": "Skeleton",
+   "description": null,
+   "component": "skeleton",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/thegridcn-skeleton.json"
+  },
+  {
+   "name": "thegridcn-slider",
+   "type": "component",
+   "title": "Slider",
+   "description": null,
+   "component": "slider",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/thegridcn-slider.json"
+  },
+  {
+   "name": "thegridcn-tabs",
+   "type": "component",
+   "title": "Tabs",
+   "description": null,
+   "component": "tabs",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/thegridcn-tabs.json"
+  },
+  {
+   "name": "thegridcn-timeline",
+   "type": "component",
+   "title": "Timeline",
+   "description": null,
+   "component": "timeline",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/thegridcn-timeline.json"
+  },
+  {
+   "name": "thegridcn-toggle",
+   "type": "component",
+   "title": "Toggle",
+   "description": null,
+   "component": "toggle-button",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/thegridcn-toggle.json"
+  },
+  {
+   "name": "thegridcn-tooltip",
+   "type": "component",
+   "title": "Tooltip",
+   "description": null,
+   "component": "tooltip",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/thegridcn-tooltip.json"
+  },
+  {
+   "name": "timeline-bar",
+   "type": "component",
+   "title": "Timeline Bar",
+   "description": null,
+   "component": "timeline",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/timeline-bar.json"
+  },
+  {
+   "name": "timer",
+   "type": "component",
+   "title": "Timer",
+   "description": null,
+   "component": "countdown",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/timer.json"
+  },
+  {
+   "name": "toast",
+   "type": "component",
+   "title": "Toast",
+   "description": null,
+   "component": "toast",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/toast.json"
+  },
+  {
+   "name": "toggle",
+   "type": "component",
+   "title": "Toggle",
+   "description": null,
+   "component": "toggle-button",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-toggle",
+    "class-variance-authority"
+   ],
+   "url": "https://thegridcn.com/r/toggle.json"
+  },
+  {
+   "name": "toggle-group",
+   "type": "component",
+   "title": "Toggle Group",
+   "description": null,
+   "component": "toggle-group",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-toggle-group",
+    "class-variance-authority"
+   ],
+   "url": "https://thegridcn.com/r/toggle-group.json"
+  },
+  {
+   "name": "tooltip",
+   "type": "component",
+   "title": "Tooltip",
+   "description": null,
+   "component": "tooltip",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-tooltip"
+   ],
+   "url": "https://thegridcn.com/r/tooltip.json"
+  },
+  {
+   "name": "tunnel",
+   "type": "component",
+   "title": "Tunnel",
+   "description": "Instanced tunnel rings for better performance",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@react-three/fiber",
+    "three"
+   ],
+   "url": "https://thegridcn.com/r/tunnel.json"
+  },
+  {
+   "name": "uplink-header",
+   "type": "component",
+   "title": "Uplink Header",
+   "description": null,
+   "component": "header",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/uplink-header.json"
+  },
+  {
+   "name": "video-player",
+   "type": "component",
+   "title": "Video Player",
+   "description": null,
+   "component": "video-player",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://thegridcn.com/r/video-player.json"
+  },
+  {
+   "name": "video-progress",
+   "type": "component",
+   "title": "Video Progress",
+   "description": null,
+   "component": "video-player",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/video-progress.json"
+  },
+  {
+   "name": "waveform",
+   "type": "component",
+   "title": "Waveform",
+   "description": null,
+   "component": "waveform",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://thegridcn.com/r/waveform.json"
+  }
+ ]
+}

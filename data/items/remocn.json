@@ -1,0 +1,5216 @@
+{
+ "resource_id": "depo:j57ejn3b2ta95rj3rxzjexp2ds88bm4s",
+ "registry_url": "https://www.remocn.dev/r/registry.json",
+ "install_verified": true,
+ "checked": "2026-10-23",
+ "items": [
+  {
+   "name": "accordion",
+   "type": "component",
+   "title": "UI Accordion",
+   "description": "A disclosure whose opened/closed state is a pure function of the timeline; the panel reveal, chevron, and background are keyframed presets.",
+   "component": "accordion",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/accordion.json"
+  },
+  {
+   "name": "accordion-unfold",
+   "type": "component",
+   "title": "Accordion Unfold",
+   "description": "A tight paper zigzag unfolds sideways into a flat card with the logo printed across it.",
+   "component": "accordion",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/accordion-unfold.json"
+  },
+  {
+   "name": "agent-run",
+   "type": "component",
+   "title": "Agent Run",
+   "description": "Animated brand-neutral AI agent run — a Thinking status and short plan, tool calls whose spinners close into checks while a timer counts real seconds, then a markdown answer with citations and a code block that streams in irregular token bursts. Light/dark themes.",
+   "component": "agent-card",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/agent-run.json"
+  },
+  {
+   "name": "ai-prompt-flow",
+   "type": "component",
+   "title": "UI AI Prompt Flow",
+   "description": "An AI prompt composition: a prompt types into the field, the Generate button runs hover → press → loading, a skeleton shimmer reveals, then crossfades into the generated answer, and a ready toast slides in. A pure orchestrator — the shimmer is owned by the skeleton-block motion atom; every other channel comes from a composed primitive's hook.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/ai-prompt-flow.json"
+  },
+  {
+   "name": "alert-dialog",
+   "type": "component",
+   "title": "UI Alert Dialog",
+   "description": "A modal alert dialog whose opened/closed state is a pure function of the timeline; the backdrop dim and popup zoom are keyframed presets. Self-contained — pair it with the Button as a trigger (see the example).",
+   "component": "alert-dialog",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/alert-dialog.json"
+  },
+  {
+   "name": "anamorphic-flare",
+   "type": "component",
+   "title": "Anamorphic Flare",
+   "description": "A point of light grows into a cinematic anamorphic streak that sweeps the frame and reveals the logo in its wake.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/anamorphic-flare.json"
+  },
+  {
+   "name": "animated-bar-chart",
+   "type": "component",
+   "title": "Animated Bar Chart",
+   "description": "Bars spring up from the baseline in a staggered cascade.",
+   "component": "bar-chart",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/animated-bar-chart.json"
+  },
+  {
+   "name": "animated-line-chart",
+   "type": "component",
+   "title": "Animated Line Chart",
+   "description": "Line chart whose SVG path draws on from left to right with a leading dot.",
+   "component": "line-chart",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/animated-line-chart.json"
+  },
+  {
+   "name": "ascii-dissolve",
+   "type": "component",
+   "title": "ASCII Dissolve",
+   "description": "Dissolve one scene into the next through a drifting field of ASCII glyphs.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/transitions"
+   ],
+   "url": "https://www.remocn.dev/r/ascii-dissolve.json"
+  },
+  {
+   "name": "ascii-render",
+   "type": "component",
+   "title": "ASCII Render",
+   "description": "Redraw a live scene as ASCII: the frame divides into glyph cells and each one becomes the character matching the brightness of the picture inside it.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/ascii-render.json"
+  },
+  {
+   "name": "backdrop",
+   "type": "component",
+   "title": "Backdrop",
+   "description": "Configurable full-frame background (color / gradient / image / live component) with Screen Studio-style padding and a rounded, shadowed content frame.",
+   "component": "backdrop",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/backdrop.json"
+  },
+  {
+   "name": "bauhaus-build",
+   "type": "component",
+   "title": "Bauhaus Build",
+   "description": "Flat Bauhaus circles, arcs, squares and bars tumble corner over corner on a hidden grid into an asymmetric frieze, then rebuild into two friezes around an open band for the title.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/bauhaus-build.json"
+  },
+  {
+   "name": "blueprint",
+   "type": "component",
+   "title": "Blueprint",
+   "description": "The product wipes left to right into a technical drawing: blueprint grid, white linework, dimension lines with ticks, labels and a red callout.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/blueprint.json"
+  },
+  {
+   "name": "blur-in",
+   "type": "component",
+   "title": "UI Blur In",
+   "description": "A wrapper that reveals a single child with blur + opacity + a directional offset; a pure state atom, theme-independent — its context is a motion config (blur/distance/axis), not a theme.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/blur-in.json"
+  },
+  {
+   "name": "blur-out-up",
+   "type": "component",
+   "title": "Blur Out Up",
+   "description": "Words arrive clean and depart upward with increasing blur for airy exits.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/blur-out-up.json"
+  },
+  {
+   "name": "bottom-up-letters",
+   "type": "component",
+   "title": "Bottom-Up Letters",
+   "description": "Letters rise from below in a pronounced staircase, one symbol at a time, with zero blur.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/bottom-up-letters.json"
+  },
+  {
+   "name": "brand-guidelines",
+   "type": "component",
+   "title": "Brand Guidelines",
+   "description": "An independent 17.9-second identity film with a geometric mark, sliding palette, kinetic type specimens, and original object photography.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@fontsource/manrope",
+    "@fontsource/inter"
+   ],
+   "url": "https://www.remocn.dev/r/brand-guidelines.json"
+  },
+  {
+   "name": "brick-mosaic",
+   "type": "component",
+   "title": "Brick Mosaic",
+   "description": "Toy bricks drop in row by row from the bottom with a tiny bounce, rebuilding a pixel-art logo on a baseplate.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/brick-mosaic.json"
+  },
+  {
+   "name": "brush",
+   "type": "component",
+   "title": "Brush",
+   "description": "Variable-width brush ribbons for Remotion. Pressure taper, grain displacement, and spine samplers shared by the ink marks.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.remocn.dev/r/brush.json"
+  },
+  {
+   "name": "button",
+   "type": "component",
+   "title": "UI Button",
+   "description": "A button whose idle/hover/press/loading/success state is a pure function of the timeline; the loading state composes the Spinner motion atom.",
+   "component": "button",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/button.json"
+  },
+  {
+   "name": "camera-lens",
+   "type": "component",
+   "title": "Camera Lens",
+   "description": "Put a scene behind real glass: resolution falls off toward the corners, highlights bloom through the optics, colour fringes at the edges — a screencast that reads as filmed rather than rendered.",
+   "component": null,
+   "surface": "camera-capture",
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/camera-lens.json"
+  },
+  {
+   "name": "caption-active-pop",
+   "type": "component",
+   "title": "Caption Active Pop",
+   "description": "The word being spoken turns to the accent colour and springs up in scale, then settles back as the voice moves on.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/captions"
+   ],
+   "url": "https://www.remocn.dev/r/caption-active-pop.json"
+  },
+  {
+   "name": "caption-blur-in",
+   "type": "component",
+   "title": "Caption Blur In",
+   "description": "Each word resolves out of a soft blur the moment it is spoken, for captions that arrive quietly.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/captions"
+   ],
+   "url": "https://www.remocn.dev/r/caption-blur-in.json"
+  },
+  {
+   "name": "caption-bounce-in",
+   "type": "component",
+   "title": "Caption Bounce In",
+   "description": "Each word springs up into place with a little overshoot the moment it is spoken, and the phrase builds word by word.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/captions"
+   ],
+   "url": "https://www.remocn.dev/r/caption-bounce-in.json"
+  },
+  {
+   "name": "caption-cube",
+   "type": "component",
+   "title": "Caption Cube",
+   "description": "Each new phrase turns into view as the next face of a 3D cube, the previous phrase rotating up and away on a horizontal hinge.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/captions"
+   ],
+   "url": "https://www.remocn.dev/r/caption-cube.json"
+  },
+  {
+   "name": "caption-dim-progress",
+   "type": "component",
+   "title": "Caption Dim Progress",
+   "description": "The whole phrase sits on screen dimmed and each word brightens the moment it is spoken, with no motion at all.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/captions"
+   ],
+   "url": "https://www.remocn.dev/r/caption-dim-progress.json"
+  },
+  {
+   "name": "caption-drop",
+   "type": "component",
+   "title": "Caption Drop",
+   "description": "Each word falls into place from above and bounces as it lands the moment it is spoken, and the whole phrase drops out of frame when the speaker pauses.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/captions"
+   ],
+   "url": "https://www.remocn.dev/r/caption-drop.json"
+  },
+  {
+   "name": "caption-emoji",
+   "type": "component",
+   "title": "Caption Emoji",
+   "description": "An emoji pops up above a chosen word the moment it is spoken and stays until the phrase leaves.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/captions"
+   ],
+   "url": "https://www.remocn.dev/r/caption-emoji.json"
+  },
+  {
+   "name": "caption-handwrite",
+   "type": "component",
+   "title": "Caption Handwrite",
+   "description": "Each word is inked in by hand from left to right at the pace it is spoken, every word sitting at its own slight angle.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/captions"
+   ],
+   "url": "https://www.remocn.dev/r/caption-handwrite.json"
+  },
+  {
+   "name": "caption-highlight-box",
+   "type": "component",
+   "title": "Caption Highlight Box",
+   "description": "A solid box travels behind the word being spoken, sliding from word to word as the voice moves on.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/captions"
+   ],
+   "url": "https://www.remocn.dev/r/caption-highlight-box.json"
+  },
+  {
+   "name": "caption-karaoke",
+   "type": "component",
+   "title": "Caption Karaoke",
+   "description": "Transcript captions where each word fills with colour left to right exactly as it is spoken, the whole phrase readable before the voice reaches it.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/captions"
+   ],
+   "url": "https://www.remocn.dev/r/caption-karaoke.json"
+  },
+  {
+   "name": "caption-knockout",
+   "type": "component",
+   "title": "Caption Knockout",
+   "description": "A solid plate with the words cut clean through it, each word punching out the moment it is spoken so the footage shows through the letters.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/captions"
+   ],
+   "url": "https://www.remocn.dev/r/caption-knockout.json"
+  },
+  {
+   "name": "caption-label-maker",
+   "type": "component",
+   "title": "Caption Label Maker",
+   "description": "Each phrase is punched letter by letter into a strip of embossing tape at the pace it is spoken, the tape feeding out as the words arrive.",
+   "component": "label",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/captions"
+   ],
+   "url": "https://www.remocn.dev/r/caption-label-maker.json"
+  },
+  {
+   "name": "caption-marker",
+   "type": "component",
+   "title": "Caption Marker",
+   "description": "Plain captions where the words that matter get a highlighter swipe the moment they are spoken.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/captions"
+   ],
+   "url": "https://www.remocn.dev/r/caption-marker.json"
+  },
+  {
+   "name": "caption-outline",
+   "type": "component",
+   "title": "Caption Outline",
+   "description": "Heavy-stroked captions that stay readable over any footage, with the spoken word switching to a contrast colour and nothing else moving.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/captions"
+   ],
+   "url": "https://www.remocn.dev/r/caption-outline.json"
+  },
+  {
+   "name": "caption-prosody",
+   "type": "component",
+   "title": "Caption Prosody",
+   "description": "Word size follows the delivery, so drawn-out words land large and rushed words stay small, and the rhythm of the voice is visible with the sound off.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/captions"
+   ],
+   "url": "https://www.remocn.dev/r/caption-prosody.json"
+  },
+  {
+   "name": "caption-redact",
+   "type": "component",
+   "title": "Caption Redact",
+   "description": "The whole phrase starts blacked out like a declassified file, and each bar pulls away the moment its word is spoken.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/captions"
+   ],
+   "url": "https://www.remocn.dev/r/caption-redact.json"
+  },
+  {
+   "name": "caption-rise",
+   "type": "component",
+   "title": "Caption Rise",
+   "description": "Each word slides up out of a mask at its baseline the moment it is spoken, with no bounce and no scale.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/captions"
+   ],
+   "url": "https://www.remocn.dev/r/caption-rise.json"
+  },
+  {
+   "name": "caption-scramble",
+   "type": "component",
+   "title": "Caption Scramble",
+   "description": "Each word arrives as random glyphs at the moment it is spoken and decodes left to right into the real letters.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/captions"
+   ],
+   "url": "https://www.remocn.dev/r/caption-scramble.json"
+  },
+  {
+   "name": "caption-slice",
+   "type": "component",
+   "title": "Caption Slice",
+   "description": "Each word arrives cut in two, the top half sliding in from the left and the bottom from the right, locking together the moment it is spoken.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/captions"
+   ],
+   "url": "https://www.remocn.dev/r/caption-slice.json"
+  },
+  {
+   "name": "caption-slot",
+   "type": "component",
+   "title": "Caption Slot",
+   "description": "One short line at a time, each new phrase rolling up into place as the previous one rolls out the top.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/captions"
+   ],
+   "url": "https://www.remocn.dev/r/caption-slot.json"
+  },
+  {
+   "name": "caption-speaker",
+   "type": "component",
+   "title": "Caption Speaker",
+   "description": "Dialogue captions where every phrase takes its speaker's colour, so a conversation reads like a script.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/captions"
+   ],
+   "url": "https://www.remocn.dev/r/caption-speaker.json"
+  },
+  {
+   "name": "caption-split-flap",
+   "type": "component",
+   "title": "Caption Split Flap",
+   "description": "Every letter sits on its own flap tile and clatters through a few characters before landing the moment the word is spoken, like a station departure board.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/captions"
+   ],
+   "url": "https://www.remocn.dev/r/caption-split-flap.json"
+  },
+  {
+   "name": "caption-stack",
+   "type": "component",
+   "title": "Caption Stack",
+   "description": "Kinetic captions stacked a couple of words per line, with the keyword of each page set large on its own line.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/captions"
+   ],
+   "url": "https://www.remocn.dev/r/caption-stack.json"
+  },
+  {
+   "name": "caption-stamp",
+   "type": "component",
+   "title": "Caption Stamp",
+   "description": "Plain captions where the words that matter slam down as a rubber stamp the moment they are spoken.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/captions"
+   ],
+   "url": "https://www.remocn.dev/r/caption-stamp.json"
+  },
+  {
+   "name": "caption-subtitle",
+   "type": "component",
+   "title": "Caption Subtitle",
+   "description": "Classic broadcast subtitles, a whole phrase on a translucent plate, with no word-level animation at all.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/captions"
+   ],
+   "url": "https://www.remocn.dev/r/caption-subtitle.json"
+  },
+  {
+   "name": "caption-teleprompter",
+   "type": "component",
+   "title": "Caption Teleprompter",
+   "description": "The whole transcript scrolls smoothly through a short window with the current line centred, past lines fading above and the next line waiting below.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/captions"
+   ],
+   "url": "https://www.remocn.dev/r/caption-teleprompter.json"
+  },
+  {
+   "name": "caption-timeline",
+   "type": "component",
+   "title": "Caption Timeline",
+   "description": "The whole transcript laid out on a scrolling time strip that slides under a fixed playhead, so every pause shows up as space between words.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/captions"
+   ],
+   "url": "https://www.remocn.dev/r/caption-timeline.json"
+  },
+  {
+   "name": "caption-typewriter",
+   "type": "component",
+   "title": "Caption Typewriter",
+   "description": "Each word types out character by character at the pace it is spoken, with a caret that blinks while the speaker pauses.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/captions"
+   ],
+   "url": "https://www.remocn.dev/r/caption-typewriter.json"
+  },
+  {
+   "name": "caption-underline",
+   "type": "component",
+   "title": "Caption Underline",
+   "description": "A bar slides under the word being spoken, travelling from word to word while the text itself stays untouched.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/captions"
+   ],
+   "url": "https://www.remocn.dev/r/caption-underline.json"
+  },
+  {
+   "name": "caption-weight",
+   "type": "component",
+   "title": "Caption Weight",
+   "description": "The word being spoken swells from a light weight to a heavy one and relaxes as the voice moves on, with no layout shift.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/captions"
+   ],
+   "url": "https://www.remocn.dev/r/caption-weight.json"
+  },
+  {
+   "name": "caption-word-pop",
+   "type": "component",
+   "title": "Caption Word Pop",
+   "description": "One large word at a time, each popping in on a spring the moment it is spoken.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/captions"
+   ],
+   "url": "https://www.remocn.dev/r/caption-word-pop.json"
+  },
+  {
+   "name": "caret",
+   "type": "component",
+   "title": "UI Caret",
+   "description": "A blinking text caret — a controlled vertical bar, or a pure motion atom that blinks deterministically from useCurrentFrame.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/caret.json"
+  },
+  {
+   "name": "caret-swap",
+   "type": "component",
+   "title": "Caret Swap",
+   "description": "A gradient caret swells into a block that consumes the first phrase right-to-left, collapses back and types the second phrase out with a blinking caret.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/caret-swap.json"
+  },
+  {
+   "name": "caret-wipe",
+   "type": "component",
+   "title": "Caret Wipe",
+   "description": "Sweep a typing caret across the frame, wiping the outgoing scene into the next.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/transitions"
+   ],
+   "url": "https://www.remocn.dev/r/caret-wipe.json"
+  },
+  {
+   "name": "centered-word-build",
+   "type": "component",
+   "title": "Centered Word Build",
+   "description": "Words appear sharply from below while the centered phrase pushes cumulatively closer on every beat, then clears through a soft left-to-right opacity wipe.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/centered-word-build.json"
+  },
+  {
+   "name": "chat-flow",
+   "type": "component",
+   "title": "UI Chat Flow",
+   "description": "A messaging composition: an outgoing message types into the composer, the send button presses, and the bubble rises in; the other side shows a typing indicator that swaps into the reply, and reactions pop in. A pure orchestrator — every channel comes from a composed primitive's hook (Input, MessageBubble, TypingIndicator).",
+   "component": "conversation",
+   "surface": "chat-mobile",
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/chat-flow.json"
+  },
+  {
+   "name": "chat-gpt",
+   "type": "component",
+   "title": "ChatGPT",
+   "description": "Animated ChatGPT composer — types a prompt into the pill input, the blue voice button morphs into a send button, and the suggestion chips fade out. Light/dark themes.",
+   "component": "conversation",
+   "surface": "chat-mobile",
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://www.remocn.dev/r/chat-gpt.json"
+  },
+  {
+   "name": "chat-to-preview-layout",
+   "type": "component",
+   "title": "Chat to Preview Layout",
+   "description": "Two-column layout where chat shrinks and preview expands.",
+   "component": "conversation",
+   "surface": "chat-mobile",
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/chat-to-preview-layout.json"
+  },
+  {
+   "name": "check-list",
+   "type": "component",
+   "title": "Check List",
+   "description": "A handwritten checklist that writes itself out in full, then ticks and strikes through every done item, one at a time.",
+   "component": "list",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/check-list.json"
+  },
+  {
+   "name": "checkbox",
+   "type": "component",
+   "title": "UI Checkbox",
+   "description": "A checkbox whose checked/unchecked state is a pure function of the timeline; the box fill, border, and checkmark draw are keyframed presets.",
+   "component": "checkbox",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/checkbox.json"
+  },
+  {
+   "name": "checkout-flow",
+   "type": "component",
+   "title": "UI Checkout Flow",
+   "description": "A cursor-driven checkout card: the card and its fields blur-in, then the pointer flips a billing-cycle toggle, types a card number, ticks the terms checkbox, and presses Pay through to success, ending in a toast. A pure orchestrator — every channel comes from a composed primitive's transition hook.",
+   "component": "checkout",
+   "surface": "checkout",
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/checkout-flow.json"
+  },
+  {
+   "name": "chromatic-wave",
+   "type": "component",
+   "title": "Chromatic Wave",
+   "description": "A soft wave travels down through the type; where it crosses, the letters ripple and split into RGB fringes.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/chromatic-wave.json"
+  },
+  {
+   "name": "claude-chat",
+   "type": "component",
+   "title": "Claude Chat",
+   "description": "Animated Claude chat input — types a prompt character-by-character and the waveform button morphs into a terracotta send button the moment text appears. Warm light/dark themes.",
+   "component": "conversation",
+   "surface": "chat-mobile",
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://www.remocn.dev/r/claude-chat.json"
+  },
+  {
+   "name": "claude-code",
+   "type": "component",
+   "title": "Claude Code",
+   "description": "Animated Claude Code CLI welcome screen — terminal window with a dashed welcome box, recent activity and what's new panels, and a prompt line that types a command with a block cursor. Dark/light themes.",
+   "component": "code-block",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://www.remocn.dev/r/claude-code.json"
+  },
+  {
+   "name": "cloth-reveal",
+   "type": "component",
+   "title": "Cloth Reveal",
+   "description": "A satin sheet draped over the content is yanked from one corner, folding and fluttering as a simulated cloth before it clears the frame.",
+   "component": "scroll-reveal",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/cloth-reveal.json"
+  },
+  {
+   "name": "code-morph",
+   "type": "component",
+   "title": "Code Morph",
+   "description": "A flat code editor that morphs between versions of a file, gliding each surviving token to its new line and column while removed code dissolves and new code fades in.",
+   "component": "code-block",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/code-morph.json"
+  },
+  {
+   "name": "combobox",
+   "type": "component",
+   "title": "UI Combobox",
+   "description": "A combobox whose opened/closed state is a pure function of the timeline; the panel fade/scale/lift are keyframed presets like select. The trigger reuses the Input presets (typed query + caret reveal via an injected inputStyle), the list is filtered by a pure case-insensitive substring on the visible query prefix, and rows reuse the SelectItem row.",
+   "component": "combobox",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/combobox.json"
+  },
+  {
+   "name": "comic-panels",
+   "type": "component",
+   "title": "Comic Panels",
+   "description": "The frame cracks into a three-panel comic page with speed lines, red halftone and a starburst, then the action panel bursts into a full-frame POW.",
+   "component": "floating-window",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/comic-panels.json"
+  },
+  {
+   "name": "command-menu",
+   "type": "component",
+   "title": "UI Command Menu",
+   "description": "A ⌘K command palette whose opened/closed state is a pure function of the timeline; the panel zoom + backdrop dim are dialog-like keyframed presets. The search row reveals the typed query, the list is filtered by a pure case-insensitive substring on the visible query prefix, and rows reuse the CommandMenuItem row.",
+   "component": "command-palette",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/command-menu.json"
+  },
+  {
+   "name": "command-menu-item",
+   "type": "component",
+   "title": "UI Command Menu Item",
+   "description": "A command-palette row whose idle/hover/press/selected state is a pure function of the timeline. Leading icon + label + trailing shortcut kbd. Exports an inline CommandMenuItemRow (reused by CommandMenu) and a standalone CommandMenuItem atom; the row background, label color, and icon color are keyframed presets.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/command-menu-item.json"
+  },
+  {
+   "name": "confetti",
+   "type": "component",
+   "title": "Confetti",
+   "description": "Deterministic confetti burst for Remotion — seeded particles with gravity, spin, and flutter so every render is identical. Fire it on any frame as a celebratory overlay.",
+   "component": "confetti",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/confetti.json"
+  },
+  {
+   "name": "context-menu",
+   "type": "component",
+   "title": "UI Context Menu",
+   "description": "A right-click context menu whose opened/closed state is a pure function of the timeline; the panel scales from its top-left corner (the click point) with a fade + lift. No trigger — the caller positions it. Rows reuse the DropdownMenuItem row; items are plain string labels.",
+   "component": "context-menu",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/context-menu.json"
+  },
+  {
+   "name": "crt-screen",
+   "type": "component",
+   "title": "CRT Screen",
+   "description": "Put a scene behind curved glass: the picture bulges out to the corners, an RGB phosphor mask and scanlines ride the curve, bright areas flood the mask, and the tube falls away into darkness at the rim.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/crt-screen.json"
+  },
+  {
+   "name": "crumple-toss",
+   "type": "component",
+   "title": "Crumple Toss",
+   "description": "Crushes an element into a ball of paper and throws it out of frame on an arc, leaving the scene around it running.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/crumple-toss.json"
+  },
+  {
+   "name": "cursor",
+   "type": "component",
+   "title": "UI Cursor",
+   "description": "An animated cursor that moves between waypoints, clicks (ripple), and drags. The Cursor renderer is a pure function of a numeric CursorStyle channel; useCursorPath reads the frame and eases the path, ripple, and press phases.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/cursor.json"
+  },
+  {
+   "name": "cursor-gravity",
+   "type": "component",
+   "title": "Cursor Gravity",
+   "description": "A rounded triangular cursor tugs a button out of the screen edge with pulsed elastic resistance.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/cursor-gravity.json"
+  },
+  {
+   "name": "dialog",
+   "type": "component",
+   "title": "UI Dialog",
+   "description": "A modal dialog whose opened/closed state is a pure function of the timeline; the backdrop dim and popup zoom are keyframed presets, with a close button and a primary action. Self-contained — pair it with the Button as a trigger (see the example).",
+   "component": "modal",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/dialog.json"
+  },
+  {
+   "name": "displacement",
+   "type": "component",
+   "title": "Displacement",
+   "description": "The frame breaks into a grid of cells that shear apart into offset, colour-fringed tiles under film grain, then settle back carrying the next scene.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/transitions"
+   ],
+   "url": "https://www.remocn.dev/r/displacement.json"
+  },
+  {
+   "name": "dither-dissolve",
+   "type": "component",
+   "title": "Dither Dissolve",
+   "description": "A dithering shader transition that dissolves one scene into the next.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/transitions"
+   ],
+   "url": "https://www.remocn.dev/r/dither-dissolve.json"
+  },
+  {
+   "name": "dolly-zoom",
+   "type": "component",
+   "title": "Dolly Zoom",
+   "description": "The vertigo shot: a perspective corridor with a red door stretches deeper while the subject in the center holds its exact size.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/dolly-zoom.json"
+  },
+  {
+   "name": "drawer",
+   "type": "component",
+   "title": "UI Drawer",
+   "description": "A bottom panel whose opened/closed state is a pure function of the timeline; the backdrop dim and bottom-edge slide-up are keyframed presets, with a drag handle and a primary action. Self-contained — pair it with the Button as a trigger (see the example).",
+   "component": "drawer",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/drawer.json"
+  },
+  {
+   "name": "drift",
+   "type": "component",
+   "title": "Drift",
+   "description": "A slow linear camera push-in wrapper that scales its scene from 1 to 1+grow across the sequence so no frame is ever static.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/drift.json"
+  },
+  {
+   "name": "dropdown-menu",
+   "type": "component",
+   "title": "UI Dropdown Menu",
+   "description": "A dropdown menu whose opened/closed state is a pure function of the timeline; the trigger reuses the Button primitive and the reveal panel composes DropdownMenuItem rows. The panel fade, scale, lift, and chevron are keyframed presets.",
+   "component": "dropdown-menu",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/dropdown-menu.json"
+  },
+  {
+   "name": "dropdown-menu-item",
+   "type": "component",
+   "title": "UI Dropdown Menu Item",
+   "description": "A dropdown menu action row whose idle/hover/press state is a pure function of the timeline; the row background and label color are keyframed presets. Composed inside the DropdownMenu panel.",
+   "component": "dropdown-menu",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/dropdown-menu-item.json"
+  },
+  {
+   "name": "duotone-beat",
+   "type": "component",
+   "title": "Duotone Beat",
+   "description": "A two-ink halftone portrait swaps its ink pair on every beat, with a punch-in on the downbeat and a bar indicator.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/duotone-beat.json"
+  },
+  {
+   "name": "echo-stack",
+   "type": "component",
+   "title": "Echo Stack",
+   "description": "A word focuses in at the center while outline copies of it unfold above and below and keep drifting, like the one clear line on a spinning drum.",
+   "component": "stack",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://www.remocn.dev/r/echo-stack.json"
+  },
+  {
+   "name": "ecosystem-constellation",
+   "type": "component",
+   "title": "Ecosystem Constellation",
+   "description": "A central logo orbited by integration satellites with pulsing data lines.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/ecosystem-constellation.json"
+  },
+  {
+   "name": "ember-burn",
+   "type": "component",
+   "title": "Ember Burn",
+   "description": "The outgoing frame catches fire where it is brightest, boils in the heat, chars at the rim, and blows away as sparks carrying its own colour.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/transitions"
+   ],
+   "url": "https://www.remocn.dev/r/ember-burn.json"
+  },
+  {
+   "name": "exploded-view",
+   "type": "component",
+   "title": "Exploded View",
+   "description": "An isometric stack of slabs springs apart with leader lines and labels, holds, then clicks back together.",
+   "component": "box",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/exploded-view.json"
+  },
+  {
+   "name": "extrude-pop",
+   "type": "component",
+   "title": "Extrude Pop",
+   "description": "A flat word pops up out of the plane on a solid colored 3D body, no camera involved.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/extrude-pop.json"
+  },
+  {
+   "name": "fade-through",
+   "type": "component",
+   "title": "Fade Through",
+   "description": "A Material-style content transition: old fades out, new fades in with a soft delay.",
+   "component": "transition",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/fade-through.json"
+  },
+  {
+   "name": "field",
+   "type": "component",
+   "title": "UI Field",
+   "description": "A static layout family for composing labeled form controls, modeled on shadcn's Field: FieldGroup ▸ Field ▸ FieldLabel / FieldControl / FieldDescription. Reads no frame and holds no state — colors come from the resolved theme. FieldControl is a relative fixed-height slot for the absolute remocn-ui controls (Input, Button).",
+   "component": "fieldset",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/field.json"
+  },
+  {
+   "name": "flow-field",
+   "type": "component",
+   "title": "Flow Field",
+   "description": "Hundreds of particles ride a seeded noise field, leaving silky fading trails in a seamless loop.",
+   "component": "fieldset",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/flow-field.json"
+  },
+  {
+   "name": "focus-blur-resolve",
+   "type": "component",
+   "title": "Focus Blur Resolve",
+   "description": "A premium focus pull from heavy blur to crisp text, then a soft blur-out exit.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/focus-blur-resolve.json"
+  },
+  {
+   "name": "focus-pull",
+   "type": "component",
+   "title": "Focus Pull",
+   "description": "A rack-focus transition that defocuses the outgoing scene into a bright blur and resolves the next one into focus.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/transitions"
+   ],
+   "url": "https://www.remocn.dev/r/focus-pull.json"
+  },
+  {
+   "name": "fog-rise",
+   "type": "component",
+   "title": "Fog Rise",
+   "description": "Display text resolves out of fog: characters sharpen from heavy blur center-out with vertical streaks dissolving above them, as if rising along the z-axis.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/fog-rise.json"
+  },
+  {
+   "name": "fomo-limit-orders",
+   "type": "component",
+   "title": "Order Flow",
+   "description": "An independent 18-second trading-interface demo with fictional market data, graphite and amber styling, an original stepped mark, and editable camera choreography.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@fontsource/manrope"
+   ],
+   "url": "https://www.remocn.dev/r/fomo-limit-orders.json"
+  },
+  {
+   "name": "github-sponsors",
+   "type": "component",
+   "title": "GitHub Sponsors",
+   "description": "Self-drawing Sponsors heart that docks to a header, every sponsor avatar blur-staggering into a grid, then a thank-you headline and a CTA. Single seek-safe timeline, 270 frames at 30fps.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://www.remocn.dev/r/github-sponsors.json"
+  },
+  {
+   "name": "github-stars",
+   "type": "component",
+   "title": "GitHub Stars",
+   "description": "Inertial fly-through of a repo's stargazers with a synced count-up odometer that locks on the total. Horizontal 16:9 or vertical 9:16.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "date-fns",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://www.remocn.dev/r/github-stars.json"
+  },
+  {
+   "name": "glass-code-block",
+   "type": "component",
+   "title": "Glass Code Block",
+   "description": "A premium frosted-glass code editor window with a regex tokenizer and line-by-line stagger reveal.",
+   "component": "code-block",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/glass-code-block.json"
+  },
+  {
+   "name": "glass-code-walk",
+   "type": "component",
+   "title": "Glass Code Walk",
+   "description": "A camera that scans a glass code block top to bottom as it types, then pulls back to a centered hold.",
+   "component": "code-block",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/glass-code-walk.json"
+  },
+  {
+   "name": "glitch-cut",
+   "type": "component",
+   "title": "Glitch Cut",
+   "description": "A broadcast-glitch hard cut: the frame tears into displaced slices with channel split and corrupted blocks, and the incoming scene takes over slice by slice at the peak.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/transitions"
+   ],
+   "url": "https://www.remocn.dev/r/glitch-cut.json"
+  },
+  {
+   "name": "glyph-anatomy",
+   "type": "component",
+   "title": "Glyph Anatomy",
+   "description": "A word builds as in a font editor, with metric guides, anchors along each contour and Bézier handles that pull straight segments into curves before the glyphs fill.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "opentype.js",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://www.remocn.dev/r/glyph-anatomy.json"
+  },
+  {
+   "name": "gooey-morph",
+   "type": "component",
+   "title": "Gooey Morph",
+   "description": "Bars fly in Tetris-style, land as a row, and melt into a word through a gooey blur-and-threshold morph.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/gooey-morph.json"
+  },
+  {
+   "name": "gradient-scale-cut-text",
+   "type": "component",
+   "title": "Gradient Scale Cut Text",
+   "description": "An oversized gradient reveal snaps to a separate compact blurred line that settles left while the reveal continues.",
+   "component": "chart-axis",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/gradient-scale-cut-text.json"
+  },
+  {
+   "name": "grain-dissolve",
+   "type": "component",
+   "title": "Grain Dissolve",
+   "description": "A grain-gradient shader transition that disintegrates the outgoing scene into soft grainy shapes and condenses the next scene out of the noise.",
+   "component": "gradient-background",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/transitions"
+   ],
+   "url": "https://www.remocn.dev/r/grain-dissolve.json"
+  },
+  {
+   "name": "gravity-pile",
+   "type": "component",
+   "title": "Gravity Pile",
+   "description": "Seeded circles, squares and triangles rain down, bounce off the floor and each other, and settle into a heap.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/gravity-pile.json"
+  },
+  {
+   "name": "grid-wave",
+   "type": "component",
+   "title": "Grid Wave",
+   "description": "A wave travels across the frame raising the picture into a grid of solid blocks with lit tops and shaded sides, which set back down carrying the next scene.",
+   "component": "data-grid",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/transitions"
+   ],
+   "url": "https://www.remocn.dev/r/grid-wave.json"
+  },
+  {
+   "name": "halftone-print",
+   "type": "component",
+   "title": "Halftone Print",
+   "description": "Print a scene onto paper: each colour separates onto its own rotated screen of dots sized by the ink under them, slightly out of register the way a real press runs.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/halftone-print.json"
+  },
+  {
+   "name": "hand-count",
+   "type": "component",
+   "title": "Hand Count",
+   "description": "A number that counts up in stop-motion poses, rewritten by hand at every pose and freezing still once it lands.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://www.remocn.dev/r/hand-count.json"
+  },
+  {
+   "name": "handwrite",
+   "type": "component",
+   "title": "Handwrite",
+   "description": "Handwritten text laid down letter by letter on a quantized stop-motion clock, each glyph keeping its own slant and baseline wobble.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://www.remocn.dev/r/handwrite.json"
+  },
+  {
+   "name": "hologram",
+   "type": "component",
+   "title": "Hologram",
+   "description": "Play a scene as a projection: a ghost double shimmers off the image, emission lines structure it, and only what is bright enough carries through the dark volume it hangs in.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/hologram.json"
+  },
+  {
+   "name": "hyperspace",
+   "type": "component",
+   "title": "Hyperspace",
+   "description": "A deterministic starfield stretches into radial streaks, the scene tunnels forward and a white flash at the cut reveals the next scene.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/transitions"
+   ],
+   "url": "https://www.remocn.dev/r/hyperspace.json"
+  },
+  {
+   "name": "icon-activity",
+   "type": "component",
+   "title": "Activity",
+   "description": "Animated Lucide activity icon — the pulse line sweeps through like an EKG, popping at the peak. Loops by default.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-activity.json"
+  },
+  {
+   "name": "icon-alert-triangle",
+   "type": "component",
+   "title": "Alert Triangle",
+   "description": "Animated Lucide triangle-alert icon — the outline draws on, the mark pops in, then the exclamation blinks to flag a risk or warning.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-alert-triangle.json"
+  },
+  {
+   "name": "icon-arrow-down",
+   "type": "component",
+   "title": "Arrow Down",
+   "description": "Animated Lucide arrow-down icon — the shaft and head draw on, then the arrow nudges down for cost/latency reduction beats or scroll cues.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-arrow-down.json"
+  },
+  {
+   "name": "icon-arrow-left",
+   "type": "component",
+   "title": "Arrow Left",
+   "description": "Animated Lucide arrow-left icon — the shaft and head draw on, then the arrow nudges back for back navigation or 'previously' callbacks.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-arrow-left.json"
+  },
+  {
+   "name": "icon-arrow-right",
+   "type": "component",
+   "title": "Arrow Right",
+   "description": "Animated Lucide arrow-right icon — the shaft and head draw on, then the arrow nudges forward for CTAs, next-step pointers, or flow direction.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-arrow-right.json"
+  },
+  {
+   "name": "icon-arrow-up",
+   "type": "component",
+   "title": "Arrow Up",
+   "description": "Animated Lucide arrow-up icon — the shaft and head draw on, then the arrow nudges up for growth, improvement, or upward-trend beats.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-arrow-up.json"
+  },
+  {
+   "name": "icon-at-sign",
+   "type": "component",
+   "title": "At Sign",
+   "description": "Animated Lucide at-sign icon — the inner 'a' draws and pops, then the outer swoosh re-traces its tail: a mention landing.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-at-sign.json"
+  },
+  {
+   "name": "icon-award",
+   "type": "component",
+   "title": "Award",
+   "description": "Animated Lucide award icon — the medal draws on, the ribbon unfurls beneath it, then the medal swings to rest.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-award.json"
+  },
+  {
+   "name": "icon-bar-chart-3",
+   "type": "component",
+   "title": "Bar Chart 3",
+   "description": "Animated Lucide bar-chart-3 icon — the axis draws on, then three bars rise left to right with overshoot: the classic growth chart.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-bar-chart-3.json"
+  },
+  {
+   "name": "icon-bell",
+   "type": "component",
+   "title": "Bell",
+   "description": "Animated Lucide bell icon — the body draws on, the clapper follows, then the bell swings from its mount to signal a notification or alert.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-bell.json"
+  },
+  {
+   "name": "icon-bookmark",
+   "type": "component",
+   "title": "Bookmark",
+   "description": "Animated Lucide bookmark icon — draws on, then drops into place from above with a spring landing.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-bookmark.json"
+  },
+  {
+   "name": "icon-calendar",
+   "type": "component",
+   "title": "Calendar",
+   "description": "Animated Lucide calendar icon — the pad draws on, then the binder rings dip and the page snaps into place.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-calendar.json"
+  },
+  {
+   "name": "icon-camera",
+   "type": "component",
+   "title": "Camera",
+   "description": "Animated Lucide camera icon — draws on, then the lens blinks shut and open like a shutter firing.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-camera.json"
+  },
+  {
+   "name": "icon-check",
+   "type": "component",
+   "title": "Check",
+   "description": "Animated Lucide check icon — the stroke draws on, then stamps with a spring pop to mark a step, task, or claim as done.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-check.json"
+  },
+  {
+   "name": "icon-check-circle",
+   "type": "component",
+   "title": "Check Circle",
+   "description": "Animated Lucide circle-check icon — the ring draws clockwise, the checkmark traces in, then the whole mark pops to confirm a completed or successful state.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-check-circle.json"
+  },
+  {
+   "name": "icon-chevron-down",
+   "type": "component",
+   "title": "Chevron Down",
+   "description": "Animated Lucide chevron-down icon — draws on, then nudges downward with a fading echo.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-chevron-down.json"
+  },
+  {
+   "name": "icon-chevron-left",
+   "type": "component",
+   "title": "Chevron Left",
+   "description": "Animated Lucide chevron-left icon — draws on, then nudges left with a fading echo.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-chevron-left.json"
+  },
+  {
+   "name": "icon-chevron-right",
+   "type": "component",
+   "title": "Chevron Right",
+   "description": "Animated Lucide chevron-right icon — draws on, then nudges right with a fading echo.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-chevron-right.json"
+  },
+  {
+   "name": "icon-chevron-up",
+   "type": "component",
+   "title": "Chevron Up",
+   "description": "Animated Lucide chevron-up icon — draws on, then nudges upward with a fading echo.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-chevron-up.json"
+  },
+  {
+   "name": "icon-clock",
+   "type": "component",
+   "title": "Clock",
+   "description": "Animated Lucide clock icon — the face draws on, then the hands sweep through discrete ticks. Loops by default.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-clock.json"
+  },
+  {
+   "name": "icon-cloud",
+   "type": "component",
+   "title": "Cloud",
+   "description": "Animated Lucide cloud icon — draws on, then floats: a weightless bob and a half before settling.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-cloud.json"
+  },
+  {
+   "name": "icon-code",
+   "type": "component",
+   "title": "Code",
+   "description": "Animated Lucide code icon — the angle brackets draw on, pull apart, and snap back around their code.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-code.json"
+  },
+  {
+   "name": "icon-copy",
+   "type": "component",
+   "title": "Copy",
+   "description": "Animated Lucide copy icon — the two sheets draw back-to-front, then the front sheet lifts and settles to read as a duplicate for a copy-to-clipboard beat.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-copy.json"
+  },
+  {
+   "name": "icon-credit-card",
+   "type": "component",
+   "title": "Credit Card",
+   "description": "Animated Lucide credit-card icon — the card draws on, then the stripe swipes through and the card tips: payment accepted.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-credit-card.json"
+  },
+  {
+   "name": "icon-crown",
+   "type": "component",
+   "title": "Crown",
+   "description": "Animated Lucide crown icon — descends into place from above, lands with a pop, then rocks regally to rest.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-crown.json"
+  },
+  {
+   "name": "icon-database",
+   "type": "component",
+   "title": "Database",
+   "description": "Animated Lucide database icon — the cylinder draws on, then a write lands: the top disc pops and data settles down the stack.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-database.json"
+  },
+  {
+   "name": "icon-dollar-sign",
+   "type": "component",
+   "title": "Dollar Sign",
+   "description": "Animated Lucide dollar-sign icon — draws on, then the sign stretches tall: understated cha-ching.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-dollar-sign.json"
+  },
+  {
+   "name": "icon-download",
+   "type": "component",
+   "title": "Download",
+   "description": "Animated Lucide download icon — the tray draws on, the arrow fades in, then drops into the tray with a squash on impact for a download or export beat.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-download.json"
+  },
+  {
+   "name": "icon-external-link",
+   "type": "component",
+   "title": "External Link",
+   "description": "Animated Lucide external-link icon — the box and arrow draw on, then the arrow darts out toward the top-right for 'view on GitHub', external docs, or open-in-new-tab beats.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-external-link.json"
+  },
+  {
+   "name": "icon-eye",
+   "type": "component",
+   "title": "Eye",
+   "description": "Animated Lucide eye icon — draws on, then blinks once and refocuses its pupil.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-eye.json"
+  },
+  {
+   "name": "icon-eye-off",
+   "type": "component",
+   "title": "Eye Off",
+   "description": "Animated Lucide eye-off icon — the eye fragments draw on, then the slash cuts through and visibility dims.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-eye-off.json"
+  },
+  {
+   "name": "icon-file-text",
+   "type": "component",
+   "title": "File Text",
+   "description": "Animated Lucide file-text icon — the page draws on, then the text lines type themselves in, top to bottom.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-file-text.json"
+  },
+  {
+   "name": "icon-filter",
+   "type": "component",
+   "title": "Filter",
+   "description": "Animated Lucide filter icon — the funnel draws on, then gives two quick shakes as results fall through.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-filter.json"
+  },
+  {
+   "name": "icon-flame",
+   "type": "component",
+   "title": "Flame",
+   "description": "Animated Lucide flame icon — the outline draws on, then flickers with a looping scale-and-skew wobble for hot features, trending items, or streaks. Loops by default.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-flame.json"
+  },
+  {
+   "name": "icon-folder",
+   "type": "component",
+   "title": "Folder",
+   "description": "Animated Lucide folder icon — draws on, then the folder tips open for a peek and closes.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-folder.json"
+  },
+  {
+   "name": "icon-gem",
+   "type": "component",
+   "title": "Gem",
+   "description": "Animated Lucide gem icon — the stone draws on, then light catches it: facets re-trace in sequence with a flicker and a pop.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-gem.json"
+  },
+  {
+   "name": "icon-gift",
+   "type": "component",
+   "title": "Gift",
+   "description": "Animated Lucide gift icon — draws on, then the lid lifts for a peek and lands with a ribbon pop: almost unwrapped.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-gift.json"
+  },
+  {
+   "name": "icon-globe",
+   "type": "component",
+   "title": "Globe",
+   "description": "Animated Lucide globe icon — draws on, then the meridian sweeps west to east like the world turning. Loops by default.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-globe.json"
+  },
+  {
+   "name": "icon-heart",
+   "type": "component",
+   "title": "Heart",
+   "description": "Animated Lucide heart icon — the outline draws on, then a lub-dub heartbeat pulse for likes, favorites, or built-with-love moments.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-heart.json"
+  },
+  {
+   "name": "icon-help-circle",
+   "type": "component",
+   "title": "Help Circle",
+   "description": "Animated Lucide help-circle icon — the ring draws on, then the question mark re-draws and tilts like a curious head.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-help-circle.json"
+  },
+  {
+   "name": "icon-home",
+   "type": "component",
+   "title": "Home",
+   "description": "Animated Lucide home icon — the house draws on, then the door re-draws open and the house settles: welcome home.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-home.json"
+  },
+  {
+   "name": "icon-image",
+   "type": "component",
+   "title": "Image",
+   "description": "Animated Lucide image icon — the frame draws on, then the mountain redraws and the sun drifts into place like a photo developing.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-image.json"
+  },
+  {
+   "name": "icon-inbox",
+   "type": "component",
+   "title": "Inbox",
+   "description": "Animated Lucide inbox icon — the tray draws on, then dips under the weight of an arriving item and springs back.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-inbox.json"
+  },
+  {
+   "name": "icon-info",
+   "type": "component",
+   "title": "Info",
+   "description": "Animated Lucide info icon — the ring draws clockwise, the dot pops and stem draws in, then the dot bobs to draw a gentle, neutral note.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-info.json"
+  },
+  {
+   "name": "icon-key",
+   "type": "component",
+   "title": "Key",
+   "description": "Animated Lucide key icon — draws on, then turns in an invisible lock and springs back.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-key.json"
+  },
+  {
+   "name": "icon-layout-grid",
+   "type": "component",
+   "title": "Layout Grid",
+   "description": "Animated Lucide layout-grid icon — four tiles draw on, then re-pop into place clockwise like a dashboard assembling.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-layout-grid.json"
+  },
+  {
+   "name": "icon-link",
+   "type": "component",
+   "title": "Link",
+   "description": "Animated Lucide link icon — two chain halves draw on, pull apart, and click together.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-link.json"
+  },
+  {
+   "name": "icon-loader",
+   "type": "component",
+   "title": "Loader",
+   "description": "Animated Lucide loader-circle icon — the arc draws on, then spins continuously for a loading or processing beat. Loops by default.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-loader.json"
+  },
+  {
+   "name": "icon-lock",
+   "type": "component",
+   "title": "Lock",
+   "description": "Animated Lucide lock icon — the body draws on, then the shackle lifts and slams shut with a confirming pop.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-lock.json"
+  },
+  {
+   "name": "icon-log-out",
+   "type": "component",
+   "title": "Log Out",
+   "description": "Animated Lucide log-out icon — draws on, then the arrow steps out through the door frame with a fading echo.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-log-out.json"
+  },
+  {
+   "name": "icon-mail",
+   "type": "component",
+   "title": "Mail",
+   "description": "Animated Lucide mail icon — the envelope draws on, then the flap re-traces open and the whole envelope pops: you've got mail.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-mail.json"
+  },
+  {
+   "name": "icon-maximize",
+   "type": "component",
+   "title": "Maximize",
+   "description": "Animated Lucide maximize icon — four corner brackets draw on, then fly outward and spring back like a window going fullscreen.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-maximize.json"
+  },
+  {
+   "name": "icon-menu",
+   "type": "component",
+   "title": "Menu",
+   "description": "Animated Lucide menu icon — the three bars slide in from the left, top to bottom, each overshooting into place.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-menu.json"
+  },
+  {
+   "name": "icon-message-circle",
+   "type": "component",
+   "title": "Message Circle",
+   "description": "Animated Lucide message-circle icon — the bubble draws on, then inflates from its tail like a message arriving.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-message-circle.json"
+  },
+  {
+   "name": "icon-mic",
+   "type": "component",
+   "title": "Mic",
+   "description": "Animated Lucide mic icon — draws on, then the capsule bounces twice like a level meter picking up voice.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-mic.json"
+  },
+  {
+   "name": "icon-monitor",
+   "type": "component",
+   "title": "Monitor",
+   "description": "Animated Lucide monitor icon — the stand draws, then the screen powers on with a CRT-style unsquash.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-monitor.json"
+  },
+  {
+   "name": "icon-moon",
+   "type": "component",
+   "title": "Moon",
+   "description": "Animated Lucide moon icon — draws on, then rocks gently into place: settling in for the night.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-moon.json"
+  },
+  {
+   "name": "icon-more-horizontal",
+   "type": "component",
+   "title": "More Horizontal",
+   "description": "Animated Lucide more-horizontal icon — three dots pop in, then do a left-to-right thinking wave.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-more-horizontal.json"
+  },
+  {
+   "name": "icon-package",
+   "type": "component",
+   "title": "Package",
+   "description": "Animated Lucide package icon — the box draws on, lands with a squash-and-stretch, then the tape seam seals it.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-package.json"
+  },
+  {
+   "name": "icon-party-popper",
+   "type": "component",
+   "title": "Party Popper",
+   "description": "Animated Lucide party-popper icon — the cone draws on, then confetti bursts outward as the cone recoils for launch, milestone, or celebration finales.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-party-popper.json"
+  },
+  {
+   "name": "icon-pause",
+   "type": "component",
+   "title": "Pause",
+   "description": "Animated Lucide pause icon — the two bars draw on, then pinch toward each other and settle like a held breath.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-pause.json"
+  },
+  {
+   "name": "icon-pencil",
+   "type": "component",
+   "title": "Pencil",
+   "description": "Animated Lucide pencil icon — draws on, then scribbles: the pencil rocks around its tip as if writing.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-pencil.json"
+  },
+  {
+   "name": "icon-phone",
+   "type": "component",
+   "title": "Phone",
+   "description": "Animated Lucide phone icon — draws on, then rings: three decaying rotation oscillations around center.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-phone.json"
+  },
+  {
+   "name": "icon-play",
+   "type": "component",
+   "title": "Play",
+   "description": "Animated Lucide play icon — the triangle draws on, then presses in and springs forward like a play button being hit.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-play.json"
+  },
+  {
+   "name": "icon-plus",
+   "type": "component",
+   "title": "Plus",
+   "description": "Animated Lucide plus icon — the two strokes draw on, then the mark twirls 90deg with a scale pop for an energetic add or create beat.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-plus.json"
+  },
+  {
+   "name": "icon-plus-circle",
+   "type": "component",
+   "title": "Plus Circle",
+   "description": "Animated Lucide plus-circle icon — the ring draws on, the plus crosses in, then the whole badge pops.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-plus-circle.json"
+  },
+  {
+   "name": "icon-refresh-cw",
+   "type": "component",
+   "title": "Refresh Cw",
+   "description": "Animated Lucide refresh-cw icon — the two arcs draw on, arrowheads pop, then the whole mark spins in cycles for sync, retry, or up-to-date messaging. Loops by default.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-refresh-cw.json"
+  },
+  {
+   "name": "icon-rocket",
+   "type": "component",
+   "title": "Rocket",
+   "description": "Animated Lucide rocket icon — draws on, then lifts off: the ship rises on a tilt while the flame re-ignites, then eases back to rest.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-rocket.json"
+  },
+  {
+   "name": "icon-save",
+   "type": "component",
+   "title": "Save",
+   "description": "Animated Lucide save icon — the disk draws on, then presses down and writes: the label slot re-draws as data commits.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-save.json"
+  },
+  {
+   "name": "icon-scatter",
+   "type": "component",
+   "title": "Icon Scatter",
+   "description": "Scatter a field of icons over the cut, hiding the scene swap at the field's peak.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/transitions"
+   ],
+   "url": "https://www.remocn.dev/r/icon-scatter.json"
+  },
+  {
+   "name": "icon-search",
+   "type": "component",
+   "title": "Search",
+   "description": "Animated Lucide search icon — the lens draws on, the handle extends, then the magnifier sweeps a small scanning path for a search or discovery beat.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-search.json"
+  },
+  {
+   "name": "icon-send",
+   "type": "component",
+   "title": "Send",
+   "description": "Animated Lucide send icon — the paper plane draws on, then darts forward with a wind-up and settles back for a send-message beat.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-send.json"
+  },
+  {
+   "name": "icon-settings",
+   "type": "component",
+   "title": "Settings",
+   "description": "Animated Lucide settings icon — the gear and center draw on, then the gear turns exactly one tooth for a settings, configuration, or customization beat.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-settings.json"
+  },
+  {
+   "name": "icon-share-2",
+   "type": "component",
+   "title": "Share 2",
+   "description": "Animated Lucide share-2 icon — three nodes draw on, then the connections re-trace and the receiving nodes pop as the share lands.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-share-2.json"
+  },
+  {
+   "name": "icon-shield",
+   "type": "component",
+   "title": "Shield",
+   "description": "Animated Lucide shield icon — draws on, then braces: a firm guard pulse that asserts protection.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-shield.json"
+  },
+  {
+   "name": "icon-shopping-cart",
+   "type": "component",
+   "title": "Shopping Cart",
+   "description": "Animated Lucide shopping-cart icon — draws on, then rolls forward to checkout, wheels popping as it stops.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-shopping-cart.json"
+  },
+  {
+   "name": "icon-skip-forward",
+   "type": "component",
+   "title": "Skip Forward",
+   "description": "Animated Lucide skip-forward icon — draws on, then dashes forward past center and snaps against its end bar.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-skip-forward.json"
+  },
+  {
+   "name": "icon-smartphone",
+   "type": "component",
+   "title": "Smartphone",
+   "description": "Animated Lucide smartphone icon — draws on, then buzzes: three fast vibration oscillations.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-smartphone.json"
+  },
+  {
+   "name": "icon-sparkles",
+   "type": "component",
+   "title": "Sparkles",
+   "description": "Animated Lucide sparkles icon — the main sparkle draws on, the accents pop, then a looping twinkle for AI, magic, or premium highlights. Loops by default.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-sparkles.json"
+  },
+  {
+   "name": "icon-star",
+   "type": "component",
+   "title": "Star",
+   "description": "Animated Lucide star icon — the outline draws on, then twinkles into place with a small rotate and scale pop for ratings, favorites, or star callouts.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-star.json"
+  },
+  {
+   "name": "icon-sun",
+   "type": "component",
+   "title": "Sun",
+   "description": "Animated Lucide sun icon — the core draws on, then eight rays fan out clockwise and the sun swells: sunrise.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-sun.json"
+  },
+  {
+   "name": "icon-tag",
+   "type": "component",
+   "title": "Tag",
+   "description": "Animated Lucide tag icon — draws on, then swings from its hole like a price tag flicked by a shopper.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-tag.json"
+  },
+  {
+   "name": "icon-target",
+   "type": "component",
+   "title": "Target",
+   "description": "Animated Lucide target icon — three rings draw in from outside, then the bullseye hits: inner dot pops and the board shudders.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-target.json"
+  },
+  {
+   "name": "icon-terminal",
+   "type": "component",
+   "title": "Terminal",
+   "description": "Animated Lucide terminal icon — draws on, then the prompt nudges forward and the cursor blinks twice.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-terminal.json"
+  },
+  {
+   "name": "icon-thumbs-up",
+   "type": "component",
+   "title": "Thumbs Up",
+   "description": "Animated Lucide thumbs-up icon — the hand draws on, then springs up with an approving stamp for positive reviews, approvals, or social-proof beats.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-thumbs-up.json"
+  },
+  {
+   "name": "icon-timer",
+   "type": "component",
+   "title": "Timer",
+   "description": "Animated Lucide timer icon — draws on, then the start button clicks and the hand sweeps: the stopwatch is running.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-timer.json"
+  },
+  {
+   "name": "icon-trash",
+   "type": "component",
+   "title": "Trash",
+   "description": "Animated Lucide trash-2 icon — the can draws on, then the lid flips open and the contents vanish for a delete or cleanup beat.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-trash.json"
+  },
+  {
+   "name": "icon-trending-down",
+   "type": "component",
+   "title": "Trending Down",
+   "description": "Animated Lucide trending-down icon — the line descends across, then the arrowhead lands with damped weight.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-trending-down.json"
+  },
+  {
+   "name": "icon-trending-up",
+   "type": "component",
+   "title": "Trending Up",
+   "description": "Animated Lucide trending-up icon — the line climbs across, then the arrowhead pops at the peak.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-trending-up.json"
+  },
+  {
+   "name": "icon-trophy",
+   "type": "component",
+   "title": "Trophy",
+   "description": "Animated Lucide trophy icon — draws on, then hoists: the cup hops with a pop at the apex while its handles flash in.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-trophy.json"
+  },
+  {
+   "name": "icon-upload",
+   "type": "component",
+   "title": "Upload",
+   "description": "Animated Lucide upload icon — the tray draws on, the arrow fades in, then launches upward with a spring for an upload, publish, or submission beat.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-upload.json"
+  },
+  {
+   "name": "icon-user",
+   "type": "component",
+   "title": "User",
+   "description": "Animated Lucide user icon — draws on, then gives a small presence nod: head dips as shoulders rise to meet it.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-user.json"
+  },
+  {
+   "name": "icon-user-plus",
+   "type": "component",
+   "title": "User Plus",
+   "description": "Animated Lucide user-plus icon — the figure draws on, then the plus strokes draw in and pop: a new member added.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-user-plus.json"
+  },
+  {
+   "name": "icon-users",
+   "type": "component",
+   "title": "Users",
+   "description": "Animated Lucide users icon — the front figure draws on and pops, then the second figure slides in from behind: the team assembles.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-users.json"
+  },
+  {
+   "name": "icon-video",
+   "type": "component",
+   "title": "Video",
+   "description": "Animated Lucide video icon — draws on, then the lens wedge pans out and snaps back to its shot.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-video.json"
+  },
+  {
+   "name": "icon-volume-2",
+   "type": "component",
+   "title": "Volume 2",
+   "description": "Animated Lucide volume-2 icon — the speaker draws on, then the two sound waves ripple outward one after the other.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-volume-2.json"
+  },
+  {
+   "name": "icon-volume-x",
+   "type": "component",
+   "title": "Volume X",
+   "description": "Animated Lucide volume-x icon — the speaker draws on, then the X slashes in and the glyph shakes off the sound.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-volume-x.json"
+  },
+  {
+   "name": "icon-wallet",
+   "type": "component",
+   "title": "Wallet",
+   "description": "Animated Lucide wallet icon — draws on, then the wallet thickens with a quiet x-scale: money in.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-wallet.json"
+  },
+  {
+   "name": "icon-x",
+   "type": "component",
+   "title": "X",
+   "description": "Animated Lucide x icon — the two diagonals draw in crosswise, then the mark shakes to punctuate an error, removal, or dismissal.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-x.json"
+  },
+  {
+   "name": "icon-x-circle",
+   "type": "component",
+   "title": "X Circle",
+   "description": "Animated Lucide x-circle icon — the ring draws on, the X slashes in, and the badge shakes once: firmly rejected.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-x-circle.json"
+  },
+  {
+   "name": "icon-zap",
+   "type": "component",
+   "title": "Zap",
+   "description": "Animated Lucide zap icon — the bolt draws in fast, then flashes with a double blink for speed, performance, or instant-result claims.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/icon-zap.json"
+  },
+  {
+   "name": "imessage-chat-flow",
+   "type": "component",
+   "title": "UI iMessage Chat Flow",
+   "description": "An iMessage-styled messaging composition: gray incoming and blue outgoing bubbles with tails, an in-thread typing bubble with dots, a Delivered label, and tapback-style reaction badges. The composer types the outgoing message before sending. Chrome icons come from lucide-react; self-contained otherwise, composing the caret and typing-indicator primitives.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "lucide-react"
+   ],
+   "url": "https://www.remocn.dev/r/imessage-chat-flow.json"
+  },
+  {
+   "name": "impact-shake",
+   "type": "component",
+   "title": "Impact Shake",
+   "description": "Heavy content slams in from above with squash, a damped camera jolt, a two-frame RGB split and dust puffs kicking out sideways.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/impact-shake.json"
+  },
+  {
+   "name": "infinite-bento-pan",
+   "type": "component",
+   "title": "Infinite Bento Pan",
+   "description": "A camera diagonally drifts across an oversized bento grid behind a soft vignette.",
+   "component": "bento-grid",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/infinite-bento-pan.json"
+  },
+  {
+   "name": "infinite-marquee",
+   "type": "component",
+   "title": "Infinite Marquee",
+   "description": "Seamlessly looping horizontal text strip with optional stroke style.",
+   "component": "marquee",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/infinite-marquee.json"
+  },
+  {
+   "name": "inflate",
+   "type": "component",
+   "title": "Inflate",
+   "description": "A deflated red sliver puffs up like a balloon toy, overshoots, squashes wide and settles into a glossy rounded mark.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/inflate.json"
+  },
+  {
+   "name": "ink-arrow",
+   "type": "component",
+   "title": "Ink Arrow",
+   "description": "A hand-drawn brush arrow that sweeps itself from one point to another, thickening into the head that pops on the final poses.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/ink-arrow.json"
+  },
+  {
+   "name": "ink-underline",
+   "type": "component",
+   "title": "Ink Underline",
+   "description": "A hand-dragged brush underline that sweeps itself across in a few stop-motion poses, thinning to a dry tail.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/ink-underline.json"
+  },
+  {
+   "name": "inline-highlight",
+   "type": "component",
+   "title": "Inline Highlight",
+   "description": "Animates one word inside a sentence from a base color to a brand color.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/inline-highlight.json"
+  },
+  {
+   "name": "inline-pill-takeover",
+   "type": "component",
+   "title": "Inline Pill Takeover",
+   "description": "A clipped pill expands inside a sentence, physically pushes the surrounding words apart, removes them through blur and takes over the frame with a fast camera punch-in.",
+   "component": "chip",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/inline-pill-takeover.json"
+  },
+  {
+   "name": "inline-word-roll",
+   "type": "component",
+   "title": "Inline Word Roll",
+   "description": "Roll through words beside a fixed prefix with accelerating timing and smoothly centered width.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/inline-word-roll.json"
+  },
+  {
+   "name": "input",
+   "type": "component",
+   "title": "UI Input",
+   "description": "A text input whose idle/hover/active/typing/invalid state is a pure function of the timeline; the focus ring, border, caret, and value reveal are keyframed presets.",
+   "component": "text-input",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/input.json"
+  },
+  {
+   "name": "iris-wipe",
+   "type": "component",
+   "title": "Iris Wipe",
+   "description": "An old-cartoon iris closes on the subject, holds a beat as a dot, then opens on the next scene.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/transitions"
+   ],
+   "url": "https://www.remocn.dev/r/iris-wipe.json"
+  },
+  {
+   "name": "isometric-build",
+   "type": "component",
+   "title": "Isometric Build",
+   "description": "An isometric tile grid springs up row by row into a stepped block sculpture with one accent tower, then holds.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/isometric-build.json"
+  },
+  {
+   "name": "keystroke",
+   "type": "component",
+   "title": "Keystroke",
+   "description": "Physical keycaps rise in for each shortcut, press in real order with the modifiers held while the letter taps, spring back with a small capped overshoot, and leave after an idle hold, firing on the same frames as the remocn-ui steps they trigger.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/keystroke.json"
+  },
+  {
+   "name": "kinetic-center-build",
+   "type": "component",
+   "title": "Kinetic Center Build",
+   "description": "A word appears in the center; each new word enters from the right and pushes the line until the full phrase locks centered.",
+   "component": "center",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/kinetic-center-build.json"
+  },
+  {
+   "name": "kinetic-morph-text",
+   "type": "component",
+   "title": "Kinetic Morph Text",
+   "description": "Letters lift, rotate, and softly reshape into editable phrases with sampled outline trails.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/kinetic-morph-text.json"
+  },
+  {
+   "name": "kinetic-warp",
+   "type": "component",
+   "title": "Kinetic Warp",
+   "description": "A coarse mesh warp bends a whole word in staccato beats, one axis per keyframe.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/kinetic-warp.json"
+  },
+  {
+   "name": "launch-anything",
+   "type": "component",
+   "title": "Product Showcase",
+   "description": "An independent 26.7-second editorial product film with forest-green accents, original photography, seven editable demos, and geometric marks.",
+   "component": "image-gallery",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@fontsource/manrope"
+   ],
+   "url": "https://www.remocn.dev/r/launch-anything.json"
+  },
+  {
+   "name": "lens-zoom",
+   "type": "component",
+   "title": "Lens Zoom",
+   "description": "A hard cut disguised as a lens punch-in: barrel distortion, zoom blur, chromatic split and camera shake around the splice.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/transitions"
+   ],
+   "url": "https://www.remocn.dev/r/lens-zoom.json"
+  },
+  {
+   "name": "life-grid",
+   "type": "component",
+   "title": "Life Grid",
+   "description": "Conway's Game of Life plays out on a seeded grid, with newborn cells flashing in the accent.",
+   "component": "data-grid",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/life-grid.json"
+  },
+  {
+   "name": "light-leak",
+   "type": "component",
+   "title": "Light Leak",
+   "description": "A warm analog light leak drifts in from an edge and blows the frame out to near-white at the cut, then cools off to reveal the next scene.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/transitions"
+   ],
+   "url": "https://www.remocn.dev/r/light-leak.json"
+  },
+  {
+   "name": "line-boil",
+   "type": "component",
+   "title": "Line Boil",
+   "description": "A hand-drawn outline boils like a cel animation, redrawn every few frames with a varying pen weight, then fills with color while it keeps boiling.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/paths"
+   ],
+   "url": "https://www.remocn.dev/r/line-boil.json"
+  },
+  {
+   "name": "line-by-line-slide",
+   "type": "component",
+   "title": "Line-by-Line Slide",
+   "description": "Each line enters from the left with a staggered slide and exits to the right for a flowing paragraph reveal.",
+   "component": "transition",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/line-by-line-slide.json"
+  },
+  {
+   "name": "liquid-fill",
+   "type": "component",
+   "title": "Liquid Fill",
+   "description": "A drop falls into an outlined mark and liquid rises with a sloshing, damping surface and bubbles until the mark is solid.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/liquid-fill.json"
+  },
+  {
+   "name": "live-code-compilation",
+   "type": "component",
+   "title": "Live Code Compilation",
+   "description": "Split-screen where typed code on the left snaps a live UI preview on the right, HMR-style.",
+   "component": "code-block",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/live-code-compilation.json"
+  },
+  {
+   "name": "logo-enter",
+   "type": "component",
+   "title": "Logo Enter",
+   "description": "A stacked group of round brand chips that spring in one-by-one, then hold. Swap the logos to feature any set of marks. Horizontal or vertical stacking.",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/logo-enter.json"
+  },
+  {
+   "name": "long-shadow",
+   "type": "component",
+   "title": "Long Shadow",
+   "description": "A flat icon casts a long shadow to the frame edge, then the light swings and the shadow sweeps around on a spring.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/long-shadow.json"
+  },
+  {
+   "name": "marker-highlight",
+   "type": "component",
+   "title": "Marker Highlight",
+   "description": "Colored marker block draws behind a phrase as the text color shifts.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/marker-highlight.json"
+  },
+  {
+   "name": "mask-reveal-up",
+   "type": "component",
+   "title": "Mask Reveal Up",
+   "description": "Lines reveal upward with a soft masked feel and compact stagger.",
+   "component": "backdrop",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/mask-reveal-up.json"
+  },
+  {
+   "name": "matrix-decode",
+   "type": "component",
+   "title": "Matrix Decode",
+   "description": "Random scramble resolves left-to-right into the target text.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/matrix-decode.json"
+  },
+  {
+   "name": "message-bubble",
+   "type": "component",
+   "title": "UI Message Bubble",
+   "description": "A chat message bubble whose hidden/visible state is a pure function of the timeline. The renderer is a pure function of a MessageBubbleStyle (opacity, translateY, scale); useMessageBubbleTransition eases the rise-in enter. The incoming/outgoing variant resolves bubble color and alignment from the theme, and an optional reaction badge pops in on its own channel.",
+   "component": "message",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/message-bubble.json"
+  },
+  {
+   "name": "micro-scale-fade",
+   "type": "component",
+   "title": "Micro Scale Fade",
+   "description": "A calm, tiny scale pop used as subtle premium polish for labels and headings.",
+   "component": "chart-axis",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/micro-scale-fade.json"
+  },
+  {
+   "name": "mondrian-split",
+   "type": "component",
+   "title": "Mondrian Split",
+   "description": "Black lines cut the frame into a seeded De Stijl grid, primaries wipe into its cells, the grid reflows like rubber, and one cell pushes its own lines out past the edges to become a clean color field or the next scene.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/mondrian-split.json"
+  },
+  {
+   "name": "neon-sign",
+   "type": "component",
+   "title": "Neon Sign",
+   "description": "A glass neon tube stutters alive segment by segment with a hot white core and wall glow, buzzes off once, then holds lit.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/paths"
+   ],
+   "url": "https://www.remocn.dev/r/neon-sign.json"
+  },
+  {
+   "name": "number-wheel",
+   "type": "component",
+   "title": "Number Wheel",
+   "description": "Mechanical odometer that rolls an integer up or down to its target, direction inferred from the values.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://www.remocn.dev/r/number-wheel.json"
+  },
+  {
+   "name": "onboarding-stepper-flow",
+   "type": "component",
+   "title": "UI Onboarding Stepper Flow",
+   "description": "A multi-step onboarding composition: a horizontal stepper advances through panels of input, radio, and switch fields, finishing on a Finish button that runs to success. Panel crossfade derives linearly from the stepper's exposed position channel; every other channel comes from a composed primitive's hook.",
+   "component": "quantity-stepper",
+   "surface": "onboarding-mobile",
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/onboarding-stepper-flow.json"
+  },
+  {
+   "name": "opencode",
+   "type": "component",
+   "title": "OpenCode",
+   "description": "Animated OpenCode TUI welcome screen — two-tone wordmark, an input box with a blue accent bar that types a query, a model status line, and command hints. Dark/light themes.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://www.remocn.dev/r/opencode.json"
+  },
+  {
+   "name": "orbit-lock",
+   "type": "component",
+   "title": "Orbit Lock",
+   "description": "Three moons ride tilted, shrinking orbits into a red core that bursts into a ring flash and springs the logo into place.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/orbit-lock.json"
+  },
+  {
+   "name": "outline-fill-track-text",
+   "type": "component",
+   "title": "Outline Fill Track Text",
+   "description": "A rising lead word gives way to an outlined value that fills from left to right while both travel on one continuous track.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/outline-fill-track-text.json"
+  },
+  {
+   "name": "outline-trace",
+   "type": "component",
+   "title": "Outline Trace",
+   "description": "Every glyph contour draws itself as a stroke, letter by letter, then the fill wipes up inside each letter and the stroke fades into it.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "opentype.js"
+   ],
+   "url": "https://www.remocn.dev/r/outline-trace.json"
+  },
+  {
+   "name": "page-turn",
+   "type": "component",
+   "title": "Page Turn",
+   "description": "The exiting scene swings up and away like a notebook page in stop-motion poses, staying above the scene it reveals.",
+   "component": "message",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/transitions"
+   ],
+   "url": "https://www.remocn.dev/r/page-turn.json"
+  },
+  {
+   "name": "paper-sticker",
+   "type": "component",
+   "title": "Paper Sticker",
+   "description": "A taped paper chip that slaps onto the scene over two stop-motion poses, keeping a hand-placed tilt and per-pose wobble.",
+   "component": "badge",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/paper-sticker.json"
+  },
+  {
+   "name": "paper-tear",
+   "type": "component",
+   "title": "Paper Tear",
+   "description": "A jagged rip runs down the frame, then both halves peel apart on a spring with white fibrous torn edges, revealing the scene underneath.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/transitions"
+   ],
+   "url": "https://www.remocn.dev/r/paper-tear.json"
+  },
+  {
+   "name": "paper-wobble",
+   "type": "component",
+   "title": "Paper Wobble",
+   "description": "Per-pose reshoot jitter that makes any content feel hand-placed on a desk.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/paper-wobble.json"
+  },
+  {
+   "name": "parallax-depth",
+   "type": "component",
+   "title": "Parallax Depth",
+   "description": "A flat landscape built from depth layers trucks sideways with a gentle push-in, near layers sliding faster than far ones.",
+   "component": "parallax",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/parallax-depth.json"
+  },
+  {
+   "name": "particle-dissolve",
+   "type": "component",
+   "title": "Particle Dissolve",
+   "description": "The frame is ground into drifting grey dust whose specks carry real fragments of the picture, and the next scene coalesces back out of the same dust.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/transitions"
+   ],
+   "url": "https://www.remocn.dev/r/particle-dissolve.json"
+  },
+  {
+   "name": "path-ride",
+   "type": "component",
+   "title": "Path Ride",
+   "description": "A line draws itself along a curve with the text riding behind its head, then the curve pulls taut and the text settles on a straight, centered baseline.",
+   "component": "breadcrumbs",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts",
+    "@remotion/paths"
+   ],
+   "url": "https://www.remocn.dev/r/path-ride.json"
+  },
+  {
+   "name": "pendulum-wave",
+   "type": "component",
+   "title": "Pendulum Wave",
+   "description": "A row of pendulums with tuned periods drifts from a straight line into waves and braids, then realigns for a seamless loop.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/pendulum-wave.json"
+  },
+  {
+   "name": "per-character-rise",
+   "type": "component",
+   "title": "Per Character Rise",
+   "description": "Letters slide up from below with no blur — crisp, deliberate, kinetic.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/per-character-rise.json"
+  },
+  {
+   "name": "per-word-crossfade",
+   "type": "component",
+   "title": "Per-Word Crossfade",
+   "description": "Words gently fade into place one after another, with a short vertical drift for a calm keynote rhythm.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/per-word-crossfade.json"
+  },
+  {
+   "name": "period-drop",
+   "type": "component",
+   "title": "Period Drop",
+   "description": "A word rises out of its line, then a colored dot falls from above the frame, bounces with squash and stretch, and settles as the period.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://www.remocn.dev/r/period-drop.json"
+  },
+  {
+   "name": "perlin-dissolve",
+   "type": "component",
+   "title": "Perlin Dissolve",
+   "description": "A perlin-noise shader transition that sweeps its noise threshold to dissolve one scene into the next.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/transitions"
+   ],
+   "url": "https://www.remocn.dev/r/perlin-dissolve.json"
+  },
+  {
+   "name": "perspective-marquee",
+   "type": "component",
+   "title": "Perspective Marquee",
+   "description": "A 3D-tilted infinite marquee with depth-of-field blur on items rolling toward the horizon.",
+   "component": "marquee",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/perspective-marquee.json"
+  },
+  {
+   "name": "perspective-squeeze",
+   "type": "component",
+   "title": "Perspective Squeeze",
+   "description": "Two lines of heavy type endlessly trade height while corner-pinned perspective bends the flat stack into receding planes.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/perspective-squeeze.json"
+  },
+  {
+   "name": "phyllotaxis",
+   "type": "component",
+   "title": "Phyllotaxis",
+   "description": "Seeds spiral out at the golden angle into a sunflower head, then an accent Fibonacci arm pulses outward.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/phyllotaxis.json"
+  },
+  {
+   "name": "pixel-sort",
+   "type": "component",
+   "title": "Pixel Sort",
+   "description": "The scene melts into seeded vertical streaks like glitch-art pixel sorting, then the next scene's columns fall in and snap into place.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/transitions"
+   ],
+   "url": "https://www.remocn.dev/r/pixel-sort.json"
+  },
+  {
+   "name": "pixelate-region",
+   "type": "component",
+   "title": "Pixelate Region",
+   "description": "Cover rectangles of a scene with an opaque mosaic while the rest passes through untouched — redact keys, addresses and personal data before a demo goes out.",
+   "component": "section",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/pixelate-region.json"
+  },
+  {
+   "name": "polaroid",
+   "type": "component",
+   "title": "Polaroid",
+   "description": "An instant-photo frame with a handwritten caption for video, images, or live compositions.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/polaroid.json"
+  },
+  {
+   "name": "popover",
+   "type": "component",
+   "title": "UI Popover",
+   "description": "A popover/hover-card whose opened/closed state is a pure function of the timeline. The Popover renderer is a pure function of a PopoverStyle (opacity, scale, translate); usePopoverTransition eases both the open and the close. The static `side` prop sets the enter translate axis; renders title + description and/or arbitrary children in a popover card.",
+   "component": "popover",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/popover.json"
+  },
+  {
+   "name": "progress",
+   "type": "component",
+   "title": "UI Progress",
+   "description": "A progress bar whose fill is a pure function of a numeric value channel (value-channel deviation). The Progress renderer takes a clamped 0–100 value; useProgressTransition reads the frame and eases the fill between value steps. Muted track + primary indicator, optional floored percentage label.",
+   "component": "progress-bar",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/progress.json"
+  },
+  {
+   "name": "push-through",
+   "type": "component",
+   "title": "Push Through",
+   "description": "A dolly transition that blows the outgoing scene past the camera while the next one approaches from the depth.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/transitions"
+   ],
+   "url": "https://www.remocn.dev/r/push-through.json"
+  },
+  {
+   "name": "puzzle-snap",
+   "type": "component",
+   "title": "Puzzle Snap",
+   "description": "Geometric pieces spin in from scattered positions and magnet-snap into a mark with a spark burst, then the mark slides aside for the wordmark.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/puzzle-snap.json"
+  },
+  {
+   "name": "radial-burst",
+   "type": "component",
+   "title": "Radial Burst",
+   "description": "Sculptural ribbons twist into a tilted ring and sweep outward through contour echoes for an expressive product introduction.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/radial-burst.json"
+  },
+  {
+   "name": "radio",
+   "type": "component",
+   "title": "UI Radio",
+   "description": "A radio whose checked/unchecked state is a pure function of the timeline; the ring border and inner dot pop are keyframed presets.",
+   "component": "radio-button",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/radio.json"
+  },
+  {
+   "name": "reel",
+   "type": "component",
+   "title": "Reel",
+   "description": "A fixed centered card where images stack on the z-axis and each blooms open over the last via a centre-out mask.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/reel.json"
+  },
+  {
+   "name": "release-teaser",
+   "type": "component",
+   "title": "Release Teaser",
+   "description": "A 16-second cinematic release teaser with center-out typography, a procedural dimensional mark, moving edge light, and an independent fictional identity.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@fontsource/inter"
+   ],
+   "url": "https://www.remocn.dev/r/release-teaser.json"
+  },
+  {
+   "name": "resizable",
+   "type": "component",
+   "title": "UI Resizable",
+   "description": "Two panels split by a draggable handle, where the split ratio is a numeric channel plus a handle idle/hover/press channel (dual-channel value-channel deviation). The Resizable renderer is pure (clamped 0–1 ratio, handle scale, grab-ring opacity); useResizableTransition reads the frame and eases both channels — ratio as a numeric lerp, the handle visual from its state presets. Horizontal and vertical splits; 1px divider + centered grip pill with a derived grab ring.",
+   "component": "resizable",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/resizable.json"
+  },
+  {
+   "name": "rgb-glitch-text",
+   "type": "component",
+   "title": "RGB Glitch Text",
+   "description": "Three RGB-offset text copies jitter for a brief glitch window.",
+   "component": "text-effect",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/rgb-glitch-text.json"
+  },
+  {
+   "name": "ring-text",
+   "type": "component",
+   "title": "Ring Text",
+   "description": "Text runs around a tilted 3D band that spins, reading on the near side and mirrored on the far side.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://www.remocn.dev/r/ring-text.json"
+  },
+  {
+   "name": "ripple-zoom",
+   "type": "component",
+   "title": "Ripple Zoom",
+   "description": "A grain-gradient ripple transition that flies the camera through the center of the rings while the next scene approaches from the depth.",
+   "component": "ripple",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/transitions"
+   ],
+   "url": "https://www.remocn.dev/r/ripple-zoom.json"
+  },
+  {
+   "name": "riso-print",
+   "type": "component",
+   "title": "Riso Print",
+   "description": "A two-ink risograph print: the accent plate slides in off-register, wobbles and settles a hair out of alignment over grainy paper.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/riso-print.json"
+  },
+  {
+   "name": "rolling-number",
+   "type": "component",
+   "title": "Rolling Number",
+   "description": "Odometer where every place rolls at its own speed, new places rising into view, settling exactly on the target value.",
+   "component": "count-up",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://www.remocn.dev/r/rolling-number.json"
+  },
+  {
+   "name": "rolodex-flip",
+   "type": "component",
+   "title": "Rolodex Flip",
+   "description": "Cycles a word through a list of values with a 3D rolodex card flip while an invisible sizer keeps the line width and baseline stable.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/rolodex-flip.json"
+  },
+  {
+   "name": "rush-type",
+   "type": "component",
+   "title": "Rush Type",
+   "description": "A resting white word blasts through vertical scale motion, separating into energy-conserving RGB shutter trails before the next word resolves.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/rush-type.json"
+  },
+  {
+   "name": "scale-down-fade",
+   "type": "component",
+   "title": "Scale Down Fade",
+   "description": "Subtle premium settle-in with a restrained scale-down fade on exit.",
+   "component": "chart-axis",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/scale-down-fade.json"
+  },
+  {
+   "name": "scribble-circle",
+   "type": "component",
+   "title": "Scribble Circle",
+   "description": "A brush circle swept around a region of the frame, opening thin and closing thick, with grain breaking up the dry opening.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/scribble-circle.json"
+  },
+  {
+   "name": "search-reveal",
+   "type": "component",
+   "title": "Search Reveal",
+   "description": "Expanding construction circles snap into a search pill, type editable text, and reveal an abstract graphic panel.",
+   "component": "search-input",
+   "surface": "search-mobile",
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/search-reveal.json"
+  },
+  {
+   "name": "security-cam",
+   "type": "component",
+   "title": "Security Cam",
+   "description": "Run a scene through a cheap recorder: macroblocks flatten under a starved bitrate, colour resolution collapses to half the luma, blacks crush and shadows crawl with sensor noise.",
+   "component": null,
+   "surface": "security",
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/security-cam.json"
+  },
+  {
+   "name": "select",
+   "type": "component",
+   "title": "UI Select",
+   "description": "A select whose opened/closed state is a pure function of the timeline; the trigger reuses the Button primitive and the reveal panel composes SelectItem rows. The panel fade, scale, lift, and chevron are keyframed presets.",
+   "component": "select",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/select.json"
+  },
+  {
+   "name": "select-item",
+   "type": "component",
+   "title": "UI Select Item",
+   "description": "A select option row whose idle/hover/press/selected state is a pure function of the timeline; the row background, label color, and check icon are keyframed presets. Composed inside the Select panel.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/select-item.json"
+  },
+  {
+   "name": "select-menu",
+   "type": "component",
+   "title": "UI Select Menu",
+   "description": "A vertical option list where exactly one row is highlighted; the highlight bar and left accent slide smoothly between rows. Fully controlled via selectedIndex/state or useSelectMenuTransition.",
+   "component": "select",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/select-menu.json"
+  },
+  {
+   "name": "selection-snap",
+   "type": "component",
+   "title": "Selection Snap",
+   "description": "A thin word in a loose viewfinder snaps into a design-tool selection while it goes from Thin to Black, pops its handles and counts up a size badge.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://www.remocn.dev/r/selection-snap.json"
+  },
+  {
+   "name": "settings-toggle-flow",
+   "type": "component",
+   "title": "UI Settings Toggle Flow",
+   "description": "A two-column settings card: the card and its controls blur-in, then the cursor flips a switch, opens a select, drags a labeled slider, and clicks Save, ending in a saved toast. A pure orchestrator — every channel comes from a composed primitive's transition hook.",
+   "component": "toggle-button",
+   "surface": "settings-web-app",
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/settings-toggle-flow.json"
+  },
+  {
+   "name": "shader-caustics",
+   "type": "component",
+   "title": "Shader Caustics",
+   "description": "A field of refracted light — the bright filaments light makes through a rippling surface.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/shader-caustics.json"
+  },
+  {
+   "name": "shader-color-panels",
+   "type": "component",
+   "title": "Shader Color Panels",
+   "description": "Overlapping translucent color panels sliding past each other.",
+   "component": "floating-window",
+   "surface": null,
+   "dependencies": [
+    "@paper-design/shaders-react"
+   ],
+   "url": "https://www.remocn.dev/r/shader-color-panels.json"
+  },
+  {
+   "name": "shader-dithering",
+   "type": "component",
+   "title": "Shader Dithering",
+   "description": "Ordered-dither shading over an animated gradient field.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@paper-design/shaders-react"
+   ],
+   "url": "https://www.remocn.dev/r/shader-dithering.json"
+  },
+  {
+   "name": "shader-dot-orbit",
+   "type": "component",
+   "title": "Shader Dot Orbit",
+   "description": "Dots orbiting on concentric paths across the frame.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@paper-design/shaders-react"
+   ],
+   "url": "https://www.remocn.dev/r/shader-dot-orbit.json"
+  },
+  {
+   "name": "shader-gem-smoke",
+   "type": "component",
+   "title": "Shader Gem Smoke",
+   "description": "Paper's Gem Smoke shader driven by the frame — smoke flowing behind and inside a glassy logo.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@paper-design/shaders-react"
+   ],
+   "url": "https://www.remocn.dev/r/shader-gem-smoke.json"
+  },
+  {
+   "name": "shader-god-rays",
+   "type": "component",
+   "title": "Shader God Rays",
+   "description": "Volumetric light rays radiating from an off-screen source.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@paper-design/shaders-react"
+   ],
+   "url": "https://www.remocn.dev/r/shader-god-rays.json"
+  },
+  {
+   "name": "shader-grain-gradient",
+   "type": "component",
+   "title": "Shader Grain Gradient",
+   "description": "Grainy multi-stop gradient that drifts slowly with film-grain texture over the blend.",
+   "component": "gradient-background",
+   "surface": null,
+   "dependencies": [
+    "@paper-design/shaders-react"
+   ],
+   "url": "https://www.remocn.dev/r/shader-grain-gradient.json"
+  },
+  {
+   "name": "shader-grain-gradient-arcade",
+   "type": "component",
+   "title": "Shader Grain Gradient Arcade",
+   "description": "Retro grainy dots in orange, yellow and green on black.",
+   "component": "gradient-background",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.remocn.dev/r/shader-grain-gradient-arcade.json"
+  },
+  {
+   "name": "shader-grain-gradient-blush",
+   "type": "component",
+   "title": "Shader Grain Gradient Blush",
+   "description": "Pastel pink and apricot blob morphing on warm off-white.",
+   "component": "gradient-background",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.remocn.dev/r/shader-grain-gradient-blush.json"
+  },
+  {
+   "name": "shader-grain-gradient-dune",
+   "type": "component",
+   "title": "Shader Grain Gradient Dune",
+   "description": "Sandy grain wave in tan, caramel and rust.",
+   "component": "gradient-background",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.remocn.dev/r/shader-grain-gradient-dune.json"
+  },
+  {
+   "name": "shader-grain-gradient-horizon",
+   "type": "component",
+   "title": "Shader Grain Gradient Horizon",
+   "description": "Peach horizon band rolling between navy and pale sky.",
+   "component": "gradient-background",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.remocn.dev/r/shader-grain-gradient-horizon.json"
+  },
+  {
+   "name": "shader-grain-gradient-nebula",
+   "type": "component",
+   "title": "Shader Grain Gradient Nebula",
+   "description": "Magenta and cyan glow blooming from the corners of deep space.",
+   "component": "gradient-background",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.remocn.dev/r/shader-grain-gradient-nebula.json"
+  },
+  {
+   "name": "shader-grain-gradient-orb",
+   "type": "component",
+   "title": "Shader Grain Gradient Orb",
+   "description": "Large grainy sphere in periwinkle, violet and pink.",
+   "component": "gradient-background",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.remocn.dev/r/shader-grain-gradient-orb.json"
+  },
+  {
+   "name": "shader-grain-gradient-sunrise",
+   "type": "component",
+   "title": "Shader Grain Gradient Sunrise",
+   "description": "Grainy wave of coral and gold rising over a plum night.",
+   "component": "gradient-background",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.remocn.dev/r/shader-grain-gradient-sunrise.json"
+  },
+  {
+   "name": "shader-grain-gradient-tide",
+   "type": "component",
+   "title": "Shader Grain Gradient Tide",
+   "description": "Teal ripple ring pulsing out of a dark sea-green core.",
+   "component": "gradient-background",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.remocn.dev/r/shader-grain-gradient-tide.json"
+  },
+  {
+   "name": "shader-grain-gradient-ultraviolet",
+   "type": "component",
+   "title": "Shader Grain Gradient Ultraviolet",
+   "description": "Electric magenta and blue blob morphing on ultraviolet black.",
+   "component": "gradient-background",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.remocn.dev/r/shader-grain-gradient-ultraviolet.json"
+  },
+  {
+   "name": "shader-light-tunnel",
+   "type": "component",
+   "title": "Light Tunnel",
+   "description": "Fly straight through a tunnel made from the original OpenShaders hero shader.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/shader-light-tunnel.json"
+  },
+  {
+   "name": "shader-liquid-metal",
+   "type": "component",
+   "title": "Shader Liquid Metal",
+   "description": "Molten metallic surface with flowing specular highlights.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@paper-design/shaders-react"
+   ],
+   "url": "https://www.remocn.dev/r/shader-liquid-metal.json"
+  },
+  {
+   "name": "shader-mesh-gradient",
+   "type": "component",
+   "title": "Shader Mesh Gradient",
+   "description": "WebGL mesh gradient backdrop driven per-frame for deterministic Remotion renders.",
+   "component": "gradient-background",
+   "surface": null,
+   "dependencies": [
+    "@paper-design/shaders-react"
+   ],
+   "url": "https://www.remocn.dev/r/shader-mesh-gradient.json"
+  },
+  {
+   "name": "shader-mesh-gradient-aurora",
+   "type": "component",
+   "title": "Shader Mesh Gradient Aurora",
+   "description": "Cyan and violet ribbons swirling out of a near-black sky.",
+   "component": "gradient-background",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.remocn.dev/r/shader-mesh-gradient-aurora.json"
+  },
+  {
+   "name": "shader-mesh-gradient-dusk",
+   "type": "component",
+   "title": "Shader Mesh Gradient Dusk",
+   "description": "Violet dusk with coral and peach light drifting through deep indigo.",
+   "component": "gradient-background",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.remocn.dev/r/shader-mesh-gradient-dusk.json"
+  },
+  {
+   "name": "shader-mesh-gradient-ember",
+   "type": "component",
+   "title": "Shader Mesh Gradient Ember",
+   "description": "Molten orange and amber pooling in dark oxblood.",
+   "component": "gradient-background",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.remocn.dev/r/shader-mesh-gradient-ember.json"
+  },
+  {
+   "name": "shader-mesh-gradient-ink",
+   "type": "component",
+   "title": "Shader Mesh Gradient Ink",
+   "description": "Monochrome ink folds in charcoal and silver with grain.",
+   "component": "gradient-background",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.remocn.dev/r/shader-mesh-gradient-ink.json"
+  },
+  {
+   "name": "shader-mesh-gradient-lagoon",
+   "type": "component",
+   "title": "Shader Mesh Gradient Lagoon",
+   "description": "Bright aqua and teal shallows with a deep-blue undertow.",
+   "component": "gradient-background",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.remocn.dev/r/shader-mesh-gradient-lagoon.json"
+  },
+  {
+   "name": "shader-mesh-gradient-lavender",
+   "type": "component",
+   "title": "Shader Mesh Gradient Lavender",
+   "description": "Soft lilac and pink haze with grain-softened edges.",
+   "component": "gradient-background",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.remocn.dev/r/shader-mesh-gradient-lavender.json"
+  },
+  {
+   "name": "shader-mesh-gradient-mint",
+   "type": "component",
+   "title": "Shader Mesh Gradient Mint",
+   "description": "Airy mint and sky-blue pastel wash around a deeper green core.",
+   "component": "gradient-background",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.remocn.dev/r/shader-mesh-gradient-mint.json"
+  },
+  {
+   "name": "shader-mesh-gradient-peach",
+   "type": "component",
+   "title": "Shader Mesh Gradient Peach",
+   "description": "Warm peach and cream glow with a whisper of film grain.",
+   "component": "gradient-background",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.remocn.dev/r/shader-mesh-gradient-peach.json"
+  },
+  {
+   "name": "shader-mesh-gradient-synthwave",
+   "type": "component",
+   "title": "Shader Mesh Gradient Synthwave",
+   "description": "Night-purple field lit by a warm coral sunset glow.",
+   "component": "gradient-background",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.remocn.dev/r/shader-mesh-gradient-synthwave.json"
+  },
+  {
+   "name": "shader-metaballs",
+   "type": "component",
+   "title": "Shader Metaballs",
+   "description": "Organic blobs merging and splitting like lava.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@paper-design/shaders-react"
+   ],
+   "url": "https://www.remocn.dev/r/shader-metaballs.json"
+  },
+  {
+   "name": "shader-neuro-noise",
+   "type": "component",
+   "title": "Shader Neuro Noise",
+   "description": "Organic neural-web noise field that slowly morphs.",
+   "component": "gradient-background",
+   "surface": null,
+   "dependencies": [
+    "@paper-design/shaders-react"
+   ],
+   "url": "https://www.remocn.dev/r/shader-neuro-noise.json"
+  },
+  {
+   "name": "shader-perlin-noise",
+   "type": "component",
+   "title": "Shader Perlin Noise",
+   "description": "Classic Perlin noise clouds drifting across the frame.",
+   "component": "gradient-background",
+   "surface": null,
+   "dependencies": [
+    "@paper-design/shaders-react"
+   ],
+   "url": "https://www.remocn.dev/r/shader-perlin-noise.json"
+  },
+  {
+   "name": "shader-pulsing-border",
+   "type": "component",
+   "title": "Shader Pulsing Border",
+   "description": "Glowing border frame that pulses around the edges.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@paper-design/shaders-react"
+   ],
+   "url": "https://www.remocn.dev/r/shader-pulsing-border.json"
+  },
+  {
+   "name": "shader-seam",
+   "type": "component",
+   "title": "Shader Seam",
+   "description": "Dissolve a stationary OpenShaders material to uncover the next scene.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/transitions"
+   ],
+   "url": "https://www.remocn.dev/r/shader-seam.json"
+  },
+  {
+   "name": "shader-simplex-noise",
+   "type": "component",
+   "title": "Shader Simplex Noise",
+   "description": "Simplex noise flow field, smoother than Perlin.",
+   "component": "gradient-background",
+   "surface": null,
+   "dependencies": [
+    "@paper-design/shaders-react"
+   ],
+   "url": "https://www.remocn.dev/r/shader-simplex-noise.json"
+  },
+  {
+   "name": "shader-smoke-ring",
+   "type": "component",
+   "title": "Shader Smoke Ring",
+   "description": "Soft smoke ring curling and dissipating in place.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@paper-design/shaders-react"
+   ],
+   "url": "https://www.remocn.dev/r/shader-smoke-ring.json"
+  },
+  {
+   "name": "shader-spiral",
+   "type": "component",
+   "title": "Shader Spiral",
+   "description": "Rotating spiral arms radiating from the center.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@paper-design/shaders-react"
+   ],
+   "url": "https://www.remocn.dev/r/shader-spiral.json"
+  },
+  {
+   "name": "shader-spiral-pass",
+   "type": "component",
+   "title": "Shader Spiral Pass",
+   "description": "Accelerate into the hero spiral and emerge through its soft center into the next scene.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/transitions"
+   ],
+   "url": "https://www.remocn.dev/r/shader-spiral-pass.json"
+  },
+  {
+   "name": "shader-strata",
+   "type": "component",
+   "title": "Shader Strata",
+   "description": "Fine horizontal sediment layers displaced by fbm noise, each drifting at its own depth.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/shader-strata.json"
+  },
+  {
+   "name": "shader-swirl",
+   "type": "component",
+   "title": "Shader Swirl",
+   "description": "Concentric bands swirling around a center point.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@paper-design/shaders-react"
+   ],
+   "url": "https://www.remocn.dev/r/shader-swirl.json"
+  },
+  {
+   "name": "shader-swirl-candy",
+   "type": "component",
+   "title": "Shader Swirl Candy",
+   "description": "Pastel pink, lilac and sky-blue spiral, soft and sweet.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.remocn.dev/r/shader-swirl-candy.json"
+  },
+  {
+   "name": "shader-swirl-citrus",
+   "type": "component",
+   "title": "Shader Swirl Citrus",
+   "description": "Juicy yellow, pink and green bands spiralling on cream.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.remocn.dev/r/shader-swirl-citrus.json"
+  },
+  {
+   "name": "shader-swirl-ember",
+   "type": "component",
+   "title": "Shader Swirl Ember",
+   "description": "Gold and orange fire bands spinning around a dark core.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.remocn.dev/r/shader-swirl-ember.json"
+  },
+  {
+   "name": "shader-swirl-hypno",
+   "type": "component",
+   "title": "Shader Swirl Hypno",
+   "description": "High-contrast black and white hypnotic spiral.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.remocn.dev/r/shader-swirl-hypno.json"
+  },
+  {
+   "name": "shader-swirl-lilac",
+   "type": "component",
+   "title": "Shader Swirl Lilac",
+   "description": "Dreamy lilac and baby-blue swirl around a dark eye.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.remocn.dev/r/shader-swirl-lilac.json"
+  },
+  {
+   "name": "shader-swirl-neon",
+   "type": "component",
+   "title": "Shader Swirl Neon",
+   "description": "Neon teal, purple and pink vortex around a dark core.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.remocn.dev/r/shader-swirl-neon.json"
+  },
+  {
+   "name": "shader-swirl-retro",
+   "type": "component",
+   "title": "Shader Swirl Retro",
+   "description": "Seventies spiral in orange, sand and teal.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.remocn.dev/r/shader-swirl-retro.json"
+  },
+  {
+   "name": "shader-swirl-sunburst",
+   "type": "component",
+   "title": "Shader Swirl Sunburst",
+   "description": "Retro cream and orange bands sweeping in from above.",
+   "component": "sunburst",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.remocn.dev/r/shader-swirl-sunburst.json"
+  },
+  {
+   "name": "shader-swirl-tide",
+   "type": "component",
+   "title": "Shader Swirl Tide",
+   "description": "Silky blue bands twisting into a deep navy whirlpool.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.remocn.dev/r/shader-swirl-tide.json"
+  },
+  {
+   "name": "shader-text-reveal",
+   "type": "component",
+   "title": "Shader Text Reveal",
+   "description": "Reveal words through the original OpenShaders hero shader, then settle into white type.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/shader-text-reveal.json"
+  },
+  {
+   "name": "shader-voronoi",
+   "type": "component",
+   "title": "Shader Voronoi",
+   "description": "Animated Voronoi cells shifting and re-tessellating.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@paper-design/shaders-react"
+   ],
+   "url": "https://www.remocn.dev/r/shader-voronoi.json"
+  },
+  {
+   "name": "shader-warp",
+   "type": "component",
+   "title": "Shader Warp",
+   "description": "Domain-warped color field that folds and stretches like liquid.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@paper-design/shaders-react"
+   ],
+   "url": "https://www.remocn.dev/r/shader-warp.json"
+  },
+  {
+   "name": "shader-warp-acid",
+   "type": "component",
+   "title": "Shader Warp Acid",
+   "description": "Loud lime and cyan fluid swirling over black.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.remocn.dev/r/shader-warp-acid.json"
+  },
+  {
+   "name": "shader-warp-cream",
+   "type": "component",
+   "title": "Shader Warp Cream",
+   "description": "Soft peach-to-coral cream gradient with a gentle drift.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.remocn.dev/r/shader-warp-cream.json"
+  },
+  {
+   "name": "shader-warp-deep-sea",
+   "type": "component",
+   "title": "Shader Warp Deep Sea",
+   "description": "Diagonal teal bands rippling through midnight blue.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.remocn.dev/r/shader-warp-deep-sea.json"
+  },
+  {
+   "name": "shader-warp-marble",
+   "type": "component",
+   "title": "Shader Warp Marble",
+   "description": "Cream and charcoal marble veins swirling together.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.remocn.dev/r/shader-warp-marble.json"
+  },
+  {
+   "name": "shader-warp-ocean",
+   "type": "component",
+   "title": "Shader Warp Ocean",
+   "description": "Glossy aqua currents traced with dark ink edges.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.remocn.dev/r/shader-warp-ocean.json"
+  },
+  {
+   "name": "shader-warp-rose-gold",
+   "type": "component",
+   "title": "Shader Warp Rose Gold",
+   "description": "Satin rose-gold folds with a soft sheen.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.remocn.dev/r/shader-warp-rose-gold.json"
+  },
+  {
+   "name": "shader-warp-silk",
+   "type": "component",
+   "title": "Shader Warp Silk",
+   "description": "Violet and pink liquid silk folding in slow waves.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.remocn.dev/r/shader-warp-silk.json"
+  },
+  {
+   "name": "shader-warp-storm",
+   "type": "component",
+   "title": "Shader Warp Storm",
+   "description": "Deep violet and lavender storm of marbled fluid.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.remocn.dev/r/shader-warp-storm.json"
+  },
+  {
+   "name": "shader-warp-sunset",
+   "type": "component",
+   "title": "Shader Warp Sunset",
+   "description": "Marbled coral, peach and wine flowing like warm liquid.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.remocn.dev/r/shader-warp-sunset.json"
+  },
+  {
+   "name": "shader-water",
+   "type": "component",
+   "title": "Shader Water",
+   "description": "Caustic water-surface ripples with subtle refraction.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@paper-design/shaders-react"
+   ],
+   "url": "https://www.remocn.dev/r/shader-water.json"
+  },
+  {
+   "name": "shader-weave",
+   "type": "component",
+   "title": "Shader Weave",
+   "description": "A woven substrate of warp and weft threads crossing on a domain-warped grid, with a travelling sheen.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/shader-weave.json"
+  },
+  {
+   "name": "shadow-sweep-text",
+   "type": "component",
+   "title": "Shadow Sweep Text",
+   "description": "A line rises up and left while one dense dark shadow uncovers it and a second shadow sweeps back across it for the exit.",
+   "component": "elevation",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/shadow-sweep-text.json"
+  },
+  {
+   "name": "shared-axis-y",
+   "type": "component",
+   "title": "Shared Axis Y",
+   "description": "Per-word hard-cut transition with staircase timing for sharp editorial swaps.",
+   "component": "chart-axis",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/shared-axis-y.json"
+  },
+  {
+   "name": "shared-axis-z",
+   "type": "component",
+   "title": "Shared Axis Z",
+   "description": "Scale-based shared-axis transition for focus shifts and context depth.",
+   "component": "chart-axis",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/shared-axis-z.json"
+  },
+  {
+   "name": "sheen-slide-in",
+   "type": "component",
+   "title": "Sheen Slide In",
+   "description": "A title glides in from the right with an exponential settle and a slow final creep to center, while a gradient sheen sweeps once through the glyphs.",
+   "component": "transition",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/sheen-slide-in.json"
+  },
+  {
+   "name": "sheet",
+   "type": "component",
+   "title": "UI Sheet",
+   "description": "A side panel whose opened/closed state is a pure function of the timeline; the backdrop dim and right-edge slide-in are keyframed presets, with a close button and a primary action. Self-contained — pair it with the Button as a trigger (see the example).",
+   "component": "sheet",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/sheet.json"
+  },
+  {
+   "name": "shimmer-sweep",
+   "type": "component",
+   "title": "Shimmer Sweep",
+   "description": "Light shine sweeps across muted text via background-clip:text.",
+   "component": "skeleton",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/shimmer-sweep.json"
+  },
+  {
+   "name": "short-slide-down",
+   "type": "component",
+   "title": "Short Slide Down",
+   "description": "Each new word drops in from above into its own line and pushes the stack downward until a centered three-line composition locks in place.",
+   "component": "transition",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/short-slide-down.json"
+  },
+  {
+   "name": "short-slide-right",
+   "type": "component",
+   "title": "Short Slide Right",
+   "description": "The whole phrase glides in from the left as one compact move while words reveal in sequence through opacity.",
+   "component": "transition",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/short-slide-right.json"
+  },
+  {
+   "name": "signup-flow",
+   "type": "component",
+   "title": "UI Signup Flow",
+   "description": "A signup card composition: a real shadcn-style card (header, labeled Full Name / Email / Password / Confirm fields, primary + Google-outline buttons, sign-in footer) whose cursor fills each field top-to-bottom, then clicks Create account (hover → press → loading → success) as a success toast slides in. A pure orchestrator — every channel comes from a composed primitive's transition hook.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/signup-flow.json"
+  },
+  {
+   "name": "simulated-cursor",
+   "type": "component",
+   "title": "Simulated Cursor",
+   "description": "Animated mouse cursor moving between waypoints with click ripple feedback.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/simulated-cursor.json"
+  },
+  {
+   "name": "skeleton",
+   "type": "component",
+   "title": "UI Skeleton",
+   "description": "A skeleton→content crossfade whose loading/loaded state is a pure function of the timeline. The Skeleton renderer is pure (reads no frame); only the composed SkeletonBlock shimmer reads it. SkeletonStyle opacities sum to 1 so the box never dims; real children sit in normal flow and the placeholder (a lines/card layout or a custom node) is an absolute overlay.",
+   "component": "skeleton",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/skeleton.json"
+  },
+  {
+   "name": "skeleton-block",
+   "type": "component",
+   "title": "UI Skeleton Block",
+   "description": "A shimmer placeholder block — a motion atom (spinner pattern). A directional highlight gradient sweeps across deterministically from useCurrentFrame() and loops seamlessly. Configurable width/height/radius/speed and base/highlight colors.",
+   "component": "skeleton",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/skeleton-block.json"
+  },
+  {
+   "name": "slide-swap",
+   "type": "component",
+   "title": "Slide Swap",
+   "description": "A scene sequencer where the outgoing content is shoved off on an accelerating curve and the next springs in from the opposite edge, on one canvas, with no overlap.",
+   "component": "transition",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/slide-swap.json"
+  },
+  {
+   "name": "slider",
+   "type": "component",
+   "title": "UI Slider",
+   "description": "A slider whose fill is a numeric value channel plus a thumb idle/hover/press channel (dual-channel value-channel deviation). The Slider renderer is pure (clamped 0–100 value, thumb scale, grab-ring opacity); useSliderTransition reads the frame and eases both channels — value as a numeric lerp, the thumb visual from its state presets. Muted track + primary range + bordered thumb with a derived grab ring.",
+   "component": "slider",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/slider.json"
+  },
+  {
+   "name": "slot-machine-roll",
+   "type": "component",
+   "title": "Slot Machine Roll",
+   "description": "Vertical reel scrolls characters from one value to another.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/slot-machine-roll.json"
+  },
+  {
+   "name": "smoke-dissolve",
+   "type": "component",
+   "title": "Smoke Dissolve",
+   "description": "A smoke-ring shader transition that expands the ring outward to reveal the next scene.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/transitions"
+   ],
+   "url": "https://www.remocn.dev/r/smoke-dissolve.json"
+  },
+  {
+   "name": "soft-blur-in",
+   "type": "component",
+   "title": "Soft Blur In",
+   "description": "Per-character fade-in with a gentle blur and upward motion. Apple's signature hero-title reveal.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/soft-blur-in.json"
+  },
+  {
+   "name": "speed-lines",
+   "type": "component",
+   "title": "Speed Lines",
+   "description": "Parallel streaks trail an element as it flies in at its real speed, the element stretching with that speed and landing with a squash and a small bounce as the streaks die, or radial lines rush in from the frame edges and snap onto one point for a manga-style impact frame.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/speed-lines.json"
+  },
+  {
+   "name": "spinner",
+   "type": "component",
+   "title": "UI Spinner",
+   "description": "A deterministic spinning arc that loops on the Remotion frame — a pure motion atom with no state.",
+   "component": "spinner",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/spinner.json"
+  },
+  {
+   "name": "spotlight",
+   "type": "component",
+   "title": "Spotlight",
+   "description": "A soft spotlight cone searches the dark stage, overshoots, and lands on the logo before the house lights lift.",
+   "component": "command-palette",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/spotlight.json"
+  },
+  {
+   "name": "spring-scale-in",
+   "type": "component",
+   "title": "Spring Scale In",
+   "description": "Words pop in with a soft overshoot scale, like a physical spring settling into place.",
+   "component": "chart-axis",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/spring-scale-in.json"
+  },
+  {
+   "name": "spring-settle",
+   "type": "component",
+   "title": "Spring Settle",
+   "description": "A scene sequencer where the outgoing scene shrinks away as one group, the stage holds empty for a beat, and the next scene's items land staggered from above-1 scale.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/spring-settle.json"
+  },
+  {
+   "name": "squeeze-in",
+   "type": "component",
+   "title": "Squeeze In",
+   "description": "Characters appear one by one on a tight stagger; when the last one lands, every letter gap compresses as one and the word squeezes together.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/squeeze-in.json"
+  },
+  {
+   "name": "squiggle",
+   "type": "component",
+   "title": "Squiggle",
+   "description": "A flat line draws itself along a straight course as a traveling wave whose crests swim forward and calm down as the head runs out, in wave, zigzag, loop or coil shapes, then erases toward its end point.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/squiggle.json"
+  },
+  {
+   "name": "stage",
+   "type": "component",
+   "title": "Stage",
+   "description": "Place a screenshot, recording, or long page on a perspective studio plane and direct an integrated camera across it with timeline keyframes.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/stage.json"
+  },
+  {
+   "name": "staggered-fade-up",
+   "type": "component",
+   "title": "Staggered Fade Up",
+   "description": "Words fade in and slide up one after another with a configurable delay.",
+   "component": "transition",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/staggered-fade-up.json"
+  },
+  {
+   "name": "stepper",
+   "type": "component",
+   "title": "UI Stepper",
+   "description": "A horizontal onboarding stepper whose progress is a pure function of a continuous step index (value-channel deviation). Every circle (fill, number, stroke-dash check) and connector (primary fill fraction) derives purely from the float position; useStepperTransition reads the frame and eases position between step indices.",
+   "component": "quantity-stepper",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/stepper.json"
+  },
+  {
+   "name": "stretch-in",
+   "type": "component",
+   "title": "Stretch In",
+   "description": "Letters fly in from off-canvas and smear horizontally on the way — a vertex-lag deformation, not a scale.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "opentype.js"
+   ],
+   "url": "https://www.remocn.dev/r/stretch-in.json"
+  },
+  {
+   "name": "strikethrough-replace",
+   "type": "component",
+   "title": "Strikethrough Replace",
+   "description": "Draws a strike line across old text then reveals new text in its place.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/strikethrough-replace.json"
+  },
+  {
+   "name": "string-art",
+   "type": "component",
+   "title": "String Art",
+   "description": "Threads string a ring of pins times-table style while the multiplier morphs from cardioid to nephroid and beyond.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/string-art.json"
+  },
+  {
+   "name": "stripe-type",
+   "type": "component",
+   "title": "Stripe Type",
+   "description": "A word cut into horizontal bands, as in the IBM logo, slides together from alternating sides and locks, then can pass on through.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://www.remocn.dev/r/stripe-type.json"
+  },
+  {
+   "name": "sustained-glitch",
+   "type": "component",
+   "title": "Sustained Glitch",
+   "description": "Broadcast corruption held over a scene in scheduled bursts: slices tear sideways, channels split, and blocks fill with picture pulled from somewhere else — then the frame rests clean until the next hit.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/sustained-glitch.json"
+  },
+  {
+   "name": "swirl-dissolve",
+   "type": "component",
+   "title": "Swirl Dissolve",
+   "description": "A swirl shader transition that unwinds open and winds shut to reveal the next scene.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/transitions"
+   ],
+   "url": "https://www.remocn.dev/r/swirl-dissolve.json"
+  },
+  {
+   "name": "switch",
+   "type": "component",
+   "title": "UI Switch",
+   "description": "A switch whose checked/unchecked state is a pure function of the timeline; the track fill and sliding thumb are keyframed presets.",
+   "component": "switch",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/switch.json"
+  },
+  {
+   "name": "synthwave",
+   "type": "component",
+   "title": "Synthwave",
+   "description": "A retro neon horizon: a scrolling perspective grid, a rising striped sun and mountain ranges that slide in.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/synthwave.json"
+  },
+  {
+   "name": "tabs",
+   "type": "component",
+   "title": "UI Tabs",
+   "description": "A tabs widget whose active-tab state is a pure function of the timeline; the sliding indicator, label colors, and panel crossfade are keyframed/derived presets.",
+   "component": "tabs",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/tabs.json"
+  },
+  {
+   "name": "telegram-chat-flow",
+   "type": "component",
+   "title": "UI Telegram Chat Flow",
+   "description": "A Telegram-styled messaging composition: tailed bubbles (white incoming, blue outgoing) with in-bubble timestamps and delivery checks, a header that flips to 'typing…' while the other side replies, reaction chips, and a Telegram composer that types the outgoing message before sending. Self-contained — it owns its timeline and only composes the caret primitive.",
+   "component": "conversation",
+   "surface": "chat-mobile",
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/telegram-chat-flow.json"
+  },
+  {
+   "name": "terminal-cursor-zoom",
+   "type": "component",
+   "title": "Terminal Cursor Zoom",
+   "description": "Camera locked to the typing cursor, dollying across a terminal as a command types at high zoom.",
+   "component": "terminal",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/terminal-cursor-zoom.json"
+  },
+  {
+   "name": "terminal-simulator",
+   "type": "component",
+   "title": "Terminal Simulator",
+   "description": "Terminal window that types out commands and rolls old lines off the top.",
+   "component": "terminal",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/terminal-simulator.json"
+  },
+  {
+   "name": "tiny-planet",
+   "type": "component",
+   "title": "Tiny Planet",
+   "description": "A seeded flat skyline bends into a tiny planet through a polar remap, then slowly spins beside a red sun.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/tiny-planet.json"
+  },
+  {
+   "name": "toast",
+   "type": "component",
+   "title": "UI Toast",
+   "description": "A toast notification whose hidden/visible state is a pure function of the timeline. The Toast renderer is a pure function of a ToastStyle (opacity, translateY, scale); useToastTransition eases both the slide-in enter and the auto-dismiss exit. Variants default/success/error change the leading icon and its color.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/toast.json"
+  },
+  {
+   "name": "toggle-group",
+   "type": "component",
+   "title": "UI Toggle Group",
+   "description": "A segmented control whose active value is a pure function of the timeline; a raised thumb SLIDES between segments (position + width derived from a float indicator offset, no jumps) and the labels crossfade color via mixOklch. The tabs precedent without content panels.",
+   "component": "toggle-group",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/toggle-group.json"
+  },
+  {
+   "name": "tooltip",
+   "type": "component",
+   "title": "UI Tooltip",
+   "description": "A tooltip whose hidden/visible state is a pure function of the timeline. The Tooltip renderer is a pure function of a TooltipStyle (opacity, scale, translate); useTooltipTransition eases both the show and the hide. The static `side` prop sets the enter translate axis and the arrow placement.",
+   "component": "tooltip",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/tooltip.json"
+  },
+  {
+   "name": "top-down-letters",
+   "type": "component",
+   "title": "Top-Down Letters",
+   "description": "Letters descend from above in a pronounced staircase, one symbol at a time, with zero blur.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/top-down-letters.json"
+  },
+  {
+   "name": "topo-lines",
+   "type": "component",
+   "title": "Topo Lines",
+   "description": "Topographic contour lines around a few seeded peaks breathe and shift in a seamless loop, one contour picked out in the accent color.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/topo-lines.json"
+  },
+  {
+   "name": "tracking-in",
+   "type": "component",
+   "title": "Tracking In",
+   "description": "Letter-spacing collapses and blur clears with a springy motion.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/tracking-in.json"
+  },
+  {
+   "name": "trim-burst",
+   "type": "component",
+   "title": "Trim Burst",
+   "description": "A ring of short straight strokes shoots out from a point like Trim Paths: each end races ahead on a hard-braking ease-out while its start holds, then chases it on a smoother ease-in-out, so every stroke grows, travels and zips shut at its outer distance.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/trim-burst.json"
+  },
+  {
+   "name": "truchet-flip",
+   "type": "component",
+   "title": "Truchet Flip",
+   "description": "Quarter-circle Truchet tiles snap a quarter turn as a wave crosses the grid, rerouting continuous lines until they settle into concentric loops, a calm field, or a circle of small rings.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/truchet-flip.json"
+  },
+  {
+   "name": "turntable",
+   "type": "component",
+   "title": "Turntable",
+   "description": "A product card spins on an invisible turntable through front, edge and back in real 3D, with face shading and a breathing floor shadow.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/turntable.json"
+  },
+  {
+   "name": "tv-power-off",
+   "type": "component",
+   "title": "TV Power Off",
+   "description": "End a scene the way a tube does: the picture collapses into a glowing horizontal line, the line pinches to a phosphor dot, the dot decays, and the frame is left dead black.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/tv-power-off.json"
+  },
+  {
+   "name": "type-fossil",
+   "type": "component",
+   "title": "Type Fossil",
+   "description": "A readable word carries layers of fine contours, revises itself, then compresses into a clean typographic imprint.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/type-fossil.json"
+  },
+  {
+   "name": "type-repeater",
+   "type": "component",
+   "title": "Type Repeater",
+   "description": "An After Effects style repeater on a word, where copies unfold into a tunnel, a spiral or a fan behind it, breathe, then fold back into the word.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://www.remocn.dev/r/type-repeater.json"
+  },
+  {
+   "name": "type-wall",
+   "type": "component",
+   "title": "Type Wall",
+   "description": "Rows of one word fill the frame, run in alternating directions at different speeds in heavy, narrow and outline faces, with an accent band through the middle.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://www.remocn.dev/r/type-wall.json"
+  },
+  {
+   "name": "typed-split-wipe",
+   "type": "component",
+   "title": "Typed Split Wipe",
+   "description": "A centered cursorless type build holds, then exits through opposing fixed-layout glyph wipes that leave the anchor visible longest.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/typed-split-wipe.json"
+  },
+  {
+   "name": "typewriter",
+   "type": "component",
+   "title": "Typewriter",
+   "description": "Character-by-character text reveal with a deterministic blinking cursor.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/typewriter.json"
+  },
+  {
+   "name": "typing-indicator",
+   "type": "component",
+   "title": "UI Typing Indicator",
+   "description": "A continuous typing animation: N dots bounce with a staggered sine wave. A motion atom — it reads the frame and takes color, size, gap, and speed props, defaulting to currentColor so it inherits the bubble it sits in.",
+   "component": "typing-indicator",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/typing-indicator.json"
+  },
+  {
+   "name": "underwater-ripple",
+   "type": "component",
+   "title": "Underwater Ripple",
+   "description": "Hold a scene under moving water: every pixel is read through a layered refraction field that closes on a whole number of cycles, with colour fringing where the water bends hardest.",
+   "component": "ripple",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/underwater-ripple.json"
+  },
+  {
+   "name": "v0",
+   "type": "component",
+   "title": "v0",
+   "description": "Animated Vercel v0 composer — types a prompt into the dark textarea and the mic button morphs into a send button. Dark/light themes.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://www.remocn.dev/r/v0.json"
+  },
+  {
+   "name": "value-swap",
+   "type": "component",
+   "title": "Value Swap",
+   "description": "Swaps a value in place with a vertical slide — the old value exits up as the new one enters from below while an invisible sizer keeps the width stable.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/value-swap.json"
+  },
+  {
+   "name": "venetian-blinds",
+   "type": "component",
+   "title": "Venetian Blinds",
+   "description": "The outgoing scene splits into horizontal slats that turn edge-on in a staggered ripple, revealing the next scene behind them.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/transitions"
+   ],
+   "url": "https://www.remocn.dev/r/venetian-blinds.json"
+  },
+  {
+   "name": "vhs-filter",
+   "type": "component",
+   "title": "VHS Filter",
+   "description": "Hold a scene under analog tape: chroma bleeds sideways off every edge, rows wobble out of line, the bottom of the frame tears on the head switch, and luma noise settles over all of it.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/vhs-filter.json"
+  },
+  {
+   "name": "warp-dissolve",
+   "type": "component",
+   "title": "Warp Dissolve",
+   "description": "A domain-warp shader transition that melts the outgoing scene into a folding color field and straightens back out into the next.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/transitions"
+   ],
+   "url": "https://www.remocn.dev/r/warp-dissolve.json"
+  },
+  {
+   "name": "wave-wipe",
+   "type": "component",
+   "title": "Wave Wipe",
+   "description": "A grain-gradient wave that sweeps up across the frame, covering the outgoing scene and revealing the next one from below.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/transitions"
+   ],
+   "url": "https://www.remocn.dev/r/wave-wipe.json"
+  },
+  {
+   "name": "whip-pan",
+   "type": "component",
+   "title": "Whip Pan",
+   "description": "A whip-pan transition that flies both scenes through the frame in one move with velocity-based motion blur.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/transitions"
+   ],
+   "url": "https://www.remocn.dev/r/whip-pan.json"
+  },
+  {
+   "name": "word-push",
+   "type": "component",
+   "title": "Word Push",
+   "description": "A phrase builds from its first word centered: each next word drives in from the right and pushes the line left, easing into the new center.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/word-push.json"
+  },
+  {
+   "name": "word-stream",
+   "type": "component",
+   "title": "Word Stream",
+   "description": "Voiceover-paced phrases that build word by word — the next word looms as a blurred ghost before it resolves, then the phrase cuts away.",
+   "component": "feed",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/word-stream.json"
+  },
+  {
+   "name": "workflow-console",
+   "type": "component",
+   "title": "Workflow Console",
+   "description": "An independent 46.8-second release automation demo with typed commands, environment diagrams, pipeline metrics, and an original node mark.",
+   "component": "terminal",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@fontsource/inter",
+    "@fontsource/roboto-mono"
+   ],
+   "url": "https://www.remocn.dev/r/workflow-console.json"
+  },
+  {
+   "name": "x-follow-card",
+   "type": "component",
+   "title": "X Follow Card",
+   "description": "Animated X profile follow card — spring bounce-in, staggered blur-in, a synthetic cursor that clicks Follow and flips it to Following. Light/dark, horizontal or vertical.",
+   "component": "card",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://www.remocn.dev/r/x-follow-card.json"
+  },
+  {
+   "name": "x-followers-overview",
+   "type": "component",
+   "title": "X Followers Overview",
+   "description": "X follow notifications cycle through as 3D flipping text — '<name> followed you · 7h' — then the total follower count pops in with a confetti burst. Hardcoded sample list (X API ready). Light/dark, horizontal or vertical.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://www.remocn.dev/r/x-followers-overview.json"
+  },
+  {
+   "name": "x-ray-scan",
+   "type": "component",
+   "title": "X-Ray Scan",
+   "description": "A glowing scanner bar sweeps across a device, turning the shell dark and revealing white-line internals with one part in red.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/x-ray-scan.json"
+  },
+  {
+   "name": "zoom-blur",
+   "type": "component",
+   "title": "Zoom Blur",
+   "description": "A depth punch-in transition that pushes the outgoing scene through the viewer while the incoming one resolves out of blur.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/transitions"
+   ],
+   "url": "https://www.remocn.dev/r/zoom-blur.json"
+  },
+  {
+   "name": "zoom-words",
+   "type": "component",
+   "title": "Zoom Words",
+   "description": "A close-up word reveal: huge words fade into a long line while the camera rides the write head, the line streaming off-frame as the shot eases into focus.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://www.remocn.dev/r/zoom-words.json"
+  }
+ ]
+}

@@ -1,0 +1,371 @@
+{
+ "resource_id": "e3ba9b73-c431-4ab9-82a7-94ea8ae39bf1",
+ "registry_url": "https://ui.manifest.build/r/registry.json",
+ "install_verified": true,
+ "checked": "2026-10-23",
+ "items": [
+  {
+   "name": "amount-input",
+   "type": "block",
+   "title": "Amount Input",
+   "description": "Amount input with increment/decrement buttons and preset values.",
+   "component": "text-input",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.manifest.build/r/amount-input.json"
+  },
+  {
+   "name": "chat-conversation",
+   "type": "block",
+   "title": "Chat Conversation",
+   "description": "Full chat conversation component with multiple message types.",
+   "component": "conversation",
+   "surface": "chat-mobile",
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.manifest.build/r/chat-conversation.json"
+  },
+  {
+   "name": "contact-form",
+   "type": "block",
+   "title": "Contact Form",
+   "description": "A complete contact form with name fields, phone with country selector, email, message textarea, and file attachment.",
+   "component": "form",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.manifest.build/r/contact-form.json"
+  },
+  {
+   "name": "date-time-picker",
+   "type": "block",
+   "title": "Date & Time Picker",
+   "description": "A Calendly-style date and time picker with calendar, available time slots, and timezone display.",
+   "component": "time-picker",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.manifest.build/r/date-time-picker.json"
+  },
+  {
+   "name": "event-card",
+   "type": "block",
+   "title": "Event Card",
+   "description": "Display event information with multiple layouts. Supports events with images, signals, vibe tags, and display-formatted date/time. Entire card is clickable.",
+   "component": "card",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.manifest.build/r/event-card.json"
+  },
+  {
+   "name": "event-confirmation",
+   "type": "block",
+   "title": "Event Confirmation",
+   "description": "Order confirmation with event details, ticket delivery info, organizer follow, and social sharing.",
+   "component": "approval-request",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.manifest.build/r/event-confirmation.json"
+  },
+  {
+   "name": "event-detail",
+   "type": "block",
+   "title": "Event Detail",
+   "description": "Full event detail view with organizer info, interactive map, policies, and ticket purchase. Fullwidth mode only.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "react-leaflet",
+    "leaflet"
+   ],
+   "url": "https://ui.manifest.build/r/event-detail.json"
+  },
+  {
+   "name": "event-list",
+   "type": "block",
+   "title": "Event List",
+   "description": "Display events in grid, list, or carousel layouts. Fullscreen mode shows interactive split-screen map with Leaflet and animated filter panel.",
+   "component": "list",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "react-leaflet",
+    "leaflet"
+   ],
+   "url": "https://ui.manifest.build/r/event-list.json"
+  },
+  {
+   "name": "hero",
+   "type": "block",
+   "title": "Hero",
+   "description": "Landing hero section with optional logos, title, subtitle, CTA buttons, and tech logos footer. Supports image or text logos with separator.",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.manifest.build/r/hero.json"
+  },
+  {
+   "name": "instagram-post",
+   "type": "block",
+   "title": "Instagram Post",
+   "description": "Instagram post card with image and engagement.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.manifest.build/r/instagram-post.json"
+  },
+  {
+   "name": "issue-report-form",
+   "type": "block",
+   "title": "Issue Report Form",
+   "description": "A compact issue reporting form for team members with categories, impact/urgency levels, and file attachments.",
+   "component": "form",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.manifest.build/r/issue-report-form.json"
+  },
+  {
+   "name": "linkedin-post",
+   "type": "block",
+   "title": "LinkedIn Post",
+   "description": "LinkedIn post card with professional styling.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.manifest.build/r/linkedin-post.json"
+  },
+  {
+   "name": "map-carousel",
+   "type": "block",
+   "title": "Map Carousel",
+   "description": "Interactive map with location markers and a draggable carousel of cards.",
+   "component": "map",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "leaflet"
+   ],
+   "url": "https://ui.manifest.build/r/map-carousel.json"
+  },
+  {
+   "name": "message-bubble",
+   "type": "block",
+   "title": "Message Bubble",
+   "description": "Chat message bubbles with text, image, voice, and reaction variants.",
+   "component": "message",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.manifest.build/r/message-bubble.json"
+  },
+  {
+   "name": "option-list",
+   "type": "block",
+   "title": "Option List",
+   "description": "Tag-style option selector with single or multiple selection modes.",
+   "component": "listbox",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.manifest.build/r/option-list.json"
+  },
+  {
+   "name": "order-confirm",
+   "type": "block",
+   "title": "Order Confirm",
+   "description": "Order confirmation with product image, delivery info, and confirm action.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.manifest.build/r/order-confirm.json"
+  },
+  {
+   "name": "payment-confirmed",
+   "type": "block",
+   "title": "Payment Confirmed",
+   "description": "Payment confirmation card with product image, price, delivery info, and tracking button. Supports default and compressed variants.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.manifest.build/r/payment-confirmed.json"
+  },
+  {
+   "name": "post-card",
+   "type": "block",
+   "title": "Post Card",
+   "description": "Post card with image, title, excerpt, author info and read more button. Supports default, compact, horizontal, and covered variants. Includes post-detail for fullscreen view.",
+   "component": "card",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.manifest.build/r/post-card.json"
+  },
+  {
+   "name": "post-detail",
+   "type": "block",
+   "title": "Post Detail",
+   "description": "Full post view with cover image, author info, content, tags and related posts section.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.manifest.build/r/post-detail.json"
+  },
+  {
+   "name": "post-list",
+   "type": "block",
+   "title": "Post List",
+   "description": "Post list with list, grid, carousel, and fullwidth variants. Fullwidth mode shows paginated posts.",
+   "component": "list",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.manifest.build/r/post-list.json"
+  },
+  {
+   "name": "product-list",
+   "type": "block",
+   "title": "Product List",
+   "description": "Product list with list, grid, carousel, and picker variants.",
+   "component": "list",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.manifest.build/r/product-list.json"
+  },
+  {
+   "name": "progress-steps",
+   "type": "block",
+   "title": "Progress Steps",
+   "description": "Progress indicator with horizontal or vertical layout and step statuses.",
+   "component": "task",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.manifest.build/r/progress-steps.json"
+  },
+  {
+   "name": "quick-reply",
+   "type": "block",
+   "title": "Quick Reply",
+   "description": "Quick reply buttons for common chat responses.",
+   "component": "suggestion",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.manifest.build/r/quick-reply.json"
+  },
+  {
+   "name": "stat-card",
+   "type": "block",
+   "title": "Stat Card",
+   "description": "Scrollable stat cards with values, trends, and change indicators.",
+   "component": "stat",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.manifest.build/r/stat-card.json"
+  },
+  {
+   "name": "status-badge",
+   "type": "block",
+   "title": "Status Badge",
+   "description": "Status badge with multiple states (success, pending, processing, error, shipped, delivered).",
+   "component": "badge",
+   "surface": "status",
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.manifest.build/r/status-badge.json"
+  },
+  {
+   "name": "table",
+   "type": "block",
+   "title": "Table",
+   "description": "Data table with optional single or multi-select modes for chat interfaces.",
+   "component": "table",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.manifest.build/r/table.json"
+  },
+  {
+   "name": "tag-select",
+   "type": "block",
+   "title": "Tag Select",
+   "description": "Colored tag selector with single or multiple selection and color variants.",
+   "component": "multi-select",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.manifest.build/r/tag-select.json"
+  },
+  {
+   "name": "ticket-tier-select",
+   "type": "block",
+   "title": "Ticket Tier Select",
+   "description": "Ticket tier selection with quantity controls and order summary. Shows price breakdown with fees.",
+   "component": "select",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.manifest.build/r/ticket-tier-select.json"
+  },
+  {
+   "name": "x-post",
+   "type": "block",
+   "title": "X Post",
+   "description": "X (Twitter) post card with engagement metrics.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.manifest.build/r/x-post.json"
+  },
+  {
+   "name": "youtube-post",
+   "type": "block",
+   "title": "YouTube Post",
+   "description": "YouTube video card with playable embed.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.manifest.build/r/youtube-post.json"
+  }
+ ]
+}

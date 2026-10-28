@@ -91,6 +91,7 @@
   "id": "846ee1e0-845a-46df-ad4f-d08bc36bbd91",
   "slug": "thinking-orbs",
   "url": "https://github.com/Jakubantalik/thinking-orbs",
+  "same_as": "8cda98dd-f72e-4496-a288-117700bc29e4",
   "name": "Thinking Orbs",
   "tagline": "React canvas loading orb with nine agent states, two sizes and automatic dark/light",
   "description": "A single React component that renders a dotted orb on a 2D canvas as the busy indicator for an AI or agent interface. It ships nine tuned states — working, searching, solving, listening, connecting, weaving, composing, breathing and shaping — at two sizes, 64px for avatar scale and 20px inline with text. Props are state, size, speed, paused, aria-label and theme (auto/dark/light). It has no dependencies beyond React, uses no WebGL or CSS filters, honours prefers-reduced-motion, and pauses itself off-screen via IntersectionObserver.",

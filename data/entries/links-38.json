@@ -3,6 +3,7 @@
   "id": "91181fb3-f208-4b9e-a1bb-f724e9e584fb",
   "slug": "impeccable-github",
   "url": "https://github.com/pbakaus/impeccable",
+  "same_as": "24aa9592-7d24-498a-8dd9-c63f79a05574",
   "name": "Impeccable",
   "tagline": "Design skill for AI coding agents: 23 slash commands and 59 detector rules",
   "description": "Impeccable is a design-guidance skill that installs into an AI coding harness and gives it a shared design vocabulary. It ships one skill with 23 slash commands (init, craft, shape, critique, audit, polish, bolder, quieter, distill, harden, onboard, animate, colorize, typeset, layout, delight, overdrive, clarify, adapt, optimize, live, document, extract) plus 59 deterministic detector rules that flag AI design tells such as Inter-for-everything, purple-to-blue gradients, cards nested in cards, gray text on colored backgrounds and bounce easing. `/impeccable init` writes PRODUCT.md and DESIGN.md so every later command reads the same project context. It targets developers who let an agent build the frontend and want the output to stop looking machine-made.",
@@ -127,7 +128,9 @@
    "pricing": [
     "freemium",
     "subscription",
-    "paid"
+    "paid",
+    "one-time",
+    "open-source"
    ],
    "distribution": [
     "web-app",
@@ -575,6 +578,7 @@
   "id": "9ee7bd9a-d374-475f-9987-863b56b147fd",
   "slug": "awesome-design-md",
   "url": "https://github.com/VoltAgent/awesome-design-md",
+  "same_as": "2c3c4c46-bce8-42c5-9dc5-945e8ff4eb8e",
   "name": "Awesome DESIGN.md",
   "tagline": "73 MIT-licensed DESIGN.md brand analyses you drop into a project root",
   "description": "A curated GitHub collection of DESIGN.md files - the plain-text design-system document introduced by Google Stitch - covering 73 listed brands across ten categories: AI and LLM platforms, developer tools, backend and DevOps, productivity SaaS, design and creative tools, fintech and crypto, e-commerce, media and consumer tech, automotive, and a retro-web nostalgia set. Each folder holds a DESIGN.md with nine sections (visual theme, color palette and roles, typography rules, component stylings, layout principles, depth and elevation, do's and don'ts, responsive behaviour, agent prompt guide) plus preview.html and preview-dark.html renderings. You copy one file into your project root and tell the agent to follow it. This is the free MIT mirror of the getdesign.md catalog.",
@@ -1041,6 +1045,7 @@
   "id": "36448014-7cab-4a66-9e04-411c9903e5af",
   "slug": "hue-design-skill",
   "url": "https://github.com/dominikmartn/hue",
+  "same_as": "2ce1cab9-56aa-45a1-941f-1b0f52642567",
   "name": "hue",
   "tagline": "Agent skill that turns any brand URL or screenshot into a design system",
   "description": "hue is an MIT-licensed skill for Claude Code and Codex that reads a brand from a URL, a name, or a screenshot and writes out a complete design language as a second, generated skill: color tokens, typography, spacing, light and dark mode, hero-stage recipes, icon-kit selection, and a component library. You clone it into ~/.claude/skills or ~/.agents/skills once, then say 'make a design skill from cursor.com' in any session. Every generated skill is gated through scripts/validate.mjs, which checks YAML syntax, orphan CSS selectors, undefined var(--token) usages, leftover placeholders, em-dashes, the SKILL.md frontmatter contract, WCAG contrast on core text/background pairs, and AI-default display fonts. Seventeen worked examples ship in examples/, each with design-model.yaml and landing-page.html.",
@@ -1341,7 +1346,8 @@
    ],
    "pricing": [
     "free",
-    "open-source"
+    "open-source",
+    "sponsor-supported"
    ],
    "distribution": [
     "web-app",

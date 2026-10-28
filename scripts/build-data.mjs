@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import { readFileSync, writeFileSync, readdirSync, existsSync, mkdirSync } from "node:fs";
-import { join, dirname } from "node:path";
+import { join, dirname, basename } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
@@ -29,6 +29,8 @@ const out = (rel, obj) => {
 };
 
 import { createHash } from "node:crypto";
+import { ABOUT, SEARCH_ORIGIN, SEARCH_RULES } from "../app/lib/agent.ts";
+import { siteUrl } from "../app/lib/site.ts";
 
 const sha1_16 = (u) => createHash("sha1").update(u).digest("hex").slice(0, 16);
 
@@ -159,6 +161,9 @@ const resources = deduped.map((e) => {
     docsUrl: e.docs_url || null,
     repoUrl: e.repo_url || null,
     registryUrl: e.registry_url || null,
+    machineUrls: e.machine_urls || [],
+    sameAs: e.same_as || null,
+    partOf: e.part_of || null,
     github: e.github || {},
     pricingDetail: e.pricing_detail || null,
     counts: e.counts || {},
@@ -207,6 +212,88 @@ const resources = deduped.map((e) => {
   return r;
 });
 
+const slugById = new Map(resources.map((r) => [r.id, r.slug]));
+for (const r of resources) {
+  r.sameAs = slugById.get(r.sameAs) ?? null;
+  r.partOf = slugById.get(r.partOf) ?? null;
+}
+
+const fixed = existsSync(p("data/features/fixed.json")) ? readJSON(p("data/features/fixed.json")) : {};
+for (const r of resources) {
+  const f = fixed[r.id] || {};
+  const npm = f.npm || [];
+  r.signals = {
+    stars: f.github?.stars ?? r.github?.stars ?? null,
+    weeklyDownloads: npm.length ? Math.max(...npm.map((x) => x.weeklyDownloads ?? 0)) : null,
+    lastRelease: npm.map((x) => x.lastRelease).filter(Boolean).sort().pop() ?? null,
+    pushedAt: f.github?.pushedAt ?? null,
+    archived: Boolean(f.github?.archived),
+    deprecated: npm.some((x) => x.deprecated),
+    checked: [f.page?.checked, f.github?.checked, ...npm.map((x) => x.checked)].filter(Boolean).sort().pop() ?? null,
+  };
+  r.machineUrls = [...r.machineUrls];
+  for (const m of f.machineUrls || []) {
+    if (!r.machineUrls.some((x) => x.url === m.url)) r.machineUrls.push({ kind: m.kind, url: m.url });
+  }
+}
+
+const model = existsSync(p("data/features/model.json")) ? readJSON(p("data/features/model.json")) : {};
+for (const r of resources) {
+  const m = model[r.id];
+  Object.assign(r, { summary: null, aliases: [], useCases: [], notFor: [], exampleQueries: [], profile: {}, scope: null, builtOn: [] });
+  if (!m) continue;
+  Object.assign(r, {
+    summary: m.summary,
+    aliases: m.aliases.map((a) => a.value),
+    useCases: m.use_cases,
+    notFor: m.not_for,
+    exampleQueries: m.queries,
+    profile: m.profile || {},
+    scope: m.scope,
+    builtOn: (m.built_on || []).map((x) => x.value),
+    components: [...new Set([...r.components, ...m.components.map((c) => c.slug)])],
+    surfaces: [...new Set([...r.surfaces, ...m.surfaces.map((x) => x.slug)])],
+  });
+  for (const [k, v] of Object.entries(m.facets)) {
+    const current = [].concat(r.facets[k] ?? []);
+    if (v !== "unknown" && current.every((x) => x === "unknown")) r.facets = { ...r.facets, [k]: [].concat(v) };
+  }
+}
+
+const visualTags = existsSync(p("data/features/visual.json")) ? readJSON(p("data/features/visual.json")) : {};
+const visualCss = existsSync(p("data/features/visual-css.json")) ? readJSON(p("data/features/visual-css.json")) : {};
+const look = (id) => {
+  const v = visualTags[id];
+  return v ? { pageType: v.page_type, sections: v.sections, style: v.style, density: v.density, imagery: v.imagery } : null;
+};
+for (const r of resources) {
+  const tags = look(`res:${r.slug}`);
+  const css = visualCss[`res:${r.slug}`];
+  r.visual = tags || css ? { ...tags, ...css } : null;
+  r.templates = r.templates.map((t) => (t.shot && look(`tpl:${basename(t.shot, ".webp")}`) ? { ...t, visual: look(`tpl:${basename(t.shot, ".webp")}`) } : t));
+}
+
+const items = (existsSync(p("data/items")) ? readdirSync(p("data/items")).filter((f) => f.endsWith(".json")).sort() : [])
+  .flatMap((f) => {
+    const file = readJSON(p("data/items", f));
+    const resource = slugById.get(file.resource_id);
+    if (!resource) return [];
+    return file.items.map((it) => ({
+      id: `${resource}/${it.name}`,
+      resource,
+      name: it.name,
+      type: it.type,
+      title: it.title,
+      description: it.description,
+      component: it.component,
+      surface: it.surface,
+      dependencies: it.dependencies,
+      install: it.url ? `npx shadcn@latest add ${it.url}` : null,
+      url: it.url,
+    }));
+  });
+console.log(`  registry items: ${items.length} (${items.filter((i) => i.install).length} with an install command)`);
+
 function safeHost(u) {
   try {
     return new URL(u).hostname.replace(/^www\./, "");
@@ -228,11 +315,24 @@ const showcaseRaw = existsSync(p("data/showcase/refero.json"))
 
 const showcase = showcaseRaw.map((s) => ({
   ...s,
+  css: visualCss[`site:${s.slug}`] ?? null,
   shots: s.shots.map((sh) => ({
     ...sh,
     local: hasMedia(`/shots/${sh.id}.webp`) ? `/shots/${sh.id}.webp` : null,
+    visual: look(`shot:${sh.id}`),
   })),
 }));
+
+const styleIndex = {};
+const pageTypeIndex = {};
+const modeIndex = {};
+for (const s of showcase) {
+  for (const sh of s.shots) {
+    for (const st of sh.visual?.style || []) (styleIndex[st] ||= []).push(sh.id);
+    if (sh.visual?.pageType) (pageTypeIndex[sh.visual.pageType] ||= []).push(sh.id);
+  }
+  if (s.css?.colorMode) (modeIndex[s.css.colorMode] ||= []).push(s.slug);
+}
 
 const fontIndex = {};
 const colorIndex = {};
@@ -327,6 +427,8 @@ const stats = {
   categories: taxonomy.categories.categories.length,
   vocabComponents: taxonomy.components.groups.reduce((s, g) => s + g.components.length, 0),
   vocabSurfaces: taxonomy.surfaces.groups.reduce((s, g) => s + g.surfaces.length, 0),
+  items: items.length,
+  itemsInstallable: items.filter((i) => i.install).length,
   generatedAt: new Date().toISOString().slice(0, 10),
 };
 
@@ -337,7 +439,7 @@ out("data/dist/indexes.json", { byComponent, bySurface, facetCounts, categoryCou
 out("data/dist/search.json", searchIndex);
 out("data/dist/stats.json", stats);
 out("data/dist/showcase.json", showcase);
-out("data/dist/showcase-indexes.json", { fontIndex, colorIndex });
+out("data/dist/showcase-indexes.json", { fontIndex, colorIndex, styleIndex, pageTypeIndex, modeIndex });
 
 out("public/api/resources.json", resources);
 out("public/api/taxonomy.json", taxonomy);
@@ -346,7 +448,78 @@ out("public/api/stats.json", stats);
 
 out("public/api/search.json", searchIndex);
 out("public/api/showcase.json", showcase);
-out("public/api/showcase-indexes.json", { fontIndex, colorIndex });
+out("public/api/showcase-indexes.json", { fontIndex, colorIndex, styleIndex, pageTypeIndex, modeIndex });
+out("data/dist/items.json", items);
+out("public/api/items.json", items);
+
+const known = (v) => (Array.isArray(v) ? v : v ? [v] : []).filter((x) => x !== "unknown" && x !== "not-applicable");
+const itemsByResource = new Map();
+const itemsByComponent = new Map();
+for (const i of items) {
+  if (!i.install) continue;
+  itemsByResource.set(i.resource, [...(itemsByResource.get(i.resource) || []), i]);
+  if (i.component) itemsByComponent.set(i.component, [...(itemsByComponent.get(i.component) || []), i]);
+}
+const writeAll = (dir, files) => {
+  mkdirSync(p(dir), { recursive: true });
+  for (const [name, body] of files) writeFileSync(p(dir, name), typeof body === "string" ? body : JSON.stringify(body));
+  console.log(`  → ${dir}/ (${files.length} files)`);
+};
+writeAll("public/api/r", resources.map((r) => {
+  const its = itemsByResource.get(r.slug) || [];
+  return [`${r.slug}.json`, { ...r, templates: (r.templates || []).slice(0, 100), page: siteUrl(`/r/${r.slug}`), itemCount: its.length, items: its.slice(0, 300).map((i) => ({ name: i.name, title: i.title, component: i.component, install: i.install })) }];
+}));
+writeAll("public/api/components", taxonomy.components.groups.flatMap((g) => g.components).map((c) => {
+  const its = itemsByComponent.get(c.slug) || [];
+  const list = byComponent[c.slug] || [];
+  return [`${c.slug}.json`, {
+    slug: c.slug,
+    name: c.name,
+    aliases: c.aliases || [],
+    states: c.states || [],
+    ariaPattern: c.aria_pattern || null,
+    checklist: c.checklist || [],
+    checklistSource: c.checklist_source || null,
+    resourceCount: list.length,
+    resources: list.slice(0, 25).map((slug) => bySlug.get(slug)).map((r) => ({
+      id: r.slug, name: r.name, page: siteUrl(`/r/${r.slug}`), tier: r.tier, summary: r.summary || r.tagline,
+      framework: known(r.facets?.framework), license: known(r.facets?.license), install: r.install || null,
+    })),
+    itemCount: its.length,
+    items: its.slice(0, 40).map((i) => ({ resource: i.resource, name: i.title || i.name, install: i.install })),
+  }];
+}));
+
+const ruleList = SEARCH_RULES.map((r, i) => `${i + 1}. ${r}`);
+const skill = [
+  `---`,
+  `name: index`,
+  `description: Find design resources for the current project in Index, a reviewed catalog of component libraries, shadcn registries, templates, fonts, icons, motion, and inspiration, with install commands and licenses. Use it when the user asks for a UI component, a library, a template, a font, an icon set, or design references.`,
+  `---`,
+  ``,
+  `# Index`,
+  ``,
+  ABOUT,
+  ``,
+  `## Connect`,
+  ``,
+  `- MCP server: ${SEARCH_ORIGIN}/mcp (Streamable HTTP, no key). Tools: search, fetch, component_guide.`,
+  `- Without MCP: GET ${SEARCH_ORIGIN}/search?q=date+range+picker&framework=react returns the same JSON as the search tool.`,
+  `- Static files: ${siteUrl("/").replace(/\/$/, "")}/api/r/<id>.json for one record, and /api/components/<component>.json for one component.`,
+  ``,
+  `## Search rules`,
+  ``,
+  ...ruleList,
+  ``,
+  `## Read the results`,
+  ``,
+  `- match is strong, weak, or none. With none, say that Index has nothing that fits. Do not force a pick.`,
+  `- why lists what each result matched: a component, a filter value, a style, or similar meaning.`,
+  `- install is the command to run. items lists single registry items with their own install command.`,
+  `- Filters are hard limits. When nothing passes, the search drops one and lists it in relaxed.`,
+  ``,
+].join("\n");
+writeAll("public/api/skill", [["SKILL.md", skill]]);
 
 const tierOf = (t) => resources.filter((r) => r.tier === t).length;
 const topBy = (cat, n = 8) =>
@@ -369,16 +542,23 @@ const llms = [
   ``,
   `## How to use this`,
   ``,
-  `Fetch JSON rather than scraping these pages:`,
+  `Search through the MCP server or its JSON endpoint rather than reading the large files:`,
+  ``,
+  `- MCP: ${SEARCH_ORIGIN}/mcp (Streamable HTTP, no key). Tools: search, fetch, component_guide.`,
+  `- HTTP: ${SEARCH_ORIGIN}/search?q=date+range+picker&framework=react`,
+  `- One record: /api/r/<id>.json, with its registry items and install commands`,
+  `- One component: /api/components/<component>.json, with its checklist, states, ARIA pattern, and best implementations`,
+  `- Agent skill: /api/skill/SKILL.md`,
+  ``,
+  ...ruleList,
+  ``,
+  `Full data, too large for one context window:`,
   ``,
   `- /api/resources.json — every record, full detail`,
+  `- /api/items.json — every single shadcn registry item with its install command`,
   `- /api/indexes.json — byComponent and bySurface reverse indexes, plus facet counts`,
   `- /api/taxonomy.json — the controlled vocabularies (categories, kinds, facets, components, surfaces)`,
   `- /api/stats.json — corpus counts`,
-  ``,
-  `To answer "which library ships a kanban", read indexes.json .byComponent["kanban-board"] —`,
-  `it is a list of resource slugs ordered best-first. To answer "what helps me build a`,
-  `paywall", read .bySurface.paywall. Do not guess from names.`,
   ``,
   `Before generating UI in a project, read that project's DESIGN.md and match its tokens.`,
   `Pick a resource from here only when its facets are compatible with the project's stack`,

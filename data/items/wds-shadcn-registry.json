@@ -1,0 +1,116 @@
+{
+ "resource_id": "91460dc5-7851-4cec-9ceb-a35109361f6b",
+ "registry_url": "https://wds-shadcn-registry.netlify.app/r/registry.json",
+ "install_verified": true,
+ "checked": "2026-10-23",
+ "items": [
+  {
+   "name": "action-button",
+   "type": "component",
+   "title": null,
+   "description": "A button that performs an action when clicked and optionally asks for user confirmation.",
+   "component": "floating-action-button",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://wds-shadcn-registry.netlify.app/r/action-button.json"
+  },
+  {
+   "name": "action-button-experimental",
+   "type": "component",
+   "title": null,
+   "description": "A button that performs an action when clicked and optionally asks for user confirmation. (Includes experimental support for all Shadcn icon libraries)",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://wds-shadcn-registry.netlify.app/r/action-button-experimental.json"
+  },
+  {
+   "name": "loading-swap",
+   "type": "component",
+   "title": null,
+   "description": "Swaps content with a loading spinner without layout shift.",
+   "component": "spinner",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://wds-shadcn-registry.netlify.app/r/loading-swap.json"
+  },
+  {
+   "name": "loading-swap-experimental",
+   "type": "component",
+   "title": null,
+   "description": "Swaps content with a loading spinner without layout shift. (Includes experimental support for all Shadcn icon libraries)",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://wds-shadcn-registry.netlify.app/r/loading-swap-experimental.json"
+  },
+  {
+   "name": "multi-select",
+   "type": "component",
+   "title": null,
+   "description": "A multi-select input that emulates the Shadcn Select component as closely as possible.",
+   "component": "multi-select",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://wds-shadcn-registry.netlify.app/r/multi-select.json"
+  },
+  {
+   "name": "multi-select-experimental",
+   "type": "component",
+   "title": null,
+   "description": "A multi-select input that emulates the Shadcn Select component as closely as possible. (Includes experimental support for all Shadcn icon libraries)",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://wds-shadcn-registry.netlify.app/r/multi-select-experimental.json"
+  },
+  {
+   "name": "number-input",
+   "type": "component",
+   "title": null,
+   "description": "An input that returns a number value and automatically handles invalid inputs.",
+   "component": "number-input",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://wds-shadcn-registry.netlify.app/r/number-input.json"
+  },
+  {
+   "name": "number-input-experimental",
+   "type": "component",
+   "title": null,
+   "description": "An input that returns a number value and automatically handles invalid inputs. (Includes experimental support for all Shadcn icon libraries)",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://wds-shadcn-registry.netlify.app/r/number-input-experimental.json"
+  },
+  {
+   "name": "password-input",
+   "type": "component",
+   "title": null,
+   "description": "An input that can toggle visibility of the password text and check the strength of the password.",
+   "component": "password-input",
+   "surface": null,
+   "dependencies": [
+    "@zxcvbn-ts/core",
+    "@zxcvbn-ts/language-common",
+    "@zxcvbn-ts/language-en"
+   ],
+   "url": "https://wds-shadcn-registry.netlify.app/r/password-input.json"
+  },
+  {
+   "name": "password-input-experimental",
+   "type": "component",
+   "title": null,
+   "description": "An input that can toggle visibility of the password text and check the strength of the password. (Includes experimental support for all Shadcn icon libraries)",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "@zxcvbn-ts/core",
+    "@zxcvbn-ts/language-common",
+    "@zxcvbn-ts/language-en"
+   ],
+   "url": "https://wds-shadcn-registry.netlify.app/r/password-input-experimental.json"
+  }
+ ]
+}

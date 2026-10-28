@@ -1,0 +1,815 @@
+{
+ "resource_id": "depo:j5743tb37834a37v5yh5ne04pd88asz5",
+ "registry_url": "https://ui.extend.ai/r/registry.json",
+ "install_verified": true,
+ "checked": "2026-10-23",
+ "items": [
+  {
+   "name": "accordion",
+   "type": "ui",
+   "title": "Accordion",
+   "description": "A vertically stacked set of expandable content panels.",
+   "component": "accordion",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react@^1.4.1"
+   ],
+   "url": "https://ui.extend.ai/r/accordion.json"
+  },
+  {
+   "name": "alert",
+   "type": "ui",
+   "title": "Alert",
+   "description": "A callout for displaying contextual messages.",
+   "component": "alert",
+   "surface": null,
+   "dependencies": [
+    "class-variance-authority@^0.7.1"
+   ],
+   "url": "https://ui.extend.ai/r/alert.json"
+  },
+  {
+   "name": "aspect-ratio",
+   "type": "ui",
+   "title": "Aspect Ratio",
+   "description": "A small wrapper for preserving media aspect ratios.",
+   "component": "aspect-ratio",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.extend.ai/r/aspect-ratio.json"
+  },
+  {
+   "name": "autocomplete",
+   "type": "ui",
+   "title": "Autocomplete",
+   "description": "An autocomplete input built on Base UI primitives.",
+   "component": "autocomplete",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react@^1.4.1"
+   ],
+   "url": "https://ui.extend.ai/r/autocomplete.json"
+  },
+  {
+   "name": "badge",
+   "type": "ui",
+   "title": "Badge",
+   "description": "A compact label for status, metadata, and categorization.",
+   "component": "badge",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react@^1.4.1",
+    "class-variance-authority@^0.7.1"
+   ],
+   "url": "https://ui.extend.ai/r/badge.json"
+  },
+  {
+   "name": "bounding-box-citations",
+   "type": "ui",
+   "title": "Bounding Box Citations",
+   "description": "An extraction citation panel connected to source bounding boxes and editable values.",
+   "component": "box",
+   "surface": null,
+   "dependencies": [
+    "@glideapps/glide-data-grid@6.0.4-alpha24",
+    "@pierre/diffs@^1.1.22"
+   ],
+   "url": "https://ui.extend.ai/r/bounding-box-citations.json"
+  },
+  {
+   "name": "bounding-box-citations-block",
+   "type": "block",
+   "title": "Bounding Box Citations",
+   "description": "An extraction citation block linked to source PDF bounding boxes.",
+   "component": "box",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.extend.ai/r/bounding-box-citations-block.json"
+  },
+  {
+   "name": "breadcrumb",
+   "type": "ui",
+   "title": "Breadcrumb",
+   "description": "Navigation breadcrumbs for page hierarchy.",
+   "component": "breadcrumbs",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react@^1.4.1"
+   ],
+   "url": "https://ui.extend.ai/r/breadcrumb.json"
+  },
+  {
+   "name": "button",
+   "type": "ui",
+   "title": "Button",
+   "description": "A polymorphic button primitive with variants, sizes, and loading state.",
+   "component": "button",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react@^1.4.1",
+    "class-variance-authority@^0.7.1"
+   ],
+   "url": "https://ui.extend.ai/r/button.json"
+  },
+  {
+   "name": "card",
+   "type": "ui",
+   "title": "Card",
+   "description": "A flexible container primitive for grouped content.",
+   "component": "card",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react@^1.4.1"
+   ],
+   "url": "https://ui.extend.ai/r/card.json"
+  },
+  {
+   "name": "collapsible",
+   "type": "ui",
+   "title": "Collapsible",
+   "description": "A disclosure primitive for expandable content.",
+   "component": "collapsible",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react@^1.4.1"
+   ],
+   "url": "https://ui.extend.ai/r/collapsible.json"
+  },
+  {
+   "name": "color-picker",
+   "type": "ui",
+   "title": "Color Picker",
+   "description": "An OKLCH-aware popover color picker with OKLCH, HSL, RGB, and hex input formats.",
+   "component": "color-picker",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.extend.ai/r/color-picker.json"
+  },
+  {
+   "name": "command",
+   "type": "ui",
+   "title": "Command",
+   "description": "A command menu surface powered by cmdk.",
+   "component": "command-palette",
+   "surface": null,
+   "dependencies": [
+    "cmdk@^1.1.1"
+   ],
+   "url": "https://ui.extend.ai/r/command.json"
+  },
+  {
+   "name": "context-menu",
+   "type": "ui",
+   "title": "Context Menu",
+   "description": "A context menu built on Base UI with nested menus and keyboard navigation.",
+   "component": "context-menu",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react@^1.4.1"
+   ],
+   "url": "https://ui.extend.ai/r/context-menu.json"
+  },
+  {
+   "name": "csv-viewer",
+   "type": "ui",
+   "title": "CSV Viewer",
+   "description": "A CSV and TSV viewer with parsing, upload, search, zoom, theme-aware grid rendering, and Glide Data Grid.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@glideapps/glide-data-grid@6.0.4-alpha24",
+    "papaparse@^5.5.3"
+   ],
+   "url": "https://ui.extend.ai/r/csv-viewer.json"
+  },
+  {
+   "name": "dialog",
+   "type": "ui",
+   "title": "Dialog",
+   "description": "An accessible modal dialog built on Base UI.",
+   "component": "modal",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react@^1.4.1"
+   ],
+   "url": "https://ui.extend.ai/r/dialog.json"
+  },
+  {
+   "name": "document-color-picker",
+   "type": "ui",
+   "title": "document-color-picker",
+   "description": null,
+   "component": "color-picker",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.extend.ai/r/document-color-picker.json"
+  },
+  {
+   "name": "document-color-popover",
+   "type": "ui",
+   "title": "Color Picker Popover",
+   "description": null,
+   "component": "popover",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.extend.ai/r/document-color-popover.json"
+  },
+  {
+   "name": "document-controls",
+   "type": "ui",
+   "title": "document-controls",
+   "description": null,
+   "component": "message-actions",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.extend.ai/r/document-controls.json"
+  },
+  {
+   "name": "document-preview-card",
+   "type": "ui",
+   "title": "document-preview-card",
+   "description": null,
+   "component": "hover-card",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.extend.ai/r/document-preview-card.json"
+  },
+  {
+   "name": "document-scroll-area",
+   "type": "ui",
+   "title": "document-scroll-area",
+   "description": null,
+   "component": "scroll-area",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.extend.ai/r/document-scroll-area.json"
+  },
+  {
+   "name": "document-splits",
+   "type": "ui",
+   "title": "Document Splits",
+   "description": "A split-group review panel for organizing pages into output documents.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@dnd-kit/core@^6.3.1",
+    "@dnd-kit/sortable@^10.0.0",
+    "@dnd-kit/utilities@^3.2.2"
+   ],
+   "url": "https://ui.extend.ai/r/document-splits.json"
+  },
+  {
+   "name": "document-splits-block",
+   "type": "block",
+   "title": "Document Splits",
+   "description": "A split-group review block for organizing PDF pages into output documents.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.extend.ai/r/document-splits-block.json"
+  },
+  {
+   "name": "document-toast",
+   "type": "ui",
+   "title": "document-toast",
+   "description": null,
+   "component": "toast",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.extend.ai/r/document-toast.json"
+  },
+  {
+   "name": "document-viewer-sidebar",
+   "type": "ui",
+   "title": "Document Viewer Sidebar",
+   "description": "Shared thumbnail sidebar behavior for document viewers, including viewer-width responsive overlay and inline modes.",
+   "component": "document-viewer",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.extend.ai/r/document-viewer-sidebar.json"
+  },
+  {
+   "name": "docx-editor",
+   "type": "ui",
+   "title": "DOCX Editor",
+   "description": "An experimental DOCX editor with a Word-style toolbar, page thumbnails, import, export, and live document mutation.",
+   "component": "code-editor",
+   "surface": null,
+   "dependencies": [
+    "@extend-ai/react-docx@^0.11.2"
+   ],
+   "url": "https://ui.extend.ai/r/docx-editor.json"
+  },
+  {
+   "name": "docx-editor-block",
+   "type": "block",
+   "title": "DOCX Editor",
+   "description": "A full DOCX editor block with a Word-style toolbar, page thumbnails, and export controls.",
+   "component": "code-editor",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.extend.ai/r/docx-editor-block.json"
+  },
+  {
+   "name": "docx-viewer",
+   "type": "ui",
+   "title": "DOCX Viewer",
+   "description": "A DOCX viewer with upload, zoom, theme controls, and read-only rendering.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@extend-ai/react-docx@^0.11.2",
+    "@tanstack/react-virtual@^3.13.12"
+   ],
+   "url": "https://ui.extend.ai/r/docx-viewer.json"
+  },
+  {
+   "name": "dropdown-menu",
+   "type": "ui",
+   "title": "Dropdown Menu",
+   "description": "A dropdown menu built on Base UI menu primitives.",
+   "component": "dropdown-menu",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react@^1.4.1"
+   ],
+   "url": "https://ui.extend.ai/r/dropdown-menu.json"
+  },
+  {
+   "name": "e-signature",
+   "type": "block",
+   "title": "E-Signature",
+   "description": "A PDF signature review block with field overlays and signing actions.",
+   "component": "signature-pad",
+   "surface": null,
+   "dependencies": [
+    "pdf-lib@^1.17.1",
+    "signature_pad@^5.1.3"
+   ],
+   "url": "https://ui.extend.ai/r/e-signature.json"
+  },
+  {
+   "name": "excel-editor",
+   "type": "block",
+   "title": "Excel Editor",
+   "description": "A full Excel editor block with workbook upload, cell formatting, merge tools, sheets, zoom, and export controls.",
+   "component": "code-editor",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.extend.ai/r/excel-editor.json"
+  },
+  {
+   "name": "file-system",
+   "type": "ui",
+   "title": "File System (Finder)",
+   "description": "A macOS Finder-style file browser for flat object-store manifests with icon, list, column, and gallery views.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "@pierre/trees@1.0.0-beta.4"
+   ],
+   "url": "https://ui.extend.ai/r/file-system.json"
+  },
+  {
+   "name": "file-system-block",
+   "type": "block",
+   "title": "File System (Finder)",
+   "description": "A Finder-style file browser block that opens PDF, DOCX, PowerPoint, XLSX, and image files in large viewer dialogs.",
+   "component": "file-card",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.extend.ai/r/file-system-block.json"
+  },
+  {
+   "name": "file-thumbnail",
+   "type": "ui",
+   "title": "File Thumbnail",
+   "description": "A compact file preview thumbnail shell for externally generated images, loading states, and fallback states.",
+   "component": "file-card",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.extend.ai/r/file-thumbnail.json"
+  },
+  {
+   "name": "file-upload",
+   "type": "ui",
+   "title": "File Upload",
+   "description": "A drag-and-drop file upload surface with accepted file type icons and a compact file list.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "border-beam@^1.0.1"
+   ],
+   "url": "https://ui.extend.ai/r/file-upload.json"
+  },
+  {
+   "name": "group",
+   "type": "ui",
+   "title": "Group",
+   "description": "A connected control group primitive for buttons, inputs, separators, and text addons.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react@^1.4.1",
+    "class-variance-authority@^0.7.1"
+   ],
+   "url": "https://ui.extend.ai/r/group.json"
+  },
+  {
+   "name": "input",
+   "type": "ui",
+   "title": "Input",
+   "description": "A styled text input built on Base UI.",
+   "component": "text-input",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react@^1.4.1"
+   ],
+   "url": "https://ui.extend.ai/r/input.json"
+  },
+  {
+   "name": "kbd",
+   "type": "ui",
+   "title": "Kbd",
+   "description": "A keyboard shortcut display primitive.",
+   "component": "kbd",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.extend.ai/r/kbd.json"
+  },
+  {
+   "name": "layout-blocks",
+   "type": "ui",
+   "title": "Layout Blocks",
+   "description": "A structured layout review panel with typed blocks and confidence cards.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@tanstack/react-virtual@^3.13.26",
+    "react-markdown@^10.1.0",
+    "rehype-raw@^7.0.0",
+    "rehype-sanitize@^6.0.0",
+    "remark-gfm@^4.0.1"
+   ],
+   "url": "https://ui.extend.ai/r/layout-blocks.json"
+  },
+  {
+   "name": "layout-blocks-block",
+   "type": "block",
+   "title": "Layout Blocks",
+   "description": "A structured layout review block with confidence cards and PDF region overlays.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.extend.ai/r/layout-blocks-block.json"
+  },
+  {
+   "name": "pdf-block-resizable-shell",
+   "type": "component",
+   "title": "PDF Block Resizable Shell",
+   "description": "A reusable resizable left document viewer and right review panel shell for PDF-style blocks.",
+   "component": "resizable",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.extend.ai/r/pdf-block-resizable-shell.json"
+  },
+  {
+   "name": "pdf-dropzone",
+   "type": "block",
+   "title": "PDF Dropzone",
+   "description": "A PDF-only upload dropzone that opens the dropped file in the shared PDF viewer.",
+   "component": "file-upload",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.extend.ai/r/pdf-dropzone.json"
+  },
+  {
+   "name": "pdf-editor",
+   "type": "ui",
+   "title": "PDF Editor",
+   "description": "A PDF editor with annotations, comments, redaction, form filling and design, signatures, rubber stamps, page organization, security, printing, and export.",
+   "component": "code-editor",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.extend.ai/r/pdf-editor.json"
+  },
+  {
+   "name": "pdf-editor-block",
+   "type": "block",
+   "title": "PDF Editor",
+   "description": "A full PDF editor block with annotation, redaction, form, signature, stamp, page organization, security, print, and export tools.",
+   "component": "code-editor",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.extend.ai/r/pdf-editor-block.json"
+  },
+  {
+   "name": "pdf-editor-core",
+   "type": "ui",
+   "title": "PDF Editor Core",
+   "description": "Shared PDF editor behavior and state for the Base UI and Radix UI artifacts.",
+   "component": "code-editor",
+   "surface": null,
+   "dependencies": [
+    "@embedpdf/core@^2.15.0",
+    "@embedpdf/engines@^2.15.0",
+    "@embedpdf/models@^2.15.0",
+    "@embedpdf/plugin-annotation@^2.15.0",
+    "@embedpdf/plugin-attachment@^2.15.0",
+    "@embedpdf/plugin-bookmark@^2.15.0",
+    "@embedpdf/plugin-capture@^2.15.0",
+    "@embedpdf/plugin-document-manager@^2.15.0",
+    "@embedpdf/plugin-export@^2.15.0",
+    "@embedpdf/plugin-form@^2.15.0",
+    "@embedpdf/plugin-fullscreen@^2.15.0",
+    "@embedpdf/plugin-history@^2.15.0",
+    "@embedpdf/plugin-interaction-manager@^2.15.0",
+    "@embedpdf/plugin-pan@^2.15.0",
+    "@embedpdf/plugin-print@^2.15.0",
+    "@embedpdf/plugin-redaction@^2.15.0",
+    "@embedpdf/plugin-render@^2.15.0",
+    "@embedpdf/plugin-rotate@^2.15.0",
+    "@embedpdf/plugin-scroll@^2.15.0",
+    "@embedpdf/plugin-search@^2.15.0",
+    "@embedpdf/plugin-selection@^2.15.0",
+    "@embedpdf/plugin-signature@^2.15.0",
+    "@embedpdf/plugin-spread@^2.15.0",
+    "@embedpdf/plugin-stamp@^2.15.0",
+    "@embedpdf/plugin-thumbnail@^2.15.0",
+    "@embedpdf/plugin-tiling@^2.15.0",
+    "@embedpdf/plugin-viewport@^2.15.0",
+    "@embedpdf/plugin-zoom@^2.15.0",
+    "pdf-lib@^1.17.1"
+   ],
+   "url": "https://ui.extend.ai/r/pdf-editor-core.json"
+  },
+  {
+   "name": "pdf-viewer",
+   "type": "ui",
+   "title": "PDF Viewer",
+   "description": "A PDF viewer with page virtualization, thumbnails, search, zoom, rotation, upload, and page overlay hooks.",
+   "component": "document-viewer",
+   "surface": null,
+   "dependencies": [
+    "@embedpdf/core@^2.15.0",
+    "@embedpdf/engines@^2.15.0",
+    "@embedpdf/models@^2.15.0",
+    "@embedpdf/plugin-document-manager@^2.15.0",
+    "@embedpdf/plugin-interaction-manager@^2.15.0",
+    "@embedpdf/plugin-render@^2.15.0",
+    "@embedpdf/plugin-rotate@^2.15.0",
+    "@embedpdf/plugin-scroll@^2.15.0",
+    "@embedpdf/plugin-search@^2.15.0",
+    "@embedpdf/plugin-selection@^2.15.0",
+    "@embedpdf/plugin-thumbnail@^2.15.0",
+    "@embedpdf/plugin-tiling@^2.15.0",
+    "@embedpdf/plugin-viewport@^2.15.0",
+    "@embedpdf/plugin-zoom@^2.15.0",
+    "pdf-lib@^1.17.1"
+   ],
+   "url": "https://ui.extend.ai/r/pdf-viewer.json"
+  },
+  {
+   "name": "popover",
+   "type": "ui",
+   "title": "Popover",
+   "description": "A floating popover built on Base UI.",
+   "component": "popover",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react@^1.4.1"
+   ],
+   "url": "https://ui.extend.ai/r/popover.json"
+  },
+  {
+   "name": "pptx-viewer",
+   "type": "ui",
+   "title": "PowerPoint Viewer",
+   "description": "A PowerPoint viewer with slide navigation, zoom, upload, download, custom scroll areas, and virtualized thumbnails.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@extend-ai/react-pptx@0.2.1",
+    "@tanstack/react-virtual@^3.13.12"
+   ],
+   "url": "https://ui.extend.ai/r/pptx-viewer.json"
+  },
+  {
+   "name": "registry-icon-props",
+   "type": "ui",
+   "title": "registry-icon-props",
+   "description": null,
+   "component": "icon",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.extend.ai/r/registry-icon-props.json"
+  },
+  {
+   "name": "resizable",
+   "type": "ui",
+   "title": "Resizable",
+   "description": "Resizable panel primitives using react-resizable-panels.",
+   "component": "resizable",
+   "surface": null,
+   "dependencies": [
+    "react-resizable-panels@^4.11.2"
+   ],
+   "url": "https://ui.extend.ai/r/resizable.json"
+  },
+  {
+   "name": "schema-builder",
+   "type": "ui",
+   "title": "Schema Builder",
+   "description": "A JSON schema builder with form and JSON views for extraction schemas.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@dnd-kit/core@^6.3.1",
+    "@dnd-kit/sortable@^10.0.0",
+    "@dnd-kit/utilities@^3.2.2",
+    "@pierre/diffs@^1.2.7",
+    "next-themes@0.4.6"
+   ],
+   "url": "https://ui.extend.ai/r/schema-builder.json"
+  },
+  {
+   "name": "scroll-area",
+   "type": "ui",
+   "title": "Scroll Area",
+   "description": "A custom scroll area built on Base UI.",
+   "component": "scroll-area",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react@^1.4.1"
+   ],
+   "url": "https://ui.extend.ai/r/scroll-area.json"
+  },
+  {
+   "name": "select",
+   "type": "ui",
+   "title": "Select",
+   "description": "A select control built on Base UI.",
+   "component": "select",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react@^1.4.1",
+    "class-variance-authority@^0.7.1"
+   ],
+   "url": "https://ui.extend.ai/r/select.json"
+  },
+  {
+   "name": "separator",
+   "type": "ui",
+   "title": "Separator",
+   "description": "A visual separator built on Base UI.",
+   "component": "separator",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react@^1.4.1"
+   ],
+   "url": "https://ui.extend.ai/r/separator.json"
+  },
+  {
+   "name": "sheet",
+   "type": "ui",
+   "title": "Sheet",
+   "description": "A side sheet built on Base UI dialog primitives.",
+   "component": "sheet",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react@^1.4.1"
+   ],
+   "url": "https://ui.extend.ai/r/sheet.json"
+  },
+  {
+   "name": "sidebar",
+   "type": "ui",
+   "title": "Sidebar",
+   "description": "A responsive application sidebar with menu, rail, and provider primitives.",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react@^1.4.1",
+    "class-variance-authority@^0.7.1"
+   ],
+   "url": "https://ui.extend.ai/r/sidebar.json"
+  },
+  {
+   "name": "skeleton",
+   "type": "ui",
+   "title": "Skeleton",
+   "description": "A loading placeholder with shimmer animation.",
+   "component": "skeleton",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.extend.ai/r/skeleton.json"
+  },
+  {
+   "name": "sonner",
+   "type": "ui",
+   "title": "Sonner",
+   "description": "A themed toast provider for Sonner.",
+   "component": "toast",
+   "surface": null,
+   "dependencies": [
+    "next-themes@0.4.6",
+    "sonner@^2.0.0"
+   ],
+   "url": "https://ui.extend.ai/r/sonner.json"
+  },
+  {
+   "name": "spinner",
+   "type": "ui",
+   "title": "Spinner",
+   "description": "A compact loading spinner using Hugeicons.",
+   "component": "spinner",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.extend.ai/r/spinner.json"
+  },
+  {
+   "name": "switch",
+   "type": "ui",
+   "title": "Switch",
+   "description": "A binary toggle control built on Base UI.",
+   "component": "switch",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react@^1.4.1"
+   ],
+   "url": "https://ui.extend.ai/r/switch.json"
+  },
+  {
+   "name": "tabs",
+   "type": "ui",
+   "title": "Tabs",
+   "description": "A tabs primitive built on Base UI.",
+   "component": "tabs",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react@^1.4.1"
+   ],
+   "url": "https://ui.extend.ai/r/tabs.json"
+  },
+  {
+   "name": "toast",
+   "type": "ui",
+   "title": "Toast",
+   "description": "A toast provider built on Base UI.",
+   "component": "toast",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react@^1.4.1"
+   ],
+   "url": "https://ui.extend.ai/r/toast.json"
+  },
+  {
+   "name": "toggle",
+   "type": "ui",
+   "title": "Toggle",
+   "description": "A two-state command button and grouped toggle controls.",
+   "component": "toggle-button",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react@^1.4.1"
+   ],
+   "url": "https://ui.extend.ai/r/toggle.json"
+  },
+  {
+   "name": "tooltip",
+   "type": "ui",
+   "title": "Tooltip",
+   "description": "A tooltip primitive built on Base UI.",
+   "component": "tooltip",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react@^1.4.1"
+   ],
+   "url": "https://ui.extend.ai/r/tooltip.json"
+  },
+  {
+   "name": "xlsx-editor",
+   "type": "ui",
+   "title": "Excel Editor",
+   "description": "An experimental XLSX editor with formula input, undo and redo, sheet controls, export, and live workbook mutation.",
+   "component": "code-editor",
+   "surface": null,
+   "dependencies": [
+    "@extend-ai/react-xlsx@0.18.0"
+   ],
+   "url": "https://ui.extend.ai/r/xlsx-editor.json"
+  },
+  {
+   "name": "xlsx-viewer",
+   "type": "ui",
+   "title": "Excel Viewer",
+   "description": "An XLSX viewer with workbook loading, thumbnails, sheet tabs, upload, zoom, and theme controls.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@extend-ai/react-xlsx@0.18.0"
+   ],
+   "url": "https://ui.extend.ai/r/xlsx-viewer.json"
+  }
+ ]
+}

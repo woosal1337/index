@@ -61,7 +61,7 @@
    "pricing": ["freemium", "account-required", "paid"],
    "distribution": ["web-app", "article"],
    "platform": ["web"],
-   "accessibility": ["unknown"],
+   "accessibility": ["not-applicable"],
    "content_type": ["images", "prose", "screenshots"],
    "agent_readiness": ["image-only", "auth-required"],
    "maturity": "actively-maintained"
@@ -102,7 +102,7 @@
   "facets": {
    "framework": ["vanilla", "react", "vue", "svelte", "angular"],
    "styling": ["vanilla-css"],
-   "license": ["mit"],
+   "license": ["mit", "commercial"],
    "pricing": ["free", "open-source"],
    "distribution": ["web-app", "github-repo", "mcp-server"],
    "platform": ["web"],
@@ -132,7 +132,8 @@
   "package": null,
   "docs_url": "https://uxpatterns.dev/en/patterns",
   "repo_url": "https://github.com/thedaviddias/ux-patterns-for-developers",
-  "registry_url": "https://mcp.uxpatterns.dev",
+  "registry_url": null,
+  "machine_urls": [{"kind": "mcp", "url": "https://mcp.uxpatterns.dev"}],
   "github": { "stars": 229, "license": "mit", "last_activity": "2026-08-14" },
   "pricing_detail": null,
   "counts": { "icons": null, "fonts": null, "palettes": null, "entries": 92, "blocks": null },
@@ -163,7 +164,7 @@
    "pricing": ["free"],
    "distribution": ["web-app", "gallery"],
    "platform": ["web", "ios", "android", "desktop"],
-   "accessibility": ["unknown"],
+   "accessibility": ["not-applicable"],
    "content_type": ["screenshots", "images"],
    "agent_readiness": ["image-only"],
    "maturity": "stable"
@@ -208,7 +209,7 @@
    "pricing": ["freemium", "subscription", "account-required"],
    "distribution": ["web-app", "saas", "gallery"],
    "platform": ["web"],
-   "accessibility": ["unknown"],
+   "accessibility": ["not-applicable"],
    "content_type": ["screenshots", "images", "code"],
    "agent_readiness": ["bot-blocked", "auth-required", "image-only"],
    "maturity": "actively-maintained"

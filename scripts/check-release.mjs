@@ -3,7 +3,7 @@ import { spawnSync } from "node:child_process";
 import { join } from "node:path";
 import { commentRanges } from "./lib/code-comments.mjs";
 
-const skipped = new Set([".git", ".next", "out", "node_modules", ".claude", ".codex", "media", "dist"]);
+const skipped = new Set([".git", ".next", "out", "node_modules", ".claude", ".codex", ".cache", "media", "dist"]);
 const ignoredFiles = new Set(["next-env.d.ts", "cult_tree.txt", "elliptic-sync.json"]);
 const excludedMedia = new Set(["public/media", "public/og", "public/shots", "public/tpl", "public/api"]);
 const sourceTextFields = new Set(["body", "full_text", "caption", "transcript"]);

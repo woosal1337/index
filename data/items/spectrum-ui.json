@@ -1,0 +1,3511 @@
+{
+ "resource_id": "user:04aaa092c62d14ef",
+ "registry_url": "https://ui.spectrumhq.in/r/registry.json",
+ "install_verified": true,
+ "checked": "2026-10-23",
+ "items": [
+  {
+   "name": "access-empty",
+   "type": "block",
+   "title": "No Access",
+   "description": "A permission wall that names the owner and turns request into requested.",
+   "component": "empty-state",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/access-empty.json"
+  },
+  {
+   "name": "accordion",
+   "type": "component",
+   "title": "Accordion",
+   "description": "component for the Accordion",
+   "component": "accordion",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/accordion.json"
+  },
+  {
+   "name": "accordion-card",
+   "type": "component",
+   "title": "Accordion Card",
+   "description": "component for the Accordion Card",
+   "component": "accordion",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/accordion-card.json"
+  },
+  {
+   "name": "accordion-dependencies",
+   "type": "component",
+   "title": "Accordion Dependencies",
+   "description": "component for the Accordion Dependencies",
+   "component": "accordion",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-accordion",
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/accordion-dependencies.json"
+  },
+  {
+   "name": "accordion-filled",
+   "type": "component",
+   "title": "Accordion Filled",
+   "description": "component for the Accordion Filled",
+   "component": "accordion",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/accordion-filled.json"
+  },
+  {
+   "name": "accordion-generative",
+   "type": "component",
+   "title": "Accordion Generative",
+   "description": "component for the Accordion Generative",
+   "component": "accordion",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/accordion-generative.json"
+  },
+  {
+   "name": "accordion-ghost",
+   "type": "component",
+   "title": "Accordion Ghost",
+   "description": "component for the Accordion Ghost",
+   "component": "accordion",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/accordion-ghost.json"
+  },
+  {
+   "name": "account-access-card",
+   "type": "component",
+   "title": "Account Access Card",
+   "description": "A credentials card that auto-fills email and password on a loop, with a danger zone.",
+   "component": "card",
+   "surface": "account-web-app",
+   "dependencies": [
+    "motion",
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/account-access-card.json"
+  },
+  {
+   "name": "account-access-card-demo",
+   "type": "component",
+   "title": "Account Access Card Demo",
+   "description": "Demo usage for the Account Access Card component",
+   "component": "card",
+   "surface": "account-web-app",
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/account-access-card-demo.json"
+  },
+  {
+   "name": "activity-empty",
+   "type": "block",
+   "title": "No Activity Yet",
+   "description": "An audit timeline with a dashed rail above its one real event.",
+   "component": "empty-state",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/activity-empty.json"
+  },
+  {
+   "name": "agent-plan",
+   "type": "block",
+   "title": "Agent Plan",
+   "description": "An editable plan checklist the agent proposes before running.",
+   "component": "plan",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/agent-plan.json"
+  },
+  {
+   "name": "agent-steps",
+   "type": "block",
+   "title": "Agent Steps",
+   "description": "A timeline of tool calls with status, arguments, results, and parallel sub-steps.",
+   "component": "agent-card",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/agent-steps.json"
+  },
+  {
+   "name": "ai-chat-card",
+   "type": "component",
+   "title": "AI Chat Card",
+   "description": "An AI chat card that types prompts into its composer, with send, attach and reset actions.",
+   "component": "conversation",
+   "surface": "chat-mobile",
+   "dependencies": [
+    "motion",
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/ai-chat-card.json"
+  },
+  {
+   "name": "ai-chat-card-demo",
+   "type": "component",
+   "title": "AI Chat Card Demo",
+   "description": "Demo usage for the AI Chat Card component",
+   "component": "conversation",
+   "surface": "chat-mobile",
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/ai-chat-card-demo.json"
+  },
+  {
+   "name": "alert-1",
+   "type": "component",
+   "title": "Alert demo",
+   "description": "component for the alert-demo",
+   "component": "alert",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/alert-1.json"
+  },
+  {
+   "name": "alert-2",
+   "type": "component",
+   "title": "Alert 2",
+   "description": "component for the alert-2",
+   "component": "alert",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/alert-2.json"
+  },
+  {
+   "name": "alert-3",
+   "type": "component",
+   "title": "Alert 3",
+   "description": "component for the alert-3",
+   "component": "alert",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/alert-3.json"
+  },
+  {
+   "name": "alert-4",
+   "type": "component",
+   "title": "Alert 4",
+   "description": "component for the alert-4",
+   "component": "alert",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/alert-4.json"
+  },
+  {
+   "name": "animated-card",
+   "type": "component",
+   "title": "Animated Card",
+   "description": "component for the Animated Card",
+   "component": "card",
+   "surface": null,
+   "dependencies": [
+    "framer-motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/animated-card.json"
+  },
+  {
+   "name": "animated-drawer",
+   "type": "component",
+   "title": "Animated Drawer",
+   "description": "component for the Animated Drawer",
+   "component": "drawer",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "motion",
+    "vaul",
+    "react-use-measure"
+   ],
+   "url": "https://ui.spectrumhq.in/r/animated-drawer.json"
+  },
+  {
+   "name": "animated-SVG-chart",
+   "type": "component",
+   "title": "Animated SVG Chart",
+   "description": "component for the Animated SVG Chart",
+   "component": "chart",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/animated-SVG-chart.json"
+  },
+  {
+   "name": "animated-switch",
+   "type": "component",
+   "title": "Animated Switch",
+   "description": "An iOS-quality animated toggle switch with a press-to-stretch knob, drag-to-toggle with flick support, and optional crossfading knob icons",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "framer-motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/animated-switch.json"
+  },
+  {
+   "name": "animated-switch-demo",
+   "type": "component",
+   "title": "Animated Switch Demo",
+   "description": "Demo usage for the Animated Switch component",
+   "component": "switch",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/animated-switch-demo.json"
+  },
+  {
+   "name": "animated-testimonials",
+   "type": "component",
+   "title": "Animated Testimonials",
+   "description": "component for the Animated Testimonials",
+   "component": "quote",
+   "surface": "testimonials",
+   "dependencies": [
+    "framer-motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/animated-testimonials.json"
+  },
+  {
+   "name": "animated-wave-footer",
+   "type": "component",
+   "title": "Animated Wave Footer",
+   "description": "component for the Animated Wave Footer",
+   "component": "footer",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/animated-wave-footer.json"
+  },
+  {
+   "name": "api-key-empty",
+   "type": "block",
+   "title": "No API Keys",
+   "description": "Key creation that reveals the secret once, masked, with a copy that confirms itself.",
+   "component": "empty-state",
+   "surface": "api-keys",
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/api-key-empty.json"
+  },
+  {
+   "name": "api-keys-table",
+   "type": "block",
+   "title": "API Keys Table",
+   "description": "Key management with masked secrets in mono, scope chips, usage counts and a revoke action.",
+   "component": "table",
+   "surface": "api-keys",
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/api-keys-table.json"
+  },
+  {
+   "name": "approval-card",
+   "type": "block",
+   "title": "Approval Card",
+   "description": "A human-in-the-loop approval for an action an agent wants to take.",
+   "component": "card",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/approval-card.json"
+  },
+  {
+   "name": "area-chart",
+   "type": "component",
+   "title": "Area Chart",
+   "description": "Filled areas with gradient, hatch, dotted, stacked, and dashed-stroke variants.",
+   "component": "area-chart",
+   "surface": null,
+   "dependencies": [
+    "recharts",
+    "framer-motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/area-chart.json"
+  },
+  {
+   "name": "ask-docs-footer",
+   "type": "block",
+   "title": "Ask Docs Footer",
+   "description": "A docs question box that streams a cited answer, over link columns.",
+   "component": "footer",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/ask-docs-footer.json"
+  },
+  {
+   "name": "audit-log-table",
+   "type": "block",
+   "title": "Audit Log Table",
+   "description": "A dense, pinned-header event log with actors, mono action names, IPs and severity levels.",
+   "component": "table",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/audit-log-table.json"
+  },
+  {
+   "name": "autosize-textarea-customize",
+   "type": "component",
+   "title": "Autosize Textarea Customize",
+   "description": "component for the Autosize Textarea Customize",
+   "component": "textarea",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/autosize-textarea-customize.json"
+  },
+  {
+   "name": "autosize-textarea-demo",
+   "type": "component",
+   "title": "Autosize Textarea Demo",
+   "description": "component for the Autosize Textarea",
+   "component": "textarea",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/autosize-textarea-demo.json"
+  },
+  {
+   "name": "autosize-textarea-dependecies",
+   "type": "component",
+   "title": "Autosize Textarea Dependencies",
+   "description": "component for the Autosize Textarea Dependencies",
+   "component": "textarea",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/autosize-textarea-dependecies.json"
+  },
+  {
+   "name": "autosize-textarea-form",
+   "type": "component",
+   "title": "Autosize Textarea Form",
+   "description": "component for the Autosize Textarea Form",
+   "component": "textarea",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/autosize-textarea-form.json"
+  },
+  {
+   "name": "autosize-textarea-max-height",
+   "type": "component",
+   "title": "Autosize Textarea Max Height",
+   "description": "component for the Autosize Textarea Max Height",
+   "component": "textarea",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/autosize-textarea-max-height.json"
+  },
+  {
+   "name": "autosize-textarea-ref",
+   "type": "component",
+   "title": "Autosize Textarea Ref",
+   "description": "component for the Autosize Textarea Ref",
+   "component": "textarea",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/autosize-textarea-ref.json"
+  },
+  {
+   "name": "avatar-stack",
+   "type": "component",
+   "title": "Avatar Stack",
+   "description": "An overlapping avatar stack that fans apart on hover, springs name tooltips over each face and expands hidden members from a +N pill with a stagger",
+   "component": "avatar-group",
+   "surface": null,
+   "dependencies": [
+    "framer-motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/avatar-stack.json"
+  },
+  {
+   "name": "avatar-stack-demo",
+   "type": "component",
+   "title": "Avatar Stack Demo",
+   "description": "Demo usage for the Avatar Stack component",
+   "component": "avatar-group",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/avatar-stack-demo.json"
+  },
+  {
+   "name": "banner-tiers",
+   "type": "block",
+   "title": "Banner Tiers",
+   "description": "A brutalist plan table whose featured column wears a blue banner on top.",
+   "component": "banner",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/banner-tiers.json"
+  },
+  {
+   "name": "bar-chart",
+   "type": "component",
+   "title": "Bar Chart",
+   "description": "Vertical and horizontal bars with hatch, duotone, gradient, stripe, stack, and glow fills.",
+   "component": "bar-chart",
+   "surface": null,
+   "dependencies": [
+    "recharts",
+    "framer-motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/bar-chart.json"
+  },
+  {
+   "name": "beam-card",
+   "type": "component",
+   "title": "Beam Card",
+   "description": "A card wrapped in an animated border beam, traveling or breathing, in four color palettes.",
+   "component": "card",
+   "surface": null,
+   "dependencies": [
+    "border-beam"
+   ],
+   "url": "https://ui.spectrumhq.in/r/beam-card.json"
+  },
+  {
+   "name": "beam-card-demo",
+   "type": "component",
+   "title": "Beam Card Demo",
+   "description": "Demo usage for the Beam Card component",
+   "component": "card",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/beam-card-demo.json"
+  },
+  {
+   "name": "beam-search",
+   "type": "component",
+   "title": "Beam Search Bar",
+   "description": "A search bar whose bottom edge lights up with a traveling beam while it has focus.",
+   "component": "search-input",
+   "surface": "search-mobile",
+   "dependencies": [
+    "border-beam",
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/beam-search.json"
+  },
+  {
+   "name": "beam-search-demo",
+   "type": "component",
+   "title": "Beam Search Bar Demo",
+   "description": "Demo usage for the Beam Search Bar component",
+   "component": "search-input",
+   "surface": "search-mobile",
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/beam-search-demo.json"
+  },
+  {
+   "name": "bento-grid",
+   "type": "component",
+   "title": "Bento Grid",
+   "description": "A premium interactive Bento Grid component",
+   "component": "bento-grid",
+   "surface": null,
+   "dependencies": [
+    "framer-motion",
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/bento-grid.json"
+  },
+  {
+   "name": "blueprint-tiers",
+   "type": "block",
+   "title": "Blueprint Tiers",
+   "description": "A Swiss-style pricing table with crop marks, mono labels, and a royal-blue accent.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/blueprint-tiers.json"
+  },
+  {
+   "name": "board-empty",
+   "type": "block",
+   "title": "Empty Board Column",
+   "description": "A kanban column that accepts real drags from its neighbours and composes cards inline.",
+   "component": "kanban-board",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/board-empty.json"
+  },
+  {
+   "name": "calendar-heatmap",
+   "type": "component",
+   "title": "Calendar Heatmap",
+   "description": "A year of daily values as week columns — the contributions grid, with five quantised intensity steps, streak stats, and month rails.",
+   "component": "heatmap",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/calendar-heatmap.json"
+  },
+  {
+   "name": "candlestick-chart",
+   "type": "component",
+   "title": "Candlestick Chart",
+   "description": "OHLC candles with optional volume and hollow-up bodies — for stocks, SOL, and any market pair.",
+   "component": "candlestick-chart",
+   "surface": null,
+   "dependencies": [
+    "recharts",
+    "framer-motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/candlestick-chart.json"
+  },
+  {
+   "name": "careers-footer",
+   "type": "block",
+   "title": "Careers Footer",
+   "description": "A rolling three-role window with department filters, over link columns.",
+   "component": "footer",
+   "surface": "careers",
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/careers-footer.json"
+  },
+  {
+   "name": "cart-empty",
+   "type": "block",
+   "title": "Empty Cart",
+   "description": "An empty bag with three recently viewed products that add for real.",
+   "component": "cart",
+   "surface": "cart-website",
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/cart-empty.json"
+  },
+  {
+   "name": "chart-data",
+   "type": "component",
+   "title": "Connecting Real Data",
+   "description": "Wiring any chart to a real source: fetch in an effect, SWR or React Query, server components, and streaming — with every outcome mapped onto a status.",
+   "component": "chart",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/chart-data.json"
+  },
+  {
+   "name": "chart-empty",
+   "type": "block",
+   "title": "No Chart Data",
+   "description": "Ghost axes with a sample series that springs up on request.",
+   "component": "chart",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/chart-empty.json"
+  },
+  {
+   "name": "chart-kit",
+   "type": "component",
+   "title": "Chart Kit",
+   "description": "Shared data, fills, tooltip, and axis chrome for Spectrum Charts.",
+   "component": "chart",
+   "surface": null,
+   "dependencies": [
+    "recharts",
+    "framer-motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/chart-kit.json"
+  },
+  {
+   "name": "chart-states",
+   "type": "component",
+   "title": "Chart States",
+   "description": "Loading skeletons, empty states and error states for every chart — one wrapper, six skeleton shapes, and a frame height that never shifts between them.",
+   "component": "chart",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/chart-states.json"
+  },
+  {
+   "name": "chat-empty-state",
+   "type": "block",
+   "title": "Chat Empty State",
+   "description": "A first-run greeting with staggered suggestion chips.",
+   "component": "chat-empty-state",
+   "surface": "empty-state",
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/chat-empty-state.json"
+  },
+  {
+   "name": "circular-navbar",
+   "type": "component",
+   "title": "Circular Navbar",
+   "description": "component for the Circular Navbar",
+   "component": "navbar",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/circular-navbar.json"
+  },
+  {
+   "name": "citation-sources",
+   "type": "block",
+   "title": "Citation Sources",
+   "description": "Inline citation markers with hover previews or a footnote list.",
+   "component": "sources",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/citation-sources.json"
+  },
+  {
+   "name": "code-block",
+   "type": "block",
+   "title": "Code Block",
+   "description": "An AI code block with a file header, copy, and line collapse.",
+   "component": "code-block",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/code-block.json"
+  },
+  {
+   "name": "cohort-chart",
+   "type": "component",
+   "title": "Cohort Retention",
+   "description": "The retention triangle: cohorts down, periods across, intensity by share retained, with a row and column crosshair and a period average.",
+   "component": "chart",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/cohort-chart.json"
+  },
+  {
+   "name": "command-palette",
+   "type": "component",
+   "title": "Command Palette",
+   "description": "A fully customizable, smooth-animated Command Palette (Cmd+K) component",
+   "component": "command-palette",
+   "surface": "command-palette",
+   "dependencies": [
+    "framer-motion",
+    "lucide-react",
+    "next-themes"
+   ],
+   "url": "https://ui.spectrumhq.in/r/command-palette.json"
+  },
+  {
+   "name": "command-palette-demo",
+   "type": "component",
+   "title": "Command Palette Demo",
+   "description": "Demo usage for the Command Palette component",
+   "component": "command-palette",
+   "surface": "command-palette",
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/command-palette-demo.json"
+  },
+  {
+   "name": "command-search",
+   "type": "component",
+   "title": "Command Search",
+   "description": "A command palette that types queries and live-filters grouped results, with keyboard navigation.",
+   "component": "command-palette",
+   "surface": "search-mobile",
+   "dependencies": [
+    "motion",
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/command-search.json"
+  },
+  {
+   "name": "command-search-demo",
+   "type": "component",
+   "title": "Command Search Demo",
+   "description": "Demo usage for the Command Search component",
+   "component": "command-palette",
+   "surface": "search-mobile",
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/command-search-demo.json"
+  },
+  {
+   "name": "composed-chart",
+   "type": "component",
+   "title": "Composed Chart",
+   "description": "Bars, lines, and areas on one plot — mix fills, dashes, and glow per series.",
+   "component": "chart",
+   "surface": null,
+   "dependencies": [
+    "recharts",
+    "framer-motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/composed-chart.json"
+  },
+  {
+   "name": "contact-card-footer",
+   "type": "block",
+   "title": "Contact Card Footer",
+   "description": "Copyable email, phone and address rows with opening hours and local time.",
+   "component": "card",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/contact-card-footer.json"
+  },
+  {
+   "name": "conversation-list",
+   "type": "block",
+   "title": "Conversation List",
+   "description": "A date-grouped conversation sidebar with pinning.",
+   "component": "chat-history",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/conversation-list.json"
+  },
+  {
+   "name": "custom-label",
+   "type": "component",
+   "title": "Progress With Value Custom Label",
+   "description": "component for the Progress With Value Custom Label",
+   "component": "label",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/custom-label.json"
+  },
+  {
+   "name": "customers-table",
+   "type": "block",
+   "title": "Customers Table",
+   "description": "Accounts ranked by MRR with plan badges, churn-risk indicators and owner avatars.",
+   "component": "table",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/customers-table.json"
+  },
+  {
+   "name": "dark-matrix",
+   "type": "block",
+   "title": "Dark Matrix",
+   "description": "A dark comparison table with dashed rows, mint checks, and per-plan CTA pills.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/dark-matrix.json"
+  },
+  {
+   "name": "data-table",
+   "type": "component",
+   "title": "Data Table",
+   "description": "A typed data table with sorting, search and row selection, where rows glide into their new order.",
+   "component": "table",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/data-table.json"
+  },
+  {
+   "name": "data-table-demo",
+   "type": "component",
+   "title": "Data Table Demo",
+   "description": "Demo usage for the Data Table component",
+   "component": "table",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/data-table-demo.json"
+  },
+  {
+   "name": "datetime-picker-and-time-input",
+   "type": "component",
+   "title": "Datetime Picker and Time Input",
+   "description": "component for the Datetime Picker and Time Input",
+   "component": "date-picker",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/datetime-picker-and-time-input.json"
+  },
+  {
+   "name": "datetime-picker-calendar-settings",
+   "type": "component",
+   "title": "Datetime Picker Calendar Settings",
+   "description": "component for the Datetime Picker Calendar Settings",
+   "component": "date-picker",
+   "surface": "settings-web-app",
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/datetime-picker-calendar-settings.json"
+  },
+  {
+   "name": "datetime-picker-demo",
+   "type": "component",
+   "title": "Datetime Picker Demo",
+   "description": "component for the Datetime Picker Demo",
+   "component": "date-picker",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/datetime-picker-demo.json"
+  },
+  {
+   "name": "datetime-picker-disabled",
+   "type": "component",
+   "title": "Datetime Picker Disabled",
+   "description": "component for the Datetime Picker Disabled",
+   "component": "date-picker",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/datetime-picker-disabled.json"
+  },
+  {
+   "name": "datetime-picker-display-format",
+   "type": "component",
+   "title": "Datetime Picker Display Format",
+   "description": "component for the Datetime Picker Display Format",
+   "component": "date-picker",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/datetime-picker-display-format.json"
+  },
+  {
+   "name": "datetime-picker-form",
+   "type": "component",
+   "title": "Datetime Picker Form",
+   "description": "component for the Datetime Picker Form",
+   "component": "date-picker",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/datetime-picker-form.json"
+  },
+  {
+   "name": "datetime-picker-granularity",
+   "type": "component",
+   "title": "Datetime Picker Granularity",
+   "description": "component for the Datetime Picker Granularity",
+   "component": "date-picker",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/datetime-picker-granularity.json"
+  },
+  {
+   "name": "datetime-picker-hour-cycle",
+   "type": "component",
+   "title": "Datetime Picker Hour",
+   "description": "component for the Datetime Picker Hour",
+   "component": "date-picker",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/datetime-picker-hour-cycle.json"
+  },
+  {
+   "name": "datetime-picker-locale",
+   "type": "component",
+   "title": "Datetime Picker Locale",
+   "description": "component for the Datetime Picker Locale",
+   "component": "date-picker",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/datetime-picker-locale.json"
+  },
+  {
+   "name": "datetime-picker-placeholder",
+   "type": "component",
+   "title": "Datetime Picker Placeholder",
+   "description": "component for the Datetime Picker Placeholder",
+   "component": "date-picker",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/datetime-picker-placeholder.json"
+  },
+  {
+   "name": "datetime-picker-ref",
+   "type": "component",
+   "title": "Datetime Picker Ref",
+   "description": "component for the Datetime Picker Ref",
+   "component": "date-picker",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/datetime-picker-ref.json"
+  },
+  {
+   "name": "datetime-picker-year-range",
+   "type": "component",
+   "title": "Datetime Year Range",
+   "description": "component for the Datetime Year Range",
+   "component": "date-picker",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/datetime-picker-year-range.json"
+  },
+  {
+   "name": "deployments-table",
+   "type": "block",
+   "title": "Deployments Table",
+   "description": "CI deploys with commit messages, mono shas, environment badges, build status and author avatars.",
+   "component": "table",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/deployments-table.json"
+  },
+  {
+   "name": "depth-chart",
+   "type": "component",
+   "title": "Depth Chart",
+   "description": "Cumulative bid and ask liquidity either side of the mid, with a crosshair that reports the size resting up to any price.",
+   "component": "elevation",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/depth-chart.json"
+  },
+  {
+   "name": "diff-view",
+   "type": "block",
+   "title": "Diff View",
+   "description": "Proposed file changes with per-file accept and reject.",
+   "component": "diff-view",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/diff-view.json"
+  },
+  {
+   "name": "disclose-image",
+   "type": "component",
+   "title": "Disclose Image",
+   "description": "An image reveal component with animated sliding door panels.",
+   "component": "image",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/disclose-image.json"
+  },
+  {
+   "name": "dock",
+   "type": "component",
+   "title": "Dock",
+   "description": "A premium macOS-Style Animated Dock Menu component",
+   "component": "dock",
+   "surface": null,
+   "dependencies": [
+    "framer-motion",
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/dock.json"
+  },
+  {
+   "name": "dock-demo",
+   "type": "component",
+   "title": "Dock Demo",
+   "description": "Demo usage for the macOS-Style Animated Dock Menu component",
+   "component": "dock",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/dock-demo.json"
+  },
+  {
+   "name": "dock-glass",
+   "type": "component",
+   "title": "Dock Glass",
+   "description": "Glassmorphism variant demo for the macOS-Style Animated Dock Menu component",
+   "component": "dock",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/dock-glass.json"
+  },
+  {
+   "name": "dual-range-slider-custom-label",
+   "type": "component",
+   "title": "Dual Range Slider Custom Label",
+   "description": "component for the Dual Range Slider Custom Label",
+   "component": "range-slider",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/dual-range-slider-custom-label.json"
+  },
+  {
+   "name": "dual-range-slider-demo",
+   "type": "component",
+   "title": "Dual Range Slider Demo",
+   "description": "component for the Dual Range Slider Demo",
+   "component": "range-slider",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/dual-range-slider-demo.json"
+  },
+  {
+   "name": "dual-range-slider-dependecies",
+   "type": "component",
+   "title": "Dual Range Slider Dependencies",
+   "description": "component for the Dual Range Slider Dependencies",
+   "component": "range-slider",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-slider"
+   ],
+   "url": "https://ui.spectrumhq.in/r/dual-range-slider-dependecies.json"
+  },
+  {
+   "name": "dual-range-slider-label-position",
+   "type": "component",
+   "title": "Dual Range Slider Label Position",
+   "description": "component for the Dual Range Slider Label Position",
+   "component": "range-slider",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/dual-range-slider-label-position.json"
+  },
+  {
+   "name": "dual-range-slider-single",
+   "type": "component",
+   "title": "Dual Range Slider Single",
+   "description": "component for the Dual Range Slider Single",
+   "component": "range-slider",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/dual-range-slider-single.json"
+  },
+  {
+   "name": "dynamic-island",
+   "type": "component",
+   "title": "Dynamic Island",
+   "description": "An iOS-style island pill that morphs between live activity views with a bouncy resize.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://ui.spectrumhq.in/r/dynamic-island.json"
+  },
+  {
+   "name": "dynamic-island-demo",
+   "type": "component",
+   "title": "Dynamic Island Demo",
+   "description": "Demo usage for the Dynamic Island component",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/dynamic-island-demo.json"
+  },
+  {
+   "name": "error-empty",
+   "type": "block",
+   "title": "Failed to Load",
+   "description": "A load failure with a copyable request id and a details panel that opens to fit.",
+   "component": "empty-state",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/error-empty.json"
+  },
+  {
+   "name": "error-state",
+   "type": "block",
+   "title": "Error State",
+   "description": "A failed-generation state with a preserved prompt and retry.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/error-state.json"
+  },
+  {
+   "name": "event-badge-3d",
+   "type": "component",
+   "title": "Event Badge 3D",
+   "description": "component for the Event Badge 3D",
+   "component": "badge",
+   "surface": null,
+   "dependencies": [
+    "three",
+    "@react-three/fiber",
+    "@react-three/drei",
+    "@react-three/rapier",
+    "meshline"
+   ],
+   "url": "https://ui.spectrumhq.in/r/event-badge-3d.json"
+  },
+  {
+   "name": "event-calendar",
+   "type": "component",
+   "title": "Event Calendar",
+   "description": "component for the Event Calendar",
+   "component": "calendar-view",
+   "surface": null,
+   "dependencies": [
+    "framer-motion",
+    "lucide-react",
+    "date-fns"
+   ],
+   "url": "https://ui.spectrumhq.in/r/event-calendar.json"
+  },
+  {
+   "name": "expandable-action-bar",
+   "type": "component",
+   "title": "Expandable Action Bar",
+   "description": "Compact icon actions that expand into labeled controls on hover or focus with shared layout motion.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://ui.spectrumhq.in/r/expandable-action-bar.json"
+  },
+  {
+   "name": "expandable-action-bar-demo",
+   "type": "component",
+   "title": "Expandable Action Bar Demo",
+   "description": "Demo usage for the Expandable Action Bar component",
+   "component": "toolbar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/expandable-action-bar-demo.json"
+  },
+  {
+   "name": "face-rating",
+   "type": "component",
+   "title": "Face Rating",
+   "description": "A five-level feedback rating where one large SVG face morphs its mouth, eyes and color between moods as you hover and click, with a joy bounce on commit",
+   "component": "rating",
+   "surface": null,
+   "dependencies": [
+    "framer-motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/face-rating.json"
+  },
+  {
+   "name": "face-rating-demo",
+   "type": "component",
+   "title": "Face Rating Demo",
+   "description": "Demo usage for the Face Rating component",
+   "component": "rating",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/face-rating-demo.json"
+  },
+  {
+   "name": "faq-tabs-card",
+   "type": "component",
+   "title": "FAQ Tabs Card",
+   "description": "A tabbed FAQ card with animated accordion answers and a support footer.",
+   "component": "tabs",
+   "surface": "faq",
+   "dependencies": [
+    "motion",
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/faq-tabs-card.json"
+  },
+  {
+   "name": "faq-tabs-card-demo",
+   "type": "component",
+   "title": "FAQ Tabs Card Demo",
+   "description": "Demo usage for the FAQ Tabs Card component",
+   "component": "tabs",
+   "surface": "faq",
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/faq-tabs-card-demo.json"
+  },
+  {
+   "name": "feature-flags-table",
+   "type": "block",
+   "title": "Feature Flags Table",
+   "description": "Flag management with env chips, rollout meters and a live spring-animated switch per row.",
+   "component": "alert",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/feature-flags-table.json"
+  },
+  {
+   "name": "feedback-demo",
+   "type": "component",
+   "title": "Feedback Demo",
+   "description": "component for the Feedback Demo",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "framer-motion",
+    "lucide-react",
+    "tailwind-merge"
+   ],
+   "url": "https://ui.spectrumhq.in/r/feedback-demo.json"
+  },
+  {
+   "name": "files-table",
+   "type": "block",
+   "title": "Files Table",
+   "description": "A shared-drive browser with type-glyph tiles, sizes, collaborator stacks and modified dates.",
+   "component": "file-card",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/files-table.json"
+  },
+  {
+   "name": "filter-empty",
+   "type": "block",
+   "title": "No Matching Filters",
+   "description": "Filter chips you can drop one at a time, with the match count coming back as you do.",
+   "component": "empty-state",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/filter-empty.json"
+  },
+  {
+   "name": "floating-label-customize",
+   "type": "component",
+   "title": "Floating Label Customize",
+   "description": "component for the Floating Label Customize",
+   "component": "label",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/floating-label-customize.json"
+  },
+  {
+   "name": "floating-label-form",
+   "type": "component",
+   "title": "Floating Label Form",
+   "description": "component for the Floating Label Form",
+   "component": "label",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/floating-label-form.json"
+  },
+  {
+   "name": "floating-label-input",
+   "type": "component",
+   "title": "Floating Label Input",
+   "description": "component for the Floating Label Input",
+   "component": "label",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/floating-label-input.json"
+  },
+  {
+   "name": "floating-label-input-demo",
+   "type": "component",
+   "title": "Floating Label Input Demo",
+   "description": "component for the Floating Label Input Demo",
+   "component": "label",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/floating-label-input-demo.json"
+  },
+  {
+   "name": "floating-navbar",
+   "type": "component",
+   "title": "Floating Navbar",
+   "description": "component for the Floating Navbar",
+   "component": "navbar",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/floating-navbar.json"
+  },
+  {
+   "name": "floatingparticle-footer",
+   "type": "component",
+   "title": "Floating Particle Footer",
+   "description": "component for the Floating Particle Footer",
+   "component": "footer",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/floatingparticle-footer.json"
+  },
+  {
+   "name": "follow-button",
+   "type": "component",
+   "title": "Follow Button",
+   "description": "A morphing follow/unfollow button with a spring width morph, animated check draw, and a hover-revealed unfollow state",
+   "component": "button",
+   "surface": null,
+   "dependencies": [
+    "framer-motion",
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/follow-button.json"
+  },
+  {
+   "name": "follow-button-demo",
+   "type": "component",
+   "title": "Follow Button Demo",
+   "description": "Demo usage for the Follow Button component",
+   "component": "button",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/follow-button-demo.json"
+  },
+  {
+   "name": "footer",
+   "type": "component",
+   "title": "Footer",
+   "description": "component for the Footer",
+   "component": "footer",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/footer.json"
+  },
+  {
+   "name": "footers-demo",
+   "type": "component",
+   "title": "Footers Demo",
+   "description": "component for the Footers Demo",
+   "component": "footer",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/footers-demo.json"
+  },
+  {
+   "name": "github-profile-card",
+   "type": "component",
+   "title": "GitHub Profile Card",
+   "description": "A GitHub profile card with account stats, a contribution graph, and social links.",
+   "component": "card",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/github-profile-card.json"
+  },
+  {
+   "name": "gradient-tiers",
+   "type": "block",
+   "title": "Gradient Tiers",
+   "description": "Pastel gradient card headers with icons and color-coded inheritance labels.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/gradient-tiers.json"
+  },
+  {
+   "name": "heading-with-anchor",
+   "type": "component",
+   "title": "Heading With Anchor",
+   "description": "component for the Heading With Anchor",
+   "component": "heading",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-slot",
+    "class-variance-authority"
+   ],
+   "url": "https://ui.spectrumhq.in/r/heading-with-anchor.json"
+  },
+  {
+   "name": "histogram-chart",
+   "type": "component",
+   "title": "Histogram",
+   "description": "A distribution of raw samples binned on nice edges, with p50 / p95 / p99 pinned onto the plot — the chart that shows the tail your average hides.",
+   "component": "histogram",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/histogram-chart.json"
+  },
+  {
+   "name": "hold-to-confirm",
+   "type": "component",
+   "title": "Hold to Confirm",
+   "description": "A press-and-hold confirmation button for destructive actions with a filling progress ring, spring-back on early release, and a success check morph on completion",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "framer-motion",
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/hold-to-confirm.json"
+  },
+  {
+   "name": "hold-to-confirm-demo",
+   "type": "component",
+   "title": "Hold to Confirm Demo",
+   "description": "Demo usage for the Hold to Confirm component",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/hold-to-confirm-demo.json"
+  },
+  {
+   "name": "holographic",
+   "type": "component",
+   "title": "Holographic Scan Reveal",
+   "description": "component for the Holographic Scan Reveal",
+   "component": "scroll-reveal",
+   "surface": null,
+   "dependencies": [
+    "next-themes",
+    "framer-motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/holographic.json"
+  },
+  {
+   "name": "http-status-code",
+   "type": "component",
+   "title": "HTTP Status Code",
+   "description": "component for the HTTP Status Code",
+   "component": "code-block",
+   "surface": "status",
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/http-status-code.json"
+  },
+  {
+   "name": "icon-dependencies",
+   "type": "component",
+   "title": "Icon Dependencies",
+   "description": "Shared icon set used by the footer and profile components.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/icon-dependencies.json"
+  },
+  {
+   "name": "image-preview",
+   "type": "component",
+   "title": "Image Preview",
+   "description": "component for the Image Preview",
+   "component": "image",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/image-preview.json"
+  },
+  {
+   "name": "image-preview-dependencies",
+   "type": "component",
+   "title": "Image Preview Dependencies",
+   "description": "component for the Image Preview Dependencies",
+   "component": "image",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "@radix-ui/react-dialog"
+   ],
+   "url": "https://ui.spectrumhq.in/r/image-preview-dependencies.json"
+  },
+  {
+   "name": "inbox-empty",
+   "type": "block",
+   "title": "Inbox Zero",
+   "description": "A cleared inbox where the last three cards sweep out and the stats land.",
+   "component": "empty-state",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/inbox-empty.json"
+  },
+  {
+   "name": "indicator-chart",
+   "type": "component",
+   "title": "Indicator Chart",
+   "description": "Price, RSI and MACD stacked on one time axis with a single crosshair that reports all three panes at once.",
+   "component": "chart",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/indicator-chart.json"
+  },
+  {
+   "name": "infinite-scroll-demo",
+   "type": "component",
+   "title": "Infinite Scroll Demo",
+   "description": "component for the Infinite Scroll Demo",
+   "component": "infinite-scroll",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/infinite-scroll-demo.json"
+  },
+  {
+   "name": "infinite-scroll-dependecies",
+   "type": "component",
+   "title": "Infinite Scroll Dependencies",
+   "description": "component for the Infinite Scroll Dependencies",
+   "component": "infinite-scroll",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/infinite-scroll-dependecies.json"
+  },
+  {
+   "name": "ink",
+   "type": "component",
+   "title": "Fluid Ink Morph",
+   "description": "component for the Fluid Ink Morph",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "framer-motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/ink.json"
+  },
+  {
+   "name": "inline-code",
+   "type": "component",
+   "title": "Inline Code",
+   "description": "component for the Inline Code",
+   "component": "code-block",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/inline-code.json"
+  },
+  {
+   "name": "inline-edit",
+   "type": "block",
+   "title": "Inline Edit",
+   "description": "A selection-anchored AI edit: suggestion toolbar, word diff, accept or reject.",
+   "component": "inline-edit",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/inline-edit.json"
+  },
+  {
+   "name": "input-model",
+   "type": "component",
+   "title": "Input Model",
+   "description": "component for the Input Model Demo",
+   "component": "text-input",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/input-model.json"
+  },
+  {
+   "name": "insight-cards",
+   "type": "block",
+   "title": "Insight Cards",
+   "description": "Metric cards with spark bars, trend deltas, and an AI note.",
+   "component": "card",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/insight-cards.json"
+  },
+  {
+   "name": "integration-empty",
+   "type": "block",
+   "title": "Connect a Source",
+   "description": "A connector grid where tiles run a real connect sequence and settle into connected.",
+   "component": "empty-state",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/integration-empty.json"
+  },
+  {
+   "name": "inventory-table",
+   "type": "block",
+   "title": "Inventory Table",
+   "description": "Stock management with SKU tiles, capacity meters that change color at thresholds and status labels.",
+   "component": "table",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/inventory-table.json"
+  },
+  {
+   "name": "invite-empty",
+   "type": "block",
+   "title": "Invite Teammates",
+   "description": "A one-seat team with an avatar rail, live invite field and copyable join link.",
+   "component": "empty-state",
+   "surface": "invite",
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/invite-empty.json"
+  },
+  {
+   "name": "invoices-table",
+   "type": "block",
+   "title": "Invoices Table",
+   "description": "Billing history with mono invoice numbers, status pills and a per-row PDF download.",
+   "component": "invoice",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/invoices-table.json"
+  },
+  {
+   "name": "kanbanboard",
+   "type": "component",
+   "title": "Kanban Board",
+   "description": "component for the Kanban Board",
+   "component": "kanban-board",
+   "surface": "kanban-board",
+   "dependencies": [
+    "lucide-react",
+    "next-themes",
+    "framer-motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/kanbanboard.json"
+  },
+  {
+   "name": "kbd-key",
+   "type": "component",
+   "title": "Kbd Key",
+   "description": "A 3D keycap that physically depresses when the real key is pressed, with combo shortcuts that pulse and fire when every key is held at once",
+   "component": "kbd",
+   "surface": null,
+   "dependencies": [
+    "framer-motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/kbd-key.json"
+  },
+  {
+   "name": "kbd-key-demo",
+   "type": "component",
+   "title": "Kbd Key Demo",
+   "description": "Demo usage for the Kbd Key component",
+   "component": "kbd",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/kbd-key-demo.json"
+  },
+  {
+   "name": "leaderboard-table",
+   "type": "block",
+   "title": "Leaderboard Table",
+   "description": "Rankings with medal chips for the top three, player avatars, streaks and weekly movement.",
+   "component": "table",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/leaderboard-table.json"
+  },
+  {
+   "name": "like-button",
+   "type": "component",
+   "title": "Like Button",
+   "description": "A heart like button micro-interaction with a spring pop, ring pulse, radial particle burst, and a rolling odometer count",
+   "component": "button",
+   "surface": null,
+   "dependencies": [
+    "framer-motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/like-button.json"
+  },
+  {
+   "name": "like-button-demo",
+   "type": "component",
+   "title": "Like Button Demo",
+   "description": "Demo usage for the Like Button component",
+   "component": "button",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/like-button-demo.json"
+  },
+  {
+   "name": "line-chart",
+   "type": "component",
+   "title": "Line Chart",
+   "description": "Multi-series lines with solid, dashed, bump, step, gradient, and glow strokes.",
+   "component": "line-chart",
+   "surface": null,
+   "dependencies": [
+    "recharts",
+    "framer-motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/line-chart.json"
+  },
+  {
+   "name": "link-search-footer",
+   "type": "block",
+   "title": "Link Search Footer",
+   "description": "Type-to-filter across every footer link, with arrow-key navigation.",
+   "component": "link",
+   "surface": "search-mobile",
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/link-search-footer.json"
+  },
+  {
+   "name": "loading-button-as-child",
+   "type": "component",
+   "title": "Loading Button As Child",
+   "description": "component for the Loading Button As Child",
+   "component": "spinner",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/loading-button-as-child.json"
+  },
+  {
+   "name": "loading-button-demo",
+   "type": "component",
+   "title": "Loading Button Demo",
+   "description": "component for the Loading Button Demo",
+   "component": "spinner",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/loading-button-demo.json"
+  },
+  {
+   "name": "loading-button-dependencies",
+   "type": "component",
+   "title": "Loading Button Dependencies",
+   "description": "component for the Loading Button Dependencies",
+   "component": "spinner",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-slot",
+    "class-variance-authority",
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/loading-button-dependencies.json"
+  },
+  {
+   "name": "loading-button-usage",
+   "type": "component",
+   "title": "Loading Button Usage",
+   "description": "component for the Loading Button Usage",
+   "component": "spinner",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/loading-button-usage.json"
+  },
+  {
+   "name": "loading-state",
+   "type": "block",
+   "title": "Loading State",
+   "description": "A pixel-grid loader with a shimmering label and live elapsed timer.",
+   "component": "spinner",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/loading-state.json"
+  },
+  {
+   "name": "locked-empty",
+   "type": "block",
+   "title": "Locked Feature",
+   "description": "A paywall over a blurred preview of the feature it is selling.",
+   "component": "empty-state",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/locked-empty.json"
+  },
+  {
+   "name": "login-card",
+   "type": "component",
+   "title": "Login Card",
+   "description": "component for the Login Card",
+   "component": "card",
+   "surface": "login-mobile",
+   "dependencies": [
+    "lucide-react",
+    "next-themes",
+    "framer-motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/login-card.json"
+  },
+  {
+   "name": "maintenance-empty",
+   "type": "block",
+   "title": "Scheduled Maintenance",
+   "description": "A maintenance window with a ticking ETA, a stage rail and a notify-me field.",
+   "component": "empty-state",
+   "surface": "maintenance",
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/maintenance-empty.json"
+  },
+  {
+   "name": "market-chart",
+   "type": "component",
+   "title": "Market Chart",
+   "description": "A trading-desk chart in pure SVG: OHLC candles, a volume pane, a snapping crosshair with axis-pinned price and time, a range selector that morphs the series, and a live tape.",
+   "component": "chart",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/market-chart.json"
+  },
+  {
+   "name": "market-heatmap",
+   "type": "component",
+   "title": "Market Heatmap",
+   "description": "A squarified treemap sized by market cap and coloured on a diverging change ramp — the market map.",
+   "component": "heatmap",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/market-heatmap.json"
+  },
+  {
+   "name": "market-table",
+   "type": "block",
+   "title": "Market Watchlist Table",
+   "description": "A price watchlist with ticker tiles, signed 24h changes and seven-day inline sparklines.",
+   "component": "table",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/market-table.json"
+  },
+  {
+   "name": "mega-sitemap-footer",
+   "type": "block",
+   "title": "Mega Sitemap Footer",
+   "description": "A five-column sitemap with region and language selectors and mobile accordions.",
+   "component": "footer",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/mega-sitemap-footer.json"
+  },
+  {
+   "name": "memory-chips",
+   "type": "block",
+   "title": "Memory Chips",
+   "description": "What the assistant remembers, as removable chips.",
+   "component": "chip",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/memory-chips.json"
+  },
+  {
+   "name": "message-actions",
+   "type": "block",
+   "title": "Message Actions",
+   "description": "Per-message controls — copy, regenerate, and thumb feedback.",
+   "component": "message-actions",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/message-actions.json"
+  },
+  {
+   "name": "metal-button",
+   "type": "component",
+   "title": "Metal Button",
+   "description": "A pill button framed by a real-time WebGL liquid-metal ring, in chromatic, silver and gold presets.",
+   "component": "button",
+   "surface": null,
+   "dependencies": [
+    "metal-fx"
+   ],
+   "url": "https://ui.spectrumhq.in/r/metal-button.json"
+  },
+  {
+   "name": "metal-button-demo",
+   "type": "component",
+   "title": "Metal Button Demo",
+   "description": "Demo usage for the Metal Button component",
+   "component": "button",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/metal-button-demo.json"
+  },
+  {
+   "name": "metal-prompt-bar",
+   "type": "component",
+   "title": "Metal Prompt Bar",
+   "description": "An AI prompt bar with a live liquid-metal send button that reflects onto the chips beside it.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "metal-fx",
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/metal-prompt-bar.json"
+  },
+  {
+   "name": "metal-prompt-bar-demo",
+   "type": "component",
+   "title": "Metal Prompt Bar Demo",
+   "description": "Demo usage for the Metal Prompt Bar component",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/metal-prompt-bar-demo.json"
+  },
+  {
+   "name": "minimal-footer",
+   "type": "block",
+   "title": "Minimal Footer",
+   "description": "A single-line footer with hover-expanding link clusters, status and socials.",
+   "component": "footer",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/minimal-footer.json"
+  },
+  {
+   "name": "model-selector",
+   "type": "block",
+   "title": "Model Selector",
+   "description": "A model picker as a radio list or segmented control, with badges and disabled states.",
+   "component": "model-selector",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/model-selector.json"
+  },
+  {
+   "name": "morph-button",
+   "type": "component",
+   "title": "Morph Button",
+   "description": "A multi-state async action button that morphs between idle, loading, success and error with an arc spinner, drawn-in check, tight error shake and auto-reset",
+   "component": "button",
+   "surface": null,
+   "dependencies": [
+    "framer-motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/morph-button.json"
+  },
+  {
+   "name": "morph-button-demo",
+   "type": "component",
+   "title": "Morph Button Demo",
+   "description": "Demo usage for the Morph Button component",
+   "component": "button",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/morph-button-demo.json"
+  },
+  {
+   "name": "multiple-selector-commandprops",
+   "type": "component",
+   "title": "Multiple Selector Command Props",
+   "description": "component for the Multiple Selector Command Props",
+   "component": "command-palette",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/multiple-selector-commandprops.json"
+  },
+  {
+   "name": "multiple-selector-controlled",
+   "type": "component",
+   "title": "Multiple Selector Controlled",
+   "description": "component for the Multiple Selector Controlled",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/multiple-selector-controlled.json"
+  },
+  {
+   "name": "multiple-selector-creatable",
+   "type": "component",
+   "title": "Multiple Selector Creatable",
+   "description": "component for the Multiple Selector Creatable",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/multiple-selector-creatable.json"
+  },
+  {
+   "name": "multiple-selector-demo",
+   "type": "component",
+   "title": "Multiple Selector Demo",
+   "description": "component for the Multiple Selector Demo",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/multiple-selector-demo.json"
+  },
+  {
+   "name": "multiple-selector-dependencies",
+   "type": "component",
+   "title": "Multiple Selector Dependencies",
+   "description": "component for the Multiple Selector Dependencies",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "cmdk",
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/multiple-selector-dependencies.json"
+  },
+  {
+   "name": "multiple-selector-disabled",
+   "type": "component",
+   "title": "Multiple Selector Disabled",
+   "description": "component for the Multiple Selector Disabled",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/multiple-selector-disabled.json"
+  },
+  {
+   "name": "multiple-selector-fixed-option",
+   "type": "component",
+   "title": "Multiple Selector Fixed Option",
+   "description": "component for the Multiple Selector Fixed Option",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/multiple-selector-fixed-option.json"
+  },
+  {
+   "name": "multiple-selector-hide-clear-all",
+   "type": "component",
+   "title": "Multiple Selector Hide Clear All",
+   "description": "component for the Multiple Selector Hide Clear All",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/multiple-selector-hide-clear-all.json"
+  },
+  {
+   "name": "multiple-selector-manually-controlled",
+   "type": "component",
+   "title": "Multiple Selector Manually Controlled",
+   "description": "component for the Multiple Selector Manually Controlled",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/multiple-selector-manually-controlled.json"
+  },
+  {
+   "name": "multiple-selector-max-selected",
+   "type": "component",
+   "title": "Multiple Selector Max Selected",
+   "description": "component for the Multiple Selector Max Selected",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/multiple-selector-max-selected.json"
+  },
+  {
+   "name": "multiple-selector-max-text-length",
+   "type": "component",
+   "title": "Multiple Selector Max Text Length",
+   "description": "component for the Multiple Selector Max Text Length",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/multiple-selector-max-text-length.json"
+  },
+  {
+   "name": "multiple-selector-no-default-select",
+   "type": "component",
+   "title": "Multiple Selector No Default Select",
+   "description": "component for the Multiple Selector No Default Select",
+   "component": "select",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/multiple-selector-no-default-select.json"
+  },
+  {
+   "name": "multiple-selector-no-placeholder-when-selected",
+   "type": "component",
+   "title": "Multiple Selector No Placeholder When Selected",
+   "description": "component for the Multiple Selector No Placeholder When Selected",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/multiple-selector-no-placeholder-when-selected.json"
+  },
+  {
+   "name": "multiple-selector-ref",
+   "type": "component",
+   "title": "Multiple Selector Ref",
+   "description": "component for the Multiple Selector Ref",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/multiple-selector-ref.json"
+  },
+  {
+   "name": "multiple-selector-with-async-search",
+   "type": "component",
+   "title": "Multiple Selector With Async Search",
+   "description": "component for the Multiple Selector With Async Search",
+   "component": "search-input",
+   "surface": "search-mobile",
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/multiple-selector-with-async-search.json"
+  },
+  {
+   "name": "multiple-selector-with-async-search-and-creatable",
+   "type": "component",
+   "title": "Multiple Selector With Async Search And Creatable",
+   "description": "component for the Multiple Selector With Async Search And Creatable",
+   "component": "search-input",
+   "surface": "search-mobile",
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/multiple-selector-with-async-search-and-creatable.json"
+  },
+  {
+   "name": "multiple-selector-with-async-search-and-creatable-and-group",
+   "type": "component",
+   "title": "Multiple Selector With Async Search And Creatable And Group",
+   "description": "component for the Multiple Selector With Async Search And Creatable And Group",
+   "component": "search-input",
+   "surface": "search-mobile",
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/multiple-selector-with-async-search-and-creatable-and-group.json"
+  },
+  {
+   "name": "multiple-selector-with-async-search-and-onfocus",
+   "type": "component",
+   "title": "Multiple Selector With Async Search And OnFocus",
+   "description": "component for the Multiple Selector With Async Search And OnFocus",
+   "component": "search-input",
+   "surface": "search-mobile",
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/multiple-selector-with-async-search-and-onfocus.json"
+  },
+  {
+   "name": "multiple-selector-with-disable-options",
+   "type": "component",
+   "title": "Multiple Selector With Disable Options",
+   "description": "component for the Multiple Selector With Disable Options",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/multiple-selector-with-disable-options.json"
+  },
+  {
+   "name": "multiple-selector-with-form",
+   "type": "component",
+   "title": "Multiple Selector With Form",
+   "description": "component for the Multiple Selector With Form",
+   "component": "form",
+   "surface": null,
+   "dependencies": [
+    "react-hook-form",
+    "zod",
+    "@hookform/resolvers"
+   ],
+   "url": "https://ui.spectrumhq.in/r/multiple-selector-with-form.json"
+  },
+  {
+   "name": "multiple-selector-with-group",
+   "type": "component",
+   "title": "Multiple Selector With Group",
+   "description": "component for the Multiple Selector With Group",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/multiple-selector-with-group.json"
+  },
+  {
+   "name": "multiple-selector-with-sync-search",
+   "type": "component",
+   "title": "Multiple Selector With Sync Search And Creatable And Group",
+   "description": "component for the Multiple Selector With Sync Search And Creatable And Group",
+   "component": "search-input",
+   "surface": "search-mobile",
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/multiple-selector-with-sync-search.json"
+  },
+  {
+   "name": "multiple-step-form-demo",
+   "type": "component",
+   "title": "Multiple Step Form Demo",
+   "description": "component for the Multiple Step Form Demo",
+   "component": "task",
+   "surface": null,
+   "dependencies": [
+    "framer-motion",
+    "lucide-react",
+    "sonner"
+   ],
+   "url": "https://ui.spectrumhq.in/r/multiple-step-form-demo.json"
+  },
+  {
+   "name": "nav-list-card",
+   "type": "component",
+   "title": "Nav List Card",
+   "description": "A compact navigation card that lists links with icons, with a spring slide on hover.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/nav-list-card.json"
+  },
+  {
+   "name": "nav-list-card-demo",
+   "type": "component",
+   "title": "Nav List Card Demo",
+   "description": "Demo usage for the Nav List Card component",
+   "component": "navigation-menu",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/nav-list-card-demo.json"
+  },
+  {
+   "name": "navbar-demo",
+   "type": "component",
+   "title": "Navbar Demo",
+   "description": "component for the Navbar Demo",
+   "component": "navbar",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/navbar-demo.json"
+  },
+  {
+   "name": "neural-grid-footer",
+   "type": "block",
+   "title": "Neural Grid Footer",
+   "description": "An SVG node lattice that lights up under the pointer.",
+   "component": "data-grid",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/neural-grid-footer.json"
+  },
+  {
+   "name": "newsletter-footer",
+   "type": "block",
+   "title": "Newsletter Footer",
+   "description": "A newsletter panel with a value checklist, reader stack and inline validation.",
+   "component": "footer",
+   "surface": null,
+   "dependencies": [
+    "@hookform/resolvers",
+    "react-hook-form",
+    "zod"
+   ],
+   "url": "https://ui.spectrumhq.in/r/newsletter-footer.json"
+  },
+  {
+   "name": "not-found-empty",
+   "type": "block",
+   "title": "Page Not Found",
+   "description": "A 404 that prints the path it tried and filters real destinations as you type.",
+   "component": "error-page",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/not-found-empty.json"
+  },
+  {
+   "name": "notification-bell",
+   "type": "component",
+   "title": "Notification Bell",
+   "description": "A bell icon button with a ring-shake swing, springy unread badge with rolling odometer count, and a pinging dot mode",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "framer-motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/notification-bell.json"
+  },
+  {
+   "name": "notification-bell-demo",
+   "type": "component",
+   "title": "Notification Bell Demo",
+   "description": "Demo usage for the Notification Bell component",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/notification-bell-demo.json"
+  },
+  {
+   "name": "notification-empty",
+   "type": "block",
+   "title": "No Notifications",
+   "description": "An empty notification tray with working channel switches and a quiet-hours state.",
+   "component": "empty-state",
+   "surface": "notifications",
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/notification-empty.json"
+  },
+  {
+   "name": "number-ticker",
+   "type": "component",
+   "title": "Number Ticker",
+   "description": "A rolling digit ticker that counts to a value with per-digit stagger, padding and blur.",
+   "component": "count-up",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://ui.spectrumhq.in/r/number-ticker.json"
+  },
+  {
+   "name": "number-ticker-demo",
+   "type": "component",
+   "title": "Number Ticker Demo",
+   "description": "Demo usage for the Number Ticker component",
+   "component": "count-up",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/number-ticker-demo.json"
+  },
+  {
+   "name": "offline-empty",
+   "type": "block",
+   "title": "Offline",
+   "description": "An offline panel that counts down, retries itself and recovers on screen.",
+   "component": "empty-state",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/offline-empty.json"
+  },
+  {
+   "name": "offset-tiers",
+   "type": "block",
+   "title": "Offset Tiers",
+   "description": "Staggered serif panels on a dot grid, with one entry price and expert CTAs.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/offset-tiers.json"
+  },
+  {
+   "name": "orbital-letters",
+   "type": "component",
+   "title": "Orbital Letters",
+   "description": "component for the Orbital Letters",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "framer-motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/orbital-letters.json"
+  },
+  {
+   "name": "order-book",
+   "type": "component",
+   "title": "Order Book",
+   "description": "A trading ladder with cumulative depth bars, a spread row, and flashing updates in live mode.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/order-book.json"
+  },
+  {
+   "name": "orders-table",
+   "type": "block",
+   "title": "Orders Table",
+   "description": "E-commerce orders with fulfillment pills, customer avatars and an expandable line-item panel.",
+   "component": "table",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/orders-table.json"
+  },
+  {
+   "name": "password-strength",
+   "type": "component",
+   "title": "Password Strength",
+   "description": "A password input with an animated four-segment strength meter, crossfading strength label, requirements checklist with drawing check marks, and a visibility toggle",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "framer-motion",
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/password-strength.json"
+  },
+  {
+   "name": "password-strength-demo",
+   "type": "component",
+   "title": "Password Strength Demo",
+   "description": "Demo usage for the Password Strength component",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/password-strength-demo.json"
+  },
+  {
+   "name": "payments-table",
+   "type": "block",
+   "title": "Payments Table",
+   "description": "Transactions with people avatars, status pills, filters, row selection and a bulk export bar.",
+   "component": "table",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/payments-table.json"
+  },
+  {
+   "name": "pie-chart",
+   "type": "component",
+   "title": "Pie Chart",
+   "description": "Pie and donut charts with padded sectors, labels, and optional sector glow.",
+   "component": "pie-chart",
+   "surface": null,
+   "dependencies": [
+    "recharts",
+    "framer-motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/pie-chart.json"
+  },
+  {
+   "name": "policy-footer",
+   "type": "block",
+   "title": "Policy Footer",
+   "description": "Cookie-category switches with a save state, over a layered legal row.",
+   "component": "footer",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/policy-footer.json"
+  },
+  {
+   "name": "portfolio-chart",
+   "type": "component",
+   "title": "Portfolio Chart",
+   "description": "Account value against cost basis with drawdown from the running peak shaded underneath.",
+   "component": "chart",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/portfolio-chart.json"
+  },
+  {
+   "name": "price-chart",
+   "type": "component",
+   "title": "Price Chart",
+   "description": "Ticker chrome with last price and signed delta. Use it for tokens, equities, or protocol TVL.",
+   "component": "price",
+   "surface": null,
+   "dependencies": [
+    "recharts",
+    "framer-motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/price-chart.json"
+  },
+  {
+   "name": "product-card",
+   "type": "component",
+   "title": "Product Card",
+   "description": "component for the Product Card",
+   "component": "product-card",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "next-themes"
+   ],
+   "url": "https://ui.spectrumhq.in/r/product-card.json"
+  },
+  {
+   "name": "profile-dropdown",
+   "type": "component",
+   "title": "Profile Dropdown",
+   "description": "component for the Profile Dropdown",
+   "component": "account-menu",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "next-themes",
+    "framer-motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/profile-dropdown.json"
+  },
+  {
+   "name": "progress-with-value",
+   "type": "component",
+   "title": "Progress With Value",
+   "description": "component for the Progress With Value",
+   "component": "progress-bar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/progress-with-value.json"
+  },
+  {
+   "name": "progress-with-value-dependencies",
+   "type": "component",
+   "title": "Progress With Value Dependencies",
+   "description": "component for the Progress With Value Dependencies",
+   "component": "progress-bar",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-progress"
+   ],
+   "url": "https://ui.spectrumhq.in/r/progress-with-value-dependencies.json"
+  },
+  {
+   "name": "project-empty",
+   "type": "block",
+   "title": "First Project",
+   "description": "First-run project screen with selectable templates and a setup checklist.",
+   "component": "empty-state",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/project-empty.json"
+  },
+  {
+   "name": "prompt-composer",
+   "type": "block",
+   "title": "Prompt Composer",
+   "description": "A prompt input with attachments, a model picker, and a stop state.",
+   "component": "prompt-input",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/prompt-composer.json"
+  },
+  {
+   "name": "quantity-stepper",
+   "type": "component",
+   "title": "Quantity Stepper",
+   "description": "An animated quantity input for carts and forms with rolling digits, hold-to-repeat acceleration, and a boundary shake",
+   "component": "quantity-stepper",
+   "surface": null,
+   "dependencies": [
+    "framer-motion",
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/quantity-stepper.json"
+  },
+  {
+   "name": "quantity-stepper-demo",
+   "type": "component",
+   "title": "Quantity Stepper Demo",
+   "description": "Demo usage for the Quantity Stepper component",
+   "component": "quantity-stepper",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/quantity-stepper-demo.json"
+  },
+  {
+   "name": "quota-banner",
+   "type": "block",
+   "title": "Quota Banner",
+   "description": "A message-quota banner with a live reset countdown.",
+   "component": "banner",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/quota-banner.json"
+  },
+  {
+   "name": "quota-empty",
+   "type": "block",
+   "title": "Limit Reached",
+   "description": "A quota wall with a full meter, seven days of history and a reset clock.",
+   "component": "empty-state",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/quota-empty.json"
+  },
+  {
+   "name": "radar-chart",
+   "type": "component",
+   "title": "Radar Chart",
+   "description": "Radar plots with filled or outline series, circle grids, and glow.",
+   "component": "radar-chart",
+   "surface": null,
+   "dependencies": [
+    "recharts",
+    "framer-motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/radar-chart.json"
+  },
+  {
+   "name": "radial-chart",
+   "type": "component",
+   "title": "Radial Chart",
+   "description": "Full and semi-circle radial bars for share and progress.",
+   "component": "chart",
+   "surface": null,
+   "dependencies": [
+    "recharts",
+    "framer-motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/radial-chart.json"
+  },
+  {
+   "name": "reaction-bar",
+   "type": "component",
+   "title": "Reaction Bar",
+   "description": "A Slack-style emoji reaction row with popping chips, direction-aware rolling counts, and a staggered emoji-picker popover",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "framer-motion",
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/reaction-bar.json"
+  },
+  {
+   "name": "reaction-bar-demo",
+   "type": "component",
+   "title": "Reaction Bar Demo",
+   "description": "Demo usage for the Reaction Bar component",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/reaction-bar-demo.json"
+  },
+  {
+   "name": "reasoning-trace",
+   "type": "block",
+   "title": "Reasoning Trace",
+   "description": "An expandable chain-of-thought trace with a live thinking timer.",
+   "component": "reasoning",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/reasoning-trace.json"
+  },
+  {
+   "name": "receipt-tiers",
+   "type": "block",
+   "title": "Receipt Tiers",
+   "description": "Plans printed as thermal receipts with torn edges, dotted leaders, and a rubber stamp.",
+   "component": "invoice",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/receipt-tiers.json"
+  },
+  {
+   "name": "recent-activity",
+   "type": "component",
+   "title": "Recent Activity",
+   "description": "An activity feed card that lists agent runs with duration and recency chips.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/recent-activity.json"
+  },
+  {
+   "name": "recent-activity-demo",
+   "type": "component",
+   "title": "Recent Activity Demo",
+   "description": "Demo usage for the Recent Activity component",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/recent-activity-demo.json"
+  },
+  {
+   "name": "region-picker-footer",
+   "type": "block",
+   "title": "Region Picker Footer",
+   "description": "A region popover with locale, currency, data residency and live local time.",
+   "component": "locale-selector",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/region-picker-footer.json"
+  },
+  {
+   "name": "release-feed-footer",
+   "type": "block",
+   "title": "Release Feed Footer",
+   "description": "A changelog list with version, kind and date on hairline rows.",
+   "component": "feed",
+   "surface": "feed",
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/release-feed-footer.json"
+  },
+  {
+   "name": "responsive-modal",
+   "type": "component",
+   "title": "Responsive Modal",
+   "description": "component for the Responsive Modal",
+   "component": "modal",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/responsive-modal.json"
+  },
+  {
+   "name": "responsive-modal-dependencies",
+   "type": "component",
+   "title": "Responsive Modal Dependencies",
+   "description": "component for the Responsive Modal Dependencies",
+   "component": "modal",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-dialog",
+    "class-variance-authority",
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/responsive-modal-dependencies.json"
+  },
+  {
+   "name": "responsive-modal-side",
+   "type": "component",
+   "title": "Responsive Modal Side",
+   "description": "component for the Responsive Modal Side",
+   "component": "modal",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/responsive-modal-side.json"
+  },
+  {
+   "name": "sales-cta-footer",
+   "type": "block",
+   "title": "Sales CTA Footer",
+   "description": "A seat slider that prices a tier live, beside the link grid.",
+   "component": "button",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/sales-cta-footer.json"
+  },
+  {
+   "name": "saved-empty",
+   "type": "block",
+   "title": "Nothing Saved",
+   "description": "An empty saved list that teaches the gesture on three real rows.",
+   "component": "empty-state",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/saved-empty.json"
+  },
+  {
+   "name": "schedule-empty",
+   "type": "block",
+   "title": "Nothing Scheduled",
+   "description": "A day rail with a now marker where any hour opens an inline composer.",
+   "component": "empty-state",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/schedule-empty.json"
+  },
+  {
+   "name": "scratch-card",
+   "type": "component",
+   "title": "Scratch Card",
+   "description": "A scratch-to-reveal coupon card with an HTML5 canvas foil, dust particles on scratch, and a reveal callback at a configurable threshold",
+   "component": "card",
+   "surface": null,
+   "dependencies": [
+    "framer-motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/scratch-card.json"
+  },
+  {
+   "name": "scratch-card-demo",
+   "type": "component",
+   "title": "Scratch Card Demo",
+   "description": "Demo usage for the Scratch Card component",
+   "component": "card",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/scratch-card-demo.json"
+  },
+  {
+   "name": "search-empty",
+   "type": "block",
+   "title": "No Search Results",
+   "description": "A no-results state that echoes the query and resolves when a suggestion is taken.",
+   "component": "search-input",
+   "surface": "search-mobile",
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/search-empty.json"
+  },
+  {
+   "name": "serif-tiers",
+   "type": "block",
+   "title": "Serif Tiers",
+   "description": "Cream serif cards with a black featured card lit by a crimson glow.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/serif-tiers.json"
+  },
+  {
+   "name": "service-status-footer",
+   "type": "block",
+   "title": "Service Status Footer",
+   "description": "Thirty days of per-service uptime bars with a rolling incident ticker.",
+   "component": "footer",
+   "surface": "status",
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/service-status-footer.json"
+  },
+  {
+   "name": "share-button",
+   "type": "component",
+   "title": "Share Button",
+   "description": "A share trigger that fans out into copy-link and custom share actions with staggered springs, tooltips and full keyboard support",
+   "component": "share-sheet",
+   "surface": null,
+   "dependencies": [
+    "framer-motion",
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/share-button.json"
+  },
+  {
+   "name": "share-button-demo",
+   "type": "component",
+   "title": "Share Button Demo",
+   "description": "Demo usage for the Share Button component",
+   "component": "share-sheet",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/share-button-demo.json"
+  },
+  {
+   "name": "sidebar-navbar",
+   "type": "component",
+   "title": "Sidebar Navbar",
+   "description": "component for the Sidebar Navbar",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/sidebar-navbar.json"
+  },
+  {
+   "name": "skeleton",
+   "type": "component",
+   "title": "Skeleton",
+   "description": "component for the Skeleton",
+   "component": "skeleton",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/skeleton.json"
+  },
+  {
+   "name": "skeleton-card",
+   "type": "component",
+   "title": "Skeleton Card",
+   "description": "component for the Skeleton Card",
+   "component": "skeleton",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/skeleton-card.json"
+  },
+  {
+   "name": "skeleton-reveal",
+   "type": "component",
+   "title": "Skeleton Reveal",
+   "description": "A skeleton that pulses while loading, then cross-fades and un-blurs into the real content.",
+   "component": "skeleton",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/skeleton-reveal.json"
+  },
+  {
+   "name": "skeleton-reveal-demo",
+   "type": "component",
+   "title": "Skeleton Reveal Demo",
+   "description": "Demo usage for the Skeleton Reveal component",
+   "component": "skeleton",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/skeleton-reveal-demo.json"
+  },
+  {
+   "name": "social-proof-footer",
+   "type": "block",
+   "title": "Logo Wall Footer",
+   "description": "A customer logo wall — marquee or plotted grid — over stats and link columns.",
+   "component": "footer",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/social-proof-footer.json"
+  },
+  {
+   "name": "sparkline-chart",
+   "type": "component",
+   "title": "Sparkline",
+   "description": "Compact inline price marks for watchlists, token tables, and portfolio rows.",
+   "component": "sparkline",
+   "surface": null,
+   "dependencies": [
+    "recharts",
+    "framer-motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/sparkline-chart.json"
+  },
+  {
+   "name": "spinner-demo",
+   "type": "component",
+   "title": "Spinner Demo",
+   "description": "component for the Spinner Demo",
+   "component": "spinner",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/spinner-demo.json"
+  },
+  {
+   "name": "spinner-dependencies",
+   "type": "component",
+   "title": "Skeleton Card",
+   "description": "component for the Skeleton Card",
+   "component": "spinner",
+   "surface": null,
+   "dependencies": [
+    "class-variance-authority",
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/spinner-dependencies.json"
+  },
+  {
+   "name": "spinner-size",
+   "type": "component",
+   "title": "Spinner Size",
+   "description": "component for the Spinner Size",
+   "component": "spinner",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/spinner-size.json"
+  },
+  {
+   "name": "spinner-toggle",
+   "type": "component",
+   "title": "Spinner Toggle",
+   "description": "component for the Spinner Toggle",
+   "component": "spinner",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/spinner-toggle.json"
+  },
+  {
+   "name": "spinner-with-text",
+   "type": "component",
+   "title": "Spinner With Text",
+   "description": "component for the Spinner With Text",
+   "component": "spinner",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/spinner-with-text.json"
+  },
+  {
+   "name": "stackedcircular-footer",
+   "type": "component",
+   "title": "Stacked Circular Footer",
+   "description": "component for the Stacked Circular Footer",
+   "component": "footer",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/stackedcircular-footer.json"
+  },
+  {
+   "name": "star-rating",
+   "type": "component",
+   "title": "Star Rating",
+   "description": "An animated star rating input with hover-preview wave, pop and sparkle burst on commit, rolling value label, and fractional read-only display",
+   "component": "rating",
+   "surface": null,
+   "dependencies": [
+    "framer-motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/star-rating.json"
+  },
+  {
+   "name": "star-rating-demo",
+   "type": "component",
+   "title": "Star Rating Demo",
+   "description": "Demo usage for the Star Rating component",
+   "component": "rating",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/star-rating-demo.json"
+  },
+  {
+   "name": "stat-cards",
+   "type": "component",
+   "title": "Stat Cards",
+   "description": "KPI cards with a big value, the delta written as a sentence, and a scrubbable sparkline or progress bar beside it — the row every dashboard opens with.",
+   "component": "stat",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/stat-cards.json"
+  },
+  {
+   "name": "status-badge",
+   "type": "component",
+   "title": "Status Badge",
+   "description": "component for the Status Badge",
+   "component": "badge",
+   "surface": "status",
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/status-badge.json"
+  },
+  {
+   "name": "status-tracker",
+   "type": "block",
+   "title": "Status Tracker",
+   "description": "A staged progress tracker for long-running AI jobs.",
+   "component": null,
+   "surface": "status",
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/status-tracker.json"
+  },
+  {
+   "name": "streaming-text",
+   "type": "block",
+   "title": "Streaming Text",
+   "description": "A streamed answer with inline citations, sources, and follow-ups.",
+   "component": "streaming-text",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/streaming-text.json"
+  },
+  {
+   "name": "suggestion-banner",
+   "type": "block",
+   "title": "Suggestion Banner",
+   "description": "An inline AI suggestion with apply and dismiss.",
+   "component": "suggestion",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/suggestion-banner.json"
+  },
+  {
+   "name": "swipe-to-delete",
+   "type": "component",
+   "title": "Swipe to Delete",
+   "description": "An iOS-style swipeable list-item wrapper that reveals a delete action on drag, pops the icon at the commit threshold, and collapses the row before firing onDelete",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "framer-motion",
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/swipe-to-delete.json"
+  },
+  {
+   "name": "swipe-to-delete-demo",
+   "type": "component",
+   "title": "Swipe to Delete Demo",
+   "description": "Demo usage for the Swipe to Delete component",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/swipe-to-delete-demo.json"
+  },
+  {
+   "name": "tab-navbar",
+   "type": "component",
+   "title": "Tab Navbar",
+   "description": "component for the Tab Navbar",
+   "component": "tabs",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/tab-navbar.json"
+  },
+  {
+   "name": "table-empty",
+   "type": "block",
+   "title": "Empty Table",
+   "description": "A table that keeps its header and column widths, with rows that spring in.",
+   "component": "table",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/table-empty.json"
+  },
+  {
+   "name": "task-checkbox",
+   "type": "component",
+   "title": "Task Checkbox",
+   "description": "A satisfying todo checkbox row with spring fill, drawn-in check, confetti burst and animated strikethrough",
+   "component": "task",
+   "surface": null,
+   "dependencies": [
+    "framer-motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/task-checkbox.json"
+  },
+  {
+   "name": "task-checkbox-demo",
+   "type": "component",
+   "title": "Task Checkbox Demo",
+   "description": "Demo usage for the Task Checkbox component",
+   "component": "task",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/task-checkbox-demo.json"
+  },
+  {
+   "name": "task-rows",
+   "type": "block",
+   "title": "Task Rows",
+   "description": "Live agent task rows with status badges and expandable notes.",
+   "component": "task",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/task-rows.json"
+  },
+  {
+   "name": "team-members-table",
+   "type": "block",
+   "title": "Team Members Table",
+   "description": "Workspace member management with roles, two-factor status, last activity and a remove action.",
+   "component": "table",
+   "surface": "team",
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/team-members-table.json"
+  },
+  {
+   "name": "testimonials",
+   "type": "component",
+   "title": "Testimonials",
+   "description": "component for the Testimonials",
+   "component": "quote",
+   "surface": "testimonials",
+   "dependencies": [
+    "lucide-react",
+    "framer-motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/testimonials.json"
+  },
+  {
+   "name": "text-states",
+   "type": "component",
+   "title": "Text States",
+   "description": "A status label that swaps its text in place, exiting up with blur and entering from below.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/text-states.json"
+  },
+  {
+   "name": "text-states-demo",
+   "type": "component",
+   "title": "Text States Demo",
+   "description": "Demo usage for the Text States component",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/text-states-demo.json"
+  },
+  {
+   "name": "thinking-dots",
+   "type": "block",
+   "title": "Thinking Dots",
+   "description": "A minimal typing indicator — bouncing dots or a sliding bar.",
+   "component": "typing-indicator",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/thinking-dots.json"
+  },
+  {
+   "name": "tickets-table",
+   "type": "block",
+   "title": "Support Tickets Table",
+   "description": "A support queue with priority icons, SLA countdowns, assignee avatars and status pills.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/tickets-table.json"
+  },
+  {
+   "name": "tilt-card",
+   "type": "component",
+   "title": "3D Tilt Card",
+   "description": "A 3D perspective tilt card that rotates toward the pointer with spring smoothing, parallax translateZ depth layers, and a pointer-following glare highlight",
+   "component": "hover-effect",
+   "surface": null,
+   "dependencies": [
+    "framer-motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/tilt-card.json"
+  },
+  {
+   "name": "tilt-card-demo",
+   "type": "component",
+   "title": "3D Tilt Card Demo",
+   "description": "Demo usage for the 3D Tilt Card component",
+   "component": "hover-effect",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/tilt-card-demo.json"
+  },
+  {
+   "name": "toast-stack",
+   "type": "component",
+   "title": "Toast Stack",
+   "description": "Stacked toasts with status morphs, swipe to dismiss, actions and layout-aware motion.",
+   "component": "toast",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "clsx",
+    "tailwind-merge",
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/toast-stack.json"
+  },
+  {
+   "name": "toast-stack-demo",
+   "type": "component",
+   "title": "Toast Stack Demo",
+   "description": "Demo usage for the Toast Stack component",
+   "component": "toast",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/toast-stack-demo.json"
+  },
+  {
+   "name": "token-stream-footer",
+   "type": "block",
+   "title": "Token Stream Footer",
+   "description": "A one-line manifesto that types itself in, over a metric row.",
+   "component": "streaming-text",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/token-stream-footer.json"
+  },
+  {
+   "name": "tool-chips",
+   "type": "block",
+   "title": "Tool Chips",
+   "description": "Compact tool-call chips that expand into their arguments and result.",
+   "component": "tool-call",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/tool-chips.json"
+  },
+  {
+   "name": "top-pages-table",
+   "type": "block",
+   "title": "Top Pages Table",
+   "description": "An analytics table with mono paths, share-of-traffic bars and signed week-over-week deltas.",
+   "component": "table",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/top-pages-table.json"
+  },
+  {
+   "name": "transfer-funds-card",
+   "type": "component",
+   "title": "Transfer Funds Card",
+   "description": "A money transfer form card with account pickers, a summary and a confirm action.",
+   "component": "transfer",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/transfer-funds-card.json"
+  },
+  {
+   "name": "transfer-funds-card-demo",
+   "type": "component",
+   "title": "Transfer Funds Card Demo",
+   "description": "Demo usage for the Transfer Funds Card component",
+   "component": "transfer",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/transfer-funds-card-demo.json"
+  },
+  {
+   "name": "trash-empty",
+   "type": "block",
+   "title": "Trash Is Empty",
+   "description": "An empty trash that explains the retention window instead of celebrating.",
+   "component": "empty-state",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/trash-empty.json"
+  },
+  {
+   "name": "tree-nav",
+   "type": "component",
+   "title": "Tree Nav",
+   "description": "A nav list with a tree rail and a spring marker that follows hover and settles on the active link.",
+   "component": "tree-view",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/tree-nav.json"
+  },
+  {
+   "name": "tree-nav-demo",
+   "type": "component",
+   "title": "Tree Nav Demo",
+   "description": "Demo usage for the Tree Nav component",
+   "component": "tree-view",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/tree-nav-demo.json"
+  },
+  {
+   "name": "trust-center-footer",
+   "type": "block",
+   "title": "Trust Center Footer",
+   "description": "Compliance marks that expand to scope, over a logo row and link columns.",
+   "component": "center",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/trust-center-footer.json"
+  },
+  {
+   "name": "undo-pill",
+   "type": "component",
+   "title": "Undo Pill",
+   "description": "An inline undo pill with a draining countdown ring that pauses on hover and fires undo or expire callbacks",
+   "component": "chip",
+   "surface": null,
+   "dependencies": [
+    "framer-motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/undo-pill.json"
+  },
+  {
+   "name": "undo-pill-demo",
+   "type": "component",
+   "title": "Undo Pill Demo",
+   "description": "Demo usage for the Undo Pill component",
+   "component": "chip",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/undo-pill-demo.json"
+  },
+  {
+   "name": "upload-empty",
+   "type": "block",
+   "title": "Drop Files",
+   "description": "A drop zone with real drag handling and per-file upload meters.",
+   "component": "file-upload",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/upload-empty.json"
+  },
+  {
+   "name": "usage-meter",
+   "type": "block",
+   "title": "Usage Meter",
+   "description": "A context-window meter with token counts and estimated cost.",
+   "component": "usage-meter",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/usage-meter.json"
+  },
+  {
+   "name": "use-toast",
+   "type": "component",
+   "title": "Use Toast",
+   "description": "component for the Use Toast",
+   "component": "toast",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/use-toast.json"
+  },
+  {
+   "name": "value-position",
+   "type": "component",
+   "title": "Progress With Value Position",
+   "description": "component for the Progress With Value Position",
+   "component": "progress-bar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/value-position.json"
+  },
+  {
+   "name": "voice-input",
+   "type": "block",
+   "title": "Voice Input",
+   "description": "A voice recorder pill with animated level bars and a live timer.",
+   "component": "speech-input",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/voice-input.json"
+  },
+  {
+   "name": "waitlist-footer",
+   "type": "block",
+   "title": "Waitlist Footer",
+   "description": "Waitlist capture with an avatar stack and a live position counter.",
+   "component": "footer",
+   "surface": "waitlist",
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/waitlist-footer.json"
+  },
+  {
+   "name": "web-search",
+   "type": "block",
+   "title": "Web Search",
+   "description": "Agent search results with a live reading indicator.",
+   "component": "search-input",
+   "surface": "search-mobile",
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://ui.spectrumhq.in/r/web-search.json"
+  },
+  {
+   "name": "webhook-empty",
+   "type": "block",
+   "title": "Waiting for Events",
+   "description": "A live endpoint waiting for its first delivery, with a test event that lands.",
+   "component": "empty-state",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://ui.spectrumhq.in/r/webhook-empty.json"
+  },
+  {
+   "name": "wordmark-spotlight-footer",
+   "type": "block",
+   "title": "Wordmark Spotlight Footer",
+   "description": "A full-bleed wordmark lit by a spotlight that follows the pointer.",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://ui.spectrumhq.in/r/wordmark-spotlight-footer.json"
+  }
+ ]
+}

@@ -1,0 +1,836 @@
+{
+ "resource_id": "d7fc3650-7cce-4186-a42f-869ab4a8771f",
+ "registry_url": "https://supabase.com/ui/r/registry.json",
+ "install_verified": true,
+ "checked": "2026-10-23",
+ "items": [
+  {
+   "name": "current-user-avatar-nextjs",
+   "type": "component",
+   "title": "Current User Avatar",
+   "description": "Component which renders the current user's avatar.",
+   "component": "avatar",
+   "surface": null,
+   "dependencies": [
+    "@supabase/ssr@latest",
+    "@supabase/supabase-js@latest"
+   ],
+   "url": "https://supabase.com/ui/r/current-user-avatar-nextjs.json"
+  },
+  {
+   "name": "current-user-avatar-nuxtjs",
+   "type": "block",
+   "title": "Current User Avatar",
+   "description": "Component which renders the current user's avatar.",
+   "component": "avatar",
+   "surface": null,
+   "dependencies": [
+    "@supabase/supabase-js@latest"
+   ],
+   "url": "https://supabase.com/ui/r/current-user-avatar-nuxtjs.json"
+  },
+  {
+   "name": "current-user-avatar-react",
+   "type": "component",
+   "title": "Current User Avatar",
+   "description": "Component which renders the current user's avatar.",
+   "component": "avatar",
+   "surface": null,
+   "dependencies": [
+    "@supabase/supabase-js@latest"
+   ],
+   "url": "https://supabase.com/ui/r/current-user-avatar-react.json"
+  },
+  {
+   "name": "current-user-avatar-react-router",
+   "type": "component",
+   "title": "Current User Avatar",
+   "description": "Component which renders the current user's avatar.",
+   "component": "avatar",
+   "surface": null,
+   "dependencies": [
+    "@supabase/ssr@latest",
+    "@supabase/supabase-js@latest"
+   ],
+   "url": "https://supabase.com/ui/r/current-user-avatar-react-router.json"
+  },
+  {
+   "name": "current-user-avatar-tanstack",
+   "type": "component",
+   "title": "Current User Avatar",
+   "description": "Component which renders the current user's avatar.",
+   "component": "avatar",
+   "surface": null,
+   "dependencies": [
+    "@supabase/ssr@latest",
+    "@supabase/supabase-js@latest"
+   ],
+   "url": "https://supabase.com/ui/r/current-user-avatar-tanstack.json"
+  },
+  {
+   "name": "current-user-avatar-vue",
+   "type": "block",
+   "title": "Current User Avatar",
+   "description": "Component which renders the current user's avatar.",
+   "component": "avatar",
+   "surface": null,
+   "dependencies": [
+    "@supabase/supabase-js@latest"
+   ],
+   "url": "https://supabase.com/ui/r/current-user-avatar-vue.json"
+  },
+  {
+   "name": "dropzone-nextjs",
+   "type": "component",
+   "title": "Dropzone (File Upload)",
+   "description": "Displays a control for easier uploading of files directly to Supabase Storage.",
+   "component": "file-upload",
+   "surface": null,
+   "dependencies": [
+    "react-dropzone",
+    "lucide-react",
+    "@supabase/ssr@latest",
+    "@supabase/supabase-js@latest"
+   ],
+   "url": "https://supabase.com/ui/r/dropzone-nextjs.json"
+  },
+  {
+   "name": "dropzone-nuxtjs",
+   "type": "block",
+   "title": "Dropzone (File Upload) for Nuxt and Supabase",
+   "description": "Displays a control for easier uploading of files directly to Supabase Storage.",
+   "component": "file-upload",
+   "surface": null,
+   "dependencies": [
+    "@supabase/supabase-js@latest",
+    "@vueuse/core",
+    "lucide-vue-next"
+   ],
+   "url": "https://supabase.com/ui/r/dropzone-nuxtjs.json"
+  },
+  {
+   "name": "dropzone-react",
+   "type": "component",
+   "title": "Dropzone (File Upload)",
+   "description": "Displays a control for easier uploading of files directly to Supabase Storage.",
+   "component": "file-upload",
+   "surface": null,
+   "dependencies": [
+    "react-dropzone",
+    "lucide-react",
+    "@supabase/supabase-js@latest"
+   ],
+   "url": "https://supabase.com/ui/r/dropzone-react.json"
+  },
+  {
+   "name": "dropzone-react-router",
+   "type": "component",
+   "title": "Dropzone (File Upload)",
+   "description": "Displays a control for easier uploading of files directly to Supabase Storage.",
+   "component": "file-upload",
+   "surface": null,
+   "dependencies": [
+    "react-dropzone",
+    "lucide-react",
+    "@supabase/ssr@latest",
+    "@supabase/supabase-js@latest"
+   ],
+   "url": "https://supabase.com/ui/r/dropzone-react-router.json"
+  },
+  {
+   "name": "dropzone-tanstack",
+   "type": "component",
+   "title": "Dropzone (File Upload)",
+   "description": "Displays a control for easier uploading of files directly to Supabase Storage.",
+   "component": "file-upload",
+   "surface": null,
+   "dependencies": [
+    "react-dropzone",
+    "lucide-react",
+    "@supabase/ssr@latest",
+    "@supabase/supabase-js@latest"
+   ],
+   "url": "https://supabase.com/ui/r/dropzone-tanstack.json"
+  },
+  {
+   "name": "dropzone-vue",
+   "type": "block",
+   "title": "Dropzone (File Upload) for Vue and Supabase",
+   "description": "Displays a control for easier uploading of files directly to Supabase Storage.",
+   "component": "file-upload",
+   "surface": null,
+   "dependencies": [
+    "@supabase/supabase-js@latest",
+    "@vueuse/core",
+    "lucide-vue-next"
+   ],
+   "url": "https://supabase.com/ui/r/dropzone-vue.json"
+  },
+  {
+   "name": "headless-app-tanstack",
+   "type": "block",
+   "title": "Headless App for TanStack Start",
+   "description": "A backend with an agent as the primary interface, combining auth, OAuth consent, and an MCP server.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@supabase/ssr@latest",
+    "@supabase/supabase-js@latest"
+   ],
+   "url": "https://supabase.com/ui/r/headless-app-tanstack.json"
+  },
+  {
+   "name": "infinite-query-composable",
+   "type": "component",
+   "title": "Infinite Query for Vue and Supabase",
+   "description": "Vue Composable for infinite lists, fetching data from Supabase.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@supabase/supabase-js@latest",
+    "@supabase/postgrest-js@*"
+   ],
+   "url": "https://supabase.com/ui/r/infinite-query-composable.json"
+  },
+  {
+   "name": "infinite-query-hook",
+   "type": "block",
+   "title": "Infinite Query Hook",
+   "description": "React hook for infinite lists, fetching data from Supabase.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@supabase/supabase-js",
+    "@supabase/postgrest-js@*"
+   ],
+   "url": "https://supabase.com/ui/r/infinite-query-hook.json"
+  },
+  {
+   "name": "mcp",
+   "type": "item",
+   "title": "MCP Server",
+   "description": "Add a user-scoped MCP server to your product.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://supabase.com/ui/r/mcp.json"
+  },
+  {
+   "name": "oauth-consent-nextjs",
+   "type": "block",
+   "title": "OAuth Consent for Next.js",
+   "description": "OAuth 2.1 consent screen and route for an existing authenticated application.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@supabase/ssr@latest",
+    "@supabase/supabase-js@latest"
+   ],
+   "url": "https://supabase.com/ui/r/oauth-consent-nextjs.json"
+  },
+  {
+   "name": "oauth-consent-react",
+   "type": "block",
+   "title": "OAuth Consent for React",
+   "description": "OAuth 2.1 consent component for an existing authenticated application.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@supabase/supabase-js@latest"
+   ],
+   "url": "https://supabase.com/ui/r/oauth-consent-react.json"
+  },
+  {
+   "name": "oauth-consent-react-router",
+   "type": "block",
+   "title": "OAuth Consent for React Router",
+   "description": "OAuth 2.1 consent screen and route for an existing authenticated application.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@supabase/ssr@latest",
+    "@supabase/supabase-js@latest"
+   ],
+   "url": "https://supabase.com/ui/r/oauth-consent-react-router.json"
+  },
+  {
+   "name": "oauth-consent-tanstack",
+   "type": "block",
+   "title": "OAuth Consent for TanStack Start",
+   "description": "OAuth 2.1 consent screen and route for an existing authenticated application.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@supabase/ssr@latest",
+    "@supabase/supabase-js@latest"
+   ],
+   "url": "https://supabase.com/ui/r/oauth-consent-tanstack.json"
+  },
+  {
+   "name": "password-based-auth-nextjs",
+   "type": "block",
+   "title": "Password Based Auth flow for Nextjs and Supabase",
+   "description": "Password Based Auth flow for Nextjs and Supabase",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@supabase/ssr@latest",
+    "@supabase/supabase-js@latest"
+   ],
+   "url": "https://supabase.com/ui/r/password-based-auth-nextjs.json"
+  },
+  {
+   "name": "password-based-auth-nuxtjs",
+   "type": "block",
+   "title": "Password Based Auth flow for Nuxt.js and Supabase",
+   "description": "Password Based Auth flow for Nuxt.js and Supabase",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@supabase/ssr@latest",
+    "@supabase/supabase-js@latest"
+   ],
+   "url": "https://supabase.com/ui/r/password-based-auth-nuxtjs.json"
+  },
+  {
+   "name": "password-based-auth-react",
+   "type": "block",
+   "title": "Password Based Auth flow for React and Supabase",
+   "description": "Password Based Auth flow for React and Supabase",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@supabase/supabase-js@latest"
+   ],
+   "url": "https://supabase.com/ui/r/password-based-auth-react.json"
+  },
+  {
+   "name": "password-based-auth-react-router",
+   "type": "block",
+   "title": "Password Based Auth flow for React Router and Supabase",
+   "description": "Password Based Auth flow for React Router and Supabase",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@supabase/ssr@latest",
+    "@react-router/dev@latest",
+    "@react-router/fs-routes@latest",
+    "@supabase/supabase-js@latest"
+   ],
+   "url": "https://supabase.com/ui/r/password-based-auth-react-router.json"
+  },
+  {
+   "name": "password-based-auth-tanstack",
+   "type": "block",
+   "title": "Password Based Auth flow for tanstack and Supabase",
+   "description": "Password Based Auth flow for tanstack and Supabase",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@supabase/ssr@latest",
+    "@supabase/supabase-js@latest"
+   ],
+   "url": "https://supabase.com/ui/r/password-based-auth-tanstack.json"
+  },
+  {
+   "name": "password-based-auth-vue",
+   "type": "block",
+   "title": "Password Based Auth flow for Vue and Supabase",
+   "description": "Password Based Auth flow for Vue and Supabase",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@supabase/supabase-js@latest"
+   ],
+   "url": "https://supabase.com/ui/r/password-based-auth-vue.json"
+  },
+  {
+   "name": "platform-kit-nextjs",
+   "type": "block",
+   "title": "Platform Kit for Nextjs and Supabase",
+   "description": "Platform Kit for Nextjs and Supabase",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@hookform/resolvers",
+    "@monaco-editor/react",
+    "@tanstack/react-query",
+    "@tanstack/react-table",
+    "axios",
+    "cmdk",
+    "common-tags",
+    "openai",
+    "openapi-fetch",
+    "react-hook-form",
+    "react-markdown",
+    "recharts",
+    "sonner"
+   ],
+   "url": "https://supabase.com/ui/r/platform-kit-nextjs.json"
+  },
+  {
+   "name": "realtime-avatar-stack-nextjs",
+   "type": "component",
+   "title": "Avatar Stack with Realtime Presence",
+   "description": "Component which stack of avatars, tracked by realtime presence.",
+   "component": "avatar-group",
+   "surface": null,
+   "dependencies": [
+    "@supabase/ssr@latest",
+    "@supabase/supabase-js@latest"
+   ],
+   "url": "https://supabase.com/ui/r/realtime-avatar-stack-nextjs.json"
+  },
+  {
+   "name": "realtime-avatar-stack-nuxtjs",
+   "type": "block",
+   "title": "Realtime Avatar Stack",
+   "description": "Component which stack of avatars, tracked by realtime presence.",
+   "component": "avatar-group",
+   "surface": null,
+   "dependencies": [
+    "@supabase/supabase-js@latest"
+   ],
+   "url": "https://supabase.com/ui/r/realtime-avatar-stack-nuxtjs.json"
+  },
+  {
+   "name": "realtime-avatar-stack-react",
+   "type": "component",
+   "title": "Avatar Stack with Realtime Presence",
+   "description": "Component which stack of avatars, tracked by realtime presence.",
+   "component": "avatar-group",
+   "surface": null,
+   "dependencies": [
+    "@supabase/supabase-js@latest"
+   ],
+   "url": "https://supabase.com/ui/r/realtime-avatar-stack-react.json"
+  },
+  {
+   "name": "realtime-avatar-stack-react-router",
+   "type": "component",
+   "title": "Avatar Stack with Realtime Presence",
+   "description": "Component which stack of avatars, tracked by realtime presence.",
+   "component": "avatar-group",
+   "surface": null,
+   "dependencies": [
+    "@supabase/ssr@latest",
+    "@supabase/supabase-js@latest"
+   ],
+   "url": "https://supabase.com/ui/r/realtime-avatar-stack-react-router.json"
+  },
+  {
+   "name": "realtime-avatar-stack-tanstack",
+   "type": "component",
+   "title": "Avatar Stack with Realtime Presence",
+   "description": "Component which stack of avatars, tracked by realtime presence.",
+   "component": "avatar-group",
+   "surface": null,
+   "dependencies": [
+    "@supabase/ssr@latest",
+    "@supabase/supabase-js@latest"
+   ],
+   "url": "https://supabase.com/ui/r/realtime-avatar-stack-tanstack.json"
+  },
+  {
+   "name": "realtime-avatar-stack-vue",
+   "type": "block",
+   "title": "Realtime Avatar Stack",
+   "description": "Component which stack of avatars, tracked by realtime presence.",
+   "component": "avatar-group",
+   "surface": null,
+   "dependencies": [
+    "@supabase/supabase-js@latest"
+   ],
+   "url": "https://supabase.com/ui/r/realtime-avatar-stack-vue.json"
+  },
+  {
+   "name": "realtime-chat-nextjs",
+   "type": "component",
+   "title": "Realtime Chat",
+   "description": "Component which renders realtime chat messages from other users in a room.",
+   "component": "conversation",
+   "surface": "chat-mobile",
+   "dependencies": [
+    "lucide-react",
+    "@supabase/ssr@latest",
+    "@supabase/supabase-js@latest"
+   ],
+   "url": "https://supabase.com/ui/r/realtime-chat-nextjs.json"
+  },
+  {
+   "name": "realtime-chat-nuxtjs",
+   "type": "block",
+   "title": "Realtime Chat",
+   "description": "Component which provides a realtime chat interface.",
+   "component": "conversation",
+   "surface": "chat-mobile",
+   "dependencies": [
+    "@supabase/supabase-js@latest",
+    "lucide-vue-next@latest"
+   ],
+   "url": "https://supabase.com/ui/r/realtime-chat-nuxtjs.json"
+  },
+  {
+   "name": "realtime-chat-react",
+   "type": "component",
+   "title": "Realtime Chat",
+   "description": "Component which renders realtime chat messages from other users in a room.",
+   "component": "conversation",
+   "surface": "chat-mobile",
+   "dependencies": [
+    "lucide-react",
+    "@supabase/supabase-js@latest"
+   ],
+   "url": "https://supabase.com/ui/r/realtime-chat-react.json"
+  },
+  {
+   "name": "realtime-chat-react-router",
+   "type": "component",
+   "title": "Realtime Chat",
+   "description": "Component which renders realtime chat messages from other users in a room.",
+   "component": "conversation",
+   "surface": "chat-mobile",
+   "dependencies": [
+    "lucide-react",
+    "@supabase/ssr@latest",
+    "@supabase/supabase-js@latest"
+   ],
+   "url": "https://supabase.com/ui/r/realtime-chat-react-router.json"
+  },
+  {
+   "name": "realtime-chat-tanstack",
+   "type": "component",
+   "title": "Realtime Chat",
+   "description": "Component which renders realtime chat messages from other users in a room.",
+   "component": "conversation",
+   "surface": "chat-mobile",
+   "dependencies": [
+    "lucide-react",
+    "@supabase/ssr@latest",
+    "@supabase/supabase-js@latest"
+   ],
+   "url": "https://supabase.com/ui/r/realtime-chat-tanstack.json"
+  },
+  {
+   "name": "realtime-chat-vue",
+   "type": "block",
+   "title": "Realtime Chat",
+   "description": "Component which provides a realtime chat interface.",
+   "component": "conversation",
+   "surface": "chat-mobile",
+   "dependencies": [
+    "@supabase/supabase-js@latest",
+    "lucide-vue-next@latest"
+   ],
+   "url": "https://supabase.com/ui/r/realtime-chat-vue.json"
+  },
+  {
+   "name": "realtime-cursor-nextjs",
+   "type": "component",
+   "title": "Realtime Cursor",
+   "description": "Component which renders realtime cursors from other users in a room.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "@supabase/ssr@latest",
+    "@supabase/supabase-js@latest"
+   ],
+   "url": "https://supabase.com/ui/r/realtime-cursor-nextjs.json"
+  },
+  {
+   "name": "realtime-cursor-nuxtjs",
+   "type": "component",
+   "title": "Realtime Cursor for Nuxt and Supabase",
+   "description": "Component which renders realtime cursors from other users in a room.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@supabase/supabase-js@latest",
+    "@vueuse/core",
+    "lucide-vue-next"
+   ],
+   "url": "https://supabase.com/ui/r/realtime-cursor-nuxtjs.json"
+  },
+  {
+   "name": "realtime-cursor-react",
+   "type": "component",
+   "title": "Realtime Cursor",
+   "description": "Component which renders realtime cursors from other users in a room.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "@supabase/supabase-js@latest"
+   ],
+   "url": "https://supabase.com/ui/r/realtime-cursor-react.json"
+  },
+  {
+   "name": "realtime-cursor-react-router",
+   "type": "component",
+   "title": "Realtime Cursor",
+   "description": "Component which renders realtime cursors from other users in a room.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "@supabase/ssr@latest",
+    "@supabase/supabase-js@latest"
+   ],
+   "url": "https://supabase.com/ui/r/realtime-cursor-react-router.json"
+  },
+  {
+   "name": "realtime-cursor-tanstack",
+   "type": "component",
+   "title": "Realtime Cursor",
+   "description": "Component which renders realtime cursors from other users in a room.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "@supabase/ssr@latest",
+    "@supabase/supabase-js@latest"
+   ],
+   "url": "https://supabase.com/ui/r/realtime-cursor-tanstack.json"
+  },
+  {
+   "name": "realtime-cursor-vue",
+   "type": "component",
+   "title": "Realtime Cursor for Vue and Supabase",
+   "description": "Component which renders realtime cursors from other users in a room.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@supabase/supabase-js@latest",
+    "@vueuse/core",
+    "lucide-vue-next"
+   ],
+   "url": "https://supabase.com/ui/r/realtime-cursor-vue.json"
+  },
+  {
+   "name": "realtime-flow-nextjs",
+   "type": "component",
+   "title": "Realtime Flow",
+   "description": "Real-time flow diagram editor for collaborative applications.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@xyflow/react@latest",
+    "@supabase-labs/y-supabase@latest",
+    "y-protocols@latest",
+    "yjs@latest",
+    "@supabase/ssr@latest",
+    "@supabase/supabase-js@latest"
+   ],
+   "url": "https://supabase.com/ui/r/realtime-flow-nextjs.json"
+  },
+  {
+   "name": "realtime-flow-react",
+   "type": "component",
+   "title": "Realtime Flow",
+   "description": "Real-time flow diagram editor for collaborative applications.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@xyflow/react@latest",
+    "@supabase-labs/y-supabase@latest",
+    "y-protocols@latest",
+    "yjs@latest",
+    "@supabase/supabase-js@latest"
+   ],
+   "url": "https://supabase.com/ui/r/realtime-flow-react.json"
+  },
+  {
+   "name": "realtime-flow-react-router",
+   "type": "component",
+   "title": "Realtime Flow",
+   "description": "Real-time flow diagram editor for collaborative applications.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@xyflow/react@latest",
+    "@supabase-labs/y-supabase@latest",
+    "y-protocols@latest",
+    "yjs@latest",
+    "@supabase/ssr@latest",
+    "@supabase/supabase-js@latest"
+   ],
+   "url": "https://supabase.com/ui/r/realtime-flow-react-router.json"
+  },
+  {
+   "name": "realtime-flow-tanstack",
+   "type": "component",
+   "title": "Realtime Flow",
+   "description": "Real-time flow diagram editor for collaborative applications.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@xyflow/react@latest",
+    "@supabase-labs/y-supabase@latest",
+    "y-protocols@latest",
+    "yjs@latest",
+    "@supabase/ssr@latest",
+    "@supabase/supabase-js@latest"
+   ],
+   "url": "https://supabase.com/ui/r/realtime-flow-tanstack.json"
+  },
+  {
+   "name": "realtime-monaco-nextjs",
+   "type": "component",
+   "title": "Realtime Monaco",
+   "description": "Real-time Monaco editor for collaborative applications.",
+   "component": "code-editor",
+   "surface": null,
+   "dependencies": [
+    "@monaco-editor/react@latest",
+    "y-monaco@latest",
+    "yjs@latest",
+    "@supabase/ssr@latest",
+    "@supabase/supabase-js@latest"
+   ],
+   "url": "https://supabase.com/ui/r/realtime-monaco-nextjs.json"
+  },
+  {
+   "name": "realtime-monaco-react",
+   "type": "component",
+   "title": "Realtime Monaco",
+   "description": "Real-time Monaco editor for collaborative applications.",
+   "component": "code-editor",
+   "surface": null,
+   "dependencies": [
+    "@monaco-editor/react@latest",
+    "y-monaco@latest",
+    "yjs@latest",
+    "@supabase/supabase-js@latest"
+   ],
+   "url": "https://supabase.com/ui/r/realtime-monaco-react.json"
+  },
+  {
+   "name": "realtime-monaco-react-router",
+   "type": "component",
+   "title": "Realtime Monaco",
+   "description": "Real-time Monaco editor for collaborative applications.",
+   "component": "code-editor",
+   "surface": null,
+   "dependencies": [
+    "@monaco-editor/react@latest",
+    "y-monaco@latest",
+    "yjs@latest",
+    "@supabase/ssr@latest",
+    "@supabase/supabase-js@latest"
+   ],
+   "url": "https://supabase.com/ui/r/realtime-monaco-react-router.json"
+  },
+  {
+   "name": "realtime-monaco-tanstack",
+   "type": "component",
+   "title": "Realtime Monaco",
+   "description": "Real-time Monaco editor for collaborative applications.",
+   "component": "code-editor",
+   "surface": null,
+   "dependencies": [
+    "@monaco-editor/react@latest",
+    "y-monaco@latest",
+    "yjs@latest",
+    "@supabase/ssr@latest",
+    "@supabase/supabase-js@latest"
+   ],
+   "url": "https://supabase.com/ui/r/realtime-monaco-tanstack.json"
+  },
+  {
+   "name": "social-auth-nextjs",
+   "type": "block",
+   "title": "Social Auth flow for Nextjs and Supabase",
+   "description": "Social Auth flow for Nextjs and Supabase",
+   "component": "social-login-buttons",
+   "surface": null,
+   "dependencies": [
+    "@supabase/ssr@latest",
+    "@supabase/supabase-js@latest"
+   ],
+   "url": "https://supabase.com/ui/r/social-auth-nextjs.json"
+  },
+  {
+   "name": "social-auth-nuxtjs",
+   "type": "block",
+   "title": "Social Auth flow for Nuxt and Supabase",
+   "description": "Social Auth flow for Nuxt and Supabase",
+   "component": "social-login-buttons",
+   "surface": null,
+   "dependencies": [
+    "@supabase/ssr@latest",
+    "@supabase/supabase-js@latest"
+   ],
+   "url": "https://supabase.com/ui/r/social-auth-nuxtjs.json"
+  },
+  {
+   "name": "social-auth-react",
+   "type": "block",
+   "title": "Social Auth flow for React and Supabase",
+   "description": "Social Auth flow for React and Supabase",
+   "component": "social-login-buttons",
+   "surface": null,
+   "dependencies": [
+    "@supabase/supabase-js@latest"
+   ],
+   "url": "https://supabase.com/ui/r/social-auth-react.json"
+  },
+  {
+   "name": "social-auth-react-router",
+   "type": "block",
+   "title": "Social Auth flow for React Router and Supabase",
+   "description": "Social Auth flow for React Router and Supabase",
+   "component": "social-login-buttons",
+   "surface": null,
+   "dependencies": [
+    "@supabase/ssr@latest",
+    "@react-router/dev@latest",
+    "@react-router/fs-routes@latest",
+    "@supabase/supabase-js@latest"
+   ],
+   "url": "https://supabase.com/ui/r/social-auth-react-router.json"
+  },
+  {
+   "name": "social-auth-tanstack",
+   "type": "block",
+   "title": "Social Auth flow for TanStack and Supabase",
+   "description": "Social Auth flow for TanStack and Supabase",
+   "component": "social-login-buttons",
+   "surface": null,
+   "dependencies": [
+    "@supabase/ssr@latest",
+    "@supabase/supabase-js@latest"
+   ],
+   "url": "https://supabase.com/ui/r/social-auth-tanstack.json"
+  },
+  {
+   "name": "social-auth-vue",
+   "type": "block",
+   "title": "Social Auth flow for Vue and Supabase",
+   "description": "Social Auth flow for Vue and Supabase",
+   "component": "social-login-buttons",
+   "surface": null,
+   "dependencies": [
+    "@supabase/supabase-js@latest"
+   ],
+   "url": "https://supabase.com/ui/r/social-auth-vue.json"
+  },
+  {
+   "name": "tanstack-db-nextjs",
+   "type": "block",
+   "title": "TanStack DB for Next.js and Supabase",
+   "description": "TanStack DB integration with Supabase collections for type-safe database operations",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "supa-tdb-collection@latest",
+    "zod@latest",
+    "@tanstack/db@latest",
+    "@tanstack/react-db@latest",
+    "@supabase/ssr@latest",
+    "@supabase/supabase-js@latest"
+   ],
+   "url": "https://supabase.com/ui/r/tanstack-db-nextjs.json"
+  }
+ ]
+}

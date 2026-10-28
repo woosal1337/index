@@ -140,7 +140,13 @@
     "package": "claude-code-templates",
     "docs_url": "https://github.com/davila7/claude-code-templates#readme",
     "repo_url": "https://github.com/davila7/claude-code-templates",
-    "registry_url": "https://www.aitmpl.com/components.json",
+    "registry_url": null,
+    "machine_urls": [
+      {
+        "kind": "api",
+        "url": "https://www.aitmpl.com/components.json"
+      }
+    ],
     "github": {
       "stars": 30300,
       "license": "MIT",
@@ -195,8 +201,9 @@
       ],
       "styling": [
         "unocss",
-        "tailwind-any",
-        "css-variables"
+        "css-variables",
+        "tailwind-v3",
+        "tailwind-v4"
       ],
       "license": [
         "mit"

@@ -200,7 +200,7 @@
     "web"
    ],
    "accessibility": [
-    "unknown"
+    "not-applicable"
    ],
    "content_type": [
     "video",
@@ -616,7 +616,13 @@
   "package": "@craftwork-design/wizard",
   "docs_url": "https://craftwork.design/mcp",
   "repo_url": null,
-  "registry_url": "https://craftwork.design/catalog",
+  "registry_url": null,
+  "machine_urls": [
+   {
+    "kind": "catalog",
+    "url": "https://craftwork.design/catalog"
+   }
+  ],
   "github": {
    "stars": null,
    "license": null,
@@ -858,6 +864,7 @@
   "id": "415650f8-e21f-4101-977d-39f490fda5e6",
   "slug": "beui",
   "url": "https://beui.dev/components/motion",
+  "same_as": "45ebcb39-e253-4125-aaba-1dfa43cc1e3f",
   "name": "beUI",
   "tagline": "76 React motion components and AI agent UI, installed through a shadcn registry",
   "description": "beUI is a registry of 76 React components built on Motion and Tailwind, split into three groups: 38 motion components (springy inputs, morphing modals, dock, marquee, wheel picker, shader background, cylinder carousel), 17 AI-agent components (prompt input, streaming response, tool result, approval card, file diff, citations, message scroller, AI sidebar) and 21 composed blocks (command palette, dynamic island, OTP input, sign-up form, notification stack, infinite masonry, 404). Every item is real shadcn registry JSON at /r/<name>.json, so the CLI installs the TypeScript source into your project and you own it. A separate paid Pro tier adds premium components, 26+ animated blocks and 6 full Next.js templates.",
@@ -871,7 +878,8 @@
   "facets": {
    "framework": [
     "react",
-    "next"
+    "next",
+    "react-native"
    ],
    "styling": [
     "tailwind-any",
@@ -884,7 +892,8 @@
    "pricing": [
     "free",
     "freemium",
-    "one-time"
+    "one-time",
+    "open-source"
    ],
    "distribution": [
     "shadcn-registry",

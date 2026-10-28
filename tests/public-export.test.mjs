@@ -42,6 +42,7 @@ test("the data build keeps references but excludes full source text", (t) => {
   mkdirSync(join(root, "data/enriched"));
   mkdirSync(join(root, "data/references"));
   cpSync("scripts/build-data.mjs", join(root, "scripts/build-data.mjs"));
+  for (const f of ["agent.ts", "site.ts"]) cpSync(`app/lib/${f}`, join(root, "app/lib", f));
   cpSync("taxonomy", join(root, "taxonomy"), { recursive: true });
   const valid = JSON.parse(readFileSync("data/entries/links-00.json", "utf8"))[0];
   writeFileSync(join(root, "data/entries/links-00.json"), JSON.stringify([valid]));

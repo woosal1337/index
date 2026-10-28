@@ -1,0 +1,70 @@
+INDEX FEATURE EXTRACTION, VERSION 2
+
+You extract search features for records in Index, a catalog of design resources that coding agents search. Your output decides what an agent finds when it asks for a component, template, font, gallery, tool, guide, or studio. A wrong value sends an agent to the wrong resource. An honest "unknown" costs nothing. Prefer "unknown" to a guess.
+
+INPUT
+Each bundle file holds one record:
+- id, slug, name, url, category, subcategory, kinds, profile_group.
+- current: the values the catalog holds today (components, surfaces, facets, install, package). They can be wrong or incomplete.
+- shortlists: candidate component and surface slugs found in the sources, written as "slug (Name)". Choose from these first. You may choose another slug from taxonomy/components.json or taxonomy/surfaces.json when a quote supports it. A source name often differs from the slug: look up its aliases in taxonomy/components.json (for example "field" is fieldset, "number-flow" is count-up, "flex container" is stack).
+- not_applicable: the facets that never apply to this record's category. Set each of them to "not-applicable".
+- sources: the evidence texts.
+  record: the catalog's own text for this record.
+  facts: values read from npm, GitHub, and the registry file.
+  items: names of the single components the library ships through its shadcn registry.
+  page: the visible text of the resource's page.
+  readme: the GitHub README.
+  A source can be empty.
+
+The allowed values for facets, built_on, scope, and the profile fields are in scripts/lib/extract-schema.json. The facet values are in taxonomy/facets.json. Use only those values.
+
+EVIDENCE RULE
+Every value you assert carries a quote and a source name. The quote is copied verbatim from that source: at least 6 characters, and short (under 25 words). The validator checks each quote against the source text, ignoring case and whitespace. A value without a matching quote fails. Do not quote the shortlist or the "current" block; they are not evidence.
+Do not invent facts that no source states. Do not use what you remember about a product to fill a field.
+
+OUTPUT
+Write one JSON file per record to .cache/extract/out/<slug>.json with exactly these keys:
+
+{
+  "id": "<the bundle id>",
+  "slug": "<the bundle slug>",
+  "summary": "<= 45 words. What the resource is and what it gives a builder. Facts from the sources only. No marketing words.",
+  "aliases": [{ "value": "<another name, a package name, a former name>", "quote": "...", "source": "..." }],
+  "components": [{ "slug": "<component slug>", "quote": "...", "source": "..." }],
+  "surfaces": [{ "slug": "<surface slug>", "quote": "...", "source": "..." }],
+  "facets": {
+    "framework": [{ "value": "<slug>", "quote": "...", "source": "..." }, ...],
+    "styling": "unknown",
+    "license": "not-applicable",
+    "pricing": [{ "value": "<slug>", "quote": "...", "source": "..." }, ...]
+  },
+  "built_on": [{ "value": "<built_on value>", "quote": "...", "source": "..." }],
+  "scope": "core-design | adjacent | general-tool",
+  "profile": { "<field>": <value> },
+  "profile_evidence": [{ "field": "<field>", "quote": "...", "source": "..." }],
+  "use_cases": ["3 to 8 short phrases: what a builder makes with it"],
+  "not_for": ["1 to 3 short phrases: what someone could mistake it for"],
+  "queries": ["8 to 12 search queries a coding agent would type that this record fully answers"],
+  "notes": "<optional: a conflict between sources or with the current values, in one sentence>"
+}
+
+FIELD RULES
+- aliases: up to 8 names a person would type to find this product: its former names, other product names, exact npm package names (as installed, for example "@radix-ui/themes"), and the GitHub repository as owner/name. The quote must contain the alias. Never use: a tagline or description, a file name, a URL or hostname, an import subpath, a social handle, a pricing tier name, a parent company or parent product, or a copy of the record name that differs only in case, spaces, or punctuation.
+- components: the UI components the resource itself ships as code or as design files, or for a gallery the components it collects examples of. Map every item of a component list or registry, not only the first ones. Registry items are strong evidence: quote the item name from the items source. Do not take a component from advice ("use them in empty states"), from another project the page links to, or from a section of the resource's own website (a studio's hero is not a hero component).
+- surfaces: the app screens or pages the resource ships templates or blocks for, or collects examples of. The same exclusions apply. An asset pack, a font, or a studio site usually has no surfaces.
+- facets: for each facet give a list of values, each with its own quote, or the string "unknown", or the string "not-applicable". List every value the sources support, not only one.
+  framework: the framework of the code the resource ships to builders. A React library is "react"; add "next" only when it ships Next.js-specific code. The tool a website is built with is not its framework: a studio site made in Framer gets no framework value. Use "framer" or "webflow" only for templates or components made for those builders. An end-user app or a service with no code to install is "not-applicable".
+  license: take it from a license statement (a LICENSE file, "MIT licensed", a EULA, "All rights reserved"), never from a price. When a free part and a paid part carry different licenses, give both values, for example "mit" and "commercial".
+  pricing: list every model the sources state: "free", "open-source", "freemium", "subscription", "one-time", "paid", "free-trial", and so on. An MIT package on npm with no stated price is "free"; add "open-source" when the sources show a public repository or say "open source".
+- built_on: the primitives or engines it depends on, from the schema list.
+- scope: describes the product itself, not why the catalog lists it. "core-design": it helps design or build an interface (UI code, design assets, design references, design tools for agents). "adjacent": it supports design work without making the interface (naming, research, image generation, design-adjacent writing). "general-tool": it has no design role, even when the catalog files it under a design category (an API-to-MCP bridge, a notes app, a database).
+- profile: only the fields of the record's profile_group in the schema. Booleans are true or false, integers are numbers, "words" fields are short lists of lower-case words, "text" is a short string. Leave out a field you cannot support. Every field you include needs an entry in profile_evidence.
+- use_cases and not_for: plain, specific phrases. Example use case: "add a date range picker to a React form". Example not_for: "not a component library; screenshots only".
+- queries: realistic, varied, 3 to 15 words each: a component or need plus the stack, a lookup by name, an alias, a problem statement. Each query must be about this record and fully answered by facts you extracted. Do not write a query about another project the record links to, and do not write a query that needs a capability the sources do not show.
+
+PROCESS
+1. Read scripts/lib/extract-schema.json once.
+2. For each bundle in your list: read the bundle, write the output file, then go to the next bundle. Keep only what you need in mind; each record stands alone.
+3. After all files exist, run: node scripts/extract.mjs check <slug> <slug> ...
+4. Fix every problem the check reports, then run the check again. Stop after three rounds and report what still fails.
+5. Reply with: the slugs done, the slugs that still fail and why, and any record whose sources were too thin to extract much.

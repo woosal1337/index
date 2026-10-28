@@ -1,0 +1,174 @@
+{
+ "resource_id": "37b9fac6-b49b-4c1a-b5a8-000bafb3a61a",
+ "registry_url": "https://lab.moumen.dev/r/registry.json",
+ "install_verified": true,
+ "checked": "2026-10-23",
+ "items": [
+  {
+   "name": "caret-mention-popover",
+   "type": "component",
+   "title": "Caret-Anchored Mention Popover",
+   "description": "An @-mention popover anchored to the text caret via a hidden mirror, gliding as you type.",
+   "component": "mentions",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://lab.moumen.dev/r/caret-mention-popover.json"
+  },
+  {
+   "name": "command-palette",
+   "type": "component",
+   "title": "Command Palette with Argument Chips",
+   "description": "Commands that take inline argument chips, fuzzy ranking, and a measured height morph.",
+   "component": "command-palette",
+   "surface": "command-palette",
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://lab.moumen.dev/r/command-palette.json"
+  },
+  {
+   "name": "drag-to-reorder-list",
+   "type": "component",
+   "title": "Drag-to-Reorder List",
+   "description": "A reorderable list where siblings glide one slot and the drop plays a FLIP, keyboard included.",
+   "component": "drag-and-drop",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://lab.moumen.dev/r/drag-to-reorder-list.json"
+  },
+  {
+   "name": "file-upload-staging",
+   "type": "component",
+   "title": "File Upload Staging Area",
+   "description": "Per-tile interruptible upload state machines with capped concurrency and a layout-glide grid reflow.",
+   "component": "file-upload",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://lab.moumen.dev/r/file-upload-staging.json"
+  },
+  {
+   "name": "hover-expand-icon-strip",
+   "type": "component",
+   "title": "Hover-Expand Icon Strip",
+   "description": "Icons in a fixed-width box that expand on hover or Tab while the others squeeze to fit.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://lab.moumen.dev/r/hover-expand-icon-strip.json"
+  },
+  {
+   "name": "inertial-wheel-list",
+   "type": "component",
+   "title": "Inertial Wheel List",
+   "description": "An iOS picker drum built on native scroll-snap, with selection derived from scrollTop.",
+   "component": "list",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://lab.moumen.dev/r/inertial-wheel-list.json"
+  },
+  {
+   "name": "lab-theme",
+   "type": "theme",
+   "title": "Lab Theme",
+   "description": "Shared design tokens (easings, shadow-border ring, and keyframes) every moumenlab component builds on.",
+   "component": "theme-provider",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://lab.moumen.dev/r/lab-theme.json"
+  },
+  {
+   "name": "morphing-checkout",
+   "type": "component",
+   "title": "Morphing Checkout Flow",
+   "description": "A three-step card payment with a height:auto illusion, caret-safe masking, a 3D flip, and a FLIP pay button.",
+   "component": "checkout",
+   "surface": "checkout",
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://lab.moumen.dev/r/morphing-checkout.json"
+  },
+  {
+   "name": "otp-segmented-input",
+   "type": "component",
+   "title": "OTP Segmented Input",
+   "description": "Six cells that are secretly one real input, with native selection driving the active cell.",
+   "component": "text-input",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://lab.moumen.dev/r/otp-segmented-input.json"
+  },
+  {
+   "name": "schedule-builder",
+   "type": "component",
+   "title": "Schedule Builder",
+   "description": "A recurrence rule as a live English sentence over real occurrences, with month-end and DST traps.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://lab.moumen.dev/r/schedule-builder.json"
+  },
+  {
+   "name": "search-expand-nav",
+   "type": "component",
+   "title": "Search-Expand Navigation Bar",
+   "description": "A nav bar that expands into a search field then grows into a recent-searches card.",
+   "component": "search-input",
+   "surface": "search-mobile",
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://lab.moumen.dev/r/search-expand-nav.json"
+  },
+  {
+   "name": "share-permissions-popover",
+   "type": "component",
+   "title": "Share & Permissions Popover",
+   "description": "A three-view floating surface that morphs on both axes with a focus trap surviving the swaps.",
+   "component": "popover",
+   "surface": "share-and-permissions",
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://lab.moumen.dev/r/share-permissions-popover.json"
+  },
+  {
+   "name": "ticket-number-ticker",
+   "type": "component",
+   "title": "Ticket Number Ticker",
+   "description": "An odometer that runs digits up on tabular-nums and middle-truncates long ids to start…end, with an optional GitHub PR status badge.",
+   "component": "count-up",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://lab.moumen.dev/r/ticket-number-ticker.json"
+  },
+  {
+   "name": "unlimited-nested-menu",
+   "type": "component",
+   "title": "Unlimited Nested Menu",
+   "description": "A dropdown where each branch morphs into a stacked sub-panel, no depth limit, fully keyboard driven.",
+   "component": "dropdown-menu",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://lab.moumen.dev/r/unlimited-nested-menu.json"
+  }
+ ]
+}

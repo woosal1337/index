@@ -16,7 +16,7 @@ import {
   labelize,
   tierLabel,
 } from "../../lib/data";
-import { monogram } from "../../lib/text";
+import { MACHINE_URL_KINDS, monogram } from "../../lib/text";
 import { ogImageUrl } from "../../lib/media";
 import { byTierThenName } from "../../lib/rows";
 import { pageMetadata } from "../../lib/site";
@@ -181,6 +181,11 @@ export default async function ResourcePage({ params }: { params: Promise<{ slug:
                   Registry
                 </Btn>
               )}
+              {r.machineUrls.map((m) => (
+                <Btn key={m.url} href={m.url} external>
+                  {MACHINE_URL_KINDS[m.kind as keyof typeof MACHINE_URL_KINDS] ?? labelize(m.kind)}
+                </Btn>
+              ))}
             </div>
           </Enter>
 

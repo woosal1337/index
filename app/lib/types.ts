@@ -7,6 +7,25 @@ export interface Template {
   shot?: string;
   w?: number | null;
   h?: number | null;
+  visual?: VisualTags;
+}
+
+export interface VisualTags {
+  pageType: string | null;
+  sections: string[];
+  style: string[];
+  density: string | null;
+  imagery: string[];
+}
+
+export interface VisualCss {
+  colorMode: "light" | "dark";
+  background: string | null;
+  text: string | null;
+  accent: string | null;
+  headingFont: string | null;
+  bodyFont: string | null;
+  buttonRadius: string | null;
 }
 
 export interface Article {
@@ -42,6 +61,27 @@ export interface Resource {
   docsUrl: string | null;
   repoUrl: string | null;
   registryUrl: string | null;
+  machineUrls: { kind: string; url: string }[];
+  sameAs: string | null;
+  partOf: string | null;
+  summary: string | null;
+  aliases: string[];
+  useCases: string[];
+  notFor: string[];
+  exampleQueries: string[];
+  profile: Record<string, unknown>;
+  scope: string | null;
+  builtOn: string[];
+  visual: (Partial<VisualTags> & Partial<VisualCss>) | null;
+  signals: {
+    stars: number | null;
+    weeklyDownloads: number | null;
+    lastRelease: string | null;
+    pushedAt: string | null;
+    archived: boolean;
+    deprecated: boolean;
+    checked: string | null;
+  };
   github: { stars?: number | null; license?: string | null; last_activity?: string | null };
   pricingDetail: string | null;
   counts: Record<string, number | null>;
@@ -118,6 +158,8 @@ export interface Stats {
   categories: number;
   vocabComponents: number;
   vocabSurfaces: number;
+  items?: number;
+  itemsInstallable?: number;
   generatedAt: string;
 }
 

@@ -1,0 +1,1248 @@
+{
+ "resource_id": "2c9d283a-c18a-48cf-83e7-fe5bee79b8b0",
+ "registry_url": "https://www.8bitcn.com/r/registry.json",
+ "install_verified": true,
+ "checked": "2026-10-23",
+ "items": [
+  {
+   "name": "accordion",
+   "type": "component",
+   "title": "8-bit Accordion",
+   "description": "A simple 8-bit accordion component",
+   "component": "accordion",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/accordion.json"
+  },
+  {
+   "name": "advanced1",
+   "type": "block",
+   "title": "8-bit Advanced 1",
+   "description": "Fake terminal demo shell with command output.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/advanced1.json"
+  },
+  {
+   "name": "advanced2",
+   "type": "block",
+   "title": "8-bit Advanced 2",
+   "description": "KPI metrics dashboard with progress bars.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/advanced2.json"
+  },
+  {
+   "name": "advanced3",
+   "type": "block",
+   "title": "8-bit Advanced 3",
+   "description": "Newsletter signup card with input and CTA.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/advanced3.json"
+  },
+  {
+   "name": "alert",
+   "type": "component",
+   "title": "8-bit Alert",
+   "description": "A simple 8-bit switch component",
+   "component": "alert",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/alert.json"
+  },
+  {
+   "name": "alert-dialog",
+   "type": "component",
+   "title": "8-bit Alert Dialog",
+   "description": "A simple 8-bit Alert Dialog component",
+   "component": "alert-dialog",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/alert-dialog.json"
+  },
+  {
+   "name": "audio-settings",
+   "type": "block",
+   "title": "8-bit Audio Settings",
+   "description": "A simple 8-bit audio settings component",
+   "component": "audio-player",
+   "surface": "settings-web-app",
+   "dependencies": [
+    "@radix-ui/react-slider",
+    "@radix-ui/react-switch"
+   ],
+   "url": "https://www.8bitcn.com/r/audio-settings.json"
+  },
+  {
+   "name": "avatar",
+   "type": "component",
+   "title": "8-bit Avatar",
+   "description": "A simple 8-bit avatar component",
+   "component": "avatar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/avatar.json"
+  },
+  {
+   "name": "badge",
+   "type": "component",
+   "title": "8-bit Badge",
+   "description": "A simple 8-bit badge component",
+   "component": "badge",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/badge.json"
+  },
+  {
+   "name": "breadcrumb",
+   "type": "component",
+   "title": "8-bit Breadcrumb",
+   "description": "A simple 8-bit breadcrumb component",
+   "component": "breadcrumbs",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/breadcrumb.json"
+  },
+  {
+   "name": "button",
+   "type": "component",
+   "title": "8-bit Button",
+   "description": "A simple 8-bit button component",
+   "component": "button",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/button.json"
+  },
+  {
+   "name": "button-group",
+   "type": "component",
+   "title": "8-bit Button Group",
+   "description": "Groups multiple 8-bit buttons together inside a shared retro pixelated border.",
+   "component": "button-group",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/button-group.json"
+  },
+  {
+   "name": "calendar",
+   "type": "component",
+   "title": "8-bit Calendar",
+   "description": "A simple 8-bit calendar component",
+   "component": "calendar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/calendar.json"
+  },
+  {
+   "name": "card",
+   "type": "component",
+   "title": "8-bit Card",
+   "description": "A simple 8-bit card component",
+   "component": "card",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/card.json"
+  },
+  {
+   "name": "carousel",
+   "type": "component",
+   "title": "8-bit Card",
+   "description": "A simple 8-bit carousel component",
+   "component": "carousel",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/carousel.json"
+  },
+  {
+   "name": "chapter-intro",
+   "type": "block",
+   "title": "8-bit Chapter Intro",
+   "description": "A cinematic chapter/level intro with pixel art background.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/chapter-intro.json"
+  },
+  {
+   "name": "character-sheet",
+   "type": "block",
+   "title": "8-bit Character Sheet",
+   "description": "A comprehensive RPG character stats page with attributes, equipment, and customizable sections.",
+   "component": "sheet",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/character-sheet.json"
+  },
+  {
+   "name": "chart",
+   "type": "block",
+   "title": "8-bit Chart",
+   "description": "A simple 8-bit chart component",
+   "component": "chart",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/chart.json"
+  },
+  {
+   "name": "chart-area-step",
+   "type": "block",
+   "title": "8-bit Chart Area Step",
+   "description": "A simple 8-bit chart area step component",
+   "component": "chart",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/chart-area-step.json"
+  },
+  {
+   "name": "chart-bar",
+   "type": "block",
+   "title": "8-bit Chart Bar",
+   "description": "A simple 8-bit chart bar component",
+   "component": "chart",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/chart-bar.json"
+  },
+  {
+   "name": "checkbox",
+   "type": "component",
+   "title": "8-bit Checkbox",
+   "description": "A simple 8-bit checkbox component",
+   "component": "checkbox",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/checkbox.json"
+  },
+  {
+   "name": "collapsible",
+   "type": "component",
+   "title": "8-bit Collapsible",
+   "description": "A simple 8-bit collapsible component",
+   "component": "collapsible",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/collapsible.json"
+  },
+  {
+   "name": "combo-box",
+   "type": "component",
+   "title": "8-bit Combo Box",
+   "description": "A simple 8-bit combo box component",
+   "component": "combobox",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/combo-box.json"
+  },
+  {
+   "name": "command",
+   "type": "component",
+   "title": "8-bit Command",
+   "description": "A simple 8-bit command component",
+   "component": "command-palette",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/command.json"
+  },
+  {
+   "name": "context-menu",
+   "type": "component",
+   "title": "8-bit Context Menu",
+   "description": "A simple 8-bit context menu component",
+   "component": "context-menu",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/context-menu.json"
+  },
+  {
+   "name": "cta1",
+   "type": "block",
+   "title": "8-bit CTA1",
+   "description": "Us vs them comparison table.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/cta1.json"
+  },
+  {
+   "name": "cta2",
+   "type": "block",
+   "title": "8-bit CTA2",
+   "description": "Persona use case cards with CTAs.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/cta2.json"
+  },
+  {
+   "name": "dashboard-01",
+   "type": "page",
+   "title": "8-bit Dashboard 01",
+   "description": "A complete 8-bit styled dashboard with sidebar navigation, stats cards, charts, and data table with drag-and-drop functionality.",
+   "component": "dashboard",
+   "surface": null,
+   "dependencies": [
+    "@dnd-kit/core",
+    "@dnd-kit/sortable",
+    "@dnd-kit/modifiers",
+    "@dnd-kit/utilities",
+    "@tabler/icons-react",
+    "@tanstack/react-table",
+    "sonner",
+    "zod"
+   ],
+   "url": "https://www.8bitcn.com/r/dashboard-01.json"
+  },
+  {
+   "name": "date-picker",
+   "type": "component",
+   "title": "8-bit Date Picker",
+   "description": "A simple 8-bit date picker component",
+   "component": "date-picker",
+   "surface": null,
+   "dependencies": [
+    "date-fns"
+   ],
+   "url": "https://www.8bitcn.com/r/date-picker.json"
+  },
+  {
+   "name": "dialog",
+   "type": "component",
+   "title": "8-bit Dialog",
+   "description": "A simple 8-bit dialog component",
+   "component": "modal",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/dialog.json"
+  },
+  {
+   "name": "dialogue",
+   "type": "block",
+   "title": "8-bit Dialogue",
+   "description": "A simple 8-bit dialogue component",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-avatar"
+   ],
+   "url": "https://www.8bitcn.com/r/dialogue.json"
+  },
+  {
+   "name": "difficulty-select",
+   "type": "block",
+   "title": "8-bit Difficulty Select",
+   "description": "A reusable 8-bit difficulty selector with Easy, Normal, Hard.",
+   "component": "select",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/difficulty-select.json"
+  },
+  {
+   "name": "drawer",
+   "type": "component",
+   "title": "8-bit Drawer",
+   "description": "A simple 8-bit drawer component",
+   "component": "drawer",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/drawer.json"
+  },
+  {
+   "name": "dropdown-menu",
+   "type": "component",
+   "title": "8-bit Dropdown Menu",
+   "description": "A simple 8-bit dropdown-menu component",
+   "component": "dropdown-menu",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/dropdown-menu.json"
+  },
+  {
+   "name": "duel-block",
+   "type": "block",
+   "title": "8-bit Duel Block",
+   "description": "Interactive arena duel with two fighters, HP bars, and hit mechanics.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/duel-block.json"
+  },
+  {
+   "name": "empty",
+   "type": "component",
+   "title": "8-bit Empty",
+   "description": "Displays an 8-bit empty component.",
+   "component": "empty-state",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/empty.json"
+  },
+  {
+   "name": "enemy-health-display",
+   "type": "component",
+   "title": "8-bit Enemy Health Display",
+   "description": "A retro-styled enemy health display component with health bar, name, and level",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/enemy-health-display.json"
+  },
+  {
+   "name": "faq1",
+   "type": "block",
+   "title": "8-bit FAQ1",
+   "description": "Simple accordion FAQ.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/faq1.json"
+  },
+  {
+   "name": "faq2",
+   "type": "block",
+   "title": "8-bit FAQ2",
+   "description": "Two-column card grid FAQ.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/faq2.json"
+  },
+  {
+   "name": "faq3",
+   "type": "block",
+   "title": "8-bit FAQ3",
+   "description": "Searchable FAQ with categories.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/faq3.json"
+  },
+  {
+   "name": "feature1",
+   "type": "block",
+   "title": "8-bit Feature 1",
+   "description": "Feature card grid with icons, titles, descriptions, and optional badges.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/feature1.json"
+  },
+  {
+   "name": "feature2",
+   "type": "block",
+   "title": "8-bit Feature 2",
+   "description": "Step-by-step feature list with numbered icons and separators.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/feature2.json"
+  },
+  {
+   "name": "feature3",
+   "type": "block",
+   "title": "8-bit Feature 3",
+   "description": "Swipeable feature carousel with cards and pixel arrows.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/feature3.json"
+  },
+  {
+   "name": "footer1",
+   "type": "block",
+   "title": "8-bit Footer 1",
+   "description": "Sticky CTA bar that appears on scroll.",
+   "component": "footer",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/footer1.json"
+  },
+  {
+   "name": "friend-list",
+   "type": "block",
+   "title": "8-bit Friend List",
+   "description": "A simple 8-bit friend list component",
+   "component": "list",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/friend-list.json"
+  },
+  {
+   "name": "game-cta1",
+   "type": "block",
+   "title": "8-bit game-cta1",
+   "description": "Boss fight CTA with problem vs solution.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/game-cta1.json"
+  },
+  {
+   "name": "game-faq1",
+   "type": "block",
+   "title": "8-bit game-faq1",
+   "description": "Checkpoint FAQ with progression states.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/game-faq1.json"
+  },
+  {
+   "name": "game-features1",
+   "type": "block",
+   "title": "8-bit game-features1",
+   "description": "Skill tree feature grid with progress.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/game-features1.json"
+  },
+  {
+   "name": "game-hero1",
+   "type": "block",
+   "title": "8-bit game-hero1",
+   "description": "Health bar hero with progress indicator.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/game-hero1.json"
+  },
+  {
+   "name": "game-hero2",
+   "type": "block",
+   "title": "8-bit game-hero2",
+   "description": "XP milestone hero with level badges.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/game-hero2.json"
+  },
+  {
+   "name": "game-over",
+   "type": "block",
+   "title": "8-bit Game Over",
+   "description": "A simple 8-bit game over component",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/game-over.json"
+  },
+  {
+   "name": "game-progress",
+   "type": "block",
+   "title": "8-bit Game Progress",
+   "description": "A simple 8-bit game progress component",
+   "component": "progress-bar",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-progress"
+   ],
+   "url": "https://www.8bitcn.com/r/game-progress.json"
+  },
+  {
+   "name": "game-roadmap1",
+   "type": "block",
+   "title": "8-bit game-roadmap1",
+   "description": "Quest log roadmap with status states.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/game-roadmap1.json"
+  },
+  {
+   "name": "game-team1",
+   "type": "block",
+   "title": "8-bit game-team1",
+   "description": "Party grid with avatars and HP bars.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/game-team1.json"
+  },
+  {
+   "name": "health-bar",
+   "type": "component",
+   "title": "8-bit Health Bar",
+   "description": "A simple 8-bit health bar component",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/health-bar.json"
+  },
+  {
+   "name": "hero1",
+   "type": "block",
+   "title": "8-bit Hero 1",
+   "description": "Centered hero section",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/hero1.json"
+  },
+  {
+   "name": "hero2",
+   "type": "block",
+   "title": "8-bit Hero 2",
+   "description": "Split-layout hero section",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/hero2.json"
+  },
+  {
+   "name": "hero3",
+   "type": "block",
+   "title": "8-bit Hero 3",
+   "description": "Game-style title screen hero with stat cards and blinking text.",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/hero3.json"
+  },
+  {
+   "name": "hover-card",
+   "type": "component",
+   "title": "8-bit Hover Card",
+   "description": "A simple 8-bit hover card component",
+   "component": "hover-card",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/hover-card.json"
+  },
+  {
+   "name": "input",
+   "type": "component",
+   "title": "8-bit Input",
+   "description": "A simple 8-bit input component",
+   "component": "text-input",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/input.json"
+  },
+  {
+   "name": "input-otp",
+   "type": "component",
+   "title": "8-bit Input-OTP",
+   "description": "A simple 8-bit input-otp component",
+   "component": "otp-input",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/input-otp.json"
+  },
+  {
+   "name": "item",
+   "type": "component",
+   "title": "8-bit Item",
+   "description": "Displays an 8-bit item component.",
+   "component": "list",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/item.json"
+  },
+  {
+   "name": "kbd",
+   "type": "component",
+   "title": "8-bit Kbd",
+   "description": "A simple 8-bit kbd component",
+   "component": "kbd",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/kbd.json"
+  },
+  {
+   "name": "label",
+   "type": "component",
+   "title": "8-bit Label",
+   "description": "A simple 8-bit label component",
+   "component": "label",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/label.json"
+  },
+  {
+   "name": "leaderboard",
+   "type": "block",
+   "title": "8-bit Leaderboard",
+   "description": "A retro-styled leaderboard component for displaying player rankings with avatars and scores.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/leaderboard.json"
+  },
+  {
+   "name": "loading-screen",
+   "type": "block",
+   "title": "8-bit Loading Screen",
+   "description": "A retro-styled loading screen with animated progress bar and rotating tips.",
+   "component": "spinner",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/loading-screen.json"
+  },
+  {
+   "name": "login-form",
+   "type": "block",
+   "title": "8-bit Login Form",
+   "description": "A simple 8-bit login form component",
+   "component": "login-form",
+   "surface": "login-mobile",
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/login-form.json"
+  },
+  {
+   "name": "login-form-2",
+   "type": "block",
+   "title": "8-bit Login Form 2",
+   "description": "A simple 8-bit login form component",
+   "component": "login-form",
+   "surface": "login-mobile",
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/login-form-2.json"
+  },
+  {
+   "name": "login-form-with-image",
+   "type": "block",
+   "title": "8-bit Login Form with Image",
+   "description": "A simple 8-bit login form component with image",
+   "component": "login-form",
+   "surface": "login-mobile",
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/login-form-with-image.json"
+  },
+  {
+   "name": "login-page",
+   "type": "page",
+   "title": "8-bit Login Page",
+   "description": "A simple 8-bit login page component",
+   "component": null,
+   "surface": "login-mobile",
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/login-page.json"
+  },
+  {
+   "name": "main-menu",
+   "type": "block",
+   "title": "8-bit Main Menu",
+   "description": "A simple 8-bit main menu component",
+   "component": "navigation-menu",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/main-menu.json"
+  },
+  {
+   "name": "mana-bar",
+   "type": "component",
+   "title": "8-bit Mana Bar",
+   "description": "A simple 8-bit mana bar component",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/mana-bar.json"
+  },
+  {
+   "name": "menubar",
+   "type": "component",
+   "title": "8-bit Menu Bar",
+   "description": "A simple 8-bit menu bar component",
+   "component": "menubar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/menubar.json"
+  },
+  {
+   "name": "navigation-menu",
+   "type": "component",
+   "title": "8-bit Navigation Menu",
+   "description": "A simple 8-bit navigation menu component",
+   "component": "navigation-menu",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/navigation-menu.json"
+  },
+  {
+   "name": "not-found-brick-breaker",
+   "type": "block",
+   "title": "8-bit Brick Breaker 404",
+   "description": "A playable brick-breaker 404 page with keyboard, pointer, and touch controls.",
+   "component": "error-page",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/not-found-brick-breaker.json"
+  },
+  {
+   "name": "not-found-crate-pusher",
+   "type": "block",
+   "title": "8-bit Crate Pusher 404",
+   "description": "A randomized crate-pushing 404 page with 20 curated, solver-verified puzzles.",
+   "component": "error-page",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/not-found-crate-pusher.json"
+  },
+  {
+   "name": "not-found1",
+   "type": "block",
+   "title": "8-bit 404 Page",
+   "description": "Retro 404 page with pixel art character.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/not-found1.json"
+  },
+  {
+   "name": "not-found2",
+   "type": "block",
+   "title": "8-bit 404 Dwarf",
+   "description": "Retro 404 page with pixel dwarf character.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/not-found2.json"
+  },
+  {
+   "name": "not-found3",
+   "type": "block",
+   "title": "8-bit 404 Undead",
+   "description": "Cursed 404 page with pixel undead character.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/not-found3.json"
+  },
+  {
+   "name": "pagination",
+   "type": "component",
+   "title": "8-bit Pagination",
+   "description": "A simple 8-bit pagination component",
+   "component": "pagination",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/pagination.json"
+  },
+  {
+   "name": "pause-menu",
+   "type": "block",
+   "title": "8-bit Pause Menu",
+   "description": "A simple 8-bit pause menu component",
+   "component": "dropdown-menu",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/pause-menu.json"
+  },
+  {
+   "name": "player-profile-card",
+   "type": "block",
+   "title": "8-bit Player Profile Card",
+   "description": "A comprehensive player profile card component with stats, health/mana bars, and custom stats support.",
+   "component": "video-player",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/player-profile-card.json"
+  },
+  {
+   "name": "popover",
+   "type": "component",
+   "title": "8-bit Popover",
+   "description": "A simple 8-bit popover component",
+   "component": "popover",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/popover.json"
+  },
+  {
+   "name": "portal-transition",
+   "type": "block",
+   "title": "8-bit Portal Transition",
+   "description": "Interactive CTA with clickable portal and traveling state.",
+   "component": "portal",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/portal-transition.json"
+  },
+  {
+   "name": "pricing1",
+   "type": "block",
+   "title": "8-bit Pricing 1",
+   "description": "Classic tier cards with feature lists and CTAs.",
+   "component": null,
+   "surface": "pricing-website",
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/pricing1.json"
+  },
+  {
+   "name": "pricing2",
+   "type": "block",
+   "title": "8-bit Pricing 2",
+   "description": "Pricing cards with monthly/yearly toggle.",
+   "component": null,
+   "surface": "pricing-website",
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/pricing2.json"
+  },
+  {
+   "name": "profile-card",
+   "type": "component",
+   "title": "8-bit Profile Card",
+   "description": "A simple 8-bit profile card component",
+   "component": "card",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-avatar"
+   ],
+   "url": "https://www.8bitcn.com/r/profile-card.json"
+  },
+  {
+   "name": "progress",
+   "type": "component",
+   "title": "8-bit Progress",
+   "description": "A simple 8-bit progress component",
+   "component": "progress-bar",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-progress"
+   ],
+   "url": "https://www.8bitcn.com/r/progress.json"
+  },
+  {
+   "name": "quest-log",
+   "type": "block",
+   "title": "8-bit Quest Log",
+   "description": "A retro-styled quest log component for tracking game missions and tasks with accordion functionality and status indicators.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/quest-log.json"
+  },
+  {
+   "name": "radio-group",
+   "type": "component",
+   "title": "8-bit Radio Group",
+   "description": "A simple 8-bit radio group component",
+   "component": "radio-group",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/radio-group.json"
+  },
+  {
+   "name": "resizable",
+   "type": "component",
+   "title": "8-bit Resizable Panel",
+   "description": "Accessible resizable panel groups and layouts with keyboard support.",
+   "component": "resizable",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/resizable.json"
+  },
+  {
+   "name": "retro-mode-switcher",
+   "type": "component",
+   "title": "8-bit Retro Mode Switcher",
+   "description": "A retro-styled theme toggle component with pixel art sun and moon icons. Perfect for 8-bit themed applications that need a nostalgic theme switcher.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "next-themes"
+   ],
+   "url": "https://www.8bitcn.com/r/retro-mode-switcher.json"
+  },
+  {
+   "name": "save-slots",
+   "type": "block",
+   "title": "8-bit Save Slots",
+   "description": "A retro-styled save/load game interface with slot previews, timestamps, and empty slot handling.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/save-slots.json"
+  },
+  {
+   "name": "scroll-area",
+   "type": "component",
+   "title": "8-bit Scroll Area",
+   "description": "A simple 8-bit Scroll Area component",
+   "component": "scroll-area",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-scroll-area"
+   ],
+   "url": "https://www.8bitcn.com/r/scroll-area.json"
+  },
+  {
+   "name": "select",
+   "type": "component",
+   "title": "8-bit Select",
+   "description": "A simple 8-bit select component",
+   "component": "select",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/select.json"
+  },
+  {
+   "name": "separator",
+   "type": "component",
+   "title": "8-bit Separator",
+   "description": "A simple 8-bit separator component",
+   "component": "separator",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-separator"
+   ],
+   "url": "https://www.8bitcn.com/r/separator.json"
+  },
+  {
+   "name": "sheet",
+   "type": "component",
+   "title": "8-bit sheet",
+   "description": "A simple 8-bit sheet component",
+   "component": "sheet",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/sheet.json"
+  },
+  {
+   "name": "sidebar",
+   "type": "block",
+   "title": "8-bit Sidebar",
+   "description": "A simple 8-bit sidebar component",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/sidebar.json"
+  },
+  {
+   "name": "skeleton",
+   "type": "component",
+   "title": "8-bit Skeleton",
+   "description": "A simple 8-bit skeleton component",
+   "component": "skeleton",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/skeleton.json"
+  },
+  {
+   "name": "slider",
+   "type": "component",
+   "title": "8-bit Slider",
+   "description": "A simple 8-bit slider component",
+   "component": "slider",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/slider.json"
+  },
+  {
+   "name": "social-proof1",
+   "type": "block",
+   "title": "8-bit Social Proof 1",
+   "description": "Stats bar with numbers and optional logo cloud.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/social-proof1.json"
+  },
+  {
+   "name": "social-proof2",
+   "type": "block",
+   "title": "8-bit Social Proof 2",
+   "description": "Two-column testimonial cards.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/social-proof2.json"
+  },
+  {
+   "name": "social-proof3",
+   "type": "block",
+   "title": "8-bit Social Proof 3",
+   "description": "Swipeable review carousel with ratings.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/social-proof3.json"
+  },
+  {
+   "name": "spinner",
+   "type": "component",
+   "title": "8-bit Spinner",
+   "description": "Displays an 8-bit spinner component.",
+   "component": "spinner",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/spinner.json"
+  },
+  {
+   "name": "switch",
+   "type": "component",
+   "title": "8-bit Switch",
+   "description": "A simple 8-bit switch component",
+   "component": "switch",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/switch.json"
+  },
+  {
+   "name": "table",
+   "type": "component",
+   "title": "8-bit Table",
+   "description": "A simple 8-bit table component",
+   "component": "table",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/table.json"
+  },
+  {
+   "name": "tabs",
+   "type": "component",
+   "title": "8-bit Tabs",
+   "description": "A simple 8-bit tabs component",
+   "component": "tabs",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/tabs.json"
+  },
+  {
+   "name": "team1",
+   "type": "block",
+   "title": "8-bit Team 1",
+   "description": "Team grid with pixel avatars and roles.",
+   "component": null,
+   "surface": "team",
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/team1.json"
+  },
+  {
+   "name": "team2",
+   "type": "block",
+   "title": "8-bit Team 2",
+   "description": "Changelog feed with dates and badges.",
+   "component": null,
+   "surface": "team",
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/team2.json"
+  },
+  {
+   "name": "team3",
+   "type": "block",
+   "title": "8-bit Team 3",
+   "description": "Case study cards with KPI badges.",
+   "component": null,
+   "surface": "team",
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/team3.json"
+  },
+  {
+   "name": "textarea",
+   "type": "component",
+   "title": "8-bit Textarea",
+   "description": "A simple 8-bit textarea component",
+   "component": "textarea",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/textarea.json"
+  },
+  {
+   "name": "theme-selector",
+   "type": "component",
+   "title": "8-bit Theme Selector",
+   "description": "A complete theme selector component with dropdown selection and code copy functionality. Includes theme context provider for managing active themes across the application.",
+   "component": "theme-provider",
+   "surface": null,
+   "dependencies": [
+    "nuqs"
+   ],
+   "url": "https://www.8bitcn.com/r/theme-selector.json"
+  },
+  {
+   "name": "timeline1",
+   "type": "block",
+   "title": "8-bit Timeline 1",
+   "description": "Vertical timeline with connecting line.",
+   "component": "timeline",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/timeline1.json"
+  },
+  {
+   "name": "timeline2",
+   "type": "block",
+   "title": "8-bit Timeline 2",
+   "description": "Horizontal progress steps with checkpoints.",
+   "component": "timeline",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/timeline2.json"
+  },
+  {
+   "name": "timeline3",
+   "type": "block",
+   "title": "8-bit Timeline 3",
+   "description": "Zigzag roadmap with alternating cards.",
+   "component": "timeline",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/timeline3.json"
+  },
+  {
+   "name": "toast",
+   "type": "component",
+   "title": "8-bit Toast",
+   "description": "A simple 8-bit toast component",
+   "component": "toast",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/toast.json"
+  },
+  {
+   "name": "toggle",
+   "type": "component",
+   "title": "8-bit Toggle",
+   "description": "A simple 8-bit toggle component",
+   "component": "toggle-button",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/toggle.json"
+  },
+  {
+   "name": "toggle-group",
+   "type": "component",
+   "title": "8-bit Toggle Group",
+   "description": "A simple 8-bit toggle group component",
+   "component": "toggle-group",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/toggle-group.json"
+  },
+  {
+   "name": "tooltip",
+   "type": "component",
+   "title": "8-bit Tooltip",
+   "description": "A simple 8-bit tooltip component",
+   "component": "tooltip",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/tooltip.json"
+  },
+  {
+   "name": "victory-screen",
+   "type": "block",
+   "title": "8-bit Victory Screen",
+   "description": "A simple 8-bit Victory Screen component",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/victory-screen.json"
+  },
+  {
+   "name": "xp-bar",
+   "type": "component",
+   "title": "8-bit XP Bar",
+   "description": "A simple 8-bit XP bar component with level up animation",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.8bitcn.com/r/xp-bar.json"
+  }
+ ]
+}

@@ -21,7 +21,7 @@
     "not-applicable"
    ],
    "license": [
-    "unknown"
+    "not-applicable"
    ],
    "pricing": [
     "free",
@@ -36,7 +36,7 @@
     "print"
    ],
    "accessibility": [
-    "unknown"
+    "not-applicable"
    ],
    "content_type": [
     "images",
@@ -396,7 +396,13 @@
   "package": "@appica/ui-react",
   "docs_url": "https://appica.dev/ui/docs/react/installation",
   "repo_url": "https://github.com/appica-dev/appica-ui",
-  "registry_url": "https://appica.dev/llms.txt",
+  "registry_url": null,
+  "machine_urls": [
+   {
+    "kind": "llms-txt",
+    "url": "https://appica.dev/llms.txt"
+   }
+  ],
   "github": {
    "stars": 321,
    "license": "MIT",

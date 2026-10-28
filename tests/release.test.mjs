@@ -15,6 +15,7 @@ function validate(t, records, raw) {
   mkdirSync(join(root, "scripts"));
   mkdirSync(join(root, "data/entries"), { recursive: true });
   cpSync("scripts/validate.mjs", join(root, "scripts/validate.mjs"));
+  cpSync("app/lib/text.ts", join(root, "app/lib/text.ts"));
   cpSync("taxonomy", join(root, "taxonomy"), { recursive: true });
   if (records !== undefined || raw !== undefined) {
     writeFileSync(join(root, "data/entries/links-00.json"), raw ?? JSON.stringify(records));
@@ -24,12 +25,24 @@ function validate(t, records, raw) {
 
 test("valid records pass validation", (t) => assert.equal(validate(t, [valid]).status, 0));
 
+test("records may link twins and list machine URLs", (t) => {
+  const twin = { ...valid, id: "twin", slug: "twin", same_as: valid.id, machine_urls: [{ kind: "mcp", url: "https://example.com/mcp" }] };
+  assert.equal(validate(t, [valid, twin]).status, 0);
+});
+
+const portfolio = { ...valid, category: "portfolios", subcategory: "designer-portfolios", facets: { ...valid.facets, license: ["unknown"] } };
+
 for (const [name, records, raw] of [
   ["duplicate slugs", [valid, { ...valid, id: "duplicate" }]],
   ["duplicate IDs", [valid, { ...valid, slug: "duplicate" }]],
   ["unknown taxonomy values", [{ ...valid, components: ["not-a-component"] }]],
   ["missing quality tier", [{ ...valid, quality_tier: null }]],
   ["wrong field types", [{ ...valid, id: 123 }]],
+  ["templates stored as strings", [{ ...valid, templates: ["Landing page"] }]],
+  ["an unknown machine URL kind", [{ ...valid, machine_urls: [{ kind: "rss", url: "https://example.com/rss.xml" }] }]],
+  ["a link to a missing record", [{ ...valid, part_of: "missing" }]],
+  ["a same_as chain", [valid, { ...valid, id: "b", slug: "b", same_as: valid.id }, { ...valid, id: "c", slug: "c", same_as: "b" }]],
+  ["unknown on a facet the category never has", [portfolio]],
   ["non-object records", [null]],
   ["non-array files", {}],
   ["malformed JSON", undefined, "{"],

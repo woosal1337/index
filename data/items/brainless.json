@@ -1,0 +1,408 @@
+{
+ "resource_id": "c9c47dc7-e253-4101-be83-0f12521343c7",
+ "registry_url": "https://brainless.swerdlow.dev/r/registry.json",
+ "install_verified": true,
+ "checked": "2026-10-23",
+ "items": [
+  {
+   "name": "claude-diff",
+   "type": "ui",
+   "title": "Claude Diff",
+   "description": "An inline edit hunk with tinted +/- rows, line numbers, and off-screen added/removed labels.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://brainless.swerdlow.dev/r/claude-diff.json"
+  },
+  {
+   "name": "claude-header",
+   "type": "ui",
+   "title": "Claude Header",
+   "description": "Claude Code's welcome box — logo, tips, and model/cwd lines — with the title as a semantic fieldset legend.",
+   "component": "header",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://brainless.swerdlow.dev/r/claude-header.json"
+  },
+  {
+   "name": "claude-message",
+   "type": "ui",
+   "title": "Claude Message",
+   "description": "A conversation turn — Claude Code's ❯ chip for the user, plain text for the assistant.",
+   "component": "alert",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://brainless.swerdlow.dev/r/claude-message.json"
+  },
+  {
+   "name": "claude-permission",
+   "type": "ui",
+   "title": "Claude Permission",
+   "description": "The 'Do you want to proceed?' approval prompt as an arrow-key radiogroup.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://brainless.swerdlow.dev/r/claude-permission.json"
+  },
+  {
+   "name": "claude-prompt",
+   "type": "ui",
+   "title": "Claude Prompt",
+   "description": "The input composer — dual CSS rules around a real text input, effort chips (low ○ / medium ◐ / high ● / xhigh ◉ / max ◈ / ultracode ✦), and shift+tab modes (auto / manual / accept-edits / plan).",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://brainless.swerdlow.dev/r/claude-prompt.json"
+  },
+  {
+   "name": "claude-session",
+   "type": "block",
+   "title": "Claude Session",
+   "description": "A complete Claude Code screen: header, a full turn (plan, tool calls, diff, approval, working line) and the input composer.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://brainless.swerdlow.dev/r/claude-session.json"
+  },
+  {
+   "name": "claude-slash-menu",
+   "type": "ui",
+   "title": "Claude Slash Menu",
+   "description": "Slash-command palette above the real ClaudePrompt composer — type after / to filter, arrow keys to move.",
+   "component": "dropdown-menu",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://brainless.swerdlow.dev/r/claude-slash-menu.json"
+  },
+  {
+   "name": "claude-thinking",
+   "type": "ui",
+   "title": "Claude Thinking",
+   "description": "The working line — pulsing sparkle, rotating verb, elapsed/interrupt hint — as an aria-live status region.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://brainless.swerdlow.dev/r/claude-thinking.json"
+  },
+  {
+   "name": "claude-todo-list",
+   "type": "ui",
+   "title": "Claude Todo List",
+   "description": "The Update Todos block as a real list, with state labels and a struck-through done style.",
+   "component": "plan",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://brainless.swerdlow.dev/r/claude-todo-list.json"
+  },
+  {
+   "name": "claude-tool-call",
+   "type": "ui",
+   "title": "Claude Tool Call",
+   "description": "The ⏺ / ⎿ tool line as a real, keyboard-operable <details> disclosure.",
+   "component": "tool-call",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://brainless.swerdlow.dev/r/claude-tool-call.json"
+  },
+  {
+   "name": "codex-diff",
+   "type": "ui",
+   "title": "Codex Diff",
+   "description": "Codex's full-screen /diff pager — spaced DIFF title bar, unified git hunks, ~ fillers, and quit footer.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://brainless.swerdlow.dev/r/codex-diff.json"
+  },
+  {
+   "name": "codex-exec",
+   "type": "ui",
+   "title": "Codex Exec",
+   "description": "A Codex action/exec line with a status dot and expandable output, as a real <details> disclosure.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://brainless.swerdlow.dev/r/codex-exec.json"
+  },
+  {
+   "name": "codex-header",
+   "type": "ui",
+   "title": "Codex Header",
+   "description": "Codex CLI's monochrome launch card with its model / directory rows.",
+   "component": "header",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://brainless.swerdlow.dev/r/codex-header.json"
+  },
+  {
+   "name": "codex-message",
+   "type": "ui",
+   "title": "Codex Message",
+   "description": "A Codex conversation turn — bold › user marker or plain assistant text.",
+   "component": "alert",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://brainless.swerdlow.dev/r/codex-message.json"
+  },
+  {
+   "name": "codex-permissions",
+   "type": "ui",
+   "title": "Codex Permissions",
+   "description": "The /permissions chooser — numbered Default / Auto-review / Full Access options as a real radiogroup.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://brainless.swerdlow.dev/r/codex-permissions.json"
+  },
+  {
+   "name": "codex-prompt",
+   "type": "ui",
+   "title": "Codex Prompt",
+   "description": "Codex's › text input with warm model / green cwd status line and Plan mode tag (#bb9af7).",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://brainless.swerdlow.dev/r/codex-prompt.json"
+  },
+  {
+   "name": "codex-session",
+   "type": "block",
+   "title": "Codex Session",
+   "description": "A complete Codex CLI screen: header, a full turn (messages, exec lines, working) and the › composer.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://brainless.swerdlow.dev/r/codex-session.json"
+  },
+  {
+   "name": "codex-slash-menu",
+   "type": "ui",
+   "title": "Codex Slash Menu",
+   "description": "Slash-command palette under the real CodexPrompt composer — type after / to filter, arrow keys to move.",
+   "component": "dropdown-menu",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://brainless.swerdlow.dev/r/codex-slash-menu.json"
+  },
+  {
+   "name": "codex-working",
+   "type": "ui",
+   "title": "Codex Working",
+   "description": "Codex's Working line — a • bullet, grayscale shimmer on Working, and live elapsed/interrupt hint, as an aria-live status region.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://brainless.swerdlow.dev/r/codex-working.json"
+  },
+  {
+   "name": "grok-event",
+   "type": "ui",
+   "title": "Grok Event",
+   "description": "A ◆ diamond event line — Thought, user_prompt_submit, stop — with optional [hooks: N/M] badge.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://brainless.swerdlow.dev/r/grok-event.json"
+  },
+  {
+   "name": "grok-header",
+   "type": "ui",
+   "title": "Grok Header",
+   "description": "Grok CLI's launch card — the braille mark drawn as a crisp dot-matrix SVG with its resting grayscale-shimmer sweep (reduced-motion aware), build banner, and a start menu of real buttons.",
+   "component": "header",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://brainless.swerdlow.dev/r/grok-header.json"
+  },
+  {
+   "name": "grok-message",
+   "type": "ui",
+   "title": "Grok Message",
+   "description": "A Grok conversation turn — the ❯ user marker or plain assistant text, with optional wall-clock timestamp.",
+   "component": "alert",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://brainless.swerdlow.dev/r/grok-message.json"
+  },
+  {
+   "name": "grok-permission",
+   "type": "ui",
+   "title": "Grok Permission",
+   "description": "Grok's left-border approval card with (●)/(○) radios and a 1/3:select hint bar.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://brainless.swerdlow.dev/r/grok-permission.json"
+  },
+  {
+   "name": "grok-plan",
+   "type": "ui",
+   "title": "Grok Plan",
+   "description": "Grok's plan.md approval card — framed viewer, a/s/c/q actions, Waiting on plan approval, and plan-approval composer.",
+   "component": "plan",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://brainless.swerdlow.dev/r/grok-plan.json"
+  },
+  {
+   "name": "grok-project-picker",
+   "type": "ui",
+   "title": "Grok Project Picker",
+   "description": "Run Grok Build in a project directory? — left-border chooser with recent dirs and a free-text option.",
+   "component": "select",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://brainless.swerdlow.dev/r/grok-project-picker.json"
+  },
+  {
+   "name": "grok-prompt",
+   "type": "ui",
+   "title": "Grok Prompt",
+   "description": "Grok's rounded CSS-border composer with a real text input and model · mode legend (normal / plan / auto / always-approve / plan approval).",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://brainless.swerdlow.dev/r/grok-prompt.json"
+  },
+  {
+   "name": "grok-session",
+   "type": "block",
+   "title": "Grok Session",
+   "description": "A complete Grok CLI screen: status bar, header, and a full turn (events, thought, tools, write, approval, turn end) with the rounded composer.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://brainless.swerdlow.dev/r/grok-session.json"
+  },
+  {
+   "name": "grok-session-active",
+   "type": "block",
+   "title": "Grok Session Active",
+   "description": "A mid-turn Grok CLI screen: status bar, streaming thought, tool card, write preview, and the working footer with ⇣tokens / [stop].",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://brainless.swerdlow.dev/r/grok-session-active.json"
+  },
+  {
+   "name": "grok-settings",
+   "type": "ui",
+   "title": "Grok Settings",
+   "description": "Settings modal (F2) — Appearance / Mouse sections with ▸ rows, on/off values, and nested › pickers.",
+   "component": null,
+   "surface": "settings-web-app",
+   "dependencies": [],
+   "url": "https://brainless.swerdlow.dev/r/grok-settings.json"
+  },
+  {
+   "name": "grok-shortcuts",
+   "type": "ui",
+   "title": "Grok Shortcuts",
+   "description": "Keyboard Shortcuts modal (Ctrl+x) — nested ◆/› categories with key bindings.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://brainless.swerdlow.dev/r/grok-shortcuts.json"
+  },
+  {
+   "name": "grok-slash-menu",
+   "type": "ui",
+   "title": "Grok Slash Menu",
+   "description": "Slash-command overlay above the real GrokPrompt composer — ❯ active row, type after / to filter.",
+   "component": "dropdown-menu",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://brainless.swerdlow.dev/r/grok-slash-menu.json"
+  },
+  {
+   "name": "grok-status",
+   "type": "ui",
+   "title": "Grok Status",
+   "description": "Top status bar — branch glyph, cwd, context usage (16K / 500K), and optional turn progress (2/3 ✓).",
+   "component": null,
+   "surface": "status",
+   "dependencies": [],
+   "url": "https://brainless.swerdlow.dev/r/grok-status.json"
+  },
+  {
+   "name": "grok-thinking",
+   "type": "ui",
+   "title": "Grok Thinking",
+   "description": "Grok's idle working line — a braille spinner and rotating verb in amber, as an aria-live status region.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://brainless.swerdlow.dev/r/grok-thinking.json"
+  },
+  {
+   "name": "grok-thought",
+   "type": "ui",
+   "title": "Grok Thought",
+   "description": "Completed or streaming thought — ◆ Thought for 0.2s, or a bordered Thinking… body.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://brainless.swerdlow.dev/r/grok-thought.json"
+  },
+  {
+   "name": "grok-tool",
+   "type": "ui",
+   "title": "Grok Tool",
+   "description": "A Grok action — compact verb+path, or a ┃ ◆ card with [hooks: N].",
+   "component": "tool-call",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://brainless.swerdlow.dev/r/grok-tool.json"
+  },
+  {
+   "name": "grok-turn-end",
+   "type": "ui",
+   "title": "Grok Turn End",
+   "description": "Post-turn footer — Turn completed in 8.0s.",
+   "component": "message",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://brainless.swerdlow.dev/r/grok-turn-end.json"
+  },
+  {
+   "name": "grok-working",
+   "type": "ui",
+   "title": "Grok Working",
+   "description": "In-turn status line — Waiting for response… with elapsed, ⇣token count, and [stop].",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://brainless.swerdlow.dev/r/grok-working.json"
+  },
+  {
+   "name": "grok-write",
+   "type": "ui",
+   "title": "Grok Write",
+   "description": "Grok's inline write/edit chrome — line-numbered before/after inside a ┃ gutter, with optional hook ✓/✗ lines.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://brainless.swerdlow.dev/r/grok-write.json"
+  },
+  {
+   "name": "index",
+   "type": "block",
+   "title": "brainless",
+   "description": "Default brainless install — Claude, Codex, and Grok session blocks.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://brainless.swerdlow.dev/r/index.json"
+  },
+  {
+   "name": "pied-piper-onboarding",
+   "type": "block",
+   "title": "Pied Piper Onboarding",
+   "description": "An interactive sign-up flow — Pied Piper header, typed assistant lines, thinking between turns, and the Claude composer for name + intent.",
+   "component": null,
+   "surface": "onboarding-mobile",
+   "dependencies": [],
+   "url": "https://brainless.swerdlow.dev/r/pied-piper-onboarding.json"
+  }
+ ]
+}

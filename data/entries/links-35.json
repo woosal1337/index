@@ -20,7 +20,7 @@
     "not-applicable"
    ],
    "license": [
-    "unknown"
+    "not-applicable"
    ],
    "pricing": [
     "free",
@@ -236,7 +236,13 @@
   "package": null,
   "docs_url": "https://www.krea.ai/docs/developers/mcp",
   "repo_url": null,
-  "registry_url": "https://api.krea.ai/mcp",
+  "registry_url": null,
+  "machine_urls": [
+   {
+    "kind": "mcp",
+    "url": "https://api.krea.ai/mcp"
+   }
+  ],
   "github": {
    "stars": null,
    "license": null,
@@ -270,6 +276,7 @@
   "id": "244b5dfd-978d-447e-9e12-2c72993ff9f2",
   "slug": "hyperframes",
   "url": "https://github.com/heygen-com/hyperframes",
+  "same_as": "6d63a5d5-7517-41f2-be55-fe57d77e5fe4",
   "name": "HyperFrames",
   "tagline": "Apache-2.0 framework that renders HTML compositions to deterministic MP4, built for agents",
   "description": "HyperFrames is HeyGen's open-source video framework: a composition is a plain index.html with data attributes for timing, so it plays in a browser with no build step and renders frame-by-frame to MP4 through Puppeteer plus FFmpeg. Animation is adapter-based — bring GSAP, CSS animations, WAAPI, Lottie, Three.js or Anime.js — and rendering is deterministic, so the same input yields the same frames in CI. It ships as a monorepo of packages (@hyperframes/core, engine, producer, studio, player, sdk, shader-transitions, aws-lambda, gcp-cloud-run) plus a non-interactive CLI and a set of installable agent skills. The pitch is that agents already write HTML, so they can already write video.",
@@ -459,7 +466,13 @@
   "package": "hyperframes",
   "docs_url": "https://hyperframes.heygen.com/introduction",
   "repo_url": "https://github.com/heygen-com/hyperframes",
-  "registry_url": "https://hyperframes.heygen.com/llms.txt",
+  "registry_url": null,
+  "machine_urls": [
+   {
+    "kind": "llms-txt",
+    "url": "https://hyperframes.heygen.com/llms.txt"
+   }
+  ],
   "github": {
    "stars": 41065,
    "license": "Apache-2.0",
@@ -704,7 +717,13 @@
   "package": "hyperframes",
   "docs_url": "https://hyperframes.heygen.com/introduction",
   "repo_url": "https://github.com/heygen-com/hyperframes",
-  "registry_url": "https://hyperframes.heygen.com/llms.txt",
+  "registry_url": null,
+  "machine_urls": [
+   {
+    "kind": "llms-txt",
+    "url": "https://hyperframes.heygen.com/llms.txt"
+   }
+  ],
   "github": {
    "stars": 41065,
    "license": "Apache-2.0",
@@ -805,7 +824,13 @@
   "package": "@higgsfield/cli",
   "docs_url": "https://higgsfield.ai/mcp",
   "repo_url": null,
-  "registry_url": "https://mcp.higgsfield.ai/mcp",
+  "registry_url": null,
+  "machine_urls": [
+   {
+    "kind": "mcp",
+    "url": "https://mcp.higgsfield.ai/mcp"
+   }
+  ],
   "github": {
    "stars": null,
    "license": null,

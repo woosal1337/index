@@ -1,0 +1,89 @@
+{
+ "resource_id": "1ea7a842-094a-47bb-8e99-7dc0a7774453",
+ "registry_url": "https://sitesearch.algolia.com/r/registry.json",
+ "install_verified": true,
+ "checked": "2026-10-23",
+ "items": [
+  {
+   "name": "dropdown-search",
+   "type": "block",
+   "title": "Algolia dropdown search experience",
+   "description": "Inline autocomplete dropdown search experience, powered by Algolia's InstantSearch",
+   "component": "select",
+   "surface": "search-mobile",
+   "dependencies": [
+    "algoliasearch@^5",
+    "react-instantsearch@^7.16.2",
+    "lucide-react",
+    "@radix-ui/react-popover"
+   ],
+   "url": "https://sitesearch.algolia.com/r/dropdown-search.json"
+  },
+  {
+   "name": "highlight-to-askai",
+   "type": "block",
+   "title": "Highlight to Ask AI [Experimental]",
+   "description": "🚧 [Experimental] Highlight any text and ask Algolia Ask AI with an inline tooltip",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@floating-ui/react",
+    "@ai-sdk/react@^2.0.4",
+    "ai@^5.0.30",
+    "lucide-react",
+    "marked"
+   ],
+   "url": "https://sitesearch.algolia.com/r/highlight-to-askai.json"
+  },
+  {
+   "name": "search",
+   "type": "block",
+   "title": "Algolia crafted search experience",
+   "description": "Opinionated site search experience, powered by Algolia's InstantSearch",
+   "component": "search-input",
+   "surface": "search-mobile",
+   "dependencies": [
+    "algoliasearch@^5",
+    "react-instantsearch@^7.16.2",
+    "lucide-react",
+    "tw-animate-css"
+   ],
+   "url": "https://sitesearch.algolia.com/r/search.json"
+  },
+  {
+   "name": "search-ai",
+   "type": "block",
+   "title": "Search with Ask AI",
+   "description": "Opinionated search experience with Ask AI, powered by Algolia's InstantSearch and Ask AI",
+   "component": "search-input",
+   "surface": "search-mobile",
+   "dependencies": [
+    "@ai-sdk/react@^2.0.4",
+    "ai@^5.0.30",
+    "algoliasearch@^5",
+    "react-instantsearch@^7.16.2",
+    "tw-animate-css",
+    "lucide-react",
+    "marked"
+   ],
+   "url": "https://sitesearch.algolia.com/r/search-ai.json"
+  },
+  {
+   "name": "sidepanel-askai",
+   "type": "block",
+   "title": "Sidepanel Ask AI",
+   "description": "Sidepanel chat experience with Ask AI, powered by Algolia's Ask AI",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@ai-sdk/react@^2.0.4",
+    "ai@^5.0.30",
+    "algoliasearch@^5",
+    "lucide-react",
+    "marked",
+    "tw-animate-css"
+   ],
+   "url": "https://sitesearch.algolia.com/r/sidepanel-askai.json"
+  }
+ ]
+}

@@ -1,0 +1,770 @@
+{
+ "resource_id": "9fb4e86c-9d11-47ea-a3e0-9fb7c2ee560e",
+ "registry_url": "https://www.fluidfunctionalism.com/r/registry.json",
+ "install_verified": false,
+ "checked": "2026-10-23",
+ "items": [
+  {
+   "name": "accordion",
+   "type": "ui",
+   "title": "Accordion",
+   "description": "Collapsible accordion with animated height transitions, spring-animated chevron, and fluid hover in grouped mode. Built on Radix UI Accordion.",
+   "component": "accordion",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@radix-ui/react-accordion",
+    "lucide-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "ask-user-questions",
+   "type": "ui",
+   "title": "Ask User Questions",
+   "description": "Stepped question flow with numbered options, keyboard shortcuts (1–9), single or multi-select, inline 'other' text input, optional skip, fluid hover, and multi-question navigation. Auto-advances on selection in single-select.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@base-ui/react@^1.9.0"
+   ],
+   "url": null
+  },
+  {
+   "name": "badge",
+   "type": "ui",
+   "title": "Badge",
+   "description": "Compact label with solid and dot variants, Tailwind color palette, and three sizes.",
+   "component": "badge",
+   "surface": null,
+   "dependencies": [
+    "class-variance-authority"
+   ],
+   "url": null
+  },
+  {
+   "name": "banner",
+   "type": "ui",
+   "title": "Banner",
+   "description": "Status message built from parts (Banner, BannerTitle, BannerDescription, BannerActions, BannerAction): 5 statuses (filled glyphs for info, success, warning and error; the icon set's outline info icon for default), low or high contrast, primary, secondary and ghost actions (the library Button) that trail a one-line banner (primary at the edge) and drop under a description (primary first), a dismiss that collapses its height, and a fixed variant that sticks full-bleed to the top of the page.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "base/accordion",
+   "type": "ui",
+   "title": "Accordion (Base UI)",
+   "description": "Collapsible accordion with animated height transitions, spring-animated chevron, and fluid hover in grouped mode. Base UI flavor.",
+   "component": "accordion",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@base-ui/react@^1.9.0",
+    "lucide-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "base/button",
+   "type": "ui",
+   "title": "Button (Base UI)",
+   "description": "Animated button with variants (primary, secondary, tertiary, ghost), icon support, loading spinner, and fluid font-weight transitions on hover. Base UI flavor.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@base-ui/react@^1.9.0",
+    "class-variance-authority",
+    "lucide-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "base/checkbox-group",
+   "type": "ui",
+   "title": "Checkbox Group (Base UI)",
+   "description": "Animated checkbox group with fluid hover, contiguous selection merging, and spring-animated check marks. Base UI flavor.",
+   "component": "checkbox-group",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@base-ui/react@^1.9.0"
+   ],
+   "url": null
+  },
+  {
+   "name": "base/combobox",
+   "type": "ui",
+   "title": "Combobox",
+   "description": "Type-to-filter combobox with single or multiple (chips, merged selection backgrounds) selection: a text field that filters a list as you type, with keyboard highlight, fluid hover, spring-animated popover, animated checkmark, and clear/chevron controls. Optional create-from-query row (onCreate) and hideSelected for chips fields. Base UI flavor.",
+   "component": "combobox",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react@^1.9.0",
+    "motion",
+    "class-variance-authority",
+    "lucide-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "base/dialog",
+   "type": "ui",
+   "title": "Dialog (Base UI)",
+   "description": "Animated modal dialog with spring-based scale and opacity transitions in three widths (sm, lg, and an xl canvas for composed layouts such as a sidebar), plus a container prop to scope it to a region. Base UI flavor.",
+   "component": "modal",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@base-ui/react@^1.9.0",
+    "lucide-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "base/dropdown",
+   "type": "ui",
+   "title": "Dropdown",
+   "description": "Dropdown menu with fluid hover, animated selection indicator, inline panel or triggered popup with collision-aware positioning, typeahead, and close-on-select. Includes MenuItem, DropdownSearch (a search field inside the popup), submenus (DropdownSub) whose trigger row stays lit across the safe area, and multiple selection with merged backgrounds. Base UI flavor.",
+   "component": "select",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react@^1.9.0",
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "base/mobile-drawer",
+   "type": "ui",
+   "title": "Mobile Drawer",
+   "description": "Slide-in navigation drawer with scrim, focus trap, and scroll lock. Base UI flavor.",
+   "component": "drawer",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react@^1.9.0",
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "base/radio-group",
+   "type": "ui",
+   "title": "Radio Group (Base UI)",
+   "description": "Animated radio group with fluid hover, spring-animated selection dot. Base UI flavor.",
+   "component": "radio-group",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@base-ui/react@^1.9.0"
+   ],
+   "url": null
+  },
+  {
+   "name": "base/scroll-area",
+   "type": "ui",
+   "title": "Scroll Area (Base UI)",
+   "description": "Scroll container with a restyled overlay scrollbar that stays discoverable on hover and follows the shape system. Falls back to native overflow scrolling on touch-primary devices. Base UI flavor; adapted from Lina (https://lina.sameer.sh).",
+   "component": "scroll-area",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react@^1.9.0"
+   ],
+   "url": null
+  },
+  {
+   "name": "base/select",
+   "type": "ui",
+   "title": "Select",
+   "description": "Animated select menu with collision-aware positioning, typeahead, fluid hover, spring-animated popover, and animated checkmark. Base UI flavor.",
+   "component": "select",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react@^1.9.0",
+    "motion",
+    "class-variance-authority",
+    "lucide-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "base/sidebar",
+   "type": "ui",
+   "title": "Sidebar",
+   "description": "Refined, composable app sidebar with offcanvas collapse, floating and inset variants, a mobile drawer, cookie-persisted state, keyboard shortcut, and fluid-hover menus with traveling selection, hover, and focus indicators. Base UI flavor.",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react@^1.9.0",
+    "motion",
+    "lucide-react",
+    "class-variance-authority"
+   ],
+   "url": null
+  },
+  {
+   "name": "base/slider",
+   "type": "ui",
+   "title": "Slider (Base UI)",
+   "description": "Animated slider with spring-snapped thumb, step dots, range mode, and click-to-edit value display. Base UI flavor.",
+   "component": "slider",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@base-ui/react@^1.9.0"
+   ],
+   "url": null
+  },
+  {
+   "name": "base/switch",
+   "type": "ui",
+   "title": "Switch (Base UI)",
+   "description": "Animated toggle switch with spring-based thumb animation and fluid font-weight label transitions. Base UI flavor.",
+   "component": "switch",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@base-ui/react@^1.9.0"
+   ],
+   "url": null
+  },
+  {
+   "name": "base/tabs",
+   "type": "ui",
+   "title": "Tabs (Base UI)",
+   "description": "Segmented control tabs with sliding active indicator, fluid hover, and spring animations. Base UI flavor.",
+   "component": "tabs",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@base-ui/react@^1.9.0",
+    "lucide-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "base/tabs-subtle",
+   "type": "ui",
+   "title": "Tabs Subtle",
+   "description": "Horizontal tab navigation with fluid hover, animated pill selection indicator, and fluid font-weight transitions. Base UI flavor.",
+   "component": "tabs",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react@^1.9.0",
+    "motion",
+    "lucide-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "base/thinking-steps",
+   "type": "ui",
+   "title": "Thinking Steps",
+   "description": "Collapsible AI reasoning steps with animated expand/collapse, per-step icons, sources, and nested details. Base UI flavor.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react@^1.9.0",
+    "motion",
+    "lucide-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "base/tooltip",
+   "type": "ui",
+   "title": "Tooltip (Base UI)",
+   "description": "Floating tooltip with spring-based animations, configurable placement, and rich content support. Base UI flavor.",
+   "component": "tooltip",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@base-ui/react@^1.9.0"
+   ],
+   "url": null
+  },
+  {
+   "name": "button",
+   "type": "ui",
+   "title": "Button",
+   "description": "Animated button with variants (primary, secondary, tertiary, ghost), icon support, loading spinner, and fluid font-weight transitions on hover.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@radix-ui/react-slot",
+    "class-variance-authority",
+    "lucide-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "card",
+   "type": "ui",
+   "title": "Card",
+   "description": "shadcn's compositional card (Card, CardHeader, CardTitle, CardDescription, CardAction, CardContent, CardFooter) with the Fluid Functionalism layer: transparent substrate, weight-animated title, media/logo/feature/image slots, and a CardGroup that owns stacked, inline, and grid layouts plus 2-D fluid-hover highlighting.",
+   "component": "card",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "carousel-dots",
+   "type": "ui",
+   "title": "Carousel Dots",
+   "description": "Carousel dots, static or on autoplay: fluid-hover click areas, and a current pill that fills over each slide's duration.",
+   "component": "carousel",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "chat-message",
+   "type": "ui",
+   "title": "Chat Message",
+   "description": "A single chat transcript entry with baked-in entrance and layout motion. Right-aligned accent bubble for the user, left-aligned muted bubble for the assistant, with optional file attachments. Adapts to the global shape setting.",
+   "component": "message",
+   "surface": "chat-mobile",
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "checkbox-group",
+   "type": "ui",
+   "title": "Checkbox Group",
+   "description": "Animated checkbox group with fluid hover, contiguous selection merging, and spring-animated check marks. Built on Radix UI Checkbox.",
+   "component": "checkbox-group",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@radix-ui/react-checkbox"
+   ],
+   "url": null
+  },
+  {
+   "name": "color-picker",
+   "type": "ui",
+   "title": "Color Picker",
+   "description": "Color picker with HEX, RGB, HSL, and OKLCH formats, alpha channel, optional swatches, and a popover trigger. Built on Base UI's Popover, Menu, and NumberField primitives with native EyeDropper support.",
+   "component": "color-picker",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react@^1.9.0",
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "combobox",
+   "type": "ui",
+   "title": "Combobox",
+   "description": "Type-to-filter combobox with single or multiple (chips, merged selection backgrounds) selection: a text field that filters a list as you type, with keyboard highlight, fluid hover, spring-animated popover, animated checkmark, and clear/chevron controls. Optional create-from-query row (onCreate) and hideSelected for chips fields. Radix flavor (Popover + hand-rolled listbox).",
+   "component": "combobox",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-popover",
+    "motion",
+    "class-variance-authority",
+    "lucide-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "command-menu",
+   "type": "ui",
+   "title": "Command Menu",
+   "description": "Search field over a list of actions: type to filter, arrows to move the fluid hover highlight, Enter to run. Grouped rows with icons, descriptions, and shortcut caps; suggestions listed first while nothing is typed; subtle tabs or a borderless filter bar under the field; and a dialog shell opened by a global shortcut (default ⌘K / Ctrl+K). The list needs no primitive; the dialog is the library's Dialog in either flavor.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "lucide-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "dialog",
+   "type": "ui",
+   "title": "Dialog",
+   "description": "Animated modal dialog with spring-based scale and opacity transitions in three widths (sm, lg, and an xl canvas for composed layouts such as a sidebar), plus a container prop to scope it to a region. Built on Radix UI Dialog with overlay, header, footer, title, and description sub-components.",
+   "component": "modal",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@radix-ui/react-dialog",
+    "lucide-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "dialog-sidebar",
+   "type": "block",
+   "title": "Settings Dialog (Sidebar in a Dialog)",
+   "description": "A settings dialog: the xl Dialog as a canvas, a non-collapsing Sidebar of sections down its left edge, and a scrolling panel of controls — switches, selects, and an input group. Below the sm breakpoint a Select takes over navigation.",
+   "component": "modal",
+   "surface": "settings-web-app",
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "dropdown",
+   "type": "ui",
+   "title": "Dropdown",
+   "description": "Dropdown menu with fluid hover, animated selection indicator, inline panel or triggered popup with collision-aware positioning, typeahead, and close-on-select. Includes MenuItem, DropdownSearch (a search field inside the popup), submenus (DropdownSub) whose trigger row stays lit across the safe area, and multiple selection with merged backgrounds. Radix flavor.",
+   "component": "select",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-dropdown-menu",
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "file-thumbnail",
+   "type": "ui",
+   "title": "File Thumbnail",
+   "description": "Read-only square preview of a File. Images render via object-cover; PDFs render their first page via pdfjs; a spinner shows while either resolves. Adapts its corner radius to the global shape setting.",
+   "component": "file-card",
+   "surface": null,
+   "dependencies": [
+    "pdfjs-dist"
+   ],
+   "url": null
+  },
+  {
+   "name": "input-copy",
+   "type": "ui",
+   "title": "Input Copy",
+   "description": "Read-only input with a copy-to-clipboard button and animated check feedback. Supports optional label and shape context.",
+   "component": "text-input",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "lucide-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "input-group",
+   "type": "ui",
+   "title": "Input Group",
+   "description": "Grouped input fields with fluid hover highlighting, animated label transitions, optional icons, and error states.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "@base-ui/react@^1.9.0"
+   ],
+   "url": null
+  },
+  {
+   "name": "input-message",
+   "type": "ui",
+   "title": "Input Message",
+   "description": "Chat-style message composer with auto-resizing textarea, drag-and-drop file attachments (PNG / JPEG / PDF), flexible left/right action slots, and a built-in send button on a Surface-2 substrate.",
+   "component": "text-input",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "mobile-drawer",
+   "type": "ui",
+   "title": "Mobile Drawer",
+   "description": "Slide-in navigation drawer with scrim, focus trap, and scroll lock. Radix flavor.",
+   "component": "drawer",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-dialog",
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "queued-stack",
+   "type": "block",
+   "title": "Queued message stack",
+   "description": "Sonner-style stack of queued composer messages: collapsed cards fan out on hover (tap on touch), drag to reorder, a gutter arrow counts the overflow, edit/remove per card, and a shared-layout morph into the sent message.",
+   "component": "stack",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "lucide-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "radio-group",
+   "type": "ui",
+   "title": "Radio Group",
+   "description": "Animated radio group with fluid hover, spring-animated selection dot, and optional Radix UI integration. Supports both controlled index and value-based APIs.",
+   "component": "radio-group",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@radix-ui/react-radio-group"
+   ],
+   "url": null
+  },
+  {
+   "name": "reveal",
+   "type": "item",
+   "title": "Reveal",
+   "description": "Page reveals in 1 class, on the existing spring tiers: slow for landing, moderate for product. .reveal-landing for a page read once: the hero rises and scales in on load, later sections do on scroll, and every section leaves the same way at the top; .reveal-scroll makes a deeper element, like a grid card, a section of its own. .reveal-product for the app: blocks fade in on load, nothing on scroll. Each has a -subtle step. For slow data, .reveal-swap crossfades shadcn's Skeleton into the real block and .reveal-items brings rows in one by one. Pure CSS; reduced motion keeps the fades and drops the rest.",
+   "component": "scroll-reveal",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "scroll-area",
+   "type": "ui",
+   "title": "Scroll Area",
+   "description": "Scroll container with a restyled overlay scrollbar that stays discoverable on hover and follows the shape system. Falls back to native overflow scrolling on touch-primary devices. Built on Radix UI Scroll Area; adapted from Lina (https://lina.sameer.sh).",
+   "component": "scroll-area",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-scroll-area"
+   ],
+   "url": null
+  },
+  {
+   "name": "select",
+   "type": "ui",
+   "title": "Select",
+   "description": "Animated select menu with collision-aware positioning, typeahead, fluid hover, spring-animated popover, and animated checkmark. Radix flavor.",
+   "component": "select",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-select",
+    "motion",
+    "class-variance-authority",
+    "lucide-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "sidebar",
+   "type": "ui",
+   "title": "Sidebar",
+   "description": "Refined, composable app sidebar with offcanvas collapse, floating and inset variants, a mobile drawer, cookie-persisted state, keyboard shortcut, and fluid-hover menus with traveling selection, hover, and focus indicators. Radix flavor.",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-dialog",
+    "motion",
+    "lucide-react",
+    "class-variance-authority"
+   ],
+   "url": null
+  },
+  {
+   "name": "sidebar-app",
+   "type": "block",
+   "title": "App Sidebar",
+   "description": "A complete app shell: workspace header with the peek cross-fade, search on the menu rows' rhythm with a hover-revealed shortcut chip, collapsible sections with label actions and badges, a user footer, and an inset topbar whose trigger fades back in at its settled position after a pin.",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "sidebar-inset-topbar",
+   "type": "block",
+   "title": "Sidebar Inset Topbar",
+   "description": "The main region's topbar: h-12 with the trigger that hides while the rail peeks and fades back in at its settled spot after a pin.",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "sidebar-search-field",
+   "type": "block",
+   "title": "Sidebar Search Field",
+   "description": "Header search on the menu rows' rhythm: leading icon on the rows' 16px axis, text on the 32px axis, and a hover-revealed keystroke chip at the trailing edge.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "sidebar-user-footer",
+   "type": "block",
+   "title": "Sidebar User Footer",
+   "description": "Footer identity row: a 20px avatar centred on the rows' leading icon axis, chevron on the trailing action axis, and an upward user menu on the shared sidebar grid so its rows align with the trigger exactly.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "sidebar-workspace-header",
+   "type": "block",
+   "title": "Sidebar Workspace Header",
+   "description": "Workspace brand row for a sidebar header: 20px tile on the rows' leading axis, name pinned to the 32px text axis, trigger cross-fading into the tile's slot while the collapsed rail peeks, and a trigger-width switcher menu on the shared sidebar grid.",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "slider",
+   "type": "ui",
+   "title": "Slider",
+   "description": "Animated slider with spring-snapped thumb, step dots, range mode, and click-to-edit value display. Built on Radix UI Slider.",
+   "component": "slider",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@radix-ui/react-slider"
+   ],
+   "url": null
+  },
+  {
+   "name": "surfaces",
+   "type": "theme",
+   "title": "Surfaces",
+   "description": "Eight-level surface and shadow ladder for elevation. Light: two color steps then flat white, differentiated by shadow. Dark: additive white-opacity ladder with layered inset highlights and drops.",
+   "component": "box",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "switch",
+   "type": "ui",
+   "title": "Switch",
+   "description": "Animated toggle switch with spring-based thumb animation and fluid font-weight label transitions. Built on Radix UI Switch.",
+   "component": "switch",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@radix-ui/react-switch"
+   ],
+   "url": null
+  },
+  {
+   "name": "table",
+   "type": "ui",
+   "title": "Table",
+   "description": "Animated table with fluid hover row highlighting and fluid border transitions. Includes TableHeader, TableBody, TableRow, TableHead, and TableCell sub-components.",
+   "component": "table",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "tabs",
+   "type": "ui",
+   "title": "Tabs",
+   "description": "Segmented control tabs with sliding active indicator, fluid hover, and spring animations. Built on Radix UI Tabs.",
+   "component": "tabs",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@radix-ui/react-tabs",
+    "lucide-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "tabs-subtle",
+   "type": "ui",
+   "title": "Tabs Subtle",
+   "description": "Horizontal tab navigation with fluid hover, animated pill selection indicator, and fluid font-weight transitions. Radix flavor.",
+   "component": "tabs",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-tabs",
+    "motion",
+    "lucide-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "thinking-indicator",
+   "type": "ui",
+   "title": "Thinking Indicator",
+   "description": "Animated loading indicator with morphing SVG path (circle to infinity loop) and shimmer text rotation. Cycles through customizable status words.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "thinking-steps",
+   "type": "ui",
+   "title": "Thinking Steps",
+   "description": "Collapsible AI reasoning steps with animated expand/collapse, per-step icons, sources, and nested details. Radix flavor.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-collapsible",
+    "motion",
+    "lucide-react"
+   ],
+   "url": null
+  },
+  {
+   "name": "tokens",
+   "type": "theme",
+   "title": "Interaction Tokens",
+   "description": "Shared interaction-state tokens: surface-relative hover/active overlays (bg-hover, bg-active), the selected fill, the see-through secondary-button tint (--tint, --tint-hover), the destructive-light ground, the --overlay RGB triplet, the --focus-ring color, and the base-layer :focus-visible fallback ring.",
+   "component": "chip",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "tooltip",
+   "type": "ui",
+   "title": "Tooltip",
+   "description": "Floating tooltip with spring-based animations, configurable placement, and rich content support.",
+   "component": "tooltip",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@radix-ui/react-tooltip"
+   ],
+   "url": null
+  },
+  {
+   "name": "type-scale",
+   "type": "item",
+   "title": "Type Scale",
+   "description": "Six type roles (display, title, subtitle, body, caption, micro), each a font size and a line height, at the default and compact steps of the size ladder. Adds text-<role> utilities and the --fs-* / --lh-* variables components read.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "typography",
+   "type": "item",
+   "title": "Typography",
+   "description": "The type scale and prose styles in one install. size-context brings the 6 roles, typeClass(), and the --fs-* / --lh-* tokens; the prose styles set rendered markdown and rich-text editors (Tiptap works as is) in those roles: wrap content in .typeset, and h1 is display in bold, h2 title, h3 to h6 subtitle, paragraphs body in the muted color, figcaption and code caption. Zero specificity inside @layer components, so any utility wins; .not-typeset opts a subtree out; spacing only above elements, so streamed content never reflows. Add .typeset-compact for the compact step.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  }
+ ]
+}

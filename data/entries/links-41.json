@@ -166,7 +166,8 @@
     "css-variables"
    ],
    "license": [
-    "mit"
+    "mit",
+    "commercial"
    ],
    "pricing": [
     "free",
@@ -411,7 +412,13 @@
   "package": null,
   "docs_url": "https://svgl.app/docs/api",
   "repo_url": "https://github.com/pheralb/svgl",
-  "registry_url": "https://api.svgl.app",
+  "registry_url": null,
+  "machine_urls": [
+   {
+    "kind": "api",
+    "url": "https://api.svgl.app"
+   }
+  ],
   "github": {
    "stars": 6241,
    "license": "MIT",
@@ -726,6 +733,7 @@
   "id": "48d3a01a-c457-460d-b6e1-9de30d83eb22",
   "slug": "nexu-open-design",
   "url": "https://github.com/nexu-io/open-design",
+  "same_as": "b1a38147-03f3-428a-bec3-b9cdd39c409b",
   "name": "Open Design",
   "tagline": "Local-first desktop app that turns a coding agent into a design engine",
   "description": "Open Design is an Apache-2.0, local-first Electron desktop app positioned as the open-source alternative to Claude Design. It drives whichever coding CLI you already have — Claude Code, Codex, Cursor, OpenCode, DeepSeek Harness and 20+ others via BYOK — to produce prototypes, landing pages, dashboards, slide decks, images and video, and it exports real files: HTML, PDF, PPTX, MP4. Every output reads from an active DESIGN.md brand contract, and the repo ships 152 named design-system packages (Stripe, Linear, Vercel, Notion, Apple, plus style families like brutalism, neumorphism, editorial) and 114 design templates. It runs as a macOS or Windows desktop build, under Docker, or self-hosted on the web.",
@@ -751,7 +759,7 @@
    "pricing": [
     "free",
     "open-source",
-    "account-required"
+    "subscription"
    ],
    "distribution": [
     "desktop-app",

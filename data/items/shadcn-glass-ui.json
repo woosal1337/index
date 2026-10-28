@@ -1,0 +1,738 @@
+{
+ "resource_id": "d25bb7e9-f4f1-4014-b766-5924f92b3281",
+ "registry_url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/registry.json",
+ "install_verified": true,
+ "checked": "2026-10-23",
+ "items": [
+  {
+   "name": "ai-card-glass",
+   "type": "block",
+   "title": "Ai Card Glass",
+   "description": "AI-themed interactive card with feature list and generate button.\n * Designed for AI analysis, report generation, and ML-powered features.\n *\n * ## Features",
+   "component": "card",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/ai-card-glass.json"
+  },
+  {
+   "name": "alert-glass",
+   "type": "ui",
+   "title": "Alert Glass",
+   "description": "Glass-themed alert with:",
+   "component": "alert",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/alert-glass.json"
+  },
+  {
+   "name": "animated-background-glass",
+   "type": "component",
+   "title": "Animated Background Glass",
+   "description": "Animated gradient background with floating orbs for glassmorphism UIs.\n * Provides an immersive atmosphere with theme-aware styling.\n *\n * ## Features",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/animated-background-glass.json"
+  },
+  {
+   "name": "avatar-glass",
+   "type": "ui",
+   "title": "Avatar Glass",
+   "description": "Glass-themed avatar with:",
+   "component": "avatar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/avatar-glass.json"
+  },
+  {
+   "name": "badge-glass",
+   "type": "ui",
+   "title": "Badge Glass",
+   "description": "Glass-themed badge with:",
+   "component": "badge",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/badge-glass.json"
+  },
+  {
+   "name": "base-progress-glass",
+   "type": "component",
+   "title": "Base Progress Glass",
+   "description": "Base progress bar component used as foundation for:",
+   "component": "progress-bar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/base-progress-glass.json"
+  },
+  {
+   "name": "button-glass",
+   "type": "ui",
+   "title": "Button Glass",
+   "description": "Glass-themed button with:",
+   "component": "button",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/button-glass.json"
+  },
+  {
+   "name": "card-glass",
+   "type": "ui",
+   "title": "Card Glass",
+   "description": "CardGlass Compound Component",
+   "component": "card",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/card-glass.json"
+  },
+  {
+   "name": "career-stats-glass",
+   "type": "block",
+   "title": "Career Stats Glass",
+   "description": "Career Stats Glass component with glass effects",
+   "component": "stat",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/career-stats-glass.json"
+  },
+  {
+   "name": "career-stats-header-glass",
+   "type": "block",
+   "title": "Career Stats Header Glass",
+   "description": "Career Stats Header Glass component with glass effects",
+   "component": "stat",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/career-stats-header-glass.json"
+  },
+  {
+   "name": "checkbox-glass",
+   "type": "ui",
+   "title": "Checkbox Glass",
+   "description": "Glass-themed checkbox built on Radix UI primitives with:",
+   "component": "checkbox",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/checkbox-glass.json"
+  },
+  {
+   "name": "circular-metric-glass",
+   "type": "block",
+   "title": "Circular Metric Glass",
+   "description": "Compact circular progress metric display optimized for mobile layouts.\n * Combines CircularProgressGlass with a label for space-efficient metric visualization.\n *\n * ## Features",
+   "component": "stat",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/circular-metric-glass.json"
+  },
+  {
+   "name": "circular-progress-glass",
+   "type": "ui",
+   "title": "Circular Progress Glass",
+   "description": "SVG-based circular progress indicator with gradient colors and glow effects.\n * Supports both determinate (0-100%) and indeterminate (spinner) variants.\n *\n * ## Features",
+   "component": "spinner",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/circular-progress-glass.json"
+  },
+  {
+   "name": "combobox-glass",
+   "type": "ui",
+   "title": "Combobox Glass",
+   "description": "Glass-themed combobox (searchable select) combining autocomplete and dropdown functionality.\n * Built on Radix UI Popover and cmdk for robust keyboard navigation and filtering.\n *\n * ## Features",
+   "component": "combobox",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/combobox-glass.json"
+  },
+  {
+   "name": "contribution-metrics-glass",
+   "type": "block",
+   "title": "Contribution Metrics Glass",
+   "description": "Repository contribution metrics grid displaying user and project statistics.\n * Extracted from RepositoryCardGlass for reusable contribution displays.\n *\n * ## Features",
+   "component": "stat",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/contribution-metrics-glass.json"
+  },
+  {
+   "name": "dropdown-glass",
+   "type": "ui",
+   "title": "Dropdown Glass",
+   "description": "Glass-themed dropdown menu with simple and compound APIs for maximum flexibility.\n * Wrapper around DropdownMenuGlass for quick menu creation.\n *\n * ## Features",
+   "component": "select",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/dropdown-glass.json"
+  },
+  {
+   "name": "dropdown-menu-glass",
+   "type": "ui",
+   "title": "Dropdown Menu Glass",
+   "description": "DropdownMenuGlass - Compound Component",
+   "component": "dropdown-menu",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/dropdown-menu-glass.json"
+  },
+  {
+   "name": "expandable-header-glass",
+   "type": "component",
+   "title": "Expandable Header Glass",
+   "description": "Collapsible section header with animated chevron for accordion-style interfaces.\n * Provides accessible expand/collapse controls with theme-aware styling.\n *\n * ## Features",
+   "component": "accordion",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/expandable-header-glass.json"
+  },
+  {
+   "name": "flag-alert-glass",
+   "type": "component",
+   "title": "Flag Alert Glass",
+   "description": "Flag Alert Glass component with glass effects",
+   "component": "alert",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/flag-alert-glass.json"
+  },
+  {
+   "name": "flags-section-glass",
+   "type": "block",
+   "title": "Flags Section Glass",
+   "description": "Flags Section Glass component with glass effects",
+   "component": "alert",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/flags-section-glass.json"
+  },
+  {
+   "name": "glass-card",
+   "type": "ui",
+   "title": "Glass Card",
+   "description": "Glass-themed container with backdrop blur, glow effects, and hover animations.\n * Provides a foundational card component for glassmorphism UIs.\n *\n * ## Features",
+   "component": "card",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/glass-card.json"
+  },
+  {
+   "name": "header-branding-glass",
+   "type": "block",
+   "title": "Header Branding Glass",
+   "description": "Header Branding Glass component with glass effects",
+   "component": "header",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/header-branding-glass.json"
+  },
+  {
+   "name": "header-nav-glass",
+   "type": "block",
+   "title": "Header Nav Glass",
+   "description": "Header Nav Glass component with glass effects",
+   "component": "header",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/header-nav-glass.json"
+  },
+  {
+   "name": "hover-card-glass",
+   "type": "ui",
+   "title": "Hover Card Glass",
+   "description": "Hover-triggered floating glass-themed container for rich content previews.\n * Unlike PopoverGlass (click-triggered), HoverCardGlass opens on hover after a configurable delay.\n *\n * ## Features",
+   "component": "hover-card",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/hover-card-glass.json"
+  },
+  {
+   "name": "icon-button-glass",
+   "type": "component",
+   "title": "Icon Button Glass",
+   "description": "Icon-only button with glassmorphism styling and touch-friendly sizing.\n * Perfect for toolbar actions, header controls, and compact interfaces.\n *\n * ## Features",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/icon-button-glass.json"
+  },
+  {
+   "name": "input-glass",
+   "type": "ui",
+   "title": "Input Glass",
+   "description": "Glass-themed input with:",
+   "component": "text-input",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/input-glass.json"
+  },
+  {
+   "name": "insight-card-glass",
+   "type": "component",
+   "title": "Insight Card Glass",
+   "description": "Versatile insight display component with emoji icons, text, and optional interactivity.\n * Supports 7 semantic variants with distinct styling and multiple display modes for dashboards,\n * analytics, and feedback interfaces.\n *\n * ## Features",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/insight-card-glass.json"
+  },
+  {
+   "name": "language-bar-glass",
+   "type": "component",
+   "title": "Language Bar Glass",
+   "description": "Custom color for the language segment.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/language-bar-glass.json"
+  },
+  {
+   "name": "metric-card-glass",
+   "type": "block",
+   "title": "Metric Card Glass",
+   "description": "Rich metric display card with progress bars, sparklines, and trend indicators.\n * Follows shadcn/ui variant system with Glass UI extensions for data visualization.\n *\n * ## Features",
+   "component": "stat",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/metric-card-glass.json"
+  },
+  {
+   "name": "metrics-grid-glass",
+   "type": "block",
+   "title": "Metrics Grid Glass",
+   "description": "Responsive grid layout for displaying multiple MetricCardGlass components.\n * Extracted from TrustScoreCardGlass for reusable metric dashboard layouts.\n *\n * ## Features",
+   "component": "stat",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/metrics-grid-glass.json"
+  },
+  {
+   "name": "modal-glass",
+   "type": "ui",
+   "title": "Modal Glass",
+   "description": "ModalGlass Component (Radix UI Dialog-based)",
+   "component": "modal",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/modal-glass.json"
+  },
+  {
+   "name": "notification-glass",
+   "type": "ui",
+   "title": "Notification Glass",
+   "description": "Glass-themed toast notification with variant-based styling, icons, and dismiss functionality.\n * Provides visual feedback for user actions and system events.\n *\n * ## Features",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/notification-glass.json"
+  },
+  {
+   "name": "popover-glass",
+   "type": "ui",
+   "title": "Popover Glass",
+   "description": "Floating glass-themed container for tooltips, dropdowns, and contextual overlays.\n * Provides compound and legacy APIs for maximum flexibility.\n *\n * ## Features",
+   "component": "popover",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/popover-glass.json"
+  },
+  {
+   "name": "profile-avatar-glass",
+   "type": "component",
+   "title": "Profile Avatar Glass",
+   "description": "Profile-specific size classes (larger than standard AvatarGlass)",
+   "component": "avatar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/profile-avatar-glass.json"
+  },
+  {
+   "name": "profile-header-extended-glass",
+   "type": "block",
+   "title": "Profile Header Extended Glass",
+   "description": "Formats ISO 8601 date to human-readable format",
+   "component": "header",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/profile-header-extended-glass.json"
+  },
+  {
+   "name": "profile-header-glass",
+   "type": "block",
+   "title": "Profile Header Glass",
+   "description": "Layout mode for the profile header",
+   "component": "header",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/profile-header-glass.json"
+  },
+  {
+   "name": "progress-glass",
+   "type": "component",
+   "title": "Progress Glass",
+   "description": "Glass-themed progress bar with 100% shadcn/ui Progress API compatibility.\n *\n * ## shadcn/ui Compatibility\n *\n * This component is **fully compatible** with shadcn/ui Progress API:",
+   "component": "progress-bar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/progress-glass.json"
+  },
+  {
+   "name": "projects-list-glass",
+   "type": "block",
+   "title": "Projects List Glass",
+   "description": "Projects List Glass component with glass effects",
+   "component": "list",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/projects-list-glass.json"
+  },
+  {
+   "name": "rainbow-progress-glass",
+   "type": "component",
+   "title": "Rainbow Progress Glass",
+   "description": "Rainbow Progress Glass component with glass effects",
+   "component": "progress-bar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/rainbow-progress-glass.json"
+  },
+  {
+   "name": "repository-card-context",
+   "type": "block",
+   "title": "Repository Card Context",
+   "description": "Hook to access RepositoryCardGlass context",
+   "component": "card",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/repository-card-context.json"
+  },
+  {
+   "name": "repository-card-glass",
+   "type": "block",
+   "title": "Repository Card Glass",
+   "description": "ContributionBadge - Shows contribution percentage with color-coded variant",
+   "component": "card",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/repository-card-glass.json"
+  },
+  {
+   "name": "repository-header-glass",
+   "type": "block",
+   "title": "Repository Header Glass",
+   "description": "Repository Header Glass component with glass effects",
+   "component": "header",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/repository-header-glass.json"
+  },
+  {
+   "name": "repository-metadata-glass",
+   "type": "block",
+   "title": "Repository Metadata Glass",
+   "description": "Repository Metadata Glass component with glass effects",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/repository-metadata-glass.json"
+  },
+  {
+   "name": "scroll-area-glass",
+   "type": "ui",
+   "title": "Scroll Area Glass",
+   "description": "Custom scrollable container with glass-themed scrollbars.\n * Built on @radix-ui/react-scroll-area for cross-browser consistency.\n *\n * ## Features",
+   "component": "scroll-area",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/scroll-area-glass.json"
+  },
+  {
+   "name": "search-box-glass",
+   "type": "component",
+   "title": "Search Box Glass",
+   "description": "Search input with glassmorphism styling and integrated submit button.\n * Provides a cohesive search experience with visual feedback and keyboard support.\n *\n * ## Features",
+   "component": "search-input",
+   "surface": "search-mobile",
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/search-box-glass.json"
+  },
+  {
+   "name": "segmented-control-glass",
+   "type": "component",
+   "title": "Segmented Control Glass",
+   "description": "Segmented Control Glass component with glass effects",
+   "component": "segmented-control",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/segmented-control-glass.json"
+  },
+  {
+   "name": "select-glass",
+   "type": "ui",
+   "title": "Select Glass",
+   "description": "Glass-themed select dropdown with compound component API for flexible composition.\n * Built on @radix-ui/react-select for accessibility, keyboard navigation, and robust selection behavior.\n *\n * ## Features",
+   "component": "select",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/select-glass.json"
+  },
+  {
+   "name": "separator-glass",
+   "type": "ui",
+   "title": "Separator Glass",
+   "description": "A glass-themed separator/divider component for visual content separation.\n * Based on @radix-ui/react-separator with glassmorphism styling.\n *\n * Issue #27: Feature request for standalone SeparatorGlass\n *\n * @example\n * ```tsx\n * // Horizontal separator (default)\n * <SeparatorGlass />\n *\n * // Vertical separator\n * <SeparatorGlass orientation=\"vertical\" className=\"h-4\" />\n *\n * // With glow effect\n * <SeparatorGlass glow />\n *\n * // Decorative (hidden from screen readers)\n * <SeparatorGlass decorative />\n * ```",
+   "component": "separator",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/separator-glass.json"
+  },
+  {
+   "name": "sheet-glass",
+   "type": "ui",
+   "title": "Sheet Glass",
+   "description": "Glass-themed sheet/drawer component with full shadcn/ui Sheet API compatibility.\n * Slides in from top, right, bottom, or left edges with backdrop overlay and blur effects.\n *\n * ## Features",
+   "component": "sheet",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/sheet-glass.json"
+  },
+  {
+   "name": "sidebar-context",
+   "type": "ui",
+   "title": "Sidebar Context",
+   "description": "SidebarGlass Context",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/sidebar-context.json"
+  },
+  {
+   "name": "sidebar-glass",
+   "type": "ui",
+   "title": "Sidebar Glass",
+   "description": "SidebarGlass Core Components",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/sidebar-glass.json"
+  },
+  {
+   "name": "sidebar-menu",
+   "type": "ui",
+   "title": "Sidebar Menu",
+   "description": "SidebarGlass Menu Components",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/sidebar-menu.json"
+  },
+  {
+   "name": "skeleton-glass",
+   "type": "ui",
+   "title": "Skeleton Glass",
+   "description": "Glass-themed loading skeleton with:",
+   "component": "skeleton",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/skeleton-glass.json"
+  },
+  {
+   "name": "slider-glass",
+   "type": "ui",
+   "title": "Slider Glass",
+   "description": "Glass-themed range slider built on Radix UI with shadcn/ui compatible API:",
+   "component": "slider",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/slider-glass.json"
+  },
+  {
+   "name": "sort-dropdown-glass",
+   "type": "component",
+   "title": "Sort Dropdown Glass",
+   "description": "Atomic sorting control built on DropdownMenuGlass primitives for data table and list sorting.\n * Provides intuitive sort field selection with visual indicators for active sort and direction.\n *\n * ## Features",
+   "component": "select",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/sort-dropdown-glass.json"
+  },
+  {
+   "name": "sparkline-glass",
+   "type": "component",
+   "title": "Sparkline Glass",
+   "description": "Sparkline Glass component with glass effects",
+   "component": "sparkline",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/sparkline-glass.json"
+  },
+  {
+   "name": "split-layout-accordion",
+   "type": "block",
+   "title": "Split Layout Accordion",
+   "description": "SplitLayoutGlass Accordion Components",
+   "component": "accordion",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/split-layout-accordion.json"
+  },
+  {
+   "name": "split-layout-context",
+   "type": "block",
+   "title": "Split Layout Context",
+   "description": "SplitLayoutGlass Context",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/split-layout-context.json"
+  },
+  {
+   "name": "split-layout-glass",
+   "type": "block",
+   "title": "Split Layout Glass",
+   "description": "SplitLayoutGlass Component (Compound API only)",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/split-layout-glass.json"
+  },
+  {
+   "name": "stat-item-glass",
+   "type": "component",
+   "title": "Stat Item Glass",
+   "description": "Compact statistic display component with icon, value, and label for profile cards and dashboards.\n * Designed for inline metrics with automatic value formatting and flexible layouts.\n *\n * ## Features",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/stat-item-glass.json"
+  },
+  {
+   "name": "status-indicator-glass",
+   "type": "component",
+   "title": "Status Indicator Glass",
+   "description": "Status Indicator Glass component with glass effects",
+   "component": "status-indicator",
+   "surface": "status",
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/status-indicator-glass.json"
+  },
+  {
+   "name": "stepper-glass",
+   "type": "ui",
+   "title": "Stepper Glass",
+   "description": "StepperGlass Component (Compound API)",
+   "component": "quantity-stepper",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/stepper-glass.json"
+  },
+  {
+   "name": "switch-glass",
+   "type": "ui",
+   "title": "Switch Glass",
+   "description": "Glass-themed toggle switch with smooth animations and accessibility features.\n * Built on @radix-ui/react-switch for robust state management and keyboard navigation.\n *\n * ## Features",
+   "component": "switch",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/switch-glass.json"
+  },
+  {
+   "name": "tabs-glass",
+   "type": "ui",
+   "title": "Tabs Glass",
+   "description": "TabsGlass Component (Radix UI based)",
+   "component": "tabs",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/tabs-glass.json"
+  },
+  {
+   "name": "theme-toggle-glass",
+   "type": "component",
+   "title": "Theme Toggle Glass",
+   "description": "Theme cycling button that switches between Light, Aurora, and Glass themes.\n * Displays animated icon transitions with theme-aware styling.\n *\n * ## Features",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/theme-toggle-glass.json"
+  },
+  {
+   "name": "toggle-glass",
+   "type": "ui",
+   "title": "Toggle Glass",
+   "description": "Glass-themed toggle switch with shadcn/ui compatible API:",
+   "component": "toggle-button",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/toggle-glass.json"
+  },
+  {
+   "name": "tooltip-glass",
+   "type": "ui",
+   "title": "Tooltip Glass",
+   "description": "Glass-themed tooltip with:",
+   "component": "tooltip",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/tooltip-glass.json"
+  },
+  {
+   "name": "trust-score-card-glass",
+   "type": "block",
+   "title": "Trust Score Card Glass",
+   "description": "Trust Score Card Glass component with glass effects",
+   "component": "card",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/trust-score-card-glass.json"
+  },
+  {
+   "name": "trust-score-display-glass",
+   "type": "block",
+   "title": "Trust Score Display Glass",
+   "description": "Large animated trust score display with gradient text and pulsing animation.\n * Extracted from TrustScoreCardGlass for reusability across layouts.\n *\n * ## Features",
+   "component": "rating",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/trust-score-display-glass.json"
+  },
+  {
+   "name": "user-info-glass",
+   "type": "block",
+   "title": "User Info Glass",
+   "description": "User name, username, and join date display component.\n * Extracted from ProfileHeaderGlass for reusable user identity sections.\n *\n * ## Features",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/user-info-glass.json"
+  },
+  {
+   "name": "user-stats-line-glass",
+   "type": "block",
+   "title": "User Stats Line Glass",
+   "description": "User statistics line displaying repos, followers, and following counts.\n * Extracted from ProfileHeaderGlass for reusable user metrics displays.\n *\n * ## Features",
+   "component": "stat",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/user-stats-line-glass.json"
+  },
+  {
+   "name": "year-card-context",
+   "type": "block",
+   "title": "Year Card Context",
+   "description": "Hook to access YearCardGlass context",
+   "component": "card",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/year-card-context.json"
+  },
+  {
+   "name": "year-card-glass",
+   "type": "block",
+   "title": "Year Card Glass",
+   "description": "@deprecated This prop is no longer used. Sparkline is now only shown in expanded view.",
+   "component": "card",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/year-card-glass.json"
+  }
+ ]
+}

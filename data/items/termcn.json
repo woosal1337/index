@@ -1,0 +1,2946 @@
+{
+ "resource_id": "d6d46d24-2b20-4805-b5a1-8675de6d27b0",
+ "registry_url": "https://www.termcn.dev/r/registry.json",
+ "install_verified": true,
+ "checked": "2026-10-23",
+ "items": [
+  {
+   "name": "ink/alert",
+   "type": "ui",
+   "title": "Alert",
+   "description": "Alert box with success/error/warning/info variants",
+   "component": "alert",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/alert.json"
+  },
+  {
+   "name": "ink/app-shell",
+   "type": "ui",
+   "title": "App Shell",
+   "description": "Full-screen TUI layout with header, tip bar, full-width input, scrollable content, and hints footer",
+   "component": "app-shell",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/app-shell.json"
+  },
+  {
+   "name": "ink/aspect-ratio",
+   "type": "ui",
+   "title": "Aspect Ratio",
+   "description": "Constrains children to a given aspect ratio",
+   "component": "aspect-ratio",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/aspect-ratio.json"
+  },
+  {
+   "name": "ink/badge",
+   "type": "ui",
+   "title": "Badge",
+   "description": "Semantic status indicator badge (success/error/warning/info)",
+   "component": "badge",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/badge.json"
+  },
+  {
+   "name": "ink/banner",
+   "type": "ui",
+   "title": "Banner",
+   "description": "Full-width announcement banner",
+   "component": "banner",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/banner.json"
+  },
+  {
+   "name": "ink/bar-chart",
+   "type": "ui",
+   "title": "Bar Chart",
+   "description": "Horizontal and vertical bar chart with labels",
+   "component": "bar-chart",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/bar-chart.json"
+  },
+  {
+   "name": "ink/big-text",
+   "type": "ui",
+   "title": "Big Text",
+   "description": "Figlet-style large ASCII art text",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/big-text.json"
+  },
+  {
+   "name": "ink/box",
+   "type": "ui",
+   "title": "Box",
+   "description": "Enhanced flexbox container with theme-aware borders",
+   "component": "box",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/box.json"
+  },
+  {
+   "name": "ink/breadcrumb",
+   "type": "ui",
+   "title": "Breadcrumb",
+   "description": "Breadcrumb navigation trail",
+   "component": "breadcrumbs",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/breadcrumb.json"
+  },
+  {
+   "name": "ink/bullet-list",
+   "type": "ui",
+   "title": "Bullet List",
+   "description": "Nested structured content with ●/└/□ bullet prefixes",
+   "component": "list",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/bullet-list.json"
+  },
+  {
+   "name": "ink/card",
+   "type": "ui",
+   "title": "Card",
+   "description": "Card with header, body, and footer slots",
+   "component": "card",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/card.json"
+  },
+  {
+   "name": "ink/center",
+   "type": "ui",
+   "title": "Center",
+   "description": "Centers children horizontally and vertically",
+   "component": "center",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/center.json"
+  },
+  {
+   "name": "ink/chat-message",
+   "type": "ui",
+   "title": "Chat Message",
+   "description": "Chat message bubble with role label, streaming indicator, and collapsible content",
+   "component": "message",
+   "surface": "chat-mobile",
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/chat-message.json"
+  },
+  {
+   "name": "ink/chat-thread",
+   "type": "ui",
+   "title": "Chat Thread",
+   "description": "Scrollable container for stacking ChatMessage components in a conversation thread",
+   "component": "conversation",
+   "surface": "chat-mobile",
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/chat-thread.json"
+  },
+  {
+   "name": "ink/checkbox",
+   "type": "ui",
+   "title": "Checkbox",
+   "description": "Checkbox with indeterminate state",
+   "component": "checkbox",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/checkbox.json"
+  },
+  {
+   "name": "ink/checkbox-group",
+   "type": "ui",
+   "title": "Checkbox Group",
+   "description": "Checkbox group with min/max selection",
+   "component": "checkbox-group",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/checkbox-group.json"
+  },
+  {
+   "name": "ink/clipboard",
+   "type": "ui",
+   "title": "Clipboard",
+   "description": "Copy-to-clipboard button with success feedback",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/clipboard.json"
+  },
+  {
+   "name": "ink/clock",
+   "type": "ui",
+   "title": "Clock",
+   "description": "Real-time clock display with 12h/24h and date",
+   "component": "countdown",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/clock.json"
+  },
+  {
+   "name": "ink/code",
+   "type": "ui",
+   "title": "Code",
+   "description": "Syntax-highlighted code block (50+ languages)",
+   "component": "code-block",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/code.json"
+  },
+  {
+   "name": "ink/color-picker",
+   "type": "ui",
+   "title": "Color Picker",
+   "description": "Color picker with palette, hex, and RGB input",
+   "component": "color-picker",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/color-picker.json"
+  },
+  {
+   "name": "ink/columns",
+   "type": "ui",
+   "title": "Columns",
+   "description": "Multi-column layout with configurable widths",
+   "component": "grid",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/columns.json"
+  },
+  {
+   "name": "ink/command-palette",
+   "type": "ui",
+   "title": "Command Palette",
+   "description": "VS Code–style command palette with fuzzy search",
+   "component": "command-palette",
+   "surface": "command-palette",
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/command-palette.json"
+  },
+  {
+   "name": "ink/confirm",
+   "type": "ui",
+   "title": "Confirm",
+   "description": "Yes/No confirmation prompt",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/confirm.json"
+  },
+  {
+   "name": "ink/conversation-history",
+   "type": "ui",
+   "title": "Conversation History",
+   "description": "Arrow-key scrollable stack for long assistant threads with optional hint",
+   "component": "conversation",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/conversation-history.json"
+  },
+  {
+   "name": "ink/data-grid",
+   "type": "ui",
+   "title": "Data Grid",
+   "description": "Advanced data grid with sorting, filtering, pagination, and cell editing",
+   "component": "data-grid",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/data-grid.json"
+  },
+  {
+   "name": "ink/date-picker",
+   "type": "ui",
+   "title": "Date Picker",
+   "description": "Calendar date picker with keyboard navigation",
+   "component": "date-picker",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/date-picker.json"
+  },
+  {
+   "name": "ink/definition",
+   "type": "ui",
+   "title": "Definition",
+   "description": "Term–description definition list",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/definition.json"
+  },
+  {
+   "name": "ink/dialog",
+   "type": "ui",
+   "title": "Dialog",
+   "description": "Confirmation dialog with OK/Cancel actions",
+   "component": "modal",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/dialog.json"
+  },
+  {
+   "name": "ink/diff-view",
+   "type": "ui",
+   "title": "Diff View",
+   "description": "Unified, split, and inline diff viewer with LCS-based diff algorithm and line numbers",
+   "component": "diff-view",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/diff-view.json"
+  },
+  {
+   "name": "ink/digits",
+   "type": "ui",
+   "title": "Digits",
+   "description": "Box-drawing character numerals",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/digits.json"
+  },
+  {
+   "name": "ink/directory-tree",
+   "type": "ui",
+   "title": "Directory Tree",
+   "description": "Filesystem browser with expand/collapse",
+   "component": "tree-view",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/directory-tree.json"
+  },
+  {
+   "name": "ink/dither-area-chart",
+   "type": "ui",
+   "title": "Dither Area Chart",
+   "description": "Dithered area charts with layered fills, dots, axes, stacking, bloom, and keyboard interaction",
+   "component": "area-chart",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/dither-area-chart.json"
+  },
+  {
+   "name": "ink/dither-bar-chart",
+   "type": "ui",
+   "title": "Dither Bar Chart",
+   "description": "Dithered grouped, stacked, and percent bar charts with terminal-native textures and interaction",
+   "component": "bar-chart",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/dither-bar-chart.json"
+  },
+  {
+   "name": "ink/dither-line-chart",
+   "type": "ui",
+   "title": "Dither Line Chart",
+   "description": "Dithered multi-series line charts with solid or dashed strokes, markers, axes, and terminal interaction",
+   "component": "line-chart",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/dither-line-chart.json"
+  },
+  {
+   "name": "ink/dither-pie-chart",
+   "type": "ui",
+   "title": "Dither Pie Chart",
+   "description": "Dithered pie and donut charts with textured slices, legends, tooltips, and keyboard inspection",
+   "component": "pie-chart",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/dither-pie-chart.json"
+  },
+  {
+   "name": "ink/dither-radar-chart",
+   "type": "ui",
+   "title": "Dither Radar Chart",
+   "description": "Dithered radar charts for comparing multiple series across terminal-friendly radial axes",
+   "component": "radar-chart",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/dither-radar-chart.json"
+  },
+  {
+   "name": "ink/dither-sparkline",
+   "type": "ui",
+   "title": "Dither Sparkline",
+   "description": "Compact dithered sparklines for terminal dashboards, summaries, and inline metrics",
+   "component": "sparkline",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/dither-sparkline.json"
+  },
+  {
+   "name": "ink/divider",
+   "type": "ui",
+   "title": "Divider",
+   "description": "Horizontal or vertical divider / rule",
+   "component": "separator",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/divider.json"
+  },
+  {
+   "name": "ink/drawer",
+   "type": "ui",
+   "title": "Drawer",
+   "description": "Slide-in panel from any edge",
+   "component": "drawer",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/drawer.json"
+  },
+  {
+   "name": "ink/email-input",
+   "type": "ui",
+   "title": "Email Input",
+   "description": "Email input with validation and domain suggestions",
+   "component": "text-input",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/email-input.json"
+  },
+  {
+   "name": "ink/embedded-terminal",
+   "type": "ui",
+   "title": "Embedded Terminal",
+   "description": "Embedded PTY terminal panel (requires node-pty peer)",
+   "component": "terminal",
+   "surface": null,
+   "dependencies": [
+    "ink",
+    "strip-ansi"
+   ],
+   "url": "https://www.termcn.dev/r/ink/embedded-terminal.json"
+  },
+  {
+   "name": "ink/error-boundary",
+   "type": "ui",
+   "title": "Error Boundary",
+   "description": "React error boundary with graceful terminal display",
+   "component": "error-page",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/error-boundary.json"
+  },
+  {
+   "name": "ink/error-retry",
+   "type": "ui",
+   "title": "Error Retry",
+   "description": "Inline error panel with retry, dismiss, and max-retry guard",
+   "component": "message-actions",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/error-retry.json"
+  },
+  {
+   "name": "ink/file-change",
+   "type": "ui",
+   "title": "File Change",
+   "description": "Interactive file-change review list with diff expansion, per-file accept/reject actions, and accept-all shortcut",
+   "component": "file-card",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/file-change.json"
+  },
+  {
+   "name": "ink/file-picker",
+   "type": "ui",
+   "title": "File Picker",
+   "description": "Interactive file browser and picker",
+   "component": "file-card",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/file-picker.json"
+  },
+  {
+   "name": "ink/form",
+   "type": "ui",
+   "title": "Form",
+   "description": "Form container with validation, Ctrl+S submit, and dirty tracking",
+   "component": "form",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/form.json"
+  },
+  {
+   "name": "ink/form-field",
+   "type": "ui",
+   "title": "Form Field",
+   "description": "Form field wrapper with label, hint, and error",
+   "component": "fieldset",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/form-field.json"
+  },
+  {
+   "name": "ink/gauge",
+   "type": "ui",
+   "title": "Gauge",
+   "description": "Arc/speedometer gauge meter",
+   "component": "meter",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/gauge.json"
+  },
+  {
+   "name": "ink/git-status",
+   "type": "ui",
+   "title": "Git Status",
+   "description": "Git status display (branch, staged, modified, ahead/behind)",
+   "component": null,
+   "surface": "status",
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/git-status.json"
+  },
+  {
+   "name": "ink/gradient",
+   "type": "ui",
+   "title": "Gradient",
+   "description": "Color gradient text",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/gradient.json"
+  },
+  {
+   "name": "ink/grid",
+   "type": "ui",
+   "title": "Grid",
+   "description": "Rows × columns grid layout",
+   "component": "data-grid",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/grid.json"
+  },
+  {
+   "name": "ink/heading",
+   "type": "ui",
+   "title": "Heading",
+   "description": "h1–h4 styled headings with optional figlet ASCII art",
+   "component": "heading",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/heading.json"
+  },
+  {
+   "name": "ink/heat-map",
+   "type": "ui",
+   "title": "Heat Map",
+   "description": "Grid heatmap with color intensity scale",
+   "component": "map",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/heat-map.json"
+  },
+  {
+   "name": "ink/help",
+   "type": "ui",
+   "title": "Help",
+   "description": "Auto-generated help panel from a keymap",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/help.json"
+  },
+  {
+   "name": "ink/help-screen",
+   "type": "ui",
+   "title": "Help Screen",
+   "description": "Figlet banner + tagline + aligned Options/Commands help sections",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/help-screen.json"
+  },
+  {
+   "name": "ink/image",
+   "type": "ui",
+   "title": "Image",
+   "description": "Image renderer with iTerm2/Kitty protocol and ASCII fallback",
+   "component": "image",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/image.json"
+  },
+  {
+   "name": "ink/info-box",
+   "type": "ui",
+   "title": "Info Box",
+   "description": "Bordered info panel with header, key-value rows, and tree-prefix rows",
+   "component": "alert",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/info-box.json"
+  },
+  {
+   "name": "ink/json",
+   "type": "ui",
+   "title": "JSON",
+   "description": "Pretty-printed JSON with collapsible nodes",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/json.json"
+  },
+  {
+   "name": "ink/key-value",
+   "type": "ui",
+   "title": "Key Value",
+   "description": "Aligned key–value pairs",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/key-value.json"
+  },
+  {
+   "name": "ink/keyboard-shortcuts",
+   "type": "ui",
+   "title": "Keyboard Shortcuts",
+   "description": "Formatted keyboard shortcut reference table",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/keyboard-shortcuts.json"
+  },
+  {
+   "name": "ink/line-chart",
+   "type": "ui",
+   "title": "Line Chart",
+   "description": "ASCII line chart with axes and multi-series support",
+   "component": "line-chart",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/line-chart.json"
+  },
+  {
+   "name": "ink/link",
+   "type": "ui",
+   "title": "Link",
+   "description": "OSC 8 clickable hyperlink",
+   "component": "link",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/link.json"
+  },
+  {
+   "name": "ink/list",
+   "type": "ui",
+   "title": "List",
+   "description": "Navigable list with optional filtering",
+   "component": "list",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/list.json"
+  },
+  {
+   "name": "ink/log",
+   "type": "ui",
+   "title": "Log",
+   "description": "Scrolling log viewer with severity levels and filtering",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/log.json"
+  },
+  {
+   "name": "ink/login-flow",
+   "type": "ui",
+   "title": "Login Flow",
+   "description": "Full-page onboarding/login screen with announcement banner, big ASCII title, description, and numbered select",
+   "component": null,
+   "surface": "login-mobile",
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/login-flow.json"
+  },
+  {
+   "name": "ink/markdown",
+   "type": "ui",
+   "title": "Markdown",
+   "description": "Full markdown renderer for terminal",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/markdown.json"
+  },
+  {
+   "name": "ink/masked-input",
+   "type": "ui",
+   "title": "Masked Input",
+   "description": "Masked input for phone, date, credit card formats",
+   "component": "masked-input",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/masked-input.json"
+  },
+  {
+   "name": "ink/menu",
+   "type": "ui",
+   "title": "Menu",
+   "description": "Dropdown menu with nested submenus",
+   "component": "dropdown-menu",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/menu.json"
+  },
+  {
+   "name": "ink/modal",
+   "type": "ui",
+   "title": "Modal",
+   "description": "Focus-trapped overlay modal, close with Esc",
+   "component": "modal",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/modal.json"
+  },
+  {
+   "name": "ink/model-selector",
+   "type": "ui",
+   "title": "Model Selector",
+   "description": "Keyboard-navigable list for selecting an AI model, with optional provider grouping and context-window display",
+   "component": "model-selector",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/model-selector.json"
+  },
+  {
+   "name": "ink/motion-provider",
+   "type": "ui",
+   "title": "Motion Provider",
+   "description": "Optional reduced-motion override provider.",
+   "component": "animation",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.termcn.dev/r/ink/motion-provider.json"
+  },
+  {
+   "name": "ink/multi-progress",
+   "type": "ui",
+   "title": "Multi Progress",
+   "description": "Parallel progress display for package managers, build pipelines, and deploy tools",
+   "component": "progress-bar",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/multi-progress.json"
+  },
+  {
+   "name": "ink/multi-select",
+   "type": "ui",
+   "title": "Multi Select",
+   "description": "Multi-select list with checkboxes and select-all",
+   "component": "multi-select",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/multi-select.json"
+  },
+  {
+   "name": "ink/notification-center",
+   "type": "block",
+   "title": "Notification Center",
+   "description": "Persistent queue-based notification panel with useNotifications hook",
+   "component": "notification-center",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/notification-center.json"
+  },
+  {
+   "name": "ink/number-input",
+   "type": "ui",
+   "title": "Number Input",
+   "description": "Numeric input with increment/decrement and bounds",
+   "component": "number-input",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/number-input.json"
+  },
+  {
+   "name": "ink/pagination",
+   "type": "ui",
+   "title": "Pagination",
+   "description": "Page navigation with prev/next and jump",
+   "component": "pagination",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/pagination.json"
+  },
+  {
+   "name": "ink/panel",
+   "type": "ui",
+   "title": "Panel",
+   "description": "Titled bordered panel",
+   "component": "panel",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/panel.json"
+  },
+  {
+   "name": "ink/password-input",
+   "type": "ui",
+   "title": "Password Input",
+   "description": "Password input with masked characters and reveal toggle",
+   "component": "password-input",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/password-input.json"
+  },
+  {
+   "name": "ink/path-input",
+   "type": "ui",
+   "title": "Path Input",
+   "description": "Filesystem path input with tab autocomplete",
+   "component": "breadcrumbs",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/path-input.json"
+  },
+  {
+   "name": "ink/pie-chart",
+   "type": "ui",
+   "title": "Pie Chart",
+   "description": "Unicode block pie chart with legend",
+   "component": "pie-chart",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/pie-chart.json"
+  },
+  {
+   "name": "ink/popover",
+   "type": "ui",
+   "title": "Popover",
+   "description": "Positioned popover with arbitrary content",
+   "component": "popover",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/popover.json"
+  },
+  {
+   "name": "ink/progress-bar",
+   "type": "ui",
+   "title": "Progress Bar",
+   "description": "Determinate progress bar with percent and value/total display",
+   "component": "progress-bar",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/progress-bar.json"
+  },
+  {
+   "name": "ink/progress-circle",
+   "type": "ui",
+   "title": "Progress Circle",
+   "description": "Circular progress indicator using Unicode braille",
+   "component": "spinner",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/progress-circle.json"
+  },
+  {
+   "name": "ink/qr-code",
+   "type": "ui",
+   "title": "QR Code",
+   "description": "Unicode block QR code generator",
+   "component": "qr-code",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/qr-code.json"
+  },
+  {
+   "name": "ink/radio-group",
+   "type": "ui",
+   "title": "Radio Group",
+   "description": "Mutually exclusive radio button group",
+   "component": "radio-group",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/radio-group.json"
+  },
+  {
+   "name": "ink/scroll-view",
+   "type": "ui",
+   "title": "Scroll View",
+   "description": "Scrollable container with scrollbar",
+   "component": "scroll-area",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/scroll-view.json"
+  },
+  {
+   "name": "ink/search-input",
+   "type": "ui",
+   "title": "Search Input",
+   "description": "Fuzzy search input with autocomplete",
+   "component": "search-input",
+   "surface": "search-mobile",
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/search-input.json"
+  },
+  {
+   "name": "ink/select",
+   "type": "ui",
+   "title": "Select",
+   "description": "Single-select dropdown with arrow-key navigation",
+   "component": "select",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/select.json"
+  },
+  {
+   "name": "ink/setup-flow",
+   "type": "ui",
+   "title": "Setup Flow",
+   "description": "@clack-style step flow with ◇/◆/│ visual language, badge, info steps, and multi-select",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/setup-flow.json"
+  },
+  {
+   "name": "ink/sidebar",
+   "type": "ui",
+   "title": "Sidebar",
+   "description": "Collapsible navigation sidebar panel",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/sidebar.json"
+  },
+  {
+   "name": "ink/skeleton",
+   "type": "ui",
+   "title": "Skeleton",
+   "description": "Shimmer loading placeholder",
+   "component": "skeleton",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/skeleton.json"
+  },
+  {
+   "name": "ink/spacer",
+   "type": "ui",
+   "title": "Spacer",
+   "description": "Flexible space between flex children",
+   "component": "spacer",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/spacer.json"
+  },
+  {
+   "name": "ink/sparkline",
+   "type": "ui",
+   "title": "Sparkline",
+   "description": "Inline Unicode braille sparkline chart",
+   "component": "sparkline",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/sparkline.json"
+  },
+  {
+   "name": "ink/spinner",
+   "type": "ui",
+   "title": "Spinner",
+   "description": "Animated spinner with 12+ styles",
+   "component": "spinner",
+   "surface": null,
+   "dependencies": [
+    "cli-spinners",
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/spinner.json"
+  },
+  {
+   "name": "ink/splash-screen",
+   "type": "ui",
+   "title": "Splash Screen",
+   "description": "Styled startup banner with big ASCII art title, subtitle, author credit, and status line",
+   "component": null,
+   "surface": "splash-screen",
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/splash-screen.json"
+  },
+  {
+   "name": "ink/stack",
+   "type": "ui",
+   "title": "Stack",
+   "description": "Vertical/horizontal stack with gap",
+   "component": "stack",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/stack.json"
+  },
+  {
+   "name": "ink/status-message",
+   "type": "ui",
+   "title": "Status Message",
+   "description": "Inline status message with icon and color",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/status-message.json"
+  },
+  {
+   "name": "ink/stopwatch",
+   "type": "ui",
+   "title": "Stopwatch",
+   "description": "Count-up stopwatch with laps and reset",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/stopwatch.json"
+  },
+  {
+   "name": "ink/streaming-text",
+   "type": "ui",
+   "title": "Streaming Text",
+   "description": "Token-by-token streaming text with blinking cursor and optional typing animation",
+   "component": "streaming-text",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/streaming-text.json"
+  },
+  {
+   "name": "ink/tabbed-content",
+   "type": "ui",
+   "title": "Tabbed Content",
+   "description": "Tab bar wired to content panels",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/tabbed-content.json"
+  },
+  {
+   "name": "ink/table",
+   "type": "ui",
+   "title": "Table",
+   "description": "Sortable, selectable, paginated data table",
+   "component": "table",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/table.json"
+  },
+  {
+   "name": "ink/tabs",
+   "type": "ui",
+   "title": "Tabs",
+   "description": "Tab bar with left/right arrow and tab-key navigation",
+   "component": "tabs",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/tabs.json"
+  },
+  {
+   "name": "ink/tag",
+   "type": "ui",
+   "title": "Tag",
+   "description": "Removable chip/tag",
+   "component": "tag",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/tag.json"
+  },
+  {
+   "name": "ink/tag-input",
+   "type": "ui",
+   "title": "Tag Input",
+   "description": "Add and remove tags inline",
+   "component": "tag-input",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/tag-input.json"
+  },
+  {
+   "name": "ink/text-area",
+   "type": "ui",
+   "title": "Text Area",
+   "description": "Multi-line text editor with word wrap",
+   "component": "textarea",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/text-area.json"
+  },
+  {
+   "name": "ink/text-input",
+   "type": "ui",
+   "title": "Text Input",
+   "description": "Single-line text input with placeholder, validation, mask",
+   "component": "text-input",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/text-input.json"
+  },
+  {
+   "name": "ink/theme-provider",
+   "type": "ui",
+   "title": "Theme Provider",
+   "description": "Terminal theme provider, design tokens, and theme helpers.",
+   "component": "theme-provider",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.termcn.dev/r/ink/theme-provider.json"
+  },
+  {
+   "name": "ink/thinking-block",
+   "type": "ui",
+   "title": "Thinking Block",
+   "description": "Collapsible block for displaying extended thinking / reasoning content from an AI model",
+   "component": "reasoning",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/thinking-block.json"
+  },
+  {
+   "name": "ink/time-picker",
+   "type": "ui",
+   "title": "Time Picker",
+   "description": "Time picker with hour/minute/second spinners",
+   "component": "time-picker",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/time-picker.json"
+  },
+  {
+   "name": "ink/timer",
+   "type": "ui",
+   "title": "Timer",
+   "description": "Countdown timer with pause/resume and auto-start",
+   "component": "countdown",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/timer.json"
+  },
+  {
+   "name": "ink/toast",
+   "type": "ui",
+   "title": "Toast",
+   "description": "Auto-dismissing toast notification",
+   "component": "toast",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/toast.json"
+  },
+  {
+   "name": "ink/toggle",
+   "type": "ui",
+   "title": "Toggle",
+   "description": "Toggle/switch component with on/off labels",
+   "component": "toggle-button",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/toggle.json"
+  },
+  {
+   "name": "ink/token-usage",
+   "type": "ui",
+   "title": "Token Usage",
+   "description": "Compact token counter showing prompt and completion usage with optional cost estimate; also exports ContextMeter for visualising context window fill",
+   "component": "context-meter",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/token-usage.json"
+  },
+  {
+   "name": "ink/tool-approval",
+   "type": "ui",
+   "title": "Tool Approval",
+   "description": "Interactive approval prompt for AI tool calls with risk-level badge, args display, and auto-deny timeout",
+   "component": "approval-request",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/tool-approval.json"
+  },
+  {
+   "name": "ink/tool-call",
+   "type": "ui",
+   "title": "Tool Call",
+   "description": "Displays an AI tool invocation with status indicator, args, result, and elapsed time",
+   "component": "tool-call",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/tool-call.json"
+  },
+  {
+   "name": "ink/tooltip",
+   "type": "ui",
+   "title": "Tooltip",
+   "description": "Contextual tooltip on focus or hover",
+   "component": "tooltip",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/tooltip.json"
+  },
+  {
+   "name": "ink/tree",
+   "type": "ui",
+   "title": "Tree",
+   "description": "Expandable/collapsible tree view",
+   "component": "tree-view",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/tree.json"
+  },
+  {
+   "name": "ink/tree-select",
+   "type": "ui",
+   "title": "Tree Select",
+   "description": "Hierarchical tree selection",
+   "component": "tree-select",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/tree-select.json"
+  },
+  {
+   "name": "ink/unicode-provider",
+   "type": "ui",
+   "title": "Unicode Provider",
+   "description": "Optional Unicode capability override provider.",
+   "component": "theme-provider",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.termcn.dev/r/ink/unicode-provider.json"
+  },
+  {
+   "name": "ink/usage-monitor",
+   "type": "ui",
+   "title": "Usage Monitor",
+   "description": "Real-time dashboard with diamond header, progress metrics, burn rate, predictions, and status bar",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/usage-monitor.json"
+  },
+  {
+   "name": "ink/virtual-list",
+   "type": "ui",
+   "title": "Virtual List",
+   "description": "Virtualized list for 10k+ items",
+   "component": "list",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/virtual-list.json"
+  },
+  {
+   "name": "ink/welcome-screen",
+   "type": "ui",
+   "title": "Welcome Screen",
+   "description": "Two-panel welcome dashboard with titled border, logo, greeting, and sections",
+   "component": "chat-empty-state",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/welcome-screen.json"
+  },
+  {
+   "name": "ink/wizard",
+   "type": "ui",
+   "title": "Wizard",
+   "description": "Multi-step wizard with per-step validation",
+   "component": "progress-stepper",
+   "surface": null,
+   "dependencies": [
+    "ink"
+   ],
+   "url": "https://www.termcn.dev/r/ink/wizard.json"
+  },
+  {
+   "name": "opentui/alert",
+   "type": "ui",
+   "title": "Alert",
+   "description": "Alert box with success/error/warning/info variants",
+   "component": "alert",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/alert.json"
+  },
+  {
+   "name": "opentui/app-shell",
+   "type": "ui",
+   "title": "App Shell",
+   "description": "Full-screen TUI layout with header, tip bar, full-width input, scrollable content, and hints footer",
+   "component": "app-shell",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/app-shell.json"
+  },
+  {
+   "name": "opentui/aspect-ratio",
+   "type": "ui",
+   "title": "Aspect Ratio",
+   "description": "Constrains children to a given aspect ratio",
+   "component": "aspect-ratio",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/aspect-ratio.json"
+  },
+  {
+   "name": "opentui/badge",
+   "type": "ui",
+   "title": "Badge",
+   "description": "Semantic status indicator badge (success/error/warning/info)",
+   "component": "badge",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/badge.json"
+  },
+  {
+   "name": "opentui/banner",
+   "type": "ui",
+   "title": "Banner",
+   "description": "Full-width announcement banner",
+   "component": "banner",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/banner.json"
+  },
+  {
+   "name": "opentui/bar-chart",
+   "type": "ui",
+   "title": "Bar Chart",
+   "description": "Horizontal and vertical bar chart with labels",
+   "component": "bar-chart",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/bar-chart.json"
+  },
+  {
+   "name": "opentui/big-text",
+   "type": "ui",
+   "title": "Big Text",
+   "description": "Figlet-style large ASCII art text",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/big-text.json"
+  },
+  {
+   "name": "opentui/box",
+   "type": "ui",
+   "title": "Box",
+   "description": "Enhanced flexbox container with theme-aware borders",
+   "component": "box",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/box.json"
+  },
+  {
+   "name": "opentui/breadcrumb",
+   "type": "ui",
+   "title": "Breadcrumb",
+   "description": "Breadcrumb navigation trail",
+   "component": "breadcrumbs",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/breadcrumb.json"
+  },
+  {
+   "name": "opentui/bullet-list",
+   "type": "ui",
+   "title": "Bullet List",
+   "description": "Nested structured content with ●/└/□ bullet prefixes",
+   "component": "list",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/bullet-list.json"
+  },
+  {
+   "name": "opentui/card",
+   "type": "ui",
+   "title": "Card",
+   "description": "Card with header, body, and footer slots",
+   "component": "card",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/card.json"
+  },
+  {
+   "name": "opentui/center",
+   "type": "ui",
+   "title": "Center",
+   "description": "Centers children horizontally and vertically",
+   "component": "center",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/center.json"
+  },
+  {
+   "name": "opentui/chat-message",
+   "type": "ui",
+   "title": "Chat Message",
+   "description": "Chat message bubble with role label, streaming indicator, and collapsible content",
+   "component": "message",
+   "surface": "chat-mobile",
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/chat-message.json"
+  },
+  {
+   "name": "opentui/chat-thread",
+   "type": "ui",
+   "title": "Chat Thread",
+   "description": "Scrollable container for stacking ChatMessage components in a conversation thread",
+   "component": "conversation",
+   "surface": "chat-mobile",
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/chat-thread.json"
+  },
+  {
+   "name": "opentui/checkbox",
+   "type": "ui",
+   "title": "Checkbox",
+   "description": "Checkbox with indeterminate state",
+   "component": "checkbox",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/checkbox.json"
+  },
+  {
+   "name": "opentui/checkbox-group",
+   "type": "ui",
+   "title": "Checkbox Group",
+   "description": "Checkbox group with min/max selection",
+   "component": "checkbox-group",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/checkbox-group.json"
+  },
+  {
+   "name": "opentui/clipboard",
+   "type": "ui",
+   "title": "Clipboard",
+   "description": "Copy-to-clipboard button with success feedback",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/clipboard.json"
+  },
+  {
+   "name": "opentui/clock",
+   "type": "ui",
+   "title": "Clock",
+   "description": "Real-time clock display with 12h/24h and date",
+   "component": "countdown",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/clock.json"
+  },
+  {
+   "name": "opentui/code",
+   "type": "ui",
+   "title": "Code",
+   "description": "Syntax-highlighted code block (50+ languages)",
+   "component": "code-block",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/code.json"
+  },
+  {
+   "name": "opentui/color-picker",
+   "type": "ui",
+   "title": "Color Picker",
+   "description": "Color picker with palette, hex, and RGB input",
+   "component": "color-picker",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/color-picker.json"
+  },
+  {
+   "name": "opentui/columns",
+   "type": "ui",
+   "title": "Columns",
+   "description": "Multi-column layout with configurable widths",
+   "component": "grid",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/columns.json"
+  },
+  {
+   "name": "opentui/command-palette",
+   "type": "ui",
+   "title": "Command Palette",
+   "description": "VS Code–style command palette with fuzzy search",
+   "component": "command-palette",
+   "surface": "command-palette",
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/command-palette.json"
+  },
+  {
+   "name": "opentui/confirm",
+   "type": "ui",
+   "title": "Confirm",
+   "description": "Yes/No confirmation prompt",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/confirm.json"
+  },
+  {
+   "name": "opentui/data-grid",
+   "type": "ui",
+   "title": "Data Grid",
+   "description": "Advanced data grid with sorting, filtering, pagination, and cell editing",
+   "component": "data-grid",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/data-grid.json"
+  },
+  {
+   "name": "opentui/date-picker",
+   "type": "ui",
+   "title": "Date Picker",
+   "description": "Calendar date picker with keyboard navigation",
+   "component": "date-picker",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/date-picker.json"
+  },
+  {
+   "name": "opentui/definition",
+   "type": "ui",
+   "title": "Definition",
+   "description": "Term–description definition list",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/definition.json"
+  },
+  {
+   "name": "opentui/dialog",
+   "type": "ui",
+   "title": "Dialog",
+   "description": "Confirmation dialog with OK/Cancel actions",
+   "component": "modal",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/dialog.json"
+  },
+  {
+   "name": "opentui/diff-view",
+   "type": "ui",
+   "title": "Diff View",
+   "description": "Unified, split, and inline diff viewer with LCS-based diff algorithm and line numbers",
+   "component": "diff-view",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/diff-view.json"
+  },
+  {
+   "name": "opentui/digits",
+   "type": "ui",
+   "title": "Digits",
+   "description": "Box-drawing character numerals",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/digits.json"
+  },
+  {
+   "name": "opentui/directory-tree",
+   "type": "ui",
+   "title": "Directory Tree",
+   "description": "Filesystem browser with expand/collapse",
+   "component": "tree-view",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/directory-tree.json"
+  },
+  {
+   "name": "opentui/dither-area-chart",
+   "type": "ui",
+   "title": "Dither Area Chart",
+   "description": "Dithered area charts with layered fills, dots, axes, stacking, bloom, and keyboard interaction",
+   "component": "area-chart",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/dither-area-chart.json"
+  },
+  {
+   "name": "opentui/dither-bar-chart",
+   "type": "ui",
+   "title": "Dither Bar Chart",
+   "description": "Dithered grouped, stacked, and percent bar charts with terminal-native textures and interaction",
+   "component": "bar-chart",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/dither-bar-chart.json"
+  },
+  {
+   "name": "opentui/dither-line-chart",
+   "type": "ui",
+   "title": "Dither Line Chart",
+   "description": "Dithered multi-series line charts with solid or dashed strokes, markers, axes, and terminal interaction",
+   "component": "line-chart",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/dither-line-chart.json"
+  },
+  {
+   "name": "opentui/dither-pie-chart",
+   "type": "ui",
+   "title": "Dither Pie Chart",
+   "description": "Dithered pie and donut charts with textured slices, legends, tooltips, and keyboard inspection",
+   "component": "pie-chart",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/dither-pie-chart.json"
+  },
+  {
+   "name": "opentui/dither-radar-chart",
+   "type": "ui",
+   "title": "Dither Radar Chart",
+   "description": "Dithered radar charts for comparing multiple series across terminal-friendly radial axes",
+   "component": "radar-chart",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/dither-radar-chart.json"
+  },
+  {
+   "name": "opentui/dither-sparkline",
+   "type": "ui",
+   "title": "Dither Sparkline",
+   "description": "Compact dithered sparklines for terminal dashboards, summaries, and inline metrics",
+   "component": "sparkline",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/dither-sparkline.json"
+  },
+  {
+   "name": "opentui/divider",
+   "type": "ui",
+   "title": "Divider",
+   "description": "Horizontal or vertical divider / rule",
+   "component": "separator",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/divider.json"
+  },
+  {
+   "name": "opentui/drawer",
+   "type": "ui",
+   "title": "Drawer",
+   "description": "Slide-in panel from any edge",
+   "component": "drawer",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/drawer.json"
+  },
+  {
+   "name": "opentui/email-input",
+   "type": "ui",
+   "title": "Email Input",
+   "description": "Email input with validation and domain suggestions",
+   "component": "text-input",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/email-input.json"
+  },
+  {
+   "name": "opentui/embedded-terminal",
+   "type": "ui",
+   "title": "Embedded Terminal",
+   "description": "Embedded PTY terminal panel (requires node-pty peer)",
+   "component": "terminal",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react",
+    "strip-ansi"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/embedded-terminal.json"
+  },
+  {
+   "name": "opentui/error-boundary",
+   "type": "ui",
+   "title": "Error Boundary",
+   "description": "React error boundary with graceful terminal display",
+   "component": "error-page",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/error-boundary.json"
+  },
+  {
+   "name": "opentui/file-change",
+   "type": "ui",
+   "title": "File Change",
+   "description": "Interactive file-change review list with diff expansion, per-file accept/reject actions, and accept-all shortcut",
+   "component": "file-card",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/file-change.json"
+  },
+  {
+   "name": "opentui/file-picker",
+   "type": "ui",
+   "title": "File Picker",
+   "description": "Interactive file browser and picker",
+   "component": "file-card",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/file-picker.json"
+  },
+  {
+   "name": "opentui/form",
+   "type": "ui",
+   "title": "Form",
+   "description": "Form container with validation, Ctrl+S submit, and dirty tracking",
+   "component": "form",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/form.json"
+  },
+  {
+   "name": "opentui/form-field",
+   "type": "ui",
+   "title": "Form Field",
+   "description": "Form field wrapper with label, hint, and error",
+   "component": "fieldset",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/form-field.json"
+  },
+  {
+   "name": "opentui/gauge",
+   "type": "ui",
+   "title": "Gauge",
+   "description": "Arc/speedometer gauge meter",
+   "component": "meter",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/gauge.json"
+  },
+  {
+   "name": "opentui/git-status",
+   "type": "ui",
+   "title": "Git Status",
+   "description": "Git status display (branch, staged, modified, ahead/behind)",
+   "component": null,
+   "surface": "status",
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/git-status.json"
+  },
+  {
+   "name": "opentui/gradient",
+   "type": "ui",
+   "title": "Gradient",
+   "description": "Color gradient text",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/gradient.json"
+  },
+  {
+   "name": "opentui/grid",
+   "type": "ui",
+   "title": "Grid",
+   "description": "Rows × columns grid layout",
+   "component": "data-grid",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/grid.json"
+  },
+  {
+   "name": "opentui/heading",
+   "type": "ui",
+   "title": "Heading",
+   "description": "h1–h4 styled headings with optional figlet ASCII art",
+   "component": "heading",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/heading.json"
+  },
+  {
+   "name": "opentui/heat-map",
+   "type": "ui",
+   "title": "Heat Map",
+   "description": "Grid heatmap with color intensity scale",
+   "component": "map",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/heat-map.json"
+  },
+  {
+   "name": "opentui/help",
+   "type": "ui",
+   "title": "Help",
+   "description": "Auto-generated help panel from a keymap",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/help.json"
+  },
+  {
+   "name": "opentui/help-screen",
+   "type": "ui",
+   "title": "Help Screen",
+   "description": "Figlet banner + tagline + aligned Options/Commands help sections",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/help-screen.json"
+  },
+  {
+   "name": "opentui/image",
+   "type": "ui",
+   "title": "Image",
+   "description": "Image renderer with iTerm2/Kitty protocol and ASCII fallback",
+   "component": "image",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/image.json"
+  },
+  {
+   "name": "opentui/info-box",
+   "type": "ui",
+   "title": "Info Box",
+   "description": "Bordered info panel with header, key-value rows, and tree-prefix rows",
+   "component": "alert",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/info-box.json"
+  },
+  {
+   "name": "opentui/json",
+   "type": "ui",
+   "title": "JSON",
+   "description": "Pretty-printed JSON with collapsible nodes",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/json.json"
+  },
+  {
+   "name": "opentui/key-value",
+   "type": "ui",
+   "title": "Key Value",
+   "description": "Aligned key–value pairs",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/key-value.json"
+  },
+  {
+   "name": "opentui/keyboard-shortcuts",
+   "type": "ui",
+   "title": "Keyboard Shortcuts",
+   "description": "Formatted keyboard shortcut reference table",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/keyboard-shortcuts.json"
+  },
+  {
+   "name": "opentui/line-chart",
+   "type": "ui",
+   "title": "Line Chart",
+   "description": "ASCII line chart with axes and multi-series support",
+   "component": "line-chart",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/line-chart.json"
+  },
+  {
+   "name": "opentui/link",
+   "type": "ui",
+   "title": "Link",
+   "description": "OSC 8 clickable hyperlink",
+   "component": "link",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/link.json"
+  },
+  {
+   "name": "opentui/list",
+   "type": "ui",
+   "title": "List",
+   "description": "Navigable list with optional filtering",
+   "component": "list",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/list.json"
+  },
+  {
+   "name": "opentui/log",
+   "type": "ui",
+   "title": "Log",
+   "description": "Scrolling log viewer with severity levels and filtering",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/log.json"
+  },
+  {
+   "name": "opentui/login-flow",
+   "type": "ui",
+   "title": "Login Flow",
+   "description": "Full-page onboarding/login screen with announcement banner, big ASCII title, description, and numbered select",
+   "component": null,
+   "surface": "login-mobile",
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/login-flow.json"
+  },
+  {
+   "name": "opentui/markdown",
+   "type": "ui",
+   "title": "Markdown",
+   "description": "Full markdown renderer for terminal",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/markdown.json"
+  },
+  {
+   "name": "opentui/masked-input",
+   "type": "ui",
+   "title": "Masked Input",
+   "description": "Masked input for phone, date, credit card formats",
+   "component": "masked-input",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/masked-input.json"
+  },
+  {
+   "name": "opentui/menu",
+   "type": "ui",
+   "title": "Menu",
+   "description": "Dropdown menu with nested submenus",
+   "component": "dropdown-menu",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/menu.json"
+  },
+  {
+   "name": "opentui/modal",
+   "type": "ui",
+   "title": "Modal",
+   "description": "Focus-trapped overlay modal, close with Esc",
+   "component": "modal",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/modal.json"
+  },
+  {
+   "name": "opentui/model-selector",
+   "type": "ui",
+   "title": "Model Selector",
+   "description": "Keyboard-navigable list for selecting an AI model, with optional provider grouping and context-window display",
+   "component": "model-selector",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/model-selector.json"
+  },
+  {
+   "name": "opentui/motion-provider",
+   "type": "ui",
+   "title": "Motion Provider",
+   "description": "Optional reduced-motion override provider.",
+   "component": "animation",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/motion-provider.json"
+  },
+  {
+   "name": "opentui/multi-progress",
+   "type": "ui",
+   "title": "Multi Progress",
+   "description": "Parallel progress display for package managers, build pipelines, and deploy tools",
+   "component": "progress-bar",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/multi-progress.json"
+  },
+  {
+   "name": "opentui/multi-select",
+   "type": "ui",
+   "title": "Multi Select",
+   "description": "Multi-select list with checkboxes and select-all",
+   "component": "multi-select",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/multi-select.json"
+  },
+  {
+   "name": "opentui/notification-badge",
+   "type": "ui",
+   "title": "Notification Badge",
+   "description": "Notification Badge component for OpenTUI React.",
+   "component": "badge",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/notification-badge.json"
+  },
+  {
+   "name": "opentui/notification-center",
+   "type": "block",
+   "title": "Notification Center",
+   "description": "Persistent queue-based notification panel with useNotifications hook",
+   "component": "notification-center",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/notification-center.json"
+  },
+  {
+   "name": "opentui/number-input",
+   "type": "ui",
+   "title": "Number Input",
+   "description": "Numeric input with increment/decrement and bounds",
+   "component": "number-input",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/number-input.json"
+  },
+  {
+   "name": "opentui/pagination",
+   "type": "ui",
+   "title": "Pagination",
+   "description": "Page navigation with prev/next and jump",
+   "component": "pagination",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/pagination.json"
+  },
+  {
+   "name": "opentui/panel",
+   "type": "ui",
+   "title": "Panel",
+   "description": "Titled bordered panel",
+   "component": "panel",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/panel.json"
+  },
+  {
+   "name": "opentui/password-input",
+   "type": "ui",
+   "title": "Password Input",
+   "description": "Password input with masked characters and reveal toggle",
+   "component": "password-input",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/password-input.json"
+  },
+  {
+   "name": "opentui/path-input",
+   "type": "ui",
+   "title": "Path Input",
+   "description": "Filesystem path input with tab autocomplete",
+   "component": "breadcrumbs",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/path-input.json"
+  },
+  {
+   "name": "opentui/pie-chart",
+   "type": "ui",
+   "title": "Pie Chart",
+   "description": "Unicode block pie chart with legend",
+   "component": "pie-chart",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/pie-chart.json"
+  },
+  {
+   "name": "opentui/popover",
+   "type": "ui",
+   "title": "Popover",
+   "description": "Positioned popover with arbitrary content",
+   "component": "popover",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/popover.json"
+  },
+  {
+   "name": "opentui/progress-bar",
+   "type": "ui",
+   "title": "Progress Bar",
+   "description": "Determinate progress bar with percent and value/total display",
+   "component": "progress-bar",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/progress-bar.json"
+  },
+  {
+   "name": "opentui/progress-circle",
+   "type": "ui",
+   "title": "Progress Circle",
+   "description": "Circular progress indicator using Unicode braille",
+   "component": "spinner",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/progress-circle.json"
+  },
+  {
+   "name": "opentui/qr-code",
+   "type": "ui",
+   "title": "QR Code",
+   "description": "Unicode block QR code generator",
+   "component": "qr-code",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/qr-code.json"
+  },
+  {
+   "name": "opentui/radio-group",
+   "type": "ui",
+   "title": "Radio Group",
+   "description": "Mutually exclusive radio button group",
+   "component": "radio-group",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/radio-group.json"
+  },
+  {
+   "name": "opentui/scroll-view",
+   "type": "ui",
+   "title": "Scroll View",
+   "description": "Scrollable container with scrollbar",
+   "component": "scroll-area",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/scroll-view.json"
+  },
+  {
+   "name": "opentui/search-input",
+   "type": "ui",
+   "title": "Search Input",
+   "description": "Fuzzy search input with autocomplete",
+   "component": "search-input",
+   "surface": "search-mobile",
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/search-input.json"
+  },
+  {
+   "name": "opentui/select",
+   "type": "ui",
+   "title": "Select",
+   "description": "Single-select dropdown with arrow-key navigation",
+   "component": "select",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/select.json"
+  },
+  {
+   "name": "opentui/setup-flow",
+   "type": "ui",
+   "title": "Setup Flow",
+   "description": "@clack-style step flow with ◇/◆/│ visual language, badge, info steps, and multi-select",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/setup-flow.json"
+  },
+  {
+   "name": "opentui/sidebar",
+   "type": "ui",
+   "title": "Sidebar",
+   "description": "Collapsible navigation sidebar panel",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/sidebar.json"
+  },
+  {
+   "name": "opentui/skeleton",
+   "type": "ui",
+   "title": "Skeleton",
+   "description": "Shimmer loading placeholder",
+   "component": "skeleton",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/skeleton.json"
+  },
+  {
+   "name": "opentui/spacer",
+   "type": "ui",
+   "title": "Spacer",
+   "description": "Flexible space between flex children",
+   "component": "spacer",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/spacer.json"
+  },
+  {
+   "name": "opentui/sparkline",
+   "type": "ui",
+   "title": "Sparkline",
+   "description": "Inline Unicode braille sparkline chart",
+   "component": "sparkline",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/sparkline.json"
+  },
+  {
+   "name": "opentui/spinner",
+   "type": "ui",
+   "title": "Spinner",
+   "description": "Animated spinner with 12+ styles",
+   "component": "spinner",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react",
+    "cli-spinners"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/spinner.json"
+  },
+  {
+   "name": "opentui/splash-screen",
+   "type": "ui",
+   "title": "Splash Screen",
+   "description": "Styled startup banner with big ASCII art title, subtitle, author credit, and status line",
+   "component": null,
+   "surface": "splash-screen",
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/splash-screen.json"
+  },
+  {
+   "name": "opentui/stack",
+   "type": "ui",
+   "title": "Stack",
+   "description": "Vertical/horizontal stack with gap",
+   "component": "stack",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/stack.json"
+  },
+  {
+   "name": "opentui/status-message",
+   "type": "ui",
+   "title": "Status Message",
+   "description": "Inline status message with icon and color",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/status-message.json"
+  },
+  {
+   "name": "opentui/stopwatch",
+   "type": "ui",
+   "title": "Stopwatch",
+   "description": "Count-up stopwatch with laps and reset",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/stopwatch.json"
+  },
+  {
+   "name": "opentui/streaming-text",
+   "type": "ui",
+   "title": "Streaming Text",
+   "description": "Token-by-token streaming text with blinking cursor and optional typing animation",
+   "component": "streaming-text",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/streaming-text.json"
+  },
+  {
+   "name": "opentui/tabbed-content",
+   "type": "ui",
+   "title": "Tabbed Content",
+   "description": "Tab bar wired to content panels",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/tabbed-content.json"
+  },
+  {
+   "name": "opentui/table",
+   "type": "ui",
+   "title": "Table",
+   "description": "Sortable, selectable, paginated data table",
+   "component": "table",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/table.json"
+  },
+  {
+   "name": "opentui/tabs",
+   "type": "ui",
+   "title": "Tabs",
+   "description": "Tab bar with left/right arrow and tab-key navigation",
+   "component": "tabs",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/tabs.json"
+  },
+  {
+   "name": "opentui/tag",
+   "type": "ui",
+   "title": "Tag",
+   "description": "Removable chip/tag",
+   "component": "tag",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/tag.json"
+  },
+  {
+   "name": "opentui/tag-input",
+   "type": "ui",
+   "title": "Tag Input",
+   "description": "Add and remove tags inline",
+   "component": "tag-input",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/tag-input.json"
+  },
+  {
+   "name": "opentui/text-area",
+   "type": "ui",
+   "title": "Text Area",
+   "description": "Multi-line text editor with word wrap",
+   "component": "textarea",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/text-area.json"
+  },
+  {
+   "name": "opentui/text-input",
+   "type": "ui",
+   "title": "Text Input",
+   "description": "Single-line text input with placeholder, validation, mask",
+   "component": "text-input",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/text-input.json"
+  },
+  {
+   "name": "opentui/theme-provider",
+   "type": "ui",
+   "title": "Theme Provider",
+   "description": "Terminal theme provider, design tokens, and theme helpers.",
+   "component": "theme-provider",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/theme-provider.json"
+  },
+  {
+   "name": "opentui/thinking-block",
+   "type": "ui",
+   "title": "Thinking Block",
+   "description": "Collapsible block for displaying extended thinking / reasoning content from an AI model",
+   "component": "reasoning",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/thinking-block.json"
+  },
+  {
+   "name": "opentui/time-picker",
+   "type": "ui",
+   "title": "Time Picker",
+   "description": "Time picker with hour/minute/second spinners",
+   "component": "time-picker",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/time-picker.json"
+  },
+  {
+   "name": "opentui/timer",
+   "type": "ui",
+   "title": "Timer",
+   "description": "Countdown timer with pause/resume and auto-start",
+   "component": "countdown",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/timer.json"
+  },
+  {
+   "name": "opentui/toast",
+   "type": "ui",
+   "title": "Toast",
+   "description": "Auto-dismissing toast notification",
+   "component": "toast",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/toast.json"
+  },
+  {
+   "name": "opentui/toggle",
+   "type": "ui",
+   "title": "Toggle",
+   "description": "Toggle/switch component with on/off labels",
+   "component": "toggle-button",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/toggle.json"
+  },
+  {
+   "name": "opentui/token-usage",
+   "type": "ui",
+   "title": "Token Usage",
+   "description": "Compact token counter showing prompt and completion usage with optional cost estimate; also exports ContextMeter for visualising context window fill",
+   "component": "context-meter",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/token-usage.json"
+  },
+  {
+   "name": "opentui/tool-approval",
+   "type": "ui",
+   "title": "Tool Approval",
+   "description": "Interactive approval prompt for AI tool calls with risk-level badge, args display, and auto-deny timeout",
+   "component": "approval-request",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/tool-approval.json"
+  },
+  {
+   "name": "opentui/tool-call",
+   "type": "ui",
+   "title": "Tool Call",
+   "description": "Displays an AI tool invocation with status indicator, args, result, and elapsed time",
+   "component": "tool-call",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/tool-call.json"
+  },
+  {
+   "name": "opentui/tooltip",
+   "type": "ui",
+   "title": "Tooltip",
+   "description": "Contextual tooltip on focus or hover",
+   "component": "tooltip",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/tooltip.json"
+  },
+  {
+   "name": "opentui/tree",
+   "type": "ui",
+   "title": "Tree",
+   "description": "Expandable/collapsible tree view",
+   "component": "tree-view",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/tree.json"
+  },
+  {
+   "name": "opentui/tree-select",
+   "type": "ui",
+   "title": "Tree Select",
+   "description": "Hierarchical tree selection",
+   "component": "tree-select",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/tree-select.json"
+  },
+  {
+   "name": "opentui/unicode-provider",
+   "type": "ui",
+   "title": "Unicode Provider",
+   "description": "Optional Unicode capability override provider.",
+   "component": "theme-provider",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/unicode-provider.json"
+  },
+  {
+   "name": "opentui/usage-monitor",
+   "type": "ui",
+   "title": "Usage Monitor",
+   "description": "Real-time dashboard with diamond header, progress metrics, burn rate, predictions, and status bar",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/usage-monitor.json"
+  },
+  {
+   "name": "opentui/virtual-list",
+   "type": "ui",
+   "title": "Virtual List",
+   "description": "Virtualized list for 10k+ items",
+   "component": "list",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/virtual-list.json"
+  },
+  {
+   "name": "opentui/welcome-screen",
+   "type": "ui",
+   "title": "Welcome Screen",
+   "description": "Two-panel welcome dashboard with titled border, logo, greeting, and sections",
+   "component": "chat-empty-state",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/welcome-screen.json"
+  },
+  {
+   "name": "opentui/wizard",
+   "type": "ui",
+   "title": "Wizard",
+   "description": "Multi-step wizard with per-step validation",
+   "component": "progress-stepper",
+   "surface": null,
+   "dependencies": [
+    "@opentui/react"
+   ],
+   "url": "https://www.termcn.dev/r/opentui/wizard.json"
+  }
+ ]
+}

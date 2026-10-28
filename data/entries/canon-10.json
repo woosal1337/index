@@ -16,7 +16,7 @@
       "pricing": ["free", "sponsor-supported"],
       "distribution": ["gallery", "public-api"],
       "platform": ["web"],
-      "accessibility": ["unknown"],
+      "accessibility": ["not-applicable"],
       "content_type": ["screenshots"],
       "agent_readiness": ["public-api", "machine-index", "structured-docs"],
       "maturity": "actively-maintained"
@@ -66,7 +66,7 @@
       "pricing": ["free", "sponsor-supported"],
       "distribution": ["gallery"],
       "platform": ["web"],
-      "accessibility": ["unknown"],
+      "accessibility": ["not-applicable"],
       "content_type": ["screenshots"],
       "agent_readiness": ["machine-index"],
       "maturity": "actively-maintained"
@@ -108,7 +108,7 @@
       "framework": ["not-applicable"],
       "styling": ["not-applicable"],
       "license": ["proprietary"],
-      "pricing": ["free", "freemium"],
+      "pricing": ["free", "freemium", "subscription"],
       "distribution": ["public-api", "npm-package", "web-app", "download"],
       "platform": ["web", "ios", "android", "cross-platform"],
       "accessibility": ["not-applicable"],
@@ -242,7 +242,7 @@
     "facets": {
       "framework": ["not-applicable"],
       "styling": ["not-applicable"],
-      "license": ["proprietary", "cc-by"],
+      "license": ["proprietary", "cc-by", "commercial"],
       "pricing": ["free", "freemium", "subscription"],
       "distribution": ["web-app", "download", "figma-plugin"],
       "platform": ["web"],

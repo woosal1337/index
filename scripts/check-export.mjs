@@ -55,7 +55,7 @@ function walk(dir) {
   }
 }
 
-for (const endpoint of ["resources", "indexes", "search", "stats", "taxonomy", "showcase", "showcase-indexes"]) {
+for (const endpoint of ["resources", "indexes", "search", "stats", "taxonomy", "showcase", "showcase-indexes", "items"]) {
   JSON.parse(readFileSync(join(root, "api", `${endpoint}.json`), "utf8"));
 }
 const resources = JSON.parse(readFileSync(join(root, "api/resources.json"), "utf8"));
@@ -65,8 +65,14 @@ const slugs = new Set(resources.map((r) => r.slug));
 if (!resources.length || slugs.size !== resources.length || stats.resources !== resources.length) {
   failures.add("Resource counts or slugs do not match.");
 }
+if (!existsSync(join(root, "api/skill/SKILL.md"))) failures.add("/api/skill/SKILL.md");
+if (!readFileSync(join(root, "llms.txt"), "utf8").includes("/mcp")) failures.add("llms.txt must point agents to the MCP server.");
+for (const c of JSON.parse(readFileSync("taxonomy/components.json", "utf8")).groups.flatMap((g) => g.components)) {
+  if (!existsSync(join(root, "api/components", `${c.slug}.json`))) failures.add(`/api/components/${c.slug}.json`);
+}
 for (const r of resources) {
   if (!existsSync(join(root, "r", r.slug, "index.html"))) failures.add(`/r/${r.slug}`);
+  if (!existsSync(join(root, "api/r", `${r.slug}.json`))) failures.add(`/api/r/${r.slug}.json`);
   for (const reference of [r.article, r.instagram].filter(Boolean)) {
     if (["body", "full_text", "caption", "transcript"].some((key) => key in reference)) {
       failures.add(`Source text must not be exported: ${r.slug}`);

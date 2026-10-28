@@ -16,7 +16,7 @@
       "pricing": ["free"],
       "distribution": ["web-app", "marketplace"],
       "platform": ["ios", "macos", "web"],
-      "accessibility": ["unknown"],
+      "accessibility": ["not-applicable"],
       "content_type": ["screenshots", "images"],
       "agent_readiness": ["public-api"],
       "maturity": "actively-maintained"
@@ -60,7 +60,7 @@
       "pricing": ["freemium"],
       "distribution": ["gallery", "web-app", "marketplace"],
       "platform": ["web"],
-      "accessibility": ["unknown"],
+      "accessibility": ["not-applicable"],
       "content_type": ["screenshots", "video", "prose"],
       "agent_readiness": ["none"],
       "maturity": "actively-maintained"
@@ -100,8 +100,8 @@
     "facets": {
       "framework": ["react"],
       "styling": ["vanilla-css", "css-variables"],
-      "license": ["mit"],
-      "pricing": ["free", "open-source"],
+      "license": ["mit", "commercial"],
+      "pricing": ["free", "open-source", "freemium"],
       "distribution": ["npm-package", "github-repo"],
       "platform": ["web"],
       "accessibility": ["reduced-motion", "known-gaps"],
@@ -135,6 +135,7 @@
     "id": "15fac1e1-3c6a-4322-b1d8-8a54bde02ca0",
     "slug": "border-beam",
     "url": "https://beam.jakubantalik.com",
+    "part_of": "bf7fa93c-1cef-43ac-a704-cba22e082260",
     "name": "Border Beam",
     "tagline": "React component that draws an animated traveling or breathing glow around any element",
     "description": "Border Beam is a single zero-dependency React component, published to npm as border-beam (v1.3.0, MIT). You wrap any element in <BorderBeam> and it overlays an animated glow, auto-detecting the child's border-radius. Five size presets split into two families: rotate (sm, md, line) drives a conic-gradient beam masked to the border via CSS @property keyframes, and pulse (pulse-inner, pulse-outside) breathes from a single shared frame-rate-capped requestAnimationFrame loop that writes plain CSS custom properties. Four color variants (colorful, mono, ocean, sunset), three themes (dark, light, auto), plus strength, duration, brightness, saturation, hueRange, staticColors, borderRadius, active and onActivate/onDeactivate callbacks. This site is the live demo; it is a Vite SPA whose served HTML is an empty shell.",
@@ -186,13 +187,13 @@
     "subcategory": "designer-portfolios",
     "kinds": ["portfolio", "profile"],
     "facets": {
-      "framework": ["unknown"],
-      "styling": ["unknown"],
+      "framework": ["not-applicable"],
+      "styling": ["not-applicable"],
       "license": ["proprietary"],
       "pricing": ["free"],
       "distribution": ["web-app"],
       "platform": ["web"],
-      "accessibility": ["unknown"],
+      "accessibility": ["not-applicable"],
       "content_type": ["prose", "screenshots", "code"],
       "agent_readiness": ["none"],
       "maturity": "actively-maintained"
@@ -232,11 +233,11 @@
     "facets": {
       "framework": ["not-applicable"],
       "styling": ["not-applicable"],
-      "license": ["unknown"],
+      "license": ["not-applicable"],
       "pricing": ["free", "account-required"],
       "distribution": ["web-app"],
       "platform": ["social", "web"],
-      "accessibility": ["unknown"],
+      "accessibility": ["not-applicable"],
       "content_type": ["unknown"],
       "agent_readiness": ["auth-required", "bot-blocked"],
       "maturity": "unknown"

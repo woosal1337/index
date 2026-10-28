@@ -1,0 +1,4934 @@
+{
+ "resource_id": "4c1424e5-d53a-4557-9b66-637042f66386",
+ "registry_url": "https://canvasui.dev/r/registry.json",
+ "install_verified": true,
+ "checked": "2026-10-23",
+ "items": [
+  {
+   "name": "ascii-object-preact",
+   "type": "component",
+   "title": "AsciiObject (Preact)",
+   "description": "Renders any GLB/glTF model, SVG, or image in a floating studio scene as ASCII characters chosen by shape, so glyphs trace the object's edges. Built on three.js.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact",
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/ascii-object-preact.json"
+  },
+  {
+   "name": "ascii-object-preact-webgpu",
+   "type": "component",
+   "title": "AsciiObject (Preact, WebGPU)",
+   "description": "Renders any GLB/glTF model, SVG, or image in a floating studio scene as ASCII characters chosen by shape, so glyphs trace the object's edges. Built on three.js. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact",
+    "vgpu",
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/ascii-object-preact-webgpu.json"
+  },
+  {
+   "name": "ascii-object-react",
+   "type": "component",
+   "title": "AsciiObject (React)",
+   "description": "Renders any GLB/glTF model, SVG, or image in a floating studio scene as ASCII characters chosen by shape, so glyphs trace the object's edges. Built on three.js.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/ascii-object-react.json"
+  },
+  {
+   "name": "ascii-object-react-webgpu",
+   "type": "component",
+   "title": "AsciiObject (React, WebGPU)",
+   "description": "Renders any GLB/glTF model, SVG, or image in a floating studio scene as ASCII characters chosen by shape, so glyphs trace the object's edges. Built on three.js. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu",
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/ascii-object-react-webgpu.json"
+  },
+  {
+   "name": "ascii-object-solid",
+   "type": "component",
+   "title": "AsciiObject (Solid)",
+   "description": "Renders any GLB/glTF model, SVG, or image in a floating studio scene as ASCII characters chosen by shape, so glyphs trace the object's edges. Built on three.js.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js",
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/ascii-object-solid.json"
+  },
+  {
+   "name": "ascii-object-solid-webgpu",
+   "type": "component",
+   "title": "AsciiObject (Solid, WebGPU)",
+   "description": "Renders any GLB/glTF model, SVG, or image in a floating studio scene as ASCII characters chosen by shape, so glyphs trace the object's edges. Built on three.js. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js",
+    "vgpu",
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/ascii-object-solid-webgpu.json"
+  },
+  {
+   "name": "ascii-object-svelte",
+   "type": "component",
+   "title": "AsciiObject (Svelte)",
+   "description": "Renders any GLB/glTF model, SVG, or image in a floating studio scene as ASCII characters chosen by shape, so glyphs trace the object's edges. Built on three.js.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/ascii-object-svelte.json"
+  },
+  {
+   "name": "ascii-object-svelte-webgpu",
+   "type": "component",
+   "title": "AsciiObject (Svelte, WebGPU)",
+   "description": "Renders any GLB/glTF model, SVG, or image in a floating studio scene as ASCII characters chosen by shape, so glyphs trace the object's edges. Built on three.js. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu",
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/ascii-object-svelte-webgpu.json"
+  },
+  {
+   "name": "ascii-object-vanilla",
+   "type": "component",
+   "title": "AsciiObject (Vanilla)",
+   "description": "Renders any GLB/glTF model, SVG, or image in a floating studio scene as ASCII characters chosen by shape, so glyphs trace the object's edges. Built on three.js.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/ascii-object-vanilla.json"
+  },
+  {
+   "name": "ascii-object-vanilla-webgpu",
+   "type": "component",
+   "title": "AsciiObject (Vanilla, WebGPU)",
+   "description": "Renders any GLB/glTF model, SVG, or image in a floating studio scene as ASCII characters chosen by shape, so glyphs trace the object's edges. Built on three.js. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu",
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/ascii-object-vanilla-webgpu.json"
+  },
+  {
+   "name": "ascii-object-vue",
+   "type": "component",
+   "title": "AsciiObject (Vue)",
+   "description": "Renders any GLB/glTF model, SVG, or image in a floating studio scene as ASCII characters chosen by shape, so glyphs trace the object's edges. Built on three.js.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/ascii-object-vue.json"
+  },
+  {
+   "name": "ascii-object-vue-webgpu",
+   "type": "component",
+   "title": "AsciiObject (Vue, WebGPU)",
+   "description": "Renders any GLB/glTF model, SVG, or image in a floating studio scene as ASCII characters chosen by shape, so glyphs trace the object's edges. Built on three.js. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu",
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/ascii-object-vue-webgpu.json"
+  },
+  {
+   "name": "ascii-sweep-preact",
+   "type": "component",
+   "title": "AsciiSweep (Preact)",
+   "description": "Swaps two panels of live HTML with a band of glowing ascii characters that sweeps across the exact text lines, tearing rows and trailing phosphor as it passes. Any angle, any charset. The HTML stays interactive.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact"
+   ],
+   "url": "https://canvasui.dev/r/ascii-sweep-preact.json"
+  },
+  {
+   "name": "ascii-sweep-preact-webgpu",
+   "type": "component",
+   "title": "AsciiSweep (Preact, WebGPU)",
+   "description": "Swaps two panels of live HTML with a band of glowing ascii characters that sweeps across the exact text lines, tearing rows and trailing phosphor as it passes. Any angle, any charset. The HTML stays interactive. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/ascii-sweep-preact-webgpu.json"
+  },
+  {
+   "name": "ascii-sweep-react",
+   "type": "component",
+   "title": "AsciiSweep (React)",
+   "description": "Swaps two panels of live HTML with a band of glowing ascii characters that sweeps across the exact text lines, tearing rows and trailing phosphor as it passes. Any angle, any charset. The HTML stays interactive.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/ascii-sweep-react.json"
+  },
+  {
+   "name": "ascii-sweep-react-webgpu",
+   "type": "component",
+   "title": "AsciiSweep (React, WebGPU)",
+   "description": "Swaps two panels of live HTML with a band of glowing ascii characters that sweeps across the exact text lines, tearing rows and trailing phosphor as it passes. Any angle, any charset. The HTML stays interactive. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/ascii-sweep-react-webgpu.json"
+  },
+  {
+   "name": "ascii-sweep-solid",
+   "type": "component",
+   "title": "AsciiSweep (Solid)",
+   "description": "Swaps two panels of live HTML with a band of glowing ascii characters that sweeps across the exact text lines, tearing rows and trailing phosphor as it passes. Any angle, any charset. The HTML stays interactive.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js"
+   ],
+   "url": "https://canvasui.dev/r/ascii-sweep-solid.json"
+  },
+  {
+   "name": "ascii-sweep-solid-webgpu",
+   "type": "component",
+   "title": "AsciiSweep (Solid, WebGPU)",
+   "description": "Swaps two panels of live HTML with a band of glowing ascii characters that sweeps across the exact text lines, tearing rows and trailing phosphor as it passes. Any angle, any charset. The HTML stays interactive. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/ascii-sweep-solid-webgpu.json"
+  },
+  {
+   "name": "ascii-sweep-svelte",
+   "type": "component",
+   "title": "AsciiSweep (Svelte)",
+   "description": "Swaps two panels of live HTML with a band of glowing ascii characters that sweeps across the exact text lines, tearing rows and trailing phosphor as it passes. Any angle, any charset. The HTML stays interactive.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/ascii-sweep-svelte.json"
+  },
+  {
+   "name": "ascii-sweep-svelte-webgpu",
+   "type": "component",
+   "title": "AsciiSweep (Svelte, WebGPU)",
+   "description": "Swaps two panels of live HTML with a band of glowing ascii characters that sweeps across the exact text lines, tearing rows and trailing phosphor as it passes. Any angle, any charset. The HTML stays interactive. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/ascii-sweep-svelte-webgpu.json"
+  },
+  {
+   "name": "ascii-sweep-vanilla",
+   "type": "component",
+   "title": "AsciiSweep (Vanilla)",
+   "description": "Swaps two panels of live HTML with a band of glowing ascii characters that sweeps across the exact text lines, tearing rows and trailing phosphor as it passes. Any angle, any charset. The HTML stays interactive.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/ascii-sweep-vanilla.json"
+  },
+  {
+   "name": "ascii-sweep-vanilla-webgpu",
+   "type": "component",
+   "title": "AsciiSweep (Vanilla, WebGPU)",
+   "description": "Swaps two panels of live HTML with a band of glowing ascii characters that sweeps across the exact text lines, tearing rows and trailing phosphor as it passes. Any angle, any charset. The HTML stays interactive. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/ascii-sweep-vanilla-webgpu.json"
+  },
+  {
+   "name": "ascii-sweep-vue",
+   "type": "component",
+   "title": "AsciiSweep (Vue)",
+   "description": "Swaps two panels of live HTML with a band of glowing ascii characters that sweeps across the exact text lines, tearing rows and trailing phosphor as it passes. Any angle, any charset. The HTML stays interactive.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/ascii-sweep-vue.json"
+  },
+  {
+   "name": "ascii-sweep-vue-webgpu",
+   "type": "component",
+   "title": "AsciiSweep (Vue, WebGPU)",
+   "description": "Swaps two panels of live HTML with a band of glowing ascii characters that sweeps across the exact text lines, tearing rows and trailing phosphor as it passes. Any angle, any charset. The HTML stays interactive. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/ascii-sweep-vue-webgpu.json"
+  },
+  {
+   "name": "asciify-preact",
+   "type": "component",
+   "title": "Asciify (Preact)",
+   "description": "Redraws your page as live ascii characters in a soft radius around the cursor, with real glyph, shade block, and binary ramps. The HTML stays interactive in Chromium and Firefox.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact"
+   ],
+   "url": "https://canvasui.dev/r/asciify-preact.json"
+  },
+  {
+   "name": "asciify-preact-webgpu",
+   "type": "component",
+   "title": "Asciify (Preact, WebGPU)",
+   "description": "Redraws your page as live ascii characters in a soft radius around the cursor, with real glyph, shade block, and binary ramps. The HTML stays interactive in Chromium and Firefox. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/asciify-preact-webgpu.json"
+  },
+  {
+   "name": "asciify-react",
+   "type": "component",
+   "title": "Asciify (React)",
+   "description": "Redraws your page as live ascii characters in a soft radius around the cursor, with real glyph, shade block, and binary ramps. The HTML stays interactive in Chromium and Firefox.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/asciify-react.json"
+  },
+  {
+   "name": "asciify-react-webgpu",
+   "type": "component",
+   "title": "Asciify (React, WebGPU)",
+   "description": "Redraws your page as live ascii characters in a soft radius around the cursor, with real glyph, shade block, and binary ramps. The HTML stays interactive in Chromium and Firefox. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/asciify-react-webgpu.json"
+  },
+  {
+   "name": "asciify-solid",
+   "type": "component",
+   "title": "Asciify (Solid)",
+   "description": "Redraws your page as live ascii characters in a soft radius around the cursor, with real glyph, shade block, and binary ramps. The HTML stays interactive in Chromium and Firefox.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js"
+   ],
+   "url": "https://canvasui.dev/r/asciify-solid.json"
+  },
+  {
+   "name": "asciify-solid-webgpu",
+   "type": "component",
+   "title": "Asciify (Solid, WebGPU)",
+   "description": "Redraws your page as live ascii characters in a soft radius around the cursor, with real glyph, shade block, and binary ramps. The HTML stays interactive in Chromium and Firefox. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/asciify-solid-webgpu.json"
+  },
+  {
+   "name": "asciify-svelte",
+   "type": "component",
+   "title": "Asciify (Svelte)",
+   "description": "Redraws your page as live ascii characters in a soft radius around the cursor, with real glyph, shade block, and binary ramps. The HTML stays interactive in Chromium and Firefox.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/asciify-svelte.json"
+  },
+  {
+   "name": "asciify-svelte-webgpu",
+   "type": "component",
+   "title": "Asciify (Svelte, WebGPU)",
+   "description": "Redraws your page as live ascii characters in a soft radius around the cursor, with real glyph, shade block, and binary ramps. The HTML stays interactive in Chromium and Firefox. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/asciify-svelte-webgpu.json"
+  },
+  {
+   "name": "asciify-vanilla",
+   "type": "component",
+   "title": "Asciify (Vanilla)",
+   "description": "Redraws your page as live ascii characters in a soft radius around the cursor, with real glyph, shade block, and binary ramps. The HTML stays interactive in Chromium and Firefox.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/asciify-vanilla.json"
+  },
+  {
+   "name": "asciify-vanilla-webgpu",
+   "type": "component",
+   "title": "Asciify (Vanilla, WebGPU)",
+   "description": "Redraws your page as live ascii characters in a soft radius around the cursor, with real glyph, shade block, and binary ramps. The HTML stays interactive in Chromium and Firefox. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/asciify-vanilla-webgpu.json"
+  },
+  {
+   "name": "asciify-vue",
+   "type": "component",
+   "title": "Asciify (Vue)",
+   "description": "Redraws your page as live ascii characters in a soft radius around the cursor, with real glyph, shade block, and binary ramps. The HTML stays interactive in Chromium and Firefox.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/asciify-vue.json"
+  },
+  {
+   "name": "asciify-vue-webgpu",
+   "type": "component",
+   "title": "Asciify (Vue, WebGPU)",
+   "description": "Redraws your page as live ascii characters in a soft radius around the cursor, with real glyph, shade block, and binary ramps. The HTML stays interactive in Chromium and Firefox. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/asciify-vue-webgpu.json"
+  },
+  {
+   "name": "bend-preact",
+   "type": "component",
+   "title": "Bend (Preact)",
+   "description": "Folds the top and bottom of your page over virtual edges as you scroll, like scrolling on the face of a cube. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact"
+   ],
+   "url": "https://canvasui.dev/r/bend-preact.json"
+  },
+  {
+   "name": "bend-preact-webgpu",
+   "type": "component",
+   "title": "Bend (Preact, WebGPU)",
+   "description": "Folds the top and bottom of your page over virtual edges as you scroll, like scrolling on the face of a cube. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/bend-preact-webgpu.json"
+  },
+  {
+   "name": "bend-react",
+   "type": "component",
+   "title": "Bend (React)",
+   "description": "Folds the top and bottom of your page over virtual edges as you scroll, like scrolling on the face of a cube. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/bend-react.json"
+  },
+  {
+   "name": "bend-react-webgpu",
+   "type": "component",
+   "title": "Bend (React, WebGPU)",
+   "description": "Folds the top and bottom of your page over virtual edges as you scroll, like scrolling on the face of a cube. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/bend-react-webgpu.json"
+  },
+  {
+   "name": "bend-solid",
+   "type": "component",
+   "title": "Bend (Solid)",
+   "description": "Folds the top and bottom of your page over virtual edges as you scroll, like scrolling on the face of a cube. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js"
+   ],
+   "url": "https://canvasui.dev/r/bend-solid.json"
+  },
+  {
+   "name": "bend-solid-webgpu",
+   "type": "component",
+   "title": "Bend (Solid, WebGPU)",
+   "description": "Folds the top and bottom of your page over virtual edges as you scroll, like scrolling on the face of a cube. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/bend-solid-webgpu.json"
+  },
+  {
+   "name": "bend-svelte",
+   "type": "component",
+   "title": "Bend (Svelte)",
+   "description": "Folds the top and bottom of your page over virtual edges as you scroll, like scrolling on the face of a cube. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/bend-svelte.json"
+  },
+  {
+   "name": "bend-svelte-webgpu",
+   "type": "component",
+   "title": "Bend (Svelte, WebGPU)",
+   "description": "Folds the top and bottom of your page over virtual edges as you scroll, like scrolling on the face of a cube. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/bend-svelte-webgpu.json"
+  },
+  {
+   "name": "bend-vanilla",
+   "type": "component",
+   "title": "Bend (Vanilla)",
+   "description": "Folds the top and bottom of your page over virtual edges as you scroll, like scrolling on the face of a cube. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/bend-vanilla.json"
+  },
+  {
+   "name": "bend-vanilla-webgpu",
+   "type": "component",
+   "title": "Bend (Vanilla, WebGPU)",
+   "description": "Folds the top and bottom of your page over virtual edges as you scroll, like scrolling on the face of a cube. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/bend-vanilla-webgpu.json"
+  },
+  {
+   "name": "bend-vue",
+   "type": "component",
+   "title": "Bend (Vue)",
+   "description": "Folds the top and bottom of your page over virtual edges as you scroll, like scrolling on the face of a cube. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/bend-vue.json"
+  },
+  {
+   "name": "bend-vue-webgpu",
+   "type": "component",
+   "title": "Bend (Vue, WebGPU)",
+   "description": "Folds the top and bottom of your page over virtual edges as you scroll, like scrolling on the face of a cube. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/bend-vue-webgpu.json"
+  },
+  {
+   "name": "blaze-preact",
+   "type": "component",
+   "title": "Blaze (Preact)",
+   "description": "Fire sparks, smoke, and heat distortion rising from the bottom of your page. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact"
+   ],
+   "url": "https://canvasui.dev/r/blaze-preact.json"
+  },
+  {
+   "name": "blaze-preact-webgpu",
+   "type": "component",
+   "title": "Blaze (Preact, WebGPU)",
+   "description": "Fire sparks, smoke, and heat distortion rising from the bottom of your page. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/blaze-preact-webgpu.json"
+  },
+  {
+   "name": "blaze-react",
+   "type": "component",
+   "title": "Blaze (React)",
+   "description": "Fire sparks, smoke, and heat distortion rising from the bottom of your page. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/blaze-react.json"
+  },
+  {
+   "name": "blaze-react-webgpu",
+   "type": "component",
+   "title": "Blaze (React, WebGPU)",
+   "description": "Fire sparks, smoke, and heat distortion rising from the bottom of your page. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/blaze-react-webgpu.json"
+  },
+  {
+   "name": "blaze-solid",
+   "type": "component",
+   "title": "Blaze (Solid)",
+   "description": "Fire sparks, smoke, and heat distortion rising from the bottom of your page. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js"
+   ],
+   "url": "https://canvasui.dev/r/blaze-solid.json"
+  },
+  {
+   "name": "blaze-solid-webgpu",
+   "type": "component",
+   "title": "Blaze (Solid, WebGPU)",
+   "description": "Fire sparks, smoke, and heat distortion rising from the bottom of your page. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/blaze-solid-webgpu.json"
+  },
+  {
+   "name": "blaze-svelte",
+   "type": "component",
+   "title": "Blaze (Svelte)",
+   "description": "Fire sparks, smoke, and heat distortion rising from the bottom of your page. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/blaze-svelte.json"
+  },
+  {
+   "name": "blaze-svelte-webgpu",
+   "type": "component",
+   "title": "Blaze (Svelte, WebGPU)",
+   "description": "Fire sparks, smoke, and heat distortion rising from the bottom of your page. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/blaze-svelte-webgpu.json"
+  },
+  {
+   "name": "blaze-vanilla",
+   "type": "component",
+   "title": "Blaze (Vanilla)",
+   "description": "Fire sparks, smoke, and heat distortion rising from the bottom of your page. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/blaze-vanilla.json"
+  },
+  {
+   "name": "blaze-vanilla-webgpu",
+   "type": "component",
+   "title": "Blaze (Vanilla, WebGPU)",
+   "description": "Fire sparks, smoke, and heat distortion rising from the bottom of your page. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/blaze-vanilla-webgpu.json"
+  },
+  {
+   "name": "blaze-vue",
+   "type": "component",
+   "title": "Blaze (Vue)",
+   "description": "Fire sparks, smoke, and heat distortion rising from the bottom of your page. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/blaze-vue.json"
+  },
+  {
+   "name": "blaze-vue-webgpu",
+   "type": "component",
+   "title": "Blaze (Vue, WebGPU)",
+   "description": "Fire sparks, smoke, and heat distortion rising from the bottom of your page. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/blaze-vue-webgpu.json"
+  },
+  {
+   "name": "bubble-preact",
+   "type": "component",
+   "title": "Bubble (Preact)",
+   "description": "A glassy droplet that trails the cursor as blending metaballs and refracts the live page beneath it, with dispersion, frost, and an iridescent sheen. The HTML stays interactive. No dependencies.",
+   "component": "message",
+   "surface": null,
+   "dependencies": [
+    "preact"
+   ],
+   "url": "https://canvasui.dev/r/bubble-preact.json"
+  },
+  {
+   "name": "bubble-preact-webgpu",
+   "type": "component",
+   "title": "Bubble (Preact, WebGPU)",
+   "description": "A glassy droplet that trails the cursor as blending metaballs and refracts the live page beneath it, with dispersion, frost, and an iridescent sheen. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": "message",
+   "surface": null,
+   "dependencies": [
+    "preact",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/bubble-preact-webgpu.json"
+  },
+  {
+   "name": "bubble-react",
+   "type": "component",
+   "title": "Bubble (React)",
+   "description": "A glassy droplet that trails the cursor as blending metaballs and refracts the live page beneath it, with dispersion, frost, and an iridescent sheen. The HTML stays interactive. No dependencies.",
+   "component": "message",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/bubble-react.json"
+  },
+  {
+   "name": "bubble-react-webgpu",
+   "type": "component",
+   "title": "Bubble (React, WebGPU)",
+   "description": "A glassy droplet that trails the cursor as blending metaballs and refracts the live page beneath it, with dispersion, frost, and an iridescent sheen. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": "message",
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/bubble-react-webgpu.json"
+  },
+  {
+   "name": "bubble-solid",
+   "type": "component",
+   "title": "Bubble (Solid)",
+   "description": "A glassy droplet that trails the cursor as blending metaballs and refracts the live page beneath it, with dispersion, frost, and an iridescent sheen. The HTML stays interactive. No dependencies.",
+   "component": "message",
+   "surface": null,
+   "dependencies": [
+    "solid-js"
+   ],
+   "url": "https://canvasui.dev/r/bubble-solid.json"
+  },
+  {
+   "name": "bubble-solid-webgpu",
+   "type": "component",
+   "title": "Bubble (Solid, WebGPU)",
+   "description": "A glassy droplet that trails the cursor as blending metaballs and refracts the live page beneath it, with dispersion, frost, and an iridescent sheen. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": "message",
+   "surface": null,
+   "dependencies": [
+    "solid-js",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/bubble-solid-webgpu.json"
+  },
+  {
+   "name": "bubble-svelte",
+   "type": "component",
+   "title": "Bubble (Svelte)",
+   "description": "A glassy droplet that trails the cursor as blending metaballs and refracts the live page beneath it, with dispersion, frost, and an iridescent sheen. The HTML stays interactive. No dependencies.",
+   "component": "message",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/bubble-svelte.json"
+  },
+  {
+   "name": "bubble-svelte-webgpu",
+   "type": "component",
+   "title": "Bubble (Svelte, WebGPU)",
+   "description": "A glassy droplet that trails the cursor as blending metaballs and refracts the live page beneath it, with dispersion, frost, and an iridescent sheen. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": "message",
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/bubble-svelte-webgpu.json"
+  },
+  {
+   "name": "bubble-vanilla",
+   "type": "component",
+   "title": "Bubble (Vanilla)",
+   "description": "A glassy droplet that trails the cursor as blending metaballs and refracts the live page beneath it, with dispersion, frost, and an iridescent sheen. The HTML stays interactive. No dependencies.",
+   "component": "message",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/bubble-vanilla.json"
+  },
+  {
+   "name": "bubble-vanilla-webgpu",
+   "type": "component",
+   "title": "Bubble (Vanilla, WebGPU)",
+   "description": "A glassy droplet that trails the cursor as blending metaballs and refracts the live page beneath it, with dispersion, frost, and an iridescent sheen. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": "message",
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/bubble-vanilla-webgpu.json"
+  },
+  {
+   "name": "bubble-vue",
+   "type": "component",
+   "title": "Bubble (Vue)",
+   "description": "A glassy droplet that trails the cursor as blending metaballs and refracts the live page beneath it, with dispersion, frost, and an iridescent sheen. The HTML stays interactive. No dependencies.",
+   "component": "message",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/bubble-vue.json"
+  },
+  {
+   "name": "bubble-vue-webgpu",
+   "type": "component",
+   "title": "Bubble (Vue, WebGPU)",
+   "description": "A glassy droplet that trails the cursor as blending metaballs and refracts the live page beneath it, with dispersion, frost, and an iridescent sheen. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": "message",
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/bubble-vue-webgpu.json"
+  },
+  {
+   "name": "canvas-preact",
+   "type": "component",
+   "title": "Canvas (Preact)",
+   "description": "Paints your page onto woven artist canvas, with fiber texture, paper tint, grain, a dotted halftone screen, and a soft intro crossfade. Text stays crisp and readable. The HTML stays interactive. No dependencies.",
+   "component": "node-editor",
+   "surface": null,
+   "dependencies": [
+    "preact"
+   ],
+   "url": "https://canvasui.dev/r/canvas-preact.json"
+  },
+  {
+   "name": "canvas-preact-webgpu",
+   "type": "component",
+   "title": "Canvas (Preact, WebGPU)",
+   "description": "Paints your page onto woven artist canvas, with fiber texture, paper tint, grain, a dotted halftone screen, and a soft intro crossfade. Text stays crisp and readable. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": "node-editor",
+   "surface": null,
+   "dependencies": [
+    "preact",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/canvas-preact-webgpu.json"
+  },
+  {
+   "name": "canvas-react",
+   "type": "component",
+   "title": "Canvas (React)",
+   "description": "Paints your page onto woven artist canvas, with fiber texture, paper tint, grain, a dotted halftone screen, and a soft intro crossfade. Text stays crisp and readable. The HTML stays interactive. No dependencies.",
+   "component": "node-editor",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/canvas-react.json"
+  },
+  {
+   "name": "canvas-react-webgpu",
+   "type": "component",
+   "title": "Canvas (React, WebGPU)",
+   "description": "Paints your page onto woven artist canvas, with fiber texture, paper tint, grain, a dotted halftone screen, and a soft intro crossfade. Text stays crisp and readable. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": "node-editor",
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/canvas-react-webgpu.json"
+  },
+  {
+   "name": "canvas-solid",
+   "type": "component",
+   "title": "Canvas (Solid)",
+   "description": "Paints your page onto woven artist canvas, with fiber texture, paper tint, grain, a dotted halftone screen, and a soft intro crossfade. Text stays crisp and readable. The HTML stays interactive. No dependencies.",
+   "component": "node-editor",
+   "surface": null,
+   "dependencies": [
+    "solid-js"
+   ],
+   "url": "https://canvasui.dev/r/canvas-solid.json"
+  },
+  {
+   "name": "canvas-solid-webgpu",
+   "type": "component",
+   "title": "Canvas (Solid, WebGPU)",
+   "description": "Paints your page onto woven artist canvas, with fiber texture, paper tint, grain, a dotted halftone screen, and a soft intro crossfade. Text stays crisp and readable. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": "node-editor",
+   "surface": null,
+   "dependencies": [
+    "solid-js",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/canvas-solid-webgpu.json"
+  },
+  {
+   "name": "canvas-svelte",
+   "type": "component",
+   "title": "Canvas (Svelte)",
+   "description": "Paints your page onto woven artist canvas, with fiber texture, paper tint, grain, a dotted halftone screen, and a soft intro crossfade. Text stays crisp and readable. The HTML stays interactive. No dependencies.",
+   "component": "node-editor",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/canvas-svelte.json"
+  },
+  {
+   "name": "canvas-svelte-webgpu",
+   "type": "component",
+   "title": "Canvas (Svelte, WebGPU)",
+   "description": "Paints your page onto woven artist canvas, with fiber texture, paper tint, grain, a dotted halftone screen, and a soft intro crossfade. Text stays crisp and readable. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": "node-editor",
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/canvas-svelte-webgpu.json"
+  },
+  {
+   "name": "canvas-vanilla",
+   "type": "component",
+   "title": "Canvas (Vanilla)",
+   "description": "Paints your page onto woven artist canvas, with fiber texture, paper tint, grain, a dotted halftone screen, and a soft intro crossfade. Text stays crisp and readable. The HTML stays interactive. No dependencies.",
+   "component": "node-editor",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/canvas-vanilla.json"
+  },
+  {
+   "name": "canvas-vanilla-webgpu",
+   "type": "component",
+   "title": "Canvas (Vanilla, WebGPU)",
+   "description": "Paints your page onto woven artist canvas, with fiber texture, paper tint, grain, a dotted halftone screen, and a soft intro crossfade. Text stays crisp and readable. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": "node-editor",
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/canvas-vanilla-webgpu.json"
+  },
+  {
+   "name": "canvas-vue",
+   "type": "component",
+   "title": "Canvas (Vue)",
+   "description": "Paints your page onto woven artist canvas, with fiber texture, paper tint, grain, a dotted halftone screen, and a soft intro crossfade. Text stays crisp and readable. The HTML stays interactive. No dependencies.",
+   "component": "node-editor",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/canvas-vue.json"
+  },
+  {
+   "name": "canvas-vue-webgpu",
+   "type": "component",
+   "title": "Canvas (Vue, WebGPU)",
+   "description": "Paints your page onto woven artist canvas, with fiber texture, paper tint, grain, a dotted halftone screen, and a soft intro crossfade. Text stays crisp and readable. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": "node-editor",
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/canvas-vue-webgpu.json"
+  },
+  {
+   "name": "cloth-preact",
+   "type": "component",
+   "title": "Cloth (Preact)",
+   "description": "Hangs your live HTML on a piece of fabric rippling in the wind, with softly lit folds. Cursor strokes send waves across the cloth. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact"
+   ],
+   "url": "https://canvasui.dev/r/cloth-preact.json"
+  },
+  {
+   "name": "cloth-preact-webgpu",
+   "type": "component",
+   "title": "Cloth (Preact, WebGPU)",
+   "description": "Hangs your live HTML on a piece of fabric rippling in the wind, with softly lit folds. Cursor strokes send waves across the cloth. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/cloth-preact-webgpu.json"
+  },
+  {
+   "name": "cloth-react",
+   "type": "component",
+   "title": "Cloth (React)",
+   "description": "Hangs your live HTML on a piece of fabric rippling in the wind, with softly lit folds. Cursor strokes send waves across the cloth. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/cloth-react.json"
+  },
+  {
+   "name": "cloth-react-webgpu",
+   "type": "component",
+   "title": "Cloth (React, WebGPU)",
+   "description": "Hangs your live HTML on a piece of fabric rippling in the wind, with softly lit folds. Cursor strokes send waves across the cloth. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/cloth-react-webgpu.json"
+  },
+  {
+   "name": "cloth-solid",
+   "type": "component",
+   "title": "Cloth (Solid)",
+   "description": "Hangs your live HTML on a piece of fabric rippling in the wind, with softly lit folds. Cursor strokes send waves across the cloth. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js"
+   ],
+   "url": "https://canvasui.dev/r/cloth-solid.json"
+  },
+  {
+   "name": "cloth-solid-webgpu",
+   "type": "component",
+   "title": "Cloth (Solid, WebGPU)",
+   "description": "Hangs your live HTML on a piece of fabric rippling in the wind, with softly lit folds. Cursor strokes send waves across the cloth. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/cloth-solid-webgpu.json"
+  },
+  {
+   "name": "cloth-svelte",
+   "type": "component",
+   "title": "Cloth (Svelte)",
+   "description": "Hangs your live HTML on a piece of fabric rippling in the wind, with softly lit folds. Cursor strokes send waves across the cloth. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/cloth-svelte.json"
+  },
+  {
+   "name": "cloth-svelte-webgpu",
+   "type": "component",
+   "title": "Cloth (Svelte, WebGPU)",
+   "description": "Hangs your live HTML on a piece of fabric rippling in the wind, with softly lit folds. Cursor strokes send waves across the cloth. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/cloth-svelte-webgpu.json"
+  },
+  {
+   "name": "cloth-vanilla",
+   "type": "component",
+   "title": "Cloth (Vanilla)",
+   "description": "Hangs your live HTML on a piece of fabric rippling in the wind, with softly lit folds. Cursor strokes send waves across the cloth. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/cloth-vanilla.json"
+  },
+  {
+   "name": "cloth-vanilla-webgpu",
+   "type": "component",
+   "title": "Cloth (Vanilla, WebGPU)",
+   "description": "Hangs your live HTML on a piece of fabric rippling in the wind, with softly lit folds. Cursor strokes send waves across the cloth. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/cloth-vanilla-webgpu.json"
+  },
+  {
+   "name": "cloth-vue",
+   "type": "component",
+   "title": "Cloth (Vue)",
+   "description": "Hangs your live HTML on a piece of fabric rippling in the wind, with softly lit folds. Cursor strokes send waves across the cloth. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/cloth-vue.json"
+  },
+  {
+   "name": "cloth-vue-webgpu",
+   "type": "component",
+   "title": "Cloth (Vue, WebGPU)",
+   "description": "Hangs your live HTML on a piece of fabric rippling in the wind, with softly lit folds. Cursor strokes send waves across the cloth. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/cloth-vue-webgpu.json"
+  },
+  {
+   "name": "clouds-preact",
+   "type": "component",
+   "title": "Clouds (Preact)",
+   "description": "Procedural fog that drifts over your page and blurs what it covers. Cursor movement parts the clouds. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact"
+   ],
+   "url": "https://canvasui.dev/r/clouds-preact.json"
+  },
+  {
+   "name": "clouds-preact-webgpu",
+   "type": "component",
+   "title": "Clouds (Preact, WebGPU)",
+   "description": "Procedural fog that drifts over your page and blurs what it covers. Cursor movement parts the clouds. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/clouds-preact-webgpu.json"
+  },
+  {
+   "name": "clouds-react",
+   "type": "component",
+   "title": "Clouds (React)",
+   "description": "Procedural fog that drifts over your page and blurs what it covers. Cursor movement parts the clouds. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/clouds-react.json"
+  },
+  {
+   "name": "clouds-react-webgpu",
+   "type": "component",
+   "title": "Clouds (React, WebGPU)",
+   "description": "Procedural fog that drifts over your page and blurs what it covers. Cursor movement parts the clouds. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/clouds-react-webgpu.json"
+  },
+  {
+   "name": "clouds-solid",
+   "type": "component",
+   "title": "Clouds (Solid)",
+   "description": "Procedural fog that drifts over your page and blurs what it covers. Cursor movement parts the clouds. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js"
+   ],
+   "url": "https://canvasui.dev/r/clouds-solid.json"
+  },
+  {
+   "name": "clouds-solid-webgpu",
+   "type": "component",
+   "title": "Clouds (Solid, WebGPU)",
+   "description": "Procedural fog that drifts over your page and blurs what it covers. Cursor movement parts the clouds. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/clouds-solid-webgpu.json"
+  },
+  {
+   "name": "clouds-svelte",
+   "type": "component",
+   "title": "Clouds (Svelte)",
+   "description": "Procedural fog that drifts over your page and blurs what it covers. Cursor movement parts the clouds. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/clouds-svelte.json"
+  },
+  {
+   "name": "clouds-svelte-webgpu",
+   "type": "component",
+   "title": "Clouds (Svelte, WebGPU)",
+   "description": "Procedural fog that drifts over your page and blurs what it covers. Cursor movement parts the clouds. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/clouds-svelte-webgpu.json"
+  },
+  {
+   "name": "clouds-vanilla",
+   "type": "component",
+   "title": "Clouds (Vanilla)",
+   "description": "Procedural fog that drifts over your page and blurs what it covers. Cursor movement parts the clouds. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/clouds-vanilla.json"
+  },
+  {
+   "name": "clouds-vanilla-webgpu",
+   "type": "component",
+   "title": "Clouds (Vanilla, WebGPU)",
+   "description": "Procedural fog that drifts over your page and blurs what it covers. Cursor movement parts the clouds. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/clouds-vanilla-webgpu.json"
+  },
+  {
+   "name": "clouds-vue",
+   "type": "component",
+   "title": "Clouds (Vue)",
+   "description": "Procedural fog that drifts over your page and blurs what it covers. Cursor movement parts the clouds. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/clouds-vue.json"
+  },
+  {
+   "name": "clouds-vue-webgpu",
+   "type": "component",
+   "title": "Clouds (Vue, WebGPU)",
+   "description": "Procedural fog that drifts over your page and blurs what it covers. Cursor movement parts the clouds. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/clouds-vue-webgpu.json"
+  },
+  {
+   "name": "decrypt-reveal-preact",
+   "type": "component",
+   "title": "DecryptReveal (Preact)",
+   "description": "Renders your page as real ASCII cipher text that decodes back into crisp UI around the cursor behind a flickering wavefront. The HTML stays interactive. No dependencies.",
+   "component": "scroll-reveal",
+   "surface": null,
+   "dependencies": [
+    "preact"
+   ],
+   "url": "https://canvasui.dev/r/decrypt-reveal-preact.json"
+  },
+  {
+   "name": "decrypt-reveal-preact-webgpu",
+   "type": "component",
+   "title": "DecryptReveal (Preact, WebGPU)",
+   "description": "Renders your page as real ASCII cipher text that decodes back into crisp UI around the cursor behind a flickering wavefront. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": "scroll-reveal",
+   "surface": null,
+   "dependencies": [
+    "preact",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/decrypt-reveal-preact-webgpu.json"
+  },
+  {
+   "name": "decrypt-reveal-react",
+   "type": "component",
+   "title": "DecryptReveal (React)",
+   "description": "Renders your page as real ASCII cipher text that decodes back into crisp UI around the cursor behind a flickering wavefront. The HTML stays interactive. No dependencies.",
+   "component": "scroll-reveal",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/decrypt-reveal-react.json"
+  },
+  {
+   "name": "decrypt-reveal-react-webgpu",
+   "type": "component",
+   "title": "DecryptReveal (React, WebGPU)",
+   "description": "Renders your page as real ASCII cipher text that decodes back into crisp UI around the cursor behind a flickering wavefront. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": "scroll-reveal",
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/decrypt-reveal-react-webgpu.json"
+  },
+  {
+   "name": "decrypt-reveal-solid",
+   "type": "component",
+   "title": "DecryptReveal (Solid)",
+   "description": "Renders your page as real ASCII cipher text that decodes back into crisp UI around the cursor behind a flickering wavefront. The HTML stays interactive. No dependencies.",
+   "component": "scroll-reveal",
+   "surface": null,
+   "dependencies": [
+    "solid-js"
+   ],
+   "url": "https://canvasui.dev/r/decrypt-reveal-solid.json"
+  },
+  {
+   "name": "decrypt-reveal-solid-webgpu",
+   "type": "component",
+   "title": "DecryptReveal (Solid, WebGPU)",
+   "description": "Renders your page as real ASCII cipher text that decodes back into crisp UI around the cursor behind a flickering wavefront. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": "scroll-reveal",
+   "surface": null,
+   "dependencies": [
+    "solid-js",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/decrypt-reveal-solid-webgpu.json"
+  },
+  {
+   "name": "decrypt-reveal-svelte",
+   "type": "component",
+   "title": "DecryptReveal (Svelte)",
+   "description": "Renders your page as real ASCII cipher text that decodes back into crisp UI around the cursor behind a flickering wavefront. The HTML stays interactive. No dependencies.",
+   "component": "scroll-reveal",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/decrypt-reveal-svelte.json"
+  },
+  {
+   "name": "decrypt-reveal-svelte-webgpu",
+   "type": "component",
+   "title": "DecryptReveal (Svelte, WebGPU)",
+   "description": "Renders your page as real ASCII cipher text that decodes back into crisp UI around the cursor behind a flickering wavefront. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": "scroll-reveal",
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/decrypt-reveal-svelte-webgpu.json"
+  },
+  {
+   "name": "decrypt-reveal-vanilla",
+   "type": "component",
+   "title": "DecryptReveal (Vanilla)",
+   "description": "Renders your page as real ASCII cipher text that decodes back into crisp UI around the cursor behind a flickering wavefront. The HTML stays interactive. No dependencies.",
+   "component": "scroll-reveal",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/decrypt-reveal-vanilla.json"
+  },
+  {
+   "name": "decrypt-reveal-vanilla-webgpu",
+   "type": "component",
+   "title": "DecryptReveal (Vanilla, WebGPU)",
+   "description": "Renders your page as real ASCII cipher text that decodes back into crisp UI around the cursor behind a flickering wavefront. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": "scroll-reveal",
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/decrypt-reveal-vanilla-webgpu.json"
+  },
+  {
+   "name": "decrypt-reveal-vue",
+   "type": "component",
+   "title": "DecryptReveal (Vue)",
+   "description": "Renders your page as real ASCII cipher text that decodes back into crisp UI around the cursor behind a flickering wavefront. The HTML stays interactive. No dependencies.",
+   "component": "scroll-reveal",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/decrypt-reveal-vue.json"
+  },
+  {
+   "name": "decrypt-reveal-vue-webgpu",
+   "type": "component",
+   "title": "DecryptReveal (Vue, WebGPU)",
+   "description": "Renders your page as real ASCII cipher text that decodes back into crisp UI around the cursor behind a flickering wavefront. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": "scroll-reveal",
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/decrypt-reveal-vue-webgpu.json"
+  },
+  {
+   "name": "displacement-preact",
+   "type": "component",
+   "title": "Displacement (Preact)",
+   "description": "Warps your live HTML on a displacement grid that ripples away from the cursor, with chromatic fringing and film grain in the disturbed areas. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact"
+   ],
+   "url": "https://canvasui.dev/r/displacement-preact.json"
+  },
+  {
+   "name": "displacement-preact-webgpu",
+   "type": "component",
+   "title": "Displacement (Preact, WebGPU)",
+   "description": "Warps your live HTML on a displacement grid that ripples away from the cursor, with chromatic fringing and film grain in the disturbed areas. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/displacement-preact-webgpu.json"
+  },
+  {
+   "name": "displacement-react",
+   "type": "component",
+   "title": "Displacement (React)",
+   "description": "Warps your live HTML on a displacement grid that ripples away from the cursor, with chromatic fringing and film grain in the disturbed areas. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/displacement-react.json"
+  },
+  {
+   "name": "displacement-react-webgpu",
+   "type": "component",
+   "title": "Displacement (React, WebGPU)",
+   "description": "Warps your live HTML on a displacement grid that ripples away from the cursor, with chromatic fringing and film grain in the disturbed areas. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/displacement-react-webgpu.json"
+  },
+  {
+   "name": "displacement-solid",
+   "type": "component",
+   "title": "Displacement (Solid)",
+   "description": "Warps your live HTML on a displacement grid that ripples away from the cursor, with chromatic fringing and film grain in the disturbed areas. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js"
+   ],
+   "url": "https://canvasui.dev/r/displacement-solid.json"
+  },
+  {
+   "name": "displacement-solid-webgpu",
+   "type": "component",
+   "title": "Displacement (Solid, WebGPU)",
+   "description": "Warps your live HTML on a displacement grid that ripples away from the cursor, with chromatic fringing and film grain in the disturbed areas. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/displacement-solid-webgpu.json"
+  },
+  {
+   "name": "displacement-svelte",
+   "type": "component",
+   "title": "Displacement (Svelte)",
+   "description": "Warps your live HTML on a displacement grid that ripples away from the cursor, with chromatic fringing and film grain in the disturbed areas. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/displacement-svelte.json"
+  },
+  {
+   "name": "displacement-svelte-webgpu",
+   "type": "component",
+   "title": "Displacement (Svelte, WebGPU)",
+   "description": "Warps your live HTML on a displacement grid that ripples away from the cursor, with chromatic fringing and film grain in the disturbed areas. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/displacement-svelte-webgpu.json"
+  },
+  {
+   "name": "displacement-vanilla",
+   "type": "component",
+   "title": "Displacement (Vanilla)",
+   "description": "Warps your live HTML on a displacement grid that ripples away from the cursor, with chromatic fringing and film grain in the disturbed areas. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/displacement-vanilla.json"
+  },
+  {
+   "name": "displacement-vanilla-webgpu",
+   "type": "component",
+   "title": "Displacement (Vanilla, WebGPU)",
+   "description": "Warps your live HTML on a displacement grid that ripples away from the cursor, with chromatic fringing and film grain in the disturbed areas. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/displacement-vanilla-webgpu.json"
+  },
+  {
+   "name": "displacement-vue",
+   "type": "component",
+   "title": "Displacement (Vue)",
+   "description": "Warps your live HTML on a displacement grid that ripples away from the cursor, with chromatic fringing and film grain in the disturbed areas. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/displacement-vue.json"
+  },
+  {
+   "name": "displacement-vue-webgpu",
+   "type": "component",
+   "title": "Displacement (Vue, WebGPU)",
+   "description": "Warps your live HTML on a displacement grid that ripples away from the cursor, with chromatic fringing and film grain in the disturbed areas. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/displacement-vue-webgpu.json"
+  },
+  {
+   "name": "dithered-object-preact",
+   "type": "component",
+   "title": "DitheredObject (Preact)",
+   "description": "Renders any GLB/glTF model, SVG, or image in a floating studio scene through a 1-bit Bayer, halftone, or Floyd–Steinberg dither. Built on three.js.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact",
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/dithered-object-preact.json"
+  },
+  {
+   "name": "dithered-object-preact-webgpu",
+   "type": "component",
+   "title": "DitheredObject (Preact, WebGPU)",
+   "description": "Renders any GLB/glTF model, SVG, or image in a floating studio scene through a 1-bit Bayer, halftone, or Floyd–Steinberg dither. Built on three.js. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact",
+    "vgpu",
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/dithered-object-preact-webgpu.json"
+  },
+  {
+   "name": "dithered-object-react",
+   "type": "component",
+   "title": "DitheredObject (React)",
+   "description": "Renders any GLB/glTF model, SVG, or image in a floating studio scene through a 1-bit Bayer, halftone, or Floyd–Steinberg dither. Built on three.js.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/dithered-object-react.json"
+  },
+  {
+   "name": "dithered-object-react-webgpu",
+   "type": "component",
+   "title": "DitheredObject (React, WebGPU)",
+   "description": "Renders any GLB/glTF model, SVG, or image in a floating studio scene through a 1-bit Bayer, halftone, or Floyd–Steinberg dither. Built on three.js. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu",
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/dithered-object-react-webgpu.json"
+  },
+  {
+   "name": "dithered-object-solid",
+   "type": "component",
+   "title": "DitheredObject (Solid)",
+   "description": "Renders any GLB/glTF model, SVG, or image in a floating studio scene through a 1-bit Bayer, halftone, or Floyd–Steinberg dither. Built on three.js.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js",
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/dithered-object-solid.json"
+  },
+  {
+   "name": "dithered-object-solid-webgpu",
+   "type": "component",
+   "title": "DitheredObject (Solid, WebGPU)",
+   "description": "Renders any GLB/glTF model, SVG, or image in a floating studio scene through a 1-bit Bayer, halftone, or Floyd–Steinberg dither. Built on three.js. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js",
+    "vgpu",
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/dithered-object-solid-webgpu.json"
+  },
+  {
+   "name": "dithered-object-svelte",
+   "type": "component",
+   "title": "DitheredObject (Svelte)",
+   "description": "Renders any GLB/glTF model, SVG, or image in a floating studio scene through a 1-bit Bayer, halftone, or Floyd–Steinberg dither. Built on three.js.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/dithered-object-svelte.json"
+  },
+  {
+   "name": "dithered-object-svelte-webgpu",
+   "type": "component",
+   "title": "DitheredObject (Svelte, WebGPU)",
+   "description": "Renders any GLB/glTF model, SVG, or image in a floating studio scene through a 1-bit Bayer, halftone, or Floyd–Steinberg dither. Built on three.js. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu",
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/dithered-object-svelte-webgpu.json"
+  },
+  {
+   "name": "dithered-object-vanilla",
+   "type": "component",
+   "title": "DitheredObject (Vanilla)",
+   "description": "Renders any GLB/glTF model, SVG, or image in a floating studio scene through a 1-bit Bayer, halftone, or Floyd–Steinberg dither. Built on three.js.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/dithered-object-vanilla.json"
+  },
+  {
+   "name": "dithered-object-vanilla-webgpu",
+   "type": "component",
+   "title": "DitheredObject (Vanilla, WebGPU)",
+   "description": "Renders any GLB/glTF model, SVG, or image in a floating studio scene through a 1-bit Bayer, halftone, or Floyd–Steinberg dither. Built on three.js. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu",
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/dithered-object-vanilla-webgpu.json"
+  },
+  {
+   "name": "dithered-object-vue",
+   "type": "component",
+   "title": "DitheredObject (Vue)",
+   "description": "Renders any GLB/glTF model, SVG, or image in a floating studio scene through a 1-bit Bayer, halftone, or Floyd–Steinberg dither. Built on three.js.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/dithered-object-vue.json"
+  },
+  {
+   "name": "dithered-object-vue-webgpu",
+   "type": "component",
+   "title": "DitheredObject (Vue, WebGPU)",
+   "description": "Renders any GLB/glTF model, SVG, or image in a floating studio scene through a 1-bit Bayer, halftone, or Floyd–Steinberg dither. Built on three.js. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu",
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/dithered-object-vue-webgpu.json"
+  },
+  {
+   "name": "droplets-preact",
+   "type": "component",
+   "title": "Droplets (Preact)",
+   "description": "Rain droplets that run down the screen and refract your page behind them. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact"
+   ],
+   "url": "https://canvasui.dev/r/droplets-preact.json"
+  },
+  {
+   "name": "droplets-preact-webgpu",
+   "type": "component",
+   "title": "Droplets (Preact, WebGPU)",
+   "description": "Rain droplets that run down the screen and refract your page behind them. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/droplets-preact-webgpu.json"
+  },
+  {
+   "name": "droplets-react",
+   "type": "component",
+   "title": "Droplets (React)",
+   "description": "Rain droplets that run down the screen and refract your page behind them. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/droplets-react.json"
+  },
+  {
+   "name": "droplets-react-webgpu",
+   "type": "component",
+   "title": "Droplets (React, WebGPU)",
+   "description": "Rain droplets that run down the screen and refract your page behind them. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/droplets-react-webgpu.json"
+  },
+  {
+   "name": "droplets-solid",
+   "type": "component",
+   "title": "Droplets (Solid)",
+   "description": "Rain droplets that run down the screen and refract your page behind them. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js"
+   ],
+   "url": "https://canvasui.dev/r/droplets-solid.json"
+  },
+  {
+   "name": "droplets-solid-webgpu",
+   "type": "component",
+   "title": "Droplets (Solid, WebGPU)",
+   "description": "Rain droplets that run down the screen and refract your page behind them. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/droplets-solid-webgpu.json"
+  },
+  {
+   "name": "droplets-svelte",
+   "type": "component",
+   "title": "Droplets (Svelte)",
+   "description": "Rain droplets that run down the screen and refract your page behind them. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/droplets-svelte.json"
+  },
+  {
+   "name": "droplets-svelte-webgpu",
+   "type": "component",
+   "title": "Droplets (Svelte, WebGPU)",
+   "description": "Rain droplets that run down the screen and refract your page behind them. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/droplets-svelte-webgpu.json"
+  },
+  {
+   "name": "droplets-vanilla",
+   "type": "component",
+   "title": "Droplets (Vanilla)",
+   "description": "Rain droplets that run down the screen and refract your page behind them. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/droplets-vanilla.json"
+  },
+  {
+   "name": "droplets-vanilla-webgpu",
+   "type": "component",
+   "title": "Droplets (Vanilla, WebGPU)",
+   "description": "Rain droplets that run down the screen and refract your page behind them. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/droplets-vanilla-webgpu.json"
+  },
+  {
+   "name": "droplets-vue",
+   "type": "component",
+   "title": "Droplets (Vue)",
+   "description": "Rain droplets that run down the screen and refract your page behind them. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/droplets-vue.json"
+  },
+  {
+   "name": "droplets-vue-webgpu",
+   "type": "component",
+   "title": "Droplets (Vue, WebGPU)",
+   "description": "Rain droplets that run down the screen and refract your page behind them. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/droplets-vue-webgpu.json"
+  },
+  {
+   "name": "flame-wrap-preact",
+   "type": "component",
+   "title": "FlameWrap (Preact)",
+   "description": "Wraps any element in a perfectly aligned border of fire: flames rise from the top edge, the outline glows molten, sparks fly, and the content shimmers with heat. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact"
+   ],
+   "url": "https://canvasui.dev/r/flame-wrap-preact.json"
+  },
+  {
+   "name": "flame-wrap-preact-webgpu",
+   "type": "component",
+   "title": "FlameWrap (Preact, WebGPU)",
+   "description": "Wraps any element in a perfectly aligned border of fire: flames rise from the top edge, the outline glows molten, sparks fly, and the content shimmers with heat. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/flame-wrap-preact-webgpu.json"
+  },
+  {
+   "name": "flame-wrap-react",
+   "type": "component",
+   "title": "FlameWrap (React)",
+   "description": "Wraps any element in a perfectly aligned border of fire: flames rise from the top edge, the outline glows molten, sparks fly, and the content shimmers with heat. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/flame-wrap-react.json"
+  },
+  {
+   "name": "flame-wrap-react-webgpu",
+   "type": "component",
+   "title": "FlameWrap (React, WebGPU)",
+   "description": "Wraps any element in a perfectly aligned border of fire: flames rise from the top edge, the outline glows molten, sparks fly, and the content shimmers with heat. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/flame-wrap-react-webgpu.json"
+  },
+  {
+   "name": "flame-wrap-solid",
+   "type": "component",
+   "title": "FlameWrap (Solid)",
+   "description": "Wraps any element in a perfectly aligned border of fire: flames rise from the top edge, the outline glows molten, sparks fly, and the content shimmers with heat. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js"
+   ],
+   "url": "https://canvasui.dev/r/flame-wrap-solid.json"
+  },
+  {
+   "name": "flame-wrap-solid-webgpu",
+   "type": "component",
+   "title": "FlameWrap (Solid, WebGPU)",
+   "description": "Wraps any element in a perfectly aligned border of fire: flames rise from the top edge, the outline glows molten, sparks fly, and the content shimmers with heat. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/flame-wrap-solid-webgpu.json"
+  },
+  {
+   "name": "flame-wrap-svelte",
+   "type": "component",
+   "title": "FlameWrap (Svelte)",
+   "description": "Wraps any element in a perfectly aligned border of fire: flames rise from the top edge, the outline glows molten, sparks fly, and the content shimmers with heat. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/flame-wrap-svelte.json"
+  },
+  {
+   "name": "flame-wrap-svelte-webgpu",
+   "type": "component",
+   "title": "FlameWrap (Svelte, WebGPU)",
+   "description": "Wraps any element in a perfectly aligned border of fire: flames rise from the top edge, the outline glows molten, sparks fly, and the content shimmers with heat. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/flame-wrap-svelte-webgpu.json"
+  },
+  {
+   "name": "flame-wrap-vanilla",
+   "type": "component",
+   "title": "FlameWrap (Vanilla)",
+   "description": "Wraps any element in a perfectly aligned border of fire: flames rise from the top edge, the outline glows molten, sparks fly, and the content shimmers with heat. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/flame-wrap-vanilla.json"
+  },
+  {
+   "name": "flame-wrap-vanilla-webgpu",
+   "type": "component",
+   "title": "FlameWrap (Vanilla, WebGPU)",
+   "description": "Wraps any element in a perfectly aligned border of fire: flames rise from the top edge, the outline glows molten, sparks fly, and the content shimmers with heat. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/flame-wrap-vanilla-webgpu.json"
+  },
+  {
+   "name": "flame-wrap-vue",
+   "type": "component",
+   "title": "FlameWrap (Vue)",
+   "description": "Wraps any element in a perfectly aligned border of fire: flames rise from the top edge, the outline glows molten, sparks fly, and the content shimmers with heat. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/flame-wrap-vue.json"
+  },
+  {
+   "name": "flame-wrap-vue-webgpu",
+   "type": "component",
+   "title": "FlameWrap (Vue, WebGPU)",
+   "description": "Wraps any element in a perfectly aligned border of fire: flames rise from the top edge, the outline glows molten, sparks fly, and the content shimmers with heat. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/flame-wrap-vue-webgpu.json"
+  },
+  {
+   "name": "force-field-preact",
+   "type": "component",
+   "title": "ForceField (Preact)",
+   "description": "Projects an energy shield lattice over your live HTML. The cursor charges cells as it crosses them and every click detonates a shockwave ripple that refracts the page beneath, with bloom, grain, and a burning reveal dissolve. The HTML stays interactive. No dependencies.",
+   "component": "fieldset",
+   "surface": null,
+   "dependencies": [
+    "preact"
+   ],
+   "url": "https://canvasui.dev/r/force-field-preact.json"
+  },
+  {
+   "name": "force-field-preact-webgpu",
+   "type": "component",
+   "title": "ForceField (Preact, WebGPU)",
+   "description": "Projects an energy shield lattice over your live HTML. The cursor charges cells as it crosses them and every click detonates a shockwave ripple that refracts the page beneath, with bloom, grain, and a burning reveal dissolve. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": "fieldset",
+   "surface": null,
+   "dependencies": [
+    "preact",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/force-field-preact-webgpu.json"
+  },
+  {
+   "name": "force-field-react",
+   "type": "component",
+   "title": "ForceField (React)",
+   "description": "Projects an energy shield lattice over your live HTML. The cursor charges cells as it crosses them and every click detonates a shockwave ripple that refracts the page beneath, with bloom, grain, and a burning reveal dissolve. The HTML stays interactive. No dependencies.",
+   "component": "fieldset",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/force-field-react.json"
+  },
+  {
+   "name": "force-field-react-webgpu",
+   "type": "component",
+   "title": "ForceField (React, WebGPU)",
+   "description": "Projects an energy shield lattice over your live HTML. The cursor charges cells as it crosses them and every click detonates a shockwave ripple that refracts the page beneath, with bloom, grain, and a burning reveal dissolve. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": "fieldset",
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/force-field-react-webgpu.json"
+  },
+  {
+   "name": "force-field-solid",
+   "type": "component",
+   "title": "ForceField (Solid)",
+   "description": "Projects an energy shield lattice over your live HTML. The cursor charges cells as it crosses them and every click detonates a shockwave ripple that refracts the page beneath, with bloom, grain, and a burning reveal dissolve. The HTML stays interactive. No dependencies.",
+   "component": "fieldset",
+   "surface": null,
+   "dependencies": [
+    "solid-js"
+   ],
+   "url": "https://canvasui.dev/r/force-field-solid.json"
+  },
+  {
+   "name": "force-field-solid-webgpu",
+   "type": "component",
+   "title": "ForceField (Solid, WebGPU)",
+   "description": "Projects an energy shield lattice over your live HTML. The cursor charges cells as it crosses them and every click detonates a shockwave ripple that refracts the page beneath, with bloom, grain, and a burning reveal dissolve. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": "fieldset",
+   "surface": null,
+   "dependencies": [
+    "solid-js",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/force-field-solid-webgpu.json"
+  },
+  {
+   "name": "force-field-svelte",
+   "type": "component",
+   "title": "ForceField (Svelte)",
+   "description": "Projects an energy shield lattice over your live HTML. The cursor charges cells as it crosses them and every click detonates a shockwave ripple that refracts the page beneath, with bloom, grain, and a burning reveal dissolve. The HTML stays interactive. No dependencies.",
+   "component": "fieldset",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/force-field-svelte.json"
+  },
+  {
+   "name": "force-field-svelte-webgpu",
+   "type": "component",
+   "title": "ForceField (Svelte, WebGPU)",
+   "description": "Projects an energy shield lattice over your live HTML. The cursor charges cells as it crosses them and every click detonates a shockwave ripple that refracts the page beneath, with bloom, grain, and a burning reveal dissolve. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": "fieldset",
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/force-field-svelte-webgpu.json"
+  },
+  {
+   "name": "force-field-vanilla",
+   "type": "component",
+   "title": "ForceField (Vanilla)",
+   "description": "Projects an energy shield lattice over your live HTML. The cursor charges cells as it crosses them and every click detonates a shockwave ripple that refracts the page beneath, with bloom, grain, and a burning reveal dissolve. The HTML stays interactive. No dependencies.",
+   "component": "fieldset",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/force-field-vanilla.json"
+  },
+  {
+   "name": "force-field-vanilla-webgpu",
+   "type": "component",
+   "title": "ForceField (Vanilla, WebGPU)",
+   "description": "Projects an energy shield lattice over your live HTML. The cursor charges cells as it crosses them and every click detonates a shockwave ripple that refracts the page beneath, with bloom, grain, and a burning reveal dissolve. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": "fieldset",
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/force-field-vanilla-webgpu.json"
+  },
+  {
+   "name": "force-field-vue",
+   "type": "component",
+   "title": "ForceField (Vue)",
+   "description": "Projects an energy shield lattice over your live HTML. The cursor charges cells as it crosses them and every click detonates a shockwave ripple that refracts the page beneath, with bloom, grain, and a burning reveal dissolve. The HTML stays interactive. No dependencies.",
+   "component": "fieldset",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/force-field-vue.json"
+  },
+  {
+   "name": "force-field-vue-webgpu",
+   "type": "component",
+   "title": "ForceField (Vue, WebGPU)",
+   "description": "Projects an energy shield lattice over your live HTML. The cursor charges cells as it crosses them and every click detonates a shockwave ripple that refracts the page beneath, with bloom, grain, and a burning reveal dissolve. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": "fieldset",
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/force-field-vue-webgpu.json"
+  },
+  {
+   "name": "frost-preact",
+   "type": "component",
+   "title": "Frost (Preact)",
+   "description": "Covers your page in a frozen pane of ice with refraction and frost grain. Hovering melts a hole through the frost, which freezes back over. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact"
+   ],
+   "url": "https://canvasui.dev/r/frost-preact.json"
+  },
+  {
+   "name": "frost-preact-webgpu",
+   "type": "component",
+   "title": "Frost (Preact, WebGPU)",
+   "description": "Covers your page in a frozen pane of ice with refraction and frost grain. Hovering melts a hole through the frost, which freezes back over. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/frost-preact-webgpu.json"
+  },
+  {
+   "name": "frost-react",
+   "type": "component",
+   "title": "Frost (React)",
+   "description": "Covers your page in a frozen pane of ice with refraction and frost grain. Hovering melts a hole through the frost, which freezes back over. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/frost-react.json"
+  },
+  {
+   "name": "frost-react-webgpu",
+   "type": "component",
+   "title": "Frost (React, WebGPU)",
+   "description": "Covers your page in a frozen pane of ice with refraction and frost grain. Hovering melts a hole through the frost, which freezes back over. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/frost-react-webgpu.json"
+  },
+  {
+   "name": "frost-solid",
+   "type": "component",
+   "title": "Frost (Solid)",
+   "description": "Covers your page in a frozen pane of ice with refraction and frost grain. Hovering melts a hole through the frost, which freezes back over. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js"
+   ],
+   "url": "https://canvasui.dev/r/frost-solid.json"
+  },
+  {
+   "name": "frost-solid-webgpu",
+   "type": "component",
+   "title": "Frost (Solid, WebGPU)",
+   "description": "Covers your page in a frozen pane of ice with refraction and frost grain. Hovering melts a hole through the frost, which freezes back over. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/frost-solid-webgpu.json"
+  },
+  {
+   "name": "frost-svelte",
+   "type": "component",
+   "title": "Frost (Svelte)",
+   "description": "Covers your page in a frozen pane of ice with refraction and frost grain. Hovering melts a hole through the frost, which freezes back over. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/frost-svelte.json"
+  },
+  {
+   "name": "frost-svelte-webgpu",
+   "type": "component",
+   "title": "Frost (Svelte, WebGPU)",
+   "description": "Covers your page in a frozen pane of ice with refraction and frost grain. Hovering melts a hole through the frost, which freezes back over. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/frost-svelte-webgpu.json"
+  },
+  {
+   "name": "frost-vanilla",
+   "type": "component",
+   "title": "Frost (Vanilla)",
+   "description": "Covers your page in a frozen pane of ice with refraction and frost grain. Hovering melts a hole through the frost, which freezes back over. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/frost-vanilla.json"
+  },
+  {
+   "name": "frost-vanilla-webgpu",
+   "type": "component",
+   "title": "Frost (Vanilla, WebGPU)",
+   "description": "Covers your page in a frozen pane of ice with refraction and frost grain. Hovering melts a hole through the frost, which freezes back over. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/frost-vanilla-webgpu.json"
+  },
+  {
+   "name": "frost-vue",
+   "type": "component",
+   "title": "Frost (Vue)",
+   "description": "Covers your page in a frozen pane of ice with refraction and frost grain. Hovering melts a hole through the frost, which freezes back over. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/frost-vue.json"
+  },
+  {
+   "name": "frost-vue-webgpu",
+   "type": "component",
+   "title": "Frost (Vue, WebGPU)",
+   "description": "Covers your page in a frozen pane of ice with refraction and frost grain. Hovering melts a hole through the frost, which freezes back over. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/frost-vue-webgpu.json"
+  },
+  {
+   "name": "glass-object-preact",
+   "type": "component",
+   "title": "GlassObject (Preact)",
+   "description": "Turns any GLB/glTF model, SVG, or image into a floating liquid-glass object with real refraction, chromatic dispersion, frost, and tinted absorption, lit by a studio environment. Built on three.js.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact",
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/glass-object-preact.json"
+  },
+  {
+   "name": "glass-object-preact-webgpu",
+   "type": "component",
+   "title": "GlassObject (Preact, WebGPU)",
+   "description": "Turns any GLB/glTF model, SVG, or image into a floating liquid-glass object with real refraction, chromatic dispersion, frost, and tinted absorption, lit by a studio environment. Built on three.js. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact",
+    "vgpu",
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/glass-object-preact-webgpu.json"
+  },
+  {
+   "name": "glass-object-react",
+   "type": "component",
+   "title": "GlassObject (React)",
+   "description": "Turns any GLB/glTF model, SVG, or image into a floating liquid-glass object with real refraction, chromatic dispersion, frost, and tinted absorption, lit by a studio environment. Built on three.js.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/glass-object-react.json"
+  },
+  {
+   "name": "glass-object-react-webgpu",
+   "type": "component",
+   "title": "GlassObject (React, WebGPU)",
+   "description": "Turns any GLB/glTF model, SVG, or image into a floating liquid-glass object with real refraction, chromatic dispersion, frost, and tinted absorption, lit by a studio environment. Built on three.js. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu",
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/glass-object-react-webgpu.json"
+  },
+  {
+   "name": "glass-object-solid",
+   "type": "component",
+   "title": "GlassObject (Solid)",
+   "description": "Turns any GLB/glTF model, SVG, or image into a floating liquid-glass object with real refraction, chromatic dispersion, frost, and tinted absorption, lit by a studio environment. Built on three.js.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js",
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/glass-object-solid.json"
+  },
+  {
+   "name": "glass-object-solid-webgpu",
+   "type": "component",
+   "title": "GlassObject (Solid, WebGPU)",
+   "description": "Turns any GLB/glTF model, SVG, or image into a floating liquid-glass object with real refraction, chromatic dispersion, frost, and tinted absorption, lit by a studio environment. Built on three.js. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js",
+    "vgpu",
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/glass-object-solid-webgpu.json"
+  },
+  {
+   "name": "glass-object-svelte",
+   "type": "component",
+   "title": "GlassObject (Svelte)",
+   "description": "Turns any GLB/glTF model, SVG, or image into a floating liquid-glass object with real refraction, chromatic dispersion, frost, and tinted absorption, lit by a studio environment. Built on three.js.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/glass-object-svelte.json"
+  },
+  {
+   "name": "glass-object-svelte-webgpu",
+   "type": "component",
+   "title": "GlassObject (Svelte, WebGPU)",
+   "description": "Turns any GLB/glTF model, SVG, or image into a floating liquid-glass object with real refraction, chromatic dispersion, frost, and tinted absorption, lit by a studio environment. Built on three.js. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu",
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/glass-object-svelte-webgpu.json"
+  },
+  {
+   "name": "glass-object-vanilla",
+   "type": "component",
+   "title": "GlassObject (Vanilla)",
+   "description": "Turns any GLB/glTF model, SVG, or image into a floating liquid-glass object with real refraction, chromatic dispersion, frost, and tinted absorption, lit by a studio environment. Built on three.js.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/glass-object-vanilla.json"
+  },
+  {
+   "name": "glass-object-vanilla-webgpu",
+   "type": "component",
+   "title": "GlassObject (Vanilla, WebGPU)",
+   "description": "Turns any GLB/glTF model, SVG, or image into a floating liquid-glass object with real refraction, chromatic dispersion, frost, and tinted absorption, lit by a studio environment. Built on three.js. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu",
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/glass-object-vanilla-webgpu.json"
+  },
+  {
+   "name": "glass-object-vue",
+   "type": "component",
+   "title": "GlassObject (Vue)",
+   "description": "Turns any GLB/glTF model, SVG, or image into a floating liquid-glass object with real refraction, chromatic dispersion, frost, and tinted absorption, lit by a studio environment. Built on three.js.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/glass-object-vue.json"
+  },
+  {
+   "name": "glass-object-vue-webgpu",
+   "type": "component",
+   "title": "GlassObject (Vue, WebGPU)",
+   "description": "Turns any GLB/glTF model, SVG, or image into a floating liquid-glass object with real refraction, chromatic dispersion, frost, and tinted absorption, lit by a studio environment. Built on three.js. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu",
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/glass-object-vue-webgpu.json"
+  },
+  {
+   "name": "glass-preact",
+   "type": "component",
+   "title": "Glass (Preact)",
+   "description": "A cursor-following glass lens that refracts your page like real glass, with a crystal ball zoom over target elements. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact"
+   ],
+   "url": "https://canvasui.dev/r/glass-preact.json"
+  },
+  {
+   "name": "glass-preact-webgpu",
+   "type": "component",
+   "title": "Glass (Preact, WebGPU)",
+   "description": "A cursor-following glass lens that refracts your page like real glass, with a crystal ball zoom over target elements. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/glass-preact-webgpu.json"
+  },
+  {
+   "name": "glass-react",
+   "type": "component",
+   "title": "Glass (React)",
+   "description": "A cursor-following glass lens that refracts your page like real glass, with a crystal ball zoom over target elements. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/glass-react.json"
+  },
+  {
+   "name": "glass-react-webgpu",
+   "type": "component",
+   "title": "Glass (React, WebGPU)",
+   "description": "A cursor-following glass lens that refracts your page like real glass, with a crystal ball zoom over target elements. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/glass-react-webgpu.json"
+  },
+  {
+   "name": "glass-solid",
+   "type": "component",
+   "title": "Glass (Solid)",
+   "description": "A cursor-following glass lens that refracts your page like real glass, with a crystal ball zoom over target elements. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js"
+   ],
+   "url": "https://canvasui.dev/r/glass-solid.json"
+  },
+  {
+   "name": "glass-solid-webgpu",
+   "type": "component",
+   "title": "Glass (Solid, WebGPU)",
+   "description": "A cursor-following glass lens that refracts your page like real glass, with a crystal ball zoom over target elements. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/glass-solid-webgpu.json"
+  },
+  {
+   "name": "glass-svelte",
+   "type": "component",
+   "title": "Glass (Svelte)",
+   "description": "A cursor-following glass lens that refracts your page like real glass, with a crystal ball zoom over target elements. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/glass-svelte.json"
+  },
+  {
+   "name": "glass-svelte-webgpu",
+   "type": "component",
+   "title": "Glass (Svelte, WebGPU)",
+   "description": "A cursor-following glass lens that refracts your page like real glass, with a crystal ball zoom over target elements. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/glass-svelte-webgpu.json"
+  },
+  {
+   "name": "glass-vanilla",
+   "type": "component",
+   "title": "Glass (Vanilla)",
+   "description": "A cursor-following glass lens that refracts your page like real glass, with a crystal ball zoom over target elements. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/glass-vanilla.json"
+  },
+  {
+   "name": "glass-vanilla-webgpu",
+   "type": "component",
+   "title": "Glass (Vanilla, WebGPU)",
+   "description": "A cursor-following glass lens that refracts your page like real glass, with a crystal ball zoom over target elements. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/glass-vanilla-webgpu.json"
+  },
+  {
+   "name": "glass-vue",
+   "type": "component",
+   "title": "Glass (Vue)",
+   "description": "A cursor-following glass lens that refracts your page like real glass, with a crystal ball zoom over target elements. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/glass-vue.json"
+  },
+  {
+   "name": "glass-vue-webgpu",
+   "type": "component",
+   "title": "Glass (Vue, WebGPU)",
+   "description": "A cursor-following glass lens that refracts your page like real glass, with a crystal ball zoom over target elements. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/glass-vue-webgpu.json"
+  },
+  {
+   "name": "glitch-preact",
+   "type": "component",
+   "title": "Glitch (Preact)",
+   "description": "Broadcast glitch bursts that tear the page into shifted slices with RGB splits, corrupted blocks, and analog noise, then settle back to a clean read. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact"
+   ],
+   "url": "https://canvasui.dev/r/glitch-preact.json"
+  },
+  {
+   "name": "glitch-preact-webgpu",
+   "type": "component",
+   "title": "Glitch (Preact, WebGPU)",
+   "description": "Broadcast glitch bursts that tear the page into shifted slices with RGB splits, corrupted blocks, and analog noise, then settle back to a clean read. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/glitch-preact-webgpu.json"
+  },
+  {
+   "name": "glitch-react",
+   "type": "component",
+   "title": "Glitch (React)",
+   "description": "Broadcast glitch bursts that tear the page into shifted slices with RGB splits, corrupted blocks, and analog noise, then settle back to a clean read. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/glitch-react.json"
+  },
+  {
+   "name": "glitch-react-webgpu",
+   "type": "component",
+   "title": "Glitch (React, WebGPU)",
+   "description": "Broadcast glitch bursts that tear the page into shifted slices with RGB splits, corrupted blocks, and analog noise, then settle back to a clean read. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/glitch-react-webgpu.json"
+  },
+  {
+   "name": "glitch-solid",
+   "type": "component",
+   "title": "Glitch (Solid)",
+   "description": "Broadcast glitch bursts that tear the page into shifted slices with RGB splits, corrupted blocks, and analog noise, then settle back to a clean read. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js"
+   ],
+   "url": "https://canvasui.dev/r/glitch-solid.json"
+  },
+  {
+   "name": "glitch-solid-webgpu",
+   "type": "component",
+   "title": "Glitch (Solid, WebGPU)",
+   "description": "Broadcast glitch bursts that tear the page into shifted slices with RGB splits, corrupted blocks, and analog noise, then settle back to a clean read. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/glitch-solid-webgpu.json"
+  },
+  {
+   "name": "glitch-svelte",
+   "type": "component",
+   "title": "Glitch (Svelte)",
+   "description": "Broadcast glitch bursts that tear the page into shifted slices with RGB splits, corrupted blocks, and analog noise, then settle back to a clean read. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/glitch-svelte.json"
+  },
+  {
+   "name": "glitch-svelte-webgpu",
+   "type": "component",
+   "title": "Glitch (Svelte, WebGPU)",
+   "description": "Broadcast glitch bursts that tear the page into shifted slices with RGB splits, corrupted blocks, and analog noise, then settle back to a clean read. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/glitch-svelte-webgpu.json"
+  },
+  {
+   "name": "glitch-vanilla",
+   "type": "component",
+   "title": "Glitch (Vanilla)",
+   "description": "Broadcast glitch bursts that tear the page into shifted slices with RGB splits, corrupted blocks, and analog noise, then settle back to a clean read. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/glitch-vanilla.json"
+  },
+  {
+   "name": "glitch-vanilla-webgpu",
+   "type": "component",
+   "title": "Glitch (Vanilla, WebGPU)",
+   "description": "Broadcast glitch bursts that tear the page into shifted slices with RGB splits, corrupted blocks, and analog noise, then settle back to a clean read. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/glitch-vanilla-webgpu.json"
+  },
+  {
+   "name": "glitch-vue",
+   "type": "component",
+   "title": "Glitch (Vue)",
+   "description": "Broadcast glitch bursts that tear the page into shifted slices with RGB splits, corrupted blocks, and analog noise, then settle back to a clean read. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/glitch-vue.json"
+  },
+  {
+   "name": "glitch-vue-webgpu",
+   "type": "component",
+   "title": "Glitch (Vue, WebGPU)",
+   "description": "Broadcast glitch bursts that tear the page into shifted slices with RGB splits, corrupted blocks, and analog noise, then settle back to a clean read. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/glitch-vue-webgpu.json"
+  },
+  {
+   "name": "glyph-rain-preact",
+   "type": "component",
+   "title": "GlyphRain (Preact)",
+   "description": "Rains glowing glyph streams over your live HTML while every drop head casts a real pool of light onto the page beneath, with embossed relief shading. The HTML stays interactive. No dependencies.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "preact"
+   ],
+   "url": "https://canvasui.dev/r/glyph-rain-preact.json"
+  },
+  {
+   "name": "glyph-rain-preact-webgpu",
+   "type": "component",
+   "title": "GlyphRain (Preact, WebGPU)",
+   "description": "Rains glowing glyph streams over your live HTML while every drop head casts a real pool of light onto the page beneath, with embossed relief shading. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "preact",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/glyph-rain-preact-webgpu.json"
+  },
+  {
+   "name": "glyph-rain-react",
+   "type": "component",
+   "title": "GlyphRain (React)",
+   "description": "Rains glowing glyph streams over your live HTML while every drop head casts a real pool of light onto the page beneath, with embossed relief shading. The HTML stays interactive. No dependencies.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/glyph-rain-react.json"
+  },
+  {
+   "name": "glyph-rain-react-webgpu",
+   "type": "component",
+   "title": "GlyphRain (React, WebGPU)",
+   "description": "Rains glowing glyph streams over your live HTML while every drop head casts a real pool of light onto the page beneath, with embossed relief shading. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/glyph-rain-react-webgpu.json"
+  },
+  {
+   "name": "glyph-rain-solid",
+   "type": "component",
+   "title": "GlyphRain (Solid)",
+   "description": "Rains glowing glyph streams over your live HTML while every drop head casts a real pool of light onto the page beneath, with embossed relief shading. The HTML stays interactive. No dependencies.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "solid-js"
+   ],
+   "url": "https://canvasui.dev/r/glyph-rain-solid.json"
+  },
+  {
+   "name": "glyph-rain-solid-webgpu",
+   "type": "component",
+   "title": "GlyphRain (Solid, WebGPU)",
+   "description": "Rains glowing glyph streams over your live HTML while every drop head casts a real pool of light onto the page beneath, with embossed relief shading. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "solid-js",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/glyph-rain-solid-webgpu.json"
+  },
+  {
+   "name": "glyph-rain-svelte",
+   "type": "component",
+   "title": "GlyphRain (Svelte)",
+   "description": "Rains glowing glyph streams over your live HTML while every drop head casts a real pool of light onto the page beneath, with embossed relief shading. The HTML stays interactive. No dependencies.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/glyph-rain-svelte.json"
+  },
+  {
+   "name": "glyph-rain-svelte-webgpu",
+   "type": "component",
+   "title": "GlyphRain (Svelte, WebGPU)",
+   "description": "Rains glowing glyph streams over your live HTML while every drop head casts a real pool of light onto the page beneath, with embossed relief shading. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/glyph-rain-svelte-webgpu.json"
+  },
+  {
+   "name": "glyph-rain-vanilla",
+   "type": "component",
+   "title": "GlyphRain (Vanilla)",
+   "description": "Rains glowing glyph streams over your live HTML while every drop head casts a real pool of light onto the page beneath, with embossed relief shading. The HTML stays interactive. No dependencies.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/glyph-rain-vanilla.json"
+  },
+  {
+   "name": "glyph-rain-vanilla-webgpu",
+   "type": "component",
+   "title": "GlyphRain (Vanilla, WebGPU)",
+   "description": "Rains glowing glyph streams over your live HTML while every drop head casts a real pool of light onto the page beneath, with embossed relief shading. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/glyph-rain-vanilla-webgpu.json"
+  },
+  {
+   "name": "glyph-rain-vue",
+   "type": "component",
+   "title": "GlyphRain (Vue)",
+   "description": "Rains glowing glyph streams over your live HTML while every drop head casts a real pool of light onto the page beneath, with embossed relief shading. The HTML stays interactive. No dependencies.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/glyph-rain-vue.json"
+  },
+  {
+   "name": "glyph-rain-vue-webgpu",
+   "type": "component",
+   "title": "GlyphRain (Vue, WebGPU)",
+   "description": "Rains glowing glyph streams over your live HTML while every drop head casts a real pool of light onto the page beneath, with embossed relief shading. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/glyph-rain-vue-webgpu.json"
+  },
+  {
+   "name": "grid-preact",
+   "type": "component",
+   "title": "Grid (Preact)",
+   "description": "Splits your page into a grid of 3D tiles that ripple in waves around the cursor. The HTML stays interactive. No dependencies.",
+   "component": "data-grid",
+   "surface": null,
+   "dependencies": [
+    "preact"
+   ],
+   "url": "https://canvasui.dev/r/grid-preact.json"
+  },
+  {
+   "name": "grid-preact-webgpu",
+   "type": "component",
+   "title": "Grid (Preact, WebGPU)",
+   "description": "Splits your page into a grid of 3D tiles that ripple in waves around the cursor. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": "data-grid",
+   "surface": null,
+   "dependencies": [
+    "preact",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/grid-preact-webgpu.json"
+  },
+  {
+   "name": "grid-react",
+   "type": "component",
+   "title": "Grid (React)",
+   "description": "Splits your page into a grid of 3D tiles that ripple in waves around the cursor. The HTML stays interactive. No dependencies.",
+   "component": "data-grid",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/grid-react.json"
+  },
+  {
+   "name": "grid-react-webgpu",
+   "type": "component",
+   "title": "Grid (React, WebGPU)",
+   "description": "Splits your page into a grid of 3D tiles that ripple in waves around the cursor. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": "data-grid",
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/grid-react-webgpu.json"
+  },
+  {
+   "name": "grid-solid",
+   "type": "component",
+   "title": "Grid (Solid)",
+   "description": "Splits your page into a grid of 3D tiles that ripple in waves around the cursor. The HTML stays interactive. No dependencies.",
+   "component": "data-grid",
+   "surface": null,
+   "dependencies": [
+    "solid-js"
+   ],
+   "url": "https://canvasui.dev/r/grid-solid.json"
+  },
+  {
+   "name": "grid-solid-webgpu",
+   "type": "component",
+   "title": "Grid (Solid, WebGPU)",
+   "description": "Splits your page into a grid of 3D tiles that ripple in waves around the cursor. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": "data-grid",
+   "surface": null,
+   "dependencies": [
+    "solid-js",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/grid-solid-webgpu.json"
+  },
+  {
+   "name": "grid-svelte",
+   "type": "component",
+   "title": "Grid (Svelte)",
+   "description": "Splits your page into a grid of 3D tiles that ripple in waves around the cursor. The HTML stays interactive. No dependencies.",
+   "component": "data-grid",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/grid-svelte.json"
+  },
+  {
+   "name": "grid-svelte-webgpu",
+   "type": "component",
+   "title": "Grid (Svelte, WebGPU)",
+   "description": "Splits your page into a grid of 3D tiles that ripple in waves around the cursor. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": "data-grid",
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/grid-svelte-webgpu.json"
+  },
+  {
+   "name": "grid-vanilla",
+   "type": "component",
+   "title": "Grid (Vanilla)",
+   "description": "Splits your page into a grid of 3D tiles that ripple in waves around the cursor. The HTML stays interactive. No dependencies.",
+   "component": "data-grid",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/grid-vanilla.json"
+  },
+  {
+   "name": "grid-vanilla-webgpu",
+   "type": "component",
+   "title": "Grid (Vanilla, WebGPU)",
+   "description": "Splits your page into a grid of 3D tiles that ripple in waves around the cursor. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": "data-grid",
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/grid-vanilla-webgpu.json"
+  },
+  {
+   "name": "grid-vue",
+   "type": "component",
+   "title": "Grid (Vue)",
+   "description": "Splits your page into a grid of 3D tiles that ripple in waves around the cursor. The HTML stays interactive. No dependencies.",
+   "component": "data-grid",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/grid-vue.json"
+  },
+  {
+   "name": "grid-vue-webgpu",
+   "type": "component",
+   "title": "Grid (Vue, WebGPU)",
+   "description": "Splits your page into a grid of 3D tiles that ripple in waves around the cursor. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": "data-grid",
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/grid-vue-webgpu.json"
+  },
+  {
+   "name": "hex-float-preact",
+   "type": "component",
+   "title": "HexFloat (Preact)",
+   "description": "Renders the live page onto a floor of shiny beveled hex tiles that lean back in perspective, bob gently, and rise toward the cursor. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact"
+   ],
+   "url": "https://canvasui.dev/r/hex-float-preact.json"
+  },
+  {
+   "name": "hex-float-preact-webgpu",
+   "type": "component",
+   "title": "HexFloat (Preact, WebGPU)",
+   "description": "Renders the live page onto a floor of shiny beveled hex tiles that lean back in perspective, bob gently, and rise toward the cursor. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/hex-float-preact-webgpu.json"
+  },
+  {
+   "name": "hex-float-react",
+   "type": "component",
+   "title": "HexFloat (React)",
+   "description": "Renders the live page onto a floor of shiny beveled hex tiles that lean back in perspective, bob gently, and rise toward the cursor. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/hex-float-react.json"
+  },
+  {
+   "name": "hex-float-react-webgpu",
+   "type": "component",
+   "title": "HexFloat (React, WebGPU)",
+   "description": "Renders the live page onto a floor of shiny beveled hex tiles that lean back in perspective, bob gently, and rise toward the cursor. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/hex-float-react-webgpu.json"
+  },
+  {
+   "name": "hex-float-solid",
+   "type": "component",
+   "title": "HexFloat (Solid)",
+   "description": "Renders the live page onto a floor of shiny beveled hex tiles that lean back in perspective, bob gently, and rise toward the cursor. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js"
+   ],
+   "url": "https://canvasui.dev/r/hex-float-solid.json"
+  },
+  {
+   "name": "hex-float-solid-webgpu",
+   "type": "component",
+   "title": "HexFloat (Solid, WebGPU)",
+   "description": "Renders the live page onto a floor of shiny beveled hex tiles that lean back in perspective, bob gently, and rise toward the cursor. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/hex-float-solid-webgpu.json"
+  },
+  {
+   "name": "hex-float-svelte",
+   "type": "component",
+   "title": "HexFloat (Svelte)",
+   "description": "Renders the live page onto a floor of shiny beveled hex tiles that lean back in perspective, bob gently, and rise toward the cursor. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/hex-float-svelte.json"
+  },
+  {
+   "name": "hex-float-svelte-webgpu",
+   "type": "component",
+   "title": "HexFloat (Svelte, WebGPU)",
+   "description": "Renders the live page onto a floor of shiny beveled hex tiles that lean back in perspective, bob gently, and rise toward the cursor. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/hex-float-svelte-webgpu.json"
+  },
+  {
+   "name": "hex-float-vanilla",
+   "type": "component",
+   "title": "HexFloat (Vanilla)",
+   "description": "Renders the live page onto a floor of shiny beveled hex tiles that lean back in perspective, bob gently, and rise toward the cursor. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/hex-float-vanilla.json"
+  },
+  {
+   "name": "hex-float-vanilla-webgpu",
+   "type": "component",
+   "title": "HexFloat (Vanilla, WebGPU)",
+   "description": "Renders the live page onto a floor of shiny beveled hex tiles that lean back in perspective, bob gently, and rise toward the cursor. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/hex-float-vanilla-webgpu.json"
+  },
+  {
+   "name": "hex-float-vue",
+   "type": "component",
+   "title": "HexFloat (Vue)",
+   "description": "Renders the live page onto a floor of shiny beveled hex tiles that lean back in perspective, bob gently, and rise toward the cursor. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/hex-float-vue.json"
+  },
+  {
+   "name": "hex-float-vue-webgpu",
+   "type": "component",
+   "title": "HexFloat (Vue, WebGPU)",
+   "description": "Renders the live page onto a floor of shiny beveled hex tiles that lean back in perspective, bob gently, and rise toward the cursor. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/hex-float-vue-webgpu.json"
+  },
+  {
+   "name": "ink-object-preact",
+   "type": "component",
+   "title": "InkObject (Preact)",
+   "description": "Renders any GLB/glTF model, SVG, or image in a floating studio scene as hand-pressed ink strokes that break into dashes as the tone lightens, with ragged bleed and dry-brush grain. Built on three.js.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact",
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/ink-object-preact.json"
+  },
+  {
+   "name": "ink-object-preact-webgpu",
+   "type": "component",
+   "title": "InkObject (Preact, WebGPU)",
+   "description": "Renders any GLB/glTF model, SVG, or image in a floating studio scene as hand-pressed ink strokes that break into dashes as the tone lightens, with ragged bleed and dry-brush grain. Built on three.js. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact",
+    "vgpu",
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/ink-object-preact-webgpu.json"
+  },
+  {
+   "name": "ink-object-react",
+   "type": "component",
+   "title": "InkObject (React)",
+   "description": "Renders any GLB/glTF model, SVG, or image in a floating studio scene as hand-pressed ink strokes that break into dashes as the tone lightens, with ragged bleed and dry-brush grain. Built on three.js.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/ink-object-react.json"
+  },
+  {
+   "name": "ink-object-react-webgpu",
+   "type": "component",
+   "title": "InkObject (React, WebGPU)",
+   "description": "Renders any GLB/glTF model, SVG, or image in a floating studio scene as hand-pressed ink strokes that break into dashes as the tone lightens, with ragged bleed and dry-brush grain. Built on three.js. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu",
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/ink-object-react-webgpu.json"
+  },
+  {
+   "name": "ink-object-solid",
+   "type": "component",
+   "title": "InkObject (Solid)",
+   "description": "Renders any GLB/glTF model, SVG, or image in a floating studio scene as hand-pressed ink strokes that break into dashes as the tone lightens, with ragged bleed and dry-brush grain. Built on three.js.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js",
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/ink-object-solid.json"
+  },
+  {
+   "name": "ink-object-solid-webgpu",
+   "type": "component",
+   "title": "InkObject (Solid, WebGPU)",
+   "description": "Renders any GLB/glTF model, SVG, or image in a floating studio scene as hand-pressed ink strokes that break into dashes as the tone lightens, with ragged bleed and dry-brush grain. Built on three.js. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js",
+    "vgpu",
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/ink-object-solid-webgpu.json"
+  },
+  {
+   "name": "ink-object-svelte",
+   "type": "component",
+   "title": "InkObject (Svelte)",
+   "description": "Renders any GLB/glTF model, SVG, or image in a floating studio scene as hand-pressed ink strokes that break into dashes as the tone lightens, with ragged bleed and dry-brush grain. Built on three.js.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/ink-object-svelte.json"
+  },
+  {
+   "name": "ink-object-svelte-webgpu",
+   "type": "component",
+   "title": "InkObject (Svelte, WebGPU)",
+   "description": "Renders any GLB/glTF model, SVG, or image in a floating studio scene as hand-pressed ink strokes that break into dashes as the tone lightens, with ragged bleed and dry-brush grain. Built on three.js. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu",
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/ink-object-svelte-webgpu.json"
+  },
+  {
+   "name": "ink-object-vanilla",
+   "type": "component",
+   "title": "InkObject (Vanilla)",
+   "description": "Renders any GLB/glTF model, SVG, or image in a floating studio scene as hand-pressed ink strokes that break into dashes as the tone lightens, with ragged bleed and dry-brush grain. Built on three.js.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/ink-object-vanilla.json"
+  },
+  {
+   "name": "ink-object-vanilla-webgpu",
+   "type": "component",
+   "title": "InkObject (Vanilla, WebGPU)",
+   "description": "Renders any GLB/glTF model, SVG, or image in a floating studio scene as hand-pressed ink strokes that break into dashes as the tone lightens, with ragged bleed and dry-brush grain. Built on three.js. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu",
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/ink-object-vanilla-webgpu.json"
+  },
+  {
+   "name": "ink-object-vue",
+   "type": "component",
+   "title": "InkObject (Vue)",
+   "description": "Renders any GLB/glTF model, SVG, or image in a floating studio scene as hand-pressed ink strokes that break into dashes as the tone lightens, with ragged bleed and dry-brush grain. Built on three.js.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/ink-object-vue.json"
+  },
+  {
+   "name": "ink-object-vue-webgpu",
+   "type": "component",
+   "title": "InkObject (Vue, WebGPU)",
+   "description": "Renders any GLB/glTF model, SVG, or image in a floating studio scene as hand-pressed ink strokes that break into dashes as the tone lightens, with ragged bleed and dry-brush grain. Built on three.js. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu",
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/ink-object-vue-webgpu.json"
+  },
+  {
+   "name": "laser-preact",
+   "type": "component",
+   "title": "Laser (Preact)",
+   "description": "Hides everything below a glowing laser beam near the bottom of the viewport. Scrolling prints new content in from behind it. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact"
+   ],
+   "url": "https://canvasui.dev/r/laser-preact.json"
+  },
+  {
+   "name": "laser-preact-webgpu",
+   "type": "component",
+   "title": "Laser (Preact, WebGPU)",
+   "description": "Hides everything below a glowing laser beam near the bottom of the viewport. Scrolling prints new content in from behind it. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/laser-preact-webgpu.json"
+  },
+  {
+   "name": "laser-react",
+   "type": "component",
+   "title": "Laser (React)",
+   "description": "Hides everything below a glowing laser beam near the bottom of the viewport. Scrolling prints new content in from behind it. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/laser-react.json"
+  },
+  {
+   "name": "laser-react-webgpu",
+   "type": "component",
+   "title": "Laser (React, WebGPU)",
+   "description": "Hides everything below a glowing laser beam near the bottom of the viewport. Scrolling prints new content in from behind it. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/laser-react-webgpu.json"
+  },
+  {
+   "name": "laser-solid",
+   "type": "component",
+   "title": "Laser (Solid)",
+   "description": "Hides everything below a glowing laser beam near the bottom of the viewport. Scrolling prints new content in from behind it. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js"
+   ],
+   "url": "https://canvasui.dev/r/laser-solid.json"
+  },
+  {
+   "name": "laser-solid-webgpu",
+   "type": "component",
+   "title": "Laser (Solid, WebGPU)",
+   "description": "Hides everything below a glowing laser beam near the bottom of the viewport. Scrolling prints new content in from behind it. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/laser-solid-webgpu.json"
+  },
+  {
+   "name": "laser-svelte",
+   "type": "component",
+   "title": "Laser (Svelte)",
+   "description": "Hides everything below a glowing laser beam near the bottom of the viewport. Scrolling prints new content in from behind it. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/laser-svelte.json"
+  },
+  {
+   "name": "laser-svelte-webgpu",
+   "type": "component",
+   "title": "Laser (Svelte, WebGPU)",
+   "description": "Hides everything below a glowing laser beam near the bottom of the viewport. Scrolling prints new content in from behind it. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/laser-svelte-webgpu.json"
+  },
+  {
+   "name": "laser-vanilla",
+   "type": "component",
+   "title": "Laser (Vanilla)",
+   "description": "Hides everything below a glowing laser beam near the bottom of the viewport. Scrolling prints new content in from behind it. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/laser-vanilla.json"
+  },
+  {
+   "name": "laser-vanilla-webgpu",
+   "type": "component",
+   "title": "Laser (Vanilla, WebGPU)",
+   "description": "Hides everything below a glowing laser beam near the bottom of the viewport. Scrolling prints new content in from behind it. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/laser-vanilla-webgpu.json"
+  },
+  {
+   "name": "laser-vue",
+   "type": "component",
+   "title": "Laser (Vue)",
+   "description": "Hides everything below a glowing laser beam near the bottom of the viewport. Scrolling prints new content in from behind it. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/laser-vue.json"
+  },
+  {
+   "name": "laser-vue-webgpu",
+   "type": "component",
+   "title": "Laser (Vue, WebGPU)",
+   "description": "Hides everything below a glowing laser beam near the bottom of the viewport. Scrolling prints new content in from behind it. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/laser-vue-webgpu.json"
+  },
+  {
+   "name": "liquid-object-preact",
+   "type": "component",
+   "title": "LiquidObject (Preact)",
+   "description": "Renders any GLB/glTF model, SVG, or image in a studio environment, then drags it through an invisible GPU fluid that swirls under the cursor and splits the light into chromatic fringes. Built on three.js.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact",
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/liquid-object-preact.json"
+  },
+  {
+   "name": "liquid-object-preact-webgpu",
+   "type": "component",
+   "title": "LiquidObject (Preact, WebGPU)",
+   "description": "Renders any GLB/glTF model, SVG, or image in a studio environment, then drags it through an invisible GPU fluid that swirls under the cursor and splits the light into chromatic fringes. Built on three.js. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact",
+    "vgpu",
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/liquid-object-preact-webgpu.json"
+  },
+  {
+   "name": "liquid-object-react",
+   "type": "component",
+   "title": "LiquidObject (React)",
+   "description": "Renders any GLB/glTF model, SVG, or image in a studio environment, then drags it through an invisible GPU fluid that swirls under the cursor and splits the light into chromatic fringes. Built on three.js.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/liquid-object-react.json"
+  },
+  {
+   "name": "liquid-object-react-webgpu",
+   "type": "component",
+   "title": "LiquidObject (React, WebGPU)",
+   "description": "Renders any GLB/glTF model, SVG, or image in a studio environment, then drags it through an invisible GPU fluid that swirls under the cursor and splits the light into chromatic fringes. Built on three.js. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu",
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/liquid-object-react-webgpu.json"
+  },
+  {
+   "name": "liquid-object-solid",
+   "type": "component",
+   "title": "LiquidObject (Solid)",
+   "description": "Renders any GLB/glTF model, SVG, or image in a studio environment, then drags it through an invisible GPU fluid that swirls under the cursor and splits the light into chromatic fringes. Built on three.js.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js",
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/liquid-object-solid.json"
+  },
+  {
+   "name": "liquid-object-solid-webgpu",
+   "type": "component",
+   "title": "LiquidObject (Solid, WebGPU)",
+   "description": "Renders any GLB/glTF model, SVG, or image in a studio environment, then drags it through an invisible GPU fluid that swirls under the cursor and splits the light into chromatic fringes. Built on three.js. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js",
+    "vgpu",
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/liquid-object-solid-webgpu.json"
+  },
+  {
+   "name": "liquid-object-svelte",
+   "type": "component",
+   "title": "LiquidObject (Svelte)",
+   "description": "Renders any GLB/glTF model, SVG, or image in a studio environment, then drags it through an invisible GPU fluid that swirls under the cursor and splits the light into chromatic fringes. Built on three.js.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/liquid-object-svelte.json"
+  },
+  {
+   "name": "liquid-object-svelte-webgpu",
+   "type": "component",
+   "title": "LiquidObject (Svelte, WebGPU)",
+   "description": "Renders any GLB/glTF model, SVG, or image in a studio environment, then drags it through an invisible GPU fluid that swirls under the cursor and splits the light into chromatic fringes. Built on three.js. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu",
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/liquid-object-svelte-webgpu.json"
+  },
+  {
+   "name": "liquid-object-vanilla",
+   "type": "component",
+   "title": "LiquidObject (Vanilla)",
+   "description": "Renders any GLB/glTF model, SVG, or image in a studio environment, then drags it through an invisible GPU fluid that swirls under the cursor and splits the light into chromatic fringes. Built on three.js.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/liquid-object-vanilla.json"
+  },
+  {
+   "name": "liquid-object-vanilla-webgpu",
+   "type": "component",
+   "title": "LiquidObject (Vanilla, WebGPU)",
+   "description": "Renders any GLB/glTF model, SVG, or image in a studio environment, then drags it through an invisible GPU fluid that swirls under the cursor and splits the light into chromatic fringes. Built on three.js. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu",
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/liquid-object-vanilla-webgpu.json"
+  },
+  {
+   "name": "liquid-object-vue",
+   "type": "component",
+   "title": "LiquidObject (Vue)",
+   "description": "Renders any GLB/glTF model, SVG, or image in a studio environment, then drags it through an invisible GPU fluid that swirls under the cursor and splits the light into chromatic fringes. Built on three.js.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/liquid-object-vue.json"
+  },
+  {
+   "name": "liquid-object-vue-webgpu",
+   "type": "component",
+   "title": "LiquidObject (Vue, WebGPU)",
+   "description": "Renders any GLB/glTF model, SVG, or image in a studio environment, then drags it through an invisible GPU fluid that swirls under the cursor and splits the light into chromatic fringes. Built on three.js. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu",
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/liquid-object-vue-webgpu.json"
+  },
+  {
+   "name": "liquid-preact",
+   "type": "component",
+   "title": "Liquid (Preact)",
+   "description": "A pointer-driven GPU fluid simulation over your page. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact"
+   ],
+   "url": "https://canvasui.dev/r/liquid-preact.json"
+  },
+  {
+   "name": "liquid-preact-webgpu",
+   "type": "component",
+   "title": "Liquid (Preact, WebGPU)",
+   "description": "A pointer-driven GPU fluid simulation over your page. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/liquid-preact-webgpu.json"
+  },
+  {
+   "name": "liquid-react",
+   "type": "component",
+   "title": "Liquid (React)",
+   "description": "A pointer-driven GPU fluid simulation over your page. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/liquid-react.json"
+  },
+  {
+   "name": "liquid-react-webgpu",
+   "type": "component",
+   "title": "Liquid (React, WebGPU)",
+   "description": "A pointer-driven GPU fluid simulation over your page. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/liquid-react-webgpu.json"
+  },
+  {
+   "name": "liquid-solid",
+   "type": "component",
+   "title": "Liquid (Solid)",
+   "description": "A pointer-driven GPU fluid simulation over your page. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js"
+   ],
+   "url": "https://canvasui.dev/r/liquid-solid.json"
+  },
+  {
+   "name": "liquid-solid-webgpu",
+   "type": "component",
+   "title": "Liquid (Solid, WebGPU)",
+   "description": "A pointer-driven GPU fluid simulation over your page. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/liquid-solid-webgpu.json"
+  },
+  {
+   "name": "liquid-svelte",
+   "type": "component",
+   "title": "Liquid (Svelte)",
+   "description": "A pointer-driven GPU fluid simulation over your page. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/liquid-svelte.json"
+  },
+  {
+   "name": "liquid-svelte-webgpu",
+   "type": "component",
+   "title": "Liquid (Svelte, WebGPU)",
+   "description": "A pointer-driven GPU fluid simulation over your page. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/liquid-svelte-webgpu.json"
+  },
+  {
+   "name": "liquid-vanilla",
+   "type": "component",
+   "title": "Liquid (Vanilla)",
+   "description": "A pointer-driven GPU fluid simulation over your page. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/liquid-vanilla.json"
+  },
+  {
+   "name": "liquid-vanilla-webgpu",
+   "type": "component",
+   "title": "Liquid (Vanilla, WebGPU)",
+   "description": "A pointer-driven GPU fluid simulation over your page. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/liquid-vanilla-webgpu.json"
+  },
+  {
+   "name": "liquid-vue",
+   "type": "component",
+   "title": "Liquid (Vue)",
+   "description": "A pointer-driven GPU fluid simulation over your page. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/liquid-vue.json"
+  },
+  {
+   "name": "liquid-vue-webgpu",
+   "type": "component",
+   "title": "Liquid (Vue, WebGPU)",
+   "description": "A pointer-driven GPU fluid simulation over your page. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/liquid-vue-webgpu.json"
+  },
+  {
+   "name": "magnify-preact",
+   "type": "component",
+   "title": "Magnify (Preact)",
+   "description": "A sci-fi scanner lens that follows the cursor and magnifies the live page inside a configurable HUD reticle, with chromatic aberration haze and click ripples that bend the page. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact"
+   ],
+   "url": "https://canvasui.dev/r/magnify-preact.json"
+  },
+  {
+   "name": "magnify-preact-webgpu",
+   "type": "component",
+   "title": "Magnify (Preact, WebGPU)",
+   "description": "A sci-fi scanner lens that follows the cursor and magnifies the live page inside a configurable HUD reticle, with chromatic aberration haze and click ripples that bend the page. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/magnify-preact-webgpu.json"
+  },
+  {
+   "name": "magnify-react",
+   "type": "component",
+   "title": "Magnify (React)",
+   "description": "A sci-fi scanner lens that follows the cursor and magnifies the live page inside a configurable HUD reticle, with chromatic aberration haze and click ripples that bend the page. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/magnify-react.json"
+  },
+  {
+   "name": "magnify-react-webgpu",
+   "type": "component",
+   "title": "Magnify (React, WebGPU)",
+   "description": "A sci-fi scanner lens that follows the cursor and magnifies the live page inside a configurable HUD reticle, with chromatic aberration haze and click ripples that bend the page. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/magnify-react-webgpu.json"
+  },
+  {
+   "name": "magnify-solid",
+   "type": "component",
+   "title": "Magnify (Solid)",
+   "description": "A sci-fi scanner lens that follows the cursor and magnifies the live page inside a configurable HUD reticle, with chromatic aberration haze and click ripples that bend the page. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js"
+   ],
+   "url": "https://canvasui.dev/r/magnify-solid.json"
+  },
+  {
+   "name": "magnify-solid-webgpu",
+   "type": "component",
+   "title": "Magnify (Solid, WebGPU)",
+   "description": "A sci-fi scanner lens that follows the cursor and magnifies the live page inside a configurable HUD reticle, with chromatic aberration haze and click ripples that bend the page. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/magnify-solid-webgpu.json"
+  },
+  {
+   "name": "magnify-svelte",
+   "type": "component",
+   "title": "Magnify (Svelte)",
+   "description": "A sci-fi scanner lens that follows the cursor and magnifies the live page inside a configurable HUD reticle, with chromatic aberration haze and click ripples that bend the page. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/magnify-svelte.json"
+  },
+  {
+   "name": "magnify-svelte-webgpu",
+   "type": "component",
+   "title": "Magnify (Svelte, WebGPU)",
+   "description": "A sci-fi scanner lens that follows the cursor and magnifies the live page inside a configurable HUD reticle, with chromatic aberration haze and click ripples that bend the page. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/magnify-svelte-webgpu.json"
+  },
+  {
+   "name": "magnify-vanilla",
+   "type": "component",
+   "title": "Magnify (Vanilla)",
+   "description": "A sci-fi scanner lens that follows the cursor and magnifies the live page inside a configurable HUD reticle, with chromatic aberration haze and click ripples that bend the page. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/magnify-vanilla.json"
+  },
+  {
+   "name": "magnify-vanilla-webgpu",
+   "type": "component",
+   "title": "Magnify (Vanilla, WebGPU)",
+   "description": "A sci-fi scanner lens that follows the cursor and magnifies the live page inside a configurable HUD reticle, with chromatic aberration haze and click ripples that bend the page. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/magnify-vanilla-webgpu.json"
+  },
+  {
+   "name": "magnify-vue",
+   "type": "component",
+   "title": "Magnify (Vue)",
+   "description": "A sci-fi scanner lens that follows the cursor and magnifies the live page inside a configurable HUD reticle, with chromatic aberration haze and click ripples that bend the page. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/magnify-vue.json"
+  },
+  {
+   "name": "magnify-vue-webgpu",
+   "type": "component",
+   "title": "Magnify (Vue, WebGPU)",
+   "description": "A sci-fi scanner lens that follows the cursor and magnifies the live page inside a configurable HUD reticle, with chromatic aberration haze and click ripples that bend the page. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/magnify-vue-webgpu.json"
+  },
+  {
+   "name": "particle-object-preact",
+   "type": "component",
+   "title": "ParticleObject (Preact)",
+   "description": "Rebuilds any GLB/glTF model, SVG, or image as a cloud of particles that the cursor pushes, swirls, and springs back into shape. Built on three.js.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact",
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/particle-object-preact.json"
+  },
+  {
+   "name": "particle-object-preact-webgpu",
+   "type": "component",
+   "title": "ParticleObject (Preact, WebGPU)",
+   "description": "Rebuilds any GLB/glTF model, SVG, or image as a cloud of particles that the cursor pushes, swirls, and springs back into shape. Built on three.js. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact",
+    "vgpu",
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/particle-object-preact-webgpu.json"
+  },
+  {
+   "name": "particle-object-react",
+   "type": "component",
+   "title": "ParticleObject (React)",
+   "description": "Rebuilds any GLB/glTF model, SVG, or image as a cloud of particles that the cursor pushes, swirls, and springs back into shape. Built on three.js.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/particle-object-react.json"
+  },
+  {
+   "name": "particle-object-react-webgpu",
+   "type": "component",
+   "title": "ParticleObject (React, WebGPU)",
+   "description": "Rebuilds any GLB/glTF model, SVG, or image as a cloud of particles that the cursor pushes, swirls, and springs back into shape. Built on three.js. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu",
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/particle-object-react-webgpu.json"
+  },
+  {
+   "name": "particle-object-solid",
+   "type": "component",
+   "title": "ParticleObject (Solid)",
+   "description": "Rebuilds any GLB/glTF model, SVG, or image as a cloud of particles that the cursor pushes, swirls, and springs back into shape. Built on three.js.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js",
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/particle-object-solid.json"
+  },
+  {
+   "name": "particle-object-solid-webgpu",
+   "type": "component",
+   "title": "ParticleObject (Solid, WebGPU)",
+   "description": "Rebuilds any GLB/glTF model, SVG, or image as a cloud of particles that the cursor pushes, swirls, and springs back into shape. Built on three.js. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js",
+    "vgpu",
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/particle-object-solid-webgpu.json"
+  },
+  {
+   "name": "particle-object-svelte",
+   "type": "component",
+   "title": "ParticleObject (Svelte)",
+   "description": "Rebuilds any GLB/glTF model, SVG, or image as a cloud of particles that the cursor pushes, swirls, and springs back into shape. Built on three.js.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/particle-object-svelte.json"
+  },
+  {
+   "name": "particle-object-svelte-webgpu",
+   "type": "component",
+   "title": "ParticleObject (Svelte, WebGPU)",
+   "description": "Rebuilds any GLB/glTF model, SVG, or image as a cloud of particles that the cursor pushes, swirls, and springs back into shape. Built on three.js. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu",
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/particle-object-svelte-webgpu.json"
+  },
+  {
+   "name": "particle-object-vanilla",
+   "type": "component",
+   "title": "ParticleObject (Vanilla)",
+   "description": "Rebuilds any GLB/glTF model, SVG, or image as a cloud of particles that the cursor pushes, swirls, and springs back into shape. Built on three.js.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/particle-object-vanilla.json"
+  },
+  {
+   "name": "particle-object-vanilla-webgpu",
+   "type": "component",
+   "title": "ParticleObject (Vanilla, WebGPU)",
+   "description": "Rebuilds any GLB/glTF model, SVG, or image as a cloud of particles that the cursor pushes, swirls, and springs back into shape. Built on three.js. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu",
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/particle-object-vanilla-webgpu.json"
+  },
+  {
+   "name": "particle-object-vue",
+   "type": "component",
+   "title": "ParticleObject (Vue)",
+   "description": "Rebuilds any GLB/glTF model, SVG, or image as a cloud of particles that the cursor pushes, swirls, and springs back into shape. Built on three.js.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/particle-object-vue.json"
+  },
+  {
+   "name": "particle-object-vue-webgpu",
+   "type": "component",
+   "title": "ParticleObject (Vue, WebGPU)",
+   "description": "Rebuilds any GLB/glTF model, SVG, or image as a cloud of particles that the cursor pushes, swirls, and springs back into shape. Built on three.js. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu",
+    "three"
+   ],
+   "url": "https://canvasui.dev/r/particle-object-vue-webgpu.json"
+  },
+  {
+   "name": "particle-reveal-preact",
+   "type": "component",
+   "title": "ParticleReveal (Preact)",
+   "description": "Renders your page as fine grayscale dust that merges back into crisp UI around the cursor. The HTML stays interactive. No dependencies.",
+   "component": "scroll-reveal",
+   "surface": null,
+   "dependencies": [
+    "preact"
+   ],
+   "url": "https://canvasui.dev/r/particle-reveal-preact.json"
+  },
+  {
+   "name": "particle-reveal-preact-webgpu",
+   "type": "component",
+   "title": "ParticleReveal (Preact, WebGPU)",
+   "description": "Renders your page as fine grayscale dust that merges back into crisp UI around the cursor. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": "scroll-reveal",
+   "surface": null,
+   "dependencies": [
+    "preact",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/particle-reveal-preact-webgpu.json"
+  },
+  {
+   "name": "particle-reveal-react",
+   "type": "component",
+   "title": "ParticleReveal (React)",
+   "description": "Renders your page as fine grayscale dust that merges back into crisp UI around the cursor. The HTML stays interactive. No dependencies.",
+   "component": "scroll-reveal",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/particle-reveal-react.json"
+  },
+  {
+   "name": "particle-reveal-react-webgpu",
+   "type": "component",
+   "title": "ParticleReveal (React, WebGPU)",
+   "description": "Renders your page as fine grayscale dust that merges back into crisp UI around the cursor. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": "scroll-reveal",
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/particle-reveal-react-webgpu.json"
+  },
+  {
+   "name": "particle-reveal-solid",
+   "type": "component",
+   "title": "ParticleReveal (Solid)",
+   "description": "Renders your page as fine grayscale dust that merges back into crisp UI around the cursor. The HTML stays interactive. No dependencies.",
+   "component": "scroll-reveal",
+   "surface": null,
+   "dependencies": [
+    "solid-js"
+   ],
+   "url": "https://canvasui.dev/r/particle-reveal-solid.json"
+  },
+  {
+   "name": "particle-reveal-solid-webgpu",
+   "type": "component",
+   "title": "ParticleReveal (Solid, WebGPU)",
+   "description": "Renders your page as fine grayscale dust that merges back into crisp UI around the cursor. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": "scroll-reveal",
+   "surface": null,
+   "dependencies": [
+    "solid-js",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/particle-reveal-solid-webgpu.json"
+  },
+  {
+   "name": "particle-reveal-svelte",
+   "type": "component",
+   "title": "ParticleReveal (Svelte)",
+   "description": "Renders your page as fine grayscale dust that merges back into crisp UI around the cursor. The HTML stays interactive. No dependencies.",
+   "component": "scroll-reveal",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/particle-reveal-svelte.json"
+  },
+  {
+   "name": "particle-reveal-svelte-webgpu",
+   "type": "component",
+   "title": "ParticleReveal (Svelte, WebGPU)",
+   "description": "Renders your page as fine grayscale dust that merges back into crisp UI around the cursor. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": "scroll-reveal",
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/particle-reveal-svelte-webgpu.json"
+  },
+  {
+   "name": "particle-reveal-vanilla",
+   "type": "component",
+   "title": "ParticleReveal (Vanilla)",
+   "description": "Renders your page as fine grayscale dust that merges back into crisp UI around the cursor. The HTML stays interactive. No dependencies.",
+   "component": "scroll-reveal",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/particle-reveal-vanilla.json"
+  },
+  {
+   "name": "particle-reveal-vanilla-webgpu",
+   "type": "component",
+   "title": "ParticleReveal (Vanilla, WebGPU)",
+   "description": "Renders your page as fine grayscale dust that merges back into crisp UI around the cursor. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": "scroll-reveal",
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/particle-reveal-vanilla-webgpu.json"
+  },
+  {
+   "name": "particle-reveal-vue",
+   "type": "component",
+   "title": "ParticleReveal (Vue)",
+   "description": "Renders your page as fine grayscale dust that merges back into crisp UI around the cursor. The HTML stays interactive. No dependencies.",
+   "component": "scroll-reveal",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/particle-reveal-vue.json"
+  },
+  {
+   "name": "particle-reveal-vue-webgpu",
+   "type": "component",
+   "title": "ParticleReveal (Vue, WebGPU)",
+   "description": "Renders your page as fine grayscale dust that merges back into crisp UI around the cursor. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": "scroll-reveal",
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/particle-reveal-vue-webgpu.json"
+  },
+  {
+   "name": "particle-scroll-preact",
+   "type": "component",
+   "title": "ParticleScroll (Preact)",
+   "description": "Dissolves everything below a chosen line into drifting sand that reassembles as you scroll. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact"
+   ],
+   "url": "https://canvasui.dev/r/particle-scroll-preact.json"
+  },
+  {
+   "name": "particle-scroll-preact-webgpu",
+   "type": "component",
+   "title": "ParticleScroll (Preact, WebGPU)",
+   "description": "Dissolves everything below a chosen line into drifting sand that reassembles as you scroll. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/particle-scroll-preact-webgpu.json"
+  },
+  {
+   "name": "particle-scroll-react",
+   "type": "component",
+   "title": "ParticleScroll (React)",
+   "description": "Dissolves everything below a chosen line into drifting sand that reassembles as you scroll. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/particle-scroll-react.json"
+  },
+  {
+   "name": "particle-scroll-react-webgpu",
+   "type": "component",
+   "title": "ParticleScroll (React, WebGPU)",
+   "description": "Dissolves everything below a chosen line into drifting sand that reassembles as you scroll. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/particle-scroll-react-webgpu.json"
+  },
+  {
+   "name": "particle-scroll-solid",
+   "type": "component",
+   "title": "ParticleScroll (Solid)",
+   "description": "Dissolves everything below a chosen line into drifting sand that reassembles as you scroll. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js"
+   ],
+   "url": "https://canvasui.dev/r/particle-scroll-solid.json"
+  },
+  {
+   "name": "particle-scroll-solid-webgpu",
+   "type": "component",
+   "title": "ParticleScroll (Solid, WebGPU)",
+   "description": "Dissolves everything below a chosen line into drifting sand that reassembles as you scroll. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/particle-scroll-solid-webgpu.json"
+  },
+  {
+   "name": "particle-scroll-svelte",
+   "type": "component",
+   "title": "ParticleScroll (Svelte)",
+   "description": "Dissolves everything below a chosen line into drifting sand that reassembles as you scroll. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/particle-scroll-svelte.json"
+  },
+  {
+   "name": "particle-scroll-svelte-webgpu",
+   "type": "component",
+   "title": "ParticleScroll (Svelte, WebGPU)",
+   "description": "Dissolves everything below a chosen line into drifting sand that reassembles as you scroll. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/particle-scroll-svelte-webgpu.json"
+  },
+  {
+   "name": "particle-scroll-vanilla",
+   "type": "component",
+   "title": "ParticleScroll (Vanilla)",
+   "description": "Dissolves everything below a chosen line into drifting sand that reassembles as you scroll. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/particle-scroll-vanilla.json"
+  },
+  {
+   "name": "particle-scroll-vanilla-webgpu",
+   "type": "component",
+   "title": "ParticleScroll (Vanilla, WebGPU)",
+   "description": "Dissolves everything below a chosen line into drifting sand that reassembles as you scroll. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/particle-scroll-vanilla-webgpu.json"
+  },
+  {
+   "name": "particle-scroll-vue",
+   "type": "component",
+   "title": "ParticleScroll (Vue)",
+   "description": "Dissolves everything below a chosen line into drifting sand that reassembles as you scroll. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/particle-scroll-vue.json"
+  },
+  {
+   "name": "particle-scroll-vue-webgpu",
+   "type": "component",
+   "title": "ParticleScroll (Vue, WebGPU)",
+   "description": "Dissolves everything below a chosen line into drifting sand that reassembles as you scroll. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/particle-scroll-vue-webgpu.json"
+  },
+  {
+   "name": "peel-preact",
+   "type": "component",
+   "title": "Peel (Preact)",
+   "description": "Peels your page back from a chosen edge as the cursor approaches, revealing a second layer underneath. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact"
+   ],
+   "url": "https://canvasui.dev/r/peel-preact.json"
+  },
+  {
+   "name": "peel-preact-webgpu",
+   "type": "component",
+   "title": "Peel (Preact, WebGPU)",
+   "description": "Peels your page back from a chosen edge as the cursor approaches, revealing a second layer underneath. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/peel-preact-webgpu.json"
+  },
+  {
+   "name": "peel-react",
+   "type": "component",
+   "title": "Peel (React)",
+   "description": "Peels your page back from a chosen edge as the cursor approaches, revealing a second layer underneath. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/peel-react.json"
+  },
+  {
+   "name": "peel-react-webgpu",
+   "type": "component",
+   "title": "Peel (React, WebGPU)",
+   "description": "Peels your page back from a chosen edge as the cursor approaches, revealing a second layer underneath. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/peel-react-webgpu.json"
+  },
+  {
+   "name": "peel-solid",
+   "type": "component",
+   "title": "Peel (Solid)",
+   "description": "Peels your page back from a chosen edge as the cursor approaches, revealing a second layer underneath. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js"
+   ],
+   "url": "https://canvasui.dev/r/peel-solid.json"
+  },
+  {
+   "name": "peel-solid-webgpu",
+   "type": "component",
+   "title": "Peel (Solid, WebGPU)",
+   "description": "Peels your page back from a chosen edge as the cursor approaches, revealing a second layer underneath. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/peel-solid-webgpu.json"
+  },
+  {
+   "name": "peel-svelte",
+   "type": "component",
+   "title": "Peel (Svelte)",
+   "description": "Peels your page back from a chosen edge as the cursor approaches, revealing a second layer underneath. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/peel-svelte.json"
+  },
+  {
+   "name": "peel-svelte-webgpu",
+   "type": "component",
+   "title": "Peel (Svelte, WebGPU)",
+   "description": "Peels your page back from a chosen edge as the cursor approaches, revealing a second layer underneath. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/peel-svelte-webgpu.json"
+  },
+  {
+   "name": "peel-vanilla",
+   "type": "component",
+   "title": "Peel (Vanilla)",
+   "description": "Peels your page back from a chosen edge as the cursor approaches, revealing a second layer underneath. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/peel-vanilla.json"
+  },
+  {
+   "name": "peel-vanilla-webgpu",
+   "type": "component",
+   "title": "Peel (Vanilla, WebGPU)",
+   "description": "Peels your page back from a chosen edge as the cursor approaches, revealing a second layer underneath. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/peel-vanilla-webgpu.json"
+  },
+  {
+   "name": "peel-vue",
+   "type": "component",
+   "title": "Peel (Vue)",
+   "description": "Peels your page back from a chosen edge as the cursor approaches, revealing a second layer underneath. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/peel-vue.json"
+  },
+  {
+   "name": "peel-vue-webgpu",
+   "type": "component",
+   "title": "Peel (Vue, WebGPU)",
+   "description": "Peels your page back from a chosen edge as the cursor approaches, revealing a second layer underneath. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/peel-vue-webgpu.json"
+  },
+  {
+   "name": "retro-dither-preact",
+   "type": "component",
+   "title": "RetroDither (Preact)",
+   "description": "A retro dither lens that pixelates and quantizes your page around the cursor. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact"
+   ],
+   "url": "https://canvasui.dev/r/retro-dither-preact.json"
+  },
+  {
+   "name": "retro-dither-preact-webgpu",
+   "type": "component",
+   "title": "RetroDither (Preact, WebGPU)",
+   "description": "A retro dither lens that pixelates and quantizes your page around the cursor. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/retro-dither-preact-webgpu.json"
+  },
+  {
+   "name": "retro-dither-react",
+   "type": "component",
+   "title": "RetroDither (React)",
+   "description": "A retro dither lens that pixelates and quantizes your page around the cursor. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/retro-dither-react.json"
+  },
+  {
+   "name": "retro-dither-react-webgpu",
+   "type": "component",
+   "title": "RetroDither (React, WebGPU)",
+   "description": "A retro dither lens that pixelates and quantizes your page around the cursor. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/retro-dither-react-webgpu.json"
+  },
+  {
+   "name": "retro-dither-solid",
+   "type": "component",
+   "title": "RetroDither (Solid)",
+   "description": "A retro dither lens that pixelates and quantizes your page around the cursor. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js"
+   ],
+   "url": "https://canvasui.dev/r/retro-dither-solid.json"
+  },
+  {
+   "name": "retro-dither-solid-webgpu",
+   "type": "component",
+   "title": "RetroDither (Solid, WebGPU)",
+   "description": "A retro dither lens that pixelates and quantizes your page around the cursor. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/retro-dither-solid-webgpu.json"
+  },
+  {
+   "name": "retro-dither-svelte",
+   "type": "component",
+   "title": "RetroDither (Svelte)",
+   "description": "A retro dither lens that pixelates and quantizes your page around the cursor. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/retro-dither-svelte.json"
+  },
+  {
+   "name": "retro-dither-svelte-webgpu",
+   "type": "component",
+   "title": "RetroDither (Svelte, WebGPU)",
+   "description": "A retro dither lens that pixelates and quantizes your page around the cursor. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/retro-dither-svelte-webgpu.json"
+  },
+  {
+   "name": "retro-dither-vanilla",
+   "type": "component",
+   "title": "RetroDither (Vanilla)",
+   "description": "A retro dither lens that pixelates and quantizes your page around the cursor. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/retro-dither-vanilla.json"
+  },
+  {
+   "name": "retro-dither-vanilla-webgpu",
+   "type": "component",
+   "title": "RetroDither (Vanilla, WebGPU)",
+   "description": "A retro dither lens that pixelates and quantizes your page around the cursor. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/retro-dither-vanilla-webgpu.json"
+  },
+  {
+   "name": "retro-dither-vue",
+   "type": "component",
+   "title": "RetroDither (Vue)",
+   "description": "A retro dither lens that pixelates and quantizes your page around the cursor. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/retro-dither-vue.json"
+  },
+  {
+   "name": "retro-dither-vue-webgpu",
+   "type": "component",
+   "title": "RetroDither (Vue, WebGPU)",
+   "description": "A retro dither lens that pixelates and quantizes your page around the cursor. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/retro-dither-vue-webgpu.json"
+  },
+  {
+   "name": "ripple-preact",
+   "type": "component",
+   "title": "Ripple (Preact)",
+   "description": "Water ripples that spread from every click and refract the live page like a pond surface, with dispersion and light glints on the crests. The HTML stays interactive. No dependencies.",
+   "component": "ripple",
+   "surface": null,
+   "dependencies": [
+    "preact"
+   ],
+   "url": "https://canvasui.dev/r/ripple-preact.json"
+  },
+  {
+   "name": "ripple-preact-webgpu",
+   "type": "component",
+   "title": "Ripple (Preact, WebGPU)",
+   "description": "Water ripples that spread from every click and refract the live page like a pond surface, with dispersion and light glints on the crests. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": "ripple",
+   "surface": null,
+   "dependencies": [
+    "preact",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/ripple-preact-webgpu.json"
+  },
+  {
+   "name": "ripple-react",
+   "type": "component",
+   "title": "Ripple (React)",
+   "description": "Water ripples that spread from every click and refract the live page like a pond surface, with dispersion and light glints on the crests. The HTML stays interactive. No dependencies.",
+   "component": "ripple",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/ripple-react.json"
+  },
+  {
+   "name": "ripple-react-webgpu",
+   "type": "component",
+   "title": "Ripple (React, WebGPU)",
+   "description": "Water ripples that spread from every click and refract the live page like a pond surface, with dispersion and light glints on the crests. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": "ripple",
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/ripple-react-webgpu.json"
+  },
+  {
+   "name": "ripple-solid",
+   "type": "component",
+   "title": "Ripple (Solid)",
+   "description": "Water ripples that spread from every click and refract the live page like a pond surface, with dispersion and light glints on the crests. The HTML stays interactive. No dependencies.",
+   "component": "ripple",
+   "surface": null,
+   "dependencies": [
+    "solid-js"
+   ],
+   "url": "https://canvasui.dev/r/ripple-solid.json"
+  },
+  {
+   "name": "ripple-solid-webgpu",
+   "type": "component",
+   "title": "Ripple (Solid, WebGPU)",
+   "description": "Water ripples that spread from every click and refract the live page like a pond surface, with dispersion and light glints on the crests. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": "ripple",
+   "surface": null,
+   "dependencies": [
+    "solid-js",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/ripple-solid-webgpu.json"
+  },
+  {
+   "name": "ripple-svelte",
+   "type": "component",
+   "title": "Ripple (Svelte)",
+   "description": "Water ripples that spread from every click and refract the live page like a pond surface, with dispersion and light glints on the crests. The HTML stays interactive. No dependencies.",
+   "component": "ripple",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/ripple-svelte.json"
+  },
+  {
+   "name": "ripple-svelte-webgpu",
+   "type": "component",
+   "title": "Ripple (Svelte, WebGPU)",
+   "description": "Water ripples that spread from every click and refract the live page like a pond surface, with dispersion and light glints on the crests. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": "ripple",
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/ripple-svelte-webgpu.json"
+  },
+  {
+   "name": "ripple-vanilla",
+   "type": "component",
+   "title": "Ripple (Vanilla)",
+   "description": "Water ripples that spread from every click and refract the live page like a pond surface, with dispersion and light glints on the crests. The HTML stays interactive. No dependencies.",
+   "component": "ripple",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/ripple-vanilla.json"
+  },
+  {
+   "name": "ripple-vanilla-webgpu",
+   "type": "component",
+   "title": "Ripple (Vanilla, WebGPU)",
+   "description": "Water ripples that spread from every click and refract the live page like a pond surface, with dispersion and light glints on the crests. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": "ripple",
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/ripple-vanilla-webgpu.json"
+  },
+  {
+   "name": "ripple-vue",
+   "type": "component",
+   "title": "Ripple (Vue)",
+   "description": "Water ripples that spread from every click and refract the live page like a pond surface, with dispersion and light glints on the crests. The HTML stays interactive. No dependencies.",
+   "component": "ripple",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/ripple-vue.json"
+  },
+  {
+   "name": "ripple-vue-webgpu",
+   "type": "component",
+   "title": "Ripple (Vue, WebGPU)",
+   "description": "Water ripples that spread from every click and refract the live page like a pond surface, with dispersion and light glints on the crests. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": "ripple",
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/ripple-vue-webgpu.json"
+  },
+  {
+   "name": "shatter-preact",
+   "type": "component",
+   "title": "Shatter (Preact)",
+   "description": "Shatters your page into 3D glass shards that lift, tilt, and float around the cursor, refracting the content beneath them, with perspective and soft shadows. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact"
+   ],
+   "url": "https://canvasui.dev/r/shatter-preact.json"
+  },
+  {
+   "name": "shatter-preact-webgpu",
+   "type": "component",
+   "title": "Shatter (Preact, WebGPU)",
+   "description": "Shatters your page into 3D glass shards that lift, tilt, and float around the cursor, refracting the content beneath them, with perspective and soft shadows. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/shatter-preact-webgpu.json"
+  },
+  {
+   "name": "shatter-react",
+   "type": "component",
+   "title": "Shatter (React)",
+   "description": "Shatters your page into 3D glass shards that lift, tilt, and float around the cursor, refracting the content beneath them, with perspective and soft shadows. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/shatter-react.json"
+  },
+  {
+   "name": "shatter-react-webgpu",
+   "type": "component",
+   "title": "Shatter (React, WebGPU)",
+   "description": "Shatters your page into 3D glass shards that lift, tilt, and float around the cursor, refracting the content beneath them, with perspective and soft shadows. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/shatter-react-webgpu.json"
+  },
+  {
+   "name": "shatter-solid",
+   "type": "component",
+   "title": "Shatter (Solid)",
+   "description": "Shatters your page into 3D glass shards that lift, tilt, and float around the cursor, refracting the content beneath them, with perspective and soft shadows. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js"
+   ],
+   "url": "https://canvasui.dev/r/shatter-solid.json"
+  },
+  {
+   "name": "shatter-solid-webgpu",
+   "type": "component",
+   "title": "Shatter (Solid, WebGPU)",
+   "description": "Shatters your page into 3D glass shards that lift, tilt, and float around the cursor, refracting the content beneath them, with perspective and soft shadows. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/shatter-solid-webgpu.json"
+  },
+  {
+   "name": "shatter-svelte",
+   "type": "component",
+   "title": "Shatter (Svelte)",
+   "description": "Shatters your page into 3D glass shards that lift, tilt, and float around the cursor, refracting the content beneath them, with perspective and soft shadows. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/shatter-svelte.json"
+  },
+  {
+   "name": "shatter-svelte-webgpu",
+   "type": "component",
+   "title": "Shatter (Svelte, WebGPU)",
+   "description": "Shatters your page into 3D glass shards that lift, tilt, and float around the cursor, refracting the content beneath them, with perspective and soft shadows. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/shatter-svelte-webgpu.json"
+  },
+  {
+   "name": "shatter-vanilla",
+   "type": "component",
+   "title": "Shatter (Vanilla)",
+   "description": "Shatters your page into 3D glass shards that lift, tilt, and float around the cursor, refracting the content beneath them, with perspective and soft shadows. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/shatter-vanilla.json"
+  },
+  {
+   "name": "shatter-vanilla-webgpu",
+   "type": "component",
+   "title": "Shatter (Vanilla, WebGPU)",
+   "description": "Shatters your page into 3D glass shards that lift, tilt, and float around the cursor, refracting the content beneath them, with perspective and soft shadows. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/shatter-vanilla-webgpu.json"
+  },
+  {
+   "name": "shatter-vue",
+   "type": "component",
+   "title": "Shatter (Vue)",
+   "description": "Shatters your page into 3D glass shards that lift, tilt, and float around the cursor, refracting the content beneath them, with perspective and soft shadows. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/shatter-vue.json"
+  },
+  {
+   "name": "shatter-vue-webgpu",
+   "type": "component",
+   "title": "Shatter (Vue, WebGPU)",
+   "description": "Shatters your page into 3D glass shards that lift, tilt, and float around the cursor, refracting the content beneath them, with perspective and soft shadows. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/shatter-vue-webgpu.json"
+  },
+  {
+   "name": "vhs-preact",
+   "type": "component",
+   "title": "VHS (Preact)",
+   "description": "Plays your page back like a worn VHS tape, with tape wave, head-switch noise, chroma bleed, and grain. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact"
+   ],
+   "url": "https://canvasui.dev/r/vhs-preact.json"
+  },
+  {
+   "name": "vhs-preact-webgpu",
+   "type": "component",
+   "title": "VHS (Preact, WebGPU)",
+   "description": "Plays your page back like a worn VHS tape, with tape wave, head-switch noise, chroma bleed, and grain. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "preact",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/vhs-preact-webgpu.json"
+  },
+  {
+   "name": "vhs-react",
+   "type": "component",
+   "title": "VHS (React)",
+   "description": "Plays your page back like a worn VHS tape, with tape wave, head-switch noise, chroma bleed, and grain. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/vhs-react.json"
+  },
+  {
+   "name": "vhs-react-webgpu",
+   "type": "component",
+   "title": "VHS (React, WebGPU)",
+   "description": "Plays your page back like a worn VHS tape, with tape wave, head-switch noise, chroma bleed, and grain. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/vhs-react-webgpu.json"
+  },
+  {
+   "name": "vhs-solid",
+   "type": "component",
+   "title": "VHS (Solid)",
+   "description": "Plays your page back like a worn VHS tape, with tape wave, head-switch noise, chroma bleed, and grain. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js"
+   ],
+   "url": "https://canvasui.dev/r/vhs-solid.json"
+  },
+  {
+   "name": "vhs-solid-webgpu",
+   "type": "component",
+   "title": "VHS (Solid, WebGPU)",
+   "description": "Plays your page back like a worn VHS tape, with tape wave, head-switch noise, chroma bleed, and grain. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "solid-js",
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/vhs-solid-webgpu.json"
+  },
+  {
+   "name": "vhs-svelte",
+   "type": "component",
+   "title": "VHS (Svelte)",
+   "description": "Plays your page back like a worn VHS tape, with tape wave, head-switch noise, chroma bleed, and grain. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/vhs-svelte.json"
+  },
+  {
+   "name": "vhs-svelte-webgpu",
+   "type": "component",
+   "title": "VHS (Svelte, WebGPU)",
+   "description": "Plays your page back like a worn VHS tape, with tape wave, head-switch noise, chroma bleed, and grain. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/vhs-svelte-webgpu.json"
+  },
+  {
+   "name": "vhs-vanilla",
+   "type": "component",
+   "title": "VHS (Vanilla)",
+   "description": "Plays your page back like a worn VHS tape, with tape wave, head-switch noise, chroma bleed, and grain. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/vhs-vanilla.json"
+  },
+  {
+   "name": "vhs-vanilla-webgpu",
+   "type": "component",
+   "title": "VHS (Vanilla, WebGPU)",
+   "description": "Plays your page back like a worn VHS tape, with tape wave, head-switch noise, chroma bleed, and grain. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/vhs-vanilla-webgpu.json"
+  },
+  {
+   "name": "vhs-vue",
+   "type": "component",
+   "title": "VHS (Vue)",
+   "description": "Plays your page back like a worn VHS tape, with tape wave, head-switch noise, chroma bleed, and grain. The HTML stays interactive. No dependencies.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://canvasui.dev/r/vhs-vue.json"
+  },
+  {
+   "name": "vhs-vue-webgpu",
+   "type": "component",
+   "title": "VHS (Vue, WebGPU)",
+   "description": "Plays your page back like a worn VHS tape, with tape wave, head-switch noise, chroma bleed, and grain. The HTML stays interactive. No dependencies. WebGPU build, rendered with vgpu.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "vgpu"
+   ],
+   "url": "https://canvasui.dev/r/vhs-vue-webgpu.json"
+  }
+ ]
+}

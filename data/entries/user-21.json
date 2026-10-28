@@ -7,7 +7,13 @@
   "package": null,
   "docs_url": "https://sleek.design/llms.txt",
   "repo_url": null,
-  "registry_url": "https://sleek.design/api/v1/spec.json",
+  "registry_url": null,
+  "machine_urls": [
+   {
+    "kind": "api",
+    "url": "https://sleek.design/api/v1/spec.json"
+   }
+  ],
   "github": {
    "stars": null,
    "license": null,
@@ -49,7 +55,8 @@
   ],
   "facets": {
    "framework": [
-    "react"
+    "react",
+    "vanilla"
    ],
    "styling": [
     "tailwind-any"
@@ -157,7 +164,8 @@
     "unknown"
    ],
    "pricing": [
-    "free"
+    "free",
+    "sponsor-supported"
    ],
    "distribution": [
     "gallery"
@@ -166,7 +174,7 @@
     "web"
    ],
    "accessibility": [
-    "unknown"
+    "not-applicable"
    ],
    "content_type": [
     "screenshots",

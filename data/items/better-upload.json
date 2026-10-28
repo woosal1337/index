@@ -1,0 +1,60 @@
+{
+ "resource_id": "2db8bed4-9eeb-4faa-b89f-eeec40454331",
+ "registry_url": "https://better-upload.com/r/registry.json",
+ "install_verified": true,
+ "checked": "2026-10-23",
+ "items": [
+  {
+   "name": "paste-upload-area",
+   "type": "ui",
+   "title": "Paste Upload Area",
+   "description": null,
+   "component": "file-upload",
+   "surface": null,
+   "dependencies": [
+    "@better-upload/client"
+   ],
+   "url": "https://better-upload.com/r/paste-upload-area.json"
+  },
+  {
+   "name": "upload-button",
+   "type": "ui",
+   "title": "Upload Button",
+   "description": null,
+   "component": "file-upload",
+   "surface": null,
+   "dependencies": [
+    "@better-upload/client",
+    "lucide-react"
+   ],
+   "url": "https://better-upload.com/r/upload-button.json"
+  },
+  {
+   "name": "upload-dropzone",
+   "type": "ui",
+   "title": "Upload Dropzone",
+   "description": null,
+   "component": "file-upload",
+   "surface": null,
+   "dependencies": [
+    "@better-upload/client",
+    "lucide-react",
+    "react-dropzone"
+   ],
+   "url": "https://better-upload.com/r/upload-dropzone.json"
+  },
+  {
+   "name": "upload-progress",
+   "type": "ui",
+   "title": "Upload Progress",
+   "description": null,
+   "component": "progress-feedback",
+   "surface": null,
+   "dependencies": [
+    "@better-upload/client",
+    "lucide-react"
+   ],
+   "url": "https://better-upload.com/r/upload-progress.json"
+  }
+ ]
+}

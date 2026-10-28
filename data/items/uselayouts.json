@@ -1,0 +1,944 @@
+{
+ "resource_id": "af2e8b43-16cf-4968-b182-5a82c21b63b3",
+ "registry_url": "https://uselayouts.com/r/registry.json",
+ "install_verified": true,
+ "checked": "2026-10-23",
+ "items": [
+  {
+   "name": "3d-book",
+   "type": "component",
+   "title": "3D Book",
+   "description": "An interactive 3D book component with page flip animations.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/3d-book.json"
+  },
+  {
+   "name": "accessible-action",
+   "type": "component",
+   "title": "Accessible Action",
+   "description": "Interactive draggable card stack with 3D tilt, swipe-to-back gestures, click interactions, random rotation, and smooth spring animations.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/accessible-action.json"
+  },
+  {
+   "name": "accordionos",
+   "type": "component",
+   "title": "AccordionOS",
+   "description": "Interactive accordion showcase with animated content, image transitions, hover effects, keyboard navigation, autoplay, and responsive design.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/accordionos.json"
+  },
+  {
+   "name": "analog-stick",
+   "type": "component",
+   "title": "Analog Stick",
+   "description": "A metallic stick that tilts into the press. Hover a quadrant and the cap leans, the shadow shifts, and the matching arrow goes amber.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/analog-stick.json"
+  },
+  {
+   "name": "animated-collection",
+   "type": "component",
+   "title": "Animated Collection",
+   "description": "A collection of items with smooth layout transitions and animations.",
+   "component": "list",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@hugeicons/core-free-icons",
+    "@hugeicons/react",
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/animated-collection.json"
+  },
+  {
+   "name": "bento-card",
+   "type": "component",
+   "title": "Bento Card",
+   "description": "An interactive bento card with animated tabs and workspace preview.",
+   "component": "bento-grid",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@hugeicons/core-free-icons",
+    "@hugeicons/react",
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/bento-card.json"
+  },
+  {
+   "name": "bottom-menu",
+   "type": "component",
+   "title": "Bottom Menu",
+   "description": "A floating bottom navigation menu with smooth interactions.",
+   "component": "dropdown-menu",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "react-use-measure",
+    "@hugeicons/core-free-icons",
+    "@hugeicons/react",
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/bottom-menu.json"
+  },
+  {
+   "name": "bucket",
+   "type": "component",
+   "title": "Bucket",
+   "description": "An interactive card component that simulates a bucket where chips are tossed and replaced with smooth physics-inspired animations.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@hugeicons/core-free-icons",
+    "@hugeicons/react",
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/bucket.json"
+  },
+  {
+   "name": "card-folder",
+   "type": "component",
+   "title": "Card Folder",
+   "description": "This component creates an animated folder-style card with a background image, floating 3D object, hover effects, and customizable colors and text. You can easily change the images, colors, content, and animation settings from the card props.",
+   "component": "card",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/card-folder.json"
+  },
+  {
+   "name": "client-card",
+   "type": "component",
+   "title": "Client Card",
+   "description": "A client CRM card with payment and deadline rings, plus a morphing avatar stack.",
+   "component": "card",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "lucide-react",
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/client-card.json"
+  },
+  {
+   "name": "confidential-folder",
+   "type": "component",
+   "title": "Confidential Folder",
+   "description": "A charcoal sleeve that pulls a letter out, flips it, and lands it in front of you.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/confidential-folder.json"
+  },
+  {
+   "name": "corner-video",
+   "type": "component",
+   "title": "Corner Video",
+   "description": "A compact corner video player with smooth open/close morphing, autoplay, mute, enlarge, hover controls, and video scrubbing.",
+   "component": "video-player",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/corner-video.json"
+  },
+  {
+   "name": "coverflow-drag",
+   "type": "component",
+   "title": "Coverflow Drag",
+   "description": "A drag coverflow of portraits that scale, dim, and snap as you swipe.",
+   "component": "carousel",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://uselayouts.com/r/coverflow-drag.json"
+  },
+  {
+   "name": "create-menu",
+   "type": "component",
+   "title": "Create Menu",
+   "description": "A Start Creating pill that springs open into a list of create actions.",
+   "component": "dropdown-menu",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@hugeicons/react",
+    "@hugeicons/core-free-icons"
+   ],
+   "url": "https://uselayouts.com/r/create-menu.json"
+  },
+  {
+   "name": "curve-drawer",
+   "type": "component",
+   "title": "Curve Drawer",
+   "description": "Side drawers whose inner edge starts as a bulge and morphs into a straight line as the panel settles.",
+   "component": "drawer",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "vaul",
+    "lucide-react",
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/curve-drawer.json"
+  },
+  {
+   "name": "day-picker",
+   "type": "component",
+   "title": "Day Picker",
+   "description": "A custom day picker component with smooth animations.",
+   "component": "select",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@hugeicons/core-free-icons",
+    "@hugeicons/react",
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/day-picker.json"
+  },
+  {
+   "name": "delete-button",
+   "type": "component",
+   "title": "Delete Button",
+   "description": "A confirmation button with smooth icon transitions.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "dialkit",
+    "@hugeicons/core-free-icons",
+    "@hugeicons/react",
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/delete-button.json"
+  },
+  {
+   "name": "discover-button",
+   "type": "component",
+   "title": "Discover Button",
+   "description": "An interactive button with expanding discovery state.",
+   "component": "button",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@hugeicons/core-free-icons",
+    "@hugeicons/react",
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/discover-button.json"
+  },
+  {
+   "name": "discrete-tabs",
+   "type": "component",
+   "title": "Discrete Tabs",
+   "description": "A tab component with discrete sliding animations.",
+   "component": "tabs",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/discrete-tabs.json"
+  },
+  {
+   "name": "drawer-buttons",
+   "type": "component",
+   "title": "Drawer Buttons",
+   "description": "Two buttons that open side drawers with a 3D fold. Payment comes from the right, cart from the left, and the fields stagger in.",
+   "component": "drawer",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "vaul",
+    "lucide-react",
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/drawer-buttons.json"
+  },
+  {
+   "name": "dynamic-grid-gallery",
+   "type": "component",
+   "title": "Dynamic Grid Gallery",
+   "description": "A 3×2 photo grid that grows the hovered row and column so one still takes the stage.",
+   "component": "data-grid",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://uselayouts.com/r/dynamic-grid-gallery.json"
+  },
+  {
+   "name": "dynamic-toolbar",
+   "type": "component",
+   "title": "Dynamic Toolbar",
+   "description": "A toolbar that adapts its size and layout based on content.",
+   "component": "toolbar",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@hugeicons/core-free-icons",
+    "@hugeicons/react",
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/dynamic-toolbar.json"
+  },
+  {
+   "name": "editorial-deck",
+   "type": "component",
+   "title": "Editorial Deck",
+   "description": "A stacked editorial story deck. Drag the front card and it springs back into the pile.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://uselayouts.com/r/editorial-deck.json"
+  },
+  {
+   "name": "empty-testimonial",
+   "type": "component",
+   "title": "Empty Testimonial",
+   "description": "An interactive empty state for testimonials with a playful folder animation.",
+   "component": "empty-state",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@hugeicons/core-free-icons",
+    "@hugeicons/react",
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/empty-testimonial.json"
+  },
+  {
+   "name": "expandable-gallery",
+   "type": "component",
+   "title": "Expandable Gallery",
+   "description": "A photo gallery with smooth item expansion.",
+   "component": "accordion",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@hugeicons/core-free-icons",
+    "@hugeicons/react",
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/expandable-gallery.json"
+  },
+  {
+   "name": "feature-carousel",
+   "type": "component",
+   "title": "Feature Carousel",
+   "description": "A smooth carousel for showcasing product features.",
+   "component": "carousel",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@hugeicons/core-free-icons",
+    "@hugeicons/react",
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/feature-carousel.json"
+  },
+  {
+   "name": "filter-interaction",
+   "type": "component",
+   "title": "Filter Interaction",
+   "description": "Interactive list items with hover and focus effects.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@hugeicons/core-free-icons",
+    "@hugeicons/react",
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/filter-interaction.json"
+  },
+  {
+   "name": "fluid-expanding-grid",
+   "type": "component",
+   "title": "Fluid Expanding Grid",
+   "description": "A responsive gallery grid that fluidly shifts and expands items using motion layout.",
+   "component": "data-grid",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/fluid-expanding-grid.json"
+  },
+  {
+   "name": "focus-testimonials",
+   "type": "component",
+   "title": "Focus Testimonials",
+   "description": "Interactive testimonial section with hover-based focus effects, animated author tooltips, and expandable testimonials.",
+   "component": "quote",
+   "surface": "testimonials",
+   "dependencies": [
+    "motion",
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/focus-testimonials.json"
+  },
+  {
+   "name": "folder-interaction",
+   "type": "component",
+   "title": "Folder Interaction",
+   "description": "A folder management system with drag-and-drop-like feel.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@hugeicons/core-free-icons",
+    "@hugeicons/react",
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/folder-interaction.json"
+  },
+  {
+   "name": "get-in-touch",
+   "type": "component",
+   "title": "Get In Touch",
+   "description": "A glossy contact pill. Hover and the label lifts away so a portrait and YOU merge, then Let’s Talk! writes in.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/get-in-touch.json"
+  },
+  {
+   "name": "gooey-navbar",
+   "type": "component",
+   "title": "Gooey Navbar",
+   "description": "A pill nav that melts into its neighbor when you hover — liquid bridges, active dot.",
+   "component": "navbar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://uselayouts.com/r/gooey-navbar.json"
+  },
+  {
+   "name": "holographic-referral-card",
+   "type": "component",
+   "title": "Holographic Referral Card",
+   "description": "A dark invite card that tilts in 3D with the pointer. A holographic glow follows. Touch stays still. Tab for a quiet glow.",
+   "component": "loyalty-widget",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/holographic-referral-card.json"
+  },
+  {
+   "name": "infinite-grid",
+   "type": "component",
+   "title": "Infinite Canvas",
+   "description": "A free-panning product canvas that tiles forever — drag, scroll, and skim an endless grid of images and captions.",
+   "component": "data-grid",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/infinite-grid.json"
+  },
+  {
+   "name": "inline-edit",
+   "type": "component",
+   "title": "Inline Edit",
+   "description": "An input that switches between read and edit modes.",
+   "component": "inline-edit",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@hugeicons/core-free-icons",
+    "@hugeicons/react",
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/inline-edit.json"
+  },
+  {
+   "name": "liquid-index",
+   "type": "component",
+   "title": "Liquid Index",
+   "description": "A feature list whose hover badge is a WebGL liquid gradient that tracks the row.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://uselayouts.com/r/liquid-index.json"
+  },
+  {
+   "name": "magnified-bento",
+   "type": "component",
+   "title": "Magnified Bento",
+   "description": "A bento card component with a draggable magnifying lens effect over scrolling chips.",
+   "component": "bento-grid",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@hugeicons/core-free-icons",
+    "@hugeicons/react",
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/magnified-bento.json"
+  },
+  {
+   "name": "morphing-input",
+   "type": "component",
+   "title": "Morphing Input",
+   "description": "An input field that morphs between different states.",
+   "component": "text-input",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@hugeicons/core-free-icons",
+    "@hugeicons/react",
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/morphing-input.json"
+  },
+  {
+   "name": "multi-step-form",
+   "type": "component",
+   "title": "Multi Step Form",
+   "description": "A dynamic, animated multi-step form with validation.",
+   "component": "progress-stepper",
+   "surface": "multi-step-form",
+   "dependencies": [
+    "motion",
+    "date-fns",
+    "react-hook-form",
+    "@hookform/resolvers",
+    "zod",
+    "sonner",
+    "lucide-react",
+    "react-use-measure",
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/multi-step-form.json"
+  },
+  {
+   "name": "overlapping-slider",
+   "type": "component",
+   "title": "Overlapping Slider",
+   "description": "A full-width landing row of portrait cards. They sit flat until you move — then the card on the left scales back.",
+   "component": "slider",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://uselayouts.com/r/overlapping-slider.json"
+  },
+  {
+   "name": "paper-shred-button",
+   "type": "component",
+   "title": "Paper Shred Button",
+   "description": "Hover Delete and a page appears above it. Click and the page clips away while paper strips draw in below. After a few seconds it resets so you can shred again.",
+   "component": "button",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/paper-shred-button.json"
+  },
+  {
+   "name": "perspective-text-scroll",
+   "type": "component",
+   "title": "Perspective Text Scroll",
+   "description": "A polished example interaction built with React and Motion.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "react",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/perspective-text-scroll.json"
+  },
+  {
+   "name": "photo-albums",
+   "type": "component",
+   "title": "Photo Albums",
+   "description": "Tilted album stacks that expand into a shared-element photo grid.",
+   "component": "image-gallery",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "lucide-react",
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/photo-albums.json"
+  },
+  {
+   "name": "polaroid-drag",
+   "type": "component",
+   "title": "Polaroid Drag",
+   "description": "Draggable Polaroid photo gallery with realistic tilt, stacking, smooth animations, and customizable captions, sizes, and decorations.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/polaroid-drag.json"
+  },
+  {
+   "name": "polaroid-stack",
+   "type": "component",
+   "title": "Polaroid Stack",
+   "description": "Seven Polaroids sit in a pile. Hover and they fan into an arc from one corner.",
+   "component": "stack",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/polaroid-stack.json"
+  },
+  {
+   "name": "pop-tilt-cards",
+   "type": "component",
+   "title": "Pop Tilt Cards",
+   "description": "Interactive tilt card deck with smooth hover animations, 3D popping effects, images, links, and customizable card styling.",
+   "component": "hover-effect",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "motion",
+    "react",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/pop-tilt-cards.json"
+  },
+  {
+   "name": "pricing-card",
+   "type": "component",
+   "title": "Pricing Card",
+   "description": "A focused pricing card layout with clear hierarchy.",
+   "component": "card",
+   "surface": "pricing-website",
+   "dependencies": [
+    "motion",
+    "@hugeicons/core-free-icons",
+    "@hugeicons/react",
+    "lucide-react",
+    "@number-flow/react",
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/pricing-card.json"
+  },
+  {
+   "name": "prompt-box",
+   "type": "component",
+   "title": "Prompt Box",
+   "description": "A collapsed chat composer that expands into a textarea with a model menu and send control.",
+   "component": "prompt-input",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@base-ui/react",
+    "lucide-react"
+   ],
+   "url": "https://uselayouts.com/r/prompt-box.json"
+  },
+  {
+   "name": "rolling-card-stack",
+   "type": "component",
+   "title": "Rolling Card Stack",
+   "description": "It’s a responsive, animated rolling card stack component built with React, TypeScript, Tailwind CSS, and Framer Motion. It supports desktop/mobile layouts, swipe and keyboard navigation, autoplay, pagination, and customizable card content",
+   "component": "card",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/rolling-card-stack.json"
+  },
+  {
+   "name": "save-button",
+   "type": "component",
+   "title": "Save Button",
+   "description": "A button with animated states for idle, loading, and success.",
+   "component": "button",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@hugeicons/core-free-icons",
+    "@hugeicons/react",
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/save-button.json"
+  },
+  {
+   "name": "scan-document",
+   "type": "component",
+   "title": "Scan Document",
+   "description": "Click Scan and a page unfolds, flips, and a glowing bar reads it. Done holds, then it resets.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://uselayouts.com/r/scan-document.json"
+  },
+  {
+   "name": "scroll-split-cards",
+   "type": "component",
+   "title": "Scroll Split Cards",
+   "description": "One photograph that splits into three panels as you scroll, then flips to copy.",
+   "component": "card",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://uselayouts.com/r/scroll-split-cards.json"
+  },
+  {
+   "name": "scroll-stack-deck",
+   "type": "component",
+   "title": "Scroll Stack Deck",
+   "description": "Scroll-linked project cards that pin in the viewport and stack, scale, and settle as you move down the page.",
+   "component": "stack",
+   "surface": null,
+   "dependencies": [
+    "lenis",
+    "motion",
+    "react"
+   ],
+   "url": "https://uselayouts.com/r/scroll-stack-deck.json"
+  },
+  {
+   "name": "set-timer",
+   "type": "component",
+   "title": "Set Timer",
+   "description": "A dark timer pill that morphs into a minute wheel picker, then into a running timer with pause, cancel, and a rounded-rectangle progress border.",
+   "component": "countdown",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@ncdai/react-wheel-picker",
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/set-timer.json"
+  },
+  {
+   "name": "shake-testimonial-card",
+   "type": "component",
+   "title": "Shake Testimonial Card",
+   "description": "An eye-catching testimonial card with playful animations.",
+   "component": "quote",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@hugeicons/core-free-icons",
+    "@hugeicons/react",
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/shake-testimonial-card.json"
+  },
+  {
+   "name": "slide-subscribe",
+   "type": "component",
+   "title": "Slide Subscribe",
+   "description": "Pick a billing period, then slide to start a trial.",
+   "component": "transition",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@hugeicons/react",
+    "@hugeicons/core-free-icons",
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/slide-subscribe.json"
+  },
+  {
+   "name": "smooth-dropdown",
+   "type": "component",
+   "title": "Smooth Dropdown",
+   "description": "A dropdown menu with premium layout transitions.",
+   "component": "select",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@hugeicons/core-free-icons",
+    "@hugeicons/react",
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/smooth-dropdown.json"
+  },
+  {
+   "name": "stack-scroll-reveal",
+   "type": "component",
+   "title": "Stack Scroll Reveal",
+   "description": "Scroll-linked case-study cards that pin in the viewport and peel, scale, and fade as you move down the page.",
+   "component": "scroll-reveal",
+   "surface": null,
+   "dependencies": [
+    "clsx",
+    "lenis",
+    "motion",
+    "react",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/stack-scroll-reveal.json"
+  },
+  {
+   "name": "stacked-list",
+   "type": "component",
+   "title": "Stacked List",
+   "description": "An expandable list widget with a stacked layout and smooth morphing transitions.",
+   "component": "list",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@hugeicons/core-free-icons",
+    "@hugeicons/react",
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/stacked-list.json"
+  },
+  {
+   "name": "stacked-outline-text",
+   "type": "component",
+   "title": "Stacked Outline Text",
+   "description": "Heavy outlined type you can drag. Speed leaves a stacked white-on-black trail that springs back when you stop.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/stacked-outline-text.json"
+  },
+  {
+   "name": "tactile-button",
+   "type": "component",
+   "title": "Tactile Button",
+   "description": "A liquid-glass rocker that tilts into its well when you press it.",
+   "component": "button",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://uselayouts.com/r/tactile-button.json"
+  },
+  {
+   "name": "theme-toggle",
+   "type": "component",
+   "title": "Theme Toggle",
+   "description": "A physical switch with a dotted grip. Click and the knob slides across a recessed track.",
+   "component": "theme-provider",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://uselayouts.com/r/theme-toggle.json"
+  },
+  {
+   "name": "vertical-tabs",
+   "type": "component",
+   "title": "Vertical Tabs",
+   "description": "A vertical tab interaction with smooth content switching.",
+   "component": "tabs",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@hugeicons/core-free-icons",
+    "@hugeicons/react",
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/vertical-tabs.json"
+  },
+  {
+   "name": "wheel-carousel",
+   "type": "component",
+   "title": "Wheel Carousel",
+   "description": "This component creates a smooth wheel-style carousel with photos and selectable items. It supports drag, scroll, keyboard controls, snapping, momentum, themes, image crossfades, and customizable layout and colors.",
+   "component": "carousel",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "lucide-react",
+    "clsx",
+    "tailwind-merge"
+   ],
+   "url": "https://uselayouts.com/r/wheel-carousel.json"
+  }
+ ]
+}

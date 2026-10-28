@@ -1,0 +1,666 @@
+{
+ "resource_id": "user:b0c7cec2d6394267",
+ "registry_url": "https://www.boardui.com/r/registry.json",
+ "install_verified": true,
+ "checked": "2026-10-23",
+ "items": [
+  {
+   "name": "agent-chat",
+   "type": "block",
+   "title": "Agent Chat",
+   "description": "A working chat app: app sidebar, streaming replies, thinking indicator, a composer pill with stop control, a chat-history rail with local thread switching, and a setup notice when no provider key is set.",
+   "component": "agent-card",
+   "surface": "chat-mobile",
+   "dependencies": [
+    "@ai-sdk/react@^4.0.90",
+    "@remixicon/react@^4.9.0",
+    "ai@^7.0.87",
+    "motion@^12.42.2"
+   ],
+   "url": "https://www.boardui.com/r/agent-chat.json"
+  },
+  {
+   "name": "agent-log",
+   "type": "block",
+   "title": "Agent Log",
+   "description": "Shared streaming-log machinery: the reveal ticker, the blur-in with its soft clipping edge, and the curved tree guide that draws itself. Behind Task List and Web Search.",
+   "component": "agent-card",
+   "surface": null,
+   "dependencies": [
+    "motion@^12.42.2"
+   ],
+   "url": "https://www.boardui.com/r/agent-log.json"
+  },
+  {
+   "name": "agent-thinking",
+   "type": "block",
+   "title": "Agent Thinking",
+   "description": "Agent thinking indicator for chat composers — dot wave, dot spin, stars, and infinity variants with a shimmering label and elapsed timer.",
+   "component": "agent-card",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.boardui.com/r/agent-thinking.json"
+  },
+  {
+   "name": "announcement",
+   "type": "ui",
+   "title": "Announcement",
+   "description": "Dismissible announcement card used in the sidebar footer.",
+   "component": "live-region",
+   "surface": null,
+   "dependencies": [
+    "@remixicon/react@^4.9.0",
+    "motion@^12.42.2"
+   ],
+   "url": "https://www.boardui.com/r/announcement.json"
+  },
+  {
+   "name": "app-shell",
+   "type": "block",
+   "title": "App Shell",
+   "description": "Page frame for the chat starter: the sidebar, a phone drawer, and a titled content card, carrying the starter's own navigation so the sidebar only links to pages the app has.",
+   "component": "app-shell",
+   "surface": null,
+   "dependencies": [
+    "@internationalized/date@^3.12.1",
+    "@remixicon/react@^4.9.0",
+    "motion@^12.42.2",
+    "react-aria-components@^1.17.0"
+   ],
+   "url": "https://www.boardui.com/r/app-shell.json"
+  },
+  {
+   "name": "auth-card",
+   "type": "block",
+   "title": "Auth Card",
+   "description": "Sign-in and sign-up cards with social providers stacked with labels or inline as icons, plus email fields and a CTA.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "@remixicon/react@^4.9.0"
+   ],
+   "url": "https://www.boardui.com/r/auth-card.json"
+  },
+  {
+   "name": "avatar",
+   "type": "ui",
+   "title": "Avatar",
+   "description": "Image or initials avatar in multiple sizes and tints.",
+   "component": "avatar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.boardui.com/r/avatar.json"
+  },
+  {
+   "name": "badge",
+   "type": "ui",
+   "title": "Badge",
+   "description": "Counter pills and the Kbd shortcut hint.",
+   "component": "badge",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.boardui.com/r/badge.json"
+  },
+  {
+   "name": "breadcrumb",
+   "type": "ui",
+   "title": "Breadcrumb",
+   "description": "Icon-capable breadcrumb trail.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.boardui.com/r/breadcrumb.json"
+  },
+  {
+   "name": "button",
+   "type": "ui",
+   "title": "Button",
+   "description": "Primary, secondary, ghost, and danger buttons in three sizes with icon support.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.boardui.com/r/button.json"
+  },
+  {
+   "name": "button-group",
+   "type": "ui",
+   "title": "Button Group",
+   "description": "Row of secondary-style buttons fused into one bordered control with hairline dividers and selectable items.",
+   "component": "button-group",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.boardui.com/r/button-group.json"
+  },
+  {
+   "name": "carousel",
+   "type": "ui",
+   "title": "Carousel",
+   "description": "Gallery carousel built on CSS scroll-snap: swipe, arrows and a position indicator.",
+   "component": "carousel",
+   "surface": null,
+   "dependencies": [
+    "@remixicon/react@^4.9.0"
+   ],
+   "url": "https://www.boardui.com/r/carousel.json"
+  },
+  {
+   "name": "checkbox",
+   "type": "ui",
+   "title": "Checkbox",
+   "description": "React Aria checkbox with animated tick and indeterminate state.",
+   "component": "checkbox",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components@^1.17.0"
+   ],
+   "url": "https://www.boardui.com/r/checkbox.json"
+  },
+  {
+   "name": "checkbox-card",
+   "type": "ui",
+   "title": "Checkbox Card",
+   "description": "Bordered selectable card driven by a checkbox.",
+   "component": "checkbox",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components@^1.17.0"
+   ],
+   "url": "https://www.boardui.com/r/checkbox-card.json"
+  },
+  {
+   "name": "chip",
+   "type": "ui",
+   "title": "Chip",
+   "description": "Status/delta chips in bold and soft variants across the accent palette.",
+   "component": "chip",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.boardui.com/r/chip.json"
+  },
+  {
+   "name": "close-button",
+   "type": "ui",
+   "title": "Close Button",
+   "description": "Compact dismiss button for banners, modals, and chips.",
+   "component": "close-button",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.boardui.com/r/close-button.json"
+  },
+  {
+   "name": "composer-loader",
+   "type": "block",
+   "title": "Composer Loader",
+   "description": "Loading state that wraps a chat composer — an iridescent light band orbiting the rim with a soft inward bloom, fading in while the agent works.",
+   "component": "prompt-input",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.boardui.com/r/composer-loader.json"
+  },
+  {
+   "name": "data-grid",
+   "type": "block",
+   "title": "Data Grid",
+   "description": "Virtualized spreadsheet with editable cells, range selection, filters, resizable columns, undo and redo, summaries, and CSV export.",
+   "component": "data-grid",
+   "surface": null,
+   "dependencies": [
+    "@remixicon/react@^4.9.0",
+    "motion@^12.42.2",
+    "react-aria-components@^1.17.0"
+   ],
+   "url": "https://www.boardui.com/r/data-grid.json"
+  },
+  {
+   "name": "data-table",
+   "type": "block",
+   "title": "Data Table",
+   "description": "TanStack-powered data table with sorting, selection, and pagination.",
+   "component": "table",
+   "surface": null,
+   "dependencies": [
+    "@remixicon/react@^4.9.0",
+    "@tanstack/react-table@^8.21.3",
+    "react-aria-components@^1.17.0"
+   ],
+   "url": "https://www.boardui.com/r/data-table.json"
+  },
+  {
+   "name": "date-picker",
+   "type": "ui",
+   "title": "Date Picker",
+   "description": "Single-date picker with month navigation, built on React Aria.",
+   "component": "date-picker",
+   "surface": null,
+   "dependencies": [
+    "@internationalized/date@^3.12.1",
+    "@remixicon/react@^4.9.0",
+    "motion@^12.42.2",
+    "react-aria-components@^1.17.0"
+   ],
+   "url": "https://www.boardui.com/r/date-picker.json"
+  },
+  {
+   "name": "date-range-picker",
+   "type": "ui",
+   "title": "Date Range Picker",
+   "description": "Two-month range picker sharing the date-picker chrome.",
+   "component": "date-range-picker",
+   "surface": null,
+   "dependencies": [
+    "@internationalized/date@^3.12.1",
+    "@remixicon/react@^4.9.0",
+    "motion@^12.42.2",
+    "react-aria-components@^1.17.0"
+   ],
+   "url": "https://www.boardui.com/r/date-range-picker.json"
+  },
+  {
+   "name": "divider",
+   "type": "ui",
+   "title": "Divider",
+   "description": "Horizontal content divider with single-line, double-line, filled, and aligned variants.",
+   "component": "separator",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.boardui.com/r/divider.json"
+  },
+  {
+   "name": "dropdown",
+   "type": "ui",
+   "title": "Dropdown",
+   "description": "Composable popover menu (trigger, panel, groups, rows, dividers) built on React Aria — the recipe behind the sidebar team/account menus.",
+   "component": "select",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components@^1.17.0"
+   ],
+   "url": "https://www.boardui.com/r/dropdown.json"
+  },
+  {
+   "name": "file-upload",
+   "type": "ui",
+   "title": "File Upload",
+   "description": "Drag-and-drop file upload with validation, animated progress, and a completion callback.",
+   "component": "file-upload",
+   "surface": null,
+   "dependencies": [
+    "@remixicon/react@^4.9.0"
+   ],
+   "url": "https://www.boardui.com/r/file-upload.json"
+  },
+  {
+   "name": "icon-button",
+   "type": "ui",
+   "title": "Icon Button",
+   "description": "Square icon-only button in two sizes.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.boardui.com/r/icon-button.json"
+  },
+  {
+   "name": "important-alerts-card",
+   "type": "block",
+   "title": "Important Alerts Card",
+   "description": "Scrollable alert feed with tinted icon circles and date pills.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "@internationalized/date@^3.12.1",
+    "@remixicon/react@^4.9.0",
+    "react-aria-components@^1.17.0"
+   ],
+   "url": "https://www.boardui.com/r/important-alerts-card.json"
+  },
+  {
+   "name": "input",
+   "type": "ui",
+   "title": "Input",
+   "description": "Text input with label, hint text, error states, and leading icon support.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "@remixicon/react@^4.9.0",
+    "react-aria-components@^1.17.0"
+   ],
+   "url": "https://www.boardui.com/r/input.json"
+  },
+  {
+   "name": "input-otp",
+   "type": "ui",
+   "title": "Input OTP",
+   "description": "One-time-code field with a monospace box per digit, paste distribution and autofill support.",
+   "component": "otp-input",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.boardui.com/r/input-otp.json"
+  },
+  {
+   "name": "kbd",
+   "type": "ui",
+   "title": "Kbd",
+   "description": "Keyboard shortcut hint pill.",
+   "component": "kbd",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.boardui.com/r/kbd.json"
+  },
+  {
+   "name": "link-button",
+   "type": "ui",
+   "title": "Link Button",
+   "description": "Inline text action styled like a link — primary/secondary variants, three sizes, icon support, renders <a> or <button>.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.boardui.com/r/link-button.json"
+  },
+  {
+   "name": "meeting-scheduler",
+   "type": "ui",
+   "title": "Meeting Scheduler",
+   "description": "Date + time-slot scheduler popover.",
+   "component": "calendar-view",
+   "surface": null,
+   "dependencies": [
+    "@internationalized/date@^3.12.1",
+    "@remixicon/react@^4.9.0",
+    "react-aria-components@^1.17.0"
+   ],
+   "url": "https://www.boardui.com/r/meeting-scheduler.json"
+  },
+  {
+   "name": "notification",
+   "type": "ui",
+   "title": "Notification",
+   "description": "Dismissible notification with status icons, avatars, action buttons, and timed countdown.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "@remixicon/react@^4.9.0",
+    "motion@^12.42.2"
+   ],
+   "url": "https://www.boardui.com/r/notification.json"
+  },
+  {
+   "name": "notification-center",
+   "type": "block",
+   "title": "Notification Center",
+   "description": "Tabbed activity inbox with grouped notifications, unread state, avatars, status icons, and inline actions.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "@remixicon/react@^4.9.0"
+   ],
+   "url": "https://www.boardui.com/r/notification-center.json"
+  },
+  {
+   "name": "orders-chart-card",
+   "type": "block",
+   "title": "Orders Chart Card",
+   "description": "Free chart card: a year of monthly orders as bars, this year beside last year for every month, with a count-up headline, delta chip and hover readout.",
+   "component": "chart",
+   "surface": null,
+   "dependencies": [
+    "recharts@^3.9.2"
+   ],
+   "url": "https://www.boardui.com/r/orders-chart-card.json"
+  },
+  {
+   "name": "pagination",
+   "type": "ui",
+   "title": "Pagination",
+   "description": "Numbered pagination with prev/next and ellipsis collapsing.",
+   "component": "pagination",
+   "surface": null,
+   "dependencies": [
+    "@remixicon/react@^4.9.0"
+   ],
+   "url": "https://www.boardui.com/r/pagination.json"
+  },
+  {
+   "name": "patient-info-card",
+   "type": "block",
+   "title": "Patient Info Card",
+   "description": "Profile card with avatar and label/value detail rows.",
+   "component": "card",
+   "surface": null,
+   "dependencies": [
+    "@remixicon/react@^4.9.0"
+   ],
+   "url": "https://www.boardui.com/r/patient-info-card.json"
+  },
+  {
+   "name": "radio",
+   "type": "ui",
+   "title": "Radio",
+   "description": "React Aria radio group with the gradient selected dot, two sizes, and the bare RadioDot glyph for menu rows.",
+   "component": "radio-button",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components@^1.17.0"
+   ],
+   "url": "https://www.boardui.com/r/radio.json"
+  },
+  {
+   "name": "radio-card",
+   "type": "ui",
+   "title": "Radio Card",
+   "description": "Bordered selectable card driven by a radio — the radio flavor of Checkbox Card.",
+   "component": "radio-button",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components@^1.17.0"
+   ],
+   "url": "https://www.boardui.com/r/radio-card.json"
+  },
+  {
+   "name": "revenue-chart-card",
+   "type": "block",
+   "title": "Revenue Chart Card",
+   "description": "Free chart card: a year of monthly revenue as an area against the year before, with a count-up headline, delta chip and hover readout per month.",
+   "component": "chart",
+   "surface": null,
+   "dependencies": [
+    "recharts@^3.9.2"
+   ],
+   "url": "https://www.boardui.com/r/revenue-chart-card.json"
+  },
+  {
+   "name": "segmented-control",
+   "type": "ui",
+   "title": "Segmented Control",
+   "description": "Pill-style segmented control (Weekly / Monthly / Yearly switchers).",
+   "component": "segmented-control",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components@^1.17.0"
+   ],
+   "url": "https://www.boardui.com/r/segmented-control.json"
+  },
+  {
+   "name": "select",
+   "type": "ui",
+   "title": "Select",
+   "description": "React Aria select with styled trigger, non-modal popover, and free-form item content.",
+   "component": "select",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components@^1.17.0"
+   ],
+   "url": "https://www.boardui.com/r/select.json"
+  },
+  {
+   "name": "settings-modal",
+   "type": "block",
+   "title": "Settings Modal",
+   "description": "Controlled multi-page settings dialog with General, Profile, Tools, and Storage views.",
+   "component": "modal",
+   "surface": "settings-web-app",
+   "dependencies": [
+    "@internationalized/date@^3.12.1",
+    "@remixicon/react@^4.9.0",
+    "react-aria-components@^1.17.0"
+   ],
+   "url": "https://www.boardui.com/r/settings-modal.json"
+  },
+  {
+   "name": "sidebar",
+   "type": "block",
+   "title": "Sidebar",
+   "description": "The floating dashboard sidebar with team menu, nav, announcement, and user menu.",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [
+    "@remixicon/react@^4.9.0",
+    "react-aria-components@^1.17.0"
+   ],
+   "url": "https://www.boardui.com/r/sidebar.json"
+  },
+  {
+   "name": "slider",
+   "type": "ui",
+   "title": "Slider",
+   "description": "Single-value and min/max range sliders with exact-value bubbles and keyboard controls.",
+   "component": "slider",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components@^1.17.0"
+   ],
+   "url": "https://www.boardui.com/r/slider.json"
+  },
+  {
+   "name": "social-button",
+   "type": "ui",
+   "title": "Social Button",
+   "description": "Sign-in buttons for 24 providers, with brand logos, three colour treatments and an icon-only form.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://www.boardui.com/r/social-button.json"
+  },
+  {
+   "name": "stat-cards",
+   "type": "block",
+   "title": "Stat Cards",
+   "description": "KPI stat card row with delta chips.",
+   "component": "stat",
+   "surface": null,
+   "dependencies": [
+    "@remixicon/react@^4.9.0",
+    "react-aria-components@^1.17.0"
+   ],
+   "url": "https://www.boardui.com/r/stat-cards.json"
+  },
+  {
+   "name": "status-dot",
+   "type": "ui",
+   "title": "Status Dot",
+   "description": "Colored status indicator dot used inside selects and tables.",
+   "component": "status-indicator",
+   "surface": "status",
+   "dependencies": [],
+   "url": "https://www.boardui.com/r/status-dot.json"
+  },
+  {
+   "name": "switch",
+   "type": "ui",
+   "title": "Switch",
+   "description": "Skeuomorphic toggle switch in two sizes.",
+   "component": "switch",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components@^1.17.0"
+   ],
+   "url": "https://www.boardui.com/r/switch.json"
+  },
+  {
+   "name": "switch-card",
+   "type": "ui",
+   "title": "Switch Card",
+   "description": "Bordered settings row driven by a switch.",
+   "component": "switch",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components@^1.17.0"
+   ],
+   "url": "https://www.boardui.com/r/switch-card.json"
+  },
+  {
+   "name": "table",
+   "type": "ui",
+   "title": "Table",
+   "description": "Static table primitives matching the dashboard tables.",
+   "component": "table",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components@^1.17.0"
+   ],
+   "url": "https://www.boardui.com/r/table.json"
+  },
+  {
+   "name": "tabs",
+   "type": "ui",
+   "title": "Tabs",
+   "description": "Underline and pill tab variants built on React Aria.",
+   "component": "tabs",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components@^1.17.0"
+   ],
+   "url": "https://www.boardui.com/r/tabs.json"
+  },
+  {
+   "name": "textarea",
+   "type": "ui",
+   "title": "Textarea",
+   "description": "Multiline text field with auto-grow, character count, and Input's label, hint and states.",
+   "component": "textarea",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components@^1.17.0"
+   ],
+   "url": "https://www.boardui.com/r/textarea.json"
+  },
+  {
+   "name": "theme-toggle",
+   "type": "block",
+   "title": "Theme Toggle",
+   "description": "Manual light/dark control with a click-origin reveal, local persistence, and no system-theme dependency.",
+   "component": "theme-provider",
+   "surface": null,
+   "dependencies": [
+    "@remixicon/react@^4.9.0",
+    "react-aria-components@^1.17.0"
+   ],
+   "url": "https://www.boardui.com/r/theme-toggle.json"
+  },
+  {
+   "name": "tooltip",
+   "type": "ui",
+   "title": "Tooltip",
+   "description": "Light-surface tooltip built on React Aria.",
+   "component": "tooltip",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components@^1.17.0"
+   ],
+   "url": "https://www.boardui.com/r/tooltip.json"
+  },
+  {
+   "name": "tree-view",
+   "type": "ui",
+   "title": "Tree View",
+   "description": "Nested folders and structured content with expandable branches, selection, guide lines, and keyboard navigation.",
+   "component": "tree-view",
+   "surface": null,
+   "dependencies": [
+    "@remixicon/react@^4.9.0",
+    "motion@^12.42.2",
+    "react-aria-components@^1.17.0"
+   ],
+   "url": "https://www.boardui.com/r/tree-view.json"
+  }
+ ]
+}

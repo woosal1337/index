@@ -117,7 +117,7 @@
     "package": "@assistant-ui/react",
     "docs_url": "https://www.assistant-ui.com/docs",
     "repo_url": "https://github.com/assistant-ui/assistant-ui",
-    "registry_url": "https://r.assistant-ui.com",
+    "registry_url": "https://r.assistant-ui.com/registry.json",
     "github": {
       "stars": 11671,
       "license": "MIT",
@@ -169,7 +169,8 @@
         "vanilla-css",
         "tailwind-any",
         "css-modules",
-        "css-in-js"
+        "css-in-js",
+        "panda"
       ],
       "license": [
         "apache-2.0"
@@ -505,6 +506,7 @@
     "id": "a009af2a-93d1-4471-ba3d-6cc2a2fc736c",
     "slug": "coss-ui-originui",
     "url": "https://originui.com",
+    "same_as": "3a688166-e415-4a83-8ea4-40dce0f0ffd8",
     "name": "coss ui",
     "tagline": "Cal.com's Base UI + Tailwind v4 registry: 56 primitives and 500 particle variants",
     "description": "coss ui is the successor to Origin UI — originui.com now serves it — and is the official design system Cal.com is progressively adopting. It ships 56 copy-paste React primitives built directly on Base UI (not ported from Radix) and styled with Tailwind v4, plus 500 'particles': pre-composed variants of those primitives such as 41 buttons, 25 calendars, 20 autocompletes and 20 badges. Everything installs through the shadcn CLI from its own registry, including a @coss/style preset that lays down colors, sidebar variables, fonts and base styles in one command. Origin UI itself remains online as a pre-acquisition collection with limited maintenance.",
@@ -684,7 +686,7 @@
         "next"
       ],
       "styling": [
-        "tailwind-any",
+        "tailwind-v4",
         "css-variables"
       ],
       "license": [

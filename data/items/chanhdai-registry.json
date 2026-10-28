@@ -1,0 +1,671 @@
+{
+ "resource_id": "depo:j578azsj87z76snjxj6s8362fd89g7f1",
+ "registry_url": "https://chanhdai.com/r/registry.json",
+ "install_verified": true,
+ "checked": "2026-10-23",
+ "items": [
+  {
+   "name": "apple-carousel",
+   "type": "component",
+   "title": "Apple Carousel",
+   "description": "Infinite autoplay carousel with progress dots, inspired by Apple’s website.",
+   "component": "carousel",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://chanhdai.com/r/apple-carousel.json"
+  },
+  {
+   "name": "apple-hello-effect",
+   "type": "component",
+   "title": "Apple Hello Effect",
+   "description": "SVG writing animation inspired by Apple’s Hello screen.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://chanhdai.com/r/apple-hello-effect.json"
+  },
+  {
+   "name": "apple-hello-effect-hindi",
+   "type": "component",
+   "title": "Apple Hello Effect - Hindi",
+   "description": "SVG writing animation inspired by Apple’s Hello screen.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://chanhdai.com/r/apple-hello-effect-hindi.json"
+  },
+  {
+   "name": "apple-hello-effect-spanish",
+   "type": "component",
+   "title": "Apple Hello Effect - Spanish",
+   "description": "SVG writing animation inspired by Apple’s Hello screen.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://chanhdai.com/r/apple-hello-effect-spanish.json"
+  },
+  {
+   "name": "apple-hello-effect-vietnamese",
+   "type": "component",
+   "title": "Apple Hello Effect - Vietnamese",
+   "description": "SVG writing animation inspired by Apple’s Hello screen.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://chanhdai.com/r/apple-hello-effect-vietnamese.json"
+  },
+  {
+   "name": "blog-01",
+   "type": "block",
+   "title": "Blog 01",
+   "description": "A blog section with a grid layout.",
+   "component": null,
+   "surface": "blog",
+   "dependencies": [
+    "date-fns",
+    "lucide-react"
+   ],
+   "url": "https://chanhdai.com/r/blog-01.json"
+  },
+  {
+   "name": "blog-02",
+   "type": "block",
+   "title": "Blog 02",
+   "description": "A blog section with a lined grid layout.",
+   "component": null,
+   "surface": "blog",
+   "dependencies": [
+    "date-fns",
+    "lucide-react"
+   ],
+   "url": "https://chanhdai.com/r/blog-02.json"
+  },
+  {
+   "name": "brand-assets-menu",
+   "type": "component",
+   "title": "Brand Assets Menu",
+   "description": "Context menu for copying brand SVGs and opening asset links.",
+   "component": "dropdown-menu",
+   "surface": null,
+   "dependencies": [
+    "@rexa-developer/tiks",
+    "lucide-react"
+   ],
+   "url": "https://chanhdai.com/r/brand-assets-menu.json"
+  },
+  {
+   "name": "carbon-ads",
+   "type": "component",
+   "title": "Carbon Ads",
+   "description": "Display a Carbon Ads unit in Next.js apps, styled to match your shadcn/ui theme.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://chanhdai.com/r/carbon-ads.json"
+  },
+  {
+   "name": "chevrons-up-down-icon",
+   "type": "component",
+   "title": null,
+   "description": "Animated chevrons icon that morphs between up and down directions.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://chanhdai.com/r/chevrons-up-down-icon.json"
+  },
+  {
+   "name": "code-block-command",
+   "type": "component",
+   "title": "Code Block Command",
+   "description": "Display install commands with package manager switcher and copy button.",
+   "component": "code-block",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react",
+    "motion",
+    "jotai",
+    "lucide-react"
+   ],
+   "url": "https://chanhdai.com/r/code-block-command.json"
+  },
+  {
+   "name": "consent-manager",
+   "type": "component",
+   "title": "Consent Manager",
+   "description": "Cookie and tracking consent banner for Next.js, built on c15t.",
+   "component": "cookie-consent",
+   "surface": null,
+   "dependencies": [
+    "@c15t/nextjs"
+   ],
+   "url": "https://chanhdai.com/r/consent-manager.json"
+  },
+  {
+   "name": "contribution-graph",
+   "type": "component",
+   "title": "Contribution Graph",
+   "description": "A GitHub-style contribution graph component that displays activity levels over time.",
+   "component": "heatmap",
+   "surface": null,
+   "dependencies": [
+    "date-fns"
+   ],
+   "url": "https://chanhdai.com/r/contribution-graph.json"
+  },
+  {
+   "name": "copy-button",
+   "type": "component",
+   "title": "Copy Button",
+   "description": "Copy text to clipboard with visual, haptic, and audio feedback.",
+   "component": "copy-button",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@rexa-developer/tiks",
+    "web-haptics",
+    "lucide-react"
+   ],
+   "url": "https://chanhdai.com/r/copy-button.json"
+  },
+  {
+   "name": "dot-grid-spotlight",
+   "type": "component",
+   "title": "Dot Grid Spotlight",
+   "description": "Interactive dot grid with a cursor-tracking spotlight effect.",
+   "component": "data-grid",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://chanhdai.com/r/dot-grid-spotlight.json"
+  },
+  {
+   "name": "elastic-slider",
+   "type": "component",
+   "title": "Elastic Slider",
+   "description": "Slider with elastic rubber-band drag and magnetic snap feedback.",
+   "component": "slider",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://chanhdai.com/r/elastic-slider.json"
+  },
+  {
+   "name": "experience-01",
+   "type": "block",
+   "title": "Experience 01",
+   "description": "A work experience section with a lined layout.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://chanhdai.com/r/experience-01.json"
+  },
+  {
+   "name": "fluid-gradient-text",
+   "type": "component",
+   "title": "Fluid Gradient Text",
+   "description": "Render text with a fluid gradient that shifts with pointer movement.",
+   "component": "text-effect",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://chanhdai.com/r/fluid-gradient-text.json"
+  },
+  {
+   "name": "github-contributions",
+   "type": "component",
+   "title": "GitHub Contributions",
+   "description": "Visualize year-long GitHub contribution activity with daily counts, tooltips, and a profile link.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "date-fns"
+   ],
+   "url": "https://chanhdai.com/r/github-contributions.json"
+  },
+  {
+   "name": "github-stars",
+   "type": "component",
+   "title": "GitHub Stars",
+   "description": "Display GitHub repo star count with formatted numbers and full-count tooltip.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://chanhdai.com/r/github-stars.json"
+  },
+  {
+   "name": "glow-card-grid",
+   "type": "component",
+   "title": "Glow Card Grid",
+   "description": "Display cards with glowing border and background effects.",
+   "component": "card-grid",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://chanhdai.com/r/glow-card-grid.json"
+  },
+  {
+   "name": "hero-01",
+   "type": "block",
+   "title": "Hero 01",
+   "description": "A hero section with a golden spiral background.",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://chanhdai.com/r/hero-01.json"
+  },
+  {
+   "name": "icon-swap",
+   "type": "component",
+   "title": "Icon Swap",
+   "description": "Animate icon swaps with scale, blur, and fade transitions.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://chanhdai.com/r/icon-swap.json"
+  },
+  {
+   "name": "jpg-card-holder",
+   "type": "component",
+   "title": "JPG Card Holder",
+   "description": "Leather card holder shaped like a JPG file, with cards you can pull out.",
+   "component": "card",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://chanhdai.com/r/jpg-card-holder.json"
+  },
+  {
+   "name": "line-nav",
+   "type": "component",
+   "title": "Line Nav",
+   "description": "Vertical navigation with a line marker that expands on hover and active state.",
+   "component": "navigation-menu",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://chanhdai.com/r/line-nav.json"
+  },
+  {
+   "name": "login-01",
+   "type": "block",
+   "title": "Login 01",
+   "description": "A simple login form.",
+   "component": null,
+   "surface": "login-mobile",
+   "dependencies": [],
+   "url": "https://chanhdai.com/r/login-01.json"
+  },
+  {
+   "name": "logos-carousel",
+   "type": "component",
+   "title": "Logos Carousel",
+   "description": "Cycle through logos column by column in a staggered wave.",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://chanhdai.com/r/logos-carousel.json"
+  },
+  {
+   "name": "logos-flip",
+   "type": "component",
+   "title": "Logos Flip",
+   "description": "Flip cards in a staggered wave to reveal the next batch of logos.",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://chanhdai.com/r/logos-flip.json"
+  },
+  {
+   "name": "metrics-01",
+   "type": "block",
+   "title": "Metrics 01",
+   "description": "A metrics section with a line chart.",
+   "component": "stat",
+   "surface": null,
+   "dependencies": [
+    "date-fns",
+    "lucide-react"
+   ],
+   "url": "https://chanhdai.com/r/metrics-01.json"
+  },
+  {
+   "name": "middle-truncation",
+   "type": "component",
+   "title": "Middle Truncation",
+   "description": "Truncate text in the middle while preserving start and end.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://chanhdai.com/r/middle-truncation.json"
+  },
+  {
+   "name": "mobius-loop-icon",
+   "type": "component",
+   "title": "Mobius Loop Icon",
+   "description": "Animated Mobius loop icon that morphs between circles and infinity shape.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://chanhdai.com/r/mobius-loop-icon.json"
+  },
+  {
+   "name": "not-found-01",
+   "type": "block",
+   "title": "Not Found 01",
+   "description": "A 404 page with a playable brick breaker game.",
+   "component": "error-page",
+   "surface": null,
+   "dependencies": [
+    "p5@^1.9.4",
+    "motion",
+    "next-themes",
+    "lucide-react"
+   ],
+   "url": "https://chanhdai.com/r/not-found-01.json"
+  },
+  {
+   "name": "scroll-fade-effect",
+   "type": "component",
+   "title": "Scroll Fade Effect",
+   "description": "Fade content edges as you scroll, for both vertical and horizontal layouts.",
+   "component": "transition",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://chanhdai.com/r/scroll-fade-effect.json"
+  },
+  {
+   "name": "share-menu",
+   "type": "component",
+   "title": "Share Menu",
+   "description": "Share menu to copy a link or post to X, LinkedIn, and the native share sheet.",
+   "component": "share-sheet",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://chanhdai.com/r/share-menu.json"
+  },
+  {
+   "name": "shimmering-text",
+   "type": "component",
+   "title": "Shimmering Text",
+   "description": "Smooth, light-sweeping shimmer animation for text.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://chanhdai.com/r/shimmering-text.json"
+  },
+  {
+   "name": "slide-to-unlock",
+   "type": "component",
+   "title": "Slide to Unlock",
+   "description": "Interactive slider inspired by the classic iPhone “slide to unlock” gesture.",
+   "component": "transition",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://chanhdai.com/r/slide-to-unlock.json"
+  },
+  {
+   "name": "social-links-01",
+   "type": "block",
+   "title": "Social Links 01",
+   "description": "A social links section with a lined grid layout.",
+   "component": "link",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://chanhdai.com/r/social-links-01.json"
+  },
+  {
+   "name": "social-proof-01",
+   "type": "block",
+   "title": "Social Proof 01",
+   "description": "A social proof section with a logos carousel.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://chanhdai.com/r/social-proof-01.json"
+  },
+  {
+   "name": "spinning-circular-text",
+   "type": "component",
+   "title": "Spinning Circular Text",
+   "description": "Text arranged in a circle with a continuous spinning animation.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://chanhdai.com/r/spinning-circular-text.json"
+  },
+  {
+   "name": "spotlight-logo",
+   "type": "component",
+   "title": "Spotlight Logo",
+   "description": "SVG logo with a cursor-tracking gradient highlight and tactile press.",
+   "component": "command-palette",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://chanhdai.com/r/spotlight-logo.json"
+  },
+  {
+   "name": "status-button",
+   "type": "component",
+   "title": "Status Button",
+   "description": "Button that shows loading and success feedback for async actions.",
+   "component": "button",
+   "surface": "status",
+   "dependencies": [
+    "motion",
+    "lucide-react"
+   ],
+   "url": "https://chanhdai.com/r/status-button.json"
+  },
+  {
+   "name": "swipe-actions",
+   "type": "component",
+   "title": "Swipe Actions",
+   "description": "Swipe a row in a list to reveal actions on the left or right.",
+   "component": "gesture",
+   "surface": null,
+   "dependencies": [
+    "@ncdai/react-swipe-actions",
+    "motion"
+   ],
+   "url": "https://chanhdai.com/r/swipe-actions.json"
+  },
+  {
+   "name": "team-01",
+   "type": "block",
+   "title": "Team 01",
+   "description": "A team section with glowing cards.",
+   "component": null,
+   "surface": "team",
+   "dependencies": [],
+   "url": "https://chanhdai.com/r/team-01.json"
+  },
+  {
+   "name": "testimonial",
+   "type": "component",
+   "title": "Testimonial",
+   "description": "Display user feedback with author info, avatar, and verified badge.",
+   "component": "quote",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://chanhdai.com/r/testimonial.json"
+  },
+  {
+   "name": "testimonial-2",
+   "type": "component",
+   "title": "Testimonial 2",
+   "description": "Display a testimonial quote with author attribution and source link.",
+   "component": "quote",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://chanhdai.com/r/testimonial-2.json"
+  },
+  {
+   "name": "testimonial-spotlight",
+   "type": "component",
+   "title": "Testimonial Spotlight",
+   "description": "Testimonial card with spotlight effect on hover.",
+   "component": "quote",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://chanhdai.com/r/testimonial-spotlight.json"
+  },
+  {
+   "name": "testimonials-01",
+   "type": "block",
+   "title": "Testimonials 01",
+   "description": "A testimonials section with dual marquees.",
+   "component": "quote",
+   "surface": "testimonials",
+   "dependencies": [],
+   "url": "https://chanhdai.com/r/testimonials-01.json"
+  },
+  {
+   "name": "testimonials-02",
+   "type": "block",
+   "title": "Testimonials 02",
+   "description": "A testimonials section with a lined layout.",
+   "component": "quote",
+   "surface": "testimonials",
+   "dependencies": [],
+   "url": "https://chanhdai.com/r/testimonials-02.json"
+  },
+  {
+   "name": "testimonials-marquee",
+   "type": "component",
+   "title": "Testimonials Marquee",
+   "description": "Scrolling marquee to showcase user testimonials.",
+   "component": "quote",
+   "surface": "testimonials",
+   "dependencies": [],
+   "url": "https://chanhdai.com/r/testimonials-marquee.json"
+  },
+  {
+   "name": "text-flip",
+   "type": "component",
+   "title": "Text Flip",
+   "description": "Animated text that cycles through items with a smooth flip transition.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://chanhdai.com/r/text-flip.json"
+  },
+  {
+   "name": "theme-switcher",
+   "type": "component",
+   "title": "Theme Switcher",
+   "description": "Toggle between system, light, and dark themes in Next.js apps.",
+   "component": "theme-provider",
+   "surface": null,
+   "dependencies": [
+    "next-themes",
+    "motion",
+    "lucide-react"
+   ],
+   "url": "https://chanhdai.com/r/theme-switcher.json"
+  },
+  {
+   "name": "timescale",
+   "type": "component",
+   "title": "Timescale",
+   "description": "Ruler-style timeline for plotting milestones along a horizontal or vertical axis.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://chanhdai.com/r/timescale.json"
+  },
+  {
+   "name": "toc-minimap",
+   "type": "component",
+   "title": "TOC Minimap",
+   "description": "Navigate page sections with a compact, hoverable TOC minimap.",
+   "component": "in-page-navigation",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://chanhdai.com/r/toc-minimap.json"
+  },
+  {
+   "name": "twemoji",
+   "type": "component",
+   "title": "Twemoji",
+   "description": "Render Unicode emoji as Twemoji SVG images inline with text.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://chanhdai.com/r/twemoji.json"
+  },
+  {
+   "name": "typography",
+   "type": "component",
+   "title": "Typography",
+   "description": "Custom prose styles for headings, links, inline code, and emphasis.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://chanhdai.com/r/typography.json"
+  },
+  {
+   "name": "wheel-picker",
+   "type": "component",
+   "title": "Wheel Picker",
+   "description": "iOS-like wheel picker for React with smooth inertia scrolling and infinite loop support.",
+   "component": "select",
+   "surface": null,
+   "dependencies": [
+    "@ncdai/react-wheel-picker"
+   ],
+   "url": "https://chanhdai.com/r/wheel-picker.json"
+  },
+  {
+   "name": "work-experience",
+   "type": "component",
+   "title": "Work Experience",
+   "description": "Display work experiences with role details, company logos, and durations.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "react-markdown",
+    "date-fns",
+    "lucide-react"
+   ],
+   "url": "https://chanhdai.com/r/work-experience.json"
+  }
+ ]
+}

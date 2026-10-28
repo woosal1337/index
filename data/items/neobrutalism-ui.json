@@ -1,0 +1,697 @@
+{
+ "resource_id": "3b875d90-d969-4856-a25e-cde5cfd0c51b",
+ "registry_url": "https://neobrutalism.com/r/registry.json",
+ "install_verified": true,
+ "checked": "2026-10-23",
+ "items": [
+  {
+   "name": "accordion",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "accordion",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react",
+    "lucide-react"
+   ],
+   "url": "https://neobrutalism.com/r/accordion.json"
+  },
+  {
+   "name": "alert",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "alert",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react",
+    "class-variance-authority"
+   ],
+   "url": "https://neobrutalism.com/r/alert.json"
+  },
+  {
+   "name": "alert-dialog",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "alert-dialog",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react"
+   ],
+   "url": "https://neobrutalism.com/r/alert-dialog.json"
+  },
+  {
+   "name": "aspect-ratio",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "aspect-ratio",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react"
+   ],
+   "url": "https://neobrutalism.com/r/aspect-ratio.json"
+  },
+  {
+   "name": "avatar",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "avatar",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react"
+   ],
+   "url": "https://neobrutalism.com/r/avatar.json"
+  },
+  {
+   "name": "badge",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "badge",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react",
+    "class-variance-authority"
+   ],
+   "url": "https://neobrutalism.com/r/badge.json"
+  },
+  {
+   "name": "breadcrumb",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "breadcrumbs",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react",
+    "lucide-react"
+   ],
+   "url": "https://neobrutalism.com/r/breadcrumb.json"
+  },
+  {
+   "name": "button",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "button",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react",
+    "class-variance-authority"
+   ],
+   "url": "https://neobrutalism.com/r/button.json"
+  },
+  {
+   "name": "button-group",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "button-group",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react",
+    "class-variance-authority"
+   ],
+   "url": "https://neobrutalism.com/r/button-group.json"
+  },
+  {
+   "name": "calendar",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "calendar",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react",
+    "lucide-react",
+    "react-day-picker"
+   ],
+   "url": "https://neobrutalism.com/r/calendar.json"
+  },
+  {
+   "name": "card",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "card",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react"
+   ],
+   "url": "https://neobrutalism.com/r/card.json"
+  },
+  {
+   "name": "carousel",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "carousel",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react",
+    "embla-carousel-react",
+    "lucide-react"
+   ],
+   "url": "https://neobrutalism.com/r/carousel.json"
+  },
+  {
+   "name": "checkbox",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "checkbox",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react",
+    "lucide-react"
+   ],
+   "url": "https://neobrutalism.com/r/checkbox.json"
+  },
+  {
+   "name": "collapsible",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "collapsible",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react"
+   ],
+   "url": "https://neobrutalism.com/r/collapsible.json"
+  },
+  {
+   "name": "combobox",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "combobox",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react",
+    "lucide-react"
+   ],
+   "url": "https://neobrutalism.com/r/combobox.json"
+  },
+  {
+   "name": "command",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "command-palette",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react",
+    "cmdk",
+    "lucide-react"
+   ],
+   "url": "https://neobrutalism.com/r/command.json"
+  },
+  {
+   "name": "context-menu",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "context-menu",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react",
+    "lucide-react"
+   ],
+   "url": "https://neobrutalism.com/r/context-menu.json"
+  },
+  {
+   "name": "dialog",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "modal",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react",
+    "lucide-react"
+   ],
+   "url": "https://neobrutalism.com/r/dialog.json"
+  },
+  {
+   "name": "direction",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "direction-provider",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react"
+   ],
+   "url": "https://neobrutalism.com/r/direction.json"
+  },
+  {
+   "name": "drawer",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "drawer",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react",
+    "vaul"
+   ],
+   "url": "https://neobrutalism.com/r/drawer.json"
+  },
+  {
+   "name": "dropdown-menu",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "dropdown-menu",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react",
+    "lucide-react"
+   ],
+   "url": "https://neobrutalism.com/r/dropdown-menu.json"
+  },
+  {
+   "name": "empty",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "empty-state",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react",
+    "class-variance-authority"
+   ],
+   "url": "https://neobrutalism.com/r/empty.json"
+  },
+  {
+   "name": "field",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "fieldset",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react",
+    "class-variance-authority"
+   ],
+   "url": "https://neobrutalism.com/r/field.json"
+  },
+  {
+   "name": "hover-card",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "hover-card",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react"
+   ],
+   "url": "https://neobrutalism.com/r/hover-card.json"
+  },
+  {
+   "name": "input",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "text-input",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react"
+   ],
+   "url": "https://neobrutalism.com/r/input.json"
+  },
+  {
+   "name": "input-group",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "input-group",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react",
+    "class-variance-authority"
+   ],
+   "url": "https://neobrutalism.com/r/input-group.json"
+  },
+  {
+   "name": "input-otp",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "otp-input",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react",
+    "input-otp",
+    "lucide-react"
+   ],
+   "url": "https://neobrutalism.com/r/input-otp.json"
+  },
+  {
+   "name": "item",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "list",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react",
+    "class-variance-authority"
+   ],
+   "url": "https://neobrutalism.com/r/item.json"
+  },
+  {
+   "name": "kbd",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "kbd",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react"
+   ],
+   "url": "https://neobrutalism.com/r/kbd.json"
+  },
+  {
+   "name": "label",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "label",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react"
+   ],
+   "url": "https://neobrutalism.com/r/label.json"
+  },
+  {
+   "name": "menubar",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "menubar",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react",
+    "lucide-react"
+   ],
+   "url": "https://neobrutalism.com/r/menubar.json"
+  },
+  {
+   "name": "native-select",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "select",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react",
+    "lucide-react"
+   ],
+   "url": "https://neobrutalism.com/r/native-select.json"
+  },
+  {
+   "name": "navigation-menu",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "navigation-menu",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react",
+    "class-variance-authority",
+    "lucide-react"
+   ],
+   "url": "https://neobrutalism.com/r/navigation-menu.json"
+  },
+  {
+   "name": "pagination",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "pagination",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react",
+    "lucide-react"
+   ],
+   "url": "https://neobrutalism.com/r/pagination.json"
+  },
+  {
+   "name": "popover",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "popover",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react"
+   ],
+   "url": "https://neobrutalism.com/r/popover.json"
+  },
+  {
+   "name": "progress",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "progress-bar",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react"
+   ],
+   "url": "https://neobrutalism.com/r/progress.json"
+  },
+  {
+   "name": "radio-group",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "radio-group",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react"
+   ],
+   "url": "https://neobrutalism.com/r/radio-group.json"
+  },
+  {
+   "name": "resizable",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "resizable",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react",
+    "react-resizable-panels"
+   ],
+   "url": "https://neobrutalism.com/r/resizable.json"
+  },
+  {
+   "name": "scroll-area",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "scroll-area",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react"
+   ],
+   "url": "https://neobrutalism.com/r/scroll-area.json"
+  },
+  {
+   "name": "select",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "select",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react",
+    "lucide-react"
+   ],
+   "url": "https://neobrutalism.com/r/select.json"
+  },
+  {
+   "name": "separator",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "separator",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react"
+   ],
+   "url": "https://neobrutalism.com/r/separator.json"
+  },
+  {
+   "name": "sheet",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "sheet",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react",
+    "lucide-react"
+   ],
+   "url": "https://neobrutalism.com/r/sheet.json"
+  },
+  {
+   "name": "sidebar",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react",
+    "class-variance-authority",
+    "lucide-react"
+   ],
+   "url": "https://neobrutalism.com/r/sidebar.json"
+  },
+  {
+   "name": "skeleton",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "skeleton",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react"
+   ],
+   "url": "https://neobrutalism.com/r/skeleton.json"
+  },
+  {
+   "name": "slider",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "slider",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react"
+   ],
+   "url": "https://neobrutalism.com/r/slider.json"
+  },
+  {
+   "name": "sonner",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "toast",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react",
+    "lucide-react",
+    "next-themes",
+    "sonner"
+   ],
+   "url": "https://neobrutalism.com/r/sonner.json"
+  },
+  {
+   "name": "spinner",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "spinner",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react",
+    "lucide-react"
+   ],
+   "url": "https://neobrutalism.com/r/spinner.json"
+  },
+  {
+   "name": "switch",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "switch",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react"
+   ],
+   "url": "https://neobrutalism.com/r/switch.json"
+  },
+  {
+   "name": "table",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "table",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react"
+   ],
+   "url": "https://neobrutalism.com/r/table.json"
+  },
+  {
+   "name": "tabs",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "tabs",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react",
+    "class-variance-authority"
+   ],
+   "url": "https://neobrutalism.com/r/tabs.json"
+  },
+  {
+   "name": "textarea",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "textarea",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react"
+   ],
+   "url": "https://neobrutalism.com/r/textarea.json"
+  },
+  {
+   "name": "toggle",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "toggle-button",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react",
+    "class-variance-authority"
+   ],
+   "url": "https://neobrutalism.com/r/toggle.json"
+  },
+  {
+   "name": "toggle-group",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "toggle-group",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react",
+    "class-variance-authority"
+   ],
+   "url": "https://neobrutalism.com/r/toggle-group.json"
+  },
+  {
+   "name": "tooltip",
+   "type": "ui",
+   "title": null,
+   "description": null,
+   "component": "tooltip",
+   "surface": null,
+   "dependencies": [
+    "@base-ui/react"
+   ],
+   "url": "https://neobrutalism.com/r/tooltip.json"
+  }
+ ]
+}

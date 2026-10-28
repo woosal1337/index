@@ -1,0 +1,6304 @@
+{
+ "resource_id": "bba0b2c4-282c-446f-8ebc-93d3bd723a26",
+ "registry_url": "https://intentui.com/r/registry.json",
+ "install_verified": true,
+ "checked": "2026-10-23",
+ "items": [
+  {
+   "name": "alert-dialog-example",
+   "type": "page",
+   "title": "Alert Dialog",
+   "description": "alert-dialog-example",
+   "component": "alert-dialog",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/alert-dialog-example.json"
+  },
+  {
+   "name": "all",
+   "type": "item",
+   "title": "All UI components",
+   "description": "Installs all UI components from this registry.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/all.json"
+  },
+  {
+   "name": "area-chart",
+   "type": "ui",
+   "title": "area-chart",
+   "description": "area-chart",
+   "component": "area-chart",
+   "surface": null,
+   "dependencies": [
+    "recharts"
+   ],
+   "url": "https://intentui.com/r/area-chart.json"
+  },
+  {
+   "name": "area-chart-controlled-example",
+   "type": "page",
+   "title": "Area Chart Controlled",
+   "description": "area-chart-controlled-example",
+   "component": "area-chart",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/area-chart-controlled-example.json"
+  },
+  {
+   "name": "area-chart-custom-colors-example",
+   "type": "page",
+   "title": "Area Chart Custom Colors",
+   "description": "area-chart-custom-colors-example",
+   "component": "area-chart",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/area-chart-custom-colors-example.json"
+  },
+  {
+   "name": "area-chart-custom-format-example",
+   "type": "page",
+   "title": "Area Chart Custom Format",
+   "description": "area-chart-custom-format-example",
+   "component": "area-chart",
+   "surface": null,
+   "dependencies": [
+    "recharts"
+   ],
+   "url": "https://intentui.com/r/area-chart-custom-format-example.json"
+  },
+  {
+   "name": "area-chart-custom-legend-example",
+   "type": "page",
+   "title": "Area Chart Custom Legend",
+   "description": "area-chart-custom-legend-example",
+   "component": "area-chart",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react",
+    "recharts"
+   ],
+   "url": "https://intentui.com/r/area-chart-custom-legend-example.json"
+  },
+  {
+   "name": "area-chart-custom-tooltip-example",
+   "type": "page",
+   "title": "Area Chart Custom Tooltip",
+   "description": "area-chart-custom-tooltip-example",
+   "component": "area-chart",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react",
+    "recharts"
+   ],
+   "url": "https://intentui.com/r/area-chart-custom-tooltip-example.json"
+  },
+  {
+   "name": "area-chart-example",
+   "type": "page",
+   "title": "Area Chart",
+   "description": "area-chart-example",
+   "component": "area-chart",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/area-chart-example.json"
+  },
+  {
+   "name": "area-chart-monotone-example",
+   "type": "page",
+   "title": "Area Chart Monotone",
+   "description": "area-chart-monotone-example",
+   "component": "area-chart",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/area-chart-monotone-example.json"
+  },
+  {
+   "name": "area-chart-stacked-example",
+   "type": "page",
+   "title": "Area Chart Stacked",
+   "description": "area-chart-stacked-example",
+   "component": "area-chart",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/area-chart-stacked-example.json"
+  },
+  {
+   "name": "auth-01",
+   "type": "block",
+   "title": "auth-01",
+   "description": "auth-01",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/auth-01.json"
+  },
+  {
+   "name": "auth-02",
+   "type": "block",
+   "title": "auth-02",
+   "description": "auth-02",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/auth-02.json"
+  },
+  {
+   "name": "auth-03",
+   "type": "block",
+   "title": "auth-03",
+   "description": "auth-03",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/auth-03.json"
+  },
+  {
+   "name": "autocomplete-menu-example",
+   "type": "page",
+   "title": "Autocomplete Menu",
+   "description": "autocomplete-menu-example",
+   "component": "autocomplete",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react",
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/autocomplete-menu-example.json"
+  },
+  {
+   "name": "avatar",
+   "type": "ui",
+   "title": "avatar",
+   "description": "avatar",
+   "component": "avatar",
+   "surface": null,
+   "dependencies": [
+    "cn"
+   ],
+   "url": "https://intentui.com/r/avatar.json"
+  },
+  {
+   "name": "avatar-basic-example",
+   "type": "page",
+   "title": "Avatar Basic",
+   "description": "avatar-basic-example",
+   "component": "avatar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/avatar-basic-example.json"
+  },
+  {
+   "name": "avatar-group-example",
+   "type": "page",
+   "title": "Avatar Group",
+   "description": "avatar-group-example",
+   "component": "avatar-group",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/avatar-group-example.json"
+  },
+  {
+   "name": "avatar-initials-example",
+   "type": "page",
+   "title": "Avatar Initials",
+   "description": "avatar-initials-example",
+   "component": "avatar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/avatar-initials-example.json"
+  },
+  {
+   "name": "avatar-shape-example",
+   "type": "page",
+   "title": "Avatar Shape",
+   "description": "avatar-shape-example",
+   "component": "avatar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/avatar-shape-example.json"
+  },
+  {
+   "name": "avatar-size-example",
+   "type": "page",
+   "title": "Avatar Size",
+   "description": "avatar-size-example",
+   "component": "avatar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/avatar-size-example.json"
+  },
+  {
+   "name": "badge",
+   "type": "ui",
+   "title": "badge",
+   "description": "badge",
+   "component": "badge",
+   "surface": null,
+   "dependencies": [
+    "tailwind-variants"
+   ],
+   "url": "https://intentui.com/r/badge.json"
+  },
+  {
+   "name": "badge-example",
+   "type": "page",
+   "title": "Badge",
+   "description": "badge-example",
+   "component": "badge",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/badge-example.json"
+  },
+  {
+   "name": "badge-intent-example",
+   "type": "page",
+   "title": "Badge Intent",
+   "description": "badge-intent-example",
+   "component": "badge",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/badge-intent-example.json"
+  },
+  {
+   "name": "badge-shape-example",
+   "type": "page",
+   "title": "Badge Shape",
+   "description": "badge-shape-example",
+   "component": "badge",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/badge-shape-example.json"
+  },
+  {
+   "name": "bar-chart",
+   "type": "ui",
+   "title": "bar-chart",
+   "description": "bar-chart",
+   "component": "bar-chart",
+   "surface": null,
+   "dependencies": [
+    "recharts"
+   ],
+   "url": "https://intentui.com/r/bar-chart.json"
+  },
+  {
+   "name": "bar-chart-controlled-example",
+   "type": "page",
+   "title": "Bar Chart Controlled",
+   "description": "bar-chart-controlled-example",
+   "component": "bar-chart",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/bar-chart-controlled-example.json"
+  },
+  {
+   "name": "bar-chart-custom-colors-example",
+   "type": "page",
+   "title": "Bar Chart Custom Colors",
+   "description": "bar-chart-custom-colors-example",
+   "component": "bar-chart",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/bar-chart-custom-colors-example.json"
+  },
+  {
+   "name": "bar-chart-custom-format-example",
+   "type": "page",
+   "title": "Bar Chart Custom Format",
+   "description": "bar-chart-custom-format-example",
+   "component": "bar-chart",
+   "surface": null,
+   "dependencies": [
+    "recharts"
+   ],
+   "url": "https://intentui.com/r/bar-chart-custom-format-example.json"
+  },
+  {
+   "name": "bar-chart-custom-legend-example",
+   "type": "page",
+   "title": "Bar Chart Custom Legend",
+   "description": "bar-chart-custom-legend-example",
+   "component": "bar-chart",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react",
+    "recharts"
+   ],
+   "url": "https://intentui.com/r/bar-chart-custom-legend-example.json"
+  },
+  {
+   "name": "bar-chart-custom-tooltip-example",
+   "type": "page",
+   "title": "Bar Chart Custom Tooltip",
+   "description": "bar-chart-custom-tooltip-example",
+   "component": "bar-chart",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react",
+    "recharts"
+   ],
+   "url": "https://intentui.com/r/bar-chart-custom-tooltip-example.json"
+  },
+  {
+   "name": "bar-chart-example",
+   "type": "page",
+   "title": "Bar Chart",
+   "description": "bar-chart-example",
+   "component": "bar-chart",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/bar-chart-example.json"
+  },
+  {
+   "name": "bar-chart-monotone-example",
+   "type": "page",
+   "title": "Bar Chart Monotone",
+   "description": "bar-chart-monotone-example",
+   "component": "bar-chart",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/bar-chart-monotone-example.json"
+  },
+  {
+   "name": "bar-chart-stacked-example",
+   "type": "page",
+   "title": "Bar Chart Stacked",
+   "description": "bar-chart-stacked-example",
+   "component": "bar-chart",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/bar-chart-stacked-example.json"
+  },
+  {
+   "name": "breadcrumbs",
+   "type": "ui",
+   "title": "breadcrumbs",
+   "description": "breadcrumbs",
+   "component": "breadcrumbs",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react",
+    "react-aria-components",
+    "cn"
+   ],
+   "url": "https://intentui.com/r/breadcrumbs.json"
+  },
+  {
+   "name": "breadcrumbs-collections-example",
+   "type": "page",
+   "title": "Breadcrumbs Collections",
+   "description": "breadcrumbs-collections-example",
+   "component": "breadcrumbs",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/breadcrumbs-collections-example.json"
+  },
+  {
+   "name": "breadcrumbs-current-example",
+   "type": "page",
+   "title": "Breadcrumbs Current",
+   "description": "breadcrumbs-current-example",
+   "component": "breadcrumbs",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/breadcrumbs-current-example.json"
+  },
+  {
+   "name": "breadcrumbs-example",
+   "type": "page",
+   "title": "Breadcrumbs",
+   "description": "breadcrumbs-example",
+   "component": "breadcrumbs",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/breadcrumbs-example.json"
+  },
+  {
+   "name": "breadcrumbs-menu-example",
+   "type": "page",
+   "title": "Breadcrumbs Menu",
+   "description": "breadcrumbs-menu-example",
+   "component": "breadcrumbs",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react"
+   ],
+   "url": "https://intentui.com/r/breadcrumbs-menu-example.json"
+  },
+  {
+   "name": "breadcrumbs-separator-example",
+   "type": "page",
+   "title": "Breadcrumbs Separator",
+   "description": "breadcrumbs-separator-example",
+   "component": "breadcrumbs",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/breadcrumbs-separator-example.json"
+  },
+  {
+   "name": "button",
+   "type": "ui",
+   "title": "button",
+   "description": "button",
+   "component": "button",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components",
+    "tailwind-variants"
+   ],
+   "url": "https://intentui.com/r/button.json"
+  },
+  {
+   "name": "button-basic-example",
+   "type": "page",
+   "title": "Button Basic",
+   "description": "button-basic-example",
+   "component": "button",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/button-basic-example.json"
+  },
+  {
+   "name": "button-disabled-example",
+   "type": "page",
+   "title": "Button Disabled",
+   "description": "button-disabled-example",
+   "component": "button",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/button-disabled-example.json"
+  },
+  {
+   "name": "button-group",
+   "type": "ui",
+   "title": "button-group",
+   "description": "button-group",
+   "component": "button-group",
+   "surface": null,
+   "dependencies": [
+    "cn",
+    "tailwind-variants"
+   ],
+   "url": "https://intentui.com/r/button-group.json"
+  },
+  {
+   "name": "button-group-example",
+   "type": "page",
+   "title": "Button Group",
+   "description": "button-group-example",
+   "component": "button-group",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/button-group-example.json"
+  },
+  {
+   "name": "button-group-orientation-example",
+   "type": "page",
+   "title": "Button Group Orientation",
+   "description": "button-group-orientation-example",
+   "component": "button-group",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react"
+   ],
+   "url": "https://intentui.com/r/button-group-orientation-example.json"
+  },
+  {
+   "name": "button-group-with-menu-example",
+   "type": "page",
+   "title": "Button Group With Menu",
+   "description": "button-group-with-menu-example",
+   "component": "button-group",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react"
+   ],
+   "url": "https://intentui.com/r/button-group-with-menu-example.json"
+  },
+  {
+   "name": "button-group-with-text-example",
+   "type": "page",
+   "title": "Button Group With Text",
+   "description": "button-group-with-text-example",
+   "component": "button-group",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react"
+   ],
+   "url": "https://intentui.com/r/button-group-with-text-example.json"
+  },
+  {
+   "name": "button-icon-example",
+   "type": "page",
+   "title": "Button Icon",
+   "description": "button-icon-example",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react"
+   ],
+   "url": "https://intentui.com/r/button-icon-example.json"
+  },
+  {
+   "name": "button-intent-example",
+   "type": "page",
+   "title": "Button Intent",
+   "description": "button-intent-example",
+   "component": "button",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react"
+   ],
+   "url": "https://intentui.com/r/button-intent-example.json"
+  },
+  {
+   "name": "button-link-example",
+   "type": "page",
+   "title": "Button Link",
+   "description": "button-link-example",
+   "component": "button",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/button-link-example.json"
+  },
+  {
+   "name": "button-loader-example",
+   "type": "page",
+   "title": "Button Loader",
+   "description": "button-loader-example",
+   "component": "button",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react"
+   ],
+   "url": "https://intentui.com/r/button-loader-example.json"
+  },
+  {
+   "name": "button-pending-example",
+   "type": "page",
+   "title": "Button Pending",
+   "description": "button-pending-example",
+   "component": "button",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react"
+   ],
+   "url": "https://intentui.com/r/button-pending-example.json"
+  },
+  {
+   "name": "button-render-example",
+   "type": "page",
+   "title": "Button Render",
+   "description": "button-render-example",
+   "component": "button",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://intentui.com/r/button-render-example.json"
+  },
+  {
+   "name": "button-shape-example",
+   "type": "page",
+   "title": "Button Shape",
+   "description": "button-shape-example",
+   "component": "button",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/button-shape-example.json"
+  },
+  {
+   "name": "button-size-example",
+   "type": "page",
+   "title": "Button Size",
+   "description": "button-size-example",
+   "component": "button",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/button-size-example.json"
+  },
+  {
+   "name": "calendar",
+   "type": "ui",
+   "title": "calendar",
+   "description": "calendar",
+   "component": "calendar",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react",
+    "react-aria-components",
+    "cn"
+   ],
+   "url": "https://intentui.com/r/calendar.json"
+  },
+  {
+   "name": "calendar-example",
+   "type": "page",
+   "title": "Calendar",
+   "description": "calendar-example",
+   "component": "calendar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/calendar-example.json"
+  },
+  {
+   "name": "card",
+   "type": "ui",
+   "title": "card",
+   "description": "card",
+   "component": "card",
+   "surface": null,
+   "dependencies": [
+    "cn"
+   ],
+   "url": "https://intentui.com/r/card.json"
+  },
+  {
+   "name": "card-action-example",
+   "type": "page",
+   "title": "Card Action",
+   "description": "card-action-example",
+   "component": "card",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react"
+   ],
+   "url": "https://intentui.com/r/card-action-example.json"
+  },
+  {
+   "name": "card-example",
+   "type": "page",
+   "title": "Card",
+   "description": "card-example",
+   "component": "card",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/card-example.json"
+  },
+  {
+   "name": "card-login-form-example",
+   "type": "page",
+   "title": "Card Login Form",
+   "description": "card-login-form-example",
+   "component": "login-form",
+   "surface": "login-mobile",
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/card-login-form-example.json"
+  },
+  {
+   "name": "card-table-example",
+   "type": "page",
+   "title": "Card Table",
+   "description": "card-table-example",
+   "component": "card",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react"
+   ],
+   "url": "https://intentui.com/r/card-table-example.json"
+  },
+  {
+   "name": "carousel",
+   "type": "ui",
+   "title": "carousel",
+   "description": "carousel",
+   "component": "carousel",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react",
+    "embla-carousel-react",
+    "cn"
+   ],
+   "url": "https://intentui.com/r/carousel.json"
+  },
+  {
+   "name": "carousel-api-example",
+   "type": "page",
+   "title": "Carousel Api",
+   "description": "carousel-api-example",
+   "component": "carousel",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components",
+    "cn"
+   ],
+   "url": "https://intentui.com/r/carousel-api-example.json"
+  },
+  {
+   "name": "carousel-autoplay-example",
+   "type": "page",
+   "title": "Carousel Autoplay",
+   "description": "carousel-autoplay-example",
+   "component": "carousel",
+   "surface": null,
+   "dependencies": [
+    "embla-carousel-autoplay"
+   ],
+   "url": "https://intentui.com/r/carousel-autoplay-example.json"
+  },
+  {
+   "name": "carousel-example",
+   "type": "page",
+   "title": "Carousel",
+   "description": "carousel-example",
+   "component": "carousel",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/carousel-example.json"
+  },
+  {
+   "name": "carousel-options-example",
+   "type": "page",
+   "title": "Carousel Options",
+   "description": "carousel-options-example",
+   "component": "carousel",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/carousel-options-example.json"
+  },
+  {
+   "name": "carousel-orientation-example",
+   "type": "page",
+   "title": "Carousel Orientation",
+   "description": "carousel-orientation-example",
+   "component": "carousel",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/carousel-orientation-example.json"
+  },
+  {
+   "name": "chart",
+   "type": "ui",
+   "title": "chart",
+   "description": "chart",
+   "component": "chart",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components",
+    "recharts",
+    "cn"
+   ],
+   "url": "https://intentui.com/r/chart.json"
+  },
+  {
+   "name": "chart-01",
+   "type": "block",
+   "title": "chart-01",
+   "description": "chart-01",
+   "component": "chart",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/chart-01.json"
+  },
+  {
+   "name": "chart-02",
+   "type": "block",
+   "title": "chart-02",
+   "description": "chart-02",
+   "component": "chart",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/chart-02.json"
+  },
+  {
+   "name": "chart-03",
+   "type": "block",
+   "title": "chart-03",
+   "description": "chart-03",
+   "component": "chart",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/chart-03.json"
+  },
+  {
+   "name": "checkbox",
+   "type": "ui",
+   "title": "checkbox",
+   "description": "checkbox",
+   "component": "checkbox",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react",
+    "react-aria-components",
+    "cn"
+   ],
+   "url": "https://intentui.com/r/checkbox.json"
+  },
+  {
+   "name": "checkbox-controlled-example",
+   "type": "page",
+   "title": "Checkbox Controlled",
+   "description": "checkbox-controlled-example",
+   "component": "checkbox",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/checkbox-controlled-example.json"
+  },
+  {
+   "name": "checkbox-description-example",
+   "type": "page",
+   "title": "Checkbox Description",
+   "description": "checkbox-description-example",
+   "component": "checkbox",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/checkbox-description-example.json"
+  },
+  {
+   "name": "checkbox-disabled-example",
+   "type": "page",
+   "title": "Checkbox Disabled",
+   "description": "checkbox-disabled-example",
+   "component": "checkbox",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/checkbox-disabled-example.json"
+  },
+  {
+   "name": "checkbox-example",
+   "type": "page",
+   "title": "Checkbox",
+   "description": "checkbox-example",
+   "component": "checkbox",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/checkbox-example.json"
+  },
+  {
+   "name": "checkbox-group-controlled-example",
+   "type": "page",
+   "title": "Checkbox Group Controlled",
+   "description": "checkbox-group-controlled-example",
+   "component": "checkbox-group",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/checkbox-group-controlled-example.json"
+  },
+  {
+   "name": "checkbox-group-description-example",
+   "type": "page",
+   "title": "Checkbox Group Description",
+   "description": "checkbox-group-description-example",
+   "component": "checkbox-group",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/checkbox-group-description-example.json"
+  },
+  {
+   "name": "checkbox-group-disabled-example",
+   "type": "page",
+   "title": "Checkbox Group Disabled",
+   "description": "checkbox-group-disabled-example",
+   "component": "checkbox-group",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/checkbox-group-disabled-example.json"
+  },
+  {
+   "name": "checkbox-group-example",
+   "type": "page",
+   "title": "Checkbox Group",
+   "description": "checkbox-group-example",
+   "component": "checkbox-group",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/checkbox-group-example.json"
+  },
+  {
+   "name": "checkbox-group-indeterminate-example",
+   "type": "page",
+   "title": "Checkbox Group Indeterminate",
+   "description": "checkbox-group-indeterminate-example",
+   "component": "checkbox-group",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/checkbox-group-indeterminate-example.json"
+  },
+  {
+   "name": "checkbox-group-uncontrolled-example",
+   "type": "page",
+   "title": "Checkbox Group Uncontrolled",
+   "description": "checkbox-group-uncontrolled-example",
+   "component": "checkbox-group",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/checkbox-group-uncontrolled-example.json"
+  },
+  {
+   "name": "checkbox-group-validation-example",
+   "type": "page",
+   "title": "Checkbox Group Validation",
+   "description": "checkbox-group-validation-example",
+   "component": "checkbox-group",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/checkbox-group-validation-example.json"
+  },
+  {
+   "name": "checkbox-indeterminate-example",
+   "type": "page",
+   "title": "Checkbox Indeterminate",
+   "description": "checkbox-indeterminate-example",
+   "component": "checkbox",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/checkbox-indeterminate-example.json"
+  },
+  {
+   "name": "checkbox-invalid-example",
+   "type": "page",
+   "title": "Checkbox Invalid",
+   "description": "checkbox-invalid-example",
+   "component": "checkbox",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/checkbox-invalid-example.json"
+  },
+  {
+   "name": "checkbox-uncontrolled-example",
+   "type": "page",
+   "title": "Checkbox Uncontrolled",
+   "description": "checkbox-uncontrolled-example",
+   "component": "checkbox",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/checkbox-uncontrolled-example.json"
+  },
+  {
+   "name": "choice-box",
+   "type": "ui",
+   "title": "choice-box",
+   "description": "choice-box",
+   "component": "box",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components",
+    "cn",
+    "tailwind-variants"
+   ],
+   "url": "https://intentui.com/r/choice-box.json"
+  },
+  {
+   "name": "choicebox-columns-example",
+   "type": "page",
+   "title": "Choicebox Columns",
+   "description": "choicebox-columns-example",
+   "component": "grid",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/choicebox-columns-example.json"
+  },
+  {
+   "name": "choicebox-controlled-example",
+   "type": "page",
+   "title": "Choicebox Controlled",
+   "description": "choicebox-controlled-example",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/choicebox-controlled-example.json"
+  },
+  {
+   "name": "choicebox-disabled-example",
+   "type": "page",
+   "title": "Choicebox Disabled",
+   "description": "choicebox-disabled-example",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/choicebox-disabled-example.json"
+  },
+  {
+   "name": "choicebox-example",
+   "type": "page",
+   "title": "Choicebox",
+   "description": "choicebox-example",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/choicebox-example.json"
+  },
+  {
+   "name": "choicebox-icon-example",
+   "type": "page",
+   "title": "Choicebox Icon",
+   "description": "choicebox-icon-example",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/choicebox-icon-example.json"
+  },
+  {
+   "name": "choicebox-multiple-selection-example",
+   "type": "page",
+   "title": "Choicebox Multiple Selection",
+   "description": "choicebox-multiple-selection-example",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/choicebox-multiple-selection-example.json"
+  },
+  {
+   "name": "color-area",
+   "type": "ui",
+   "title": "color-area",
+   "description": "color-area",
+   "component": "color-picker",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/color-area.json"
+  },
+  {
+   "name": "color-area-channel-example",
+   "type": "page",
+   "title": "Color Area Channel",
+   "description": "color-area-channel-example",
+   "component": "color-picker",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/color-area-channel-example.json"
+  },
+  {
+   "name": "color-area-controlled-example",
+   "type": "page",
+   "title": "Color Area Controlled",
+   "description": "color-area-controlled-example",
+   "component": "color-picker",
+   "surface": null,
+   "dependencies": [
+    "@react-stately/color"
+   ],
+   "url": "https://intentui.com/r/color-area-controlled-example.json"
+  },
+  {
+   "name": "color-area-disabled-example",
+   "type": "page",
+   "title": "Color Area Disabled",
+   "description": "color-area-disabled-example",
+   "component": "color-picker",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/color-area-disabled-example.json"
+  },
+  {
+   "name": "color-area-example",
+   "type": "page",
+   "title": "Color Area",
+   "description": "color-area-example",
+   "component": "color-picker",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/color-area-example.json"
+  },
+  {
+   "name": "color-area-space-example",
+   "type": "page",
+   "title": "Color Area Space",
+   "description": "color-area-space-example",
+   "component": "color-picker",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/color-area-space-example.json"
+  },
+  {
+   "name": "color-area-with-slider-example",
+   "type": "page",
+   "title": "Color Area With Slider",
+   "description": "color-area-with-slider-example",
+   "component": "color-picker",
+   "surface": null,
+   "dependencies": [
+    "@react-stately/color"
+   ],
+   "url": "https://intentui.com/r/color-area-with-slider-example.json"
+  },
+  {
+   "name": "color-field",
+   "type": "ui",
+   "title": "color-field",
+   "description": "color-field",
+   "component": "fieldset",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/color-field.json"
+  },
+  {
+   "name": "color-field-controlled-example",
+   "type": "page",
+   "title": "Color Field Controlled",
+   "description": "color-field-controlled-example",
+   "component": "fieldset",
+   "surface": null,
+   "dependencies": [
+    "@react-stately/color"
+   ],
+   "url": "https://intentui.com/r/color-field-controlled-example.json"
+  },
+  {
+   "name": "color-field-disabled-example",
+   "type": "page",
+   "title": "Color Field Disabled",
+   "description": "color-field-disabled-example",
+   "component": "fieldset",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/color-field-disabled-example.json"
+  },
+  {
+   "name": "color-field-example",
+   "type": "page",
+   "title": "Color Field",
+   "description": "color-field-example",
+   "component": "fieldset",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/color-field-example.json"
+  },
+  {
+   "name": "color-field-validation-example",
+   "type": "page",
+   "title": "Color Field Validation",
+   "description": "color-field-validation-example",
+   "component": "fieldset",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/color-field-validation-example.json"
+  },
+  {
+   "name": "color-field-with-prefix-example",
+   "type": "page",
+   "title": "Color Field With Prefix",
+   "description": "color-field-with-prefix-example",
+   "component": "fieldset",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react"
+   ],
+   "url": "https://intentui.com/r/color-field-with-prefix-example.json"
+  },
+  {
+   "name": "color-field-with-suffix-example",
+   "type": "page",
+   "title": "Color Field With Suffix",
+   "description": "color-field-with-suffix-example",
+   "component": "fieldset",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react"
+   ],
+   "url": "https://intentui.com/r/color-field-with-suffix-example.json"
+  },
+  {
+   "name": "color-picker",
+   "type": "ui",
+   "title": "color-picker",
+   "description": "color-picker",
+   "component": "color-picker",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react",
+    "@react-stately/color",
+    "react-aria-components",
+    "cn"
+   ],
+   "url": "https://intentui.com/r/color-picker.json"
+  },
+  {
+   "name": "color-picker-controlled-example",
+   "type": "page",
+   "title": "Color Picker Controlled",
+   "description": "color-picker-controlled-example",
+   "component": "color-picker",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/color-picker-controlled-example.json"
+  },
+  {
+   "name": "color-picker-disabled-example",
+   "type": "page",
+   "title": "Color Picker Disabled",
+   "description": "color-picker-disabled-example",
+   "component": "color-picker",
+   "surface": null,
+   "dependencies": [
+    "@react-stately/color"
+   ],
+   "url": "https://intentui.com/r/color-picker-disabled-example.json"
+  },
+  {
+   "name": "color-picker-example",
+   "type": "page",
+   "title": "Color Picker",
+   "description": "color-picker-example",
+   "component": "color-picker",
+   "surface": null,
+   "dependencies": [
+    "@react-stately/color"
+   ],
+   "url": "https://intentui.com/r/color-picker-example.json"
+  },
+  {
+   "name": "color-slider",
+   "type": "ui",
+   "title": "color-slider",
+   "description": "color-slider",
+   "component": "color-picker",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/color-slider.json"
+  },
+  {
+   "name": "color-slider-controlled-example",
+   "type": "page",
+   "title": "Color Slider Controlled",
+   "description": "color-slider-controlled-example",
+   "component": "color-picker",
+   "surface": null,
+   "dependencies": [
+    "@react-stately/color"
+   ],
+   "url": "https://intentui.com/r/color-slider-controlled-example.json"
+  },
+  {
+   "name": "color-slider-disabled-example",
+   "type": "page",
+   "title": "Color Slider Disabled",
+   "description": "color-slider-disabled-example",
+   "component": "color-picker",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/color-slider-disabled-example.json"
+  },
+  {
+   "name": "color-slider-example",
+   "type": "page",
+   "title": "Color Slider",
+   "description": "color-slider-example",
+   "component": "color-picker",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/color-slider-example.json"
+  },
+  {
+   "name": "color-slider-vertical-example",
+   "type": "page",
+   "title": "Color Slider Vertical",
+   "description": "color-slider-vertical-example",
+   "component": "color-picker",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/color-slider-vertical-example.json"
+  },
+  {
+   "name": "color-slider-with-label-example",
+   "type": "page",
+   "title": "Color Slider With Label",
+   "description": "color-slider-with-label-example",
+   "component": "color-picker",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/color-slider-with-label-example.json"
+  },
+  {
+   "name": "color-swatch",
+   "type": "ui",
+   "title": "color-swatch",
+   "description": "color-swatch",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/color-swatch.json"
+  },
+  {
+   "name": "color-swatch-controlled-example",
+   "type": "page",
+   "title": "Color Swatch Controlled",
+   "description": "color-swatch-controlled-example",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@react-stately/color"
+   ],
+   "url": "https://intentui.com/r/color-swatch-controlled-example.json"
+  },
+  {
+   "name": "color-swatch-example",
+   "type": "page",
+   "title": "Color Swatch",
+   "description": "color-swatch-example",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/color-swatch-example.json"
+  },
+  {
+   "name": "color-swatch-picker",
+   "type": "ui",
+   "title": "color-swatch-picker",
+   "description": "color-swatch-picker",
+   "component": "color-picker",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/color-swatch-picker.json"
+  },
+  {
+   "name": "color-swatch-picker-example",
+   "type": "page",
+   "title": "Color Swatch Picker",
+   "description": "color-swatch-picker-example",
+   "component": "color-picker",
+   "surface": null,
+   "dependencies": [
+    "@react-stately/color"
+   ],
+   "url": "https://intentui.com/r/color-swatch-picker-example.json"
+  },
+  {
+   "name": "color-swatch-picker-item-disabled-example",
+   "type": "page",
+   "title": "Color Swatch Picker Item Disabled",
+   "description": "color-swatch-picker-item-disabled-example",
+   "component": "color-picker",
+   "surface": null,
+   "dependencies": [
+    "@react-stately/color"
+   ],
+   "url": "https://intentui.com/r/color-swatch-picker-item-disabled-example.json"
+  },
+  {
+   "name": "color-swatch-size-example",
+   "type": "page",
+   "title": "Color Swatch Size",
+   "description": "color-swatch-size-example",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/color-swatch-size-example.json"
+  },
+  {
+   "name": "color-thumb",
+   "type": "ui",
+   "title": "color-thumb",
+   "description": "color-thumb",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/color-thumb.json"
+  },
+  {
+   "name": "color-wheel",
+   "type": "ui",
+   "title": "color-wheel",
+   "description": "color-wheel",
+   "component": "color-picker",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/color-wheel.json"
+  },
+  {
+   "name": "color-wheel-controlled-example",
+   "type": "page",
+   "title": "Color Wheel Controlled",
+   "description": "color-wheel-controlled-example",
+   "component": "color-picker",
+   "surface": null,
+   "dependencies": [
+    "@react-stately/color"
+   ],
+   "url": "https://intentui.com/r/color-wheel-controlled-example.json"
+  },
+  {
+   "name": "color-wheel-disabled-example",
+   "type": "page",
+   "title": "Color Wheel Disabled",
+   "description": "color-wheel-disabled-example",
+   "component": "color-picker",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/color-wheel-disabled-example.json"
+  },
+  {
+   "name": "color-wheel-example",
+   "type": "page",
+   "title": "Color Wheel",
+   "description": "color-wheel-example",
+   "component": "color-picker",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/color-wheel-example.json"
+  },
+  {
+   "name": "combo-box",
+   "type": "ui",
+   "title": "combo-box",
+   "description": "combo-box",
+   "component": "combobox",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react",
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/combo-box.json"
+  },
+  {
+   "name": "combo-box-avatar-example",
+   "type": "page",
+   "title": "Combo Box Avatar",
+   "description": "combo-box-avatar-example",
+   "component": "combobox",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/combo-box-avatar-example.json"
+  },
+  {
+   "name": "combo-box-controlled-example",
+   "type": "page",
+   "title": "Combo Box Controlled",
+   "description": "combo-box-controlled-example",
+   "component": "combobox",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/combo-box-controlled-example.json"
+  },
+  {
+   "name": "combo-box-controlled-selection-example",
+   "type": "page",
+   "title": "Combo Box Controlled Selection",
+   "description": "combo-box-controlled-selection-example",
+   "component": "combobox",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/combo-box-controlled-selection-example.json"
+  },
+  {
+   "name": "combo-box-custom-value-example",
+   "type": "page",
+   "title": "Combo Box Custom Value",
+   "description": "combo-box-custom-value-example",
+   "component": "combobox",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/combo-box-custom-value-example.json"
+  },
+  {
+   "name": "combo-box-detail-description-example",
+   "type": "page",
+   "title": "Combo Box Detail Description",
+   "description": "combo-box-detail-description-example",
+   "component": "combobox",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/combo-box-detail-description-example.json"
+  },
+  {
+   "name": "combo-box-disabled-example",
+   "type": "page",
+   "title": "Combo Box Disabled",
+   "description": "combo-box-disabled-example",
+   "component": "combobox",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/combo-box-disabled-example.json"
+  },
+  {
+   "name": "combo-box-example",
+   "type": "page",
+   "title": "Combo Box",
+   "description": "combo-box-example",
+   "component": "combobox",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/combo-box-example.json"
+  },
+  {
+   "name": "combo-box-invalid-example",
+   "type": "page",
+   "title": "Combo Box Invalid",
+   "description": "combo-box-invalid-example",
+   "component": "combobox",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/combo-box-invalid-example.json"
+  },
+  {
+   "name": "combo-box-multi-select-example",
+   "type": "page",
+   "title": "Combo Box Multi Select",
+   "description": "combo-box-multi-select-example",
+   "component": "combobox",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/combo-box-multi-select-example.json"
+  },
+  {
+   "name": "combo-box-readonly-example",
+   "type": "page",
+   "title": "Combo Box Readonly",
+   "description": "combo-box-readonly-example",
+   "component": "combobox",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/combo-box-readonly-example.json"
+  },
+  {
+   "name": "combo-box-section-example",
+   "type": "page",
+   "title": "Combo Box Section",
+   "description": "combo-box-section-example",
+   "component": "combobox",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/combo-box-section-example.json"
+  },
+  {
+   "name": "combo-box-validation-example",
+   "type": "page",
+   "title": "Combo Box Validation",
+   "description": "combo-box-validation-example",
+   "component": "combobox",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/combo-box-validation-example.json"
+  },
+  {
+   "name": "combo-box-virtualizer-example",
+   "type": "page",
+   "title": "Combo Box Virtualizer",
+   "description": "combo-box-virtualizer-example",
+   "component": "combobox",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/combo-box-virtualizer-example.json"
+  },
+  {
+   "name": "command-menu",
+   "type": "ui",
+   "title": "command-menu",
+   "description": "command-menu",
+   "component": "command-palette",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react",
+    "react-aria-components",
+    "cn"
+   ],
+   "url": "https://intentui.com/r/command-menu.json"
+  },
+  {
+   "name": "command-menu-controlled-example",
+   "type": "page",
+   "title": "Command Menu Controlled",
+   "description": "command-menu-controlled-example",
+   "component": "command-palette",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/command-menu-controlled-example.json"
+  },
+  {
+   "name": "command-menu-danger-item-example",
+   "type": "page",
+   "title": "Command Menu Danger Item",
+   "description": "command-menu-danger-item-example",
+   "component": "command-palette",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/command-menu-danger-item-example.json"
+  },
+  {
+   "name": "command-menu-description-example",
+   "type": "page",
+   "title": "Command Menu Description",
+   "description": "command-menu-description-example",
+   "component": "command-palette",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/command-menu-description-example.json"
+  },
+  {
+   "name": "command-menu-disabled-example",
+   "type": "page",
+   "title": "Command Menu Disabled",
+   "description": "command-menu-disabled-example",
+   "component": "command-palette",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/command-menu-disabled-example.json"
+  },
+  {
+   "name": "command-menu-dynamic-example",
+   "type": "page",
+   "title": "Command Menu Dynamic",
+   "description": "command-menu-dynamic-example",
+   "component": "command-palette",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/command-menu-dynamic-example.json"
+  },
+  {
+   "name": "command-menu-example",
+   "type": "page",
+   "title": "Command Menu",
+   "description": "command-menu-example",
+   "component": "command-palette",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react"
+   ],
+   "url": "https://intentui.com/r/command-menu-example.json"
+  },
+  {
+   "name": "command-menu-keyboard-example",
+   "type": "page",
+   "title": "Command Menu Keyboard",
+   "description": "command-menu-keyboard-example",
+   "component": "command-palette",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/command-menu-keyboard-example.json"
+  },
+  {
+   "name": "command-menu-pending-example",
+   "type": "page",
+   "title": "Command Menu Pending",
+   "description": "command-menu-pending-example",
+   "component": "command-palette",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/command-menu-pending-example.json"
+  },
+  {
+   "name": "command-menu-separator-example",
+   "type": "page",
+   "title": "Command Menu Separator",
+   "description": "command-menu-separator-example",
+   "component": "command-palette",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/command-menu-separator-example.json"
+  },
+  {
+   "name": "command-menu-trigger-by-keyboard-example",
+   "type": "page",
+   "title": "Command Menu Trigger by Keyboard",
+   "description": "command-menu-trigger-by-keyboard-example",
+   "component": "command-palette",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react"
+   ],
+   "url": "https://intentui.com/r/command-menu-trigger-by-keyboard-example.json"
+  },
+  {
+   "name": "container",
+   "type": "ui",
+   "title": "container",
+   "description": "container",
+   "component": "container",
+   "surface": null,
+   "dependencies": [
+    "cn"
+   ],
+   "url": "https://intentui.com/r/container.json"
+  },
+  {
+   "name": "context-menu-danger-example",
+   "type": "page",
+   "title": "Context Menu Danger",
+   "description": "context-menu-danger-example",
+   "component": "context-menu",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/context-menu-danger-example.json"
+  },
+  {
+   "name": "context-menu-detail-description-example",
+   "type": "page",
+   "title": "Context Menu Detail Description",
+   "description": "context-menu-detail-description-example",
+   "component": "context-menu",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/context-menu-detail-description-example.json"
+  },
+  {
+   "name": "context-menu-disabled-example",
+   "type": "page",
+   "title": "Context Menu Disabled",
+   "description": "context-menu-disabled-example",
+   "component": "context-menu",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/context-menu-disabled-example.json"
+  },
+  {
+   "name": "context-menu-example",
+   "type": "page",
+   "title": "Context Menu",
+   "description": "context-menu-example",
+   "component": "context-menu",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/context-menu-example.json"
+  },
+  {
+   "name": "context-menu-separator-example",
+   "type": "page",
+   "title": "Context Menu Separator",
+   "description": "context-menu-separator-example",
+   "component": "context-menu",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/context-menu-separator-example.json"
+  },
+  {
+   "name": "context-menu-sub-example",
+   "type": "page",
+   "title": "Context Menu Sub",
+   "description": "context-menu-sub-example",
+   "component": "context-menu",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/context-menu-sub-example.json"
+  },
+  {
+   "name": "context-menu-with-icon-example",
+   "type": "page",
+   "title": "Context Menu With Icon",
+   "description": "context-menu-with-icon-example",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react",
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/context-menu-with-icon-example.json"
+  },
+  {
+   "name": "controlled-values",
+   "type": "page",
+   "title": "Controlled Values",
+   "description": "controlled-values",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/controlled-values.json"
+  },
+  {
+   "name": "date-field",
+   "type": "ui",
+   "title": "date-field",
+   "description": "date-field",
+   "component": "date-input",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components",
+    "cn"
+   ],
+   "url": "https://intentui.com/r/date-field.json"
+  },
+  {
+   "name": "date-field-controlled-example",
+   "type": "page",
+   "title": "Date Field Controlled",
+   "description": "date-field-controlled-example",
+   "component": "date-input",
+   "surface": null,
+   "dependencies": [
+    "@internationalized/date",
+    "@react-aria/i18n"
+   ],
+   "url": "https://intentui.com/r/date-field-controlled-example.json"
+  },
+  {
+   "name": "date-field-disabled-example",
+   "type": "page",
+   "title": "Date Field Disabled",
+   "description": "date-field-disabled-example",
+   "component": "date-input",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/date-field-disabled-example.json"
+  },
+  {
+   "name": "date-field-example",
+   "type": "page",
+   "title": "Date Field",
+   "description": "date-field-example",
+   "component": "date-input",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/date-field-example.json"
+  },
+  {
+   "name": "date-field-readonly-example",
+   "type": "page",
+   "title": "Date Field Readonly",
+   "description": "date-field-readonly-example",
+   "component": "date-input",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/date-field-readonly-example.json"
+  },
+  {
+   "name": "date-field-uncontrolled-example",
+   "type": "page",
+   "title": "Date Field Uncontrolled",
+   "description": "date-field-uncontrolled-example",
+   "component": "date-input",
+   "surface": null,
+   "dependencies": [
+    "@internationalized/date"
+   ],
+   "url": "https://intentui.com/r/date-field-uncontrolled-example.json"
+  },
+  {
+   "name": "date-field-validation-example",
+   "type": "page",
+   "title": "Date Field Validation",
+   "description": "date-field-validation-example",
+   "component": "date-input",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/date-field-validation-example.json"
+  },
+  {
+   "name": "date-picker",
+   "type": "ui",
+   "title": "date-picker",
+   "description": "date-picker",
+   "component": "date-picker",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react",
+    "@internationalized/date",
+    "react-aria-components",
+    "cn"
+   ],
+   "url": "https://intentui.com/r/date-picker.json"
+  },
+  {
+   "name": "date-picker-controlled-example",
+   "type": "page",
+   "title": "Date Picker Controlled",
+   "description": "date-picker-controlled-example",
+   "component": "date-picker",
+   "surface": null,
+   "dependencies": [
+    "@internationalized/date",
+    "@react-aria/i18n"
+   ],
+   "url": "https://intentui.com/r/date-picker-controlled-example.json"
+  },
+  {
+   "name": "date-picker-custom-validation-example",
+   "type": "page",
+   "title": "Date Picker Custom Validation",
+   "description": "date-picker-custom-validation-example",
+   "component": "date-picker",
+   "surface": null,
+   "dependencies": [
+    "@internationalized/date",
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/date-picker-custom-validation-example.json"
+  },
+  {
+   "name": "date-picker-disabled-example",
+   "type": "page",
+   "title": "Date Picker Disabled",
+   "description": "date-picker-disabled-example",
+   "component": "date-picker",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/date-picker-disabled-example.json"
+  },
+  {
+   "name": "date-picker-example",
+   "type": "page",
+   "title": "Date Picker",
+   "description": "date-picker-example",
+   "component": "date-picker",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/date-picker-example.json"
+  },
+  {
+   "name": "date-picker-required-example",
+   "type": "page",
+   "title": "Date Picker Required",
+   "description": "date-picker-required-example",
+   "component": "date-picker",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/date-picker-required-example.json"
+  },
+  {
+   "name": "date-range-picker",
+   "type": "ui",
+   "title": "date-range-picker",
+   "description": "date-range-picker",
+   "component": "date-range-picker",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react",
+    "@internationalized/date",
+    "react-aria-components",
+    "cn"
+   ],
+   "url": "https://intentui.com/r/date-range-picker.json"
+  },
+  {
+   "name": "date-range-picker-controlled-example",
+   "type": "page",
+   "title": "Date Range Picker Controlled",
+   "description": "date-range-picker-controlled-example",
+   "component": "date-range-picker",
+   "surface": null,
+   "dependencies": [
+    "@internationalized/date",
+    "@react-aria/i18n"
+   ],
+   "url": "https://intentui.com/r/date-range-picker-controlled-example.json"
+  },
+  {
+   "name": "date-range-picker-custom-validation-example",
+   "type": "page",
+   "title": "Date Range Picker Custom Validation",
+   "description": "date-range-picker-custom-validation-example",
+   "component": "date-range-picker",
+   "surface": null,
+   "dependencies": [
+    "@internationalized/date",
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/date-range-picker-custom-validation-example.json"
+  },
+  {
+   "name": "date-range-picker-disabled-example",
+   "type": "page",
+   "title": "Date Range Picker Disabled",
+   "description": "date-range-picker-disabled-example",
+   "component": "date-range-picker",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/date-range-picker-disabled-example.json"
+  },
+  {
+   "name": "date-range-picker-example",
+   "type": "page",
+   "title": "Date Range Picker",
+   "description": "date-range-picker-example",
+   "component": "date-range-picker",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/date-range-picker-example.json"
+  },
+  {
+   "name": "date-range-picker-time-example",
+   "type": "page",
+   "title": "Date Range Picker Time",
+   "description": "date-range-picker-time-example",
+   "component": "date-range-picker",
+   "surface": null,
+   "dependencies": [
+    "@internationalized/date"
+   ],
+   "url": "https://intentui.com/r/date-range-picker-time-example.json"
+  },
+  {
+   "name": "date-range-picker-validation-example",
+   "type": "page",
+   "title": "Date Range Picker Validation",
+   "description": "date-range-picker-validation-example",
+   "component": "date-range-picker",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/date-range-picker-validation-example.json"
+  },
+  {
+   "name": "date-range-picker-visible-duration-example",
+   "type": "page",
+   "title": "Date Range Picker Visible Duration",
+   "description": "date-range-picker-visible-duration-example",
+   "component": "date-range-picker",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/date-range-picker-visible-duration-example.json"
+  },
+  {
+   "name": "date-time-example",
+   "type": "page",
+   "title": "Date Time",
+   "description": "date-time-example",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@internationalized/date"
+   ],
+   "url": "https://intentui.com/r/date-time-example.json"
+  },
+  {
+   "name": "date-time-field-example",
+   "type": "page",
+   "title": "Date Time Field",
+   "description": "date-time-field-example",
+   "component": "time-picker",
+   "surface": null,
+   "dependencies": [
+    "@internationalized/date"
+   ],
+   "url": "https://intentui.com/r/date-time-field-example.json"
+  },
+  {
+   "name": "description-list",
+   "type": "ui",
+   "title": "description-list",
+   "description": "description-list",
+   "component": "description-list",
+   "surface": null,
+   "dependencies": [
+    "cn"
+   ],
+   "url": "https://intentui.com/r/description-list.json"
+  },
+  {
+   "name": "description-list-card-example",
+   "type": "page",
+   "title": "Description List Card",
+   "description": "description-list-card-example",
+   "component": "description-list",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/description-list-card-example.json"
+  },
+  {
+   "name": "description-list-example",
+   "type": "page",
+   "title": "Description List",
+   "description": "description-list-example",
+   "component": "description-list",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/description-list-example.json"
+  },
+  {
+   "name": "description-list-heading-example",
+   "type": "page",
+   "title": "Description List Heading",
+   "description": "description-list-heading-example",
+   "component": "description-list",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/description-list-heading-example.json"
+  },
+  {
+   "name": "dialog",
+   "type": "ui",
+   "title": "dialog",
+   "description": "dialog",
+   "component": "modal",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react",
+    "react-aria-components",
+    "cn"
+   ],
+   "url": "https://intentui.com/r/dialog.json"
+  },
+  {
+   "name": "dialog-controlled-example",
+   "type": "page",
+   "title": "Dialog Controlled",
+   "description": "dialog-controlled-example",
+   "component": "modal",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/dialog-controlled-example.json"
+  },
+  {
+   "name": "dialog-example",
+   "type": "page",
+   "title": "Dialog",
+   "description": "dialog-example",
+   "component": "modal",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/dialog-example.json"
+  },
+  {
+   "name": "dialog-nested-example",
+   "type": "page",
+   "title": "Dialog Nested",
+   "description": "dialog-nested-example",
+   "component": "modal",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components",
+    "sonner"
+   ],
+   "url": "https://intentui.com/r/dialog-nested-example.json"
+  },
+  {
+   "name": "dialog-size-example",
+   "type": "page",
+   "title": "Dialog Size",
+   "description": "dialog-size-example",
+   "component": "modal",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/dialog-size-example.json"
+  },
+  {
+   "name": "dialog-sticky-example",
+   "type": "page",
+   "title": "Dialog Sticky",
+   "description": "dialog-sticky-example",
+   "component": "modal",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/dialog-sticky-example.json"
+  },
+  {
+   "name": "dialog-triggered-by-menu-example",
+   "type": "page",
+   "title": "Dialog Triggered by Menu",
+   "description": "dialog-triggered-by-menu-example",
+   "component": "modal",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react",
+    "sonner"
+   ],
+   "url": "https://intentui.com/r/dialog-triggered-by-menu-example.json"
+  },
+  {
+   "name": "disclosure-controlled-example",
+   "type": "page",
+   "title": "Disclosure Controlled",
+   "description": "disclosure-controlled-example",
+   "component": "collapsible",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/disclosure-controlled-example.json"
+  },
+  {
+   "name": "disclosure-disabled-example",
+   "type": "page",
+   "title": "Disclosure Disabled",
+   "description": "disclosure-disabled-example",
+   "component": "collapsible",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/disclosure-disabled-example.json"
+  },
+  {
+   "name": "disclosure-example",
+   "type": "page",
+   "title": "Disclosure",
+   "description": "disclosure-example",
+   "component": "collapsible",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/disclosure-example.json"
+  },
+  {
+   "name": "disclosure-group",
+   "type": "ui",
+   "title": "disclosure-group",
+   "description": "disclosure-group",
+   "component": "collapsible",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components",
+    "cn"
+   ],
+   "url": "https://intentui.com/r/disclosure-group.json"
+  },
+  {
+   "name": "disclosure-group-allow-multiple-expand-example",
+   "type": "page",
+   "title": "Disclosure Group Allow Multiple Expand",
+   "description": "disclosure-group-allow-multiple-expand-example",
+   "component": "collapsible",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/disclosure-group-allow-multiple-expand-example.json"
+  },
+  {
+   "name": "disclosure-group-default-expand-example",
+   "type": "page",
+   "title": "Disclosure Group Default Expand",
+   "description": "disclosure-group-default-expand-example",
+   "component": "collapsible",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/disclosure-group-default-expand-example.json"
+  },
+  {
+   "name": "disclosure-group-disabled-example",
+   "type": "page",
+   "title": "Disclosure Group Disabled",
+   "description": "disclosure-group-disabled-example",
+   "component": "collapsible",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/disclosure-group-disabled-example.json"
+  },
+  {
+   "name": "disclosure-group-example",
+   "type": "page",
+   "title": "Disclosure Group",
+   "description": "disclosure-group-example",
+   "component": "collapsible",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/disclosure-group-example.json"
+  },
+  {
+   "name": "disclosure-group-nested-example",
+   "type": "page",
+   "title": "Disclosure Group Nested",
+   "description": "disclosure-group-nested-example",
+   "component": "collapsible",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react"
+   ],
+   "url": "https://intentui.com/r/disclosure-group-nested-example.json"
+  },
+  {
+   "name": "disclosure-group-with-icon-example",
+   "type": "page",
+   "title": "Disclosure Group With Icon",
+   "description": "disclosure-group-with-icon-example",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react"
+   ],
+   "url": "https://intentui.com/r/disclosure-group-with-icon-example.json"
+  },
+  {
+   "name": "drop-zone",
+   "type": "ui",
+   "title": "drop-zone",
+   "description": "drop-zone",
+   "component": "file-upload",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components",
+    "cn"
+   ],
+   "url": "https://intentui.com/r/drop-zone.json"
+  },
+  {
+   "name": "drop-zone-and-file-trigger-example",
+   "type": "page",
+   "title": "Drop Zone and File Trigger",
+   "description": "drop-zone-and-file-trigger-example",
+   "component": "file-upload",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react",
+    "@react-types/shared",
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/drop-zone-and-file-trigger-example.json"
+  },
+  {
+   "name": "drop-zone-example",
+   "type": "page",
+   "title": "Drop Zone",
+   "description": "drop-zone-example",
+   "component": "file-upload",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/drop-zone-example.json"
+  },
+  {
+   "name": "dropdown",
+   "type": "ui",
+   "title": "dropdown",
+   "description": "dropdown",
+   "component": "select",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react",
+    "react-aria-components",
+    "cn",
+    "tailwind-variants"
+   ],
+   "url": "https://intentui.com/r/dropdown.json"
+  },
+  {
+   "name": "field",
+   "type": "ui",
+   "title": "field",
+   "description": "field",
+   "component": "fieldset",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components",
+    "cn",
+    "tailwind-variants"
+   ],
+   "url": "https://intentui.com/r/field.json"
+  },
+  {
+   "name": "field-example",
+   "type": "page",
+   "title": "Field",
+   "description": "field-example",
+   "component": "fieldset",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/field-example.json"
+  },
+  {
+   "name": "file-trigger",
+   "type": "ui",
+   "title": "file-trigger",
+   "description": "file-trigger",
+   "component": "file-card",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react",
+    "react-aria-components",
+    "tailwind-variants"
+   ],
+   "url": "https://intentui.com/r/file-trigger.json"
+  },
+  {
+   "name": "file-trigger-avatar-example",
+   "type": "page",
+   "title": "File Trigger Avatar",
+   "description": "file-trigger-avatar-example",
+   "component": "file-card",
+   "surface": null,
+   "dependencies": [
+    "@react-types/shared",
+    "react-aria-components",
+    "cn"
+   ],
+   "url": "https://intentui.com/r/file-trigger-avatar-example.json"
+  },
+  {
+   "name": "file-trigger-camera-example",
+   "type": "page",
+   "title": "File Trigger Camera",
+   "description": "file-trigger-camera-example",
+   "component": "file-card",
+   "surface": "camera-capture",
+   "dependencies": [],
+   "url": "https://intentui.com/r/file-trigger-camera-example.json"
+  },
+  {
+   "name": "file-trigger-circle-example",
+   "type": "page",
+   "title": "File Trigger Circle",
+   "description": "file-trigger-circle-example",
+   "component": "file-card",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/file-trigger-circle-example.json"
+  },
+  {
+   "name": "file-trigger-controlled-example",
+   "type": "page",
+   "title": "File Trigger Controlled",
+   "description": "file-trigger-controlled-example",
+   "component": "file-card",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/file-trigger-controlled-example.json"
+  },
+  {
+   "name": "file-trigger-disabled-example",
+   "type": "page",
+   "title": "File Trigger Disabled",
+   "description": "file-trigger-disabled-example",
+   "component": "file-card",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/file-trigger-disabled-example.json"
+  },
+  {
+   "name": "file-trigger-example",
+   "type": "page",
+   "title": "File Trigger",
+   "description": "file-trigger-example",
+   "component": "file-card",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/file-trigger-example.json"
+  },
+  {
+   "name": "file-trigger-folder-example",
+   "type": "page",
+   "title": "File Trigger Folder",
+   "description": "file-trigger-folder-example",
+   "component": "file-card",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/file-trigger-folder-example.json"
+  },
+  {
+   "name": "file-trigger-multiple-example",
+   "type": "page",
+   "title": "File Trigger Multiple",
+   "description": "file-trigger-multiple-example",
+   "component": "file-card",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/file-trigger-multiple-example.json"
+  },
+  {
+   "name": "file-trigger-pending-example",
+   "type": "page",
+   "title": "File Trigger Pending",
+   "description": "file-trigger-pending-example",
+   "component": "file-card",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/file-trigger-pending-example.json"
+  },
+  {
+   "name": "grid-list",
+   "type": "ui",
+   "title": "grid-list",
+   "description": "grid-list",
+   "component": "image-gallery",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components",
+    "cn"
+   ],
+   "url": "https://intentui.com/r/grid-list.json"
+  },
+  {
+   "name": "grid-list-controlled-example",
+   "type": "page",
+   "title": "Grid List Controlled",
+   "description": "grid-list-controlled-example",
+   "component": "image-gallery",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/grid-list-controlled-example.json"
+  },
+  {
+   "name": "grid-list-disabled-example",
+   "type": "page",
+   "title": "Grid List Disabled",
+   "description": "grid-list-disabled-example",
+   "component": "image-gallery",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/grid-list-disabled-example.json"
+  },
+  {
+   "name": "grid-list-drag-between-item-example",
+   "type": "page",
+   "title": "Grid List Drag Between Item",
+   "description": "grid-list-drag-between-item-example",
+   "component": "image-gallery",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components",
+    "react-stately"
+   ],
+   "url": "https://intentui.com/r/grid-list-drag-between-item-example.json"
+  },
+  {
+   "name": "grid-list-drag-example",
+   "type": "page",
+   "title": "Grid List Drag",
+   "description": "grid-list-drag-example",
+   "component": "image-gallery",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components",
+    "react-stately"
+   ],
+   "url": "https://intentui.com/r/grid-list-drag-example.json"
+  },
+  {
+   "name": "grid-list-example",
+   "type": "page",
+   "title": "Grid List",
+   "description": "grid-list-example",
+   "component": "image-gallery",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/grid-list-example.json"
+  },
+  {
+   "name": "grid-list-infinite-scroll-example",
+   "type": "page",
+   "title": "Grid List Infinite Scroll",
+   "description": "grid-list-infinite-scroll-example",
+   "component": "image-gallery",
+   "surface": null,
+   "dependencies": [
+    "@react-stately/data",
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/grid-list-infinite-scroll-example.json"
+  },
+  {
+   "name": "grid-list-multiple-example",
+   "type": "page",
+   "title": "Grid List Multiple",
+   "description": "grid-list-multiple-example",
+   "component": "image-gallery",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/grid-list-multiple-example.json"
+  },
+  {
+   "name": "grid-list-render-empty-state-example",
+   "type": "page",
+   "title": "Grid List Render Empty State",
+   "description": "grid-list-render-empty-state-example",
+   "component": "image-gallery",
+   "surface": "empty-state",
+   "dependencies": [],
+   "url": "https://intentui.com/r/grid-list-render-empty-state-example.json"
+  },
+  {
+   "name": "grid-list-section-example",
+   "type": "page",
+   "title": "Grid List Section",
+   "description": "grid-list-section-example",
+   "component": "image-gallery",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/grid-list-section-example.json"
+  },
+  {
+   "name": "grid-list-virtualizer-example",
+   "type": "page",
+   "title": "Grid List Virtualizer",
+   "description": "grid-list-virtualizer-example",
+   "component": "image-gallery",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/grid-list-virtualizer-example.json"
+  },
+  {
+   "name": "heading",
+   "type": "ui",
+   "title": "heading",
+   "description": "heading",
+   "component": "heading",
+   "surface": null,
+   "dependencies": [
+    "cn"
+   ],
+   "url": "https://intentui.com/r/heading.json"
+  },
+  {
+   "name": "heading-example",
+   "type": "page",
+   "title": "Heading",
+   "description": "heading-example",
+   "component": "heading",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/heading-example.json"
+  },
+  {
+   "name": "heading-level-example",
+   "type": "page",
+   "title": "Heading Level",
+   "description": "heading-level-example",
+   "component": "heading",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/heading-level-example.json"
+  },
+  {
+   "name": "indeterminate-progress-bar-example",
+   "type": "page",
+   "title": "Indeterminate Progress Bar",
+   "description": "indeterminate-progress-bar-example",
+   "component": "progress-bar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/indeterminate-progress-bar-example.json"
+  },
+  {
+   "name": "input",
+   "type": "ui",
+   "title": "input",
+   "description": "input",
+   "component": "text-input",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/input.json"
+  },
+  {
+   "name": "input-basic-example",
+   "type": "page",
+   "title": "Input Basic",
+   "description": "input-basic-example",
+   "component": "text-input",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/input-basic-example.json"
+  },
+  {
+   "name": "input-controlled-example",
+   "type": "page",
+   "title": "Input Controlled",
+   "description": "input-controlled-example",
+   "component": "text-input",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/input-controlled-example.json"
+  },
+  {
+   "name": "input-group-example",
+   "type": "page",
+   "title": "Input Group",
+   "description": "input-group-example",
+   "component": "input-group",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react"
+   ],
+   "url": "https://intentui.com/r/input-group-example.json"
+  },
+  {
+   "name": "input-label-description-example",
+   "type": "page",
+   "title": "Input Label Description",
+   "description": "input-label-description-example",
+   "component": "label",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/input-label-description-example.json"
+  },
+  {
+   "name": "input-otp",
+   "type": "ui",
+   "title": "input-otp",
+   "description": "input-otp",
+   "component": "otp-input",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react",
+    "input-otp",
+    "cn"
+   ],
+   "url": "https://intentui.com/r/input-otp.json"
+  },
+  {
+   "name": "input-otp-controlled-example",
+   "type": "page",
+   "title": "Input Otp Controlled",
+   "description": "input-otp-controlled-example",
+   "component": "otp-input",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/input-otp-controlled-example.json"
+  },
+  {
+   "name": "input-otp-example",
+   "type": "page",
+   "title": "Input Otp",
+   "description": "input-otp-example",
+   "component": "otp-input",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/input-otp-example.json"
+  },
+  {
+   "name": "input-otp-separator-example",
+   "type": "page",
+   "title": "Input Otp Separator",
+   "description": "input-otp-separator-example",
+   "component": "otp-input",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/input-otp-separator-example.json"
+  },
+  {
+   "name": "input-text-field-example",
+   "type": "page",
+   "title": "Input Text Field",
+   "description": "input-text-field-example",
+   "component": "text-input",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/input-text-field-example.json"
+  },
+  {
+   "name": "keyboard",
+   "type": "ui",
+   "title": "keyboard",
+   "description": "keyboard",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "react-aria-components",
+    "cn"
+   ],
+   "url": "https://intentui.com/r/keyboard.json"
+  },
+  {
+   "name": "keyboard-example",
+   "type": "page",
+   "title": "Keyboard",
+   "description": "keyboard-example",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/keyboard-example.json"
+  },
+  {
+   "name": "leaderboard",
+   "type": "ui",
+   "title": "leaderboard",
+   "description": "leaderboard",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "react-aria-components",
+    "cn"
+   ],
+   "url": "https://intentui.com/r/leaderboard.json"
+  },
+  {
+   "name": "leaderboard-controlled-example",
+   "type": "page",
+   "title": "Leaderboard Controlled",
+   "description": "leaderboard-controlled-example",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/leaderboard-controlled-example.json"
+  },
+  {
+   "name": "leaderboard-currency-example",
+   "type": "page",
+   "title": "Leaderboard Currency",
+   "description": "leaderboard-currency-example",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/leaderboard-currency-example.json"
+  },
+  {
+   "name": "leaderboard-example",
+   "type": "page",
+   "title": "Leaderboard",
+   "description": "leaderboard-example",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/leaderboard-example.json"
+  },
+  {
+   "name": "leaderboard-header-example",
+   "type": "page",
+   "title": "Leaderboard Header",
+   "description": "leaderboard-header-example",
+   "component": "header",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react"
+   ],
+   "url": "https://intentui.com/r/leaderboard-header-example.json"
+  },
+  {
+   "name": "leaderboard-icon-example",
+   "type": "page",
+   "title": "Leaderboard Icon",
+   "description": "leaderboard-icon-example",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react"
+   ],
+   "url": "https://intentui.com/r/leaderboard-icon-example.json"
+  },
+  {
+   "name": "leaderboard-percentage-example",
+   "type": "page",
+   "title": "Leaderboard Percentage",
+   "description": "leaderboard-percentage-example",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/leaderboard-percentage-example.json"
+  },
+  {
+   "name": "line-chart",
+   "type": "ui",
+   "title": "line-chart",
+   "description": "line-chart",
+   "component": "line-chart",
+   "surface": null,
+   "dependencies": [
+    "recharts"
+   ],
+   "url": "https://intentui.com/r/line-chart.json"
+  },
+  {
+   "name": "line-chart-controlled-example",
+   "type": "page",
+   "title": "Line Chart Controlled",
+   "description": "line-chart-controlled-example",
+   "component": "line-chart",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/line-chart-controlled-example.json"
+  },
+  {
+   "name": "line-chart-custom-colors-example",
+   "type": "page",
+   "title": "Line Chart Custom Colors",
+   "description": "line-chart-custom-colors-example",
+   "component": "line-chart",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/line-chart-custom-colors-example.json"
+  },
+  {
+   "name": "line-chart-custom-format-example",
+   "type": "page",
+   "title": "Line Chart Custom Format",
+   "description": "line-chart-custom-format-example",
+   "component": "line-chart",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/line-chart-custom-format-example.json"
+  },
+  {
+   "name": "line-chart-custom-legend-example",
+   "type": "page",
+   "title": "Line Chart Custom Legend",
+   "description": "line-chart-custom-legend-example",
+   "component": "line-chart",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react",
+    "recharts"
+   ],
+   "url": "https://intentui.com/r/line-chart-custom-legend-example.json"
+  },
+  {
+   "name": "line-chart-custom-tooltip-example",
+   "type": "page",
+   "title": "Line Chart Custom Tooltip",
+   "description": "line-chart-custom-tooltip-example",
+   "component": "line-chart",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react",
+    "recharts"
+   ],
+   "url": "https://intentui.com/r/line-chart-custom-tooltip-example.json"
+  },
+  {
+   "name": "line-chart-example",
+   "type": "page",
+   "title": "Line Chart",
+   "description": "line-chart-example",
+   "component": "line-chart",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/line-chart-example.json"
+  },
+  {
+   "name": "line-chart-monotone-example",
+   "type": "page",
+   "title": "Line Chart Monotone",
+   "description": "line-chart-monotone-example",
+   "component": "line-chart",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/line-chart-monotone-example.json"
+  },
+  {
+   "name": "line-chart-stacked-example",
+   "type": "page",
+   "title": "Line Chart Stacked",
+   "description": "line-chart-stacked-example",
+   "component": "line-chart",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/line-chart-stacked-example.json"
+  },
+  {
+   "name": "link",
+   "type": "ui",
+   "title": "link",
+   "description": "link",
+   "component": "link",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/link.json"
+  },
+  {
+   "name": "link-button-example",
+   "type": "page",
+   "title": "Link Button",
+   "description": "link-button-example",
+   "component": "button",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/link-button-example.json"
+  },
+  {
+   "name": "link-disabled-example",
+   "type": "page",
+   "title": "Link Disabled",
+   "description": "link-disabled-example",
+   "component": "link",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/link-disabled-example.json"
+  },
+  {
+   "name": "link-example",
+   "type": "page",
+   "title": "Link",
+   "description": "link-example",
+   "component": "link",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/link-example.json"
+  },
+  {
+   "name": "link-unstyled-example",
+   "type": "page",
+   "title": "Link Unstyled",
+   "description": "link-unstyled-example",
+   "component": "link",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/link-unstyled-example.json"
+  },
+  {
+   "name": "list-box",
+   "type": "ui",
+   "title": "list-box",
+   "description": "list-box",
+   "component": "list",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react",
+    "react-aria-components",
+    "cn"
+   ],
+   "url": "https://intentui.com/r/list-box.json"
+  },
+  {
+   "name": "list-box-controlled-example",
+   "type": "page",
+   "title": "List Box Controlled",
+   "description": "list-box-controlled-example",
+   "component": "list",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/list-box-controlled-example.json"
+  },
+  {
+   "name": "list-box-description-example",
+   "type": "page",
+   "title": "List Box Description",
+   "description": "list-box-description-example",
+   "component": "list",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/list-box-description-example.json"
+  },
+  {
+   "name": "list-box-disabled-example",
+   "type": "page",
+   "title": "List Box Disabled",
+   "description": "list-box-disabled-example",
+   "component": "list",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/list-box-disabled-example.json"
+  },
+  {
+   "name": "list-box-example",
+   "type": "page",
+   "title": "List Box",
+   "description": "list-box-example",
+   "component": "list",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/list-box-example.json"
+  },
+  {
+   "name": "list-box-infinite-scroll-example",
+   "type": "page",
+   "title": "List Box Infinite Scroll",
+   "description": "list-box-infinite-scroll-example",
+   "component": "infinite-scroll",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components",
+    "react-stately"
+   ],
+   "url": "https://intentui.com/r/list-box-infinite-scroll-example.json"
+  },
+  {
+   "name": "list-box-multiple-example",
+   "type": "page",
+   "title": "List Box Multiple",
+   "description": "list-box-multiple-example",
+   "component": "list",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/list-box-multiple-example.json"
+  },
+  {
+   "name": "list-box-rearrange-example",
+   "type": "page",
+   "title": "List Box Rearrange",
+   "description": "list-box-rearrange-example",
+   "component": "list",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components",
+    "react-stately"
+   ],
+   "url": "https://intentui.com/r/list-box-rearrange-example.json"
+  },
+  {
+   "name": "list-box-section-example",
+   "type": "page",
+   "title": "List Box Section",
+   "description": "list-box-section-example",
+   "component": "list",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/list-box-section-example.json"
+  },
+  {
+   "name": "list-box-virtualizer-example",
+   "type": "page",
+   "title": "List Box Virtualizer",
+   "description": "list-box-virtualizer-example",
+   "component": "list",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/list-box-virtualizer-example.json"
+  },
+  {
+   "name": "loader",
+   "type": "ui",
+   "title": "loader",
+   "description": "loader",
+   "component": "spinner",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components",
+    "cn"
+   ],
+   "url": "https://intentui.com/r/loader.json"
+  },
+  {
+   "name": "loader-example",
+   "type": "page",
+   "title": "Loader",
+   "description": "loader-example",
+   "component": "spinner",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/loader-example.json"
+  },
+  {
+   "name": "loader-size-example",
+   "type": "page",
+   "title": "Loader Size",
+   "description": "loader-size-example",
+   "component": "spinner",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/loader-size-example.json"
+  },
+  {
+   "name": "loader-variant-example",
+   "type": "page",
+   "title": "Loader Variant",
+   "description": "loader-variant-example",
+   "component": "spinner",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/loader-variant-example.json"
+  },
+  {
+   "name": "menu",
+   "type": "ui",
+   "title": "menu",
+   "description": "menu",
+   "component": "dropdown-menu",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react",
+    "react-aria-components",
+    "cn",
+    "tailwind-variants"
+   ],
+   "url": "https://intentui.com/r/menu.json"
+  },
+  {
+   "name": "menu-basic-example",
+   "type": "page",
+   "title": "Menu Basic",
+   "description": "menu-basic-example",
+   "component": "dropdown-menu",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/menu-basic-example.json"
+  },
+  {
+   "name": "menu-danger-example",
+   "type": "page",
+   "title": "Menu Danger",
+   "description": "menu-danger-example",
+   "component": "dropdown-menu",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react"
+   ],
+   "url": "https://intentui.com/r/menu-danger-example.json"
+  },
+  {
+   "name": "menu-disabled-example",
+   "type": "page",
+   "title": "Menu Disabled",
+   "description": "menu-disabled-example",
+   "component": "dropdown-menu",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/menu-disabled-example.json"
+  },
+  {
+   "name": "menu-dynamic-example",
+   "type": "page",
+   "title": "Menu Dynamic",
+   "description": "menu-dynamic-example",
+   "component": "dropdown-menu",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/menu-dynamic-example.json"
+  },
+  {
+   "name": "menu-infinite-scroll-example",
+   "type": "page",
+   "title": "Menu Infinite Scroll",
+   "description": "menu-infinite-scroll-example",
+   "component": "infinite-scroll",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components",
+    "react-stately"
+   ],
+   "url": "https://intentui.com/r/menu-infinite-scroll-example.json"
+  },
+  {
+   "name": "menu-item-description-example",
+   "type": "page",
+   "title": "Menu Item Description",
+   "description": "menu-item-description-example",
+   "component": "dropdown-menu",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react"
+   ],
+   "url": "https://intentui.com/r/menu-item-description-example.json"
+  },
+  {
+   "name": "menu-section-example",
+   "type": "page",
+   "title": "Menu Section",
+   "description": "menu-section-example",
+   "component": "dropdown-menu",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/menu-section-example.json"
+  },
+  {
+   "name": "menu-section-level-selection",
+   "type": "page",
+   "title": "Menu Section Level Selection",
+   "description": "menu-section-level-selection",
+   "component": "dropdown-menu",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react",
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/menu-section-level-selection.json"
+  },
+  {
+   "name": "menu-sub-example",
+   "type": "page",
+   "title": "Menu Sub",
+   "description": "menu-sub-example",
+   "component": "dropdown-menu",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/menu-sub-example.json"
+  },
+  {
+   "name": "menu-with-arrow-example",
+   "type": "page",
+   "title": "Menu With Arrow",
+   "description": "menu-with-arrow-example",
+   "component": "dropdown-menu",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components",
+    "@heroicons/react"
+   ],
+   "url": "https://intentui.com/r/menu-with-arrow-example.json"
+  },
+  {
+   "name": "menu-with-icon-example",
+   "type": "page",
+   "title": "Menu With Icon",
+   "description": "menu-with-icon-example",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react",
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/menu-with-icon-example.json"
+  },
+  {
+   "name": "meter",
+   "type": "ui",
+   "title": "meter",
+   "description": "meter",
+   "component": "meter",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components",
+    "cn"
+   ],
+   "url": "https://intentui.com/r/meter.json"
+  },
+  {
+   "name": "meter-currency-format-example",
+   "type": "page",
+   "title": "Meter Currency Format",
+   "description": "meter-currency-format-example",
+   "component": "meter",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/meter-currency-format-example.json"
+  },
+  {
+   "name": "meter-decimal-format-example",
+   "type": "page",
+   "title": "Meter Decimal Format",
+   "description": "meter-decimal-format-example",
+   "component": "meter",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/meter-decimal-format-example.json"
+  },
+  {
+   "name": "meter-example",
+   "type": "page",
+   "title": "Meter",
+   "description": "meter-example",
+   "component": "meter",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/meter-example.json"
+  },
+  {
+   "name": "multiple-menu-example",
+   "type": "page",
+   "title": "Multiple Menu",
+   "description": "multiple-menu-example",
+   "component": "dropdown-menu",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/multiple-menu-example.json"
+  },
+  {
+   "name": "multiple-select",
+   "type": "ui",
+   "title": "multiple-select",
+   "description": "multiple-select",
+   "component": "multi-select",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/multiple-select.json"
+  },
+  {
+   "name": "multiple-select-controlled-example",
+   "type": "page",
+   "title": "Multiple Select Controlled",
+   "description": "multiple-select-controlled-example",
+   "component": "multi-select",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/multiple-select-controlled-example.json"
+  },
+  {
+   "name": "multiple-select-disabled-example",
+   "type": "page",
+   "title": "Multiple Select Disabled",
+   "description": "multiple-select-disabled-example",
+   "component": "multi-select",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/multiple-select-disabled-example.json"
+  },
+  {
+   "name": "multiple-select-example",
+   "type": "page",
+   "title": "Multiple Select",
+   "description": "multiple-select-example",
+   "component": "multi-select",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/multiple-select-example.json"
+  },
+  {
+   "name": "multiple-select-invalid-example",
+   "type": "page",
+   "title": "Multiple Select Invalid",
+   "description": "multiple-select-invalid-example",
+   "component": "multi-select",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/multiple-select-invalid-example.json"
+  },
+  {
+   "name": "native-select",
+   "type": "ui",
+   "title": "native-select",
+   "description": "native-select",
+   "component": "select",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react",
+    "cn"
+   ],
+   "url": "https://intentui.com/r/native-select.json"
+  },
+  {
+   "name": "native-select-controlled-example",
+   "type": "page",
+   "title": "Native Select Controlled",
+   "description": "native-select-controlled-example",
+   "component": "select",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/native-select-controlled-example.json"
+  },
+  {
+   "name": "native-select-description-example",
+   "type": "page",
+   "title": "Native Select Description",
+   "description": "native-select-description-example",
+   "component": "select",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/native-select-description-example.json"
+  },
+  {
+   "name": "native-select-disabled-example",
+   "type": "page",
+   "title": "Native Select Disabled",
+   "description": "native-select-disabled-example",
+   "component": "select",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/native-select-disabled-example.json"
+  },
+  {
+   "name": "native-select-example",
+   "type": "page",
+   "title": "Native Select",
+   "description": "native-select-example",
+   "component": "select",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/native-select-example.json"
+  },
+  {
+   "name": "native-select-invalid-example",
+   "type": "page",
+   "title": "Native Select Invalid",
+   "description": "native-select-invalid-example",
+   "component": "select",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/native-select-invalid-example.json"
+  },
+  {
+   "name": "native-select-label-example",
+   "type": "page",
+   "title": "Native Select Label",
+   "description": "native-select-label-example",
+   "component": "select",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/native-select-label-example.json"
+  },
+  {
+   "name": "native-select-uncontrolled-example",
+   "type": "page",
+   "title": "Native Select Uncontrolled",
+   "description": "native-select-uncontrolled-example",
+   "component": "select",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/native-select-uncontrolled-example.json"
+  },
+  {
+   "name": "navbar",
+   "type": "ui",
+   "title": "navbar",
+   "description": "navbar",
+   "component": "navbar",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react",
+    "motion",
+    "cn"
+   ],
+   "url": "https://intentui.com/r/navbar.json"
+  },
+  {
+   "name": "navbar-01",
+   "type": "block",
+   "title": "navbar-01",
+   "description": "navbar-01",
+   "component": "navbar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/navbar-01.json"
+  },
+  {
+   "name": "navbar-02",
+   "type": "block",
+   "title": "navbar-02",
+   "description": "navbar-02",
+   "component": "navbar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/navbar-02.json"
+  },
+  {
+   "name": "navbar-03",
+   "type": "block",
+   "title": "navbar-03",
+   "description": "navbar-03",
+   "component": "navbar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/navbar-03.json"
+  },
+  {
+   "name": "navbar-04",
+   "type": "block",
+   "title": "navbar-04",
+   "description": "navbar-04",
+   "component": "navbar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/navbar-04.json"
+  },
+  {
+   "name": "navbar-05",
+   "type": "block",
+   "title": "navbar-05",
+   "description": "navbar-05",
+   "component": "navbar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/navbar-05.json"
+  },
+  {
+   "name": "note",
+   "type": "ui",
+   "title": "note",
+   "description": "note",
+   "component": "alert",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react",
+    "cn"
+   ],
+   "url": "https://intentui.com/r/note.json"
+  },
+  {
+   "name": "note-example",
+   "type": "page",
+   "title": "Note",
+   "description": "note-example",
+   "component": "alert",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/note-example.json"
+  },
+  {
+   "name": "note-intent-example",
+   "type": "page",
+   "title": "Note Intent",
+   "description": "note-intent-example",
+   "component": "alert",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/note-intent-example.json"
+  },
+  {
+   "name": "number-field",
+   "type": "ui",
+   "title": "number-field",
+   "description": "number-field",
+   "component": "number-input",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react",
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/number-field.json"
+  },
+  {
+   "name": "number-field-controlled-example",
+   "type": "page",
+   "title": "Number Field Controlled",
+   "description": "number-field-controlled-example",
+   "component": "number-input",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/number-field-controlled-example.json"
+  },
+  {
+   "name": "number-field-disabled-example",
+   "type": "page",
+   "title": "Number Field Disabled",
+   "description": "number-field-disabled-example",
+   "component": "number-input",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/number-field-disabled-example.json"
+  },
+  {
+   "name": "number-field-example",
+   "type": "page",
+   "title": "Number Field",
+   "description": "number-field-example",
+   "component": "number-input",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/number-field-example.json"
+  },
+  {
+   "name": "number-field-invalid-example",
+   "type": "page",
+   "title": "Number Field Invalid",
+   "description": "number-field-invalid-example",
+   "component": "number-input",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/number-field-invalid-example.json"
+  },
+  {
+   "name": "number-field-uncontrolled-example",
+   "type": "page",
+   "title": "Number Field Uncontrolled",
+   "description": "number-field-uncontrolled-example",
+   "component": "number-input",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/number-field-uncontrolled-example.json"
+  },
+  {
+   "name": "option-preview",
+   "type": "page",
+   "title": "Option Preview",
+   "description": "option-preview",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "cn"
+   ],
+   "url": "https://intentui.com/r/option-preview.json"
+  },
+  {
+   "name": "pagination",
+   "type": "ui",
+   "title": "pagination",
+   "description": "pagination",
+   "component": "pagination",
+   "surface": null,
+   "dependencies": [
+    "cn"
+   ],
+   "url": "https://intentui.com/r/pagination.json"
+  },
+  {
+   "name": "pagination-example",
+   "type": "page",
+   "title": "Pagination",
+   "description": "pagination-example",
+   "component": "pagination",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/pagination-example.json"
+  },
+  {
+   "name": "pie-chart",
+   "type": "ui",
+   "title": "pie-chart",
+   "description": "pie-chart",
+   "component": "pie-chart",
+   "surface": null,
+   "dependencies": [
+    "recharts"
+   ],
+   "url": "https://intentui.com/r/pie-chart.json"
+  },
+  {
+   "name": "pie-chart-custom-colors-example",
+   "type": "page",
+   "title": "Pie Chart Custom Colors",
+   "description": "pie-chart-custom-colors-example",
+   "component": "pie-chart",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/pie-chart-custom-colors-example.json"
+  },
+  {
+   "name": "pie-chart-donut-custom-label-example",
+   "type": "page",
+   "title": "Pie Chart Donut Custom Label",
+   "description": "pie-chart-donut-custom-label-example",
+   "component": "pie-chart",
+   "surface": null,
+   "dependencies": [
+    "recharts"
+   ],
+   "url": "https://intentui.com/r/pie-chart-donut-custom-label-example.json"
+  },
+  {
+   "name": "pie-chart-donut-example",
+   "type": "page",
+   "title": "Pie Chart Donut",
+   "description": "pie-chart-donut-example",
+   "component": "pie-chart",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/pie-chart-donut-example.json"
+  },
+  {
+   "name": "pie-chart-example",
+   "type": "page",
+   "title": "Pie Chart",
+   "description": "pie-chart-example",
+   "component": "pie-chart",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/pie-chart-example.json"
+  },
+  {
+   "name": "pie-chart-gap-example",
+   "type": "page",
+   "title": "Pie Chart Gap",
+   "description": "pie-chart-gap-example",
+   "component": "pie-chart",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/pie-chart-gap-example.json"
+  },
+  {
+   "name": "pie-chart-interactive-example",
+   "type": "page",
+   "title": "Pie Chart Interactive",
+   "description": "pie-chart-interactive-example",
+   "component": "pie-chart",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/pie-chart-interactive-example.json"
+  },
+  {
+   "name": "popover",
+   "type": "ui",
+   "title": "popover",
+   "description": "popover",
+   "component": "popover",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/popover.json"
+  },
+  {
+   "name": "popover-arrow-example",
+   "type": "page",
+   "title": "Popover Arrow",
+   "description": "popover-arrow-example",
+   "component": "popover",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react"
+   ],
+   "url": "https://intentui.com/r/popover-arrow-example.json"
+  },
+  {
+   "name": "popover-controlled-example",
+   "type": "page",
+   "title": "Popover Controlled",
+   "description": "popover-controlled-example",
+   "component": "popover",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react"
+   ],
+   "url": "https://intentui.com/r/popover-controlled-example.json"
+  },
+  {
+   "name": "popover-custom-close",
+   "type": "page",
+   "title": "Popover Custom Close",
+   "description": "popover-custom-close",
+   "component": "popover",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/popover-custom-close.json"
+  },
+  {
+   "name": "popover-example",
+   "type": "page",
+   "title": "Popover",
+   "description": "popover-example",
+   "component": "popover",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/popover-example.json"
+  },
+  {
+   "name": "popover-placement-example",
+   "type": "page",
+   "title": "Popover Placement",
+   "description": "popover-placement-example",
+   "component": "popover",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/popover-placement-example.json"
+  },
+  {
+   "name": "popover-trigger-example",
+   "type": "page",
+   "title": "Popover Trigger",
+   "description": "popover-trigger-example",
+   "component": "popover",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/popover-trigger-example.json"
+  },
+  {
+   "name": "preview",
+   "type": "ui",
+   "title": "preview",
+   "description": "preview",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/preview.json"
+  },
+  {
+   "name": "preview-custom-trigger",
+   "type": "page",
+   "title": "Preview Custom Trigger",
+   "description": "preview-custom-trigger",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/preview-custom-trigger.json"
+  },
+  {
+   "name": "preview-example",
+   "type": "page",
+   "title": "Preview",
+   "description": "preview-example",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/preview-example.json"
+  },
+  {
+   "name": "preview-no-delay-example",
+   "type": "page",
+   "title": "Preview No Delay",
+   "description": "preview-no-delay-example",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/preview-no-delay-example.json"
+  },
+  {
+   "name": "progress-bar",
+   "type": "ui",
+   "title": "progress-bar",
+   "description": "progress-bar",
+   "component": "progress-bar",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components",
+    "cn"
+   ],
+   "url": "https://intentui.com/r/progress-bar.json"
+  },
+  {
+   "name": "progress-bar-example",
+   "type": "page",
+   "title": "Progress Bar",
+   "description": "progress-bar-example",
+   "component": "progress-bar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/progress-bar-example.json"
+  },
+  {
+   "name": "progress-circle",
+   "type": "ui",
+   "title": "progress-circle",
+   "description": "progress-circle",
+   "component": "spinner",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components",
+    "cn"
+   ],
+   "url": "https://intentui.com/r/progress-circle.json"
+  },
+  {
+   "name": "progress-circle-color-example",
+   "type": "page",
+   "title": "Progress Circle Color",
+   "description": "progress-circle-color-example",
+   "component": "spinner",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/progress-circle-color-example.json"
+  },
+  {
+   "name": "progress-circle-controlled-example",
+   "type": "page",
+   "title": "Progress Circle Controlled",
+   "description": "progress-circle-controlled-example",
+   "component": "spinner",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/progress-circle-controlled-example.json"
+  },
+  {
+   "name": "progress-circle-custom-size-example",
+   "type": "page",
+   "title": "Progress Circle Custom Size",
+   "description": "progress-circle-custom-size-example",
+   "component": "spinner",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/progress-circle-custom-size-example.json"
+  },
+  {
+   "name": "progress-circle-example",
+   "type": "page",
+   "title": "Progress Circle",
+   "description": "progress-circle-example",
+   "component": "spinner",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/progress-circle-example.json"
+  },
+  {
+   "name": "progress-circle-indeterminate-example",
+   "type": "page",
+   "title": "Progress Circle Indeterminate",
+   "description": "progress-circle-indeterminate-example",
+   "component": "spinner",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/progress-circle-indeterminate-example.json"
+  },
+  {
+   "name": "radar-chart",
+   "type": "ui",
+   "title": "radar-chart",
+   "description": "radar-chart",
+   "component": "radar-chart",
+   "surface": null,
+   "dependencies": [
+    "recharts"
+   ],
+   "url": "https://intentui.com/r/radar-chart.json"
+  },
+  {
+   "name": "radar-chart-circular-grid-example",
+   "type": "page",
+   "title": "Radar Chart Circular Grid",
+   "description": "radar-chart-circular-grid-example",
+   "component": "radar-chart",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/radar-chart-circular-grid-example.json"
+  },
+  {
+   "name": "radar-chart-custom-colors-example",
+   "type": "page",
+   "title": "Radar Chart Custom Colors",
+   "description": "radar-chart-custom-colors-example",
+   "component": "radar-chart",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/radar-chart-custom-colors-example.json"
+  },
+  {
+   "name": "radar-chart-example",
+   "type": "page",
+   "title": "Radar Chart",
+   "description": "radar-chart-example",
+   "component": "radar-chart",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/radar-chart-example.json"
+  },
+  {
+   "name": "radar-chart-multiple-example",
+   "type": "page",
+   "title": "Radar Chart Multiple",
+   "description": "radar-chart-multiple-example",
+   "component": "radar-chart",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/radar-chart-multiple-example.json"
+  },
+  {
+   "name": "radial-bar-chart",
+   "type": "ui",
+   "title": "radial-bar-chart",
+   "description": "radial-bar-chart",
+   "component": "bar-chart",
+   "surface": null,
+   "dependencies": [
+    "recharts"
+   ],
+   "url": "https://intentui.com/r/radial-bar-chart.json"
+  },
+  {
+   "name": "radial-bar-chart-custom-colors-example",
+   "type": "page",
+   "title": "Radial Bar Chart Custom Colors",
+   "description": "radial-bar-chart-custom-colors-example",
+   "component": "bar-chart",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/radial-bar-chart-custom-colors-example.json"
+  },
+  {
+   "name": "radial-bar-chart-example",
+   "type": "page",
+   "title": "Radial Bar Chart",
+   "description": "radial-bar-chart-example",
+   "component": "bar-chart",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/radial-bar-chart-example.json"
+  },
+  {
+   "name": "radial-bar-chart-gauge-example",
+   "type": "page",
+   "title": "Radial Bar Chart Gauge",
+   "description": "radial-bar-chart-gauge-example",
+   "component": "bar-chart",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/radial-bar-chart-gauge-example.json"
+  },
+  {
+   "name": "radial-bar-chart-multiple-example",
+   "type": "page",
+   "title": "Radial Bar Chart Multiple",
+   "description": "radial-bar-chart-multiple-example",
+   "component": "bar-chart",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/radial-bar-chart-multiple-example.json"
+  },
+  {
+   "name": "radio",
+   "type": "ui",
+   "title": "radio",
+   "description": "radio",
+   "component": "radio-button",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components",
+    "cn"
+   ],
+   "url": "https://intentui.com/r/radio.json"
+  },
+  {
+   "name": "radio-group-controlled-example",
+   "type": "page",
+   "title": "Radio Group Controlled",
+   "description": "radio-group-controlled-example",
+   "component": "radio-group",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/radio-group-controlled-example.json"
+  },
+  {
+   "name": "radio-group-description-example",
+   "type": "page",
+   "title": "Radio Group Description",
+   "description": "radio-group-description-example",
+   "component": "radio-group",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/radio-group-description-example.json"
+  },
+  {
+   "name": "radio-group-disabled-example",
+   "type": "page",
+   "title": "Radio Group Disabled",
+   "description": "radio-group-disabled-example",
+   "component": "radio-group",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/radio-group-disabled-example.json"
+  },
+  {
+   "name": "radio-group-example",
+   "type": "page",
+   "title": "Radio Group",
+   "description": "radio-group-example",
+   "component": "radio-group",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/radio-group-example.json"
+  },
+  {
+   "name": "radio-group-orientation-example",
+   "type": "page",
+   "title": "Radio Group Orientation",
+   "description": "radio-group-orientation-example",
+   "component": "radio-group",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/radio-group-orientation-example.json"
+  },
+  {
+   "name": "radio-group-uncontrolled-example",
+   "type": "page",
+   "title": "Radio Group Uncontrolled",
+   "description": "radio-group-uncontrolled-example",
+   "component": "radio-group",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/radio-group-uncontrolled-example.json"
+  },
+  {
+   "name": "radio-group-validation-example",
+   "type": "page",
+   "title": "Radio Group Validation",
+   "description": "radio-group-validation-example",
+   "component": "radio-group",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/radio-group-validation-example.json"
+  },
+  {
+   "name": "range-calendar",
+   "type": "ui",
+   "title": "range-calendar",
+   "description": "range-calendar",
+   "component": "date-range-picker",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components",
+    "cn"
+   ],
+   "url": "https://intentui.com/r/range-calendar.json"
+  },
+  {
+   "name": "range-calendar-controlled-example",
+   "type": "page",
+   "title": "Range Calendar Controlled",
+   "description": "range-calendar-controlled-example",
+   "component": "date-range-picker",
+   "surface": null,
+   "dependencies": [
+    "@internationalized/date"
+   ],
+   "url": "https://intentui.com/r/range-calendar-controlled-example.json"
+  },
+  {
+   "name": "range-calendar-example",
+   "type": "page",
+   "title": "Range Calendar",
+   "description": "range-calendar-example",
+   "component": "date-range-picker",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/range-calendar-example.json"
+  },
+  {
+   "name": "range-calendar-uncontrolled-example",
+   "type": "page",
+   "title": "Range Calendar Uncontrolled",
+   "description": "range-calendar-uncontrolled-example",
+   "component": "date-range-picker",
+   "surface": null,
+   "dependencies": [
+    "@internationalized/date"
+   ],
+   "url": "https://intentui.com/r/range-calendar-uncontrolled-example.json"
+  },
+  {
+   "name": "scroll-area",
+   "type": "ui",
+   "title": "scroll-area",
+   "description": "scroll-area",
+   "component": "scroll-area",
+   "surface": null,
+   "dependencies": [
+    "cn"
+   ],
+   "url": "https://intentui.com/r/scroll-area.json"
+  },
+  {
+   "name": "scroll-area-example",
+   "type": "page",
+   "title": "Scroll Area",
+   "description": "scroll-area-example",
+   "component": "scroll-area",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/scroll-area-example.json"
+  },
+  {
+   "name": "scroll-area-fade-example",
+   "type": "page",
+   "title": "Scroll Area Fade",
+   "description": "scroll-area-fade-example",
+   "component": "scroll-area",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/scroll-area-fade-example.json"
+  },
+  {
+   "name": "scroll-area-horizontal-example",
+   "type": "page",
+   "title": "Scroll Area Horizontal",
+   "description": "scroll-area-horizontal-example",
+   "component": "scroll-area",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/scroll-area-horizontal-example.json"
+  },
+  {
+   "name": "scroll-area-vertical-example",
+   "type": "page",
+   "title": "Scroll Area Vertical",
+   "description": "scroll-area-vertical-example",
+   "component": "scroll-area",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/scroll-area-vertical-example.json"
+  },
+  {
+   "name": "search-field",
+   "type": "ui",
+   "title": "search-field",
+   "description": "search-field",
+   "component": "search-input",
+   "surface": "search-mobile",
+   "dependencies": [
+    "@heroicons/react",
+    "react-aria-components",
+    "cn"
+   ],
+   "url": "https://intentui.com/r/search-field.json"
+  },
+  {
+   "name": "search-field-controlled-example",
+   "type": "page",
+   "title": "Search Field Controlled",
+   "description": "search-field-controlled-example",
+   "component": "search-input",
+   "surface": "search-mobile",
+   "dependencies": [],
+   "url": "https://intentui.com/r/search-field-controlled-example.json"
+  },
+  {
+   "name": "search-field-description-example",
+   "type": "page",
+   "title": "Search Field Description",
+   "description": "search-field-description-example",
+   "component": "search-input",
+   "surface": "search-mobile",
+   "dependencies": [],
+   "url": "https://intentui.com/r/search-field-description-example.json"
+  },
+  {
+   "name": "search-field-disabled-example",
+   "type": "page",
+   "title": "Search Field Disabled",
+   "description": "search-field-disabled-example",
+   "component": "search-input",
+   "surface": "search-mobile",
+   "dependencies": [],
+   "url": "https://intentui.com/r/search-field-disabled-example.json"
+  },
+  {
+   "name": "search-field-example",
+   "type": "page",
+   "title": "Search Field",
+   "description": "search-field-example",
+   "component": "search-input",
+   "surface": "search-mobile",
+   "dependencies": [],
+   "url": "https://intentui.com/r/search-field-example.json"
+  },
+  {
+   "name": "search-field-readonly-example",
+   "type": "page",
+   "title": "Search Field Readonly",
+   "description": "search-field-readonly-example",
+   "component": "search-input",
+   "surface": "search-mobile",
+   "dependencies": [],
+   "url": "https://intentui.com/r/search-field-readonly-example.json"
+  },
+  {
+   "name": "search-field-uncontrolled-example",
+   "type": "page",
+   "title": "Search Field Uncontrolled",
+   "description": "search-field-uncontrolled-example",
+   "component": "search-input",
+   "surface": "search-mobile",
+   "dependencies": [],
+   "url": "https://intentui.com/r/search-field-uncontrolled-example.json"
+  },
+  {
+   "name": "search-field-validation-example",
+   "type": "page",
+   "title": "Search Field Validation",
+   "description": "search-field-validation-example",
+   "component": "search-input",
+   "surface": "search-mobile",
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/search-field-validation-example.json"
+  },
+  {
+   "name": "search-field-with-label-example",
+   "type": "page",
+   "title": "Search Field With Label",
+   "description": "search-field-with-label-example",
+   "component": "search-input",
+   "surface": "search-mobile",
+   "dependencies": [],
+   "url": "https://intentui.com/r/search-field-with-label-example.json"
+  },
+  {
+   "name": "select",
+   "type": "ui",
+   "title": "select",
+   "description": "select",
+   "component": "select",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react",
+    "react-aria-components",
+    "cn"
+   ],
+   "url": "https://intentui.com/r/select.json"
+  },
+  {
+   "name": "select-controlled-example",
+   "type": "page",
+   "title": "Select Controlled",
+   "description": "select-controlled-example",
+   "component": "select",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/select-controlled-example.json"
+  },
+  {
+   "name": "select-details-description-example",
+   "type": "page",
+   "title": "Select Details Description",
+   "description": "select-details-description-example",
+   "component": "select",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/select-details-description-example.json"
+  },
+  {
+   "name": "select-disabled-example",
+   "type": "page",
+   "title": "Select Disabled",
+   "description": "select-disabled-example",
+   "component": "select",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/select-disabled-example.json"
+  },
+  {
+   "name": "select-example",
+   "type": "page",
+   "title": "Select",
+   "description": "select-example",
+   "component": "select",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/select-example.json"
+  },
+  {
+   "name": "select-multiple-example",
+   "type": "page",
+   "title": "Select Multiple",
+   "description": "select-multiple-example",
+   "component": "select",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/select-multiple-example.json"
+  },
+  {
+   "name": "select-searchable-example",
+   "type": "page",
+   "title": "Select Searchable",
+   "description": "select-searchable-example",
+   "component": "select",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/select-searchable-example.json"
+  },
+  {
+   "name": "select-section-example",
+   "type": "page",
+   "title": "Select Section",
+   "description": "select-section-example",
+   "component": "select",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/select-section-example.json"
+  },
+  {
+   "name": "select-uncontrolled-example",
+   "type": "page",
+   "title": "Select Uncontrolled",
+   "description": "select-uncontrolled-example",
+   "component": "select",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/select-uncontrolled-example.json"
+  },
+  {
+   "name": "select-validation-example",
+   "type": "page",
+   "title": "Select Validation",
+   "description": "select-validation-example",
+   "component": "select",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/select-validation-example.json"
+  },
+  {
+   "name": "select-virtualizer-example",
+   "type": "page",
+   "title": "Select Virtualizer",
+   "description": "select-virtualizer-example",
+   "component": "select",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/select-virtualizer-example.json"
+  },
+  {
+   "name": "select-with-avatar-example",
+   "type": "page",
+   "title": "Select With Avatar",
+   "description": "select-with-avatar-example",
+   "component": "select",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/select-with-avatar-example.json"
+  },
+  {
+   "name": "select-with-icon-example",
+   "type": "page",
+   "title": "Select With Icon",
+   "description": "select-with-icon-example",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/select-with-icon-example.json"
+  },
+  {
+   "name": "separator",
+   "type": "ui",
+   "title": "separator",
+   "description": "separator",
+   "component": "separator",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components",
+    "cn"
+   ],
+   "url": "https://intentui.com/r/separator.json"
+  },
+  {
+   "name": "separator-example",
+   "type": "page",
+   "title": "Separator",
+   "description": "separator-example",
+   "component": "separator",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/separator-example.json"
+  },
+  {
+   "name": "separator-orientation-example",
+   "type": "page",
+   "title": "Separator Orientation",
+   "description": "separator-orientation-example",
+   "component": "separator",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/separator-orientation-example.json"
+  },
+  {
+   "name": "sheet",
+   "type": "ui",
+   "title": "sheet",
+   "description": "sheet",
+   "component": "sheet",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/sheet.json"
+  },
+  {
+   "name": "sheet-controlled-example",
+   "type": "page",
+   "title": "Sheet Controlled",
+   "description": "sheet-controlled-example",
+   "component": "sheet",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/sheet-controlled-example.json"
+  },
+  {
+   "name": "sheet-custom-close-example",
+   "type": "page",
+   "title": "Sheet Custom Close",
+   "description": "sheet-custom-close-example",
+   "component": "sheet",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/sheet-custom-close-example.json"
+  },
+  {
+   "name": "sheet-example",
+   "type": "page",
+   "title": "Sheet",
+   "description": "sheet-example",
+   "component": "sheet",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/sheet-example.json"
+  },
+  {
+   "name": "sheet-float-example",
+   "type": "page",
+   "title": "Sheet Float",
+   "description": "sheet-float-example",
+   "component": "sheet",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/sheet-float-example.json"
+  },
+  {
+   "name": "sheet-menu-example",
+   "type": "page",
+   "title": "Sheet Menu",
+   "description": "sheet-menu-example",
+   "component": "sheet",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react",
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/sheet-menu-example.json"
+  },
+  {
+   "name": "sheet-position-example",
+   "type": "page",
+   "title": "Sheet Position",
+   "description": "sheet-position-example",
+   "component": "sheet",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/sheet-position-example.json"
+  },
+  {
+   "name": "sheet-prevent-dismissal-example",
+   "type": "page",
+   "title": "Sheet Prevent Dismissal",
+   "description": "sheet-prevent-dismissal-example",
+   "component": "sheet",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/sheet-prevent-dismissal-example.json"
+  },
+  {
+   "name": "sheet-snap-points-example",
+   "type": "page",
+   "title": "Sheet Snap Points",
+   "description": "sheet-snap-points-example",
+   "component": "sheet",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/sheet-snap-points-example.json"
+  },
+  {
+   "name": "sheet-stacking-example",
+   "type": "page",
+   "title": "Sheet Stacking",
+   "description": "sheet-stacking-example",
+   "component": "sheet",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react"
+   ],
+   "url": "https://intentui.com/r/sheet-stacking-example.json"
+  },
+  {
+   "name": "sheet-sticky-example",
+   "type": "page",
+   "title": "Sheet Sticky",
+   "description": "sheet-sticky-example",
+   "component": "sheet",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/sheet-sticky-example.json"
+  },
+  {
+   "name": "show-more",
+   "type": "ui",
+   "title": "show-more",
+   "description": "show-more",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "react-aria-components",
+    "tailwind-variants"
+   ],
+   "url": "https://intentui.com/r/show-more.json"
+  },
+  {
+   "name": "show-more-as-text-example",
+   "type": "page",
+   "title": "Show More as Text",
+   "description": "show-more-as-text-example",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/show-more-as-text-example.json"
+  },
+  {
+   "name": "show-more-controlled-example",
+   "type": "page",
+   "title": "Show More Controlled",
+   "description": "show-more-controlled-example",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react"
+   ],
+   "url": "https://intentui.com/r/show-more-controlled-example.json"
+  },
+  {
+   "name": "show-more-example",
+   "type": "page",
+   "title": "Show More",
+   "description": "show-more-example",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react",
+    "cn"
+   ],
+   "url": "https://intentui.com/r/show-more-example.json"
+  },
+  {
+   "name": "show-more-orientation-example",
+   "type": "page",
+   "title": "Show More Orientation",
+   "description": "show-more-orientation-example",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/show-more-orientation-example.json"
+  },
+  {
+   "name": "sidebar",
+   "type": "ui",
+   "title": "sidebar",
+   "description": "sidebar",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react",
+    "react-aria-components",
+    "cn"
+   ],
+   "url": "https://intentui.com/r/sidebar.json"
+  },
+  {
+   "name": "sidebar-01",
+   "type": "block",
+   "title": "sidebar-01",
+   "description": "sidebar-01",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/sidebar-01.json"
+  },
+  {
+   "name": "sidebar-02",
+   "type": "block",
+   "title": "sidebar-02",
+   "description": "sidebar-02",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/sidebar-02.json"
+  },
+  {
+   "name": "sidebar-03",
+   "type": "block",
+   "title": "sidebar-03",
+   "description": "sidebar-03",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/sidebar-03.json"
+  },
+  {
+   "name": "sidebar-04",
+   "type": "block",
+   "title": "sidebar-04",
+   "description": "sidebar-04",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/sidebar-04.json"
+  },
+  {
+   "name": "sidebar-05",
+   "type": "block",
+   "title": "sidebar-05",
+   "description": "sidebar-05",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/sidebar-05.json"
+  },
+  {
+   "name": "sidebar-06",
+   "type": "block",
+   "title": "sidebar-06",
+   "description": "sidebar-06",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/sidebar-06.json"
+  },
+  {
+   "name": "sidebar-07",
+   "type": "block",
+   "title": "sidebar-07",
+   "description": "sidebar-07",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/sidebar-07.json"
+  },
+  {
+   "name": "sidebar-08",
+   "type": "block",
+   "title": "sidebar-08",
+   "description": "sidebar-08",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/sidebar-08.json"
+  },
+  {
+   "name": "sidebar-09",
+   "type": "block",
+   "title": "sidebar-09",
+   "description": "sidebar-09",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/sidebar-09.json"
+  },
+  {
+   "name": "sidebar-12",
+   "type": "block",
+   "title": "sidebar-12",
+   "description": "sidebar-12",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/sidebar-12.json"
+  },
+  {
+   "name": "sidebar-15",
+   "type": "block",
+   "title": "sidebar-15",
+   "description": "sidebar-15",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/sidebar-15.json"
+  },
+  {
+   "name": "sidebar-16",
+   "type": "block",
+   "title": "sidebar-16",
+   "description": "sidebar-16",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/sidebar-16.json"
+  },
+  {
+   "name": "sidebar-17",
+   "type": "block",
+   "title": "sidebar-17",
+   "description": "sidebar-17",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/sidebar-17.json"
+  },
+  {
+   "name": "sidebar-18",
+   "type": "block",
+   "title": "sidebar-18",
+   "description": "sidebar-18",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/sidebar-18.json"
+  },
+  {
+   "name": "sidebar-19",
+   "type": "block",
+   "title": "sidebar-19",
+   "description": "sidebar-19",
+   "component": "sidebar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/sidebar-19.json"
+  },
+  {
+   "name": "simple-pagination-example",
+   "type": "page",
+   "title": "Simple Pagination",
+   "description": "simple-pagination-example",
+   "component": "pagination",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/simple-pagination-example.json"
+  },
+  {
+   "name": "single-menu-example",
+   "type": "page",
+   "title": "Single Menu",
+   "description": "single-menu-example",
+   "component": "dropdown-menu",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/single-menu-example.json"
+  },
+  {
+   "name": "skeleton",
+   "type": "ui",
+   "title": "skeleton",
+   "description": "skeleton",
+   "component": "skeleton",
+   "surface": null,
+   "dependencies": [
+    "cn"
+   ],
+   "url": "https://intentui.com/r/skeleton.json"
+  },
+  {
+   "name": "skeleton-dynamic-content-example",
+   "type": "page",
+   "title": "Skeleton Dynamic Content",
+   "description": "skeleton-dynamic-content-example",
+   "component": "skeleton",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/skeleton-dynamic-content-example.json"
+  },
+  {
+   "name": "skeleton-example",
+   "type": "page",
+   "title": "Skeleton",
+   "description": "skeleton-example",
+   "component": "skeleton",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/skeleton-example.json"
+  },
+  {
+   "name": "slider",
+   "type": "ui",
+   "title": "slider",
+   "description": "slider",
+   "component": "slider",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components",
+    "cn"
+   ],
+   "url": "https://intentui.com/r/slider.json"
+  },
+  {
+   "name": "slider-controlled-example",
+   "type": "page",
+   "title": "Slider Controlled",
+   "description": "slider-controlled-example",
+   "component": "slider",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/slider-controlled-example.json"
+  },
+  {
+   "name": "slider-description-example",
+   "type": "page",
+   "title": "Slider Description",
+   "description": "slider-description-example",
+   "component": "slider",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/slider-description-example.json"
+  },
+  {
+   "name": "slider-disabled-example",
+   "type": "page",
+   "title": "Slider Disabled",
+   "description": "slider-disabled-example",
+   "component": "slider",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/slider-disabled-example.json"
+  },
+  {
+   "name": "slider-example",
+   "type": "page",
+   "title": "Slider",
+   "description": "slider-example",
+   "component": "slider",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/slider-example.json"
+  },
+  {
+   "name": "slider-orientation-example",
+   "type": "page",
+   "title": "Slider Orientation",
+   "description": "slider-orientation-example",
+   "component": "slider",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/slider-orientation-example.json"
+  },
+  {
+   "name": "slider-prefix-suffix-example",
+   "type": "page",
+   "title": "Slider Prefix Suffix",
+   "description": "slider-prefix-suffix-example",
+   "component": "slider",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react"
+   ],
+   "url": "https://intentui.com/r/slider-prefix-suffix-example.json"
+  },
+  {
+   "name": "slider-range-example",
+   "type": "page",
+   "title": "Slider Range",
+   "description": "slider-range-example",
+   "component": "slider",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/slider-range-example.json"
+  },
+  {
+   "name": "slider-step-example",
+   "type": "page",
+   "title": "Slider Step",
+   "description": "slider-step-example",
+   "component": "slider",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/slider-step-example.json"
+  },
+  {
+   "name": "snippet",
+   "type": "ui",
+   "title": "snippet",
+   "description": "snippet",
+   "component": "code-block",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/snippet.json"
+  },
+  {
+   "name": "snippet-example",
+   "type": "page",
+   "title": "Snippet",
+   "description": "snippet-example",
+   "component": "code-block",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/snippet-example.json"
+  },
+  {
+   "name": "switch",
+   "type": "ui",
+   "title": "switch",
+   "description": "switch",
+   "component": "switch",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components",
+    "cn"
+   ],
+   "url": "https://intentui.com/r/switch.json"
+  },
+  {
+   "name": "switch-controlled-example",
+   "type": "page",
+   "title": "Switch Controlled",
+   "description": "switch-controlled-example",
+   "component": "switch",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/switch-controlled-example.json"
+  },
+  {
+   "name": "switch-custom-layout-example",
+   "type": "page",
+   "title": "Switch Custom Layout",
+   "description": "switch-custom-layout-example",
+   "component": "switch",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/switch-custom-layout-example.json"
+  },
+  {
+   "name": "switch-description-example",
+   "type": "page",
+   "title": "Switch Description",
+   "description": "switch-description-example",
+   "component": "switch",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/switch-description-example.json"
+  },
+  {
+   "name": "switch-disabled-example",
+   "type": "page",
+   "title": "Switch Disabled",
+   "description": "switch-disabled-example",
+   "component": "switch",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/switch-disabled-example.json"
+  },
+  {
+   "name": "switch-example",
+   "type": "page",
+   "title": "Switch",
+   "description": "switch-example",
+   "component": "switch",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/switch-example.json"
+  },
+  {
+   "name": "switch-uncontrolled-example",
+   "type": "page",
+   "title": "Switch Uncontrolled",
+   "description": "switch-uncontrolled-example",
+   "component": "switch",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/switch-uncontrolled-example.json"
+  },
+  {
+   "name": "table",
+   "type": "ui",
+   "title": "table",
+   "description": "table",
+   "component": "table",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react",
+    "react-aria-components",
+    "cn"
+   ],
+   "url": "https://intentui.com/r/table.json"
+  },
+  {
+   "name": "table-bulk-example",
+   "type": "page",
+   "title": "Table Bulk",
+   "description": "table-bulk-example",
+   "component": "table",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/table-bulk-example.json"
+  },
+  {
+   "name": "table-drag-example",
+   "type": "page",
+   "title": "Table Drag",
+   "description": "table-drag-example",
+   "component": "table",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react",
+    "react-aria-components",
+    "react-stately"
+   ],
+   "url": "https://intentui.com/r/table-drag-example.json"
+  },
+  {
+   "name": "table-example",
+   "type": "page",
+   "title": "Table",
+   "description": "table-example",
+   "component": "table",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react",
+    "@internationalized/number"
+   ],
+   "url": "https://intentui.com/r/table-example.json"
+  },
+  {
+   "name": "table-expandable-example",
+   "type": "page",
+   "title": "Table Expandable",
+   "description": "table-expandable-example",
+   "component": "table",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react",
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/table-expandable-example.json"
+  },
+  {
+   "name": "table-infinite-scroll-example",
+   "type": "page",
+   "title": "Table Infinite Scroll",
+   "description": "table-infinite-scroll-example",
+   "component": "infinite-scroll",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components",
+    "react-stately"
+   ],
+   "url": "https://intentui.com/r/table-infinite-scroll-example.json"
+  },
+  {
+   "name": "table-resize-example",
+   "type": "page",
+   "title": "Table Resize",
+   "description": "table-resize-example",
+   "component": "table",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/table-resize-example.json"
+  },
+  {
+   "name": "table-sorting-example",
+   "type": "page",
+   "title": "Table Sorting",
+   "description": "table-sorting-example",
+   "component": "table",
+   "surface": null,
+   "dependencies": [
+    "@react-stately/data"
+   ],
+   "url": "https://intentui.com/r/table-sorting-example.json"
+  },
+  {
+   "name": "table-virtualizer-example",
+   "type": "page",
+   "title": "Table Virtualizer",
+   "description": "table-virtualizer-example",
+   "component": "table",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/table-virtualizer-example.json"
+  },
+  {
+   "name": "table-with-autocomplete-example",
+   "type": "page",
+   "title": "Table With Autocomplete",
+   "description": "table-with-autocomplete-example",
+   "component": "table",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react",
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/table-with-autocomplete-example.json"
+  },
+  {
+   "name": "tabs",
+   "type": "ui",
+   "title": "tabs",
+   "description": "tabs",
+   "component": "tabs",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components",
+    "cn"
+   ],
+   "url": "https://intentui.com/r/tabs.json"
+  },
+  {
+   "name": "tabs-disabled-example",
+   "type": "page",
+   "title": "Tabs Disabled",
+   "description": "tabs-disabled-example",
+   "component": "tabs",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/tabs-disabled-example.json"
+  },
+  {
+   "name": "tabs-example",
+   "type": "page",
+   "title": "Tabs",
+   "description": "tabs-example",
+   "component": "tabs",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/tabs-example.json"
+  },
+  {
+   "name": "tabs-icons-example",
+   "type": "page",
+   "title": "Tabs Icons",
+   "description": "tabs-icons-example",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react"
+   ],
+   "url": "https://intentui.com/r/tabs-icons-example.json"
+  },
+  {
+   "name": "tabs-link-example",
+   "type": "page",
+   "title": "Tabs Link",
+   "description": "tabs-link-example",
+   "component": "tabs",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/tabs-link-example.json"
+  },
+  {
+   "name": "tabs-orientation-example",
+   "type": "page",
+   "title": "Tabs Orientation",
+   "description": "tabs-orientation-example",
+   "component": "tabs",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/tabs-orientation-example.json"
+  },
+  {
+   "name": "tag-field",
+   "type": "ui",
+   "title": "tag-field",
+   "description": "tag-field",
+   "component": "tag",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components",
+    "cn"
+   ],
+   "url": "https://intentui.com/r/tag-field.json"
+  },
+  {
+   "name": "tag-field-controlled-example",
+   "type": "page",
+   "title": "Tag Field Controlled",
+   "description": "tag-field-controlled-example",
+   "component": "tag",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/tag-field-controlled-example.json"
+  },
+  {
+   "name": "tag-field-disabled-example",
+   "type": "page",
+   "title": "Tag Field Disabled",
+   "description": "tag-field-disabled-example",
+   "component": "tag",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/tag-field-disabled-example.json"
+  },
+  {
+   "name": "tag-field-example",
+   "type": "page",
+   "title": "Tag Field",
+   "description": "tag-field-example",
+   "component": "tag",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/tag-field-example.json"
+  },
+  {
+   "name": "tag-group",
+   "type": "ui",
+   "title": "tag-group",
+   "description": "tag-group",
+   "component": "tag",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react",
+    "react-aria-components",
+    "cn"
+   ],
+   "url": "https://intentui.com/r/tag-group.json"
+  },
+  {
+   "name": "tag-group-controlled-example",
+   "type": "page",
+   "title": "Tag Group Controlled",
+   "description": "tag-group-controlled-example",
+   "component": "tag",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/tag-group-controlled-example.json"
+  },
+  {
+   "name": "tag-group-disabled-example",
+   "type": "page",
+   "title": "Tag Group Disabled",
+   "description": "tag-group-disabled-example",
+   "component": "tag",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/tag-group-disabled-example.json"
+  },
+  {
+   "name": "tag-group-example",
+   "type": "page",
+   "title": "Tag Group",
+   "description": "tag-group-example",
+   "component": "tag",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/tag-group-example.json"
+  },
+  {
+   "name": "tag-group-href-example",
+   "type": "page",
+   "title": "Tag Group Href",
+   "description": "tag-group-href-example",
+   "component": "tag",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/tag-group-href-example.json"
+  },
+  {
+   "name": "tag-group-with-remove-example",
+   "type": "page",
+   "title": "Tag Group With Remove",
+   "description": "tag-group-with-remove-example",
+   "component": "tag",
+   "surface": null,
+   "dependencies": [
+    "react-stately"
+   ],
+   "url": "https://intentui.com/r/tag-group-with-remove-example.json"
+  },
+  {
+   "name": "text",
+   "type": "ui",
+   "title": "text",
+   "description": "text",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "cn",
+    "tailwind-variants"
+   ],
+   "url": "https://intentui.com/r/text.json"
+  },
+  {
+   "name": "text-basic-example",
+   "type": "page",
+   "title": "Text Basic",
+   "description": "text-basic-example",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/text-basic-example.json"
+  },
+  {
+   "name": "text-field",
+   "type": "ui",
+   "title": "text-field",
+   "description": "text-field",
+   "component": "text-input",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/text-field.json"
+  },
+  {
+   "name": "text-field-controlled-example",
+   "type": "page",
+   "title": "Text Field Controlled",
+   "description": "text-field-controlled-example",
+   "component": "text-input",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/text-field-controlled-example.json"
+  },
+  {
+   "name": "text-field-description-example",
+   "type": "page",
+   "title": "Text Field Description",
+   "description": "text-field-description-example",
+   "component": "text-input",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/text-field-description-example.json"
+  },
+  {
+   "name": "text-field-disabled-example",
+   "type": "page",
+   "title": "Text Field Disabled",
+   "description": "text-field-disabled-example",
+   "component": "text-input",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/text-field-disabled-example.json"
+  },
+  {
+   "name": "text-field-example",
+   "type": "page",
+   "title": "Text Field",
+   "description": "text-field-example",
+   "component": "text-input",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/text-field-example.json"
+  },
+  {
+   "name": "text-field-prefix-suffix-example",
+   "type": "page",
+   "title": "Text Field Prefix Suffix",
+   "description": "text-field-prefix-suffix-example",
+   "component": "text-input",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react"
+   ],
+   "url": "https://intentui.com/r/text-field-prefix-suffix-example.json"
+  },
+  {
+   "name": "text-field-readonly-example",
+   "type": "page",
+   "title": "Text Field Readonly",
+   "description": "text-field-readonly-example",
+   "component": "text-input",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/text-field-readonly-example.json"
+  },
+  {
+   "name": "text-field-revealable-example",
+   "type": "page",
+   "title": "Text Field Revealable",
+   "description": "text-field-revealable-example",
+   "component": "text-input",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react"
+   ],
+   "url": "https://intentui.com/r/text-field-revealable-example.json"
+  },
+  {
+   "name": "text-field-suffix-button-example",
+   "type": "page",
+   "title": "Text Field Suffix Button",
+   "description": "text-field-suffix-button-example",
+   "component": "text-input",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react"
+   ],
+   "url": "https://intentui.com/r/text-field-suffix-button-example.json"
+  },
+  {
+   "name": "text-field-uncontrolled-example",
+   "type": "page",
+   "title": "Text Field Uncontrolled",
+   "description": "text-field-uncontrolled-example",
+   "component": "text-input",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/text-field-uncontrolled-example.json"
+  },
+  {
+   "name": "text-field-validation-example",
+   "type": "page",
+   "title": "Text Field Validation",
+   "description": "text-field-validation-example",
+   "component": "text-input",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/text-field-validation-example.json"
+  },
+  {
+   "name": "text-link-example",
+   "type": "page",
+   "title": "Text Link",
+   "description": "text-link-example",
+   "component": "link",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/text-link-example.json"
+  },
+  {
+   "name": "textarea",
+   "type": "ui",
+   "title": "textarea",
+   "description": "textarea",
+   "component": "textarea",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/textarea.json"
+  },
+  {
+   "name": "textarea-autocomplete-example",
+   "type": "page",
+   "title": "Textarea Autocomplete",
+   "description": "textarea-autocomplete-example",
+   "component": "textarea",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components",
+    "textarea-caret"
+   ],
+   "url": "https://intentui.com/r/textarea-autocomplete-example.json"
+  },
+  {
+   "name": "textarea-controlled-example",
+   "type": "page",
+   "title": "Textarea Controlled",
+   "description": "textarea-controlled-example",
+   "component": "textarea",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/textarea-controlled-example.json"
+  },
+  {
+   "name": "textarea-description-example",
+   "type": "page",
+   "title": "Textarea Description",
+   "description": "textarea-description-example",
+   "component": "textarea",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/textarea-description-example.json"
+  },
+  {
+   "name": "textarea-disabled-example",
+   "type": "page",
+   "title": "Textarea Disabled",
+   "description": "textarea-disabled-example",
+   "component": "textarea",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/textarea-disabled-example.json"
+  },
+  {
+   "name": "textarea-example",
+   "type": "page",
+   "title": "Textarea",
+   "description": "textarea-example",
+   "component": "textarea",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/textarea-example.json"
+  },
+  {
+   "name": "textarea-readonly-example",
+   "type": "page",
+   "title": "Textarea Readonly",
+   "description": "textarea-readonly-example",
+   "component": "textarea",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/textarea-readonly-example.json"
+  },
+  {
+   "name": "textarea-uncontrolled-example",
+   "type": "page",
+   "title": "Textarea Uncontrolled",
+   "description": "textarea-uncontrolled-example",
+   "component": "textarea",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/textarea-uncontrolled-example.json"
+  },
+  {
+   "name": "textarea-validation-example",
+   "type": "page",
+   "title": "Textarea Validation",
+   "description": "textarea-validation-example",
+   "component": "textarea",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/textarea-validation-example.json"
+  },
+  {
+   "name": "time-field",
+   "type": "ui",
+   "title": "time-field",
+   "description": "time-field",
+   "component": "time-picker",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/time-field.json"
+  },
+  {
+   "name": "time-field-controlled-example",
+   "type": "page",
+   "title": "Time Field Controlled",
+   "description": "time-field-controlled-example",
+   "component": "time-picker",
+   "surface": null,
+   "dependencies": [
+    "@internationalized/date"
+   ],
+   "url": "https://intentui.com/r/time-field-controlled-example.json"
+  },
+  {
+   "name": "time-field-disabled-example",
+   "type": "page",
+   "title": "Time Field Disabled",
+   "description": "time-field-disabled-example",
+   "component": "time-picker",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/time-field-disabled-example.json"
+  },
+  {
+   "name": "time-field-example",
+   "type": "page",
+   "title": "Time Field",
+   "description": "time-field-example",
+   "component": "time-picker",
+   "surface": null,
+   "dependencies": [
+    "@internationalized/date"
+   ],
+   "url": "https://intentui.com/r/time-field-example.json"
+  },
+  {
+   "name": "time-field-hc-example",
+   "type": "page",
+   "title": "Time Field Hc",
+   "description": "time-field-hc-example",
+   "component": "time-picker",
+   "surface": null,
+   "dependencies": [
+    "@internationalized/date"
+   ],
+   "url": "https://intentui.com/r/time-field-hc-example.json"
+  },
+  {
+   "name": "time-field-readonly-example",
+   "type": "page",
+   "title": "Time Field Readonly",
+   "description": "time-field-readonly-example",
+   "component": "time-picker",
+   "surface": null,
+   "dependencies": [
+    "@internationalized/date"
+   ],
+   "url": "https://intentui.com/r/time-field-readonly-example.json"
+  },
+  {
+   "name": "time-field-validation-example",
+   "type": "page",
+   "title": "Time Field Validation",
+   "description": "time-field-validation-example",
+   "component": "time-picker",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/time-field-validation-example.json"
+  },
+  {
+   "name": "toast",
+   "type": "ui",
+   "title": "toast",
+   "description": "toast",
+   "component": "toast",
+   "surface": null,
+   "dependencies": [
+    "sonner",
+    "cn"
+   ],
+   "url": "https://intentui.com/r/toast.json"
+  },
+  {
+   "name": "toast-action-example",
+   "type": "page",
+   "title": "Toast Action",
+   "description": "toast-action-example",
+   "component": "toast",
+   "surface": null,
+   "dependencies": [
+    "sonner"
+   ],
+   "url": "https://intentui.com/r/toast-action-example.json"
+  },
+  {
+   "name": "toast-description-example",
+   "type": "page",
+   "title": "Toast Description",
+   "description": "toast-description-example",
+   "component": "toast",
+   "surface": null,
+   "dependencies": [
+    "sonner"
+   ],
+   "url": "https://intentui.com/r/toast-description-example.json"
+  },
+  {
+   "name": "toast-example",
+   "type": "page",
+   "title": "Toast",
+   "description": "toast-example",
+   "component": "toast",
+   "surface": null,
+   "dependencies": [
+    "sonner"
+   ],
+   "url": "https://intentui.com/r/toast-example.json"
+  },
+  {
+   "name": "toast-positions-example",
+   "type": "page",
+   "title": "Toast Positions",
+   "description": "toast-positions-example",
+   "component": "toast",
+   "surface": null,
+   "dependencies": [
+    "sonner"
+   ],
+   "url": "https://intentui.com/r/toast-positions-example.json"
+  },
+  {
+   "name": "toast-promise-example",
+   "type": "page",
+   "title": "Toast Promise",
+   "description": "toast-promise-example",
+   "component": "toast",
+   "surface": null,
+   "dependencies": [
+    "sonner"
+   ],
+   "url": "https://intentui.com/r/toast-promise-example.json"
+  },
+  {
+   "name": "toast-status-example",
+   "type": "page",
+   "title": "Toast Status",
+   "description": "toast-status-example",
+   "component": "toast",
+   "surface": "status",
+   "dependencies": [
+    "sonner"
+   ],
+   "url": "https://intentui.com/r/toast-status-example.json"
+  },
+  {
+   "name": "toggle",
+   "type": "ui",
+   "title": "toggle",
+   "description": "toggle",
+   "component": "toggle-button",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components",
+    "cn",
+    "tailwind-variants"
+   ],
+   "url": "https://intentui.com/r/toggle.json"
+  },
+  {
+   "name": "toggle-controlled-example",
+   "type": "page",
+   "title": "Toggle Controlled",
+   "description": "toggle-controlled-example",
+   "component": "toggle-button",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/toggle-controlled-example.json"
+  },
+  {
+   "name": "toggle-disabled-example",
+   "type": "page",
+   "title": "Toggle Disabled",
+   "description": "toggle-disabled-example",
+   "component": "toggle-button",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/toggle-disabled-example.json"
+  },
+  {
+   "name": "toggle-example",
+   "type": "page",
+   "title": "Toggle",
+   "description": "toggle-example",
+   "component": "toggle-button",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/toggle-example.json"
+  },
+  {
+   "name": "toggle-group",
+   "type": "ui",
+   "title": "toggle-group",
+   "description": "toggle-group",
+   "component": "toggle-group",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components",
+    "cn",
+    "tailwind-variants"
+   ],
+   "url": "https://intentui.com/r/toggle-group.json"
+  },
+  {
+   "name": "toggle-group-controlled-example",
+   "type": "page",
+   "title": "Toggle Group Controlled",
+   "description": "toggle-group-controlled-example",
+   "component": "toggle-group",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/toggle-group-controlled-example.json"
+  },
+  {
+   "name": "toggle-group-disabled-example",
+   "type": "page",
+   "title": "Toggle Group Disabled",
+   "description": "toggle-group-disabled-example",
+   "component": "toggle-group",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/toggle-group-disabled-example.json"
+  },
+  {
+   "name": "toggle-group-example",
+   "type": "page",
+   "title": "Toggle Group",
+   "description": "toggle-group-example",
+   "component": "toggle-group",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/toggle-group-example.json"
+  },
+  {
+   "name": "toggle-group-orientation-example",
+   "type": "page",
+   "title": "Toggle Group Orientation",
+   "description": "toggle-group-orientation-example",
+   "component": "toggle-group",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react"
+   ],
+   "url": "https://intentui.com/r/toggle-group-orientation-example.json"
+  },
+  {
+   "name": "toggle-group-selection-example",
+   "type": "page",
+   "title": "Toggle Group Selection",
+   "description": "toggle-group-selection-example",
+   "component": "toggle-group",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/toggle-group-selection-example.json"
+  },
+  {
+   "name": "toggle-group-size-example",
+   "type": "page",
+   "title": "Toggle Group Size",
+   "description": "toggle-group-size-example",
+   "component": "toggle-group",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/toggle-group-size-example.json"
+  },
+  {
+   "name": "toggle-group-square-size-example",
+   "type": "page",
+   "title": "Toggle Group Square Size",
+   "description": "toggle-group-square-size-example",
+   "component": "toggle-group",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react"
+   ],
+   "url": "https://intentui.com/r/toggle-group-square-size-example.json"
+  },
+  {
+   "name": "toggle-intent-example",
+   "type": "page",
+   "title": "Toggle Intent",
+   "description": "toggle-intent-example",
+   "component": "toggle-button",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/toggle-intent-example.json"
+  },
+  {
+   "name": "toggle-shape-example",
+   "type": "page",
+   "title": "Toggle Shape",
+   "description": "toggle-shape-example",
+   "component": "toggle-button",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/toggle-shape-example.json"
+  },
+  {
+   "name": "toggle-size-example",
+   "type": "page",
+   "title": "Toggle Size",
+   "description": "toggle-size-example",
+   "component": "toggle-button",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react"
+   ],
+   "url": "https://intentui.com/r/toggle-size-example.json"
+  },
+  {
+   "name": "toolbar",
+   "type": "ui",
+   "title": "toolbar",
+   "description": "toolbar",
+   "component": "toolbar",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components",
+    "cn"
+   ],
+   "url": "https://intentui.com/r/toolbar.json"
+  },
+  {
+   "name": "toolbar-disabled-example",
+   "type": "page",
+   "title": "Toolbar Disabled",
+   "description": "toolbar-disabled-example",
+   "component": "toolbar",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react"
+   ],
+   "url": "https://intentui.com/r/toolbar-disabled-example.json"
+  },
+  {
+   "name": "toolbar-example",
+   "type": "page",
+   "title": "Toolbar",
+   "description": "toolbar-example",
+   "component": "toolbar",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react"
+   ],
+   "url": "https://intentui.com/r/toolbar-example.json"
+  },
+  {
+   "name": "toolbar-orientation-example",
+   "type": "page",
+   "title": "Toolbar Orientation",
+   "description": "toolbar-orientation-example",
+   "component": "toolbar",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react"
+   ],
+   "url": "https://intentui.com/r/toolbar-orientation-example.json"
+  },
+  {
+   "name": "tooltip",
+   "type": "ui",
+   "title": "tooltip",
+   "description": "tooltip",
+   "component": "tooltip",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components",
+    "cn",
+    "tailwind-variants"
+   ],
+   "url": "https://intentui.com/r/tooltip.json"
+  },
+  {
+   "name": "tooltip-delay-example",
+   "type": "page",
+   "title": "Tooltip Delay",
+   "description": "tooltip-delay-example",
+   "component": "tooltip",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/tooltip-delay-example.json"
+  },
+  {
+   "name": "tooltip-example",
+   "type": "page",
+   "title": "Tooltip",
+   "description": "tooltip-example",
+   "component": "tooltip",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/tooltip-example.json"
+  },
+  {
+   "name": "tooltip-intent-example",
+   "type": "page",
+   "title": "Tooltip Intent",
+   "description": "tooltip-intent-example",
+   "component": "tooltip",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react"
+   ],
+   "url": "https://intentui.com/r/tooltip-intent-example.json"
+  },
+  {
+   "name": "tooltip-placement-example",
+   "type": "page",
+   "title": "Tooltip Placement",
+   "description": "tooltip-placement-example",
+   "component": "tooltip",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/tooltip-placement-example.json"
+  },
+  {
+   "name": "tooltip-without-arrow-example",
+   "type": "page",
+   "title": "Tooltip Without Arrow",
+   "description": "tooltip-without-arrow-example",
+   "component": "tooltip",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/tooltip-without-arrow-example.json"
+  },
+  {
+   "name": "tracker",
+   "type": "ui",
+   "title": "tracker",
+   "description": "tracker",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "react-aria-components",
+    "cn"
+   ],
+   "url": "https://intentui.com/r/tracker.json"
+  },
+  {
+   "name": "tracker-example",
+   "type": "page",
+   "title": "Tracker",
+   "description": "tracker-example",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/tracker-example.json"
+  },
+  {
+   "name": "tracker-without-tooltip-example",
+   "type": "page",
+   "title": "Tracker Without Tooltip",
+   "description": "tracker-without-tooltip-example",
+   "component": "tooltip",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/tracker-without-tooltip-example.json"
+  },
+  {
+   "name": "tree",
+   "type": "ui",
+   "title": "tree",
+   "description": "tree",
+   "component": "tree-view",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react",
+    "react-aria-components",
+    "cn"
+   ],
+   "url": "https://intentui.com/r/tree.json"
+  },
+  {
+   "name": "tree-drag-example",
+   "type": "page",
+   "title": "Tree Drag",
+   "description": "tree-drag-example",
+   "component": "tree-view",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react",
+    "@react-stately/data",
+    "react-aria-components"
+   ],
+   "url": "https://intentui.com/r/tree-drag-example.json"
+  },
+  {
+   "name": "tree-example",
+   "type": "page",
+   "title": "Tree",
+   "description": "tree-example",
+   "component": "tree-view",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/tree-example.json"
+  },
+  {
+   "name": "tree-folder-example",
+   "type": "page",
+   "title": "Tree Folder",
+   "description": "tree-folder-example",
+   "component": "tree-view",
+   "surface": null,
+   "dependencies": [
+    "@heroicons/react"
+   ],
+   "url": "https://intentui.com/r/tree-folder-example.json"
+  },
+  {
+   "name": "tree-infinite-scroll-example",
+   "type": "page",
+   "title": "Tree Infinite Scroll",
+   "description": "tree-infinite-scroll-example",
+   "component": "infinite-scroll",
+   "surface": null,
+   "dependencies": [
+    "react-aria-components",
+    "react-stately"
+   ],
+   "url": "https://intentui.com/r/tree-infinite-scroll-example.json"
+  },
+  {
+   "name": "tree-multiple-example",
+   "type": "page",
+   "title": "Tree Multiple",
+   "description": "tree-multiple-example",
+   "component": "tree-view",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://intentui.com/r/tree-multiple-example.json"
+  }
+ ]
+}

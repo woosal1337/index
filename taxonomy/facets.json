@@ -5,6 +5,8 @@
     "combination": "Every facet is filterable together with every other facet (AND across facets, OR inside one multi facet). Depo exposes one tag at a time and cannot answer 'Design + Free + MIT'. This index must answer that.",
     "closed_vocabulary": "These value lists are closed. A scraper must map an observed string onto a slug through the alias list, or write the record as `unknown` and add the raw string to a review queue. Never create a value at write time. That rule is what stops the Depo drift (`No-code` vs `No Code`, `Guide` vs `Guides`, `E-commerce` vs `Commerce`).",
     "unknown_is_a_value": "`unknown` means we did not verify it yet. `not-applicable` means the axis does not apply to this kind of record (a font has no framework; an X article has no license). Keep the two apart, because `unknown` is a work queue and `not-applicable` is not.",
+    "not_applicable_in": "A facet can list the categories where it never applies. In those categories the validator rejects a bare `unknown`, and `npm run validate -- --fix` writes `not-applicable`. Search does not filter those records out on that facet.",
+    "accepts": "A value can list the record values a project with that value can use. A Next.js project accepts React and framework-agnostic code. Search treats a filter as met when the record carries any accepted value.",
     "alias_matching": "Match aliases case-insensitively after you trim, lowercase, and replace spaces, dots, and underscores with hyphens.",
     "versioning": "This file is semver-adjacent: add values in a minor bump, rename or remove values only in a major bump, and never re-use a retired slug."
   },
@@ -13,12 +15,14 @@
       "slug": "framework",
       "name": "Framework",
       "multi": true,
+      "not_applicable_in": ["portfolios", "studios", "artists-creators", "essays-guides-courses", "inspiration-galleries", "typography"],
       "description": "The UI framework or runtime the resource produces code for, or runs inside. One record can carry several values when the library really ships adapters for each (Canvas UI ships React, Solid, Preact, Vue, Svelte, and vanilla builds). Do not add a value from a marketing claim alone; add it when there is an install path or a code sample for that framework.",
       "agent_hint": "This is the hardest constraint an agent has. An agent writing a Next.js App Router page cannot use a Vue library, and a wrong match wastes a whole generation. Filter on framework first, then on style. For a record with `not-applicable` (a gallery, a font, an article), framework must never exclude it from a non-code query.",
       "values": [
         {
           "slug": "react",
           "name": "React",
+          "accepts": ["react", "vanilla", "web-components"],
           "aliases": [
             "reactjs",
             "react.js",
@@ -34,6 +38,7 @@
         {
           "slug": "next",
           "name": "Next.js",
+          "accepts": ["next", "react", "vanilla", "web-components"],
           "aliases": [
             "nextjs",
             "next.js",
@@ -47,6 +52,7 @@
         {
           "slug": "remix",
           "name": "Remix",
+          "accepts": ["remix", "react", "vanilla", "web-components"],
           "aliases": [
             "remix-run",
             "react-router-7",
@@ -56,6 +62,7 @@
         {
           "slug": "vue",
           "name": "Vue",
+          "accepts": ["vue", "vanilla", "web-components"],
           "aliases": [
             "vuejs",
             "vue.js",
@@ -67,6 +74,7 @@
         {
           "slug": "nuxt",
           "name": "Nuxt",
+          "accepts": ["nuxt", "vue", "vanilla", "web-components"],
           "aliases": [
             "nuxtjs",
             "nuxt.js",
@@ -77,6 +85,7 @@
         {
           "slug": "svelte",
           "name": "Svelte",
+          "accepts": ["svelte", "vanilla", "web-components"],
           "aliases": [
             "sveltejs",
             "svelte-5",
@@ -87,6 +96,7 @@
         {
           "slug": "sveltekit",
           "name": "SvelteKit",
+          "accepts": ["sveltekit", "svelte", "vanilla", "web-components"],
           "aliases": [
             "svelte-kit",
             "svelte kit"
@@ -95,6 +105,7 @@
         {
           "slug": "solid",
           "name": "Solid",
+          "accepts": ["solid", "vanilla", "web-components"],
           "aliases": [
             "solidjs",
             "solid.js",
@@ -106,6 +117,7 @@
         {
           "slug": "preact",
           "name": "Preact",
+          "accepts": ["preact", "vanilla", "web-components"],
           "aliases": [
             "preactjs"
           ]
@@ -113,6 +125,7 @@
         {
           "slug": "angular",
           "name": "Angular",
+          "accepts": ["angular", "vanilla", "web-components"],
           "aliases": [
             "angularjs",
             "angular-2",
@@ -124,6 +137,7 @@
         {
           "slug": "astro",
           "name": "Astro",
+          "accepts": ["astro", "react", "vue", "svelte", "solid", "preact", "vanilla", "web-components"],
           "aliases": [
             "astrojs",
             "astro.build",
@@ -134,6 +148,7 @@
         {
           "slug": "qwik",
           "name": "Qwik",
+          "accepts": ["qwik", "vanilla", "web-components"],
           "aliases": [
             "qwikjs",
             "qwik-city",
@@ -294,12 +309,14 @@
       "slug": "styling",
       "name": "Styling",
       "multi": true,
+      "not_applicable_in": ["portfolios", "studios", "artists-creators", "essays-guides-courses", "inspiration-galleries", "typography"],
       "description": "How the resource applies style. Tailwind is split by major version on purpose: v3 uses `tailwind.config.js` and the `theme.extend` object, v4 uses CSS-first `@theme` and `@import \"tailwindcss\"`. A v4 component pasted into a v3 project fails on the token layer, so one 'tailwind' value would be a lie. Use `tailwind-any` only when the version is truly not stated.",
       "agent_hint": "Tells the agent whether the snippet will compile in the caller's repo and whether it must translate tokens. An agent that already read the project's `globals.css` can pin `tailwind-v4` and reject every v3-only registry item before it wastes a generation. `css-in-js` also flags a runtime dependency that a React Server Component cannot use.",
       "values": [
         {
           "slug": "tailwind-v4",
           "name": "Tailwind CSS v4",
+          "accepts": ["tailwind-v4", "tailwind-any"],
           "aliases": [
             "tailwind-4",
             "tailwindcss-v4",
@@ -312,6 +329,7 @@
         {
           "slug": "tailwind-v3",
           "name": "Tailwind CSS v3",
+          "accepts": ["tailwind-v3", "tailwind-any"],
           "aliases": [
             "tailwind-3",
             "tailwindcss-v3",
@@ -323,6 +341,7 @@
         {
           "slug": "tailwind-any",
           "name": "Tailwind CSS (version unstated)",
+          "accepts": ["tailwind-any", "tailwind-v4", "tailwind-v3"],
           "aliases": [
             "tailwind",
             "tailwindcss",
@@ -470,6 +489,7 @@
       "slug": "license",
       "name": "License",
       "multi": true,
+      "not_applicable_in": ["portfolios", "studios", "artists-creators", "essays-guides-courses"],
       "description": "The legal terms for re-use of the artifact itself: code, font, image, or template. Multi-valued, because dual licensing is normal in this corpus — a free open-source core with a paid commercial tier (ReUI, shadcncraft, HeroUI Pro) carries both `mit` and `commercial`. `no-license` is a real and different answer from `unknown`: a public GitHub repo with no LICENSE file is all-rights-reserved by default, and an agent must not copy it into a product.",
       "agent_hint": "The first question before code enters a product repo. An agent asked to keep a project MIT-compatible must exclude `gpl`, `agpl`, `no-license`, and `free-for-personal`. Font records need this most: a display face that is free for personal use only will fail a commercial launch, and no other design directory records it at all.",
       "values": [
@@ -694,12 +714,14 @@
       "slug": "pricing",
       "name": "Pricing",
       "multi": true,
+      "not_applicable_in": ["portfolios", "artists-creators"],
       "description": "What access costs, from the point of view of a person who wants to use it today. Multi-valued, because real products stack models: a free tier plus a monthly plan is `freemium` + `subscription`; an open-source library with a paid pro pack is `open-source` + `one-time`. Keep this separate from `license`: open-source can still be sold, and free can still be proprietary.",
       "agent_hint": "Lets an agent respect a budget constraint in the prompt ('only free and open-source'), and lets it warn before it recommends something behind a paywall or a login. Depo carries no pricing field at all, so its 'Copy prompt' can send an agent to a $30/month product with no signal.",
       "values": [
         {
           "slug": "free",
           "name": "Free",
+          "accepts": ["free", "open-source", "freemium", "sponsor-supported"],
           "aliases": [
             "100-free",
             "no-cost",
@@ -1084,6 +1106,7 @@
         {
           "slug": "web",
           "name": "Web",
+          "accepts": ["web", "cross-platform", "platform-agnostic"],
           "aliases": [
             "browser",
             "website",
@@ -1096,6 +1119,7 @@
         {
           "slug": "ios",
           "name": "iOS",
+          "accepts": ["ios", "cross-platform", "platform-agnostic"],
           "aliases": [
             "iphone",
             "ipad",
@@ -1108,6 +1132,7 @@
         {
           "slug": "android",
           "name": "Android",
+          "accepts": ["android", "cross-platform", "platform-agnostic"],
           "aliases": [
             "google-play",
             "material-you",
@@ -1117,6 +1142,7 @@
         {
           "slug": "macos",
           "name": "macOS",
+          "accepts": ["macos", "cross-platform", "platform-agnostic"],
           "aliases": [
             "mac",
             "osx",
@@ -1127,6 +1153,7 @@
         {
           "slug": "windows",
           "name": "Windows",
+          "accepts": ["windows", "cross-platform", "platform-agnostic"],
           "aliases": [
             "win32",
             "microsoft-windows",
@@ -1136,6 +1163,7 @@
         {
           "slug": "linux",
           "name": "Linux",
+          "accepts": ["linux", "cross-platform", "platform-agnostic"],
           "aliases": [
             "gnome",
             "kde",
@@ -1232,6 +1260,7 @@
       "slug": "accessibility",
       "name": "Accessibility",
       "multi": true,
+      "not_applicable_in": ["portfolios", "studios", "artists-creators", "essays-guides-courses", "inspiration-galleries"],
       "description": "Verified accessibility properties of the resource, not its marketing words. Record a value only from evidence: a stated conformance level, a documented ARIA pattern, an underlying accessible primitive (React Aria, Radix, Base UI), a published audit, or our own check. `claimed-accessible` exists for the very common case of a page that says 'accessible' with nothing behind it — that claim is data, but it is weaker data, and it must not be stored as `wcag-aa`.",
       "agent_hint": "Accessibility is what agents drop first and what a review catches last. When the caller asks for accessible output, the index must return components that already carry keyboard, focus, and ARIA behavior rather than a pretty div. It also supports the states-and-seams query: which records document focus, reduced motion, and RTL, and not only the default state.",
       "values": [

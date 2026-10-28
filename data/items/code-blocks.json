@@ -1,0 +1,185 @@
+{
+ "resource_id": "depo:j5743hm4qqwnj1wf73b99s4gdx813xbb",
+ "registry_url": "https://code-blocks.pheralb.dev/r/registry.json",
+ "install_verified": true,
+ "checked": "2026-10-23",
+ "items": [
+  {
+   "name": "block-copy-text-morph",
+   "type": "block",
+   "title": "Blocks - Copy + Text Morph",
+   "description": null,
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://code-blocks.pheralb.dev/r/block-copy-text-morph.json"
+  },
+  {
+   "name": "block-inline-code",
+   "type": "block",
+   "title": "Blocks - Inline Code",
+   "description": null,
+   "component": "code-block",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://code-blocks.pheralb.dev/r/block-inline-code.json"
+  },
+  {
+   "name": "block-multi-tabs",
+   "type": "block",
+   "title": "Blocks - Multi Tabs",
+   "description": null,
+   "component": "tabs",
+   "surface": null,
+   "dependencies": [
+    "@react-symbols/icons"
+   ],
+   "url": "https://code-blocks.pheralb.dev/r/block-multi-tabs.json"
+  },
+  {
+   "name": "block-select-package-manager",
+   "type": "block",
+   "title": "Blocks - Select Package Manager",
+   "description": null,
+   "component": "select",
+   "surface": null,
+   "dependencies": [
+    "@react-symbols/icons"
+   ],
+   "url": "https://code-blocks.pheralb.dev/r/block-select-package-manager.json"
+  },
+  {
+   "name": "block-tabs-package-manager",
+   "type": "block",
+   "title": "Blocks - Tabs Package Manager",
+   "description": null,
+   "component": "tabs",
+   "surface": null,
+   "dependencies": [
+    "@react-symbols/icons"
+   ],
+   "url": "https://code-blocks.pheralb.dev/r/block-tabs-package-manager.json"
+  },
+  {
+   "name": "client-prismjs",
+   "type": "component",
+   "title": "Code Block - Client Prismjs",
+   "description": null,
+   "component": "code-block",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://code-blocks.pheralb.dev/r/client-prismjs.json"
+  },
+  {
+   "name": "client-prismjs-line-numbers",
+   "type": "component",
+   "title": "Code Block - Client Prismjs + Line Numbers",
+   "description": null,
+   "component": "code-block",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://code-blocks.pheralb.dev/r/client-prismjs-line-numbers.json"
+  },
+  {
+   "name": "client-shiki",
+   "type": "component",
+   "title": "Code Block - Client Shiki",
+   "description": null,
+   "component": "code-block",
+   "surface": null,
+   "dependencies": [
+    "shiki"
+   ],
+   "url": "https://code-blocks.pheralb.dev/r/client-shiki.json"
+  },
+  {
+   "name": "client-sugar-high",
+   "type": "component",
+   "title": "Code Block - Client Sugar High",
+   "description": null,
+   "component": "code-block",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://code-blocks.pheralb.dev/r/client-sugar-high.json"
+  },
+  {
+   "name": "client-sugar-high-line-numbers",
+   "type": "component",
+   "title": "Code Block - Client Sugar High + Line Numbers",
+   "description": null,
+   "component": "code-block",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://code-blocks.pheralb.dev/r/client-sugar-high-line-numbers.json"
+  },
+  {
+   "name": "code-block",
+   "type": "component",
+   "title": "Code Block - Structure",
+   "description": null,
+   "component": "code-block",
+   "surface": null,
+   "dependencies": [
+    "lucide-react",
+    "@react-symbols/icons"
+   ],
+   "url": "https://code-blocks.pheralb.dev/r/code-block.json"
+  },
+  {
+   "name": "copy-button",
+   "type": "component",
+   "title": "Copy Button",
+   "description": null,
+   "component": "copy-button",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://code-blocks.pheralb.dev/r/copy-button.json"
+  },
+  {
+   "name": "mdx-prismjs",
+   "type": "component",
+   "title": "Code Block - MDX Prismjs",
+   "description": null,
+   "component": "code-block",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://code-blocks.pheralb.dev/r/mdx-prismjs.json"
+  },
+  {
+   "name": "mdx-shiki",
+   "type": "component",
+   "title": "Code Block - MDX Shiki",
+   "description": null,
+   "component": "code-block",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://code-blocks.pheralb.dev/r/mdx-shiki.json"
+  },
+  {
+   "name": "mdx-sugar-high",
+   "type": "component",
+   "title": "Code Block - MDX Sugar High",
+   "description": null,
+   "component": "code-block",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://code-blocks.pheralb.dev/r/mdx-sugar-high.json"
+  },
+  {
+   "name": "text-morph",
+   "type": "ui",
+   "title": "Text Morph",
+   "description": null,
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://code-blocks.pheralb.dev/r/text-morph.json"
+  }
+ ]
+}

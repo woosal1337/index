@@ -1,0 +1,84 @@
+{
+ "resource_id": "b019cb67-9e4c-468d-9df9-8da6e9b69bef",
+ "registry_url": "https://nuqs.dev/r/registry.json",
+ "install_verified": true,
+ "checked": "2026-10-23",
+ "items": [
+  {
+   "name": "adapter-inertia",
+   "type": "item",
+   "title": "Inertia.js Adapter",
+   "description": "Using nuqs in Inertia.js apps (eg: with a Laravel backend)",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "nuqs"
+   ],
+   "url": "https://nuqs.dev/r/adapter-inertia.json"
+  },
+  {
+   "name": "adapter-onejs",
+   "type": "item",
+   "title": "One.js Adapter",
+   "description": "Using nuqs in One.js applications.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "one",
+    "nuqs"
+   ],
+   "url": "https://nuqs.dev/r/adapter-onejs.json"
+  },
+  {
+   "name": "adapter-react-router-v5",
+   "type": "item",
+   "title": "React Router v5 Adapter",
+   "description": "Using nuqs in React Router v5 applications.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "react-router-dom@^5",
+    "nuqs"
+   ],
+   "url": "https://nuqs.dev/r/adapter-react-router-v5.json"
+  },
+  {
+   "name": "adapter-waku",
+   "type": "item",
+   "title": "Waku Adapter",
+   "description": "Using nuqs in ⛩️ Waku applications.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "waku@>=0.22.0",
+    "nuqs"
+   ],
+   "url": "https://nuqs.dev/r/adapter-waku.json"
+  },
+  {
+   "name": "next-typed-links",
+   "type": "item",
+   "title": "Typed Links for Next.js",
+   "description": "Type-safe linking for Next.js (using typedRoutes + nuqs)",
+   "component": "link",
+   "surface": null,
+   "dependencies": [
+    "next@>=15.5.0",
+    "nuqs"
+   ],
+   "url": "https://nuqs.dev/r/next-typed-links.json"
+  },
+  {
+   "name": "parser-uuid",
+   "type": "item",
+   "title": "UUID",
+   "description": "Parse and validate UUID strings (versions 1-8) from the query string.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "nuqs"
+   ],
+   "url": "https://nuqs.dev/r/parser-uuid.json"
+  }
+ ]
+}

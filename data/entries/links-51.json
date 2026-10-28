@@ -521,6 +521,7 @@
   "id": "29598d1c-d54c-4533-9e99-d6dc7d234a4d",
   "slug": "recent-design",
   "url": "http://recent.design",
+  "same_as": "cb3a7d28-c333-4a33-ab8f-585ad26d45d2",
   "name": "Recent",
   "tagline": "Daily-curated feed of websites, OG images, app icons, tools and agent skills",
   "description": "Recent is a curated design-inspiration index run by @senyil that took over from Godly, the website gallery it explicitly replaces. It splits into five galleries — a mixed Design feed, Websites, OG Images, App Screenshots and App Icons — plus three directories: Tools (with negotiated discount codes), Skills (installable Claude/agent design skills ranked by install count) and a paid Jobs board. Founded in 2023 as a collection of design work posted on X, it was relaunched in 2026 with a broader remit and now claims 250k+ monthly visitors and 25k+ newsletter subscribers.",
@@ -553,7 +554,7 @@
     "web"
    ],
    "accessibility": [
-    "unknown"
+    "not-applicable"
    ],
    "content_type": [
     "screenshots",
@@ -726,7 +727,8 @@
    ],
    "pricing": [
     "freemium",
-    "subscription"
+    "subscription",
+    "usage-based"
    ],
    "distribution": [
     "web-app"
@@ -901,7 +903,7 @@
     "framer"
    ],
    "styling": [
-    "unknown"
+    "not-applicable"
    ],
    "license": [
     "proprietary"
@@ -917,7 +919,7 @@
     "social"
    ],
    "accessibility": [
-    "unknown"
+    "not-applicable"
    ],
    "content_type": [
     "prose"
@@ -971,6 +973,7 @@
   "id": "68e5ad4c-37c5-4c6d-b6a2-63690ba283b3",
   "slug": "switzer",
   "url": "https://www.fontshare.com/fonts/switzer",
+  "part_of": "f8996ab2-690e-4d69-b9eb-42f46cbf2a36",
   "name": "Switzer",
   "tagline": "Free neo-grotesque from ITF: 9 weights, matching italics, variable, 135 languages",
   "description": "Switzer is a Latin neo-grotesque by Jerémie Hornus for the Indian Type Foundry, released free on Fontshare in April 2021 (originally issued as Volkart in 2015). It ships 18 static styles — Thin through Black with a matching italic for each — plus two variable files (upright and italic, wght axis 100-900), covering 135 languages and carrying aalt, frac, liga, locl, ordn, salt and sups OpenType features. It is currently at version 1.2. Distributed under the ITF Free Font License, free for personal and commercial work in desktop, web and app contexts.",
@@ -1024,7 +1027,13 @@
   "package": null,
   "docs_url": "https://www.fontshare.com/fonts/switzer",
   "repo_url": null,
-  "registry_url": "https://api.fontshare.com/v2/fonts?q=switzer",
+  "registry_url": null,
+  "machine_urls": [
+   {
+    "kind": "api",
+    "url": "https://api.fontshare.com/v2/fonts?q=switzer"
+   }
+  ],
   "github": {
    "stars": null,
    "license": null,

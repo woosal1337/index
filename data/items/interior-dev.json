@@ -1,0 +1,656 @@
+{
+ "resource_id": "5d4e0290-3312-4689-9c5f-47ebbe1db021",
+ "registry_url": "https://www.interior.dev/r/registry.json",
+ "install_verified": true,
+ "checked": "2026-10-23",
+ "items": [
+  {
+   "name": "accordion",
+   "type": "ui",
+   "title": "Accordion",
+   "description": "height auto, done correctly.",
+   "component": "accordion",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/accordion.json"
+  },
+  {
+   "name": "blur-up-image",
+   "type": "ui",
+   "title": "Blur-up Image",
+   "description": "Placeholder resolves into the photo.",
+   "component": "placeholder-image",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/blur-up-image.json"
+  },
+  {
+   "name": "collapsible-banner",
+   "type": "ui",
+   "title": "Collapsible Banner",
+   "description": "Folds to its title, or lets go entirely.",
+   "component": "collapsible",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/collapsible-banner.json"
+  },
+  {
+   "name": "command-palette",
+   "type": "ui",
+   "title": "Command Palette",
+   "description": "Results reorder as you type.",
+   "component": "command-palette",
+   "surface": "command-palette",
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/command-palette.json"
+  },
+  {
+   "name": "context-menu",
+   "type": "ui",
+   "title": "Context Menu",
+   "description": "Opens from the pointer, not the corner.",
+   "component": "context-menu",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/context-menu.json"
+  },
+  {
+   "name": "copy-button",
+   "type": "ui",
+   "title": "Copy Button",
+   "description": "Copy to tick, width locked, reverts after 2s.",
+   "component": "copy-button",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/copy-button.json"
+  },
+  {
+   "name": "drawer",
+   "type": "ui",
+   "title": "Drawer",
+   "description": "Side panel that keeps its place.",
+   "component": "drawer",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/drawer.json"
+  },
+  {
+   "name": "dropdown",
+   "type": "ui",
+   "title": "Dropdown",
+   "description": "Active highlight travels between items.",
+   "component": "select",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/dropdown.json"
+  },
+  {
+   "name": "expanding-search",
+   "type": "ui",
+   "title": "Expanding Search",
+   "description": "Icon to field with focus handled.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/expanding-search.json"
+  },
+  {
+   "name": "filter-grid",
+   "type": "ui",
+   "title": "Filter Grid",
+   "description": "Filtering rearranges, it does not blink.",
+   "component": "data-grid",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/filter-grid.json"
+  },
+  {
+   "name": "floating-label",
+   "type": "ui",
+   "title": "Floating Label",
+   "description": "The label makes room instead of disappearing.",
+   "component": "label",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/floating-label.json"
+  },
+  {
+   "name": "hide-on-scroll",
+   "type": "ui",
+   "title": "Hide on Scroll",
+   "description": "Toolbar yields to the content.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/hide-on-scroll.json"
+  },
+  {
+   "name": "hold-to-confirm",
+   "type": "ui",
+   "title": "Hold to Confirm",
+   "description": "A guard rail in front of destructive actions.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/hold-to-confirm.json"
+  },
+  {
+   "name": "icon-morph",
+   "type": "ui",
+   "title": "Icon Morph",
+   "description": "Play/pause, menu/close as one mechanism.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/icon-morph.json"
+  },
+  {
+   "name": "inline-validation",
+   "type": "ui",
+   "title": "Inline Validation",
+   "description": "Error message that does not shove the form.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/inline-validation.json"
+  },
+  {
+   "name": "lightbox",
+   "type": "ui",
+   "title": "Lightbox",
+   "description": "Zoom that returns where it started.",
+   "component": "lightbox",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/lightbox.json"
+  },
+  {
+   "name": "like-burst",
+   "type": "ui",
+   "title": "Like Burst",
+   "description": "Optimistic like that survives rapid taps.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/like-burst.json"
+  },
+  {
+   "name": "live-activity",
+   "type": "ui",
+   "title": "Live Activity",
+   "description": "The system's ongoing work, worn as a small object.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/live-activity.json"
+  },
+  {
+   "name": "load-more",
+   "type": "ui",
+   "title": "Load More",
+   "description": "Sentinel that loads before you hit the end.",
+   "component": "infinite-scroll",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/load-more.json"
+  },
+  {
+   "name": "loading-button",
+   "type": "ui",
+   "title": "Loading Button",
+   "description": "Label to state without layout shift.",
+   "component": "spinner",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/loading-button.json"
+  },
+  {
+   "name": "logo-marquee",
+   "type": "ui",
+   "title": "Logo Marquee",
+   "description": "Stops when you look at it.",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/logo-marquee.json"
+  },
+  {
+   "name": "long-press",
+   "type": "ui",
+   "title": "Long Press",
+   "description": "Intent confirmed by time, and cancelled by everything else.",
+   "component": "gesture",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/long-press.json"
+  },
+  {
+   "name": "modal",
+   "type": "ui",
+   "title": "Modal",
+   "description": "Backdrop, scroll lock, focus trap.",
+   "component": "modal",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/modal.json"
+  },
+  {
+   "name": "new-items-pill",
+   "type": "ui",
+   "title": "New Items Pill",
+   "description": "New content without stealing your scroll.",
+   "component": "list",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/new-items-pill.json"
+  },
+  {
+   "name": "otp-input",
+   "type": "ui",
+   "title": "OTP Input",
+   "description": "Auto advance, paste, error recovery.",
+   "component": "otp-input",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/otp-input.json"
+  },
+  {
+   "name": "pagination",
+   "type": "ui",
+   "title": "Pagination",
+   "description": "The window moves, the row does not.",
+   "component": "pagination",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/pagination.json"
+  },
+  {
+   "name": "password-strength",
+   "type": "ui",
+   "title": "Password Strength",
+   "description": "Strength read segment by segment.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/password-strength.json"
+  },
+  {
+   "name": "poll-results",
+   "type": "ui",
+   "title": "Poll Results",
+   "description": "The winner lands last.",
+   "component": "survey",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/poll-results.json"
+  },
+  {
+   "name": "popover",
+   "type": "ui",
+   "title": "Popover",
+   "description": "Knows its origin, flips on collision.",
+   "component": "popover",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/popover.json"
+  },
+  {
+   "name": "presence-avatars",
+   "type": "ui",
+   "title": "Presence Avatars",
+   "description": "Join and leave as a layout change.",
+   "component": "avatar",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/presence-avatars.json"
+  },
+  {
+   "name": "press-depth",
+   "type": "ui",
+   "title": "Press Depth",
+   "description": "The feeling that the press landed.",
+   "component": "elevation",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/press-depth.json"
+  },
+  {
+   "name": "progress-bar",
+   "type": "ui",
+   "title": "Progress Bar",
+   "description": "Indeterminate handing over to determinate.",
+   "component": "progress-bar",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/progress-bar.json"
+  },
+  {
+   "name": "reading-progress",
+   "type": "ui",
+   "title": "Reading Progress",
+   "description": "How much is left.",
+   "component": "progress-bar",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/reading-progress.json"
+  },
+  {
+   "name": "reorder-list",
+   "type": "ui",
+   "title": "Reorder List",
+   "description": "The gap the siblings open is the drop target.",
+   "component": "drag-and-drop",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/reorder-list.json"
+  },
+  {
+   "name": "ripple",
+   "type": "ui",
+   "title": "Ripple",
+   "description": "Touch feedback from the pointer origin.",
+   "component": "ripple",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/ripple.json"
+  },
+  {
+   "name": "scroll-spy",
+   "type": "ui",
+   "title": "Scroll Spy",
+   "description": "The section you are actually in.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/scroll-spy.json"
+  },
+  {
+   "name": "segmented-control",
+   "type": "ui",
+   "title": "Segmented Control",
+   "description": "Thumb slides, label inverts through it.",
+   "component": "segmented-control",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/segmented-control.json"
+  },
+  {
+   "name": "show-more",
+   "type": "ui",
+   "title": "Show More",
+   "description": "Height animates, text does not reflow.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/show-more.json"
+  },
+  {
+   "name": "skeleton-swap",
+   "type": "ui",
+   "title": "Skeleton Swap",
+   "description": "Skeleton to content with zero layout shift.",
+   "component": "skeleton",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/skeleton-swap.json"
+  },
+  {
+   "name": "slider-detents",
+   "type": "ui",
+   "title": "Slider Detents",
+   "description": "Stops you can feel.",
+   "component": "slider",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/slider-detents.json"
+  },
+  {
+   "name": "snap-carousel",
+   "type": "ui",
+   "title": "Snap Carousel",
+   "description": "Momentum that lands on a slide.",
+   "component": "carousel",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/snap-carousel.json"
+  },
+  {
+   "name": "sortable-table",
+   "type": "ui",
+   "title": "Sortable Table",
+   "description": "Rows travel to their new order.",
+   "component": "drag-and-drop",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/sortable-table.json"
+  },
+  {
+   "name": "sticky-header",
+   "type": "ui",
+   "title": "Sticky Header",
+   "description": "Condenses as you go down.",
+   "component": "sticky",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/sticky-header.json"
+  },
+  {
+   "name": "streaming-text",
+   "type": "ui",
+   "title": "Streaming Text",
+   "description": "Token by token with a caret.",
+   "component": "streaming-text",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/streaming-text.json"
+  },
+  {
+   "name": "swipe-deck",
+   "type": "ui",
+   "title": "Swipe Deck",
+   "description": "A stack you decide through.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/swipe-deck.json"
+  },
+  {
+   "name": "tabs",
+   "type": "ui",
+   "title": "Tabs",
+   "description": "One indicator shared across tabs.",
+   "component": "tabs",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/tabs.json"
+  },
+  {
+   "name": "tag-input",
+   "type": "ui",
+   "title": "Tag Input",
+   "description": "Enter adds, backspace highlights then removes.",
+   "component": "tag-input",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/tag-input.json"
+  },
+  {
+   "name": "task-steps",
+   "type": "ui",
+   "title": "Task Steps",
+   "description": "The system narrates its work.",
+   "component": "task",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/task-steps.json"
+  },
+  {
+   "name": "text-reveal",
+   "type": "ui",
+   "title": "Text Reveal",
+   "description": "Words arrive in reading order.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/text-reveal.json"
+  },
+  {
+   "name": "tooltip-group",
+   "type": "ui",
+   "title": "Tooltip Group",
+   "description": "Delayed once, instant after that.",
+   "component": "tooltip",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/tooltip-group.json"
+  },
+  {
+   "name": "tree-view",
+   "type": "ui",
+   "title": "Tree View",
+   "description": "Disclosure the arrow keys can walk.",
+   "component": "tree-view",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/tree-view.json"
+  },
+  {
+   "name": "typing-indicator",
+   "type": "ui",
+   "title": "Typing Indicator",
+   "description": "Someone is writing.",
+   "component": "typing-indicator",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/typing-indicator.json"
+  },
+  {
+   "name": "value-flash",
+   "type": "ui",
+   "title": "Value Flash",
+   "description": "Marks what just changed.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/value-flash.json"
+  },
+  {
+   "name": "wizard-steps",
+   "type": "ui",
+   "title": "Wizard Steps",
+   "description": "Transition knows forward from back.",
+   "component": "progress-stepper",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://www.interior.dev/r/wizard-steps.json"
+  }
+ ]
+}

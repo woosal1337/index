@@ -1,0 +1,2009 @@
+{
+ "resource_id": "6f715daf-9a96-448b-b31f-f61146dfcaf6",
+ "registry_url": "https://platejs.org/r/registry.json",
+ "install_verified": true,
+ "checked": "2026-10-23",
+ "items": [
+  {
+   "name": "ai-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@platejs/ai"
+   ],
+   "url": "https://platejs.org/r/ai-kit.json"
+  },
+  {
+   "name": "ai-menu",
+   "type": "ui",
+   "title": "AI Menu",
+   "description": "A menu for AI-powered content generation and insertion.",
+   "component": "dropdown-menu",
+   "surface": null,
+   "dependencies": [
+    "@platejs/ai",
+    "@platejs/selection",
+    "ai@7",
+    "cmdk",
+    "@faker-js/faker"
+   ],
+   "url": "https://platejs.org/r/ai-menu.json"
+  },
+  {
+   "name": "ai-node",
+   "type": "ui",
+   "title": "AI Leaf",
+   "description": "A text highlighter for AI-generated content.",
+   "component": "node-editor",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://platejs.org/r/ai-node.json"
+  },
+  {
+   "name": "ai-toolbar-button",
+   "type": "ui",
+   "title": "AI Toolbar Button",
+   "description": "A toolbar button for accessing AI features.",
+   "component": "toolbar",
+   "surface": null,
+   "dependencies": [
+    "@platejs/ai"
+   ],
+   "url": "https://platejs.org/r/ai-toolbar-button.json"
+  },
+  {
+   "name": "align-base-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@platejs/basic-styles"
+   ],
+   "url": "https://platejs.org/r/align-base-kit.json"
+  },
+  {
+   "name": "align-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@platejs/basic-styles"
+   ],
+   "url": "https://platejs.org/r/align-kit.json"
+  },
+  {
+   "name": "align-toolbar-button",
+   "type": "ui",
+   "title": "Align Toolbar Button",
+   "description": "A dropdown menu for text alignment controls.",
+   "component": "toolbar",
+   "surface": null,
+   "dependencies": [
+    "@platejs/basic-styles"
+   ],
+   "url": "https://platejs.org/r/align-toolbar-button.json"
+  },
+  {
+   "name": "autoformat-classic-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@platejs/code-block",
+    "@platejs/list-classic"
+   ],
+   "url": "https://platejs.org/r/autoformat-classic-kit.json"
+  },
+  {
+   "name": "autoformat-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@platejs/code-block",
+    "@platejs/list"
+   ],
+   "url": "https://platejs.org/r/autoformat-kit.json"
+  },
+  {
+   "name": "basic-blocks-base-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://platejs.org/r/basic-blocks-base-kit.json"
+  },
+  {
+   "name": "basic-blocks-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://platejs.org/r/basic-blocks-kit.json"
+  },
+  {
+   "name": "basic-marks-base-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@platejs/basic-nodes"
+   ],
+   "url": "https://platejs.org/r/basic-marks-base-kit.json"
+  },
+  {
+   "name": "basic-marks-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@platejs/basic-nodes"
+   ],
+   "url": "https://platejs.org/r/basic-marks-kit.json"
+  },
+  {
+   "name": "basic-nodes-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": "node-editor",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://platejs.org/r/basic-nodes-kit.json"
+  },
+  {
+   "name": "block-context-menu",
+   "type": "ui",
+   "title": "Block Context Menu",
+   "description": "A context menu for block-level operations.",
+   "component": "context-menu",
+   "surface": null,
+   "dependencies": [
+    "@platejs/ai",
+    "@platejs/selection"
+   ],
+   "url": "https://platejs.org/r/block-context-menu.json"
+  },
+  {
+   "name": "block-discussion",
+   "type": "ui",
+   "title": "Block Discussion",
+   "description": "A popover interface for managing discussions: comments, replies, suggestions.",
+   "component": "comment",
+   "surface": null,
+   "dependencies": [
+    "@platejs/comment",
+    "@platejs/floating",
+    "@platejs/suggestion",
+    "date-fns"
+   ],
+   "url": "https://platejs.org/r/block-discussion.json"
+  },
+  {
+   "name": "block-draggable",
+   "type": "ui",
+   "title": "Block Draggable",
+   "description": "A block wrapper with a drag handle for moving editor blocks.",
+   "component": "drag-and-drop",
+   "surface": null,
+   "dependencies": [
+    "@platejs/dnd",
+    "@platejs/selection"
+   ],
+   "url": "https://platejs.org/r/block-draggable.json"
+  },
+  {
+   "name": "block-list",
+   "type": "ui",
+   "title": "List",
+   "description": "List components.",
+   "component": "list",
+   "surface": null,
+   "dependencies": [
+    "@platejs/list"
+   ],
+   "url": "https://platejs.org/r/block-list.json"
+  },
+  {
+   "name": "block-menu-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": "dropdown-menu",
+   "surface": null,
+   "dependencies": [
+    "@platejs/selection"
+   ],
+   "url": "https://platejs.org/r/block-menu-kit.json"
+  },
+  {
+   "name": "block-placeholder-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://platejs.org/r/block-placeholder-kit.json"
+  },
+  {
+   "name": "block-selection",
+   "type": "ui",
+   "title": "Block Selection",
+   "description": "A visual overlay for selected blocks.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@platejs/selection"
+   ],
+   "url": "https://platejs.org/r/block-selection.json"
+  },
+  {
+   "name": "block-selection-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@platejs/selection"
+   ],
+   "url": "https://platejs.org/r/block-selection-kit.json"
+  },
+  {
+   "name": "block-suggestion",
+   "type": "ui",
+   "title": "Block Suggestion",
+   "description": null,
+   "component": "suggestion",
+   "surface": null,
+   "dependencies": [
+    "@platejs/suggestion"
+   ],
+   "url": "https://platejs.org/r/block-suggestion.json"
+  },
+  {
+   "name": "blockquote-node",
+   "type": "ui",
+   "title": "Blockquote Element",
+   "description": "A quote component for block quotes.",
+   "component": "quote",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://platejs.org/r/blockquote-node.json"
+  },
+  {
+   "name": "callout-base-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": "alert",
+   "surface": null,
+   "dependencies": [
+    "@platejs/callout"
+   ],
+   "url": "https://platejs.org/r/callout-base-kit.json"
+  },
+  {
+   "name": "callout-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": "alert",
+   "surface": null,
+   "dependencies": [
+    "@platejs/callout"
+   ],
+   "url": "https://platejs.org/r/callout-kit.json"
+  },
+  {
+   "name": "callout-node",
+   "type": "ui",
+   "title": null,
+   "description": "A callout component for highlighting important information with customizable icons and styles.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "@platejs/callout"
+   ],
+   "url": "https://platejs.org/r/callout-node.json"
+  },
+  {
+   "name": "caption",
+   "type": "ui",
+   "title": "Caption",
+   "description": "A text field for adding captions to media elements.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "@udecode/cn",
+    "@platejs/caption"
+   ],
+   "url": "https://platejs.org/r/caption.json"
+  },
+  {
+   "name": "code-block-base-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": "code-block",
+   "surface": null,
+   "dependencies": [
+    "@platejs/code-block",
+    "lowlight"
+   ],
+   "url": "https://platejs.org/r/code-block-base-kit.json"
+  },
+  {
+   "name": "code-block-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": "code-block",
+   "surface": null,
+   "dependencies": [
+    "@platejs/code-block",
+    "lowlight"
+   ],
+   "url": "https://platejs.org/r/code-block-kit.json"
+  },
+  {
+   "name": "code-block-node",
+   "type": "ui",
+   "title": "Code Block Nodes",
+   "description": "A code block with syntax highlighting and language selection.",
+   "component": "code-block",
+   "surface": null,
+   "dependencies": [
+    "@platejs/code-block",
+    "lowlight"
+   ],
+   "url": "https://platejs.org/r/code-block-node.json"
+  },
+  {
+   "name": "code-drawing-base-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": "code-block",
+   "surface": null,
+   "dependencies": [
+    "@platejs/code-drawing"
+   ],
+   "url": "https://platejs.org/r/code-drawing-base-kit.json"
+  },
+  {
+   "name": "code-drawing-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": "code-block",
+   "surface": null,
+   "dependencies": [
+    "@platejs/code-drawing"
+   ],
+   "url": "https://platejs.org/r/code-drawing-kit.json"
+  },
+  {
+   "name": "code-drawing-node",
+   "type": "ui",
+   "title": "Code Drawing Node",
+   "description": "Create diagrams from code using PlantUML, Graphviz, Flowchart, or Mermaid.",
+   "component": "code-block",
+   "surface": null,
+   "dependencies": [
+    "@platejs/code-drawing"
+   ],
+   "url": "https://platejs.org/r/code-drawing-node.json"
+  },
+  {
+   "name": "code-node",
+   "type": "ui",
+   "title": "Code Leaf",
+   "description": "An inline component for code snippets.",
+   "component": "code-block",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://platejs.org/r/code-node.json"
+  },
+  {
+   "name": "column-base-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": "stack",
+   "surface": null,
+   "dependencies": [
+    "@platejs/layout"
+   ],
+   "url": "https://platejs.org/r/column-base-kit.json"
+  },
+  {
+   "name": "column-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": "stack",
+   "surface": null,
+   "dependencies": [
+    "@platejs/layout"
+   ],
+   "url": "https://platejs.org/r/column-kit.json"
+  },
+  {
+   "name": "column-node",
+   "type": "ui",
+   "title": "Column Nodes",
+   "description": "Resizable column components for layout.",
+   "component": "stack",
+   "surface": null,
+   "dependencies": [
+    "@udecode/cn",
+    "@platejs/layout"
+   ],
+   "url": "https://platejs.org/r/column-node.json"
+  },
+  {
+   "name": "comment-base-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": "comment",
+   "surface": null,
+   "dependencies": [
+    "@platejs/comment"
+   ],
+   "url": "https://platejs.org/r/comment-base-kit.json"
+  },
+  {
+   "name": "comment-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": "comment",
+   "surface": null,
+   "dependencies": [
+    "@platejs/comment"
+   ],
+   "url": "https://platejs.org/r/comment-kit.json"
+  },
+  {
+   "name": "comment-node",
+   "type": "ui",
+   "title": "Comment Leaf",
+   "description": "A text component for displaying comments with visual indicators.",
+   "component": "comment",
+   "surface": null,
+   "dependencies": [
+    "@platejs/comment"
+   ],
+   "url": "https://platejs.org/r/comment-node.json"
+  },
+  {
+   "name": "comment-toolbar-button",
+   "type": "ui",
+   "title": "Comment Toolbar Button",
+   "description": "A toolbar button for adding inline comments.",
+   "component": "comment",
+   "surface": null,
+   "dependencies": [
+    "@platejs/comment"
+   ],
+   "url": "https://platejs.org/r/comment-toolbar-button.json"
+  },
+  {
+   "name": "copilot-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@platejs/ai",
+    "@platejs/markdown",
+    "@faker-js/faker"
+   ],
+   "url": "https://platejs.org/r/copilot-kit.json"
+  },
+  {
+   "name": "cursor-overlay",
+   "type": "ui",
+   "title": "Cursor Overlay",
+   "description": "A visual overlay for cursors and selections.",
+   "component": "backdrop",
+   "surface": null,
+   "dependencies": [
+    "@platejs/selection"
+   ],
+   "url": "https://platejs.org/r/cursor-overlay.json"
+  },
+  {
+   "name": "cursor-overlay-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": "backdrop",
+   "surface": null,
+   "dependencies": [
+    "@platejs/selection"
+   ],
+   "url": "https://platejs.org/r/cursor-overlay-kit.json"
+  },
+  {
+   "name": "date-base-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@platejs/date"
+   ],
+   "url": "https://platejs.org/r/date-base-kit.json"
+  },
+  {
+   "name": "date-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@platejs/date"
+   ],
+   "url": "https://platejs.org/r/date-kit.json"
+  },
+  {
+   "name": "date-node",
+   "type": "ui",
+   "title": "Date Element",
+   "description": "A date field component with calendar picker.",
+   "component": "node-editor",
+   "surface": null,
+   "dependencies": [
+    "@platejs/date"
+   ],
+   "url": "https://platejs.org/r/date-node.json"
+  },
+  {
+   "name": "discussion-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": "comment",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://platejs.org/r/discussion-kit.json"
+  },
+  {
+   "name": "dnd-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": "drag-and-drop",
+   "surface": null,
+   "dependencies": [
+    "@platejs/dnd",
+    "@platejs/media",
+    "react-dnd",
+    "react-dnd-html5-backend"
+   ],
+   "url": "https://platejs.org/r/dnd-kit.json"
+  },
+  {
+   "name": "docx-export-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@platejs/docx-io"
+   ],
+   "url": "https://platejs.org/r/docx-export-kit.json"
+  },
+  {
+   "name": "docx-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@platejs/docx",
+    "@platejs/juice"
+   ],
+   "url": "https://platejs.org/r/docx-kit.json"
+  },
+  {
+   "name": "editor",
+   "type": "ui",
+   "title": "Editor",
+   "description": "A container for the editor content and styling.",
+   "component": "code-editor",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://platejs.org/r/editor.json"
+  },
+  {
+   "name": "editor-ai",
+   "type": "block",
+   "title": null,
+   "description": "An AI editor",
+   "component": "code-editor",
+   "surface": null,
+   "dependencies": [
+    "sonner"
+   ],
+   "url": "https://platejs.org/r/editor-ai.json"
+  },
+  {
+   "name": "editor-base-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": "code-editor",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://platejs.org/r/editor-base-kit.json"
+  },
+  {
+   "name": "editor-basic",
+   "type": "block",
+   "title": null,
+   "description": "A basic editor",
+   "component": "code-editor",
+   "surface": null,
+   "dependencies": [
+    "@platejs/basic-nodes",
+    "@platejs/basic-nodes"
+   ],
+   "url": "https://platejs.org/r/editor-basic.json"
+  },
+  {
+   "name": "editor-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": "code-editor",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://platejs.org/r/editor-kit.json"
+  },
+  {
+   "name": "editor-select",
+   "type": "block",
+   "title": null,
+   "description": "A multi-select editor",
+   "component": "code-editor",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://platejs.org/r/editor-select.json"
+  },
+  {
+   "name": "emoji-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@platejs/emoji",
+    "@emoji-mart/data@1.2.1"
+   ],
+   "url": "https://platejs.org/r/emoji-kit.json"
+  },
+  {
+   "name": "emoji-node",
+   "type": "ui",
+   "title": "Emoji Input Element",
+   "description": "An input component for emoji search and insertion.",
+   "component": "node-editor",
+   "surface": null,
+   "dependencies": [
+    "@platejs/emoji",
+    "@emoji-mart/data@1.2.1"
+   ],
+   "url": "https://platejs.org/r/emoji-node.json"
+  },
+  {
+   "name": "emoji-toolbar-button",
+   "type": "ui",
+   "title": "Emoji Toolbar Button",
+   "description": "An emoji picker toolbar button.",
+   "component": "toolbar",
+   "surface": null,
+   "dependencies": [
+    "@platejs/emoji",
+    "@emoji-mart/data@1.2.1",
+    "@radix-ui/react-popover"
+   ],
+   "url": "https://platejs.org/r/emoji-toolbar-button.json"
+  },
+  {
+   "name": "equation-node",
+   "type": "ui",
+   "title": "Equation Element",
+   "description": "Displays a LaTeX equation element with an editable popover for inputting and rendering mathematical expressions.",
+   "component": "node-editor",
+   "surface": null,
+   "dependencies": [
+    "@platejs/math",
+    "react-textarea-autosize"
+   ],
+   "url": "https://platejs.org/r/equation-node.json"
+  },
+  {
+   "name": "equation-toolbar-button",
+   "type": "ui",
+   "title": "Equation Toolbar Button",
+   "description": "A toolbar button for inserting and editing equations.",
+   "component": "toolbar",
+   "surface": null,
+   "dependencies": [
+    "@platejs/math"
+   ],
+   "url": "https://platejs.org/r/equation-toolbar-button.json"
+  },
+  {
+   "name": "excalidraw-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@platejs/excalidraw",
+    "@excalidraw/excalidraw"
+   ],
+   "url": "https://platejs.org/r/excalidraw-kit.json"
+  },
+  {
+   "name": "excalidraw-node",
+   "type": "ui",
+   "title": "Excalidraw Element",
+   "description": "A drawing component powered by Excalidraw.",
+   "component": "node-editor",
+   "surface": null,
+   "dependencies": [
+    "@platejs/excalidraw"
+   ],
+   "url": "https://platejs.org/r/excalidraw-node.json"
+  },
+  {
+   "name": "exit-break-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://platejs.org/r/exit-break-kit.json"
+  },
+  {
+   "name": "export-toolbar-button",
+   "type": "ui",
+   "title": "Export Toolbar Button",
+   "description": "A toolbar button for exporting editor content in various formats (HTML, PDF, Image, Markdown).",
+   "component": "toolbar",
+   "surface": null,
+   "dependencies": [
+    "@platejs/docx-io",
+    "@platejs/markdown",
+    "html2canvas-pro",
+    "pdf-lib",
+    "lucide-react"
+   ],
+   "url": "https://platejs.org/r/export-toolbar-button.json"
+  },
+  {
+   "name": "fixed-toolbar",
+   "type": "ui",
+   "title": "Fixed Toolbar",
+   "description": "A fixed toolbar that stays at the top of the editor.",
+   "component": "toolbar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://platejs.org/r/fixed-toolbar.json"
+  },
+  {
+   "name": "fixed-toolbar-buttons",
+   "type": "ui",
+   "title": "Fixed Toolbar Buttons",
+   "description": "A set of commonly used formatting buttons.",
+   "component": "toolbar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://platejs.org/r/fixed-toolbar-buttons.json"
+  },
+  {
+   "name": "fixed-toolbar-classic-buttons",
+   "type": "ui",
+   "title": "Fixed Toolbar List Buttons",
+   "description": null,
+   "component": "toolbar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://platejs.org/r/fixed-toolbar-classic-buttons.json"
+  },
+  {
+   "name": "fixed-toolbar-classic-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": "toolbar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://platejs.org/r/fixed-toolbar-classic-kit.json"
+  },
+  {
+   "name": "fixed-toolbar-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": "toolbar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://platejs.org/r/fixed-toolbar-kit.json"
+  },
+  {
+   "name": "floating-toolbar",
+   "type": "ui",
+   "title": "Floating Toolbar",
+   "description": "A contextual toolbar that appears over selected text.",
+   "component": "toolbar",
+   "surface": null,
+   "dependencies": [
+    "@udecode/cn",
+    "@platejs/floating"
+   ],
+   "url": "https://platejs.org/r/floating-toolbar.json"
+  },
+  {
+   "name": "floating-toolbar-buttons",
+   "type": "ui",
+   "title": "Floating Toolbar Buttons",
+   "description": "A set of formatting buttons for the floating toolbar.",
+   "component": "toolbar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://platejs.org/r/floating-toolbar-buttons.json"
+  },
+  {
+   "name": "floating-toolbar-classic-buttons",
+   "type": "ui",
+   "title": "Floating Toolbar Classic Buttons",
+   "description": "A set of commonly used formatting buttons for the floating toolbar with classic list support.",
+   "component": "toolbar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://platejs.org/r/floating-toolbar-classic-buttons.json"
+  },
+  {
+   "name": "floating-toolbar-classic-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": "toolbar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://platejs.org/r/floating-toolbar-classic-kit.json"
+  },
+  {
+   "name": "floating-toolbar-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": "toolbar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://platejs.org/r/floating-toolbar-kit.json"
+  },
+  {
+   "name": "font-base-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@platejs/basic-styles"
+   ],
+   "url": "https://platejs.org/r/font-base-kit.json"
+  },
+  {
+   "name": "font-color-toolbar-button",
+   "type": "ui",
+   "title": "Font Color Toolbar Button",
+   "description": "A color picker toolbar button with text and background color controls.",
+   "component": "toolbar",
+   "surface": null,
+   "dependencies": [
+    "@udecode/cn",
+    "@platejs/basic-styles",
+    "lodash"
+   ],
+   "url": "https://platejs.org/r/font-color-toolbar-button.json"
+  },
+  {
+   "name": "font-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@platejs/basic-styles"
+   ],
+   "url": "https://platejs.org/r/font-kit.json"
+  },
+  {
+   "name": "font-size-toolbar-button",
+   "type": "ui",
+   "title": "Font Size Toolbar Button",
+   "description": "A toolbar control for adjusting font size.",
+   "component": "toolbar",
+   "surface": null,
+   "dependencies": [
+    "@platejs/basic-styles"
+   ],
+   "url": "https://platejs.org/r/font-size-toolbar-button.json"
+  },
+  {
+   "name": "footnote-base-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@platejs/footnote"
+   ],
+   "url": "https://platejs.org/r/footnote-base-kit.json"
+  },
+  {
+   "name": "footnote-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@platejs/footnote"
+   ],
+   "url": "https://platejs.org/r/footnote-kit.json"
+  },
+  {
+   "name": "footnote-node",
+   "type": "ui",
+   "title": "Footnote Elements",
+   "description": "Inline footnote references, definitions, and input UI.",
+   "component": "node-editor",
+   "surface": null,
+   "dependencies": [
+    "@platejs/footnote"
+   ],
+   "url": "https://platejs.org/r/footnote-node.json"
+  },
+  {
+   "name": "ghost-text",
+   "type": "ui",
+   "title": "Ghost Text",
+   "description": "A text suggestion system that displays AI-generated content after the cursor.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "@platejs/ai"
+   ],
+   "url": "https://platejs.org/r/ghost-text.json"
+  },
+  {
+   "name": "heading-node",
+   "type": "ui",
+   "title": "Heading Element",
+   "description": "A heading with multiple level support.",
+   "component": "heading",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://platejs.org/r/heading-node.json"
+  },
+  {
+   "name": "highlight-node",
+   "type": "ui",
+   "title": "Highlight Leaf",
+   "description": "A text highlighter with customizable colors.",
+   "component": "node-editor",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://platejs.org/r/highlight-node.json"
+  },
+  {
+   "name": "history-toolbar-button",
+   "type": "ui",
+   "title": "History Toolbar Button",
+   "description": "Toolbar buttons for undo and redo operations.",
+   "component": "timeline",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://platejs.org/r/history-toolbar-button.json"
+  },
+  {
+   "name": "hr-node",
+   "type": "ui",
+   "title": "Horizontal Rule Element",
+   "description": "A horizontal rule component with focus states.",
+   "component": "separator",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://platejs.org/r/hr-node.json"
+  },
+  {
+   "name": "import-toolbar-button",
+   "type": "ui",
+   "title": "Import Toolbar Button",
+   "description": "A toolbar button to import editor content from a file.",
+   "component": "toolbar",
+   "surface": null,
+   "dependencies": [
+    "@platejs/docx-io",
+    "use-file-picker@2.1.2"
+   ],
+   "url": "https://platejs.org/r/import-toolbar-button.json"
+  },
+  {
+   "name": "indent-base-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@platejs/indent"
+   ],
+   "url": "https://platejs.org/r/indent-base-kit.json"
+  },
+  {
+   "name": "indent-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@platejs/indent"
+   ],
+   "url": "https://platejs.org/r/indent-kit.json"
+  },
+  {
+   "name": "indent-toolbar-button",
+   "type": "ui",
+   "title": "Indent Toolbar Buttons",
+   "description": "Toolbar controls for block indentation.",
+   "component": "toolbar",
+   "surface": null,
+   "dependencies": [
+    "@platejs/indent"
+   ],
+   "url": "https://platejs.org/r/indent-toolbar-button.json"
+  },
+  {
+   "name": "inline-combobox",
+   "type": "ui",
+   "title": "Inline Combobox",
+   "description": "A combobox for inline suggestions.",
+   "component": "combobox",
+   "surface": null,
+   "dependencies": [
+    "@platejs/combobox",
+    "@ariakit/react"
+   ],
+   "url": "https://platejs.org/r/inline-combobox.json"
+  },
+  {
+   "name": "insert-toolbar-button",
+   "type": "ui",
+   "title": "Insert Toolbar Button",
+   "description": "A menu for inserting different types of blocks.",
+   "component": "toolbar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://platejs.org/r/insert-toolbar-button.json"
+  },
+  {
+   "name": "insert-toolbar-classic-button",
+   "type": "ui",
+   "title": "Insert Toolbar Classic Button",
+   "description": "A menu for inserting different types of blocks with classic list support.",
+   "component": "toolbar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://platejs.org/r/insert-toolbar-classic-button.json"
+  },
+  {
+   "name": "kbd-node",
+   "type": "ui",
+   "title": "Keyboard Input Leaf",
+   "description": "A component for styling keyboard shortcuts.",
+   "component": "kbd",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://platejs.org/r/kbd-node.json"
+  },
+  {
+   "name": "line-height-base-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@platejs/basic-styles"
+   ],
+   "url": "https://platejs.org/r/line-height-base-kit.json"
+  },
+  {
+   "name": "line-height-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@platejs/basic-styles"
+   ],
+   "url": "https://platejs.org/r/line-height-kit.json"
+  },
+  {
+   "name": "line-height-toolbar-button",
+   "type": "ui",
+   "title": "Line Height Toolbar Button",
+   "description": "A menu for controlling text line spacing.",
+   "component": "toolbar",
+   "surface": null,
+   "dependencies": [
+    "@platejs/basic-styles"
+   ],
+   "url": "https://platejs.org/r/line-height-toolbar-button.json"
+  },
+  {
+   "name": "link-base-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": "link",
+   "surface": null,
+   "dependencies": [
+    "@platejs/link"
+   ],
+   "url": "https://platejs.org/r/link-base-kit.json"
+  },
+  {
+   "name": "link-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": "link",
+   "surface": null,
+   "dependencies": [
+    "@platejs/link"
+   ],
+   "url": "https://platejs.org/r/link-kit.json"
+  },
+  {
+   "name": "link-node",
+   "type": "ui",
+   "title": "Link Element",
+   "description": "A component for rendering hyperlinks with hover states.",
+   "component": "link",
+   "surface": null,
+   "dependencies": [
+    "@platejs/link"
+   ],
+   "url": "https://platejs.org/r/link-node.json"
+  },
+  {
+   "name": "link-toolbar",
+   "type": "ui",
+   "title": "Link Floating Toolbar",
+   "description": "A floating interface for link editing.",
+   "component": "link",
+   "surface": null,
+   "dependencies": [
+    "@platejs/link",
+    "@platejs/floating"
+   ],
+   "url": "https://platejs.org/r/link-toolbar.json"
+  },
+  {
+   "name": "link-toolbar-button",
+   "type": "ui",
+   "title": "Link Toolbar Button",
+   "description": "A toolbar control for link management.",
+   "component": "link",
+   "surface": null,
+   "dependencies": [
+    "@platejs/link"
+   ],
+   "url": "https://platejs.org/r/link-toolbar-button.json"
+  },
+  {
+   "name": "list-base-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": "list",
+   "surface": null,
+   "dependencies": [
+    "@platejs/list"
+   ],
+   "url": "https://platejs.org/r/list-base-kit.json"
+  },
+  {
+   "name": "list-classic-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": "list",
+   "surface": null,
+   "dependencies": [
+    "@platejs/list-classic"
+   ],
+   "url": "https://platejs.org/r/list-classic-kit.json"
+  },
+  {
+   "name": "list-classic-node",
+   "type": "ui",
+   "title": "List Nodes",
+   "description": "List (classic) nodes for ordered and unordered items.",
+   "component": "list",
+   "surface": null,
+   "dependencies": [
+    "@platejs/list-classic"
+   ],
+   "url": "https://platejs.org/r/list-classic-node.json"
+  },
+  {
+   "name": "list-classic-toolbar-button",
+   "type": "ui",
+   "title": "List Toolbar Buttons",
+   "description": "Toolbar controls for list creation and management.",
+   "component": "list",
+   "surface": null,
+   "dependencies": [
+    "@platejs/list-classic"
+   ],
+   "url": "https://platejs.org/r/list-classic-toolbar-button.json"
+  },
+  {
+   "name": "list-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": "list",
+   "surface": null,
+   "dependencies": [
+    "@platejs/list"
+   ],
+   "url": "https://platejs.org/r/list-kit.json"
+  },
+  {
+   "name": "list-toolbar-button",
+   "type": "ui",
+   "title": "List Toolbar Button",
+   "description": "A toolbar control for adjusting list indentation.",
+   "component": "list",
+   "surface": null,
+   "dependencies": [
+    "@platejs/list"
+   ],
+   "url": "https://platejs.org/r/list-toolbar-button.json"
+  },
+  {
+   "name": "mark-toolbar-button",
+   "type": "ui",
+   "title": "Mark Toolbar Button",
+   "description": "A toolbar control for basic text formatting.",
+   "component": "toolbar",
+   "surface": null,
+   "dependencies": [
+    "@platejs/basic-nodes"
+   ],
+   "url": "https://platejs.org/r/mark-toolbar-button.json"
+  },
+  {
+   "name": "markdown-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@platejs/footnote",
+    "@platejs/markdown",
+    "remark-emoji",
+    "remark-gfm",
+    "remark-math"
+   ],
+   "url": "https://platejs.org/r/markdown-kit.json"
+  },
+  {
+   "name": "math-base-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@platejs/math"
+   ],
+   "url": "https://platejs.org/r/math-base-kit.json"
+  },
+  {
+   "name": "math-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@platejs/math"
+   ],
+   "url": "https://platejs.org/r/math-kit.json"
+  },
+  {
+   "name": "media-audio-node",
+   "type": "ui",
+   "title": "Media Audio Element",
+   "description": "An audio player component with caption support.",
+   "component": "audio-player",
+   "surface": null,
+   "dependencies": [
+    "@platejs/media",
+    "@platejs/resizable"
+   ],
+   "url": "https://platejs.org/r/media-audio-node.json"
+  },
+  {
+   "name": "media-base-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@platejs/media"
+   ],
+   "url": "https://platejs.org/r/media-base-kit.json"
+  },
+  {
+   "name": "media-embed-node",
+   "type": "ui",
+   "title": "Media Embed Element",
+   "description": "A component for embedded media content with resizing and caption support.",
+   "component": "embed",
+   "surface": null,
+   "dependencies": [
+    "@platejs/media",
+    "@platejs/resizable",
+    "react-tweet",
+    "react-lite-youtube-embed"
+   ],
+   "url": "https://platejs.org/r/media-embed-node.json"
+  },
+  {
+   "name": "media-file-node",
+   "type": "ui",
+   "title": "Media File Element",
+   "description": "A file attachment component with download capability and caption.",
+   "component": "file-card",
+   "surface": null,
+   "dependencies": [
+    "@platejs/media",
+    "@platejs/resizable"
+   ],
+   "url": "https://platejs.org/r/media-file-node.json"
+  },
+  {
+   "name": "media-image-node",
+   "type": "ui",
+   "title": "Image Element",
+   "description": "Image element with lazy loading, resizing capabilities, and optional caption.",
+   "component": "image",
+   "surface": null,
+   "dependencies": [
+    "@platejs/media",
+    "@platejs/resizable"
+   ],
+   "url": "https://platejs.org/r/media-image-node.json"
+  },
+  {
+   "name": "media-kit",
+   "type": "component",
+   "title": null,
+   "description": "Media kit without API (see media-uploadthing-api for reference)",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@platejs/caption",
+    "@platejs/media"
+   ],
+   "url": "https://platejs.org/r/media-kit.json"
+  },
+  {
+   "name": "media-placeholder-node",
+   "type": "ui",
+   "title": "Media Placeholder Element",
+   "description": "A placeholder for media upload progress indication.",
+   "component": "node-editor",
+   "surface": null,
+   "dependencies": [
+    "@platejs/media",
+    "use-file-picker@2.1.2"
+   ],
+   "url": "https://platejs.org/r/media-placeholder-node.json"
+  },
+  {
+   "name": "media-preview-dialog",
+   "type": "ui",
+   "title": "Media Preview Dialog",
+   "description": "A modal component for previewing and manipulating images.",
+   "component": "modal",
+   "surface": null,
+   "dependencies": [
+    "@platejs/media"
+   ],
+   "url": "https://platejs.org/r/media-preview-dialog.json"
+  },
+  {
+   "name": "media-toolbar",
+   "type": "ui",
+   "title": "Media Toolbar",
+   "description": "A toolbar interface for media settings.",
+   "component": "toolbar",
+   "surface": null,
+   "dependencies": [
+    "@platejs/media"
+   ],
+   "url": "https://platejs.org/r/media-toolbar.json"
+  },
+  {
+   "name": "media-toolbar-button",
+   "type": "ui",
+   "title": "Media Toolbar Button",
+   "description": "Toolbar button for inserting and managing media.",
+   "component": "toolbar",
+   "surface": null,
+   "dependencies": [
+    "@platejs/media",
+    "use-file-picker@2.1.2",
+    "sonner"
+   ],
+   "url": "https://platejs.org/r/media-toolbar-button.json"
+  },
+  {
+   "name": "media-upload-toast",
+   "type": "ui",
+   "title": "Media Upload Toast",
+   "description": "Show toast notifications for media uploads.",
+   "component": "file-upload",
+   "surface": null,
+   "dependencies": [
+    "@platejs/media",
+    "sonner"
+   ],
+   "url": "https://platejs.org/r/media-upload-toast.json"
+  },
+  {
+   "name": "media-uploadthing-kit",
+   "type": "component",
+   "title": null,
+   "description": "media-kit + media-uploadthing-api",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://platejs.org/r/media-uploadthing-kit.json"
+  },
+  {
+   "name": "media-video-node",
+   "type": "ui",
+   "title": "Media Video Element",
+   "description": "A video player component with YouTube and file upload support.",
+   "component": "video-player",
+   "surface": null,
+   "dependencies": [
+    "@platejs/media",
+    "@platejs/resizable",
+    "react-player@3.3.1",
+    "react-lite-youtube-embed"
+   ],
+   "url": "https://platejs.org/r/media-video-node.json"
+  },
+  {
+   "name": "mention-base-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": "mentions",
+   "surface": null,
+   "dependencies": [
+    "@platejs/mention"
+   ],
+   "url": "https://platejs.org/r/mention-base-kit.json"
+  },
+  {
+   "name": "mention-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": "mentions",
+   "surface": null,
+   "dependencies": [
+    "@platejs/mention"
+   ],
+   "url": "https://platejs.org/r/mention-kit.json"
+  },
+  {
+   "name": "mention-node",
+   "type": "ui",
+   "title": "Mention Nodes",
+   "description": "A mention element with customizable prefix and label, powered by a combobox.",
+   "component": "mentions",
+   "surface": null,
+   "dependencies": [
+    "@platejs/mention"
+   ],
+   "url": "https://platejs.org/r/mention-node.json"
+  },
+  {
+   "name": "mode-toolbar-button",
+   "type": "ui",
+   "title": "Mode Toolbar Button",
+   "description": "A menu for switching between editor modes.",
+   "component": "toolbar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://platejs.org/r/mode-toolbar-button.json"
+  },
+  {
+   "name": "more-toolbar-button",
+   "type": "ui",
+   "title": "More Toolbar Button",
+   "description": "A menu for additional text formatting options.",
+   "component": "toolbar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://platejs.org/r/more-toolbar-button.json"
+  },
+  {
+   "name": "paragraph-node",
+   "type": "ui",
+   "title": "Paragraph Element",
+   "description": "A paragraph block with background color support.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://platejs.org/r/paragraph-node.json"
+  },
+  {
+   "name": "plate-types",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@platejs/comment",
+    "@platejs/excalidraw",
+    "@platejs/link",
+    "@platejs/media",
+    "@platejs/mention",
+    "@platejs/table",
+    "@platejs/toggle"
+   ],
+   "url": "https://platejs.org/r/plate-types.json"
+  },
+  {
+   "name": "remote-cursor-overlay",
+   "type": "ui",
+   "title": "Remote Cursor Overlay",
+   "description": "A cursor overlay to display multiplayer cursors in the yjs plugin.",
+   "component": "backdrop",
+   "surface": null,
+   "dependencies": [
+    "@slate-yjs/react"
+   ],
+   "url": "https://platejs.org/r/remote-cursor-overlay.json"
+  },
+  {
+   "name": "resize-handle",
+   "type": "ui",
+   "title": "Resize Handle",
+   "description": "A resizable wrapper with resize handles.",
+   "component": "resizable",
+   "surface": null,
+   "dependencies": [
+    "@platejs/resizable"
+   ],
+   "url": "https://platejs.org/r/resize-handle.json"
+  },
+  {
+   "name": "search-highlight-node",
+   "type": "ui",
+   "title": "Search Highlight Leaf",
+   "description": "A component that highlights search results in text.",
+   "component": "search-input",
+   "surface": "search-mobile",
+   "dependencies": [],
+   "url": "https://platejs.org/r/search-highlight-node.json"
+  },
+  {
+   "name": "select-editor",
+   "type": "ui",
+   "title": "Select Editor",
+   "description": "An editor to select tags.",
+   "component": "select",
+   "surface": null,
+   "dependencies": [
+    "fzf@0.5.2",
+    "@platejs/tag",
+    "@udecode/cmdk"
+   ],
+   "url": "https://platejs.org/r/select-editor.json"
+  },
+  {
+   "name": "settings-dialog",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": "modal",
+   "surface": "settings-web-app",
+   "dependencies": [
+    "@platejs/ai"
+   ],
+   "url": "https://platejs.org/r/settings-dialog.json"
+  },
+  {
+   "name": "slash-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@platejs/slash-command"
+   ],
+   "url": "https://platejs.org/r/slash-kit.json"
+  },
+  {
+   "name": "slash-node",
+   "type": "ui",
+   "title": "Slash Input Element",
+   "description": "A command input component for inserting various elements.",
+   "component": "node-editor",
+   "surface": null,
+   "dependencies": [
+    "@platejs/ai"
+   ],
+   "url": "https://platejs.org/r/slash-node.json"
+  },
+  {
+   "name": "slate-to-html",
+   "type": "block",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "next-themes"
+   ],
+   "url": "https://platejs.org/r/slate-to-html.json"
+  },
+  {
+   "name": "suggestion-base-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": "suggestion",
+   "surface": null,
+   "dependencies": [
+    "@platejs/suggestion"
+   ],
+   "url": "https://platejs.org/r/suggestion-base-kit.json"
+  },
+  {
+   "name": "suggestion-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": "suggestion",
+   "surface": null,
+   "dependencies": [
+    "@platejs/suggestion"
+   ],
+   "url": "https://platejs.org/r/suggestion-kit.json"
+  },
+  {
+   "name": "suggestion-node",
+   "type": "ui",
+   "title": "Suggestion Leaf",
+   "description": "A text component for suggestion.",
+   "component": "suggestion",
+   "surface": null,
+   "dependencies": [
+    "@platejs/suggestion"
+   ],
+   "url": "https://platejs.org/r/suggestion-node.json"
+  },
+  {
+   "name": "suggestion-toolbar-button",
+   "type": "ui",
+   "title": "Suggestion Toolbar Button",
+   "description": "A toolbar button for toggling suggestion mode in the editor.",
+   "component": "suggestion",
+   "surface": null,
+   "dependencies": [
+    "@platejs/suggestion"
+   ],
+   "url": "https://platejs.org/r/suggestion-toolbar-button.json"
+  },
+  {
+   "name": "tabbable-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@platejs/tabbable"
+   ],
+   "url": "https://platejs.org/r/tabbable-kit.json"
+  },
+  {
+   "name": "table-base-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": "table",
+   "surface": null,
+   "dependencies": [
+    "@platejs/table"
+   ],
+   "url": "https://platejs.org/r/table-base-kit.json"
+  },
+  {
+   "name": "table-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": "table",
+   "surface": null,
+   "dependencies": [
+    "@platejs/table"
+   ],
+   "url": "https://platejs.org/r/table-kit.json"
+  },
+  {
+   "name": "table-node",
+   "type": "ui",
+   "title": "Table Element",
+   "description": "A table component with floating toolbar and border customization.",
+   "component": "table",
+   "surface": null,
+   "dependencies": [
+    "@platejs/table",
+    "@radix-ui/react-popover"
+   ],
+   "url": "https://platejs.org/r/table-node.json"
+  },
+  {
+   "name": "table-toolbar-button",
+   "type": "ui",
+   "title": "Table Toolbar Button",
+   "description": "A menu for table manipulation and formatting.",
+   "component": "table",
+   "surface": null,
+   "dependencies": [
+    "@platejs/table"
+   ],
+   "url": "https://platejs.org/r/table-toolbar-button.json"
+  },
+  {
+   "name": "tag-node",
+   "type": "ui",
+   "title": "Tag Element",
+   "description": "A tag element component with selection states and styling.",
+   "component": "tag",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://platejs.org/r/tag-node.json"
+  },
+  {
+   "name": "toc-base-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": "in-page-navigation",
+   "surface": null,
+   "dependencies": [
+    "@platejs/toc"
+   ],
+   "url": "https://platejs.org/r/toc-base-kit.json"
+  },
+  {
+   "name": "toc-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": "in-page-navigation",
+   "surface": null,
+   "dependencies": [
+    "@platejs/toc"
+   ],
+   "url": "https://platejs.org/r/toc-kit.json"
+  },
+  {
+   "name": "toc-node",
+   "type": "ui",
+   "title": "TOC Element",
+   "description": "A table of contents component with links to document headings.",
+   "component": "in-page-navigation",
+   "surface": null,
+   "dependencies": [
+    "@platejs/toc"
+   ],
+   "url": "https://platejs.org/r/toc-node.json"
+  },
+  {
+   "name": "toggle-base-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": "toggle-button",
+   "surface": null,
+   "dependencies": [
+    "@platejs/toggle"
+   ],
+   "url": "https://platejs.org/r/toggle-base-kit.json"
+  },
+  {
+   "name": "toggle-kit",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": "toggle-button",
+   "surface": null,
+   "dependencies": [
+    "@platejs/toggle"
+   ],
+   "url": "https://platejs.org/r/toggle-kit.json"
+  },
+  {
+   "name": "toggle-node",
+   "type": "ui",
+   "title": "Toggle Element",
+   "description": "A collapsible component for toggling content visibility.",
+   "component": "toggle-button",
+   "surface": null,
+   "dependencies": [
+    "@platejs/toggle"
+   ],
+   "url": "https://platejs.org/r/toggle-node.json"
+  },
+  {
+   "name": "toggle-toolbar-button",
+   "type": "ui",
+   "title": "Toggle Toolbar Button",
+   "description": "A toolbar button for expanding and collapsing blocks.",
+   "component": "toggle-button",
+   "surface": null,
+   "dependencies": [
+    "@platejs/toggle"
+   ],
+   "url": "https://platejs.org/r/toggle-toolbar-button.json"
+  },
+  {
+   "name": "toolbar",
+   "type": "ui",
+   "title": "Toolbar",
+   "description": "A customizable toolbar component with various button styles and group",
+   "component": "toolbar",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-toolbar"
+   ],
+   "url": "https://platejs.org/r/toolbar.json"
+  },
+  {
+   "name": "transforms",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@platejs/callout",
+    "@platejs/code-block",
+    "@platejs/date",
+    "@platejs/toc",
+    "@platejs/layout",
+    "@platejs/link",
+    "@platejs/math",
+    "@platejs/media",
+    "@platejs/table"
+   ],
+   "url": "https://platejs.org/r/transforms.json"
+  },
+  {
+   "name": "transforms-classic",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "@platejs/callout",
+    "@platejs/code-block",
+    "@platejs/date",
+    "@platejs/layout",
+    "@platejs/link",
+    "@platejs/list-classic",
+    "@platejs/math",
+    "@platejs/media",
+    "@platejs/table"
+   ],
+   "url": "https://platejs.org/r/transforms-classic.json"
+  },
+  {
+   "name": "turn-into-toolbar-button",
+   "type": "ui",
+   "title": "Turn Into Toolbar Button",
+   "description": "A menu for converting between different block types.",
+   "component": "message",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://platejs.org/r/turn-into-toolbar-button.json"
+  },
+  {
+   "name": "turn-into-toolbar-classic-button",
+   "type": "ui",
+   "title": "Turn Into Toolbar Classic Button",
+   "description": "A dropdown to convert block types with classic list support.",
+   "component": "message",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://platejs.org/r/turn-into-toolbar-classic-button.json"
+  },
+  {
+   "name": "use-chat",
+   "type": "component",
+   "title": null,
+   "description": null,
+   "component": "conversation",
+   "surface": "chat-mobile",
+   "dependencies": [
+    "@ai-sdk/react@4",
+    "@faker-js/faker"
+   ],
+   "url": "https://platejs.org/r/use-chat.json"
+  }
+ ]
+}

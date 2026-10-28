@@ -27,7 +27,9 @@ jobs:
           cache: npm
 
       - name: Install dependencies
-        run: npm ci --no-audit --no-fund
+        run: |
+          npm ci --no-audit --no-fund
+          npm ci --prefix server --no-audit --no-fund
 
       - name: Audit dependencies
         run: npm audit --audit-level=high
@@ -48,3 +50,11 @@ jobs:
           trap 'docker logs index-ci; docker rm -f index-ci' EXIT
           curl --retry 10 --retry-all-errors --retry-delay 1 --retry-max-time 30 --max-time 10 -fsS http://127.0.0.1:8099/ -o /dev/null
           curl -fsS http://127.0.0.1:8099/api/stats.json | jq -e '.resources > 0'
+
+      - name: Build and check the search server
+        run: |
+          docker build -f server/Dockerfile -t index-search-ci .
+          docker run -d --name index-search-ci -e INDEX_DENSE=off -p 127.0.0.1:8787:8787 index-search-ci
+          trap 'docker logs index-search-ci; docker rm -f index-search-ci' EXIT
+          curl --retry 20 --retry-all-errors --retry-delay 1 --retry-max-time 60 --max-time 10 -fsS http://127.0.0.1:8787/health | jq -e '.resources > 0'
+          curl -fsS 'http://127.0.0.1:8787/search?q=date+range+picker&framework=react' | jq -e '.results | length > 0'

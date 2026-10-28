@@ -104,7 +104,7 @@
     "not-applicable"
    ],
    "license": [
-    "unknown"
+    "not-applicable"
    ],
    "pricing": [
     "free"
@@ -518,10 +518,11 @@
     "not-applicable"
    ],
    "license": [
-    "no-license"
+    "mit"
    ],
    "pricing": [
-    "free"
+    "free",
+    "open-source"
    ],
    "distribution": [
     "agent-skill",
@@ -856,7 +857,8 @@
     "unknown"
    ],
    "pricing": [
-    "free"
+    "free",
+    "open-source"
    ],
    "distribution": [
     "web-app"
@@ -1840,7 +1842,9 @@
     "unknown"
    ],
    "pricing": [
-    "free-trial"
+    "free-trial",
+    "usage-based",
+    "freemium"
    ],
    "distribution": [
     "saas",
@@ -1921,7 +1925,8 @@
    ],
    "pricing": [
     "subscription",
-    "one-time"
+    "one-time",
+    "free-trial"
    ],
    "distribution": [
     "desktop-app"
@@ -1995,7 +2000,8 @@
   "facets": {
    "framework": [
     "react",
-    "next"
+    "next",
+    "vanilla"
    ],
    "styling": [
     "unknown"
@@ -2070,6 +2076,7 @@
   "id": "depo:j57afv2wr3k1y3x4k3szbmx4qs8da834",
   "slug": "developer-index",
   "url": "https://www.firecrawl.dev/developer-index",
+  "part_of": "depo:j571rareykg7vghxzskq4d8ted7xcggg",
   "name": "Firecrawl Developer Index",
   "tagline": "Search API over 70M+ GitHub READMEs, issues, pull requests, and docs for coding agents",
   "description": "Developer Index, from Firecrawl, is a search index for coding agents. One endpoint searches more than 70 million GitHub READMEs, issues, merged pull requests, and documentation pages. Firecrawl claims the highest recall of any coding-specific index, and no API key is needed to start.",
@@ -2169,10 +2176,11 @@
     "not-applicable"
    ],
    "license": [
-    "unknown"
+    "not-applicable"
    ],
    "pricing": [
-    "freemium"
+    "freemium",
+    "open-source"
    ],
    "distribution": [
     "web-app",
@@ -2420,7 +2428,9 @@
    ],
    "pricing": [
     "freemium",
-    "open-source"
+    "open-source",
+    "free-trial",
+    "subscription"
    ],
    "distribution": [
     "saas",

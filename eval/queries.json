@@ -1,0 +1,3094 @@
+[
+ {
+  "id": "q001",
+  "intent": "implement",
+  "query": "date range picker",
+  "filters": {
+   "framework": [
+    "react"
+   ],
+   "styling": [
+    "tailwind-v4"
+   ],
+   "component": "date-range-picker"
+  },
+  "context": "Building a booking form in Next/React with Tailwind v4; want an accessible date range picker component, React required, Tailwind preferred.",
+  "expect_none": false,
+  "ideal": "React + Tailwind v4 accessible date-range picker component: Intent UI, HeroUI, Untitled UI, Kumo, React Aria",
+  "split": "dev"
+ },
+ {
+  "id": "q002",
+  "intent": "implement",
+  "query": "combobox with async search and multi select",
+  "filters": {
+   "framework": [
+    "react"
+   ],
+   "component": "combobox"
+  },
+  "context": "Needs a React combobox supporting async options and multiple selection; must be React.",
+  "expect_none": false,
+  "ideal": "React combobox with multi-select (and async): Intent UI, Mantine, Astryx; Headless UI / React Aria / Base UI comboboxes",
+  "split": "test"
+ },
+ {
+  "id": "q003",
+  "intent": "implement",
+  "query": "data table with sorting filtering pagination",
+  "filters": {
+   "framework": [
+    "react"
+   ],
+   "styling": [
+    "tailwind-v4"
+   ]
+  },
+  "context": "Admin screen needs a sortable, filterable, paginated table (TanStack style); React, Tailwind preferred.",
+  "expect_none": false,
+  "ideal": "React + Tailwind TanStack-style data table with sort/filter/pagination: shadcn/ui Data Table, ReUI Data Grid, Kibo UI table",
+  "split": "dev"
+ },
+ {
+  "id": "q004",
+  "intent": "implement",
+  "query": "kanban board drag and drop",
+  "filters": {
+   "framework": [
+    "react"
+   ]
+  },
+  "context": "Task tracker needs a kanban board with draggable cards between columns; React only.",
+  "expect_none": false,
+  "ideal": "React drag-and-drop kanban board component: shadcn-kanban-board, Kibo UI Kanban, ReUI Kanban",
+  "split": "test"
+ },
+ {
+  "id": "q005",
+  "intent": "implement",
+  "query": "file upload dropzone with progress bars",
+  "filters": {
+   "component": "file-upload"
+  },
+  "context": "Wants a drag-and-drop file uploader with per-file progress; any framework acceptable, React preferred.",
+  "expect_none": false,
+  "ideal": "Drag-and-drop file uploader with per-file progress, React preferred: Better Upload, then React library dropzones (Untitled UI, Kibo, Mantine, Ant)",
+  "split": "dev"
+ },
+ {
+  "id": "q006",
+  "intent": "implement",
+  "query": "rte for react, tiptap-like",
+  "filters": {
+   "framework": [
+    "react"
+   ],
+   "component": "rich-text-editor"
+  },
+  "context": "Needs a rich text editor component for a React notes app; a Tiptap/Lexical-based UI with toolbar is ideal.",
+  "expect_none": false,
+  "ideal": "React rich text editor UI with toolbar on Tiptap/Lexical/Slate: Kibo UI editor, Plate; Tiptap headless; Mantine RTE",
+  "split": "test"
+ },
+ {
+  "id": "q007",
+  "intent": "implement",
+  "query": "toast notifications for svelte",
+  "filters": {
+   "framework": [
+    "svelte"
+   ]
+  },
+  "context": "Svelte app needs a toast/notification stack; must work with Svelte.",
+  "expect_none": false,
+  "ideal": "Toast/notification stack usable in Svelte: Ark UI Toast (Svelte), then Flowbite/Carbon/daisyUI/Preline toasts",
+  "split": "dev"
+ },
+ {
+  "id": "q008",
+  "intent": "implement",
+  "query": "command palette cmd+k",
+  "filters": {
+   "framework": [
+    "next"
+   ],
+   "component": "command-palette"
+  },
+  "context": "Next.js app needs a Cmd+K command palette with fuzzy search and groups; React-compatible.",
+  "expect_none": false,
+  "ideal": "React/Next Cmd+K command palette with search and groups: shadcn/ui Command (cmdk), Mantine Spotlight",
+  "split": "test"
+ },
+ {
+  "id": "q009",
+  "intent": "implement",
+  "query": "otp input 6 digits auto advance",
+  "filters": {
+   "component": "otp-input",
+   "framework": [
+    "react"
+   ]
+  },
+  "context": "Verification screen needs a 6-digit OTP input with paste support; React.",
+  "expect_none": false,
+  "ideal": "React 6-digit OTP input with paste: shadcn/ui InputOTP, Base UI OTP Field, then library pin inputs",
+  "split": "dev"
+ },
+ {
+  "id": "q010",
+  "intent": "implement",
+  "query": "collapsible sidebar navigation with nested items",
+  "filters": {
+   "framework": [
+    "next"
+   ],
+   "styling": [
+    "tailwind-v4"
+   ],
+   "component": "sidebar"
+  },
+  "context": "Dashboard shell needs a collapsible sidebar with nested groups; Next + Tailwind v4.",
+  "expect_none": false,
+  "ideal": "Next + Tailwind v4 collapsible sidebar with nested groups: shadcn/ui Sidebar and sidebar blocks; then ReUI/Intent/Untitled app shells",
+  "split": "test"
+ },
+ {
+  "id": "q011",
+  "intent": "implement",
+  "query": "area chart and bar chart components for dashboards",
+  "filters": {
+   "component": "chart",
+   "framework": [
+    "react"
+   ]
+  },
+  "context": "Needs ready-made chart components (area, bar, line) in React, ideally styled for shadcn.",
+  "expect_none": false,
+  "ideal": "React chart components (area/bar/line) styled for shadcn: shadcn/ui Charts (Recharts) and Tremor",
+  "split": "dev"
+ },
+ {
+  "id": "q012",
+  "intent": "implement",
+  "query": "animated number ticker count up",
+  "filters": {
+   "component": "count-up"
+  },
+  "context": "Landing page stats need an animated counting number component; React/Tailwind ideal.",
+  "expect_none": false,
+  "ideal": "Animated count-up number component, React/Tailwind: NumberFlow, Magic UI Number Ticker, React Bits Count Up",
+  "split": "test"
+ },
+ {
+  "id": "q013",
+  "intent": "implement",
+  "query": "scroll driven reveal animation without framer motion",
+  "filters": {
+   "component": "scroll-reveal"
+  },
+  "context": "Wants scroll-triggered reveal effects that do NOT depend on framer-motion (CSS or lightweight lib).",
+  "expect_none": false,
+  "ideal": "Scroll-triggered reveal without framer-motion: GSAP ScrollTrigger; CSS/pure-JS reveal kits (Kinetics, anime.js); Motion-based kits violate",
+  "split": "dev"
+ },
+ {
+  "id": "q014",
+  "intent": "implement",
+  "query": "page transitions next app router",
+  "filters": {
+   "framework": [
+    "next"
+   ],
+   "component": "page-transition"
+  },
+  "context": "Needs smooth route transitions in Next App Router; must work with Next.",
+  "expect_none": false,
+  "ideal": "Route/page transitions for Next App Router: Motion (AnimatePresence) and Next-ready transition kits; no dedicated next-view-transitions record",
+  "split": "test"
+ },
+ {
+  "id": "q015",
+  "intent": "implement",
+  "query": "infinite logo marquee",
+  "filters": {
+   "component": "marquee"
+  },
+  "context": "Logo cloud on landing page needs a seamless infinite marquee; React + Tailwind ideal.",
+  "expect_none": false,
+  "ideal": "Seamless infinite logo marquee, React + Tailwind: Magic UI Marquee, React Fast Marquee; then registry marquees (Kibo, Eldora, Tailark logo clouds)",
+  "split": "dev"
+ },
+ {
+  "id": "q016",
+  "intent": "implement",
+  "query": "magnetic button hover effect",
+  "context": "Wants a magnetic cursor-following button micro-interaction snippet or component.",
+  "expect_none": false,
+  "ideal": "Magnetic cursor-following button component/snippet: Motion Primitives Magnetic, Luxe magnetic button, Easy UI magnetic-button, Kinetics",
+  "split": "test"
+ },
+ {
+  "id": "q017",
+  "intent": "implement",
+  "query": "text reveal split words on scroll gsap",
+  "context": "Hero headline should reveal word by word on scroll; GSAP or similar acceptable.",
+  "expect_none": false,
+  "ideal": "Word-by-word scroll text reveal: GSAP SplitText + ScrollTrigger; React Bits split/scroll text; GSAP component kits",
+  "split": "dev"
+ },
+ {
+  "id": "q018",
+  "intent": "implement",
+  "query": "3d tilt card on hover",
+  "filters": {
+   "component": "hover-effect"
+  },
+  "context": "Pricing cards should tilt in 3D following the mouse; React component preferred.",
+  "expect_none": false,
+  "ideal": "Mouse-following 3D tilt card in React: Aceternity 3D card tilt, Motion Primitives Tilt",
+  "split": "test"
+ },
+ {
+  "id": "q019",
+  "intent": "implement",
+  "query": "spotlight cursor glow card",
+  "filters": {
+   "styling": [
+    "tailwind-any"
+   ]
+  },
+  "context": "Feature cards with mouse-follow spotlight border glow; Tailwind-based.",
+  "expect_none": false,
+  "ideal": "Tailwind feature cards with mouse-follow spotlight/border glow: Motion Primitives spotlight + glow effect, Aceternity Glowing Effect",
+  "split": "dev"
+ },
+ {
+  "id": "q020",
+  "intent": "implement",
+  "query": "sortable list dnd for vue",
+  "filters": {
+   "framework": [
+    "vue"
+   ],
+   "component": "drag-and-drop"
+  },
+  "context": "Vue 3 app needs sortable drag-and-drop lists; must support Vue.",
+  "expect_none": false,
+  "ideal": "Vue 3 sortable drag-and-drop lists: dnd kit (Vue bindings, sortable)",
+  "split": "test"
+ },
+ {
+  "id": "q021",
+  "intent": "implement",
+  "query": "phone number input with country flags",
+  "filters": {
+   "component": "phone-input"
+  },
+  "context": "Signup form needs an international phone input with country selector.",
+  "expect_none": false,
+  "ideal": "International phone input with country selector: ReUI Phone Input; form-builder/library phone fields are partial",
+  "split": "dev"
+ },
+ {
+  "id": "q022",
+  "intent": "implement",
+  "query": "color picker popover hex rgba",
+  "filters": {
+   "component": "color-picker"
+  },
+  "context": "Theme editor needs a color picker with hex/rgba input and alpha slider.",
+  "expect_none": false,
+  "ideal": "Color picker with hex/rgba input and alpha: Intent UI colour-picker suite, React Aria color widgets; then library ColorPickers",
+  "split": "test"
+ },
+ {
+  "id": "q023",
+  "intent": "implement",
+  "query": "tag input, no tailwind",
+  "filters": {
+   "styling": [
+    "css-modules"
+   ],
+   "component": "tag-input"
+  },
+  "context": "Project uses CSS modules; needs a tag/chips input that does not require Tailwind.",
+  "expect_none": false,
+  "ideal": "Tag/chips input that needs no Tailwind (CSS modules project): Mantine TagsInput; headless/CSS-in-JS tag inputs (Ark, React Aria, Primer)",
+  "split": "dev"
+ },
+ {
+  "id": "q024",
+  "intent": "implement",
+  "query": "multi step form wizard with progress stepper",
+  "filters": {
+   "surface": "multi-step-form"
+  },
+  "context": "Onboarding wizard with step indicator and validation per step.",
+  "expect_none": false,
+  "ideal": "Multi-step onboarding wizard with step indicator and per-step validation: Mantine Stepper + form, Ant Design Steps + Form",
+  "split": "test"
+ },
+ {
+  "id": "q025",
+  "intent": "implement",
+  "query": "virtualized infinite scroll list",
+  "filters": {
+   "component": "infinite-scroll"
+  },
+  "context": "Feed with thousands of items needs a virtualized infinite list; React preferred.",
+  "expect_none": false,
+  "ideal": "Virtualized infinite list for a large React feed: no dedicated virtualizer lib; Intent UI Virtualizer and Supabase infinite-query block are closest",
+  "split": "dev"
+ },
+ {
+  "id": "q026",
+  "intent": "implement",
+  "query": "accessible tooltip and popover primitives",
+  "filters": {
+   "component": "popover"
+  },
+  "context": "Wants unstyled accessible primitives for tooltip/popover; headless acceptable.",
+  "expect_none": false,
+  "ideal": "Headless accessible popover+tooltip primitives: Radix, Base UI, React Aria, Ark UI.",
+  "split": "test"
+ },
+ {
+  "id": "q027",
+  "intent": "implement",
+  "query": "bottom sheet drawer for mobile web",
+  "filters": {
+   "component": "drawer"
+  },
+  "context": "Mobile web needs a swipe-to-dismiss bottom drawer; React.",
+  "expect_none": false,
+  "ideal": "React swipe-to-dismiss bottom drawer (Vaul-style); shadcn Drawer / Base UI Drawer closest, no Vaul record.",
+  "split": "dev"
+ },
+ {
+  "id": "q028",
+  "intent": "implement",
+  "query": "angular datepicker not material",
+  "filters": {
+   "framework": [
+    "angular"
+   ],
+   "component": "date-picker"
+  },
+  "context": "Angular project wants a date picker that is not Angular Material.",
+  "expect_none": false,
+  "ideal": "Non-Material Angular date picker: Flowbite (Angular wrapper, datepicker) or Carbon Angular.",
+  "split": "test"
+ },
+ {
+  "id": "q029",
+  "intent": "implement",
+  "query": "svelte 5 accordion",
+  "filters": {
+   "framework": [
+    "svelte"
+   ],
+   "component": "accordion"
+  },
+  "context": "Needs an accordion built for Svelte 5 runes; Svelte required.",
+  "expect_none": false,
+  "ideal": "Svelte accordion: Ark UI Svelte package (headless); Flowbite/Carbon Svelte builds second.",
+  "split": "dev"
+ },
+ {
+  "id": "q030",
+  "intent": "implement",
+  "query": "chat message list with streaming markdown",
+  "filters": {
+   "component": "streaming-text"
+  },
+  "context": "AI chat app needs streaming markdown rendering with code blocks.",
+  "expect_none": false,
+  "ideal": "AI chat message list with streaming markdown + code blocks: Vercel AI Elements or assistant-ui.",
+  "split": "test"
+ },
+ {
+  "id": "q031",
+  "intent": "implement",
+  "query": "prompt input with attachments and model picker",
+  "filters": {
+   "component": "prompt-input",
+   "framework": [
+    "react"
+   ]
+  },
+  "context": "ChatGPT-style composer with file attach and model selector; React.",
+  "expect_none": false,
+  "ideal": "React ChatGPT-style composer with attachments and model selector: AI Elements PromptInput or assistant-ui Composer.",
+  "split": "dev"
+ },
+ {
+  "id": "q032",
+  "intent": "implement",
+  "query": "react native bottom tab bar",
+  "filters": {
+   "framework": [
+    "react-native"
+   ],
+   "platform": [
+    "ios",
+    "android"
+   ]
+  },
+  "context": "Mobile app needs customizable bottom tabs; React Native required.",
+  "expect_none": false,
+  "ideal": "React Native bottom tab bar component: gluestack-ui tab-bar; paid RN screen kits second.",
+  "split": "test"
+ },
+ {
+  "id": "q033",
+  "intent": "implement",
+  "query": "swiftui onboarding carousel",
+  "filters": {
+   "framework": [
+    "swiftui"
+   ]
+  },
+  "context": "iOS onboarding paging carousel in SwiftUI.",
+  "expect_none": true,
+  "ideal": "No SwiftUI onboarding carousel code in catalog; only iOS onboarding inspiration and HIG guidance.",
+  "split": "dev"
+ },
+ {
+  "id": "q034",
+  "intent": "implement",
+  "query": "skeleton loader shimmer",
+  "filters": {
+   "component": "skeleton"
+  },
+  "context": "Loading states for cards and tables with shimmer animation.",
+  "expect_none": false,
+  "ideal": "Skeleton + shimmer loaders: Loading UI (MIT shadcn registry of skeletons and shimmer).",
+  "split": "dev"
+ },
+ {
+  "id": "q035",
+  "intent": "implement",
+  "query": "quantity stepper plus minus input",
+  "filters": {
+   "component": "quantity-stepper"
+  },
+  "context": "Cart line item needs a +/- quantity control.",
+  "expect_none": false,
+  "ideal": "+/- quantity control: dedicated quantity-stepper (HyperUI, OpenSource UI, Kinetics) or a NumberField with increment buttons.",
+  "split": "test"
+ },
+ {
+  "id": "q036",
+  "intent": "implement",
+  "query": "sankey diagram",
+  "filters": {
+   "component": "sankey-diagram"
+  },
+  "context": "Analytics page needs a Sankey flow diagram; React/D3 fine.",
+  "expect_none": false,
+  "ideal": "React Sankey component: Cloudflare Kumo (ECharts sankey) or Mantine Charts Sankey.",
+  "split": "dev"
+ },
+ {
+  "id": "q037",
+  "intent": "implement",
+  "query": "animated tabs sliding indicator",
+  "filters": {
+   "component": "tabs"
+  },
+  "context": "Tabs with a smooth sliding underline/pill between tabs.",
+  "expect_none": false,
+  "ideal": "Tabs with animated sliding indicator: Transitions.dev tab slide, Motion layoutId-based animated tab components.",
+  "split": "test"
+ },
+ {
+  "id": "q038",
+  "intent": "implement",
+  "query": "confetti burst on success",
+  "filters": {
+   "component": "confetti"
+  },
+  "context": "Celebrate completed onboarding with a confetti effect.",
+  "expect_none": false,
+  "ideal": "Confetti burst component: Magic UI Confetti.",
+  "split": "dev"
+ },
+ {
+  "id": "q039",
+  "intent": "implement",
+  "query": "typewriter text effect",
+  "filters": {
+   "component": "typewriter-text"
+  },
+  "context": "Hero tagline should type out and cycle phrases.",
+  "expect_none": false,
+  "ideal": "Typewriter / rotating-phrase text component: Magic UI, Aceternity Typewriter Effect, React Bits.",
+  "split": "test"
+ },
+ {
+  "id": "q040",
+  "intent": "implement",
+  "query": "resizable split panes",
+  "filters": {
+   "component": "resizable"
+  },
+  "context": "IDE-like layout with draggable resizable panels; React.",
+  "expect_none": false,
+  "ideal": "Draggable resizable panel groups in React: shadcn/ui Resizable (react-resizable-panels).",
+  "split": "dev"
+ },
+ {
+  "id": "q041",
+  "intent": "template",
+  "query": "saas landing page template",
+  "filters": {
+   "framework": [
+    "next"
+   ],
+   "styling": [
+    "tailwind-v4"
+   ]
+  },
+  "context": "Needs a SaaS marketing landing page starter in Next + Tailwind v4; free or open source preferred.",
+  "expect_none": false,
+  "ideal": "Free Next.js + Tailwind v4 SaaS landing starter: shadcn-ui-blocks' free Next templates; paid kits (Tailwind Plus, shadcnblocks) next.",
+  "split": "dev"
+ },
+ {
+  "id": "q042",
+  "intent": "template",
+  "query": "pricing page with monthly yearly toggle",
+  "filters": {
+   "surface": "pricing-website"
+  },
+  "context": "A pricing section block with billing toggle and 3 tiers.",
+  "expect_none": false,
+  "ideal": "Pricing section with monthly/yearly toggle and tiers: OpenSource UI (billing toggle + pricing table); shadcn block libraries next.",
+  "split": "test"
+ },
+ {
+  "id": "q043",
+  "intent": "template",
+  "query": "admin dashboard template shadcn",
+  "filters": {
+   "framework": [
+    "next"
+   ],
+   "surface": "admin-panel"
+  },
+  "context": "Free admin dashboard starter using shadcn/ui on Next.",
+  "expect_none": false,
+  "ideal": "Free shadcn/ui Next.js admin dashboard: Watermelon UI Dashboards or TailwindAdmin free tier.",
+  "split": "dev"
+ },
+ {
+  "id": "q044",
+  "intent": "template",
+  "query": "auth pages login signup forgot password",
+  "filters": {
+   "surface": "login-web-app"
+  },
+  "context": "Block set for login, signup and reset password screens.",
+  "expect_none": false,
+  "ideal": "Login/signup/forgot-password block set: hextaui auth blocks, Supabase UI library, Untitled UI.",
+  "split": "test"
+ },
+ {
+  "id": "q045",
+  "intent": "template",
+  "query": "docs site starter",
+  "filters": {
+   "surface": "api-documentation"
+  },
+  "context": "Documentation website template with sidebar and search; Next/Astro fine.",
+  "expect_none": false,
+  "ideal": "Docs site framework/starter with sidebar and search: Fumadocs (Next.js, MIT).",
+  "split": "dev"
+ },
+ {
+  "id": "q046",
+  "intent": "template",
+  "query": "developer portfolio template",
+  "filters": {
+   "framework": [
+    "astro"
+   ]
+  },
+  "context": "Astro portfolio starter for a developer; open source.",
+  "expect_none": true,
+  "ideal": "No open-source Astro developer-portfolio starter in catalog; only paid Astro templates, React portfolio kits and inspiration.",
+  "split": "dev"
+ },
+ {
+  "id": "q047",
+  "intent": "template",
+  "query": "minimal blog template mdx",
+  "filters": {
+   "surface": "blog"
+  },
+  "context": "Blog starter with MDX posts and good typography.",
+  "expect_none": false,
+  "ideal": "MDX blog starter: no dedicated record; HTMLrev index (Blog section of free templates) is best, Velite/Zenblog partial.",
+  "split": "test"
+ },
+ {
+  "id": "q048",
+  "intent": "template",
+  "query": "ecommerce product page layout",
+  "filters": {
+   "surface": "single-item-detail"
+  },
+  "context": "Product detail page block with gallery, variants and add to cart.",
+  "expect_none": false,
+  "ideal": "Product detail block with gallery/variants/add-to-cart: Tailwind Plus ecommerce product overviews or shadcnblocks product blocks.",
+  "split": "dev"
+ },
+ {
+  "id": "q049",
+  "intent": "template",
+  "query": "onboarding flow checklist block",
+  "filters": {
+   "surface": "onboarding-checklist"
+  },
+  "context": "Onboarding checklist UI block for a web app.",
+  "expect_none": false,
+  "ideal": "Onboarding checklist block for a web app: shadcn-ui-blocks onboarding blocks.",
+  "split": "test"
+ },
+ {
+  "id": "q050",
+  "intent": "template",
+  "query": "hero section blocks with gradient",
+  "filters": {
+   "category": "blocks-templates-themes"
+  },
+  "context": "Collection of hero section variants, Tailwind.",
+  "expect_none": false,
+  "ideal": "Tailwind hero-section block collection with gradient variants: shadcnblocks (247 heroes) or MVPBlocks.",
+  "split": "dev"
+ },
+ {
+  "id": "q051",
+  "intent": "template",
+  "query": "tailwind v4 dashboard kit, free",
+  "filters": {
+   "styling": [
+    "tailwind-v4"
+   ],
+   "pricing": [
+    "free"
+   ]
+  },
+  "context": "Free Tailwind v4 dashboard kit; must be free.",
+  "expect_none": false,
+  "ideal": "Free MIT Tailwind dashboard kits: Watermelon UI dashboards, Tremor blocks/templates",
+  "split": "test"
+ },
+ {
+  "id": "q052",
+  "intent": "template",
+  "query": "vue admin template",
+  "filters": {
+   "framework": [
+    "vue"
+   ]
+  },
+  "context": "Vue 3 admin template with charts and tables.",
+  "expect_none": false,
+  "ideal": "TailwindAdmin's Vue flavour is the only Vue admin template; HTMLrev indexes others",
+  "split": "dev"
+ },
+ {
+  "id": "q053",
+  "intent": "template",
+  "query": "sveltekit saas starter",
+  "filters": {
+   "framework": [
+    "sveltekit"
+   ]
+  },
+  "context": "SvelteKit SaaS boilerplate with auth and billing pages.",
+  "expect_none": false,
+  "ideal": "No SvelteKit SaaS starter; HTMLrev's index (Svelte + boilerplates) is the closest",
+  "split": "test"
+ },
+ {
+  "id": "q054",
+  "intent": "template",
+  "query": "changelog page template",
+  "filters": {
+   "surface": "changelog"
+  },
+  "context": "Changelog page layout with timeline entries.",
+  "expect_none": false,
+  "ideal": "Block libraries with changelog blocks + timeline: shadcn-ui-blocks (free), Shadcnblocks",
+  "split": "dev"
+ },
+ {
+  "id": "q055",
+  "intent": "template",
+  "query": "waitlist landing page",
+  "filters": {
+   "surface": "waitlist"
+  },
+  "context": "Single-page waitlist signup with email capture.",
+  "expect_none": false,
+  "ideal": "Waitlist page code: Clerk waitlist page, waitlist-tagged block libraries, HTMLrev Coming Soon list",
+  "split": "test"
+ },
+ {
+  "id": "q056",
+  "intent": "template",
+  "query": "settings page layout with tabs",
+  "filters": {
+   "surface": "settings-web-app"
+  },
+  "context": "Account settings page block.",
+  "expect_none": false,
+  "ideal": "Account settings blocks: HextaUI's 22 settings blocks; then paid/free block libraries with settings screens",
+  "split": "dev"
+ },
+ {
+  "id": "q057",
+  "intent": "template",
+  "query": "ai chat app template",
+  "filters": {
+   "category": "ai-interface-kits"
+  },
+  "context": "Starter for an AI chat interface with sidebar history.",
+  "expect_none": false,
+  "ideal": "assistant-ui (ThreadList, chat history, sidebar); then AI chat kits with screens/blocks",
+  "split": "test"
+ },
+ {
+  "id": "q058",
+  "intent": "template",
+  "query": "shadcn registry of landing page sections",
+  "filters": {
+   "framework": [
+    "react"
+   ]
+  },
+  "context": "A shadcn-compatible registry with marketing sections installable via CLI.",
+  "expect_none": false,
+  "ideal": "shadcn registries of marketing sections: Tailark, Watermelon UI, UI TripleD, Shadcnblocks",
+  "split": "dev"
+ },
+ {
+  "id": "q059",
+  "intent": "template",
+  "query": "email templates react-email style",
+  "context": "Transactional email templates in React; open source.",
+  "expect_none": false,
+  "ideal": "React Email (MIT components + templates); emailcn as a smaller email-layout kit",
+  "split": "test"
+ },
+ {
+  "id": "q060",
+  "intent": "template",
+  "query": "mobile app ui kit figma",
+  "filters": {
+   "platform": [
+    "ios"
+   ]
+  },
+  "context": "Figma UI kit for iOS app design, free preferred.",
+  "expect_none": true,
+  "ideal": "No iOS Figma UI kit in the catalog; only marginal: Apple HIG, Figma kit marketplaces, iOS screen libraries",
+  "split": "test"
+ },
+ {
+  "id": "q061",
+  "intent": "template",
+  "query": "checkout page block",
+  "filters": {
+   "surface": "checkout"
+  },
+  "context": "Checkout form with address and payment sections.",
+  "expect_none": false,
+  "ideal": "Checkout blocks with address + payment: Tailwind Plus ecommerce, Shadcnblocks checkout/order summary",
+  "split": "dev"
+ },
+ {
+  "id": "q062",
+  "intent": "template",
+  "query": "bento grid features section",
+  "filters": {
+   "component": "bento-grid"
+  },
+  "context": "Features section laid out as bento grid.",
+  "expect_none": false,
+  "ideal": "Bento grid feature sections: Magic UI, Aceternity, Tailark, shadcn/studio bento blocks",
+  "split": "test"
+ },
+ {
+  "id": "q063",
+  "intent": "template",
+  "query": "footer blocks multi column",
+  "filters": {
+   "component": "footer"
+  },
+  "context": "Several footer layouts with link columns and newsletter.",
+  "expect_none": false,
+  "ideal": "Footer block sets with link columns + newsletter: Watermelon UI (31 footers), Tailwind Plus, Shadcnblocks, HyperUI",
+  "split": "dev"
+ },
+ {
+  "id": "q064",
+  "intent": "template",
+  "query": "wordpress free theme minimal",
+  "context": "Minimal free WordPress theme.",
+  "expect_none": true,
+  "ideal": "No WordPress theme in the catalog; Minimal Gallery's template index and Blocs (exports WP themes) are marginal",
+  "split": "dev"
+ },
+ {
+  "id": "q065",
+  "intent": "template",
+  "query": "webflow template for agency",
+  "filters": {
+   "framework": [
+    "webflow"
+   ]
+  },
+  "context": "Webflow agency site template.",
+  "expect_none": false,
+  "ideal": "Webflow template sources: BestWebsiteTemplate (scored, industry filters), Oversight Supply, Flowbase",
+  "split": "test"
+ },
+ {
+  "id": "q066",
+  "intent": "inspiration",
+  "query": "dark fintech dashboards",
+  "filters": {
+   "surface": "analytics"
+  },
+  "context": "Real screenshots of dark-mode fintech dashboards.",
+  "expect_none": false,
+  "ideal": "Real product-screen libraries with dashboard + dark-mode filters (Refero, Mobbin); fintech-heavy swipe files",
+  "split": "dev"
+ },
+ {
+  "id": "q067",
+  "intent": "inspiration",
+  "query": "editorial portfolio sites",
+  "context": "Examples of portfolios with editorial typography.",
+  "expect_none": false,
+  "ideal": "Portfolio galleries with typographic/editorial style filters: Gallereee, Siteinspire, One Page Love",
+  "split": "test"
+ },
+ {
+  "id": "q068",
+  "intent": "inspiration",
+  "query": "brutalist landing pages",
+  "context": "Neo-brutalist landing page examples.",
+  "expect_none": false,
+  "ideal": "One Page Love's Brutalism style filter on landing pages; neobrutalism kits as style examples",
+  "split": "dev"
+ },
+ {
+  "id": "q069",
+  "intent": "inspiration",
+  "query": "ios onboarding screens",
+  "filters": {
+   "platform": [
+    "ios"
+   ],
+   "surface": "onboarding-mobile"
+  },
+  "context": "Real iOS onboarding flow screenshots.",
+  "expect_none": false,
+  "ideal": "iOS flow libraries indexed by onboarding: Mobbin, ScreensDesign, Page Flows, Appllama",
+  "split": "test"
+ },
+ {
+  "id": "q070",
+  "intent": "inspiration",
+  "query": "empty state examples",
+  "filters": {
+   "surface": "empty-state"
+  },
+  "context": "Good empty state designs from real products.",
+  "expect_none": false,
+  "ideal": "Empty States gallery (235 real captures) and Refero's Empty State pattern",
+  "split": "dev"
+ },
+ {
+  "id": "q071",
+  "intent": "inspiration",
+  "query": "creative 404 pages",
+  "filters": {
+   "surface": "404"
+  },
+  "context": "Memorable 404 page designs.",
+  "expect_none": false,
+  "ideal": "404s.design (237 real 404 pages by style/interaction); section galleries with a 404 type",
+  "split": "test"
+ },
+ {
+  "id": "q072",
+  "intent": "inspiration",
+  "query": "pricing pages with toggles",
+  "filters": {
+   "surface": "pricing-website"
+  },
+  "context": "Pricing page examples with annual toggle.",
+  "expect_none": false,
+  "ideal": "Pricing Pages gallery and SaaSpo's pricing page type; section galleries with pricing blocks",
+  "split": "dev"
+ },
+ {
+  "id": "q073",
+  "intent": "inspiration",
+  "query": "ai startup landing pages",
+  "context": "Landing pages of AI startups showing current style.",
+  "expect_none": false,
+  "ideal": "Curated website galleries with an AI category: Recent (successor to Godly), Craftwork Curated, Seesaw",
+  "split": "test"
+ },
+ {
+  "id": "q074",
+  "intent": "inspiration",
+  "query": "glassmorphism ui examples",
+  "filters": {
+   "component": "glassmorphism"
+  },
+  "context": "Glass effect interfaces.",
+  "expect_none": false,
+  "ideal": "One Page Love's Glassmorphism style filter; shadcn-glass-ui and Aave's glass write-up as examples",
+  "split": "dev"
+ },
+ {
+  "id": "q075",
+  "intent": "inspiration",
+  "query": "checkout flows screenshots",
+  "filters": {
+   "surface": "checkout"
+  },
+  "context": "Checkout UX examples.",
+  "expect_none": false,
+  "ideal": "Flow libraries of real checkouts: Mobbin, Page Flows (Transactions & Purchases), Refero",
+  "split": "test"
+ },
+ {
+  "id": "q076",
+  "intent": "inspiration",
+  "query": "settings pages from top saas",
+  "filters": {
+   "surface": "settings-web-app"
+  },
+  "context": "Settings page examples.",
+  "expect_none": false,
+  "ideal": "App-screen galleries with a Settings page type (Refero, Nicely Done, SaaSFrame, Mobbin)",
+  "split": "dev"
+ },
+ {
+  "id": "q077",
+  "intent": "inspiration",
+  "query": "command palette designs",
+  "filters": {
+   "surface": "command-palette"
+  },
+  "context": "Real command palettes in products.",
+  "expect_none": false,
+  "ideal": "Galleries indexing real command palettes / search modals (SaaSFrame), plus big app-screen libraries",
+  "split": "test"
+ },
+ {
+  "id": "q078",
+  "intent": "inspiration",
+  "query": "mobile login screens",
+  "filters": {
+   "surface": "login-mobile"
+  },
+  "context": "Login screens on mobile.",
+  "expect_none": false,
+  "ideal": "Mobile app-screen libraries with login-mobile coverage (Mobbin, Page Flows, ScreensDesign)",
+  "split": "dev"
+ },
+ {
+  "id": "q079",
+  "intent": "inspiration",
+  "query": "minimal black and white websites",
+  "context": "Monochrome minimalist sites.",
+  "expect_none": false,
+  "ideal": "Site galleries with Minimal/Monotone filters (Httpster, Minimal Gallery)",
+  "split": "test"
+ },
+ {
+  "id": "q080",
+  "intent": "inspiration",
+  "query": "bento grid layouts in the wild",
+  "filters": {
+   "component": "bento-grid"
+  },
+  "context": "Real bento layouts.",
+  "expect_none": false,
+  "ideal": "BentoGrids gallery of real bento layouts; section galleries with a Bento type",
+  "split": "dev"
+ },
+ {
+  "id": "q081",
+  "intent": "inspiration",
+  "query": "paywall screens",
+  "filters": {
+   "surface": "paywall"
+  },
+  "context": "Mobile paywall design examples.",
+  "expect_none": false,
+  "ideal": "Mobile app-screen libraries with paywall coverage (Mobbin, Refero, Appllama, ASO Inspo, ScreensDesign)",
+  "split": "test"
+ },
+ {
+  "id": "q082",
+  "intent": "inspiration",
+  "query": "changelog pages beautiful",
+  "filters": {
+   "surface": "changelog"
+  },
+  "context": "Great changelog pages.",
+  "expect_none": false,
+  "ideal": "No dedicated changelog gallery; only block kits with changelog sections and launch-graphic galleries",
+  "split": "dev"
+ },
+ {
+  "id": "q083",
+  "intent": "inspiration",
+  "query": "dev tool homepages with dark mode",
+  "filters": {
+   "surface": "homepage"
+  },
+  "context": "Developer tool homepages.",
+  "expect_none": false,
+  "ideal": "Site galleries filterable by Developer Tools and dark mode (Seesaw), plus dark dev-infra site references",
+  "split": "dev"
+ },
+ {
+  "id": "q084",
+  "intent": "inspiration",
+  "query": "scrollytelling websites with 3d",
+  "context": "Award-style immersive sites.",
+  "expect_none": false,
+  "ideal": "Awwwards Three.js collection and landing.love (WebGL/ThreeJS/GSAP filters) for immersive 3D scroll sites",
+  "split": "test"
+ },
+ {
+  "id": "q085",
+  "intent": "inspiration",
+  "query": "dashboard ui not purple gradient",
+  "filters": {
+   "surface": "analytics"
+  },
+  "context": "Dashboards avoiding purple-gradient cliches.",
+  "expect_none": false,
+  "ideal": "Real-product dashboard screens (Refero, SaaSFrame, Nicely Done) rather than generated templates",
+  "split": "dev"
+ },
+ {
+  "id": "q086",
+  "intent": "inspiration",
+  "query": "error 500 pages",
+  "filters": {
+   "surface": "error-500"
+  },
+  "context": "Server error page designs.",
+  "expect_none": false,
+  "ideal": "Only 404s.design (error-page gallery, 404-focused) comes close; no 500-page gallery",
+  "split": "test"
+ },
+ {
+  "id": "q087",
+  "intent": "inspiration",
+  "query": "sign up flows",
+  "filters": {
+   "surface": "sign-up"
+  },
+  "context": "Sign-up flow examples.",
+  "expect_none": false,
+  "ideal": "Flow-indexed libraries with sign-up flows (Mobbin, Page Flows, Nicely Done, SaaSFrame)",
+  "split": "dev"
+ },
+ {
+  "id": "q088",
+  "intent": "inspiration",
+  "query": "retro y2k web design",
+  "context": "Y2K/retro aesthetic sites.",
+  "expect_none": false,
+  "ideal": "Galleries with a Retro / Net.Art style filter; nothing Y2K-specific",
+  "split": "test"
+ },
+ {
+  "id": "q089",
+  "intent": "inspiration",
+  "query": "ai chat interfaces examples",
+  "filters": {
+   "surface": "chat-web-app"
+  },
+  "context": "AI chat UI screenshots.",
+  "expect_none": false,
+  "ideal": "AI-chat UI references: Shape of AI patterns, Mobbin chat screens, studio AI chat shots",
+  "split": "dev"
+ },
+ {
+  "id": "q090",
+  "intent": "inspiration",
+  "query": "swiss typography posters style site",
+  "context": "Swiss/International style web.",
+  "expect_none": false,
+  "ideal": "Site galleries with Typographic/Grid filters (Siteinspire, Httpster) and type-in-use archives",
+  "split": "test"
+ },
+ {
+  "id": "q091",
+  "intent": "asset",
+  "query": "free geometric sans for ui",
+  "filters": {
+   "license": [
+    "ofl"
+   ]
+  },
+  "context": "Font: free geometric sans good for UI; must be OFL or free for commercial.",
+  "expect_none": false,
+  "ideal": "Fontshare (Satoshi, General Sans) and other OFL sources with geometric sans; Jost",
+  "split": "dev"
+ },
+ {
+  "id": "q092",
+  "intent": "asset",
+  "query": "variable serif for headlines",
+  "context": "Variable serif for editorial headlines; free preferred.",
+  "expect_none": false,
+  "ideal": "Google Fonts (variable axes, 349 serifs) and Fontshare; free variable serif catalogues",
+  "split": "test"
+ },
+ {
+  "id": "q093",
+  "intent": "asset",
+  "query": "monospace font for code with ligatures",
+  "context": "Coding monospace font with ligatures.",
+  "expect_none": false,
+  "ideal": "No ligature-specific coding font; Geist Mono and Google Fonts monospace are closest",
+  "split": "dev"
+ },
+ {
+  "id": "q094",
+  "intent": "asset",
+  "query": "fonts licensed for commercial apps",
+  "filters": {
+   "license": [
+    "ofl",
+    "font-eula"
+   ]
+  },
+  "context": "Needs fonts whose licence permits commercial app embedding.",
+  "expect_none": false,
+  "ideal": "Google Fonts/Fontshare (OFL, commercial use) and Type Foundry Directory (app licensing terms per foundry)",
+  "split": "test"
+ },
+ {
+  "id": "q095",
+  "intent": "asset",
+  "query": "inter alternative open source",
+  "filters": {
+   "license": [
+    "ofl"
+   ]
+  },
+  "context": "Open source alternative to Inter.",
+  "expect_none": false,
+  "ideal": "Geist Sans (OFL UI sans); Fontshare and Google Fonts for OFL Inter alternatives",
+  "split": "dev"
+ },
+ {
+  "id": "q096",
+  "intent": "asset",
+  "query": "display font quirky not paid",
+  "filters": {
+   "pricing": [
+    "free"
+   ]
+  },
+  "context": "Free display typeface with personality; must be free.",
+  "expect_none": false,
+  "ideal": "Free OFL foundries with quirky display faces (Velvetyne, Tunera)",
+  "split": "test"
+ },
+ {
+  "id": "q097",
+  "intent": "asset",
+  "query": "variable font pairings sans + serif",
+  "filters": {
+   "category": "typography"
+  },
+  "context": "Good pairings of fonts.",
+  "expect_none": false,
+  "ideal": "Curated font-pairing tools (Fontpair, Fonttrio, Inspotype pairings)",
+  "split": "dev"
+ },
+ {
+  "id": "q098",
+  "intent": "asset",
+  "query": "font self host next/font google",
+  "filters": {
+   "framework": [
+    "next"
+   ]
+  },
+  "context": "Fonts easily self-hosted in Next.",
+  "expect_none": false,
+  "ideal": "Geist (first-class next/font) and Google Fonts (next/font/google self-hosts); Fontsource",
+  "split": "test"
+ },
+ {
+  "id": "q099",
+  "intent": "asset",
+  "query": "outline icon set react package",
+  "filters": {
+   "framework": [
+    "react"
+   ],
+   "license": [
+    "mit"
+   ]
+  },
+  "context": "Outline icons with React package, MIT.",
+  "expect_none": false,
+  "ideal": "MIT outline icon sets with React packages (Heroicons, Tabler)",
+  "split": "dev"
+ },
+ {
+  "id": "q100",
+  "intent": "asset",
+  "query": "animated icons",
+  "context": "Animated icons library, Lottie or motion based.",
+  "expect_none": false,
+  "ideal": "Animated icon libraries: Lucide Animated, useAnimations (Lottie), Lordicon, Heroicons Animated",
+  "split": "test"
+ },
+ {
+  "id": "q101",
+  "intent": "asset",
+  "query": "brand logos svg",
+  "context": "Brand logos as SVG, e.g. tech company logos.",
+  "expect_none": false,
+  "ideal": "Brand logo SVG libraries: Simple Icons, SVGL, Reicon's logo set",
+  "split": "dev"
+ },
+ {
+  "id": "q102",
+  "intent": "asset",
+  "query": "filled icons set with duotone",
+  "context": "Icon set offering filled and duotone variants.",
+  "expect_none": false,
+  "ideal": "Icon sets with filled + duotone styles: Phosphor (six weights incl. Duotone), Reicon (Outline/Filled/Duotone)",
+  "split": "test"
+ },
+ {
+  "id": "q103",
+  "intent": "asset",
+  "query": "pixel art icons",
+  "context": "Pixel style icons.",
+  "expect_none": false,
+  "ideal": "Pixel icon set on a strict grid: Smallbits",
+  "split": "dev"
+ },
+ {
+  "id": "q104",
+  "intent": "asset",
+  "query": "icons for vue",
+  "filters": {
+   "framework": [
+    "vue"
+   ]
+  },
+  "context": "Icon library with Vue components.",
+  "expect_none": false,
+  "ideal": "Icon sets shipping Vue component packages: Lucide, Phosphor, Tabler, Heroicons, Iconify",
+  "split": "test"
+ },
+ {
+  "id": "q105",
+  "intent": "asset",
+  "query": "isometric illustrations free",
+  "filters": {
+   "pricing": [
+    "free"
+   ]
+  },
+  "context": "Free illustrations for landing pages.",
+  "expect_none": false,
+  "ideal": "No free isometric illustration pack; best are free illustration packs (unDraw, Kitbitz, Humaaans) and Isocons for isometric icons",
+  "split": "dev"
+ },
+ {
+  "id": "q106",
+  "intent": "asset",
+  "query": "tech stack logos for portfolio",
+  "context": "SVG logos of frameworks and tools.",
+  "expect_none": false,
+  "ideal": "Framework/tool logos as SVG: Devicon, SVGL, Simple Icons",
+  "split": "test"
+ },
+ {
+  "id": "q107",
+  "intent": "asset",
+  "query": "palette generator with tailwind export",
+  "filters": {
+   "styling": [
+    "tailwind-any"
+   ]
+  },
+  "context": "Color scale generator that exports Tailwind config.",
+  "expect_none": false,
+  "ideal": "Tailwind 50-950 scale generators with Tailwind export: tints.dev, UI Colors, Kigen Color",
+  "split": "dev"
+ },
+ {
+  "id": "q108",
+  "intent": "asset",
+  "query": "oklch scale tool",
+  "context": "Tool generating OKLCH ramps.",
+  "expect_none": false,
+  "ideal": "OKLCH ramp generators: Ramps, tints.dev, Kigen Color",
+  "split": "test"
+ },
+ {
+  "id": "q109",
+  "intent": "asset",
+  "query": "contrast checker wcag",
+  "context": "WCAG contrast checking tool.",
+  "expect_none": false,
+  "ideal": "WCAG contrast checkers: WebAIM, Colour Contrast Checker, Color.review",
+  "split": "dev"
+ },
+ {
+  "id": "q110",
+  "intent": "asset",
+  "query": "color palette from image",
+  "context": "Extract palette from an image.",
+  "expect_none": false,
+  "ideal": "Image palette extraction: ColorKit, Coolors Image Picker",
+  "split": "test"
+ },
+ {
+  "id": "q111",
+  "intent": "asset",
+  "query": "radix colors style semantic scales for dark mode",
+  "filters": {
+   "category": "color"
+  },
+  "context": "Accessible semantic color scales for light and dark.",
+  "expect_none": false,
+  "ideal": "Accessible light/dark semantic scales: Leonardo (adaptive themes); Radix Colors lives in the radix-ui record",
+  "split": "dev"
+ },
+ {
+  "id": "q112",
+  "intent": "asset",
+  "query": "noise gradients backgrounds",
+  "filters": {
+   "category": "textures-assets"
+  },
+  "context": "Grainy gradient backgrounds.",
+  "expect_none": false,
+  "ideal": "Grainy gradient backgrounds: Grainient packs, fffuel gggrain/nnnoise",
+  "split": "test"
+ },
+ {
+  "id": "q113",
+  "intent": "asset",
+  "query": "shader backgrounds webgl",
+  "filters": {
+   "styling": [
+    "shader-glsl"
+   ]
+  },
+  "context": "Animated shader backgrounds.",
+  "expect_none": false,
+  "ideal": "Animated WebGL shader backgrounds: Paper Shaders, Radiant, Shader Lab, React Bits",
+  "split": "dev"
+ },
+ {
+  "id": "q114",
+  "intent": "asset",
+  "query": "device mockups iphone macbook",
+  "context": "Device frames mockups for screenshots.",
+  "expect_none": false,
+  "ideal": "Device-frame mockup tools with iPhone/MacBook frames: Shots, Ultramock",
+  "split": "test"
+ },
+ {
+  "id": "q115",
+  "intent": "asset",
+  "query": "svg patterns generator",
+  "context": "SVG pattern backgrounds.",
+  "expect_none": false,
+  "ideal": "SVG pattern generators: Pattern Monster, Hero Patterns, Nucleo SVG Patterns, fffuel",
+  "split": "dev"
+ },
+ {
+  "id": "q116",
+  "intent": "asset",
+  "query": "free 3d models glb",
+  "context": "Free 3D assets.",
+  "expect_none": false,
+  "ideal": "Free GLB models: Open Source 3D Assets (991 CC0 GLB); Poly Haven",
+  "split": "test"
+ },
+ {
+  "id": "q117",
+  "intent": "asset",
+  "query": "paper texture overlays",
+  "context": "Texture overlays.",
+  "expect_none": false,
+  "ideal": "Texture overlays: Paper Shaders' paper-texture filter, fffuel nnnoise, playgrnd texture tools",
+  "split": "dev"
+ },
+ {
+  "id": "q118",
+  "intent": "asset",
+  "query": "mesh gradient generator",
+  "context": "Mesh gradient tool.",
+  "expect_none": false,
+  "ideal": "Mesh gradient generators: fffuel ffflux, MagicPattern mesh editor, Hypercolor mesh generator",
+  "split": "test"
+ },
+ {
+  "id": "q119",
+  "intent": "asset",
+  "query": "grid and dot background css",
+  "filters": {
+   "styling": [
+    "vanilla-css"
+   ]
+  },
+  "context": "Pure CSS dot/grid backgrounds.",
+  "expect_none": false,
+  "ideal": "Pure CSS grid/dot backgrounds: Pattern Craft",
+  "split": "dev"
+ },
+ {
+  "id": "q120",
+  "intent": "asset",
+  "query": "aurora background effect",
+  "filters": {
+   "component": "gradient-background"
+  },
+  "context": "Aurora gradient background component.",
+  "expect_none": false,
+  "ideal": "Aurora background component: Aceternity UI",
+  "split": "test"
+ },
+ {
+  "id": "q121",
+  "intent": "tooling",
+  "query": "mcp server for design",
+  "filters": {
+   "category": "agent-design-tooling"
+  },
+  "context": "MCP server giving agents design context.",
+  "expect_none": false,
+  "ideal": "MCP servers feeding agents real design references/context: Mobbin MCP, Inspo MCP",
+  "split": "dev"
+ },
+ {
+  "id": "q122",
+  "intent": "tooling",
+  "query": "figma mcp",
+  "context": "Figma MCP to read frames.",
+  "expect_none": true,
+  "ideal": "No Figma MCP record; only Figma itself, Figma's blog on Code Connect in MCP, and other design-tool MCPs (Penpot, Paper, Framer MCP)",
+  "split": "dev"
+ },
+ {
+  "id": "q123",
+  "intent": "tooling",
+  "query": "agent skills for ui design",
+  "context": "Claude skills for UI quality.",
+  "expect_none": false,
+  "ideal": "UI-quality agent skills: Impeccable, UI Skills",
+  "split": "test"
+ },
+ {
+  "id": "q124",
+  "intent": "tooling",
+  "query": "design.md generator",
+  "context": "Tool generating DESIGN.md for agents.",
+  "expect_none": false,
+  "ideal": "DESIGN.md generators: TypeUI CLI; URL extractors (Hyperbrowser Design.md, DesignMD)",
+  "split": "dev"
+ },
+ {
+  "id": "q125",
+  "intent": "tooling",
+  "query": "screenshot to code",
+  "context": "Convert screenshots to code.",
+  "expect_none": false,
+  "ideal": "Image/screenshot to UI code: Tenor (screenshot to live React), Stitch (sketch to code)",
+  "split": "test"
+ },
+ {
+  "id": "q126",
+  "intent": "tooling",
+  "query": "figma to react code",
+  "filters": {
+   "framework": [
+    "react"
+   ]
+  },
+  "context": "Figma-to-code to React.",
+  "expect_none": false,
+  "ideal": "A Figma plugin that turns Figma frames into React/shadcn code (shadcn-design, shadcn-studio).",
+  "split": "dev"
+ },
+ {
+  "id": "q127",
+  "intent": "tooling",
+  "query": "extract design tokens from a website",
+  "context": "Pull colors/fonts/spacing from live URL.",
+  "expect_none": false,
+  "ideal": "A tool or skill that reads a live URL and outputs its colors, type and spacing as tokens or a DESIGN.md (hue).",
+  "split": "test"
+ },
+ {
+  "id": "q128",
+  "intent": "tooling",
+  "query": "prompt library for ui generation",
+  "context": "Prompts to get good UIs from LLMs.",
+  "expect_none": false,
+  "ideal": "A library of copy-ready prompts for generating UI sections and pages with AI builders (Jiro, VibePrompt).",
+  "split": "dev"
+ },
+ {
+  "id": "q129",
+  "intent": "tooling",
+  "query": "v0 alternative open source",
+  "context": "Open source generative UI tool.",
+  "expect_none": false,
+  "ideal": "An open-source, prompt-to-prototype design app (Open Design, Open CoDesign).",
+  "split": "test"
+ },
+ {
+  "id": "q130",
+  "intent": "tooling",
+  "query": "cursor rules for tailwind and shadcn",
+  "context": "Cursor rules files for UI conventions.",
+  "expect_none": false,
+  "ideal": "A directory of Cursor rules files that covers Tailwind and shadcn conventions (cursor.directory).",
+  "split": "dev"
+ },
+ {
+  "id": "q131",
+  "intent": "tooling",
+  "query": "shadcn mcp",
+  "context": "MCP for shadcn registry.",
+  "expect_none": false,
+  "ideal": "The official shadcn registry MCP server (shadcn-ui) or an MCP that searches all registries (Shoogle).",
+  "split": "test"
+ },
+ {
+  "id": "q132",
+  "intent": "tooling",
+  "query": "ai tool to generate design systems",
+  "context": "Generating design system from brand.",
+  "expect_none": false,
+  "ideal": "An AI generator that turns a brand into a full token and component design system (hue).",
+  "split": "dev"
+ },
+ {
+  "id": "q133",
+  "intent": "tooling",
+  "query": "browser mcp for ui screenshots and verification",
+  "context": "Playwright-like MCP to check UI visually.",
+  "expect_none": false,
+  "ideal": "A Playwright-based browser MCP or CLI that lets an agent screenshot and check its UI (Playwriter, agent-browser).",
+  "split": "test"
+ },
+ {
+  "id": "q134",
+  "intent": "tooling",
+  "query": "llms.txt for design systems",
+  "context": "Design systems offering llms.txt.",
+  "expect_none": false,
+  "ideal": "A full design system whose docs publish llms.txt (Atlassian, Fluent 2, Ant Design, Chakra, HeroUI, coss ui).",
+  "split": "dev"
+ },
+ {
+  "id": "q135",
+  "intent": "tooling",
+  "query": "design linting accessibility checker for agents",
+  "context": "Tool flagging a11y issues.",
+  "expect_none": false,
+  "ideal": "An agent-callable design review or lint tool that flags accessibility issues in UI code (Rams).",
+  "split": "test"
+ },
+ {
+  "id": "q136",
+  "intent": "tooling",
+  "query": "style guide extractor from figma variables",
+  "context": "Figma variables to tokens.",
+  "expect_none": false,
+  "ideal": "A Figma plugin that exports Figma variables as design tokens to code (Tokens Studio).",
+  "split": "dev"
+ },
+ {
+  "id": "q137",
+  "intent": "tooling",
+  "query": "ai image generator for ui assets",
+  "filters": {
+   "category": "generative-media-tools"
+  },
+  "context": "Generate UI imagery.",
+  "expect_none": false,
+  "ideal": "A generative image tool for icons, logos and illustrations, ideally agent-callable (Quiver SVG, Krea MCP).",
+  "split": "test"
+ },
+ {
+  "id": "q138",
+  "intent": "tooling",
+  "query": "claude code skill frontend design",
+  "context": "Skill improving front-end taste.",
+  "expect_none": false,
+  "ideal": "An installable Claude Code design skill that raises front-end taste (Impeccable, UI Skills).",
+  "split": "dev"
+ },
+ {
+  "id": "q139",
+  "intent": "tooling",
+  "query": "tokens to tailwind v4 theme converter",
+  "filters": {
+   "styling": [
+    "tailwind-v4"
+   ]
+  },
+  "context": "Convert tokens into @theme CSS.",
+  "expect_none": false,
+  "ideal": "A converter from a token file to a Tailwind v4 @theme block. None exists, so the best are generators with v4 @theme export (Kigen, tints.dev, tweakcn).",
+  "split": "test"
+ },
+ {
+  "id": "q140",
+  "intent": "tooling",
+  "query": "component generator from prompts react",
+  "filters": {
+   "framework": [
+    "react"
+   ]
+  },
+  "context": "Prompt to component.",
+  "expect_none": false,
+  "ideal": "A prompt-to-React-component generator (v0, Tenor).",
+  "split": "dev"
+ },
+ {
+  "id": "q141",
+  "intent": "learn",
+  "query": "how to design an empty state",
+  "context": "Guidance on empty states.",
+  "expect_none": false,
+  "ideal": "Written guidance on designing empty states. No dedicated guide exists; ux-patterns-for-developers comes closest.",
+  "split": "dev"
+ },
+ {
+  "id": "q142",
+  "intent": "learn",
+  "query": "form validation ux best practices",
+  "context": "Form validation guidance.",
+  "expect_none": false,
+  "ideal": "A UX guide to form validation and inline error patterns (ux-patterns-for-developers Forms).",
+  "split": "test"
+ },
+ {
+  "id": "q143",
+  "intent": "learn",
+  "query": "typography scale rules",
+  "context": "Type scale guidance.",
+  "expect_none": false,
+  "ideal": "An explanation of type scales and ratios (Refactoring UI, Practical Typography, Typescale).",
+  "split": "dev"
+ },
+ {
+  "id": "q144",
+  "intent": "learn",
+  "query": "dark mode design guide",
+  "context": "Dark mode design principles.",
+  "expect_none": true,
+  "ideal": "A guide to dark mode design principles. None exists; only a dark-UI gallery and adaptive-theme color tools come close.",
+  "split": "dev"
+ },
+ {
+  "id": "q145",
+  "intent": "learn",
+  "query": "accessible color contrast explained",
+  "context": "Contrast guidance.",
+  "expect_none": false,
+  "ideal": "An explanation of WCAG and APCA contrast ratios and thresholds (WebAIM).",
+  "split": "test"
+ },
+ {
+  "id": "q146",
+  "intent": "learn",
+  "query": "motion principles for ui",
+  "context": "Principles of animation.",
+  "expect_none": false,
+  "ideal": "Essays or a course on when and how to animate UI (Emil Kowalski, animations.dev).",
+  "split": "dev"
+ },
+ {
+  "id": "q147",
+  "intent": "learn",
+  "query": "spacing system 4px 8px grid",
+  "context": "Spacing systems explained.",
+  "expect_none": false,
+  "ideal": "An explanation of 4px/8px spacing scales. None is dedicated; Refactoring UI's Layout and Spacing section and Utopia come closest.",
+  "split": "test"
+ },
+ {
+  "id": "q148",
+  "intent": "learn",
+  "query": "designing good error messages",
+  "context": "Error message writing.",
+  "expect_none": true,
+  "ideal": "A guide to writing error messages. None exists; only general pattern docs touch on it.",
+  "split": "test"
+ },
+ {
+  "id": "q149",
+  "intent": "learn",
+  "query": "refactoring ui style tips",
+  "context": "Practical visual design tips for developers.",
+  "expect_none": false,
+  "ideal": "Refactoring UI itself, then other practical visual-polish rules for developers.",
+  "split": "dev"
+ },
+ {
+  "id": "q150",
+  "intent": "learn",
+  "query": "course for developers learning design",
+  "filters": {
+   "category": "essays-guides-courses"
+  },
+  "context": "Course for devs.",
+  "expect_none": false,
+  "ideal": "A design course or book for developers in essays-guides-courses (Refactoring UI).",
+  "split": "test"
+ },
+ {
+  "id": "q151",
+  "intent": "learn",
+  "query": "design tokens naming conventions",
+  "context": "Naming tokens.",
+  "expect_none": false,
+  "ideal": "No dedicated token-naming article; best are Romina Kavcic's token-architecture guide and Figma's designsystems.com (naming/versioning tokens).",
+  "split": "dev"
+ },
+ {
+  "id": "q152",
+  "intent": "learn",
+  "query": "onboarding ux patterns essay",
+  "context": "Onboarding analysis.",
+  "expect_none": false,
+  "ideal": "Onboarding teardown/analysis writing: Growth.Design case studies, then measured onboarding A/B tests; flow galleries are only inspiration.",
+  "split": "test"
+ },
+ {
+  "id": "q153",
+  "intent": "learn",
+  "query": "ai interface design patterns",
+  "context": "AI UX patterns.",
+  "expect_none": false,
+  "ideal": "Written AI-UX pattern references: Shape of AI and the 39 human-AI interaction principles; component kits are marginal.",
+  "split": "dev"
+ },
+ {
+  "id": "q154",
+  "intent": "learn",
+  "query": "responsive layout best practices mobile first",
+  "context": "Responsive design guidance.",
+  "expect_none": false,
+  "ideal": "No dedicated responsive/mobile-first guide; Refactoring UI's layout-and-spacing chapters are the closest, the rest are general publications or tools.",
+  "split": "test"
+ },
+ {
+  "id": "q155",
+  "intent": "learn",
+  "query": "button hierarchy primary secondary guidelines",
+  "context": "Button hierarchy.",
+  "expect_none": false,
+  "ideal": "Button-hierarchy guidance: Refactoring UI's hierarchy section and cross-system Button comparisons (design-systems.surf, Component Gallery).",
+  "split": "dev"
+ },
+ {
+  "id": "q156",
+  "intent": "people",
+  "query": "brand identity studio for ai startups",
+  "filters": {
+   "category": "studios"
+  },
+  "context": "Studio for AI startup branding.",
+  "expect_none": false,
+  "ideal": "Brand studio with AI-company identity work: New Genre (ElevenLabs etc.), then AI-founder design partners.",
+  "split": "dev"
+ },
+ {
+  "id": "q157",
+  "intent": "people",
+  "query": "product designer portfolio with fintech case studies",
+  "filters": {
+   "category": "portfolios"
+  },
+  "context": "Fintech designer portfolios.",
+  "expect_none": false,
+  "ideal": "Only hellodani (Sandhill fintech dashboard case study) is a product-designer portfolio with fintech work.",
+  "split": "test"
+ },
+ {
+  "id": "q158",
+  "intent": "people",
+  "query": "motion design studio",
+  "filters": {
+   "category": "studios"
+  },
+  "context": "Motion design studio.",
+  "expect_none": false,
+  "ideal": "No pure motion studio; ToyFight (motion and WebGL craft) is the closest studio.",
+  "split": "dev"
+ },
+ {
+  "id": "q159",
+  "intent": "people",
+  "query": "design engineer portfolio with webgl",
+  "filters": {
+   "category": "portfolios"
+  },
+  "context": "Design engineer portfolio.",
+  "expect_none": false,
+  "ideal": "Engineer portfolio built as a WebGL voxel world (ian-huang-shaoruu); other design-engineer portfolios lack WebGL.",
+  "split": "test"
+ },
+ {
+  "id": "q160",
+  "intent": "people",
+  "query": "type foundry studios",
+  "context": "Type design studios.",
+  "expect_none": false,
+  "ideal": "Independent type foundries (Klim, Displaay, Pangram Pangram, Velvetyne...) plus the Type Foundry Directory index.",
+  "split": "dev"
+ },
+ {
+  "id": "q161",
+  "intent": "people",
+  "query": "web design agency for saas",
+  "filters": {
+   "category": "studios"
+  },
+  "context": "SaaS web agency.",
+  "expect_none": false,
+  "ideal": "Studios that design and build websites for SaaS/startups (Betwn, Kree8, Oversight, Kargul); none is a clear standout.",
+  "split": "test"
+ },
+ {
+  "id": "q162",
+  "intent": "people",
+  "query": "illustrator portfolios editorial",
+  "context": "Illustrator portfolios.",
+  "expect_none": false,
+  "ideal": "No editorial illustrator portfolio in the catalog; portfolio galleries filterable by Illustrator (Gallereee, Behance) are the best route.",
+  "split": "dev"
+ },
+ {
+  "id": "q163",
+  "intent": "people",
+  "query": "3d artist portfolio",
+  "filters": {
+   "category": "portfolios"
+  },
+  "context": "3D artist.",
+  "expect_none": true,
+  "ideal": "No 3D-artist portfolio in the portfolios category; only marginal matches (collage artist using 3D, a 3D voxel engineer site).",
+  "split": "dev"
+ },
+ {
+  "id": "q164",
+  "intent": "people",
+  "query": "minimal studio sites swiss style",
+  "context": "Swiss-style studios.",
+  "expect_none": false,
+  "ideal": "Galleries of minimal agency/studio sites with minimal/typographic/grid filters; nothing tagged Swiss specifically.",
+  "split": "test"
+ },
+ {
+  "id": "q165",
+  "intent": "people",
+  "query": "ux designer portfolio healthcare",
+  "filters": {
+   "category": "portfolios"
+  },
+  "context": "Healthtech UX portfolios.",
+  "expect_none": false,
+  "ideal": "hellodani has a medtech AI (Corti.ai) case study; nothing else in portfolios covers healthcare.",
+  "split": "dev"
+ },
+ {
+  "id": "q166",
+  "intent": "lookup",
+  "query": "shadcn",
+  "context": "Looking up shadcn/ui.",
+  "expect_none": false,
+  "ideal": "shadcn/ui itself (ui.shadcn.com and its GitHub monorepo).",
+  "split": "dev"
+ },
+ {
+  "id": "q167",
+  "intent": "lookup",
+  "query": "magic ui",
+  "context": "Magic UI library.",
+  "expect_none": false,
+  "ideal": "Magic UI (magicui.design).",
+  "split": "test"
+ },
+ {
+  "id": "q168",
+  "intent": "lookup",
+  "query": "aceternity",
+  "context": "Aceternity UI.",
+  "expect_none": false,
+  "ideal": "Aceternity UI (ui.aceternity.com); the 21st.dev mirror is a good second.",
+  "split": "dev"
+ },
+ {
+  "id": "q169",
+  "intent": "lookup",
+  "query": "radix",
+  "context": "Radix primitives.",
+  "expect_none": false,
+  "ideal": "Radix UI primitives (radix-ui.com).",
+  "split": "test"
+ },
+ {
+  "id": "q170",
+  "intent": "lookup",
+  "query": "lucide",
+  "context": "Lucide icons.",
+  "expect_none": false,
+  "ideal": "Lucide (lucide.dev).",
+  "split": "dev"
+ },
+ {
+  "id": "q171",
+  "intent": "lookup",
+  "query": "cmdk",
+  "context": "cmdk command menu.",
+  "expect_none": true,
+  "ideal": "cmdk has no record; only marginal hits (shadcn/ui command component, its author's portfolio, Mantine Spotlight).",
+  "split": "dev"
+ },
+ {
+  "id": "q172",
+  "intent": "lookup",
+  "query": "sonner",
+  "context": "Sonner toast.",
+  "expect_none": true,
+  "ideal": "Sonner has no record; author's site and an alternative React toast (Sileo) are marginal.",
+  "split": "test"
+ },
+ {
+  "id": "q173",
+  "intent": "lookup",
+  "query": "vaul",
+  "context": "Vaul drawer.",
+  "expect_none": true,
+  "ideal": "Vaul has no record; author's site and Base UI's Drawer (named as a Vaul replacement) are marginal.",
+  "split": "dev"
+ },
+ {
+  "id": "q174",
+  "intent": "lookup",
+  "query": "framer motion",
+  "context": "Framer Motion / Motion library.",
+  "expect_none": false,
+  "ideal": "Motion (motion.dev), the successor to Framer Motion.",
+  "split": "test"
+ },
+ {
+  "id": "q175",
+  "intent": "lookup",
+  "query": "tailwind ui",
+  "context": "Tailwind UI.",
+  "expect_none": false,
+  "ideal": "Tailwind Plus (tailwindui.com), formerly Tailwind UI.",
+  "split": "dev"
+ },
+ {
+  "id": "q176",
+  "intent": "lookup",
+  "query": "shadcn registy",
+  "context": "Typo of shadcn registry.",
+  "expect_none": false,
+  "ideal": "shadcn/ui registry docs/schema and the official shadcn registry directory",
+  "split": "test"
+ },
+ {
+  "id": "q177",
+  "intent": "lookup",
+  "query": "framer-moton",
+  "context": "Typo for framer-motion.",
+  "expect_none": false,
+  "ideal": "Motion (formerly Framer Motion)",
+  "split": "dev"
+ },
+ {
+  "id": "q178",
+  "intent": "lookup",
+  "query": "aceternty ui",
+  "context": "Typo for Aceternity.",
+  "expect_none": false,
+  "ideal": "Aceternity UI itself",
+  "split": "test"
+ },
+ {
+  "id": "q179",
+  "intent": "lookup",
+  "query": "@radix-ui/react-dialog",
+  "context": "npm package Radix dialog.",
+  "expect_none": false,
+  "ideal": "Radix UI primitives (Dialog)",
+  "split": "dev"
+ },
+ {
+  "id": "q180",
+  "intent": "lookup",
+  "query": "@tanstack/react-table",
+  "context": "npm package TanStack table.",
+  "expect_none": false,
+  "ideal": "No TanStack Table record; closest is Kibo UI's TanStack-backed table",
+  "split": "test"
+ },
+ {
+  "id": "q181",
+  "intent": "similar",
+  "query": "like aceternity but mit and lighter",
+  "filters": {
+   "license": [
+    "mit"
+   ]
+  },
+  "context": "Aceternity-like effects; must be MIT, lightweight.",
+  "expect_none": false,
+  "ideal": "MIT animated landing-page component kits like Magic UI or Motion Primitives",
+  "split": "dev"
+ },
+ {
+  "id": "q182",
+  "intent": "similar",
+  "query": "alternative to tailwind ui that is free",
+  "filters": {
+   "pricing": [
+    "free"
+   ]
+  },
+  "context": "Free Tailwind UI alternative.",
+  "expect_none": false,
+  "ideal": "Free Tailwind component/block libraries: HyperUI, Flowbite, Preline",
+  "split": "test"
+ },
+ {
+  "id": "q183",
+  "intent": "similar",
+  "query": "like lucide but with filled variants",
+  "context": "Lucide-like with filled variants.",
+  "expect_none": false,
+  "ideal": "Stroke icon sets with filled variants: Tabler, Phosphor",
+  "split": "dev"
+ },
+ {
+  "id": "q184",
+  "intent": "similar",
+  "query": "like magic ui but for vue",
+  "filters": {
+   "framework": [
+    "vue"
+   ]
+  },
+  "context": "Magic UI-style for Vue.",
+  "expect_none": false,
+  "ideal": "Inspira UI, the Vue/Nuxt port of Magic UI/Aceternity",
+  "split": "test"
+ },
+ {
+  "id": "q185",
+  "intent": "similar",
+  "query": "shadcn but for svelte",
+  "filters": {
+   "framework": [
+    "svelte"
+   ]
+  },
+  "context": "shadcn equivalent for Svelte.",
+  "expect_none": false,
+  "ideal": "No shadcn-svelte record; closest are Tark UI (Ark UI + Tailwind copy-paste, Svelte) and Flowbite",
+  "split": "dev"
+ },
+ {
+  "id": "q186",
+  "intent": "similar",
+  "query": "similar to framer motion but smaller",
+  "context": "Lightweight animation lib.",
+  "expect_none": false,
+  "ideal": "Lightweight animation libraries: AutoAnimate, Anime.js",
+  "split": "test"
+ },
+ {
+  "id": "q187",
+  "intent": "similar",
+  "query": "like linear.app website style templates",
+  "context": "Templates in Linear aesthetic.",
+  "expect_none": false,
+  "ideal": "No Linear-style template; Linear DESIGN.md specs (awesome-design-md, getdesign-md) are closest",
+  "split": "dev"
+ },
+ {
+  "id": "q188",
+  "intent": "similar",
+  "query": "alternative to figma that is open source",
+  "filters": {
+   "pricing": [
+    "open-source"
+   ]
+  },
+  "context": "OSS design tool.",
+  "expect_none": false,
+  "ideal": "Penpot, the open-source design platform",
+  "split": "test"
+ },
+ {
+  "id": "q189",
+  "intent": "similar",
+  "query": "like google fonts but with better variable fonts",
+  "context": "Font source alternative.",
+  "expect_none": false,
+  "ideal": "Fontshare: free Google-Fonts-style CSS API with 82 variable families",
+  "split": "dev"
+ },
+ {
+  "id": "q190",
+  "intent": "similar",
+  "query": "like v0 but runs locally not paid",
+  "context": "Free local generative UI.",
+  "expect_none": false,
+  "ideal": "Local-first OSS prompt-to-UI desktop apps: Open CoDesign (Ollama), Open Design",
+  "split": "test"
+ },
+ {
+  "id": "q191",
+  "intent": "tooling",
+  "query": "postgres connection pooler",
+  "context": "Off topic; nothing should match.",
+  "expect_none": true,
+  "ideal": "Off topic; no connection pooler in catalog",
+  "split": "test"
+ },
+ {
+  "id": "q192",
+  "intent": "implement",
+  "query": "react datepicker licensed gpl only",
+  "filters": {
+   "license": [
+    "gpl"
+   ],
+   "framework": [
+    "react"
+   ]
+  },
+  "context": "GPL-only React date picker; unlikely.",
+  "expect_none": true,
+  "ideal": "No GPL React date picker; coss-ui is AGPL (near miss)",
+  "split": "test"
+ },
+ {
+  "id": "q193",
+  "intent": "tooling",
+  "query": "enterprise sso saml provider paid",
+  "context": "Off-topic enterprise.",
+  "expect_none": true,
+  "ideal": "Off topic; no SAML SSO provider (Clerk is generic auth)",
+  "split": "dev"
+ },
+ {
+  "id": "q194",
+  "intent": "implement",
+  "query": "solid js qwik hybrid kanban with htmx",
+  "context": "Niche stack combo.",
+  "expect_none": true,
+  "ideal": "No Solid/Qwik/htmx kanban; dnd-kit Solid binding is a near miss",
+  "split": "dev"
+ },
+ {
+  "id": "q195",
+  "intent": "lookup",
+  "query": "kubernetes helm chart for ingress",
+  "context": "Off topic.",
+  "expect_none": true,
+  "ideal": "Off topic",
+  "split": "test"
+ },
+ {
+  "id": "q196",
+  "intent": "asset",
+  "query": "licensed NFL team logos svg",
+  "context": "Trademarked sports logos not curated.",
+  "expect_none": true,
+  "ideal": "Trademarked sports logos not curated",
+  "split": "dev"
+ },
+ {
+  "id": "q197",
+  "intent": "implement",
+  "query": "cobol mainframe terminal widgets",
+  "context": "Off topic.",
+  "expect_none": true,
+  "ideal": "Off topic",
+  "split": "test"
+ },
+ {
+  "id": "q198",
+  "intent": "template",
+  "query": "sap fiori enterprise template paid only",
+  "filters": {
+   "pricing": [
+    "paid"
+   ]
+  },
+  "context": "Niche enterprise.",
+  "expect_none": true,
+  "ideal": "No SAP Fiori templates",
+  "split": "test"
+ },
+ {
+  "id": "q199",
+  "intent": "learn",
+  "query": "tax accounting course for freelancers",
+  "context": "Off topic.",
+  "expect_none": true,
+  "ideal": "Off topic",
+  "split": "dev"
+ },
+ {
+  "id": "q200",
+  "intent": "implement",
+  "query": "unity game hud ui toolkit",
+  "context": "Game engine UI not covered.",
+  "expect_none": true,
+  "ideal": "No game-engine UI toolkit; only game UI inspiration galleries",
+  "split": "dev"
+ },
+ {
+  "id": "q201",
+  "intent": "implement",
+  "query": "qml dark theme controls",
+  "context": "Qt Quick desktop app; wants a styled set of QML controls with a dark theme.",
+  "expect_none": true,
+  "ideal": "No Qt/QML resource in the catalog (no record mentions Qt or QML); gpui-component (Rust desktop UI) and web component libraries are the only distant matches.",
+  "split": "dev"
+ },
+ {
+  "id": "q202",
+  "intent": "implement",
+  "query": "wpf dark theme control styles",
+  "context": "WPF desktop app in XAML; wants ready-made dark control styles and templates.",
+  "expect_none": true,
+  "ideal": "Nothing covers WPF or XAML; Fluent 2 links WinUI implementations only and gpui-component targets Rust GPUI, so both are near misses.",
+  "split": "test"
+ },
+ {
+  "id": "q203",
+  "intent": "implement",
+  "query": "lvgl touchscreen ui widgets",
+  "context": "Embedded firmware with LVGL on a small touchscreen; wants a widget set or theme.",
+  "expect_none": true,
+  "ideal": "No embedded or microcontroller GUI resource exists; no record mentions LVGL, and every component library targets web, mobile or terminal.",
+  "split": "dev"
+ },
+ {
+  "id": "q204",
+  "intent": "implement",
+  "query": "elm-ui date picker",
+  "context": "Elm app using elm-ui; wants a date picker written in Elm.",
+  "expect_none": true,
+  "ideal": "No Elm UI code in the catalog; Phosphor Icons ships an Elm icon package and Bubble Tea borrows the Elm Architecture, while all date pickers are React/Vue/Svelte.",
+  "split": "test"
+ },
+ {
+  "id": "q205",
+  "intent": "implement",
+  "query": "streamlit custom theme components",
+  "context": "Python Streamlit data app; wants custom components or a theme to restyle it.",
+  "expect_none": true,
+  "ideal": "No Streamlit or Python UI kit; the only hit is a Saaspo screenshot of the streamlit.io landing page, and the python-framework records (Modal, Supervision, Playwright) are not UI libraries.",
+  "split": "dev"
+ },
+ {
+  "id": "q206",
+  "intent": "implement",
+  "query": "delphi vcl styles dark mode",
+  "context": "Delphi VCL desktop app; wants dark VCL styles.",
+  "expect_none": true,
+  "ideal": "No Delphi/VCL resource; delphi.tools and its repo match only by name (browser design utilities), a lexical trap.",
+  "split": "test"
+ },
+ {
+  "id": "q207",
+  "intent": "template",
+  "query": "unreal umg main menu template",
+  "context": "Unreal Engine game; wants a UMG main-menu widget template.",
+  "expect_none": true,
+  "ideal": "No game-engine UI kit; Rive mentions an Unreal runtime, and Game UI Database and Interface In Game are inspiration galleries only.",
+  "split": "dev"
+ },
+ {
+  "id": "q208",
+  "intent": "template",
+  "query": "slack block kit message layouts",
+  "context": "Slack bot; wants Block Kit JSON layouts for rich messages.",
+  "expect_none": true,
+  "ideal": "No Slack Block Kit resource; Slack appears only in studio and agent records as a chat channel.",
+  "split": "test"
+ },
+ {
+  "id": "q209",
+  "intent": "template",
+  "query": "adaptive cards templates for teams bots",
+  "context": "Microsoft Teams bot; wants Adaptive Card JSON templates.",
+  "expect_none": true,
+  "ideal": "No Adaptive Cards resource; AI Work mentions a Teams helpdesk bot but ships no card templates.",
+  "split": "dev"
+ },
+ {
+  "id": "q210",
+  "intent": "template",
+  "query": "renpy visual novel gui template",
+  "context": "Ren'Py visual novel; wants a GUI template (menus, textbox, save screens).",
+  "expect_none": true,
+  "ideal": "No Ren'Py or visual-novel resource; 8bitcn-ui game UI (React) and Game UI Database (inspiration) are distant.",
+  "split": "test"
+ },
+ {
+  "id": "q211",
+  "intent": "template",
+  "query": "typst resume template",
+  "context": "Wants a resume template written in Typst.",
+  "expect_none": true,
+  "ideal": "No Typst or LaTeX templates; resume templates exist only as a Next.js template in shadcn.space and a Canva resume in Deck.gallery.",
+  "split": "dev"
+ },
+ {
+  "id": "q212",
+  "intent": "asset",
+  "query": "godot ui theme pack",
+  "context": "Godot 4 game; wants a ready Theme resource for Control nodes.",
+  "expect_none": true,
+  "ideal": "No Godot asset; Phaser, 8bitcn-ui and the game UI inspiration galleries are near misses, and Godot appears only in the Colyseus SDK list.",
+  "split": "test"
+ },
+ {
+  "id": "q213",
+  "intent": "asset",
+  "query": "garmin connect iq watch faces",
+  "context": "Building a Garmin Connect IQ watch face; wants designs or source to start from.",
+  "expect_none": true,
+  "ideal": "No smartwatch resource; only a portfolio (Yuhang Lu) mentions watch faces designed at Nothing.",
+  "split": "dev"
+ },
+ {
+  "id": "q214",
+  "intent": "asset",
+  "query": "power bi report theme json",
+  "context": "Power BI report; wants a theme JSON file for colors and visuals.",
+  "expect_none": true,
+  "ideal": "No BI-tool theme; the JSON theme hits (tweakcn shadcn themes) are web themes, a lexical near miss.",
+  "split": "test"
+ },
+ {
+  "id": "q215",
+  "intent": "tooling",
+  "query": "figma to xaml export plugin",
+  "context": "Wants a Figma plugin that exports frames to XAML for WPF or WinUI.",
+  "expect_none": true,
+  "ideal": "Figma-to-code tools in the catalog (Kombai, shadcn/studio's Figma plugin, LottieFiles for Figma) target React, HTML or Lottie, never XAML.",
+  "split": "dev"
+ },
+ {
+  "id": "q216",
+  "intent": "similar",
+  "query": "shadcn but for blazor",
+  "context": "Blazor (.NET) web app; wants a shadcn-style copy-paste component set.",
+  "expect_none": true,
+  "ideal": "No Blazor resource; shadcn ports exist for Go templ (shadcn-templ), Svelte and Vue, none for Blazor.",
+  "split": "test"
+ },
+ {
+  "id": "q217",
+  "intent": "implement",
+  "query": "primevue datatable with filters",
+  "context": "Vue 3 app on PrimeVue; wants the DataTable with column filters.",
+  "expect_none": true,
+  "ideal": "PrimeVue has no record and no mention; Vue libraries such as Flowbite, Preline, Ark UI and ReUI are near misses.",
+  "split": "dev"
+ },
+ {
+  "id": "q218",
+  "intent": "lookup",
+  "query": "vuetify 3",
+  "context": "Vuetify Material component framework for Vue.",
+  "expect_none": true,
+  "ideal": "Vuetify has no record; Realtime Colors mentions it only in passing, and other Vue libraries are near misses.",
+  "split": "test"
+ },
+ {
+  "id": "q219",
+  "intent": "lookup",
+  "query": "bits ui svelte",
+  "context": "Bits UI headless primitives for Svelte.",
+  "expect_none": true,
+  "ideal": "Bits UI has no record or mention; React Bits matches only by name, and Ark UI, Tark UI and Flowbite are other Svelte-capable libraries.",
+  "split": "dev"
+ },
+ {
+  "id": "q220",
+  "intent": "lookup",
+  "query": "kobalte solid",
+  "context": "Kobalte accessible primitives for SolidJS.",
+  "expect_none": true,
+  "ideal": "Kobalte has no record; Ark UI and Park UI (which support Solid) are the closest alternatives.",
+  "split": "test"
+ },
+ {
+  "id": "q221",
+  "intent": "lookup",
+  "query": "ag grid",
+  "context": "AG Grid enterprise data grid.",
+  "expect_none": true,
+  "ideal": "AG Grid has no record or mention; data grids in ReUI, BoardUI, Grid.js and MUI X are alternatives, not the product.",
+  "split": "dev"
+ },
+ {
+  "id": "q222",
+  "intent": "lookup",
+  "query": "react-spring animations",
+  "context": "react-spring physics animation library.",
+  "expect_none": true,
+  "ideal": "react-spring has no record; Motion, GSAP, anime.js and AutoAnimate are other motion libraries.",
+  "split": "test"
+ },
+ {
+  "id": "q223",
+  "intent": "implement",
+  "query": "fullcalendar resource timeline view",
+  "context": "Scheduling app; wants FullCalendar's resource timeline.",
+  "expect_none": true,
+  "ideal": "FullCalendar has no record; calendar items in ReUI/beui and add-to-calendar-button are unrelated near misses.",
+  "split": "dev"
+ },
+ {
+  "id": "q224",
+  "intent": "lookup",
+  "query": "quill editor",
+  "context": "Quill rich text editor.",
+  "expect_none": true,
+  "ideal": "Quill has no record; Tiptap, Plate and Liveblocks' editor bindings are other rich text editors.",
+  "split": "test"
+ },
+ {
+  "id": "q225",
+  "intent": "lookup",
+  "query": "uppy file uploader",
+  "context": "Uppy modular file upload widget.",
+  "expect_none": true,
+  "ideal": "Uppy has no record; UploadThing, Better Upload and file-upload components in ReUI and Kibo UI are alternatives.",
+  "split": "dev"
+ },
+ {
+  "id": "q226",
+  "intent": "asset",
+  "query": "berkeley mono font",
+  "context": "Berkeley Mono typeface from U.S. Graphics.",
+  "expect_none": true,
+  "ideal": "No Berkeley Mono record or mention; Departure Mono, Geist Mono and the font directories are other monospace options.",
+  "split": "test"
+ },
+ {
+  "id": "q227",
+  "intent": "people",
+  "query": "lusion webgl studio",
+  "context": "Lusion, the WebGL/3D creative studio.",
+  "expect_none": true,
+  "ideal": "Lusion has no record or mention in studios or portfolios; Awwwards and its Three.js collection are galleries only.",
+  "split": "dev"
+ },
+ {
+  "id": "q228",
+  "intent": "people",
+  "query": "metalab design agency",
+  "context": "MetaLab, the product design agency.",
+  "expect_none": true,
+  "ideal": "MetaLab has no record or mention; the studios category lists smaller studios (Interfacer, After Design, Toyfight).",
+  "split": "test"
+ },
+ {
+  "id": "q229",
+  "intent": "tooling",
+  "query": "storybook for component docs",
+  "context": "Storybook to document and test a component library.",
+  "expect_none": true,
+  "ideal": "Storybook has no record; it is only mentioned by Design Systems Surf, The Design System Guide, Pando and Kombai.",
+  "split": "dev"
+ },
+ {
+  "id": "q230",
+  "intent": "tooling",
+  "query": "protopie prototyping",
+  "context": "ProtoPie for high-fidelity interactive prototypes.",
+  "expect_none": true,
+  "ideal": "ProtoPie has no record or mention; Figma, Framer and Penpot are the prototyping tools in the catalog.",
+  "split": "test"
+ },
+ {
+  "id": "q231",
+  "intent": "tooling",
+  "query": "polypane responsive testing browser",
+  "context": "Polypane developer browser for multi-viewport testing.",
+  "expect_none": true,
+  "ideal": "Polypane has no record and no responsive-testing browser exists; Mesurer and Agent Browser are unrelated dev tools.",
+  "split": "dev"
+ },
+ {
+  "id": "q232",
+  "intent": "inspiration",
+  "query": "screenlane mobile ui patterns",
+  "context": "Screenlane gallery of mobile UI screens.",
+  "expect_none": true,
+  "ideal": "Screenlane has no record or mention; Mobbin, Page Flows and Refero are the mobile screen galleries.",
+  "split": "test"
+ },
+ {
+  "id": "q233",
+  "intent": "tooling",
+  "query": "kafka consumer group rebalancing",
+  "context": "Off topic: tuning Kafka consumer group rebalances.",
+  "expect_none": true,
+  "ideal": "Off topic; no streaming or message broker resource (Ably and Pusher are realtime messaging APIs, not Kafka).",
+  "split": "dev"
+ },
+ {
+  "id": "q234",
+  "intent": "tooling",
+  "query": "elasticsearch synonym analyzer setup",
+  "context": "Off topic: configuring an Elasticsearch synonym analyzer.",
+  "expect_none": true,
+  "ideal": "Off topic; Algolia is a hosted search service and Koboyo Icons only matches the word synonym.",
+  "split": "test"
+ },
+ {
+  "id": "q235",
+  "intent": "tooling",
+  "query": "k6 load test scripts for checkout api",
+  "context": "Off topic: load testing an API with k6.",
+  "expect_none": true,
+  "ideal": "Off topic; Playwright and Maestro are end-to-end UI test tools, not load testing.",
+  "split": "dev"
+ },
+ {
+  "id": "q236",
+  "intent": "tooling",
+  "query": "airflow dag for nightly etl jobs",
+  "context": "Off topic: scheduling an ETL pipeline in Apache Airflow.",
+  "expect_none": true,
+  "ideal": "Off topic; n8n is workflow automation and xyflow only mentions ETL canvases as a use case.",
+  "split": "test"
+ },
+ {
+  "id": "q237",
+  "intent": "implement",
+  "query": "tokio async tcp server in rust",
+  "context": "Off topic: async networking server in Rust.",
+  "expect_none": true,
+  "ideal": "Off topic; the Rust records (gpui-component, Rattles) are UI libraries.",
+  "split": "dev"
+ },
+ {
+  "id": "q238",
+  "intent": "tooling",
+  "query": "valgrind memory leak check c++",
+  "context": "Off topic: finding memory leaks in C++.",
+  "expect_none": true,
+  "ideal": "Off topic; no profiler or C++ tooling in the catalog.",
+  "split": "test"
+ },
+ {
+  "id": "q239",
+  "intent": "tooling",
+  "query": "android apk signing keystore setup",
+  "context": "Off topic: release signing for an Android APK.",
+  "expect_none": true,
+  "ideal": "Off topic; PWABuilder packages PWAs for stores and Appeeky only matches the apk_ token prefix.",
+  "split": "dev"
+ },
+ {
+  "id": "q240",
+  "intent": "tooling",
+  "query": "currency exchange rates api",
+  "context": "Off topic: an FX rates API for price conversion.",
+  "expect_none": true,
+  "ideal": "Off topic; NumberFlow formats currency and currency-input components exist, but no exchange-rate data source.",
+  "split": "test"
+ },
+ {
+  "id": "q241",
+  "intent": "learn",
+  "query": "pci dss compliance checklist for payments",
+  "context": "Off topic: PCI DSS compliance for card payments.",
+  "expect_none": true,
+  "ideal": "Off topic; Stripe, Polar and Paddle are payment providers, not compliance guides.",
+  "split": "dev"
+ },
+ {
+  "id": "q242",
+  "intent": "implement",
+  "query": "rabbitmq dead letter queue retries",
+  "context": "Off topic: retry and dead-letter handling in RabbitMQ.",
+  "expect_none": true,
+  "ideal": "Off topic; no message queue resource (Upstash and Ably are adjacent infrastructure).",
+  "split": "test"
+ },
+ {
+  "id": "q243",
+  "intent": "learn",
+  "query": "pytorch custom dataloader tutorial",
+  "context": "Off topic: ML training data pipeline in PyTorch.",
+  "expect_none": true,
+  "ideal": "Off topic; Modal and Prime Intellect host training compute and Learn Kernels covers GPU kernels, none teach PyTorch data loading.",
+  "split": "dev"
+ },
+ {
+  "id": "q244",
+  "intent": "implement",
+  "query": "grpc service with protobuf codegen",
+  "context": "Off topic: gRPC service and protobuf code generation.",
+  "expect_none": true,
+  "ideal": "Off topic; Stainless generates REST SDKs and Hoppscotch tests APIs, neither covers gRPC.",
+  "split": "test"
+ },
+ {
+  "id": "q245",
+  "intent": "template",
+  "query": "jenkinsfile template for monorepo ci",
+  "context": "Off topic: Jenkins CI pipeline for a monorepo.",
+  "expect_none": true,
+  "ideal": "Off topic; the only CI record is a faster GitHub Actions runner service.",
+  "split": "dev"
+ },
+ {
+  "id": "q246",
+  "intent": "tooling",
+  "query": "prometheus alertmanager slack rules",
+  "context": "Off topic: alert routing rules in Prometheus Alertmanager.",
+  "expect_none": true,
+  "ideal": "Off topic; OpenStatus, Axiom and the OpenTelemetry observability record are monitoring services, and soketi only exposes Prometheus metrics.",
+  "split": "test"
+ },
+ {
+  "id": "q247",
+  "intent": "learn",
+  "query": "scikit-learn hyperparameter tuning",
+  "context": "Off topic: tuning a scikit-learn model.",
+  "expect_none": true,
+  "ideal": "Off topic; Braintrust evaluates LLM agents and Modal hosts compute, no classic ML guidance.",
+  "split": "dev"
+ },
+ {
+  "id": "q248",
+  "intent": "tooling",
+  "query": "ldap active directory user sync",
+  "context": "Off topic: syncing users from LDAP/Active Directory.",
+  "expect_none": true,
+  "ideal": "Off topic; Better Auth and Clerk are app auth, and AI Work mentions AD password resets only.",
+  "split": "test"
+ },
+ {
+  "id": "q249",
+  "intent": "implement",
+  "query": "flutter chart widgets",
+  "filters": {
+   "framework": [
+    "flutter"
+   ]
+  },
+  "context": "Flutter app dashboard; needs bar and line chart widgets in Dart.",
+  "expect_none": true,
+  "ideal": "No Flutter chart library; chart components exist only for React (Tremor, amicro, shadcn charts), and the Flutter records are icon sets, Material Design 3, Rive and FlutterFlow.",
+  "split": "dev"
+ },
+ {
+  "id": "q250",
+  "intent": "implement",
+  "query": "flutter data table widget",
+  "filters": {
+   "framework": [
+    "flutter"
+   ]
+  },
+  "context": "Flutter admin screen; needs a sortable, paginated data table widget.",
+  "expect_none": true,
+  "ideal": "Data grids exist only for web (ReUI, BoardUI, Grid.js, MUI X); no Flutter record ships a table widget, and FlutterFlow is a hosted builder.",
+  "split": "test"
+ },
+ {
+  "id": "q251",
+  "intent": "implement",
+  "query": "jetpack compose shimmer skeleton loader",
+  "filters": {
+   "framework": [
+    "kotlin-compose"
+   ]
+  },
+  "context": "Android app in Jetpack Compose; wants a shimmer placeholder while loading.",
+  "expect_none": true,
+  "ideal": "Skeleton and shimmer components exist only for web and React Native; Compose records (Material Design 3, Rive, Spline, Reicon, useAnimations) have no skeleton.",
+  "split": "dev"
+ },
+ {
+  "id": "q252",
+  "intent": "implement",
+  "query": "jetpack compose rich text editor",
+  "filters": {
+   "framework": [
+    "kotlin-compose"
+   ]
+  },
+  "context": "Android notes app in Compose; needs a rich text editing composable.",
+  "expect_none": true,
+  "ideal": "Rich text editors in the catalog (Tiptap, Plate, Mantine, HeroUI Pro) are web or React only; no Compose editor.",
+  "split": "test"
+ },
+ {
+  "id": "q253",
+  "intent": "implement",
+  "query": "kotlin compose chart components",
+  "filters": {
+   "framework": [
+    "kotlin-compose"
+   ]
+  },
+  "context": "Android app in Compose; needs line and bar charts.",
+  "expect_none": true,
+  "ideal": "No Compose charting; Material Design 3 has no chart spec and useAnimations only has chart icons, while chart libraries are React.",
+  "split": "dev"
+ },
+ {
+  "id": "q254",
+  "intent": "template",
+  "query": "swiftui settings screen template",
+  "filters": {
+   "framework": [
+    "swiftui"
+   ]
+  },
+  "context": "iOS app in SwiftUI; wants a ready settings screen layout.",
+  "expect_none": true,
+  "ideal": "SwiftUI records (NameThatUI, Metalforge, useAnimations) have no settings screen; settings layouts exist only as web blocks and inspiration galleries.",
+  "split": "test"
+ },
+ {
+  "id": "q255",
+  "intent": "implement",
+  "query": "swiftui kanban board drag and drop",
+  "filters": {
+   "framework": [
+    "swiftui"
+   ]
+  },
+  "context": "iPad app in SwiftUI; needs a kanban board with drag between columns.",
+  "expect_none": true,
+  "ideal": "Kanban boards exist only for React (ReUI, Kibo UI, HeroUI Pro); NameThatUI only names the SwiftUI drag-and-drop API.",
+  "split": "dev"
+ },
+ {
+  "id": "q256",
+  "intent": "implement",
+  "query": "visionos spatial ui components",
+  "filters": {
+   "platform": [
+    "xr"
+   ],
+   "framework": [
+    "swiftui"
+   ]
+  },
+  "context": "Apple Vision Pro app in SwiftUI; wants spatial UI components (windows, ornaments).",
+  "expect_none": true,
+  "ideal": "Apple HIG covers visionOS as guidance only; no XR component library, and XR records are 3D assets and generators.",
+  "split": "test"
+ },
+ {
+  "id": "q257",
+  "intent": "implement",
+  "query": "react native image cropper",
+  "filters": {
+   "framework": [
+    "react-native"
+   ]
+  },
+  "context": "Expo app; wants an image crop component for avatar upload.",
+  "expect_none": true,
+  "ideal": "Image croppers exist only for web (Kibo UI, Shark UI, Ark UI); React Native libraries in the catalog have no cropper.",
+  "split": "dev"
+ },
+ {
+  "id": "q258",
+  "intent": "implement",
+  "query": "kanban board styled with panda css",
+  "filters": {
+   "styling": [
+    "panda"
+   ]
+  },
+  "context": "React app on Panda CSS (Park UI); wants a kanban board without Tailwind.",
+  "expect_none": false,
+  "ideal": "Only Park UI and React Aria carry Panda CSS and neither ships a kanban; kanban boards (ReUI, Kibo UI) are Tailwind.",
+  "split": "test"
+ },
+ {
+  "id": "q259",
+  "intent": "implement",
+  "query": "python terminal dashboard widgets",
+  "filters": {
+   "framework": [
+    "python"
+   ],
+   "platform": [
+    "terminal"
+   ]
+  },
+  "context": "Python CLI tool; wants TUI widgets (tables, sparklines, panels) in Python.",
+  "expect_none": true,
+  "ideal": "Terminal UI kits exist for React/Ink (termcn), TypeScript (OpenTUI), Go (Bubble Tea) and Rust (Rattles), none for Python.",
+  "split": "dev"
+ },
+ {
+  "id": "q260",
+  "intent": "tooling",
+  "query": "open source lottie animation editor",
+  "filters": {
+   "pricing": [
+    "open-source"
+   ]
+  },
+  "context": "Wants a free, open-source editor that exports Lottie JSON.",
+  "expect_none": true,
+  "ideal": "Lottie editors (LottieFiles Creator, Lottielab, Jitter, Cavalry) are proprietary; Theatre.js is open source but does not export Lottie.",
+  "split": "test"
+ },
+ {
+  "id": "q261",
+  "intent": "asset",
+  "query": "youtube thumbnail templates",
+  "filters": {
+   "platform": [
+    "social"
+   ]
+  },
+  "context": "Wants editable YouTube thumbnail templates for a channel.",
+  "expect_none": true,
+  "ideal": "No thumbnail templates; javiitools makes chat and social mockups, Screenshot Studio makes preview images, and Posts.design is an inspiration wall.",
+  "split": "dev"
+ },
+ {
+  "id": "q262",
+  "intent": "implement",
+  "query": "react pivot table mit license",
+  "filters": {
+   "framework": [
+    "react"
+   ],
+   "license": [
+    "mit"
+   ]
+  },
+  "context": "React analytics app; needs a pivot table with MIT license.",
+  "expect_none": true,
+  "ideal": "No pivot table anywhere; MIT data grids and spreadsheet grids (ReUI, BoardUI, Grid.js) lack pivoting.",
+  "split": "test"
+ },
+ {
+  "id": "q263",
+  "intent": "template",
+  "query": "print-ready business card templates",
+  "filters": {
+   "platform": [
+    "print"
+   ]
+  },
+  "context": "Wants business card templates ready for print (bleed, CMYK).",
+  "expect_none": true,
+  "ideal": "Print records are fonts, brand manuals, patterns and pdfcn (React PDF invoices and reports); 99designs Discover only shows business card inspiration.",
+  "split": "dev"
+ },
+ {
+  "id": "q264",
+  "intent": "template",
+  "query": "android home screen widget templates",
+  "filters": {
+   "platform": [
+    "android"
+   ]
+  },
+  "context": "Android app; wants home screen widget design templates.",
+  "expect_none": true,
+  "ideal": "No widget templates; Android records are galleries (Mobbin, Page Flows), Material Design 3 and React Native kits, none cover home screen widgets.",
+  "split": "test"
+ },
+ {
+  "id": "q265",
+  "intent": "people",
+  "query": "brutalist portfolio website",
+  "context": "Looking for studio, portfolio, or artist sites with a specific look to use as a reference: a raw, unpolished look with default-looking type, exposed borders, and harsh contrast.",
+  "expect_none": false,
+  "ideal": "Studio, portfolio, or artist sites whose own site shows a brutalist look.",
+  "split": "dev"
+ },
+ {
+  "id": "q266",
+  "intent": "people",
+  "query": "dark minimal design studio site",
+  "context": "Looking for studio, portfolio, or artist sites with a specific look to use as a reference: a dark background with very few elements.",
+  "expect_none": false,
+  "ideal": "Studio, portfolio, or artist sites whose own site shows a dark minimal look.",
+  "split": "test"
+ },
+ {
+  "id": "q267",
+  "intent": "people",
+  "query": "editorial serif portfolio",
+  "context": "Looking for studio, portfolio, or artist sites with a specific look to use as a reference: a magazine-like layout led by serif or display headlines.",
+  "expect_none": false,
+  "ideal": "Studio, portfolio, or artist sites whose own site shows a editorial look.",
+  "split": "dev"
+ },
+ {
+  "id": "q268",
+  "intent": "people",
+  "query": "playful illustrated studio website",
+  "context": "Looking for studio, portfolio, or artist sites with a specific look to use as a reference: bright rounded shapes, mascots, or custom illustration.",
+  "expect_none": false,
+  "ideal": "Studio, portfolio, or artist sites whose own site shows a playful illustrated look.",
+  "split": "test"
+ },
+ {
+  "id": "q269",
+  "intent": "people",
+  "query": "3d webgl portfolio",
+  "context": "Looking for studio, portfolio, or artist sites with a specific look to use as a reference: 3D scenes or WebGL objects that dominate the screen.",
+  "expect_none": false,
+  "ideal": "Studio, portfolio, or artist sites whose own site shows a 3d immersive look.",
+  "split": "dev"
+ },
+ {
+  "id": "q270",
+  "intent": "people",
+  "query": "swiss grid design studio",
+  "context": "Looking for studio, portfolio, or artist sites with a specific look to use as a reference: a strict grid, sans type, and flat color fields.",
+  "expect_none": false,
+  "ideal": "Studio, portfolio, or artist sites whose own site shows a swiss grid look.",
+  "split": "test"
+ },
+ {
+  "id": "q271",
+  "intent": "people",
+  "query": "monochrome photographer portfolio",
+  "context": "Looking for studio, portfolio, or artist sites with a specific look to use as a reference: black and white with photography as the main visual.",
+  "expect_none": false,
+  "ideal": "Studio, portfolio, or artist sites whose own site shows a monochrome image-led look.",
+  "split": "dev"
+ },
+ {
+  "id": "q272",
+  "intent": "people",
+  "query": "retro pixel art portfolio",
+  "context": "Looking for studio, portfolio, or artist sites with a specific look to use as a reference: pixel art, bitmap fonts, or an earlier era of design.",
+  "expect_none": false,
+  "ideal": "Studio, portfolio, or artist sites whose own site shows a retro pixel look.",
+  "split": "test"
+ },
+ {
+  "id": "q273",
+  "intent": "people",
+  "query": "neo brutalist agency site",
+  "context": "Looking for studio, portfolio, or artist sites with a specific look to use as a reference: thick black outlines, hard offset shadows, and flat bright fills.",
+  "expect_none": false,
+  "ideal": "Studio, portfolio, or artist sites whose own site shows a neo-brutalist look.",
+  "split": "dev"
+ },
+ {
+  "id": "q274",
+  "intent": "people",
+  "query": "luxury dark studio website",
+  "context": "Looking for studio, portfolio, or artist sites with a specific look to use as a reference: refined thin or serif type, a muted or dark palette, and large photos.",
+  "expect_none": false,
+  "ideal": "Studio, portfolio, or artist sites whose own site shows a luxury look.",
+  "split": "test"
+ },
+ {
+  "id": "q275",
+  "intent": "people",
+  "query": "typographic designer portfolio",
+  "context": "Looking for studio, portfolio, or artist sites with a specific look to use as a reference: oversized type as the main visual.",
+  "expect_none": false,
+  "ideal": "Studio, portfolio, or artist sites whose own site shows a typographic look.",
+  "split": "dev"
+ },
+ {
+  "id": "q276",
+  "intent": "people",
+  "query": "vibrant colorful creative agency",
+  "context": "Looking for studio, portfolio, or artist sites with a specific look to use as a reference: saturated color blocks across large areas.",
+  "expect_none": false,
+  "ideal": "Studio, portfolio, or artist sites whose own site shows a vibrant look.",
+  "split": "test"
+ },
+ {
+  "id": "q277",
+  "intent": "people",
+  "query": "hand drawn illustrator portfolio",
+  "context": "Looking for studio, portfolio, or artist sites with a specific look to use as a reference: sketchy strokes, doodles, or handwriting fonts.",
+  "expect_none": false,
+  "ideal": "Studio, portfolio, or artist sites whose own site shows a hand-drawn look.",
+  "split": "dev"
+ },
+ {
+  "id": "q278",
+  "intent": "people",
+  "query": "terminal style developer portfolio",
+  "context": "Looking for studio, portfolio, or artist sites with a specific look to use as a reference: a command line or code editor look with monospace type.",
+  "expect_none": false,
+  "ideal": "Studio, portfolio, or artist sites whose own site shows a terminal look.",
+  "split": "test"
+ },
+ {
+  "id": "q279",
+  "intent": "people",
+  "query": "pastel soft portfolio site",
+  "context": "Looking for studio, portfolio, or artist sites with a specific look to use as a reference: soft, light, low-saturation colors.",
+  "expect_none": false,
+  "ideal": "Studio, portfolio, or artist sites whose own site shows a pastel look.",
+  "split": "dev"
+ },
+ {
+  "id": "q280",
+  "intent": "people",
+  "query": "futuristic sci-fi studio website",
+  "context": "Looking for studio, portfolio, or artist sites with a specific look to use as a reference: HUD lines, technical grids, and cyber accents.",
+  "expect_none": false,
+  "ideal": "Studio, portfolio, or artist sites whose own site shows a futuristic look.",
+  "split": "test"
+ }
+]

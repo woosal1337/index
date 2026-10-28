@@ -1,0 +1,914 @@
+{
+ "resource_id": "94ff95dd-a889-4a41-a6b0-9624e0373c8f",
+ "registry_url": "https://cult-ui.com/registry/index.json",
+ "install_verified": false,
+ "checked": "2026-10-23",
+ "items": [
+  {
+   "name": "animated-number",
+   "type": "ui",
+   "title": "animated-number",
+   "description": "Number component with smooth counting animations and customizable formatting",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "animated-number-demo",
+   "type": "component",
+   "title": "animated-number-demo",
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "bg-animate-button",
+   "type": "ui",
+   "title": "bg-animate-button",
+   "description": "Button component with animated background effects and gradient transitions",
+   "component": "button",
+   "surface": null,
+   "dependencies": [
+    ""
+   ],
+   "url": null
+  },
+  {
+   "name": "bg-animate-button-demo",
+   "type": "component",
+   "title": "bg-animate-button-demo",
+   "description": null,
+   "component": "button",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "bg-animated-fractal-dot-grid",
+   "type": "ui",
+   "title": "bg-animated-fractal-dot-grid",
+   "description": "Background animated fractal dot grid with performance optimization and responsive design",
+   "component": "data-grid",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "bg-animated-fractal-dot-grid-demo",
+   "type": "component",
+   "title": "bg-animated-fractal-dot-grid-demo",
+   "description": null,
+   "component": "data-grid",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "bg-animated-gradient",
+   "type": "ui",
+   "title": "bg-animated-gradient",
+   "description": "Animated gradient background component with customizable color transitions",
+   "component": "gradient-background",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "bg-animated-gradient-demo",
+   "type": "component",
+   "title": "bg-animated-gradient-demo",
+   "description": null,
+   "component": "gradient-background",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "bg-media",
+   "type": "ui",
+   "title": "bg-media",
+   "description": "Background media component with video/image support and overlay effects",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    ""
+   ],
+   "url": null
+  },
+  {
+   "name": "bg-media-demo",
+   "type": "component",
+   "title": "bg-media-demo",
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "canvas-fractal-grid",
+   "type": "ui",
+   "title": "canvas-fractal-grid",
+   "description": "Interactive canvas-based fractal dot grid with mouse tracking and wave effects",
+   "component": "node-editor",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "canvas-fractal-grid-demo",
+   "type": "component",
+   "title": "canvas-fractal-grid-demo",
+   "description": null,
+   "component": "node-editor",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "color-picker",
+   "type": "ui",
+   "title": "color-picker",
+   "description": "Interactive color picker component with HSL support and preset colors",
+   "component": "color-picker",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "color-picker-demo",
+   "type": "component",
+   "title": "color-picker-demo",
+   "description": null,
+   "component": "color-picker",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "direction-aware-tabs",
+   "type": "ui",
+   "title": "direction-aware-tabs",
+   "description": "Tab component with direction-aware animations and smooth transitions",
+   "component": "direction-provider",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "react-use-measure"
+   ],
+   "url": null
+  },
+  {
+   "name": "direction-aware-tabs-demo",
+   "type": "component",
+   "title": "direction-aware-tabs-demo",
+   "description": null,
+   "component": "direction-provider",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "dock",
+   "type": "ui",
+   "title": "dock",
+   "description": "macOS-style dock component with hover effects and smooth animations",
+   "component": "dock",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "dock-demo",
+   "type": "component",
+   "title": "dock-demo",
+   "description": null,
+   "component": "dock",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "dynamic-island",
+   "type": "ui",
+   "title": "dynamic-island",
+   "description": "iOS-style dynamic island component with expandable content and smooth animations",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "dynamic-island-demo",
+   "type": "component",
+   "title": "dynamic-island-demo",
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "expandable",
+   "type": "ui",
+   "title": "expandable",
+   "description": "Expandable component system with smooth animations and customizable presets",
+   "component": "accordion",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "expandable-demo",
+   "type": "component",
+   "title": "expandable-demo",
+   "description": null,
+   "component": "accordion",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "family-button",
+   "type": "ui",
+   "title": "family-button",
+   "description": "Button component with family-style design and interactive hover effects",
+   "component": "button",
+   "surface": null,
+   "dependencies": [
+    ""
+   ],
+   "url": null
+  },
+  {
+   "name": "family-button-demo",
+   "type": "component",
+   "title": "family-button-demo",
+   "description": null,
+   "component": "button",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "feature-carousel",
+   "type": "ui",
+   "title": "feature-carousel",
+   "description": "Feature carousel component with smooth transitions and customizable layouts",
+   "component": "carousel",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "feature-carousel-demo",
+   "type": "component",
+   "title": "feature-carousel-demo",
+   "description": null,
+   "component": "carousel",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "floating-panel",
+   "type": "ui",
+   "title": "floating-panel",
+   "description": "Floating panel component with backdrop blur and position-aware animations",
+   "component": "popover",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "floating-panel-demo",
+   "type": "component",
+   "title": "floating-panel-demo",
+   "description": null,
+   "component": "popover",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "gradient-heading",
+   "type": "ui",
+   "title": "gradient-heading",
+   "description": "Heading component with gradient text effects and customizable styling",
+   "component": "heading",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-slot"
+   ],
+   "url": null
+  },
+  {
+   "name": "gradient-heading-demo",
+   "type": "component",
+   "title": "gradient-heading-demo",
+   "description": null,
+   "component": "heading",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "hover-video-player",
+   "type": "ui",
+   "title": "hover-video-player",
+   "description": "Video player component that plays on hover with smooth animations",
+   "component": "video-player",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "hover-video-player-demo",
+   "type": "component",
+   "title": "hover-video-player-demo",
+   "description": null,
+   "component": "video-player",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "intro-disclosure",
+   "type": "ui",
+   "title": "intro-disclosure",
+   "description": "Intro disclosure component with expandable content and smooth animations",
+   "component": "collapsible",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "react-use-measure"
+   ],
+   "url": null
+  },
+  {
+   "name": "intro-disclosure-demo",
+   "type": "component",
+   "title": "intro-disclosure-demo",
+   "description": null,
+   "component": "collapsible",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "lightboard",
+   "type": "ui",
+   "title": "lightboard",
+   "description": "Interactive lightboard component with customizable grid and lighting effects",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    ""
+   ],
+   "url": null
+  },
+  {
+   "name": "lightboard-demo",
+   "type": "component",
+   "title": "lightboard-demo",
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "loading-carousel",
+   "type": "ui",
+   "title": "loading-carousel",
+   "description": "Loading carousel component with smooth transitions and customizable content",
+   "component": "spinner",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "loading-carousel-demo",
+   "type": "component",
+   "title": "loading-carousel-demo",
+   "description": null,
+   "component": "spinner",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "logo-carousel",
+   "type": "ui",
+   "title": "logo-carousel",
+   "description": "Animated logo carousel with staggered animations and customizable columns",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "logo-carousel-demo",
+   "type": "component",
+   "title": "logo-carousel-demo",
+   "description": null,
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "minimal-card",
+   "type": "ui",
+   "title": "minimal-card",
+   "description": "Clean and minimal card component with subtle styling and hover effects",
+   "component": "card",
+   "surface": null,
+   "dependencies": [
+    ""
+   ],
+   "url": null
+  },
+  {
+   "name": "minimal-card-demo",
+   "type": "component",
+   "title": "minimal-card-demo",
+   "description": null,
+   "component": "card",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "neumorph-button",
+   "type": "ui",
+   "title": "neumorph-button",
+   "description": "Neumorphic button component with soft shadows and tactile interaction effects",
+   "component": "button",
+   "surface": null,
+   "dependencies": [
+    ""
+   ],
+   "url": null
+  },
+  {
+   "name": "neumorph-button-demo",
+   "type": "component",
+   "title": "neumorph-button-demo",
+   "description": null,
+   "component": "button",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "neumorph-eyebrow",
+   "type": "ui",
+   "title": "neumorph-eyebrow",
+   "description": "Neumorphic eyebrow component with soft shadow effects and modern styling",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    ""
+   ],
+   "url": null
+  },
+  {
+   "name": "neumorph-eyebrow-demo",
+   "type": "component",
+   "title": "neumorph-eyebrow-demo",
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "popover",
+   "type": "ui",
+   "title": "popover",
+   "description": "Animated popover component with form support and smooth transitions",
+   "component": "popover",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "popover-demo",
+   "type": "component",
+   "title": "popover-demo",
+   "description": null,
+   "component": "popover",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "popover-form",
+   "type": "ui",
+   "title": "popover-form",
+   "description": "Form popover component with success states and animated transitions",
+   "component": "popover",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "popover-form-demo",
+   "type": "component",
+   "title": "popover-form-demo",
+   "description": null,
+   "component": "popover",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "shader-lens-blur",
+   "type": "ui",
+   "title": "shader-lens-blur",
+   "description": "WebGL shader component with lens blur effects and mouse interaction",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "three",
+    "jotai"
+   ],
+   "url": null
+  },
+  {
+   "name": "shader-lens-blur-demo",
+   "type": "component",
+   "title": "shader-lens-blur-demo",
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "shift-card",
+   "type": "ui",
+   "title": "shift-card",
+   "description": "Card component with shift animation effects and hover interactions",
+   "component": "card",
+   "surface": null,
+   "dependencies": [
+    ""
+   ],
+   "url": null
+  },
+  {
+   "name": "shift-card-demo",
+   "type": "component",
+   "title": "shift-card-demo",
+   "description": null,
+   "component": "card",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "side-panel",
+   "type": "ui",
+   "title": "side-panel",
+   "description": "Sliding side panel component with customizable positioning and animations",
+   "component": "drawer",
+   "surface": null,
+   "dependencies": [
+    ""
+   ],
+   "url": null
+  },
+  {
+   "name": "side-panel-demo",
+   "type": "component",
+   "title": "side-panel-demo",
+   "description": null,
+   "component": "drawer",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "sortable-list",
+   "type": "ui",
+   "title": "sortable-list",
+   "description": "Drag-and-drop sortable list component with smooth animations and reordering",
+   "component": "drag-and-drop",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "react-use-measure"
+   ],
+   "url": null
+  },
+  {
+   "name": "sortable-list-demo",
+   "type": "component",
+   "title": "sortable-list-demo",
+   "description": null,
+   "component": "drag-and-drop",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "stripe-bg-guides",
+   "type": "ui",
+   "title": "stripe-bg-guides",
+   "description": "Stripe-style background guides component with animated patterns and effects",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "stripe-bg-guides-demo",
+   "type": "component",
+   "title": "stripe-bg-guides-demo",
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "text-animate",
+   "type": "ui",
+   "title": "text-animate",
+   "description": "Animated text component with customizable reveal effects and timing",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "text-animate-demo",
+   "type": "component",
+   "title": "text-animate-demo",
+   "description": null,
+   "component": "typography",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "text-gif",
+   "type": "ui",
+   "title": "text-gif",
+   "description": "Text component with GIF-like animation effects and customizable styling",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "text-gif-demo",
+   "type": "component",
+   "title": "text-gif-demo",
+   "description": null,
+   "component": "typography",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "texture-button",
+   "type": "ui",
+   "title": "texture-button",
+   "description": "Button component with texture overlay effects and customizable variants",
+   "component": "button",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-slot"
+   ],
+   "url": null
+  },
+  {
+   "name": "texture-button-demo",
+   "type": "component",
+   "title": "texture-button-demo",
+   "description": null,
+   "component": "button",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "texture-card",
+   "type": "ui",
+   "title": "texture-card",
+   "description": "Card component with texture background and customizable styling options",
+   "component": "card",
+   "surface": null,
+   "dependencies": [
+    ""
+   ],
+   "url": null
+  },
+  {
+   "name": "texture-card-demo",
+   "type": "component",
+   "title": "texture-card-demo",
+   "description": null,
+   "component": "card",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "texture-overlay",
+   "type": "ui",
+   "title": "texture-overlay",
+   "description": "Texture overlay component with various CSS gradient patterns for adding visual texture to backgrounds",
+   "component": "backdrop",
+   "surface": null,
+   "dependencies": [
+    ""
+   ],
+   "url": null
+  },
+  {
+   "name": "texture-overlay-demo",
+   "type": "component",
+   "title": "texture-overlay-demo",
+   "description": null,
+   "component": "backdrop",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "three-d-carousel",
+   "type": "ui",
+   "title": "three-d-carousel",
+   "description": "3D carousel component with perspective effects and smooth item transitions",
+   "component": "carousel",
+   "surface": null,
+   "dependencies": [
+    ""
+   ],
+   "url": null
+  },
+  {
+   "name": "three-d-carousel-demo",
+   "type": "component",
+   "title": "three-d-carousel-demo",
+   "description": null,
+   "component": "carousel",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "timer",
+   "type": "ui",
+   "title": "timer",
+   "description": "Countdown timer component with customizable duration and visual styles",
+   "component": "countdown",
+   "surface": null,
+   "dependencies": [
+    ""
+   ],
+   "url": null
+  },
+  {
+   "name": "timer-demo",
+   "type": "component",
+   "title": "timer-demo",
+   "description": null,
+   "component": "countdown",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "toolbar-expandable",
+   "type": "ui",
+   "title": "toolbar-expandable",
+   "description": "Expandable toolbar component with step-based navigation, smooth animations, and enhanced scrolling",
+   "component": "toolbar",
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "@radix-ui/react-scroll-area"
+   ],
+   "url": null
+  },
+  {
+   "name": "toolbar-expandable-demo",
+   "type": "component",
+   "title": "toolbar-expandable-demo",
+   "description": null,
+   "component": "toolbar",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "tweet-grid",
+   "type": "ui",
+   "title": "tweet-grid",
+   "description": "Grid layout component for displaying tweet-like content cards",
+   "component": "data-grid",
+   "surface": null,
+   "dependencies": [
+    ""
+   ],
+   "url": null
+  },
+  {
+   "name": "tweet-grid-demo",
+   "type": "component",
+   "title": "tweet-grid-demo",
+   "description": null,
+   "component": "data-grid",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "typewriter",
+   "type": "ui",
+   "title": "typewriter",
+   "description": "Typewriter effect component with customizable typing speed and cursor animation",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "typewriter-demo",
+   "type": "component",
+   "title": "typewriter-demo",
+   "description": null,
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  },
+  {
+   "name": "youtube-video-player",
+   "type": "ui",
+   "title": "youtube-video-player",
+   "description": "YouTube video player component with custom controls and smooth animations",
+   "component": "video-player",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": null
+  },
+  {
+   "name": "youtube-video-player-demo",
+   "type": "component",
+   "title": "youtube-video-player-demo",
+   "description": null,
+   "component": "video-player",
+   "surface": null,
+   "dependencies": [],
+   "url": null
+  }
+ ]
+}

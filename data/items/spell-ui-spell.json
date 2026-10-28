@@ -1,0 +1,379 @@
+{
+ "resource_id": "7863a6b2-a81c-4e66-8e38-331da11a3741",
+ "registry_url": "https://spell.sh/r/registry.json",
+ "install_verified": true,
+ "checked": "2026-10-23",
+ "items": [
+  {
+   "name": "animated-checkbox",
+   "type": "component",
+   "title": "Animated Checkbox",
+   "description": "Animated checkbox with spring transitions and strike-through text effect.",
+   "component": "checkbox",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://spell.sh/r/animated-checkbox.json"
+  },
+  {
+   "name": "animated-gradient",
+   "type": "component",
+   "title": "Animated Gradient",
+   "description": "Animated gradient background with presets and customizable swirl effects using WebGL.",
+   "component": "gradient-background",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://spell.sh/r/animated-gradient.json"
+  },
+  {
+   "name": "badge",
+   "type": "component",
+   "title": "Badge",
+   "description": "A badge component with multiple color variants and sizes.",
+   "component": "badge",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-slot",
+    "class-variance-authority"
+   ],
+   "url": "https://spell.sh/r/badge.json"
+  },
+  {
+   "name": "bars-spinner",
+   "type": "component",
+   "title": "Bars Spinner",
+   "description": "A loading spinner with rotating bars animation.",
+   "component": "spinner",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://spell.sh/r/bars-spinner.json"
+  },
+  {
+   "name": "blur-reveal",
+   "type": "component",
+   "title": "Blur Reveal",
+   "description": "Animated text reveal with blur effect.",
+   "component": "scroll-reveal",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://spell.sh/r/blur-reveal.json"
+  },
+  {
+   "name": "chart",
+   "type": "component",
+   "title": "Chart",
+   "description": "Interactive line chart with a cursor-tracked tooltip card, snap-to-point hover, and built-in X-axis labels.",
+   "component": "chart",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://spell.sh/r/chart.json"
+  },
+  {
+   "name": "color-selector",
+   "type": "component",
+   "title": "Color Selector",
+   "description": "Interactive color picker component.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://spell.sh/r/color-selector.json"
+  },
+  {
+   "name": "copy-button",
+   "type": "component",
+   "title": "Copy Button",
+   "description": "A copy-to-clipboard button with blur transition effect.",
+   "component": "copy-button",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://spell.sh/r/copy-button.json"
+  },
+  {
+   "name": "exploding-input",
+   "type": "component",
+   "title": "Exploding Input",
+   "description": "Input component that spawns particle effects when typing.",
+   "component": "text-input",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://spell.sh/r/exploding-input.json"
+  },
+  {
+   "name": "fallback-avatar",
+   "type": "component",
+   "title": "Fallback Avatar",
+   "description": "A unique gradient avatar generated from a name string.",
+   "component": "avatar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://spell.sh/r/fallback-avatar.json"
+  },
+  {
+   "name": "flow-button",
+   "type": "component",
+   "title": "Flow Button",
+   "description": "A button with animated flowing dashed border on hover.",
+   "component": "button",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://spell.sh/r/flow-button.json"
+  },
+  {
+   "name": "gradient-wave-text",
+   "type": "component",
+   "title": "Gradient Wave Text",
+   "description": "Apple-style animated gradient text with wave effect.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://spell.sh/r/gradient-wave-text.json"
+  },
+  {
+   "name": "highlighted-text",
+   "type": "component",
+   "title": "Highlighted Text",
+   "description": "Text with sliding background highlight animation using mix-blend-mode.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://spell.sh/r/highlighted-text.json"
+  },
+  {
+   "name": "kbd",
+   "type": "component",
+   "title": "Keyboard Shortcuts",
+   "description": "Display keyboard shortcuts with proper key symbols.",
+   "component": "kbd",
+   "surface": null,
+   "dependencies": [
+    "react-hotkeys-hook"
+   ],
+   "url": "https://spell.sh/r/kbd.json"
+  },
+  {
+   "name": "label-input",
+   "type": "component",
+   "title": "Label Input",
+   "description": "Input field with floating label and password visibility toggle.",
+   "component": "label",
+   "surface": null,
+   "dependencies": [
+    "lucide-react"
+   ],
+   "url": "https://spell.sh/r/label-input.json"
+  },
+  {
+   "name": "light-rays",
+   "type": "component",
+   "title": "Light Rays",
+   "description": "Animated light rays effect using WebGL shaders.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "three"
+   ],
+   "url": "https://spell.sh/r/light-rays.json"
+  },
+  {
+   "name": "logos-carousel",
+   "type": "component",
+   "title": "Logos Carousel",
+   "description": "Animated carousel component that cycles through sets of logos with staggered animations.",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://spell.sh/r/logos-carousel.json"
+  },
+  {
+   "name": "marquee",
+   "type": "component",
+   "title": "Marquee",
+   "description": "Infinite scrolling marquee component with customizable speed and direction.",
+   "component": "marquee",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://spell.sh/r/marquee.json"
+  },
+  {
+   "name": "perspective-book",
+   "type": "component",
+   "title": "Perspective Book",
+   "description": "A 3D book component with hover animation and customizable appearance.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://spell.sh/r/perspective-book.json"
+  },
+  {
+   "name": "pop-button",
+   "type": "component",
+   "title": "Pop Button",
+   "description": "A playful 3D-style button with push-down animation effect.",
+   "component": "button",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://spell.sh/r/pop-button.json"
+  },
+  {
+   "name": "qr-code",
+   "type": "component",
+   "title": "QR Code",
+   "description": "QR code generator with rounded finder patterns and dot-style data modules.",
+   "component": "qr-code",
+   "surface": null,
+   "dependencies": [
+    "qrcode"
+   ],
+   "url": "https://spell.sh/r/qr-code.json"
+  },
+  {
+   "name": "randomized-text",
+   "type": "component",
+   "title": "Randomized Text",
+   "description": "Text component with randomized character reveal animation.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://spell.sh/r/randomized-text.json"
+  },
+  {
+   "name": "rich-button",
+   "type": "component",
+   "title": "Rich Button",
+   "description": "A button component with rich styling and color variants.",
+   "component": "button",
+   "surface": null,
+   "dependencies": [
+    "@radix-ui/react-slot"
+   ],
+   "url": "https://spell.sh/r/rich-button.json"
+  },
+  {
+   "name": "shimmer-text",
+   "type": "component",
+   "title": "Shimmer Text",
+   "description": "Text with animated shimmer highlight effect.",
+   "component": "skeleton",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://spell.sh/r/shimmer-text.json"
+  },
+  {
+   "name": "signature",
+   "type": "component",
+   "title": "Signature",
+   "description": "Animated signature component with handwriting effect using custom fonts.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion",
+    "opentype.js",
+    "@types/opentype.js"
+   ],
+   "url": "https://spell.sh/r/signature.json"
+  },
+  {
+   "name": "slide-up-text",
+   "type": "component",
+   "title": "Slide Up Text",
+   "description": "Text animation that slides up from bottom with stagger effect.",
+   "component": "transition",
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://spell.sh/r/slide-up-text.json"
+  },
+  {
+   "name": "special-text",
+   "type": "component",
+   "title": "Special Text",
+   "description": "Animated text with scramble effect.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://spell.sh/r/special-text.json"
+  },
+  {
+   "name": "spinner",
+   "type": "component",
+   "title": "Spinner",
+   "description": "A loading spinner component with customizable size and color.",
+   "component": "spinner",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://spell.sh/r/spinner.json"
+  },
+  {
+   "name": "spotify-card",
+   "type": "component",
+   "title": "Spotify Card",
+   "description": "Display Spotify tracks with album art and blurred background.",
+   "component": "card",
+   "surface": null,
+   "dependencies": [
+    "@icons-pack/react-simple-icons",
+    "spotify-url-info"
+   ],
+   "url": "https://spell.sh/r/spotify-card.json"
+  },
+  {
+   "name": "text-marquee",
+   "type": "component",
+   "title": "Text Marquee",
+   "description": "Animated text marquee component with vertical scrolling.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://spell.sh/r/text-marquee.json"
+  },
+  {
+   "name": "tilt-card",
+   "type": "component",
+   "title": "Tilt Card",
+   "description": "Interactive 3D tilt card with perspective hover effect and spotlight.",
+   "component": "hover-effect",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://spell.sh/r/tilt-card.json"
+  },
+  {
+   "name": "tweet",
+   "type": "component",
+   "title": "Tweet",
+   "description": "Embed Twitter/X posts with custom styling.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "react-tweet",
+    "@icons-pack/react-simple-icons"
+   ],
+   "url": "https://spell.sh/r/tweet.json"
+  },
+  {
+   "name": "words-stagger",
+   "type": "component",
+   "title": "Words Stagger",
+   "description": "Word-by-word text animation with blur, transform, and opacity effects.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "motion"
+   ],
+   "url": "https://spell.sh/r/words-stagger.json"
+  }
+ ]
+}
