@@ -774,6 +774,7 @@ kbd {
 }
 
 .section {
+  min-width: 0;
   border: 1px solid color-mix(in srgb, var(--border) 60%, transparent);
   border-radius: var(--radius-2xl);
   background: color-mix(in srgb, var(--foreground) 2%, transparent);
@@ -1480,6 +1481,28 @@ html[data-view="canvas"] .browse {
   white-space: pre;
   -webkit-overflow-scrolling: touch;
 }
+
+.copy-code { position: relative; min-width: 0; }
+.copy-code .code { padding-right: 56px; white-space: pre-wrap; overflow-wrap: anywhere; }
+.copy-code-btn { position: absolute; top: 8px; right: 8px; }
+
+.agent-strip {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 14px;
+  padding: 10px 10px 10px 16px;
+  border: 1px solid color-mix(in srgb, var(--border) 60%, transparent);
+  border-radius: var(--radius-2xl);
+  background: color-mix(in srgb, var(--foreground) 2%, transparent);
+}
+.agent-strip > .icon { flex: none; color: var(--muted-fg); }
+.agent-strip-text { flex: 1 1 280px; min-width: 0; font-size: 13.5px; line-height: 1.45; color: var(--muted-fg); text-wrap: pretty; }
+.agent-strip-text strong { color: var(--foreground); font-weight: 600; }
+.agent-strip .copy-code { flex: 0 1 auto; }
+.agent-strip .copy-code .code { padding-block: 7px; }
+.agent-strip .copy-code-btn { top: 3px; right: 3px; }
+html[data-view="canvas"] .agent-strip { display: none; }
 
 .link {
   display: inline-flex;

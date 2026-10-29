@@ -74,6 +74,8 @@ Each site screenshot, template preview, and studio, portfolio, or artist preview
 
 The server runs the engine from `app/lib/engine.ts` on the catalog of its own commit, so it ranks exactly as `npm run eval -- --system unified-gemma2` scores. It uses EmbeddingGemma 2 at full precision for every document and query. It keeps the document vectors in its data folder, keyed by the text and image of each document, so a restart embeds only new or changed documents. It reads new images from `MEDIA_ORIGIN`, by default `https://index-media.chele.bi`. A result names the template or registry item that matched in `matched`. Set `type` to `screens` to search the site screenshots by look and page type. Until the vectors are ready, it answers with keyword search. Each caller IP gets 30 searches a minute. Requests from Anthropic's connector range share one bucket of 600 a minute. When more than four query embeddings wait, a search falls back to keywords. Each search writes one JSON log line with the query, the filters, the result IDs, and the time, but not the IP.
 
+[index.chele.bi/agents](https://index.chele.bi/agents) shows the setup for Claude Code, Cursor, claude.ai, and other clients.
+
 Run it locally with `npm ci --prefix server`, `npm run data`, and `node server/index.mjs`. It listens on port 8787 and keeps the model and vectors in `.cache/server/`. Set `INDEX_DATA` to move that folder, `PORT` to change the port, `MAX_INFLIGHT` to change the embedding queue limit, and `INDEX_DENSE=off` to serve keyword search only. Coolify on Igris builds `server/Dockerfile` from `main` and keeps `/data` in a volume.
 
 ## Built as a static site

@@ -257,6 +257,15 @@ export function ArrowLeftIcon(props: Props) {
   );
 }
 
+export function AgentIcon(props: Props) {
+  return (
+    <Svg {...props}>
+      <rect x="3" y="4" width="18" height="16" rx="2" />
+      <path d="m7 9 3 3-3 3M13 15h4" />
+    </Svg>
+  );
+}
+
 export function CopyIcon(props: Props) {
   return (
     <Svg {...props}>

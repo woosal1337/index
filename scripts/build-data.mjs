@@ -550,6 +550,7 @@ const llms = [
   `- One record: /api/r/<id>.json, with its registry items and install commands`,
   `- One component: /api/components/<component>.json, with its checklist, states, ARIA pattern, and best implementations`,
   `- Agent skill: /api/skill/SKILL.md`,
+  `- Setup for each client: ${siteUrl("/agents")}`,
   ``,
   ...ruleList,
   ``,

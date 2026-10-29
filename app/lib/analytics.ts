@@ -8,6 +8,7 @@ export const OA_EVENTS = {
   searchOpen: "search_open",
   searchSelect: "search_select",
   promptCopy: "prompt_copy",
+  setupCopy: "setup_copy",
   viewSwitch: "view_switch",
   filterChange: "filter_change",
   themeToggle: "theme_toggle",

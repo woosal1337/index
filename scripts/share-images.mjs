@@ -90,6 +90,7 @@ const sections = [
     const portfolios = rankedGroups(resources, categories, "portfolios").flatMap((g) => g.items);
     return { key: "portfolios", title: "Portfolios", text: "Personal sites of individual designers, ranked by quality tier, as references for case studies, interaction work, and visual voice.", meta: count(portfolios.length, "portfolio", "portfolios"), images: topImages(portfolios, 15) };
   })(),
+  { key: "agents", title: "Agents", text: "Coding agents can search Index while they build. Connect the MCP server, or call the same search as JSON. No key and no account.", meta: `MCP server · ${count(stats.resources, "resource", "resources")}`, images: topImages(resources.filter((r) => r.category === "agent-design-tooling"), 15) },
   { key: "learn", title: "Learn", text: "Curated reading paths for design practice, with source links, key lessons, and guidance for applying each resource.", meta: count(resources.filter((r) => r.category === "essays-guides-courses").length, "reading resource", "reading resources"), images: topImages(resources.filter((r) => r.category === "essays-guides-courses"), 15) },
 ];
 for (const s of sections) specs.push({ ...s, layout: "section", images: fill(s.images, 15) });

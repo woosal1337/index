@@ -223,6 +223,13 @@ export default async function ResourcePage({ params }: { params: Promise<{ slug:
                 <div className="mt-4">
                   <CopyPrompt resource={r} />
                 </div>
+                <p className="label mt-3">
+                  Your agent can also search Index itself through the{" "}
+                  <Link href="/agents" className="link">
+                    MCP server
+                  </Link>
+                  .
+                </p>
               </div>
             </section>
           )}

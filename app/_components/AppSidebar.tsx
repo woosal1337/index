@@ -8,6 +8,7 @@ import { openPalette } from "./CommandPalette";
 import { useShell, type View } from "./ShellProvider";
 import ThemeSelect from "./ThemeSelect";
 import {
+  AgentIcon,
   BookIcon,
   DashboardIcon,
   ExpandIcon,
@@ -32,6 +33,7 @@ const NAV = [
   { href: "/studios", label: "Studios", Icon: StudioIcon, toggle: false },
   { href: "/portfolios", label: "Portfolios", Icon: PortfolioIcon, toggle: false },
   { href: "/learn", label: "Learn", Icon: BookIcon, toggle: false },
+  { href: "/agents", label: "Agents", Icon: AgentIcon, toggle: false },
 ];
 
 function isActive(pathname: string, href: string): boolean {
