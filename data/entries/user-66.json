@@ -1,0 +1,1513 @@
+[
+  {
+    "id": "user:c779ef67b6deee2c",
+    "slug": "palletism",
+    "url": "https://palletism.art",
+    "name": "Palletism",
+    "tagline": "Taste packs of AI images, each with the prompt, palette, and guide, readable over MCP",
+    "description": "Palletism is a curated gallery of AI-generated images grouped into taste packs. The homepage says each pack holds the exact prompts, colors, and fonts behind the images, and that an agent can read a pack's palette, fonts, prompts, and rules over MCP. The FAQ says every public pack is free to browse, including prompts, palette, guide, and web-size images, and that a free account gives an agent 200 MCP calls a day with no card. Hobby is marked coming soon. The pricing page says it is planned to add exclusive packs, full-resolution images, whole-pack export, and 3,000 MCP requests a day, and that no payments are collected yet.\n\nThe terms, last updated November 9, 2026, call the MCP server read-only and say Palletism is not an image generator. They allow the images, prompts, and guides in your own projects, and they forbid republishing or reselling the catalog, using it to train models, and relying on it for client work without emailing first. They also say Palletism does not promise ownership or copyright in any image or prompt. The connect flow in the site script uses https://palletism.art/mcp with a bearer key. A named image license was not on the pages.",
+    "category": "agent-design-tooling",
+    "subcategory": "prompts-and-feedback",
+    "kinds": [
+      "prompt-pack",
+      "gallery",
+      "mcp-server"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "free",
+        "freemium",
+        "account-required"
+      ],
+      "distribution": [
+        "gallery",
+        "web-app",
+        "mcp-server",
+        "copy-paste"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "images",
+        "prompts"
+      ],
+      "agent_readiness": [
+        "mcp-server",
+        "copy-prompt",
+        "auth-required"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": "claude mcp add --transport http palletism https://palletism.art/mcp --header \"Authorization: Bearer KEY\"",
+    "package": null,
+    "docs_url": "https://palletism.art/terms",
+    "repo_url": null,
+    "registry_url": null,
+    "machine_urls": [
+      {
+        "kind": "mcp",
+        "url": "https://palletism.art/mcp"
+      }
+    ],
+    "github": null,
+    "pricing_detail": "Public packs, guides, prompts, and web-size images (up to 1200px) are free. A free account includes 200 counted MCP calls a day. Hobby is listed as coming soon, with 3,000 MCP requests a day, exclusive packs, and full-resolution export. The pricing page says no payments are collected and shows no Hobby price.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Browse a pack in the browser and copy its prompt and hex palette when you do not need an account. For an agent, sign in, create a key, and connect https://palletism.art/mcp. The terms count tools/call and prompts/get against the 200-call daily limit.\n\nUse the images and prompts in the user's own project. Do not republish the catalog, resell it, or use it as training data. The terms say to email Palletism before client work, and they do not grant ownership of an image or prompt. A pack count was not on the pages.",
+    "why_it_matters": "It keeps a whole look, prompt, palette, and guide together, and an agent can read that pack over MCP on the free tier.",
+    "quality_tier": "B",
+    "tier_reason": "The free catalog, the 200-call MCP limit, and the November 9 terms are explicit. Hobby is not for sale, and the image terms are a custom grant rather than a named license.",
+    "notable_for": [
+      "taste packs with prompts, palettes, and guides",
+      "read-only MCP at palletism.art/mcp",
+      "200 free MCP calls a day",
+      "Hobby plan not on sale",
+      "no named image license"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-11-12",
+    "source": "user",
+    "evidence": "Checked https://palletism.art/, /pricing, and /terms on 2026-11-12. All three returned HTTP 200. The FAQ and pricing page state the free tier and the unpriced Hobby plan. The terms are dated November 9, 2026 and state the usage limits. The site script sets the MCP URL to https://palletism.art/mcp; a GET returned HTTP 405. A pack count and a named image license were not on those pages. Source tweet: https://x.com/adityawaslost/status/2120764025348784426."
+  },
+  {
+    "id": "user:f3839c45ae03d1ee",
+    "slug": "layro",
+    "url": "https://layro.dev",
+    "name": "Layro",
+    "tagline": "React component marketplace that coding agents search and install over MCP",
+    "description": "Layro is a React component marketplace. The homepage says Claude Code, Cursor, Codex, and any other MCP client can search and install reviewed components, and that the files land in the repo as code you own. The MCP docs name the server https://mcp.layro.dev and the tools search_components, install_plan, submit_component, and my_stats. The homepage also says each component is a shadcn-compatible registry item, and that installing with the CLI needs no account.\n\nThe FAQ says to run npx layro-cli init --yes once in a React TypeScript project with Tailwind CSS, then copy the install command from a component page. The CLI writes source into components/layro/. Publishing needs a GitHub account and can use npx layro-cli publish. The licences page, marked draft and last changed November 3, 2026, says each component keeps its author's copyright and carries one of MIT, Apache-2.0, ISC, or BSD-3-Clause, sometimes with a Commons Clause on an indexed library. Browsing, copying, and installing are free with no account, and publishing is free with GitHub. A component count was not on the pages.",
+    "category": "component-libraries",
+    "subcategory": "shadcn-registries",
+    "kinds": [
+      "marketplace",
+      "registry",
+      "mcp-server",
+      "component-library"
+    ],
+    "facets": {
+      "framework": [
+        "react"
+      ],
+      "styling": [
+        "tailwind-any"
+      ],
+      "license": [
+        "mit",
+        "apache-2.0",
+        "isc",
+        "bsd"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "mcp-server",
+        "cli",
+        "shadcn-registry",
+        "copy-paste",
+        "github-repo",
+        "web-app"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "code"
+      ],
+      "agent_readiness": [
+        "mcp-server",
+        "cli-installable",
+        "registry-json",
+        "copy-paste-ready",
+        "auth-required"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": "claude mcp add --transport http layro https://mcp.layro.dev",
+    "package": null,
+    "docs_url": "https://layro.dev/docs/mcp",
+    "repo_url": null,
+    "registry_url": null,
+    "machine_urls": [
+      {
+        "kind": "mcp",
+        "url": "https://mcp.layro.dev"
+      }
+    ],
+    "github": null,
+    "pricing_detail": "Browsing, copying, and installing components is free and needs no account. Publishing is free and needs a GitHub account. No paid plan was on the pages.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Connect the MCP server with claude mcp add --transport http layro https://mcp.layro.dev, or run npx layro-cli mcp --client claude. The docs say the first call opens a browser to sign in with GitHub. Installing a component into a project does not need an account: npx layro-cli init --yes, then the command on the component page.\n\nRead the licence on that component's page before you ship it. The marketplace accepts MIT, Apache-2.0, ISC, and BSD-3-Clause, and some indexed libraries add a Commons Clause. The FAQ says component code comes from third parties. Tailwind is required, and the pages do not name the major version.",
+    "why_it_matters": "An agent can search a reviewed React catalog and install the source over MCP, with the licence stated per component.",
+    "quality_tier": "B",
+    "tier_reason": "The MCP URL, the free install path, and the accepted licences are written down. The licences page is marked draft, licences vary by component, and no catalog size was on the pages.",
+    "notable_for": [
+      "MCP at mcp.layro.dev",
+      "free to browse and install, no account",
+      "shadcn-compatible registry items",
+      "MIT, Apache-2.0, ISC, or BSD-3-Clause per component",
+      "publishing needs GitHub"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-11-12",
+    "source": "user",
+    "evidence": "Checked https://layro.dev/, /docs/mcp, and /licenses on 2026-11-12. All three returned HTTP 200. The MCP page states https://mcp.layro.dev and the Claude Code command. A GET of that host returned HTTP 401 JSON. The licences page lists MIT, Apache-2.0, ISC, and BSD-3-Clause and is marked draft, last changed November 3, 2026. The FAQ states the init command and that browsing and installing are free. A component count was not on those pages. Source tweet: https://x.com/Kritiisayss/status/2119035767934865735."
+  },
+  {
+    "id": "user:745133587609c14c",
+    "slug": "cui",
+    "url": "https://yappologistic.github.io/CUI/",
+    "name": "CUI",
+    "tagline": "Immediate-mode C UI library, about 210 components, MIT, about 250 KB for an app",
+    "description": "CUI is an immediate-mode UI library in C99. The site meta description says about 210 native UI components, compiled to machine code with no browser or runtime inside, for Windows, macOS, Linux, and the web, and that a complete app is about 250 KB. The README repeats about 210 components, no dependencies, and the MIT license. It says you describe the screen with function calls every frame, and CUI lays it out, handles the mouse and keyboard, and draws with OpenGL or its own software renderer, including in a browser through WebAssembly.\n\nThe README's component groups name buttons, text fields, selects, date and color pickers, tables, a data grid, charts, a code editor, docking, and chat, among others. It says most components work from the keyboard and that some still need a pointer, including the rating, swipe actions, and the reorderable list. The GitHub repository description says about 150 components, with spring motion and full keyboard support. The README instead puts spring animation on the canvas API for your own controls, and it says the keyboard does not reach everything. GitHub API on 2026-11-12 reported the MIT license, 941 stars, and a push the same day. Install is CMake FetchContent at tag v1.4.0, or cui.h and cui.c from a release.",
+    "category": "component-libraries",
+    "subcategory": "cross-framework-and-native",
+    "kinds": [
+      "component-library"
+    ],
+    "facets": {
+      "framework": [
+        "unknown"
+      ],
+      "styling": [
+        "unknown"
+      ],
+      "license": [
+        "mit"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "github-repo",
+        "download"
+      ],
+      "platform": [
+        "windows",
+        "macos",
+        "linux",
+        "web",
+        "desktop",
+        "cross-platform"
+      ],
+      "accessibility": [
+        "keyboard-navigable"
+      ],
+      "content_type": [
+        "code"
+      ],
+      "agent_readiness": [
+        "open-source-code",
+        "structured-docs"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "button",
+      "icon-button",
+      "command-palette",
+      "text-input",
+      "textarea",
+      "number-input",
+      "otp-input",
+      "tag-input",
+      "select",
+      "combobox",
+      "multi-select",
+      "checkbox",
+      "switch",
+      "radio-button",
+      "slider",
+      "date-picker",
+      "date-range-picker",
+      "color-picker",
+      "tabs",
+      "sidebar",
+      "breadcrumbs",
+      "toolbar",
+      "dialog",
+      "sheet",
+      "popover",
+      "tooltip",
+      "toast",
+      "alert",
+      "progress-bar",
+      "skeleton",
+      "empty-state",
+      "table",
+      "data-grid",
+      "tree-view",
+      "list",
+      "code-block",
+      "code-editor",
+      "diff-view",
+      "terminal",
+      "json-viewer",
+      "line-chart",
+      "bar-chart",
+      "sparkline",
+      "gauge-chart",
+      "heatmap",
+      "radar-chart",
+      "treemap",
+      "calendar"
+    ],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": "https://yappologistic.github.io/CUI/",
+    "repo_url": "https://github.com/yappologistic/CUI",
+    "registry_url": null,
+    "github": {
+      "stars": 941,
+      "license": "MIT",
+      "last_activity": "2026-11-12"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Use it for a C or C++ desktop tool that should draw its own controls and stay small. The README's CMake example pins GIT_TAG v1.4.0. There is no npm package. The catalog has no C framework value, so this record's framework facet is unknown rather than a web framework.\n\nThe site and the README both say about 210 components. The GitHub description says about 150. Treat both as the authors' own rounded figures, not an enumerated count. The README says most components have keyboard keys and lists parts that still need a pointer. It is not a claim of full keyboard support.",
+    "why_it_matters": "It is a large MIT component set for C that draws its own UI and can run the same code in a native window or in WebAssembly.",
+    "quality_tier": "A",
+    "tier_reason": "MIT, a live component site, a README with install steps, and a push on 2026-11-12. The site says about 210 components and the repository description says about 150.",
+    "notable_for": [
+      "about 210 components on the site and in the README",
+      "about 150 in the GitHub description",
+      "C99, OpenGL or a software renderer, WebAssembly",
+      "a complete app about 250 KB",
+      "MIT"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-11-12",
+    "source": "user",
+    "evidence": "Checked https://yappologistic.github.io/CUI/ on 2026-11-12. HTTP 200. The title and meta description say about 210 components and about 250 KB. Checked the GitHub API and the raw README for yappologistic/CUI the same day. The API description says about 150 components, with spring motion and full keyboard support, license MIT, 941 stars, pushed 2026-11-12. The README says about 210, documents keyboard exceptions, and shows the CMake install at v1.4.0. Source tweet: https://x.com/Yappologistic/status/2118571260284399795."
+  },
+  {
+    "id": "user:0e3bc5df32fdce06",
+    "slug": "obel-mono",
+    "url": "https://typographic.systems/obel-mono",
+    "name": "Obel Mono",
+    "tagline": "Free SIL OFL monospace for terminals and editors, with a variant that masks API keys",
+    "description": "Obel Mono is a free monospace from Typographic Systems. The page calls it a variable monospace, weights 100 to 900, Roman and Italic, version 1.003, under SIL OFL 1.1. The download section says it is free for anything you make, and the zip contains Obel Mono and Obel Mono Masked as Roman and Italic, in TTF and WOFF2, plus static TTF, OTF, and a variable TTF. The file tree lists OFL.txt.\n\nObel Mono Masked is the same family with feature ss01. The page says it recognizes 205 key prefixes from 82 issuers, and that keys show as dots on screen while the file and the clipboard keep every character. A source repository was not linked on the page.",
+    "category": "typography",
+    "subcategory": "typefaces",
+    "kinds": [
+      "typeface"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "ofl"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "download",
+        "web-app"
+      ],
+      "platform": [
+        "web",
+        "cross-platform"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "fonts"
+      ],
+      "agent_readiness": [
+        "structured-docs"
+      ],
+      "maturity": "stable"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": "Free under SIL OFL 1.1. The download section says \"Free, for anything you make.\" No price was on the page.",
+    "counts": {
+      "icons": null,
+      "fonts": 2,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Download ObelMono-1.003.zip from the page. Use Obel Mono for code. Use Obel Mono Masked, feature ss01, when a screen should hide API keys. The page says the file and the clipboard still hold the real characters, so masking is a display feature, not a security boundary.\n\nThe license on the page is SIL OFL 1.1. There is no package install and no repository link on the page. Weights run from 100 to 900, Roman and Italic, and the zip also has static and variable files.",
+    "why_it_matters": "It is a free OFL monospace with a built-in way to hide recognized API keys on screen.",
+    "quality_tier": "A",
+    "tier_reason": "The page states the license, version 1.003, the file formats, and the 205-prefix masking behavior. No source repository was linked.",
+    "notable_for": [
+      "SIL OFL 1.1",
+      "variable, 100 to 900, Roman and Italic",
+      "Obel Mono Masked hides 205 key prefixes from 82 issuers",
+      "version 1.003, TTF, OTF, and WOFF2"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-11-12",
+    "source": "user",
+    "evidence": "Checked https://typographic.systems/obel-mono on 2026-11-12. HTTP 200. The page states version 1.003, SIL OFL 1.1, Roman and Italic, variable weights 100 to 900, the zip contents, and 205 key prefixes from 82 issuers. No repository URL was on the page. Source tweets: https://x.com/codycollier/status/2117973199384416637 and https://x.com/fcoury/status/2118007262266699824."
+  },
+  {
+    "id": "user:5be439b569e23121",
+    "slug": "fontzz",
+    "url": "https://fontzz.vercel.app",
+    "name": "fontzz",
+    "tagline": "Thirty-six code-drawn families, weights 100 to 900, SIL OFL, on a thin site",
+    "description": "fontzz is a set of original type families by Hassan and Youssef. The homepage meta description says thirty-six original type families, every weight from 100 to 900, free under the SIL Open Font License. The HTML body text is only the word fontzz. The page script names the thirty-six families: Halden, Rondel, Tessera, Alder, Mallow, Strata, Plaza, Vesper, Ledger, Folio, Opaline, Signal, Tally, Topsy, Tempo, Pebble, Orbit, Cleft, Beacon, Brioche, Diode, Aurelia, Marquee, Anvil, Gravure, Frontier, Quill, Rewind, Spire, Vector, Vellum, Lustre, Hearth, Cove, Fathom, and Meridian. The same script says each family is free for personal and commercial use under SIL OFL 1.1, and that the license is embedded in the font file.\n\nThe GitHub README at Luffixos/fontzz says the families are drawn entirely in code, with three masters and a variable font, nine static weights, and 285 characters per family. The LICENSE file in that repository is SIL Open Font License 1.1. GitHub API on 2026-11-12 reported 77 stars, a push on 2026-11-02, and license field NOASSERTION. The README does not name an MCP server.",
+    "category": "typography",
+    "subcategory": "font-services",
+    "kinds": [
+      "font-service"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "ofl"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "web-app",
+        "download",
+        "github-repo"
+      ],
+      "platform": [
+        "web",
+        "cross-platform"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "fonts"
+      ],
+      "agent_readiness": [
+        "js-only-shell",
+        "open-source-code"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": "https://github.com/Luffixos/fontzz",
+    "registry_url": null,
+    "github": {
+      "stars": 77,
+      "license": "OFL-1.1",
+      "last_activity": "2026-11-02"
+    },
+    "pricing_detail": "Free under the SIL Open Font License. The meta description and the repository LICENSE file both say so. No price was stated.",
+    "counts": {
+      "icons": null,
+      "fonts": 36,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Do not scrape the website for specimens. Its HTML body is the word fontzz. Use the repository https://github.com/Luffixos/fontzz, whose LICENSE file is SIL OFL 1.1, or the zip links the site script builds.\n\nThe README says each family has a variable font, nine static weights from 100 to 900, and 285 characters. The GitHub API license field was NOASSERTION. The LICENSE file text is the source for the OFL claim. How the fonts were generated was not in the README or on the page.",
+    "why_it_matters": "It is a 36-family OFL catalog with the source in a public repository, even though the website itself does not render without JavaScript.",
+    "quality_tier": "C",
+    "tier_reason": "The page is thin. The HTML body is one word, so the family list comes from the page script and the license from the repository LICENSE file.",
+    "notable_for": [
+      "36 families",
+      "weights 100 to 900",
+      "SIL OFL 1.1 in the repository LICENSE file",
+      "thin website",
+      "285 characters per family in the README"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-11-12",
+    "source": "user",
+    "evidence": "Checked https://fontzz.vercel.app/ on 2026-11-12. HTTP 200. The meta description states thirty-six families, weights 100 to 900, and the SIL Open Font License. The body text is the word fontzz. There is no og:image. The page script names the 36 families and SIL OFL 1.1. Checked the GitHub API, LICENSE, and README for Luffixos/fontzz the same day. The LICENSE file is SIL OFL 1.1. The API reported 77 stars, a push on 2026-11-02, and license NOASSERTION. The README states 285 characters per family. Source tweets: https://x.com/nutlope/status/2117283561019515097 and https://x.com/nutlope/status/2117283563196354835. The first tweet says 36 new open source fonts and does not say how they were generated."
+  },
+  {
+    "id": "user:bc17a0859a168266",
+    "slug": "stageshow",
+    "url": "https://benji.org/stageshow",
+    "name": "Stageshow",
+    "tagline": "Benji Taylor's MIT skill for faux product UI, stills, and cursor demos in React",
+    "description": "Stageshow is an agent skill by Benji Taylor. The write-up on benji.org says it helps an agent make faux product UI, and the install command is npx skills add benjitaylor/skills --skill stageshow. It says the result is an ordinary React component. The skill folder contains SKILL.md, references, examples, a kit, and scripts. SKILL.md says the skill builds faux product UI as a still or an animated demo with a cursor, in React and plain CSS, and that its version is 1.1.1.\n\nThe repository README says the skill includes composition and motion guidance, a kit, examples, and tools that film the result. stageshow/LICENSE is MIT, copyright 2026 Benji Taylor. The repository listing has no top-level LICENSE file. GitHub API on 2026-11-12 reported no SPDX license, 3,160 stars, and a push on 2026-11-05. Index already lists Benji Taylor's portfolio as benji-taylor and Agentation as agentation. Those are separate records.",
+    "category": "agent-design-tooling",
+    "subcategory": "agent-skills",
+    "kinds": [
+      "agent-skill"
+    ],
+    "facets": {
+      "framework": [
+        "react"
+      ],
+      "styling": [
+        "vanilla-css"
+      ],
+      "license": [
+        "mit"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "agent-skill",
+        "cli",
+        "github-repo"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "code",
+        "prose"
+      ],
+      "agent_readiness": [
+        "agent-skill",
+        "cli-installable",
+        "open-source-code",
+        "structured-docs"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [
+      "homepage"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": "npx skills add benjitaylor/skills --skill stageshow",
+    "package": null,
+    "docs_url": "https://benji.org/stageshow",
+    "repo_url": "https://github.com/benjitaylor/skills",
+    "registry_url": null,
+    "github": {
+      "stars": 3160,
+      "license": null,
+      "last_activity": "2026-11-05"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 1,
+      "blocks": null
+    },
+    "agent_guidance": "Install only this skill with npx skills add benjitaylor/skills --skill stageshow. The repository README currently documents Stageshow and no other skill. Ask for one interaction, in one product, at one size. The write-up says the output is a React component you can edit.\n\nThe MIT text is stageshow/LICENSE, not a repository-level LICENSE file. The GitHub API reported no SPDX license. Benji Taylor's portfolio and Agentation are already in Index under benji-taylor and agentation.",
+    "why_it_matters": "It writes a designer's rules for faux product UI into a skill an agent can install, with examples and a way to film the result.",
+    "quality_tier": "A",
+    "tier_reason": "A specific install command, a long write-up, and an MIT file in the skill folder. The repository has no top-level license, which the API reflects.",
+    "notable_for": [
+      "faux product UI in React",
+      "stills, feature cards, cursor demos, bento grids",
+      "MIT in stageshow/LICENSE",
+      "npx skills add benjitaylor/skills --skill stageshow"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-11-12",
+    "source": "user",
+    "evidence": "Checked https://benji.org/stageshow on 2026-11-12. HTTP 200. It states the install command and what the skill contains. Checked the GitHub API for benjitaylor/skills, the repository README, stageshow/SKILL.md, and stageshow/LICENSE the same day. The LICENSE file is MIT, copyright 2026 Benji Taylor. The contents listing has no top-level LICENSE. The API reported 3,160 stars, license null, and a push on 2026-11-05. Source tweet: https://x.com/benjitaylor/status/2116593247854453244."
+  },
+  {
+    "id": "user:fc14402837c626ee",
+    "slug": "rune",
+    "url": "https://github.com/anomalyco/rune",
+    "name": "Rune",
+    "tagline": "Pre-release native GPU Rust UI framework with headless rendering for agents",
+    "description": "Rune is a native GPU-rendered Rust UI framework. The README says it targets macOS, Windows, Linux, and the web, with its own renderer, text, layout, and springs. It says every app can run headless, so an agent can render to PNG, dump the element tree, and drive it with scripted input. It ships rune-kit components and tells you to depend on a pinned rev of the dev branch because Rune is pre-release and dev is never rewritten.\n\nThe crate split in crates/rune-kit/README.md puts elements and the renderer in crates/rune, and themed components in crates/rune-kit. The root README's license line is \"MIT, © Anomaly.\" The LICENSE file is MIT, copyright 2026 Anomaly. GitHub API on 2026-11-12 reported the MIT license, 6,823 stars, and a push the same day. The catalog's only Rust framework value is rust-gpui, and Rune is not GPUI, so the framework facet is unknown.",
+    "category": "component-libraries",
+    "subcategory": "cross-framework-and-native",
+    "kinds": [
+      "component-library"
+    ],
+    "facets": {
+      "framework": [
+        "unknown"
+      ],
+      "styling": [
+        "unknown"
+      ],
+      "license": [
+        "mit"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "github-repo"
+      ],
+      "platform": [
+        "macos",
+        "windows",
+        "linux",
+        "web",
+        "desktop",
+        "cross-platform"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "code"
+      ],
+      "agent_readiness": [
+        "open-source-code",
+        "structured-docs"
+      ],
+      "maturity": "beta"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": "rune = { git = \"https://github.com/anomalyco/rune\", rev = \"<dev rev>\" }",
+    "package": null,
+    "docs_url": "https://github.com/anomalyco/rune/blob/dev/crates/rune/README.md",
+    "repo_url": "https://github.com/anomalyco/rune",
+    "registry_url": null,
+    "github": {
+      "stars": 6823,
+      "license": "MIT",
+      "last_activity": "2026-11-12"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Pin a rev of dev. The README says Rune is pre-release and that dev is never rewritten. Start from examples/hello and check work by rendering PNGs and reading the element tree, which the README says every app can do headless.\n\nDo not file it as GPUI. rust-gpui is a different framework. The component crate is rune-kit. The README says the project does not take pull requests.",
+    "why_it_matters": "It is a Rust UI framework that can render headless, so an agent can see the screen it built without a window.",
+    "quality_tier": "B",
+    "tier_reason": "MIT, a clear README, and a push on 2026-11-12. The project says it is pre-release, and the component list was not enumerated on the root README.",
+    "notable_for": [
+      "GPU renderer, text, layout, and springs",
+      "headless PNG and element tree",
+      "rune-kit components",
+      "MIT, pre-release",
+      "macOS, Windows, Linux, and the web"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-11-12",
+    "source": "user",
+    "evidence": "Checked the GitHub API, the root README, the LICENSE file, and crates/rune-kit/README.md for anomalyco/rune on 2026-11-12. The LICENSE file is MIT, copyright 2026 Anomaly. The API reported 6,823 stars, license MIT, and a push on 2026-11-12. The root README states the platforms, headless rendering, the pre-release pin, and \"MIT, © Anomaly.\" Source tweet: https://x.com/rustaceans_rs/status/2118737480262332493."
+  },
+  {
+    "id": "user:f7269189f355026b",
+    "slug": "vitrum",
+    "url": "https://usevitrum.com",
+    "name": "Vitrum",
+    "tagline": "Browser tool that turns a logo into a glass, metal, or colour 3D icon",
+    "description": "Vitrum turns a logo into a 3D icon in the browser. The meta description says to turn an SVG or PNG logo into a 3D icon in glass, metal, or colour, and to export a PNG, a GLB for three.js, or an STL for print. It also says the tool is free, in the browser, with no sign-up. The page adds JPG and WebP as inputs. The PNG export is described as the view you set, at 2x, on a transparent background. The GLB is a glTF binary with physically based materials, sized in metres, for three.js, React Three Fiber, and Spline. The STL is a closed mesh in millimetres.\n\nThe FAQ says tracing, modelling, and rendering run in the browser, nothing is uploaded, and there is no account. It says everything you export is yours to use, and that you should only upload artwork you own. A license for the Vitrum tool itself was not stated. The page says it is made by Volkan.",
+    "category": "textures-assets",
+    "subcategory": "image-effect-tools",
+    "kinds": [
+      "tool",
+      "generator"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "free"
+      ],
+      "distribution": [
+        "web-app"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "3d",
+        "images",
+        "icons"
+      ],
+      "agent_readiness": [
+        "none"
+      ],
+      "maturity": "unknown"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": "The meta description says \"Free, in your browser, no sign-up.\" No paid plan was on the page.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Send a person to https://usevitrum.com with an SVG, PNG, JPG, or WebP they own. The page says the work stays in the browser. Exports are PNG at 2x with a transparent background, GLB for three.js or React Three Fiber, and STL for print.\n\nThe FAQ says the export is yours to use. It does not state a license for the Vitrum application. There is no API or install command on the page, so an agent cannot run the conversion itself.",
+    "why_it_matters": "It makes a 3D icon from a logo in the browser, with PNG, GLB, and STL export, and no account.",
+    "quality_tier": "B",
+    "tier_reason": "The inputs, the three export formats, the local processing, and the free no-account claim are on the page. The tool's own license is not stated.",
+    "notable_for": [
+      "SVG, PNG, JPG, and WebP in",
+      "PNG, GLB, and STL out",
+      "runs in the browser, nothing uploaded",
+      "free, no account",
+      "tool license not stated"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-11-12",
+    "source": "user",
+    "evidence": "Checked https://usevitrum.com/ on 2026-11-12. HTTP 200. The meta description and the FAQ state the inputs, the PNG, GLB, and STL exports, local processing, no account, and that exports are yours to use. No tool license was on the page. Source tweet: https://x.com/volkanakielle/status/2116567180489969957."
+  },
+  {
+    "id": "user:90e68e6fe3c7a377",
+    "slug": "unslop",
+    "url": "https://github.com/heydamir/unslop",
+    "name": "unslop",
+    "tagline": "CC BY skill that restyles AI-looking UI, by Damir Sokolovsky",
+    "description": "unslop is an agent skill by Damir Sokolovsky. The README says it turns vibecoded, AI-looking UI into a designed interface, and that it works with Claude Code, Codex, and Google Antigravity. It says the skill finds purple gradients, glows, emoji labels, shouty copy, and uneven spacing, then sets a direction from the product and edits pass by pass. It says it works on whatever the screen is built with, including Next.js, React, Vue, Svelte, Tailwind, or plain HTML and CSS, on dashboards, apps, and landing pages, and on a live site when you only have a link.\n\nInstall is a copy into the agent's skills folder, or the Codex skill-installer URL in the README. Story videos need Playwright and ffmpeg. The license section says CC BY 4.0, including commercial use, with credit to Damir Sokolovsky and a link back to the repository. GitHub API on 2026-11-12 reported CC-BY-4.0, 14,909 stars, and a push on 2026-11-08. A separate paid offer, one screen in 3 days, is linked at heydamir.design/unslop. That price was not opened.",
+    "category": "agent-design-tooling",
+    "subcategory": "agent-skills",
+    "kinds": [
+      "agent-skill"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "cc-by"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "agent-skill",
+        "github-repo"
+      ],
+      "platform": [
+        "web",
+        "platform-agnostic"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "prose",
+        "code"
+      ],
+      "agent_readiness": [
+        "agent-skill",
+        "open-source-code"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [
+      "homepage",
+      "analytics"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": "https://github.com/heydamir/unslop",
+    "registry_url": null,
+    "github": {
+      "stars": 14909,
+      "license": "CC-BY-4.0",
+      "last_activity": "2026-11-08"
+    },
+    "pricing_detail": "The skill is free under CC BY 4.0. The README links a paid design offer at heydamir.design/unslop and says one key screen takes 3 days. That page was not opened, so no price is recorded here.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Copy skills/unslop into the agent's skills folder. The README gives paths for Claude Code, Codex, and Google Antigravity, and a Codex installer command. In Claude Code the command is /unslop. The README says it audits and proposes a direction before it edits.\n\nCredit Damir Sokolovsky and link to https://github.com/heydamir/unslop. The license is CC BY 4.0. Do not treat the skill as tied to one framework. The README says it works on the stack the screen already uses. Image generation through fal, Replicate, OpenAI, or Higgsfield is optional, and the README says it asks before a paid generation.",
+    "why_it_matters": "It is a widely starred skill whose job is to remove the usual signs of generated UI and restyle the screen that is already there.",
+    "quality_tier": "A",
+    "tier_reason": "CC BY 4.0, a specific install, and 14,909 stars on 2026-11-12. The paid design service's price was not opened.",
+    "notable_for": [
+      "CC BY 4.0",
+      "Claude Code, Codex, and Google Antigravity",
+      "dashboards, apps, and landing pages",
+      "14,909 stars"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-11-12",
+    "source": "user",
+    "evidence": "Checked the GitHub API and the raw README for heydamir/unslop on 2026-11-12. The API reported license CC-BY-4.0, 14,909 stars, and a push on 2026-11-08. The README states the install paths, the surfaces it covers, and CC BY 4.0. The linked offer at heydamir.design/unslop was not opened. Source tweet: https://x.com/heydamir/status/2116158176336970008."
+  },
+  {
+    "id": "user:08357e97071f5f3c",
+    "slug": "snapcn",
+    "url": "https://snapcn.dev",
+    "name": "snapcn",
+    "tagline": "shadcn registry of Remotion components for React video, with a paid Pro tier",
+    "description": "snapcn is a shadcn registry of Remotion components for React video, from Shadcn Labs. The homepage says the components cover text animations, captions, logo stings, device mockups, and full scenes, and that you install them with the shadcn CLI into a Remotion project. The footer says 61 components are MIT licensed and 81 are Pro. The pricing page says the free plan includes all 61 free components, MIT, unlimited editor exports at 720p, and 7 agent skills. Pro is $179 a year and includes the 81 Pro components, 10 or more video templates, the snapcn MCP server, one-click plugins, and 1080p exports without a watermark. Lifetime is $279 once. Commercial is $499 once, for up to five people, and is described as licensed for client and company work.\n\nThe homepage FAQ says every component is MIT licensed and that there is no paid tier. That sentence disagrees with the footer and the pricing page. registry.json at https://snapcn.dev/r/registry.json listed 146 items on 2026-11-12. GitHub API for shadcn-labs/snapcn reported the MIT license, 614 stars, and a push the same day. The install example on the homepage is npx shadcn@latest add @snapcn/text-reveal. The page says Remotion has to be set up first with npx create-video@latest.",
+    "category": "component-libraries",
+    "subcategory": "shadcn-registries",
+    "kinds": [
+      "registry",
+      "component-library"
+    ],
+    "facets": {
+      "framework": [
+        "react"
+      ],
+      "styling": [
+        "unknown"
+      ],
+      "license": [
+        "mit",
+        "commercial"
+      ],
+      "pricing": [
+        "free",
+        "open-source",
+        "freemium",
+        "subscription",
+        "one-time"
+      ],
+      "distribution": [
+        "shadcn-registry",
+        "cli",
+        "copy-paste",
+        "github-repo",
+        "mcp-server",
+        "agent-skill"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "code",
+        "video"
+      ],
+      "agent_readiness": [
+        "registry-json",
+        "cli-installable",
+        "copy-paste-ready",
+        "open-source-code",
+        "agent-skill",
+        "agent-paywalled"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": "npx shadcn@latest add @snapcn/text-reveal",
+    "package": null,
+    "docs_url": "https://snapcn.dev/docs/pricing",
+    "repo_url": "https://github.com/shadcn-labs/snapcn",
+    "registry_url": "https://snapcn.dev/r/registry.json",
+    "github": {
+      "stars": 614,
+      "license": "MIT",
+      "last_activity": "2026-11-12"
+    },
+    "pricing_detail": "Free: 61 MIT components, 720p editor exports, 7 agent skills. Pro: $179 a year, 81 Pro components, templates, the MCP server, plugins, 1080p, no watermark. Lifetime: $279 once. Commercial: $499 once, up to five people. The pricing page says lower prices exist for Pro and Lifetime in Brazil, India, Argentina, and Türkiye, and does not list those amounts.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 146,
+      "blocks": null
+    },
+    "agent_guidance": "Install a free component with npx shadcn@latest add @snapcn/text-reveal inside a Remotion project created with npx create-video@latest. The homepage says the source lands in components/snap-cn/. The public registry is https://snapcn.dev/r/registry.json, which listed 146 items.\n\nDo not treat the whole catalog as MIT. The footer and the pricing page split 61 MIT components from 81 Pro components. The homepage FAQ says there is no paid tier, and the pricing page contradicts that. The MCP server is listed as part of Pro. Its URL was not on the pricing page, so it is not recorded here. A Tailwind version was not stated.",
+    "why_it_matters": "It is a shadcn-installable set of Remotion shots for product videos, with a free MIT portion and a priced Pro catalog.",
+    "quality_tier": "B",
+    "tier_reason": "The free install, the MIT repository, and the Pro prices are on the site. The homepage FAQ says there is no paid tier, which the pricing page and the footer contradict.",
+    "notable_for": [
+      "Remotion components via the shadcn CLI",
+      "61 MIT components and 81 Pro",
+      "Pro $179 a year, Lifetime $279, Commercial $499",
+      "146 items in registry.json",
+      "homepage FAQ disagrees with the pricing page"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-11-12",
+    "source": "user",
+    "evidence": "Checked https://snapcn.dev/ and https://snapcn.dev/docs/pricing on 2026-11-12. Both returned HTTP 200. The footer says 61 components MIT licensed and 81 Pro. The pricing page lists Free, Pro at $179 a year, Lifetime at $279, and Commercial at $499. The homepage FAQ says every component is MIT and that there is no paid tier. https://snapcn.dev/r/registry.json returned HTTP 200 and listed 146 items. GitHub API for shadcn-labs/snapcn reported license MIT, 614 stars, and a push on 2026-11-12. Source tweet: https://x.com/shadcnlabs/status/2115912766561398794."
+  },
+  {
+    "id": "user:03c8f3f5d583c0b6",
+    "slug": "blueprint-page",
+    "url": "https://blueprint.page",
+    "name": "Blueprint",
+    "tagline": "Describe a generative design tool and Blueprint builds it, with presets and export",
+    "description": "Blueprint builds generative design tools from a description. The homepage says to describe a halftone generator, a dither tool, or another generative design tool, and that the result has presets, high-resolution export, and a link for clients. The free plan is 20 credits, described as 10 plus a 10-credit launch bonus, with no card. It covers 3 tools in one project, PNG and SVG export, and no publishing or client sharing. A message costs 3 credits, and Best costs 10. Fixes, use, and export are free.\n\nPaid plans, in US dollars, are Solo at $19 a month or $190 a year, Studio at $49 a month or $490 a year, and Agency at $139 a month or $1,390 a year. A launch offer takes 30 percent off the first month. Yearly billing is described as two months free. Solo includes 300 credits a month, 4 projects, and 1 MCP connection. Studio includes 800 credits, unlimited projects, 1 custom domain, and 3 connections. Agency includes 2,300 credits, 5 custom domains, and 10 connections. The page says MCP uses no credits and is for Solo, Studio, and Agency. The connector URL is https://blueprint.page/api/mcp. Extra packs are 50 credits for $7, 100 for $12, 500 for $49, 1,000 for $89, and 5,000 for $399. The FAQ says you own your prompts, images, tools, and exports. A license for the Blueprint application was not stated. The slug blueprint is already used by another record.",
+    "category": "agent-design-tooling",
+    "subcategory": "ai-design-apps",
+    "kinds": [
+      "ai-tool",
+      "tool",
+      "mcp-server"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "free",
+        "freemium",
+        "subscription",
+        "one-time"
+      ],
+      "distribution": [
+        "web-app",
+        "saas",
+        "mcp-server"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "images",
+        "code"
+      ],
+      "agent_readiness": [
+        "mcp-server",
+        "auth-required",
+        "agent-paywalled"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "machine_urls": [
+      {
+        "kind": "mcp",
+        "url": "https://blueprint.page/api/mcp"
+      }
+    ],
+    "github": null,
+    "pricing_detail": "Free: 20 credits once, 3 tools, 1 project, PNG and SVG, no card. Solo $19/month or $190/year, 300 credits a month. Studio $49/month or $490/year, 800 credits. Agency $139/month or $1,390/year, 2,300 credits. Launch offer: 30 percent off the first month. Extra credit packs from $7 to $399. MCP is on the paid plans and uses no credits.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Use the free 20 credits when the user only needs to try a generator and export PNG or SVG. Publishing, client sharing, and the MCP server are on Solo, Studio, or Agency. The page says to add https://blueprint.page/api/mcp as a Claude connector, or to create a token in Settings for Claude Code, Codex, or Cursor.\n\nThe FAQ says the user owns the prompts, images, tools, and exports. It does not state a license for Blueprint itself. This record is blueprint-page. The slug blueprint already belongs to a different design-system generator.",
+    "why_it_matters": "It turns a short description into a working generative design tool, with presets, export, and an MCP connection on the paid plans.",
+    "quality_tier": "B",
+    "tier_reason": "Prices, credit costs, and the MCP URL are on the page. The application's license is not stated, and the free plan cannot publish or connect an agent.",
+    "notable_for": [
+      "halftone, dither, and other generative tools from a prompt",
+      "20 free credits, no card",
+      "Solo $19, Studio $49, Agency $139 a month",
+      "MCP at blueprint.page/api/mcp on paid plans"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-11-12",
+    "source": "user",
+    "evidence": "Checked https://blueprint.page/ on 2026-11-12. HTTP 200. The pricing section states the free credits and the Solo, Studio, and Agency prices, including yearly amounts and the extra credit packs. The FAQ states https://blueprint.page/api/mcp for Solo, Studio, and Agency. A GET of that URL returned HTTP 405. A license for the Blueprint application was not on the page. Source tweet: https://x.com/officecommun/status/2115790225998021049."
+  },
+  {
+    "id": "user:b1bea696d4f29599",
+    "slug": "serua-mono",
+    "url": "https://supply.family/shop/serua-mono/",
+    "name": "Serua Mono",
+    "tagline": "Commercial monospace sans by RNDI Type Foundry, 14 styles, sold on Supply Family",
+    "description": "Serua Mono is a monospace sans by RNDI Type Foundry, sold on Supply Family. The product text says it has 14 styles and variable font support, 611 glyphs, and Adobe Latin 3 coverage. The style list is Thin, Extra Light, Light, Regular, Medium, Semi Bold, and Bold, each upright and slanted, plus a variable font labeled Serua Mono Mono VF. An image alt on the same page says the specimen shows 611 glyphs, and another says support for 93 languages. The body text names distinctive details in the r, u, and a, and two alternate forms of the lowercase g.\n\nThe page's license summary describes Standard for up to 3 seats, without paid advertising or app embedding, Commercial for up to 12 seats with paid advertising, Commercial+ for up to 40 seats with app embedding, and Corporate by contact. Desktop, webfont, advertising, and app are separate usage types, and a trial is internal evaluation only. The selected price on the page was Serua Mono Medium, desktop, up to 3 users, at $20, marked 20 percent off from $25, with the offer ending November 28, 2026. A price for the full family was not in that text. A plain request to the shop URL received a Cloudflare challenge.",
+    "category": "typography",
+    "subcategory": "typefaces",
+    "kinds": [
+      "typeface"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "commercial",
+        "font-eula"
+      ],
+      "pricing": [
+        "paid",
+        "one-time",
+        "free-trial"
+      ],
+      "distribution": [
+        "web-app"
+      ],
+      "platform": [
+        "web",
+        "print",
+        "cross-platform"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "fonts"
+      ],
+      "agent_readiness": [
+        "none"
+      ],
+      "maturity": "stable"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": "https://supply.family/licenses",
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": "The price shown for Serua Mono Medium, desktop, up to 3 users, was $20, reduced from $25, through November 28, 2026. A full-family price was not in the fetched text. Trial download requires a login and is internal evaluation only. License tiers on the page are Standard, Commercial, Commercial+, and Corporate.",
+    "counts": {
+      "icons": null,
+      "fonts": 1,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Treat this as a paid foundry font. Do not download it from a random mirror. The product text says 14 styles, a variable font, 611 glyphs, and Adobe Latin 3. The only dollar amount read for Serua Mono itself was $20 for the Medium desktop license, up to 3 users, on sale from $25 until November 28, 2026.\n\nMatch the license tier to the use. Standard on the page excludes paid advertising and app embedding. The trial is not for public work. A direct fetch of the shop URL was blocked by Cloudflare, so recheck the live price before quoting it.",
+    "why_it_matters": "It is a current commercial monospace with a variable font, sold with explicit seat and usage tiers.",
+    "quality_tier": "B",
+    "tier_reason": "The style list, glyph count, coverage, and license tiers are in the product text. A direct fetch hit Cloudflare, and the only price read was for one style.",
+    "notable_for": [
+      "14 styles plus a variable font",
+      "611 glyphs, Adobe Latin 3",
+      "RNDI Type Foundry on Supply Family",
+      "Medium desktop license $20, from $25, through November 28, 2026"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-11-12",
+    "source": "user",
+    "evidence": "A direct request to https://supply.family/shop/serua-mono/ on 2026-11-12 returned HTTP 403, a Cloudflare challenge. A rendered text fetch of the same URL the same day returned the product page. That text states 14 styles, variable font support, 611 glyphs, Adobe Latin 3, the style names, the license tiers, and the $20 Medium desktop price through November 28, 2026. A full-family price was not in that text. Source tweets: https://x.com/supply_family/status/2115105763068989695 and https://x.com/supply_family/status/2115106014689468804. The first tweet calls it a monospace sans by RNDI Type Foundry."
+  },
+  {
+    "id": "user:9447df44ea73004b",
+    "slug": "kibernetyk-mono",
+    "url": "https://pavlokilko.github.io/KibernetykMono/",
+    "name": "Kibernetyk Mono",
+    "tagline": "Geometric monospace by Pavlo Kilko, 7 weights, SIL OFL 1.1",
+    "description": "Kibernetyk Mono is a geometric monospace by Pavlo Kilko. The microsite says it is inspired by the Ukrainian Cybernetics School, and that the letterforms are drawn from points and lines for code and dense data. The page counts 7 weights, 600 glyphs, and 2 scripts, Latin and Cyrillic. The download line says it is under the SIL Open Font License 1.1, free for commercial and non-commercial projects, and that credit is not required. The files are TTF, version 1.0.0.\n\nThe source link on the page is https://github.com/PavloKilko/KibernetykMono. The README names the seven weights as thin, extralight, light, regular, medium, semibold, and bold, and repeats the OFL. GitHub API on 2026-11-12 reported OFL-1.1, 94 stars, and a push on 2026-10-27. The README says OpenAI Codex was used as a build assistant and was not used to originate the glyph designs.",
+    "category": "typography",
+    "subcategory": "typefaces",
+    "kinds": [
+      "typeface"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "ofl"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "download",
+        "github-repo",
+        "web-app"
+      ],
+      "platform": [
+        "web",
+        "cross-platform"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "fonts"
+      ],
+      "agent_readiness": [
+        "open-source-code"
+      ],
+      "maturity": "stable"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": "https://github.com/PavloKilko/KibernetykMono",
+    "registry_url": null,
+    "github": {
+      "stars": 94,
+      "license": "OFL-1.1",
+      "last_activity": "2026-10-27"
+    },
+    "pricing_detail": "Free under SIL OFL 1.1, including commercial use. The page says credit is not required.",
+    "counts": {
+      "icons": null,
+      "fonts": 1,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Download the TTF zip from the microsite or the GitHub releases. The page says version 1.0.0, 7 weights, and SIL OFL 1.1. The README's weight names are thin, extralight, light, regular, medium, semibold, and bold. Latin and Cyrillic are the two scripts the page counts.\n\nThere is no npm package on the page. The README invites packaging it, and asks packagers to link the repository. A variable font was not mentioned.",
+    "why_it_matters": "It is a small OFL monospace with Latin and Cyrillic, a public source repository, and a specimen that states the glyph count.",
+    "quality_tier": "A",
+    "tier_reason": "The microsite states the license, the weight count, and the glyph count, and the repository LICENSE matches. It is one family at version 1.0.0.",
+    "notable_for": [
+      "SIL OFL 1.1, commercial use allowed",
+      "7 weights, TTF, v1.0.0",
+      "600 glyphs, Latin and Cyrillic",
+      "Pavlo Kilko"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-11-12",
+    "source": "user",
+    "evidence": "Checked https://pavlokilko.github.io/KibernetykMono/ on 2026-11-12. HTTP 200. The page states 7 weights, 600 glyphs, 2 scripts, SIL OFL 1.1, TTF, and v1.0.0, and links https://github.com/PavloKilko/KibernetykMono. Checked the GitHub API and README the same day. The API reported OFL-1.1, 94 stars, and a push on 2026-10-27. The README names the seven weights. Source tweet: https://x.com/hisho_of_imy/status/2114270857254297701."
+  },
+  {
+    "id": "user:4f60ab6e543d8448",
+    "slug": "dithercn",
+    "url": "https://dithercn.dev",
+    "name": "dithercn",
+    "tagline": "MIT dither engine and agent skill for shadcn, with 63 example components",
+    "description": "dithercn is an open-source dither engine and an agent skill for shadcn projects. The homepage says it turns a tone into dots with Bayer and blue-noise matrices, and draws them as a WebGL shader, SVG patterns and CSS masks, or a one-off pass for photos and logos. Colours come from the shadcn theme. The page says there are 63 components in 5 groups: backgrounds, charts, interface, text, and images. The footer says it is MIT licensed.\n\nThe README says to install from a project that uses shadcn/ui, Tailwind CSS v4, and React 19, with npx shadcn@latest add https://dithercn.dev/r/dithercn-skill.json. That command adds the engine, the skill, and the CSS variables. The homepage also shows pnpm dlx skills add https://dithercn.dev. The site serves /llms.txt and a registry at /r/registry.json, which listed 69 items on 2026-11-12, including library and token items as well as components. GitHub API for opencoredev/dithercn reported the MIT license, 140 stars, and a push on 2026-11-05. The source tweet's count of 52 is older than the 63 on the site.",
+    "category": "component-libraries",
+    "subcategory": "shadcn-registries",
+    "kinds": [
+      "registry",
+      "component-library",
+      "agent-skill"
+    ],
+    "facets": {
+      "framework": [
+        "react"
+      ],
+      "styling": [
+        "tailwind-v4"
+      ],
+      "license": [
+        "mit"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "shadcn-registry",
+        "cli",
+        "copy-paste",
+        "github-repo",
+        "agent-skill"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "reduced-motion"
+      ],
+      "content_type": [
+        "code"
+      ],
+      "agent_readiness": [
+        "registry-json",
+        "cli-installable",
+        "agent-skill",
+        "llms-txt",
+        "copy-paste-ready",
+        "open-source-code",
+        "structured-docs"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [
+      "avatar",
+      "bar-chart",
+      "button",
+      "gauge-chart",
+      "heatmap",
+      "progress-bar",
+      "stat"
+    ],
+    "component_count": 63,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": "npx shadcn@latest add https://dithercn.dev/r/dithercn-skill.json",
+    "package": null,
+    "docs_url": "https://dithercn.dev",
+    "repo_url": "https://github.com/opencoredev/dithercn",
+    "registry_url": "https://dithercn.dev/r/registry.json",
+    "machine_urls": [
+      {
+        "kind": "llms-txt",
+        "url": "https://dithercn.dev/llms.txt"
+      }
+    ],
+    "github": {
+      "stars": 140,
+      "license": "MIT",
+      "last_activity": "2026-11-05"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 69,
+      "blocks": null
+    },
+    "agent_guidance": "Install the skill and the engine together with npx shadcn@latest add https://dithercn.dev/r/dithercn-skill.json in a shadcn project on Tailwind CSS v4 and React 19. The skill alone is pnpm dlx skills add https://dithercn.dev. The homepage says the agent adds the engine the first time it builds a dither.\n\nUse the 63 figure from the site, not the older count of 52 in the source tweet. registry.json listed 69 items, which includes more than the example components. The homepage says animation respects reduced motion. Read https://dithercn.dev/llms.txt for the docs index.",
+    "why_it_matters": "It gives a shadcn project a dither engine and a skill that can build a new dither in the project's own theme.",
+    "quality_tier": "B",
+    "tier_reason": "MIT, a registry, an install command, and llms.txt. The project had 140 stars, and the homepage count of 63 does not match the 69 registry items.",
+    "notable_for": [
+      "63 example components on the site",
+      "MIT",
+      "Tailwind CSS v4 and React 19",
+      "skill plus dither engine",
+      "llms.txt"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-11-12",
+    "source": "user",
+    "evidence": "Checked https://dithercn.dev/ on 2026-11-12. HTTP 200. The page says 63 components in 5 groups, the MIT license, and both install commands. https://dithercn.dev/llms.txt and https://dithercn.dev/r/registry.json returned HTTP 200. The registry listed 69 items. Checked the GitHub API and README for opencoredev/dithercn. The API reported license MIT, 140 stars, and a push on 2026-11-05. The README states Tailwind CSS v4 and React 19. Source tweets: https://x.com/leodev/status/2114688757404447027 and https://x.com/leodev/status/2114688770746507774."
+  },
+  {
+    "id": "user:b8f8bcb69ad0622b",
+    "slug": "anatomy",
+    "url": "https://skills.wheresryan.sh/anatomy",
+    "name": "Anatomy",
+    "tagline": "MIT skill that draws an idea as an interactive isometric machine",
+    "description": "Anatomy is an agent skill by Ryan. The site says you name an idea in one line and Claude draws it as a live isometric figure you can turn, press, and read. The README says it also runs in Antigravity, OpenCode, Codex, and MiniMax Code. It makes three kinds of figure: SVG, SVG plus a WebGL shader, and a 3D mode marked beta. The SVG can ship as a standalone HTML page, an SVG file, or React and Next.js components.\n\nThe install command in the README is npx skills add wheresryan22/anatomy -g. The site says the watch figure came from the prompt \"/anatomy explain how a mechanical watch keeps time, interactive\". The license badge and the GitHub API both say MIT. GitHub API on 2026-11-12 reported 26,883 stars and a push on 2026-10-18. The repository description says it generates polished SVGs with optional WebGL shaders and 3D effects.",
+    "category": "agent-design-tooling",
+    "subcategory": "agent-skills",
+    "kinds": [
+      "agent-skill"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "mit"
+      ],
+      "pricing": [
+        "free",
+        "open-source"
+      ],
+      "distribution": [
+        "agent-skill",
+        "cli",
+        "github-repo",
+        "web-app"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "code",
+        "images"
+      ],
+      "agent_readiness": [
+        "agent-skill",
+        "cli-installable",
+        "open-source-code",
+        "structured-docs"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": "npx skills add wheresryan22/anatomy -g",
+    "package": null,
+    "docs_url": "https://skills.wheresryan.sh/anatomy",
+    "repo_url": "https://github.com/wheresryan22/anatomy",
+    "registry_url": null,
+    "github": {
+      "stars": 26883,
+      "license": "MIT",
+      "last_activity": "2026-10-18"
+    },
+    "pricing_detail": null,
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Install with npx skills add wheresryan22/anatomy -g. The README says the CLI asks which agent to set up, and that -a claude-code, -a antigravity, -a opencode, -a codex, or -a minimax-code skips the question. In Claude Code the command is /anatomy, and in Codex it is $anatomy.\n\nThe README says the kit uses Node's built-in modules and needs Node 20.10 or later. Ask for one mechanism and say whether it should be interactive. SVG is the core. WebGL is for fire, water, and light. The 3D mode is marked beta. The license is MIT.",
+    "why_it_matters": "It turns a one-line explanation into an interactive isometric figure, with the skill and the examples in a public MIT repository.",
+    "quality_tier": "A",
+    "tier_reason": "MIT, a documented install, a long site, and 26,883 stars. The last push was October 18, 2026, and the 3D mode is marked beta.",
+    "notable_for": [
+      "interactive isometric SVG figures",
+      "optional WebGL shaders and a beta 3D mode",
+      "MIT",
+      "npx skills add wheresryan22/anatomy",
+      "26,883 stars"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-11-12",
+    "source": "user",
+    "evidence": "Checked https://skills.wheresryan.sh/anatomy on 2026-11-12. HTTP 200. The page describes the skill and the watch example. Checked the GitHub API and README for wheresryan22/anatomy the same day. The API reported license MIT, 26,883 stars, and a push on 2026-10-18. The README states the install command, the three figure kinds, and the supported agents. Source tweet: https://x.com/fram3o/status/2115266516056977556."
+  },
+  {
+    "id": "user:eef7d3c4e2b23dac",
+    "slug": "rainbrand",
+    "url": "https://www.rainbrand.com/",
+    "name": "Rainbrand",
+    "tagline": "Shared brand context for agents, with MCP, a REST API, and monthly plans",
+    "description": "Rainbrand, formerly Bloom, keeps shared brand context for agents and products. The homepage says it turns guidelines, logos, fonts, and voice into context that agents can use. The MCP URL on the page is https://mcp.rainbrand.com/mcp. Claude Code setup is claude plugin marketplace add rainbrandai/rainbrand-skills and claude plugin install rainbrand@rainbrand. The REST example lists brands at https://www.rainbrand.com/api/v1/brands with an x-api-key header. Docs are at https://docs.rainbrand.com.\n\nThe pricing page says a new signup gets 1,000 credits and one free brand creation, once, not every month. Monthly prices are Plus $20 for 5,000 credits and 1 seat, Pro $35 for 10,000 credits and unlimited seats, Max $50 for 20,000 credits, and Scale $65 for 30,000 credits. Annual billing saves 10 percent. API and MCP are included in every plan. A brief is 100 credits, a review 200, a brand edit 300, and a new brand 500. Manual top-ups are $0.50 per 100 credits. The plugin repository rainbrandai/rainbrand-skills is MIT. GitHub API on 2026-11-12 reported 1 star and a push on 2026-10-28. A license for the hosted service was not stated.",
+    "category": "agent-design-tooling",
+    "subcategory": "mcp-and-registries",
+    "kinds": [
+      "mcp-server",
+      "service",
+      "agent-skill"
+    ],
+    "facets": {
+      "framework": [
+        "not-applicable"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "unknown"
+      ],
+      "pricing": [
+        "free-trial",
+        "subscription",
+        "account-required"
+      ],
+      "distribution": [
+        "mcp-server",
+        "saas",
+        "public-api",
+        "agent-skill",
+        "web-app"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "unknown"
+      ],
+      "content_type": [
+        "prose",
+        "images"
+      ],
+      "agent_readiness": [
+        "mcp-server",
+        "public-api",
+        "agent-skill",
+        "auth-required",
+        "structured-docs"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "templates": [],
+    "template_count": null,
+    "install": "claude plugin marketplace add rainbrandai/rainbrand-skills",
+    "package": null,
+    "docs_url": "https://docs.rainbrand.com",
+    "repo_url": "https://github.com/rainbrandai/rainbrand-skills",
+    "registry_url": null,
+    "machine_urls": [
+      {
+        "kind": "mcp",
+        "url": "https://mcp.rainbrand.com/mcp"
+      },
+      {
+        "kind": "api",
+        "url": "https://www.rainbrand.com/api/v1/brands"
+      }
+    ],
+    "github": {
+      "stars": 1,
+      "license": "MIT",
+      "last_activity": "2026-10-28"
+    },
+    "pricing_detail": "Signup grant: 1,000 credits and one brand, once. Plus $20/month, 5,000 credits, 1 seat. Pro $35/month, 10,000 credits, unlimited seats. Max $50/month, 20,000 credits. Scale $65/month, 30,000 credits. Annual billing saves 10 percent. Brief 100 credits, review 200, brand edit 300, new brand 500. Top-ups $0.50 per 100 credits. API and MCP are on every plan.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Connect https://mcp.rainbrand.com/mcp and sign in. For Claude Code, add the marketplace with claude plugin marketplace add rainbrandai/rainbrand-skills and install rainbrand@rainbrand. The plugin repository is MIT. The hosted product's terms were not read as a software license, so the license facet stays unknown.\n\nBudget credits. The pricing page says a brief is 100, a review 200, a brand edit 300, and a new brand 500. The signup grant is once, not a monthly free plan. Plan credits do not roll over. The homepage says Bloom is now Rainbrand.",
+    "why_it_matters": "It is a hosted brand layer an agent can query for guidelines and assets, with the prices and credit costs written on the pricing page.",
+    "quality_tier": "B",
+    "tier_reason": "The MCP URL, the plugin install, and the four plan prices are on the site. The hosted service has no stated software license, and the plugin repository had 1 star.",
+    "notable_for": [
+      "MCP at mcp.rainbrand.com/mcp",
+      "Plus $20, Pro $35, Max $50, Scale $65 a month",
+      "1,000-credit signup grant",
+      "plugin repo MIT",
+      "formerly Bloom"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-11-12",
+    "source": "user",
+    "evidence": "Checked https://www.rainbrand.com/ and https://www.rainbrand.com/pricing on 2026-11-12. Both returned HTTP 200. The homepage states the MCP URL, the Claude plugin commands, and the brands API example, and says Bloom is now Rainbrand. The pricing page states the four monthly prices, the signup grant, and the credit costs. A GET of https://mcp.rainbrand.com/mcp returned HTTP 401. Checked the GitHub API for rainbrandai/rainbrand-skills. It reported license MIT, 1 star, and a push on 2026-10-28. A license for the hosted service was not on the pages checked. Source tweet: https://x.com/rincidium/status/2115200897341165750."
+  }
+]
