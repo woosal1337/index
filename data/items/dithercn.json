@@ -1,0 +1,676 @@
+{
+ "resource_id": "user:4f60ab6e543d8448",
+ "registry_url": "https://dithercn.dev/r/registry.json",
+ "install_verified": true,
+ "checked": "2026-11-12",
+ "items": [
+  {
+   "name": "area-chart",
+   "type": "component",
+   "title": "Area chart",
+   "description": "One or more series drawn as a crisp line over a dithered fill that is densest under the line.",
+   "component": "area-chart",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/area-chart.json"
+  },
+  {
+   "name": "aurora",
+   "type": "component",
+   "title": "Aurora",
+   "description": "Curtains of light that fold, sway and shimmer, drawn as a dither, with props for colours, curtains, rays, tilt, drift and masks.",
+   "component": "gradient-background",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/aurora.json"
+  },
+  {
+   "name": "avatar",
+   "type": "component",
+   "title": "Avatar",
+   "description": "A generative avatar drawn from a string as a mirrored dither face on a lit, dithered disc, with an overlapping avatar group.",
+   "component": "avatar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/avatar.json"
+  },
+  {
+   "name": "bar-chart",
+   "type": "component",
+   "title": "Bar chart",
+   "description": "Vertical bars, grouped or stacked, each filled with a dither and capped with a solid edge.",
+   "component": "bar-chart",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/bar-chart.json"
+  },
+  {
+   "name": "beams",
+   "type": "component",
+   "title": "Beams",
+   "description": "God rays from a point or an edge that sweep slowly and fade with distance.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/beams.json"
+  },
+  {
+   "name": "black-hole",
+   "type": "component",
+   "title": "Black Hole",
+   "description": "A black hole with a thin photon ring and a hot accretion disk seen at a slant, its far side lensed over the top and under the bottom, streaming round with one side brighter.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/black-hole.json"
+  },
+  {
+   "name": "cartesian-chart",
+   "type": "component",
+   "title": "Cartesian chart",
+   "description": "The shared frame behind the area, line and bar charts: scales, axes, the hover readout, the legend and an accessible data table.",
+   "component": "chart",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/cartesian-chart.json"
+  },
+  {
+   "name": "contours",
+   "type": "component",
+   "title": "Contours",
+   "description": "A topographic map: contour lines over slowly drifting hills, with heavier index lines and a light hillshade.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/contours.json"
+  },
+  {
+   "name": "dissolve-text",
+   "type": "component",
+   "title": "Dissolve text",
+   "description": "Text that dissolves in through Bayer thresholds by character, word or line, in any order, settling solid or into a dithered texture.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/dissolve-text.json"
+  },
+  {
+   "name": "dither-button",
+   "type": "component",
+   "title": "Dither button",
+   "description": "A button with a lit, dithered surface that brightens on hover and presses in on click, in four fills, two variants and any palette colour.",
+   "component": "button",
+   "surface": null,
+   "dependencies": [
+    "radix-ui"
+   ],
+   "url": "https://dithercn.dev/r/dither-button.json"
+  },
+  {
+   "name": "dither-card",
+   "type": "component",
+   "title": "Dither card",
+   "description": "A card with a dithered glow in a corner or along an edge and a dithered rim on its border, which can grow on hover.",
+   "component": "card",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/dither-card.json"
+  },
+  {
+   "name": "dither-fade",
+   "type": "component",
+   "title": "Dither fade",
+   "description": "A dithered edge that fades a section's content into a solid colour.",
+   "component": "transition",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/dither-fade.json"
+  },
+  {
+   "name": "dither-globe",
+   "type": "component",
+   "title": "Dither globe",
+   "description": "A rotating dithered globe with land, a lit terminator, and optional pulsing markers and arcs.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/dither-globe.json"
+  },
+  {
+   "name": "dither-glow",
+   "type": "component",
+   "title": "Dither glow",
+   "description": "A soft dithered spotlight from an edge, a corner or any point, for heroes and cards.",
+   "component": "hover-effect",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/dither-glow.json"
+  },
+  {
+   "name": "dither-gradient",
+   "type": "component",
+   "title": "Dither gradient",
+   "description": "A linear, radial or conic gradient drawn as a dither, with a slow noise drift.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/dither-gradient.json"
+  },
+  {
+   "name": "dither-image",
+   "type": "component",
+   "title": "Dither image",
+   "description": "Any image dithered to a preset (ink, duotone, newsprint, gameboy, riso) or your own palette, resolving from coarse to fine.",
+   "component": "image",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/dither-image.json"
+  },
+  {
+   "name": "dither-number",
+   "type": "component",
+   "title": "Dither number",
+   "description": "An animated number with tabular digits that roll or resolve through a dither, Intl formatting, prefix and suffix, colour and size presets.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/dither-number.json"
+  },
+  {
+   "name": "dither-orb",
+   "type": "component",
+   "title": "Dither orb",
+   "description": "A lit, dithered orb that slowly morphs and leans towards the pointer.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/dither-orb.json"
+  },
+  {
+   "name": "dither-slider",
+   "type": "component",
+   "title": "Dither slider",
+   "description": "A range slider on Radix Slider whose fill is a Bayer ramp that gets denser towards a lit, dithered thumb, with one or two thumbs, steps, tick marks and a readout.",
+   "component": "slider",
+   "surface": null,
+   "dependencies": [
+    "radix-ui"
+   ],
+   "url": "https://dithercn.dev/r/dither-slider.json"
+  },
+  {
+   "name": "dither-switch",
+   "type": "component",
+   "title": "Dither switch",
+   "description": "A Radix toggle switch whose track fills with dither behind the thumb, stepping through the Bayer levels, with a lit dithered knob, four fills and any palette colour.",
+   "component": "switch",
+   "surface": null,
+   "dependencies": [
+    "radix-ui"
+   ],
+   "url": "https://dithercn.dev/r/dither-switch.json"
+  },
+  {
+   "name": "dither-tabs",
+   "type": "component",
+   "title": "Dither tabs",
+   "description": "Tabs whose dithered pill or underline indicator glides to the chosen tab, dissolving out of the old one and in at the new one through the Bayer levels.",
+   "component": "tabs",
+   "surface": null,
+   "dependencies": [
+    "radix-ui"
+   ],
+   "url": "https://dithercn.dev/r/dither-tabs.json"
+  },
+  {
+   "name": "dither-text",
+   "type": "component",
+   "title": "Dither text",
+   "description": "Display text whose letters are filled with a dithered gradient, noise, dots or hatching in any palette colour, kept as real, selectable text.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/dither-text.json"
+  },
+  {
+   "name": "dither-tokens",
+   "type": "item",
+   "title": "Dither tokens",
+   "description": "CSS variables every dithercn piece reads: ink, paper, cell size, bloom strength and the named colour palette (blue, purple, green, pink, orange, red, grey), tuned for light and dark.",
+   "component": "chip",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/dither-tokens.json"
+  },
+  {
+   "name": "dithercn-skill",
+   "type": "item",
+   "title": "dithercn agent skill",
+   "description": "An agent skill that teaches Claude Code, Codex, Cursor and other coding agents to build any dither on the engine. Installs into .agents/skills/dithercn and .claude/skills/dithercn, with the engine and dither-export.",
+   "component": "agent-card",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/dithercn-skill.json"
+  },
+  {
+   "name": "dithered-logo",
+   "type": "component",
+   "title": "Dithered logo",
+   "description": "An SVG or PNG logo redrawn on a pixel grid with exact edges, a dithered fill and an optional shimmer or scan line.",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/dithered-logo.json"
+  },
+  {
+   "name": "divider",
+   "type": "component",
+   "title": "Divider",
+   "description": "A horizontal or vertical dithered rule with fading ends and an optional label.",
+   "component": "separator",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/divider.json"
+  },
+  {
+   "name": "donut-chart",
+   "type": "component",
+   "title": "Donut chart",
+   "description": "A donut or pie chart drawn in dither cells, with a colour and texture per slice, a spotlight and a centre that follows the pointer.",
+   "component": "pie-chart",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/donut-chart.json"
+  },
+  {
+   "name": "dot-map",
+   "type": "component",
+   "title": "Dot map",
+   "description": "A flat world map in dithered dots with pulsing markers, dithered halos and dotted arcs.",
+   "component": "map",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/dot-map.json"
+  },
+  {
+   "name": "dropzone",
+   "type": "component",
+   "title": "Dropzone",
+   "description": "A file drop area with a dithered dashed border that marches round its edge, thickens and pulls a glow in on drag-over and turns red for a rejected file, with a file list showing dithered progress.",
+   "component": "file-upload",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/dropzone.json"
+  },
+  {
+   "name": "eclipse",
+   "type": "component",
+   "title": "Eclipse",
+   "description": "A dark disc with a glowing rim and a soft corona that breathes slowly.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/eclipse.json"
+  },
+  {
+   "name": "empty-state",
+   "type": "component",
+   "title": "Empty state",
+   "description": "A lit, dithered illustration (box, magnifier, folder or planet) with a title, a description and an action, for views with nothing in them yet.",
+   "component": "empty-state",
+   "surface": "empty-state",
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/empty-state.json"
+  },
+  {
+   "name": "fire",
+   "type": "component",
+   "title": "Fire",
+   "description": "Flames rising from the edge of the box, with a hot base, tapering tongues that lick up and tear off, and embers that drift above them.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/fire.json"
+  },
+  {
+   "name": "flow-field",
+   "type": "component",
+   "title": "Flow field",
+   "description": "A wind map: streamlines of a slowly turning, swirling flow, with bright streaks that travel along them and leave fading tails.",
+   "component": "fieldset",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/flow-field.json"
+  },
+  {
+   "name": "galaxy",
+   "type": "component",
+   "title": "Galaxy",
+   "description": "A tilted spiral galaxy turning slowly, with a bright core, arms with knots of stars, dust lanes and fixed stars behind.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/galaxy.json"
+  },
+  {
+   "name": "gauge",
+   "type": "component",
+   "title": "Gauge",
+   "description": "A radial gauge of dithered blocks that fill in to the value, with the reading in the middle.",
+   "component": "meter",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/gauge.json"
+  },
+  {
+   "name": "halftone",
+   "type": "component",
+   "title": "Halftone",
+   "description": "Print-style round dots on a rotated grid that grow with a noise, radial or linear source.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/halftone.json"
+  },
+  {
+   "name": "heatmap",
+   "type": "component",
+   "title": "Heatmap",
+   "description": "A calendar or matrix heatmap built from dither cells: each square steps from a few dots to solid, with a readout and a level scale.",
+   "component": "heatmap",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/heatmap.json"
+  },
+  {
+   "name": "horizon",
+   "type": "component",
+   "title": "Horizon",
+   "description": "A planet's horizon from space: a lit rim, a drifting aurora glow and fixed stars.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/horizon.json"
+  },
+  {
+   "name": "image-compare",
+   "type": "component",
+   "title": "Image compare",
+   "description": "A draggable, keyboard-accessible before and after slider between a dithered image and the original or another dither.",
+   "component": "image",
+   "surface": "compare",
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/image-compare.json"
+  },
+  {
+   "name": "line-chart",
+   "type": "component",
+   "title": "Line chart",
+   "description": "Lines for one or more series, with optional dithered range bands and point markers.",
+   "component": "line-chart",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/line-chart.json"
+  },
+  {
+   "name": "loader",
+   "type": "component",
+   "title": "Loader",
+   "description": "A small dithered loading indicator: a ring with a comet tail, three dissolving dots, a pulse or a bar.",
+   "component": "spinner",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/loader.json"
+  },
+  {
+   "name": "logo-marquee",
+   "type": "component",
+   "title": "Logo marquee",
+   "description": "A looping row or still wall of logos in one dithered treatment, with soft or dithered edge fades.",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/logo-marquee.json"
+  },
+  {
+   "name": "mesh-gradient",
+   "type": "component",
+   "title": "Mesh gradient",
+   "description": "Three to five colour blobs that drift and blend, drawn as a dither.",
+   "component": "gradient-background",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/mesh-gradient.json"
+  },
+  {
+   "name": "metaballs",
+   "type": "component",
+   "title": "Metaballs",
+   "description": "Soft blobs that drift, merge and split like a lava lamp, as shaded shapes or rings of contour lines.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/metaballs.json"
+  },
+  {
+   "name": "moire",
+   "type": "component",
+   "title": "Moiré",
+   "description": "Two fine gratings of lines, rings or mesh laid over each other and sliding slowly, so huge interference bands bloom, sweep and turn across the box.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/moire.json"
+  },
+  {
+   "name": "noise-field",
+   "type": "component",
+   "title": "Noise field",
+   "description": "A slow, folding noise texture in four styles (smoke, ridges, contours, marble), with a sized mask that clears space for text.",
+   "component": "gradient-background",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/noise-field.json"
+  },
+  {
+   "name": "not-found",
+   "type": "component",
+   "title": "Not found",
+   "description": "A complete 404 block with a big dithered code, a message and actions.",
+   "component": "error-page",
+   "surface": "404",
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/not-found.json"
+  },
+  {
+   "name": "plasma",
+   "type": "component",
+   "title": "Plasma",
+   "description": "Classic plasma: overlapping sine waves that flow into each other, dithered in two colours or a palette.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/plasma.json"
+  },
+  {
+   "name": "progress-bar",
+   "type": "component",
+   "title": "Progress bar",
+   "description": "A progress bar built from dither cells: any fill texture with a solid leading edge, stacked parts, step segments and an indeterminate comet.",
+   "component": "progress-bar",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/progress-bar.json"
+  },
+  {
+   "name": "radar-chart",
+   "type": "component",
+   "title": "Radar chart",
+   "description": "Series across several axes, drawn as polygons of dither cells whose density steps up ring by ring, with an axis scrub and legend spotlight.",
+   "component": "radar-chart",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/radar-chart.json"
+  },
+  {
+   "name": "rain",
+   "type": "component",
+   "title": "Rain",
+   "description": "Rain on a window at night: soft out-of-focus city lights behind the glass, beads that show them brighter like tiny lenses, and bigger drops that slide down in jerky runs and leave wet trails.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/rain.json"
+  },
+  {
+   "name": "retro-grid",
+   "type": "component",
+   "title": "Retro grid",
+   "description": "A perspective grid floor scrolling towards a horizon under a striped, glowing sun.",
+   "component": "data-grid",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/retro-grid.json"
+  },
+  {
+   "name": "ridgelines",
+   "type": "component",
+   "title": "Ridgelines",
+   "description": "Stacked ridge lines like a pulsar plot, each hiding the ones behind it, with peaks that shift slowly.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/ridgelines.json"
+  },
+  {
+   "name": "ripples",
+   "type": "component",
+   "title": "Ripples",
+   "description": "Concentric rings spreading from one to four points and crossing like drops on still water.",
+   "component": "ripple",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/ripples.json"
+  },
+  {
+   "name": "scramble-text",
+   "type": "component",
+   "title": "Scramble text",
+   "description": "Text that resolves character by character through dithered blocks and glyphs, with no layout shift, on mount, in view, hover or text change.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/scramble-text.json"
+  },
+  {
+   "name": "scroll-reveal-image",
+   "type": "component",
+   "title": "Scroll reveal image",
+   "description": "An image that sharpens from coarse dithered blocks to the full photo as it scrolls into view.",
+   "component": "scroll-reveal",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/scroll-reveal-image.json"
+  },
+  {
+   "name": "silk",
+   "type": "component",
+   "title": "Silk",
+   "description": "Folds of silk catching the light, with a bright highlight along each crest.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/silk.json"
+  },
+  {
+   "name": "skeleton",
+   "type": "component",
+   "title": "Skeleton",
+   "description": "Loading placeholders for blocks, text lines and avatars, drawn in dither, with a dense band that sweeps across or a pulse that steps through the Bayer levels.",
+   "component": "skeleton",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/skeleton.json"
+  },
+  {
+   "name": "smoke",
+   "type": "component",
+   "title": "Smoke",
+   "description": "Soft smoke billowing upward and thinning out, lit from above, with props for scale, height, wind and density.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/smoke.json"
+  },
+  {
+   "name": "sparkline",
+   "type": "component",
+   "title": "Sparkline",
+   "description": "A tiny inline trend for tables and stat cards: a line, a dithered area and a dot on the latest value.",
+   "component": "sparkline",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/sparkline.json"
+  },
+  {
+   "name": "starfield",
+   "type": "component",
+   "title": "Starfield",
+   "description": "Dithered stars in three parallax layers that twinkle and drift slowly.",
+   "component": "particle-background",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/starfield.json"
+  },
+  {
+   "name": "stat-card",
+   "type": "component",
+   "title": "Stat card",
+   "description": "A KPI card with a value, a coloured delta and a dithered trend area on a dotted surface.",
+   "component": "stat",
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/stat-card.json"
+  },
+  {
+   "name": "tunnel",
+   "type": "component",
+   "title": "Tunnel",
+   "description": "A slow flight down a tunnel of round or square rings, with spokes along the walls and fog at the vanishing point.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/tunnel.json"
+  },
+  {
+   "name": "uptime-bar",
+   "type": "component",
+   "title": "Uptime bar",
+   "description": "A status-page row of daily dithered bars with per-day tooltips and overall uptime.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/uptime-bar.json"
+  },
+  {
+   "name": "voronoi",
+   "type": "component",
+   "title": "Voronoi Cells",
+   "description": "A cellular surface like soap foam, crackle glaze or raised stone tiles, with walls of one width and seeds that drift so cells swell, shrink and trade edges.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/voronoi.json"
+  },
+  {
+   "name": "waves",
+   "type": "component",
+   "title": "Waves",
+   "description": "Layered swells under a glowing horizon, or thin lines like a sound wave.",
+   "component": null,
+   "surface": null,
+   "dependencies": [],
+   "url": "https://dithercn.dev/r/waves.json"
+  }
+ ]
+}

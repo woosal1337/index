@@ -1,0 +1,1857 @@
+{
+ "resource_id": "user:08357e97071f5f3c",
+ "registry_url": "https://snapcn.dev/r/registry.json",
+ "install_verified": true,
+ "checked": "2026-11-12",
+ "items": [
+  {
+   "name": "agent-chat",
+   "type": "component",
+   "title": "Agent Chat",
+   "description": "AI agent chat animation: prompt typing, send and a streaming reply. An agent conversation, from the empty field to the answer. Five beats on one clock: the prompt types itself into a compose field while the camera pushes in, the field scrolls under a soft left edge as the text outgrows it, the message goes and becomes a bubble, an avatar and a typing indicator arrive, and the reply streams back a word at a time — each word grey for a moment before it sets. Only the typing rate is a real decision; every later beat is derived from it.",
+   "component": "agent-card",
+   "surface": "chat-mobile",
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/agent-chat.json"
+  },
+  {
+   "name": "agent-compose",
+   "type": "component",
+   "title": "Agent Compose",
+   "description": "AI chat input animation: a composer builds itself, types a prompt and sends it. An agent's composer building itself around one chip, then sending a request. A Video chip types in alone and close up — its clapperboard drawing out of the hinge, each letter sliding in and fading up — then a shadcn field, the + and a snapcn menu fade in around it as the camera pulls back. The placeholder types, the mic and send button arrive, a centred heading types above the field and grows from its middle, the placeholder gives way to the request at about a character a frame, the send glyph turns from a waveform to an arrow, and the button flashes blue and darkens back under a soft glow. Replayed from a 60fps screen recording measured frame by frame against its own render: the camera, every typing clock, each fade and the send's colour are fitted tables, and Inter was chosen by fitting fifteen open faces against the recording.",
+   "component": "agent-card",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/agent-compose.json"
+  },
+  {
+   "name": "agent-open",
+   "type": "component",
+   "title": "Agent Open",
+   "description": "AI prompt intro animation: kinetic text that becomes a typed prompt. A line assembles a word at a time, resolves to your product's name, and becomes a prompt somebody types. Each new word's letters arrive at their own heights and fall into the baseline together; the name cuts in hard under a colour ramp that sweeps across it; then a caret types the wrong thing, deletes it, and types the right thing, with the last words landing inside a highlight that sweeps off to the right and hands them back at full size. Four acts in 4.8 seconds. Every beat is a prop.",
+   "component": "agent-card",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/agent-open.json"
+  },
+  {
+   "name": "agent-result",
+   "type": "component",
+   "title": "Agent Result",
+   "description": "AI agent answer animation: a prompt typed, tool calls run, and a reply with a table. An agent asked for something, and what it hands back. A request types itself into a dark composer under a wave that trails the caret — each character lands in a washed accent and walks to ink on a Gaussian of its age — while the camera eases the field into place and pans left as the line outgrows it. The field's focus ring flares as the message goes, the camera lifts, and a hard cut lands on the run: two tool calls, each square arriving in the accent and blanching to white, a rail between them, and the transcript scrolling to follow its own last line as the answer builds underneath — a summary, a serif line, a source chip, and a one-row table with a tag, a detail and a link, over a toolbar. Replayed from a 60fps screen recording measured frame by frame: the typing clock, the wave, both cameras, the focus ring and every row's fade are tables and fitted curves, and the fonts were chosen by rendering thirty candidates each against the recording.",
+   "component": "agent-card",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/agent-result.json"
+  },
+  {
+   "name": "agent-run",
+   "type": "component",
+   "title": "Agent Run",
+   "description": "AI agent run animation: a prompt sent and answered with visible tool steps. A prompt typed, sent, and answered by an agent that shows its work. A composer opens, a request types itself into it under a colour wave that rides the caret — the last dozen characters run accent into ink behind it — and a round button appears when there is something to send. The shot cuts in close on that button: one frame, 1.9×, with no intermediate value anywhere in the recording, because a zoom onto a button the viewer has watched for four seconds says nothing. A pointer climbs to it and stops dead for three frames before it presses, the field floods, and a second cut hands the frame to the run — a dotted rail with one step lit at a time, each arriving from below, typing two lines about what it is doing, and passing the frame on at a measured 31.4 frames. The composer's scale came off the card's own sub-pixel width, whose edge is five levels of luminance and needs a derivative rather than a threshold; the step cadence off the frames each title's accent burst begins. The field's wash and bloom were fitted to sixteen samples across the frame.",
+   "component": "agent-card",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/agent-run.json"
+  },
+  {
+   "name": "agent-steps",
+   "type": "component",
+   "title": "Agent Steps",
+   "description": "AI agent steps animation: a streaming task log with spinner and checkmarks for agent demos. An agent narrating its own work: the prompt lands in a pill, and under it a log writes itself one line at a time — each step running with a faint spinning globe, then flipping to past tense behind a check while the whole column steps up a row so the live line always sits on the centre. When the work is done the column swells and clears, and the last line slides to the middle and becomes the answer. Every proportion and every curve is fitted from frame measurements.",
+   "component": "agent-card",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/agent-steps.json"
+  },
+  {
+   "name": "agent-tools",
+   "type": "component",
+   "title": "Agent Tools",
+   "description": "AI agent tools animation for agent and MCP product demos. The moment somebody hands an agent their tools. A spark writes a line word by word, each new word arriving in the accent and setting to ink behind it; the line is whipped away on three frames of horizontal blur and the next one is written back the other way, the spark walking left and laying words down behind it. A composer fades up underneath, a pointer arrives and presses into the field, the prompt types itself, the attach menu drops from the plus, the connectors submenu opens beside it, and the connectors switch on one at a time before the pointer leaves for send. The reply is deliberately not here — @snapcn/agent-chat already streams one and this hands off to it.",
+   "component": "agent-card",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/agent-tools.json"
+  },
+  {
+   "name": "announce-title",
+   "type": "component",
+   "title": "Announce Title",
+   "description": "Launch title animation, product announcement intro with kinetic typography. A four-shot launch title: the eyebrow rushes past the camera on a receding type plane and lands on a colour field, the name assembles word by word on paper, and a macro pan across the tagline cuts wide as the line builds itself last word first while a white sweep drains it out of colour. Content, palette and the mark that leads the closing line are all props.",
+   "component": "heading",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/announce-title.json"
+  },
+  {
+   "name": "answer-highlight",
+   "type": "component",
+   "title": "Answer Highlight",
+   "description": "AI answer highlight animation, ChatGPT-style chat response with a text selection. A question in a pill, an answer that writes itself a word at a time, and then the beat the whole shot is for: a caret lands mid-sentence and a selection band drags across one statement, wrapping the line the way a real one does — and settles onto the single word that matters. Name the sentence and the word as strings; the run is found in the answer for you, punctuation and all.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/answer-highlight.json"
+  },
+  {
+   "name": "answer-stream",
+   "type": "component",
+   "title": "Answer Stream",
+   "description": "Streaming AI response animation, from the send button to the answer typing in. The beat after send: a macro shot on the button that cuts — hard, on its fastest frame — to the answer building itself on the page, while the camera pulls back 1.364× about a focal point above the frame to keep up with it. Every word arrives hot and cools to the foreground.",
+   "component": "feed",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/answer-stream.json"
+  },
+  {
+   "name": "app-reveal",
+   "type": "component",
+   "title": "App Reveal",
+   "description": "App reveal animation: a wordmark folds into an app UI with a 3D camera move. A wordmark that folds into an app, and a camera that flies around it. The mark holds the frame alone, shrinks into the header of a card that builds around it, then the camera dives past the card, rolls, and backs off into a settled front-on framing — while the greeting types, the suggestion chips land one at a time and the input bar arrives. The camera is keyed off the reference's own measurements: its distance from the card's apparent width frame by frame, its roll from a straight-line fit to the card's top edge. Every surface the card paints comes from the design system.",
+   "component": "scroll-reveal",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/app-reveal.json"
+  },
+  {
+   "name": "block-wordmark",
+   "type": "component",
+   "title": "Block Wordmark",
+   "description": "Logo sting and wordmark animation: blocks build into your brand name. A wordmark builds out of solid blocks — a square scales in, a coloured deck fans out around it and winds back, the stack collapses and stretches into one block per letter, then each block flashes a colour and swaps for its real letterform.",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/block-wordmark.json"
+  },
+  {
+   "name": "bloom-lockup",
+   "type": "component",
+   "title": "Bloom Lockup",
+   "description": "Logo reveal in four seconds. A wall of finished work blooms outward from your logo, cuts in tight on it, then bends away through a lens and a flash while the logo rises to take its wordmark and tagline. Measured frame by frame off a reference recording.",
+   "component": "lockup",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/bloom-lockup.json"
+  },
+  {
+   "name": "blueprint-collage",
+   "type": "component",
+   "title": "Blueprint Collage",
+   "description": "Photo collage animation: pictures hop around a cycling headline, then clear to the last word. A headline cycles through three phrases while five pictures and a disc hop around it in 15fps stop motion, the camera eases back, and the pictures clear away one by one to leave the last phrase fading from the accent to ink. Every picture's pose is fitted frame by frame off a screen recording.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/blueprint-collage.json"
+  },
+  {
+   "name": "brand-wheel",
+   "type": "component",
+   "title": "Brand Wheel",
+   "description": "Rotating logos text: a lead word and a wheel of brand pills that rolls through the platforms you ship to, blurred rows above and below, then a cursor clicks the last one. Motion measured frame by frame from a recording.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/brand-wheel.json"
+  },
+  {
+   "name": "brief-send",
+   "type": "component",
+   "title": "Brief Send",
+   "description": "Product demo scene: a project brief typed and sent. An empty project page pulls away, and the brief that fills it gets sent. Two shots on one clock with a hard cut at 1.633s: the page slides 65px right and settles, then lifts 125px out of the top while it is still accelerating — motion blurred, because a 15px-a-frame exit rendered sharp strobes into eight copies of the headline. The cut lands on the bottom of the same page, where the composer rises 210px into place and keeps going past its resting position, because the page is already scrolling again. The brief types at 60 characters a second under a half-second per-character fade, so its leading edge is a gradient eight characters long rather than a caret; every character is in the DOM from the first frame at zero opacity, so the paragraph is laid out once and the second line never re-wraps. An attachment chip sits inline at its head and a scene mention lands at its tail, then a pointer crosses in from off-frame, decelerates onto the send button and presses it to 0.72. Pan, lift, rise, the ink ramp and the pointer's approach are all sub-pixel measured tables.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/brief-send.json"
+  },
+  {
+   "name": "build-out",
+   "type": "component",
+   "title": "Build Out",
+   "description": "App reveal from a button: zoom out of a send button into the app. A send button that fills the frame, and the app that comes out of it. The shot opens inside the button — the arrow alone, forty times life size, still turned — and the camera falls back off it onto a prompt that is being typed at seventy-nine characters a second. A pointer arrives edge-on to the lens, rotates flat as it lands, presses, and holds. Then a hard cut, and the app the prompt asked for is already there: drawing itself in block by block, backing off into the frame, and being worked on by people who are not you — two presence labels pop, the wordmark is selected and re-set in a serif, the artwork in the grid is swapped. The camera in each half is a measured table: act one is a pure scale about the send button's centre, which is the one thing on screen that never moves, and act two is read off the workspace's left edge and the ratio of its two vertical sides, which is what recovers a turn from a flat recording. The field's blob geometry was fitted to the reference's own corner samples rather than guessed.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/build-out.json"
+  },
+  {
+   "name": "button-press",
+   "type": "component",
+   "title": "Button Press",
+   "description": "Cursor clicks a button: a cursor walks onto a split action button (label, divider, chevron), it darkens on hover, gives on press, spins while pending and lands on a drawn tick. The deploy, publish or send beat of every launch video. Built on cursor-track.",
+   "component": "button",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/button-press.json"
+  },
+  {
+   "name": "capture-reveal",
+   "type": "component",
+   "title": "Capture Reveal",
+   "description": "Screenshot capture animation: a toast counts \"Capturing selection…\" up to 100% over a browser window, the window drops away and shrinks, the toast pops to \"Copied to clipboard.\" and a two-line headline rises out from behind the window while the cursor glides up. Every curve was measured off a recording frame by frame: the window's drop and shrink share one cubic-bezier, the toast pops on another, the headline rises without scaling or blurring, and type moves by fractions of a pixel.",
+   "component": "scroll-reveal",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/capture-reveal.json"
+  },
+  {
+   "name": "card-rail",
+   "type": "component",
+   "title": "Card Rail",
+   "description": "Card carousel animation: cards flicked sideways on a tilted 3D plane. A rail of cards flicked sideways across a tilted plane. The cards do not crawl past on a loop — they are flicked: the rail leaves at speed, decelerates for well over a second and comes to rest about a card further along, the way a carousel behaves under a thumb rather than under a timer. The plane is not flat to the camera either. Measured on a recording's card edges, the horizontal scale grows 0.000825 per pixel of height about the frame's own centre line, so the foot of a card is a fifth wider than its head while horizontals stay horizontal and the type stays upright — which is why a row of plain rectangles reads as a surface receding into the frame rather than as a filmstrip.",
+   "component": "card",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/card-rail.json"
+  },
+  {
+   "name": "caret",
+   "type": "component",
+   "title": "UI Caret",
+   "description": "A blinking text caret — a controlled vertical bar, or a pure motion atom that blinks deterministically from useCurrentFrame.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://snapcn.dev/r/caret.json"
+  },
+  {
+   "name": "channel-thread",
+   "type": "component",
+   "title": "Channel Thread",
+   "description": "Slack-style chat animation: team messages arrive with typing dots. A work chat filling itself in, the way the channel actually reads: an avatar, a name in bold, a quiet timestamp and the messages as plain lines under them. Messages land one at a time, a second message from the same person joins the group without repeating the name, and when somebody new starts typing three dots hold their line until the words arrive. The transcript never creeps — it sits perfectly still between arrivals and then scrolls, once, by exactly the room the new line needs, and only when the newest line would fall past the anchor. Every vertical number came off a recording and closes on it: carry the layout's arithmetic across the whole scene and it predicts the last frame's baselines to within a pixel.",
+   "component": "conversation",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/channel-thread.json"
+  },
+  {
+   "name": "chat-thread",
+   "type": "component",
+   "title": "Chat Thread",
+   "description": "iMessage-style chat animation: message bubbles sending one by one. A chat thread sending itself — the moment a demo video actually gets shared. Bubbles arrive one at a time and fade up in place; the stack is bottom-anchored so each arrival displaces everything above it, eased, while the whole thread creeps upward underneath so it never looks frozen between messages. The camera pulls back gently across the clip. Messages are a `;`-separated string, so the customizer can edit them.",
+   "component": "conversation",
+   "surface": "chat-mobile",
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/chat-thread.json"
+  },
+  {
+   "name": "check-cycle",
+   "type": "component",
+   "title": "Check Cycle",
+   "description": "Rotating words beside a checkbox: a sentence that finishes itself several ways. \"Create your own\" sits left of a ticked shadcn-style checkbox and the word to its right rolls up out of a slot — Intros, Demos, Launches, Changelogs, Tutorials, And more — then the line steps back a little and rests. Every number came off a recording, frame by frame: the two words in the slot move as one strip on the in-out cubic over exactly half a second, a roll every twenty frames. The type moves by fractions of a pixel instead of the whole-pixel steps a browser snaps text to.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/check-cycle.json"
+  },
+  {
+   "name": "checkout-push",
+   "type": "component",
+   "title": "Checkout Push",
+   "description": "Payment animation: a phone checkout with the amount landing and a camera push. A phone paying for something, pushed through the camera. The device stands still while the last digit lands on the amount — in one frame, the way a keypad press does — and then the camera walks into it, accelerating the whole way and laying the device back as it arrives so you end up looking up the screen. Fitted on the device's four silhouette edges in every frame of a reference, which is what separates the dolly (×1.35, accelerating) from the tilt (a pure rotateX from frame 18, no yaw or roll). The device is built from the design system and the screen is snapcn's own checkout.",
+   "component": "checkout",
+   "surface": "checkout",
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/checkout-push.json"
+  },
+  {
+   "name": "click-type",
+   "type": "component",
+   "title": "Click Type",
+   "description": "Click to type: a prompt composer (Prompt Send's glass panel, writing surface and round send button) whose placeholder writes itself while a cursor flies in from the edge and clicks the field, then a hard cut into the field where the real prompt types at the caret and send arms. Two shots of one composer under a constant camera, anchored on the first letter, so the type never scales while it moves. Built on cursor-track.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/click-type.json"
+  },
+  {
+   "name": "column-cut",
+   "type": "component",
+   "title": "Column Cut",
+   "description": "A four-line cascade with a square cursor beside its third line, a blue highlight running across that line letter by letter while the type drifts up — then a hard cut to a column of pictures that jumps one picture per beat, the beats tightening from five frames to four, while a sentence lands either side of it and the whole frame pans away left, faster and faster. Replayed from a screen recording measured frame by frame: the strip's twelve rects and per-frame offset, the drift, the pan and every letter's colour are the recording's own.",
+   "component": "stack",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://snapcn.dev/r/column-cut.json"
+  },
+  {
+   "name": "comment-storm",
+   "type": "component",
+   "title": "Comment Storm",
+   "description": "Comments animation: a flood of social comments and replies for launch hype. The comment section under a launch everyone is waiting for, burying the frame. One question types itself into a pill; then the replies pile in — pills tossed in with an overshoot and a tilt, cards that open downward and type their own lines — faster and faster while the camera pulls back the whole time, starts to shake, and folds the pile into its centre before a cut to black. Every arrival, its position, its entrance and how fast it types is replayed from a screen recording measured frame by frame; nothing is random. Ships asking when snapcn Pro drops — pass comments for your own crowd.",
+   "component": "comment",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/comment-storm.json"
+  },
+  {
+   "name": "count-grid",
+   "type": "component",
+   "title": "Count Grid",
+   "description": "Number count-up grid: cards multiply and a counter jumps, the it-scales stat shot. A grid of cards rushes in under a horizontal smear, settles on five and a label, then the camera pulls back a fraction while every empty cell around them fills in from the middle out and the number jumps. The \"and it scales\" shot, without a cut — one card is deliberately late to land, which is what makes the entry read as five separate things arriving rather than one picture being pushed in.",
+   "component": "data-grid",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/count-grid.json"
+  },
+  {
+   "name": "count-portal",
+   "type": "component",
+   "title": "Count Portal",
+   "description": "Countdown animation: a dare in hard cuts, then 3 2 1 as holes you fall through. A lead word assembles out of order, words cut past and the last one slams and inverts. Then each digit of a countdown arrives as a hole in a new card, larger than the stage, and you fall through it into the previous card.",
+   "component": "portal",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/count-portal.json"
+  },
+  {
+   "name": "cross-out",
+   "type": "component",
+   "title": "Cross Out",
+   "description": "Strikethrough text animation: marker cross-out, then the replacement word. Cross out the advice, then name the thing it was standing in for. A headline sits on a card; two marker strokes cross it out, hold, and are wiped back off the way they came — and as they go the two words drift apart and the card grows to hold them. Hard cut to black, and the real sentence builds a word at a time over a dashed diagram. The marker is geometry, not a picture: a measured centreline, a width that swells and tapers along it, and an edge that is seeded value noise, so drawing on and wiping off are the same operation — ask for the polygon of an arclength range — rather than a dash offset, which cannot taper and cannot chop an end. The card is not animated at all: solved back out of the recording its left edge sits 52.7px left of the headline's first glyph on all 25 frames of the first beat, ±0.2, while its top never moves, so it is width: max-content around a line whose word gap runs 19px to 76 and everything you see it do is the text doing it. The headline's baseline is not a table either — it climbs 4.5px while the type grows 1.7%, and the two are one event about a pivot 90px below the frame, which is also what stops a growing line from walking off its own baseline.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/cross-out.json"
+  },
+  {
+   "name": "cursor-track",
+   "type": "component",
+   "title": "Cursor Track",
+   "description": "Cursor click animation: a mouse pointer that moves and clicks over any UI. A synthetic cursor that walks a path of normalized waypoints over any children and pulses a click ring on arrival. A hand-drawn macOS-style arrow with an outline that keeps it readable over arbitrary footage, or a touch puck — for UI sims, and for recordings whose real cursor never made it into the file.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://snapcn.dev/r/cursor-track.json"
+  },
+  {
+   "name": "cut-lockup",
+   "type": "component",
+   "title": "Cut Lockup",
+   "description": "Logo reveal in hard cuts. The logo lands huge on grid paper, steps down in three cuts, pushes in, cuts to night where its construction lines and anchor points draw themselves, then a paper panel wipes up onto the resting lockup. Cuts, scales, push and wipe are measured frame by frame off a reference recording.",
+   "component": "lockup",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://snapcn.dev/r/cut-lockup.json"
+  },
+  {
+   "name": "depth-swap",
+   "type": "component",
+   "title": "Depth Swap",
+   "description": "Depth-of-field text swap: a headline cuts over a photo wall the camera dollies out of. A headline swaps inside a wall of pictures with real depth. The camera dollies back out of a defocused wall while the first line blurs up out of nothing and each picture comes into focus at its own distance; on the beat the line cuts to the second, sharp in the middle and blurred at its ends, and the camera slides sideways as the nearest picture swings across, growing. Replayed from a screen recording: one pinhole camera fitted to every card and both lines at once, each card's edge and picture blur, shadow and out-of-focus spill are measured tables.",
+   "component": "elevation",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/depth-swap.json"
+  },
+  {
+   "name": "dot-bloom",
+   "type": "component",
+   "title": "Dot Bloom",
+   "description": "Halftone dot transition. White dots spark over the outgoing shot while it washes out to cream, then the cream breaks into warm coral, peach and blush dots in drifting diagonal bands that thin out cell by cell until the incoming shot is all that is left. Every cell of every step is replayed from a reference recording.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://snapcn.dev/r/dot-bloom.json"
+  },
+  {
+   "name": "dot-dissolve",
+   "type": "component",
+   "title": "Dot Dissolve",
+   "description": "LED dot-matrix transition: dots pop in across the frame in clumps until the matrix covers it, hold, then break up in clumps and let go, the last stragglers out bottom left. Each dot takes its tone off a drifting noise field mapped onto a calm dusk palette (slate, dusty blue, mist), so the matrix drifts like soft light through LEDs. It paints only its dots, so it lays over any cut: cut between your shots under it at DOT_DISSOLVE_CUT.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://snapcn.dev/r/dot-dissolve.json"
+  },
+  {
+   "name": "drop-line",
+   "type": "component",
+   "title": "Drop Line",
+   "description": "Words cut past one card at a time, then the last word sinks out from under the dot of its own i",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/drop-line.json"
+  },
+  {
+   "name": "echo-stack",
+   "type": "component",
+   "title": "Echo Stack",
+   "description": "Echo text animation: a word stacked with fading copies of itself above and below. One word with copies of itself stacked above and below in horizontal windows, fading as they go. The echoes open out from behind the word while the stack eases back, in one move on a flat field. The face, every echo's offset, opacity and window are measured off a screen recording.",
+   "component": "stack",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://snapcn.dev/r/echo-stack.json"
+  },
+  {
+   "name": "ember-reveal",
+   "type": "component",
+   "title": "Ember Reveal",
+   "description": "Glow text reveal animation: a brush sweeps across and blooms into a glow that writes the line. A brush of colour sweeps across a blush backdrop, curls up and flicks back on itself, then blooms into a soft glow that writes the line right to left, the letters warm where the glow is hottest, before the line sinks into place under a soft halo. Blue by default; the recording's orange-on-blush is a few props away. Replayed from a screen recording measured frame by frame: the brush's centre line, width and end fades, the glow's shape and strength, the line's drift and settle, every letter's arrival and the backdrop are fitted tables.",
+   "component": "scroll-reveal",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://snapcn.dev/r/ember-reveal.json"
+  },
+  {
+   "name": "files-drop",
+   "type": "component",
+   "title": "Files Drop",
+   "description": "File drop animation: files dragged into an AI prompt and landing as attachments. A handful of frames is dragged into a prompt and becomes five attachments. A stack of files sweeps in from off frame on an exponential settle — 161ms time constant, straight line, onto a rest point — with the other four trailing it up and to the left at a constant 21 degrees, each link closing on its resting offset one frame at a time, front to back, as the pointer slows. Then the release: the gathered pile is thrown 46px and collapses onto itself as it lands on the first slot's exact corner. Five empty slots appear out of order, each turning a 320-degree ring, and their pictures resolve in a different order again, because five files read in parallel do not finish in the order they were handed over. Nothing fades — a slot and a picture are each there on one frame and not on the one before, which is what an img does when it decodes. The pointer path, the four trails, the typing rate and every beat are measured tables on the recording's own 30fps grid.",
+   "component": "file-card",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/files-drop.json"
+  },
+  {
+   "name": "find-yours",
+   "type": "component",
+   "title": "Find Yours",
+   "description": "Rolling word list animation: words roll past a fixed line with motion blur, then cut to your name. \"Find yours\" rises in word by word while a list of what you could make rolls up beside it through a soft fade: slow, then a motion-blurred rush, then a long brake onto one answer. A hard cut to the name, still drifting with the camera, which gains a dot and then its domain, and a last cut to the mark and wordmark. Replayed from a screen recording fitted frame by frame: the face and weight, every word's place, the list's offset, blur window, fade and each row's gradient are measured tables.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://snapcn.dev/r/find-yours.json"
+  },
+  {
+   "name": "flood-outro",
+   "type": "component",
+   "title": "Flood Outro",
+   "description": "Logo outro animation: your wordmark writes in, then a gradient floods the frame. An end card: your mark and wordmark write in left to right over a warm wave, the wave sinks away, then a blue-to-orange gradient floods down the frame and the lockup turns white letter by letter. The wave contour, the reveals and the flood colours are measured frame by frame off a screen recording.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/flood-outro.json"
+  },
+  {
+   "name": "focus-pull",
+   "type": "component",
+   "title": "Focus Pull",
+   "description": "Blur-in text animation: phrases resolving from blur out of a gradient field. A phrase at a time, resolving out of a moving colour field. Each line arrives from the right, oversized and defocused, and pulls into focus a glyph at a time while the whole line decelerates into place and keeps creeping. At the end of its beat it goes back out the way it came in, and the next line is already resolving over the top of it — so the cut never reads as a cut. Everything blue about the type is the field showing through a glyph that has not finished arriving: the ink is plain white, and there is no blend mode, no glow and no second colour anywhere in it.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/focus-pull.json"
+  },
+  {
+   "name": "follower-rush",
+   "type": "component",
+   "title": "Follower Rush",
+   "description": "Follower count animation: X/Twitter follower notification with a count-up and avatar wave, for social proof. An X-style follower notification that piles up — avatars stack in and the count explodes, then the row bends into an undulating wave of faces.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/follower-rush.json"
+  },
+  {
+   "name": "font-shuffle",
+   "type": "component",
+   "title": "Font Shuffle",
+   "description": "Launch title animation: the line decodes out of scrambled glyphs set in the wrong typeface, flashes the accent, settles to ink, then the product name cycles through eleven typefaces (mono, light, humanist, pixel, script, slab, condensed, italic, blackletter, wide, bold grotesk) while the line zooms a step closer on each swap. Every beat is a held state measured off a recording frame by frame — timing, masks, layout, zoom and colour.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://snapcn.dev/r/font-shuffle.json"
+  },
+  {
+   "name": "gallery-push",
+   "type": "component",
+   "title": "Gallery Push",
+   "description": "Screenshot wall animation: a gallery of app screenshots opening column by column. A wall of screenshots that opens one column at a time. The columns rise into place from below, the one you are being shown first and the wall building outward from it, on a white page washed with the accent in two corners. Then the focus walks: the open column hands its width to its neighbour, the strip slides to keep whichever is open in the middle, and the whole wall creeps forward. Width is the whole trick — each column is a fixed-height box with the screenshot cropped to fill it, so narrowing a column does not shrink the picture, it crops it, and a site at rest reads as a tall slice of itself while the open one reads as a page.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://snapcn.dev/r/gallery-push.json"
+  },
+  {
+   "name": "gather-lockup",
+   "type": "component",
+   "title": "Gather Lockup",
+   "description": "Logo reveal in two and a half seconds. A wall of your work sits under a line of type. The line falls apart word by word, the wall cuts in to a row of four, and each slot swaps its picture and hands over to your mark and wordmark. Measured frame by frame off a reference recording.",
+   "component": "lockup",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/gather-lockup.json"
+  },
+  {
+   "name": "glass-prompt",
+   "type": "component",
+   "title": "Glass Prompt",
+   "description": "AI prompt animation: a glass prompt bar, a send click and a dive into a ring of results. A prompt typed into a pane of glass, and a dive through its send button into the ring of pictures it asked for. A glass pill floats over rolling hills and the request types itself in; an arrow pops in at its end. The shot cuts in close on the arrow with the hills gone soft behind the glass, a pointer rises to it and presses, and the pane rolls and rushes the lens — the arrow swelling into a band of light, the glass washing out to white — until the camera is through it and nine pictures fan out of the arrow's middle into a ring, each one developing out of a blue negative into its own colours as the ring comes round. Replayed from a 4.1s screen recording measured frame by frame: the camera is an affine per frame, the roll a similarity fitted on the pill's own edges, the glass a fixed window onto a small copy of the backdrop, and every tile tracked from its final rect.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/glass-prompt.json"
+  },
+  {
+   "name": "glow-frame",
+   "type": "component",
+   "title": "Glow Frame",
+   "description": "Screen edge glow animation: a gradient line settles as light runs round the frame. A line of type scales up while a thin light enters at the edge of the screen, runs round all four sides and fades to a hairline, its colours drifting round the frame.",
+   "component": "hover-effect",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/glow-frame.json"
+  },
+  {
+   "name": "glow-map",
+   "type": "component",
+   "title": "Glow Map",
+   "description": "World map animation: a dotted map wipes in and points light up with pulsing rings. A light sweeps off the frame and a dotted world map wipes in west to east as it glides into place; points light up across it one after another and rings pulse out of them. No text. Pan, wipe, light and the order of every point are measured frame by frame off a screen recording; land is Natural Earth on a hex dot grid.",
+   "component": "hover-effect",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://snapcn.dev/r/glow-map.json"
+  },
+  {
+   "name": "glow-pullback",
+   "type": "component",
+   "title": "Glow Pullback",
+   "description": "A line that opens in close and pulls back to the whole sentence. The camera starts tight on the first letter and pans along the first word, then backs off a step each time a new word slides in out of a blur, until the full line sits centred and still. Plain bold type on white by default; a blue sky, a glow and a hot arrival colour are one prop each.",
+   "component": "hover-effect",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://snapcn.dev/r/glow-pullback.json"
+  },
+  {
+   "name": "glow-type",
+   "type": "component",
+   "title": "Glow Type",
+   "description": "Glow text animation: type lights up word by word as the camera glides along the line. Dark type lights up word by word as the camera eases back, then slides off left; the camera dives into the second line, glides along it letter-size while each letter lights as it passes, and pulls back out. Crisp type, a soft glow under lit letters, every motion one eased curve.",
+   "component": "hover-effect",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/glow-type.json"
+  },
+  {
+   "name": "hello-zoom",
+   "type": "component",
+   "title": "Hello Zoom",
+   "description": "Words flicker in place, one line types on, then the camera dives through its own letters into the next card",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/hello-zoom.json"
+  },
+  {
+   "name": "hero-launch",
+   "type": "component",
+   "title": "Product Hero",
+   "description": "Product launch hero scene for a SaaS launch video intro. Cinematic product-launch hero — two cards slide into formation as the headline reveals above.",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/hero-launch.json"
+  },
+  {
+   "name": "hex-tally",
+   "type": "component",
+   "title": "Hex Tally",
+   "description": "Chart animation: a hex unit chart filling in under a counting metric card, for stats and dashboards. A metric card that lands while a hex unit chart fills in under a running total. The card settles up 19px onto its resting place; 150 hexagons out of a 22×15 field light up one at a time in a measured scatter — faster through the middle of the run, seeding the blob's rim before its interior — and the headline counts flat, 217 a frame, landing a tenth of a second before the chart does. The legend under it never moves: it is the still thing the two moving clocks are read against, and every percentage in it is counted off the grid rather than typed beside it, so a share can never be a number somebody forgot to update. Card settle, per-cell reveal times and the blob itself are measured tables.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/hex-tally.json"
+  },
+  {
+   "name": "hype-reel",
+   "type": "component",
+   "title": "Hype Reel",
+   "description": "Viral post animation: a video card's views race up as comments and reactions spring in. A vertical video post going viral in three seconds: a close-up on its view count racing up, a cut out to the whole card under its caption, then avatars, chat bubbles and reactions spring in around it while the count tops out at 999k. The camera, the card's border and glow, every comment's place and the springs are measured frame by frame off a screen recording.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/hype-reel.json"
+  },
+  {
+   "name": "input",
+   "type": "component",
+   "title": "UI Input",
+   "description": "A text input whose idle/hover/active/typing/invalid state is a pure function of the timeline; the focus ring, border, caret, and value reveal are keyframed presets.",
+   "component": "text-input",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "class-variance-authority"
+   ],
+   "url": "https://snapcn.dev/r/input.json"
+  },
+  {
+   "name": "karaoke-captions",
+   "type": "component",
+   "title": "Karaoke Captions",
+   "description": "Karaoke captions: word-by-word highlighted subtitles synced to speech. A caption line that fills word by word as it is spoken — heavy outlined type that reads on any footage. Three presets: karaoke, highlight (the word rides an accent bar), clean.",
+   "component": "transcript",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/karaoke-captions.json"
+  },
+  {
+   "name": "laptop-frame",
+   "type": "component",
+   "title": "Laptop Frame",
+   "description": "MacBook laptop mockup animation that opens and zooms into your screenshot or video. MacBook-style laptop that opens, runs a dynamic-island notch notification, then dives the camera into the screen until an image or video fills the frame.",
+   "component": "box",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://snapcn.dev/r/laptop-frame.json"
+  },
+  {
+   "name": "laptop-open",
+   "type": "component",
+   "title": "Laptop Open",
+   "description": "Laptop mockup animation: a MacBook opening with depth of field and a zoom into the screen. A laptop opening out of focus, holding, and then swallowing the lens. The shot starts a hand's width from the glass with everything but the line blurred out of it, pulls back until the whole machine is on the page, holds while whatever is on the screen plays, and then pushes back in until the screen is the frame — and comes out the other side as a field of colour with a line typing itself across it. The pose is four numbers a frame: the lid is symmetric about x = 354.5 on all 93 frames it is measurable on (±0.5), so the projective pose of a rectangle facing the lens collapses to the half-width of the glass's top edge, the half-width of its bottom edge, and the two rows they sit on. Which edge is the wider one changes sign partway through — the lens starts above the glass and ends under it — and that is the whole of the perspective, and the reason this cannot be a scale and a rotateX: the tilt and the camera distance trade off exactly, and solving for both is solving for a number the recording does not contain. Everything else on the machine is that quad again — the lid is the glass plus a bezel in the glass's own plane, which is what makes the chin come out deeper than the brow the way a real machine seen from below does — and only the deck is a second plane, hinged on the glass's bottom edge.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/laptop-open.json"
+  },
+  {
+   "name": "lcd-type",
+   "type": "component",
+   "title": "LCD Type",
+   "description": "Pixel screen typography: LCD-style typewriter text on a display. A type specimen on a screen you can see the pixels of. A title accelerates up and out of frame, then lines type themselves a word at a time — each laid out centred at its finished width and revealed left to right while the whole line slides slowly left, so it grows without ever drifting from the middle. Over all of it sits an RGB subpixel grid and a scanline, applied to the whole frame rather than to the glyphs, which is what makes the type read as displayed rather than drawn.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/lcd-type.json"
+  },
+  {
+   "name": "lens-wall",
+   "type": "component",
+   "title": "Lens Wall",
+   "description": "Photo wall animation: a grid of pictures zooms out, then a lens bends it and flashes. A wall of 18 pictures fades in tile by tile on a slow zoom-out, then a lens bends it: the edges stretch, the middle pulls back, flashes and cuts to the bare wall. Defaults to snapcn Pro scenes with the snapcn lockup in the middle. Replayed from a screen recording fitted on every frame: each picture's rect, each fade, the camera, the lens and the flash (all 56 recorded frames within 5.9/255, mean 3.4).",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://snapcn.dev/r/lens-wall.json"
+  },
+  {
+   "name": "library-flight",
+   "type": "component",
+   "title": "Library Flight",
+   "description": "Product library fly-through: a wall of component screens and a closing subscription line. A title, a fly-through of the whole library, and the line it adds up to. \"snapcn Pro\" shrinks away, a cluster of screens flies at the camera and opens into a wall of snapcn components, the wall drifts and then whips aside to reveal the first word already sliding in, and the page cuts to \"One subscription.\" then \"Endless videos.\" — each second word landing as the first one moves over. The wall is 32 screens on their own measured tracks (a single 3D camera fits it to 2.7–6.7px, so none is used), with the fly-in cards drawn from their four corners because they are turned in depth; the lines are drawn at 4–8x and averaged down so a zoom of a quarter pixel a frame stays smooth. Built frame by frame against a screen recording: 4.6 of 255 mean per pixel over all 97 captures, 1.1–1.3 on the type.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/library-flight.json"
+  },
+  {
+   "name": "lockup-reveal",
+   "type": "component",
+   "title": "Lockup Reveal",
+   "description": "Logo lockup reveal animation on a construction grid. A logo lockup opening on a construction grid, then turning out to be a window. The mark starts alone in the middle of a dark card and slides aside while the name slides out of a slot behind it, the whole lockup settling from 1.1x, with dashed hairlines riding every edge. A gradient rises inside the letterforms, and the card cuts to that same gradient full-frame with the lockup knocked out in paper. The fill is not a second gradient: it is the light scene itself shrunk to the mark's height, and one rise carries across the cut. Built frame by frame against a screen recording and verified at its own capture timestamps: 0.6 of 255 mean per pixel over all 80 frames. The name is set as outlines, because a browser will not put a baseline between two pixel rows and this one slides two pixels under the settle.",
+   "component": "lockup",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/lockup-reveal.json"
+  },
+  {
+   "name": "logo-assemble",
+   "type": "component",
+   "title": "Logo Assemble",
+   "description": "Logo reveal animation: image cards orbit and collapse into your logo and brand name. A single ring of image cards revolves around a centred title, then spins inward and drains to the middle — giving birth to a simple logo that slides left as the brand name reveals to its right.",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://snapcn.dev/r/logo-assemble.json"
+  },
+  {
+   "name": "logo-collapse",
+   "type": "component",
+   "title": "Logo Collapse",
+   "description": "Logo reveal intro: a stack of photos flicks through and collapses into your logo. A stack of shots flicked through, collapsing into your mark, and the wordmark landing beside it. One card holds the middle of the frame and cuts to the next shot, each smaller and each held for less time than the last, so the sequence winds itself up instead of running at a constant clip. Nothing cross-fades and nothing tweens between shots — the reference holds each card at a fixed size for its whole beat and then cuts, which reads as a stack of prints being dealt rather than as a zoom. At the end of the run the card cuts to a plain tile with the mark on it, the mark overshoots its resting size by a third and settles in three frames, the tile goes, and the mark steps aside twice to make room for the word.",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/logo-collapse.json"
+  },
+  {
+   "name": "logo-drift",
+   "type": "component",
+   "title": "Logo Drift",
+   "description": "Logo wall animation: a logo cloud of integrations drifting behind a headline. A field of tiles drifting past a headline while the camera pulls steadily back, so the wall of things-it-works-with keeps arriving from every edge. The pull-back is one linear scale measured at 0.176 per second across every tile; the words do not fade in, they arrive 1.216× large and 4.3px soft and land in 140ms.",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/logo-drift.json"
+  },
+  {
+   "name": "logo-flicker",
+   "type": "component",
+   "title": "Logo Flicker",
+   "description": "Logo reveal intro: a fast image flicker that settles on your logo. Images flip across a central card very fast, the flicker decelerates and fades, and the logo and brand name resolve underneath — a strobe of imagery settling onto the mark.",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://snapcn.dev/r/logo-flicker.json"
+  },
+  {
+   "name": "manifesto",
+   "type": "component",
+   "title": "Manifesto",
+   "description": "Kinetic typography statements: three text reveals with hard cuts, for manifesto and promo videos. Three statements, three different arrivals, hard cuts between them. The first is wiped on left to right behind a magenta edge that cools to white, then pushes slowly toward the viewer and slides away mid-motion. The second arrives from the right with its words held apart and the gaps close as it lands — nothing scales, only the spacing moves. The third starts larger than the frame and falls back to a line, losing a fixed share of the remaining distance every frame. Give it three strings; every timing is a prop.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/manifesto.json"
+  },
+  {
+   "name": "mark-grid",
+   "type": "component",
+   "title": "Mark Grid",
+   "description": "App icon grid animation: a headline types around your logo, then a wall of app icons opens round it. The last scene wipes away and a line types itself in around your mark, lifts off word by word, and a staggered wall of tiles opens round the mark as the camera eases in. A dozen app icons fade into the wall and three name pills rise in beside them. The face, camera, wipe and every fade are measured off a screen recording.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/mark-grid.json"
+  },
+  {
+   "name": "metal-chip",
+   "type": "component",
+   "title": "Metal Chip",
+   "description": "Metal chip reveal: a silver chip with your mark un-tilts as light rolls over it. A brushed-metal chip with your mark embossed on its face pushes in and un-tilts in perspective while a soft light rolls over the surface.",
+   "component": "chip",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/metal-chip.json"
+  },
+  {
+   "name": "metric-morph",
+   "type": "component",
+   "title": "Metric Morph",
+   "description": "Bar chart animation: a button morphs into a stat and a histogram chart fills in. The control becomes the number it produces. An export button settles from the press that opened the shot, its label dissolves, and the pill collapses inward into a square that runs from black through brown into the accent — the tallest cell of a chart that then fades up around it. The collapse is an ease-in that arrives at full speed, so it slams into the grid rather than settling into it, and the chart rises on one clock with no stagger, as one object. Every curve fitted frame by frame against a reference from sub-pixel edges.",
+   "component": "stat",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/metric-morph.json"
+  },
+  {
+   "name": "mood-board",
+   "type": "component",
+   "title": "Mood Board",
+   "description": "Collage animation: tiles land as swatches, turn into pictures, under a two-line headline. A collage builds itself under a two-line headline. Each tile lands as a flat swatch and turns into its picture a few frames later, the words of the headline arrive one at a time and settle into place, and the camera rides across the board: easing in, a hard zoom-out cut, a long drift, then a run across a second cluster into large pictures that warm, glow and wash out one after another. Replayed from a screen recording measured frame by frame: the camera, every tile's swatch, colour, rect and timing, and each word's entrance are fitted tables.",
+   "component": "kanban-board",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://snapcn.dev/r/mood-board.json"
+  },
+  {
+   "name": "moodboard-reveal",
+   "type": "component",
+   "title": "Moodboard Reveal",
+   "description": "Photo gallery reveal: a moodboard fly-through that lands on a hero image. A kinetic headline with a swapping inline image, then a scattered gallery of photos flies in, the camera pushes through it as the background lifts from near-black to off-white, and it lands on a single hero image.",
+   "component": "scroll-reveal",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://snapcn.dev/r/moodboard-reveal.json"
+  },
+  {
+   "name": "orb-swarm",
+   "type": "component",
+   "title": "Orb Swarm",
+   "description": "Kinetic typography scene with glass orbs: a sentence told one beat at a time while four orbs burst out of it, split into eight and sixteen, wind into a clockwise vortex, collapse into a knot, pay out as a chain, loop around the closing words and shrink away bead by bead. Every phase was measured frame by frame off a 24fps reference and is replayed on the same clock; the orbs are shaded per pixel into a canvas (a scrolling band texture bowed like latitude lines, a soft glass edge) and the type is drawn into the same canvas four times finer than the frame so its baselines land between pixels.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/orb-swarm.json"
+  },
+  {
+   "name": "orbit-flow",
+   "type": "component",
+   "title": "Orbit Flow",
+   "description": "Orbit diagram animation: labelled steps riding orbits around a headline, for workflow explainers. Three dashed orbits round a line of type, with three labelled stops riding the inner one. The scene settles in from 0.86x while the line rises, clears and sharpens a word at a time; the outer orbits drift apart at a constant 0.187 degrees a frame, and the inner one coasts down from its entrance and then winds up until its dashes, markers and labels are a blur. Nothing is left to the browser's rasteriser: the rings are the fitted stroke model evaluated at every pixel on a canvas (a Gaussian across the ring, a square wave along it blurred by the capture and by the shutter), and the labels and line are drawn at 4-8x and averaged down, so every baseline moves by fractions of a pixel. The line is Archivo at weight 350, picked by fitting all 1,804 Google families to the recording. Built frame by frame against a screen recording: 0.37 of 255 mean per pixel over all 77 frames.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/orbit-flow.json"
+  },
+  {
+   "name": "orbit-gallery",
+   "type": "component",
+   "title": "Orbit Gallery",
+   "description": "Image gallery intro: photos spiral into the centre around a title. An image-universe hero: a continuous stream of photos flows along an Archimedean spiral (a vortex) from the frame edges into the center — evenly spaced by arc length, shrinking and rotating to follow the coil, with the title held in the clear middle. A slow, cinematic opener for launch and editorial videos.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://snapcn.dev/r/orbit-gallery.json"
+  },
+  {
+   "name": "pack-up",
+   "type": "component",
+   "title": "Pack Up",
+   "description": "Typewriter text animation into a 3D box: a headline types, then its words are packed into a cardboard carton. A line types itself, catches the light, and its last word is packed into a box. The sentence arrives one character per frame, each landing in the accent and cooling to the text colour behind a caret that never blinks, with a single five-frame hold after the first word that is the whole rhythm of the open. Then a highlight crosses the finished line — not a fade: every letter it touches is pushed up through the accent until almost nothing of it is left, and comes back down behind it. Then the line breaks. The leading words accelerate out of frame to the left, under constant acceleration onto a terminal speed, while the last word stays, rocks four frames backwards, and only then tips forward as an open slotted carton swings up from the bottom right — wider than the frame — and settles. A second copy of the word is thrown in from off frame to meet it, and the near flap passes in front of both as they go in: the carton is projected in this file rather than handed to CSS 3D precisely so that paint order is exact. The typing rate, the highlight's profile, the break-out curve, the tumble, the carton's seven shape parameters and its whole camera path are measured tables on a 30fps reference's own frame grid.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/pack-up.json"
+  },
+  {
+   "name": "pain-point",
+   "type": "component",
+   "title": "Pain Point",
+   "description": "Launch video intro: a typed question as the camera pulls back through floating UI cards. The opening beat of a launch video: the viewer's pain, typed as a question, while the camera pulls back through the tools they are stuck in. A violet glow blooms out of black, the first line types itself with its newest characters running from white to violet, the camera dollies back and nine UI cards cut in at their own depths, a second line takes over, and the camera rushes back in. Replayed from a 4.5s screen recording measured frame by frame: a single dollying camera solved from nine tracked cards (0.26% scale error), the glow as fitted super-gaussian blobs, the type fitted for size, weight and tracking, and every reveal frame read off the capture.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://snapcn.dev/r/pain-point.json"
+  },
+  {
+   "name": "phone-frame",
+   "type": "component",
+   "title": "Phone Frame",
+   "description": "iPhone mockup animation: phone device frame for app screenshots and screen recordings. iPhone-style device frame with a dynamic island and a screen slot — flat or lightly 3D-tilted, with rise, rotate-in, or float entrances and a subtle float loop.",
+   "component": "box",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://snapcn.dev/r/phone-frame.json"
+  },
+  {
+   "name": "phone-pitch",
+   "type": "component",
+   "title": "Phone Pitch",
+   "description": "iPhone mockup scene: a headline and a phone placed into frame, the app pitch shot. A headline and a phone: the pitch shot. The device is put down from the right — not slid, put down: it keeps 77% of the remaining distance every frame, so it covers half the move in two frames and eases the last few pixels. Beside it a two-line headline says itself a word at a time, each word arriving a little right of its place, a little small and a lot lighter, and settling into the line. On the screen, a thread somebody is having, with the reply landing on its own beat.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/phone-pitch.json"
+  },
+  {
+   "name": "phone-stack",
+   "type": "component",
+   "title": "Phone Stack",
+   "description": "Stacked phone screens with video. Phone screens rise out of a blur from below one after another, and each new one pushes the stack back: the older screens shrink and step up so only their tops peek out above the newest. Every screen plays its own clip under an iOS status bar. Proportions measured off a reference recording.",
+   "component": "stack",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://snapcn.dev/r/phone-stack.json"
+  },
+  {
+   "name": "phrase-swarm",
+   "type": "component",
+   "title": "Phrase Swarm",
+   "description": "Text morph animation: one phrase breaks into letters that swarm into another. One phrase comes apart and another gathers out of the pieces. The opening line holds, its letters fly outward, and at the peak the scene cuts — identity, position and size all change on one frame — then the closing phrase gathers back over twice as long, its letters arriving at different depths and a couple of them landing late. Two phrases in, 51 frames out. Any two strings, any two lengths.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/phrase-swarm.json"
+  },
+  {
+   "name": "picker-commit",
+   "type": "component",
+   "title": "Picker Commit",
+   "description": "iOS picker wheel animation that spins, settles and commits to a button. A picker wheel that flings, settles on one row, and commits it into a button. A cylinder of glass rows spins past a night backdrop and coasts to a stop with one row on the axis; that row's glass fills to ink; a white circle opens out of it and takes the frame — the rest of the wheel stays legible through it, because what changed is the ground and not the rows; and the row left standing shrinks into a call to action, its own label pushed out sideways by the new one. The pill is never re-created, which is the only reason the commit reads as one gesture. Wheel spacing, scale, fade and every beat are measured tables, and the list wraps so the fling never runs out of rows.",
+   "component": "select",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/picker-commit.json"
+  },
+  {
+   "name": "pixel-peak",
+   "type": "component",
+   "title": "Pixel Peak",
+   "description": "Pixel transition: the next shot climbs through the last as a stepped peak of blocks. Transition for @remotion/transitions: the next shot climbs up through the last one as a stepped peak of blocks. A 20 × 10 grid opens at the bottom middle, widens and climbs, its edge flickering with single frames of blue before each block cuts to the next shot; the top corners go last. Every block's flash frame, cut frame and colour is replayed from a screen recording (all 37 frames within 1.42/255). Only the transition: your two shots are the scenes either side of it in a TransitionSeries.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://snapcn.dev/r/pixel-peak.json"
+  },
+  {
+   "name": "portal-intro",
+   "type": "component",
+   "title": "Portal Intro",
+   "description": "Sentence-to-picture intro. The lead words fade up one at a time, the line re-sets with a small rounded picture chip inside it and leans in until the chip takes the frame; a title types itself over the picture, lifts away, and the mark and the name arrive. Fitted frame by frame from a reference recording.",
+   "component": "portal",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://snapcn.dev/r/portal-intro.json"
+  },
+  {
+   "name": "prompt-dive",
+   "type": "component",
+   "title": "Prompt Dive",
+   "description": "AI prompt animation: typing into an assistant and diving into the send button. A prompt typed into an assistant, and then a dive into the send button. The placeholder clears, the request types itself a character at a time, the field grows to a second line, and the camera walks into the screen until the send button fills the frame and turns over. The dolly is the quiet part — the device grows 1.1% in the first second — and is the difference between a shot and a screenshot. Measured off a recording resampled to a clean 30fps first, since it was captured at 60 and then 30.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/prompt-dive.json"
+  },
+  {
+   "name": "prompt-poster",
+   "type": "component",
+   "title": "Prompt Poster",
+   "description": "AI prompt animation: a prompt is sent and the generated poster scrolls into view. A dark composer with an image attached finishes typing its request, a pointer glides in turning as it travels, presses send, and the page scrolls: the composer rides up and off while the generated poster rises in and settles. Push-in, pointer path, press and scroll are measured frame by frame off a screen recording.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/prompt-poster.json"
+  },
+  {
+   "name": "prompt-roll",
+   "type": "component",
+   "title": "Prompt Roll",
+   "description": "A prompt card is pushed in on while \"Make your own …\" types, cuts closer, and the last words wrap into a pill that rolls through what you can make, each in its own tint. The sentence finishes, the camera whips to a send button that draws itself in, a pointer presses it into a halo, and the arrow pulls free and flies off as the frame washes to white. Replayed from a 6.4s screen recording measured frame by frame: the push-in's card rect, the tracked pan, every keystroke, each roll step, the pointer's path and the press.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/prompt-roll.json"
+  },
+  {
+   "name": "prompt-send",
+   "type": "component",
+   "title": "Prompt Send",
+   "description": "AI prompt typing animation: a chat input types a prompt and a cursor clicks send. A composer that unrolls from a hairline, writes a brief into itself while the camera cuts in and rides the caret, then cuts back out to the send button as a pointer arrives and clicks it. The typing is eased, not constant — 17 chars/sec on the first word, 33 in the middle, a settle on the last three. Long copy scrolls the field under its own caret and extra suggestions wrap, so the panel fits whatever you put in it.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/prompt-send.json"
+  },
+  {
+   "name": "prompt-zoom",
+   "type": "component",
+   "title": "Prompt Zoom",
+   "description": "AI prompt zoom: an assistant home screen that cuts into the chat input as the prompt types. An assistant landing screen that offers its suggestions, then cuts — hard, in a single frame — into the caret, where the prompt types itself. The push-in is a measured 2.547× anchored on the text insertion point, not an animated zoom.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/prompt-zoom.json"
+  },
+  {
+   "name": "proof-line",
+   "type": "component",
+   "title": "Proof Line",
+   "description": "Portfolio proof scene: shipped work cards collapsing into one sentence. Five pieces of shipped work collapse, one at a time, into the sentence that describes them. Every card on the stage is a demo you already made; one by one each slides away, and on the very next frame a small coloured square is standing exactly where it was. The square travels to its place in a headline and becomes a word, and when the last one lands the sentence is finished and the stage is empty. The whole scene is one scale about one point — fitting scale and centre to the four tracked cards frame by frame put the pivot at (355, 202.3) on a 712×390 stage with a residual under 0.4px, and the headline's own left edge and baseline obey the same number, so nothing here drifts independently of the camera. That camera dips before it pushes: 1.000 → 0.978 over the first two thirds of a second, then out to 1.372, and the dip is the reason the push reads as a push. Nothing cross-fades. Measured, every card is at full opacity on the last frame it exists and gone on the next, and the same is true of square → word: every handover is a hard cut on one frame, because softening any of them turns a substitution into a dissolve.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/proof-line.json"
+  },
+  {
+   "name": "pulsing-border",
+   "type": "component",
+   "title": "Pulsing Border",
+   "description": "AI glow border: a pulsing thinking frame around the screen. Glowing 'AI is working' frame — a soft pulsing border overlay that breathes around the scene edges while a response streams.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@paper-design/shaders-react"
+   ],
+   "url": "https://snapcn.dev/r/pulsing-border.json"
+  },
+  {
+   "name": "punch-lines",
+   "type": "component",
+   "title": "Punch Lines",
+   "description": "Kinetic typography title cards: bold statements that cut hard between beats. A run of full-frame title cards that cut hard between beats. A statement card is flicked in from the left line by line and settles on a critically damped curve, then rushes past the camera; a hero card punches its words up from a third of their size in a wave and pushes slowly forward until it cuts. Every curve is fitted from frame measurements — the slide to 0.42px rms over 37 frames.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/punch-lines.json"
+  },
+  {
+   "name": "read-through",
+   "type": "component",
+   "title": "Read Through",
+   "description": "Word-by-word reading text animation: a huge sentence panned one word at a time. A sentence set enormous and read a word at a time. Three lines pan left together in eased steps — each step carries the next word to a fixed reading position, decelerating hard into it, dwelling, then accelerating away, the way an eye moves along a line rather than a marquee crawling past. Colour does the reading: a word arrives in the accent and resolves to the text colour as the pan carries it through, so any frame says what has been read and what has not. The lines above and below travel with it in grey, clipped by the frame.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/read-through.json"
+  },
+  {
+   "name": "reel-collage",
+   "type": "component",
+   "title": "Reel Collage",
+   "description": "Photo reel that shuts into a collage. A picture cuts through a quick reel between two captions and slowly zooms, then shuts like an eyelid while the captions fold into one stacked line; the copy swaps, the lines split, and a scattered collage blooms in around them on a peach flush. Every curve is fitted from a reference recording, frame by frame.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://snapcn.dev/r/reel-collage.json"
+  },
+  {
+   "name": "reel-wall",
+   "type": "component",
+   "title": "Reel Wall",
+   "description": "Curved video wall for Remotion. A ring of vertical clips turns past in the dark: it eases in from rest on twos, then keeps turning at an even speed. The ring, lens and ease are fitted frame by frame from a reference recording.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://snapcn.dev/r/reel-wall.json"
+  },
+  {
+   "name": "render-wall",
+   "type": "component",
+   "title": "Render Wall",
+   "description": "Code to showcase animation: loose code resolving into a wall of finished work. A field of loose code that resolves into a wall of finished work, and then the wall backs away. One phrase holds the middle of the frame and never moves; everything else is three layers on one clock. Seventeen punctuation marks cycle for two frames and then hold — measured, the mark in the top left occupies the same nineteen pixels on every frame for half a second, so the first two thirds of this scene are pure opacity and nothing drifts. Nine code fragments fade up as the marks fade out. Then five posters arrive at full size as saturated gradient plates, staggered a thirtieth of a second apart, and the artwork cross-fades over each about 0.13s later — a loading state, kept deliberately, because it is the only thing on screen that says the picture was made rather than placed. Finally the wall recedes: scale + rotation fitted frame by frame to the five tracked cards put the pivot at the exact centre of the stage with a residual under 3.6px, so it shrinks to 0.52 and turns 31° about that one point while every card stays upright. Both curves are measured tables, and neither arrives — the clip ends while the wall is still turning.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/render-wall.json"
+  },
+  {
+   "name": "roster-grant",
+   "type": "component",
+   "title": "Roster Grant",
+   "description": "Access granted animation: a cursor clicks a CTA and team avatars switch on. Three rows of roster cards stream past a call to action, a pointer walks in and clicks it, and the monograms start turning to the accent one every seven frames — top row, middle, bottom, top, bottom, middle, so it reads as a system granting rather than a list iterating. The camera and the middle row's clearance around the pill settle on the same measured exponential; the outer rows deliberately do not, which is what stops the two sides ever looking symmetric.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/roster-grant.json"
+  },
+  {
+   "name": "say-it",
+   "type": "component",
+   "title": "Say It",
+   "description": "Text to button animation: a word scrambles into a UI control that gets pressed. A word that comes apart, leaves a control behind, and gets pressed. One line of type: its last word scrambles itself into nothing — punctuation for letters, characters reordered, two frames a state — and a control is standing where it was. A pointer walks up and presses it; the camera is thrown at the control in a single frame, 1.09× to 2.47×, which is why that frame smears; the control opens into a bar of level with a caption under the pointer. Then the camera tracks left, leaves the control behind, finds the second line already waiting, and the closing line arrives a word at a time. The camera's scale came off the headline's cap height — the one signal in the scene that cannot be confused with a layout change — and its track off the icon's own silhouette, which holds at 99×143px for thirty frames while its left edge runs 324 to 3. The box the word sits in collapses continuously rather than in steps at the frames it loses characters, which is the difference between a line that flows and a line that twitches five times.",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/say-it.json"
+  },
+  {
+   "name": "scatter-bloom",
+   "type": "component",
+   "title": "Scatter Bloom",
+   "description": "Scatter plot chart animation: data points blooming onto a 3D plane, for data visualization. A scatter plot that blooms onto a tilted plane while the camera drifts along it. Thirteen hundred points arrive over three and a quarter seconds — most on schedule, one in fourteen long before its turn, anywhere along the axis — while the plane rolls a third of a degree, pushes in a tenth and overshoots on the way, and tracks two hundred pixels left. Nothing cuts and nothing lands; the only event in it is data. The roll was recovered by following one rule across a frame that carries five parallel ones inside eighteen levels of luminance; the scale off the perpendicular thickness of the table's header strip, which is a length on the plane and so is immune to both the pan and the roll; the pan off phase correlation on the one band the arriving points do not touch. The cloud climbs and widens together and is skewed up, which is what a duration looks like: nothing is faster than fast and anything can be slow.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/scatter-bloom.json"
+  },
+  {
+   "name": "screen-recording",
+   "type": "component",
+   "title": "Screen Recording",
+   "description": "Screen recording zoom: crop and auto-zoom a product demo capture. The treatment that turns a raw screen capture into a shot: crop the browser and OS chrome off each edge as a fraction, fit what is left to the frame, and run a keyframed camera that pushes in on whatever matters at a given frame and holds until the next move. Takes a video or a still through the same track.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://snapcn.dev/r/screen-recording.json"
+  },
+  {
+   "name": "screen-wall",
+   "type": "component",
+   "title": "Screen Wall",
+   "description": "Phone mockups tunnel: four phones around a headline with a camera pull-back. Four phones down a tunnel around a sentence, and the shot backing out of them. The camera starts inside the wall — one device is all you can see — and eases out until the four of them frame the line in the middle; the line shrinks with it, and then it is gone and the real one builds a word at a time, each word shoving the ones before it left hard enough to smear. The rig is a frustum and not a picture frame, which is the whole shot: each device projects to a trapezoid, the aperture's own side at the far end and the same side of a 2.35× mouth at the near one, with the seams between neighbours running from the aperture's corners straight out through the frame's — so no two walls can overlap and none of them can leave a gap. It is handed to the browser as a measured square-to-quad matrix3d rather than a perspective and a pair of rotations, because the quad is what the recording gives you and solving for a camera that would produce it is solving for numbers that are not there. The camera itself is one scale: the aperture divided by a 336 × 275 rectangle runs 2.21 → 1.00 and lands the recording's own walls within two pixels on every frame it can be read on. The pivot is not shared and that is the thing you cannot guess — the rig's centre pans 224 → 351 while the headline's holds on 353.5, so the line borrows the ease and none of the travel. The build is a shove and not a fade: each word lands at the right already in place, the line it lands on is thrown 24px in a single frame, and it blurs horizontally and only horizontally.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/screen-wall.json"
+  },
+  {
+   "name": "search-retype",
+   "type": "component",
+   "title": "Search Retype",
+   "description": "A search field types its first query, the camera pushes in, the query deletes back to nothing and a new one types in. Every keystroke, deletion and caret blink lands on the frame it did in the reference recording; each new character arrives in the accent and settles to ink, and the field leaves on a sideways whip.",
+   "component": "search-input",
+   "surface": "search-mobile",
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/search-retype.json"
+  },
+  {
+   "name": "search-typing",
+   "type": "component",
+   "title": "Search Typing",
+   "description": "Search bar typing animation for AI search and command palette demos. A search field wider than the shot: two thirds in frame, then it comes forward, types across its left half, pages to its right half, and goes back. Every proportion is measured, and the scale pivots on the text baseline so the type never climbs the pixel grid.",
+   "component": "search-input",
+   "surface": "search-mobile",
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/search-typing.json"
+  },
+  {
+   "name": "sentence-set",
+   "type": "component",
+   "title": "Sentence Set",
+   "description": "Word-by-word text reveal: a sentence setting itself as each word darkens into place. A sentence setting itself, a word at a time. Each word arrives grey and a few pixels right of where it belongs, then darkens to black as it closes the gap — one settle driving both. The cadence decelerates, gaps doubling as the line goes on, so the sentence opens in a rush and lands hard on its last word before the next line starts the rhythm again. Laid out and centred once, so nothing already set moves under the reader.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/sentence-set.json"
+  },
+  {
+   "name": "showcase-drift",
+   "type": "component",
+   "title": "Showcase Drift",
+   "description": "Showcase wall animation: a scatter of work sliding in behind a headline. A wall of work sliding to a stop behind a headline. The whole scatter arrives from the right and settles, losing a fixed share of the remaining distance every frame — no overshoot, just something heavy coming to rest. The headline never moves: it sits in a band the cards are laid out to avoid, so the type is readable on every frame. The cards are drawn rather than photographed, so the component ships with no hosted assets to break.",
+   "component": "image-gallery",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/showcase-drift.json"
+  },
+  {
+   "name": "sky-lockup",
+   "type": "component",
+   "title": "Sky Lockup",
+   "description": "Logo outro in under two seconds. A one-line promise takes itself apart word by word, the white page washes off to a soft sky, and the mark in the middle of the sentence slides over, turns white and picks up your wordmark. Measured frame by frame off a reference recording.",
+   "component": "lockup",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/sky-lockup.json"
+  },
+  {
+   "name": "slam-type",
+   "type": "component",
+   "title": "Slam Type",
+   "description": "Kinetic title animation: three hard-cut wide words lit by one travelling metal gradient. Three hard cuts of one ultra-wide black word, each larger than the last, with one hot-metal gradient travelling through all three while the type pushes in.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/slam-type.json"
+  },
+  {
+   "name": "spark-question",
+   "type": "component",
+   "title": "Spark Question",
+   "description": "Kinetic typography question: a headline asked phrase by phrase, each landing huge as sparkles dart past. A question asked one phrase at a time: each phrase lands huge and settles while the camera keeps pulling back, its words blurring up into place one after another as small four-point sparkles dart past, and a hard cut swaps in the next. The last phrase lands over a soft circle backdrop whose rings drift outward. Timing and geometry are measured frame by frame off a screen recording: every phrase's ink box, the pull-back and each sparkle's flight are fitted tables.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/spark-question.json"
+  },
+  {
+   "name": "spec-sweep",
+   "type": "component",
+   "title": "Spec Sweep",
+   "description": "A one-line spec slides in word by word while a highlight runs along it and an icon charges up",
+   "component": "icon",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/spec-sweep.json"
+  },
+  {
+   "name": "spec-wall",
+   "type": "component",
+   "title": "Spec Wall",
+   "description": "Scrolling text animation: spec lines type on, then invert and fly past too fast to read. A heading arrives word by word, spec lines type on underneath and the block scrolls, faster and faster, until the card inverts and the rest flies past too quickly to read.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/spec-wall.json"
+  },
+  {
+   "name": "status-cycle",
+   "type": "component",
+   "title": "Status Cycle",
+   "description": "Status badge animation: a pill whose label cycles through states. A centred line whose status pill cycles: the label rolls up behind a hard clip while the pill's width springs past its target and back, and the line re-centres around it. The field then crossfades and a column of chips steps up from below. Copy, palette and every timing are props; the curves are fitted from frame measurements, not eyeballed.",
+   "component": null,
+   "surface": "status",
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/status-cycle.json"
+  },
+  {
+   "name": "stretch-word",
+   "type": "component",
+   "title": "Stretch Word",
+   "description": "Stretchy text animation: a repeating letter that stretches a word. A word that will not stop, and the line that follows it. \"And more\" says itself normally, then the letter you name starts repeating — moore, mooore, moooore — until the line is wider than the frame and drags itself off the left edge. Then the closing line arrives a word at a time, sliding back to centre as it goes. The repeat happens inside the word, not appended: \"moooore\" is somebody leaning on a key, \"moreooo\" is a typo.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/stretch-word.json"
+  },
+  {
+   "name": "string-hero",
+   "type": "component",
+   "title": "String Hero",
+   "description": "Code typing animation: a line of code types and its string becomes the headline. A line of code being typed, and then the string inside it becomes the headline. Two shots on one clock. The first is an editor window pushed from 0.91× to 4.24× over two and a half seconds — not an ease, a table, one knot per frame, read off the sub-pixel centroids of the window's own chrome dots and the black body's edges so the scale and the position cannot drift apart. It sits almost still for the first two thirds of a second while the comment is typed at 17.5 characters a second, then pushes hard into the quoted argument until the title bar has left the top of the frame. Then a hard cut, and the argument is alone on black at 108px, drifting up-left out of an exponential settle. It swaps monospace for the display face one letter at a time, left to right, with the hot colour trailing the boundary: 36 letters a second at the start and 16 at the end, because a hand slows into the last letter and a linear sweep lands it a sixth of a second early. The boundary is one letter wide on every frame — no letter is ever caught half way, which is what makes it read as a substitution rather than a cross-fade.",
+   "component": "hero",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/string-hero.json"
+  },
+  {
+   "name": "tally-rise",
+   "type": "component",
+   "title": "Tally Rise",
+   "description": "Counter animation: a currency count-up number, revenue and payout odometer. A currency figure climbing on a bloom that dies under it. One number, one label, one light: the figure counts, the frame pushes in on it, and the blue the whole scene is lit by drains away over the second half so that what is left is the figure alone on near-black. Everything on the type layer — both cap tops, both baselines, both left edges — is a single uniform scale about one point, fitted to 0.19px over all 28 measured frames, and each line is scaled about its own baseline so the push never puts a baseline on the pixel grid. The figure is anchored by its left edge and not centred, which is measured and is also the argument for it: a live number that re-centres itself every time a 1 rolls into a 4 shimmies sideways on every tick. The light is a fifteen-stop radial gradient taken off the reference's own radial profile ring by ring, with a flat core and a falloff that bends through three measured waypoints — and it fades by weight rather than by opacity, because that is the path the reference's own colours take down.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/tally-rise.json"
+  },
+  {
+   "name": "tap-through",
+   "type": "component",
+   "title": "Tap Through",
+   "description": "Phone feed tap animation: scroll a social feed and tap a button. Somebody's feed, the button they press, and the line that press was for. A phone hangs in the dark with a wall of posts on it; the camera falls down the glass until the two actions at the bottom are the only thing left; one of them is tapped; the fall keeps going until the frame is the phone's own milled edge — and then the picture is gone and only the sentence is left. Four beats, three hard cuts. The whole thing lives on one plane, so the camera is a projective map and the useful fact about a plane under perspective is that screen y is affine in the magnification: fitting that to the buttons' own trapezoid (they are rectangles on the device, so their taper is the perspective) gives a magnification, a framing and a camera distance per frame, and leaves the device's geometry falling out as constants — the button is 71.3 units tall on all 29 frames it can be measured on, ±0.5, and the phone's bottom edge sits 150.5 under the button's top, ±0.6. It is handed to the browser as one matrix3d rather than a perspective and a rotateX, because the tilt angle and the perspective distance trade off exactly and solving for both is solving for a number that is not there. The cut moves the camera, it does not cut it: the distance runs 36700 → 3800 through the first beat and 4030 → 175 through the second, one fall all the way in. The tap is a scale and a colour together — 0.87 over two frames and back inside four, a white that peaks at 0.36 and is gone eight frames later — and the closing lines do not scale at all: both hold their width to a twentieth of a pixel while their centres climb.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/tap-through.json"
+  },
+  {
+   "name": "task-stream",
+   "type": "component",
+   "title": "Task Stream",
+   "description": "AI agent task list animation: steps stream in with spinners and tick off. An agent's task list, streaming in and ticking off. A heading writes itself a word at a time and a chevron lands after it; a spinner slides in and each task streams in beside it, every word fading up as it drifts into place. A band of blue sweeps through the line while the task runs, then the spinner flashes into a glowing check that draws itself, cools from cyan to blue and settles into ink before the next task starts. The shot opens close on the first task and pulls back to the whole list as the work gets going. Replayed from a 60fps screen recording measured frame by frame: the camera, the rail, every word's arrival and the check's flash are tables and fitted curves, not taste.",
+   "component": "task",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/task-stream.json"
+  },
+  {
+   "name": "template-launch",
+   "type": "block",
+   "title": "Launch Video Template",
+   "description": "A finished product-launch video in five beats — hook, product, proof, numbers, wordmark — on one paper with a dissolve between each. Type your words and colours once in LAUNCH_CONTENT; every beat reads them. Each beat lists the components you can swap in, with the command that installs them.",
+   "component": "video-player",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://snapcn.dev/r/template-launch.json"
+  },
+  {
+   "name": "terminal-simulator",
+   "type": "component",
+   "title": "Terminal Simulator",
+   "description": "Terminal animation: CLI demo that types commands and prints output. Terminal window with chunked command playback, freeze-frame pauses, step scrolling, and an optional cursor-pinned zoom camera.",
+   "component": "terminal",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://snapcn.dev/r/terminal-simulator.json"
+  },
+  {
+   "name": "text-build",
+   "type": "component",
+   "title": "Text Build",
+   "description": "Word-by-word text build animation that keeps the line centred. Words enter one at a time while already-placed words physically reflow to stay centered — a growing line on the x axis or a growing stack on the y axis.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://snapcn.dev/r/text-build.json"
+  },
+  {
+   "name": "text-highlight",
+   "type": "component",
+   "title": "Text Highlight",
+   "description": "Text highlight animation: marker highlighter, underline, strikethrough and shimmer on a word. Animated emphasis on one span inside a static sentence — marker sweep, color shift, underline, strikethrough-replace, or shimmer.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://snapcn.dev/r/text-highlight.json"
+  },
+  {
+   "name": "text-reveal",
+   "type": "component",
+   "title": "Text Reveal",
+   "description": "Text reveal animation: word-by-word and letter-by-letter kinetic typography with blur-in, fade, slide, scale and tracking-in presets. One staggered enter/exit text animator: fade, slide, blur, scale, mask and tracking effects over character, word, line or block units, with 14 classic looks as presets.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://snapcn.dev/r/text-reveal.json"
+  },
+  {
+   "name": "text-rewrite",
+   "type": "component",
+   "title": "Text Rewrite",
+   "description": "Text rewrite animation, a typewriter line that deletes and retypes its ending. A line that writes itself a word at a time, comes forward and gets selected — then its opening is swept away by a clip that cuts letters in half as it passes, and a new ending is written on while the line slides to its new centre. The mark rides the sweeping edge throughout.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/text-rewrite.json"
+  },
+  {
+   "name": "text-select",
+   "type": "component",
+   "title": "Text Select",
+   "description": "Typewriter with text selection: a line types word by word, then gets highlighted. A line that writes itself a word at a time — each one arriving in the accent and cooling to the foreground a beat later, so exactly one word is ever coloured — then pushes forward to full size on a baseline-pivoted scale and gets selected, the drag sweeping across under a gradient sheen with a hard caret edge.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/text-select.json"
+  },
+  {
+   "name": "text-swap",
+   "type": "component",
+   "title": "Text Swap",
+   "description": "Text swap animation, rotating headline that replaces one line with another. Replaces one line of text with another using exit-then-enter scheduling, with five transition presets: fade-through, crossfade, shared-axis-y, shared-axis-z, and cut.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://snapcn.dev/r/text-swap.json"
+  },
+  {
+   "name": "text-swell",
+   "type": "component",
+   "title": "Text Swell",
+   "description": "Kinetic typography title with a bouncing letter wave. A title reveal where the lead word floats toward the viewer and hangs there while the sentence assembles around it — each trailing word pushes in and its letters bounce up off the baseline in a wave — before the whole line falls back to size.",
+   "component": "typography",
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://snapcn.dev/r/text-swell.json"
+  },
+  {
+   "name": "thank-you-swarm",
+   "type": "component",
+   "title": "Thank You Swarm",
+   "description": "Supporters animation: a notification wall of avatars, for thank-you and social proof. A notification row of supporters that tears off under its own motion blur and comes back as a wall of them. The marquee accelerates exponentially rather than easing, so the row winds up before it goes; then four rings of avatars arrive from the middle outward, one every five frames, each counter-rotating onto its final angle. Nothing flies outward — every face fades up where it lands — and one line of serif holds the centre. Pass your own faces, or your own images.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/thank-you-swarm.json"
+  },
+  {
+   "name": "ticker-climb",
+   "type": "component",
+   "title": "Ticker Climb",
+   "description": "Line chart animation: a climbing trend line and a live number ticker counting up. A claim, and then the live number that proves it. A headline settles out of a push over a climbing line; the scene cuts; and the same line is now a running ticker — a symbol card counting up, a dot riding the leading edge, a \"now\" rule that follows it, and a card that flashes when somebody's install lands on the curve. The join is a hard cut and nothing about it is softened: measured, the headline goes from 5484px of ink to 2 between one frame and the next while the symbol card arrives at full strength on the same frame, and the curve on either side is not even the same data. The opening is one camera at two depths — the line settles 1.189 → 1.000 and the headline takes exactly 0.42 of that, which is the only reason the beat has any depth — and both layers share the whip-out, because a parallax on the exit reads as the type sliding off the picture rather than the picture leaving. The green under the line decays to nothing 95px below the stroke wherever the stroke is, so it is built from copies of the stroke and not from an area fill with a gradient, whose ramp is anchored to a box and would be twice as deep at the bottom of the frame as at the top. Two circles ride the curve and they are different objects: the leading dot is the tip of the series and moves every frame, and the marker is a fixed world point dropped where the trade happened, which arrives as the accent and turns to bone over twelve frames while the camera slides it out of shot.",
+   "component": "ticker",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/ticker-climb.json"
+  },
+  {
+   "name": "title-sweep",
+   "type": "component",
+   "title": "Title Sweep",
+   "description": "An end title lit by a gradient that travels through the letters, cuts in the dark, and a second title takes over",
+   "component": "heading",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/title-sweep.json"
+  },
+  {
+   "name": "trend-type",
+   "type": "component",
+   "title": "Trend Type",
+   "description": "Typewriter headline animation: gradient words type in while a trend line draws below. A headline types itself while a trend line draws underneath it. The camera follows the caret with a lag, marked words fill with their own gradients and the caret turns each word's colour a keystroke early, a wave with a white head runs ahead of the words with its fill fading in behind, and lavender and pink glows drift across the backdrop. Replayed from a screen recording measured frame by frame against its own render: camera, typing clock, caret blink, wave path and every colour are fitted tables.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/trend-type.json"
+  },
+  {
+   "name": "type-morph",
+   "type": "component",
+   "title": "Type Morph",
+   "description": "Typewriter effect: a headline types with a blinking caret, then morphs letter by letter. A headline that types itself under a glowing caret, sheds its lead, morphs letter by letter, and ends under a colour flood.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/type-morph.json"
+  },
+  {
+   "name": "vault-count",
+   "type": "component",
+   "title": "Vault Count",
+   "description": "Balance counter animation: a phone wallet balance counting up with payment cards. A balance ticking up while the payments that fed it drift past. The device never moves; all the motion is the number and the cards behind it. The counter does not tick on a fixed interval — its gaps run 5, 4, 3, 3, 2, 2 … frames, starting hesitant and settling into a steady 15 a second — and each card loses contrast and gains blur as it rises, so the stack reads as depth rather than a list scrolling. Measured frame by frame against a reference; the line items are snapcn's own.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/vault-count.json"
+  },
+  {
+   "name": "version-drop",
+   "type": "component",
+   "title": "Version Drop",
+   "description": "Version launch title: a product name typing and a big version number reveal. A name typing itself across two shots, and the number it was all for. Three shots on one clock: the name starts large and left-aligned, jump cuts to a smaller framing that pushes in as the words finish arriving, then cuts again to the version — set at the height of the frame, one glyph at a time, each arriving with a ramp through it that resolves to flat. The cuts are cuts; easing between the sizes turns a deliberate edit into a camera that could not make up its mind.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/version-drop.json"
+  },
+  {
+   "name": "wall-cut",
+   "type": "component",
+   "title": "Wall Cut",
+   "description": "LED wall text animation: a sentence read out on a pixel display. A sentence read out on an LED wall, cut from the pixels to the room. The camera opens so close to the panel that one word fills the frame; each word drops in deep blue and warms to white as it is spoken; a band of light sweeps across the wall and the panel's dot grid comes up inside it; and on the frame the band reaches the middle the picture cuts to a wide shot where the whole sentence is a small bright line and the same band is still travelling. Both shots are one wall through one camera, so the words and the sweep carry across the cut.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/wall-cut.json"
+  },
+  {
+   "name": "wire-feed",
+   "type": "component",
+   "title": "Wire Feed",
+   "description": "News feed animation: a live changelog feed typing its newest item as the camera pulls back. A live feed writing its newest item while the camera pulls back. Close on a title, a source types itself in beside a caret, its age fades up sliding into place and a rule draws out beneath it; then a cut to the wide shot seconds later, the headline most of the way written, as two older items slide in from the right out of a blur, nineteen frames apart, every age ticking up, the camera still easing out and drifting left as it ends. The camera, the typing, the caret, the fade, the rule and both entrances are replayed from tables measured frame by frame off a 60fps screen recording, and every line is placed with a transform rather than flow so a sub-pixel layout survives the zoom: 1.20 of 255 mean per pixel across 156 captures once the recording's blur is matched, 0.32 on the close shot. Ships as a snapcn changelog — pass your own copy and it re-wraps, re-stacks and types on the recording's frames.",
+   "component": "feed",
+   "surface": "feed",
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/wire-feed.json"
+  },
+  {
+   "name": "word-captions",
+   "type": "component",
+   "title": "Word Captions",
+   "description": "TikTok-style captions: animated subtitles with word pop, Hormozi and MrBeast styles for Reels and Shorts. Burned-in captions in the styles big channels actually use — heavy Montserrat, a real outside outline so they read on any footage, and the spoken word springing to an accent. Four presets: beast, hormozi, pop, clean.",
+   "component": "transcript",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/word-captions.json"
+  },
+  {
+   "name": "word-flip",
+   "type": "component",
+   "title": "Word Flip",
+   "description": "Word flip text rotator: a typewriter headline with a 3D rotating word. A headline types itself out, then one word cycles on a 3D flip — it sinks into an anticipation dip, throws up and away about its baseline under motion blur, and the next word unfurls from below. The slot is reserved from the first keystroke, so nothing in the sentence ever reflows.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion"
+   ],
+   "url": "https://snapcn.dev/r/word-flip.json"
+  },
+  {
+   "name": "word-gather",
+   "type": "component",
+   "title": "Word Gather",
+   "description": "Word-by-word sentence animation: words fly in out of order and settle into the line. A sentence that arrives one word at a time, out of order, and gathers. The first word holds the middle of the frame on its own; then the rest drop in around it — not in reading order and not where they belong — each landing near its slot in the accent colour and sliding the last of the way home, turning to ink as it settles. The line makes room for them as they come, and when the last one is down the whole block eases back to its real size. The layout is solved here rather than left to the browser, because a word has to be transformed from somewhere else to its slot and knowing where its slot is means having laid the line out yourself — which also means the line break cannot move while the block's scale is changing under it.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/word-gather.json"
+  },
+  {
+   "name": "word-insert",
+   "type": "component",
+   "title": "Word Insert",
+   "description": "Kinetic text animation: a line grows from its last word as each new word lands bold and cools. A line that grows from its last word, in 12fps stop motion: each new word is slipped in ahead of it, landing bold and dark and settling to the line's ink while the words to its left glide aside, the words to its right step over and the underline stretches to fit, every word shaking on its own each pose. Timing, glide and shake are measured frame by frame off a screen recording.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/word-insert.json"
+  },
+  {
+   "name": "word-montage",
+   "type": "component",
+   "title": "Word Montage",
+   "description": "Photo montage with rotating words: images gathering round a changing line. Photos gathering round a line that keeps changing its mind, then collapsing into the sentence it was building to. Seven pictures arrive in four clusters round \"Your ___\" as the word cycles, each sliding the last few pixels into place while its colour develops out of a two-tone print; then every picture drains back through the same inks and falls toward the middle, the page cuts to night and the ending types itself word by word behind paper slugs. The colour is one shared grade timeline — a 17-point curve per channel on the picture's own luminance plus some of the picture — fitted over all seven photos and drawn as an SVG filter so any image goes through it; the exit is rigid, each photo scaling about its own centre while its centre runs a straight line, fitted to 677 edges at 0.14px, with motion blur of 0.14 of a frame's travel. Built frame by frame against a screen recording: 2.0 of 255 mean per pixel over all 113 frames.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/word-montage.json"
+  },
+  {
+   "name": "word-rush",
+   "type": "component",
+   "title": "Word Rush",
+   "description": "3D words fly-through: a camera flying through a field of words. A field of words the camera flies through, one line of it that runs at the lens, and the line that answers on the other side. Words hang at random depths, tinted and mostly out of focus; the camera moves forward so they grow, sweep outward and pass either side while new ones fade up behind. One line holds the focal plane, resolves out of the blur, then accelerates at the camera and is gone in seven frames — and the closing line arrives a word at a time, each coming up out of defocus the same way. Position, size and blur are all the same 1/z projection.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/word-rush.json"
+  },
+  {
+   "name": "word-settle",
+   "type": "component",
+   "title": "Word Settle",
+   "description": "Word-by-word text animation: words arrive in the accent colour and cool as they land. A sentence that arrives a word at a time, hot, and cools as it lands. Two clocks running at different speeds: words appear left to right every couple of frames, and a colour head crosses the line more slowly behind them, turning the accent into the text colour as it passes — so the newest words are always warm and the oldest always settled. The whole sentence is laid out and centred once and unrevealed words are hidden rather than removed, so the line never reflows under the reader.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/word-settle.json"
+  },
+  {
+   "name": "word-wheel",
+   "type": "component",
+   "title": "Word Wheel",
+   "description": "Rotating words text: a slot machine word wheel that spins and stops on one word. A column of words that spins like a reel and stops on one of them. A fixed lead-in holds the left of the line and the word that finishes the sentence lives in a slot beside it — one row of a taller column whose other words are visible above and below, smaller and grey, fading out toward the top and bottom of the frame. The reel rolls, decelerates over a second and three quarters and comes to rest with one word at full size and in ink. Every number in it was recovered frame by frame from a recording: the 34px row pitch that every baseline including the oversized one sits on, the 1.665x the selected word grows by, and the deceleration itself — which ships as a measured table rather than a curve, because the closest cubic-bezier is five pixels out at its worst and a fifth of a row is a visibly different frame.",
+   "component": null,
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/word-wheel.json"
+  },
+  {
+   "name": "wordmark-cut",
+   "type": "component",
+   "title": "Wordmark Cut",
+   "description": "Wordmark reveal end card: a huge brand name with a hard cut to a close-up. A wordmark twice the width of the frame, cooling from a lit gradient to ink while it settles, and then a hard cut onto its last letters and the dot — 1.71× nearer, with a shallow depth of field the wide shot does not have, which is the only thing that says the second shot is closer rather than just bigger. It holds a beat and pushes in, still accelerating on the last frame.",
+   "component": "logo",
+   "surface": null,
+   "dependencies": [
+    "remotion",
+    "@remotion/google-fonts"
+   ],
+   "url": "https://snapcn.dev/r/wordmark-cut.json"
+  }
+ ]
+}
