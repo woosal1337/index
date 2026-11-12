@@ -417,7 +417,7 @@
     "url": "https://fontzz.vercel.app",
     "name": "fontzz",
     "tagline": "Thirty-six code-drawn families, weights 100 to 900, SIL OFL, on a thin site",
-    "description": "fontzz is a set of original type families by Hassan and Youssef. The homepage meta description says thirty-six original type families, every weight from 100 to 900, free under the SIL Open Font License. The HTML body text is only the word fontzz. The page script names the thirty-six families: Halden, Rondel, Tessera, Alder, Mallow, Strata, Plaza, Vesper, Ledger, Folio, Opaline, Signal, Tally, Topsy, Tempo, Pebble, Orbit, Cleft, Beacon, Brioche, Diode, Aurelia, Marquee, Anvil, Gravure, Frontier, Quill, Rewind, Spire, Vector, Vellum, Lustre, Hearth, Cove, Fathom, and Meridian. The same script says each family is free for personal and commercial use under SIL OFL 1.1, and that the license is embedded in the font file.\n\nThe GitHub README at Luffixos/fontzz says the families are drawn entirely in code, with three masters and a variable font, nine static weights, and 285 characters per family. The LICENSE file in that repository is SIL Open Font License 1.1. GitHub API on 2026-11-12 reported 77 stars, a push on 2026-11-02, and license field NOASSERTION. The README does not name an MCP server.",
+    "description": "fontzz is a set of original type families by Hassan and Youssef. The homepage meta description says thirty-six original type families, every weight from 100 to 900, free under the SIL Open Font License. The HTML body text is only the word fontzz. The page script names the thirty-six families: Halden, Rondel, Tessera, Alder, Mallow, Strata, Plaza, Vesper, Ledger, Folio, Opaline, Signal, Tally, Topsy, Tempo, Pebble, Orbit, Cleft, Beacon, Brioche, Diode, Aurelia, Marquee, Anvil, Gravure, Frontier, Quill, Rewind, Spire, Vector, Vellum, Lustre, Hearth, Cove, Fathom, and Meridian. The same script says each family is free for personal and commercial use under SIL OFL 1.1, and that the license is embedded in the font file.\n\nThe GitHub README says the families are drawn entirely in code, with three masters and a variable font, nine static weights, and 285 characters per family. Luffixos/fontzz redirects to Nutlope/fontzz. The LICENSE file is SIL Open Font License 1.1, and its copyright line still names https://github.com/Luffixos/fontzz. GitHub API on 2026-11-12 reported the repository Nutlope/fontzz, 78 stars, a push on 2026-11-02, and license field NOASSERTION. The README does not name an MCP server.",
     "category": "typography",
     "subcategory": "font-services",
     "kinds": [
@@ -466,10 +466,10 @@
     "install": null,
     "package": null,
     "docs_url": null,
-    "repo_url": "https://github.com/Luffixos/fontzz",
+    "repo_url": "https://github.com/Nutlope/fontzz",
     "registry_url": null,
     "github": {
-      "stars": 77,
+      "stars": 78,
       "license": "OFL-1.1",
       "last_activity": "2026-11-02"
     },
@@ -481,7 +481,7 @@
       "entries": null,
       "blocks": null
     },
-    "agent_guidance": "Do not scrape the website for specimens. Its HTML body is the word fontzz. Use the repository https://github.com/Luffixos/fontzz, whose LICENSE file is SIL OFL 1.1, or the zip links the site script builds.\n\nThe README says each family has a variable font, nine static weights from 100 to 900, and 285 characters. The GitHub API license field was NOASSERTION. The LICENSE file text is the source for the OFL claim. How the fonts were generated was not in the README or on the page.",
+    "agent_guidance": "Do not scrape the website for specimens. Its HTML body is the word fontzz. Use the repository https://github.com/Nutlope/fontzz, whose LICENSE file is SIL OFL 1.1, or the zip links the site script builds. Luffixos/fontzz redirects there.\n\nThe README says each family has a variable font, nine static weights from 100 to 900, and 285 characters. The GitHub API license field was NOASSERTION. The LICENSE file text is the source for the OFL claim. How the fonts were generated was not in the README or on the page.",
     "why_it_matters": "It is a 36-family OFL catalog with the source in a public repository, even though the website itself does not render without JavaScript.",
     "quality_tier": "C",
     "tier_reason": "The page is thin. The HTML body is one word, so the family list comes from the page script and the license from the repository LICENSE file.",
@@ -496,7 +496,7 @@
     "http_status": 200,
     "verified_at": "2026-11-12",
     "source": "user",
-    "evidence": "Checked https://fontzz.vercel.app/ on 2026-11-12. HTTP 200. The meta description states thirty-six families, weights 100 to 900, and the SIL Open Font License. The body text is the word fontzz. There is no og:image. The page script names the 36 families and SIL OFL 1.1. Checked the GitHub API, LICENSE, and README for Luffixos/fontzz the same day. The LICENSE file is SIL OFL 1.1. The API reported 77 stars, a push on 2026-11-02, and license NOASSERTION. The README states 285 characters per family. Source tweets: https://x.com/nutlope/status/2117283561019515097 and https://x.com/nutlope/status/2117283563196354835. The first tweet says 36 new open source fonts and does not say how they were generated."
+    "evidence": "Checked https://fontzz.vercel.app/ on 2026-11-12. HTTP 200. The meta description states thirty-six families, weights 100 to 900, and the SIL Open Font License. The body text is the word fontzz. There is no og:image. The page script names the 36 families and SIL OFL 1.1. Checked the GitHub API, LICENSE, and README the same day. Luffixos/fontzz redirects to Nutlope/fontzz. The LICENSE file is SIL OFL 1.1 and still names the Luffixos URL in its copyright line. The API reported 78 stars, a push on 2026-11-02, and license NOASSERTION. The README states 285 characters per family. Source tweets: https://x.com/nutlope/status/2117283561019515097 and https://x.com/nutlope/status/2117283563196354835. The first tweet says 36 new open source fonts and does not say how they were generated."
   },
   {
     "id": "user:bc17a0859a168266",
