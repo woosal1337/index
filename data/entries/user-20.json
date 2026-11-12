@@ -3,10 +3,10 @@
   "id": "user:798565814c9a977a",
   "templates": [],
   "template_count": null,
-  "install": "npx skills add appllama/appllama-skills",
+  "install": "npx skills@latest add appllama/appllama-skills",
   "package": null,
   "docs_url": "https://appllama.io/llms.txt",
-  "repo_url": null,
+  "repo_url": "https://github.com/Appllama/appllama-skills",
   "registry_url": null,
   "machine_urls": [
    {
@@ -15,9 +15,9 @@
    }
   ],
   "github": {
-   "stars": null,
-   "license": null,
-   "last_activity": null
+   "stars": 5133,
+   "license": "MIT",
+   "last_activity": "2026-09-06"
   },
   "counts": {
    "icons": null,
@@ -31,13 +31,13 @@
   "surfaces": [],
   "already_enriched": false,
   "http_status": 200,
-  "verified_at": "2026-08-30",
+  "verified_at": "2026-11-12",
   "source": "user",
   "slug": "appllama",
   "url": "https://appllama.io",
   "name": "Appllama",
   "tagline": "42,400 screens from 985 top-earning iOS apps, each carrying revenue, downloads and ratings, with an MCP server behind Pro",
-  "description": "Appllama captures the App Store screen by screen. It holds more than 42,400 screens from 985 top-earning iOS apps, and new apps arrive weekly.\n\nThe context is what makes it different from a screenshot gallery. Every app carries an estimated monthly revenue, a download figure and a rating, so a pattern can be judged by what it earns rather than by how it looks. The grid shows Crazy Sounds & Voice Changer at 38 screens and 30 thousand dollars a month, Dispo at 24 screens and the same revenue band. Sorting runs on top revenue, most downloaded, recently launched, highest rated and A to Z.\n\nFour ways in: Apps, Screens tagged by flow, Flows that put onboarding and paywalls side by side, and UI Elements traced back to the app they came from. The catalogue splits into Health & Fitness at 339 apps, Lifestyle 274, Education 161, Productivity 145, Photo & Video 127, Utilities 114, Reference 94, Entertainment 92, Graphics & Design 70 and Sports 50.\n\nAn MCP server sits at mcp.appllama.io/mcp, one endpoint for every client, with setup pages for Claude, ChatGPT, Codex, Claude Code, Cursor and VS Code. There is also a skills package installed with `npx skills add appllama/appllama-skills`. Both sit inside Pro, metered at 1,500 credits a month that reset on the first.",
+  "description": "Appllama captures the App Store screen by screen. It holds more than 42,400 screens from 985 top-earning iOS apps, and new apps arrive weekly.\n\nThe context is what makes it different from a screenshot gallery. Every app carries an estimated monthly revenue, a download figure and a rating, so a pattern can be judged by what it earns rather than by how it looks. The grid shows Crazy Sounds & Voice Changer at 38 screens and 30 thousand dollars a month, Dispo at 24 screens and the same revenue band. Sorting runs on top revenue, most downloaded, recently launched, highest rated and A to Z.\n\nFour ways in: Apps, Screens tagged by flow, Flows that put onboarding and paywalls side by side, and UI Elements traced back to the app they came from. The catalogue splits into Health & Fitness at 339 apps, Lifestyle 274, Education 161, Productivity 145, Photo & Video 127, Utilities 114, Reference 94, Entertainment 92, Graphics & Design 70 and Sports 50.\n\nAn MCP server sits at mcp.appllama.io/mcp, one endpoint for every client, with setup pages for Claude, ChatGPT, Codex, Claude Code, Cursor and VS Code. There is also a skills package. On 2026-08-30 the MCP page installed it with `npx skills add appllama/appllama-skills` and said both the server and the skills sit inside Pro, metered at 1,500 credits a month that reset on the first. The screen counts in the paragraphs above are from that same check and were not replaced.\n\nChecked again on 2026-11-12, the skills live at https://github.com/Appllama/appllama-skills. The repository description is \"A builder, not just a researcher. Agent skills that turn top-grossing app patterns into native-quality mobile screens.\" The README names two skills. appllama-usage is the research engine and needs the MCP server. appllama-app-design-skill is the build bar for Expo and React Native screens, and the README says it works without the MCP connected. The README install is `npx skills@latest add appllama/appllama-skills`. The MCP page still shows the shorter `npx skills add appllama/appllama-skills`. The LICENSE file is MIT, copyright 2026 Antmind Ventures Private Limited. The README says the MIT license does not grant rights to the Appllama name, llama, or logo. That license is the skills repository. The screen catalog's license was not stated, so this record's license facet stays unknown. GitHub API reported 5,133 stars, license MIT, a push on 2026-09-06, and homepage https://appllama.io/mcp. That URL is the MCP docs page, not the server. The server is still https://mcp.appllama.io/mcp. The README says MCP access is part of Pro, credits reset on the 1st, every call spends one credit, and get_credits is free. The MCP page on the same day says \"Search 2,010+ top-grossing apps\". Its meta description says \"2019 top-grossing iOS apps\". Both strings are quoted as written.",
   "category": "inspiration-galleries",
   "subcategory": "app-screens",
   "kinds": [
@@ -65,7 +65,9 @@
     "gallery",
     "mcp-server",
     "web-app",
-    "cli"
+    "cli",
+    "github-repo",
+    "agent-skill"
    ],
    "platform": [
     "web",
@@ -83,23 +85,25 @@
     "agent-skill",
     "llms-txt",
     "structured-docs",
-    "agent-paywalled"
+    "agent-paywalled",
+    "open-source-code",
+    "cli-installable"
    ],
    "maturity": "actively-maintained"
   },
   "pricing_detail": "Free to browse. Pro covers everything else, and it is the only way to reach the MCP server and the skills. Pro is metered at 1,500 credits a month, reset on the first. No figure appears on the landing page.",
-  "agent_guidance": "Budget for Pro before you plan around the MCP server. The endpoint is https://mcp.appllama.io/mcp, and the site states plainly that it is part of Pro at 1,500 credits a month. Free browsing does not include it.\n\nInstall the skills package alongside the server: `npx skills add appllama/appllama-skills`. The site calls it the research playbooks and the design bar, so it carries the method and not only the data.\n\nFilter on revenue, not on looks. Every app carries an estimated monthly revenue, a download count and a rating, which is the whole point: a paywall that earns is a better reference than a paywall that is pretty.\n\nUse the Flows view for a sequence and the UI Elements view for one component. Flows put onboarding and paywalls side by side, and elements are traced back to the app they came from.\n\nRead /llms.txt first. It names all four browse routes, the MCP page and a public-works page of open-source projects.",
+  "agent_guidance": "Budget for Pro before you plan around the MCP server. The endpoint is https://mcp.appllama.io/mcp. The README checked on 2026-11-12 says MCP access is part of Pro, credits reset on the 1st, every call spends one credit, and get_credits is free. The August 30 page said 1,500 credits a month. Free browsing does not include the server.\n\nInstall the skills with `npx skills@latest add appllama/appllama-skills`. The MCP page still shows `npx skills add appllama/appllama-skills`. appllama-usage needs the MCP server. appllama-app-design-skill works without it. The skills repository is MIT. The screen catalog is not covered by that license, and the README does not grant trademark rights to the Appllama name, llama, or logo.\n\nFilter on revenue, not on looks. The August 30 homepage put an estimated monthly revenue, a download count, and a rating on each app. The November 12 MCP page says \"Search 2,010+ top-grossing apps\" and its meta description says \"2019 top-grossing iOS apps\". Keep the dated figure you are citing.\n\nUse the Flows view for a sequence and the UI Elements view for one component. Read /llms.txt first. It names the browse routes, the MCP page, and a public-works page.",
   "why_it_matters": "Screenshot galleries show what an app looks like. This one attaches the revenue, so a designer can argue that a pattern works from evidence rather than from taste.",
   "quality_tier": "A",
   "tier_reason": "Real depth at 42,400 screens across 985 apps, and the revenue, download and rating figures beside each one make it a dataset rather than a mood board. The agent surface is strong: an MCP server on one endpoint, per-client setup for six clients, a skills package and a written llms.txt. Held below S because every part of that surface sits behind Pro and a credit meter, no price appears on the landing page, and the revenue figures are estimates the site does not source.",
   "notable_for": [
-   "42,400 screens from 985 iOS apps",
+   "42,400 screens from 985 iOS apps, counted 2026-08-30",
    "revenue, downloads and ratings on each app",
-   "MCP server on one endpoint for six clients",
-   "skills package via npx skills add",
-   "flows put onboarding and paywalls side by side"
+   "MCP at mcp.appllama.io/mcp, part of Pro",
+   "two skills in Appllama/appllama-skills, MIT",
+   "MCP page on 2026-11-12 says 2,010+ apps"
   ],
-  "evidence": "https://appllama.io/ 200, 501 KB; title \"Appllama — UI & UX design inspiration from top-earning iOS apps\"; the hero reads \"Discover the designs that win. Every onboarding, paywall and flow — 42,400+ screens from 980+ top-earning iOS apps. New apps weekly\"; the navigation holds Apps, Explore, Pricing, Screens, Flows, UI Elements and MCP; the category counts read All 985, Health & Fitness 339, Lifestyle 274, Education 161, Productivity 145, Photo & Video 127, Utilities 114, Reference 94, Entertainment 92, Graphics & Design 70 and Sports 50; sort options are Recently added, Top revenue, Most downloaded, Recently launched, Highest rated and A → Z; sample cards read \"Crazy Sounds & Voice Changer — Entertainment — 38 screens — $30K/mo est. revenue — 4.6 · 1K\" and \"Dispo: Retro Disposable Camera — Photo & Video — 24 screens — $30K/mo est. revenue — 4.3 · 7K\". https://appllama.io/mcp 200, 381 KB, titled \"Try the MCP\": \"Your agent searches real apps, opens real screens, and builds from what it finds\", \"Appllama MCP is part of Pro — 1,500 credits a month, reset on the 1st\", client tabs for Claude, ChatGPT, Codex, Claude Code, Cursor and VS Code, the server URL https://mcp.appllama.io/mcp described as \"One endpoint — it works in every client\", and the command `npx skills add appllama/appllama-skills` described as \"The research playbooks and the design bar, in one command\". https://appllama.io/llms.txt 200 and it names /screens, /flows, /elements, /mcp, /pricing and /public-works. /sitemap.xml 200. The corpus already holds loader-buttons.appllama.io as appllama-loader-buttons, which is one single-page motion study and not this catalogue."
+  "evidence": "Checked 2026-08-30: https://appllama.io/ returned HTTP 200. The hero read \"42,400+ screens from 980+ top-earning iOS apps\" and the category list summed to 985 apps. https://appllama.io/mcp returned HTTP 200 and said Pro is 1,500 credits a month, reset on the 1st, with the server at https://mcp.appllama.io/mcp and the command `npx skills add appllama/appllama-skills`. https://appllama.io/llms.txt returned HTTP 200. Rechecked 2026-11-12: the MCP page still shows that shorter install command, the line \"Search 2,010+ top-grossing apps\", and a meta description that says \"2019 top-grossing iOS apps\". The README and LICENSE at https://github.com/Appllama/appllama-skills name appllama-usage and appllama-app-design-skill, the `npx skills@latest` install, the credit rule, and the MIT text with the trademark line. GitHub API the same day reported 5,133 stars, license MIT, a push on 2026-09-06, homepage https://appllama.io/mcp, and the description quoted in this record. The August screen counts were not replaced. Source tweets: https://x.com/jaimintf/status/2117662278686499104 and https://x.com/jaimintf/status/2115866007868936600. The corpus already holds loader-buttons.appllama.io as appllama-loader-buttons."
  },
  {
   "id": "user:d8176010ae5ec110",

@@ -484,7 +484,7 @@
     "url": "https://github.com/emilkowalski/skills",
     "name": "Emil Kowalski skills",
     "tagline": "MIT agent skills for interface craft, including apple-design",
-    "description": "emilkowalski/skills is a set of agent skills by Emil Kowalski. The README title is \"Skills For Designers and Engineers\". It says the skills come from his work at Vercel and Linear, and that they list mistakes agents make in animation and interface design. The install command is npx skills@latest add emilkowalski/skills.\n\nThe README lists 15 skills: emil-design-eng, animate, animate-expo, review-animations, improve-animations, find-animation-opportunities, animation-performance, animation-vocabulary, apple-design, write-swift, pick-ui-library, prototype, mobile-native, break-ui, and ask-sonner. apple-design is described as Apple's interface and motion principles translated for the web. write-swift is a Swift skill, not a UI skill. The LICENSE file is MIT, copyright 2026 Emil Kowalski. GitHub API reported 49,571 stars, 2,884 forks, and a push on 2026-10-11.",
+    "description": "emilkowalski/skills is a set of agent skills by Emil Kowalski. The README title is \"Skills For Designers and Engineers\". It says the skills are based on his years at companies like Vercel and Linear, and that they list the small mistakes agents make and how to fix them. The install command is npx skills@latest add emilkowalski/skills. The repository homepage field is https://aiforui.dev/skills.\n\nChecked again on 2026-11-12, the README lists 18 skills, in this order: emil-design-eng, animate, animate-expo, review-animations, improve-animations, find-animation-opportunities, remove-animations, choreograph, animation-performance, animation-vocabulary, apple-design, gestures, pick-ui-library, prototype, mobile-native, break-ui, learn-taste, and ask-sonner. write-swift is no longer in the list. The names that were not in the October 25 list are gestures, remove-animations, choreograph, and learn-taste. The gestures line says: \"Build drag, swipe, and sheet interactions that track the finger 1:1, carry the speed of the release, and can be caught mid-animation\". learn-taste collects design corrections from a session into DESIGN.md. apple-design is described as Apple's interface and motion principles translated for the web. The LICENSE file is MIT, copyright 2026 Emil Kowalski. GitHub API on 2026-11-12 reported 56,302 stars, 3,290 forks, and a push the same day.",
     "category": "agent-design-tooling",
     "subcategory": "agent-skills",
     "kinds": [
@@ -533,37 +533,38 @@
     "template_count": null,
     "install": "npx skills@latest add emilkowalski/skills",
     "package": null,
-    "docs_url": null,
+    "docs_url": "https://aiforui.dev/skills",
     "repo_url": "https://github.com/emilkowalski/skills",
     "registry_url": null,
     "github": {
-      "stars": 49571,
+      "stars": 56302,
       "license": "MIT",
-      "last_activity": "2026-10-11"
+      "last_activity": "2026-11-12"
     },
     "pricing_detail": null,
     "counts": {
       "icons": null,
       "fonts": null,
       "palettes": null,
-      "entries": 15,
+      "entries": 18,
       "blocks": null
     },
-    "agent_guidance": "Install with npx skills@latest add emilkowalski/skills. Load the skill that matches the job. apple-design is the one the README describes as Apple's interface principles for the web. animate and review-animations are the motion pair. write-swift is for Swift, not for CSS.\n\nThe license is MIT. The star count below is the GitHub API figure from 2026-10-25. The skills directory listing returned HTTP 403, so the count of 15 is the README list, not a directory listing.",
+    "agent_guidance": "Install with npx skills@latest add emilkowalski/skills. Load the skill that matches the job. apple-design is the one the README describes as Apple's interface principles for the web. animate and review-animations are the motion pair. gestures is the drag, swipe, and sheet skill. remove-animations and choreograph are in the same list. learn-taste runs at the end of a session and writes corrections into DESIGN.md.\n\nwrite-swift was in the October 25 README and is not in the November 12 list. Do not install it from this repository. The license is MIT. The star count is the GitHub API figure from 2026-11-12, 56,302 stars and 3,290 forks. The count of 18 is the README list.",
     "why_it_matters": "It puts a working designer's animation and interface rules into skill files an agent can install.",
     "quality_tier": "A",
-    "tier_reason": "MIT, a specific install command, 15 skills named in the README, and a push on 2026-10-11. The star count is the API figure.",
+    "tier_reason": "MIT, a specific install command, 18 skills named in the November 12 README, and a push the same day. The star count is the API figure from that check.",
     "notable_for": [
-      "15 skills in the README",
+      "18 skills in the README",
+      "gestures, remove-animations, choreograph, and learn-taste added",
+      "write-swift removed",
       "apple-design",
-      "MIT",
-      "npx skills add emilkowalski/skills"
+      "MIT"
     ],
     "already_enriched": true,
     "http_status": 200,
-    "verified_at": "2026-10-25",
+    "verified_at": "2026-11-12",
     "source": "user",
-    "evidence": "Checked the GitHub API, raw README, and raw LICENSE for emilkowalski/skills on 2026-10-25. The LICENSE file is MIT. The README states the install command and lists the 15 skills named in this record. GitHub API reported 49,571 stars, 2,884 forks, and a push on 2026-10-11. The contents API for /skills returned HTTP 403. Source tweet: https://x.com/emilkowalski/status/2075188252877672732."
+    "evidence": "Rechecked the GitHub API and the raw README for emilkowalski/skills on 2026-11-12. The README lists the 18 skills named in this record, including learn-taste, and no longer lists write-swift. The gestures description is quoted from that README. The install command is unchanged. GitHub API reported license MIT, 56,302 stars, 3,290 forks, a push on 2026-11-12, and homepage https://aiforui.dev/skills. The October 25 check is the previous text of this record. Source tweet: https://x.com/emilkowalski/status/2119406396160540738."
   },
   {
     "id": "user:be406f2889b9d69e",
