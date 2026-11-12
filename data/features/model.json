@@ -118282,27 +118282,12 @@
   "facet_evidence": {}
  },
  "f252fbae-db35-4780-bcbf-90aa38270965": {
-  "summary": "Typeface family from Vercel with Geist Sans, Geist Mono, and Geist Pixel (five variants), each in nine weights as OTF, WOFF2, and variable files. Installs with the geist npm package for Next.js, from Google Fonts, or as a zip. SIL Open Font License.",
+  "summary": "Geist is Vercel's OFL family: Sans, Serif, Mono, and Pixel, installed with npm i geist. Serif shipped on October 30, 2026 as one Regular weight. The blog counts 894 glyphs and the font page counts 854.",
   "aliases": [
    {
     "value": "vercel/geist-font",
-    "quote": "GitHub repository vercel/geist-font",
+    "quote": "GitHub repository vercel/geist-font, license OFL-1.1",
     "source": "facts"
-   },
-   {
-    "value": "Geist Sans",
-    "quote": "Geist Sans, Geist Mono & Geist Pixel",
-    "source": "readme"
-   },
-   {
-    "value": "Geist Mono",
-    "quote": "Geist Sans, Geist Mono & Geist Pixel",
-    "source": "readme"
-   },
-   {
-    "value": "Geist Pixel",
-    "quote": "Geist Sans, Geist Mono & Geist Pixel",
-    "source": "readme"
    }
   ],
   "components": [],
@@ -118323,96 +118308,72 @@
   "profile": {
    "classification": [
     "sans",
+    "serif",
     "mono",
     "display"
    ],
    "variable": true,
-   "weights": 9,
-   "license_scope": [
-    "desktop",
-    "web",
-    "commercial"
+   "scripts": [
+    "latin",
+    "cyrillic"
    ]
   },
   "profile_evidence": [
    {
     "field": "classification",
-    "quote": "Geist Sans is a sans-serif typeface",
-    "source": "readme"
+    "quote": "Sans, Serif, Mono, and Pixel",
+    "source": "record"
    },
    {
     "field": "classification",
-    "quote": "Geist Mono is a monospaced typeface",
-    "source": "readme"
-   },
-   {
-    "field": "classification",
-    "quote": "Conceived as a display font",
-    "source": "readme"
+    "quote": "Geist Pixel is a display face",
+    "source": "record"
    },
    {
     "field": "variable",
-    "quote": "static OTF, WOFF2, and variable files",
-    "source": "record"
+    "quote": "variable-fonts",
+    "source": "facts"
    },
    {
-    "field": "weights",
-    "quote": "each in nine weights from Thin to Ultra Black",
-    "source": "record"
-   },
-   {
-    "field": "license_scope",
-    "quote": "install the fonts on your system",
-    "source": "readme"
-   },
-   {
-    "field": "license_scope",
-    "quote": "Use it on your sites and projects",
+    "field": "scripts",
+    "quote": "Latin languages Б Cyrillic languages",
     "source": "page"
-   },
-   {
-    "field": "license_scope",
-    "quote": "free commercially",
-    "source": "record"
    }
   ],
   "use_cases": [
-   "set Geist Sans as the body font in a Next.js app",
-   "use Geist Mono for code blocks and terminals",
-   "add a pixel display font for headlines",
-   "self-host a variable sans and mono font pairing",
-   "install a font from the npm package or a zip download"
+   "install Geist Sans and Mono in a Next.js app",
+   "use Geist Serif Regular and its ELSH variants",
+   "take the npm package instead of the partial Google Fonts set"
   ],
   "not_for": [
-   "not a component library or UI kit",
-   "Geist Pixel is a display font, not for body copy"
+   "not a nine-weight variable serif",
+   "do not quote one glyph count for Serif"
   ],
   "queries": [
-   "Geist font npm install",
-   "Geist Sans and Geist Mono for Next.js",
-   "import GeistSans from geist/font/sans",
-   "pixel font family with five variants",
-   "open source monospace font for code blocks",
-   "Vercel typeface download zip OTF WOFF2",
-   "Geist Pixel on Google Fonts with ELSH axis",
-   "free variable sans font with nine weights",
-   "sans and mono font pairing licensed under OFL"
+   "Geist Serif one Regular weight OFL",
+   "npm i geist serif import",
+   "Geist Sans Mono Pixel and Serif",
+   "Geist Serif 894 or 854 glyphs",
+   "OFL font family from Vercel",
+   "Geist Pixel display variants",
+   "Geist Serif ELSH square triangle heart",
+   "variable fonts topic on vercel/geist-font"
   ],
-  "notes": "Current framework values (next, react, vanilla) conflict with the typography rule that framework never applies, so framework is not-applicable.",
+  "notes": "The October 30, 2026 announcement counts 894 Serif glyphs. The font page table counts 854. Serif's Thin-to-Black axis is not shipped.",
   "model": "claude-sonnet-5-5",
-  "checked": "2026-10-24",
+  "checked": "2026-11-12",
   "facet_evidence": {
    "license": [
     {
      "value": "ofl",
-     "quote": "licensed under the SIL Open Font License, Version 1.1",
-     "source": "readme"
+     "quote": "license OFL-1.1",
+     "source": "facts"
     }
    ],
    "pricing": [
     {
      "value": "free",
-     "quote": "OFL, free commercially",
+     "quote": "SIL Open Font License",
      "source": "record"
     },
     {
@@ -121229,6 +121190,100 @@
    ]
   }
  },
+ "user:03c8f3f5d583c0b6": {
+  "summary": "Blueprint builds a generative design tool from a description, with presets and export. Free is 20 credits once. Paid plans add publishing and MCP at blueprint.page/api/mcp.",
+  "aliases": [],
+  "components": [],
+  "surfaces": [],
+  "facets": {
+   "framework": "not-applicable",
+   "styling": "not-applicable",
+   "license": "unknown",
+   "pricing": [
+    "free",
+    "freemium",
+    "subscription",
+    "one-time"
+   ]
+  },
+  "built_on": [],
+  "scope": "core-design",
+  "profile": {
+   "protocol": [
+    "mcp",
+    "web-app"
+   ],
+   "clients": [
+    "claude-code",
+    "codex",
+    "cursor"
+   ],
+   "auth_required": true
+  },
+  "profile_evidence": [
+   {
+    "field": "protocol",
+    "quote": "The connector URL is https://blueprint.page/api/mcp",
+    "source": "record"
+   },
+   {
+    "field": "clients",
+    "quote": "token in Settings for Claude Code, Codex, or Cursor",
+    "source": "record"
+   },
+   {
+    "field": "auth_required",
+    "quote": "create a token in Settings",
+    "source": "record"
+   }
+  ],
+  "use_cases": [
+   "describe a halftone or dither tool and get a generator",
+   "export PNG or SVG on the free credits",
+   "connect a paid plan MCP server to Cursor"
+  ],
+  "not_for": [
+   "not free to publish or share with a client",
+   "the application license is not stated"
+  ],
+  "queries": [
+   "build a halftone generator from a description",
+   "Blueprint MCP for paid plans",
+   "20 free credits generative design tool",
+   "Solo $19 a month design tool builder",
+   "dither tool with presets and export",
+   "blueprint.page API MCP connector",
+   "extra credits for a generative tool",
+   "client sharing on Studio and Agency"
+  ],
+  "notes": "The slug blueprint is already used, so this record is blueprint-page.",
+  "model": "claude-sonnet-5-5",
+  "checked": "2026-11-12",
+  "facet_evidence": {
+   "pricing": [
+    {
+     "value": "free",
+     "quote": "The free plan is 20 credits",
+     "source": "record"
+    },
+    {
+     "value": "freemium",
+     "quote": "Paid plans, in US dollars, are Solo",
+     "source": "record"
+    },
+    {
+     "value": "subscription",
+     "quote": "Solo at $19 a month",
+     "source": "record"
+    },
+    {
+     "value": "one-time",
+     "quote": "50 credits for $7",
+     "source": "record"
+    }
+   ]
+  }
+ },
  "user:03dab2458438641d": {
   "summary": "Personal portfolio of Ozzy, a frontend engineer turned design engineer, most recently at soft machine. Now building micro-interactions for React. Links to inspiration, writing, X and GitHub.",
   "aliases": [],
@@ -123269,6 +123324,123 @@
      "value": "open-source",
      "quote": "is an open-source library of tactile",
      "source": "readme"
+    }
+   ]
+  }
+ },
+ "user:08357e97071f5f3c": {
+  "summary": "snapcn is a shadcn registry of Remotion components for React video. The footer splits 61 MIT components from 81 Pro. Pro is $179 a year. The public registry listed 146 items.",
+  "aliases": [
+   {
+    "value": "shadcn-labs/snapcn",
+    "quote": "GitHub repository shadcn-labs/snapcn, license MIT",
+    "source": "facts"
+   }
+  ],
+  "components": [],
+  "surfaces": [],
+  "facets": {
+   "framework": [
+    "react"
+   ],
+   "styling": "unknown",
+   "license": [
+    "mit",
+    "commercial"
+   ],
+   "pricing": [
+    "free",
+    "open-source",
+    "freemium",
+    "subscription",
+    "one-time"
+   ]
+  },
+  "built_on": [
+   {
+    "value": "shadcn",
+    "quote": "shadcn registry of Remotion components",
+    "source": "record"
+   }
+  ],
+  "scope": "core-design",
+  "profile": {
+   "paid_items": true
+  },
+  "profile_evidence": [
+   {
+    "field": "paid_items",
+    "quote": "81 are Pro",
+    "source": "record"
+   }
+  ],
+  "use_cases": [
+   "add a Remotion text animation with the shadcn CLI",
+   "install a free MIT shot into a Remotion project",
+   "compare the free MIT set with Pro"
+  ],
+  "not_for": [
+   "not all MIT, despite the homepage FAQ",
+   "a Tailwind version is not stated"
+  ],
+  "queries": [
+   "shadcn registry of Remotion video components",
+   "snapcn free MIT components and Pro",
+   "Pro $179 a year Remotion components",
+   "npx shadcn add a snapcn text reveal",
+   "Remotion captions and device mockups",
+   "146 items in the snapcn registry",
+   "Lifetime $279 snapcn",
+   "install Remotion components as source"
+  ],
+  "notes": "The homepage FAQ says there is no paid tier. The pricing page and the footer contradict that.",
+  "model": "claude-sonnet-5-5",
+  "checked": "2026-11-12",
+  "facet_evidence": {
+   "framework": [
+    {
+     "value": "react",
+     "quote": "Remotion components for React video",
+     "source": "record"
+    }
+   ],
+   "license": [
+    {
+     "value": "mit",
+     "quote": "61 components are MIT licensed",
+     "source": "record"
+    },
+    {
+     "value": "commercial",
+     "quote": "Pro is $179 a year",
+     "source": "record"
+    }
+   ],
+   "pricing": [
+    {
+     "value": "free",
+     "quote": "the free plan includes all 61 free components",
+     "source": "record"
+    },
+    {
+     "value": "open-source",
+     "quote": "license MIT",
+     "source": "facts"
+    },
+    {
+     "value": "freemium",
+     "quote": "61 components are MIT licensed and 81 are Pro",
+     "source": "record"
+    },
+    {
+     "value": "subscription",
+     "quote": "Pro is $179 a year",
+     "source": "record"
+    },
+    {
+     "value": "one-time",
+     "quote": "Lifetime is $279 once",
+     "source": "record"
     }
    ]
   }
@@ -125926,6 +126098,92 @@
      "value": "open-source",
      "quote": "PanelUI is an open-source React Native UI component library",
      "source": "readme"
+    }
+   ]
+  }
+ },
+ "user:0e3bc5df32fdce06": {
+  "summary": "Obel Mono is a free SIL OFL monospace, version 1.003, variable from 100 to 900, Roman and Italic. Obel Mono Masked hides recognized API keys on screen.",
+  "aliases": [
+   {
+    "value": "Obel Mono Masked",
+    "quote": "Use Obel Mono Masked, feature ss01",
+    "source": "record"
+   }
+  ],
+  "components": [],
+  "surfaces": [],
+  "facets": {
+   "framework": "not-applicable",
+   "styling": "not-applicable",
+   "license": [
+    "ofl"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ]
+  },
+  "built_on": [],
+  "scope": "core-design",
+  "profile": {
+   "classification": [
+    "mono"
+   ],
+   "variable": true
+  },
+  "profile_evidence": [
+   {
+    "field": "classification",
+    "quote": "Variable monospace",
+    "source": "page"
+   },
+   {
+    "field": "variable",
+    "quote": "Variable monospace ( 100 — 900 )",
+    "source": "page"
+   }
+  ],
+  "use_cases": [
+   "set a free monospace for a terminal or editor",
+   "mask recognized API keys on screen with ss01",
+   "ship Roman and Italic variable weights"
+  ],
+  "not_for": [
+   "not a security boundary for secrets",
+   "not a hosted font service"
+  ],
+  "queries": [
+   "free OFL monospace that hides API keys",
+   "Obel Mono Masked ss01",
+   "variable monospace 100 to 900 Roman and Italic",
+   "SIL OFL font for terminals and editors",
+   "download Obel Mono TTF OTF WOFF2",
+   "monospace that shows keys as dots",
+   "Obel Mono version 1.003",
+   "free coding font with a masked variant"
+  ],
+  "notes": "The page does not link a source repository.",
+  "model": "claude-sonnet-5-5",
+  "checked": "2026-11-12",
+  "facet_evidence": {
+   "license": [
+    {
+     "value": "ofl",
+     "quote": "SIL OFL 1.1",
+     "source": "page"
+    }
+   ],
+   "pricing": [
+    {
+     "value": "free",
+     "quote": "Free, for anything you make",
+     "source": "record"
+    },
+    {
+     "value": "open-source",
+     "quote": "SIL OFL 1.1",
+     "source": "page"
     }
    ]
   }
@@ -142683,6 +142941,187 @@
    ]
   }
  },
+ "user:4f60ab6e543d8448": {
+  "summary": "dithercn is an MIT dither engine and agent skill for shadcn projects on Tailwind CSS v4 and React 19. The site says 63 example components. The registry file lists 69 items.",
+  "aliases": [
+   {
+    "value": "opencoredev/dithercn",
+    "quote": "GitHub repository opencoredev/dithercn, license MIT",
+    "source": "facts"
+   }
+  ],
+  "components": [
+   {
+    "slug": "area-chart",
+    "quote": "area-chart (Area chart)",
+    "source": "items"
+   },
+   {
+    "slug": "avatar",
+    "quote": "avatar (Avatar)",
+    "source": "items"
+   },
+   {
+    "slug": "bar-chart",
+    "quote": "bar-chart (Bar chart)",
+    "source": "items"
+   },
+   {
+    "slug": "button",
+    "quote": "dither-button (Dither button)",
+    "source": "items"
+   },
+   {
+    "slug": "empty-state",
+    "quote": "empty-state (Empty state)",
+    "source": "items"
+   },
+   {
+    "slug": "gauge-chart",
+    "quote": "gauge (Gauge)",
+    "source": "items"
+   },
+   {
+    "slug": "heatmap",
+    "quote": "heatmap (Heatmap)",
+    "source": "items"
+   },
+   {
+    "slug": "line-chart",
+    "quote": "line-chart (Line chart)",
+    "source": "items"
+   },
+   {
+    "slug": "progress-bar",
+    "quote": "progress-bar (Progress bar)",
+    "source": "items"
+   },
+   {
+    "slug": "radar-chart",
+    "quote": "radar-chart (Radar chart)",
+    "source": "items"
+   },
+   {
+    "slug": "skeleton",
+    "quote": "skeleton (Skeleton)",
+    "source": "items"
+   },
+   {
+    "slug": "sparkline",
+    "quote": "sparkline (Sparkline)",
+    "source": "items"
+   },
+   {
+    "slug": "stat",
+    "quote": "stat-card (Stat card)",
+    "source": "items"
+   }
+  ],
+  "surfaces": [],
+  "facets": {
+   "framework": [
+    "react"
+   ],
+   "styling": [
+    "tailwind-v4"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ]
+  },
+  "built_on": [
+   {
+    "value": "shadcn",
+    "quote": "shadcn/ui, Tailwind CSS v4",
+    "source": "readme"
+   },
+   {
+    "value": "tailwind",
+    "quote": "Tailwind CSS v4",
+    "source": "readme"
+   }
+  ],
+  "scope": "core-design",
+  "profile": {
+   "theming": [
+    "css-variables"
+   ],
+   "paid_items": false
+  },
+  "profile_evidence": [
+   {
+    "field": "theming",
+    "quote": "the `--dither-*` CSS variables",
+    "source": "readme"
+   },
+   {
+    "field": "paid_items",
+    "quote": "license MIT",
+    "source": "facts"
+   }
+  ],
+  "use_cases": [
+   "add a dithered chart in a shadcn theme",
+   "install the engine and the skill together",
+   "read llms.txt before asking for a new dither"
+  ],
+  "not_for": [
+   "not the 52 count from the older post",
+   "not only the 63 examples; the registry has more items"
+  ],
+  "queries": [
+   "dither engine and skill for shadcn",
+   "Tailwind v4 React 19 dither components",
+   "MIT dither backgrounds and charts",
+   "install dithercn with the shadcn CLI",
+   "63 dither examples for shadcn",
+   "read dithercn llms.txt first",
+   "Bayer and blue noise in a shadcn theme",
+   "agent skill that builds a dither"
+  ],
+  "notes": "The site says 63 components. registry.json has 69 items, and the installable set counted here is 66.",
+  "model": "claude-sonnet-5-5",
+  "checked": "2026-11-12",
+  "facet_evidence": {
+   "framework": [
+    {
+     "value": "react",
+     "quote": "Tailwind CSS v4 and React 19",
+     "source": "readme"
+    }
+   ],
+   "styling": [
+    {
+     "value": "tailwind-v4",
+     "quote": "Tailwind CSS v4 and React 19",
+     "source": "readme"
+    }
+   ],
+   "license": [
+    {
+     "value": "mit",
+     "quote": "license MIT",
+     "source": "facts"
+    }
+   ],
+   "pricing": [
+    {
+     "value": "free",
+     "quote": "license MIT",
+     "source": "facts"
+    },
+    {
+     "value": "open-source",
+     "quote": "GitHub repository opencoredev/dithercn",
+     "source": "facts"
+    }
+   ]
+  }
+ },
  "user:4fd50552892d82f4": {
   "summary": "Curated catalogue of 25 open-source typefaces including Inter, Roboto, Poppins and EB Garamond. Each font page gives a written specimen, classification, exact licence, designer and every weight.",
   "aliases": [],
@@ -145304,6 +145743,107 @@
   "checked": "2026-10-24",
   "facet_evidence": {}
  },
+ "user:5be439b569e23121": {
+  "summary": "fontzz is 36 code-drawn families, weights 100 to 900, free under the OFL. The website body is one word. The repository README describes a Python generator and a variable font.",
+  "aliases": [
+   {
+    "value": "Nutlope/fontzz",
+    "quote": "git clone https://github.com/Nutlope/fontzz.git",
+    "source": "readme"
+   }
+  ],
+  "components": [],
+  "surfaces": [],
+  "facets": {
+   "framework": "not-applicable",
+   "styling": "not-applicable",
+   "license": [
+    "ofl"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ]
+  },
+  "built_on": [],
+  "scope": "core-design",
+  "profile": {
+   "variable": true,
+   "weights": 9,
+   "scripts": [
+    "latin",
+    "latin-extended"
+   ],
+   "license_scope": [
+    "commercial"
+   ]
+  },
+  "profile_evidence": [
+   {
+    "field": "variable",
+    "quote": "fontmake builds the variable font",
+    "source": "readme"
+   },
+   {
+    "field": "weights",
+    "quote": "the nine static weights",
+    "source": "readme"
+   },
+   {
+    "field": "scripts",
+    "quote": "Latin-1, Latin Extended-A subset",
+    "source": "readme"
+   },
+   {
+    "field": "license_scope",
+    "quote": "free for personal and commercial use",
+    "source": "record"
+   }
+  ],
+  "use_cases": [
+   "pick one of 36 OFL families for a UI",
+   "download the variable and static fonts from the repository",
+   "read the Python generator instead of the thin website"
+  ],
+  "not_for": [
+   "not a page an agent can scrape for specimens",
+   "not a named model release"
+  ],
+  "queries": [
+   "36 OFL fonts drawn in code",
+   "fontzz variable fonts weights 100 to 900",
+   "Nutlope fontzz Python generator",
+   "thin font site with an OFL repository",
+   "nine static weights and a variable font",
+   "285 characters per fontzz family",
+   "free commercial fonts under the OFL",
+   "fontzz website body is one word"
+  ],
+  "notes": "GitHub's license field is NOASSERTION. The LICENSE file is SIL OFL 1.1. The README names a Python generator, not a model.",
+  "model": "claude-sonnet-5-5",
+  "checked": "2026-11-12",
+  "facet_evidence": {
+   "license": [
+    {
+     "value": "ofl",
+     "quote": "free under the OFL",
+     "source": "readme"
+    }
+   ],
+   "pricing": [
+    {
+     "value": "free",
+     "quote": "free under the OFL",
+     "source": "readme"
+    },
+    {
+     "value": "open-source",
+     "quote": "GitHub repository Nutlope/fontzz",
+     "source": "facts"
+    }
+   ]
+  }
+ },
  "user:5c3493f69db80b43": {
   "summary": "Portfolio of Nexvyn, a design engineer who works between design and code. Lists projects including the runeicons icon set, the nexvyn/ui component library, rynix studio, and kudos, and shows the owner as open to work.",
   "aliases": [],
@@ -146683,47 +147223,12 @@
   }
  },
  "user:636ca63c3f7867dc": {
-  "summary": "Fifteen MIT-licensed agent skills by Emil Kowalski for building user interfaces: creating, reviewing and speeding up animations, Apple design principles for the web, mobile-native fixes, and UI library choice. Installed with npx skills@latest add emilkowalski/skills.",
+  "summary": "Emil Kowalski's MIT skills cover interface and animation decisions. The November 12 README lists 18 skills, including gestures, remove-animations, choreograph, and learn-taste. write-swift is gone.",
   "aliases": [
    {
-    "value": "emil-design-eng",
-    "quote": "The README lists 15 skills: emil-design-eng",
+    "value": "learn-taste",
+    "quote": "gestures, remove-animations, choreograph, and learn-taste",
     "source": "record"
-   },
-   {
-    "value": "apple-design",
-    "quote": "apple-design is described as Apple's interface and motion principles translated for the web",
-    "source": "record"
-   },
-   {
-    "value": "review-animations",
-    "quote": "animate and review-animations are the motion pair",
-    "source": "record"
-   },
-   {
-    "value": "improve-animations",
-    "quote": "improve-animations — Audit all the animations in your codebase",
-    "source": "page"
-   },
-   {
-    "value": "find-animation-opportunities",
-    "quote": "find-animation-opportunities — Search your UI for places that would genuinely benefit from motion",
-    "source": "page"
-   },
-   {
-    "value": "animation-performance",
-    "quote": "animation-performance — Fix animations that drop frames",
-    "source": "page"
-   },
-   {
-    "value": "pick-ui-library",
-    "quote": "pick-ui-library — Have your agent pick the right library for the task",
-    "source": "page"
-   },
-   {
-    "value": "break-ui",
-    "quote": "break-ui — Try to break the UI you built with worst-case data",
-    "source": "page"
    }
   ],
   "components": [],
@@ -146743,65 +147248,72 @@
   "scope": "core-design",
   "profile": {
    "protocol": [
-    "agent-skill"
+    "agent-skill",
+    "cli"
+   ],
+   "clients": [
+    "claude-code",
+    "codex",
+    "cursor"
    ]
   },
   "profile_evidence": [
    {
     "field": "protocol",
-    "quote": "emilkowalski/skills is a set of agent skills by Emil Kowalski",
+    "quote": "npx skills@latest add emilkowalski/skills",
+    "source": "readme"
+   },
+   {
+    "field": "protocol",
+    "quote": "a set of agent skills by Emil Kowalski",
     "source": "record"
+   },
+   {
+    "field": "clients",
+    "quote": "claude-code, codex, cursor",
+    "source": "facts"
    }
   ],
   "use_cases": [
-   "build an animation from scratch with the right curve, duration and properties",
-   "review existing animations against strict rules",
-   "audit a codebase for animations to improve and get prioritized plans",
-   "fix animations that drop frames",
-   "make a web app feel native on a phone",
-   "stress-test a UI with long names, empty lists and huge counts",
-   "have an agent pick a UI library instead of hand-rolling a toast"
+   "install the animation and interface skills",
+   "use gestures for drag, swipe, and sheets",
+   "write session corrections with learn-taste"
   ],
   "not_for": [
-   "not a component library; skill files that instruct an agent, with no UI components",
-   "write-swift is for Swift, not for CSS or web UI",
-   "not the Sonner toast library; ask-sonner is only a guide to it"
+   "not the removed write-swift skill",
+   "not a component library"
   ],
   "queries": [
-   "agent skill for animation easing and duration",
-   "Emil Kowalski skills install npx",
-   "skill to review animations in my codebase",
-   "agent skill that applies Apple design principles to the web",
-   "agent skill to fix animation performance dropping frames",
-   "agent skill for React Native Expo animations gestures sheets haptics",
-   "skill to make a web app feel native on mobile 100vh bug",
-   "agent skill to test a UI with long names and empty lists",
-   "emil-design-eng skill",
-   "agent skill that tells me what not to animate",
-   "agent skill for writing modern Swift with Swift 6 concurrency",
-   "agent skill to pick the right UI library instead of hand-rolling"
+   "Emil Kowalski agent skills for animation",
+   "npx skills add emilkowalski/skills",
+   "18 design skills including learn-taste",
+   "gestures skill drag swipe and sheet",
+   "apple-design skill for the web",
+   "MIT skills from Vercel and Linear experience",
+   "remove-animations and choreograph skills",
+   "write-swift removed from emilkowalski/skills"
   ],
-  "notes": "The star count is 49,571 in the record and 51001 in the facts, and framework stays not-applicable because the skills are instruction files although animate-expo targets React Native and Expo.",
+  "notes": "The README on November 12 lists 18 skills. An earlier pass the same day had counted 17, before learn-taste.",
   "model": "claude-sonnet-5-5",
-  "checked": "2026-10-28",
+  "checked": "2026-11-12",
   "facet_evidence": {
    "license": [
     {
      "value": "mit",
-     "quote": "GitHub repository emilkowalski/skills, license MIT",
+     "quote": "license MIT",
      "source": "facts"
     }
    ],
    "pricing": [
     {
      "value": "free",
-     "quote": "Readme MIT license",
-     "source": "page"
+     "quote": "license MIT",
+     "source": "facts"
     },
     {
      "value": "open-source",
-     "quote": "skills Public Notifications",
-     "source": "page"
+     "quote": "GitHub repository emilkowalski/skills",
+     "source": "facts"
     }
    ]
   }
@@ -151258,6 +151770,130 @@
   "checked": "2026-10-24",
   "facet_evidence": {}
  },
+ "user:745133587609c14c": {
+  "summary": "CUI is an immediate-mode C99 UI library. The site and README say about 210 components, no dependencies, and MIT. A complete app is about 250 KB, including on the web through WebAssembly.",
+  "aliases": [
+   {
+    "value": "yappologistic/CUI",
+    "quote": "GitHub repository yappologistic/CUI, license MIT",
+    "source": "facts"
+   }
+  ],
+  "components": [
+   {
+    "slug": "button",
+    "quote": "from buttons and text fields",
+    "source": "readme"
+   },
+   {
+    "slug": "text-input",
+    "quote": "from buttons and text fields",
+    "source": "readme"
+   },
+   {
+    "slug": "data-grid",
+    "quote": "to a data grid, charts, a code editor",
+    "source": "readme"
+   },
+   {
+    "slug": "chart",
+    "quote": "to a data grid, charts, a code editor",
+    "source": "readme"
+   },
+   {
+    "slug": "code-editor",
+    "quote": "a code editor and docking panels",
+    "source": "readme"
+   },
+   {
+    "slug": "select",
+    "quote": "selects, date and color pickers, tables",
+    "source": "record"
+   },
+   {
+    "slug": "date-picker",
+    "quote": "date and color pickers",
+    "source": "record"
+   },
+   {
+    "slug": "color-picker",
+    "quote": "date and color pickers",
+    "source": "record"
+   },
+   {
+    "slug": "table",
+    "quote": "date and color pickers, tables, a data grid",
+    "source": "record"
+   }
+  ],
+  "surfaces": [],
+  "facets": {
+   "framework": "unknown",
+   "styling": "unknown",
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ]
+  },
+  "built_on": [],
+  "scope": "core-design",
+  "profile": {
+   "paid_items": false
+  },
+  "profile_evidence": [
+   {
+    "field": "paid_items",
+    "quote": "MIT licensed",
+    "source": "readme"
+   }
+  ],
+  "use_cases": [
+   "build a small native C tool with its own widgets",
+   "run the same C UI in a browser through WebAssembly",
+   "drop cui.h and cui.c into a project"
+  ],
+  "not_for": [
+   "not a React or web component library",
+   "not full keyboard support for every control"
+  ],
+  "queries": [
+   "C99 immediate mode UI library MIT",
+   "native widgets for Windows macOS Linux and web",
+   "about 210 C UI components",
+   "C UI library around 250 KB",
+   "WebAssembly UI components in C",
+   "OpenGL or software renderer UI for C",
+   "CMake FetchContent C UI library",
+   "keyboard support with pointer exceptions in CUI"
+  ],
+  "notes": "The site and README say about 210 components. The GitHub description says about 150.",
+  "model": "claude-sonnet-5-5",
+  "checked": "2026-11-12",
+  "facet_evidence": {
+   "license": [
+    {
+     "value": "mit",
+     "quote": "MIT licensed",
+     "source": "readme"
+    }
+   ],
+   "pricing": [
+    {
+     "value": "free",
+     "quote": "MIT licensed",
+     "source": "readme"
+    },
+    {
+     "value": "open-source",
+     "quote": "GitHub repository yappologistic/CUI",
+     "source": "facts"
+    }
+   ]
+  }
+ },
  "user:747ba63e08e56083": {
   "summary": "Subscription logo inspiration archive with 5500 curated logos, searchable by industry, character and style, with saved logos and community submissions. Plans: Standard, Student, and Studio & Organization. No download format or license is stated.",
   "aliases": [],
@@ -152513,123 +153149,100 @@
   }
  },
  "user:798565814c9a977a": {
-  "summary": "Gallery of iOS app screens from top-grossing apps, each app carrying estimated monthly revenue, downloads and ratings. Browse by apps, screens, flows and UI elements. An MCP server and a skills package, both part of Pro, give coding agents access.",
+  "summary": "Appllama is a gallery of top-earning iOS screens with revenue context, plus an MCP server on Pro. The skills repository is MIT and has two skills. The August 30 homepage count was 42,400 screens.",
   "aliases": [
    {
-    "value": "appllama/appllama-skills",
-    "quote": "npx skills add appllama/appllama-skills",
-    "source": "record"
+    "value": "Appllama/appllama-skills",
+    "quote": "GitHub repository Appllama/appllama-skills, license MIT",
+    "source": "facts"
    }
   ],
   "components": [],
-  "surfaces": [
-   {
-    "slug": "paywall",
-    "quote": "Every onboarding, paywall and flow",
-    "source": "page"
-   },
-   {
-    "slug": "onboarding-mobile",
-    "quote": "Flows that put onboarding and paywalls side by side",
-    "source": "record"
-   },
-   {
-    "slug": "splash-screen",
-    "quote": "Publisher Splash Screen Game Loading Screen",
-    "source": "page"
-   }
-  ],
+  "surfaces": [],
   "facets": {
    "framework": "not-applicable",
    "styling": "not-applicable",
-   "license": [
-    "proprietary"
-   ],
+   "license": "unknown",
    "pricing": [
-    "freemium"
+    "freemium",
+    "subscription",
+    "account-required"
    ]
   },
   "built_on": [],
   "scope": "core-design",
   "profile": {
    "indexes": [
-    "apps",
     "screens",
     "flows",
-    "elements"
+    "elements",
+    "apps"
    ],
    "platforms": [
     "ios"
    ],
-   "entry_count": 76300,
+   "entry_count": 42400,
    "has_api": true
   },
   "profile_evidence": [
    {
     "field": "indexes",
-    "quote": "Four ways in: Apps, Screens tagged by flow, Flows",
-    "source": "record"
-   },
-   {
-    "field": "indexes",
-    "quote": "UI Elements traced back to the app they came from",
+    "quote": "Apps, Screens tagged by flow, Flows that put onboarding and paywalls side by side, and UI Elements",
     "source": "record"
    },
    {
     "field": "platforms",
-    "quote": "screens from 985 top-earning iOS apps",
+    "quote": "top-earning iOS apps",
     "source": "record"
    },
    {
     "field": "entry_count",
-    "quote": "76,300+ screens from 1,670+ top-grossing iOS apps",
-    "source": "page"
+    "quote": "more than 42,400 screens",
+    "source": "record"
    },
    {
     "field": "has_api",
-    "quote": "An MCP server sits at mcp.appllama.io/mcp",
+    "quote": "https://mcp.appllama.io/mcp",
     "source": "record"
    }
   ],
   "use_cases": [
-   "find paywall examples from top-earning iOS apps",
-   "compare onboarding flows by app revenue",
-   "research iOS app screens by App Store category",
-   "look up a single UI element and the app it came from",
-   "query app screens from Claude Code through an MCP server",
-   "install design research skills with npx skills add"
+   "compare paywalls from top-earning iOS apps",
+   "install appllama-app-design-skill without the MCP server",
+   "query the Pro MCP server for real screens"
   ],
   "not_for": [
-   "not a component library; no code to install",
-   "not for Android or web screens; iOS apps only"
+   "not an MIT license for the screens",
+   "not a replacement for the August screen count"
   ],
   "queries": [
-   "iOS app paywall examples from top-grossing apps",
-   "app onboarding flow screenshots with revenue data",
-   "Appllama MCP server for Claude Code",
-   "gallery of iOS app screens with downloads and ratings",
-   "appllama/appllama-skills install",
-   "find paywall design by estimated monthly revenue",
-   "browse App Store app flows by category",
-   "iOS app UI elements traced back to the source app",
-   "mobile splash screen examples from top iOS apps",
-   "MCP server for app store design research"
+   "iOS screen gallery with revenue on each app",
+   "Appllama MCP behind Pro",
+   "42,400 screens from 985 apps",
+   "Appllama skills MIT repository",
+   "appllama-usage needs the MCP server",
+   "design skill that works without Appllama MCP",
+   "2,010 plus top-grossing apps on the MCP page",
+   "npx skills add appllama/appllama-skills"
   ],
-  "notes": "Record text says 42,400 screens from 985 apps, the page says 76,300+ screens from 1,670+ apps, so the page figure is used; the sources do not state subscription or account-required, which the current values hold.",
+  "notes": "The skills repository is MIT. The screen catalog's license is not stated, so the license stays unknown. The November 12 MCP page says 2,010+ apps.",
   "model": "claude-sonnet-5-5",
-  "checked": "2026-10-24",
+  "checked": "2026-11-12",
   "facet_evidence": {
-   "license": [
-    {
-     "value": "proprietary",
-     "quote": "© 2026 Appllama. All rights reserved.",
-     "source": "page"
-    }
-   ],
    "pricing": [
     {
      "value": "freemium",
      "quote": "Free to browse. Pro covers everything else",
+     "source": "record"
+    },
+    {
+     "value": "subscription",
+     "quote": "1,500 credits a month",
+     "source": "record"
+    },
+    {
+     "value": "account-required",
+     "quote": "MCP access is part of Pro",
      "source": "record"
     }
    ]
@@ -158319,6 +158932,95 @@
    ]
   }
  },
+ "user:90e68e6fe3c7a377": {
+  "summary": "unslop is Damir Sokolovsky's CC BY skill for Claude Code, Codex, and Google Antigravity. It restyles AI-looking UI on the stack the screen already uses.",
+  "aliases": [
+   {
+    "value": "heydamir/unslop",
+    "quote": "GitHub repository heydamir/unslop, license CC-BY-4.0",
+    "source": "facts"
+   }
+  ],
+  "components": [],
+  "surfaces": [],
+  "facets": {
+   "framework": "not-applicable",
+   "styling": "not-applicable",
+   "license": [
+    "cc-by"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ]
+  },
+  "built_on": [],
+  "scope": "core-design",
+  "profile": {
+   "protocol": [
+    "agent-skill"
+   ],
+   "clients": [
+    "claude-code",
+    "codex"
+   ]
+  },
+  "profile_evidence": [
+   {
+    "field": "protocol",
+    "quote": "skill for Claude Code, Codex and Google Antigravity",
+    "source": "readme"
+   },
+   {
+    "field": "clients",
+    "quote": "skill for Claude Code, Codex and Google Antigravity",
+    "source": "readme"
+   }
+  ],
+  "use_cases": [
+   "restyle an AI-looking screen that already exists",
+   "run the skill on a live site from a link",
+   "credit Damir Sokolovsky when reusing the skill"
+  ],
+  "not_for": [
+   "not tied to one framework",
+   "the paid design offer price was not opened"
+  ],
+  "queries": [
+   "skill that removes AI-looking UI",
+   "CC BY design skill for Claude Code",
+   "unslop for Codex and Antigravity",
+   "restyle a landing page the agent built",
+   "Damir Sokolovsky interface skill",
+   "skill for dashboards apps and landing pages",
+   "credit heydamir unslop CC BY",
+   "turn vibecoded UI into a designed interface"
+  ],
+  "notes": "The README covers dashboards, apps, and landing pages. It does not name mobile apps.",
+  "model": "claude-sonnet-5-5",
+  "checked": "2026-11-12",
+  "facet_evidence": {
+   "license": [
+    {
+     "value": "cc-by",
+     "quote": "CC BY 4.0",
+     "source": "readme"
+    }
+   ],
+   "pricing": [
+    {
+     "value": "free",
+     "quote": "CC BY 4.0",
+     "source": "readme"
+    },
+    {
+     "value": "open-source",
+     "quote": "GitHub repository heydamir/unslop",
+     "source": "facts"
+    }
+   ]
+  }
+ },
  "user:910be561483eaf02": {
   "summary": "Icon Museum is a gallery of iOS app icons, one page per app, each treated as a finished piece of design, with a wall of icons and category search. Pages sit under /apps/<name>; the sitemap lists 243 of them. Free to browse, no account.",
   "aliases": [],
@@ -159233,6 +159935,109 @@
   "model": "claude-sonnet-5-5",
   "checked": "2026-10-24",
   "facet_evidence": {}
+ },
+ "user:9447df44ea73004b": {
+  "summary": "Kibernetyk Mono is Pavlo Kilko's geometric monospace, inspired by the Ukrainian Cybernetics School. It has 7 weights, 600 glyphs, Latin and Cyrillic, under SIL OFL 1.1.",
+  "aliases": [
+   {
+    "value": "PavloKilko/KibernetykMono",
+    "quote": "GitHub repository PavloKilko/KibernetykMono, license OFL-1.1",
+    "source": "facts"
+   }
+  ],
+  "components": [],
+  "surfaces": [],
+  "facets": {
+   "framework": "not-applicable",
+   "styling": "not-applicable",
+   "license": [
+    "ofl"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ]
+  },
+  "built_on": [],
+  "scope": "core-design",
+  "profile": {
+   "classification": [
+    "mono"
+   ],
+   "weights": 7,
+   "scripts": [
+    "latin",
+    "cyrillic"
+   ],
+   "license_scope": [
+    "commercial"
+   ]
+  },
+  "profile_evidence": [
+   {
+    "field": "classification",
+    "quote": "geometric monospace",
+    "source": "record"
+   },
+   {
+    "field": "weights",
+    "quote": "Weights 7",
+    "source": "page"
+   },
+   {
+    "field": "scripts",
+    "quote": "Latin Cyrillic",
+    "source": "page"
+   },
+   {
+    "field": "license_scope",
+    "quote": "free for commercial and non-commercial projects",
+    "source": "record"
+   }
+  ],
+  "use_cases": [
+   "use a free OFL monospace with Cyrillic",
+   "download seven TTF weights at version 1.0.0",
+   "read the source repository beside the specimen"
+  ],
+  "not_for": [
+   "not a variable font",
+   "not a paid foundry family"
+  ],
+  "queries": [
+   "OFL geometric monospace Latin and Cyrillic",
+   "Kibernetyk Mono 7 weights 600 glyphs",
+   "Pavlo Kilko free coding font",
+   "Ukrainian Cybernetics School monospace",
+   "SIL OFL commercial monospace TTF",
+   "Kibernetyk Mono version 1.0.0",
+   "download thin to bold monospace OFL",
+   "monospace with Latin and Cyrillic OFL"
+  ],
+  "notes": "The specimen and README do not mention eight-direction strokes.",
+  "model": "claude-sonnet-5-5",
+  "checked": "2026-11-12",
+  "facet_evidence": {
+   "license": [
+    {
+     "value": "ofl",
+     "quote": "license OFL-1.1",
+     "source": "facts"
+    }
+   ],
+   "pricing": [
+    {
+     "value": "free",
+     "quote": "free for commercial and non-commercial projects",
+     "source": "record"
+    },
+    {
+     "value": "open-source",
+     "quote": "GitHub repository PavloKilko/KibernetykMono",
+     "source": "facts"
+    }
+   ]
+  }
  },
  "user:946582bdde0803af": {
   "summary": "Amacro is a React library and open-source playground of page transition and page reveal animations, grouped as Basic, Hard and Crazy. Effects such as circle, blinds, bars, shutter and sweep wipes are tagged transform, clip-path or mask, each with a preview.",
@@ -166020,6 +166825,123 @@
    ]
   }
  },
+ "user:b1bea696d4f29599": {
+  "summary": "Serua Mono is a commercial monospace by RNDI Type Foundry on Supply Family, with 14 styles, a variable font, and 611 glyphs. The price read was $20 for Medium desktop, up to 3 users.",
+  "aliases": [],
+  "components": [],
+  "surfaces": [],
+  "facets": {
+   "framework": "not-applicable",
+   "styling": "not-applicable",
+   "license": [
+    "commercial",
+    "font-eula"
+   ],
+   "pricing": [
+    "paid",
+    "one-time",
+    "free-trial"
+   ]
+  },
+  "built_on": [],
+  "scope": "core-design",
+  "profile": {
+   "classification": [
+    "mono",
+    "sans"
+   ],
+   "variable": true,
+   "scripts": [
+    "latin"
+   ],
+   "license_scope": [
+    "desktop",
+    "web",
+    "app",
+    "commercial"
+   ]
+  },
+  "profile_evidence": [
+   {
+    "field": "classification",
+    "quote": "a monospace sans by RNDI Type Foundry",
+    "source": "record"
+   },
+   {
+    "field": "variable",
+    "quote": "14 styles and variable font support",
+    "source": "record"
+   },
+   {
+    "field": "scripts",
+    "quote": "Adobe Latin 3 coverage",
+    "source": "record"
+   },
+   {
+    "field": "license_scope",
+    "quote": "Desktop, webfont, advertising, and app are separate usage types",
+    "source": "record"
+   },
+   {
+    "field": "license_scope",
+    "quote": "Commercial for up to 12 seats",
+    "source": "record"
+   }
+  ],
+  "use_cases": [
+   "license a monospace for code and signage",
+   "buy one desktop style instead of guessing a family price",
+   "download a trial for internal evaluation only"
+  ],
+  "not_for": [
+   "not a free OFL font",
+   "a full-family price was not in the fetched text"
+  ],
+  "queries": [
+   "Serua Mono commercial monospace 14 styles",
+   "RNDI Type Foundry variable monospace",
+   "Serua Mono Medium desktop license $20",
+   "611 glyph monospace Adobe Latin 3",
+   "Supply Family trial for internal evaluation",
+   "paid monospace with seat tiers",
+   "Serua Mono Standard Commercial Commercial+",
+   "buy a foundry monospace for code and tickets"
+  ],
+  "notes": "A direct fetch of the shop URL returned a Cloudflare challenge. The family price was not in the text that was read.",
+  "model": "claude-sonnet-5-5",
+  "checked": "2026-11-12",
+  "facet_evidence": {
+   "license": [
+    {
+     "value": "commercial",
+     "quote": "Commercial for up to 12 seats",
+     "source": "record"
+    },
+    {
+     "value": "font-eula",
+     "quote": "Desktop, webfont, advertising, and app are separate usage types",
+     "source": "record"
+    }
+   ],
+   "pricing": [
+    {
+     "value": "paid",
+     "quote": "at $20, marked 20 percent off from $25",
+     "source": "record"
+    },
+    {
+     "value": "one-time",
+     "quote": "at $20, marked 20 percent off from $25",
+     "source": "record"
+    },
+    {
+     "value": "free-trial",
+     "quote": "Trial download requires a login",
+     "source": "record"
+    }
+   ]
+  }
+ },
  "user:b3197de8b4b86f0a": {
   "summary": "Alpha, hand-crafted collection of shadcn components for React with Motion animations. The demo page shows an expandable panel and an FAQ-style list. Sources do not state a license, price or install steps.",
   "aliases": [],
@@ -167245,6 +168167,101 @@
   "checked": "2026-10-24",
   "facet_evidence": {}
  },
+ "user:b8f8bcb69ad0622b": {
+  "summary": "Anatomy is Ryan's MIT skill that draws an idea as an interactive isometric figure in SVG, with optional WebGL and a beta 3D mode. It also runs beyond Claude Code.",
+  "aliases": [
+   {
+    "value": "wheresryan22/anatomy",
+    "quote": "GitHub repository wheresryan22/anatomy, license MIT",
+    "source": "facts"
+   }
+  ],
+  "components": [],
+  "surfaces": [],
+  "facets": {
+   "framework": "not-applicable",
+   "styling": "not-applicable",
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ]
+  },
+  "built_on": [],
+  "scope": "core-design",
+  "profile": {
+   "protocol": [
+    "agent-skill",
+    "cli"
+   ],
+   "clients": [
+    "claude-code",
+    "codex"
+   ]
+  },
+  "profile_evidence": [
+   {
+    "field": "protocol",
+    "quote": "npx skills add wheresryan22/anatomy -g",
+    "source": "readme"
+   },
+   {
+    "field": "protocol",
+    "quote": "A Claude skill that explains an idea",
+    "source": "readme"
+   },
+   {
+    "field": "clients",
+    "quote": "Also runs in Antigravity, OpenCode, Codex and MiniMax Code",
+    "source": "readme"
+   }
+  ],
+  "use_cases": [
+   "explain one mechanism as an interactive SVG",
+   "add a WebGL shader for fire, water, or light",
+   "install the skill for Claude Code or Codex"
+  ],
+  "not_for": [
+   "not a component library",
+   "the 3D mode is marked beta"
+  ],
+  "queries": [
+   "skill that draws an idea as an isometric SVG",
+   "Anatomy skill for Claude Code",
+   "interactive SVG WebGL and 3D figures",
+   "npx skills add wheresryan22/anatomy",
+   "MIT isometric explanation skill",
+   "explain a machine as a working figure",
+   "Codex skill for isometric diagrams",
+   "Anatomy skill Node 20 no dependencies"
+  ],
+  "notes": "The README also names Antigravity, OpenCode, and MiniMax Code, which are not client values here.",
+  "model": "claude-sonnet-5-5",
+  "checked": "2026-11-12",
+  "facet_evidence": {
+   "license": [
+    {
+     "value": "mit",
+     "quote": "license MIT",
+     "source": "facts"
+    }
+   ],
+   "pricing": [
+    {
+     "value": "free",
+     "quote": "license MIT",
+     "source": "facts"
+    },
+    {
+     "value": "open-source",
+     "quote": "GitHub repository wheresryan22/anatomy",
+     "source": "facts"
+    }
+   ]
+  }
+ },
  "user:b969e6c9c3ce85b9": {
   "summary": "Gallery of 494 call-to-action examples from live websites, filterable by CTA type, industry and light or dark mode. Each entry is a screenshot that names the source site. It supplies no reusable code.",
   "aliases": [],
@@ -167752,6 +168769,125 @@
      "value": "open-source",
      "quote": "driver.js is open source under the MIT license",
      "source": "page"
+    }
+   ]
+  }
+ },
+ "user:bc17a0859a168266": {
+  "summary": "Stageshow is Benji Taylor's skill for faux product UI in React and plain CSS: stills, feature cards, cursor demos, and bento grids. The skill folder is MIT.",
+  "aliases": [
+   {
+    "value": "benjitaylor/skills",
+    "quote": "GitHub repository benjitaylor/skills, license none stated",
+    "source": "facts"
+   }
+  ],
+  "components": [
+   {
+    "slug": "bento-grid",
+    "quote": "cursor demos and bento grids, built in React",
+    "source": "readme"
+   }
+  ],
+  "surfaces": [],
+  "facets": {
+   "framework": [
+    "react"
+   ],
+   "styling": [
+    "vanilla-css"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ]
+  },
+  "built_on": [],
+  "scope": "core-design",
+  "profile": {
+   "protocol": [
+    "agent-skill",
+    "cli"
+   ],
+   "clients": [
+    "claude-code",
+    "codex"
+   ]
+  },
+  "profile_evidence": [
+   {
+    "field": "protocol",
+    "quote": "npx skills add benjitaylor/skills --skill stageshow",
+    "source": "page"
+   },
+   {
+    "field": "protocol",
+    "quote": "Stageshow is an agent skill",
+    "source": "record"
+   },
+   {
+    "field": "clients",
+    "quote": "Grok Build, Claude Code, Codex, Gemini",
+    "source": "page"
+   }
+  ],
+  "use_cases": [
+   "ask an agent for a faux product still in React",
+   "film a cursor demo of a made-up feature",
+   "install only the Stageshow skill"
+  ],
+  "not_for": [
+   "not Benji Taylor's portfolio",
+   "not Agentation"
+  ],
+  "queries": [
+   "skill for faux product UI in React",
+   "npx skills add stageshow",
+   "cursor demo and bento grid skill",
+   "MIT skill by Benji Taylor",
+   "faux UI stills in plain CSS",
+   "install benjitaylor/skills stageshow only",
+   "agent skill that films a React mock",
+   "Stageshow feature cards and cursor demos"
+  ],
+  "notes": "The MIT file is stageshow/LICENSE. The repository has no top-level license.",
+  "model": "claude-sonnet-5-5",
+  "checked": "2026-11-12",
+  "facet_evidence": {
+   "framework": [
+    {
+     "value": "react",
+     "quote": "bento grids, built in React",
+     "source": "readme"
+    }
+   ],
+   "styling": [
+    {
+     "value": "vanilla-css",
+     "quote": "in React and plain CSS",
+     "source": "record"
+    }
+   ],
+   "license": [
+    {
+     "value": "mit",
+     "quote": "LICENSE is MIT, copyright 2026 Benji Taylor",
+     "source": "record"
+    }
+   ],
+   "pricing": [
+    {
+     "value": "free",
+     "quote": "The MIT text is stageshow/LICENSE",
+     "source": "record"
+    },
+    {
+     "value": "open-source",
+     "quote": "LICENSE is MIT, copyright 2026 Benji Taylor",
+     "source": "record"
     }
    ]
   }
@@ -171502,6 +172638,101 @@
      "value": "open-source",
      "quote": "GitHub repository jipvandervelde/HandDrawnFont",
      "source": "facts"
+    }
+   ]
+  }
+ },
+ "user:c779ef67b6deee2c": {
+  "summary": "Palletism groups AI images into taste packs with the prompt, palette, and guide. A free account reads a pack over MCP, 200 calls a day. Hobby is not for sale.",
+  "aliases": [],
+  "components": [],
+  "surfaces": [],
+  "facets": {
+   "framework": "not-applicable",
+   "styling": "not-applicable",
+   "license": "unknown",
+   "pricing": [
+    "free",
+    "freemium",
+    "account-required"
+   ]
+  },
+  "built_on": [],
+  "scope": "core-design",
+  "profile": {
+   "protocol": [
+    "mcp",
+    "prompt-pack",
+    "web-app"
+   ],
+   "clients": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "any-mcp-client"
+   ],
+   "auth_required": true
+  },
+  "profile_evidence": [
+   {
+    "field": "protocol",
+    "quote": "read a pack's palette, fonts, prompts, and rules over MCP",
+    "source": "record"
+   },
+   {
+    "field": "protocol",
+    "quote": "grouped into taste packs",
+    "source": "record"
+   },
+   {
+    "field": "clients",
+    "quote": "claude code codex droid cursor any mcp client",
+    "source": "page"
+   },
+   {
+    "field": "auth_required",
+    "quote": "a free account gives an agent 200 MCP calls a day",
+    "source": "record"
+   }
+  ],
+  "use_cases": [
+   "read a taste pack prompt and palette over MCP",
+   "copy hex colors from a pack in the browser",
+   "give an agent a curated look instead of one prompt"
+  ],
+  "not_for": [
+   "not an image generator",
+   "not a font or component library"
+  ],
+  "queries": [
+   "MCP server of design prompts and palettes",
+   "free taste packs an agent can read",
+   "Palletism 200 MCP calls a day",
+   "curated AI images with the prompt and palette",
+   "read-only design reference over MCP",
+   "connect Claude Code to Palletism",
+   "prompt packs grouped by taste",
+   "design reference with no card required"
+  ],
+  "notes": "The terms allow use in your own projects and do not name a standard image license.",
+  "model": "claude-sonnet-5-5",
+  "checked": "2026-11-12",
+  "facet_evidence": {
+   "pricing": [
+    {
+     "value": "free",
+     "quote": "every public pack is free to browse",
+     "source": "record"
+    },
+    {
+     "value": "freemium",
+     "quote": "Hobby is marked coming soon",
+     "source": "record"
+    },
+    {
+     "value": "account-required",
+     "quote": "a free account gives an agent 200 MCP calls a day",
+     "source": "record"
     }
    ]
   }
@@ -179709,6 +180940,109 @@
    ]
   }
  },
+ "user:eef7d3c4e2b23dac": {
+  "summary": "Rainbrand, formerly Bloom, is a hosted brand layer for agents. MCP is at mcp.rainbrand.com/mcp. Plans start at $20 a month, and a signup grant is 1,000 credits once.",
+  "aliases": [
+   {
+    "value": "Bloom",
+    "quote": "Bloom is now Rainbrand",
+    "source": "page"
+   }
+  ],
+  "components": [],
+  "surfaces": [],
+  "facets": {
+   "framework": "not-applicable",
+   "styling": "not-applicable",
+   "license": "unknown",
+   "pricing": [
+    "free-trial",
+    "subscription",
+    "account-required"
+   ]
+  },
+  "built_on": [],
+  "scope": "core-design",
+  "profile": {
+   "protocol": [
+    "mcp",
+    "api",
+    "agent-skill"
+   ],
+   "clients": [
+    "claude-code"
+   ],
+   "auth_required": true
+  },
+  "profile_evidence": [
+   {
+    "field": "protocol",
+    "quote": "The MCP URL on the page is https://mcp.rainbrand.com/mcp",
+    "source": "record"
+   },
+   {
+    "field": "protocol",
+    "quote": "claude plugin marketplace add rainbrandai/rainbrand-skills",
+    "source": "record"
+   },
+   {
+    "field": "protocol",
+    "quote": "https://www.rainbrand.com/api/v1/brands",
+    "source": "record"
+   },
+   {
+    "field": "clients",
+    "quote": "claude plugin marketplace add rainbrandai/rainbrand-skills",
+    "source": "record"
+   },
+   {
+    "field": "auth_required",
+    "quote": "Sign in",
+    "source": "page"
+   }
+  ],
+  "use_cases": [
+   "give an agent shared logos, fonts, and voice",
+   "call the brands API with an API key",
+   "install the Claude plugin from the MIT skills repo"
+  ],
+  "not_for": [
+   "not a free monthly plan",
+   "the hosted service license is not stated"
+  ],
+  "queries": [
+   "brand context MCP for coding agents",
+   "Rainbrand plans from $20 a month",
+   "formerly Bloom brand layer",
+   "mcp.rainbrand.com MCP endpoint",
+   "1,000 credit signup grant for a brand",
+   "Claude plugin for Rainbrand skills",
+   "brand API with an x-api-key",
+   "Plus Pro Max Scale brand credits"
+  ],
+  "notes": "The plugin repository is MIT. That license is not the hosted service, so the license facet stays unknown.",
+  "model": "claude-sonnet-5-5",
+  "checked": "2026-11-12",
+  "facet_evidence": {
+   "pricing": [
+    {
+     "value": "free-trial",
+     "quote": "1,000 credits and one free brand creation, once",
+     "source": "record"
+    },
+    {
+     "value": "subscription",
+     "quote": "Plus $20 for 5,000 credits",
+     "source": "record"
+    },
+    {
+     "value": "account-required",
+     "quote": "API and MCP are included in every plan",
+     "source": "record"
+    }
+   ]
+  }
+ },
  "user:ef7d33c4dc3b80cb": {
   "summary": "A curated gallery of creative portfolio websites and case studies, split into individual and studio entries, with a submission link and a weekly update newsletter. Aimed at interactive identities and unusual layouts.",
   "aliases": [],
@@ -180584,6 +181918,131 @@
    ]
   }
  },
+ "user:f3839c45ae03d1ee": {
+  "summary": "Layro is a marketplace of React components that an MCP client can search and install as source. Browsing and installing are free. Each component keeps its author's license.",
+  "aliases": [
+   {
+    "value": "layro-cli",
+    "quote": "npx layro-cli init --yes",
+    "source": "record"
+   }
+  ],
+  "components": [],
+  "surfaces": [],
+  "facets": {
+   "framework": [
+    "react"
+   ],
+   "styling": [
+    "tailwind-any"
+   ],
+   "license": [
+    "mit",
+    "apache-2.0",
+    "isc",
+    "bsd"
+   ],
+   "pricing": [
+    "free"
+   ]
+  },
+  "built_on": [
+   {
+    "value": "tailwind",
+    "quote": "Tailwind CSS",
+    "source": "page"
+   },
+   {
+    "value": "shadcn",
+    "quote": "shadcn-compatible registry item",
+    "source": "record"
+   }
+  ],
+  "scope": "core-design",
+  "profile": {
+   "typescript": true,
+   "paid_items": false
+  },
+  "profile_evidence": [
+   {
+    "field": "typescript",
+    "quote": "React TypeScript project with Tailwind CSS",
+    "source": "page"
+   },
+   {
+    "field": "paid_items",
+    "quote": "Publishing is free and needs a GitHub account",
+    "source": "record"
+   }
+  ],
+  "use_cases": [
+   "search React components from Claude Code or Cursor",
+   "install a reviewed component as source",
+   "publish a component with a stated license"
+  ],
+  "not_for": [
+   "not one license for the whole catalog",
+   "not a Tailwind version you can assume"
+  ],
+  "queries": [
+   "React component marketplace for coding agents",
+   "MCP server to install React components",
+   "free shadcn-compatible component marketplace",
+   "Layro MCP for Claude Code",
+   "install React components with no account",
+   "component licenses MIT Apache ISC BSD",
+   "npx layro-cli init for Tailwind",
+   "agent searchable React component catalog"
+  ],
+  "notes": "The licences page is marked draft, and some indexed libraries add a Commons Clause.",
+  "model": "claude-sonnet-5-5",
+  "checked": "2026-11-12",
+  "facet_evidence": {
+   "framework": [
+    {
+     "value": "react",
+     "quote": "Layro is a React component marketplace",
+     "source": "record"
+    }
+   ],
+   "styling": [
+    {
+     "value": "tailwind-any",
+     "quote": "React TypeScript project with Tailwind CSS",
+     "source": "page"
+    }
+   ],
+   "license": [
+    {
+     "value": "mit",
+     "quote": "one of MIT, Apache-2.0, ISC, or BSD-3-Clause",
+     "source": "record"
+    },
+    {
+     "value": "apache-2.0",
+     "quote": "one of MIT, Apache-2.0, ISC, or BSD-3-Clause",
+     "source": "record"
+    },
+    {
+     "value": "isc",
+     "quote": "one of MIT, Apache-2.0, ISC, or BSD-3-Clause",
+     "source": "record"
+    },
+    {
+     "value": "bsd",
+     "quote": "one of MIT, Apache-2.0, ISC, or BSD-3-Clause",
+     "source": "record"
+    }
+   ],
+   "pricing": [
+    {
+     "value": "free",
+     "quote": "Browsing, copying, and installing are free",
+     "source": "record"
+    }
+   ]
+  }
+ },
  "user:f38ec551400737ab": {
   "summary": "A platform for application hosting and remote compute. Runs apps on Fly Machines, hardware-isolated VMs, with Sprites sandboxes for agent code, managed Postgres, and CLIs and MCP servers that agents can drive. Billed by CPU and memory use.",
   "aliases": [
@@ -180998,6 +182457,92 @@
     {
      "value": "shader-glsl",
      "quote": "the reference archive for real-time GLSL work on the web",
+     "source": "record"
+    }
+   ]
+  }
+ },
+ "user:f7269189f355026b": {
+  "summary": "Vitrum turns an SVG, PNG, JPG, or WebP logo into a glass, metal, or colour 3D icon in the browser. Exports are PNG, GLB, and STL. It is free and uploads nothing.",
+  "aliases": [],
+  "components": [],
+  "surfaces": [],
+  "facets": {
+   "framework": "not-applicable",
+   "styling": "not-applicable",
+   "license": "unknown",
+   "pricing": [
+    "free"
+   ]
+  },
+  "built_on": [
+   {
+    "value": "three",
+    "quote": "a GLB for three.js",
+    "source": "page"
+   }
+  ],
+  "scope": "core-design",
+  "profile": {
+   "asset_types": [
+    "3d-model"
+   ],
+   "formats": [
+    "png",
+    "svg",
+    "jpg",
+    "gltf"
+   ]
+  },
+  "profile_evidence": [
+   {
+    "field": "asset_types",
+    "quote": "Custom 3D icons from any logo",
+    "source": "page"
+   },
+   {
+    "field": "formats",
+    "quote": "Drop in an SVG or PNG and get it back in glass, metal or colour",
+    "source": "page"
+   },
+   {
+    "field": "formats",
+    "quote": "a GLB for three.js or an STL for print",
+    "source": "page"
+   },
+   {
+    "field": "formats",
+    "quote": "The page adds JPG and WebP as inputs",
+    "source": "record"
+   }
+  ],
+  "use_cases": [
+   "turn a logo into a glass or metal 3D icon",
+   "export a GLB for three.js",
+   "export an STL of a logo for printing"
+  ],
+  "not_for": [
+   "not an API an agent can call",
+   "the tool license is not stated"
+  ],
+  "queries": [
+   "browser tool to make a 3D icon from a logo",
+   "export a logo as GLB and STL",
+   "glass or metal 3D icon free no account",
+   "PNG SVG JPG WebP logo to 3D",
+   "Vitrum three.js GLB export",
+   "local browser 3D logo with no upload",
+   "transparent PNG of a 3D logo",
+   "print a logo as an STL mesh"
+  ],
+  "notes": "The FAQ says exports are yours. It does not state a license for the Vitrum application.",
+  "model": "claude-sonnet-5-5",
+  "checked": "2026-11-12",
+  "facet_evidence": {
+   "pricing": [
+    {
+     "value": "free",
+     "quote": "Free, in your browser, no sign-up",
      "source": "record"
     }
    ]
@@ -182017,6 +183562,89 @@
   "model": "claude-sonnet-5-5",
   "checked": "2026-10-24",
   "facet_evidence": {}
+ },
+ "user:fc14402837c626ee": {
+  "summary": "Rune is a pre-release native GPU UI framework for Rust on macOS, Windows, Linux, and the web. Apps can render headless to PNG. The license is MIT.",
+  "aliases": [
+   {
+    "value": "anomalyco/rune",
+    "quote": "GitHub repository anomalyco/rune, license MIT",
+    "source": "facts"
+   },
+   {
+    "value": "rune-kit",
+    "quote": "It ships rune-kit components",
+    "source": "record"
+   }
+  ],
+  "components": [],
+  "surfaces": [],
+  "facets": {
+   "framework": "unknown",
+   "styling": "unknown",
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free",
+    "open-source"
+   ]
+  },
+  "built_on": [],
+  "scope": "core-design",
+  "profile": {
+   "paid_items": false
+  },
+  "profile_evidence": [
+   {
+    "field": "paid_items",
+    "quote": "MIT, © Anomaly",
+    "source": "readme"
+   }
+  ],
+  "use_cases": [
+   "prototype a native Rust interface that can run headless",
+   "have an agent render a PNG and read the element tree",
+   "pin a dev rev of a pre-release UI crate"
+  ],
+  "not_for": [
+   "not GPUI",
+   "not a stable 1.0 release"
+  ],
+  "queries": [
+   "Rust GPU UI framework that renders headless",
+   "Rune pre-release pin a dev rev",
+   "native UI for macOS Windows Linux and web",
+   "agent renders UI to PNG in Rust",
+   "MIT UI framework by Anomaly",
+   "rune-kit themed components",
+   "Rust UI with its own renderer and springs",
+   "headless element tree for an agent"
+  ],
+  "notes": "There is no Rust framework value apart from rust-gpui, and Rune is not GPUI.",
+  "model": "claude-sonnet-5-5",
+  "checked": "2026-11-12",
+  "facet_evidence": {
+   "license": [
+    {
+     "value": "mit",
+     "quote": "MIT, © Anomaly",
+     "source": "readme"
+    }
+   ],
+   "pricing": [
+    {
+     "value": "free",
+     "quote": "license MIT",
+     "source": "facts"
+    },
+    {
+     "value": "open-source",
+     "quote": "GitHub repository anomalyco/rune",
+     "source": "facts"
+    }
+   ]
+  }
  },
  "user:fc772b56d8f2c25f": {
   "summary": "Portfolio of Prasanjit Dey, a designer turned design engineer based in India. Built Insposite, a curated platform for developer portfolios and design tools, designs the Amipay frontend, and shows craft demos of card and loading animations.",
