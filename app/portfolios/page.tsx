@@ -13,6 +13,7 @@ export default function PortfoliosPage() {
   return (
     <Shell>
       <RankedSection
+        deck="portfolios"
         title="Portfolios"
         icon={<PortfolioIcon />}
         unit={{ one: "portfolio", many: "portfolios" }}

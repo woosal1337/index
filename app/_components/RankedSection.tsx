@@ -1,4 +1,6 @@
+import CanvasView from "./CanvasView";
 import CardGrid from "./CardGrid";
+import type { DeckName } from "../lib/canvas";
 import { PageHead, Tag } from "./primitives";
 import { Reveal } from "./motion";
 import type { CardItem } from "./ResourceCard";
@@ -24,6 +26,7 @@ export default function RankedSection({
   unit,
   groups,
   categoryNames,
+  deck,
 }: {
   title: string;
   icon: React.ReactNode;
@@ -31,6 +34,7 @@ export default function RankedSection({
   unit: { one: string; many: string };
   groups: RankedGroup[];
   categoryNames: Record<string, string>;
+  deck: DeckName;
 }) {
   const items = groups.flatMap((g) => g.items);
   const top = items.filter((r) => r.tier === "S" || r.tier === "A").length;
@@ -47,21 +51,23 @@ export default function RankedSection({
           ))}
       </PageHead>
 
-      <div className="grid gap-6">
-        {groups.map((g) => (
-          <Reveal key={g.slug}>
-            <section aria-labelledby={`group-${g.slug}`}>
-              <div className="section-title">
-                <span id={`group-${g.slug}`}>{g.name}</span>
-                <span className="meta">{label(g.items.length)}</span>
-              </div>
-              <div className="section">
-                <CardGrid items={g.items.map(toCard)} categoryNames={categoryNames} />
-              </div>
-            </section>
-          </Reveal>
-        ))}
-      </div>
+      <CanvasView deck={deck}>
+        <div className="grid gap-6">
+          {groups.map((g) => (
+            <Reveal key={g.slug}>
+              <section aria-labelledby={`group-${g.slug}`}>
+                <div className="section-title">
+                  <span id={`group-${g.slug}`}>{g.name}</span>
+                  <span className="meta">{label(g.items.length)}</span>
+                </div>
+                <div className="section">
+                  <CardGrid items={g.items.map(toCard)} categoryNames={categoryNames} />
+                </div>
+              </section>
+            </Reveal>
+          ))}
+        </div>
+      </CanvasView>
     </>
   );
 }

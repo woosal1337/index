@@ -51,7 +51,7 @@ export default function CommandPalette({ categoryNames = {} }: { categoryNames?:
         setOpen((v) => !v);
       }
       if (e.key === "Escape") setOpen(false);
-      if (e.key === "/" && !open) {
+      if (e.key === "/" && !open && !e.defaultPrevented) {
         const t = e.target as HTMLElement;
         if (t.tagName !== "INPUT" && t.tagName !== "TEXTAREA" && !t.isContentEditable) {
           e.preventDefault();

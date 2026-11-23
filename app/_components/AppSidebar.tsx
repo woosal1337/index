@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname, useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
 import { useEffect } from "react";
 import { AnimatePresence, m } from "motion/react";
 import { openPalette } from "./CommandPalette";
@@ -14,6 +14,7 @@ import {
   ExpandIcon,
   GithubIcon,
   GridDotsIcon,
+  ImageIcon,
   LayersIcon,
   LogoIcon,
   PortfolioIcon,
@@ -25,15 +26,16 @@ import {
 } from "./icons";
 
 const NAV = [
-  { href: "/", label: "Browse", Icon: DashboardIcon, toggle: true },
-  { href: "/categories", label: "Categories", Icon: TagIcon, toggle: false },
-  { href: "/components", label: "Components", Icon: PuzzleIcon, toggle: false },
-  { href: "/surfaces", label: "Surfaces", Icon: LayersIcon, toggle: false },
-  { href: "/templates", label: "Templates", Icon: TemplateIcon, toggle: false },
-  { href: "/studios", label: "Studios", Icon: StudioIcon, toggle: false },
-  { href: "/portfolios", label: "Portfolios", Icon: PortfolioIcon, toggle: false },
-  { href: "/learn", label: "Learn", Icon: BookIcon, toggle: false },
-  { href: "/agents", label: "Agents", Icon: AgentIcon, toggle: false },
+  { href: "/", label: "Browse", Icon: DashboardIcon },
+  { href: "/categories", label: "Categories", Icon: TagIcon },
+  { href: "/components", label: "Components", Icon: PuzzleIcon },
+  { href: "/surfaces", label: "Surfaces", Icon: LayersIcon },
+  { href: "/templates", label: "Templates", Icon: TemplateIcon },
+  { href: "/studios", label: "Studios", Icon: StudioIcon },
+  { href: "/portfolios", label: "Portfolios", Icon: PortfolioIcon },
+  { href: "/mood", label: "Mood", Icon: ImageIcon },
+  { href: "/learn", label: "Learn", Icon: BookIcon },
+  { href: "/agents", label: "Agents", Icon: AgentIcon },
 ];
 
 function isActive(pathname: string, href: string): boolean {
@@ -79,8 +81,7 @@ export function Brand() {
 
 export default function AppSidebar({ count, updated }: { count: number; updated: string }) {
   const pathname = usePathname() ?? "/";
-  const router = useRouter();
-  const { view, setView, sidebarOpen, setSidebarOpen } = useShell();
+  const { sidebarOpen, setSidebarOpen } = useShell();
 
   useEffect(() => {
     setSidebarOpen(false);
@@ -94,11 +95,6 @@ export default function AppSidebar({ count, updated }: { count: number; updated:
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
   }, [sidebarOpen, setSidebarOpen]);
-
-  const switchView = (next: View) => {
-    setView(next);
-    if (pathname !== "/") router.push("/");
-  };
 
   return (
     <>
@@ -134,7 +130,7 @@ export default function AppSidebar({ count, updated }: { count: number; updated:
               <div key={item.href} className="sb-item-wrap">
                 <Link
                   href={item.href}
-                  className={`sb-item${active ? " is-active" : ""}${item.toggle ? " has-toggle" : ""}`}
+                  className={`sb-item${active ? " is-active" : ""}`}
                   aria-current={active ? "page" : undefined}
                 >
                   {active && (
@@ -148,7 +144,6 @@ export default function AppSidebar({ count, updated }: { count: number; updated:
                   <item.Icon />
                   <span>{item.label}</span>
                 </Link>
-                {item.toggle && <ViewToggle view={view} onChange={switchView} />}
               </div>
             );
           })}

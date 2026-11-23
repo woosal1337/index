@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Shell from "../_components/Shell";
+import CanvasView from "../_components/CanvasView";
 import { PageHead } from "../_components/primitives";
 import { Reveal } from "../_components/motion";
 import { LayersIcon } from "../_components/icons";
@@ -29,41 +30,42 @@ export default function SurfacesPage() {
           </>
         }
       />
-
-      <div className="grid gap-4">
-        {groups.map((g) => (
-          <Reveal key={g.slug} className="section">
-            <div className="section-title">
-              {g.name}
-              <span className="meta">{g.surfaces.length}</span>
-            </div>
-            <ul className="rows">
-              {g.surfaces.map((s) => {
-                const n = (bySurface[s.slug] || []).length;
-                const checks = s.checklist?.length ?? 0;
-                return (
-                  <li key={s.slug}>
-                    <Link href={`/surfaces/${s.slug}`} className="row" title={s.description}>
-                      <span className="main">
-                        {s.name}
-                        {s.description && <span className="desc"> · {s.description}</span>}
-                      </span>
-                      <span className="meta">
-                        {n > 0 && (
-                          <>
-                            <b>{n}</b> {n === 1 ? "resource" : "resources"} ·{" "}
-                          </>
-                        )}
-                        {checks} checks
-                      </span>
-                    </Link>
-                  </li>
-                );
-              })}
-            </ul>
-          </Reveal>
-        ))}
-      </div>
+      <CanvasView deck="surfaces">
+        <div className="grid gap-4">
+          {groups.map((g) => (
+            <Reveal key={g.slug} className="section">
+              <div className="section-title">
+                {g.name}
+                <span className="meta">{g.surfaces.length}</span>
+              </div>
+              <ul className="rows">
+                {g.surfaces.map((s) => {
+                  const n = (bySurface[s.slug] || []).length;
+                  const checks = s.checklist?.length ?? 0;
+                  return (
+                    <li key={s.slug}>
+                      <Link href={`/surfaces/${s.slug}`} className="row" title={s.description}>
+                        <span className="main">
+                          {s.name}
+                          {s.description && <span className="desc"> · {s.description}</span>}
+                        </span>
+                        <span className="meta">
+                          {n > 0 && (
+                            <>
+                              <b>{n}</b> {n === 1 ? "resource" : "resources"} ·{" "}
+                            </>
+                          )}
+                          {checks} checks
+                        </span>
+                      </Link>
+                    </li>
+                  );
+                })}
+              </ul>
+            </Reveal>
+          ))}
+        </div>
+      </CanvasView>
     </Shell>
   );
 }

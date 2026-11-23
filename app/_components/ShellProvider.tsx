@@ -23,15 +23,15 @@ export function useShell(): Ctx {
 }
 
 export default function ShellProvider({ children }: { children: React.ReactNode }) {
-  const [view, setViewState] = useState<View>("grid");
+  const [view, setViewState] = useState<View>("canvas");
   const [sidebarOpen, setSidebarOpen] = useState(false);
-  const current = useRef<View>("grid");
+  const current = useRef<View>("canvas");
 
   useEffect(() => {
     try {
-      if (localStorage.getItem(VIEW_KEY) === "canvas") {
-        current.current = "canvas";
-        setViewState("canvas");
+      if (localStorage.getItem(VIEW_KEY) === "grid") {
+        current.current = "grid";
+        setViewState("grid");
       }
     } catch {
       return;
@@ -43,7 +43,7 @@ export default function ShellProvider({ children }: { children: React.ReactNode 
     current.current = next;
     setViewState(next);
     try {
-      if (next === "canvas") localStorage.setItem(VIEW_KEY, "canvas");
+      if (next === "grid") localStorage.setItem(VIEW_KEY, "grid");
       else localStorage.removeItem(VIEW_KEY);
     } catch {
       return;

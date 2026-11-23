@@ -11,7 +11,8 @@ import { useShell } from "./ShellProvider";
 import { ViewToggle } from "./AppSidebar";
 import { Reveal } from "./motion";
 import ResourceCard from "./ResourceCard";
-import Canvas from "./Canvas";
+import Mood from "../mood/Mood";
+import { ViewDock } from "./CanvasView";
 import { catStyle } from "./primitives";
 import { CloseIcon, SearchIcon, SlidersIcon } from "./icons";
 
@@ -204,6 +205,8 @@ export default function Browser({
     return sorted;
   }, [rows, cat, tier, source, facets, dq, sort]);
 
+  const slugs = useMemo(() => new Set(filtered.map((r) => r.slug)), [filtered]);
+
   useEffect(() => {
     setShown(PAGE);
   }, [filtered]);
@@ -296,8 +299,6 @@ export default function Browser({
           Filters
           {panelCount > 0 && <span className="n">{panelCount}</span>}
         </button>
-
-        <ViewToggle view={view} onChange={setView} lg />
 
         <span className="count" aria-live="polite" aria-atomic>
           {filtered.length.toLocaleString()} / {rows.length.toLocaleString()}
@@ -468,10 +469,11 @@ export default function Browser({
             exit={{ opacity: 0 }}
             transition={{ duration: 0.18 }}
           >
-            <Canvas items={filtered} categoryNames={names} />
+            <Mood src="/canvas/browse.json" only={slugs} switcher={<ViewToggle view={view} onChange={setView} lg />} />
           </m.div>
         )}
       </AnimatePresence>
+      {view === "grid" && <ViewDock />}
     </div>
   );
 }

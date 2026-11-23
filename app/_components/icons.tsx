@@ -162,6 +162,16 @@ export function GridDotsIcon(props: Props) {
   );
 }
 
+export function ImageIcon(props: Props) {
+  return (
+    <Svg {...props}>
+      <rect x="3" y="4" width="18" height="16" rx="2" />
+      <circle cx="9" cy="10" r="1.6" />
+      <path d="m21 16-5-5-9 9" />
+    </Svg>
+  );
+}
+
 export function ExpandIcon(props: Props) {
   return (
     <Svg {...props}>

@@ -13,6 +13,7 @@ Index is a searchable catalog of design resources for designers, developers, and
 - Inspiration galleries, design studios, designer portfolios, artists, and site references.
 - Design tools for coding agents, with installation and integration details where available.
 - Essays and learning resources with source links and concise summaries.
+- Mood: an infinite plane of design images and video at [/mood](https://index.chele.bi/mood/). See [Mood](#mood).
 
 Resources connect to a shared vocabulary of components and app surfaces. You can search for a specific component, such as a command palette, or a surface, such as onboarding or checkout.
 
@@ -22,9 +23,45 @@ Use the grid for visual previews or the list for a compact overview. Filter by c
 
 Resource pages combine source links with component coverage, pricing, license details, and evidence. Some pages also offer a structured prompt that you can copy into a coding agent. Unknown fields remain explicit instead of implying support.
 
-The interface has a sidebar, a grid view with infinite loading, a pannable canvas view, hover previews, a keyboard search palette, and light and dark themes.
+The interface has a sidebar, a grid view with infinite loading, an infinite canvas view, hover previews, a keyboard search palette, and light and dark themes.
+
+Browse, Categories, Components, Surfaces, Templates, Studios, Portfolios, and Learn open on the canvas. The switch at the bottom center of the page changes between the canvas and the grid view, and the choice is remembered. The canvas is the Mood plane from `app/mood`. Each page reads a static deck from `/canvas/<page>.json`, which `app/canvas/[deck]/route.ts` builds from `app/lib/canvas.ts` at build time.
 
 The Studios section lists design studios and agencies by discipline, and the Portfolios section lists personal designer sites. Both sections show the highest quality tier first. To add a studio, file its record in the `studios` category. To add a portfolio, file it in the `portfolios` category. A new subcategory in either category shows as a new group with no code change.
+
+## Mood
+
+[/mood](https://index.chele.bi/mood/) is one infinite plane of design images and video from designers, studios, and galleries. It was a separate site at mood.chele.bi before it moved into Index. The same plane is the canvas view of the other pages.
+
+| Part | Path |
+| --- | --- |
+| Route, components, layout engine | `app/mood/` |
+| Styles, all scoped under `.mood` | `app/mood/mood.css` |
+| Source data, edited by hand | `data/mood/boards.json`, `data/mood/tools.json` |
+| Generated payload, committed | `public/mood/data/mood.json` |
+| Scripts | `scripts/mood/` |
+| Media, not in Git | `public/media/` locally, the `moodboard-media` bucket behind `media.chele.bi` |
+
+Rules for changes:
+
+1. Keep `app/mood/lib/plane.ts` pure: no React, no DOM, and no `window`.
+2. Never write to the DOM from an input handler. The frame loop owns the transform.
+3. Keep every rule in `mood.css` under `.mood`, because Index keeps the file loaded after a visit.
+4. Do not store media paths for Mood images. The plane makes them from the image ID. An ID that starts with `/` is an Index image path, and the plane uses it for all three sizes. Index images exist in one size only, so smaller sizes in the media bucket would make zoomed-out pans faster.
+
+Keys on the plane: `/` searches the plane, `v` changes the layout, and `0` or `h` moves the camera back to the start. `⌘K` opens the Index search.
+
+Commands:
+
+- `npm run mood:data` rebuilds `public/mood/data/mood.json` from `data/mood/boards.json`. It needs every media file in `public/media/`. Commit the result. `npm run build` does not run it, because CI has no media files.
+- `npm run mood:ingest` adds the files in `media/incoming/`. It needs `cwebp` and `ffmpeg`.
+- `npm run mood:tool <url>` adds a site to the tools rail.
+- `npm run mood:media:push` copies `public/media/` to the bucket with `rclone`. It needs the tailnet and the `S3_ENDPOINT`, `S3_ACCESS_KEY_ID`, and `S3_SECRET_ACCESS_KEY` variables.
+- `npm run mood:sheets`, `npm run mood:remove`, and `npm run mood:import` make contact sheets, remove media, and import posts.
+
+The plane reads media from `https://media.chele.bi`. To use local files in `public/media/`, run `NEXT_PUBLIC_MEDIA_BASE= npm run dev`.
+
+Every Mood image belongs to the person who made it. Each record keeps its author and a link back to the source. The MIT license does not cover the media. See [LICENSE](LICENSE).
 
 ## Public data
 

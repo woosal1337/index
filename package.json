@@ -23,7 +23,14 @@
     "check": "npm run lint && npm test && npm run check:release && npm run build",
     "data": "node scripts/webp-dims.mjs && node scripts/build-data.mjs",
     "media:manifest": "node scripts/webp-dims.mjs --write-manifest",
-    "share:images": "node scripts/share-images.mjs"
+    "share:images": "node scripts/share-images.mjs",
+    "mood:data": "node scripts/mood/make-tiny.mjs && node scripts/mood/build-data.mjs",
+    "mood:ingest": "node scripts/mood/ingest.mjs",
+    "mood:tool": "node scripts/mood/add-tool.mjs",
+    "mood:sheets": "node scripts/mood/contact-sheet.mjs",
+    "mood:remove": "node scripts/mood/remove.mjs",
+    "mood:import": "node scripts/mood/import-web.mjs",
+    "mood:media:push": "./scripts/mood/media-push.sh"
   },
   "dependencies": {
     "motion": "^14.0.0",

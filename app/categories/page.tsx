@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Shell from "../_components/Shell";
+import CanvasView from "../_components/CanvasView";
 import { catStyle, PageHead } from "../_components/primitives";
 import { Reveal } from "../_components/motion";
 import { TagIcon } from "../_components/icons";
@@ -40,39 +41,40 @@ export default function CategoriesPage() {
         meta={`${rows.length} categories · ${resources.length.toLocaleString()} resources`}
         intro="Each category keeps one design axis separate. Open a category to filter its resources, or switch to the canvas to explore all of them."
       />
-
-      <ul className="cat-cards">
-        {rows.map((c, i) => (
-          <li key={c.slug}>
-            <Reveal className="h-full" delay={Math.min(i, 8) * 0.03}>
-              <Link href={`/categories/${c.slug}`} className="cat-card" style={catStyle(c.slug)}>
-                <span className="fan" aria-hidden>
-                  {[0, 1, 2].map((k) => {
-                    const shot = c.shots[k];
-                    return (
-                      <span key={k} className="fan-card">
-                        {shot ? (
-                          <img src={ogImageUrl(shot.key)} alt="" loading="lazy" decoding="async" />
-                        ) : (
-                          <span className="frame-mono">{monogram(c.name)}</span>
-                        )}
-                      </span>
-                    );
-                  })}
-                </span>
-                <span className="cat-name">
-                  <span className="dot" aria-hidden />
-                  {c.name}
-                </span>
-                <span className="cat-count">
-                  {c.n.toLocaleString()} {c.n === 1 ? "resource" : "resources"}
-                </span>
-                <span className="cat-desc">{c.description}</span>
-              </Link>
-            </Reveal>
-          </li>
-        ))}
-      </ul>
+      <CanvasView deck="browse">
+        <ul className="cat-cards">
+          {rows.map((c, i) => (
+            <li key={c.slug}>
+              <Reveal className="h-full" delay={Math.min(i, 8) * 0.03}>
+                <Link href={`/categories/${c.slug}`} className="cat-card" style={catStyle(c.slug)}>
+                  <span className="fan" aria-hidden>
+                    {[0, 1, 2].map((k) => {
+                      const shot = c.shots[k];
+                      return (
+                        <span key={k} className="fan-card">
+                          {shot ? (
+                            <img src={ogImageUrl(shot.key)} alt="" loading="lazy" decoding="async" />
+                          ) : (
+                            <span className="frame-mono">{monogram(c.name)}</span>
+                          )}
+                        </span>
+                      );
+                    })}
+                  </span>
+                  <span className="cat-name">
+                    <span className="dot" aria-hidden />
+                    {c.name}
+                  </span>
+                  <span className="cat-count">
+                    {c.n.toLocaleString()} {c.n === 1 ? "resource" : "resources"}
+                  </span>
+                  <span className="cat-desc">{c.description}</span>
+                </Link>
+              </Reveal>
+            </li>
+          ))}
+        </ul>
+      </CanvasView>
     </Shell>
   );
 }

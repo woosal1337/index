@@ -363,7 +363,6 @@
 .sb-item > .icon { width: 16px; height: 16px; color: var(--muted-fg); position: relative; z-index: 1; }
 .sb-item.is-active > .icon { color: var(--sidebar-fg); }
 .sb-item > span:not(.sb-pill) { position: relative; z-index: 1; }
-.sb-item.has-toggle { padding-right: 60px; }
 .sb-pill {
   position: absolute;
   inset: 0;
@@ -1018,17 +1017,6 @@ html[data-view="canvas"] .browse {
 }
 .canvas-stage.is-panning { cursor: grabbing; }
 .canvas-stage.is-panning .card-link { pointer-events: none; }
-.canvas-plane {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 0;
-  height: 0;
-  transform-origin: 0 0;
-  will-change: transform;
-}
-.canvas-item { position: absolute; width: 380px; }
-.canvas-item .frame { background: color-mix(in srgb, var(--muted-2) 80%, transparent); }
 .canvas-hud {
   position: absolute;
   left: 50%;
@@ -1048,13 +1036,14 @@ html[data-view="canvas"] .browse {
 }
 .canvas-hud .btn-icon { width: 32px; height: 32px; border: 0; box-shadow: none; background: transparent; }
 .canvas-hud .btn-icon:hover { background: var(--muted-2); }
-.canvas-zoom {
-  min-width: 52px;
-  text-align: center;
-  font-family: var(--font-mono);
-  font-size: 12px;
-  color: var(--muted-fg);
-  font-variant-numeric: tabular-nums;
+.view-dock {
+  position: sticky;
+  left: auto;
+  bottom: 16px;
+  z-index: 20;
+  justify-self: center;
+  width: max-content;
+  transform: none;
 }
 .canvas-hint {
   position: absolute;
