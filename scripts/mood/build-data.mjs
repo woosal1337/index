@@ -13,6 +13,10 @@ const thumbOf = (id) => `/media/${id}-thumb.webp`;
 const fullOf = (id) => `/media/${id}-full.webp`;
 const videoOf = (id) => `/media/video/${id}.mp4`;
 const onDisk = (webPath) => join(PUBLIC, webPath.replace(/^\//, ""));
+const remote = new Set(process.env.MOOD_MEDIA_LIST
+  ? readFileSync(process.env.MOOD_MEDIA_LIST, "utf8").split("\n").filter(Boolean).map((name) => `/media/${name}`)
+  : []);
+const present = (webPath) => remote.has(webPath) || existsSync(onDisk(webPath));
 
 const IMAGE = 0;
 const VIDEO = 1;
@@ -32,14 +36,14 @@ for (const b of boardsRaw) {
 
   for (const img of b.images ?? []) {
     const id = img.id;
-    const absent = [tinyOf, thumbOf, fullOf].filter((f) => !existsSync(onDisk(f(id))));
+    const absent = [tinyOf, thumbOf, fullOf].filter((f) => !present(f(id)));
     if (absent.length) {
       missing.push(`${id} (${absent.map((f) => f(id).split("-").pop()).join(", ")})`);
       continue;
     }
     let kind = IMAGE;
     if (img.isVideo) {
-      if (existsSync(onDisk(videoOf(id)))) {
+      if (present(videoOf(id))) {
         kind = VIDEO;
         videos++;
       } else {

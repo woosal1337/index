@@ -53,7 +53,7 @@ Keys on the plane: `/` searches the plane, `v` changes the layout, and `0` or `h
 
 Commands:
 
-- `npm run mood:data` rebuilds `public/mood/data/mood.json` from `data/mood/boards.json`. It needs every media file in `public/media/`. Commit the result. `npm run build` does not run it, because CI has no media files.
+- `npm run mood:data` rebuilds `public/mood/data/mood.json` from `data/mood/boards.json`. It needs every media file in `public/media/`, or in a bucket listing that `MOOD_MEDIA_LIST` names (one path under `media/` on each line, for example from `rclone lsf -R --files-only`). Commit the result. `npm run build` does not run it, because CI has no media files.
 - `npm run mood:ingest` adds the files in `media/incoming/`. It needs `cwebp` and `ffmpeg`.
 - `npm run mood:tool <url>` adds a site to the tools rail.
 - `npm run mood:media:push` copies `public/media/` to the bucket with `rclone`. It needs the tailnet and the `S3_ENDPOINT`, `S3_ACCESS_KEY_ID`, and `S3_SECRET_ACCESS_KEY` variables.

@@ -1,0 +1,888 @@
+[
+ {
+  "id": "user:6178860dbba0bccd",
+  "slug": "oriol-design",
+  "url": "https://www.oriol.design/",
+  "name": "Oriol.Design",
+  "tagline": "One-page portfolio of Oriol Bedia, a design leader in Barcelona who led teams at Typeform, Zalando and Bitpanda",
+  "description": "Oriol.Design is the personal site of Oriol Bedia, a product design leader in Barcelona. The page says he has 15+ years in design and 5+ years in leadership and design ops. It names Typeform, Zalando and Bitpanda as employers, and Design Manager at Bitpanda as his most recent role.\n\nThe page offers three roles: Design Leader, Design Manager and Design Mentor. Each role has five core skills and a booking link. The mentor block gives a 4.8 rating and 100+ sessions. Short case blocks follow, for example a Typeform design and research team that grew from 5 to 15 people.\n\nThe site is built in Framer. The page says he is open to work, full-time, on a permanent or freelance basis.",
+  "category": "portfolios",
+  "subcategory": "designer-portfolios",
+  "kinds": [
+   "portfolio",
+   "profile"
+  ],
+  "facets": {
+   "framework": [
+    "framer"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "not-applicable"
+   ],
+   "pricing": [
+    "not-applicable"
+   ],
+   "distribution": [
+    "gallery"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "profile"
+   ],
+   "agent_readiness": [
+    "none"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "homepage"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": null,
+  "pricing_detail": "The page shows no prices. Contact is by email (hola@oriol.design) or a booking link.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Fetch the home page. Framer renders the text into the HTML, so a plain fetch returns the bio, the three role blocks and the case summaries. Each block appears three or four times, one copy for each breakpoint. Remove the copies before you quote the text.\n\nThe sitemap lists only the home page and /404. The site has no case-study pages and no llms.txt.",
+  "why_it_matters": "It shows how a design manager presents leadership work: team size, process and outcomes, with few screens.",
+  "quality_tier": "C",
+  "tier_reason": "The bio, the employers and the team-growth numbers are in the HTML. Held at C because the work is short text blocks with no case-study pages, and the sitemap lists only the home page.",
+  "notable_for": [
+   "design leadership at Typeform, Zalando and Bitpanda",
+   "three offers: leader, manager, mentor",
+   "4.8 mentor rating over 100+ sessions",
+   "one-page Framer site"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-11-24",
+  "source": "user",
+  "evidence": "Checked https://www.oriol.design/ on 2026-11-24. HTTP 200, 1,572,170 bytes, meta generator \"Framer 0918601\". Title \"Oriol.Design | Kind Design Lead – Design Leader, Design Manager, Design Mentor\". The page reads \"Over the past years, I led teams across B2B SaaS, B2C e-commerce, fintech, and Web3 at Typeform, Zalando, and Bitpanda.\", \"Most recently, Design Manager at Bitpanda.\" and \"I helped scale a design & research team from 5 to 15 by setting-up its culture and processes\". /sitemap.xml 200 lists / and /404. /llms.txt 404."
+ },
+ {
+  "id": "user:ad29df5ac4953e7c",
+  "slug": "ugur-turgut",
+  "url": "https://www.ugurturgut.com/",
+  "name": "Ugur Turgut",
+  "tagline": "Brand, product and web designer in New York whose project work sits behind a password",
+  "description": "Ugur Turgut is a designer who works on brand strategy, visual identity, product design and websites. The page shows a New York clock in Eastern Time. It lists nine services, from Brand Strategy to No-code Development.\n\nMost of the public text is an essay about brands whose look, message and product do not connect. The project work is not public. A \"Private work\" panel asks for a password, and visitors without one must ask for access.\n\nThe site is hand-written HTML, CSS and JavaScript (css/site.css and js/main.js), with no framework markers. Contact is through X, LinkedIn, email and a Cal.com link.",
+  "category": "portfolios",
+  "subcategory": "designer-portfolios",
+  "kinds": [
+   "portfolio"
+  ],
+  "facets": {
+   "framework": [
+    "vanilla"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "not-applicable"
+   ],
+   "pricing": [
+    "not-applicable"
+   ],
+   "distribution": [
+    "gallery"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "profile"
+   ],
+   "agent_readiness": [
+    "auth-required"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "homepage"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": null,
+  "pricing_detail": "The page shows no prices. Contact is by email or a Cal.com booking link.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Fetch the home page for the services list and the essay text. Do not expect case studies. The work is behind a password, so an agent cannot read it.\n\n/llms.txt and /sitemap.xml both return HTTP 200, but they serve the home page HTML. Treat both files as absent.",
+  "why_it_matters": "It is a designer site that sells with written positioning and keeps the portfolio private.",
+  "quality_tier": "C",
+  "tier_reason": "The services list and the positioning essay are in the HTML. Held at C because the project work needs a password, so no case study can be checked.",
+  "notable_for": [
+   "project work behind a password",
+   "long essay on brand coherence",
+   "nine listed services",
+   "hand-written HTML, CSS and JavaScript"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-11-24",
+  "source": "user",
+  "evidence": "Checked https://www.ugurturgut.com/ on 2026-11-24. HTTP 200, 21,726 bytes. Title \"Ugur Turgut\", meta description \"Make your value clear. Your product easier to use.\" The page reads \"Your partner in strategy, brand & digital.\", \"I design brands, websites and digital experiences that help people get to know your business, understand its value and use your product with ease.\" and \"No password? Ask for access\". The HTML loads css/site.css and js/main.js and no framework bundle. /llms.txt and /sitemap.xml both return 200 with the home page HTML, so neither file exists."
+ },
+ {
+  "id": "user:9a4e86ecf91e611d",
+  "slug": "kuba-gawlik",
+  "url": "https://heykuba.com/",
+  "name": "Kuba Gawlik",
+  "tagline": "Portfolio of a designer in Cracow who makes brands and Framer websites for tech and AI companies",
+  "description": "heykuba.com is the portfolio of Kuba Gawlik, a designer in Cracow, Poland. He makes brands and websites, mostly for tech and AI companies. The page lists ten client projects, among them BTQ, PayPath, Bynario, Concourse, The Signal, PAX and Cluster. Each project has a short summary and a scope tag such as \"web + brand + 3d\". All but one link to the live site.\n\nAn FAQ explains the process. He builds only in Framer, with the developer Kamil Leśniak. Most projects take 4 to 8 weeks, and communication runs on Slack or Telegram.\n\nThe page lists features and awards, for example an Awwwards Honourable Mention and seven Land-book features. The site is built in Framer.",
+  "category": "portfolios",
+  "subcategory": "designer-portfolios",
+  "kinds": [
+   "portfolio",
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "framer"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "not-applicable"
+   ],
+   "pricing": [
+    "not-applicable"
+   ],
+   "distribution": [
+    "gallery"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "profile"
+   ],
+   "agent_readiness": [
+    "none"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "homepage"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": null,
+  "pricing_detail": "The page shows no prices. A form requests a quote, and the FAQ says scope, timeline and budget are agreed on a short call.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Fetch the home page. The project summaries, the FAQ and the about text are in the HTML. The project list appears more than once, one copy for each breakpoint.\n\nFollow the LIVE SITE links to see the shipped work. The sitemap lists only the home page, and the site has no llms.txt.",
+  "why_it_matters": "It is a solo designer site that names real clients, links to each live site and states the process and project length.",
+  "quality_tier": "B",
+  "tier_reason": "Ten named client projects, nine with live-site links, and the FAQ gives the build tool, the team and a 4 to 8 week timeline. Held at B because each project is a short summary on one page, with no case-study pages, and the sitemap lists only the home page.",
+  "notable_for": [
+   "ten named client projects",
+   "Framer-only builds with a partner developer",
+   "4 to 8 week project length",
+   "brands and websites for tech and AI companies"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-11-24",
+  "source": "user",
+  "evidence": "Checked https://heykuba.com/ on 2026-11-24. HTTP 200, 981,894 bytes, meta generator \"Framer a050651\". Title \"Design that converts more users, build trust, and turns traffic into real business results\". The page reads \"At the moment, I focus exclusively on Framer development.\", \"Most projects take 4–8 weeks, depending on scope.\" and \"I do the work myself. That hasn't changed, and I don't plan on it changing.\" The footer reads \"Cracow, Poland\" and \"© 2026 Kuba Gawlik\". /sitemap.xml 200 lists only https://heykuba.com/. /llms.txt 404."
+ },
+ {
+  "id": "user:eb168a8cfeea850b",
+  "slug": "marius-balaj",
+  "url": "https://balajmarius.com/",
+  "name": "Marius Bălaj",
+  "tagline": "Personal site of an engineer turned founder, with writing, a bookshelf and a training log",
+  "description": "Marius Bălaj is a software engineer and founder in Romania. In 2021 he co-founded QED, which Sandbox acquired. He is now Managing Director (Romania) at Sandbox. Before that he was a senior engineer at stake.fish / f2pool.io and a lead engineer at Alacritylaw.\n\nThe home page is a short column of text. It holds the bio, an experience list with dates, recent writing, a bookshelf and his latest training sessions. He is also president of Viitorul Boxing Club.\n\nThe site runs on Next.js. It publishes an llms.txt and a sitemap. The llms.txt names an article about the Sandbox design system, built with Vue, Nuxt, Tailwind and CVA.",
+  "category": "portfolios",
+  "subcategory": "designer-portfolios",
+  "kinds": [
+   "portfolio",
+   "profile"
+  ],
+  "facets": {
+   "framework": [
+    "next",
+    "react"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "not-applicable"
+   ],
+   "pricing": [
+    "not-applicable"
+   ],
+   "distribution": [
+    "gallery"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "profile",
+    "prose"
+   ],
+   "agent_readiness": [
+    "llms-txt",
+    "machine-index"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "homepage"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": null,
+  "pricing_detail": "No prices. This is a personal site, not a service page.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Read /llms.txt first. It gives the bio, the experience and the list of writing in plain Markdown. Use /sitemap.xml to list the twelve pages, mostly under /writings/.\n\nThis is an engineer's site, not a design case-study portfolio. Use it as a reference for a quiet text-first personal homepage.",
+  "why_it_matters": "It is a text-first personal homepage that also publishes an llms.txt for agents.",
+  "quality_tier": "B",
+  "tier_reason": "The bio, the experience dates and the writing list are in the HTML, in /llms.txt and in a twelve-URL sitemap. Held at B because the site shows no design work, and the home page is a short text column.",
+  "notable_for": [
+   "publishes llms.txt",
+   "QED co-founder, acquired by Sandbox",
+   "writing on the Sandbox design system",
+   "live training log on the home page"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-11-24",
+  "source": "user",
+  "evidence": "Checked https://balajmarius.com/ on 2026-11-24. HTTP 200, 340,305 bytes, Next.js with turbopack chunks under /_next/. Title \"Marius Bălaj\", meta description \"Engineer turned founder.\" The page reads \"In 2021, I co-founded QED and grew it from zero to acquisition by Sandbox\", \"Outside of work, I box.\" and \"I’m the president of Viitorul Boxing Club\". The training block showed a session dated Nov 23. /llms.txt 200 (text/plain) with the bio, the experience and the writing list. /sitemap.xml 200 with 12 URLs."
+ },
+ {
+  "id": "user:f1ffbb2320a8da0f",
+  "slug": "aaron-sananes",
+  "url": "https://www.sananes.co/",
+  "name": "Aaron Sananes",
+  "tagline": "Portfolio of a design engineer from the Canary Islands, built with SolidStart and GSAP",
+  "description": "Aaron Sananes is a design engineer and product designer based in Spain. The page lists Design Engineer at Bask Health from 2025, Senior Product Designer at TB Auctions from 2020 to 2025, and Pixel Union from 2012 to 2019. It also lists startups he co-founded: Conflux, Bookables and Supaflags.\n\nThe work section names seven projects. TB Auctions and Rovu have short summaries. The others are one line with a link. A tech stack list names Figma, React, SolidJS, Next.js, GSAP, Tailwind, Sanity and Supabase.\n\nThe site is built with SolidStart and uses GSAP and Lenis. Some page text is filler, for example \"019asda123123123\".",
+  "category": "portfolios",
+  "subcategory": "designer-portfolios",
+  "kinds": [
+   "portfolio"
+  ],
+  "facets": {
+   "framework": [
+    "solid"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "not-applicable"
+   ],
+   "pricing": [
+    "not-applicable"
+   ],
+   "distribution": [
+    "gallery"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "profile"
+   ],
+   "agent_readiness": [
+    "none"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "homepage"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": null,
+  "pricing_detail": "The page shows no prices. Contact is through a Cal.com booking link.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Fetch the home page. The experience list and the project list are in the server-rendered HTML. Ignore the filler strings such as \"019asda123123123\" and \"0101010101\".\n\nThe page says both \"Available for work\" and \"2025 - Present\" at Bask Health. Do not state his current employment as a fact. /llms.txt and /sitemap.xml return 404.",
+  "why_it_matters": "It is a design engineer portfolio that pairs a product-design career with a stated code stack.",
+  "quality_tier": "C",
+  "tier_reason": "The experience dates and the project names are in the HTML. Held at C because most projects are one line and a link, filler strings show in the page text, and the site has no sitemap or llms.txt.",
+  "notable_for": [
+   "design engineer with a stated stack",
+   "SolidStart build with GSAP and Lenis",
+   "TB Auctions and Pixel Union experience",
+   "filler strings in the page text"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-11-24",
+  "source": "user",
+  "evidence": "Checked https://www.sananes.co/ on 2026-11-24. HTTP 200, 101,958 bytes. The HTML loads /_build/assets/client-*.js and carries data-hk attributes, which are SolidStart markers. Title \"Aaron Sananes | Senior Product Designer & Creative Web Developer\". The page reads \"Over a decade of experience in design and development, specializing in crafting intuitive, user-focused interfaces for websites, apps, and digital products.\", \"Design Engineer at Bask Health, where I handle the design and engineering of the next generation telehealth platform.\" and \"Born and raised in Canary Islands, Spain.\" /llms.txt 404. /sitemap.xml 404."
+ },
+ {
+  "id": "user:d007d34e3a8a888d",
+  "slug": "jackie-zhang",
+  "url": "https://jackiezhang.co.za/",
+  "name": "Jackie Zhang",
+  "tagline": "Portfolio of a product designer in Cape Town, with work at Bash, Heygo and Pulse",
+  "description": "Jackie Zhang is a product designer in Cape Town, South Africa. The home page gives three beliefs and a short list of personal notes. The site says it is a work in progress and asks mobile visitors to use a desktop.\n\nThe /work page lists roles and results. At Bash, a payment portal raised the payment success rate to 80%. At Heygo, a streaming interface raised tipping by 8% per stream. Pulse let athletes upload GoPro footage. Side projects include Drift, TF2048 and Who's Speaking.\n\nThe site is built in Framer. The sitemap lists three case-study pages: Heygo creator, Pulse event and Balwin Fibre.",
+  "category": "portfolios",
+  "subcategory": "designer-portfolios",
+  "kinds": [
+   "portfolio"
+  ],
+  "facets": {
+   "framework": [
+    "framer"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "not-applicable"
+   ],
+   "pricing": [
+    "not-applicable"
+   ],
+   "distribution": [
+    "gallery"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "profile"
+   ],
+   "agent_readiness": [
+    "machine-index"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "about"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": null,
+  "pricing_detail": "No prices. The site is a job-seeking portfolio, not a service page.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Fetch /work, not the home page. The home page repeats one marquee of personal notes many times in the HTML. /work holds the employers, the projects and the result numbers.\n\nUse /sitemap.xml to find the three case studies under /case-studies/. They were not opened for this record. The site has no llms.txt.",
+  "why_it_matters": "It is a playful product designer portfolio that still states results with numbers.",
+  "quality_tier": "C",
+  "tier_reason": "The /work page gives employers, projects and two result numbers, and the sitemap lists three case studies. Held at C because the site says it is a work in progress that is not ready for mobile, and the case studies were not opened.",
+  "notable_for": [
+   "result numbers on the work page",
+   "Bash, Heygo and Pulse projects",
+   "work in progress, desktop first",
+   "three case studies in the sitemap"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-11-24",
+  "source": "user",
+  "evidence": "Checked https://jackiezhang.co.za/ and https://jackiezhang.co.za/work on 2026-11-24. Both HTTP 200, meta generator \"Framer beb597f\". Title \"Jackie Zhang\". The meta description reads \"I design tools that help people do their best work.\" The home page reads \"It is still quite a work in progress, especially for mobile!\" /work reads \"Payment portal that increased payment success rate to 80%\". /sitemap.xml 200 with 6 URLs, among them /case-studies/heygo-creator, /case-studies/pulse-event and /case-studies/balwin-fibre. /llms.txt 404."
+ },
+ {
+  "id": "user:8351bc23e1d0e8b3",
+  "slug": "saugat",
+  "url": "https://saugat.xyz/",
+  "name": "Saugat",
+  "tagline": "Portfolio of a software designer who builds 0-to-1 products and vibecoded tools",
+  "description": "Saugat is a software designer who works on 0-to-1 products. The home page says he uses AI to design the whole experience, from canvas to code. A filter sorts the work into Product, Website and Vibecoded.\n\nThe page lists five projects. Meadow is an asset library for designers that runs on local AI. Tenor is a DeFi protocol for fixed-rate borrowing. XRAY is a blockchain scanner. Drip is a lot-style auction app for physical collectibles. Solana is a website.\n\nThe site runs on Next.js. Each project has its own page in the sitemap. Contact is through X.",
+  "category": "portfolios",
+  "subcategory": "designer-portfolios",
+  "kinds": [
+   "portfolio"
+  ],
+  "facets": {
+   "framework": [
+    "next",
+    "react"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "not-applicable"
+   ],
+   "pricing": [
+    "not-applicable"
+   ],
+   "distribution": [
+    "gallery"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "profile"
+   ],
+   "agent_readiness": [
+    "machine-index"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "homepage"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": null,
+  "pricing_detail": "No prices. Contact is through X direct messages.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Fetch the home page for the project list and the one-line summaries. Use /sitemap.xml to find the five project pages and /notes. The project pages were not opened for this record.\n\nThe site has no llms.txt.",
+  "why_it_matters": "It is a product designer portfolio that tags work as vibecoded and shows shipped software.",
+  "quality_tier": "C",
+  "tier_reason": "Five projects with one-line summaries are in the HTML, and the sitemap lists a page for each one. Held at C because the home page holds little text, and the project pages were not opened.",
+  "notable_for": [
+   "Product, Website and Vibecoded filter",
+   "five 0-to-1 projects",
+   "Meadow, an asset library on local AI",
+   "one sitemap page for each project"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-11-24",
+  "source": "user",
+  "evidence": "Checked https://saugat.xyz/ on 2026-11-24. HTTP 200, 130,157 bytes, Next.js app-router chunks under /_next/. Title \"Saugat - Portfolio\", meta description \"Software designer specializing in 0 - 1 work\". The page reads \"software designer using AI to design the end to end experience, from canvas to code.\", \"Asset library for designers powered by local AI\" and \"Blockchain scanner for humans\". /sitemap.xml 200 with 7 URLs: /, /notes, /drip-auctions, /solana, /x-ray, /tenor and /meadow. /llms.txt 404."
+ },
+ {
+  "id": "user:bbdd1e8d0da9066b",
+  "slug": "thibaut-crepelle",
+  "url": "https://www.thibaut.cool/",
+  "name": "Thibaut Crépelle",
+  "tagline": "Portfolio of a 3D and motion freelancer in France who renders retro products and built an iMac G3 parody site",
+  "description": "Thibaut Crépelle is a self-taught 3D and motion designer in the north of France. Most projects are 3D studies of retro products: Macintosh 128k, Konica Pop, Walkman WM-22 and The Nostalgia Alphabet. From 2021 to 2024 he was a motion designer at Specify, where he made a 3D identity and launch assets.\n\nThe /g3 page is a full personal project from 2025. It parodies an Apple product page for the iMac G3 and uses Rive animations and custom Three.js shaders. The Nostalgia Alphabet offers its Plasticity files as a download on Google Drive.\n\nHe names Cinema 4D, Octane, Plasticity, Rive, Spline and Three.js as his tools. The site is built in Framer.",
+  "category": "portfolios",
+  "subcategory": "designer-portfolios",
+  "kinds": [
+   "portfolio"
+  ],
+  "facets": {
+   "framework": [
+    "framer"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "not-applicable"
+   ],
+   "pricing": [
+    "not-applicable"
+   ],
+   "distribution": [
+    "gallery"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "profile",
+    "3d",
+    "video"
+   ],
+   "agent_readiness": [
+    "image-only"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "homepage"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": null,
+  "pricing_detail": "The page shows no prices. Contact is by email, a Calendly link or X.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Fetch the home page for the project list and the about text. Open /g3 for the iMac G3 page. The project breakdowns are on Behance, and the page links to each one.\n\nThe work is 3D renders and video, so an agent needs a vision pass to judge it. The sitemap also lists a /test page. The site has no llms.txt.",
+  "why_it_matters": "It is a 3D motion portfolio with one strong theme, retro hardware, and one full web project that shows the same theme in the browser.",
+  "quality_tier": "B",
+  "tier_reason": "Named projects link to Behance breakdowns, a full interactive /g3 page shows web work, and source files are offered as a download. Held at B because the value is in renders and video, and the home page repeats each block for each breakpoint.",
+  "notable_for": [
+   "3D studies of retro products",
+   "iMac G3 parody page with Rive and Three.js",
+   "free Plasticity source files",
+   "motion designer at Specify, 2021 to 2024"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-11-24",
+  "source": "user",
+  "evidence": "Checked https://www.thibaut.cool/ and https://www.thibaut.cool/g3 on 2026-11-24. Both HTTP 200, meta generator \"Framer 4e1e732\". Title \"Thibaut Crépelle\", meta description \"Remote 3D Motion Design Freelance based in Lille, France\". The page reads \"Thibaut Crépelle, 3D & Motion generalist freelance who makes products dance.\", \"From 2021 to 2024, I have been a Motion Designer at Specify\" and \"I was able to go quite deep with Rive animations and custom ThreeJs shaders.\" /g3 has the title \"iMac G3\". /sitemap.xml 200 lists /, /g3 and /test. /llms.txt 404."
+ },
+ {
+  "id": "user:16e1c72223e2b30b",
+  "slug": "huy-phan",
+  "url": "https://huyml.co/",
+  "name": "Huy Phan",
+  "tagline": "Portfolio of a web designer and art director in Ho Chi Minh City with a long awards list",
+  "description": "Huy Phan (Huyml) is a designer and art director in Ho Chi Minh City, Vietnam. He designs websites for agencies, studios and startups, and the about page says he started in 2018. It names Unilever, VinPearl and Serious Business among his clients.\n\nThe about page lists awards with counts, for example 13 Awwwards Sites of the Day, 14 CSSDA Websites of the Day and 12 FWA of the Day. It also gives a six-step process. Step two is to design one page first, usually the home page.\n\nThe site is built in Framer. The sitemap lists 20 project pages, a playground and an about page. The home page links to the BT Glyphius and BT Grotesk fonts on MyFonts.",
+  "category": "portfolios",
+  "subcategory": "designer-portfolios",
+  "kinds": [
+   "portfolio"
+  ],
+  "facets": {
+   "framework": [
+    "framer"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "not-applicable"
+   ],
+   "pricing": [
+    "not-applicable"
+   ],
+   "distribution": [
+    "gallery"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "profile"
+   ],
+   "agent_readiness": [
+    "machine-index"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "homepage",
+   "about"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": null,
+  "pricing_detail": "The pages show no prices.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Fetch /about for the awards, the client list and the process. Use /sitemap.xml to list the 20 project pages under /project/. The project pages were not opened for this record.\n\nThe home carousel names eight projects. Only Mathijs Hanenkamp also appears in the sitemap. Do not cite the other carousel names as client work. The site has no llms.txt.",
+  "why_it_matters": "It is an award-focused web designer portfolio with a stated process and a full list of project pages.",
+  "quality_tier": "B",
+  "tier_reason": "The awards with counts, the client names, the six-step process and a 20-project sitemap are all on the live site. Held at B because the awards are self-reported here, the project pages were not opened, and seven home carousel names do not match any sitemap project.",
+  "notable_for": [
+   "13 Awwwards Sites of the Day, as stated",
+   "six-step process, one page first",
+   "20 project pages in the sitemap",
+   "BT Glyphius and BT Grotesk type"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-11-24",
+  "source": "user",
+  "evidence": "Checked https://huyml.co/ and https://huyml.co/about on 2026-11-24. Both HTTP 200, meta generator \"Framer c292b3e\". Title \"Huy Phan - Award-winning designer\", meta description \"Huy Phan (Huyml) is an award-winning designer and art director based in Ho Chi Minh city, Vietnam.\" /about reads \"Awwwards Site of the Day (13)\", \"I don’t have a particular design style.\" and \"Usually the homepage to establish the direction.\" /sitemap.xml 200 with 22 URLs, among them 20 under /project/. /llms.txt 404."
+ },
+ {
+  "id": "user:6374329e420ba03e",
+  "slug": "design-gal-studio",
+  "url": "https://www.designgal.studio/",
+  "name": "Design Gal Studio",
+  "tagline": "One-person web and product design practice of Christine Maggi, now focused on femtech and women's health",
+  "description": "Design Gal Studio is the practice of Christine Maggi, an independent web and UX designer in the San Francisco Bay Area. She offers web design and development, and product design, to startups. The page says she has 15+ years of experience and works with clients directly, with no account managers.\n\nThe page says she now specializes in femtech and women's health. It offers a free femtech UX checkup with a live review call. Testimonials come from founders at Pelby, Rebound Athletic, Cervu Health and Grain Fertility.\n\nThe work tiles describe projects by type, for example an AI-powered parenting app website, and do not name the clients. The site is built in Framer.",
+  "category": "portfolios",
+  "subcategory": "designer-portfolios",
+  "kinds": [
+   "portfolio",
+   "service"
+  ],
+  "facets": {
+   "framework": [
+    "framer"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "not-applicable"
+   ],
+   "pricing": [
+    "not-applicable"
+   ],
+   "distribution": [
+    "gallery"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "profile"
+   ],
+   "agent_readiness": [
+    "none"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "homepage"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": null,
+  "pricing_detail": "The page shows no prices. The FAQ asks \"How much do your services cost?\", but the answer is not in the fetched HTML. The femtech UX checkup is free.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Fetch the home page for the services, the femtech offer and the testimonials. The FAQ answers are not in the HTML, so a plain fetch cannot read them.\n\nThe work tiles name project types, not clients. The sitemap lists only the home page, and the site has no llms.txt.",
+  "why_it_matters": "It is a solo design practice that narrows its offer to one sector, femtech and women's health.",
+  "quality_tier": "C",
+  "tier_reason": "The services, the femtech offer and four named testimonials are in the HTML. Held at C because the work tiles do not name clients or link to case studies, and the FAQ answers are not in the HTML.",
+  "notable_for": [
+   "focus on femtech and women's health",
+   "free UX checkup offer",
+   "testimonials from four startup founders",
+   "one-page Framer site"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-11-24",
+  "source": "user",
+  "evidence": "Checked https://www.designgal.studio/ on 2026-11-24. HTTP 200, 711,588 bytes, meta generator \"Framer 53eda0e\". Title \"Design Gal Studio\". The meta description reads \"Home of independent designer Christine Maggi. Offering web design and UX design services for mission-driven startups.\" The page reads \"Helping mission-driven startups win customers & funding through expert web and product design\" and \"Now specializing in design for Femtech\". /sitemap.xml 200 lists only the home page. /llms.txt 404."
+ },
+ {
+  "id": "user:cdf1686a47a8af52",
+  "slug": "nero-lorenzo-bocchi",
+  "url": "https://nero.lorenzobocchi.com/",
+  "name": "Nero",
+  "tagline": "Black and white photo journal by Lorenzo Bocchi, shot on iPhone and Fujifilm, with Flow, Grid and Map views",
+  "description": "Nero is a black and white photo journal by Lorenzo Bocchi, a designer and developer in Sydney. Until October 2026 the project was called Shot on iPhone in Black & White. The old address redirects here. Its llms files say it holds more than 450 photographs from 2023 to today, mostly from Australia and Japan.\n\nThe site has three views. Flow shows the photographs on a 3D spiral, newest first. Grid shows every photograph with its date and country. Map places each photograph where it was taken.\n\nThe site runs on Next.js. It publishes an llms.txt and an llms-full.txt. The full file lists the cameras and says each photograph carries its date, country and camera settings.",
+  "category": "artists-creators",
+  "subcategory": "artist-profiles",
+  "kinds": [
+   "gallery",
+   "portfolio"
+  ],
+  "facets": {
+   "framework": [
+    "next",
+    "react"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "not-applicable"
+   ],
+   "pricing": [
+    "not-applicable"
+   ],
+   "distribution": [
+    "gallery"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "images",
+    "prose"
+   ],
+   "agent_readiness": [
+    "llms-txt",
+    "machine-index",
+    "image-only"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [
+   "homepage"
+  ],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": null,
+  "pricing_detail": "Free to view. The site states no license for the photographs.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Read /llms-full.txt first. It gives the project history, the cameras, the countries and the three views in plain text. Use /grid for the date and country of each photograph.\n\nThe photographs are the value, so an agent needs a vision pass to judge them. The site states no license, so do not reuse the images.",
+  "why_it_matters": "It is a photo archive that gives one image set three ways to browse, and it describes itself for agents in llms.txt.",
+  "quality_tier": "B",
+  "tier_reason": "The site has llms.txt, llms-full.txt, a sitemap and three working views, and the grid shows dates and countries in the HTML. Held at B because the photographs need a vision pass, and the site states no license.",
+  "notable_for": [
+   "Flow, Grid and Map views of one archive",
+   "450+ black and white photographs",
+   "renamed from Shot on iPhone in Black & White",
+   "publishes llms.txt and llms-full.txt"
+  ],
+  "already_enriched": false,
+  "http_status": 200,
+  "verified_at": "2026-11-24",
+  "source": "user",
+  "evidence": "Checked https://shotoniphone.lorenzobocchi.com/ on 2026-11-24. It redirects to https://nero.lorenzobocchi.com/, HTTP 200, 483,895 bytes, meta generator \"Next.js\". The title is \"Nero\", a dash, then \"Black & White Photography by Lorenzo Bocchi\". The page reads \"The beautiful dark of life.\", \"One device, always with me.\" and \"Nero is Italian for black.\" /grid 200 shows entries such as \"Nov 11, 2026 Cook Islands\". /llms-full.txt 200 reads \"Until October 2026 the project was called Shot on iPhone in Black & White\". /llms.txt 200 (text/plain). /sitemap.xml 200 lists /, /grid and /map."
+ }
+]

@@ -1,0 +1,765 @@
+[
+ {
+  "id": "user:41f0d47420cb14fd",
+  "slug": "park-photos",
+  "url": "https://www.park.photos/",
+  "name": "Park",
+  "tagline": "Minimal landscape photos of US parks and coasts, free to download for personal use",
+  "description": "Park is a photography site by Rishad. It shows minimal landscape photos of US national parks, state reserves and coastlines, such as Big Sur, Mount Rainier, Yosemite, Joshua Tree and Theodore Roosevelt National Park. The hero marks the set as Vol 2.\n\nThe homepage holds 57 photo tiles. Each tile has a place label and a direct download link to a JPEG file. The page says the photos are free for personal use. It gives a separate email address for higher-resolution files for print. The page has no license page and no commercial terms.\n\nThe site is built with Framer. It links to the author's site, rishad.design, and to an Instagram account.",
+  "category": "artists-creators",
+  "subcategory": "artist-profiles",
+  "kinds": [
+   "portfolio",
+   "gallery"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "free-for-personal"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "gallery",
+    "download"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "not-applicable"
+   ],
+   "content_type": [
+    "images"
+   ],
+   "agent_readiness": [
+    "image-only"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": null,
+  "pricing_detail": "Free to download for personal use, as the homepage states. The page states no commercial terms. Higher-resolution files for print are available by email request.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 57,
+   "blocks": null
+  },
+  "agent_guidance": "Fetch the homepage HTML. Each photo tile carries a place label and a direct download link, so a plain fetch lists all 57 files.\n\nUse the photos for personal projects or as mood reference only. The page grants personal use and states no commercial license, so do not put them in a client or commercial build without asking the author.",
+  "why_it_matters": "It is a small, consistent set of quiet landscape photos with direct download links. It is useful as mood reference for travel and outdoor work.",
+  "quality_tier": "B",
+  "tier_reason": "57 labelled photos with direct downloads and a clear personal-use statement. Held at B because there is no license page, no commercial terms, no title or date for each photo, and the sitemap lists only the homepage.",
+  "notable_for": [
+   "57 downloadable landscape photos",
+   "free for personal use",
+   "US national parks and coastlines",
+   "built with Framer"
+  ],
+  "already_enriched": true,
+  "http_status": 200,
+  "verified_at": "2026-11-24",
+  "source": "user",
+  "evidence": "Checked https://www.park.photos/ on 2026-11-24: HTTP 200, title \"Park — America's natural wonders minimally captured\", generator Framer. Quotes: \"From minimal photos of majestic National Parks to serene State Reserves and scenic coastlines, each photo invites you to explore.\" \"Complimentary for personal use\". \"Looking for even higher resolution photos for your print projects?\" The page shows 57 labelled tiles, each with a download link to framerusercontent.com, and credits \"By Rishad\" with a link to https://www.rishad.design/. /llms.txt returned 404. /sitemap.xml returned 200 and lists only the homepage."
+ },
+ {
+  "id": "user:c6534c400696f0dc",
+  "slug": "vs-goods",
+  "url": "https://vs-goods.store/",
+  "name": "VS/Goods",
+  "tagline": "Store of mockups, animated showcases and interactive templates for Figma and Jitter",
+  "description": "VS/Goods is a store for mockups, templates and creative assets. The meta description says the assets are made for Figma, Jitter and more. Product types on the homepage include interactive mockups, animated showcases, interactive galleries, interactive sliders, web openers, brand books and AI workflows. Each product credits a designer, and the homepage lists the designers and studios who contribute.\n\nThe sitemap lists 65 product pages. Single products on the homepage cost from 29,00 € to 149,00 €, and several are marked \"Try for free\". A lifetime plan gives all current and future templates for a one-time 199 €. The FAQ says you do not need a subscription, that client work is allowed, and that third-party software is not included.\n\nThe store runs on WordPress with WooCommerce. Bought files stay in My Account under Downloads, and updates are free to download again.",
+  "category": "textures-assets",
+  "subcategory": "mockups-and-asset-packs",
+  "kinds": [
+   "asset-pack",
+   "template",
+   "marketplace"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "commercial"
+   ],
+   "pricing": [
+    "paid",
+    "one-time",
+    "free"
+   ],
+   "distribution": [
+    "marketplace",
+    "download",
+    "figma-file"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "figma",
+    "video",
+    "images"
+   ],
+   "agent_readiness": [
+    "none"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": null,
+  "pricing_detail": "Single products on the homepage cost 29,00 € to 149,00 €, and some are free to try. The lifetime page shows 199 €, 399 € and 649 €, and its plan box reads \"One-time 199 €\" for the full catalog. The FAQ says no subscription is needed and client work is allowed. The lifetime page forbids resale.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 65,
+   "blocks": null
+  },
+  "agent_guidance": "Use VS/Goods when a launch or a portfolio needs an animated mockup or showcase made in Figma or Jitter. The files open in those tools. They are not code components, so you cannot install them into a project.\n\nRead the product page for the tool and the editable parts before you buy. The FAQ allows client work, and the lifetime page forbids resale. The tools themselves, such as Jitter, are not included.",
+  "why_it_matters": "It sells motion-ready mockups and showcase templates by named designers, with free samples and stated client-work terms.",
+  "quality_tier": "B",
+  "tier_reason": "Prices, product types, free items and client-work terms are on live pages, and the sitemap lists 65 products. Held at B because no full license document was checked and the files work only inside third-party tools.",
+  "notable_for": [
+   "65 product pages in the sitemap",
+   "Figma and Jitter templates",
+   "products credited to named designers",
+   "lifetime plan at 199 € one time",
+   "client work allowed, no resale"
+  ],
+  "already_enriched": true,
+  "http_status": 200,
+  "verified_at": "2026-11-24",
+  "source": "user",
+  "evidence": "Checked https://vs-goods.store/, https://vs-goods.store/how-it-works/ and https://vs-goods.store/lifetime/ on 2026-11-24, all HTTP 200. Homepage title \"VS/Goods - Plug-and-play mockups created by hot designers for real creators\". Quotes: \"Premium mockups, templates and creative assets for designers. Made for Figma, Jitter and more.\" (meta description). \"We happened to do a few templates for Jitter that was so much fun we decided to created our own mockup shop.\" From the FAQ: \"Your purchase includes the VS/Goods assets, not the software used to open or edit them.\" From the lifetime page: \"Use on client projects without extra fees (just don’t resale).\" /llms.txt returned 404. /sitemap.xml returned 200 with 65 /product/ URLs and a last modified date of 2026-11-24."
+ },
+ {
+  "id": "user:11740308992ce8f5",
+  "slug": "gradientora",
+  "url": "https://gradientora.com/",
+  "name": "Gradientora",
+  "tagline": "Library of 1100+ image and animated gradient backgrounds, with a shader tool and Figma and Framer plugins",
+  "description": "Gradientora is a library of gradient backgrounds sold as image and video files. The homepage groups them as textured, smooth, mesh, 3D and AI-generated gradients, and as named collections such as Hero Gradients, SaaS Hero Mesh, Silk Gradients and Color Flow. It also has animated gradients, a real-time shader tool, and plugins for Figma and Framer. The homepage states 4K to 12K resolution, and the footer states 4K to 8K.\n\nThe sitemap lists 1,027 background pages and 40 animated gradient pages. The pricing page offers $20 a month, $99 a year, or $299 one time. Each plan lists all 1100+ assets, the plugins, the shader tools and a commercial license. A free gradient category exists.\n\nThe license agreement allows personal, client and commercial use. It forbids resale, redistribution and uploads to other marketplaces, and it ties the license to your account. Some pages still show a notice that Gradientora 2.0 launches \"before July 30\".",
+  "category": "textures-assets",
+  "subcategory": "gradients-and-backgrounds",
+  "kinds": [
+   "asset-pack",
+   "marketplace"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "commercial"
+   ],
+   "pricing": [
+    "freemium",
+    "subscription",
+    "one-time"
+   ],
+   "distribution": [
+    "download",
+    "figma-plugin",
+    "marketplace"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "images",
+    "video"
+   ],
+   "agent_readiness": [
+    "none"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": null,
+  "pricing_detail": "Monthly is $20. Yearly Pro is $99 a year, shown next to $132. Lifetime is $299 one time, shown next to $520. Every plan lists all 1100+ assets, the Figma and Framer plugins, the shader tools and a commercial license. Payments go through Stripe. A free gradient category exists.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": 1027,
+   "blocks": null
+  },
+  "agent_guidance": "Use Gradientora when a hero or a card needs a raster or video gradient background, not a CSS gradient. The assets are image and video files, so place them as background images and compress them for the web.\n\nMost assets need a paid plan. The license forbids redistribution of the original files, so do not commit them to a public repository or bundle them in a template that you share.",
+  "why_it_matters": "It is a large paid library of grainy, mesh and animated gradient backgrounds with a written commercial license and design-tool plugins.",
+  "quality_tier": "B",
+  "tier_reason": "Pricing, plan contents and a dated license agreement (28 July 2026) are on live pages, and the sitemap lists over 1,000 background pages. Held at B because the resolution claims differ between pages, a pre-launch notice for a July date is still live, and the testimonials name no companies.",
+  "notable_for": [
+   "1100+ gradient assets, 1,027 background pages in the sitemap",
+   "animated gradients and a shader tool",
+   "Figma and Framer plugins",
+   "$299 lifetime or $99 a year",
+   "no redistribution of original files"
+  ],
+  "already_enriched": true,
+  "http_status": 200,
+  "verified_at": "2026-11-24",
+  "source": "user",
+  "evidence": "Checked https://gradientora.com/, /pricing, /legal/license-agreement and /categories/free-gradient on 2026-11-24, all HTTP 200. Homepage title \"Gradientora | Premium Smooth, 3D, Textured & Animated Gradients\". Quotes: \"Gradientora combines textured gradients, smooth blends, animated gradients, AI backgrounds, and shader tools to create modern digital experiences.\" \"Access the Gradientora library directly inside Figma and Framer.\" From the license: \"Resell, redistribute, or share the original files\" is listed under what you are not allowed to do, and the page reads \"Last Updated: 28 July 2026\". /llms.txt returned 404. /sitemap.xml returned 200 with 1,138 URLs, of which 1,027 are /backgrounds/ and 40 are /animated-gradients/. The latest lastmod was 2026-11-02. The site sells image and video files, not CSS, so this record uses textures-assets/gradients-and-backgrounds instead of color/gradients."
+ },
+ {
+  "id": "user:636c2bc06d4db325",
+  "slug": "iconmcp",
+  "url": "https://iconmcp.com/",
+  "name": "IconMCP",
+  "tagline": "MIT outline icon library with a public MCP server that agents search by meaning",
+  "description": "IconMCP is a library of original outline icons with an MCP server. The homepage meta description says \"6,248 original outline icons\" and \"Free for anything, MIT licence\". The live MCP server at https://iconmcp.com/mcp answered on 2026-11-24 and reported 14,544 icons in 58 sets, drawn on a 16-unit grid, with a duotone style that adds a tint under the outline. The two counts differ.\n\nThe server exposes seven tools: search_icons, get_icon, list_sets, get_set, request_icon, report_icon and fix_icon. get_icon returns a standalone SVG string or a typed React (TSX) component. request_icon asks the library's agents to draw a missing icon. fix_icon submits a better drawing, which judges compare blind with the current icon.\n\nThe website is a JavaScript app. A plain fetch returns only the title, the meta description and a noscript line that links to /agents and /licence.",
+  "category": "icons-logos",
+  "subcategory": "icon-sets",
+  "kinds": [
+   "icon-set",
+   "mcp-server"
+  ],
+  "facets": {
+   "framework": [
+    "react",
+    "vanilla"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "mit"
+   ],
+   "pricing": [
+    "free"
+   ],
+   "distribution": [
+    "mcp-server",
+    "web-app"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "icons",
+    "code"
+   ],
+   "agent_readiness": [
+    "mcp-server",
+    "js-only-shell"
+   ],
+   "maturity": "unknown"
+  },
+  "components": [
+   "icon"
+  ],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "claude mcp add --transport http iconmcp https://iconmcp.com/mcp",
+  "package": null,
+  "docs_url": "https://iconmcp.com/agents",
+  "repo_url": null,
+  "registry_url": null,
+  "github": null,
+  "pricing_detail": "Free. The homepage meta description says \"Free for anything, MIT licence.\" No paid plan was found.",
+  "counts": {
+   "icons": 14544,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Connect the MCP server at https://iconmcp.com/mcp over HTTP. Call search_icons with what the icon must mean, then call get_icon with the exact name to get an SVG string or a React TSX component. Use list_sets and get_set to browse one theme.\n\nCall request_icon only when search finds nothing usable. Do not scrape the website: it is a JavaScript app, and a plain fetch returns no icons. The site and the server give different icon counts, so trust the list_sets output.",
+  "why_it_matters": "It lets a coding agent find an icon by meaning and paste it as SVG or TSX in one MCP call, under an MIT licence.",
+  "quality_tier": "B",
+  "tier_reason": "A working MCP server answered initialize, tools/list and list_sets, and the site states MIT. Held at B because the licence and agent pages need JavaScript, no source repository or npm package was found, the server reports version 0.1.0, and the site and the server give different icon counts.",
+  "notable_for": [
+   "MCP server with seven tools",
+   "search icons by meaning",
+   "SVG or React TSX output",
+   "MIT licence stated",
+   "14,544 icons reported by the server"
+  ],
+  "already_enriched": true,
+  "http_status": 200,
+  "verified_at": "2026-11-24",
+  "source": "user",
+  "evidence": "Checked https://iconmcp.com/ on 2026-11-24: HTTP 200, title \"IconMCP · a world of icons, drawn by agents\". Meta description: \"6,248 original outline icons, and an MCP server your coding agent can search by meaning. Free for anything, MIT licence.\" /agents, /licence, /library, /llms.txt and /sitemap.xml all returned HTTP 200 with the same JavaScript app shell, so llms.txt and sitemap.xml do not exist as files. POST https://iconmcp.com/mcp initialize returned HTTP 200 with serverInfo name \"iconmcp\", version \"0.1.0\", and instructions that start \"IconMCP is an original library of outline icons (14,544 icons in 58 sets), drawn on a 16-unit grid\". tools/list returned search_icons, get_icon, list_sets, get_set, request_icon, report_icon and fix_icon. list_sets returned \"icons\":14544. The site bundle contains the string \"claude mcp add --transport http iconmcp\" and the path iconmcp.com/mcp."
+ },
+ {
+  "id": "user:fb7389385275f321",
+  "slug": "atomize-design-system",
+  "url": "https://atomizedesign.com/",
+  "name": "Atomize Design System",
+  "tagline": "Figma design system with 1500+ components and variants, variables and multi-brand themes",
+  "description": "Atomize Design System is a UI kit for Figma. The homepage announces version 3.0 and lists 1500+ components and variants, a 4pt grid for size and spacing, design tokens built on Figma variables, dark mode, and switching between multiple themes and modes. Component groups on the page include buttons, inputs, dropdowns, navigation and Web3.\n\nThere are three tiers. Plus is free, with the 1500+ components and limited Figma variables. Pro is $79 one time and adds full variables, dark mode, example screens, more components, Web3 components and a brand deck. A custom design system service costs $2,499. Payment goes through Creem, and a Figma preview link is on the page.\n\nThe page credits Akash Tyagi and says the studio Heeko builds Atomize. It claims use by over 12,000 designers and teams. The copyright line runs from 2017 to 2026.",
+  "category": "blocks-templates-themes",
+  "subcategory": "templates-and-starters",
+  "kinds": [
+   "template",
+   "component-library"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium",
+    "one-time"
+   ],
+   "distribution": [
+    "figma-file"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "figma",
+    "design-tokens"
+   ],
+   "agent_readiness": [
+    "none"
+   ],
+   "maturity": "stable"
+  },
+  "components": [],
+  "component_count": 1500,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": null,
+  "repo_url": null,
+  "registry_url": null,
+  "github": null,
+  "pricing_detail": "Plus is free, with 1500+ components and limited Figma variables. Pro is $79 one time, with dark mode, example screens, more components, Web3 components, a brand deck and free future updates. A custom design system service is $2,499, with delivery in 7 to 10 working days.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use Atomize when a project starts in Figma and needs a full component set with variables and theme modes. It is a Figma file, not code, so you must build the components yourself or map its tokens to your own CSS variables.\n\nThe free Plus tier has limited variables and no dark mode. The homepage does not state license terms, so check them in the purchase flow before you use the Pro file for client work.",
+  "why_it_matters": "It is a long-running Figma design system with a free tier and multi-brand theme support through Figma variables.",
+  "quality_tier": "B",
+  "tier_reason": "Tiers, prices, component count and version are on the homepage, with a public Figma preview. Held at B because the site has no license terms, docs or changelog, and the sitemap lists only the homepage.",
+  "notable_for": [
+   "1500+ components and variants",
+   "Figma variables and multi-theme modes",
+   "free Plus tier, Pro at $79 one time",
+   "4pt grid",
+   "version 3.0"
+  ],
+  "already_enriched": true,
+  "http_status": 200,
+  "verified_at": "2026-11-24",
+  "source": "user",
+  "evidence": "Checked https://atomizedesign.com/ on 2026-11-24: HTTP 200, title \"Atomize Design System\", built with Framer. Quotes: \"Atomize V3.0 is now available\". \"Pixel-perfect UI components and multi-brand theme support.\" \"Used by over 12,000 designers and teams from companies like Blurb, Thoughtworks, Latch, and more.\" The pricing block lists Plus as Free, Pro as \"$ 79 / one-time payment\" and Custom Design System as \"$ 2499\". /llms.txt returned 404. /sitemap.xml returned 200 and lists only the homepage."
+ },
+ {
+  "id": "user:6b6d4ef38eeb3f14",
+  "slug": "swash",
+  "url": "https://swashmotion.com/",
+  "name": "Swash",
+  "tagline": "Browser motion editor for kinetic type, shaders, animated backgrounds and galleries, with MP4 export",
+  "description": "Swash is a motion design editor that runs in the browser. You type text, pick a preset and get a finished animation. Then you can add shader effects, animated backgrounds, galleries, widgets and sound. The editor opens without an account. The llms.txt lists MP4, GIF up to 540 px and a single PNG frame as export formats.\n\nThe llms.txt counts 58 shader effects, 32 animated backgrounds, 31 gallery layouts, over 270 sounds and about 200 open-licensed Google fonts, and you can upload .ttf or .otf files. Text stays live vector type, including 3D forms such as a ring, a sphere and a helix, and text on a path. A free Figma plugin brings text and layout into Swash as editable layers.\n\nThe free plan has the full editor, up to 3 projects, and 720p export at 30 fps with a watermark. Pro is $12 a month and adds unlimited projects, 4K export at 60 fps without a watermark, and premium templates and fonts. The What's new page has an entry dated November 19, 2026.",
+  "category": "generative-media-tools",
+  "subcategory": "video-and-render",
+  "kinds": [
+   "tool",
+   "app"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium",
+    "subscription",
+    "free-trial"
+   ],
+   "distribution": [
+    "web-app",
+    "figma-plugin"
+   ],
+   "platform": [
+    "web"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "video",
+    "images"
+   ],
+   "agent_readiness": [
+    "llms-txt",
+    "structured-docs"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://swashmotion.com/docs",
+  "repo_url": null,
+  "registry_url": null,
+  "github": null,
+  "pricing_detail": "Free is $0 with the full editor, up to 3 projects, and 720p 30 fps export with a Swash watermark, plus a few watermark-free exports each month. Pro is $12 a month with unlimited projects, 4K 60 fps export without a watermark, and the premium presets, templates and fonts. Pro has a 3-day free trial.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use Swash to make a short kinetic-type or motion clip as an MP4 file, for example a launch post or a portfolio reel. It is a manual editor in the browser. It has no public API or CLI, so an agent cannot render a video with it alone.\n\nRead https://swashmotion.com/llms.txt for the current feature counts and limits. Free exports are 720p with a watermark. 4K at 60 fps needs Pro.",
+  "why_it_matters": "It puts kinetic typography, shaders and sound on one browser timeline with a free tier, and its llms.txt states the plan limits in plain words.",
+  "quality_tier": "B",
+  "tier_reason": "An llms.txt, docs, a dated changelog and clear pricing are all live. Held at B because the export rights and the terms were not checked, and there is no API, so agents cannot drive it.",
+  "notable_for": [
+   "58 shaders, 32 animated backgrounds, 31 gallery layouts",
+   "MP4, GIF and PNG export",
+   "free Figma plugin",
+   "free tier, Pro at $12 a month",
+   "editor opens without sign-up"
+  ],
+  "already_enriched": true,
+  "http_status": 200,
+  "verified_at": "2026-11-24",
+  "source": "user",
+  "evidence": "Checked https://swashmotion.com/ and https://swashmotion.com/whats-new on 2026-11-24, both HTTP 200. Homepage title \"Swash — motion graphics and animated text in your browser\". Quotes: \"Make kinetic typography in minutes, not hours\". \"Swash is a motion design editor that runs in your browser.\" \"The free plan includes the full editor, up to 3 projects and export up to 720p at 30 fps with a Swash watermark\". The homepage meta description states 58 shaders. /llms.txt returned 200 with feature counts, export formats and pricing. /sitemap.xml returned 200 with 203 URLs, including 85 typeface pages, 81 template pages and 14 docs pages. The latest What's new entry is dated November 19, 2026."
+ },
+ {
+  "id": "user:5a0e9cd3dbd72382",
+  "slug": "wonder",
+  "url": "https://wonder.design/",
+  "name": "Wonder",
+  "tagline": "Design canvas where your own coding agents edit the live product, connected over MCP",
+  "description": "Wonder is a design canvas for work with coding agents. You connect a GitHub repository and bring a page or component of the running app onto the canvas as editable layers. You explore directions with an agent, then ask the agent to apply the changes back to the code. Wonder can open a pull request on a new branch after you approve the plan. It also takes Figma selections by copy and paste.\n\nAgents connect through the Wonder MCP server at https://mcp.wonder.so/mcp. The FAQ names Cursor, Claude Code, Claude Desktop, Codex, Antigravity and Lovable. Agents run on your own subscriptions, so Wonder sells no AI credits. The pricing FAQ says the repository is cloned to your machine and Wonder does not store your code on its servers.\n\nWonder runs in the browser, and desktop apps exist for macOS and Windows. Free is $0 for one editor with weekly limits. Pro is $16 per editor per month billed yearly, or $20 billed monthly. The changelog has an entry dated November 23, 2026. The old domain wonder.so redirects here.",
+  "category": "agent-design-tooling",
+  "subcategory": "ai-design-apps",
+  "kinds": [
+   "ai-tool",
+   "mcp-server",
+   "app"
+  ],
+  "facets": {
+   "framework": [
+    "unknown"
+   ],
+   "styling": [
+    "unknown"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium",
+    "subscription"
+   ],
+   "distribution": [
+    "web-app",
+    "desktop-app",
+    "mcp-server",
+    "saas"
+   ],
+   "platform": [
+    "web",
+    "macos",
+    "windows"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "mcp-server",
+    "llms-txt",
+    "structured-docs",
+    "auth-required"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://wonder.design/docs",
+  "repo_url": null,
+  "registry_url": null,
+  "github": null,
+  "pricing_detail": "Free is $0 for one editor, with 3,000 AI-generated layers and 10 prototypes a week, GitHub connection, code export and Figma import. Pro is $16 per editor per month billed yearly, or $20 billed monthly, with no weekly limits, AI image and vector generation and team collaboration. Enterprise has custom pricing with SSO, SAML and SCIM. AI runs on your own agent subscription, with no credit charges.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Connect Wonder through its MCP server at https://mcp.wonder.so/mcp. Sign in with OAuth on first use, or send a personal access token as an Authorization Bearer header. Your agent can then find, create and edit Wonder files and take screenshots of them, even when the app is closed.\n\nRead https://wonder.design/docs/llms.txt for the docs index. Every docs page also serves Markdown at its URL plus .md. The Free plan limits AI-generated layers to 3,000 a week and prototypes to 10 a week.",
+  "why_it_matters": "It keeps design and code in one loop: the agent reads the real repository, the designer edits on a canvas, and the agent writes the change back as a pull request.",
+  "quality_tier": "A",
+  "tier_reason": "A live llms.txt, Markdown versions of the main pages and docs, MCP docs with auth details, a dated changelog and clear pricing for three plans. Held below S because the product is new, some features are marked coming soon, and the terms of service were not reviewed.",
+  "notable_for": [
+   "MCP server at mcp.wonder.so",
+   "uses your own agent subscription",
+   "live app on the canvas as editable layers",
+   "Free plan, Pro at $16 per editor a month billed yearly",
+   "macOS and Windows desktop apps"
+  ],
+  "already_enriched": true,
+  "http_status": 200,
+  "verified_at": "2026-11-24",
+  "source": "user",
+  "evidence": "Checked https://wonder.so/ on 2026-11-24: HTTP 307 to https://wonder.design/, which returned HTTP 200 with title \"Wonder: Design and code with your agents on one canvas\". Quotes: \"Where you and your agents design and code on the same canvas.\" \"Wonder connects to your agent over MCP.\" From https://wonder.design/pricing.md (HTTP 200): \"Your repository is cloned to your own machine, and your agent reads and edits the code there.\" https://wonder.design/docs/wonder-mcp.md returned 200 and gives the server URL https://mcp.wonder.so/mcp. /llms.txt returned 200 with links to Markdown pages, docs and an llms-full.txt. /sitemap.xml returned 200 with 41 URLs. The homepage changelog list starts with \"Changelog · November 23, 2026\"."
+ },
+ {
+  "id": "user:57e9b362826fbe21",
+  "slug": "kiro",
+  "url": "https://kiro.dev/",
+  "name": "Kiro",
+  "tagline": "AI coding agent from AWS with spec-driven development in an IDE, a CLI, web, mobile and Crew",
+  "description": "Kiro is an AI coding agent from Amazon Web Services. The structured data on the homepage names AWS as the parent organization. The homepage says Kiro agents plan, build, review and verify engineering work on your machine or in the cloud. Kiro runs as an IDE, a CLI, a web app, an iOS app, and Kiro Crew, which runs persistent agents that watch a backlog, a codebase or CI and act when work appears.\n\nSpecs are the main method. A spec records intent before code is written and checks the result after, with property-based tests and requirements analysis. The docs also cover steering files, hooks, MCP, custom agents and subagents, skills and powers. The homepage gives a CLI install command and lists Kiro for VS Code and remote workspaces as new.\n\nPricing uses credits. Free has 50 credits a month. Paid tiers run from Pro at $20 to Power at $200 per user a month, and add-on credits cost $0.04 each.",
+  "category": "agent-design-tooling",
+  "subcategory": "coding-agents-and-editors",
+  "kinds": [
+   "ai-tool",
+   "tool",
+   "app"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "unknown"
+   ],
+   "pricing": [
+    "freemium",
+    "subscription",
+    "usage-based"
+   ],
+   "distribution": [
+    "desktop-app",
+    "cli",
+    "web-app",
+    "mobile-app"
+   ],
+   "platform": [
+    "desktop",
+    "terminal",
+    "web",
+    "ios"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "code"
+   ],
+   "agent_readiness": [
+    "llms-txt",
+    "structured-docs",
+    "cli-installable"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": "curl -fsSL https://cli.kiro.dev/install | bash",
+  "package": null,
+  "docs_url": "https://kiro.dev/docs/",
+  "repo_url": null,
+  "registry_url": null,
+  "github": null,
+  "pricing_detail": "Free is $0 with 50 credits a month, for open-weight models and Claude Sonnet 4.5. Pro is $20 with 1,000 credits, Pro+ $40 with 2,000, Pro Max $100 with 5,000, and Power $200 with 10,000, each per user a month. Add-on credits cost $0.04 each. Team credit pooling is $20 per seat a month with 500 credits per seat. A first upgrade to Pro gives the rest of the month free and 500 trial credits.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Use Kiro when a designer or a developer hands off a feature that needs a written spec, a task list and verified code. Install the CLI with curl -fsSL https://cli.kiro.dev/install | bash, or download the IDE.\n\nFetch https://kiro.dev/llms.txt for the docs index. Every docs page has a Markdown version at the same path plus .md. Work uses credits, and the Free tier has 50 a month.",
+  "why_it_matters": "It makes the spec the unit of work, so the requirements a designer writes become the plan and the tests that the agent checks against.",
+  "quality_tier": "A",
+  "tier_reason": "An AWS product with a 59 KB llms.txt, Markdown docs, a sitemap of 1,576 URLs, a CLI install command and a full price table. Held below S because the product license was not stated on the checked pages and most use spends paid credits.",
+  "notable_for": [
+   "spec-driven development",
+   "IDE, CLI, web, iOS and Crew",
+   "llms.txt with Markdown docs",
+   "Free 50 credits, Pro at $20 a month",
+   "from Amazon Web Services"
+  ],
+  "already_enriched": true,
+  "http_status": 200,
+  "verified_at": "2026-11-24",
+  "source": "user",
+  "evidence": "Checked https://kiro.dev/ and https://kiro.dev/pricing/ on 2026-11-24, both HTTP 200. Homepage title \"Kiro: Ship quality software\". Quotes: \"Set your intent and provide context.\" \"Specs capture what you meant before code is written and verify results after.\" \"curl -fsSL https://cli.kiro.dev/install | bash\". Pricing meta description: \"Free tier with 50 credits, Pro at $20/month, Pro+ at $40/month, Pro Max at $100/month, and Power at $200/month.\" The homepage JSON-LD names \"Amazon Web Services\" as parentOrganization. /llms.txt returned 200 (59,241 bytes) and says each docs page has a Markdown twin. /sitemap.xml returned 200 with 1,576 URLs."
+ },
+ {
+  "id": "user:172e78f2b27d2a93",
+  "slug": "affinity",
+  "url": "https://www.affinity.studio/",
+  "name": "Affinity",
+  "tagline": "Free vector, photo and page layout app from Canva for Mac, Windows and iPad",
+  "description": "Affinity is a creative app that puts vector design, photo editing and page layout in one application and one .af file. The Get Affinity page lists it at \"$0, free\" on Mac, Windows and iPad. To download it, you sign in with a free Canva account. Canva AI tools inside Affinity, such as generative fill and background removal, need a Canva premium plan.\n\nThe feature list includes RAW editing, recordable macros, HDR merge, pen and shape builder tools, image trace, linked text frames, master pages, CMYK and spot color output, and data merge from CSV. Affinity imports PSD, AI, PDF, SVG, IDML and other formats with the layers kept, and it exports to Canva. The homepage also links to Cavalry to animate Affinity designs.\n\nThe site blocks generic clients. A request with a short user agent got an \"Unsupported client\" page. /llms.txt and /sitemap.xml return 404.",
+  "category": "utilities-naming",
+  "subcategory": "apps-and-references",
+  "kinds": [
+   "app",
+   "tool"
+  ],
+  "facets": {
+   "framework": [
+    "not-applicable"
+   ],
+   "styling": [
+    "not-applicable"
+   ],
+   "license": [
+    "proprietary"
+   ],
+   "pricing": [
+    "free",
+    "account-required"
+   ],
+   "distribution": [
+    "desktop-app",
+    "mobile-app",
+    "download"
+   ],
+   "platform": [
+    "macos",
+    "windows",
+    "ios"
+   ],
+   "accessibility": [
+    "unknown"
+   ],
+   "content_type": [
+    "images",
+    "pdf"
+   ],
+   "agent_readiness": [
+    "bot-blocked"
+   ],
+   "maturity": "actively-maintained"
+  },
+  "components": [],
+  "component_count": null,
+  "surfaces": [],
+  "templates": [],
+  "template_count": null,
+  "install": null,
+  "package": null,
+  "docs_url": "https://www.affinity.studio/help",
+  "repo_url": null,
+  "registry_url": null,
+  "github": null,
+  "pricing_detail": "Free. The Get Affinity page shows \"$0, free\" and needs a free Canva account to download. Canva AI tools inside Affinity need a Canva premium plan. Organizations get access through Canva Enterprise or Canva Education.",
+  "counts": {
+   "icons": null,
+   "fonts": null,
+   "palettes": null,
+   "entries": null,
+   "blocks": null
+  },
+  "agent_guidance": "Recommend Affinity when a person needs a free desktop tool for vector, photo and print layout work. An agent cannot drive it: the checked pages show no API or CLI.\n\nFetch the site with a full browser user agent. A short user agent gets an \"Unsupported client\" page instead of the content.",
+  "why_it_matters": "It gives vector, photo and print layout tools in one free app, with PSD, AI and IDML import.",
+  "quality_tier": "B",
+  "tier_reason": "A shipping professional app with a free price, three platforms and a long feature list on live pages. Held at B in this catalog because the site blocks generic clients, has no llms.txt or sitemap, needs a Canva account to download, and offers nothing an agent can call.",
+  "notable_for": [
+   "vector, photo and layout in one app",
+   "free with a Canva account",
+   "Mac, Windows and iPad",
+   "PSD, AI and IDML import",
+   "Canva AI on premium plans"
+  ],
+  "already_enriched": true,
+  "http_status": 200,
+  "verified_at": "2026-11-24",
+  "source": "user",
+  "evidence": "Checked https://www.affinity.studio/ on 2026-11-24. With the user agent \"Mozilla/5.0\" the response was HTTP 200 with title \"Unsupported client\". With a full Chrome user agent it was HTTP 200 with title \"Professional Creative Software | Craft In Affinity, Scale In Canva\". https://www.affinity.studio/get-affinity returned 200. Quotes: \"Professional design, photo editing, and page layout in one app.\" \"$0, free\". \"To download Affinity, sign in with your Canva account (or create one for free).\" /llms.txt, /sitemap.xml and /pricing returned 404 with both user agents."
+ }
+]

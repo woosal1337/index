@@ -1,0 +1,931 @@
+[
+  {
+    "id": "user:8d92ef9295d708fd",
+    "slug": "onto-studio",
+    "url": "https://studio-onto.com/",
+    "name": "ONTO",
+    "tagline": "A founder studio that shows brand, site, app, and CGI work for six projects",
+    "description": "ONTO calls itself The Founder Studio. The home page holds a small logo, the line \"Design for Disrupters\", and one full-width video reel with a Fullscreen button. A Work link leads to the project list.\n\nThe work page lists six projects: Select, Microsoft, Vault, Openstore, Science, and Floral. Short labels give the scope, for example brand identity for Select, art direction and CGI for Microsoft, and brand, site, app, motion, 3D, and engineering for Vault. The page also describes a venture studio offer for founders.\n\nThe only contact is one email address and two social links. The footer copyright reads 2024.",
+    "category": "studios",
+    "subcategory": "product-and-web-studios",
+    "kinds": [
+      "studio",
+      "portfolio"
+    ],
+    "facets": {
+      "framework": [
+        "vanilla"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "not-applicable"
+      ],
+      "pricing": [
+        "paid"
+      ],
+      "distribution": [
+        "gallery"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "video",
+        "images",
+        "prose"
+      ],
+      "agent_readiness": [
+        "none"
+      ],
+      "maturity": "stable"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [
+      "homepage"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": "No published rates. Contact goes through noa@studio-onto.com.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 6,
+      "blocks": null
+    },
+    "agent_guidance": "Use it as a reference for a studio home page that lets one video reel carry the brand, with almost no text. The home page HTML holds only a few words, so read /work for the project list.\n\nThe site gives no prices, no team, and no location. The footer copyright reads 2024, so make sure the studio is still active before you name it as a current option.",
+    "why_it_matters": "It shows how far a studio site can reduce text: one reel, one tagline, and one link to the work.",
+    "quality_tier": "C",
+    "tier_reason": "Six named projects with scope labels, among them Microsoft, and a clear one-reel home page. Held at C because the site gives no team, no location, no prices, and no case text in the HTML. The copyright reads 2024, and the site has no sitemap or llms.txt.",
+    "notable_for": [
+      "one full-width video reel on the home page",
+      "six projects, including Microsoft and Vault",
+      "venture studio offer for founders",
+      "2024 copyright in the footer"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-11-24",
+    "source": "user",
+    "evidence": "Fetched https://studio-onto.com/ and https://studio-onto.com/work with curl on 2026-11-24. Both returned HTTP 200. Home page title \"ONTO\". The pages read \"Design for Disrupters\", \"The Founder Studio\", and \"We are a full-service venture studio that founders trust to create products that become verbs\". https://studio-onto.com/llms.txt 404 and https://studio-onto.com/sitemap.xml 404. The page is static HTML with Barba.js markup and a Lottie script, and it shows no framework markers."
+  },
+  {
+    "id": "user:a2eda742adcab72b",
+    "slug": "9point8-agency",
+    "url": "https://9point8.agency/",
+    "name": "9.8 agency",
+    "tagline": "Ukrainian agency for naming, brand identity, and web, on a one-page bilingual site",
+    "description": "9.8 agency describes itself as \"Digital designers in a post-digital world\". The founder and producer is Sasha Medvynskyi, and the page credits him with 14 years of work on visual projects. Every text block appears in English and in Ukrainian.\n\nThe services list covers producing, strategy, branding, web, campaigns, communications, and illustration. The page shows five cases: Borscht Collective, People of February (Люди лютого), S&PLB, James Blond, and Athena. Each case includes naming or identity work, and some also include a website. Borscht Collective collects food trucks for the Ukrainian army, and Athena supports Ukrainian women with cancer.\n\nThe site states no prices. Contact goes through yo@9point8.agency, Telegram, and a phone number with the +380 Ukraine code.",
+    "category": "studios",
+    "subcategory": "branding-studios",
+    "kinds": [
+      "studio",
+      "portfolio"
+    ],
+    "facets": {
+      "framework": [
+        "nuxt"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "not-applicable"
+      ],
+      "pricing": [
+        "paid"
+      ],
+      "distribution": [
+        "gallery"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "images",
+        "prose"
+      ],
+      "agent_readiness": [
+        "none"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [
+      "homepage",
+      "about",
+      "contact-us"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": "No published rates. Contact goes through yo@9point8.agency or Telegram.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 5,
+      "blocks": null
+    },
+    "agent_guidance": "Use it as a reference for a one-page agency site set almost fully in large type, with a bilingual text system. One scroll carries the services, the founder note, and five cases.\n\nThe cases are mostly naming and identity work for Ukrainian clients and causes. Read them for brand-system examples, not for product design. The site has no sitemap and no llms.txt, and it states no prices.",
+    "why_it_matters": "It shows how a small agency puts its services, its founder, and its cases on one page in two languages.",
+    "quality_tier": "C",
+    "tier_reason": "Five cases with real clients, a clear service list, and a 2026 copyright. Held at C because all work sits on one page with short case text, the page names only the founder, and the site has no prices, no sitemap, and no llms.txt.",
+    "notable_for": [
+      "English and Ukrainian text side by side",
+      "naming and identity for Ukrainian causes",
+      "founder with 14 years of visual work",
+      "five cases on one page"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-11-24",
+    "source": "user",
+    "evidence": "Fetched https://9point8.agency/ with curl on 2026-11-24. HTTP 200, title \"9.8 agency\". The page reads \"Digital designers in a post-digital world\", \"We are a young team of not-so-young people who create visual and creative solutions for the post-digital age.\", and \"We approach the task holistically and choose the tools that will work best.\" https://9point8.agency/llms.txt 404 and https://9point8.agency/sitemap.xml 404. Nuxt markers (_nuxt/ and __NUXT__) are in the HTML. Subcategory changed from product-and-web-studios to branding-studios, because every case is naming or identity work."
+  },
+  {
+    "id": "user:816e2c67992a46c5",
+    "slug": "hellohello",
+    "url": "https://www.hellohello.is/",
+    "name": "hellohello",
+    "tagline": "Montevideo agency for brand, product design, and engineering, with an llms.txt and Markdown pages",
+    "description": "++hellohello is a design and technology agency with its headquarters in Montevideo, Uruguay. It also lists team members in San Francisco, New York, Toronto, and London. Its llms.txt says that Rafael Cavestany, Pablo Picart, and Sebastián Martínez started it on May 8, 2017. The work connects branding, product design, and engineering, and the engineering list names React, Next.js, TypeScript, Framer, and Webflow.\n\nThe home page features four cases: the AI in Design Report 2026 for Designer Fund, Passkeys Developer Kit, Grateful by Exodus, and Alchemy. The llms.txt lists nine case studies with stated results, including Constructor.io and AstroPay, and work with Jam3 for Meta, Adidas, and Google. The awards list includes 9 Awwwards, 4 FWA, 2 Framer Awards, and an Awwwards Studio of the Year nomination in November 2025.\n\nThe site publishes an llms.txt, an llms-full.txt, and a Markdown copy of each page. It states no prices.",
+    "category": "studios",
+    "subcategory": "product-and-web-studios",
+    "kinds": [
+      "studio",
+      "portfolio"
+    ],
+    "facets": {
+      "framework": [
+        "next"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "not-applicable"
+      ],
+      "pricing": [
+        "paid"
+      ],
+      "distribution": [
+        "gallery"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "images",
+        "prose"
+      ],
+      "agent_readiness": [
+        "llms-txt",
+        "structured-docs"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [
+      "homepage",
+      "about",
+      "careers",
+      "contact-us"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": "No published rates. The contact form asks for the company, the role, and the service, and the email is hi@hellohello.is.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 9,
+      "blocks": null
+    },
+    "agent_guidance": "Read https://www.hellohello.is/llms.txt first. It lists every case study with the year, the scope, and the stated results. Add .md to a page URL, or send Accept: text/markdown, to get a clean Markdown copy.\n\nUse it as a benchmark for an agency that sells brand, product, and engineering as one service to fintech, Web3, and AI companies. The result figures come from the agency itself, so cite them as claims.",
+    "why_it_matters": "It is a studio site that an agent can read in full, through llms.txt and Markdown pages, next to a dated awards list and named client results.",
+    "quality_tier": "A",
+    "tier_reason": "Nine case studies with named clients and stated results, a dated awards list with 9 Awwwards and a Studio of the Year nomination, and an llms.txt with Markdown copies of each page. Held below S because the result figures are self-reported and the site states no prices.",
+    "notable_for": [
+      "llms.txt and a Markdown copy of each page",
+      "brand, product design, and engineering in one team",
+      "9 Awwwards, 4 FWA, 2 Framer Awards",
+      "headquarters in Montevideo, Uruguay",
+      "cases for Alchemy, Exodus, and Designer Fund"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-11-24",
+    "source": "user",
+    "evidence": "Fetched https://www.hellohello.is/ with curl on 2026-11-24. HTTP 200, title \"++hellohello — Design & Technology Agency\". The page reads \"We design memorable experiences with forward-thinking brands.\", \"React, Next.js, and TypeScript built to match design intent with precision\", and \"Best Design Studio in Uruguay, Latin American Design Awards\". https://www.hellohello.is/llms.txt 200 (text/plain, lists nine case studies). https://www.hellohello.is/sitemap.xml 200 with 13 URLs. Next.js markers (_next/static and self.__next_f) are in the HTML."
+  },
+  {
+    "id": "user:c7d7e378dddace08",
+    "slug": "chipsa",
+    "url": "https://chipsa.design/",
+    "name": "Chipsa",
+    "tagline": "Design studio for websites with WebGL, 3D, and CGI, at work since 2009",
+    "description": "Chipsa is a design studio for sites, interfaces, branding, and CGI. Its home page says that it makes websites with elaborate animation, WebGL, and 3D. The services are sites, interfaces, and visuals. The studio states 15 years of work since 2009 and a team of 30 people.\n\nThe home page features cases such as Furniture For Life, SafePoker, Chillbase, and Visa Center. It names LG and McDonald's among its key clients. It counts 35 CSSDA, 11 Behance, 10 Awwwards, and 1 FWA awards. A publications section holds articles about industrial and biotech websites and about 3D work for Vileda.\n\nThe site states no prices. The sitemap at chipsa.design lists 74 URLs, and all of them point to chipsa.ru.",
+    "category": "studios",
+    "subcategory": "product-and-web-studios",
+    "kinds": [
+      "studio",
+      "portfolio"
+    ],
+    "facets": {
+      "framework": [
+        "next"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "not-applicable"
+      ],
+      "pricing": [
+        "paid"
+      ],
+      "distribution": [
+        "gallery"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "images",
+        "3d",
+        "video",
+        "prose"
+      ],
+      "agent_readiness": [
+        "none"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [
+      "homepage",
+      "about",
+      "blog",
+      "careers",
+      "contact-us"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": "No published rates. A Discuss project button starts an inquiry.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Use it as a benchmark for a studio that shows its WebGL, 3D, and CGI craft on its own site. Open the cases in a browser, because the 3D scenes do not show in the HTML.\n\nThe sitemap lists chipsa.ru URLs, not chipsa.design URLs, so make sure you cite the correct domain. The site has no llms.txt and states no prices.",
+    "why_it_matters": "It shows a studio with a long award record that uses its own home page as the main proof of its 3D and motion work.",
+    "quality_tier": "B",
+    "tier_reason": "A studio with 15 years of work, 30 people, named clients, award counts by source, and a publications section. Held at B because the HTML gives little case text, the sitemap points to another domain, and the site has no llms.txt or prices.",
+    "notable_for": [
+      "WebGL, 3D, and CGI websites",
+      "studio since 2009, 30 people",
+      "35 CSSDA and 10 Awwwards awards",
+      "sitemap points to chipsa.ru"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-11-24",
+    "source": "user",
+    "evidence": "Fetched https://chipsa.design/ with curl on 2026-11-24. HTTP 200, title \"Chipsa\". The page reads \"We evoke emotions through aesthetics, WebGL and 3D\", \"Since 2009, we have achieved certain results. And we are definitely not going to stop there.\", and the meta description \"We make websites unlike everyone else’s - with elaborate animation, high-quality content and a creative concept\". https://chipsa.design/llms.txt 404. https://chipsa.design/sitemap.xml 200 with 74 URLs, all on chipsa.ru. Next.js markers (__NEXT_DATA__ and _next/static) are in the HTML."
+  },
+  {
+    "id": "user:b64d5346d48f28dc",
+    "slug": "pixels-studio",
+    "url": "https://pixels.studio/",
+    "name": "Pixels Studio",
+    "tagline": "Practice of Abhishek Kambli, a product designer and frontend engineer for AI and SaaS",
+    "description": "Pixels Studio is the independent practice of Abhishek Kambli, a product designer and frontend engineer. The page title uses his name, and the text speaks in the first person. He states over a decade of work on AI, communication, and enterprise SaaS products. He also leads product design and frontend direction at Samespace.\n\nThe work list holds eight products: Origon, Samespace, Hub, Resolve, Tlkn, Tribe, Prism, and Rhythm, plus a playground of experiments. Each entry has a one-line caption and its own screen pages. Prism and Rhythm are his own browser tools on subdomains.\n\nThe services section shows two offers: a product design sprint from $2,500 and ongoing support from $5,000 a month. The site publishes an llms.txt and a sitemap with 34 URLs.",
+    "category": "portfolios",
+    "subcategory": "designer-portfolios",
+    "kinds": [
+      "portfolio"
+    ],
+    "facets": {
+      "framework": [
+        "sveltekit"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "not-applicable"
+      ],
+      "pricing": [
+        "paid"
+      ],
+      "distribution": [
+        "gallery"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "images",
+        "prose",
+        "profile"
+      ],
+      "agent_readiness": [
+        "llms-txt"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [
+      "homepage",
+      "about",
+      "pricing-website",
+      "testimonials",
+      "faq",
+      "contact-us"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": "Product design sprint from $2,500. Ongoing product support from $5,000 a month. The llms.txt calls the sprint a 2-week, one-time engagement.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 8,
+      "blocks": null
+    },
+    "agent_guidance": "Treat it as a designer portfolio, not a studio. One person does the work, and the page says he is also open to full-time remote roles.\n\nRead /llms.txt for the services and the selected projects in plain text. Use the /m/ screen pages in the sitemap to see the product UI for Origon, Hub, Resolve, and Tribe.",
+    "why_it_matters": "It shows a product designer who also ships frontend code, with prices, screen pages, and an llms.txt on one small site.",
+    "quality_tier": "B",
+    "tier_reason": "Eight products with screen pages, two priced offers, a named client testimonial, and an llms.txt. Held at B because the projects have captions and screens but no written case studies, and only one client quote is on the page.",
+    "notable_for": [
+      "product design and frontend engineering by one person",
+      "sprint from $2,500, support from $5,000 a month",
+      "llms.txt with services and projects",
+      "screen pages for eight products",
+      "built with SvelteKit"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-11-24",
+    "source": "user",
+    "evidence": "Fetched https://pixels.studio/ with curl on 2026-11-24. HTTP 200, title \"Abhishek Kambli — Product Designer & Frontend Engineer\". The page reads \"Product designer and frontend engineer for AI and SaaS\", \"I currently lead product design and frontend direction at Samespace, working across product strategy, design systems and production interfaces.\", and \"From $5,000/month\". https://pixels.studio/llms.txt 200 and https://pixels.studio/sitemap.xml 200 with 34 URLs. SvelteKit markers (_app/immutable and __sveltekit) are in the HTML. Category changed from studios/product-and-web-studios to portfolios/designer-portfolios, because the site presents one person."
+  },
+  {
+    "id": "user:a9cd1938bad56cb9",
+    "slug": "eleveight-studio",
+    "url": "https://www.eleveight.studio/",
+    "name": "Eleveight Studio",
+    "tagline": "Framer studio for websites and landing pages, led by Fabian Albert, with fixed prices",
+    "description": "Eleveight Studio designs and builds websites and landing pages in Framer. The founder section names Fabian Albert, a visual designer in Eastern Europe with 14 years of experience. The page says that the studio works with one client at a time and works async only, with no calls.\n\nThe services cover web design, development, website migration, custom integrations, UI and UX, and ongoing optimization. The sectors are AI, SaaS, eCommerce, fintech, automotive, and real estate. Seven testimonials name clients such as warp.dev, Visual Electric, and pillar.io. The page says that Framer vetted Fabian as a Pro Expert and an Enterprise Partner.\n\nThe prices are on the page: $10K for a landing page, $20K for a full website, and $8K a month for a retainer.",
+    "category": "studios",
+    "subcategory": "product-and-web-studios",
+    "kinds": [
+      "studio",
+      "portfolio"
+    ],
+    "facets": {
+      "framework": [
+        "framer"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "not-applicable"
+      ],
+      "pricing": [
+        "paid",
+        "subscription"
+      ],
+      "distribution": [
+        "gallery"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "images",
+        "prose"
+      ],
+      "agent_readiness": [
+        "none"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [
+      "homepage",
+      "pricing-website",
+      "testimonials",
+      "faq"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": "Landing page $10K. Full website $20K. Retainer $8K a month. The FAQ says that scope, timeline, and budget are agreed before work starts.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Use it as a reference for a small Framer studio that publishes fixed prices and sells async work. The price block and the FAQ give a clear model for a small service offer.\n\nThe home page shows client sites as full-page screenshots, not as written case studies. The sitemap lists only the root URL, and the site has no llms.txt.",
+    "why_it_matters": "It gives real price points for Framer landing pages, full sites, and retainers from a Framer-vetted expert.",
+    "quality_tier": "B",
+    "tier_reason": "Published prices for three offers, seven testimonials with named people and companies, and a Framer Pro Expert listing. Held at B because the founder is the only named designer, the site has no written case studies, and the sitemap lists only the home page.",
+    "notable_for": [
+      "fixed prices: $10K, $20K, $8K a month",
+      "async work, no calls",
+      "Framer Pro Expert and Enterprise Partner",
+      "seven named client testimonials"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-11-24",
+    "source": "user",
+    "evidence": "Fetched https://www.eleveight.studio/ with curl on 2026-11-24. HTTP 200, title \"Eleveight Studio — Web Design & Development\", generator meta \"Framer 0918601\". The page reads \"We focus on one client at a time, delivering exceptional results fast, without compromising on quality.\", \"I’m Fabian Albert, a visual designer based in Eastern Europe.\", and \"We work async only because it keeps communication clear and focused.\" https://www.eleveight.studio/llms.txt 404. https://www.eleveight.studio/sitemap.xml 200 with one URL."
+  },
+  {
+    "id": "user:a3b49e3b0d671573",
+    "slug": "ouro-labs",
+    "url": "https://ouro-labs.com/",
+    "name": "Ouro Labs",
+    "tagline": "Design and AI practice of two design leaders, who build their own apps and agent workflows",
+    "description": "Ouro Labs calls itself a design and AI practice built by two design leaders, and its page title says AI-Native Product Studio. The home page states that it explores design, code, systems, and AI through practice, not theory. Its values are play, precision, and craft.\n\nThe page shows three of its own projects, not client work. Nota is a native app to review video footage and log moments. It is in testing, with an App Store launch expected by summer 2026. Overture DS is a workflow to shape design systems with agents, with JSON and YAML for machines and a DESIGN_SYSTEM.MD file for people. Health Atlas is a personal experiment that uses AI to organize health records.\n\nThe site publishes an llms.txt that tells AI systems how to describe the practice, and a sitemap with two URLs. It states no prices.",
+    "category": "studios",
+    "subcategory": "product-and-web-studios",
+    "kinds": [
+      "studio"
+    ],
+    "facets": {
+      "framework": [
+        "vanilla"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "not-applicable"
+      ],
+      "pricing": [
+        "unknown"
+      ],
+      "distribution": [
+        "gallery"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "prose",
+        "images"
+      ],
+      "agent_readiness": [
+        "llms-txt"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [
+      "homepage",
+      "contact-us"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": "No services or rates on the home page. Contact goes through hello@ourolabs.com and LinkedIn.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 3,
+      "blocks": null
+    },
+    "agent_guidance": "Read it for the Overture DS idea: a design system that agents read through JSON and YAML, with a DESIGN_SYSTEM.MD file for the human rationale. This is a described workflow, not a released tool.\n\nDo not list it as an agency for hire. The page shows only the practice's own projects, with no client work and no prices. Read /llms.txt and /llms-full.txt for the practice's own summary.",
+    "why_it_matters": "It shows two design leaders who present their own apps and agent workflows as the portfolio, instead of client cases.",
+    "quality_tier": "C",
+    "tier_reason": "A clear position on design, code, and AI, three described projects, and an llms.txt. Held at C because no project is publicly launched, the site shows no client work or prices, and the home page does not name the two founders.",
+    "notable_for": [
+      "Overture DS: design systems with agents",
+      "Nota native app, in testing",
+      "llms.txt with guidance for AI systems",
+      "two-person practice"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-11-24",
+    "source": "user",
+    "evidence": "Fetched https://ouro-labs.com/ with curl on 2026-11-24. HTTP 200, title \"Ouro Labs | AI-Native Product Studio\". The page reads \"Ouro Labs exists to reject the old model and explore the emerging intersection of design, code, systems, and AI.\", \"A workflow for designers to shape, query, and evolve design systems alongside agents.\", and \"Nota app is in testing. We expect to launch in the App Store by summer 2026.\" https://ouro-labs.com/llms.txt 200 and https://ouro-labs.com/sitemap.xml 200 with 2 URLs, last modified 2026-04-24. The page is static HTML with plain scripts in assets/, and it also loads a Figma MCP html-to-design capture script."
+  },
+  {
+    "id": "user:361a21c11a7ee4f0",
+    "slug": "vibeflow",
+    "url": "https://vibeflow.co/",
+    "name": "VibeFlow",
+    "tagline": "Subscription design studio for startup sites in Framer and Webflow, from $4,999 a month",
+    "description": "VibeFlow calls itself a tiny design and development studio. It sells design to startup founders at a flat monthly rate, with a focus on Web3, SaaS, AI, tech, and creative brands. It designs in Figma and builds in Framer or Webflow.\n\nThe services are marketing sites, landing pages, web apps, mobile apps, motion design, alternative interfaces, and pitch decks. The Lite plan costs $4,999 a month for one active request. The Unlimited plan costs $7,999 a month. The FAQ says that each client gets a project board in Linear.\n\nThe testimonials include one attributed to \"Steve Jobs, Founder at Apple\", which is a placeholder. Another testimonial names a different studio, Morva. The site shows no case studies.",
+    "category": "studios",
+    "subcategory": "product-and-web-studios",
+    "kinds": [
+      "studio",
+      "service"
+    ],
+    "facets": {
+      "framework": [
+        "framer"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "not-applicable"
+      ],
+      "pricing": [
+        "paid",
+        "subscription"
+      ],
+      "distribution": [
+        "gallery"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "images",
+        "prose"
+      ],
+      "agent_readiness": [
+        "none"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [
+      "homepage",
+      "pricing-website",
+      "testimonials",
+      "faq"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": "Lite: $4,999 a month, one active request, a landing page and marketing design. Unlimited: $7,999 a month, up to 10 pages and all types of design requests. A project-based plan is available on request.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Use it as a reference for a subscription design offer with a plain monospace layout and a two-plan price table.\n\nDo not cite the testimonials as client proof. One is attributed to Steve Jobs at Apple, and another praises a different studio, Morva. The site has no case studies, no llms.txt, and a sitemap with only the home page and a 404 page.",
+    "why_it_matters": "It shows the subscription design model in its smallest form: two monthly plans, a Linear board for requests, and a Framer or Webflow build.",
+    "quality_tier": "C",
+    "tier_reason": "Clear subscription prices and a full service list. Held at C because the testimonials include a placeholder quote from Steve Jobs, the site shows no case studies, and the sitemap lists only two URLs.",
+    "notable_for": [
+      "subscription design from $4,999 a month",
+      "Framer and Webflow builds",
+      "requests through a Linear board",
+      "placeholder Steve Jobs testimonial"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-11-24",
+    "source": "user",
+    "evidence": "Fetched https://vibeflow.co/ with curl on 2026-11-24. HTTP 200, title \"VibeFlow - A Tiny Subscription Design Studio.\", generator meta \"Framer 293632e\". The page reads \"Get world-class design at a flat monthly rate.\", \"Fully responsive websites built with Framer or Webflow.\", and \"Once you subscribe to a plan, I’ll contact you in 24 hours, and set you up with your own project board in Linear.\" https://vibeflow.co/llms.txt 404. https://vibeflow.co/sitemap.xml 200 with 2 URLs (the root and /404)."
+  },
+  {
+    "id": "user:2876e3b862d857ca",
+    "slug": "quick14-studio",
+    "url": "https://www.quick14studio.com/",
+    "name": "Quick14",
+    "tagline": "Webflow web design studio that promises a site in 14 days, run by the designer Himanshu",
+    "description": "Quick14 sells website design to solo founders, startups, and agencies, with a 14-day turnaround. The page frames the offer around conversion rates, and it says that the studio analyzes the market before it designs. The services cover UI, branding, graphic design, website redesign, app design, pitch decks, and no-code development.\n\nEvery testimonial names one designer, Himanshu. The work section lists non-NDA projects such as Wise Counsel, Medflick, Twire.gg, and RemoteNomad, and the full portfolio opens as a Figma prototype.\n\nThe price table shows a landing page plan at $3000+ and $4800+, and a multi-page plan at $5000+ and $8000+. No-code development costs $1800 or $3000 more. The HTML holds two figures for each plan and does not label the difference.",
+    "category": "studios",
+    "subcategory": "product-and-web-studios",
+    "kinds": [
+      "studio",
+      "portfolio"
+    ],
+    "facets": {
+      "framework": [
+        "webflow"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "not-applicable"
+      ],
+      "pricing": [
+        "paid"
+      ],
+      "distribution": [
+        "gallery"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "images",
+        "prose"
+      ],
+      "agent_readiness": [
+        "none"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [
+      "homepage",
+      "pricing-website",
+      "testimonials",
+      "faq"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": "Landing page: $3000+ or $4800+. Multi-page: $5000+ or $8000+. No-code development: $1800 for a landing page, $3000 for multi-page. The HTML holds both figures for each plan without a label.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "agent_guidance": "Use it as a reference for a conversion-led agency landing page with a booking shortcut, a spots-left chip, and a two-plan price table.\n\nThe studio writes as we, but every testimonial names one designer, Himanshu. The portfolio is a Figma prototype link, not case pages on the site. The site has no sitemap and no llms.txt.",
+    "why_it_matters": "It shows how a one-designer studio sells speed and conversion, with a 14-day promise and public prices.",
+    "quality_tier": "C",
+    "tier_reason": "Public prices, a three-step process, and testimonials from named founders. Held at C because the work lives in an external Figma prototype, the site has no case studies or sitemap, and the two price figures for each plan have no label.",
+    "notable_for": [
+      "website design in 14 days",
+      "Press B to book a call shortcut",
+      "public prices from $3000+",
+      "portfolio as a Figma prototype",
+      "built in Webflow"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-11-24",
+    "source": "user",
+    "evidence": "Fetched https://www.quick14studio.com/ with curl on 2026-11-24. HTTP 200, title \"Web design studio * Quick14\", generator meta \"Webflow\". The page reads \"Web Designs to double conversions in just 14 days\", \"Book a 15-minute call to see how we can help your business grow. No BS, no sales pitch.\", and \"4 Spots left\". https://www.quick14studio.com/llms.txt 404 and https://www.quick14studio.com/sitemap.xml 404."
+  },
+  {
+    "id": "user:4a583fc3921e1315",
+    "slug": "lusion",
+    "url": "https://lusion.co/",
+    "name": "Lusion",
+    "tagline": "Bristol creative production studio for 3D storytelling and interactive WebGL sites",
+    "description": "Lusion is a creative production studio in Bristol, United Kingdom. It combines design, motion, 3D, and development to make interactive web experiences, and it runs an R&D site at labs.lusion.co. The about page names Edan Kwan as cofounder and creative director.\n\nThe projects page lists 19 projects, among them Porsche: Dream Machine, Devin AI, Meta: Spatial Fusion, Worldcoin Globe, and Max Mara: Bearing Gifts. The about page shows an awards count of 58, with Awwwards Site of the Year and Developer Site of the Year, plus FWA, CSSDA, Webby, and Lovie awards. It also lists talks at Digital Design Days, Awwwards Conf, and KIKK Festival.\n\nThe expertise list runs from strategy and art direction to WebGL, Unity and Unreal, AR and VR, and 3D pipeline development. The site states no prices.",
+    "category": "studios",
+    "subcategory": "product-and-web-studios",
+    "kinds": [
+      "studio",
+      "portfolio"
+    ],
+    "facets": {
+      "framework": [
+        "astro"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "not-applicable"
+      ],
+      "pricing": [
+        "paid"
+      ],
+      "distribution": [
+        "gallery"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "3d",
+        "video",
+        "images",
+        "prose"
+      ],
+      "agent_readiness": [
+        "none"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [
+      "homepage",
+      "about",
+      "contact-us"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": "No published rates. New business goes to business@lusion.co, and general questions go to hello@lusion.co.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 19,
+      "blocks": null
+    },
+    "agent_guidance": "Use it as a top benchmark for 3D and WebGL craft on a studio site. Open the pages in a browser, because the 3D scenes and the reel do not show in the HTML.\n\nRead /about for the award list, the talks, and the expertise list. The site has no llms.txt and no sitemap: both paths return the site HTML with status 200, not a real file.",
+    "why_it_matters": "It is a reference point for interactive 3D web work, with Awwwards Site of the Year wins and clients such as Porsche and Meta.",
+    "quality_tier": "A",
+    "tier_reason": "19 listed projects for clients such as Porsche, Meta, and Max Mara, an awards count of 58 with Awwwards Site of the Year, and conference talks from 2018 to 2024. Held below S because the HTML gives little written case text and the site has no llms.txt or sitemap.",
+    "notable_for": [
+      "3D and WebGL web experiences",
+      "Awwwards Site of the Year and Developer Site of the Year",
+      "19 projects, including Porsche and Meta",
+      "R&D site at labs.lusion.co",
+      "based in Bristol, UK"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-11-24",
+    "source": "user",
+    "evidence": "Fetched https://lusion.co/, https://lusion.co/about (redirects to /about/), and https://lusion.co/projects (redirects to /projects/) with curl on 2026-11-24. All returned HTTP 200. Titles \"Lusion - Award Winning 3D and Interactive Web Studio\", \"Lusion - About Us\", and \"Lusion - Our Projects\". The pages read \"We create 3D visual storytelling and interactive web experiences that help brands stand out\", \"We combine design, motion, 3D, and development to create digital experiences that feel visually striking and technically seamless.\", and \"Lusion is a boutique creative production studio with wide range of talents and capabilities for your next project.\" https://lusion.co/llms.txt and https://lusion.co/sitemap.xml both return HTTP 200 with the same 59,671-byte HTML as the home page, so neither file exists. Astro markers (/_astro/) are in the HTML."
+  },
+  {
+    "id": "user:9bd1ac9b59125bda",
+    "slug": "hurdle-studio",
+    "url": "https://hurdle.studio/",
+    "name": "Hurdle",
+    "tagline": "Design and engineering studio for early-stage founders: strategy, brand, website, product, and code",
+    "description": "Hurdle is a design studio that helps early-stage founders with their design work. It states over 10 years of experience, and its meta description calls it a design and engineering partnership for founders. It offers five services: strategy, brand, website, product, and development.\n\nThe work page shows two cases. Buildplus is product design for a construction fintech, with a 21-day sprint to launch. Pludoo is a brand for cross-border payments, and the page says that its seed round closed two days after launch.\n\nThe site states no prices. It publishes a sitemap with seven URLs and no llms.txt.",
+    "category": "studios",
+    "subcategory": "product-and-web-studios",
+    "kinds": [
+      "studio",
+      "portfolio"
+    ],
+    "facets": {
+      "framework": [
+        "next"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "not-applicable"
+      ],
+      "pricing": [
+        "paid"
+      ],
+      "distribution": [
+        "gallery"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "images",
+        "prose"
+      ],
+      "agent_readiness": [
+        "none"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [
+      "homepage",
+      "contact-us"
+    ],
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": null,
+    "pricing_detail": "No published rates. Contact starts from the Work with us and Let's collaborate buttons.",
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": 2,
+      "blocks": null
+    },
+    "agent_guidance": "Use it as a reference for a calm, text-first studio home page with a short service list and a small case set.\n\nThe site shows only two cases, from 2025 and 2026, so do not treat it as a large agency. The sitemap lists /services and the two case pages.",
+    "why_it_matters": "It shows how a small studio presents strategy, brand, product, and code as one offer for early-stage founders.",
+    "quality_tier": "C",
+    "tier_reason": "Five clear services and two cases with stated outcomes. Held at C because the site shows only two cases, names no team, and states no prices.",
+    "notable_for": [
+      "strategy, brand, website, product, and development",
+      "Buildplus: 21-day sprint to launch",
+      "Pludoo: seed closed two days after launch",
+      "two published cases"
+    ],
+    "already_enriched": true,
+    "http_status": 200,
+    "verified_at": "2026-11-24",
+    "source": "user",
+    "evidence": "Fetched https://hurdle.studio/ and https://hurdle.studio/work with curl on 2026-11-24. Both returned HTTP 200. Titles \"Hurdle: strategy, brand, and product design that ships\" and \"Work - Hurdle\". The pages read \"We help early stage founders accelerate their design efforts.\", \"Direction before pixels.\", and \"Seed closed two days post-launch\". https://hurdle.studio/llms.txt 404. https://hurdle.studio/sitemap.xml 200 with 7 URLs. Next.js markers (_next/static and self.__next_f) are in the HTML."
+  }
+]

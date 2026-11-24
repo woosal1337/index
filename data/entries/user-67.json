@@ -1,0 +1,765 @@
+[
+  {
+    "id": "user:5b64d4220dd2261b",
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-11-24",
+    "source": "user",
+    "slug": "div-block-studio",
+    "url": "https://divblockstudio.com/",
+    "name": "Div Block Studio",
+    "tagline": "A fractional Webflow and design team for B2B marketing teams, on a flat monthly retainer",
+    "description": "Div Block Studio is a small Webflow and design team. It works as an outside web team for B2B SaaS marketing and growth teams. It builds new sites, landing pages for ad campaigns and A/B tests, and does ongoing updates. The founder is Alexander Olssen.\n\nThe home page publishes its plans. Maintenance is 20 hours a month for $1,400. The part-time team is 15 hours a week for $3,800 a month. A custom plan covers other volumes. Work runs async in a shared Slack channel, and the site says most tasks take 2 to 4 business days.\n\nThe site links a Clutch profile. The case-study section of the home page holds no text in the served HTML, so the work is not readable without a browser.",
+    "category": "studios",
+    "subcategory": "product-and-web-studios",
+    "kinds": [
+      "studio",
+      "service"
+    ],
+    "facets": {
+      "framework": [
+        "webflow"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "not-applicable"
+      ],
+      "pricing": [
+        "paid",
+        "subscription"
+      ],
+      "distribution": [
+        "unknown"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "prose",
+        "profile"
+      ],
+      "agent_readiness": [
+        "none"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "pricing_detail": "Maintenance: $1,400 a month for 20 hours. Part-time team: $3,800 a month for 15 hours a week. Custom plans on request. Payment is 100% upfront, with a discount for contracts of 3 months or more. Cancel with 30 days notice, or pause for up to 2 months.",
+    "agent_guidance": "Use it as a reference for how a small Webflow team prices a retainer. The plans, hours, turnaround times and payment terms are all on the home page as plain text.\n\nDo not use it as a source of visual work. The case-study section is empty in the served HTML, so open the site in a browser to see the carousels.",
+    "why_it_matters": "It is a clear published example of a Webflow retainer with hours, prices and turnaround times on one page.",
+    "quality_tier": "C",
+    "tier_reason": "The home page gives full plan prices, hours, payment terms and a process. Held at C because the served HTML shows no case-study text, the site has no sitemap and no llms.txt, and the main outside proof is a Clutch badge.",
+    "notable_for": [
+      "published monthly retainer prices",
+      "Webflow-only scope for marketing sites",
+      "async work in a shared Slack channel",
+      "no sitemap and no llms.txt"
+    ],
+    "evidence": "Fetched https://divblockstudio.com/ with curl on 2026-11-24: HTTP 200, no redirect, Webflow markup. Title \"Fractional Webflow & Design for Fast-Moving B2B Teams | div block studio\". The page reads \"Your design & Webflow team, starting at $1400/mo\", \"We’re a fractional Webflow & design team.\" and \"We work async, share daily progress, and most tasks are done within 2-4 business days.\" It links clutch.co/profile/div-block-studio. https://divblockstudio.com/llms.txt 404 and https://divblockstudio.com/sitemap.xml 404."
+  },
+  {
+    "id": "user:269655095dc05408",
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-11-24",
+    "source": "user",
+    "slug": "jamm-design-subscription",
+    "url": "https://www.jamm.co/",
+    "name": "Jamm",
+    "tagline": "A design subscription service with published monthly prices and a Trello request board",
+    "description": "Jamm sells design as a monthly subscription. A client adds tasks to a Trello board, and the team works on one active request at a time for each subscription. A client can stack subscriptions to get more active requests. The site says designs arrive for review within 2 business days on average.\n\nThe service list covers branding, web design, product design, Webflow, illustration, packaging, naming and more. The team works in Figma and sends updates with a Loom video. There are no calls or meetings by default.\n\nThe page publishes prices, a comparison table against freelancers, employees and agencies, and client quotes from Luma, Onchain, MLH and Starryai. The work samples are images, and the page links to Dribbble for more.",
+    "category": "studios",
+    "subcategory": "product-and-web-studios",
+    "kinds": [
+      "studio",
+      "service"
+    ],
+    "facets": {
+      "framework": [
+        "webflow"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "not-applicable"
+      ],
+      "pricing": [
+        "paid",
+        "subscription",
+        "one-time"
+      ],
+      "distribution": [
+        "gallery"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "prose",
+        "images"
+      ],
+      "agent_readiness": [
+        "none"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "pricing_detail": "Subscription from $5,995 a month. A 3-month starter plan bills $5,995 a month, then month to month. A plan with cancel-anytime terms is $6,995 a month. A one-off essential branding package is $2,000 flat with 3 updates, and each extra update is $750.",
+    "agent_guidance": "Use it as a reference for the copy and structure of a design subscription page: the three-step process, the stacking rule, the comparison table and the FAQ. All of this is plain text in the HTML.\n\nThe mascots and illustrations carry the brand. Open the site in a browser to study them, because the text alone does not show them.",
+    "why_it_matters": "It shows a full design subscription offer with real prices, the request rules and a comparison table, all on one page.",
+    "quality_tier": "B",
+    "tier_reason": "Published prices, clear request rules, a long FAQ and named client quotes. Held below A because there are no case studies on the site, the work samples are images with a Dribbble link, and there is no sitemap or llms.txt.",
+    "notable_for": [
+      "design subscription from $5,995 a month",
+      "one active request per subscription, stackable",
+      "Trello board for requests",
+      "comparison table against agencies and freelancers",
+      "illustrated mascots carry the brand"
+    ],
+    "evidence": "Fetched https://www.jamm.co/ with curl on 2026-11-24: HTTP 200, Webflow markup. Title \"Jamm | Premium Design as a Subscription\". The page reads \"Designs are delivered for review within 2 business days, on average.\", \"You get one (1) active request per one (1) subscription you have.\" and \"We use Figma almost exclusively.\" https://www.jamm.co/llms.txt 404 and https://www.jamm.co/sitemap.xml 404."
+  },
+  {
+    "id": "user:98e155fb8c2c2ec8",
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-11-24",
+    "source": "user",
+    "slug": "same-same-studio",
+    "url": "https://www.samesame.studio/",
+    "name": "Same Same Studio",
+    "tagline": "A Shopify design and development agency for beauty, fragrance and lifestyle brands",
+    "description": "Same Same is a design and development agency that builds custom Shopify and Shopify Plus stores. Its focus is beauty, cosmetics, skincare, fragrance and lifestyle brands. The company name in the footer is Same Same GmbH.\n\nThe home page shows four case studies: Kylie Cosmetics, Kylie Jenner Fragrance, Sally Hansen and Dr. Idriss. Services split into design, development and ongoing support. The site says the team uses design systems and optimizes stores from user data.\n\nThe site is a Framer build with a sitemap of 13 URLs, including a page for each case study and each service.",
+    "category": "studios",
+    "subcategory": "product-and-web-studios",
+    "kinds": [
+      "studio",
+      "portfolio"
+    ],
+    "facets": {
+      "framework": [
+        "framer"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "not-applicable"
+      ],
+      "pricing": [
+        "paid"
+      ],
+      "distribution": [
+        "gallery"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "images",
+        "prose"
+      ],
+      "agent_readiness": [
+        "none"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "pricing_detail": "No published prices. Contact is by email or a discovery call, and the site offers ongoing support after launch.",
+    "agent_guidance": "Use it as a benchmark for how a niche e-commerce agency presents work for large beauty brands. Start with the four case studies in the sitemap.\n\nThe site is a Framer build. Letters in the menu and the marquee are split into single spans, so the raw text reads badly. Use a browser for the layout and the sitemap for the page list.",
+    "why_it_matters": "It is a focused Shopify agency with named beauty clients, which makes it a useful benchmark for e-commerce studio positioning.",
+    "quality_tier": "B",
+    "tier_reason": "Four case studies for well-known beauty brands, a clear service split and a working sitemap. Held below A because there are no prices, no llms.txt, and the case-study proof is mostly images.",
+    "notable_for": [
+      "Shopify and Shopify Plus stores",
+      "Kylie Cosmetics and Sally Hansen case studies",
+      "beauty and fragrance niche",
+      "Framer build with a 13-URL sitemap"
+    ],
+    "evidence": "Fetched https://www.samesame.studio/ with curl on 2026-11-24: HTTP 200, meta generator \"Framer\". Title \"Same Same | Shopify Design & Development for Beauty & Lifestyle Brands\". The page reads \"We design and build custom e-commerce websites for global brands that operate at scale.\", \"build dynamic and scalable e-commerce using Shopify and Shopify Plus technology\" and \"© 2026 Same Same GmbH\". https://www.samesame.studio/sitemap.xml 200 with 13 URLs. https://www.samesame.studio/llms.txt 404."
+  },
+  {
+    "id": "user:d3393815d4c73de3",
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-11-24",
+    "source": "user",
+    "slug": "digital-panda",
+    "url": "https://www.digitalpanda.com/",
+    "name": "Digital Panda",
+    "tagline": "A Vancouver design, development and motion agency, and a Webflow Enterprise Partner",
+    "description": "Digital Panda is a design, development and motion agency. Its llms.txt says the agency is in Vancouver, Canada, has about 25 people, and is a Webflow Enterprise Partner. The old domain thedigitalpanda.com now redirects to digitalpanda.com.\n\nThe home page shows three featured case studies: a web and mobile redesign for Vancity, a motion design system for Webflow, and a brand refresh for Axelar. Services cover web and app design, design systems, development, immersive 3D and motion.\n\nThe agency also runs The Spark at spark.thedigitalpanda.com. It is a scroll-driven 3D story with sound that needs a laptop-size screen.",
+    "category": "studios",
+    "subcategory": "product-and-web-studios",
+    "kinds": [
+      "studio",
+      "portfolio"
+    ],
+    "facets": {
+      "framework": [
+        "webflow"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "not-applicable"
+      ],
+      "pricing": [
+        "paid"
+      ],
+      "distribution": [
+        "gallery"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "images",
+        "prose",
+        "video",
+        "3d"
+      ],
+      "agent_readiness": [
+        "llms-txt"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "pricing_detail": "No published prices. The llms.txt gives typical timelines, for example 2 to 4 months for a marketing site and 5 to 6 months for a full redesign. Each project starts with a Design Discovery phase of 1 to 4 weeks.",
+    "agent_guidance": "Read the llms.txt first. It lists the services, platforms, clients, awards, timelines and the process in plain text.\n\nUse the Webflow motion design system case for motion guidelines, and The Spark for scroll-driven 3D storytelling. The Spark needs a browser with sound and a large screen.",
+    "why_it_matters": "It is a Webflow-first agency with 3D and motion work and a detailed llms.txt, so an agent can read its offer without a browser.",
+    "quality_tier": "B",
+    "tier_reason": "Named case studies for Vancity, Webflow and Axelar, a detailed llms.txt and a sitemap. Held below A because the award and client lists come from the agency's own llms.txt, there are no prices, and the case-study pages need a browser for the visuals.",
+    "notable_for": [
+      "motion design system for Webflow",
+      "The Spark, a scroll-driven 3D story",
+      "Webflow Enterprise Partner",
+      "detailed llms.txt with timelines"
+    ],
+    "evidence": "Fetched https://www.thedigitalpanda.com/ with curl on 2026-11-24: 301 to https://www.digitalpanda.com/, then HTTP 200, Webflow markup. Title \"Digital Panda | Living, Breathing, Digital Experiences\". The page reads \"12 years and counting\" and \"Motion Design System for Webflow\". https://www.digitalpanda.com/llms.txt 200 and reads \"The former domain, thedigitalpanda.com, now redirects here.\" https://www.digitalpanda.com/sitemap.xml 200. https://spark.thedigitalpanda.com/ 200, title \"The Spark by The Digital Panda\", reads \"Press & Hold to Start\"."
+  },
+  {
+    "id": "user:8b82643cca31a0e8",
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-11-24",
+    "source": "user",
+    "slug": "speed-dial-design",
+    "url": "https://www.speeddial.design/",
+    "name": "Speed Dial",
+    "tagline": "A one-person design subscription for early-stage startups, closed to new projects",
+    "description": "Speed Dial is a design partner for startup founders, run by a designer named Mike. It sells product design, web and mobile apps, prototypes, product websites and design systems. The site says Mike has more than 10 years of experience as a design engineer.\n\nThe offer is a subscription with one request at a time on a Trello board and updates in Slack. There are two monthly plans, Founder and Growth, and a one-off 5-day sprint for 3 app screens. The site compares the price, from $2k, with a full-time hire at $100k or more.\n\nThe work section names Trainline, where Mike led the Depot Design System, and Noisy, a venue management app. The banner says \"Currently unavailable for new projects\", and every plan shows \"Unavailable\".",
+    "category": "studios",
+    "subcategory": "product-and-web-studios",
+    "kinds": [
+      "studio",
+      "service"
+    ],
+    "facets": {
+      "framework": [
+        "framer"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "not-applicable"
+      ],
+      "pricing": [
+        "paid",
+        "subscription",
+        "one-time"
+      ],
+      "distribution": [
+        "gallery"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "images",
+        "prose",
+        "profile"
+      ],
+      "agent_readiness": [
+        "none"
+      ],
+      "maturity": "stable"
+    },
+    "pricing_detail": "Plans start from $2k. Founder and Growth are monthly subscriptions that can pause. Boost is a one-off 5-day sprint for 3 app screens with a Figma file and a prototype. All plans showed as unavailable on 2026-11-24.",
+    "agent_guidance": "Use it as a reference for a solo design subscription page: plans, a three-step process and client quotes on one page. Do not suggest it as a vendor, because it takes no new projects.\n\nThe brand domain sends a 302 redirect to a framer.website address. Link the brand domain, not the Framer address.",
+    "why_it_matters": "It shows how a single designer packages subscription work under a studio name, with named product work for Trainline.",
+    "quality_tier": "C",
+    "tier_reason": "Clear plans and named work for Trainline and Noisy. Held at C because it is one person, it takes no new projects, the prices are vague (\"From $2k\"), and there is no llms.txt.",
+    "notable_for": [
+      "solo design subscription under a studio name",
+      "Trainline Depot Design System",
+      "one-off 5-day sprint for 3 app screens",
+      "closed to new projects"
+    ],
+    "evidence": "Fetched https://www.speeddial.design/ with curl on 2026-11-24: 302 to https://speeddialdesign.framer.website/, then HTTP 200, meta generator \"Framer\". Title \"Speed Dial – Design Partner\". The page reads \"Currently unavailable for new projects.\", \"Most design requests are delivered within 48-72 hours, so you see value fast.\" and \"Hi I'm Mike.\" https://speeddialdesign.framer.website/sitemap.xml 200 and https://speeddialdesign.framer.website/llms.txt 404. On the brand domain both paths redirect to the home page."
+  },
+  {
+    "id": "user:530d114674786367",
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-11-24",
+    "source": "user",
+    "slug": "app-and-flow",
+    "url": "https://appandflow.com/",
+    "name": "App&Flow",
+    "tagline": "A Montreal React Native and Expo studio that builds and maintains apps for large brands",
+    "description": "App&Flow is a React Native engineering and design studio in Montreal. It offers two services: Product, which builds new apps, and Consulting, which extends client teams with React Native and Expo upgrades, SDK work, native modules and brownfield integration. The page says Expo recommends the studio and that its team includes React Native core contributors.\n\nThe recent-work list names Expo, Dialogue, Fin, LAP, Tlon Messenger, Rainbow and Swoogo. The page shows live commits from its open-source libraries, such as react-native-safe-area-context.\n\nThe site also states its position on AI. The team uses agentic tools to write code but keeps ownership of what it ships.",
+    "category": "studios",
+    "subcategory": "product-and-web-studios",
+    "kinds": [
+      "studio",
+      "service"
+    ],
+    "facets": {
+      "framework": [
+        "next"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "not-applicable"
+      ],
+      "pricing": [
+        "paid"
+      ],
+      "distribution": [
+        "gallery"
+      ],
+      "platform": [
+        "ios",
+        "android",
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "prose",
+        "images",
+        "code"
+      ],
+      "agent_readiness": [
+        "llms-txt"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "pricing_detail": "No published prices. Contact is a discovery call or sales@appandflow.com.",
+    "agent_guidance": "Use it as a benchmark for an engineering-led app studio. Read the llms.txt first, because it gives the services, the Expo listing and the open-source libraries in plain text.\n\nFor code, go to the GitHub organization appandflow. The studio maintains react-native-safe-area-context and other React Native libraries.",
+    "why_it_matters": "It is a React Native studio with open-source libraries that many Expo apps use, so its site links design positioning to real code.",
+    "quality_tier": "B",
+    "tier_reason": "Ten years of React Native work, named clients, live open-source commits and a llms.txt. Held below A because the work list gives names without case-study detail on the home page and there are no prices.",
+    "notable_for": [
+      "maintainers of react-native-safe-area-context",
+      "recommended by Expo",
+      "React Native core contributors",
+      "a written stance on AI-assisted code",
+      "llms.txt"
+    ],
+    "evidence": "Fetched https://appandflow.com/ with curl on 2026-11-24: HTTP 200, Next.js markup. Title \"App&Flow: Agentic and Design Engineering\". The page reads \"Montréal agentic and design engineering house.\", \"We are recommended by Expo.\" and \"10 YEARS, 35+ APPS\". https://appandflow.com/llms.txt 200 and https://appandflow.com/sitemap.xml 200."
+  },
+  {
+    "id": "user:96e42d240d391fb6",
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-11-24",
+    "source": "user",
+    "slug": "won-j-you-studios",
+    "url": "https://wonjyou.studio/",
+    "name": "Won J. You Studios",
+    "tagline": "The design coaching and mentorship practice of Won J. You, with limited UX consulting",
+    "description": "Won J. You Studios is the practice of Won J. You, a designer with more than 20 years of experience. The site says his focus moved from client projects to coaching designers. He offers 1:1 mentorship, a portfolio program and, for a few clients, design consulting.\n\nThe home page lists past brand clients such as American Express, Porsche, ESPN, Intel and IBM. It includes a showreel, an intro video with a transcript, and a section about his work as a UX professor and former bootcamp head.\n\nThe llms.txt lists the prices and the steps of each program in plain text.",
+    "category": "studios",
+    "subcategory": "product-and-web-studios",
+    "kinds": [
+      "studio",
+      "service"
+    ],
+    "facets": {
+      "framework": [
+        "next"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "not-applicable"
+      ],
+      "pricing": [
+        "paid",
+        "subscription",
+        "one-time"
+      ],
+      "distribution": [
+        "unknown"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "prose",
+        "video",
+        "profile"
+      ],
+      "agent_readiness": [
+        "llms-txt"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "pricing_detail": "Single mentor session: $150 for 45 minutes. Monthly plan: $270 through MentorCruise. The Portfolio Program: $999 for 8 sessions, or $150 per 60-minute session. Consulting is by request.",
+    "agent_guidance": "Use it as a reference for a design coaching offer and its pricing. The llms.txt gives every price, the program steps and the refund rules.\n\nDo not use it as a benchmark for studio client work. The site sells coaching, and the client names are from his past agency work.",
+    "why_it_matters": "It shows how a senior designer turns a studio site into a coaching offer, with clear prices and a llms.txt.",
+    "quality_tier": "C",
+    "tier_reason": "Clear prices, a transcript for the intro video and a detailed llms.txt. Held at C because it is one person selling coaching, not a studio shipping product work, and the site shows no case studies on the home page.",
+    "notable_for": [
+      "1:1 design mentorship from $150",
+      "$999 portfolio program",
+      "video intro with a transcript",
+      "detailed llms.txt with prices"
+    ],
+    "evidence": "Fetched https://wonjyou.studio/ with curl on 2026-11-24: HTTP 200, Next.js markup. Title \"Won J. You Studios | Design Coaching & Mentorship\". The page reads \"My focus has shifted from client projects to coaching exceptional designers who are ready to lead, innovate, and create meaningful change.\" and \"Copyright ©2025-26. All rights reserved. Stealing is bad karma.\" https://wonjyou.studio/llms.txt 200 and reads \"Single session: $150 for a 45-minute 1:1 video call.\" https://wonjyou.studio/sitemap.xml 200."
+  },
+  {
+    "id": "user:9f0c5b3afd153a1c",
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-11-24",
+    "source": "user",
+    "slug": "freshman-production",
+    "url": "https://freshman.tv/",
+    "name": "Freshman",
+    "tagline": "A Montreal creative production company that makes commercials and brand films with agencies and brands",
+    "description": "Freshman is a creative production company. It works with agencies and brands on commercials and brand films, and it represents a roster of directors. The site keywords name Montreal, and every page has a French version.\n\nThe work page lists films for Cartier with Jake Gyllenhaal, Adidas with Farm Rio, Volkswagen, NIVEA, The North Face, Audi and Old Spice Quebec. The about page lists awards, among them Communication Arts, Applied Arts and Vimeo Staff Picks.\n\nThe site is a Next.js build. The served HTML has no visible text, and the content sits in the page data. The page loads three typefaces: Altform, Editorial New and Wasted Year.",
+    "category": "studios",
+    "subcategory": "branding-studios",
+    "kinds": [
+      "studio",
+      "portfolio"
+    ],
+    "facets": {
+      "framework": [
+        "next"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "not-applicable"
+      ],
+      "pricing": [
+        "unknown"
+      ],
+      "distribution": [
+        "gallery"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "video",
+        "prose"
+      ],
+      "agent_readiness": [
+        "js-only-shell"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "pricing_detail": "No published prices. Contact is through the contact page.",
+    "agent_guidance": "Use it as a reference for a reel-first production site: one video, a heavy wordmark and a work index. Open it in a browser, because the served HTML is an empty shell.\n\nFor a list of projects and directors, read the sitemap. It holds 190 URLs in English and French.",
+    "why_it_matters": "It is a production company site that shows video work with little interface, which is a useful contrast to product studio sites.",
+    "quality_tier": "C",
+    "tier_reason": "Work for named global brands, an awards list and a large bilingual sitemap. Held at C because the served HTML is a JS-only shell, there are no prices or llms.txt, and the work is film production rather than design.",
+    "notable_for": [
+      "commercials for Cartier, Adidas and Volkswagen",
+      "director roster",
+      "English and French pages",
+      "three-typeface mix: Altform, Editorial New, Wasted Year"
+    ],
+    "evidence": "Fetched https://freshman.tv/ and https://freshman.tv/work with curl on 2026-11-24: HTTP 200, Next.js markup, no <title> or visible text in the served HTML. The page data reads \"Freshman is an award-winning production company that creates high-impact content that’s impossible to ignore.\" https://freshman.tv/about 200, page data reads \"Freshman is a creative production company that teams up with agencies and brands that seek to defy the ordinary.\" and \"4 x Vimeo Staff Picks\". https://freshman.tv/sitemap.xml 200 with 190 URLs. https://freshman.tv/llms.txt 404."
+  },
+  {
+    "id": "user:082274a0fd7431f2",
+    "templates": [],
+    "template_count": null,
+    "install": null,
+    "package": null,
+    "docs_url": null,
+    "repo_url": null,
+    "registry_url": null,
+    "github": {
+      "stars": null,
+      "license": null,
+      "last_activity": null
+    },
+    "counts": {
+      "icons": null,
+      "fonts": null,
+      "palettes": null,
+      "entries": null,
+      "blocks": null
+    },
+    "components": [],
+    "component_count": null,
+    "surfaces": [],
+    "already_enriched": false,
+    "http_status": 200,
+    "verified_at": "2026-11-24",
+    "source": "user",
+    "slug": "collins-brand-studio",
+    "url": "https://wearecollins.com/",
+    "name": "COLLINS",
+    "tagline": "A brand strategy and design company that sells eleven programs to move brands upmarket",
+    "description": "COLLINS is a brand strategy and design company. It sells its work as eleven programs, such as Brand Refresh, Reposition, Premiumization, Brand Creation and Exit (IPO/Sale). The programs page says the company helps leaders move their companies upmarket.\n\nThe home page lists case studies for Red Wing Shoes, Target up&up, Bose, Robinhood, Arcane, San Francisco Symphony and YouTube Gaming. It also shows AdAge Agency of the Year awards from 2019 to 2026 and a D&AD award from 2021. An Arts & Culture section holds non-client projects.\n\nThe site is a Nuxt build with a sitemap of 126 URLs.",
+    "category": "studios",
+    "subcategory": "branding-studios",
+    "kinds": [
+      "studio",
+      "portfolio"
+    ],
+    "facets": {
+      "framework": [
+        "nuxt"
+      ],
+      "styling": [
+        "not-applicable"
+      ],
+      "license": [
+        "not-applicable"
+      ],
+      "pricing": [
+        "paid"
+      ],
+      "distribution": [
+        "gallery"
+      ],
+      "platform": [
+        "web"
+      ],
+      "accessibility": [
+        "not-applicable"
+      ],
+      "content_type": [
+        "images",
+        "prose"
+      ],
+      "agent_readiness": [
+        "none"
+      ],
+      "maturity": "actively-maintained"
+    },
+    "pricing_detail": "No published prices. Contact is info@wearecollins.com.",
+    "agent_guidance": "Use it as a benchmark for top-tier brand strategy work and for how to package services as named programs. The programs page and the case studies are plain text in the HTML.\n\nThe home page uses a lot of empty space and one illustration per section. Open it in a browser to study the layout and the scroll motion.",
+    "why_it_matters": "It is an award-winning brand company with public cases for well-known brands, and it shows a program-based way to sell brand work.",
+    "quality_tier": "A",
+    "tier_reason": "Eight AdAge and D&AD agency awards, case studies for Bose, Robinhood and YouTube Gaming, and a 126-URL sitemap. Held below S because there are no prices and no llms.txt, and the site shows work as visuals more than written process.",
+    "notable_for": [
+      "eleven named brand programs",
+      "AdAge Agency of the Year, 2019 to 2026",
+      "case studies for Robinhood, Bose and Arcane",
+      "Arts & Culture projects"
+    ],
+    "evidence": "Fetched https://wearecollins.com/ and https://wearecollins.com/programs with curl on 2026-11-24: HTTP 200 for both, Nuxt markup. Titles \"COLLINS\" and \"Programs | COLLINS\". The pages read \"Rewrite your worth.\", \"8x Agency of the Year\" and \"Eleven ways we help brands find and command their unique premium.\" https://wearecollins.com/sitemap.xml 200 with 126 URLs. https://wearecollins.com/llms.txt 404."
+  }
+]
