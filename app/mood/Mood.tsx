@@ -136,6 +136,12 @@ export default function Mood({
 
   const onOpen = useCallback(
     (item: number, rect: DOMRect) => {
+      const href = deck?.boards[deck.items[item].board]?.href;
+      if (href) {
+        if (deck) track(OA_EVENTS.imageOpen, describe(deck, item));
+        window.open(href, "_blank", "noopener");
+        return;
+      }
       const at = stage.current?.getBoundingClientRect();
       setView({ item, rect: new DOMRect(rect.x - (at?.left ?? 0), rect.y - (at?.top ?? 0), rect.width, rect.height) });
       setHint(false);
