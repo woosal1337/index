@@ -1,0 +1,13 @@
+{
+  "name": "site-index",
+  "compatibility_date": "2026-11-01",
+  "workers_dev": true,
+  "preview_urls": false,
+  "observability": { "enabled": false },
+  // Static export only. `npm run build` writes out/, and public/_redirects and public/_headers land in it.
+  "assets": {
+    "directory": "out",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}
