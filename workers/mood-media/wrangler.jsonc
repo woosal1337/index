@@ -1,0 +1,9 @@
+{
+  "name": "mood-media",
+  "compatibility_date": "2026-11-01",
+  "workers_dev": false,
+  "preview_urls": false,
+  "observability": { "enabled": false },
+  // Static files only. The publish-media workflow fills public/ from R2.
+  "assets": { "directory": "public", "html_handling": "none", "not_found_handling": "none" }
+}
