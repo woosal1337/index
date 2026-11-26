@@ -1,5 +1,3 @@
-export const SEARCH_ORIGIN = "https://index-mcp.chele.bi";
-
 export const ABOUT = "Index is a reviewed catalog of design resources: component libraries, shadcn registries, templates, fonts, icons, motion, inspiration galleries, studios, and design tools for agents.";
 
 export const SEARCH_RULES = [

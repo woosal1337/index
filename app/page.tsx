@@ -1,5 +1,4 @@
 import Shell from "./_components/Shell";
-import AgentStrip from "./_components/AgentStrip";
 import Browser from "./_components/Browser";
 import { getCategories, getFacetNames, getResources, getStats } from "./lib/data";
 import { toRow } from "./lib/rows";
@@ -33,7 +32,6 @@ export default function Home() {
     <Shell>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(website).replace(/</g, "\\u003c") }} />
       <h1 className="sr-only">Index, a design corpus</h1>
-      <AgentStrip />
       <Browser rows={rows} categories={navCategories} facetNames={getFacetNames()} />
     </Shell>
   );
