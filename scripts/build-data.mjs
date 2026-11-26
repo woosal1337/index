@@ -29,7 +29,7 @@ const out = (rel, obj) => {
 };
 
 import { createHash } from "node:crypto";
-import { ABOUT, SEARCH_ORIGIN, SEARCH_RULES } from "../app/lib/agent.ts";
+import { ABOUT } from "../app/lib/agent.ts";
 import { siteUrl } from "../app/lib/site.ts";
 
 const sha1_16 = (u) => createHash("sha1").update(u).digest("hex").slice(0, 16);
@@ -491,7 +491,6 @@ writeAll("public/api/components", taxonomy.components.groups.flatMap((g) => g.co
   }];
 }));
 
-const ruleList = SEARCH_RULES.map((r, i) => `${i + 1}. ${r}`);
 const skill = [
   `---`,
   `name: index`,
@@ -504,20 +503,7 @@ const skill = [
   ``,
   `## Connect`,
   ``,
-  `- MCP server: ${SEARCH_ORIGIN}/mcp (Streamable HTTP, no key). Tools: search, fetch, component_guide.`,
-  `- Without MCP: GET ${SEARCH_ORIGIN}/search?q=date+range+picker&framework=react returns the same JSON as the search tool.`,
   `- Static files: ${siteUrl("/").replace(/\/$/, "")}/api/r/<id>.json for one record, and /api/components/<component>.json for one component.`,
-  ``,
-  `## Search rules`,
-  ``,
-  ...ruleList,
-  ``,
-  `## Read the results`,
-  ``,
-  `- match is strong, weak, or none. With none, say that Index has nothing that fits. Do not force a pick.`,
-  `- why lists what each result matched: a component, a filter value, a style, or similar meaning.`,
-  `- install is the command to run. items lists single registry items with their own install command.`,
-  `- Filters are hard limits. When nothing passes, the search drops one and lists it in relaxed.`,
   ``,
 ].join("\n");
 writeAll("public/api/skill", [["SKILL.md", skill]]);
@@ -543,16 +529,11 @@ const llms = [
   ``,
   `## How to use this`,
   ``,
-  `Search through the MCP server or its JSON endpoint rather than reading the large files:`,
+  `Read one record or one component rather than the large files:`,
   ``,
-  `- MCP: ${SEARCH_ORIGIN}/mcp (Streamable HTTP, no key). Tools: search, fetch, component_guide.`,
-  `- HTTP: ${SEARCH_ORIGIN}/search?q=date+range+picker&framework=react`,
   `- One record: /api/r/<id>.json, with its registry items and install commands`,
   `- One component: /api/components/<component>.json, with its checklist, states, ARIA pattern, and best implementations`,
   `- Agent skill: /api/skill/SKILL.md`,
-  `- Setup for each client: ${siteUrl("/agents")}`,
-  ``,
-  ...ruleList,
   ``,
   `Full data, too large for one context window:`,
   ``,
