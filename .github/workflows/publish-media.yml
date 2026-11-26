@@ -1,0 +1,61 @@
+name: Publish media to Cloudflare
+
+# R2 holds the master copy of the media (private buckets index-media and
+# mood-media). This job copies both buckets into the static-asset Workers
+# behind index-media.chele.bi and media.chele.bi. Static asset requests are
+# free. Each file must be 25 MiB or less: upload only files that fit.
+
+permissions:
+  contents: read
+
+on:
+  schedule:
+    - cron: '17 3 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: publish-media
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    name: Copy R2 into the media Workers
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      RCLONE_CONFIG_R2_TYPE: s3
+      RCLONE_CONFIG_R2_PROVIDER: Cloudflare
+      RCLONE_CONFIG_R2_ENDPOINT: https://${{ secrets.CLOUDFLARE_ACCOUNT_ID }}.r2.cloudflarestorage.com
+      RCLONE_CONFIG_R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+      RCLONE_CONFIG_R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+    steps:
+      - uses: actions/checkout@v7.0.1
+
+      - name: Install rclone
+        run: sudo apt-get update -q && sudo apt-get install -y -q rclone
+
+      - name: Copy the buckets
+        run: |
+          rclone sync r2:index-media/site workers/index-media/public --fast-list --transfers 32 --checkers 32 --max-size 25M
+          rclone sync r2:mood-media workers/mood-media/public --fast-list --transfers 32 --checkers 32 --max-size 25M
+          cp workers/_headers workers/index-media/public/_headers
+          cp workers/_headers workers/mood-media/public/_headers
+          du -sh workers/*/public
+
+      - name: Deploy index-media
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: workers/index-media
+          wranglerVersion: '4.168.0'
+          command: deploy
+
+      - name: Deploy mood-media
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: workers/mood-media
+          wranglerVersion: '4.168.0'
+          command: deploy

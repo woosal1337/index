@@ -40,7 +40,7 @@ The Studios section lists design studios and agencies by discipline, and the Por
 | Source data, edited by hand | `data/mood/boards.json`, `data/mood/tools.json` |
 | Generated payload, committed | `public/mood/data/mood.json` |
 | Scripts | `scripts/mood/` |
-| Media, not in Git | `public/media/` locally, the `moodboard-media` bucket behind `media.chele.bi` |
+| Media, not in Git | `public/media/` locally, the private R2 bucket `mood-media`, published to `media.chele.bi` |
 
 Rules for changes:
 
@@ -56,7 +56,7 @@ Commands:
 - `npm run mood:data` rebuilds `public/mood/data/mood.json` from `data/mood/boards.json`. It needs every media file in `public/media/`, or in a bucket listing that `MOOD_MEDIA_LIST` names (one path under `media/` on each line, for example from `rclone lsf -R --files-only`). Commit the result. `npm run build` does not run it, because CI has no media files.
 - `npm run mood:ingest` adds the files in `media/incoming/`. It needs `cwebp` and `ffmpeg`.
 - `npm run mood:tool <url>` adds a site to the tools rail.
-- `npm run mood:media:push` copies `public/media/` to the bucket with `rclone`. It needs the tailnet and the `S3_ENDPOINT`, `S3_ACCESS_KEY_ID`, and `S3_SECRET_ACCESS_KEY` variables.
+- `npm run mood:media:push` copies `public/media/` to the R2 bucket `mood-media` with `rclone`. It needs `S3_ENDPOINT` (`https://<account id>.r2.cloudflarestorage.com`), `S3_ACCESS_KEY_ID`, and `S3_SECRET_ACCESS_KEY` with R2 write access. Each file must be 24 MiB or less. The workflow `publish-media` then copies the bucket to `media.chele.bi`: it runs each day, or start it by hand.
 - `npm run mood:sheets`, `npm run mood:remove`, and `npm run mood:import` make contact sheets, remove media, and import posts.
 
 The plane reads media from `https://media.chele.bi`. To use local files in `public/media/`, run `NEXT_PUBLIC_MEDIA_BASE= npm run dev`.
@@ -104,6 +104,10 @@ Each site screenshot, template preview, and studio, portfolio, or artist preview
 `node scripts/eval-screens.mjs` scores screen search against `eval/screens.json` and `eval/screen-qrels.json`. It compares the Phase 3 tags alone, the image vectors alone, and both together.
 
 `node scripts/embed.mjs <model>` embeds the catalog and the eval queries into `.cache/embed/` first. For `gemma2`, it embeds every document in `scripts/lib/content.mjs`: each record, its preview image, its templates with their previews, its registry items, and each site screen, with text and image in one vector space. It keeps finished vectors and saves every minute, so a stopped run continues where it stopped. `--kinds` limits the run to some document kinds, `--part 0/2` and `--part 1/2` split it between two processes, `EMBED_DIR` sets the output folder, and `EMBED_DEVICE=cuda` uses an NVIDIA GPU. Add `--queries` to embed only the queries.
+
+## Media hosting
+
+`index-media.chele.bi` and `media.chele.bi` are Cloudflare Workers with static files only, so a request costs nothing. The private R2 buckets `index-media` (folder `site/`) and `mood-media` hold the master copy. The workflow `.github/workflows/publish-media.yml` copies both buckets into the Workers each day, and on a manual start. Cloudflare refuses a static file over 25 MiB, so compress a video before you upload it.
 
 ## Search server for agents
 
